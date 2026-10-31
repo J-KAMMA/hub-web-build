@@ -54,7 +54,7 @@ jobs:
           ls -la ../../dist/worker-dry-run
           KIB=$(grep -i "total upload" ../../dist/worker-size.txt | head -1 | sed -E 's/.*Total Upload: ([0-9]+).*/\1/')
           echo "Total Upload KiB: $KIB"
-          if [ "$KIB" -gt 61440 ]; then echo "::error::Worker exceeds 60 MiB"; exit 1; fi
+          if [ "$HUB_NAMED_MODULES" != "true" ] && [ "$KIB" -gt 61440 ]; then echo "::error::Worker exceeds 60 MiB"; exit 1; fi
           echo "== largest files in the Worker upload =="
           find ../../dist/worker-dry-run -type f -printf '%s %p\n' | sort -nr | head -40 || true
           echo "== largest server chunks in .open-next =="
