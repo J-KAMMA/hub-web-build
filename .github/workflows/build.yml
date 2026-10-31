@@ -1,4 +1,4 @@
-name: Hub web build
+﻿name: Hub web build
 
 # Builds the Hub web app for Cloudflare (OpenNext) on a GitHub-hosted runner
 # because the developer PC (Windows) cannot run the OpenNext bundler.
@@ -40,12 +40,17 @@ jobs:
           set -euo pipefail
           mkdir -p dist
           cd apps/hub
-          npx wrangler deploy --dry-run --config wrangler.production.jsonc --outdir ../../dist/worker-dry-run 2>&1 | tee ../../dist/worker-size.txt
+          npx wrangler deploy --dry-run --upload-source-maps --config wrangler.production.jsonc --outdir ../../dist/worker-dry-run 2>&1 | tee ../../dist/worker-size.txt
           grep -i "total upload" ../../dist/worker-size.txt
+          node ../../.github/scripts/worker-composition.mjs ../../dist/worker-dry-run/custom-worker.js.map || true
+          ls -la ../../dist/worker-dry-run
+          KIB=$(grep -i "total upload" ../../dist/worker-size.txt | head -1 | sed -E 's/.*Total Upload: ([0-9]+).*/\1/')
+          echo "Total Upload KiB: $KIB"
+          if [ "$KIB" -gt 61440 ]; then echo "::error::Worker exceeds 60 MiB"; exit 1; fi
           echo "== largest files in the Worker upload =="
-          find ../../dist/worker-dry-run -type f -printf '%s %p\n' | sort -nr | head -40
+          find ../../dist/worker-dry-run -type f -printf '%s %p\n' | sort -nr | head -40 || true
           echo "== largest server chunks in .open-next =="
-          find .open-next -type f \( -name '*.js' -o -name '*.mjs' -o -name '*.wasm' \) -printf '%s %p\n' | sort -nr | head -60
+          find .open-next -type f \( -name '*.js' -o -name '*.mjs' -o -name '*.wasm' \) -printf '%s %p\n' | sort -nr | head -60 || true
       - name: Package and hash OpenNext output
         run: |
           set -euo pipefail
