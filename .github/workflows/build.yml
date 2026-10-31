@@ -35,6 +35,13 @@ jobs:
         run: npm run build:hub
       - name: OpenNext Cloudflare build (build:hub:cloudflare)
         run: npm run build:hub:cloudflare
+      - name: Measure Worker upload size (dry run, no credentials)
+        run: |
+          set -euo pipefail
+          mkdir -p dist
+          cd apps/hub
+          npx wrangler deploy --dry-run --config wrangler.production.jsonc --outdir ../../dist/worker-dry-run 2>&1 | tee ../../dist/worker-size.txt
+          grep -i "total upload" ../../dist/worker-size.txt
       - name: Package and hash OpenNext output
         run: |
           set -euo pipefail

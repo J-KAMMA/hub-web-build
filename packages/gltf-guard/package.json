@@ -18,5 +18,6 @@
   },
   "bin": {
     "gltf-check": "./src/check.js"
-  }
+  },
+  "license": "AGPL-3.0-only"
 }
