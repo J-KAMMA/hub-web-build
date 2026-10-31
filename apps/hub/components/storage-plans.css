@@ -1,0 +1,289 @@
+/* 保存容量のメーター・帯・プラン（PLAN.md §6）。色は意味の名前のトークンだけを使う（color-system.css）。 */
+
+.account-storage-meter {
+  display: grid;
+  gap: 12px;
+  min-width: 0;
+}
+
+.account-storage-meter > header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.account-storage-meter > header span {
+  color: var(--muted);
+  font-size: 0.8125rem;
+  font-weight: 700;
+}
+
+.account-storage-meter > header strong {
+  display: block;
+  color: var(--text);
+  font-size: clamp(1.2rem, 3vw, 1.65rem);
+  font-weight: 800;
+  overflow-wrap: anywhere;
+}
+
+.account-storage-meter__bar {
+  height: 12px;
+  overflow: hidden;
+  border-radius: 6px;
+  background: var(--surface-sunken);
+}
+
+.account-storage-meter__bar > i {
+  display: block;
+  height: 100%;
+  background: var(--emphasis);
+}
+
+.account-storage-meter[data-level="near"] .account-storage-meter__bar > i {
+  background: var(--warning);
+}
+
+.account-storage-meter[data-level="full"] .account-storage-meter__bar > i {
+  background: var(--danger);
+}
+
+.account-storage-meter__banner {
+  margin: 0;
+  padding: 10px 12px;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  line-height: 1.6;
+}
+
+.account-storage-meter__banner[data-level="normal"] {
+  padding: 0;
+  color: var(--muted);
+}
+
+.account-storage-meter__banner[data-level="near"] {
+  background: var(--warning-bg);
+  color: var(--warning-text);
+}
+
+.account-storage-meter__banner[data-level="full"] {
+  background: var(--danger-bg);
+  color: var(--danger-text);
+}
+
+.account-storage-meter__services {
+  display: grid;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.account-storage-meter__services li {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding-top: 6px;
+  border-top: var(--divider);
+  color: var(--text);
+  font-size: 0.875rem;
+}
+
+.account-storage-meter__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.account-storage-meter__actions button,
+.storage-plan button {
+  min-height: 40px;
+  padding: 0 14px;
+  border: var(--divider);
+  border-radius: 8px;
+  background: var(--surface-raised);
+  color: var(--text);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.account-storage-meter__state {
+  display: grid;
+  gap: 8px;
+  padding: 12px;
+  border-radius: 8px;
+  background: var(--danger-bg);
+  color: var(--danger-text);
+}
+
+.storage-plan {
+  display: grid;
+  gap: 14px;
+  min-width: 0;
+  padding: 16px;
+  border: var(--divider);
+  border-radius: 12px;
+  background: var(--surface-raised);
+  color: var(--text);
+}
+
+.storage-plan > header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.storage-plan h3,
+.storage-plan h4 {
+  margin: 0;
+}
+
+.storage-plan__cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.storage-plan__cards button {
+  display: grid;
+  gap: 4px;
+  width: 100%;
+  height: 100%;
+  padding: 12px;
+  text-align: left;
+}
+
+.storage-plan__cards button[data-selected="true"] {
+  border-color: var(--emphasis);
+  box-shadow: inset 0 0 0 1px var(--emphasis);
+}
+
+.storage-plan__tokens {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+  padding: 10px 12px;
+  border: var(--divider);
+  border-radius: 8px;
+}
+
+.storage-plan__tokens small,
+.storage-plan__note,
+.storage-plan__what {
+  color: var(--muted);
+  font-size: 0.8125rem;
+  line-height: 1.6;
+}
+
+.storage-plan__age {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.storage-plan button.storage-plan__primary {
+  background: var(--emphasis);
+  border-color: var(--emphasis);
+  color: var(--action-text);
+}
+
+.storage-plan button.storage-plan__primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.storage-plan__confirm dl {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+}
+
+.storage-plan__confirm dl > div {
+  display: grid;
+  grid-template-columns: 8rem minmax(0, 1fr);
+  gap: 8px;
+  padding-top: 8px;
+  border-top: var(--divider);
+}
+
+.storage-plan__confirm dt {
+  color: var(--muted);
+  font-size: 0.8125rem;
+}
+
+.storage-plan__confirm dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.storage-plan__done {
+  display: grid;
+  gap: 8px;
+  padding: 12px;
+  border-radius: 8px;
+  background: var(--positive-bg);
+  color: var(--positive-text);
+}
+
+.storage-plan__error {
+  color: var(--danger-text);
+}
+
+@media (max-width: 560px) {
+  .storage-plan__cards {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .storage-plan__confirm dl > div {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.storage-autopay__status {
+  display: grid;
+  gap: 8px;
+  padding: 12px;
+  border-radius: 8px;
+  border: var(--divider);
+
+}
+
+.storage-autopay__status p {
+  margin: 0;
+}
+
+.storage-autopay__status span {
+  color: var(--muted);
+}
+
+.storage-autopay__explain {
+  display: grid;
+  gap: 4px;
+  margin: 0;
+  padding-left: 1.2em;
+  color: var(--muted);
+  font-size: 0.8125rem;
+}
+
+.storage-autopay__revoke {
+  display: grid;
+  gap: 8px;
+}
+
+.storage-autopay__revoke dl {
+  display: grid;
+  gap: 4px;
+  margin: 0;
+}
+
+.storage-autopay__revoke dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}

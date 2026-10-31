@@ -1,0 +1,744 @@
+/*
+ * 記事を書く画面（2026-10-14 作り直し）。中央1列。上の帯（保存の状態・公開設定・
+ * プレビュー・公開する）は画面の上に貼り付けて、本文を書いている間も消えない。
+ * 色は意味トークンだけを使う。
+ */
+.hub-composer {
+  box-sizing: border-box;
+  width: min(100%, 880px);
+  margin: 0 auto;
+  padding: 0 16px 40px;
+  color: var(--text);
+}
+
+.hub-composer__bar {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 12px;
+  height: var(--composer-bar-h);
+  box-sizing: border-box;
+  padding: 0;
+  border-bottom: var(--divider);
+  background: var(--bg);
+}
+
+.hub-composer__status {
+  margin: 0;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--muted);
+  font-size: .75rem;
+}
+
+.hub-composer__status[data-state="error"] {
+  color: var(--danger-text);
+}
+
+.hub-composer__actions {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* 目立たない文字ボタン（枠なし）。 */
+.hub-composer__quiet {
+  display: inline-flex;
+  min-height: 36px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  border: 0;
+  border-radius: var(--apple-control-radius);
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-size: .8125rem;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.hub-composer__quiet:hover:not(:disabled) {
+  background: var(--interactive-hover);
+  color: var(--text);
+}
+
+.hub-composer__quiet[aria-pressed="true"],
+.hub-composer__quiet[aria-expanded="true"] {
+  background: var(--selected);
+  color: var(--text);
+}
+
+.hub-composer__quiet:disabled {
+  cursor: not-allowed;
+  opacity: 1;
+  color: var(--muted);
+}
+
+.hub-composer__overflow {
+  position: relative;
+  display: none;
+}
+
+.hub-composer__menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  z-index: 8;
+  display: grid;
+  min-width: 190px;
+  padding: 4px;
+  border: var(--divider);
+  border-radius: var(--apple-control-radius);
+  background: var(--surface-raised);
+}
+
+.hub-composer__menu :is(a, button) {
+  display: flex;
+  min-height: 40px;
+  align-items: center;
+  padding: 0 12px;
+  border: 0;
+  border-radius: var(--apple-control-radius);
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  font-size: .875rem;
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.hub-composer__menu :is(a, button):hover:not(:disabled) {
+  background: var(--interactive-hover);
+}
+
+.hub-composer__menu button:disabled {
+  color: var(--muted);
+  cursor: not-allowed;
+}
+
+.hub-composer__primary,
+.hub-composer__ghost {
+  display: inline-flex;
+  min-height: 36px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 16px;
+  border: var(--divider);
+  border-radius: var(--apple-control-radius);
+  font: inherit;
+  font-size: .8125rem;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.hub-composer__ghost {
+  background: var(--interactive);
+  color: var(--text);
+}
+
+.hub-composer__ghost:hover:not(:disabled) {
+  background: var(--interactive-hover);
+}
+
+.hub-composer__ghost[aria-pressed="true"],
+.hub-composer__ghost[aria-expanded="true"] {
+  background: var(--selected);
+}
+
+.hub-composer__ghost:disabled {
+  color: var(--muted);
+  cursor: not-allowed;
+}
+
+.hub-composer__danger {
+  color: var(--danger-text);
+}
+
+.hub-composer__primary {
+  border-color: transparent;
+  background: var(--action);
+  color: var(--action-text);
+}
+
+.hub-composer__primary:hover:not(:disabled) {
+  background: var(--action-hover);
+}
+
+/* 使えない主操作は不透明度で薄めず、中立トークンへ落とす（暗い面で沈まないように）。 */
+.hub-composer__primary:disabled {
+  border-color: var(--line);
+  background: var(--interactive);
+  color: var(--muted);
+  cursor: not-allowed;
+}
+
+.hub-composer :is(button, a, input, textarea):focus-visible {
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 1px;
+}
+
+/* 公開設定。帯の下に重ねて開き、本文の位置を動かさない。 */
+.hub-composer__settings {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  z-index: 6;
+  display: grid;
+  gap: 14px;
+  box-sizing: border-box;
+  width: min(440px, 100%);
+  max-height: min(70dvh, 620px);
+  overflow-y: auto;
+  padding: 16px;
+  border: var(--divider);
+  border-radius: var(--apple-control-radius);
+  background: var(--surface-raised);
+}
+
+.hub-composer__schedule {
+  display: grid;
+  gap: 8px;
+  padding-top: 12px;
+  border-top: var(--divider);
+}
+
+.hub-composer__schedule-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.hub-composer__notice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 12px 0 0;
+  padding: 10px 14px;
+  border: var(--divider);
+  border-radius: var(--apple-control-radius);
+  background: var(--surface-sunken);
+  color: var(--muted);
+  font-size: .78rem;
+}
+
+.hub-composer__notice--done {
+  background: var(--emphasis-soft);
+  color: var(--text);
+}
+
+.hub-composer__notice :is(a, button) {
+  flex: 0 0 auto;
+  display: inline-flex;
+  min-height: 32px;
+  align-items: center;
+  padding: 0 12px;
+  border: var(--divider);
+  border-radius: var(--apple-control-radius);
+  background: var(--interactive);
+  color: var(--text);
+  font: inherit;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.hub-composer__field {
+  display: grid;
+  gap: 6px;
+}
+
+.hub-composer__field > span {
+  color: var(--muted);
+  font-size: .75rem;
+  font-weight: 700;
+}
+
+.hub-composer__field :is(input, textarea) {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 9px 12px;
+  border: var(--divider);
+  border-radius: var(--apple-control-radius);
+  background: var(--field);
+  color: var(--text);
+  font: inherit;
+  font-size: .875rem;
+  line-height: 1.7;
+}
+
+.hub-composer__field textarea {
+  resize: vertical;
+}
+
+.hub-composer__count {
+  justify-self: end;
+  margin-left: auto;
+  color: var(--muted);
+  font-size: .6875rem;
+}
+
+.hub-composer__count--over {
+  color: var(--danger-text);
+}
+
+.hub-composer__tags {
+  display: flex;
+  margin: 2px 0 0;
+  padding: 0;
+  flex-wrap: wrap;
+  gap: 6px;
+  list-style: none;
+}
+
+.hub-composer__tags li,
+.hub-composer__preview-tags li {
+  padding: 3px 9px;
+  border: var(--divider);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: .6875rem;
+  font-weight: 700;
+}
+
+.hub-composer__choices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.hub-composer__choices legend {
+  width: 100%;
+  padding: 0 0 6px;
+  color: var(--muted);
+  font-size: .75rem;
+  font-weight: 700;
+}
+
+.hub-composer__choice {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border: var(--divider);
+  border-radius: var(--apple-control-radius);
+  background: var(--surface-raised);
+  font-size: .8125rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.hub-composer__choice:hover {
+  background: var(--interactive-hover);
+}
+
+.hub-composer__choice--on {
+  background: var(--selected);
+}
+
+.hub-composer__choice input {
+  margin: 0;
+  accent-color: var(--accent);
+}
+
+.hub-composer__requirement {
+  margin: 0;
+  color: var(--muted);
+  font-size: .75rem;
+}
+
+/* 編集面。題・本文は枠を持たない書き面。本文は読む画面と同じ字の大きさ・行間・幅。 */
+.hub-composer {
+  --composer-bar-h: 57px;
+  --composer-measure: 680px;
+}
+
+.hub-composer__editor {
+  display: grid;
+  gap: 8px;
+  padding-top: 20px;
+  justify-items: center;
+}
+
+.hub-composer__editor > * {
+  box-sizing: border-box;
+  width: min(100%, var(--composer-measure));
+}
+
+.hub-composer__editor > .hub-composer__cover {
+  width: min(100%, 880px);
+}
+
+.hub-composer__editor > .hub-composer__cover:not(:has(img)) {
+  width: min(100%, var(--composer-measure));
+  margin-left: -10px;
+}
+
+.hub-composer__editor > .hub-composer__cover {
+  display: grid;
+  gap: 8px;
+  justify-items: start;
+}
+
+.hub-composer__cover img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  border-radius: var(--apple-control-radius);
+  background: var(--surface-sunken);
+  object-fit: cover;
+}
+
+.hub-composer__cover-actions {
+  display: flex;
+  gap: 4px;
+}
+
+.hub-composer .hub-composer__editor > textarea.hub-composer__title,
+.hub-composer .hub-composer__editor > textarea.hub-composer__body {
+  display: block;
+  min-height: 0;
+  box-shadow: none;
+  background: transparent !important;
+  font-weight: 400;
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  resize: none;
+  overflow: hidden;
+  outline: none;
+  overflow-wrap: anywhere;
+}
+
+.hub-composer .hub-composer__editor > textarea.hub-composer__title {
+  padding: 8px 0;
+  font-size: clamp(1.625rem, 1.2rem + 1.6vw, 2rem);
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.hub-composer .hub-composer__editor > textarea.hub-composer__body {
+  min-height: max(320px, calc(100dvh - 360px));
+  padding: 8px 0 96px;
+  font-size: 1.0625rem;
+  line-height: 1.9;
+  line-break: strict;
+}
+
+@media (min-width: 720px) {
+  .hub-composer__body { font-size: 1.125rem; }
+}
+
+.hub-composer__title::placeholder,
+.hub-composer__body::placeholder {
+  color: var(--muted);
+}
+
+/* 書き面の焦点は太い輪にしない。本文の左に細い線を出すだけ。 */
+.hub-composer .hub-composer__editor > textarea:focus-visible {
+  outline: none;
+}
+
+/* color-system.css が input/textarea の焦点に太い輪を !important で付けるので、書き面では打ち消す。 */
+.hub-composer .hub-composer__editor > textarea:is(.hub-composer__title, .hub-composer__body),
+.hub-composer .hub-composer__editor > textarea:is(.hub-composer__title, .hub-composer__body):focus {
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.hub-composer .hub-composer__editor > textarea.hub-composer__body:focus {
+  box-shadow: -14px 0 0 -12px var(--line) !important;
+}
+
+.hub-composer__toolbar {
+  position: sticky;
+  top: var(--composer-bar-h);
+  z-index: 4;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2px;
+  padding: 6px 0;
+  border-bottom: var(--divider);
+  background: var(--bg);
+}
+
+.hub-composer__toolbar button,
+.hub-composer__icon {
+  display: inline-flex;
+  width: 36px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 0;
+  border-radius: var(--apple-control-radius);
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.hub-composer__toolbar button:hover:not(:disabled),
+.hub-composer__icon:hover {
+  background: var(--interactive-hover);
+}
+
+.hub-composer__toolbar button:disabled {
+  color: var(--muted);
+  cursor: not-allowed;
+}
+
+.hub-composer__toolbar svg {
+  width: 18px;
+  height: 18px;
+}
+
+.hub-composer__toolbar .hub-composer__count {
+  padding-right: 4px;
+}
+
+.hub-composer__ask {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.hub-composer__ask input {
+  flex: 1 1 220px;
+  min-height: 36px;
+  box-sizing: border-box;
+  padding: 0 12px;
+  border: var(--divider);
+  border-radius: var(--apple-control-radius);
+  background: var(--field);
+  color: var(--text);
+  font: inherit;
+  font-size: .875rem;
+}
+
+/* プレビュー。読む画面（v2-article.css）と同じ見た目。 */
+.hub-composer__reader {
+  padding-block: 24px 0;
+}
+
+.hub-composer__preview {
+  width: min(100%, var(--composer-measure));
+  margin: 0 auto;
+}
+
+.hub-composer__preview-cover {
+  display: block;
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  margin-bottom: 20px;
+  border-radius: var(--apple-control-radius);
+  object-fit: cover;
+}
+
+.hub-composer__preview-kicker {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: .6875rem;
+  font-weight: 700;
+}
+
+.hub-composer__preview .v2-reader__title {
+  margin: 0;
+  color: var(--text);
+  font-size: clamp(1.625rem, 1.2rem + 1.6vw, 2.25rem);
+  font-weight: 700;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+.hub-composer__preview-tags {
+  display: flex;
+  margin: 12px 0 0;
+  padding: 0;
+  flex-wrap: wrap;
+  gap: 6px;
+  list-style: none;
+}
+
+.hub-composer__preview-body {
+  margin-top: 24px;
+  padding-bottom: 64px;
+}
+
+.hub-composer__preview-body p { white-space: pre-wrap; }
+
+.hub-composer__preview-body img {
+  max-width: 100%;
+  height: auto;
+}
+
+.hub-composer__preview-empty {
+  margin: 20px 0 0;
+  color: var(--muted);
+  font-size: .875rem;
+}
+
+/* 下書き・自分の記事の一覧 */
+.hub-composer__panel-title {
+  margin: 20px 0 8px;
+  color: var(--muted);
+  font-size: .8125rem;
+  font-weight: 700;
+}
+
+/* v2 の列の中では、中央に寄せず列の縁いっぱいに広げる。 */
+.hub-composer.hub-drafts {
+  width: 100%;
+  padding-inline: 0;
+}
+
+.hub-drafts__head {
+  padding: 14px 0 0;
+}
+
+.hub-drafts__list {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hub-drafts__list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  border: var(--divider);
+  border-radius: var(--apple-control-radius);
+  background: var(--surface-raised);
+}
+
+.hub-drafts__list li > a:first-child {
+  display: grid;
+  flex: 1 1 auto;
+  min-width: 0;
+  gap: 2px;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.hub-drafts__list b {
+  overflow: hidden;
+  font-size: .9375rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.hub-drafts__list small {
+  color: var(--muted);
+  font-size: .75rem;
+}
+
+@media (max-width: 720px) {
+  .hub-composer {
+    padding: 0 16px 32px;
+  }
+
+  .hub-composer__wide {
+    display: none;
+  }
+
+  .hub-composer__toolbar {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+
+  .hub-composer__toolbar button {
+    flex: 0 0 auto;
+    width: 34px;
+  }
+
+  .hub-composer__overflow {
+    display: block;
+  }
+
+  .hub-composer__actions {
+    flex: 0 0 auto;
+  }
+
+  .hub-composer__settings {
+    position: fixed;
+    top: auto;
+    right: 8px;
+    bottom: 72px;
+    left: 8px;
+    width: auto;
+    max-height: calc(100dvh - 160px);
+  }
+}
+
+/* 鍵の手前に見せる部分 */
+.hub-composer__preface {
+  display: grid;
+  gap: var(--v2-space-2, 8px);
+}
+.hub-composer__preface > span { color: var(--muted); }
+.hub-composer__preface > textarea {
+  min-height: 8lh;
+  padding: 8px 0;
+  border: 0;
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  line-height: 1.9;
+  resize: vertical;
+  outline: none;
+  overflow-wrap: anywhere;
+}
+.hub-composer__lockline {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--muted);
+}
+.hub-composer__lockline::before,
+.hub-composer__lockline::after {
+  content: "";
+  flex: 1;
+  border-top: var(--divider);
+}
+
+/* v2 の列の中: 見出しの行に操作を並べ、本文は読む測りの中央に置く。 */
+.v2__main .hub-composer {
+  width: 100%;
+  max-width: none;
+  padding-inline: 0;
+  --composer-bar-h: 52px;
+}
+
+.v2__main .hub-composer__bar {
+  width: fit-content;
+  margin: -68px 0 0 auto;
+  border-bottom: 0;
+  background: transparent;
+}
+
+.v2__main .hub-composer__editor {
+  width: min(100%, var(--composer-measure));
+  margin-inline: auto;
+}

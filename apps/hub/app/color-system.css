@@ -1,0 +1,1532 @@
+/*
+ * Canonical Hub color tokens.
+ * Keep component CSS semantic: use these roles instead of fixed neutral colors.
+ * The normative usage rules live in docs/color-system.md.
+ */
+:root {
+  /*
+   * The overlay scrim. It used to be declared on .requests-market — a dead
+   * component — while five live backdrops (the drawer, the composer, the
+   * column overlays) read it from outside that scope and silently resolved
+   * to nothing. Deleting the dead file is what surfaced it: the token test
+   * failed, and the fix is the definition these backdrops always assumed.
+   */
+  --scrim: color-mix(in srgb, var(--surface-sunken) 85%, transparent);
+  /* Payment surfaces stay light so QR codes, addresses, and safety states remain consistent. */
+  --wallet-canvas: #f5f5f5;
+  --wallet-panel: #ffffff;
+  --wallet-sunken: #f5f5f5;
+  --wallet-interactive: #f5f5f5;
+  --wallet-interactive-hover: #e8e8e8;
+  --wallet-line: #d2d2d2;
+  --wallet-text: #1d1d1d;
+  --wallet-muted: #6e6e6e;
+  --wallet-action: #0071e3;
+  --wallet-action-hover: #0068d1;
+  --wallet-action-text: #ffffff;
+  --wallet-emphasis-soft: #eaf3fc;
+  --wallet-focus-ring: #3a3a3c;
+  --wallet-positive-bg: #edf7f0;
+  --wallet-positive-text: #26643a;
+  --wallet-danger-bg: #fff0f1;
+  --wallet-danger-text: #a43743;
+}
+
+.wallet-light-surface {
+  color-scheme: light;
+  --bg: var(--wallet-canvas);
+  --bg-soft: var(--wallet-canvas);
+  --panel: var(--wallet-panel);
+  --surface-raised: var(--wallet-panel);
+  --surface-sunken: var(--wallet-sunken);
+  --content-surface: var(--wallet-panel);
+  --interactive: var(--wallet-interactive);
+  --interactive-hover: var(--wallet-interactive-hover);
+  --line: var(--wallet-line);
+  --divider: 1px solid var(--wallet-line);
+  --text: var(--wallet-text);
+  --muted: var(--wallet-muted);
+  --action: var(--wallet-action);
+  --action-hover: var(--wallet-action-hover);
+  --action-text: var(--wallet-action-text);
+  --emphasis: var(--wallet-action);
+  --emphasis-soft: var(--wallet-emphasis-soft);
+  --focus-ring: var(--wallet-focus-ring);
+  --positive-bg: var(--wallet-positive-bg);
+  --positive-text: var(--wallet-positive-text);
+  --danger-bg: var(--wallet-danger-bg);
+  --danger-text: var(--wallet-danger-text);
+  min-height: 100%;
+  background: var(--wallet-canvas);
+  color: var(--wallet-text);
+}
+
+html[data-theme="light"] {
+  color-scheme: light;
+  /* Apple寄りの地——apple.com と同じ #f5f5f7 のグレーに白い面を置く。 */
+  --bg: #f5f5f7;
+  --bg-soft: #ececef;
+  --panel: #ffffff;
+  --panel-strong: #ececee;
+  --line: rgba(0, 0, 0, .1);
+  --line-strong: rgba(0, 0, 0, .3);
+  /* 入力欄・副ボタン・選択トラックの縁。地・面に対して3:1以上（WCAG 1.4.11）。区切り線には使わない。 */
+  --control-border: #76767b;
+  --text-meta: #66666b;
+  --divider: 1px solid var(--line);
+  --divider-strong: 1px solid var(--line-strong);
+  --text: #1d1d1f;
+  --muted: #606064;
+  --accent: #1d1d1f;
+  --accent-strong: #000000;
+  --action: #0071e3;
+  --action-hover: #0077ed;
+  --action-text: #ffffff;
+  --emphasis: var(--action);
+  --emphasis-soft: color-mix(in srgb, var(--action) 12%, var(--panel));
+  --reaction-like: #f53844;
+  --reaction-like-soft: #fff0f1;
+  --link-color: #0066cc;
+  --name-color: #1d1d1f;
+  --surface-raised: #ffffff;
+  --surface-sunken: #ececee;
+  --content-surface: #ffffff;
+  --content-surface-hover: #f5f5f7;
+  --content-nested: #f0f0f3;
+  --interactive: #e8e8ed;
+  --interactive-hover: #dedee3;
+  --selected: #e8e8ed;
+  --focus-ring: #3a3a3c;
+  --positive-bg: #edf7f0;
+  --positive-text: #26643a;
+  --warning-bg: #fff7df;
+  --warning-text: #745719;
+  --danger-bg: #fff0f1;
+  --danger-text: #a43743;
+  --shadow: none;
+  /* Paper-first content roles. Persistent reading surfaces use these roles. */
+  --text-secondary: #606064;
+  --ambient-canvas: #f5f5f7;
+  --ambient-canvas-glow: rgba(255, 255, 255, .9);
+  --ambient-panel: rgba(255, 255, 255, .82);
+  --ambient-panel-solid: #ffffff;
+  --ambient-border: rgba(29, 29, 31, .12);
+  --ambient-shadow: none;
+  --ambient-shadow-hover: none;
+  --media-app-bg: #090909;
+  --media-app-panel: #141414;
+  --media-app-text: #f8f8f8;
+  --media-app-muted: #c1c1c1;
+  --encyclopedia-bg: #ffffff;
+  --encyclopedia-panel: #ffffff;
+  --encyclopedia-subtle: #f9f9f9;
+  --encyclopedia-border: #a8a8a8;
+  --encyclopedia-text: #212121;
+  --encyclopedia-muted: #585858;
+  --encyclopedia-link: #3366cc;
+  --vault-canvas: #ffffff;
+  --vault-surface: #ffffff;
+  --vault-surface-raised: #f1f1f1;
+  --vault-surface-hover: #f5f5f5;
+  --vault-line: #e2e2e2;
+  --vault-line-strong: #cacaca;
+  --vault-text: #181818;
+  --vault-muted: #6a6a6a;
+  --vault-interactive: #f1f1f1;
+  --vault-interactive-hover: #e8e8e8;
+  --vault-selected: #e4e4e4;
+  --vault-emphasis-soft: #e4e4e8;
+  --vault-accent: #181818;
+  --vault-accent-hover: #090909;
+  --vault-accent-text: #ffffff;
+  --vault-link: #181818;
+  --vault-reading-bg: #ffffff;
+  --vault-reading-text: #181818;
+  --vault-reading-muted: #6a6a6a;
+  --vault-reading-line: #e2e2e2;
+  --vault-reading-link: #181818;
+  /*
+   * v2 materials (docs/color-system.md, SPEC 2.6). Top bars, the bottom tab bar and
+   * floating sheets may be translucent; the page, columns and reading surfaces stay
+   * opaque. Every translucent role has a solid twin for browsers without
+   * backdrop-filter and for prefers-reduced-transparency.
+   */
+  --material-bar: color-mix(in srgb, var(--bg) 72%, transparent);
+  --material-bar-solid: var(--bg);
+  --material-sheet: color-mix(in srgb, var(--surface-raised) 82%, transparent);
+  --material-sheet-solid: var(--surface-raised);
+  /* Badges over artwork (duration, live) do not change with the theme. */
+  --media-badge-bg: color-mix(in srgb, var(--media-app-bg) 78%, transparent);
+  --media-badge-text: var(--media-app-text);
+  /* Inner hairline that keeps white artwork from dissolving into the page. */
+  --media-outline: color-mix(in srgb, var(--text) 8%, transparent);
+  /* Height for menus/popovers (1) and dialogs/sheets/mini player (2). */
+  --elevation-1: 0 1px 2px color-mix(in srgb, var(--text) 8%, transparent), 0 6px 16px color-mix(in srgb, var(--text) 8%, transparent);
+  --elevation-2: 0 2px 6px color-mix(in srgb, var(--text) 10%, transparent), 0 16px 40px color-mix(in srgb, var(--text) 14%, transparent);
+  background: var(--bg);
+}
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+  /* iOS のダーク——地は純黒、面は #1c1c1e で一段浮かせる。 */
+  --bg: #000000;
+  --bg-soft: #000000;
+  --panel: #1c1c1e;
+  --panel-strong: #3a3a3c;
+  --line: rgba(255, 255, 255, .14);
+  --line-strong: #636366;
+  --control-border: #9a9a9f;
+  --text-meta: #98989d;
+  --divider: 1px solid var(--line);
+  --divider-strong: 1px solid var(--line-strong);
+  --text: #f5f5f7;
+  --muted: #a1a1a6;
+  --accent: #f5f5f7;
+  --accent-strong: #ffffff;
+  /* apple.com のボタン青を地に——iOS の #0a84ff は白文字で 3.65:1 止まりなので hover に回す。 */
+  --action: #0071e3;
+  --action-hover: #0a84ff;
+  --action-text: #ffffff;
+  --ambient-canvas: #000000;
+  --ambient-canvas-glow: rgba(255, 255, 255, .04);
+  --ambient-panel: rgba(28, 28, 30, .86);
+  --ambient-panel-solid: #1c1c1e;
+  --ambient-border: rgba(255, 255, 255, .14);
+  --ambient-shadow: none;
+  --ambient-shadow-hover: none;
+  --emphasis: var(--action);
+  --emphasis-soft: color-mix(in srgb, var(--action) 24%, var(--panel));
+  --reaction-like: #ff453a;
+  --reaction-like-soft: #3b2022;
+  --link-color: #2997ff;
+  --name-color: #f5f5f7;
+  --surface-raised: #2c2c2e;
+  --media-app-bg: #090909;
+  --media-app-panel: #141414;
+  --media-app-text: #f8f8f8;
+  --media-app-muted: #c1c1c1;
+  --encyclopedia-bg: #141414;
+  --encyclopedia-panel: #141414;
+  --encyclopedia-subtle: #1c1c1c;
+  --encyclopedia-border: #585858;
+  --encyclopedia-text: #ececec;
+  --encyclopedia-muted: #a8a8a8;
+  --encyclopedia-link: #6ea6ff;
+  --surface-sunken: #161617;
+  --content-surface: #1c1c1e;
+  --content-surface-hover: #2c2c2e;
+  --content-nested: #2c2c2e;
+  --interactive: #2c2c2e;
+  --interactive-hover: #3a3a3c;
+  --selected: #2c2c2e;
+  --focus-ring: #d1d1d6;
+  --positive-bg: #203429;
+  --positive-text: #9bdfad;
+  --warning-bg: #37301f;
+  --warning-text: #ead084;
+  --danger-bg: #3b252b;
+  --danger-text: #f3a8b1;
+  --shadow: none;
+  /* Dark persistent surfaces share one uninterrupted black canvas. */
+  --text-secondary: #a1a1a6;
+  --vault-canvas: #000000;
+  --vault-surface: #080808;
+  --vault-surface-raised: #111111;
+  --vault-surface-hover: #0d0d0d;
+  --vault-line: #242424;
+  --vault-line-strong: #3a3a3a;
+  --vault-text: #f8f8f8;
+  --vault-muted: #c1c1c1;
+  --vault-interactive: #111111;
+  --vault-interactive-hover: #1a1a1a;
+  --vault-selected: #222222;
+  --vault-emphasis-soft: #222222;
+  --vault-accent: #f8f8f8;
+  --vault-accent-hover: #ffffff;
+  --vault-accent-text: #000000;
+  --vault-link: #f8f8f8;
+  --vault-reading-bg: #000000;
+  --vault-reading-text: #f8f8f8;
+  --vault-reading-muted: #c1c1c1;
+  --vault-reading-line: #242424;
+  --vault-reading-link: #f8f8f8;
+  /*
+   * v2 materials (docs/color-system.md, SPEC 2.6). Top bars, the bottom tab bar and
+   * floating sheets may be translucent; the page, columns and reading surfaces stay
+   * opaque. Every translucent role has a solid twin for browsers without
+   * backdrop-filter and for prefers-reduced-transparency.
+   */
+  --material-bar: color-mix(in srgb, var(--bg) 70%, transparent);
+  --material-bar-solid: var(--bg);
+  --material-sheet: color-mix(in srgb, var(--surface-raised) 80%, transparent);
+  --material-sheet-solid: var(--surface-raised);
+  /* Badges over artwork (duration, live) do not change with the theme. */
+  --media-badge-bg: color-mix(in srgb, var(--media-app-bg) 78%, transparent);
+  --media-badge-text: var(--media-app-text);
+  /* Inner hairline that keeps white artwork from dissolving into the page. */
+  --media-outline: color-mix(in srgb, var(--text) 12%, transparent);
+  /* Height for menus/popovers (1) and dialogs/sheets/mini player (2). Dark shows height with a hairline and surface lightness, not shadow. */
+  --elevation-1: 0 0 0 1px var(--line);
+  --elevation-2: 0 0 0 1px var(--line), 0 16px 40px color-mix(in srgb, var(--media-app-bg) 60%, transparent);
+  background: var(--bg);
+}
+
+/*
+ * Avatar tints (initial fallback only). Six fixed pairs: --avatar-N is the fill,
+ * --avatar-N-text the letter. Each pair keeps contrast of at least 4.5:1
+ * (lib/avatar-tint.test.ts). Not status colors; never use them for state.
+ */
+:root,
+html[data-theme="light"] {
+  --avatar-1: #e3efff; --avatar-1-text: #0a4a8f;
+  --avatar-2: #e1f4e8; --avatar-2-text: #17603a;
+  --avatar-3: #fdebd8; --avatar-3-text: #8a4a05;
+  --avatar-4: #f6e4f4; --avatar-4-text: #7a2a73;
+  --avatar-5: #fbe3e3; --avatar-5-text: #9a2b2b;
+  --avatar-6: #e6e6f7; --avatar-6-text: #43439a;
+}
+html[data-theme="dark"] {
+  --avatar-1: #1f3a5c; --avatar-1-text: #cfe3ff;
+  --avatar-2: #1d4630; --avatar-2-text: #c9efd8;
+  --avatar-3: #523515; --avatar-3-text: #fbdcb8;
+  --avatar-4: #4d2a4a; --avatar-4-text: #f5d3f1;
+  --avatar-5: #532424; --avatar-5-text: #fbd0d0;
+  --avatar-6: #333366; --avatar-6-text: #d6d6fa;
+}
+
+/*
+ * User accent preferences.
+ * These overrides affect interaction, emphasis and focus roles only.
+ * Status and safety colors remain semantic and cannot be personalized.
+ */
+html[data-theme][data-accent="purple"] {
+  --action: #8944ab;
+  --action-hover: #7c3d9b;
+  --link-color: #8944ab;
+  --emphasis-soft: color-mix(in srgb, var(--action) 12%, var(--bg));
+}
+
+html[data-theme="dark"][data-accent="purple"] { --link-color: #bf5af2; }
+
+html[data-theme][data-accent="pink"] {
+  --action: #d30f45;
+  --action-hover: #bb0d3d;
+  --link-color: #d30f45;
+  --emphasis-soft: color-mix(in srgb, var(--action) 12%, var(--bg));
+}
+
+html[data-theme="dark"][data-accent="pink"] { --link-color: #ff375f; }
+
+html[data-theme][data-accent="orange"] {
+  --action: #c93400;
+  --action-hover: #b82f00;
+  --link-color: #c93400;
+  --emphasis-soft: color-mix(in srgb, var(--action) 12%, var(--bg));
+}
+
+html[data-theme="dark"][data-accent="orange"] { --link-color: #ff9f0a; }
+
+html[data-theme][data-accent="green"] {
+  --action: #248a3d;
+  --action-hover: #207c37;
+  --link-color: #248a3d;
+  --emphasis-soft: color-mix(in srgb, var(--action) 12%, var(--bg));
+}
+
+html[data-theme="dark"][data-accent="green"] { --link-color: #30d158; }
+
+html[data-theme][data-accent="graphite"] {
+  --action: #55555a;
+  --action-hover: #49494e;
+  --link-color: #55555a;
+  --emphasis-soft: color-mix(in srgb, var(--action) 12%, var(--bg));
+}
+
+html[data-theme="dark"][data-accent="graphite"] { --link-color: #aeaeb2; }
+
+/*
+ * ゴールド（2026-10-16、旦那様の指定）。表示設定の「配色」で選ぶ任意のパレット。
+ * 地・面・文字・罫線は象牙色の中立に寄せ、金は強調（選択、主要操作、札、操作中のアイコン）だけに使う。
+ * 本文と区切り線には金を使わない。ライト／ダークの別は data-theme のまま、data-palette が値を差し替える。
+ * 強調色の設定（data-accent）より後に置き、同じ特異度で勝たせる。
+ */
+html[data-palette="gold-ivory"][data-theme="light"] {
+  --bg: #ede4d0;
+  --bg-soft: #e6dbc2;
+  --panel: #f2ebdb;
+  --panel-strong: #e6dbc2;
+  --line: #d8c9a8;
+  --line-strong: #8a7b58;
+  --control-border: #857654;
+  --text: #2a2216;
+  --muted: #54483a;
+  --text-secondary: #54483a;
+  --text-meta: #695d49;
+  --accent: #2a2216;
+  --accent-strong: #2a2216;
+  --action: #8f6a1c;
+  --action-hover: #7e5d16;
+  --action-text: #fbf6ea;
+  --link-color: #2a2216;
+  --name-color: #2a2216;
+  --surface-raised: #f2ebdb;
+  --surface-sunken: #e6dbc2;
+  --content-surface: #f2ebdb;
+  --content-surface-hover: #eae0c9;
+  --content-nested: #eae0c9;
+  --interactive: #eae0c9;
+  --interactive-hover: #e0d4b8;
+  --selected: #d9c496;
+  --selected-text: #3f2e08;
+  --chip-bg: #e2d3ae;
+  --chip-text: #4f3b08;
+  --chip-selected-bg: #2a2216;
+  --chip-selected-text: #f2ebdb;
+  --ambient-canvas: #ede4d0;
+  --ambient-canvas-glow: transparent;
+  --ambient-panel: #f2ebdb;
+  --ambient-panel-solid: #f2ebdb;
+  --ambient-border: #d8c9a8;
+  --encyclopedia-bg: #f2ebdb;
+  --encyclopedia-panel: #f2ebdb;
+  --encyclopedia-subtle: #eae0c9;
+  --encyclopedia-border: #8a7b58;
+  --encyclopedia-text: #2a2216;
+  --encyclopedia-muted: #54483a;
+}
+
+html[data-palette="gold-ivory"][data-theme="dark"] {
+  --bg: #0e0c09;
+  --bg-soft: #191612;
+  --panel: #191612;
+  --panel-strong: #221e17;
+  --line: #332b1d;
+  --line-strong: #817559;
+  --control-border: #7a6d50;
+  --text: #f1e6c8;
+  --muted: #b9a77a;
+  --text-secondary: #b9a77a;
+  --text-meta: #9c8e6f;
+  --accent: #f1e6c8;
+  --accent-strong: #f1e6c8;
+  --action: #d9b44a;
+  --action-hover: #e8c45c;
+  --action-text: #1a1408;
+  --link-color: #f1e6c8;
+  --name-color: #f1e6c8;
+  --surface-raised: #221e17;
+  --surface-sunken: #0e0c09;
+  --content-surface: #191612;
+  --content-surface-hover: #221e17;
+  --content-nested: #221e17;
+  --interactive: #221e17;
+  --interactive-hover: #332b1d;
+  --selected: #342c1a;
+  --selected-text: #d9b44a;
+  --chip-bg: #221e17;
+  --chip-text: #d9b44a;
+  --chip-selected-bg: #f1e6c8;
+  --chip-selected-text: #0e0c09;
+  --ambient-canvas: #0e0c09;
+  --ambient-canvas-glow: transparent;
+  --ambient-panel: #191612;
+  --ambient-panel-solid: #191612;
+  --ambient-border: #332b1d;
+  --encyclopedia-bg: #191612;
+  --encyclopedia-panel: #191612;
+  --encyclopedia-subtle: #221e17;
+  --encyclopedia-border: #817559;
+  --encyclopedia-text: #f1e6c8;
+  --encyclopedia-muted: #b9a77a;
+}
+
+html[data-palette="gold-ivory"] .v2-nav__item[aria-current="page"],
+html[data-palette="gold-ivory"] .v2-menu-sheet__item[aria-current="page"] {
+  color: var(--selected-text);
+}
+
+html[data-palette="gold-ivory"] .engagement-chip--active {
+  background: var(--chip-selected-bg) !important;
+  color: var(--chip-selected-text) !important;
+}
+
+/* Canonical search geometry. Colors always come from the semantic theme roles. */
+html {
+  --search-height: 44px;
+  --search-height-compact: 40px;
+  --search-height-article: 36px;
+  --search-radius: 10px;
+  /*
+   * Measured on the running app: the field's fill was the page's own
+   * colour (1.00 contrast) and its only edge sat at 1.79 against the page,
+   * under the 3:1 WCAG asks of a control boundary. A field you can only
+   * find by its outline needs that outline to be visible.
+   */
+  --search-surface: var(--interactive);
+  --search-border-color: var(--line-strong);
+  --search-inline-padding: 12px;
+  --search-control-gap: 8px;
+}
+
+/* Canonical page heading: one localized title, without a duplicate eyebrow or lead. */
+.feature-header > span,
+.feature-header > p,
+.page-header > span,
+.page-header > p {
+  display: none !important;
+}
+
+.feature-header > h1,
+.page-header > h1 {
+  margin-block: 0 !important;
+}
+
+html,
+body,
+.main-content {
+  background: var(--bg) !important;
+  color: var(--text) !important;
+}
+
+body,
+button,
+input,
+textarea,
+select {
+  color: var(--text);
+}
+
+::selection {
+  background: color-mix(in srgb, var(--link-color) 28%, transparent);
+  color: var(--text);
+}
+
+::placeholder {
+  color: var(--text-meta) !important;
+  opacity: 1 !important;
+}
+
+:focus-visible {
+  outline-color: var(--link-color);
+}
+
+a {
+  color: inherit;
+}
+
+.tweet__handle,
+.tweet__time,
+.tweet__permalink,
+.muted-copy,
+.section-heading__eyebrow,
+.feature-header p,
+.page-header p,
+.bbs-hero p,
+.bbs-hero--simple p,
+.settings-section-title p,
+.setting-row small,
+.setting-select small,
+.rail-result small,
+.rail-result__meta span,
+.community-message time,
+.community-message header span {
+  color: var(--muted) !important;
+}
+
+.tweet__name,
+.tweet__quote-name,
+.bbs-post__name,
+.rank-row strong,
+.rail-result__meta strong,
+.community-message header strong {
+  color: var(--text) !important;
+}
+
+.sidebar {
+  border-color: var(--line) !important;
+  background: var(--bg-soft) !important;
+  color: var(--text) !important;
+}
+
+.timeline-rail,
+.shell__right {
+  border-color: var(--line) !important;
+  background: var(--bg) !important;
+  color: var(--text) !important;
+}
+
+.timeline-rail__header,
+.rail-controls,
+.rail-article__back {
+  border-color: var(--line) !important;
+  background: var(--bg) !important;
+  color: var(--text) !important;
+}
+
+.sidebar__link {
+  color: color-mix(in srgb, var(--text) 82%, var(--muted)) !important;
+}
+
+.sidebar__nav-icon {
+  color: var(--muted) !important;
+}
+
+.sidebar__link:hover {
+  background: var(--interactive) !important;
+  color: var(--text) !important;
+}
+
+.sidebar__link--active {
+  border-color: transparent !important;
+  background: var(--selected) !important;
+  color: var(--text) !important;
+}
+
+.sidebar__link--active .sidebar__nav-icon {
+  background: transparent !important;
+  color: var(--text) !important;
+}
+
+.sidebar__collapse,
+.sidebar__collapsed-toggle,
+.timeline-rail__toggle,
+.shell__rail-toggle {
+  border-color: var(--line) !important;
+  background: var(--surface-raised) !important;
+  color: var(--muted) !important;
+}
+
+.sidebar__collapse:hover,
+.sidebar__collapsed-toggle:hover,
+.timeline-rail__toggle:hover,
+.shell__rail-toggle:hover {
+  border-color: var(--line-strong) !important;
+  background: var(--interactive-hover) !important;
+  color: var(--text) !important;
+}
+
+.sidebar__compose,
+.tl-compose__submit:not(:disabled),
+.button--primary,
+.community-composer__box button:not(:disabled),
+.hub-wallet-button.is-connected {
+  border-color: var(--action) !important;
+  background: var(--action) !important;
+  color: var(--action-text) !important;
+}
+
+/*
+ * Canonical Hub icon geometry.
+ * Navigation, compact actions, and status marks share one optical grid so
+ * opening or collapsing either rail never changes their apparent position.
+ */
+:where(
+  .sidebar__nav-icon,
+  .sidebar__collapse,
+  .sidebar__theme-toggle,
+  .shell__right-header-icon,
+  .shell__right-header-collapse,
+  .timeline-rail__toggle,
+  .shell__rail-toggle,
+  .notification-row__icon
+) {
+  display: grid;
+  place-items: center;
+  line-height: 1;
+}
+
+:where(
+  .sidebar__nav-icon,
+  .sidebar__collapse,
+  .sidebar__theme-toggle,
+  .shell__right-header-icon,
+  .shell__right-header-collapse,
+  .timeline-rail__toggle,
+  .shell__rail-toggle,
+  .notification-row__icon
+) > svg {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.sidebar__collapse,
+.shell__right-header-collapse,
+.timeline-rail__toggle,
+.shell__rail-toggle {
+  width: 36px !important;
+  height: 36px !important;
+  min-width: 36px;
+  min-height: 36px;
+  padding: 0 !important;
+}
+
+.sidebar__nav-icon {
+  width: 36px !important;
+  height: 36px !important;
+  flex: 0 0 36px !important;
+}
+
+.sidebar__compose > svg,
+.sidebar__theme-toggle > svg {
+  width: 19px;
+  height: 19px;
+  flex: 0 0 19px;
+  stroke-width: 1.8;
+}
+
+.notification-row__icon > svg {
+  width: 18px;
+  height: 18px;
+}
+
+:where(
+  .sidebar__collapse,
+  .sidebar__theme-toggle,
+  .shell__right-header-collapse,
+  .timeline-rail__toggle,
+  .shell__rail-toggle
+):focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :where(
+    .sidebar__nav-icon,
+    .sidebar__collapse,
+    .sidebar__theme-toggle,
+    .shell__right-header-icon,
+    .shell__right-header-collapse,
+    .timeline-rail__toggle,
+    .shell__rail-toggle,
+    .notification-row__icon
+  ) {
+    transition: none !important;
+  }
+}
+
+.tl-tabs,
+.home-feed__tabs,
+.trend-tabs,
+.rail-mode,
+.search-tabs,
+.notifications-page nav,
+.community-view-tabs,
+.thread-view-tabs {
+  border-color: var(--line) !important;
+  background: var(--bg) !important;
+}
+
+.tl-tab,
+.trend-tabs button,
+.rail-mode button,
+.search-tabs button,
+.notifications-page nav button,
+.community-view-tabs button,
+.thread-view-tabs a {
+  color: var(--muted) !important;
+}
+
+.tl-tab--active,
+.trend-tabs__active,
+.rail-mode__active,
+.search-tabs .active,
+.notifications-page nav button.active,
+.community-view-tabs button[aria-pressed="true"],
+.thread-view-tabs__active {
+  border-color: transparent !important;
+  background: transparent !important;
+  color: var(--text) !important;
+  box-shadow: inset 0 -2px 0 var(--action) !important;
+}
+
+.content-discovery-tabs {
+  display: flex;
+  align-items: stretch;
+  border-bottom: var(--divider);
+  background: transparent;
+}
+
+.content-discovery-tabs > a {
+  display: inline-flex;
+  min-height: 44px;
+  flex: 1 1 0;
+  align-items: center;
+  justify-content: center;
+  border: 0 !important;
+  background: transparent !important;
+  color: var(--muted) !important;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.content-discovery-tabs > a[aria-current="page"],
+.content-discovery-tabs > a.is-active {
+  color: var(--text) !important;
+  box-shadow: inset 0 -2px 0 var(--action) !important;
+}
+
+.tweet,
+.thread-post-card,
+.community-post-card,
+.notification-row,
+.conv-list-item,
+.profile-post-simple,
+.rail-result {
+  border-color: var(--line) !important;
+  background: var(--surface-raised) !important;
+  color: var(--text) !important;
+}
+
+.tweet:hover,
+.thread-post-card:hover,
+.community-post-card:hover,
+.notification-row:hover,
+.conv-list-item:hover,
+.profile-post-simple:hover,
+.rail-result:hover {
+  background: var(--surface-sunken) !important;
+}
+
+.tweet__text,
+.bbs-post__body,
+.community-post-card__text,
+.rail-result p,
+.notification-row__content p,
+.search-users p,
+.search-items p {
+  color: var(--text) !important;
+}
+
+.post-image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 4px;
+  margin-top: 10px;
+  overflow: hidden;
+  border: var(--divider);
+  border-radius: 14px;
+  background: var(--surface-sunken);
+}
+
+.post-image-grid--1 { grid-template-columns: 1fr; }
+.post-image-grid__item { position: relative; min-width: 0; margin: 0; background: var(--content-nested); }
+.post-image-grid__item img { display: block; width: 100%; height: 220px; object-fit: cover; }
+.post-image-grid--1 .post-image-grid__item img { height: auto; max-height: 520px; object-fit: contain; }
+.post-image-grid__item--editing { padding-bottom: 78px; }
+.post-image-grid__item--editing button {
+  position: absolute; top: 8px; right: 8px; width: 30px; height: 30px; border: var(--divider);
+  border-radius: 999px; background: var(--surface-raised); color: var(--text); cursor: pointer;
+}
+.post-image-grid__item--editing input {
+  position: absolute; right: 6px; bottom: 42px; left: 6px; padding: 7px 9px; border: var(--divider);
+  border-radius: 8px; background: var(--surface-raised); color: var(--text);
+}
+.post-image-grid__item--editing select { position: absolute; right: 6px; bottom: 6px; left: 6px; padding: 7px 9px; border: var(--divider); border-radius: 8px; background: var(--surface-raised); color: var(--text); }
+.post-image-picker { display: inline-flex; align-items: center; color: var(--link-color); cursor: pointer; font-weight: 600; }
+.post-image-picker input { position: absolute; width: 1px; height: 1px; overflow: hidden; opacity: 0; }
+.post-image-picker:focus-within { outline: 2px solid var(--focus-ring); outline-offset: 3px; }
+
+.image-feed-order { display: inline-flex; gap: 4px; margin-left: auto; }
+.image-feed-order button {
+  padding: 5px 10px; border: var(--divider); border-radius: 999px;
+  background: var(--interactive); color: var(--muted); cursor: pointer;
+}
+.image-feed-order button:hover { background: var(--interactive-hover); color: var(--text); }
+.image-feed-order .image-feed-order--active { border-color: var(--emphasis); background: var(--emphasis-soft); color: var(--emphasis); }
+.image-search-heading { display: flex; align-items: center; gap: 12px; }
+.search-image-results { margin-top: 12px; }
+.search-discovery:not(.search-discovery--images) > .image-search-section { display: none; }
+.search-discovery--images > :not(.image-search-section) { display: none; }.home-feed__stream--images > .tweet > .tweet__avatar { margin: 10px 0 0 10px; }
+.home-feed__stream--images > .tweet > .tweet__body { padding: 8px 10px 0 0; }
+.home-feed__stream--images .post-image-grid { margin-right: -10px; margin-left: -46px; border: 0; border-radius: 0; }
+.home-feed__stream--images .post-image-grid__item img { height: auto; max-height: none; object-fit: contain; }
+.home-feed__stream--images .tweet__text { display: -webkit-box; overflow: hidden; -webkit-box-orient: vertical; -webkit-line-clamp: 3; }
+
+.tweet__avatar,
+.bbs-post__avatar,
+.community-avatar,
+.rail-result__avatar,
+.conv-list-item__avatar,
+.notification-row__icon,
+.search-users > a > b {
+  border-color: var(--line) !important;
+  background: var(--interactive) !important;
+  color: var(--text) !important;
+}
+
+.tweet__quote,
+.tweet__thread-context,
+.community-message__reply,
+.bbs-post__reply-bundle,
+.referenced-card {
+  border-color: var(--line) !important;
+  background: var(--surface-sunken) !important;
+  color: var(--text) !important;
+}
+
+.tweet__action,
+.engagement-chip,
+.community-message__actions button,
+.thread-post-actions button {
+  color: var(--muted) !important;
+}
+
+.tweet__action:hover:not(:disabled),
+.engagement-chip:hover:not(:disabled),
+.community-message__actions button:hover:not(:disabled),
+.thread-post-actions button:hover:not(:disabled) {
+  background: var(--interactive) !important;
+  color: var(--text) !important;
+}
+
+.tweet__action--active,
+.engagement-chip--active,
+.community-post-action--active {
+  color: var(--text) !important;
+}
+
+.tweet__more-menu,
+.tweet__repost-menu,
+.community-message__menu > div,
+.app-picker__menu,
+.bbs-picker__menu {
+  border-color: var(--line-strong) !important;
+  background: var(--surface-raised) !important;
+  color: var(--text) !important;
+  box-shadow: var(--shadow) !important;
+}
+
+input,
+textarea,
+select,
+.search-page > header label,
+.thread-search,
+.bbs-thread-search,
+.rail-search,
+.hubpedia__search,
+.hubpedia-article__search,
+.tl-compose__body,
+.tl-compose__input,
+.tl-compose__identity,
+.composer__input,
+.tweet__reply-textarea,
+.community-channel-search,
+.community-composer__box,
+.community-modal input,
+.community-modal select,
+.community-modal textarea,
+.video-library-toolbar input,
+.video-submit :is(input, select, textarea),
+.video-thread-form textarea {
+  border-color: var(--line) !important;
+  background: var(--surface-raised) !important;
+  color: var(--text) !important;
+  -webkit-text-fill-color: var(--text);
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+.search-page > header label:focus-within,
+.rail-search:focus-within,
+.hubpedia__search:focus-within,
+.hubpedia-article__search:focus-within,
+.community-channel-search:focus-within,
+.community-composer__box:focus-within,
+.community-modal input:focus,
+.community-modal select:focus,
+.community-modal textarea:focus,
+.video-library-toolbar input:focus,
+.video-submit :is(input, select, textarea):focus,
+.video-thread-form textarea:focus {
+  border-color: var(--focus-ring) !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/*
+ * Checkbox and radio contract (owner report 2026-10-30: unchecked boxes were
+ * near-invisible). The unchecked edge uses --muted (>= 4.5:1 on --bg and
+ * --surface-raised in every theme), checked fills with --action and draws the
+ * mark in --action-text. The generic input rule above forces --line and a
+ * raised fill, so these declarations must stay !important.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline-grid;
+  place-content: center;
+  border: 2px solid var(--muted) !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+input[type="checkbox"]:hover:not(:disabled),
+input[type="radio"]:hover:not(:disabled) { border-color: var(--text) !important; }
+input[type="checkbox"]:checked,
+input[type="radio"]:checked {
+  border-color: var(--action) !important;
+  background: var(--action) !important;
+}
+input[type="checkbox"]::after,
+input[type="radio"]::after { content: ""; display: block; }
+input[type="checkbox"]:checked::after {
+  width: 6px;
+  height: 11px;
+  margin-top: -2px;
+  border: solid var(--action-text);
+  border-width: 0 2.5px 2.5px 0;
+  transform: rotate(45deg);
+}
+input[type="radio"]:checked::after {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--action-text);
+}
+input[type="checkbox"]:focus-visible,
+input[type="radio"]:focus-visible {
+  outline: 3px solid var(--focus-ring) !important;
+  outline-offset: 2px !important;
+}
+input[type="checkbox"]:disabled,
+input[type="radio"]:disabled {
+  cursor: not-allowed;
+  border-style: dashed !important;
+  border-color: var(--line-strong) !important;
+  background: var(--interactive) !important;
+}
+input[type="checkbox"]:disabled:checked,
+input[type="radio"]:disabled:checked { border-style: solid !important; border-color: var(--line-strong) !important; background: var(--line-strong) !important; }
+
+/*
+ * Composite text entry contract:
+ * the surrounding composer owns the visible boundary and focus state.
+ * Its textarea is only the editable text plane and must not draw a second box.
+ */
+:is(
+  .ai-chat__composer,
+  .tl-compose__body,
+  .composer,
+  .tweet__reply-form,
+  .community-composer__box,
+  .post-detail__composer-body,
+  .chat-composer
+) textarea {
+  border: 0 !important;
+  outline: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+:is(
+  .ai-chat__composer,
+  .tl-compose__body,
+  .composer,
+  .tweet__reply-form,
+  .community-composer__box,
+  .post-detail__composer-body,
+  .chat-composer
+):focus-within {
+  border-color: var(--focus-ring) !important;
+  box-shadow: none !important;
+}
+
+.feature-panel,
+.settings-summary,
+.settings-card,
+.collection-card,
+.person-card,
+.list-grid__item,
+.balance-grid article,
+.profile-card-simple,
+.profile-posts-simple,
+.token-lookup,
+.token-wallet-connect,
+.token-ranking-create,
+.token-ranking-summary article,
+.bbs-board-group,
+.bbs-thread-card,
+.bbs-featured-boards > a,
+.hubpedia__categories > a,
+.hubpedia__articles article,
+.future-surface__lead,
+.future-surface__grid article,
+.notification-list,
+.notification-empty,
+.conversation-list,
+.conversation-panel,
+.community-modal,
+.video-trending-group,
+.video-card,
+.video-submit,
+.video-detail__hero,
+.video-detail__related,
+.video-thread,
+.video-thread-comment,
+.music-library,
+.music-service-panel,
+.music-submit {
+  border-color: var(--line) !important;
+  background: var(--surface-raised) !important;
+  color: var(--text) !important;
+}
+
+.feature-panel:hover,
+.collection-card:hover,
+.person-card:hover,
+.bbs-thread-card:hover,
+.bbs-featured-boards > a:hover,
+.hubpedia__categories > a:hover,
+.hubpedia__articles article:hover,
+.future-surface__grid article:hover,
+.video-card:hover,
+.video-thread-comment:hover {
+  background: var(--interactive) !important;
+}
+
+.setting-row,
+.setting-select,
+.settings-card > a,
+.settings-note,
+.rank-row,
+.bbs-board-row,
+.bbs-thread-table td,
+.search-users > a,
+.search-items > a {
+  border-color: var(--line) !important;
+}
+
+.button,
+.settings-card button,
+.thread-search__controls button,
+.bbs-thread-search button,
+.token-lookup button,
+.hubpedia__search button,
+.hub-wallet-button {
+  border-color: var(--line-strong) !important;
+  background: var(--interactive) !important;
+  color: var(--text) !important;
+}
+
+.button:hover,
+.settings-card button:hover,
+.hub-wallet-button:hover {
+  background: var(--interactive-hover) !important;
+}
+
+.pill,
+.sidebar__badge,
+.score-badge,
+.search-tabs button > span,
+.trend-tabs button small,
+.bbs-featured-boards small {
+  border-color: var(--line) !important;
+  background: var(--interactive) !important;
+  color: var(--text) !important;
+}
+
+.inline-error,
+.community-error,
+.notifications-page__error,
+.thread-post-actions__danger {
+  color: var(--danger-text) !important;
+}
+
+.notifications-page__error,
+.video-trending__status--error {
+  border-color: color-mix(in srgb, var(--danger-text) 32%, var(--line)) !important;
+  background: var(--danger-bg) !important;
+}
+
+.thread-solved-badge,
+.best-answer-badge,
+.community-message-workflow--resolved,
+.token-sync-state span[data-status="verified"] {
+  background: var(--positive-bg) !important;
+  color: var(--positive-text) !important;
+}
+
+.community-message-pinned,
+.token-sync-state span {
+  background: var(--warning-bg) !important;
+  color: var(--warning-text) !important;
+}
+
+.community-message-workflow--closed,
+.token-sync-state span[data-status="failed"] {
+  background: var(--danger-bg) !important;
+  color: var(--danger-text) !important;
+}
+
+.community-workspace,
+.community-chat,
+.community-channels,
+.community-members,
+.community-portal,
+.community-feed-view {
+  border-color: var(--line) !important;
+  background: var(--bg) !important;
+  color: var(--text) !important;
+}
+
+.community-channels,
+.community-members {
+  background: var(--bg-soft) !important;
+}
+
+.community-channel,
+.community-portal__start-grid button,
+.community-portal__popular {
+  border-color: var(--line) !important;
+  background: var(--surface-raised) !important;
+  color: var(--text) !important;
+}
+
+.community-channel:hover {
+  background: var(--interactive) !important;
+}
+
+.community-channel--active {
+  background: var(--selected) !important;
+  color: var(--text) !important;
+}
+
+.video-hub,
+.music-page {
+  background: var(--bg) !important;
+  color: var(--text) !important;
+}
+
+.video-search,
+.video-trending__status,
+.video-trending-group,
+.video-library-card,
+.music-header,
+.music-library,
+.music-service-panel,
+.music-player,
+.music-submit {
+  border-color: var(--line) !important;
+  background: var(--surface-raised) !important;
+  color: var(--text) !important;
+}
+
+.video-search input,
+.video-trend-card__copy h3,
+.music-page h1,
+.music-page h2,
+.music-page h3 {
+  color: var(--text) !important;
+}
+
+.video-hub small,
+.video-hub time,
+.video-trend-card__copy p,
+.music-page small,
+.music-page p {
+  color: var(--muted) !important;
+}
+
+.physical-commerce {
+  color-scheme: inherit;
+  --market-accent: var(--interactive);
+  --market-ink: var(--text);
+  --market-muted: var(--muted);
+  --market-canvas: var(--bg);
+  --market-surface: var(--content-surface);
+  --market-line: var(--line);
+  --market-shadow: var(--shadow);
+  background: var(--market-canvas) !important;
+  color: var(--market-ink) !important;
+}
+
+.shopping-product-page {
+  color-scheme: inherit;
+  background: var(--bg) !important;
+  color: var(--text) !important;
+}
+
+.shopping-product-hero,
+.shopping-product-price-box,
+.shopping-product-offers {
+  border-color: var(--line) !important;
+  background: var(--content-surface) !important;
+  color: var(--text) !important;
+}
+
+.sidebar__compose,
+.tl-compose__submit:not(:disabled),
+.button--primary,
+.community-composer__box button:not(:disabled),
+.thread-search__controls button,
+.bbs-thread-search button,
+.token-lookup button,
+.hubpedia__search button {
+  border-color: var(--action) !important;
+  background: var(--action) !important;
+  color: var(--action-text) !important;
+  -webkit-text-fill-color: var(--action-text);
+}
+
+.sidebar__compose:hover,
+.tl-compose__submit:hover:not(:disabled),
+.button--primary:hover:not(:disabled),
+.community-composer__box button:hover:not(:disabled),
+.thread-search__controls button:hover:not(:disabled),
+.bbs-thread-search button:hover:not(:disabled),
+.token-lookup button:hover:not(:disabled),
+.hubpedia__search button:hover:not(:disabled) {
+  border-color: var(--action-hover) !important;
+  background: var(--action-hover) !important;
+}
+
+html[data-theme="dark"] img {
+  color-scheme: normal;
+}
+
+.content-tag-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 10px;
+  margin: 4px 0 8px;
+}
+
+.content-tag-links a {
+  color: var(--emphasis);
+  font-size: .82rem;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.content-tag-links a:hover {
+  text-decoration: underline;
+}
+
+/*
+ * Aliases for names the stylesheets ask for but nothing ever defined. A
+ * var() with no definition and no fallback makes the whole declaration
+ * invalid, so `color: var(--danger)` was not red — it was nothing, and the
+ * text inherited body colour. Error, success and warning states were
+ * indistinguishable from ordinary copy across 40 declarations.
+ *
+ * These are aliases rather than literals on purpose: they resolve at use
+ * time, so one definition follows both themes.
+ */
+:root {
+  --text-primary: var(--text);
+  --text-muted: var(--muted);
+  --text-subtle: var(--muted);
+  --text-tertiary: var(--muted);
+  --text-disabled: var(--muted);
+  --text-on-emphasis: var(--action-text);
+  --on-emphasis: var(--action-text);
+  --emphasis-text: var(--action-text);
+  --interactive-text: var(--text);
+
+  --danger: var(--danger-text);
+  --positive: var(--positive-text);
+  --warning: var(--warning-text);
+  --warning-soft: var(--warning-bg);
+
+  --background: var(--bg);
+  --surface-subtle: var(--surface-sunken);
+  --surface-hover: var(--content-surface-hover);
+  --field: var(--surface-raised);
+  --control-bg: var(--interactive);
+  --interaction-subtle: var(--interactive);
+  --interactive-selected: var(--selected);
+
+  --border: var(--line);
+  --divider-color: var(--line);
+
+  /*
+   * The flat surface has no shadows; --shadow is none in both themes. These
+   * names exist only because older stylesheets reached for a scale.
+   */
+  --shadow-subtle: var(--shadow);
+  --shadow-soft: var(--shadow);
+  --shadow-sm: var(--shadow);
+  --shadow-md: var(--shadow);
+  --shadow-lg: var(--shadow);
+  --shadow-raised: var(--shadow);
+  --shadow-elevated: var(--shadow);
+  --shadow-overlay: var(--shadow);
+
+  --font-size-xs: .75rem;
+  --font-size-sm: .8125rem;
+}
+
+/* A scrim needs a literal; it cannot follow a surface token. */
+html[data-theme="light"] { --overlay: rgba(0, 0, 0, .45); }
+html[data-theme="dark"] { --overlay: rgba(0, 0, 0, .62); }
+
+/*
+ * .sr-only existed only inside .market-page and .shopping-product-page, while
+ * seven elements outside those scopes relied on it — a label for the article
+ * search, a heading on the request page, helper spans in the community and
+ * vault views. None of them were hidden: they rendered as stray words in the
+ * middle of the page. The declarations match .hub-sr-only.
+ */
+.sr-only {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+}
+
+/*
+ * The 3D world keeps one look in both themes. The panels float over a lit
+ * scene, not over the page ground, so a theme swap would leave pale chrome
+ * on a night street. These are the only colors that behave that way.
+ */
+:root {
+  --world-ground: #0b0d12;
+  --world-veil: rgba(9, 12, 18, .55);
+  --world-veil-strong: rgba(9, 12, 18, .72);
+  --world-veil-solid: rgba(9, 12, 18, .88);
+  --world-text: #e8edf6;
+  --world-line: rgba(232, 237, 246, .28);
+  /* #4d7cff put white button text at 3.72:1 — measured on /world at
+     13.12px, where 4.5 is the bar. The same hue two steps deeper reads 5.2. */
+  --world-action: #3563e0;
+  --world-action-text: #ffffff;
+}
+
+/*
+ * Quiet focus (2026-10-14, owner request: no blue glow on fields).
+ * Text entry shows focus as a 1px neutral border (--focus-ring, >= 3:1 on the
+ * page surface in both themes), never a halo. Buttons, links and other
+ * controls show a neutral outline for keyboard focus only (:focus-visible).
+ */
+:where(
+  input:not([type="checkbox"], [type="radio"], [type="range"], [type="button"], [type="submit"], [type="reset"], [type="file"], [type="color"]),
+  textarea,
+  select,
+  [contenteditable]:not([contenteditable="false"])
+):focus,
+:where(
+  input:not([type="checkbox"], [type="radio"], [type="range"], [type="button"], [type="submit"], [type="reset"], [type="file"], [type="color"]),
+  textarea,
+  select,
+  [contenteditable]:not([contenteditable="false"])
+):focus-visible {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+:where(input:not([type="checkbox"], [type="radio"], [type="range"], [type="button"], [type="submit"], [type="reset"], [type="file"], [type="color"]), textarea, select):not([aria-invalid="true"]):focus {
+  border-color: var(--focus-ring) !important;
+}
+
+/*
+ * Luxe timeline skin (2026-10-30, owner-approved canvas). Used only under
+ * .v2[data-skin="luxe"] (app/v2/v2-luxe.css). Center-column cards sit on
+ * --luxe-panel; every other column sits on --luxe-canvas, separated by --luxe-line.
+ * --luxe-gold is reserved for the current nav item, primary post buttons, the
+ * liked state and the selected tab underline. Contrast is enforced by
+ * lib/luxe-palette.test.ts. Documented in docs/color-system.md.
+ */
+html[data-theme="dark"] {
+  --luxe-canvas: #0b0a08;
+  --luxe-panel: #15130f;
+  --luxe-raised: #1d1a14;
+  --luxe-hover: #1b1813;
+  --luxe-line: #1f1b14;
+  --luxe-line-strong: #3a3326;
+  --luxe-text: #f6efdc;
+  --luxe-text-2: #b3a68a;
+  --luxe-text-3: #8f8369;
+  --luxe-gold: #f2c230;
+  /* Black lacquer button (黒金): lifted black, gold label and icon, gold hairline, flat top highlight. */
+  --luxe-btn: #1e1a12;
+  --luxe-btn-hover: #2a2418;
+  --luxe-btn-text: #f2c230;
+  --luxe-btn-line: #d4a82a;
+  --luxe-btn-hi: #4d4326;
+}
+
+html[data-theme="light"] {
+  --luxe-canvas: #fbf6e9;
+  --luxe-panel: #f5eed9;
+  --luxe-raised: #fdfaf1;
+  --luxe-hover: #f1e9d2;
+  --luxe-line: #e4d8b8;
+  --luxe-line-strong: #bba97d;
+  --luxe-text: #231c0f;
+  --luxe-text-2: #54472f;
+  --luxe-text-3: #66583f;
+  --luxe-gold: #876200;
+  --luxe-btn: #15120b;
+  --luxe-btn-hover: #2a2417;
+  --luxe-btn-text: #f2c230;
+  --luxe-btn-line: #c79a1c;
+  --luxe-btn-hi: #4a4026;
+}
+
+/*
+ * Luxe palette and accent (2026-10-31). Two independent settings:
+ *   配色  data-palette="gold-ivory" (黒金, default) keeps the canvas above.
+ *         Without it (白黒) the same structure sits on white / black with no gold.
+ *   Both palettes fix their accent (2026-10-31): the 強調色 setting is hidden and
+ *   data-accent no longer recolors the luxe skin. Every text/background pair in
+ *   both palettes and modes keeps 4.5:1; lib/luxe-palette.test.ts enforces it.
+ */
+html[data-theme="dark"] {
+  --luxe-control: #7a6d50;
+  --luxe-link: var(--luxe-text);
+}
+
+html[data-theme="light"] {
+  --luxe-control: #857654;
+  --luxe-link: var(--luxe-text);
+}
+
+html[data-theme="dark"]:not([data-palette="gold-ivory"]) {
+  --luxe-canvas: #000000;
+  --luxe-panel: #0d0d0e;
+  --luxe-raised: #161617;
+  --luxe-hover: #151516;
+  --luxe-line: #1f1f21;
+  --luxe-line-strong: #3a3a3d;
+  --luxe-text: #f5f5f6;
+  --luxe-text-2: #adadb2;
+  --luxe-text-3: #8e8e93;
+  --luxe-control: #75757a;
+  --luxe-gold: #ffffff;
+  --luxe-btn: #ffffff;
+  --luxe-btn-hover: #dcdcde;
+  --luxe-btn-text: #000000;
+  --luxe-btn-line: #ffffff;
+  --luxe-btn-hi: #ffffff;
+}
+
+html[data-theme="light"]:not([data-palette="gold-ivory"]) {
+  --luxe-canvas: #ffffff;
+  --luxe-panel: #ffffff;
+  --luxe-raised: #ffffff;
+  --luxe-hover: #f2f2f3;
+  --luxe-line: #dedee1;
+  --luxe-line-strong: #a4a4a9;
+  --luxe-text: #111113;
+  --luxe-text-2: #46464b;
+  --luxe-text-3: #58585d;
+  --luxe-control: #76767b;
+  --luxe-gold: #111113;
+  --luxe-btn: #111113;
+  --luxe-btn-hover: #2c2c2f;
+  --luxe-btn-text: #ffffff;
+  --luxe-btn-line: #111113;
+  --luxe-btn-hi: #111113;
+}
+
+

@@ -1,0 +1,1711 @@
+[
+  {
+    "slug": "blizzard",
+    "topicType": "concept",
+    "categoryLabel": "地球・環境",
+    "title": "吹雪",
+    "summary": "吹雪は、吹き飛ばされる雪と強風が組み合わさって非常に低い視程を生む冬季の嵐である。米国気象局は、風速35mph（約56km/h）を超える風と4分の1マイル（約400m）未満の視程が少なくとも3時間続く嵐を吹雪と定義する。",
+    "bodyMarkdown": "## 定義と発生条件\n\n冬季嵐は、雪・みぞれ・凍てつく雨といった[降水](/hubpedia/precipitation)を米国全土とその領土にもたらしうる。ハワイでもビッグアイランドでは雪が降り、アトランタやダラスのような南部の大都市も雪と氷によって麻痺した例がある。[1]\n\n吹雪は、吹き飛ばされる雪と風が組み合わさって非常に低い視程を生む、危険な冬季の嵐である。米国気象局の公式定義では、大量の降雪または吹雪を伴い、風速35mph（約56km/h）を超える風と4分の1マイル（約400m）未満の視程が少なくとも3時間続く嵐を指す。[2][3]\n\n強い風が吹き雪とホワイトアウト状態を引き起こし、道路を通行不能にする。なお、大雪や厳しい寒さは吹雪に伴うことが多いが定義上の必須条件ではなく、すでに積もった雪を強風が巻き上げるだけでも、地吹雪（グラウンド・ブリザード）と呼ばれる吹雪になる。[4][5][6]\n\n## 形成の仕組みと地域性\n\n吹雪の条件は、強烈な低気圧システムの北西側で発達することが多い。嵐の中心の低気圧と西側の高気圧との差がきつい気圧傾度を生み、非常に強い風をもたらす。その強風が地面の雪を巻き上げ、あるいは降雪中の雪を吹き飛ばして、非常に低い視程と深刻な吹きだまりをもたらす。[7]\n\n地域差もある。米国ではアッパー・ミッドウェストとグレート・プレーンズが最も頻繁に吹雪を経験する地域であり、風や吹雪を弱める樹木や障害物が少ないため特に脆弱とされる。「blizzard」という語自体は、1870年代にアイオワの新聞が雪嵐を表すのに使ったのが始まりで、それ以前は砲撃や銃の斉射を指す語であり、1880年代までには米国と英国で広く使われるようになった。[8][9]\n\n## 警報と注意報\n\n冬季の警報・監視・注意報は、地域を管轄する地方の気象局オフィスが発表し、発表基準は地域ごとに設定される。例えば、北部平原で冬季嵐警告を発するのに必要な雪量は、南東部で必要な量よりも典型的にはるかに多い。[10]\n\nブリザード警告は、風速35mph以上の頻繁な突風が降雪または吹雪を伴い、視程がしばしば4分の1マイル未満に低下する状態が3時間以上続くときに発表される。発表は厳しい冬季気象が予想されるか発生中であることを意味し、吹雪と強風によるホワイトアウトで移動が極めて困難になるため、旅行しないよう求められる。[11][12]\n\nそれ以外の冬季気象では、雪・氷・みぞれ・吹雪またはそれらの組み合わせを含む重要な事象に冬季嵐警告が発表される。一方、同じ要素が予想されても警告基準に達しないと見込まれる場合は冬季気象注意報が出され、冬季の運転条件と移動の困難への備えが促される。[13][14]\n\n## 危険性と影響\n\nホワイトアウト状態は、乾燥した粉雪を生む大きな嵐で最も頻繁に発生する。[霧](/hubpedia/fog)と同じく視程を極端に奪う現象だが、原因は浮遊する水滴ではなく風で舞い上げられた雪である。雪が降っていなくても地面の雪が吹き飛ばされて視程がほぼゼロになることがあり、自動車での移動が困難または不可能になる。冬季嵐に伴う滑りやすい道路での交通事故では毎年数千人が負傷・死亡しており、立ち往生した場合は車両にとどまって救助を待つことが推奨される。[15][16][17]\n\n強風と低温の組み合わせは別の危険も生む。風と気温が組み合わさって体感する冷えを表す[体感温度](/hubpedia/wind-chill)は、吹雪の間に非常に低くなり、中西部では-60°F（約-51°C）を下回る値も珍しくない。さらに、強風と大雪による停電、水道管の凍結、通常の燃料供給の途絶が起こりうる。[18][19]",
+    "sources": [
+      {
+        "url": "https://www.weather.gov/fgz/WinterStorms",
+        "title": "Winter Storms and Blizzards",
+        "publisher": "National Weather Service",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.weather.gov/disclaimer"
+          },
+          "notes": "NWS Flagstaff office page covering the official blizzard definition, ground blizzards, formation, etymology, and impacts. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items and logos are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.weather.gov/safety/winter-ww",
+        "title": "Winter Weather Warnings, Watches and Advisories",
+        "publisher": "National Weather Service",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.weather.gov/disclaimer"
+          },
+          "notes": "NWS page listing winter warning, watch, and advisory criteria including Blizzard Warnings. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items and logos are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.weather.gov/safety/winter",
+        "title": "Winter",
+        "publisher": "National Weather Service",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.weather.gov/disclaimer"
+          },
+          "notes": "NWS winter safety overview covering winter storm reach, blizzard whiteouts, and traffic casualties. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items and logos are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Blizzard",
+        "summary": "A blizzard is a winter storm in which blowing snow and strong wind combine to produce very low visibility. The National Weather Service defines it as winds over 35 mph with visibility below a quarter mile lasting at least three hours.",
+        "bodyMarkdown": "## Definition and occurrence conditions\n\nWinter storms can bring snow, sleet and freezing rain — all forms of [precipitation](/hubpedia/precipitation) — across the entire United States and its territories. Even Hawaii's Big Island gets snow, and major southern cities such as Atlanta and Dallas have been paralyzed by snow and ice. [1]\n\nA blizzard is a dangerous winter storm in which blowing snow and wind combine to produce very low visibility. The National Weather Service officially defines it as a storm containing large amounts of snow or blowing snow, with winds over 35 mph and visibility below a quarter mile lasting at least three hours. [2][3]\n\nStrong wind drives blowing snow and whiteout conditions that make roads impassable. Heavy snowfall and severe cold often accompany blizzards but are not required: winds alone can loft snow that has already fallen, producing what is called a ground blizzard. [4][5][6]\n\n## Formation and regional character\n\nBlizzard conditions often develop on the northwest side of an intense storm system. The difference between the storm's low pressure and higher pressure to the west creates a tight pressure gradient, which produces very strong winds that lift available snow from the ground or blow falling snow, creating very low visibility and significant drifting. [7]\n\nThe upper Midwest and Great Plains experience blizzards most often, because few trees or obstructions there reduce wind and blowing snow. The word itself entered weather vocabulary in the 1870s when an Iowa newspaper used it for a snowstorm; it had previously meant a cannon shot or a volley of musket fire, and by the 1880s it was widely used in the United States and England. [8][9]\n\n## Warnings and advisories\n\nWinter warnings, watches and advisories are issued by local National Weather Service offices, each using local criteria; the snowfall that triggers a winter storm warning in the Northern Plains is typically much higher than in the Southeast. [10]\n\nA Blizzard Warning is issued for frequent gusts of at least 35 mph with falling or blowing snow frequently cutting visibility below a quarter mile for three hours or more. It means severe winter weather is expected or occurring and that whiteout conditions will make travel extremely difficult, so travelers are told not to travel. [11][12]\n\nFor other events, a Winter Storm Warning covers a significant winter weather event including snow, ice, sleet or blowing snow or a combination of them, while a Winter Weather Advisory is issued when wintry elements are expected but should not meet warning criteria. [13][14]\n\n## Dangers and impacts\n\nWhiteout conditions occur most often with major storms that produce drier, powdery snow. Like [fog](/hubpedia/fog) they rob travelers of visibility, but the cause is wind-driven snow rather than suspended droplets; visibility can fall to near zero even when no snow is falling. Thousands of people are injured or killed each year in accidents on slippery winter-storm roads, and anyone who gets stranded is advised to stay with the vehicle and wait for help. [15][16][17]\n\nWind combined with cold creates another danger: [wind chill](/hubpedia/wind-chill), the cooling felt from wind and temperature, can drop below -60°F in the Midwest during blizzard conditions. Strong winds and heavy snow can also cause power outages, freeze pipes and cut off regular fuel sources. [18][19]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "冬季嵐は雪・みぞれ・凍てつく雨を米国全土とその領土にもたらしうる。ハワイでもビッグアイランドでは雪が降り、アトランタやダラスのような南部の大都市も雪と氷で麻痺したことがある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/winter",
+              "quote": "Winter storms can bring snow, sleet, and freezing rain across the entire United\nStates and its territories."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/winter",
+              "quote": "Even Hawaii gets snow in its Big Island, and major cities as far south\nas Atlanta and Dallas have been paralyzed by snow and ice."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "吹雪は、吹き飛ばされる雪と風が組み合わさって非常に低い視程を生む、危険な冬季の嵐である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/fgz/WinterStorms",
+              "quote": "Blizzards are dangerous winter storms that are a combination of blowing snow and wind resulting in\nvery low visibilities."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "米国気象局の公式定義では、吹雪は大量の降雪または吹雪を伴い、風速35mphを超える風と4分の1マイル未満の視程が少なくとも3時間続く嵐である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/fgz/WinterStorms",
+              "quote": "the National Weather Service defines a blizzard as a storm which contains large amounts\nof snow OR blowing snow, with winds in excess of 35 mph and visibilities of less than 1/4 mile for\nan extended period of time (at least 3 hours)."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "吹雪では強い風が吹き雪とホワイトアウト状態を引き起こし、道路を通行不能にする。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/winter",
+              "quote": "Blizzards occur when strong wind causes\nblowing snow and whiteout conditions, making roads impassable."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "大雪や厳しい寒さは吹雪に伴うことが多いが、定義上の必須条件ではない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/fgz/WinterStorms",
+              "quote": "While heavy snowfalls and severe cold often accompany blizzards, they are not\nrequired."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "すでに積もった雪を強風が巻き上げるだけでも、地吹雪（グラウンド・ブリザード）と呼ばれる吹雪になる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/fgz/WinterStorms",
+              "quote": "Sometimes strong winds pick up snow that has already fallen, creating a ground blizzard."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "吹雪の条件は強烈な低気圧システムの北西側で発達することが多く、嵐の低気圧と西側の高気圧の差がきつい気圧傾度を生んで非常に強い風をもたらし、その風が地面の雪を巻き上げたり降雪中の雪を吹き飛ばしたりして非常に低い視程と吹きだまりを生む。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/fgz/WinterStorms",
+              "quote": "Blizzard conditions often develop on the northwest side of an intense storm system. The difference\nbetween the lower pressure in the storm and the higher pressure to the west creates a tight pressure\ngradient, or difference in pressure between two locations, which in turn results in very strong\nwinds."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/fgz/WinterStorms",
+              "quote": "These strong winds pick up available snow from the ground, or blow any snow which is falling,\ncreating very low visibilities and the potential for significant drifting of snow."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "米国のアッパー・ミッドウェストとグレート・プレーンズが最も頻繁に吹雪を経験する地域であり、風や吹雪を弱める樹木や障害物が少ないため特に脆弱とされる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/fgz/WinterStorms",
+              "quote": "The upper Midwest and Great Plains of the United States tends to be the region that experiences\nblizzards most often."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/fgz/WinterStorms",
+              "quote": "With few trees or other obstructions to reduce wind and blowing snow, this\npart of the country is particular vulnerable to blizzards."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "「blizzard」という語は1870年代にアイオワの新聞が雪嵐を表すのに使い、それ以前は砲撃や銃の斉射を指し、1880年代までに米国と英国で広く使われるようになった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/fgz/WinterStorms",
+              "quote": "In the 1870's, an Iowa newspaper used the word \"blizzard\" to describe a snowstorm."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/fgz/WinterStorms",
+              "quote": "the\nterm blizzard referred to a canon shot or a volley of musket fire."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/fgz/WinterStorms",
+              "quote": "By the 1880's, the use of the\nword blizzard was used by many across the United States and in England."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "冬季の警報・監視・注意報は地方の気象局オフィスが地域の基準で発表し、冬季嵐警告を発するのに必要な雪量は北部平原の方が南東部よりも典型的にはるかに多い。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/winter-ww",
+              "quote": "are issued by your local National Weather\nService office. Each office knows the local area and will issue Warnings, Watches or Advisories\nbased on local criteria."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/winter-ww",
+              "quote": "in\nthe Northern Plains is typically much higher than the amount needed to trigger a"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "ブリザード警告は、風速35mph以上の頻繁な突風が降雪または吹雪を伴い、視程がしばしば4分の1マイル未満に低下する状態が3時間以上続くときに発表される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/winter-ww",
+              "quote": "are issued for frequent gusts greater than or equal to 35 mph accompanied by\n  falling and/or blowing snow, frequently reducing visibility to less than 1/4 mile for three hours\n  or more."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "ブリザード警告の発表は厳しい冬季気象が予想されるか発生中であることを意味し、吹雪と強風によるホワイトアウトで移動が極めて困難になるため、旅行しないよう求められる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/winter-ww",
+              "quote": "A Blizzard Warning means severe winter weather conditions are expected or occurring.\n  Falling and blowing snow with strong winds and poor visibilities are likely, leading to whiteout\n  conditions making travel extremely difficult. Do not travel."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "冬季嵐警告は、雪・氷・みぞれ・吹雪またはそれらの組み合わせを含む重要な冬季気象事象に発表される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/winter-ww",
+              "quote": "are issued for a significant winter weather event including snow, ice,\n  sleet or blowing snow or a combination of these hazards."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "冬季気象注意報は、雪・吹雪・氷・みぞれまたはそれらの組み合わせが予想されるが警告基準に達しないと見込まれるときに発表される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/winter-ww",
+              "quote": "are issued when snow, blowing snow, ice, sleet, or a combination of\nthese wintry elements is expected but conditions should not be hazardous enough to meet warning\n  criteria."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "ホワイトアウト状態は乾燥した粉雪を生む大きな嵐で最も頻繁に発生し、降雪中でなくても地面の雪が吹き飛ばされて視程がほぼゼロになりうる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/fgz/WinterStorms",
+              "quote": "Whiteout conditions occur most often with major storms that produce a drier, more powdery snow."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/fgz/WinterStorms",
+              "quote": "to be snowing to produce whiteout conditions, as the snow which is already on the ground is blown\naround, reducing the visibility to near zero at times."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "冬季嵐に伴う滑りやすい道路での交通事故で、毎年数千人が負傷または死亡している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/winter",
+              "quote": "Thousands of people are injured or\nkilled every year in traffic accidents related to slippery roads from winter storms."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "吹雪で立ち往生した場合は、車両にとどまって救助を待つことが推奨される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/winter-ww",
+              "quote": "If you get stranded, stay with your vehicle and wait for help to arrive."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "吹雪では強風と低温が組み合わさり体感温度が非常に低くなり、中西部では-60°Fを下回る体感温度も珍しくない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/fgz/WinterStorms",
+              "quote": "The wind chill factor is the amount of cooling one \"feels\" due to the combination of wind and\ntemperature."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/fgz/WinterStorms",
+              "quote": "It is not uncommon in the Midwest to have wind chills below -60F during blizzard\nconditions."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "吹雪は強風と大雪による停電、水道管の凍結、通常の燃料供給の途絶を引き起こしうる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/fgz/WinterStorms",
+              "quote": "Power outages can occur due to strong winds\nand heavy snow. Pipes can freeze and regular fuel sources may be cut off."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "heat-wave",
+    "topicType": "concept",
+    "categoryLabel": "地球・環境",
+    "title": "熱波",
+    "summary": "熱波は、異常に不快なほど暑く、通常より湿度が高い天候が続く期間であり、典型的には2日以上続くものを指す。気温だけでなく湿度・日射・夜間の気温まで考慮した指標で危険度が評価され、熱関連疾患や車内事故の原因となる。",
+    "bodyMarkdown": "## 定義と特性\n\n熱波とは、異常に不快なほど暑く、通常より湿度も高い天候が続く期間を指し、典型的には2日以上続くものが熱波と呼ばれる。海洋で同種の異常高温が起きる現象は[海洋熱波](/hubpedia/marine-heatwave)として区別される。[1]\n\n暑さは人体に大きな負担をかけ、熱関連疾患を引き起こしたり、既存の健康状態を悪化させたりする。誰もが暑さに対して脆弱になりうるが、その程度は人によって異なり、長く続く熱波は土地の乾燥を進めて[干ばつ](/hubpedia/drought)の条件を悪化させることもある。[2][3]\n\n## 暑さの指標と予報\n\n米国気象局は、極端な高温による熱ストレスの可能性を評価する複数の手段を持ち、それらは公式の暑さに関する監視・警告・注意報の発表判断に使われる。各指標は、実際の気温だけでは分からない情報を加味する。[4]\n\n暑熱指数（ヒートインデックス）は、相対湿度を実際の気温に組み合わせたときに感じる暑さの尺度である。例えば気温96°F（約36°C）で相対湿度65%の場合、体感の暑さを表す暑熱指数は121°F（約49°C）になる。この指数は日陰で風の弱い条件を想定して作られており、直射日光への暴露では値が最大15°Fほど高くなり、特に高温で乾燥した空気を伴う強風も非常に危険とされる。[5][6][7]\n\n湿球黒球温度（WBGT）は、気温・湿度・風・日射量などの気象要素を用いる指標で、屋外労働者や運動選手のような活動的な集団の熱ストレス評価に特に有効とされる。[8]\n\nNWSのHeatRisk予報は、地点ごとに予想される暑さを色と数値で適切な懸念レベルに分類し、そのレベルで特に危険な集団を特定し、防護の推奨を添える。評価では、その地点の気温が平年をどれだけ上回るかという[温度異常](/hubpedia/temperature-anomaly)の大きさ、季節内の時期、暖かい夜間最低気温が翌日まで熱ストレスを持ち越すかどうか、CDCの暑さ・健康閾値に基づくリスクなどが考慮される。ただしHeatRiskは試験的な製品で、常時の運用は保証されない。[9][10]\n\n## 熱中症の段階\n\n極端に暑く湿った天候では、体の冷却能力が限界に近づく。体が急速に温まりすぎて適切に冷やせなくなったり、脱水や発汗で水分や塩分を失いすぎたりすると体温が上昇し、熱関連疾患が起こりうる。[11]\n\n熱痙攣（ヒート・クランプ）は熱関連疾患の最初の兆候でありうるもので、通常は脚や腹部の痛みを伴う筋肉の痙攣と大量の発汗が現れ、熱疲労や熱射病へ進みうる。痙攣が1時間を超えて続く場合は直ちに医療機関を受診する。[12]\n\n熱疲労では、大量の発汗、衰弱や疲労感、冷たく青白く湿った皮膚、速くて弱い脈、筋肉痙攣、めまい、吐き気・嘔吐、頭痛、失神が現れる。涼しい、できれば冷房のある場所へ移し、衣服を緩め、冷たい湿布を当てるか冷たい風呂に座らせ、少量の水を与える。[13][14]\n\n熱射病は、体温103°F（約39.4°C）超、熱く赤い乾いたあるいは湿った皮膚、速く強い脈、ズキズキする頭痛、混乱、ろれつ不清、失神・意識喪失を伴う重篤な緊急事態であり、対応の遅れは致命的になりうる。直ちに救急要請するか病院へ搬送し、水分は与えてはならない。なお、暑熱指数が90°F台を超える状況では、扇風機で風を当てるとかえって体を温めることがある。[15][16][17]\n\n## 高危険群と予防\n\n幼児・乳児は体が暑さに適応しにくいため熱関連疾患と死亡に特に脆弱であり、既往症・服薬・独居・移動制限のある高齢者、慢性疾患のある人も熱波で重い健康問題を起こしやすい。妊婦も高リスクとされ、極端な暑さは低出生体重・早産・乳児死亡などの不良な出産結果と関連付けられている。[18][19][20][21]\n\n車内の熱も重大な危険である。子供・障害者・ペットを施錠した車内に残すことは冬でも決して安全ではなく、車内では10分ほどで死亡しうる。2025年には報告されただけでも31人の子供が暑い車内で死亡し、死亡例は4月にも報告され、南部州では12月まで続いている。[22][23]\n\n屋外作業については、労働安全衛生局（OSHA）が、暑熱環境への順化、作業場所への日陰の確保、早朝・夕方への作業移動、作業と休息の交代、重作業の制限、代替要員の活用といった保護措置を推奨している。[24]",
+    "sources": [
+      {
+        "url": "https://forecast.weather.gov/glossary.php?word=heat+wave",
+        "title": "NWS Glossary: Heat Wave",
+        "publisher": "National Weather Service",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.weather.gov/disclaimer"
+          },
+          "notes": "NWS glossary entry defining a heat wave. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items and logos are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.weather.gov/safety/heat-index",
+        "title": "Heat Forecast Tools",
+        "publisher": "National Weather Service",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.weather.gov/disclaimer"
+          },
+          "notes": "NWS page explaining the Heat Index, Wet Bulb Globe Temperature, and HeatRisk tools. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items and logos are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.weather.gov/safety/heat-illness",
+        "title": "Heat Cramps, Exhaustion, Stroke",
+        "publisher": "National Weather Service",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.weather.gov/disclaimer"
+          },
+          "notes": "NWS page on heat-related illness symptoms and first aid. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items and logos are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.weather.gov/safety/heat",
+        "title": "Heat Safety Tips and Resources",
+        "publisher": "National Weather Service",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.weather.gov/disclaimer"
+          },
+          "notes": "NWS heat safety overview covering vulnerable populations and vehicle heat danger. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items and logos are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Heat wave",
+        "summary": "A heat wave is a period of abnormally and uncomfortably hot, unusually humid weather that typically lasts two or more days. Its danger is assessed with indices that combine temperature, humidity, solar radiation and overnight warmth, and it drives heat illness and vehicle deaths.",
+        "bodyMarkdown": "## Definition and characteristics\n\nA heat wave is a period of abnormally and uncomfortably hot and unusually humid weather, typically lasting two or more days; the analogous phenomenon in the ocean is distinguished as a [marine heatwave](/hubpedia/marine-heatwave). [1]\n\nHeat is very taxing on the body and can cause heat-related illness or worsen existing health conditions. Everyone can be vulnerable to heat, though some more than others, and a prolonged heat wave also dries out the land and can worsen [drought](/hubpedia/drought) conditions. [2][3]\n\n## Heat indices and forecasting\n\nThe National Weather Service has multiple tools to assess the potential for heat stress from extreme temperatures, and they inform the issuance of official heat watches, warnings and advisories. Each integrates weather parameters beyond what the actual air temperature can tell. [4]\n\nThe Heat Index measures how hot it really feels when relative humidity is combined with the actual air temperature; for example, an air temperature of 96°F with 65 percent relative humidity yields a heat index of 121°F. Because the values were devised for shady, light-wind conditions, exposure to full sunshine can add up to 15°F, and strong winds with very hot, dry air can be extremely hazardous. [5][6][7]\n\nWet Bulb Globe Temperature (WBGT) uses temperature, humidity, wind, solar radiation and other parameters, and is a particularly effective indicator of heat stress for active populations such as outdoor workers and athletes. [8]\n\nThe NWS HeatRisk forecast places forecast heat for a location into a color-coded numeric level of concern and identifies the groups most at risk at that level, with protective recommendations. It considers how far above normal temperatures are — the local [temperature anomaly](/hubpedia/temperature-anomaly) — the time of year, whether warm overnight lows carry heat stress into the next day, and CDC heat-health thresholds. HeatRisk remains an experimental product and is not supported around the clock. [9][10]\n\n## Stages of heat illness\n\nDuring extremely hot and humid weather the body's ability to cool itself is challenged; when the body heats too rapidly to cool properly, or loses too much fluid or salt through dehydration or sweating, body temperature rises and heat-related illness can follow. [11]\n\nHeat cramps may be the first sign of heat-related illness — painful muscle cramps and spasms, usually in the legs and abdomen, with heavy sweating — and can lead to heat exhaustion or stroke; cramps lasting longer than an hour need immediate medical attention. [12]\n\nHeat exhaustion brings heavy sweating, weakness, cool pale clammy skin, a fast weak pulse, muscle cramps, dizziness, nausea or vomiting, headache and fainting. The response is to move the person to a cooler, preferably air-conditioned place, loosen clothing, apply cool wet cloths or a cool bath, and offer sips of water. [13][14]\n\nHeat stroke — body temperature above 103°F with hot, red, dry or damp skin, a rapid strong pulse, throbbing headache, confusion, slurred speech and loss of consciousness — is a severe medical emergency in which delay can be fatal. Call 911 or get the victim to a hospital immediately, and do not give fluids. Blowing a fan at someone can actually make them hotter when heat index values are above the high 90s. [15][16][17]\n\n## At-risk groups and prevention\n\nYoung children and infants are especially vulnerable because their bodies are less able to adapt to heat; older adults with pre-existing disease, medication use, isolation or limited mobility, and people with chronic medical conditions, are more likely to have serious health problems during a heat wave. Pregnant women are also at higher risk, and extreme heat events have been associated with adverse birth outcomes such as low birth weight, preterm birth and infant mortality. [18][19][20][21]\n\nVehicle heat is a serious danger: it is never safe to leave a child, disabled person or pet locked in a car, even in winter, and a child can die in as little as ten minutes. A reported 31 children died in hot cars in 2025, and deaths are routinely reported as early as April and into December in southern states. [22][23]\n\nFor outdoor work, the Occupational Safety and Health Administration recommends protective measures including acclimatizing workers, providing shade, scheduling work earlier or later in the day, work/rest schedules, limiting strenuous work and using relief workers. [24]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "熱波とは、異常に不快なほど暑く、通常より湿度も高い天候が続く期間であり、典型的には2日以上続く。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://forecast.weather.gov/glossary.php?word=heat+wave",
+              "quote": "A period of abnormally and uncomfortably hot and unusually humid weather. Typically a heat wave\n  lasts two or more days."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "暑さは人体に大きな負担をかけ、熱関連疾患を引き起こしたり既存の健康状態を悪化させたりする。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat",
+              "quote": "Heat can be very taxing on the body and can lead to"
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat",
+              "quote": "or make existing\nhealth conditions worse."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "誰もが暑さに対して脆弱になりうるが、その程度は人によって異なる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat",
+              "quote": "Everyone can be vulnerable to heat, but some more so than others."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "米国気象局は極端な高温による熱ストレスの可能性を評価する複数の手段を持ち、それらは公式の暑さの監視・警告・注意報の発表判断に使われ、実際の気温だけでは分からない情報を加味する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat-index",
+              "quote": "has multiple tools to assess the potential for heat stress due to\nextreme temperatures. The following tools can inform the issuance of NWS official heat watches,\nwarnings, and advisories."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat-index",
+              "quote": "integrate other weather parameters to provide a deeper\nlevel of information beyond what the actual air temperature can tell us."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "暑熱指数は、相対湿度を実際の気温に組み合わせたときに感じる暑さの尺度である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat-index",
+              "quote": "The Heat Index is a measure of how hot it really feels when"
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat-index",
+              "quote": "with the actual air temperature."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "気温96°Fで相対湿度65%の場合、暑熱指数は121°Fになる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat-index",
+              "quote": "if the air temperature is 96°F and\nthe relative humidity is 65%, the heat index--how hot it feels--is 121°F."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "暑熱指数は日陰で風の弱い条件を想定して作られており、直射日光への暴露では最大15°F高くなり、高温で乾燥した空気を伴う強風も非常に危険とされる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat-index",
+              "quote": "devised for shady, light wind conditions, exposure to full sunshine can\nincrease heat index values by up to 15°F."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat-index",
+              "quote": "strong winds, particularly with very hot, dry air,\ncan be extremely hazardous."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "湿球黒球温度（WBGT）は気温・湿度・風・日射量などの気象要素を用い、屋外労働者や運動選手のような活動的な集団の熱ストレス評価に特に有効とされる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat-index",
+              "quote": "WBGT uses temperature, humidity, wind, solar radiation, and other weather parameters."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat-index",
+              "quote": "particularly effective indicator of heat stress for active populations such as outdoor workers and\nathletes."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "NWSのHeatRisk予報は、地点ごとの予想される暑さを色と数値で適切な懸念レベルに分類し、そのレベルで特に危険な集団を特定し、防護の推奨を添える。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat-index",
+              "quote": "The NWS HeatRisk forecast provides a color and numeric value that places forecast heat for a\nspecific location into an appropriate level of heat concern, along with identifying groups\npotentially most at risk at that level."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "HeatRiskは、平年をどれだけ上回るか、季節内の時期、暖かい夜間最低気温が翌日まで熱ストレスを持ち越すか、CDCの暑さ・健康閾値に基づくリスクを考慮し、試験的な製品で常時運用は保証されない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat-index",
+              "quote": "How significantly above normal the temperatures are at your location,"
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat-index",
+              "quote": "will warm overnight low temperatures continue to add to heat stress into the next day"
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat-index",
+              "quote": "HeatRisk is an experimental product and is not supported 24/7."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "極端に暑く湿った天候では体の冷却能力が限界に近づき、体が急速に温まりすぎたり脱水や発汗で水分や塩分を失いすぎたりすると体温が上昇して熱関連疾患が起こりうる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat-illness",
+              "quote": "During extremely hot and humid weather,"
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat-illness",
+              "quote": "body heats too rapidly to cool itself properly, or when too much fluid or salt is lost through\ndehydration or sweating, body temperatures rise"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "熱痙攣は熱関連疾患の最初の兆候でありうるもので、通常は脚や腹部の痛みを伴う筋肉痙攣と大量の発汗が現れ、熱疲労や熱射病へ進みうる。痙攣が1時間を超える場合は直ちに医療機関を受診する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat-illness",
+              "quote": "Heat cramps may be the first sign of heat-related illness, and may lead to heat exhaustion or\nstroke."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat-illness",
+              "quote": "Painful muscle cramps and spasms usually in legs and abdomen. Heavy sweating."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat-illness",
+              "quote": "Seek immediate medical attention if cramps last longer than 1 hour."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "熱疲労では、大量の発汗、衰弱や疲労感、冷たく青白く湿った皮膚、速くて弱い脈、筋肉痙攣、めまい、吐き気・嘔吐、頭痛、失神が現れる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat-illness",
+              "quote": "Heavy sweating; weakness or tiredness; cool, pale, clammy skin; fast, weak\n  pulse; muscle cramps; dizziness, nausea or vomiting; headache; fainting."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "熱疲労の応急処置は、涼しいできれば冷房のある場所へ移し、衣服を緩め、冷たい湿布を当てるか冷たい風呂に座らせ、少量の水を与える。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat-illness",
+              "quote": "Move person to a cooler environment"
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat-illness",
+              "quote": "Apply cool, wet cloths or have person sit in a cool bath."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "熱射病は、体温103°F超、熱く赤い乾いたあるいは湿った皮膚、速く強い脈、ズキズキする頭痛、混乱、ろれつ不清、失神・意識喪失を伴う。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat-illness",
+              "quote": "Throbbing headache; confusion; slurred speech; nausea; dizziness; body temperature\n  above 103°F; hot, red, dry or damp skin; rapid and strong pulse; fainting; loss of consciousness."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "熱射病は重篤な緊急事態で対応の遅れは致命的になりうるため、直ちに救急要請するか病院へ搬送し、水分は与えてはならない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat-illness",
+              "quote": "Call 911 or get the victim to a hospital immediately."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat-illness",
+              "quote": "Heat stroke is a severe\n  medical emergency. Delay can be fatal."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat-illness",
+              "quote": "Do **NOT** give fluids."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "暑熱指数が90°F台を超える状況では、扇風機で風を当てるとかえって体を温めることがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat-illness",
+              "quote": "may actually make them hotter if heat index\ntemperatures are above the 90s."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "幼児・乳児は体が暑さに適応しにくいため、熱関連疾患と死亡に特に脆弱である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat",
+              "quote": "are particularly vulnerable to heat-related illness and death, as\n  their bodies are less able to adapt to heat than are adults."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "既往症・服薬・独居・移動制限のある高齢者は、極端な暑さへの暴露で複数の悪影響を受けうる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat",
+              "quote": "particularly those who have pre-existing diseases, take certain medications, are\n  living alone or have limited mobility who are exposed to extreme heat can experience multiple\n  adverse effects."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "慢性疾患のある人は、健康な人よりも熱波で重い健康問題を起こしやすい。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat",
+              "quote": "are more likely to have a serious health problem during\n  a heat wave than healthy people."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "妊婦も高リスクとされ、極端な暑さは低出生体重・早産・乳児死亡などの不良な出産結果と関連付けられている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat",
+              "quote": "Pregnant women are also at higher risk**. Extreme heat events have been associated with adverse\n  birth outcomes such as low birth weight, preterm birth, and infant mortality"
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "子供・障害者・ペットを施錠した車内に残すことは冬でも決して安全ではなく、車内では10分ほどで死亡しうる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat",
+              "quote": "safe to leave a child,\ndisabled person or pet locked in a car, even in the winter."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat",
+              "quote": "can die in 10 minutes"
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "2025年には報告されただけでも31人の子供が暑い車内で死亡し、死亡例は4月にも報告され南部州では12月まで続いている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat",
+              "quote": "A reported 31 children died in hot cars in 2025."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat",
+              "quote": "Deaths routinely are reported as early as April and tragedies\ncontinue into December in southern states."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "労働安全衛生局（OSHA）は、暑熱環境への順化、日陰の確保、早朝・夕方への作業移動、作業と休息の交代、重作業の制限、代替要員の活用など屋外作業の保護措置を推奨している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat-index",
+              "quote": "The Occupational Safety and Health Administration (OSHA) recommends protective measures for outdoor\nwork:"
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat-index",
+              "quote": "Use work/rest schedules"
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/heat-index",
+              "quote": "Use relief workers when needed"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "hail",
+    "topicType": "concept",
+    "categoryLabel": "地球・環境",
+    "title": "雹",
+    "summary": "雹は、雷雨の上昇気流の中で氷粒が過冷却水滴と衝突・凍結を繰り返して成長する氷の降水である。直径1インチ（約25mm）以上の雹を生じうる嵐は強烈な雷雨と定義され、農作物・建物・車両に大きな被害をもたらす。",
+    "bodyMarkdown": "## 定義と深刻度\n\n雹は、[雷雨](/hubpedia/thunderstorm)の中で形成される氷の[降水](/hubpedia/precipitation)である。米国気象局は、直径1インチ（約25mm）以上の雹または58mph（約93km/h）超の突風を生じうる嵐を強烈な雷雨と公式に定義しており、雷雨が強烈と見なされるにはこの少なくとも一方を満たす必要がある。[1][5]\n\n直径1インチという基準は米国の25セント硬貨ほどの大きさであり、この大きさの雹でも植物・屋根・車両などの財産を損傷しうる。一方で、スーパーセル雷雨では雹はグレープフルーツほどに成長しうるとされ、ソフトボールより大きな雹や100mphを超える風を生じる嵐もある。[2][3][8]\n\n## 雹ができる仕組み\n\n雹の胚となるのは小さな氷粒である。雷雨の上昇気流、すなわち強い上向きの気流に引き込まれた水滴は、氷点下レベルより上の高度で土や塩などの微小な浮遊粒子と結合して接触凍結し、小さな氷粒になる。[9]\n\nその氷粒は雲内にとどまり、過冷却の水滴と結合する過程を経て雹へと成長する。気象局の説明では、氷粒と過冷却水滴は上昇気流で持ち上げられて結合し、嵐の下降気流へ落ち、上昇気流が十分に強ければ再び氷点下の高さへ戻される。この過程が何度も繰り返されることで雹が育ち、上昇気流が支えられないほど重くなったときに地上へ落下する。[6][7][10]\n\n## 発生の季節性と関連する危険\n\n上空の気温が雹を凍らせ、落下中に融かさないほど十分に寒ければ、雹は一年中発生しうる。強烈な雹の報告数は春の月々に最も多く、2インチ（約5cm）以上の大きな雹の報告も春に集中する。秋の報告は少ないが、冬に向かって増える傾向がある。[11][12]\n\n雹を生む嵐は他の危険も伴う。雷雨は[竜巻](/hubpedia/tornado)や危険な[雷](/hubpedia/lightning)を生じ、大雨は鉄砲水による[洪水](/hubpedia/flood)を起こしうる。また、雷雨の風害には竜巻と直線風の2つの形態があり、直線風も樹木を倒して家屋・電線・車・人に被害を与えうる。[4][15]\n\n## 観測された事例と安全\n\n2013年3月18日にはミシシッピ州中央部の複数の地点でピンポン球からテニス球、さらにソフトボール大の雹が降り、最大の雹はラッシュアワーのジャクソン都市圏に落ちて、数千台の車と多くの建物に大きな被害を与え、約5億5000万ドルの損害をもたらした。クリントンに落ちたソフトボール大の雹は1950年以降の3月としては州第3位、全期間では第7位の大きさで、州史上最大は1962年4月10日にラファイエット郡で観測された直径5インチ（CD/DVDサイズ）である。[13][14]\n\n気象局は、強烈な気象の前・最中・後に何をすべきかを知っていれば生存の可能性を高められると説いている。[16]",
+    "sources": [
+      {
+        "url": "https://www.weather.gov/safety/thunderstorm",
+        "title": "Severe Thunderstorm Safety",
+        "publisher": "National Weather Service",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.weather.gov/disclaimer"
+          },
+          "notes": "NWS page defining severe thunderstorms by hail size and wind gusts, with associated hazards. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items and logos are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.weather.gov/bmx/outreach_svr",
+        "title": "What Constitutes a Severe Thunderstorm?",
+        "publisher": "National Weather Service",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.weather.gov/disclaimer"
+          },
+          "notes": "NWS Birmingham office page on severe thunderstorm criteria and how hailstones grow. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items and logos are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.weather.gov/jan/swpwfall_severe",
+        "title": "Fall Severe Weather Preparedness Week Day 2: Severe Thunderstorms",
+        "publisher": "National Weather Service",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.weather.gov/disclaimer"
+          },
+          "notes": "NWS Jackson office page on hail formation, seasonality, and the 2013 Mississippi hailstorm. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items and logos are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Hail",
+        "summary": "Hail is frozen precipitation that grows inside thunderstorm updrafts as ice particles collide with supercooled water droplets. Storms capable of producing hail an inch or larger are officially defined as severe thunderstorms, and hail damages crops, roofs and vehicles.",
+        "bodyMarkdown": "## Definition and severity\n\nHail is frozen [precipitation](/hubpedia/precipitation) that forms inside a [thunderstorm](/hubpedia/thunderstorm). The National Weather Service officially defines severe thunderstorms as storms capable of producing hail an inch or larger in diameter or wind gusts over 58 mph, and a storm must create at least one of the two to be considered severe. [1][5]\n\nThe one-inch threshold is roughly the size of a U.S. quarter, and hail that size can already damage property such as plants, roofs and vehicles. In supercell thunderstorms hailstones can grow as large as grapefruit, and some severe storms produce hail larger than softballs or winds over 100 mph. [2][3][8]\n\n## How hail forms\n\nHailstones begin as small ice particles. Water droplets drawn into a storm's updraft — its strong upward-moving air — are carried above the freezing level, where they combine with tiny airborne particles such as dirt or salt and freeze on contact into tiny ice particles. [9]\n\nThose ice particles stay suspended in the cloud, where they combine with supercooled water droplets and grow into hailstones. As the NWS Birmingham office explains, the particles are lifted by the updraft, fall into the storm's downdraft and, if the updraft is strong enough, are recycled back above the freezing level; the repetition of this process lets the stones grow, and they fall to the ground once too heavy for the updraft to hold. [6][7][10]\n\n## Seasonality and related hazards\n\nHail can occur throughout the year as long as temperatures aloft are cold enough to keep the hailstone frozen and stop it melting as it falls. Severe hail reports tend to peak in the spring months, as do reports of large hail two inches or more in diameter; fall reports are scarcer but ramp up again toward winter. [11][12]\n\nHail-producing storms bring other dangers too. Thunderstorms also produce [tornadoes](/hubpedia/tornado) and dangerous [lightning](/hubpedia/lightning), and heavy rain can cause [flash flooding](/hubpedia/flood). Damaging thunderstorm winds come in two forms, tornadoes and straight-line winds, and straight-line winds can knock down trees onto homes, power lines, cars and people. [4][15]\n\n## Observed events and safety\n\nOn March 18, 2013, hail ranging from ping-pong-ball to tennis-ball and even softball size fell across central Mississippi; the largest stones hit the Jackson metro area during rush hour, significantly damaging thousands of cars and many buildings and causing about 550 million dollars in damage. The softball-sized stone that fell in Clinton was the third largest March hailstone in Mississippi since 1950 and the seventh largest for any month, while the state record is a five-inch, CD/DVD-sized stone that fell in Lafayette County on April 10, 1962. [13][14]\n\nThe Weather Service teaches that knowing what to do before, during and after severe weather increases the chances of survival. [16]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "強烈な雷雨は、直径1インチ以上の雹または58mph超の突風を生じうる嵐として公式に定義される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/thunderstorm",
+              "quote": "Severe thunderstorms are officially defined as storms that are capable of producing hail that is"
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/thunderstorm",
+              "quote": "an inch or larger or wind gusts over 58 mph."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "直径1インチの大きさの雹でも、植物・屋根・車両などの財産を損傷しうる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/thunderstorm",
+              "quote": "Hail this size can damage property such as plants,"
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/thunderstorm",
+              "quote": "roofs and vehicles."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "一部の強烈な雷雨はソフトボールより大きな雹や100mphを超える風を生じる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/thunderstorm",
+              "quote": "Some severe thunderstorms can produce hail larger than softballs"
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/thunderstorm",
+              "quote": "or winds over 100 mph"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "雷雨は竜巻や危険な雷を生じ、大雨は鉄砲水を起こしうる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/thunderstorm",
+              "quote": "Thunderstorms also produce tornadoes and dangerous lightning"
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/thunderstorm",
+              "quote": "heavy rain can cause flash"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "雷雨が強烈と見なされるには、直径1インチ以上の雹か58mph以上の風の少なくとも一方を生じる必要がある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/bmx/outreach_svr",
+              "quote": "In order for a thunderstorm to be considered severe"
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/bmx/outreach_svr",
+              "quote": "Hail that is one (1) inch in diameter or larger"
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/bmx/outreach_svr",
+              "quote": "Winds of 58 miles per hour (mph) or greater"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "小さな氷粒と過冷却水滴は雷雨の上昇気流で持ち上げられて結合し、嵐の下降気流へ落ち、上昇気流が十分に強ければ再び氷点下の高さへ戻される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/bmx/outreach_svr",
+              "quote": "droplets that are lifted into a thunderstorm by its updraft can combine"
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/bmx/outreach_svr",
+              "quote": "downdraft of the storm, and then, if the updraft is strong enough, be recycled back up above"
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/bmx/outreach_svr",
+              "quote": "the freezing level in the storm."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "この過程が何度も繰り返されることで雹が育ち、上昇気流が支えられないほど重くなったときに地上へ落下する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/bmx/outreach_svr",
+              "quote": "the repeating of this process numerous times that"
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/bmx/outreach_svr",
+              "quote": "allows for hail stones to grow."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/bmx/outreach_svr",
+              "quote": "Once a hail stone is too big for the updraft to hold it up in"
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/bmx/outreach_svr",
+              "quote": "the storm, it will fall to Earth."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "スーパーセル雷雨では雹はグレープフルーツほどに成長しうるが、直径1インチ、およそ米国の25セント硬貨の大きさで強烈と見なされる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/bmx/outreach_svr",
+              "quote": "Hail stones can grow as large as grapefruit in supercell"
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/bmx/outreach_svr",
+              "quote": "it only takes a hail stone being one inch in diameter, or roughly"
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/bmx/outreach_svr",
+              "quote": "the size of a U.S quarter, to be considered severe."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "雷雨の上昇気流に引き込まれた水滴は、氷点下レベルより上で土や塩などの微小な浮遊粒子と結合して接触凍結し、小さな氷粒になる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/jan/swpwfall_severe",
+              "quote": "Hail is formed when water droplets are drawn into an area of strong upward moving air, known as an\nupdraft, of a storm."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/jan/swpwfall_severe",
+              "quote": "Once the water droplets are transported above the freezing level, they combine\nwith tiny airborne particles, such as dirt, salt, etc., and freeze on contact, forming tiny ice\nparticles."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "氷粒は雲内に浮遊したまま過冷却水滴と結合する過程を経て雹へと成長し、上昇気流の上向きの力を上回るほど重くなると雲から落下する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/jan/swpwfall_severe",
+              "quote": "remain suspended in the cloud, where they\nundergo processes that allow them to combine with other supercooled water droplets and grow into\nhailstones."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/jan/swpwfall_severe",
+              "quote": "Once the hailstones are heavy enough to overcome the upward force of the updraft, they\nfall out of the cloud."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "上空の気温が雹を凍らせ落下中に融かさないほど十分寒ければ雹は一年中発生しうる。強烈な雹の報告数は春に最も多く、2インチ以上の大きな雹の報告も春に集中する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/jan/swpwfall_severe",
+              "quote": "Hail can occur throughout the year as long as temperatures aloft are cold enough to support freezing\nof the hailstone"
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/jan/swpwfall_severe",
+              "quote": "The spring months tend to be the time of year\nthat the largest number of severe hail reports occur."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/jan/swpwfall_severe",
+              "quote": "2 inches or larger) reports also occurs during the spring months."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "秋の雹の報告は少ないが、冬に向かって増える傾向がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/jan/swpwfall_severe",
+              "quote": "While there are not a lot of hail\nreports in the fall, they do ramp up more into the winter months."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "2013年3月18日にミシシッピ州中央部でピンポン球からテニス球、ソフトボール大の雹が降り、最大の雹はラッシュアワーのジャクソン都市圏に落ちて数千台の車と多くの建物に被害を与え、約5億5000万ドルの損害となった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/jan/swpwfall_severe",
+              "quote": "hail to the\nsize of ping pong balls, tennis balls and even softballs fell across several locations in central\nMississippi."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/jan/swpwfall_severe",
+              "quote": "The largest of the hailstones fell across portions of the Jackson metro area during\nrush hour. This caused significant damage to thousands of cars and many buildings. Around 550\nmillion dollars in damage was caused by this destructive hailstorm."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "クリントンのソフトボール大の雹は1950年以降の3月としてはミシシッピ州第3位、全期間では第7位の大きさで、州史上最大は1962年4月10日にラファイエット郡で観測された直径5インチ（CD/DVDサイズ）である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/jan/swpwfall_severe",
+              "quote": "The softball size hailstone that\nfell in Clinton, MS was the third largest hailstone to fall in March in Mississippi since 1950 and\nthe seventh largest to fall in the state for any month of the year."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/jan/swpwfall_severe",
+              "quote": "The largest hailstone to fall in\nMississippi history was 5 inches in diameter, or CD/DVD size. This fell in Lafayette County on April\n10, 1962."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "雷雨の風害には竜巻と直線風の2つの形態がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/bmx/outreach_svr",
+              "quote": "Damaging winds from thunderstorms can come in two forms; tornadoes or straight line winds."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "強烈な気象の前・最中・後に何をすべきかを知っていれば、生存の可能性を高められる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/thunderstorm",
+              "quote": "If you know what to\ndo [before][55], [during][56], and [after][57] severe weather you can increase your chances of\nsurvival."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "fog",
+    "topicType": "concept",
+    "categoryLabel": "地球・環境",
+    "title": "霧",
+    "summary": "霧は、地表近くの空気で水滴が凝結して視程を低下させる現象である。成因によって放射霧・移流霧・蒸発霧・凍結霧などに分類され、道路・海上・航空の交通事故を毎年多数引き起こす。",
+    "bodyMarkdown": "## 概要と危険性\n\n霧の形成の基本原理は凝結である。気象局の資料でも移流霧が[凝結](/hubpedia/condensation)の結果と説明されており、地表に接した雲として扱える。特に濃い霧は運転者・船員・航空機の搭乗者にとって危険であり、毎年多くの交通事故に寄与している。視程の制限は航空機の離着陸の手順と要件にも影響し、気象に起因する航空遅延の原因となる。[1][2][3]\n\n## 霧の種類\n\n放射霧は、晴れた夜に凪の条件下で、昼間に地表が吸収した熱が宇宙へ放射されて地表が冷え続け、地面近くに十分な湿気の層があれば湿度が100%に達して形成される。深さは3フィートから約1000フィートまで幅があり、通常は滞留し、視程をほぼゼロまで下げて運転を非常に危険にすることがある。[4]\n\n谷霧は放射霧の一種である。日没後に尾根や山の斜面の空気が冷えて重くなり、谷底へ流れ込み、谷底の空気が放射冷却で飽和して発生する。非常に濃くなることがあるが、日が昇って霧層が蒸発し始めると速やかに消散する傾向がある。[5]\n\n移流霧も凝結の産物だが、地表温度の低下ではなく、暖かく湿った空気が積雪面のような冷たい面の上を水平に移動することで生じる。地面に沿った水平運動があるため、放射霧と区別できることがある。[6]\n\n[蒸発](/hubpedia/evaporation)によって空気に十分な水蒸気が加わり、湿った空気がより冷たく乾いた空気と混ざるときに形成されるのが蒸発霧（混合霧）である。代表的なものに、冷たい空気が暖かい水面を移動して湯気の筋が立ち上るように見えるスチーム霧と、暖かい雨滴が地面近くの冷たく乾いた空気の層へ蒸発してその湿度を100%に達させる前線霧がある。[7][8][9]\n\n珍しいものとして雹霧がある。激しい[雹](/hubpedia/hail)嵐の直後に、地表に積もった雹が直上の暖かく湿った空気を露点まで冷やすことで形成され、風が弱いときにできて、通常は斑状で浅い。[10]\n\n## 凍結霧と注意報\n\n凍結霧では、水滴が液体のまま存在し、凍結しうる表面に接触したときに凍る。過冷却された微小な液滴は、地表気温が氷点以下のとき、樹枝・階段・手すり・歩道・道路・車両など露出した表面に瞬時に凍り、接触したあらゆる物体を氷で覆う。[11][12]\n\n道路上ではブラックアイスを形成し、見えにくいため特に危険とされる。航空機にも薄い氷の層ができ、除氷処理か有効な防氷装置がなければ飛行が非常に危険になる。[13]\n\n気象局の地方オフィスは、広範な濃霧が発生して視程がしばしば4分の1マイル以下に落ちるときに濃霧注意報を発表する。また、地表気温が氷点以下で霧が発生したときは凍結霧注意報を発表し、この場合の視程は典型的に1マイル以下であり、凍結霧は運転・船舶・飛行などあらゆる交通を特に危険にする。[14][15]\n\n## 運転時の安全\n\n濃い霧に入ったら必ず減速する。霧の濃さで見えなくなりうる先行車との距離を十分に取り、ヘッドライトはロービームに切り替えることが推奨される。[16]",
+    "sources": [
+      {
+        "url": "https://www.weather.gov/lmk/fog_tutorial",
+        "title": "How Fog Forms",
+        "publisher": "National Weather Service",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.weather.gov/disclaimer"
+          },
+          "notes": "NWS Louisville office tutorial describing radiation, valley, advection, freezing, evaporation, and hail fog. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items and logos are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.weather.gov/safety/fog",
+        "title": "Fog Safety Overview",
+        "publisher": "National Weather Service",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.weather.gov/disclaimer"
+          },
+          "notes": "NWS fog safety overview on hazards to drivers, mariners, and aviators. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items and logos are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.weather.gov/safety/fog-ww",
+        "title": "Fog Advisories",
+        "publisher": "National Weather Service",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.weather.gov/disclaimer"
+          },
+          "notes": "NWS page on Dense Fog Advisory and Freezing Fog Advisory issuance criteria. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items and logos are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.weather.gov/safety/fog-freezing",
+        "title": "Freezing Fog",
+        "publisher": "National Weather Service",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.weather.gov/disclaimer"
+          },
+          "notes": "NWS page on supercooled freezing fog, black ice, and aircraft icing. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items and logos are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Fog",
+        "summary": "Fog is a surface-level cloud formed when water droplets condense in the air near the ground. Classified by cause into radiation, advection, evaporation, freezing and other types, it contributes to numerous road, marine and aviation accidents every year.",
+        "bodyMarkdown": "## Overview and hazards\n\nFog forms through [condensation](/hubpedia/condensation) — the NWS tutorial describes advection fog as a product of condensation — and can be treated as a cloud resting on the surface. Dense fog in particular is hazardous to drivers, mariners and aviators, and fog contributes to numerous travel accidents every year. The visibility restrictions also affect takeoff and landing procedures for pilots and can cause weather-related aviation delays. [1][2][3]\n\n## Types of fog\n\nRadiation fog forms at night under clear skies and calm winds, when heat absorbed by the surface during the day is radiated into space and the surface keeps cooling until, given a deep enough moist layer near the ground, humidity reaches 100 percent and fog forms. It ranges in depth from 3 feet to about 1,000 feet, usually stays stationary, and can cut visibility to near zero, making driving very hazardous. [4]\n\nValley fog is a type of radiation fog: air along ridgetops and upper mountain slopes cools after sunset, grows dense and drains into the valley floors below, where the air saturates and fog forms. It can be very dense but tends to dissipate quickly once the sun rises and starts evaporating the fog layer. [5]\n\nAdvection fog is also a product of condensation, but the cooling comes not from a falling surface temperature but from warm moist air moving horizontally over a cold surface such as snow cover. Its horizontal motion along the ground can distinguish it from radiation fog. [6]\n\nEvaporation or mixing fog forms when [evaporation](/hubpedia/evaporation) adds enough water vapor to the air and the moist air mixes with cooler, drier air. The two common types are steam fog — cold air moving over warm water, looking like wisps of smoke rising off the surface — and frontal fog, in which warm raindrops evaporate into a cooler, drier layer near the ground until its humidity reaches 100 percent. [7][8][9]\n\nA rarer type is hail fog, which forms shortly after a heavy [hail](/hubpedia/hail)storm: hail accumulated on the ground cools the warm, very moist air just above it to the dew point, producing fog that appears in light winds and is usually patchy and shallow. [10]\n\n## Freezing fog and advisories\n\nIn freezing fog, water droplets remain liquid until they touch a surface on which they can freeze. When surface temperatures are at or below freezing, the tiny supercooled droplets freeze instantly onto exposed surfaces — tree branches, stairs and rails, sidewalks, roads and vehicles — coating whatever they touch with ice. [11][12]\n\nOn roadways freezing fog can form black ice, which is difficult to see and therefore particularly dangerous. A thin layer of ice can also form on aircraft, making flight very dangerous unless the aircraft is treated or has effective de-icing equipment. [13]\n\nA local National Weather Service office issues a Dense Fog Advisory when widespread dense fog develops and visibilities frequently drop to a quarter of a mile or less. It issues a Freezing Fog Advisory when fog develops with surface temperatures at or below freezing, when visibilities are typically at or below one mile; freezing fog makes driving, boating, flying and other transportation particularly hazardous. [14][15]\n\n## Driving safety\n\nWhenever you drive into dense fog, always slow down, leave plenty of distance to the car ahead that the fog may hide, and switch your headlights to low beams. [16]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "霧の形成の基本原理は凝結であり、気象局の資料でも移流霧が凝結の結果と説明される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/lmk/fog_tutorial",
+              "quote": "Advection fog often looks like radiation fog and is also the result of condensation."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "特に濃い霧は運転者・船員・航空機の搭乗者にとって危険であり、毎年多くの交通事故に寄与している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/fog",
+              "quote": "Fog, particularly when dense, can be hazardous to drivers, mariners and aviators. Fog contributes to\nnumerous travel accidents every year."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "霧による視程の制限は航空機の離着陸の手順と要件に影響し、気象に起因する航空遅延の原因となる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/fog",
+              "quote": "Restrictions in visibility resulting from fog can also impact\ntakeoff and landing procedures and requirements for pilots, and can be the cause of weather-related\naviation delays."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "放射霧は、晴れた夜に凪の条件下で昼間に地表が吸収した熱が宇宙へ放射されて地表が冷え続け、地面近くに十分な湿気層があれば湿度が100%に達して形成される。深さは3フィートから約1000フィートで、通常滞留し、視程をほぼゼロにできる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/lmk/fog_tutorial",
+              "quote": "forms at night under clear skies with calm winds when heat absorbed by the"
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/lmk/fog_tutorial",
+              "quote": "surface during the day is radiated into space."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/lmk/fog_tutorial",
+              "quote": "provided a\ndeep enough layer of moist air is present near the ground, the humidity will reach 100% and fog will\nform."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/lmk/fog_tutorial",
+              "quote": "Radiation fog varies in depth from 3 feet to about 1,000 feet and usually remains stationary."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/lmk/fog_tutorial",
+              "quote": "can reduce visibility to near zero at times and make driving very hazardous."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "谷霧は放射霧の一種で、日没後に尾根や山の斜面の空気が冷えて重くなり谷底へ流れ込み、谷底の空気が放射冷却で飽和して発生する。非常に濃くなることがあるが、日が昇ると速やかに消散する傾向がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/lmk/fog_tutorial",
+              "quote": "Valley fog is a type of radiation fog. When air along ridgetops and the upper slopes of mountains\nbegins to cool after sunset, the air becomes dense and heavy and begins to drain down into the\nvalley floors below."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/lmk/fog_tutorial",
+              "quote": "the air becomes saturated and fog forms."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/lmk/fog_tutorial",
+              "quote": "This type of fog\ntends to dissipate very quickly once the sun comes up and starts to evaporate the fog layer."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "移流霧は、地表温度の低下ではなく、暖かく湿った空気が積雪面のような冷たい面の上を水平に移動することによる凝結で生じ、地面に沿った水平運動で放射霧と区別できることがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/lmk/fog_tutorial",
+              "quote": "the\ncondensation in this case is caused not by a reduction in surface temperature, but rather by the\nhorizontal movement of warm moist air over a cold surface, such as warm moist air flowing over snow."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/lmk/fog_tutorial",
+              "quote": "can sometimes be distinguished from radiation fog by its horizontal motion along the\nground."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "蒸発霧（混合霧）は、蒸発によって空気に十分な水蒸気が加わり、湿った空気がより冷たく乾いた空気と混ざるときに形成され、代表的なものにスチーム霧と前線霧がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/lmk/fog_tutorial",
+              "quote": "This type of fog forms when sufficient water vapor is added to the air by evaporation and the moist\nair mixes with cooler, relatively drier air. The two common types are steam fog and frontal\nfog."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "スチーム霧は、冷たい空気が暖かい水面を移動し、混合で湿った空気が冷やされて湿度が100%に達したときに形成され、水面から湯気の筋が立ち上るように見える。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/lmk/fog_tutorial",
+              "quote": "Steam fog forms when cold air moves over warm water."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/lmk/fog_tutorial",
+              "quote": "the moist air cools until its humidity reaches 100% and fog forms."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/lmk/fog_tutorial",
+              "quote": "takes on the appearance of wisps of smoke rising off the surface of the water."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "前線霧は、暖かい雨滴が地面近くの冷たく乾いた空気の層へ蒸発し、十分な雨が蒸発してその層の湿度が100%に達したときに形成される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/lmk/fog_tutorial",
+              "quote": "This type of fog forms when warm\nraindrops evaporate into a cooler drier layer of air near the ground. Once enough rain has\nevaporated into the layer of cool surface, the humidity of this air reaches 100% and fog forms."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "雹霧は珍しい種類で、激しい雹嵐の直後に地表に積もった雹が直上の暖かく湿った空気を露点まで冷やすことで形成され、風が弱いときにでき、通常は斑状で浅い。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/lmk/fog_tutorial",
+              "quote": "Hail fog is an unusual type of fog that forms shortly after a heavy hailstorm.  The cold balls of\nice fall into warm, very moist air near the surface.  As the hail accumulates on the ground, it\ncools the air just above the ground to the dew point, resulting in fog.  The fog forms when winds\nare light, and it usually quite patchy and shallow."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "凍結霧では、水滴が液体のまま存在し、凍結しうる表面に接触したときに凍り、接触したあらゆる物体を氷で覆う。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/lmk/fog_tutorial",
+              "quote": "Freezing fog occurs when water droplets remain in the liquid state until they come into contact with\na surface upon which they can freeze. As a result, any object the freezing fog comes into contact\nwith will become coated with ice."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "過冷却された微小な液滴は、地表気温が氷点以下のとき、樹枝・階段・手すり・歩道・道路・車両など露出した表面に瞬時に凍る。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/fog-freezing",
+              "quote": "Tiny, supercooled liquid water droplets in fog can freeze instantly on exposed surfaces when surface\ntemperatures are at or below freezing. Some surfaces that these droplets may freeze on include tree\nbranches, stairs and rails, sidewalks, roads and vehicles."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "凍結霧は道路上に見えにくいブラックアイスを形成し、航空機にも薄い氷の層ができ、除氷処理か有効な防氷装置がなければ飛行が非常に危険になる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/fog-freezing",
+              "quote": "Freezing fog can cause black ice to form on roadways. Black ice is difficult to see\nand so particularly dangerous."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/fog-freezing",
+              "quote": "a thin layer of ice can form on aircraft, making flight very dangerous unless the aircraft is\ntreated or has effective de-icing equipment."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "気象局の地方オフィスは、広範な濃霧が発生して視程がしばしば4分の1マイル以下に落ちるときに濃霧注意報を発表する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/fog-ww",
+              "quote": "is issued by your local National Weather Service office when widespread\ndense fog develops."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/fog-ww",
+              "quote": "visibilities frequently drop to one-quarter of a mile or\nless."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "地表気温が氷点以下で霧が発生したときは凍結霧注意報が発表され、この場合の視程は典型的に1マイル以下であり、凍結霧は運転・船舶・飛行などあらゆる交通を特に危険にする。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/fog-ww",
+              "quote": "is issued by your local National Weather Service office when fog\ndevelops and surface temperatures are at or below freezing."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/fog-ww",
+              "quote": "Freezing fog makes driving,\nboating, flying and other forms of transportation particularly hazardous."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/fog-ww",
+              "quote": "Visibilities are typically\nat or below 1 mile."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "濃い霧に入ったら必ず減速し、先行車との距離を十分に取り、ヘッドライトはロービームに切り替えることが推奨される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/lmk/fog_tutorial",
+              "quote": "whenever you drive into dense fog ALWAYS slow down. This will allow you to increase the\ndistance between your car and any cars in front of you that you may not be able to see due to the\nthickness of the fog. It is also important to switch your headlights to low beams."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "wind-chill",
+    "topicType": "concept",
+    "categoryLabel": "地球・環境",
+    "title": "体感温度",
+    "summary": "体感温度（ウィンドチル）は、風と寒さによって露出した皮膚から熱が奪われる速度に基づく、屋外で人や動物が感じる寒さの指標である。気温50°F以下かつ風速3mph超でのみ定義され、凍傷・低体温症の危険度を示す。",
+    "bodyMarkdown": "## 体感温度とは\n\n体感温度（風冷指数、ウィンドチル）は、屋外で人や動物が感じる寒さの度合いであり、風と寒さによって露出した皮膚から熱が奪われる速度に基づく。風が強まるほど体から熱が奪われ、皮膚温度が下がり、やがて体内の深部体温も下がる。例えば気温0°F（約-18°C）で風速15mph（約24km/h）のとき体感温度は-19°F（約-28°C）となり、この条件下では露出した皮膚が30分で凍りうる。[1][2][3]\n\n気象局の冬季警報用語集でも、体感温度は風と低温の複合効果により人が感じる寒さの尺度とされ、熱損失率を基礎とする指標として定義される。動物もその影響を受けるが、車両や建物などの無生物は風のあるとき早く冷えるだけで、実際の気温までしか下がらない。[4]\n\n## 指標の仕組み\n\nNWSの体感温度指標は、科学・技術・計算モデルの進歩を取り入れ、冬の風と氷点下の気温の危険を計算するための式を提供する。風速は、標準的な風速計の高さ33フィート（約10m）の観測値から、成人の顔の高さに相当する平均5フィート（約1.5m）の値へ換算され、人体の顔のモデルに基づく。[5][6]\n\n式は、寒冷で風のある日に体から周囲へ失われる熱の熱伝達理論を組み込み、無風の閾値を3mphへ下げ、皮膚組織の抵抗に一貫した標準を使い、晴れた夜空を想定して日射の影響を含めない。算出式は「体感温度（°F）= 35.74 + 0.6215T - 35.75（V^0.16）+ 0.4275T（V^0.16）」であり、Tは気温（°F）、Vは風速（mph）である。なお、この指標は気温50°F（約10°C）以下かつ風速3mph超でのみ定義され、明るい日射は体感温度を10〜18°F高めることがある。[7][8][9]\n\n湿度は含まれない。NWSの試験では相対湿度の影響は1度未満と小さく、計算を簡単にするため除外された。[10]\n\n## 適用範囲と限界\n\n体感温度が適用されるのは人と動物だけである。車のラジエーターや水道管のような無生物への効果は、実際の気温までより速く冷えるだけであり、実際の気温を下回ることはない。[11]\n\n同じ理由で、気温が氷点下でなければ露出した皮膚に凍傷は発生しない。体感温度は、温度計が氷点以上を示す状況を氷点下にすることはできず、凍傷にはならないが、寒冷暴露による低体温症の可能性は残る。[12]\n\nこの指標は成人を対象にした試験に基づく。安全上・倫理上の理由から子供の被験者は使われなかったため、子供・高齢者・健康に問題のある人には既存の表を出発点として、より慎重に扱うことが勧められる。[13]\n\n## 警報と寒さの危険\n\n極寒の空気と強い風が組み合わさって危険なほど低い体感温度が見込まれるとき、気象局は体感温度に関する警報・監視・注意報を発表する。その水準では対策を取らなければ凍傷や低体温症を招き、[吹雪](/hubpedia/blizzard)のように強風と低温が重なる状況で特に危険になる。監視は危険な組み合わせの可能性があるとき、注意報は警告基準に達しない程度の低い体感温度が予想されるときに発表される。[14][15][16]\n\n発表基準は地域ごとに設定される。例えばニューヨーク州ロチェスター地域では、体感温度が-25°F（約-32°C）以下に下がる見込みで極寒警報、気温または体感温度が-15〜-24°F（約-26〜-31°C）の見込みで寒冷注意報が発表される。[17]\n\n極寒の空気自体も危険である。北極の空気と冷たい風が重なると危険な体感温度になり、極寒にさらされた人は凍傷を起こしやすく、露出した皮膚や手足の末端が特に危険である。体が熱を産生するより速く失うと低体温症になり、数分で陥ることがある。作物への影響もあり、気温が32°F（0°C）を下回ると凍害となり、晴れて凪の夜には30°F台半ばの気温でも霜が発生しうる。そのような晴れて風のない夜は、[霧](/hubpedia/fog)のうち放射霧も発生しやすい条件である。なお、暑さの側では暑熱指数が同様に体感の尺度として使われ、[熱波](/hubpedia/heat-wave)の危険評価に用いられる。[18][19]",
+    "sources": [
+      {
+        "url": "https://www.weather.gov/safety/cold-wind-chill-chart",
+        "title": "Understanding Wind Chill",
+        "publisher": "National Weather Service",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.weather.gov/disclaimer"
+          },
+          "notes": "NWS page explaining the wind chill concept, formula, assumptions, and local warning criteria. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items and logos are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.weather.gov/safety/winter-ww",
+        "title": "Winter Weather Warnings, Watches and Advisories",
+        "publisher": "National Weather Service",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.weather.gov/disclaimer"
+          },
+          "notes": "NWS page listing wind chill warnings, watches, advisories, and the key term definition. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items and logos are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.weather.gov/safety/cold",
+        "title": "Cold Weather Safety",
+        "publisher": "National Weather Service",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.weather.gov/disclaimer"
+          },
+          "notes": "NWS cold weather safety page covering wind chill danger, frostbite, hypothermia, and crop freezes. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items and logos are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Wind chill",
+        "summary": "Wind chill is a measure of how cold people and animals feel outdoors, based on the rate of heat loss from exposed skin caused by wind and cold. It is defined only for temperatures at or below 50°F with winds above 3 mph, and it communicates the danger of frostbite and hypothermia.",
+        "bodyMarkdown": "## What wind chill is\n\nWind chill is how cold people and animals feel when outside, based on the rate of heat loss from exposed skin caused by wind and cold. As the wind increases it draws heat from the body, driving down skin temperature and eventually internal body temperature; for example, at 0°F with a 15 mph wind the wind chill is -19°F, a level at which exposed skin can freeze in 30 minutes. [1][2][3]\n\nThe Weather Service's winter warning glossary likewise defines wind chill as a measure of how cold people feel from the combined effect of wind and cold temperatures, an index based on heat loss from exposed skin. Animals feel the effects too, but inanimate objects such as vehicles and buildings do not — they only cool to the actual air temperature, though faster in wind. [4]\n\n## How the index works\n\nThe NWS Wind Chill Temperature uses advances in science, technology and computer modeling to provide a formula for calculating the dangers of winter winds and freezing temperatures. Wind speed is calculated at an average height of 5 feet — the typical height of an adult human face — from readings at the standard anemometer height of 33 feet, and the index is based on a human face model. [5][6]\n\nThe formula incorporates heat transfer theory for heat loss from the body to its surroundings on cold, breezy days, lowers the calm-wind threshold to 3 mph, uses a consistent standard for skin tissue resistance, and assumes no impact from the sun — a clear night sky. The formula is wind chill in °F = 35.74 + 0.6215T - 35.75(V^0.16) + 0.4275T(V^0.16), where T is air temperature in °F and V is wind speed in mph. The index is defined only for temperatures at or below 50°F and wind speeds above 3 mph, and bright sunshine may raise the wind chill temperature by 10 to 18°F. [7][8][9]\n\nHumidity is not included: NWS testing found relative humidity insignificant, affecting the outcome by less than one degree, so it was left out to simplify the calculation. [10]\n\n## Scope and limits\n\nWind chill applies only to people and animals. Its only effect on inanimate objects such as car radiators and water pipes is to cool them more quickly to the current air temperature — they will not cool below the actual air temperature. [11]\n\nFor the same reason, air temperature has to be below freezing for frostbite to develop on exposed skin. Wind chill cannot bring the temperature below freezing when the thermometer reads above freezing, so frostbite will not occur — though hypothermia from cold exposure remains possible. [12]\n\nThe index rests on tests conducted on adult subjects; for legal and safety reasons no child volunteers were used, so the chart should be a starting point and extra caution applied for children, the elderly and people with compromised health. [13]\n\n## Warnings and cold dangers\n\nWhen extremely cold air and strong winds are expected to combine into dangerously low wind chill values, the Weather Service issues wind chill watches, warnings and advisories; at that level, failing to take precautions leads to frostbite and hypothermia, which is especially dangerous when strong wind and cold coincide as in a [blizzard](/hubpedia/blizzard). A watch is issued when there is potential for the dangerous combination, and an advisory when low wind chills are expected but should not reach local warning criteria. [14][15][16]\n\nIssuance criteria are set locally: in the Rochester, New York area, for example, an Extreme Cold Warning is issued when apparent temperature is expected to fall at or below -25°F, and a Cold Weather Advisory when air or wind chill temperature is expected between -15°F and -24°F. [17]\n\nExtreme cold itself is dangerous. Arctic air combined with brisk winds produces dangerously low wind chills; people exposed to extreme cold are susceptible to frostbite, with uncovered skin and extremities such as hands and feet most prone, and hypothermia sets in when the body loses heat faster than it can produce it, sometimes in minutes. Cold also affects crops: a freeze occurs when temperatures drop below 32°F, and frost can develop on clear, calm nights even in the mid-30s — the same clear, calm nights on which radiation [fog](/hubpedia/fog) tends to form. On the hot side, the Heat Index serves as the analogous feels-like measure used in assessing [heat wave](/hubpedia/heat-wave) danger. [18][19]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "体感温度は、屋外で人や動物が感じる寒さの度合いであり、風と寒さによって露出した皮膚から熱が奪われる速度に基づく。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/cold-wind-chill-chart",
+              "quote": "The wind chill temperature is how cold people and animals feel when outside. Wind chill is based on\nthe rate of heat loss from exposed skin caused by wind and cold."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "風が強まるほど体から熱が奪われ、皮膚温度が下がり、やがて体内の深部体温も下がる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/cold-wind-chill-chart",
+              "quote": "As the wind increases, it draws\nheat from the body, driving down skin temperature and eventually the internal body temperature.\nTherefore, the wind makes it FEEL much colder."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "気温0°Fで風速15mphのとき体感温度は-19°Fとなり、この条件下では露出した皮膚が30分で凍りうる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/cold-wind-chill-chart",
+              "quote": "If the temperature is 0°F and the wind is blowing at\n15 mph, the wind chill is -19°F. At this wind chill temperature, exposed skin can freeze in 30\nminutes."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "気象局の用語集では体感温度は風と低温の複合効果による寒さの尺度で熱損失率に基づく指標とされ、動物も影響を受けるが無生物は実際の気温までしか下がらない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/winter-ww",
+              "quote": "A measure of how cold people feel due to the combined effect of wind and cold\n  temperatures"
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/winter-ww",
+              "quote": "Animals also feel the effects of wind chill; but inanimate objects,\n  such as vehicles and buildings, do not. They will only cool to the actual air temperature,\n  although much faster during windy conditions."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "NWSの体感温度指標は、科学・技術・計算モデルの進歩を取り入れ、冬の風と氷点下の気温の危険を計算するための式を提供する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/cold-wind-chill-chart",
+              "quote": "The NWS Wind Chill Temperature uses advances in science, technology, and computer modeling to\nprovide an accurate, understandable, and useful formula for calculating the dangers from winter\nwinds and freezing temperatures."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "風速は、標準的な風速計の高さ33フィートの観測値から成人の顔の高さに相当する平均5フィートの値へ換算され、人体の顔のモデルに基づく。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/cold-wind-chill-chart",
+              "quote": "Calculates wind speed at an average height of 5 feet, the typical height of an adult human face,\n  based on readings from the national standard height of 33 feet, which is the typical height of an\n  anemometer"
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/cold-wind-chill-chart",
+              "quote": "Is based on a human face model"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "式は寒冷で風のある日に体から周囲へ失われる熱の熱伝達理論を組み込み、無風の閾値を3mphへ下げ、皮膚組織の抵抗に一貫した標準を使い、日射の影響を含めない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/cold-wind-chill-chart",
+              "quote": "Incorporates heat transfer theory based on heat loss from the body to its surroundings, during\n  cold and breezy/windy days"
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/cold-wind-chill-chart",
+              "quote": "Lowers the calm wind threshold to 3 mph"
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/cold-wind-chill-chart",
+              "quote": "Uses a consistent standard for skin tissue resistance"
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/cold-wind-chill-chart",
+              "quote": "Assumes no impact from the sun, i.e., clear night sky."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "算出式は「体感温度（°F）= 35.74 + 0.6215T - 35.75（V^0.16）+ 0.4275T（V^0.16）」であり、Tは気温（°F）、Vは風速（mph）である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/cold-wind-chill-chart",
+              "quote": "Wind chill (ºF) = 35.74 + 0.6215T - 35.75(V^0.16) + 0.4275T(V^0.16)"
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/cold-wind-chill-chart",
+              "quote": "T = Air Temperature (F)"
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/cold-wind-chill-chart",
+              "quote": "V = Wind Speed (mph)"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "この指標は気温50°F以下かつ風速3mph超でのみ定義され、明るい日射は体感温度を10〜18°F高めることがある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/cold-wind-chill-chart",
+              "quote": "The Wind Chill Temperature is defined only for temperatures at or below 50°F and wind speeds\nabove 3 mph."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/cold-wind-chill-chart",
+              "quote": "Bright sunshine may increase the wind chill temperature by 10°F to 18°F."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "相対湿度の影響は1度未満と小さいため、計算を簡単にするため除外された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/cold-wind-chill-chart",
+              "quote": "relative humidity was an insignificant weather\n  parameter, affecting the outcome to less than 1 degree. To simplify the calculation, relative\n  humidity was left out."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "体感温度が適用されるのは人と動物だけであり、無生物への効果は実際の気温までより速く冷えるだけで、実際の気温を下回ることはない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/cold-wind-chill-chart",
+              "quote": "wind chill applies only to people and animals. The only effect wind chill has on inanimate\n  objects, such as car radiators and water pipes, is to cool the object more quickly to the current\n  air temperature. The inanimate object will NOT cool below the actual air temperature."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/cold-wind-chill-chart",
+              "quote": "radiator will not drop lower than -5°F."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "気温が氷点下でなければ露出した皮膚に凍傷は発生せず、体感温度は温度計が氷点以上を示す状況を氷点下にすることはできないが、寒冷暴露による低体温症の可能性は残る。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/cold-wind-chill-chart",
+              "quote": "The air temperature has to be BELOW freezing for frostbite to develop on exposed skin. Wind chill\n  can NOT bring the temperature to below freezing for humans and animals when the thermometer says\n  it is above freezing, so you will not get frostbite; however, you might get hypothermia from\n  exposure to cold."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "この指標は成人を対象にした試験に基づき、安全上・倫理上の理由から子供の被験者は使われなかったため、子供・高齢者・健康に問題のある人にはより慎重に扱うことが勧められる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/cold-wind-chill-chart",
+              "quote": "The tests that were done on wind chill were conducted on adult subjects. For legal and safety\n  reasons, NWS did not ask for child volunteers. Use the existing chart as a starting point and be\n  even more cautious with children, the elderly, and persons with compromised health."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "極寒の空気と強い風が組み合わさって危険なほど低い体感温度が見込まれるときに体感温度警報が発表され、その水準では対策を取らなければ凍傷や低体温症を招く。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/winter-ww",
+              "quote": "are issued for a combination of very cold air and strong winds that will\n  create dangerously low wind chill values. This level of wind chill will result in frostbite and\n  lead to hypothermia if precautions are not taken."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "体感温度注意報は、低い体感温度が予想されるが地方の警告基準に達しないときに発表される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/winter-ww",
+              "quote": "are issued when low wind chill temperatures are expected but will not\n  reach local warning criteria."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "体感温度監視は、極寒の空気と強い風の組み合わせが危険なほど低い体感温度を生む可能性があるときに発表される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/winter-ww",
+              "quote": "are issued when there is the potential for a combination of extremely cold\n  air and strong winds to create dangerously low wind chill values."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "発表基準は地域ごとに設定され、ニューヨーク州ロチェスター地域では体感温度-25°F以下の見込みで極寒警報、気温または体感温度-15〜-24°Fの見込みで寒冷注意報が発表される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/cold-wind-chill-chart",
+              "quote": "Criteria for issuing official NWS Extreme Cold Warnings and Cold Weather Advisories are set\n  locally. For example, the Rochester, NY area, Extreme Cold Warnings are issued when the apparent\n  temperature with or without wind is expected to fall at or below -25°F. Cold Weather Advisories\n  are issued when the air temperature or wind chill temperature is expected to fall between -15°F\n  and -24°F."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "北極の空気と冷たい風が重なると危険な体感温度になり、極寒にさらされた人は凍傷を起こしやすく露出した皮膚や手足の末端が特に危険で、体が熱を産生するより速く失うと数分で低体温症に陥ることがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/cold",
+              "quote": "Combined with brisk winds,\ndangerously cold wind chill values can result."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/cold",
+              "quote": "and can succumb to hypothermia in a matter of minutes."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/cold",
+              "quote": "Areas most prone to frostbite\nare uncovered skin and the extremities, such as hands and feet."
+            },
+            {
+              "sourceUrl": "https://www.weather.gov/safety/cold",
+              "quote": "occurs when the\nbody loses heat faster than it can produce it."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "作物への影響もあり、気温が32°Fを下回ると凍害となり、晴れて凪の夜には30°F台半ばの気温でも霜が発生しうる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.weather.gov/safety/cold",
+              "quote": "A freeze occurs when the\ntemperature drops below 32°F. Freezes and their effects are significant during the growing season.\nFrost develops on clear, calm nights and can occur when the air temperature is in the mid-30s."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

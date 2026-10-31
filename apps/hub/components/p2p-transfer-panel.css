@@ -1,0 +1,16 @@
+.p2p-transfer{max-width:760px;margin:0 auto;padding:24px 20px 80px;color:var(--text);overflow-wrap:anywhere}
+.p2p-transfer header{margin-bottom:24px}.p2p-transfer h1{font-size:clamp(24px,5vw,32px);margin:4px 0 12px}.p2p-transfer h2{font-size:17px;margin:0 0 12px}
+.p2p-transfer p{line-height:1.7;color:var(--muted);font-size:14px}.p2p-kicker{font-size:12px!important;letter-spacing:.08em}
+.p2p-transfer section{padding:20px 0;border-top:var(--divider)}.p2p-transfer label{display:grid;gap:6px;font-size:13px;margin:14px 0}
+.p2p-transfer textarea,.p2p-transfer input:not([type=checkbox]){width:100%;min-width:0;padding:10px;border:var(--divider);border-radius:8px;background:var(--surface-sunken);color:var(--text);font:inherit;box-sizing:border-box}
+.p2p-transfer textarea{resize:vertical;font-family:monospace}.p2p-actions{display:flex;flex-wrap:wrap;gap:8px}.p2p-transfer button{padding:8px 12px;border:var(--divider);border-radius:8px;background:var(--interactive);color:var(--text);font-size:13px;cursor:pointer}.p2p-transfer button:disabled{opacity:.5;cursor:default}
+.p2p-transfer button:focus-visible,.p2p-transfer input:focus-visible,.p2p-transfer textarea:focus-visible{outline:2px solid var(--focus-ring);outline-offset:2px}
+.p2p-status{padding:12px 14px;border:var(--divider);border-radius:10px;background:var(--surface-sunken)}.p2p-transfer [role=alert]{color:var(--danger-text)}
+.p2p-transfer details{border:var(--divider);border-radius:8px;padding:12px}.p2p-transfer summary{cursor:pointer;font-size:13px}.p2p-transfer .p2p-check{display:flex;align-items:center;gap:8px}
+.p2p-code{display:block;font:600 clamp(16px,4vw,24px) monospace;letter-spacing:.05em;color:var(--emphasis);padding:16px 0}.p2p-note{font-size:12px!important}
+.p2p-receive{padding:16px;margin:16px 0;border:var(--divider);border-radius:10px}.p2p-download{display:block;margin-top:16px;color:var(--emphasis)}.p2p-end{margin-top:12px}
+.p2p-invite{display:grid;justify-items:center;text-align:center;margin:20px 0}.p2p-invite img{max-width:100%;height:auto;border-radius:12px}.p2p-transfer .p2p-primary{padding:12px 20px;font-size:15px;font-weight:600;border-color:var(--emphasis)}
+.p2p-device-list{list-style:none;padding:0}.p2p-device-list li{display:flex;gap:12px;align-items:center;justify-content:space-between;padding:12px 0;border-bottom:var(--divider)}.p2p-transfer button[aria-pressed=true]{border-color:var(--emphasis);font-weight:600}
+/* The transfer form fits beside the navigation rail on phones. */
+.v2__workspace #hub-main.v2__main:has(.p2p-transfer){min-width:0;flex:1 1 0}
+@media(max-width:600px){.v2__main .p2p-transfer{padding:12px 0 40px}.p2p-device-list li{flex-wrap:wrap}}

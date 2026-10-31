@@ -1,0 +1,3089 @@
+[
+  {
+    "slug": "food-emissions",
+    "topicType": "concept",
+    "categoryLabel": "地球・環境",
+    "title": "食料の排出",
+    "summary": "食料の排出とは、農地の造成から作物・家畜の生産、加工、輸送、廃棄にいたる食料システムに伴う温室効果ガスの排出を指す。世界の排出量のおよそ4分の1を占め、その内訳は品目によって大きく偏る。牛肉や羊肉は同じ栄養を得るのに植物性食品の数十倍の土地を要する一方、輸送の寄与は食料排出量の6%にとどまり、排出の重心は生産段階と土地利用の側にある。",
+    "bodyMarkdown": "## 排出量全体に占める位置\n\n世界の[温室効果ガス](/hubpedia/greenhouse-gas)排出量のうち、電力・熱・輸送・産業プロセスといったエネルギー利用が76%と大部分を占める。これに対し食料は約26%を占め、食料と農業を合わせた排出は世界全体のおよそ4分の1にあたる。エネルギー部門の脱炭素化が進んでも、この4分の1は別の経路から生じる。 [1][2][3]\n\n## 発生源の内訳\n\n食料由来の排出は大きく四つの発生源に分かれる。最も大きいのは家畜と漁業で31%、次いで作物生産が27%を占める。作物生産の内訳を開くと、人間が直接食べる作物の生産が21%、家畜の飼料となる作物の生産が6%である。 [4][5][6]\n\n残りは土地と流通が担う。農地への転換を含む土地利用が24%、加工・輸送・包装・小売からなるサプライチェーンが18%である。このうち輸送だけを取り出すと食料の総排出量の6%にとどまり、排出の大部分は消費地へ運ぶ過程ではなく生産と土地の側で生じている。 [7][9][10]\n\n## 土地利用にともなう排出の内訳\n\n土地利用による24%は、さらに用途別に分けられる。家畜のための土地利用に伴う排出は16%で、人間の食用作物のための8%の2倍にあたる。転換先で見ると、人間の食用への転換が6%、家畜飼料生産への転換が12%を占める。 [8][12]\n\n残る部分は、農地の造成そのものとは別の経路から生じる。食料排出量の2%を占めるサバンナの野焼きは、主にアフリカで家畜の放牧のために低木地を焼くものである。耕作された有機土壌からの排出は4%で、これも人間の食用と家畜飼料に分けて数えられる。 [13][14]\n\n## 農地の広がり\n\n排出の配分は、[土地利用](/hubpedia/land-use)の配分とほぼ重なる。世界の居住可能な土地の半分が農業に使われ、その大部分は乳製品と食肉のための家畜飼育に充てられている。牧草地と飼料用の耕作地を合わせると農業用地の約80%が[食肉生産](/hubpedia/meat-production)と乳製品の生産に向けられ、その面積はアラスカからティエラ・デル・フエゴまでのアメリカ大陸に匹敵する。2010年時点の世界平均的な食生活に基づく現在の配分では、約4分の3が牧草地、残る4分の1が耕作地である。 [15][20][27][29]\n\nただし、この半分という数値自体に幅がある。国連食糧農業機関（FAO）のデータでは居住可能な土地の50%が農業に使われているとされるが、Poore and Nemecek（2018）はこれを43%としている。また牧草地の3分の2、推定では65%が作物栽培に適さない土地であり、放牧地のすべてが作物栽培に置き換えられるわけではない。 [28][36][37]\n\n## 品目ごとの差\n\n品目ごとの差は、同じ栄養を得るのに要する土地の量として最もはっきり現れる。牛肉や羊肉で1キロカロリーを生産するには、[植物性代替食品](/hubpedia/diet-and-land)に比べて50〜100倍の土地が必要となる。タンパク質1グラムで比べても、エンドウ豆や豆腐に対してほぼ50〜100倍の開きがある。食生活の変更としては、牛肉と乳製品をやめて鶏肉・卵・魚・植物性食品に置き換えることのほうが、鶏肉や魚をやめることよりもはるかに大きな影響を持つ。 [17][18][19]\n\n家畜の側から見ると、投入した飼料のうち可食部として戻る割合は小さい。牛のエネルギー効率は約2%で、100キロカロリーを与えて得られる牛肉は2キロカロリーにすぎない。動物のなかでは牛が最も効率が悪く、羊、豚、鶏の順に効率が良くなり、一般に小型の動物ほど飼料効率が高い。 [25][30][39]\n\n## 穀物と大豆の用途\n\n穀物と大豆の流れを追うと、飼料の位置が見えてくる。世界の穀物のうち人間が直接食べているのは48%未満で、41%が家畜飼料に、11%がバイオ燃料に回る。国による差は大きく、ヨーロッパの多くの国では穀物生産のうち人間の消費に向かうのは3分の1未満、米国では10%にとどまる。大豆では、豆腐・テンペ・豆乳など人間の食用に使われるのは7%にすぎない。 [22][23][24]\n\n反対の端もある。インドでは穀物の93%、ケニアでは95%、ボツワナでは96%が人間に消費されている。 [38]\n\n## 食生活の転換による土地需要の推計\n\n食生活を変えた場合の効果は、必要な土地の面積として推計されている。世界が植物性食生活に移行すれば、農業に使われる世界の土地利用は75%削減できると考えられている。ヴィーガン食への移行を想定した推定では、農業用地の総利用面積は41億ヘクタールから10億ヘクタールへ減る。いずれも観測された変化ではなく、想定に基づく推計である。 [16][21]\n\n## 栄養面の制約\n\n土地あたりの効率だけで食料を選べない理由は、栄養素の分布にある。豆類、すなわち豆、エンドウ豆、豆腐などの大豆製品は良質なタンパク質を含むが、穀物は単独では良質なタンパク質を含まない。穀物は必須アミノ酸の一部を欠く不完全なアミノ酸プロファイルを持ち、カルシウム・鉄・ビタミンB群といった[重要な微量栄養素](/hubpedia/micronutrient-deficiency)も欠く。これに対し食肉・乳製品・魚・卵といった個々の動物性食品は完全なアミノ酸プロファイルを持ち、ビタミンB12は動物性食品または栄養補助食品からのみ摂取できる。 [31][32][33][34][35]\n\n## 損失と廃棄\n\n生産された食料のすべてが食べられるわけではない。食料生産による排出のうち4分の1、CO2換算で33億トンは、サプライチェーンでの損失または消費者段階での廃棄として失われる。形態による差もあり、加工された果物・野菜の廃棄は生鮮品より約14%少なく、魚介類では8%少ない。 [11][26]\n\n## 関連記事\n\n- [食料供給](/hubpedia/food-supply)",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/food-ghg-emissions",
+        "title": "食料の排出",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on food-emissions. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/land-use-diets",
+        "title": "land-use-diets",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Land that diets require. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Food emissions",
+        "summary": "Food emissions are the greenhouse gas emissions associated with the food system, from the creation of farmland through crop and livestock production, processing, transport, and disposal. They account for roughly a quarter of global emissions, and the breakdown is heavily skewed by product. Beef and lamb require dozens of times more land than plant-based foods to deliver the same nutrition, while transport contributes only 6% of food emissions, placing the center of gravity on the production stage and land use.",
+        "bodyMarkdown": "## Position within total emissions\n\nOf global [greenhouse gas](/hubpedia/greenhouse-gas) emissions, energy use — electricity, heat, transport, and industrial processes — accounts for the large majority at 76%. Food, by contrast, accounts for about 26%, and emissions from food and agriculture combined amount to roughly a quarter of the world total. Even as the energy sector decarbonizes, this quarter arises through a different pathway. [1][2][3]\n\n## Breakdown of sources\n\nFood-related emissions divide broadly into four sources. The largest is livestock and fisheries at 31%, followed by crop production at 27%. Opening up crop production, the production of crops eaten directly by humans accounts for 21%, and the production of crops grown as animal feed accounts for 6%. [4][5][6]\n\nThe remainder is carried by land and distribution. Land use, including conversion to farmland, accounts for 24%, and the supply chain — processing, transport, packaging, and retail — accounts for 18%. Isolating transport alone gives just 6% of total food emissions, so most emissions arise on the production and land side rather than in the process of moving food to where it is consumed. [7][9][10]\n\n## Breakdown of land-use emissions\n\nThe 24% from land use can be divided further by purpose. Emissions from land use for livestock are 16%, twice the 8% for crops grown for human food. Viewed by what the land is converted to, conversion for human food accounts for 6% and conversion for animal feed production accounts for 12%. [8][12]\n\nThe remaining portion arises through pathways separate from the creation of farmland itself. Savannah burning, which accounts for 2% of food emissions, involves burning shrubland mainly in Africa to graze livestock. Emissions from cultivated organic soils are 4%, and these too are counted separately for human food and animal feed. [13][14]\n\n## The extent of farmland\n\nThe distribution of emissions closely mirrors the distribution of [land use](/hubpedia/land-use). Half of the world's habitable land is used for agriculture, and most of it is devoted to raising livestock for dairy and meat. Pasture and cropland for feed together direct about 80% of agricultural land toward [meat production](/hubpedia/meat-production) and dairy production, an area comparable to the Americas from Alaska to Tierra del Fuego. Under the current distribution, based on the average global diet as of 2010, about three quarters is pasture and the remaining quarter is cropland. [15][20][27][29]\n\nThat said, the figure of one half itself has a range. Data from the Food and Agriculture Organization of the United Nations (FAO) puts agriculture at 50% of habitable land, while Poore and Nemecek (2018) put it at 43%. In addition, two thirds of pasture — an estimated 65% — is land unsuited to growing crops, so not all grazing land could be replaced by crop cultivation. [28][36][37]\n\n## Differences between products\n\nDifferences between products show up most clearly as the amount of land required to obtain the same nutrition. Producing one kilocalorie of beef or lamb requires 50 to 100 times more land than [plant-based substitutes](/hubpedia/diet-and-land). Compared per gram of protein, the gap against peas or tofu is likewise roughly 50 to 100 times. As a dietary change, giving up beef and dairy and replacing them with chicken, eggs, fish, and plant-based foods has a far greater impact than giving up chicken or fish. [17][18][19]\n\nSeen from the livestock side, the share of feed inputs that returns as edible output is small. Cattle have an energy efficiency of about 2%: feeding 100 kilocalories yields only 2 kilocalories of beef. Among animals, cattle are the least efficient, with sheep, pigs, and chickens improving in that order, and in general smaller animals have higher feed efficiency. [25][30][39]\n\n## Uses of grain and soy\n\nFollowing the flows of grain and soy reveals where feed sits. Less than 48% of the world's grain is eaten directly by humans, while 41% goes to animal feed and 11% to biofuels. National differences are large: in many European countries less than a third of grain production goes to human consumption, and in the United States the figure is just 10%. For soy, only 7% is used as human food such as tofu, tempeh, and soy milk. [22][23][24]\n\nThere is an opposite end as well. In India 93% of grain, in Kenya 95%, and in Botswana 96% is consumed by humans. [38]\n\n## Estimated land demand under dietary shifts\n\nThe effect of changing diets has been estimated as the area of land required. If the world shifted to a plant-based diet, global land use for agriculture is thought to be reducible by 75%. An estimate assuming a shift to a vegan diet puts the total area of agricultural land in use falling from 4.1 billion hectares to 1 billion hectares. Neither is an observed change; both are estimates based on assumptions. [16][21]\n\n## Nutritional constraints\n\nThe reason food cannot be chosen on land efficiency alone lies in how nutrients are distributed. Legumes — beans, peas, and soy products such as tofu — contain high-quality protein, but grains on their own do not. Grains have an incomplete amino acid profile, lacking some essential amino acids, and they also lack [important micronutrients](/hubpedia/micronutrient-deficiency) such as calcium, iron, and B vitamins. By contrast, individual animal foods such as meat, dairy, fish, and eggs have complete amino acid profiles, and vitamin B12 can be obtained only from animal foods or supplements. [31][32][33][34][35]\n\n## Losses and waste\n\nNot all food that is produced gets eaten. A quarter of emissions from food production — 3.3 billion tonnes of CO2 equivalent — is lost either to losses in the supply chain or to waste at the consumer stage. There are differences by form as well: waste of processed fruits and vegetables is about 14% lower than for fresh produce, and 8% lower for seafood. [11][26]\n\n## Related articles\n\n- [Food supply](/hubpedia/food-supply)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T12:01:41.072Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "食料と農業は世界の温室効果ガス排出量の4分の1を占める。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/food-ghg-emissions",
+              "quote": "One-quarter of the world's greenhouse gas emissions result from food and agriculture."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "エネルギー（電力・熱・輸送・産業プロセス）は温室効果ガス排出量の大部分、76%を占める。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/food-ghg-emissions",
+              "quote": "energy, whether in the form of electricity, heat, transport or industrial processes, account for the majority – 76% – of greenhouse gas (GHG) emissions"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "食料は世界の温室効果ガス排出量の約26%を占める。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/food-ghg-emissions",
+              "quote": "Food is responsible for approximately 26% of global GHG emissions."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "家畜・漁業は食料由来排出量の31%を占める。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/food-ghg-emissions",
+              "quote": "Livestock & fisheries account for 31% of food emissions"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "作物生産は食料由来排出量の27%を占める。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/food-ghg-emissions",
+              "quote": "Crop production accounts for 27% of food emissions"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "食料排出量のうち21%は人間が直接消費する作物生産に由来し、6%は家畜飼料の生産に由来する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/food-ghg-emissions",
+              "quote": "21% of food’s emissions comes from crop production for direct human consumption, and 6% comes from the production of animal feed."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "土地利用は食料由来排出量の24%を占める。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/food-ghg-emissions",
+              "quote": "Land use accounts for 24% of food emissions"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "家畜のための土地利用による排出（16%）は、人間の食用作物のための土地利用による排出（8%）の2倍である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/food-ghg-emissions",
+              "quote": "Twice as many emissions result from land use for livestock (16%) as for crops for human consumption (8%)."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "サプライチェーン（加工・輸送・包装・小売）は食料由来排出量の18%を占める。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/food-ghg-emissions",
+              "quote": "Supply chains account for 18% of food emissions"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "輸送による排出は食料の総排出量のうちわずか6%にすぎない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/food-ghg-emissions",
+              "quote": "transport emissions are often a very small percentage of food’s total emissions – only 6% globally"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "食料生産による排出のうち4分の1（CO2換算33億トン）は、サプライチェーンでの損失または消費者段階での廃棄として失われる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/food-ghg-emissions",
+              "quote": "Food waste emissions are large: one-quarter of emissions (3.3 billion tonnes of CO2eq) from food production ends up as wastage either from supply chain losses or consumers."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "土地利用変化による排出のうち6%は人間の食用への転換に、12%は家畜飼料生産への転換に由来する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/food-ghg-emissions",
+              "quote": "6% of land use change results from conversion from food for human consumption, and 12% for the production of animal feed."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "サバンナの野焼き（食料排出量の2%）は主にアフリカでの家畜放牧のための低木地の焼却である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/food-ghg-emissions",
+              "quote": "Savannah burning (2% of food emissions) is largely burning of bush land in Africa to allow animal grazing."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "耕作された有機土壌からの排出（4%）は人間の食用と家畜飼料に分けられる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/food-ghg-emissions",
+              "quote": "Emissions from cultivated organic soils (4%) are split between human food and animal feed."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "世界の居住可能な土地の半分が農業に使われており、その大部分は乳製品と食肉用の家畜飼育に使われている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "Half of the world’s habitable land is used for agriculture, with most of this used to raise livestock for dairy and meat."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "世界が植物性食生活に移行すれば、農業に使われる世界の土地利用を75%削減できると考えられる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "Research suggests that if everyone shifted to a plant-based diet, we would reduce global land use for agriculture by 75%."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "牛肉と乳製品をやめること（鶏肉・卵・魚・植物性食品への置き換え）は、鶏肉や魚をやめることよりもはるかに大きな影響を持つ。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "cutting out beef and dairy (by substituting chicken, eggs, fish, or plant-based food) has a much larger impact than eliminating chicken or fish"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "牛肉や羊肉のキロカロリーを生産するには、植物性代替食品に比べて50〜100倍の土地が必要である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "it takes 50 to 100 times as much land to produce a kilocalorie of beef or lamb versus plant-based alternatives"
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "牛肉や羊肉のタンパク質1グラムを生産するには、エンドウ豆や豆腐に比べてほぼ50〜100倍の土地が必要である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "it takes almost 50 to 100 times as much land to produce a gram of protein from beef or lamb, versus peas or tofu"
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "牧草地と家畜飼料用耕作地を合わせると、農業用地の約80%が食肉と乳製品の生産に使われている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "around 80% of all agricultural land is used for meat and dairy production"
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "世界がヴィーガン食に移行した場合、農業用地の総利用面積は41億ヘクタールから10億ヘクタールへ、75%減少すると推定される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "our total agricultural land use would shrink from 4.1 billion hectares to 1 billion hectares. A reduction of 75%."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "世界の穀物のうち人間が直接食べているのは48%未満で、41%は家畜飼料に、11%はバイオ燃料に使われている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "Less than half – only 48% – of the world’s cereals are eaten by humans. 41% is used for animal feed and 11% for biofuels."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "ヨーロッパの多くの国では穀物生産のうち人間の消費に使われるのは3分の1未満であり、米国ではわずか10%である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "In most countries across Europe, it’s less than one-third of cereal production is used for human consumption, and in the US only 10% is."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "大豆のうち人間の食用（豆腐・テンペ・豆乳など）に使われるのはわずか7%である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "only 7% of soy goes towards human foods such as tofu, tempeh, soy milk, and other substitute products"
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "牛肉のエネルギー効率は約2%であり、牛に100キロカロリーを与えても得られる牛肉は2キロカロリーにすぎない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "beef has an energy efficiency of about 2%. This means that for every 100 kilocalories you feed a cow, you only get 2 kilocalories of beef back."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "加工された果物・野菜の廃棄は生鮮品よりも約14%少なく、魚介類では8%少ない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/food-ghg-emissions",
+              "quote": "wastage of processed fruit and vegetables is ~14% lower than fresh, and 8% lower for seafood"
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "食肉・乳製品生産に必要な土地は、アラスカからティエラ・デル・フエゴまでのアメリカ大陸に匹敵する面積である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "the land requirements of meat and dairy production are equivalent to an area the size of the Americas, spanning all the way from Alaska to Tierra del Fuego"
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "牧草地の3分の2は作物栽培に適さない土地である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "Two-thirds of pastures are unsuitable for growing crops."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "2010年時点の世界平均的な食生活に基づく現在の土地利用では、その約4分の3が牧草地であり、残り4分の1が耕作地である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "almost three-quarters of this land is used as pasture, the remaining quarter is cropland"
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "動物の中では牛が最もエネルギー効率が悪く、次いで羊、豚、鶏の順に効率が良くなる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "we see that cows are the least efficient, followed by lamb, pigs then poultry"
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "豆類（豆、エンドウ豆、豆腐などの大豆製品）は良質なタンパク質を含むが、穀物は単独では良質なタンパク質を含まない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "Legumes, such as beans, peas, tofu and other soy products do. Cereals, on their own, don’t"
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "穀物は必須アミノ酸の一部を欠く「不完全な」アミノ酸プロファイルを持つ。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "Cereals have an ‘incomplete’ amino acid profile meaning they are lacking in some of them."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "穀物はカルシウム・鉄・ビタミンB群など重要な微量栄養素も欠く。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "Cereals also lack a number of important micronutrients, such as calcium, iron, and B vitamins."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "ビタミンB12は動物性食品または栄養補助食品からのみ摂取できる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "vitamin B12 is one that you can only get from animal products, or from food supplements"
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "食肉・乳製品・魚・卵といった個々の動物性食品は完全なアミノ酸プロファイルを持つ。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "Individual animal products – meat, dairy, fish, eggs – do have a complete amino acid profile."
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "牛の放牧に使われる草地の推定65%は作物栽培に適さない土地である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "An estimated 65% of land used for grass for grazing cattle is not suitable for growing crops."
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "国連食糧農業機関（FAO）のデータでは居住可能な土地の50%が農業に使われているとされるが、Poore and Nemecek（2018）はこの数値を43%としている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "the UN FAO data suggests that 50% of habitable land is used for agriculture, Poore and Nemecek (2018) put this figure at 43%"
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "インドでは穀物の93%、ケニアでは95%、ボツワナでは96%が人間に消費されている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "In India, 93% of cereals are consumed by humans; 95% in Kenya; and 96% in Botswana."
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "一般に小型の動物ほど飼料効率が高い。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "As a rule of thumb: smaller animals are more efficient."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "diet-and-land",
+    "topicType": "concept",
+    "categoryLabel": "地球・環境",
+    "title": "食生活と土地利用",
+    "summary": "何を食べるかは、その食事を支えるために必要な土地面積を大きく左右する。世界の居住可能な土地のおよそ半分は農業に使われ、その大半は家畜のための牧草地と飼料生産に充てられている。牛肉や羊肉はタンパク質やカロリー当たりで植物性食品の数十倍から100倍の土地を必要とし、食生活の構成の違いが土地需要の桁を変える。",
+    "bodyMarkdown": "## 食事が要求する土地の規模\n\n食卓の内容は、その裏側で押さえられている土地の広さを決める。[世界の土地面積](/hubpedia/land-use)は130億ヘクタールあり、そのうち氷と砂漠を除いた居住可能な土地のおよそ半分が農業に使われている。そして農業用地の大半は、乳製品と食肉のための家畜飼育に向けられている。食肉と乳製品の生産に必要な土地面積は、アラスカからティエラ・デル・フエゴまで、南北アメリカ大陸全体に匹敵する広さに達する。 [1][3][18][19]\n\nこの「半分」という数字自体には幅がある。国連食糧農業機関(FAO)のデータでは居住可能な土地に占める農業用地の割合は50%だが、Poore and Nemecek(2018)の推計では43%とされている。定義の違いは大きさの桁を変えるものではないが、単一の確定値として扱うべき数字ではない。なおFAOの分類では、世界の土地面積のうち48億ヘクタール、全体の37%が「農業用地」に分類されている。 [40][57]\n\n## 農業用地の内訳:耕地と牧草地\n\n農業用地は大きく二つの用途に分かれる。作物栽培に充てられる耕地と、家畜の飼育に使われる牧草地・草地である。FAOの定義では、耕地(cropland)とは作物栽培に使われる土地を指す。このうち、一度植えると数年間その土地を占有し、毎年の収穫後に植え替える必要のない作物は永年作物(パーマネントクロップ)と呼ばれ、カカオ、コーヒー、ゴムなどが該当する。 [41][42][62]\n\n両者の比率は均等ではない。世界の農業用地のうち耕地は33%、永年採草地・牧草地は67%を占め、後者が最大の割合となっている。言い換えれば農業用地のほぼ4分の3が牧草地で、残りの4分の1が耕作地である。ほとんどの国では、農業用地の利用は耕作よりも家畜放牧のための牧草地が優勢となっている。 [23][33][63]\n\n家畜が使う土地はこれだけではない。家畜の飼料は、動物が放牧される土地と、大豆や穀物などの飼料作物を栽培する土地という二種類の土地から供給される。飼料用の牧草地と農地を合算すると、全農業用地の約80%が食肉と乳製品の生産に使われている計算になる。 [14][24]\n\n## 国ごとの配分の違い\n\n土地のどれだけを農業に回すかは国によって大きく異なる。スカンジナビア地域のように10%未満の国がある一方、英国・ウルグアイ・南アフリカ・ナイジェリア・サウジアラビアのように80%近くに達する国もある。耕地に限れば、ほとんどの国で国土面積に占める割合は20%未満、多くの国では10%未満にとどまる。インド、バングラデシュ、ウクライナ、デンマークは、耕地の割合が特に大きい例外的な国である。 [2][4][59]\n\n牧草地の側では、モンゴル、カザフスタン、トルクメニスタンなど中央アジアの一部の国で、牧草地が国土面積の最大70%に達することがある。過去数十年間、世界のほとんどの地域で農業用地の割合は緩やかに増加してきたが、ヨーロッパ・中央アジア(特にEU圏内)と北米では減少傾向にある。 [5][60][61]\n\n## 1人当たり面積の長期的な変化\n\n総面積が増える一方で、1人当たりで見た土地利用は縮んできた。1961年以降、世界のすべての地域で1人当たりの耕地利用面積は減少している。地域差は大きく、北米が最も高く他のどの地域よりも2倍以上多い一方、南アジアと東アジアは北米より5〜6倍低く、世界で最も低い水準にある。南アジアの減少は最も顕著で、近年の値は1961年の約3分の1にまで下がっている。 [6][7][8][34]\n\n耕地と牧草地を合わせた農業用地でも同じ方向の変化が起きている。世界全体では1人当たりの農業用地利用面積は現在、1961年の半分未満である。アフリカでは1960年代の値の3分の1未満にまで減少した。地域比較では、南北アメリカとアフリカが、ヨーロッパやアジアに比べて1人当たりの農業用地利用面積が顕著に高い。 [9][10][35]\n\nこの縮小は土地が足りなくなったことだけを意味しない。人口と豊かさが世界的に増大したにもかかわらず、消費者や農家の嗜好の変化と収量の向上が耕地の拡大を抑制してきた。農業技術の組み合わせにより収量が上がり、耕地拡大への圧力が抑えられ、その分の土地が自然のために確保された。2014年の世界の作物生産指数は0.3で、これは1961年と同量の作物を生産するのに必要な耕地面積が当時の30%、つまり70%減で済んだことを意味する。この農業用地の減少面積は、北米大陸とブラジルを合わせた広さに相当する。 [39][45][64][65]\n\n## 耕地は何に使われているか\n\n世界の耕地の大部分は穀物生産に使われており、その面積は約7000万ヘクタール増加した。これはドイツの国土面積のおよそ2倍に当たる。粗粒穀物(コースグレイン)に使われる土地面積は1961年以降ほぼ一定で、耕地利用面積では2番目に大きい用途である。最も伸びたのは油糧作物で、1961年以降に約3倍へ増加し、その増加分はメキシコの国土面積に匹敵する。 [11][36][37]\n\nただし、耕地で穀物を育てることと、人間が穀物を食べることは同じではない。世界の穀物のうち人間が直接食べているのは半分未満の48%にすぎず、41%が家畜飼料に、11%がバイオ燃料に使われている。この配分は国によって大きく異なる。ヨーロッパの大半の国では穀物生産の3分の1未満しか人間の消費に使われず、米国ではわずか10%である。対照的にインドでは93%、ケニアでは95%、ボツワナでは96%が人間によって消費されている。 [27][28][29][58]\n\n大豆はさらに極端で、豆腐・テンペ・豆乳などの人間向け食品に使われるのはわずか7%である。残りの大部分は油の生産に使われ、家畜飼料用の大豆ミールと大豆油に分かれる。 [30][46]\n\n## 品目別の土地への影響\n\nタンパク質1グラムを生産するのに必要な土地面積、いわゆる「land footprint」は食品の種類によって大きく異なる。牛肉や羊肉からタンパク質1グラムを生産するには、えんどう豆や豆腐に比べてほぼ50〜100倍の土地が必要になる。カロリーで測っても同様で、牛肉や羊肉の1キロカロリーを生産するには植物性の代替食品の50〜100倍の土地を要する。牛肉やマトンの生産に必要な土地面積は、穀物と比べて最大100倍に達する。 [12][20][21][43]\n\nこの差は肉一般の性質ではなく、動物の種類による。[鶏肉と豚肉の土地への影響](/hubpedia/meat-production)は牛肉の8〜10分の1である。背景には飼料効率の違いがあり、家畜の飼料効率は牛が最も低く、次いで羊、豚、鶏の順に高くなる。経験則として、小型の動物ほど飼料効率が高い。牛肉のエネルギー効率は約2%で、牛に100キロカロリーを与えても得られる牛肉は2キロカロリー分にすぎない。 [13][31][47][48]\n\nこうした比較の基礎となっているのが、Poore and Nemecekによる2018年のメタ分析で、119か国38,000の農場を対象に食品の環境影響を調べたものである。この分析に基づく評価では、鶏肉と魚は環境への影響が小さい傾向にあるとされる。 [49][55]\n\n## 食生活を変えた場合の土地需要\n\n品目ごとの差が大きいということは、[食事の構成](/hubpedia/diet-composition)を変えれば必要な土地も大きく動くということである。研究は、世界中の人が植物性食品中心の食生活に移行した場合、世界の農業用地利用が75%削減されると示唆している。具体的には、世界全体がヴィーガン食に移行すれば総農業用地は41億ヘクタールから10億ヘクタールへ減少すると研究者は推定している。これらは2010年の世界平均的な食生活に基づく現在の土地利用との比較である。 [15][25][66]\n\n削減の内訳は均一ではない。牛肉・マトン・乳製品をやめることは、牧草地として使われている土地を解放するため、農業用地利用に最も大きな違いをもたらす。牛肉と乳製品を鶏肉・卵・魚・植物性食品に置き換えることは、鶏肉や魚をやめることよりもはるかに大きな影響を持つ。したがって、牛肉、ラム肉、マトンをより土地への影響が小さい肉製品に置き換えるだけでも、個人は食生活の環境影響を大きく減らすことができる。 [16][26][38]\n\nただし解放される土地の質は一様ではない。牧草地の3分の2は作物栽培に適さず、牛の放牧用に草を育てる土地の約65%は作物栽培に向かないと推定されている。つまり牧草地が減っても、その全部が畑に転用できるわけではない。 [22][56]\n\n## 栄養面の制約\n\n土地の観点で有利な食品が、そのまま栄養を満たすとは限らない。食肉・乳製品・魚・卵といった個々の動物性食品は完全なアミノ酸プロファイルを持つ。一方、穀物は「不完全な」アミノ酸プロファイルを持ち、一部のアミノ酸が不足している。タンパク質消化性補正アミノ酸スコア(PDCAAS)で見ると、穀物は42と低く、牛肉の92と比べて見劣りする。穀物はさらに、カルシウム・鉄・ビタミンB群など多くの[重要な微量栄養素](/hubpedia/micronutrient-deficiency)も不足している。 [52][53][54][67]\n\nこの不足は組み合わせで補える。豆類、すなわちいんげん豆・えんどう豆・豆腐などの大豆製品は高品質なタンパク質を含み、大豆のPDCAASは0.92で牛肉の0.94に匹敵する。穀物は単独では完全なタンパク質プロファイルを持たないが、豆類と組み合わせることでそれを達成できる。ただし例外もあり、ビタミンB12は動物性食品またはサプリメントからしか摂取できない。 [32][50][51][68]\n\n研究は、既存の農地だけで世界中の人に栄養のある食事を供給することは可能だとしているが、それは植物性食品への広範な移行が起きた場合に限られるとされる。 [44]\n\n## 土地利用と自然環境の関係\n\n食生活が土地に及ぼす影響は、農業の外にも波及する。農地の拡大は森林破壊と[生物多様性喪失](/hubpedia/biodiversity)の主要な要因である。したがって、収量向上や食事構成の変化によって耕地拡大への圧力が抑えられることは、そのまま自然のための土地の確保につながる。 [17][64]\n\n## 関連記事\n\n- [食料供給](/hubpedia/food-supply)\n- [森林面積](/hubpedia/forest-area)\n- 菜食\n- [食料の排出](/hubpedia/food-emissions)",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/land-use-diets",
+        "title": "食生活と土地",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on diet-and-land. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/land-use",
+        "title": "land-use",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Global land allocation. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Diet and Land Use",
+        "summary": "What we eat has a large effect on how much land is needed to support that diet. About half of the world's habitable land is used for agriculture, and most of that goes to pasture and feed production for livestock. Beef and lamb require tens to a hundred times more land per gram of protein or per calorie than plant-based foods, so differences in dietary composition change land demand by an order of magnitude.",
+        "bodyMarkdown": "## The scale of land a diet demands\n\nWhat is on the table determines how much land is tied up behind it. The [world's land area](/hubpedia/land-use) is 13 billion hectares, and about half of the habitable portion — excluding ice and desert — is used for agriculture. Most of that agricultural land is given over to raising livestock for dairy and meat. The land area required to produce meat and dairy amounts to an area comparable to the entire Americas, from Alaska to Tierra del Fuego. [1][3][18][19]\n\nThe figure of \"half\" itself has a range. Data from the Food and Agriculture Organization (FAO) puts agricultural land at 50% of habitable land, while the estimate from Poore and Nemecek (2018) is 43%. The difference in definitions does not change the order of magnitude, but this is not a number to treat as a single settled value. Under the FAO's classification, 4.8 billion hectares of the world's land area — 37% of the total — is classified as \"agricultural land.\" [40][57]\n\n## The breakdown of agricultural land: cropland and pasture\n\nAgricultural land divides broadly into two uses: cropland devoted to growing crops, and pasture and grazing land used for raising livestock. Under the FAO's definition, cropland refers to land used for growing crops. Within this category, crops that occupy the land for several years once planted and do not need to be replanted after each annual harvest are called permanent crops, a group that includes cocoa, coffee, and rubber. [41][42][62]\n\nThe ratio between the two is not even. Of the world's agricultural land, cropland accounts for 33% and permanent meadows and pastures for 67%, the latter making up the largest share. In other words, nearly three-quarters of agricultural land is pasture and the remaining quarter is cultivated land. In most countries, agricultural land use is dominated by pasture for grazing livestock rather than by cultivation. [23][33][63]\n\nThat is not the whole of the land livestock use. Animal feed comes from two kinds of land: land where animals are grazed, and land where feed crops such as soy and grains are grown. Adding together pasture and farmland used for feed, roughly 80% of all agricultural land is used to produce meat and dairy. [14][24]\n\n## Differences in allocation between countries\n\nHow much land is given to agriculture varies widely by country. Some, such as those in Scandinavia, are below 10%, while others — the United Kingdom, Uruguay, South Africa, Nigeria, and Saudi Arabia — reach nearly 80%. For cropland alone, the share of national land area is below 20% in most countries and below 10% in many. India, Bangladesh, Ukraine, and Denmark are exceptional cases with especially large cropland shares. [2][4][59]\n\nOn the pasture side, in some Central Asian countries such as Mongolia, Kazakhstan, and Turkmenistan, pasture can reach as much as 70% of national land area. Over the past several decades, the share of land given to agriculture has risen gradually in most regions of the world, but it has been falling in Europe and Central Asia (particularly within the EU) and in North America. [5][60][61]\n\n## Long-term changes in per capita area\n\nWhile total area has grown, land use per person has shrunk. Since 1961, per capita cropland use has fallen in every region of the world. Regional differences are large: North America is the highest, more than double any other region, while South Asia and East Asia are five to six times lower than North America and the lowest in the world. The decline in South Asia has been the steepest, with recent values down to about a third of the 1961 level. [6][7][8][34]\n\nThe same direction of change appears for agricultural land as a whole, cropland and pasture combined. Globally, per capita agricultural land use is now less than half of what it was in 1961. In Africa it has fallen to less than a third of its 1960s value. In regional comparison, the Americas and Africa have markedly higher per capita agricultural land use than Europe or Asia. [9][10][35]\n\nThis contraction does not simply mean that land ran short. Despite worldwide growth in population and affluence, shifts in consumer and farmer preferences together with rising yields have restrained the expansion of cropland. A combination of agricultural technologies raised yields, curbed pressure for cropland expansion, and thereby spared land for nature. The world crop production index in 2014 was 0.3, meaning that producing the same quantity of crops as in 1961 required only 30% of the cropland needed then — a 70% reduction. The area of agricultural land saved is equivalent to the combined size of the North American continent and Brazil. [39][45][64][65]\n\n## What cropland is used for\n\nMost of the world's cropland is used for cereal production, and that area has grown by about 70 million hectares — roughly twice the land area of Germany. The area used for coarse grains has been broadly constant since 1961 and is the second-largest use of cropland. The largest growth has been in oilcrops, which have roughly tripled since 1961, with the increase equivalent to the land area of Mexico. [11][36][37]\n\nBut growing cereals on cropland is not the same as people eating cereals. Less than half of the world's cereals — 48% — are eaten directly by humans, while 41% go to animal feed and 11% to biofuels. This allocation differs greatly by country. In most European countries, less than a third of cereal production is used for human consumption, and in the United States it is only 10%. By contrast, 93% is consumed by humans in India, 95% in Kenya, and 96% in Botswana. [27][28][29][58]\n\nSoy is more extreme still: only 7% is used in foods for people, such as tofu, tempeh, and soy milk. Most of the rest goes to oil production, split into soybean meal for animal feed and soybean oil. [30][46]\n\n## Land impacts by product\n\nThe land area needed to produce one gram of protein — the so-called land footprint — differs greatly by type of food. Producing a gram of protein from beef or lamb requires nearly 50 to 100 times more land than from peas or tofu. The picture is the same measured in calories: producing one kilocalorie of beef or lamb takes 50 to 100 times the land of plant-based alternatives. The land area needed to produce beef and mutton is up to 100 times that for grains. [12][20][21][43]\n\nThis gap is not a property of meat in general but depends on the animal. The [land impacts of chicken and pork](/hubpedia/meat-production) are one-eighth to one-tenth those of beef. Behind this are differences in feed efficiency: cattle have the lowest feed efficiency among livestock, followed in rising order by sheep, pigs, and chickens. As a rule of thumb, smaller animals have higher feed efficiency. The energy efficiency of beef is about 2%: feeding cattle 100 kilocalories yields only 2 kilocalories of beef. [13][31][47][48]\n\nThe basis for these comparisons is the 2018 meta-analysis by Poore and Nemecek, which examined the environmental impacts of foods across 38,000 farms in 119 countries. Assessments based on this analysis find that chicken and fish tend to have smaller environmental impacts. [49][55]\n\n## Land demand under changed diets\n\nBecause the differences between products are so large, changing [dietary composition](/hubpedia/diet-composition) moves the land requirement substantially. Research suggests that if everyone worldwide shifted to a predominantly plant-based diet, global agricultural land use would fall by 75%. Specifically, researchers estimate that if the world moved to a vegan diet, total agricultural land would fall from 4.1 billion hectares to 1 billion hectares. These are comparisons against current land use based on the average global diet in 2010. [15][25][66]\n\nThe reductions are not evenly distributed. Giving up beef, mutton, and dairy makes the largest difference to agricultural land use, because it frees land used as pasture. Replacing beef and dairy with chicken, eggs, fish, and plant-based foods has a far greater effect than giving up chicken or fish. Individuals can therefore substantially reduce the environmental impact of their diet simply by substituting meat products with lower land impacts for beef, lamb, and mutton. [16][26][38]\n\nThe quality of the land freed is not uniform, however. Two-thirds of pasture is unsuitable for growing crops, and an estimated 65% of the land used to grow grass for grazing cattle is not suited to crop cultivation. So even as pasture shrinks, not all of it can be converted to fields. [22][56]\n\n## Nutritional constraints\n\nFoods that are favorable in land terms do not necessarily meet nutritional needs. Individual animal-source foods such as meat, dairy, fish, and eggs have complete amino acid profiles. Cereals, by contrast, have \"incomplete\" amino acid profiles, lacking some amino acids. On the Protein Digestibility Corrected Amino Acid Score (PDCAAS), cereals score a low 42, unfavorable next to beef's 92. Cereals are also deficient in many [important micronutrients](/hubpedia/micronutrient-deficiency), including calcium, iron, and the B vitamins. [52][53][54][67]\n\nThese shortfalls can be made up through combination. Pulses — beans, peas, and soy products such as tofu — contain high-quality protein, and soy's PDCAAS of 0.92 is comparable to beef's 0.94. Cereals do not have a complete protein profile on their own, but they can achieve one when combined with pulses. There are exceptions, however: vitamin B12 can only be obtained from animal-source foods or supplements. [32][50][51][68]\n\nResearch finds that it is possible to supply nutritious diets to everyone in the world using existing farmland, but only if a broad shift toward plant-based foods takes place. [44]\n\n## Land use and the natural environment\n\nThe effect of diets on land extends beyond agriculture. The expansion of farmland is a leading driver of deforestation and [biodiversity loss](/hubpedia/biodiversity). Curbing pressure for cropland expansion through higher yields and changes in dietary composition therefore translates directly into land spared for nature. [17][64]\n\n## Related articles\n\n- [Food supply](/hubpedia/food-supply)\n- [Forest area](/hubpedia/forest-area)\n- Vegetarianism\n- [Food emissions](/hubpedia/food-emissions)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T12:01:41.077Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "世界の居住可能な土地の半分は農業に使われており、その大半は乳製品と食肉のための家畜飼育に使われている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "Half of the world’s habitable land is used for agriculture, with most of this used to raise livestock for dairy and meat."
+            },
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "Half of the world’s habitable land is used for agriculture."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "インド、バングラデシュ、ウクライナ、デンマークは、国土面積に占める耕地の割合が特に大きい国である。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "India, Bangladesh, Ukraine, and Denmark all dedicate a large share of their total land area to cropland."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "世界の土地面積は130億ヘクタールである。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "The land area of the World is 13 billion hectares."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "ほとんどの国では、耕地が国土面積に占める割合は20%未満で、多くの国では10%未満である。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "land dedicated to cropland is typically below 20 percent, with many countries dedicating less than 10 percent"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "モンゴル、カザフスタン、トルクメニスタンなど中央アジアの一部の国では、牧草地が国土面積の最大70%に達することがある。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "In some countries (particularly in Central Asia, including Mongolia, Kazakhstan, and Turkmenistan), this can reach up to 70 percent."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "1961年以降、世界のすべての地域で1人当たりの耕地利用面積は減少している。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "the arable land use per capita has declined across all regions since 1961"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "1人当たりの耕地利用面積は北米が最も高く、他のどの地域よりも2倍以上多い。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "Per capita land use is highest in North America — more than double the land use of any other region."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "南アジアでは1人当たりの耕地利用面積の減少が最も顕著で、近年の値は1961年の約3分の1になっている。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "Rates of reduction in South Asia have been the most dramatic; per capita land use in recent years is roughly one-third of its value in 1961."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "世界全体で見ると、1人当たりの農業用地(耕地と牧草地の合計)利用面積は、現在1961年の半分未満になっている。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "At the global level, per capita agricultural land use is now less than half its value in 1961."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "アフリカの1人当たり農業用地利用面積は、1960年代の値の3分の1未満にまで減少した。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "Africa, in particular, has seen dramatic reductions in agricultural land per person – it is now less than one-third of the value it was in the 1960s."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "世界の耕地の大部分は穀物生産に使われており、その面積は約7000万ヘクタール増加した。これはドイツの国土面積のおよそ2倍に相当する。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "the majority of our arable land is used for cereal production; this has grown by around 70 million hectares — an area roughly twice the size of Germany."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "牛肉やマトンの生産に必要な土地面積は、穀物の最大100倍に達する。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "the land required for beef or mutton up to 100 times larger than cereals"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "鶏肉と豚肉の土地への影響(land footprint)は、牛肉の8〜10分の1である。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "poultry and pork have a land footprint 8-10 times lower than that of beef"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "家畜の飼料は、動物が放牧される土地と、大豆や穀物などの飼料作物を栽培する土地という2つの土地から供給される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "Livestock are fed from two sources – lands on which the animals graze and land on which feeding crops, such as soy and cereals, are grown."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "世界中の人が植物性食品中心の食生活に移行した場合、世界の農業用地利用は75%削減されると研究は示唆している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "Research suggests that if everyone shifted to a plant-based diet, we would reduce global land use for agriculture by 75%."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "牛肉と乳製品を(鶏肉・卵・魚・植物性食品に置き換えて)やめることは、鶏肉や魚をやめることよりもはるかに大きな影響を持つ。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "cutting out beef and dairy (by substituting chicken, eggs, fish, or plant-based food) has a much larger impact than eliminating chicken or fish."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "農地の拡大は森林破壊と生物多様性喪失の主要な要因である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "The expansion of land for agriculture is the leading driver of deforestation and biodiversity loss."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "世界の氷と砂漠を除いた土地の半分は農業に使われている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "Half of the world’s ice- and desert-free land is used for agriculture."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "食肉と乳製品の生産に必要な土地面積は、アラスカからティエラ・デル・フエゴまでの南北アメリカ大陸に匹敵する広さである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "the land requirements of meat and dairy production are equivalent to an area the size of the Americas, spanning all the way from Alaska to Tierra del Fuego."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "牛肉や羊肉のカロリーを1キロカロリー生産するには、植物性の代替食品に比べて50~100倍の土地が必要である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "it takes 50 to 100 times as much land to produce a kilocalorie of beef or lamb versus plant-based alternatives"
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "牛肉や羊肉からタンパク質1グラムを生産するには、えんどう豆や豆腐に比べてほぼ50~100倍の土地が必要である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "it takes almost 50 to 100 times as much land to produce a gram of protein from beef or lamb, versus peas or tofu."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "牧草地の3分の2は作物栽培に適さない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "Two-thirds of pastures are unsuitable for growing crops."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "農業用地のほぼ4分の3は牧草地として使われ、残りの4分の1は農地(耕作地)である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "almost three-quarters of this land is used as pasture, the remaining quarter is cropland."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "家畜飼料用の牧草地と農地を合わせると、全農業用地の約80%が食肉と乳製品の生産に使われている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "If we combine pastures and cropland for animal feed, around 80% of all agricultural land is used for meat and dairy production."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "世界全体がヴィーガン食に移行した場合、総農業用地は41億ヘクタールから10億ヘクタールへと75%減少すると研究者は推定している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "the researchers estimate that our total agricultural land use would shrink from 4.1 billion hectares to 1 billion hectares. A reduction of 75%."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "牛肉・マトン・乳製品をやめることは、牧草地として使われている土地を解放するため、農業用地利用に最も大きな違いをもたらす。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "Cutting out beef, mutton and dairy makes the biggest difference to agricultural land use as it would free up the land that is used for pastures."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "世界の穀物のうち人間が直接食べているのは半分未満の48%にすぎない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "Less than half – only 48% – of the world’s cereals are eaten by humans."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "世界の穀物の41%は家畜飼料に、11%はバイオ燃料に使われている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "41% is used for animal feed and 11% for biofuels."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "ヨーロッパの大半の国では穀物生産の3分の1未満しか人間の消費に使われておらず、米国ではわずか10%である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "In most countries across Europe, it’s less than one-third of cereal production is used for human consumption, and in the US only 10% is."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "大豆のうち豆腐・テンペ・豆乳などの人間向け食品に使われるのはわずか7%である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "only 7% of soy goes towards human foods such as tofu, tempeh, soy milk, and other substitute products."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "牛肉のエネルギー効率は約2%であり、牛に100キロカロリーを与えても得られる牛肉は2キロカロリー分にすぎない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "beef has an energy efficiency of about 2%. This means that for every 100 kilocalories you feed a cow, you only get 2 kilocalories of beef back."
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "ビタミンB12は動物性食品またはサプリメントからしか摂取できない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "vitamin B12 is one that you can only get from animal products, or from food supplements."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "ほとんどの国では、農業用地の利用は耕作(耕地)よりも家畜放牧のための牧草地が優勢である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "land use for livestock grazing is dominant relative to arable farming"
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "南アジアと東アジアの1人当たり耕地利用面積は、北米よりも5〜6倍低く、世界で最も低い。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "Land use in Asia — both in South and East Asia is lowest (5-6 times less than in North America)."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "南北アメリカとアフリカは、ヨーロッパやアジアに比べて1人当たりの農業用地利用面積が顕著に高い。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "The Americas (North and South) and Africa have notably higher per capita agricultural land use relative to Europe and Asia."
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "粗粒穀物(コースグレイン)に使われる土地面積は1961年以降ほぼ一定で、耕地利用面積では2番目に大きい用途である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "The total land area used for coarse grains has remained approximately constant since 1961 and is the second largest user of arable land."
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "油糧作物の生産に使われる土地面積は1961年以降約3倍に増加し、その増加分はメキシコの国土面積に匹敵する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "The total land area used for oil crop production has increased about threefold since 1961 — an area just short of the size of Mexico."
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "牛肉、ラム肉、マトンをより土地への影響が小さい肉製品に置き換えるだけで、個人は食生活の環境影響を大きく減らすことができる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "individuals can make notable reductions in the environmental impact of their diets simply by substituting lower-impact meat products for beef, lamb or mutton"
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "2014年の世界の作物生産指数は0.3であり、これは1961年と同量の作物を生産するのに必要な耕地面積が当時の30%(70%減)で済んだことを意味する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "in 2014, the index value was 0.3; this means only 30% of the arable land area was needed to produce the same quantity of crops relative to 1961. 70% less land was needed."
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "FAOの分類では、世界の土地面積のうち48億ヘクタール(全体の37%)が「農業用地」とされている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "4.8 billion are classified as 'agricultural area' by the FAO (this is 37% of the land area)."
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "FAOの定義では、耕地(cropland)とは作物栽培に使われる土地のことである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "The FAO definition for cropland is land used for cultivation of crops."
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "永年作物(パーマネントクロップ)とは、一度植えると数年間その土地を占有し、毎年の収穫後に植え替える必要のない作物で、カカオ、コーヒー、ゴムなどが該当する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "Permanent crops are sown or planted once and then occupy the land for some years and need not be replanted after each annual harvest, such as cocoa, coffee, and rubber."
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "たんぱく質1グラムを生産するのに必要な土地面積(「land footprint」)は、食品の種類によって大きく異なる。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "the average land required (sometimes termed the \"land footprint\") to produce one gram of protein across a range of food types"
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "既存の農地だけで世界中の人に栄養のある食事を供給することは可能だが、それは植物性食品への広範な移行が起きた場合に限られると研究は示唆している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "The research suggests that it’s possible to feed everyone in the world a nutritious diet on existing croplands, but only if we see a widespread shift towards plant-based diets."
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "statement": "この農業用地の減少面積は北米大陸とブラジルを合わせた広さに相当する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "That’s equal to an area the size of North America and Brazil combined."
+            }
+          ]
+        },
+        {
+          "index": 46,
+          "statement": "残りの大豆の大部分は油の生産に使われ、家畜飼料用の大豆ミールと大豆油に分かれる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "Most of the rest goes towards oil production which is split between soybean meal for animal feed and soybean oil."
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "statement": "家畜の飼料効率は牛が最も低く、次いで羊、豚、鶏の順に高くなる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "we see that cows are the least efficient, followed by lamb, pigs then poultry."
+            }
+          ]
+        },
+        {
+          "index": 48,
+          "statement": "経験則として、小型の動物ほど飼料効率が高い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "As a rule of thumb: smaller animals are more efficient."
+            }
+          ]
+        },
+        {
+          "index": 49,
+          "statement": "鶏肉と魚は環境への影響が小さい傾向にある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "That’s why chicken and fish tend to have a lower environmental impact."
+            }
+          ]
+        },
+        {
+          "index": 50,
+          "statement": "豆類(いんげん豆・えんどう豆・豆腐などの大豆製品)は高品質なタンパク質を含む。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "Legumes, such as beans, peas, tofu and other soy products do."
+            }
+          ]
+        },
+        {
+          "index": 51,
+          "statement": "穀物は単独では完全なタンパク質プロファイルを持たないが、豆類と組み合わせることで達成できる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "Cereals, on their own, don’t – although a complete protein profile can be achieved when mixing them with legumes in your diet."
+            }
+          ]
+        },
+        {
+          "index": 52,
+          "statement": "穀物は「不完全な」アミノ酸プロファイルを持ち、一部のアミノ酸が不足している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "Cereals have an ‘incomplete’ amino acid profile meaning they are lacking in some of them."
+            }
+          ]
+        },
+        {
+          "index": 53,
+          "statement": "穀物はカルシウム・鉄・ビタミンB群など多くの重要な微量栄養素も不足している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "Cereals also lack a number of important micronutrients, such as calcium, iron, and B vitamins."
+            }
+          ]
+        },
+        {
+          "index": 54,
+          "statement": "食肉・乳製品・魚・卵といった個々の動物性食品は完全なアミノ酸プロファイルを持つ。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "Individual animal products – meat, dairy, fish, eggs – do have a complete amino acid profile."
+            }
+          ]
+        },
+        {
+          "index": 55,
+          "statement": "Poore and Nemecekによる2018年のメタ分析は119か国38,000の農場を対象に食品の環境影響を調べたものである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "This meta-analysis looked at the environmental impacts of foods covering 38,000 farms in 119 countries."
+            }
+          ]
+        },
+        {
+          "index": 56,
+          "statement": "牛の放牧用に草を育てる土地の約65%は作物栽培に適さないと推定されている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "An estimated 65% of land used for grass for grazing cattle is not suitable for growing crops."
+            }
+          ]
+        },
+        {
+          "index": 57,
+          "statement": "居住可能な土地に占める農業用地の割合は、国連食糧農業機関(FAO)のデータでは50%だが、Poore and Nemecek(2018)の推計では43%とされている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "the UN FAO data suggests that 50% of habitable land is used for agriculture, Poore and Nemecek (2018) put this figure at 43%."
+            }
+          ]
+        },
+        {
+          "index": 58,
+          "statement": "インドでは穀物の93%、ケニアでは95%、ボツワナでは96%が人間によって消費されている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "In India, 93% of cereals are consumed by humans; 95% in Kenya; and 96% in Botswana."
+            }
+          ]
+        },
+        {
+          "index": 59,
+          "statement": "農業用地への土地配分は国によって差が大きく、スカンジナビア地域のように10%未満の国から、英国・ウルグアイ・南アフリカ・ナイジェリア・サウジアラビアのように80%近くに達する国まである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "Allocation ranges from less than ten percent, for example the Scandinavian region, to close to 80 percent in some countries (including the UK, Uruguay, South Africa, Nigeria, and Saudi Arabia)."
+            }
+          ]
+        },
+        {
+          "index": 60,
+          "statement": "ヨーロッパ・中央アジア(特にEU圏内)と北米では農業用地利用が減少傾向にある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "land use across Europe and Central Asia- particularly within the European Union (EU) zone- and North America has been declining."
+            }
+          ]
+        },
+        {
+          "index": 61,
+          "statement": "過去数十年間、世界のほとんどの地域で農業用地の割合が緩やかに増加してきた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "The share of land used for agriculture has been slowly increasing across most of the world's regions over the past few decades."
+            }
+          ]
+        },
+        {
+          "index": 62,
+          "statement": "農業用地の主な用途は2つあり、作物栽培に充てられる耕地と、家畜飼育に使われる牧草地・草地からなる牧草地である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "There are two main uses of agricultural land: arable farming (which is land dedicated to growing crops) and pastureland (which includes meadows and pastures used for livestock rearing)."
+            }
+          ]
+        },
+        {
+          "index": 63,
+          "statement": "世界の農業用地のうち、耕地は33%を占め、永年採草地・牧草地は67%を占めており、後者が最大の割合となっている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "cropland (33% of the global agricultural area and permanent meadows and pastures (67%) which account for the largest share of the world's agricultural area."
+            }
+          ]
+        },
+        {
+          "index": 64,
+          "statement": "農業技術の組み合わせにより収量が上がり、耕地の拡大への圧力が抑えられ、自然のために土地が確保された。",
+          "confidence": 0.83,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "A combination of agricultural technologies raised yields, keeping downward pressure on the extent of cropland and sparing land for nature."
+            }
+          ]
+        },
+        {
+          "index": 65,
+          "statement": "人口と豊かさの世界的な増大に対し、消費者や農家の嗜好の変化と収量の向上が、耕地の拡大を抑制した。",
+          "confidence": 0.83,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "Countering the global rise of population and affluence by parents and workers, consumers and farmers restrained the expansion of arable land by changing tastes and lifting yields."
+            }
+          ]
+        },
+        {
+          "index": 66,
+          "statement": "2010年の世界平均的な食生活に基づく現在の農業用地利用が示されている。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "The top bar shows the current land use based on the global average diet in 2010."
+            }
+          ]
+        },
+        {
+          "index": 67,
+          "statement": "穀物のPDCAAS(タンパク質消化性補正アミノ酸スコア)は42と低く、牛肉の92と比べて低い。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "This gives them a low PDCAAS score of 42, compared to beef which achieves 92."
+            }
+          ]
+        },
+        {
+          "index": 68,
+          "statement": "大豆のPDCAASは0.92であり、牛肉の0.94に匹敵する。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use-diets",
+              "quote": "Soy achieves a PDCAAS of 0.92, comparable to beef at 0.94."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "animal-welfare",
+    "topicType": "concept",
+    "categoryLabel": "動物・植物",
+    "title": "動物福祉",
+    "summary": "動物福祉は、人間の管理下にある動物、とりわけ食料生産のために飼われる家畜の扱いをめぐる関心領域である。議論の前提となる規模は大きく、食肉生産のためだけに年間800億頭を超える陸生動物が屠殺され、その大半は工場式畜産場で飼育されているとされる。魚類を加えると総数の推計は2倍以上になり、飼育される動物の数、生産と消費の伸び、そして土地や排出への負荷が、この主題を扱う際の基礎的な数量となっている。",
+    "bodyMarkdown": "## 屠殺される動物の数と飼育の場\n\n[食肉生産](/hubpedia/meat-production)のためだけに、年間800億頭を超える陸生動物が屠殺されている。これらの動物の大半は工場式畜産場で飼育されており、しばしば苦痛を伴う劣悪な環境下に置かれているとされる。動物福祉という主題が扱うのは、この規模で反復される飼育と屠殺の条件である。 [1][2]\n\n屠殺数の内訳は種によって大きく偏る。最も多いのは鶏で、次に多い豚の数は鶏を著しく下回る。豚に続いては、七面鳥、羊、ヤギ、牛の順に少なくなる。 [14][34][35]\n\n## 養殖魚を含めた推計とその幅\n\n陸生動物の頭数だけでは、飼育され殺される動物の全体は把握できない。Sentience Instituteの推計では、2019年に[養殖](/hubpedia/aquaculture)された魚の数は中央値で770億匹、幅は290億匹から1490億匹とされる。Mood, Lara, Boyland, Brooke(2023)の研究は、養殖魚(フィンフィッシュ)の総数を1240億匹と推定している。 [3][4][15]\n\n魚類を含めると、屠殺される動物の総数の推計は2倍以上になる。Sentience Instituteの中央値を用いた場合、殺される養殖魚の数は殺される鶏の数とほぼ同程度になる。ただし推計の下限と上限には大きな開きがあり、この部分の数量は陸生動物の頭数ほど確かではない。 [3][15][37]\n\n## 食肉生産の拡大\n\n過去50年間で世界の食肉生産量は3倍以上に増加し、現在は年間3億5000万トンを超えている。より長い期間で見ると、1961年以降の総生産量は4倍以上になっている。 [5][6][7]\n\n増加の重心は移動した。1960年代初頭にはヨーロッパと北米が主要な生産地域だったが、現在はアジアが世界最大の生産地域であり、その生産量は1961年以降15倍に増えた。同じ期間にヨーロッパの生産量は約2倍、北米は約2.5倍にとどまる一方、カリブ海地域(約3倍)を除く他の全地域では5倍以上に増加した。 [8][9][18][19][20]\n\n## 畜種の構成と主要な生産国\n\n世界の主要な家畜の種類は、鶏肉、牛肉(牛肉・水牛肉を含む)、豚肉、羊・ヤギ肉である。この構成比は一定ではなく、かつて小さかった鶏肉の割合は大幅に増加し、牛肉・水牛肉の割合は減少した。豚肉の割合は比較的安定している。牛肉・水牛肉の生産量自体は1961年以降2倍以上になっており、割合の低下は他の畜種がそれ以上に伸びたことを意味する。 [10][21][22][23][24]\n\n生産は少数の国に集中している。牛肉・水牛肉の最大の生産国はアメリカ合衆国で、ブラジルと中国が続く。鶏肉でもアメリカ合衆国が世界を主導し、中国とブラジルが主要な生産国である。豚肉では中国が最大の生産国で世界生産の相当な部分を占め、アメリカ合衆国、ドイツ、スペイン、ブラジルがこれに次ぐ。 [11][12][13][25]\n\n## 消費の動向と地域差\n\n世界全体で一人当たりの食肉消費量は年々増加しており、これは食肉生産の増加率が人口増加率を上回っていることを示している。中国では1960年代初頭以降、一人当たり消費量が大幅に増加した。対照的にインドは菜食(ラクトベジタリアン)志向が強く、一人当たり消費量は低い水準でほぼ横ばいのままである。 [26][27][28][29]\n\n消費量と所得のあいだには強い相関があり、国が豊かであるほど平均的な人が食べる食肉の量は多くなる。消費量が最も高いのはオーストラリアなどの高所得国である。 [30][38]\n\n何を食べるかも地域によって分かれる。世界全体で一人当たり消費量が最も多い種類は豚肉であり、中国では豚肉が一人当たり食肉消費量の約3分の2を占める。アルゼンチンでは牛肉・水牛肉が消費の半分以上を占めて支配的であり、ニュージーランドでは世界平均に比べて羊・ヤギ肉への選好が強い。 [31][32][33][39]\n\n## 飼料効率と土地・環境への負荷\n\n家畜の飼育は、産出される肉より多くの飼料を投入する過程である。牛肉1キログラムを生産するには平均して牛に25キログラムの飼料を与える必要があり、これは飼料転換率(FCR)0.04に相当する。 [36]\n\nこの効率は土地の使われ方に直結する。世界の居住可能な土地の半分が農業に使われており、そのうち4分の3以上が畜産に充てられている。食肉生産は[温室効果ガス](/hubpedia/greenhouse-gas)の排出、農地利用の拡大、淡水利用の増加を通じて大きな環境影響を及ぼしており、[土地利用](/hubpedia/land-use)の面では畜産が最大級の用途となっている。 [16][17]\n\n## 関連記事\n\n- [食生活と土地](/hubpedia/diet-and-land)\n- [食料の排出](/hubpedia/food-emissions)\n- [食事の構成](/hubpedia/diet-composition)",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/animal-welfare",
+        "title": "動物福祉",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on animal-welfare. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/meat-production",
+        "title": "meat-production",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "The production scale behind it. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Animal welfare",
+        "summary": "Animal welfare is a field of concern surrounding the treatment of animals under human management, especially livestock raised for food production. The scale that frames the debate is large: more than 80 billion land animals are slaughtered each year for meat production alone, and most of them are said to be raised on factory farms. Adding fish more than doubles the estimated total, and the number of animals raised, the growth of production and consumption, and the burden placed on land and emissions are the basic quantities involved in any treatment of this subject.",
+        "bodyMarkdown": "## The number of animals slaughtered and where they are raised\n\nMore than 80 billion land animals are slaughtered each year for [meat production](/hubpedia/meat-production) alone. Most of these animals are raised on factory farms, and are said to be kept in poor conditions that often involve suffering. What the subject of animal welfare addresses is the conditions of raising and slaughter repeated at this scale. [1][2]\n\nThe breakdown of slaughter numbers is heavily skewed by species. Chickens are by far the most numerous, followed by pigs at a figure markedly below that for chickens. After pigs come turkeys, sheep, goats, and cattle, in descending order. [14][34][35]\n\n## Estimates including farmed fish, and their range\n\nThe number of land animals alone does not capture the whole picture of animals raised and killed. According to estimates by the Sentience Institute, the number of fish [farmed](/hubpedia/aquaculture) in 2019 had a median of 77 billion, with a range from 29 billion to 149 billion. The study by Mood, Lara, Boyland, and Brooke (2023) estimates the total number of farmed fish (finfish) at 124 billion. [3][4][15]\n\nIncluding fish more than doubles the estimated total number of animals slaughtered. Using the Sentience Institute's median figure, the number of farmed fish killed is roughly comparable to the number of chickens killed. However, there is a wide gap between the lower and upper bounds of the estimates, and the quantities in this area are not as certain as the figures for land animals. [3][15][37]\n\n## The expansion of meat production\n\nOver the past 50 years, global meat production has more than tripled and now exceeds 350 million tonnes per year. Viewed over a longer period, total production has more than quadrupled since 1961. [5][6][7]\n\nThe center of gravity of that growth has shifted. In the early 1960s, Europe and North America were the main producing regions; today Asia is the world's largest producing region, with production having grown 15-fold since 1961. Over the same period, production in Europe roughly doubled and North America grew about 2.5-fold, while every other region except the Caribbean (about threefold) increased more than fivefold. [8][9][18][19][20]\n\n## The mix of livestock types and the leading producer countries\n\nThe world's main types of livestock are poultry, beef (including beef and buffalo meat), pork, and sheep and goat meat. This mix is not fixed: the share of poultry, once small, has increased substantially, while the share of beef and buffalo meat has declined. The share of pork has been relatively stable. Production of beef and buffalo meat has itself more than doubled since 1961, so its declining share means that other types grew even faster. [10][21][22][23][24]\n\nProduction is concentrated in a small number of countries. The largest producer of beef and buffalo meat is the United States, followed by Brazil and China. The United States also leads the world in poultry, with China and Brazil as major producers. For pork, China is the largest producer and accounts for a substantial share of world production, followed by the United States, Germany, Spain, and Brazil. [11][12][13][25]\n\n## Consumption trends and regional differences\n\nPer capita meat consumption worldwide is increasing year by year, which indicates that meat production is growing faster than the population. In China, per capita consumption has increased substantially since the early 1960s. India, by contrast, has a strong orientation toward vegetarianism (lacto-vegetarian), and per capita consumption has remained roughly flat at a low level. [26][27][28][29]\n\nThere is a strong correlation between consumption and income: the richer a country is, the more meat the average person eats. Consumption is highest in high-income countries such as Australia. [30][38]\n\nWhat people eat also varies by region. Worldwide, the most consumed type per capita is pork, and in China pork accounts for about two-thirds of per capita meat consumption. In Argentina, beef and buffalo meat is dominant, accounting for more than half of consumption, while New Zealand shows a stronger preference for sheep and goat meat than the world average. [31][32][33][39]\n\n## Feed efficiency and the burden on land and the environment\n\nRaising livestock is a process that puts in more feed than the meat it yields. Producing one kilogram of beef requires feeding cattle an average of 25 kilograms of feed, which corresponds to a feed conversion ratio (FCR) of 0.04. [36]\n\nThis efficiency translates directly into how land is used. Half of the world's habitable land is used for agriculture, and more than three-quarters of that is devoted to livestock. Meat production has a major environmental impact through [greenhouse gas](/hubpedia/greenhouse-gas) emissions, the expansion of farmland use, and increased freshwater use, and in terms of [land use](/hubpedia/land-use), livestock is one of the largest single uses. [16][17]\n\n## Related articles\n\n- [Diet and land](/hubpedia/diet-and-land)\n- [Food emissions](/hubpedia/food-emissions)\n- [Diet composition](/hubpedia/diet-composition)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T12:01:41.077Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "毎年800億頭以上の陸生動物が食肉生産のためだけに屠殺されている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/animal-welfare",
+              "quote": "every year, humans slaughter more than 80 billion land-based animals for farming alone"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "これらの動物の大半は工場式畜産場で飼育されており、しばしば苦痛を伴う劣悪な環境下に置かれている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/animal-welfare",
+              "quote": "Most of these animals are raised in factory farms, often in painful and inhumane conditions."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "Sentience Instituteの推計では、2019年に養殖された魚の数は中央値で770億匹、幅は290億から1490億匹とされる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/animal-welfare",
+              "quote": "For farmed fish in 2019, the Sentience Institute gives a midpoint estimate of 77 billion. The range around this midpoint is large, from 29 to 149 billion animals annually."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "Mood, Lara, Boyland, Brooke (2023)の研究は、養殖魚(フィンフィッシュ)の総数を1240億匹と推定している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/animal-welfare",
+              "quote": "The study by Mood, Lara, Boyland, and Brooke (2023) estimates the total number of farmed finfish to be 124 billion."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "過去50年間で世界の食肉生産量は3倍以上に増加した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "over the past 50 years, meat production has more than tripled"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "世界の食肉生産量は現在年間3億5000万トンを超えている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "The world now produces more than 350 million tonnes each year."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "世界の食肉総生産量は1961年以降4倍以上に増加した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "total production has more than quadrupled since 1961"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "アジアは現在、世界最大の食肉生産地域となっている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "Asia now holds the position of being the largest meat producer"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "アジアの食肉生産量は1961年以降15倍に増加した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "meat production has increased 15-fold since 1961"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "世界の牛肉(牛肉・水牛肉)生産量は1961年以降2倍以上に増加した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "Globally, cattle meat production has more than doubled since 1961."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "アメリカ合衆国は牛肉・水牛肉の最大の生産国であり、ブラジルと中国がそれに続く。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "The United States stands as the largest producer of beef and buffalo meat, followed by Brazil and China."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "アメリカ合衆国は鶏肉生産で世界を主導しており、中国とブラジルも主要な生産国である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "The United States leads in poultry production, with China and Brazil also being major producers."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "中国は豚肉の最大の生産国であり、世界の豚肉生産の相当な部分を占める。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "China is the leading producer, contributing a substantial portion of the world's total pigmeat output."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "食肉のために屠殺される動物の数では、鶏が最も多い。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "chickens top the list with the highest numbers"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "魚類を含めると、屠殺される動物の総数の推計は2倍以上になる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/animal-welfare",
+              "quote": "Estimates for fish are more uncertain, but when we include them, these numbers more than double."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "食肉生産は温室効果ガス排出、農地利用、淡水利用の増加など大きな環境影響を及ぼしている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "the production of meat has large environmental impacts – increasing greenhouse gas emissions, agricultural land, and freshwater use"
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "世界の居住可能な土地の半分が農業に使われており、その4分の3以上が畜産に使われている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "half of the world's habitable land is used for agriculture, and more than three-quarters of this is used for livestock"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "1960年代初頭にはヨーロッパと北米が主要な食肉生産地域だった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "In the early 1960s, Europe and North America were the primary meat-producing regions."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "この期間にヨーロッパの食肉生産量は約2倍、北米の生産量は約2.5倍に増加した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "Europe's meat output has approximately doubled over this period, whilst North American output has increased 2.5-fold."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "カリブ海地域(約3倍)を除く全地域で、この期間の食肉生産量は5倍以上に増加した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "output in all regions (except the Caribbean which approximately tripled) growing more than 5-fold over this period"
+            },
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "stantial, with output in all regions (except the Caribbean which approximately tripled) growing more than 5-fold over this period"
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "世界の主要な家畜の種類は鶏肉、牛肉(牛肉・水牛肉を含む)、豚肉、そして羊・ヤギ肉である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "the dominant livestock types are poultry, cattle (which includes beef and buffalo meat), pigs, and sheep & goats to a lesser extent"
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "鶏肉が食肉生産全体に占める割合はかつて小さかったが、その後大幅に増加した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "Poultry meat, for example, used to constitute a smaller portion of the total meat production, but its share has significantly increased."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "牛肉・水牛肉が食肉生産全体に占める割合は減少した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "the proportion of beef and buffalo meat in total production has decreased"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "豚肉が世界の食肉生産に占める割合は比較的安定している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "the share of pig meat in global production has remained relatively stable"
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "豚肉生産における他の主要な国には、アメリカ合衆国、ドイツ、スペイン、ブラジルが含まれる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "Other major producers in this sector include the United States, Germany, Spain, and Brazil."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "世界全体で一人当たりの食肉消費量は年々増加している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "Globally, there has been an increase in average per capita meat consumption over the years."
+            },
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "lso be viewed as a time series in the \"Chart\" tab. Globally, there has been an increase in average per capita meat consumption over the years."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "一人当たり食肉消費量の増加は、食肉生産の増加率が人口増加率を上回っていることを示している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "This rise in per capita consumption indicates that total meat production has grown at a rate faster than population growth."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "中国では1960年代初頭以降、一人当たりの食肉消費量が大幅に増加した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "in countries like China, there has been a substantial increase in meat consumption per person since the early 1960s"
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "インドは菜食(ラクトベジタリアン)志向が強いため、一人当たりの食肉消費量が低く、ほぼ横ばいのままである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "India presents a contrasting scenario due to its strong lactovegetarian preferences, resulting in per capita meat consumption that remains low and relatively unchanged over the same period."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "国が豊かであるほど、平均的な人が食べる食肉の量が多くなるという強い相関がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "the richer a country is, the more meat the average person typically eats"
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "世界全体で一人当たり消費量が最も多い食肉の種類は豚肉である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "Globally, pigmeat holds the distinction of being the most consumed meat commodity on average per capita."
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "中国では豚肉が一人当たり食肉消費量の約3分の2を占める。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "In China, pigmeat accounts for around two-thirds of per capita meat consumption."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "アルゼンチンでは牛肉・水牛肉が消費の半分以上を占め、支配的である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "In Argentina, beef and buffalo meat dominate, accounting for more than half of consumption."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "豚は鶏に次いで屠殺数が多いが、その数は鶏より著しく少ない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "Pigs are next, but their numbers are markedly lower than chickens."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "豚に続いて、七面鳥、羊、ヤギ、牛の屠殺数は順に少なくなる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "Following pigs, the numbers of turkeys, sheep, goats, and cattle slaughtered are each progressively smaller."
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "牛肉1キログラムを生産するには平均して牛に25キログラムの飼料を与える必要があり、これは飼料転換率(FCR)0.04に相当する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "on average, we have to feed cattle 25 kilograms of feed to produce one kilogram of beef or buffalo meat - this would give us an FCR value of 0.04"
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "Sentience Instituteの中央値推計を用いると、殺される養殖魚の数は殺される鶏の数とほぼ同程度になる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/animal-welfare",
+              "quote": "This would mean the number of killed farmed fish is similar to the number of killed chickens."
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "食肉消費量はオーストラリアなど高所得国で最も高い傾向がある。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "Meat consumption tends to be highest in high-income countries, with notable consumption in places like Australia."
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "ニュージーランド人は世界平均に比べて羊・ヤギ肉をより強く好む。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/meat-production",
+              "quote": "New Zealanders have a much stronger preference for mutton & goat meat relative to the global average."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "ocean-plastic",
+    "topicType": "concept",
+    "categoryLabel": "地球・環境",
+    "title": "海洋プラスチック",
+    "summary": "海洋プラスチックとは、河川や海岸線を経て陸から海へ流出したプラスチック、および漁具など海上活動に由来するプラスチックの総称である。年間の海洋への流入量は100万~200万トンと推定され、これは世界のプラスチックごみ発生量約3億5000万トンの0.5%程度にすぎないが、その発生源は使用量の多い国ではなく廃棄物管理の不備を抱える国に強く偏っている。この「多く使う国」と「多く漏らす国」の不一致が、海洋プラスチック問題を理解するうえでの中心的な事実である。",
+    "bodyMarkdown": "## 定義と流入経路の内訳\n\n海に存在するプラスチックのうち、70%から80%は陸上で発生し、河川や海岸線を通じて海へ運ばれたものである。残りの20%から30%は、漁網、ロープ、放棄された船舶といった海上での活動に由来する。この二つの経路は発生源も対策も異なるため、海洋プラスチックを論じる際にはどちらを指しているかで数値が大きく変わる。 [1][2]\n\n海上起源の比率は場所によって偏る。北太平洋に浮遊物が集まる太平洋ゴミベルト(GPGP)では、漁網やロープなどが質量の52%を占めると推定されており、外洋の集積域では海上起源の寄与が全球平均より大きい。 [34]\n\n陸上からの流出量は、河川経由の推定で年間100万~200万トンとされる。Meijerらの研究は2015年の河川からの排出量を約100万トンと推定したが、その不確実性の範囲は0.8万~270万トンと二桁以上に広がる。以前の推定では年間最大800万トンという値も示されており、桁の異なる数字が並存してきた点は、この分野の推定精度を測るうえで重要である。 [8][14][37][40]\n\n## 生産量と廃棄の規模\n\n最初の合成プラスチックであるベークライトが生産されたのは1907年である。1950年時点の世界のプラスチック生産量は200万トンにすぎなかったが、現在は4億5000万トンを超え、2019年には4億6000万トンに達した。過去70年間でおよそ230倍、直近20年だけでも倍増している。 [13][22][23][35]\n\n世界では年間約3億5000万トンのプラスチックごみが発生している。このうちリサイクル・焼却・密閉埋立のいずれも施されず不適切に管理されるものが約4分の1あり、最終的に海へ流出する割合は全体の約0.5%にとどまる。ごみの総量から海洋への流入までには、収集・処分・地理という複数の絞り込みが挟まっている。 [3][4][38]\n\nなお、プラスチックごみ発生量として集計される統計は家庭由来の都市ごみのみを対象としており、産業・建設由来のごみや漁具など海洋由来のごみは含まれていない。国別の発生量比較を読むときはこの範囲の限定を踏まえる必要がある。 [45]\n\n## 発生源となる国と地域\n\n世界の海洋プラスチック流入量の81%はアジアから排出されている。以前の研究では2010年時点のアジアの割合を86%と推定していた。アジアは世界人口の60%を占める最も人口の多い地域であり、人口規模がこの偏りの一因となっている。他地域の割合はアフリカが8%、南米が5.5%、北米が4.5%で、欧州とオセアニアを合わせても1%未満である。 [6][12][28][29]\n\n国別では、フィリピンが世界のプラスチック流入量の3分の1以上にあたる36%を占め、インドが13%、中国が7%と続く。海洋プラスチックの発生源となっている上位5か国はフィリピン・インド・マレーシア・中国・インドネシアで、この5か国だけで河川経由の世界の流入量の約70%を占める。一人当たりで見ても、フィリピンは依然として最大の排出国である。 [7][19][53][54][55]\n\n一人当たりの海洋プラスチック排出量には大きな開きがある。欧州諸国が0.1キログラム未満であるのに対し、フィリピンでは3.5キログラム、マレーシアでは2.4キログラムである。アジア・サハラ以南アフリカ・南米の国々は、欧州や北米の国々よりも一人当たりの汚染量がはるかに多い。 [20][49]\n\n## 使用量と汚染量の不一致\n\nプラスチックを最も多く使う国と、最も多く海を汚す国は一致しない。プラスチックごみの発生量が最も多い国は中国とインドで、上位5か国はこれに米国・ブラジル・インドネシアが続く。一人当たりで見ると、高所得国の住民は低所得国の住民の4倍以上、上位中所得国の住民の2倍のごみを発生させている。裕福な国々の多くは1人当たり1日0.2~0.5キログラムを発生させるのに対し、インドでは0.01キログラム、フィリピンでは0.07キログラムにとどまる。 [30][31][46][47][48]\n\nそれにもかかわらず、低所得国・低中所得国の平均的な住民が生み出すプラスチック汚染量は高所得国の住民の50倍以上であり、低所得国では約100倍に達する。英国はフィリピンの2倍のプラスチック廃棄物を発生させているが、一人当たりの不適切処理廃棄物量ではフィリピンが英国の100倍である。平均的な米国人やスペイン人が発生させる廃棄物は平均的なインド人の約4倍、エチオピア人の約10倍だが、その順位は汚染量には引き継がれない。 [5][32][33][36][51]\n\nこの不一致の理由は使用量そのものではなく、廃棄物管理の不備にあるとされる。廃棄物が回収されず、安全に処分されず、適切に処理されない場合、それは汚染物質となって環境に流出する。不適切に管理された廃棄物は河川や海に流出するリスクがはるかに高い。したがって発生量が多い国でも、環境への流出が少なければ汚染はほぼゼロに近くなりうる。 [41][42][43][50][62]\n\n不備の内容は所得水準によって異なる。最貧国、特にサハラ以南アフリカや東南アジアの一部では、汚染の多くは正式な収集サービスによって回収されないごみに由来する。中所得国では、汚染の大半は処分段階、すなわち野焼きや、ごみが漏れ出す野積みの埋立地での管理によって発生する。効果的な廃棄物管理システムを持つ高所得国では、汚染の大半はポイ捨てに由来する。現在、海に流入するプラスチックの大半は、特にアジアを中心とする中所得国に由来する。 [44][52][64][65]\n\n人口を掛け合わせた不適切処理廃棄物の総量では、インド・中国・フィリピン・ブラジル・ナイジェリアが上位を占める。ただし、この総量の順位もそのまま海洋流入量の順位にはならない。 [61]\n\n## 地理条件が決める到達率\n\n海に流入するプラスチックの量は、不適切に管理される廃棄物の量に加えて、海岸への近さ、河川、地形、降雨パターンといった地理的要因によって左右される。内陸国の汚染は、大きな河口を持つ沿岸国に比べて海に到達しにくい。 [63][66]\n\n到達率の差は数値としても現れる。不適切に処理されたプラスチック廃棄物が海洋に到達する確率は、フィリピンで7%、マレーシアで4.4%、スリランカで3.4%であるのに対し、中国は0.2%、インドは0.5%である。廃棄物量で上位に立つ中国とインドの海洋への寄与が相対的に小さいのは、この到達率の低さによる。 [21]\n\n流域の規模と排出量も比例しない。ジャワ島のチリウン川流域は欧州のライン川流域より275倍小さく、発生するプラスチック廃棄物も75%少ない。それにもかかわらずチリウン川はライン川の100倍のプラスチックを海洋へ排出している(年間200~300トン対3~5トン)。同様に、インドネシアのジャカルタやフィリピンのマニラなどの都市は比較的小さな河川によって排水されているが、プラスチック排出量の大きな割合を占める。 [17][18][27]\n\n## 河川ごとの分布と推定の見直し\n\n排出源となる河川がどれだけ集中しているかについては、推定が大きく修正されてきた。以前の研究では上位5河川または162河川で全体の80%を占めるとされ、上位10河川の占める割合は56%や91%と示されていた。上位河川として挙げられていたのは中国の長江・西江・黄浦江、インドのガンジス川、ナイジェリアのクロス川、ブラジルのアマゾン川などである。 [24][60]\n\nより新しい高解像度の推定では、この集中度は小さくなった。上位10河川が占める割合は18%とされ、その内訳は7河川がフィリピン、2河川がインド、1河川がマレーシアである。フィリピンのパシッグ川だけで世界の河川プラスチック排出量の6.4%を占める。この推定は14カ国66河川にわたる数年間の研究と較正に基づいている。 [9][10][11][25]\n\n分布はより広く薄い。モデル化された10万の河川出口のうち約3分の1が排出に寄与しており、河川プラスチックの80%を占めるには上位1,656河川を含める必要がある。すなわち1000本以上の河川が世界の河川経由排出量の80%を占める。世界最大の排出河川の多くはアジアにあるが、一部は東アフリカとカリブ海地域にもある。 [15][16][26][69]\n\n## 廃プラスチックの国際取引\n\n2024年に国際間で取引されたプラスチックごみは世界全体で約320万トンで、これは世界のプラスチックごみ発生量の1%弱にあたる。取引量のうち約90%は高所得国から輸出されたものである。一人当たりの純輸出量が最も多い国は、日本とニュージーランドを除きすべて欧州の国々である。 [56][57][59][67]\n\n取引量は2016年のピークから急減している。主な要因は、中国が2018年にプラスチックごみの輸入を禁止したことである。 [58]\n\n## 蓄積量と現在の流入量の違い\n\n現在の年間流入量と、これまでに海に蓄積した量は別の指標である。より豊かな国々はより長期間にわたって海洋を汚染してきており、海洋プラスチックの蓄積量で見ると欧州・北米の高所得国が現在より大きな割合を占める。年間流入量で中所得国が上位に並ぶ構図は、歴史的な寄与の分布とは一致しない。 [44][68]\n\n流入したプラスチックの行方についても、外洋の集積域が想起されがちだが、海に流入したプラスチックの大半は海岸付近にとどまっている。 [39]\n\n## 関連記事\n\n- [廃棄物処理](/hubpedia/waste-management)\n- [生物多様性](/hubpedia/biodiversity)\n- [乱獲](/hubpedia/overfishing)\n- [経済的不平等](/hubpedia/economic-inequality)",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/ocean-plastics",
+        "title": "海洋プラスチック",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on ocean-plastic. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/plastic-pollution",
+        "title": "plastic-pollution",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Plastic pollution overall. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Marine plastic",
+        "summary": "Marine plastic is the collective term for plastic that flows from land into the sea via rivers and coastlines, together with plastic originating from activities at sea such as fishing gear. Annual input to the ocean is estimated at 1–2 million tonnes, which is only about 0.5% of the roughly 350 million tonnes of plastic waste generated worldwide, but its sources are heavily skewed toward countries with deficient waste management rather than countries that use the most plastic. This mismatch between \"countries that use a lot\" and \"countries that leak a lot\" is the central fact for understanding the marine plastic problem.",
+        "bodyMarkdown": "## Definition and breakdown of input pathways\n\nOf the plastic present in the ocean, 70% to 80% originates on land and is carried to the sea through rivers and coastlines. The remaining 20% to 30% comes from activities at sea, such as fishing nets, ropes, and abandoned vessels. Because these two pathways differ in both their sources and their countermeasures, figures vary greatly depending on which one is meant when marine plastic is discussed. [1][2]\n\nThe share of marine-based sources is unevenly distributed by location. In the Great Pacific Garbage Patch (GPGP), where floating debris accumulates in the North Pacific, fishing nets and ropes are estimated to account for 52% of the mass, and the contribution of marine-based sources in open-ocean accumulation zones is larger than the global average. [34]\n\nOutflow from land is estimated at 1 to 2 million tonnes per year via rivers. Meijer et al. estimated riverine emissions in 2015 at about 1 million tonnes, but the uncertainty range spans more than two orders of magnitude, from 8,000 to 2.7 million tonnes. Earlier estimates put the figure as high as 8 million tonnes per year, and the coexistence of numbers differing by an order of magnitude is an important point in gauging the precision of estimates in this field. [8][14][37][40]\n\n## Scale of production and disposal\n\nBakelite, the first synthetic plastic, was produced in 1907. World plastic production in 1950 was only 2 million tonnes, but it now exceeds 450 million tonnes, reaching 460 million tonnes in 2019. That is roughly a 230-fold increase over the past 70 years, and a doubling in the last 20 years alone. [13][22][23][35]\n\nAbout 350 million tonnes of plastic waste are generated worldwide each year. Roughly a quarter of this is inadequately managed — neither recycled, incinerated, nor sent to sealed landfill — and the share that ultimately flows into the ocean remains at about 0.5% of the total. Between the total volume of waste and the input to the ocean lie several successive filters: collection, disposal, and geography. [3][4][38]\n\nNote that statistics compiled as plastic waste generation cover only household-derived municipal waste; they exclude waste from industry and construction, as well as marine-derived waste such as fishing gear. This limited scope must be kept in mind when reading country-by-country comparisons of waste generation. [45]\n\n## Source countries and regions\n\n81% of the world's marine plastic input is emitted from Asia. Earlier research estimated Asia's share in 2010 at 86%. Asia is the most populous region, home to 60% of the world's population, and population size is one factor behind this skew. Shares for other regions are 8% for Africa, 5.5% for South America, and 4.5% for North America, with Europe and Oceania together accounting for less than 1%. [6][12][28][29]\n\nBy country, the Philippines accounts for 36% of global plastic input — more than a third — followed by India at 13% and China at 7%. The top five source countries for marine plastic are the Philippines, India, Malaysia, China, and Indonesia, and these five alone account for about 70% of the world's riverine input. On a per-capita basis as well, the Philippines remains the largest emitter. [7][19][53][54][55]\n\nPer-capita marine plastic emissions vary widely. European countries are below 0.1 kilograms, while the figure is 3.5 kilograms in the Philippines and 2.4 kilograms in Malaysia. Countries in Asia, sub-Saharan Africa, and South America pollute far more per capita than countries in Europe or North America. [20][49]\n\n## The mismatch between consumption and pollution\n\nThe countries that use the most plastic are not the countries that pollute the ocean the most. The largest generators of plastic waste are China and India, with the United States, Brazil, and Indonesia rounding out the top five. On a per-capita basis, residents of high-income countries generate more than four times as much waste as residents of low-income countries and twice as much as residents of upper-middle-income countries. Many wealthy countries generate 0.2 to 0.5 kilograms per person per day, compared with just 0.01 kilograms in India and 0.07 kilograms in the Philippines. [30][31][46][47][48]\n\nEven so, the average resident of a low-income or lower-middle-income country produces more than 50 times as much plastic pollution as a resident of a high-income country, reaching about 100 times in low-income countries. The United Kingdom generates twice as much plastic waste as the Philippines, yet the Philippines produces 100 times as much inadequately managed waste per capita as the UK. The average American or Spaniard generates about four times as much waste as the average Indian and about ten times as much as the average Ethiopian, but that ranking does not carry over to pollution. [5][32][33][36][51]\n\nThe reason for this mismatch is said to lie not in consumption itself but in deficient waste management. When waste is not collected, not safely disposed of, and not properly treated, it becomes a pollutant and leaks into the environment. Inadequately managed waste is far more likely to leak into rivers and the sea. A country with high waste generation can therefore have pollution close to zero if little escapes into the environment. [41][42][43][50][62]\n\nThe nature of the deficiency differs by income level. In the poorest countries, particularly parts of sub-Saharan Africa and Southeast Asia, most pollution comes from waste that is never picked up by formal collection services. In middle-income countries, most pollution arises at the disposal stage — through open burning or management at open dumpsites from which waste leaks. In high-income countries with effective waste management systems, most pollution comes from littering. At present, the bulk of the plastic entering the ocean comes from middle-income countries, especially in Asia. [44][52][64][65]\n\nIn total volume of inadequately managed waste, once multiplied by population, India, China, the Philippines, Brazil, and Nigeria rank at the top. However, this ranking by total volume does not translate directly into a ranking by input to the ocean. [61]\n\n## Geography determines the rate of reaching the sea\n\nThe amount of plastic entering the ocean depends not only on the amount of inadequately managed waste but also on geographic factors such as proximity to the coast, rivers, terrain, and rainfall patterns. Pollution in landlocked countries is less likely to reach the sea than in coastal countries with large river mouths. [63][66]\n\nThe difference in the rate of reaching the sea also shows up in the numbers. The probability that inadequately managed plastic waste reaches the ocean is 7% in the Philippines, 4.4% in Malaysia, and 3.4% in Sri Lanka, compared with 0.2% in China and 0.5% in India. The relatively small oceanic contribution of China and India, which rank at the top by waste volume, is due to this low rate of reaching the sea. [21]\n\nBasin size and emissions are also not proportional. The Ciliwung River basin in Java is 275 times smaller than the Rhine basin in Europe and generates 75% less plastic waste. Nevertheless, the Ciliwung discharges 100 times as much plastic into the ocean as the Rhine (200–300 tonnes per year versus 3–5 tonnes). Similarly, cities such as Jakarta in Indonesia and Manila in the Philippines are drained by relatively small rivers yet account for a large share of plastic emissions. [17][18][27]\n\n## River-by-river distribution and revised estimates\n\nEstimates of how concentrated the source rivers are have been substantially revised. Earlier research held that the top 5 rivers, or 162 rivers, accounted for 80% of the total, and put the share of the top 10 rivers at 56% or 91%. The rivers listed among the top were China's Yangtze, Xi, and Huangpu, India's Ganges, Nigeria's Cross, and Brazil's Amazon. [24][60]\n\nNewer, higher-resolution estimates put this concentration lower. The share of the top 10 rivers is given as 18%, comprising 7 rivers in the Philippines, 2 in India, and 1 in Malaysia. The Pasig River in the Philippines alone accounts for 6.4% of global riverine plastic emissions. This estimate is based on several years of study and calibration across 66 rivers in 14 countries. [9][10][11][25]\n\nThe distribution is broader and thinner. About one third of the 100,000 modeled river outlets contribute to emissions, and the top 1,656 rivers must be included to account for 80% of riverine plastic. In other words, more than 1,000 rivers account for 80% of global riverine emissions. Many of the world's largest emitting rivers are in Asia, but some are in East Africa and the Caribbean. [15][16][26][69]\n\n## International trade in plastic waste\n\nIn 2024, plastic waste traded internationally amounted to about 3.2 million tonnes worldwide, slightly under 1% of global plastic waste generation. About 90% of the traded volume was exported from high-income countries. The countries with the highest net exports per capita are all European, with the exception of Japan and New Zealand. [56][57][59][67]\n\nTraded volumes have fallen sharply from their 2016 peak. The main factor is China's 2018 ban on imports of plastic waste. [58]\n\n## Accumulated stock versus current input\n\nCurrent annual input and the amount accumulated in the ocean to date are different measures. Wealthier countries have polluted the ocean over a longer period, and in terms of accumulated marine plastic, high-income countries in Europe and North America account for a larger share than they do today. The pattern in which middle-income countries top the rankings for annual input does not match the distribution of historical contributions. [44][68]\n\nAs for where the plastic that enters the ocean ends up, open-ocean accumulation zones tend to come to mind, but most plastic that enters the sea stays near the coast. [39]\n\n## Related articles\n\n- [Waste management](/hubpedia/waste-management)\n- [Biodiversity](/hubpedia/biodiversity)\n- [Overfishing](/hubpedia/overfishing)\n- [Economic inequality](/hubpedia/economic-inequality)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T12:01:41.078Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "海洋プラスチックの70%から80%は、河川や海岸線を通じて陸地から海へ運ばれたものである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ocean-plastics",
+              "quote": "70% to 80% is plastic that is transported from land to the sea via rivers or coastlines"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "残りの20%から30%は、漁網、ロープ、放棄された船舶など海上起源のものである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ocean-plastics",
+              "quote": "The other 20% to 30% comes from marine sources such as fishing nets, lines, ropes, and abandoned vessels"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "世界では年間約3億5000万トンのプラスチックごみが発生している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "The world produces around 350 million tonnes of plastic waste each year."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "プラスチックごみのうち海に流出する割合は約0.5%である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "about 0.5% of plastic waste ends up in the ocean"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "低所得国・低中所得国の平均的な住民が生み出すプラスチック汚染量は、高所得国の住民の50倍以上である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "The average person in a low- or lower-middle-income country generates more than 50 times the plastic pollution of someone in a high-income country."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "世界の海洋プラスチック流入量の81%はアジアから排出されている。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ocean-plastics",
+              "quote": "81% of ocean plastics are emitted from Asia."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "フィリピンは世界のプラスチック流入量の3分の1以上(36%)を占める。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ocean-plastics",
+              "quote": "The Philippines accounts for more than one-third (36%) of plastic inputs"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "Meijerらの研究によれば、2015年に河川から海洋へ排出されたプラスチックは約100万トンと推定される(不確実性の範囲は0.8~270万トン)。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ocean-plastics",
+              "quote": "They found that rivers emitted around 1 million tonnes of plastics into the oceans in 2015 (with an uncertainty ranging from 0.8 to 2.7 million tonnes)."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "最新の研究では、排出量上位10河川が占める割合は18%であり、以前の研究が示した56%や91%より小さい。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ocean-plastics",
+              "quote": "just 18% of plastics compared to 56% and 91% from previous studies"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "排出量上位10河川のうち7河川はフィリピンにあり、2河川はインド、1河川はマレーシアにある。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ocean-plastics",
+              "quote": "Seven of the top ten rivers are in the Philippines. Two are in India, and one in Malaysia."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "フィリピンのパシッグ川だけで、世界の河川プラスチック排出量の6.4%を占める。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ocean-plastics",
+              "quote": "The Pasig River in the Philippines alone accounts for 6.4% of global river plastics."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "地域別では、アフリカが8%、南米が5.5%、北米が4.5%、欧州とオセアニアを合わせても1%未満の排出割合であった。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ocean-plastics",
+              "quote": "Africa was responsible for 8%; South America for 5.5%; North America for 4.5%; and Europe and Oceania combined were less than 1%."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "1950年、世界のプラスチック生産量はわずか200万トンだったが、現在は4億5000万トンを超える。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "In 1950, the world produced just two million tonnes. It now produces over 450 million tonnes."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "毎年100万~200万トンのプラスチックが海洋に流入している。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "one to two million tonnes of plastic enter our oceans yearly"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "モデル化された10万の河川出口のうち、約3分の1がこの排出に寄与していた。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ocean-plastics",
+              "quote": "Around one-third of the 100,000 river outlets that they modeled contributed to this."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "河川プラスチックの80%を占めるには、上位1,656河川を含める必要がある。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ocean-plastics",
+              "quote": "we need to include the top 1,656 rivers"
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "ジャワ島のチリウン川流域は欧州のライン川流域より275倍小さく、発生するプラスチック廃棄物は75%少ない。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ocean-plastics",
+              "quote": "The Ciliwung River basin in Java is 275 times smaller than the Rhine river basin in Europe and generates 75% less plastic waste."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "それにもかかわらずチリウン川は、ライン川の100倍のプラスチックを海洋へ排出している(年間200~300トン対3~5トン)。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ocean-plastics",
+              "quote": "Yet it emits 100 times as much plastic to the ocean each year (200 to 300 tonnes versus only 3 to 5 tonnes)."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "インドは13%、中国は7%を占める。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ocean-plastics",
+              "quote": "India accounts for 13%, and China for 7%."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "欧州諸国の1人当たり海洋プラスチック排出量は0.1キログラム未満であるのに対し、フィリピンでは3.5キログラム、マレーシアでは2.4キログラムである。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ocean-plastics",
+              "quote": "European countries, for example, emit less than 0.1 kilograms of plastic per person. This compares to 3.5 kilograms in the Philippines or 2.4 kilograms in Malaysia."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "不適切に処理されたプラスチック廃棄物が海洋に到達する確率は、フィリピンで7%、マレーシアで4.4%、スリランカで3.4%であるのに対し、中国は0.2%、インドは0.5%である。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ocean-plastics",
+              "quote": "This probability is much higher in countries such as the Philippines (a 7% probability); Malaysia (4.4%); and Sri Lanka (3.4%) than China (0.2%) or India (0.5%)."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "最初の合成プラスチックであるベークライトは1907年に生産された。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "The first synthetic plastic — Bakelite — was produced in 1907"
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "プラスチックの年間生産量は過去70年間で約230倍に増加し、2019年には4億6000万トンに達した。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "the annual production of plastics has increased nearly 230-fold to 460 million tonnes in 2019"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "以前の研究では、上位5河川または162河川で全体の80%を占めるとされていた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ocean-plastics",
+              "quote": "previous studies which suggested the largest five or 162 rivers were responsible for 80%"
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "高解像度データは、14カ国66河川にわたる数年間の研究と較正に基づいている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ocean-plastics",
+              "quote": "This higher-resolution data was based on several years of research and calibrations of these models across 66 rivers in 14 countries."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "世界最大の排出河川の多くはアジアにあり、一部は東アフリカとカリブ海地域にもある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ocean-plastics",
+              "quote": "Most of the world’s largest emitting rivers are in Asia, with some also in East Africa and the Caribbean."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "インドネシアのジャカルタやフィリピンのマニラなどの都市は比較的小さな河川によって排水されているが、プラスチック排出量の大きな割合を占める。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ocean-plastics",
+              "quote": "Cities such as Jakarta in Indonesia and Manila in the Philippines are drained by relatively small rivers but account for a large share of plastic emissions."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "以前の研究では、2010年時点のアジアの割合は86%と推定されていた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ocean-plastics",
+              "quote": "Earlier studies estimated its share in 2010 was 86%."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "アジアは世界人口の60%を占め、世界で最も人口の多い地域である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ocean-plastics",
+              "quote": "Asia is the world’s most populous region (home to 60% of the world population)"
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "裕福な国々の多くは1人当たり1日0.2~0.5キログラムのプラスチック廃棄物を発生させる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ocean-plastics",
+              "quote": "Most produce 0.2 to 0.5 kilograms per person per day."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "これに対しインドでは1人当たり1日0.01キログラム、フィリピンでは0.07キログラムのプラスチック廃棄物が発生する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ocean-plastics",
+              "quote": "This compares to 0.01 in India or 0.07 kilograms in the Philippines."
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "英国はフィリピンの2倍のプラスチック廃棄物を発生させている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ocean-plastics",
+              "quote": "The UK, for example, generates twice as much plastic waste as the Philippines."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "フィリピンの1人当たり不適切処理廃棄物量は英国の100倍である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ocean-plastics",
+              "quote": "Per capita mismanaged waste in the Philippines is 100 times higher than in the UK."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "太平洋ゴミベルト(GPGP)では、漁網やロープなどのプラスチックが質量の52%を占めると推定されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ocean-plastics",
+              "quote": "it’s estimated that plastic lines, ropes and fishing nets make up 52% of the plastic mass in the ‘Great Pacific Garbage Patch’ (GPGP)."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "過去20年だけでも世界のプラスチック生産量は倍増した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "Even just in the last two decades, global plastic production has doubled."
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "平均的な米国人やスペイン人が発生させるプラスチック廃棄物は、平均的なインド人の約4倍、エチオピア人の約10倍である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "The average American or Spaniard generates around four times as much as the average Indian, and ten times as much as an Ethiopian."
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "質の高い最近の研究によれば、海に流入するプラスチックは年間100万~200万トンと推定される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "recent high-quality studies suggest that between 1 and 2 million tonnes of plastic enter the oceans annually"
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "プラスチックごみのおよそ4分の1はリサイクル・焼却・密閉埋立のいずれもされず、不適切に管理されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "around one-quarter of plastic waste is mismanaged"
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "海に流入したプラスチックの大半は海岸付近にとどまっている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "Most of it stays close to the shoreline."
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "海洋プラスチック流入量について、以前の推定値は最大で年間800万トンとされていた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "Earlier estimates were as high as 8 million tonnes."
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "最もプラスチック汚染を生み出している国々は、一人当たりのプラスチックごみ発生量自体はむしろ少ないことが多い。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "the countries that generate the most plastic pollution often produce much less plastic waste per person."
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "プラスチック汚染の主要因は使用量そのものではなく、廃棄物管理の不備である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "Poor waste management is the bigger problem, not how much plastic they use."
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "廃棄物が回収されず、安全に処分されず、適切に処理されない場合、それは汚染物質となり環境に流出する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "When waste is not collected, safely disposed of, or properly treated, it becomes a pollutant and leaks into the environment."
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "現在、海に流入するプラスチックの大半は、特にアジアを中心とする中所得国に由来する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "most plastic flowing into the ocean today comes from middle-income countries, particularly across Asia."
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "statement": "プラスチックごみ発生量に関する統計は家庭からの都市ごみのみを対象とし、産業・建設由来のごみや漁具など海洋由来のごみは含まれない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "This data is for municipal plastic waste generated by households only. It does not include waste generated by industry or construction, or oceanic sources such as fishing gear."
+            }
+          ]
+        },
+        {
+          "index": 46,
+          "statement": "プラスチックごみの発生量が最も多い国は中国とインドである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "China and India top the list"
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "statement": "プラスチックごみ発生量上位5か国は、中国・インドに続き、米国・ブラジル・インドネシアで構成される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "The United States, Brazil, and Indonesia complete the top five"
+            }
+          ]
+        },
+        {
+          "index": 48,
+          "statement": "高所得国の住民は、低所得国の住民の4倍以上、上位中所得国の住民の2倍のプラスチックごみを発生させている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "people in high-income countries generate more than four times as much plastic waste as those in low-income one, and twice as much as those in upper-middle income countries."
+            }
+          ]
+        },
+        {
+          "index": 49,
+          "statement": "アジア・サハラ以南アフリカ・南米の国々は、欧州や北米の国々よりも一人当たりのプラスチック汚染量がはるかに多い。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "Countries across Asia, Sub-Saharan Africa, and South America tend to produce much more plastic pollution per person than those in Europe and North America."
+            }
+          ]
+        },
+        {
+          "index": 50,
+          "statement": "不適切に管理された廃棄物は、環境を汚染し、河川や海に流出するリスクがはるかに高い。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "Mismanaged waste is at a much higher risk of polluting the environment and leaking into rivers and the ocean."
+            }
+          ]
+        },
+        {
+          "index": 51,
+          "statement": "低所得国の一人当たりプラスチック汚染量は、高所得国の約100倍に達する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "low-income countries produce almost 100 times more plastic pollution per person than high-income countries."
+            }
+          ]
+        },
+        {
+          "index": 52,
+          "statement": "効果的な廃棄物管理システムを持つ高所得国では、汚染の大半はポイ捨てに由来する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "In high-income countries with effective waste management systems, most pollution comes from littering."
+            }
+          ]
+        },
+        {
+          "index": 53,
+          "statement": "海洋プラスチックの発生源となっている上位5か国は、フィリピン・インド・マレーシア・中国・インドネシアである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "The five largest sources of ocean plastics are the Philippines, India, Malaysia, China, and Indonesia."
+            }
+          ]
+        },
+        {
+          "index": 54,
+          "statement": "これら上位5か国だけで、河川経由で海に流入する世界のプラスチックの約70%を占める。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "Combined, these five countries contribute around 70% of the world’s ocean plastics from rivers."
+            }
+          ]
+        },
+        {
+          "index": 55,
+          "statement": "一人当たりで見ると、フィリピンは依然として海洋プラスチックの最大の排出国である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "On a per capita basis, the Philippines is still the largest emitter"
+            }
+          ]
+        },
+        {
+          "index": 56,
+          "statement": "2024年、国際間で取引されたプラスチックごみは世界全体で約320万トンだった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "Globally, around 3.2 million tonnes of plastic waste were traded between countries in 2024."
+            }
+          ]
+        },
+        {
+          "index": 57,
+          "statement": "国際取引されたプラスチックごみのうち約90%は高所得国から輸出されたものである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "Around 90% of this waste was exported from high-income countries."
+            }
+          ]
+        },
+        {
+          "index": 58,
+          "statement": "プラスチックの国際取引量は2016年のピークから急減しており、これは主に中国が2018年に輸入を禁止したことによる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "Global trade in plastics has fallen sharply from its peak in 2016, largely because of China’s 2018 ban on imports."
+            }
+          ]
+        },
+        {
+          "index": 59,
+          "statement": "一人当たりで見たプラスチックごみの純輸出量が最も多いのは、日本とニュージーランドを除きすべて欧州の国々である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "The largest net exporters of plastic waste per person are all countries in Europe, with the exception of Japan and New Zealand."
+            }
+          ]
+        },
+        {
+          "index": 60,
+          "statement": "以前の研究では、中国の長江・西江・黄浦江、インドのガンジス川、ナイジェリアのクロス川、ブラジルのアマゾン川が排出量上位の河川とされていた。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ocean-plastics",
+              "quote": "The Yangtze, Xi, and Huangpu rivers in China; the Ganges in India; Cross in Nigeria; and the Amazon in Brazil were the big rivers that topped the list."
+            }
+          ]
+        },
+        {
+          "index": 61,
+          "statement": "人口を掛け合わせた不適切処理廃棄物の総量では、インド・中国・フィリピン・ブラジル・ナイジェリアが上位を占める。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ocean-plastics",
+              "quote": "India, China, the Philippines, Brazil, and Nigeria top the list."
+            }
+          ]
+        },
+        {
+          "index": 62,
+          "statement": "プラスチックごみの発生量が多い国々でも、環境への流出は少なく、汚染はほぼゼロに近い場合がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "these high-waste producers do not leak much waste into the environment; their pollution is close to zero."
+            }
+          ]
+        },
+        {
+          "index": 63,
+          "statement": "海に流入するプラスチックの量は、発生する不適切管理廃棄物の量に加え、海岸への近さ・河川・地形・降雨パターンなどの地理的要因によって左右される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "The amount of mismanaged waste generated, combined with geographical factors such as proximity to shorelines, rivers, topography, and rainfall patterns, determines how much plastic flows into the ocean."
+            }
+          ]
+        },
+        {
+          "index": 64,
+          "statement": "最貧国、特にサハラ以南アフリカや東南アジアの一部では、汚染の多くは正式な収集サービスによって回収されないごみに由来する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "In the poorest countries, particularly across Sub-Saharan Africa and parts of Southeast Asia, a lot of pollution comes from waste that isn’t collected by any formal service."
+            }
+          ]
+        },
+        {
+          "index": 65,
+          "statement": "中所得国では、汚染の大半は処分段階、すなわち野焼きや、ごみが漏れ出す野積みの埋立地での廃棄物管理によって発生する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "For others, particularly middle-income countries, most of this pollution is generated at the disposal stage: countries choose to manage their waste through open-burning, and open landfills where debris can escape."
+            }
+          ]
+        },
+        {
+          "index": 66,
+          "statement": "内陸国のプラスチック汚染は、大きな河口を持つ沿岸国に比べて海に到達しにくい。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "Plastic pollution in a landlocked country is less likely to make it to the ocean than in one on a coastline with lots of large river outlets."
+            }
+          ]
+        },
+        {
+          "index": 67,
+          "statement": "国際取引されたプラスチックごみの量は、世界のプラスチックごみ発生量の1%弱にあたる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "which means that just under 1% of plastic waste was traded"
+            }
+          ]
+        },
+        {
+          "index": 68,
+          "statement": "より豊かな国々は、より長期間にわたって海洋を汚染してきており、海洋プラスチックの蓄積量で見ると欧州・北米の高所得国が現在より大きな割合を占める。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "richer countries have been polluting the oceans for longer. If we look at accumulated stocks of plastics in the ocean, higher-income countries across Europe and North America play a larger role than they do today."
+            }
+          ]
+        },
+        {
+          "index": 69,
+          "statement": "1000本以上の河川が、河川経由で海に流入する世界のプラスチック排出量の80%を占めるとされる。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "More than 1000 rivers account for 80% of global riverine plastic emissions into the ocean."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "forest-transition",
+    "topicType": "concept",
+    "categoryLabel": "地球・環境",
+    "title": "森林転換",
+    "summary": "森林転換（Forest Transition）とは、ある国や地域で森林面積の減少が止まり、増加へと転じる過程を指す概念である。人類はかつての森林の約3分の1を失い、世界の森林面積は60億ヘクタールから40億ヘクタールへ縮小したが、温帯地域では20世紀前半のピークを経て1990年代以降に森林面積が拡大へ転じた一方、今日の森林減少は生物多様性の豊かな熱帯に集中している。",
+    "bodyMarkdown": "## 概念と定義\n\n森林が減り続ける国が、あるときを境に森林を取り戻し始める。この森林破壊から森林再生への転換は「森林転換（Forest Transition）」と呼ばれる。国ごとに転換の時期は異なり、すでに転換を経た地域と、なお減少が続く地域が同時に存在することが、この概念の要点である。 [4]\n\n転換の前提となる損失の規模は大きい。最終氷期末には世界の居住可能陸地の推定57%が森林に覆われていたが、その後の農地拡大などによって森林面積は60億ヘクタールから40億ヘクタールへ減少した。人類はかつての森林の3分の1を破壊した計算になる。 [1][2][5]\n\n現在の森林は、居住可能陸地面積の3分の1強を占める。なお世界の陸地のうち10%は氷河に覆われ、さらに19%は砂漠・乾燥塩湖・海岸・砂丘・露出岩などの不毛地帯であり、これらは居住可能陸地には含まれない。 [26][27]\n\n## 温帯と熱帯で異なる時期\n\n森林転換が最も明瞭に観測されているのは温帯林である。温帯林の破壊は過去に多く、20世紀前半にピークを迎えた後、1990年代以降は温帯林の面積が拡大に転じた。転換は世界一律には進んでおらず、多くの国では現在の森林被覆が30年前より少ない。 [13][15]\n\n熱帯では時期がずれる。熱帯における森林破壊の速度は1980年代に最も高く、その後3分の1に減少した。減少はしたものの、今日破壊されている森林の大部分は、地球上で最も生物多様性に富む地域の一つである熱帯にある。減少速度の低下と、失われる森林の生態学的価値の高さは、別の事柄として扱う必要がある。 [14][16]\n\n## 森林の分布\n\n世界の森林は少数の国に偏って分布している。ロシアを中心とするヨーロッパは世界最大の森林面積の割合を占め、世界の森林面積の4分の1を有する。南アメリカは世界の森林面積の5分の1を占める。 [29][30]\n\n国別では、ロシアが8億ヘクタールを超える世界最大の森林面積を有し、単独で世界の森林面積の5分の1を占める。ブラジルは、世界の森林被覆の10%以上を占めるロシア以外で唯一の国である。このほかアメリカ、カナダ、中国、オーストラリア、コンゴ民主共和国も、それぞれ1億ヘクタールを超える広大な森林面積を有する。 [31][32][33][34]\n\n森林面積を数える際には森林の質が問題になる。FAOの定義では、原生林とは人間活動の明確な痕跡がなく生態学的プロセスが著しく損なわれていない、在来種の天然更新林とされる。一方、植林地とは主に植栽および／または意図的な播種によって成立した樹木からなる森林とされる。面積の増加が原生林の回復か植林地の拡大かによって、同じ数値の意味は変わる。 [37][38]\n\n## 森林減少の要因\n\n森林破壊の最大の要因は農業である。森林破壊は主に、作物栽培や家畜放牧のための農地を確保する目的で行われている。土地への圧力の大きさは食料の種類によって異なり、食料生産における土地利用は、肉生産の方が植物性食品よりもはるかに大きい。 [3][7][17]\n\n放牧の占める面積は森林に匹敵する。世界の居住可能陸地の31%は現在家畜の放牧地となっており、畜産に使われる土地面積は世界の森林面積とほぼ等しい。アマゾン熱帯雨林の破壊においては、牧畜のための農地拡大が突出して最大の要因である。 [8][10][28]\n\nブラジルの事例では、土地の使い方そのものが要因として指摘されている。ブラジルの牧畜が森林破壊を大きく引き起こす一因は、単位面積あたりの飼育頭数が非常に少ない低密度の牧畜であることにある。ブラジルの牛肉生産の観測された平均生産性は1ヘクタール・年あたり89kgだが、生物学的な生産可能量は172kgを超えるとされる。 [35][36]\n\n需要の所在も一様ではない。熱帯地域における森林破壊の約12%は、高所得国からの需要によって引き起こされている。ブラジルの牛肉についても、2018年時点で生産された牛肉の約80%は国内で消費された。同年の輸出量は約210万トン、生産量は約1020万トンだった。輸出向け需要は要因の一部であって全部ではない。 [9][24][25]\n\n## 燃料材としての木材\n\n木材利用のうち、建材や紙より大きな比重を占めるのが燃料である。世界で採取される木材の約半分はエネルギー生産に使われており、主に貧しい世帯の調理や暖房に用いられている。世界で伐採される木材の年間量は約37億立方メートルと推定され、そのうち18.7億立方メートルが燃料として使われた。 [6][20]\n\nこの用途は多数の人々の生計と結びついている。世界で推定8億8000万人が薪の採取や木炭の生産に従事している。薪や木炭の使用は年間1〜2.4ギガトンのCO2換算温室効果ガスを排出し、これは世界の人為的排出量の2〜7%に相当する。 [21][22][23]\n\n薪への依存は代替手段の有無に左右される。エネルギー源としての木材への需要は、化石燃料や再生可能エネルギー、原子力といった近代的なエネルギー源が利用可能になったことで減少した。 [18]\n\n## 転換を促す条件と政策\n\n森林転換の実現には、燃料材と農地への需要を減らす技術進歩が重要な役割を果たしたとされる。近代的エネルギーへの移行が薪の需要を下げ、単位面積あたりの生産性向上が農地拡大への圧力を下げるという経路が、これに対応する。 [11][18][36]\n\n政策的な取り組みも進められている。FAOのREDD+のようなプログラムは、森林保護を森林破壊よりも経済的に有利にするため、貧しい国々や農家に補償を行っている。国際的な合意としては、COP26（グラスゴー）で世界の森林の約85%を有する国々が2030年までに森林破壊を終わらせることを誓約した。 [12][19]\n\nただし、誓約に参加した国々の森林面積の広さは、そのまま達成の見込みを示すものではない。熱帯の森林減少速度は1980年代の3分の1にまで下がってはいるが、多くの国で現在の森林被覆は30年前より少ないままである。 [12][14][15]\n\n## 関連記事\n\n- [森林面積](/hubpedia/forest-area)\n- [土地利用](/hubpedia/land-use)\n- [生物多様性](/hubpedia/biodiversity)\n- [食肉生産](/hubpedia/meat-production)\n- [温室効果ガス](/hubpedia/greenhouse-gas)\n- [エネルギーアクセス](/hubpedia/energy-access)\n- [食生活と土地](/hubpedia/diet-and-land)\n- [食料供給](/hubpedia/food-supply)",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/global-forest-transition",
+        "title": "森林転換",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on forest-transition. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/forest-area",
+        "title": "forest-area",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "The forest area this describes. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Forest transition",
+        "summary": "Forest transition refers to the process by which the decline in forest area in a country or region halts and reverses into growth. Humanity has lost roughly one-third of its former forests, with global forest area shrinking from 6 billion hectares to 4 billion hectares. In temperate regions, forest area began expanding from the 1990s onward after peaking in the first half of the 20th century, while today's deforestation is concentrated in the biodiversity-rich tropics.",
+        "bodyMarkdown": "## Concept and definition\n\nA country whose forests have been shrinking begins, at a certain point, to regain them. This shift from deforestation to reforestation is called \"forest transition.\" The timing of the transition differs from country to country, and the key point of the concept is that regions that have already passed through the transition and regions where decline continues exist at the same time. [4]\n\nThe scale of the loss that precedes the transition is large. At the end of the last glacial period, an estimated 57% of the world's habitable land was covered by forest, but subsequent agricultural expansion and other factors reduced forest area from 6 billion hectares to 4 billion hectares. By this calculation, humanity has destroyed one-third of its former forests. [1][2][5]\n\nToday's forests occupy a little more than one-third of habitable land area. Note that 10% of the world's land is covered by glaciers, and a further 19% is barren land such as deserts, dry salt flats, beaches, sand dunes, and exposed rock; these are not counted as habitable land. [26][27]\n\n## Different timing in temperate and tropical regions\n\nForest transition has been observed most clearly in temperate forests. Destruction of temperate forests was extensive in the past and peaked in the first half of the 20th century, after which temperate forest area shifted to expansion from the 1990s onward. The transition has not proceeded uniformly worldwide, and in many countries current forest cover is lower than it was 30 years ago. [13][15]\n\nIn the tropics the timing is offset. The rate of deforestation in the tropics was highest in the 1980s and has since fallen to one-third of that level. Although the rate has declined, most of the forest being destroyed today lies in the tropics, one of the most biodiversity-rich regions on Earth. The decline in the rate of loss and the high ecological value of the forests being lost need to be treated as separate matters. [14][16]\n\n## Distribution of forests\n\nThe world's forests are unevenly distributed across a small number of countries. Europe, centered on Russia, accounts for the largest share of the world's forest area, holding one-quarter of it. South America accounts for one-fifth of the world's forest area. [29][30]\n\nBy country, Russia has the world's largest forest area at over 800 million hectares, accounting on its own for one-fifth of the world's forest area. Brazil is the only country besides Russia that accounts for more than 10% of global forest cover. In addition, the United States, Canada, China, Australia, and the Democratic Republic of the Congo each have vast forest areas exceeding 100 million hectares. [31][32][33][34]\n\nWhen counting forest area, forest quality becomes an issue. Under the FAO definition, primary forest is naturally regenerated forest of native species with no clearly visible traces of human activity and where ecological processes are not significantly disturbed. Planted forest, by contrast, is forest composed of trees established mainly through planting and/or deliberate seeding. Whether an increase in area represents a recovery of primary forest or an expansion of planted forest changes what the same figure means. [37][38]\n\n## Drivers of forest loss\n\nThe largest driver of deforestation is agriculture. Deforestation is carried out mainly to secure farmland for growing crops and grazing livestock. The magnitude of pressure on land differs by type of food, and land use in food production is far greater for meat production than for plant-based foods. [3][7][17]\n\nThe area occupied by grazing rivals that of forests. Some 31% of the world's habitable land is currently used as pasture for livestock, and the land area used for livestock farming is roughly equal to the world's forest area. In the destruction of the Amazon rainforest, agricultural expansion for cattle ranching is by far the largest driver. [8][10][28]\n\nIn the case of Brazil, the way land itself is used has been identified as a driver. One reason Brazilian cattle ranching causes so much deforestation is that it is low-density ranching, with very few head of cattle per unit of area. The observed average productivity of Brazilian beef production is 89 kg per hectare per year, whereas the biologically achievable level of production is said to exceed 172 kg. [35][36]\n\nThe source of demand is not uniform either. About 12% of deforestation in tropical regions is driven by demand from high-income countries. As for Brazilian beef, about 80% of the beef produced as of 2018 was consumed domestically. Exports that year came to about 2.1 million tonnes against production of about 10.2 million tonnes. Export demand is part of the driver, not all of it. [9][24][25]\n\n## Wood as fuel\n\nAmong uses of wood, fuel accounts for a larger share than construction materials or paper. About half of the wood harvested worldwide is used for energy production, mainly for cooking and heating in poorer households. The annual volume of wood harvested worldwide is estimated at about 3.7 billion cubic meters, of which 1.87 billion cubic meters was used as fuel. [6][20]\n\nThis use is tied to the livelihoods of large numbers of people. An estimated 880 million people worldwide are engaged in gathering fuelwood or producing charcoal. The use of fuelwood and charcoal emits 1 to 2.4 gigatonnes of CO2-equivalent greenhouse gases per year, equal to 2 to 7% of global anthropogenic emissions. [21][22][23]\n\nDependence on fuelwood hinges on whether alternatives exist. Demand for wood as an energy source has fallen as modern energy sources such as fossil fuels, renewables, and nuclear power have become available. [18]\n\n## Conditions and policies that encourage transition\n\nTechnological progress that reduces demand for fuelwood and farmland is said to have played an important role in bringing about forest transition. The pathways that correspond to this are a shift to modern energy lowering demand for fuelwood, and higher productivity per unit of area lowering pressure for farmland expansion. [11][18][36]\n\nPolicy efforts are also under way. Programs such as the FAO's REDD+ compensate poorer countries and farmers in order to make forest protection more economically advantageous than deforestation. As for international agreements, at COP26 in Glasgow, countries holding about 85% of the world's forests pledged to end deforestation by 2030. [12][19]\n\nHowever, the extent of forest area held by the countries that joined the pledge does not in itself indicate the likelihood of achieving it. Although the rate of tropical forest loss has fallen to one-third of its 1980s level, current forest cover in many countries remains lower than it was 30 years ago. [12][14][15]\n\n## Related articles\n\n- [Forest area](/hubpedia/forest-area)\n- [Land use](/hubpedia/land-use)\n- [Biodiversity](/hubpedia/biodiversity)\n- [Meat production](/hubpedia/meat-production)\n- [Greenhouse gases](/hubpedia/greenhouse-gas)\n- [Energy access](/hubpedia/energy-access)\n- [Diet and land](/hubpedia/diet-and-land)\n- [Food supply](/hubpedia/food-supply)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T12:01:41.078Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "最終氷期末には、世界の居住可能陸地の推定57%が森林に覆われていた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-forest-transition",
+              "quote": "an estimated 57% of the world’s habitable land was forested"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "森林面積は60億ヘクタールから40億ヘクタールへと減少した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-forest-transition",
+              "quote": "The forested land area declined from 6 to 4 billion hectares."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "森林破壊の最大の要因は農業である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-forest-transition",
+              "quote": "By far, the most important driver of the destruction of forests is agriculture."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "森林破壊から森林再生への転換は「森林転換（Forest Transition）」と呼ばれる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-forest-transition",
+              "quote": "This reversal, from deforestation to reforestation, is called a Forest Transition."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "人類はかつての森林の3分の1を破壊した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-forest-transition",
+              "quote": "our ancestors destroyed one-third of the former forests"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "世界で採取される木材の約半分はエネルギー生産に使われており、主に貧しい世帯の調理や暖房に用いられている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-forest-transition",
+              "quote": "about half of extracted wood globally is used to produce energy, mostly for cooking and heating in poor households that lack alternatives"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "森林破壊は主に、作物栽培や家畜放牧のための農地を確保する目的で行われている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-forest-transition",
+              "quote": "Humanity cuts down forests primarily to make space for fields to grow crops and pastures to raise livestock."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "アマゾン熱帯雨林の破壊において、牧畜のための農地拡大が突出して最大の要因である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-forest-transition",
+              "quote": "The expansion of agricultural land to raise cattle is the most important driver, by far."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "熱帯地域における森林破壊の約12%は、高所得国からの需要によって引き起こされている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-forest-transition",
+              "quote": "about 12% of the deforestation in the tropics is driven by demand from high-income countries"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "世界の居住可能陸地の31%は、現在家畜の放牧地となっている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-forest-transition",
+              "quote": "31% of the world’s habitable land is now grazing land for livestock"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "森林転換の実現には、燃料材と農地への需要を減らす技術進歩が重要な役割を果たした。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-forest-transition",
+              "quote": "Crucial for these turnarounds was technological progress that reduced the demand for fuelwood and agricultural land."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "COP26（グラスゴー）では、世界の森林の約85%を有する国々が2030年までに森林破壊を終わらせることを誓約した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-forest-transition",
+              "quote": "At COP26 in Glasgow, countries with about 85% of the world’s forests pledged to end deforestation by 2030."
+            },
+            {
+              "sourceUrl": "https://ourworldindata.org/global-forest-transition",
+              "quote": "At COP26 in Glasgow, countries with about 85% of the world’s forests pledged to end deforestation by 2030."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "温帯林の破壊は過去に多く、20世紀前半にピークを迎えた後、1990年代以降は温帯林の面積が拡大に転じた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-forest-transition",
+              "quote": "deforestation was high in the past, then peaked in the first half of the 20th century, and from the 1990s onwards, temperate forests have expanded in size"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "熱帯における森林破壊の速度は1980年代に最も高く、その後3分の1に減少した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-forest-transition",
+              "quote": "the rate of deforestation in the tropics was highest in the 1980s. Since then, the rate of deforestation has declined by a factor of three."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "多くの国で、現在の森林被覆は30年前より少ない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-forest-transition",
+              "quote": "In all of these countries, the forest cover today is lower than three decades ago."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "今日破壊されている森林の大部分は、地球上で最も生物多様性に富む地域の一つである熱帯にある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-forest-transition",
+              "quote": "Most of the forests that are destroyed today are in the tropics, some of the most biodiverse regions on our planet."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "食料生産における土地利用は、肉生産の方が植物性食品よりもはるかに大きい。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-forest-transition",
+              "quote": "The land use of meat production is much higher than plant-based foods."
+            },
+            {
+              "sourceUrl": "https://ourworldindata.org/global-forest-transition",
+              "quote": "The land use of meat production is much higher than plant-based foods."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "エネルギー源としての木材への需要は、化石燃料や再生可能エネルギー、原子力といった近代的なエネルギー源が利用可能になったことで減少した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-forest-transition",
+              "quote": "The demand for wood as a source of energy decreased when modern energy sources became available – initially fossil fuels, and more recently renewables and nuclear power."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "FAOのREDD+のようなプログラムは、森林保護を森林破壊よりも経済的に有利にするため、貧しい国々や農家に補償を行っている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-forest-transition",
+              "quote": "programs like REDD+ of the FAO compensate poorer countries and farmers to make forest protection economically more attractive than deforestation"
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "世界で伐採される木材の年間量は約37億立方メートルと推定され、そのうち18.7億立方メートルが燃料として使われた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-forest-transition",
+              "quote": "The annual removal of wood worldwide was estimated at about 3.7 billion m3, of which 1.87 billion m3 was used as fuel."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "世界で推定8億8000万人が薪の採取や木炭の生産に従事している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-forest-transition",
+              "quote": "an estimated 880 million people worldwide are collecting fuelwood or producing charcoal with it"
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "薪への依存は、世界の温室効果ガス排出量の2〜7%を占める。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-forest-transition",
+              "quote": "the reliance on fuelwood also contributes between 2 and 7% of global greenhouse gas emissions"
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "薪や木炭の使用は、年間1〜2.4ギガトンのCO2換算温室効果ガスを排出し、これは世界の人為的排出量の2〜7%に相当する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-forest-transition",
+              "quote": "the use of firewood and charcoal contributes between 1-2.4 gigatons of CO2-equivalent greenhouse gases annually, which is 2-7% of global anthropogenic emissions"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "2018年時点で、ブラジルで生産された牛肉の約80%は国内で消費された。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-forest-transition",
+              "quote": "about 80% was consumed domestically"
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "2018年のブラジルの牛肉輸出量は約210万トン、生産量は約1020万トンだった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-forest-transition",
+              "quote": "Exports of beef in 2018 were about 2.1 million tonnes; production of beef was about 10.2 million tonnes."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "世界の10%は氷河に覆われ、さらに19%は砂漠・乾燥塩湖・海岸・砂丘・露出岩などの不毛地帯である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/forest-area",
+              "quote": "10% of the world is covered by glaciers, and a further 19% is barren land – deserts, dry salt flats, beaches, sand dunes, and exposed rocks"
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "森林は居住可能陸地面積の3分の1強を占める。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/forest-area",
+              "quote": "Forests account for a little over one-third of habitable land area."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "畜産に使われる土地面積は、世界の森林面積とほぼ等しい。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/forest-area",
+              "quote": "The area used for livestock farming, in particular is equal in area to the world’s forests."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "ロシアを中心とするヨーロッパは世界最大の森林面積の割合を占め、世界の森林面積の4分の1を有する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/forest-area",
+              "quote": "Europe – dominated by forests across Russia – holds the greatest share of global forests. They are home to one-quarter of the world’s forest area."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "南アメリカは世界の森林面積の5分の1を占める。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/forest-area",
+              "quote": "This was followed by South America, which has one-fifth of forest area."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "ロシアは8億ヘクタールを超える、世界最大の森林面積を有する国である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/forest-area",
+              "quote": "Russia is home to the largest area of forest – over 800 million hectares."
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "ブラジル、アメリカ、カナダ、中国、オーストラリア、コンゴ民主共和国も、それぞれ1億ヘクタールを超える広大な森林面積を有する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/forest-area",
+              "quote": "Brazil, the United States, Canada, China, Australia, and the Democratic Republic of Congo also have large areas of forested land – more than 100 million hectares each."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "ロシアは世界の森林面積の5分の1を占め、これは世界最大である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/forest-area",
+              "quote": "Russia – which has the largest forest area – is home to one-fifth of global forest area."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "ブラジルは、世界の森林被覆の10%以上を占める、ロシア以外で唯一の国である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/forest-area",
+              "quote": "Brazil is the only other country with more than 10% of global forest cover."
+            },
+            {
+              "sourceUrl": "https://ourworldindata.org/forest-area",
+              "quote": "l is the only other country with more than 10% of global forest cover."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "ブラジルの牧畜が森林破壊を大きく引き起こす一因は、単位面積あたりの飼育頭数が非常に少ない低密度の牧畜であることにある。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-forest-transition",
+              "quote": "Brazil has very low-density cattle-ranching (very few cows per unit of land)"
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "ブラジルの牛肉生産の観測された平均生産性は1ヘクタール・年あたり89kgだが、生物学的な生産可能量は172kgを超える。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-forest-transition",
+              "quote": "The observed average productivity is 89 kg ha−1 yr−1. However, biocapacity exceeds 172 kg ha−1 yr−1."
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "FAOの定義では、原生林とは人間活動の明確な痕跡がなく生態学的プロセスが著しく損なわれていない、在来種の天然更新林とされる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/forest-area",
+              "quote": "Naturally regenerated forest of native species, where there are no clearly visible indications of human activities and the ecological processes are not significantly disturbed."
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "FAOの定義では、植林地とは主に植栽および／または意図的な播種によって成立した樹木からなる森林とされる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/forest-area",
+              "quote": "Forest predominantly composed of trees established through planting and/or deliberate seeding."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

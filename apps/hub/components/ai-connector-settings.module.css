@@ -1,0 +1,118 @@
+.panel,
+.compact {
+  display: grid;
+  gap: 10px;
+}
+
+.list {
+  display: grid;
+  gap: 8px;
+}
+
+.list article {
+  display: grid;
+  grid-template-columns: minmax(150px, 1fr) auto auto;
+  align-items: center;
+  gap: 14px;
+  padding: 11px 12px;
+  background: var(--interactive);
+  border: var(--divider);
+  border-radius: 12px;
+}
+
+.identity {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  min-width: 0;
+}
+
+.identity svg {
+  width: 17px;
+  flex: 0 0 auto;
+  color: var(--muted);
+}
+
+.identity span,
+.identity small {
+  display: block;
+}
+
+.identity strong {
+  color: var(--text);
+}
+
+.identity small {
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+.identity small[data-status="connected"] {
+  color: var(--positive-text);
+}
+
+.list label {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.list input {
+  width: 16px;
+  height: 16px;
+  accent-color: var(--emphasis);
+}
+
+.list select {
+  min-height: 34px;
+  padding: 6px 28px 6px 9px;
+  color: var(--text);
+  background: var(--surface-raised);
+  border: var(--divider);
+  border-radius: 9px;
+}
+
+.list input:disabled,
+.list select:disabled {
+  opacity: 0.55;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  color: var(--muted);
+}
+
+.loading svg {
+  width: 16px;
+  animation: connector-spin 0.8s linear infinite;
+}
+
+.notice,
+.note {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+@keyframes connector-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 640px) {
+  .list article {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+
+  .list article > label:last-child {
+    grid-column: 1 / -1;
+    justify-content: space-between;
+  }
+}

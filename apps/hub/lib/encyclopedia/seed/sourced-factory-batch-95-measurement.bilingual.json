@@ -1,0 +1,3411 @@
+[
+  {
+    "slug": "disaster-data-limits",
+    "topicType": "concept",
+    "categoryLabel": "地球・環境",
+    "title": "災害統計の限界",
+    "summary": "災害統計の限界とは、地震・暴風・洪水・干ばつなどの災害について集計された件数・死者数・被害額が、実際に起きたことをどこまで反映しているかという問題を指す。国際災害データベースEM-DATは1900年以降の記録を公開しているが、時代や地域による報告の質の差、欠測項目の偏り、熱波のように記録に残りにくい災害の存在によって、年代をまたいだ単純な比較は誤った結論を導きやすい。統計そのものの性質を理解しないまま「災害が何倍に増えた」といった読み方をすると、実態の変化と記録の変化とが区別できなくなる。",
+    "bodyMarkdown": "## EM-DATが集めているもの\n\n世界の災害被害を数字で語るとき、その出所はたいてい一つに行き着く。国際災害データベースEM-DATは、世界各地で発生した災害の推定死者数を追跡し、1900年以降の災害件数・死者数・被災者数といった指標データを公開している。当年に発生した災害の最新記録を出しながら、同時に過去へ遡ってデータベースを構築するという二重の作業が続けられており、オープンアクセスかつ無料で、誰でも個々の災害記録の詳細を調べられる。 [10][16][17][66]\n\n収録範囲は死者数だけではない。EM-DATは負傷者、住居を失った人、支援を要する人など、災害の影響を受けた人数についても推計を提供している。このデータは国連、世界気象機関(WMO)、UNFCCCをはじめ多くの機関や研究者に利用されており、公表される災害の傾向の多くが、直接または間接にこの一つのデータベースに依存している。 [8][15]\n\n## 収集体制の成立\n\n体系的な災害記録の歴史はそれほど古くない。米国の対外災害援助局(OFDA)は1960年から災害に関する情報を積極的に収集し始め、EM-DATを運営する災害疫学研究センター(CRED)は1973年に設立されて、その時から災害データの収集を開始した。CREDは1988年に既存の災害データベースを引き継ぐ形でEM-DATを設立しており、1980年代以降、統計の収集が継続されている。つまり、1900年まで遡るとされる記録のうち、同時代的に集められたのはごく一部でしかない。 [21][22][39][73]\n\n## 死者数の水準と年ごとの変動\n\nEM-DATの推計によると、過去10〜15年のほとんどの年で災害による死者数は年間およそ1万人から2万人である。地震・暴風・洪水・干ばつなどによる死者は、気温による死者を除けば直近10年間の平均で年間約1万〜2万人にあたる。この規模は世界の総死者数と比べると小さく、災害による年間死者数は世界の総死者数の0.1%未満にとどまる。2023年には世界で6170万人が死亡しており、災害死者数が15,000人であればその割合は0.02%になる。死者数が10万人に近づくピーク年であっても、世界の総死者数の約0.1%に相当する程度である。 [2][35][37][70][71][72]\n\n平均値が小さいことは、年ごとの振れ幅が小さいことを意味しない。災害死者数の急増は、主に規模の大きい[地震](/hubpedia/earthquake)によって引き起こされる傾向がある。2010年のハイチ地震では数十万人が死亡し、2023年にトルコとシリアを襲った大地震では数万人が死亡した。2004年のインド洋大地震と津波はインドネシア、スリランカ、タイ、インドで多数の死者を出し、2008年のサイクロン・ナルギスはミャンマーで14万人を死亡させている。単一の極端な災害で数万人から数十万人が死亡することがあり、20世紀には年間の災害死者数が100万人を超えることも珍しくなかった。 [3][4][5][6][7][62][63]\n\n## 災害件数の増加と時間的バイアス\n\nよく引用されるのは災害件数の急増である。FAOは2023年に、EM-DATのデータをもとに、災害件数が1970年代の年間100件から直近20年間で年間約400件に増加したと報告した。世界気象機関(WMO)は2019年に、災害件数が50年間で5倍に増加し、1970–1979年の711件に対し2000–2009年には3536件が記録されたと報告している。UNFCCCはこの5倍増について、気候変動、異常気象の増加、そして報告の改善によって生じたと説明している。三つ目の要因が数字にどれだけ寄与しているかが、この統計を読むうえでの中心的な論点になる。 [18][19][51]\n\nEM-DAT自身は限界の説明の中で、時間的バイアスは時代による報告の質と網羅性の不均一さに起因すると述べている。1970年代から1980年代にかけて衛星、インターネット、パソコンなどの通信技術が急速に発展した時期と、記録件数の伸びが重なる。CREDの2004年報告書によれば、過去の災害の歴史的データは遡及的分析に基づいており、人道支援や通信が未発達だったため主に重大な災害のみが記録されていた。初期の記録は現代の記録より不完全であり、20世紀前半には歴史に残るような大規模災害だけが残り、今日であれば記録される中小規模の災害は抜け落ちていた。このため、過去の年における災害件数・死者数・被害の推定値は実際より過小評価されている可能性が高い。 [11][20][52][53][67][68]\n\nこの見立てを裏づける分析がある。Environmental Hazards誌に掲載された論文は、EM-DATにおける1900年以降の報告災害件数の傾向を、死者数200人未満、500人未満、1000人未満、2000人未満、5000人未満という異なる閾値で分けて調べた。その結果、件数が大きく増えていたのは死者200人未満の小規模な災害であり、増加は1980年代と1990年代に集中していた。大規模災害は昔から見落とされにくく、小規模災害だけが後年になって拾われるようになったという説明と整合する。 [23][24]\n\nEM-DATは2023年9月以降、2000年以前のデータを「Historic(歴史的)」というラベルで区別している。2000年以降のデータに限って見ると、世界の災害件数に明確な増加傾向は見られない。このため、EM-DATを世界の実際の災害件数が4倍または5倍に増加したことの根拠として使うべきではないとされる。 [25][26][27]\n\n## 欠測の分布\n\n欠けているデータは、項目によって偏っている。Rebecca Jonesら(2022年、Nature Scientific Data)は1990年から2020年の災害についてデータの欠落状況を調べ、40%以上の災害で推定金銭的被害額が欠落し、保険損害額は88%、復興費用の記録に至っては96%の災害で存在しないことを示した。一方、死者数の推定値が報告されていない災害はわずか1.3%だった。同じデータベースでも、死者数は比較的埋まっており、金額に関する項目ほど空白が大きい。 [28][29][30][31][33]\n\n欠測は地域によっても偏る。2000年から2019年の間、アフリカでは災害の13%、南アジアでは23%しか経済的損失を報告していなかった。報告率が低い地域の被害額を単純に合計すれば、その地域の損失は小さく見える。 [32]\n\n死者数についても、埋まっているように見えて解釈に注意が要る箇所がある。公開されているEM-DATデータセットを用いた再現分析では、死者数データが空欄の災害が公開時点で30%あった。EM-DATでは死者数ゼロの災害も空欄として扱われるため、この30%には死者のいなかった災害と、真のデータ欠落の両方が含まれる。空欄をゼロと読むか不明と読むかで、集計結果は変わりうる。 [54][55]\n\n## 気温関連の死者の扱い\n\n熱波による死者は、少なくとも完全な形では災害データベースに必ずしも記録されていない。EM-DATに含まれる極端な気温による死者のデータは特に不完全である可能性が高く、記録の一貫性は国や時代によって欠けている。EM-DATに記録された熱波イベントの半数以上は、日本・インド・パキスタン・アメリカ・フランス・ベルギー・イギリス・スペイン・ドイツの9カ国に集中しており、サブサハラ・アフリカでは熱波のデータがほとんど網羅されていない。これは熱波の分布ではなく、熱波を熱波として記録する体制の分布を反映している。 [1][12][34][56][57]\n\n記録されにくさには、行政上の理由だけでなく生理学的な理由もある。熱関連死の多くは熱中症のような急性の死ではなく、心血管疾患など一見無関係に見える疾患のリスク増加によってもたらされる。こうした間接的な死は、発生時の[死因](/hubpedia/cause-of-death)が「熱関連」と記録されることはなく、後から統計的手法で推定するしかない。報告バイアスにより、暑さ・寒さ関連の死者数は過小評価されている可能性が高い。 [58][59][60]\n\n逆の問題も生じる。気温関連の死者数を災害死者数に含めると、他の災害による影響の真の傾向を把握しにくくなる。記録の網羅性が地域と時代で大きく違う項目を合算すれば、合計値の変化が実態の変化なのか記録の変化なのか判別できなくなるためである。 [69]\n\n## 被災者数と間接的な被害\n\n死者数よりも桁が大きく、しかも定義が曖昧なのが被災者数である。ほとんどの年で災害の影響を受ける人数は1億人を超え、極端な年には4億人に達することもある。その多くは干ばつと洪水によるもので、干ばつはほとんどの年に数千万人へ、洪水も毎年数千万人へ影響を与えている。負傷者は例年2万人から6万人程度だが、年によっては10万人を超えることもある。 [9][13][38][45][46]\n\n住居や居所の喪失も規模が大きい。毎年数十万人が主に洪水を原因として住居を失い、大地震が発生した年にはそれが最大の要因となる。災害により毎年数百万人が避難を強いられ、一部は家を失う。ただし干ばつなどでは、栄養失調・食料不安・水不足の影響といった間接的な被害の定量化が特に難しく、被災者数という一つの数字にどこまでを含めるかで結果は大きく動く。 [44][61][64]\n\n## 経済的被害の推計\n\n近年、災害による経済的損害は世界のGDPの約0.2%に相当し、年によっては0.5%に達することもある。大地震が発生しない年には暴風が最も損害額の大きい災害となる傾向があり、アメリカ合衆国ではハリケーンによる被害額がGDPの約0.5%、時には1%に達することがある。欧州連合やパキスタンなど一部の地域では洪水が最も損害額の大きい災害で、被害額がGDPの5%に達することもある。 [47][48][49][50]\n\nこれらの数値は、金額項目の欠測の上に成り立っている。EM-DATが公表する経済的被害の推計はしばしば不完全であり、データベース内の多くの災害には経済的被害の推計そのものが欠けている。合計額は下限に近い値として扱うのが妥当である。 [14]\n\n## 長期的な死亡率の低下\n\n記録の不完全さを踏まえてもなお、はっきり読み取れる変化がある。過去1世紀で、人口10万人当たりの[災害死亡率](/hubpedia/disaster-deaths-century)は90%以上低下した。世界人口が100年前の4倍になっているにもかかわらず、災害による死者の総数も大幅に減少している。年間死者数が100万人を超えることが珍しくなかった20世紀と比べると、現在の水準は桁が違う。 [36][63][65]\n\nこの低下は、災害そのものの深刻さが減ったからではなく、社会がより良く自らを守り対応できるようになったためであるとされる。早期警戒システムや予報の改善、地域社会の対応により、多くの国が災害への耐性を高めてきた。バングラデシュではかつて強いサイクロンで一度に数十万人が死亡することがあったが、近年の災害死者数は対応の改善により桁違いに減少している。過去の記録が過小評価である可能性を考慮すれば、実際の低下幅はここで示される値よりさらに大きい方向にずれうる。 [40][41][42][43][68]\n\n## 関連記事\n\n- [報道と実際の死因のずれ](/hubpedia/news-and-death)\n- [気温偏差](/hubpedia/temperature-anomaly)\n- 冷房",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/disaster-database-limitations",
+        "title": "災害統計の限界",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on disaster-data-limits. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/natural-disasters",
+        "title": "natural-disasters",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "The disasters being counted. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "The Limits of Disaster Statistics",
+        "summary": "The limits of disaster statistics refers to the question of how far the counts, death tolls, and damage figures compiled for disasters such as earthquakes, storms, floods, and droughts actually reflect what happened. The international disaster database EM-DAT publishes records going back to 1900, but differences in reporting quality across eras and regions, biases in which fields are missing, and the existence of disasters such as heatwaves that are unlikely to be recorded all make simple comparisons across decades prone to false conclusions. Reading the figures as \"disasters have increased several-fold\" without understanding the nature of the statistics themselves makes it impossible to distinguish a change in reality from a change in record-keeping.",
+        "bodyMarkdown": "## What EM-DAT collects\n\nWhen the world's disaster losses are described in numbers, the source usually comes down to one place. The international disaster database EM-DAT tracks estimated death tolls for disasters that have occurred around the world and publishes indicator data such as the number of disasters, deaths, and affected people since 1900. Two tasks run in parallel: publishing up-to-date records of disasters occurring in the current year while simultaneously building the database backwards into the past. It is open access and free, and anyone can look up the details of individual disaster records. [10][16][17][66]\n\nCoverage is not limited to deaths. EM-DAT also provides estimates of the number of people affected by disasters, including those injured, left homeless, and requiring assistance. The data are used by many institutions and researchers, including the United Nations, the World Meteorological Organization (WMO), and the UNFCCC, and many of the published disaster trends depend, directly or indirectly, on this single database. [8][15]\n\n## How the collection system came about\n\nThe history of systematic disaster record-keeping is not especially long. The United States Office of Foreign Disaster Assistance (OFDA) began actively collecting information on disasters in 1960, and the Centre for Research on the Epidemiology of Disasters (CRED), which operates EM-DAT, was founded in 1973 and began collecting disaster data from that time. CRED established EM-DAT in 1988 by taking over an existing disaster database, and statistics have been collected continuously since the 1980s. In other words, only a small portion of the records said to reach back to 1900 were gathered contemporaneously. [21][22][39][73]\n\n## The level of deaths and year-to-year variation\n\nAccording to EM-DAT estimates, in most years over the past 10 to 15 years, disaster deaths have numbered roughly 10,000 to 20,000 annually. Deaths from earthquakes, storms, floods, droughts, and the like — excluding temperature-related deaths — average about 10,000 to 20,000 per year over the last decade. This scale is small compared with total global deaths: annual disaster deaths amount to less than 0.1% of all deaths worldwide. In 2023, 61.7 million people died globally, so a disaster death toll of 15,000 would be 0.02% of that. Even in peak years when deaths approach 100,000, the figure corresponds to about 0.1% of total global deaths. [2][35][37][70][71][72]\n\nA small average does not mean small year-to-year swings. Sharp spikes in disaster deaths tend to be driven mainly by large [earthquakes](/hubpedia/earthquake). The 2010 Haiti earthquake killed several hundred thousand people, and the major earthquake that struck Turkey and Syria in 2023 killed tens of thousands. The 2004 Indian Ocean earthquake and tsunami caused large numbers of deaths in Indonesia, Sri Lanka, Thailand, and India, and Cyclone Nargis in 2008 killed 140,000 people in Myanmar. A single extreme disaster can kill tens of thousands to hundreds of thousands of people, and in the twentieth century it was not unusual for annual disaster deaths to exceed one million. [3][4][5][6][7][62][63]\n\n## The rise in disaster counts and temporal bias\n\nWhat is frequently cited is the sharp increase in the number of disasters. In 2023, the FAO reported, based on EM-DAT data, that the number of disasters had risen from 100 per year in the 1970s to about 400 per year over the past two decades. In 2019, the World Meteorological Organization (WMO) reported that the number of disasters had increased fivefold over 50 years, with 3,536 recorded in 2000–2009 against 711 in 1970–1979. The UNFCCC explains that this fivefold increase arose from climate change, more frequent extreme weather, and improved reporting. How much that third factor contributes to the figures is the central issue in reading these statistics. [18][19][51]\n\nEM-DAT itself, in its account of the database's limitations, states that temporal bias stems from unevenness in the quality and completeness of reporting across eras. The rapid development of communication technologies such as satellites, the internet, and personal computers from the 1970s into the 1980s coincides with the growth in recorded counts. According to CRED's 2004 report, historical data on past disasters are based on retrospective analysis, and because humanitarian assistance and communications were underdeveloped, mainly major disasters were recorded. Early records are less complete than modern ones: in the first half of the twentieth century, only large disasters of historic scale survived in the record, while small and medium-sized disasters that would be recorded today were left out. For this reason, estimates of disaster counts, deaths, and damages in earlier years are likely to be underestimates. [11][20][52][53][67][68]\n\nThere is analysis that supports this reading. A paper published in the journal Environmental Hazards examined trends in reported disaster counts in EM-DAT since 1900, separating them by different thresholds: fewer than 200, 500, 1,000, 2,000, and 5,000 deaths. The result was that the large increase in counts occurred among small disasters with fewer than 200 deaths, and the increase was concentrated in the 1980s and 1990s. This is consistent with the explanation that large disasters have always been hard to overlook, and that only small disasters came to be picked up in later years. [23][24]\n\nSince September 2023, EM-DAT has distinguished pre-2000 data with the label \"Historic.\" Looking only at data from 2000 onward, there is no clear upward trend in the global number of disasters. For this reason, EM-DAT should not be used as evidence that the actual number of disasters worldwide has increased fourfold or fivefold. [25][26][27]\n\n## The distribution of missing data\n\nMissing data are unevenly distributed across fields. Rebecca Jones and colleagues (2022, Nature Scientific Data) examined the extent of missing data for disasters from 1990 to 2020 and showed that estimated monetary damages were missing for more than 40% of disasters, insured losses for 88%, and records of reconstruction costs for as many as 96%. By contrast, only 1.3% of disasters had no reported estimate of deaths. Within the same database, death tolls are relatively well filled in, while the monetary fields have much larger gaps. [28][29][30][31][33]\n\nMissing data are also unevenly distributed by region. Between 2000 and 2019, only 13% of disasters in Africa and 23% in South Asia reported economic losses. If damages are simply summed for regions with low reporting rates, losses in those regions will appear small. [32]\n\nEven for deaths, which appear well filled in, there are points that require care in interpretation. In a reproduction analysis using the published EM-DAT dataset, 30% of disasters had blank death-toll data at the time of publication. Because EM-DAT also treats disasters with zero deaths as blank, that 30% includes both disasters with no deaths and genuinely missing data. Whether a blank is read as zero or as unknown can change the aggregate results. [54][55]\n\n## The treatment of temperature-related deaths\n\nDeaths from heatwaves are not necessarily recorded in disaster databases, at least not completely. The data on deaths from extreme temperatures included in EM-DAT are especially likely to be incomplete, and the consistency of records is lacking across countries and eras. More than half of the heatwave events recorded in EM-DAT are concentrated in nine countries — Japan, India, Pakistan, the United States, France, Belgium, the United Kingdom, Spain, and Germany — while heatwave data for sub-Saharan Africa are barely covered at all. This reflects not the distribution of heatwaves but the distribution of systems that record heatwaves as heatwaves. [1][12][34][56][57]\n\nThe difficulty of recording them has physiological as well as administrative causes. Many heat-related deaths are not acute deaths such as heatstroke but arise from increased risk of seemingly unrelated conditions such as cardiovascular disease. Such indirect deaths are never recorded with a [cause of death](/hubpedia/cause-of-death) of \"heat-related\" at the time they occur, and can only be estimated afterwards by statistical methods. Because of reporting bias, deaths related to heat and cold are likely to be underestimated. [58][59][60]\n\nThe opposite problem also arises. Including temperature-related deaths in disaster death tolls makes it harder to grasp the true trend in the effects of other disasters. If fields whose completeness varies greatly by region and era are added together, it becomes impossible to tell whether a change in the total reflects a change in reality or a change in record-keeping. [69]\n\n## Affected people and indirect damage\n\nLarger in magnitude than death tolls — and more loosely defined — is the number of people affected. In most years, more than 100 million people are affected by disasters, and in extreme years the figure can reach 400 million. Much of this is due to droughts and floods: droughts affect tens of millions of people in most years, and floods affect tens of millions every year. Injuries typically number about 20,000 to 60,000, though in some years they exceed 100,000. [9][13][38][45][46]\n\nThe loss of homes and places to live is also large in scale. Hundreds of thousands of people lose their homes each year, mainly because of floods, and in years with a major earthquake that becomes the largest factor. Millions of people are displaced by disasters each year, some of them losing their homes. With droughts and similar events, however, indirect damage such as the effects of malnutrition, food insecurity, and water shortages is particularly hard to quantify, and the result shifts greatly depending on how much is included in the single figure for people affected. [44][61][64]\n\n## Estimating economic damage\n\nIn recent years, economic losses from disasters have amounted to about 0.2% of global GDP, reaching 0.5% in some years. In years without a major earthquake, storms tend to be the costliest disasters, and in the United States hurricane damage can reach about 0.5% of GDP, and sometimes 1%. In some regions, such as the European Union and Pakistan, floods are the costliest disasters, with damages reaching as much as 5% of GDP. [47][48][49][50]\n\nThese figures rest on top of the missing monetary fields. The estimates of economic damage published by EM-DAT are often incomplete, and many disasters in the database lack an estimate of economic damage altogether. It is reasonable to treat the totals as values close to a lower bound. [14]\n\n## The long-term decline in mortality\n\nEven allowing for the incompleteness of the records, there is one change that can be read clearly. Over the past century, the [disaster death rate](/hubpedia/disaster-deaths-century) per 100,000 people has fallen by more than 90%. Even though the world's population is four times what it was a century ago, the total number of disaster deaths has also fallen substantially. Compared with the twentieth century, when annual deaths above one million were not unusual, today's level is an order of magnitude different. [36][63][65]\n\nThis decline is attributed not to disasters themselves becoming less severe, but to societies becoming better able to protect themselves and respond. Early warning systems, improved forecasting, and community response have made many countries more resilient to disasters. In Bangladesh, strong cyclones once killed hundreds of thousands of people at a time, but disaster deaths in recent years have fallen by orders of magnitude thanks to improved response. Allowing for the possibility that past records are underestimates, the actual size of the decline could shift even further than the figures shown here. [40][41][42][43][68]\n\n## Related articles\n\n- [The gap between news coverage and actual causes of death](/hubpedia/news-and-death)\n- [Temperature anomaly](/hubpedia/temperature-anomaly)\n- Cooling"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:07:30.583Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "熱波による死者は、少なくとも完全な形では災害データベースに必ずしも記録されていない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "heat deaths are not always captured (at least not fully) in disaster databases"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "EM-DATの推計によると、過去10~15年のほとんどの年で災害による死者数は年間約1万人から2万人である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "disasters have killed approximately 10,000 to 20,000 people per year"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "災害死者数の急増は、主に規模の大きい地震によって引き起こされる傾向がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "These spikes in deaths tend to come from very strong earthquake events."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "2023年、トルコとシリアを襲った大地震で数万人が死亡した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "In 2023, Turkey and Syria were struck by a severe earthquake that killed tens of thousands."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "2010年のハイチ地震では数十万人が死亡した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "In 2010, it was the earthquake that hit Haiti, killing hundreds of thousands"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "2008年のサイクロン・ナルギスはミャンマーで14万人を死亡させた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "in 2008, Cyclone Nargis, which killed 140,000 people in Myanmar"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "2004年のインド洋大地震と津波は、インドネシア、スリランカ、タイ、インドで多数の死者を出した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "in 2004, the Indian Ocean earthquake and tsunami that killed many across Indonesia, Sri Lanka, Thailand, and India"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "EM-DATは、負傷者・住居を失った人・支援を要する人など、災害の影響を受けた人数についても推計を提供している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "EM-DAT also provides estimates of how many people are affected by disasters; this includes those who are injured, left homeless, or require assistance."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "ほとんどの年で災害の影響を受ける人数は1億人を超え、極端な年には4億人に達することもある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "In most years, the total is over 100 million people. In extreme years, it can be as much as 400 million."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "国際災害データベースEM-DATは、世界各地の災害の推定死者数を追跡している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "EM-DAT, the International Disaster Database, tracks the estimated death tolls of disaster events across the world."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "初期の災害記録は現代の記録より不完全であり、20世紀の一部の推計は過小評価である可能性が高い。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "earlier records are less complete than modern ones, and some 20th-century estimates are likely to be underestimates."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "極端な気温による死者数は、国や時代によって記録の一貫性が欠けている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "deaths from extreme temperatures — which are inconsistently recorded across countries over time — are excluded from the series"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "災害で負傷する人数は例年2万人から6万人程度だが、年によっては10万人を超えることもある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "The number of people injured in disasters typically ranges from 20,000 to 60,000 per year, but in some years it can be over 100,000."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "EM-DATが公表する経済的被害の推計はしばしば不完全であり、データベース内の多くの災害には経済的被害の推計が欠けている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "EM-DAT also publishes estimates of economic damage, but it’s important to note that these are often incomplete; many disasters in the database lack an economic damage estimate."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "EM-DATは国連、世界気象機関(WMO)、UNFCCCなど多くの機関や研究者に利用されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "used by organizations such as the United Nations, World Meteorological Organization, UNFCCC, and many academic researchers"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "EM-DATはオープンアクセスかつ無料で、誰でも個々の災害記録の詳細を調べられる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "It is open-access and free and lets anyone dig into the specific details of each reported disaster."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "EM-DATは1900年以降の災害件数・死者数・被災者数などの指標データを公開している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "EM-DAT publishes data on the number of events, deaths, numbers affected, and other metrics since 1900."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "FAO(2023)は、EM-DATのデータをもとに、災害件数が1970年代の年間100件から直近20年間で年間約400件に増加したと報告した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "disaster events have increased from 100 per year in the 1970s to around 400 events per year worldwide in the past 20 years."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "世界気象機関(WMO、2019年)は、災害件数が50年間で5倍に増加し、1970-1979年の711件に対し2000-2009年には3536件が記録されたと報告した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "The number of disasters has increased by a factor of five over the 50-year period: whereas 711 disasters were recorded for 1970-1979, 3536 were recorded in 2000-2009."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "EM-DATは自らの限界説明の中で、時間的バイアスは時代による報告の質と網羅性の不均一さに起因すると述べている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "Time biases result from unequal reporting quality and coverage over time"
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "EM-DATを運営するCRED(災害疫学研究センター)は1973年に設立され、その時から災害データの収集を開始した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "CRED wasn’t created until 1973, when it started compiling disaster data."
+            },
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "CRED was created in 1973 and started compiling disaster data."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "CREDは1988年に既存の災害データベースを引き継ぎ、EM-DATを設立した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "It wasn’t until 1988 that it took over the disaster database and established EM-DAT."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "Environmental Hazards誌に掲載された論文は、EM-DATにおける1900年以降の報告災害件数の傾向を、死者数200・500・1000・2000・5000人未満という異なる閾値で分析した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "A recent paper published in Environmental Hazards analyzed the trends in the number of reported disasters in the EM-DAT database since 1900."
+            },
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "It looked at the number of events over time at different thresholds of “reported deaths”. So, the number of reported events with deaths below 200, 500, 1,000, 2,000, and 5,000."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "その分析では、死者200人未満の小規模な災害の件数が1980年代・1990年代に大きく増加していた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "It found that the trend for small events – with less than 200 deaths – increased greatly in the 1980s and 1990s."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "EM-DATは2023年9月以降、2000年以前のデータを「Historic(歴史的)」というラベルで区別している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "since September 2023, it has labeled all pre-2000 data as “Historic” to differentiate it from recent records."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "2000年以降のデータを見ると、世界の災害件数に明確な増加傾向は見られない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "If you look at data from 2000 onwards, there is no clear increase in the number of global disasters."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "EM-DATは、世界の実際の災害件数が4倍または5倍に増加したことの根拠として使うべきではないとされる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "EM-DAT shouldn’t be used as evidence that there has been a four- or five-fold increase in the actual number of disasters globally."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "Rebecca Jonesら(2022年、Nature Scientific Data)は、1990年から2020年の間の災害についてデータの欠落状況を調べた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "Rebecca Jones et al. (2022) look at the share of disasters between 1990 and 2020 that have missing data."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "その分析では、40%以上の災害で推定金銭的被害額のデータが欠落していた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "More than 40% of the events did not have estimated monetary damages."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "保険損害額のデータは88%の災害で欠落していた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "This was even worse for insured damages, which were missing 88% of the time"
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "復興費用の記録は96%の災害で存在しなかった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "96% had no records of reconstruction costs."
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "2000年から2019年の間、アフリカでは災害の13%、南アジアでは23%しか経済的損失を報告していなかった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "From 2000 to 2019, only 13% of disasters in Africa and 23% in South Asia reported any economic losses."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "Jonesら(2022)の論文では、死者数の推定値が報告されていない災害はわずか1.3%だった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "The Jones et al. (2022) paper reported that just 1.3% of events did not have death estimates reported."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "EM-DATに記録された熱波イベントの半数以上は、日本・インド・パキスタン・アメリカ・フランス・ベルギー・イギリス・スペイン・ドイツの9カ国に集中している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "Over half of heat events in EM-DAT were reported across only 9 countries: Japan, India, Pakistan, the United States, France, Belgium, the United Kingdom, Spain, and Germany."
+            },
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "Over half of heat events in EM-DAT were reported across only nine countries: Japan, India, Pakistan, the United States, France, Belgium, the United Kingdom, Spain, and Germany."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "地震・暴風・洪水・干ばつなどの災害は、気温による死者を除き、世界全体で年間約1万人から2万人の死者を出しており、これは直近10年間の平均である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "kill approximately 10,000 to 20,000 people per year globally (excluding temperature deaths, which are unevenly counted). That’s the average over the last decade."
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "過去1世紀で、人口10万人当たりの災害死亡率は90%以上低下した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "Over the last century, death rates have fallen by more than 90%."
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "災害による年間死者数は、世界の総死者数の0.1%未満にとどまる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "that’s less than 0.1% of global deaths"
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "災害の影響を受けた人数は、主に干ばつと洪水によるものが多い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "these numbers are usually dominated by droughts and floods"
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "EM-DATによる災害統計の収集は1980年代から続けられている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "This collection effort has been ongoing since the 1980s"
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "早期警戒システムや予報の改善、地域社会の対応により、多くの国が災害への耐性を高めてきた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "Many countries have become more resilient to disasters, thanks to early warning systems, improved forecasting, and community response."
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "バングラデシュではかつて強いサイクロンで一度に数十万人が死亡することがあった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "One example of this is Bangladesh, where strong cyclones could kill hundreds of thousands in a single year."
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "近年、バングラデシュでの災害死者数は対応の改善により桁違いに減少している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "In recent years, this death toll has been several orders of magnitude lower, thanks to improved response."
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "過去1世紀で災害による死亡率が大幅に低下したのは、災害そのものの深刻さが減ったからではなく、社会がより良く自らを守り対応できるようになったためである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "death rates have fallen substantially from a century ago, not because hazards have become less severe, but because societies have been able to protect themselves better and respond in the aftermath."
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "毎年数十万人が主に洪水を原因として住居を失うが、大地震が発生した年にはそれが最大の要因となる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "Hundreds of thousands are typically left homeless every year, usually due to flooding, but in severe earthquake years, these events dominate."
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "statement": "ほとんどの年で、干ばつは数千万人に影響を与える。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "In most years, droughts affect tens of millions."
+            }
+          ]
+        },
+        {
+          "index": 46,
+          "statement": "毎年、洪水は数千万人に影響を与える。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "Every year, floods affect tens of millions."
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "statement": "近年、災害による経済的損害は世界のGDPの約0.2%に相当し、年によっては0.5%に達することもある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "In recent years, disaster damages were equal to around 0.2% of global GDP, reaching up to 0.5% in some years."
+            }
+          ]
+        },
+        {
+          "index": 48,
+          "statement": "大地震が発生しない年には、暴風(ストーム)が最も損害額の大きい災害となる傾向がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "Storms tend to be the most costly events, dominating damages in years without severe earthquakes."
+            }
+          ]
+        },
+        {
+          "index": 49,
+          "statement": "アメリカ合衆国ではハリケーンによる被害額がGDPの約0.5%、時には1%に達することがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "This is particularly true in countries such as the United States, where hurricanes often inflict damage equal to around 0.5% of GDP (and sometimes as much as 1%)."
+            }
+          ]
+        },
+        {
+          "index": 50,
+          "statement": "欧州連合やパキスタンなど一部地域では洪水が最も損害額の大きい災害であり、被害額はGDPの5%に達することもある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "In other parts of the world, flooding is the most costly: this is true of areas such as the European Union, or Pakistan in South Asia, where damages can be as much as 5% of GDP."
+            }
+          ]
+        },
+        {
+          "index": 51,
+          "statement": "UNFCCCは、災害件数の50年間での5倍増加について、気候変動・異常気象の増加・報告の改善によって生じたと説明している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "The number of disasters has increased by a factor of five over the 50-year period, driven by climate change, more extreme weather, and improved reporting."
+            }
+          ]
+        },
+        {
+          "index": 52,
+          "statement": "1970年代から1980年代にかけて、衛星・インターネット・パソコンなどの通信技術が急速に発展した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "communication technologies developed rapidly over this period — most notably satellites, the Internet, and personal computers"
+            }
+          ]
+        },
+        {
+          "index": 53,
+          "statement": "CREDの2004年報告書によれば、過去の災害の歴史的データは遡及的分析に基づいており、人道支援や通信が未発達だったため主に重大な災害のみが記録されていた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "a list that included mainly events of major importance, as neither humanitarian aid nor telecommunications were particularly developed and few organizations were interested in compiling data on natural disasters"
+            }
+          ]
+        },
+        {
+          "index": 54,
+          "statement": "公開されているEM-DATデータセットを用いた再現分析では、死者数データが空欄の災害が公開時点で30%あった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "A much higher share of events had no data (i.e., blanks) for reported deaths: 30% at the time of publication."
+            }
+          ]
+        },
+        {
+          "index": 55,
+          "statement": "EM-DATでは死者数ゼロの災害も空欄として扱われるため、この30%には死者のいなかった災害と真のデータ欠落の両方が含まれる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "since events in EM-DAT with zero deaths are also given as blanks, this estimate includes non-fatal events and those with genuine data gaps."
+            }
+          ]
+        },
+        {
+          "index": 56,
+          "statement": "EM-DATに含まれる極端な気温(熱波など)による死者のデータは特に不完全である可能性が高い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "One disaster category that is included in EM-DAT but is likely to be very patchy is extreme temperature."
+            }
+          ]
+        },
+        {
+          "index": 57,
+          "statement": "サブサハラ・アフリカでは熱波のデータがほとんど網羅されていない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "Sub-Saharan Africa is almost completely overlooked."
+            }
+          ]
+        },
+        {
+          "index": 58,
+          "statement": "熱関連死の多くは熱中症のような急性の死ではなく、心血管疾患など一見無関係に見える疾患のリスク増加によってもたらされる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "most heat-related deaths come from an increase in the risk of less obvious conditions such as cardiovascular disease"
+            }
+          ]
+        },
+        {
+          "index": 59,
+          "statement": "こうした間接的な熱関連死は発生時に「熱関連」と記録されず、後から統計的手法で推定するしかない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "These seemingly indirect deaths are not noted as being “heat-related” at the time and can only be estimated using various statistical methods later."
+            }
+          ]
+        },
+        {
+          "index": 60,
+          "statement": "報告バイアスにより、暑さ・寒さ関連の死者数は過小評価されている可能性が高い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "Due to reporting biases, they are likely to be underestimates (for both cold and heat-related deaths) with large inequalities."
+            }
+          ]
+        },
+        {
+          "index": 61,
+          "statement": "干ばつなどの災害では、栄養失調・食料不安・水不足の影響といった間接的な被害は特に定量化が難しい。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "This is often the case for events such as droughts, where indirect impacts such as malnutrition, food insecurity, and potential impacts of water shortages are harder to quantify"
+            }
+          ]
+        },
+        {
+          "index": 62,
+          "statement": "単一の極端な災害で数万人から数十万人が死亡することがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "Single extreme events can kill tens to hundreds of thousands of people."
+            }
+          ]
+        },
+        {
+          "index": 63,
+          "statement": "20世紀には年間の災害死者数が100万人を超えることも珍しくなかった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "In the 20th century, more than a million deaths per year were not uncommon."
+            }
+          ]
+        },
+        {
+          "index": 64,
+          "statement": "災害により毎年数百万人が避難を強いられ、一部は家を失う。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "Millions of people are displaced — some left homeless — by them each year."
+            }
+          ]
+        },
+        {
+          "index": 65,
+          "statement": "世界人口が100年前の4倍になっているにもかかわらず、災害による死者の総数も大幅に減少した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "Even the total number of deaths has fallen substantially, despite there being four times as many people in the world as 100 years ago."
+            }
+          ]
+        },
+        {
+          "index": 66,
+          "statement": "EM-DATは当年に発生した災害の最新記録を公開すると同時に、1900年まで遡るデータベースを構築している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "It publishes up-to-date records of disasters occurring in the current year, but has also developed a database that extends back to 1900."
+            }
+          ]
+        },
+        {
+          "index": 67,
+          "statement": "20世紀前半は主に歴史に残るような大規模な災害のみが記録され、今日であれば記録される中小規模の災害は記録から抜け落ちていた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "through the first half of the 20th century, it was mostly large events — making it into the history books — that were recorded; small and medium-level events that would be recorded today are absent."
+            }
+          ]
+        },
+        {
+          "index": 68,
+          "statement": "このため、過去の年における災害件数・死者数・被害の推定値は実際より過小評価されている可能性が高い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "This suggests that events, deaths, and impacts from earlier years are likely to be underestimates."
+            }
+          ]
+        },
+        {
+          "index": 69,
+          "statement": "気温関連の死者数を災害死者数に含めると、他の災害による影響の真の傾向を把握しにくくなる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "as including them can make it difficult to understand the true trends in the impacts of other disasters"
+            }
+          ]
+        },
+        {
+          "index": 70,
+          "statement": "2023年には世界で6170万人が死亡した。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "In 2023, 61.7 million people died globally."
+            }
+          ]
+        },
+        {
+          "index": 71,
+          "statement": "災害死者数が15,000人の場合、2023年の世界総死者数6170万人に対する割合は0.02%となる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "15,000 as a share of 61.7 million is 0.02%."
+            }
+          ]
+        },
+        {
+          "index": 72,
+          "statement": "災害死者数が10万人に近づくピーク年であっても、それは世界の総死者数の約0.1%に相当する。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "Even in most peak years, where the total is closer to 100,000 disaster deaths, this is still roughly 0.1% of the total."
+            }
+          ]
+        },
+        {
+          "index": 73,
+          "statement": "米国のOFDA(対外災害援助局)は1960年から災害に関する情報を積極的に収集し始めた。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/disaster-database-limitations",
+              "quote": "the US’s OFDA (Office of U.S. Foreign Disaster Assistance) actively began to collect information about these events"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "resource-scarcity-debate",
+    "topicType": "concept",
+    "categoryLabel": "地球・環境",
+    "title": "資源枯渇論争",
+    "summary": "資源が有限であるために枯渇し価格が高騰するのか、それとも技術革新と供給側の変化がそれを打ち消すのかをめぐる論争。1980年に生物学者ポール・エーリックと経済学者ジュリアン・サイモンが5種の金属価格を対象に交わした10年間の賭けが象徴的な事例として知られ、サイモンが勝利した。ただし長期の価格推移は、この10年の結果がどこまで一般化できるかについて別の論点を残している。",
+    "bodyMarkdown": "## 1980年の賭けと決着\n\n1980年、生物学者ポール・エーリックは経済学者ジュリアン・サイモンと、今後10年間で5種類の資源の価格がどう変化するかを賭けた。対象となったのはエーリックが選んだクロム・銅・ニッケル・スズ・タングステンの5種の金属である。賭け金は金属1種につき200ドル、合計1000ドルで、1990年9月の価格が1980年9月と比べて上がるか下がるかを争った。比較には消費者物価指数を用いてインフレ調整した価格が使われた。 [1][3][4][13]\n\n10年後、5種の金属はすべて値下がりしていた。1980年時点で1000ドル分だった金属バスケットの価値は576ドル下落し、サイモンの勝ちとなった。エーリックはその額の小切手を実際に送っている。 [2][5]\n\n## 両者が置いていた前提\n\nエーリックは1968年の著書『人口爆弾』で最もよく知られる人物で、[人口増加](/hubpedia/population-growth)が地球の資源を急速に枯渇させると考えていた。彼の核心的な主張は、人類の需要が地球の利用可能な資源を大きく上回るというものである。そこから、鉱物を含む資源は希少になるにつれて価格が急騰すると予想した。金属価格を賭けの対象に選んだのは、この予想が数字として現れるはずの場所だったからである。 [8][9][11][17]\n\nエーリックの悲観の度合いは、彼が「賭博師なら、2000年にイギリスが存在しなくなるほうに五分五分の賭けをするだろう」と述べたことにも表れている。 [14]\n\nサイモンの見方はこれと正反対だった。人間の[技術革新](/hubpedia/technology-long-run)と創意工夫が資源不足を克服し、資源価格はむしろ下落すると考えた。彼の論理では、資源が希少化して価格が上昇したとしても、その価格上昇自体が代替や新たな供給を引き出し、価格を再び押し下げる。サイモンは当初、「政府が管理していない原材料の価格は長期的に上昇しない」という自らの主張に、穀物や石油も含めて1万ドルを賭けると提案していた。 [10][16][22]\n\n## 5種の金属の値動きの内訳\n\n勝敗は5種すべての下落によって決まったが、下落幅は一様ではなかった。タングステンとスズは60%以上下がり、銅も約20%安くなった。一方、ニッケルとクロムは10年前よりわずかに安くなっただけである。 [6][7]\n\nこの差は結果の頑健さに関わる。もし賭けの期限が1990年ではなく1989年だったなら、ニッケルとクロムの価格は1980年より高くなっていた。10年間という期間は、実際の需給変動とは無関係な短期的な価格変動の影響を受けやすい。 [15][23]\n\n## より長い期間で見た鉱物価格\n\n生産量の規模は20世紀を通じて大きく変わった。現在の世界の年間生産量は、銅で1900年の40倍、ニッケルでは250倍に達している。それにもかかわらず、賭けの対象となった5種の金属の価格は1900年当時とあまり変わっていない。クロムだけは例外で、直近数十年の平均価格は20世紀初頭より高いが、2020年の価格は1900年と全く同じだった。 [12][18][19]\n\nこの横ばい傾向は5種に限られない。1840年まで遡る研究によれば、対象の5種を大きく上回る多数の鉱物価格も、長期的に見て基本的にトレンドを持たなかった。 [24]\n\nただし横ばいであることは、どちらの側が勝つかが安定していることを意味しない。1900年以降の各10年間について同様の賭けを行ったと仮定すると、サイモンとエーリックの勝敗はほぼ半々に分かれる。期間の取り方が結果を左右しやすいという点は、10年という区切りが短期変動に影響されやすいこととも整合する。 [21][23]\n\n## 予測の検証と現在の論点\n\n賭けの外側でも、エーリックの予測の一部は検証可能な形で外れた。彼は広範な食料不足と大規模な飢饉を予測したが、それは実現せず、1人当たりの[食料供給](/hubpedia/food-supply)量は1980年代以降むしろ増加した。 [20]\n\n過去よりはるかに多くの資源を生産しているにもかかわらず価格がほとんど変わっていないという事実は、エーリックの予測に反し、これらの資源が近い将来枯渇する状況にはないことを示唆している。 [26]\n\n論争の対象となる資源そのものは移り変わっている。リチウム・銅・コバルトなどの重要鉱物は、各国が化石燃料からクリーンエネルギーへ移行する中で、[エネルギー転換](/hubpedia/energy-overview)においてますます重要な役割を果たすと見られている。 [25]\n\n## 関連記事\n\n- マテリアルフットプリント\n- [農業生産性](/hubpedia/agricultural-productivity)\n- [再生可能エネルギー](/hubpedia/renewable-energy)",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/simon-ehrlich-bet",
+        "title": "資源枯渇論争",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on resource-scarcity-debate. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/metals-minerals",
+        "title": "metals-minerals",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "The minerals at issue. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "The Resource Depletion Debate",
+        "summary": "A debate over whether finite resources become depleted and rise sharply in price, or whether technological innovation and supply-side change offset that pressure. A ten-year wager made in 1980 between biologist Paul Ehrlich and economist Julian Simon over the prices of five metals is known as the emblematic case, and Simon won. Long-run price trends, however, leave open a separate question about how far the result of that single decade can be generalized.",
+        "bodyMarkdown": "## The 1980 wager and its outcome\n\nIn 1980, biologist Paul Ehrlich bet economist Julian Simon on how the prices of five resources would change over the following decade. The subjects were five metals chosen by Ehrlich: chromium, copper, nickel, tin, and tungsten. The stake was $200 per metal, $1,000 in total, and the contest turned on whether prices in September 1990 would be higher or lower than in September 1980. The comparison used prices adjusted for inflation with the consumer price index. [1][3][4][13]\n\nTen years later, all five metals had fallen in price. A basket of the metals worth $1,000 in 1980 had lost $576 in value, and Simon won. Ehrlich did in fact send a check for that amount. [2][5]\n\n## The assumptions each man held\n\nEhrlich is best known for his 1968 book *The Population Bomb*, and he believed that [population growth](/hubpedia/population-growth) would rapidly deplete the Earth's resources. His central claim was that human demand would greatly exceed the resources available on the planet. From that, he expected resources including minerals to soar in price as they grew scarce. He chose metal prices as the subject of the wager because that was where this expectation should show up in the numbers. [8][9][11][17]\n\nThe depth of Ehrlich's pessimism is evident in his remark that \"if I were a gambler, I would take even money that England will not exist in the year 2000.\" [14]\n\nSimon's view was the exact opposite. He believed that human [technological innovation](/hubpedia/technology-long-run) and ingenuity would overcome resource shortages and that resource prices would in fact fall. In his logic, even if resources became scarce and prices rose, that very price increase would draw out substitution and new supply, pushing prices back down. Simon had initially proposed betting $10,000, grain and oil included, on his own claim that \"the prices of raw materials not controlled by government do not rise over the long run.\" [10][16][22]\n\n## A breakdown of the five metals' price movements\n\nThe outcome was decided by all five falling, but the size of the declines was not uniform. Tungsten and tin fell by more than 60%, and copper became about 20% cheaper. Nickel and chromium, on the other hand, were only slightly cheaper than a decade earlier. [6][7]\n\nThis spread bears on how robust the result is. Had the wager's deadline been 1989 rather than 1990, the prices of nickel and chromium would have been higher than in 1980. A ten-year span is susceptible to short-term price fluctuations unrelated to actual shifts in supply and demand. [15][23]\n\n## Mineral prices over a longer horizon\n\nThe scale of production changed enormously over the twentieth century. World annual production today reaches 40 times the 1900 level for copper and 250 times for nickel. Even so, the prices of the five metals covered by the wager are not much different from what they were in 1900. Chromium is the sole exception: its average price over recent decades is higher than at the start of the twentieth century, though its 2020 price was exactly the same as in 1900. [12][18][19]\n\nThis flatness is not confined to the five. According to research going back to 1840, the prices of many minerals well beyond those five have also been essentially trendless over the long run. [24]\n\nFlatness does not, however, mean that which side wins is stable. If a similar wager is assumed to have been made for each decade since 1900, Simon and Ehrlich split the wins roughly evenly. That the choice of period readily sways the outcome is consistent with the fact that a ten-year window is vulnerable to short-term fluctuations. [21][23]\n\n## Testing the predictions and the current points of debate\n\nOutside the wager as well, some of Ehrlich's predictions failed in testable ways. He predicted widespread food shortages and mass famine, which did not come to pass; per capita [food supply](/hubpedia/food-supply) has in fact increased since the 1980s. [20]\n\nThe fact that prices have barely changed despite production far exceeding past levels suggests, contrary to Ehrlich's prediction, that these resources are not on the verge of depletion. [26]\n\nThe resources at the center of the debate have shifted over time. Critical minerals such as lithium, copper, and cobalt are expected to play an increasingly important role in the [energy transition](/hubpedia/energy-overview) as countries move from fossil fuels to clean energy. [25]\n\n## Related articles\n\n- Material footprint\n- [Agricultural productivity](/hubpedia/agricultural-productivity)\n- [Renewable energy](/hubpedia/renewable-energy)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:07:30.586Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "1980年、生物学者ポール・エーリックは経済学者ジュリアン・サイモンと、今後10年間で5種類の資源の価格がどう変化するかを賭けた。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/simon-ehrlich-bet",
+              "quote": "In 1980, the biologist Paul Ehrlich agreed to a bet with the economist Julian Simon on how the prices of five materials would change over the next decade."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "5種の金属すべてが値下がりしたため、サイモンが賭けに勝利し、エーリックは実際に小切手を送った。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/simon-ehrlich-bet",
+              "quote": "All five had become cheaper, so Simon won the bet (and Ehrlich did mail him the check)."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "エーリックはクロム・銅・ニッケル・スズ・タングステンの5種の金属を賭けの対象に選んだ。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/simon-ehrlich-bet",
+              "quote": "Ehrlich chose five: chromium, copper, nickel, tin, and tungsten."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "二人は合計1000ドル(金属1種につき200ドル)を賭け、1990年9月のインフレ調整後価格が1980年9月と比べて上がるか下がるかを争った。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/simon-ehrlich-bet",
+              "quote": "The two bet $1,000 — $200 on each metal — on whether inflation-adjusted prices of these resources in September 1990 would be higher or lower than they were in September 1980."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "1980年時点で1000ドル分だった金属バスケットの価値は576ドル下落し、エーリックはその額をサイモンに支払う結果となった。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/simon-ehrlich-bet",
+              "quote": "The $1,000 basket of metals in 1980 had dropped by $576, which is what Ehrlich owed Simon as the forfeit in the bet."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "タングステンとスズの価格は60%以上下落し、銅は約20%安くなった。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/simon-ehrlich-bet",
+              "quote": "The cost of tungsten and tin was more than 60% lower. Copper was around 20% cheaper."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "ニッケルとクロムは10年前よりわずかに安くなっただけだった。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/simon-ehrlich-bet",
+              "quote": "Nickel and chromium were only slightly cheaper than a decade before."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "エーリックは人口増加が地球の資源を急速に枯渇させると考えていた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/simon-ehrlich-bet",
+              "quote": "He thought population growth would quickly deplete the planet’s resources."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "エーリックは資源(鉱物を含む)が希少になるにつれ価格が急騰すると予想した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/simon-ehrlich-bet",
+              "quote": "he expected that the cost of resources — including minerals — would rise steeply as they became more scarce."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "サイモンは人間の技術革新と創意工夫が資源不足を克服し、資源価格はむしろ下落すると考えた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/simon-ehrlich-bet",
+              "quote": "Simon thought that human innovation and ingenuity would overcome resource shortages, and the price of resources would, therefore, not rise but fall."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "エーリックの核心的な主張は、人類の需要が地球の利用可能な資源を大きく上回るというものだった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/simon-ehrlich-bet",
+              "quote": "Ehrlich’s core argument was that human demand would vastly outstrip the planet’s available resources."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "現在、世界の年間生産量は銅で1900年の40倍、ニッケルで1900年の250倍に達している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/simon-ehrlich-bet",
+              "quote": "Today, the world produces 40 times as much copper annually and 250 times as much nickel as it did in 1900."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "この賭けは消費者物価指数(CPI)を用いてインフレ調整した価格に基づいていた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/simon-ehrlich-bet",
+              "quote": "The bet was based on inflation-adjusted prices using the Consumer Price Index (CPI)."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "エーリックは「賭博師なら、2000年にイギリスが存在しなくなるほうに五分五分の賭けをするだろう」と述べたことがある。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/simon-ehrlich-bet",
+              "quote": "His exact quote was: “If I were a gambler, I would take even money that England will not exist in the year 2000.”"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "もし賭けの期限が1990年ではなく1989年だったなら、ニッケルとクロムの価格は(1980年より)高くなっていた。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/simon-ehrlich-bet",
+              "quote": "If the bet had ended in 1989 rather than 1990, the price of these two materials would have been higher."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "サイモンの見解では、資源が希少化して価格が上昇しても、人間の技術革新と供給側の変化がそれに応じて価格を再び押し下げるはずだとされた。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/simon-ehrlich-bet",
+              "quote": "As resources become scarcer — and prices increase to reflect this — human innovation and changes in supply should respond and bring prices back down."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "賭けの当事者エーリックは、1968年の著書『人口爆弾』で最もよく知られる人物である。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/simon-ehrlich-bet",
+              "quote": "This is Paul R. Ehrlich, most famous for his 1968 book The Population Bomb."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "1900年以降に多くの変化があったにもかかわらず、5種の金属の価格は1900年当時とあまり変わっていない。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/simon-ehrlich-bet",
+              "quote": "A lot has changed since 1900, but the prices of the five metals are, surprisingly, not much different from what they were in 1900."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "クロムは例外的に直近数十年の平均価格が20世紀初頭より高くなっているが、2020年の価格は1900年と全く同じだった。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/simon-ehrlich-bet",
+              "quote": "Chromium is, perhaps, the one exception where average prices in the last few decades have been higher than they were in the early 20th century (although prices in 2020 were exactly the same as they were in 1900)."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "エーリックは広範な食料不足と大規模な飢饉を予測したが、それは実現せず、1人当たりの食料供給量は1980年代以降むしろ増加した。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/simon-ehrlich-bet",
+              "quote": "He predicted widespread food shortages and large-scale famines (which did not come true; the food supply per person has increased since the 1980s)."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "1900年以降の各10年間について同様の賭けを行ったと仮定すると、サイモンとエーリックはほぼ半々の確率で勝敗が分かれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/simon-ehrlich-bet",
+              "quote": "It’s a pretty even split. Simon and Ehrlich would both have won around half the time."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "サイモンは当初、「政府が管理していない原材料(穀物や石油を含む)の価格は長期的に上昇しない」という自らの主張に1万ドルを賭けると提案していた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/simon-ehrlich-bet",
+              "quote": "to stake US$10,000... on my belief that the cost of non-government-controlled raw materials (including grain and oil) will not rise in the long run"
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "10年間という賭けの期間は、実際の需給変動とは無関係な短期的な価格変動の影響を受けやすかった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/simon-ehrlich-bet",
+              "quote": "Their decade-long wager was vulnerable to short-term fluctuations, which often had nothing to do with actual changes in physical supply and demand."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "1840年まで遡る研究によれば、対象の5種を大きく上回る多数の鉱物価格は長期的に見て基本的に横ばい(トレンドレス)だった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/simon-ehrlich-bet",
+              "quote": "Studies stretching as far back as 1840 find that mineral prices — across many more than the five below — “have been basically trend-less” over the long term."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "リチウム・銅・コバルトなどの重要鉱物は、各国が化石燃料からクリーンエネルギーへ移行する中でエネルギー転換においてますます重要な役割を果たすと見られている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/metals-minerals",
+              "quote": "Critical minerals like lithium, copper, and cobalt will play an increasingly important role in the energy transition as countries move away from fossil fuels towards clean energy."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "過去よりはるかに多くの資源を生産しているにもかかわらず価格がほとんど変わっていないという事実は、エーリックの予測に反し、これらの資源が近い将来枯渇する状況にはないことを示唆している。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/simon-ehrlich-bet",
+              "quote": "The fact that we produce far more materials than we did in the past, yet prices have barely changed, suggests that contrary to Ehrlich’s prediction, we’re not close to running out of these materials any time soon."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "disaster-deaths-century",
+    "topicType": "concept",
+    "categoryLabel": "地球・環境",
+    "title": "災害死の1世紀",
+    "summary": "災害死の1世紀とは、自然災害による死者数が過去100年間でどう変化したかを指す。20世紀には干ばつや洪水に伴う飢饉によって年間100万人を超える死者が出る年も珍しくなかったが、現在は気温関連死を除けば年間1万〜2万人の範囲に収まり、死亡率は90%以上低下した。この減少は災害そのものが弱まった結果ではなく、警報・建築・食料システム・対応体制の変化によるものとされ、同時に災害記録の整備が進んだことが統計の見え方そのものも変えている。",
+    "bodyMarkdown": "## 現在の年間死者数\n\n気温に関連する死亡を除くと、地震・嵐・洪水・干ばつなどの自然災害が世界全体で奪う命は、現在ほとんどの年で1万人から2万人の範囲にある。これは世界の総死者数の0.1%未満にあたる規模で、2023年の世界の総死者数は6170万人だった。日々報じられる災害の印象と、統計上の位置づけは大きく離れている。 [3][4][26][39]\n\nただしこの範囲は平均的な年の姿にすぎない。大地震や大型サイクロンが発生した年には、災害死者数は数万人から数十万人へと跳ね上がる。単発の極端なイベントひとつで、通常の年の合計を何倍も上回る死者が出ることがある。 [10][11]\n\n## 20世紀との落差\n\n20世紀には、災害による年間死者数が数百万人に達する年も珍しくなかった。年間100万人を超える水準も例外的ではなく、その大量死の主因は大規模な干ばつと洪水だった。これらはしばしば飢饉を引き起こし、災害そのものよりも、その後に続く食料の途絶によって人が死んだ。 [6][7][8][12]\n\n過去1世紀で、災害による死亡率は90%以上低下した。しかも下がったのは率だけではない。世界人口がこの100年で4倍になったにもかかわらず、災害による死者の実数も大幅に減少している。 [5][15]\n\n飢饉の性格も変わった。現代の飢饉は主に内戦や政治的混乱によって引き起こされており、20世紀前半に見られたような、不作がそのまま大量死へ直結する経路は支配的ではなくなっている。 [9]\n\n## 死者が減った要因\n\n減少の背景として挙げられるのは、早期警報システム、インフラの改善、[農業の生産性](/hubpedia/agricultural-productivity)向上、そして協調的な対応体制である。食料安全保障の改善、他の災害に対する強靭性の向上、国内および国際的な対応力の向上により、世界は数十年にわたってかつての規模の災害死者数を経験していない。 [14][27]\n\n個々の経路はそれぞれ異なる段階で働く。気象予報の発達は災害の到来を事前に知らせ、社会が備える時間を生む。建築物の耐震・耐風性能の向上は、地震やハリケーンが来たときに構造物が持ちこたえる確率を高める。[食料システム](/hubpedia/food-supply)がより生産的かつ相互に連携するようになったことで、不作の影響は100年前ほど深刻ではなくなった。 [30][31][32]\n\n重要なのは、この減少がハザードの側の変化によるものではないという点である。災害そのものが弱まったのではなく、災害による死亡を防ぐ社会の能力が大きく向上した結果だと説明されている。 [28][29]\n\nバングラデシュはその対比が最もはっきり出る例として挙げられる。かつては強力なサイクロンが一度に数十万人を死亡させることがあったが、近年は対応の改善により、同種のサイクロンによる死者数は桁違いに少なくなっている。 [25][41]\n\n## 死者の多かった年と主な災害\n\n平均から外れた年の内訳を見ると、少数のイベントが総数をほぼ決めていることが分かる。2008年の嵐による世界の推定死者数は約141,000人だったが、そのうち138,366人はミャンマーを襲ったサイクロン・ナルギスによるものだった。つまりその年の嵐の死者のほぼ全体が、単一のイベントに由来していた。 [1][2][22]\n\n他にも、2004年の[インド洋大地震](/hubpedia/earthquake)・津波はインドネシア、スリランカ、タイ、インドで多数の死者を出し、2010年のハイチの地震では数十万人が、2023年のトルコとシリアの大地震では数万人が死亡した。年ごとの数字の振れ幅は、平均的な傾向ではなくこうした個別の出来事によって生じる。 [11][20][21][23]\n\n## 死者以外の被害\n\n死者数の減少は、災害の影響が小さくなったことを意味しない。災害の影響を受ける人数はほとんどの年で1億人を超え、極端な年には4億人に達することもある。この被災者数の内訳は主に干ばつと洪水が占めており、干ばつはほとんどの年で数千万人に、洪水も毎年数千万人に影響を及ぼしている。 [24][40][42][43]\n\n住まいへの影響も続いている。災害によって毎年数百万人が避難を強いられ、一部は家を失う。家屋の喪失は通常、洪水を主因として毎年数十万人規模で生じ、大地震が起きた年にその影響が最も大きくなる。負傷者数は通常年間2万人から6万人だが、年によっては10万人を超えることもある。 [13][44][45]\n\n## 経済的被害\n\n近年、災害による経済被害は世界GDPの約0.2%に相当し、年によっては0.5%に達する。どの災害が最大の損害をもたらすかは年によって変わり、大地震が起きない年には嵐が最も経済的被害の大きい災害となる傾向がある。 [46][47]\n\n地域ごとの内訳は世界平均とは異なる。米国ではハリケーンによる被害額がGDPの約0.5%、多い年には1%に達することがある。一方、欧州連合やパキスタンなどでは洪水が最も経済的被害の大きい災害であり、被害額がGDPの5%に達することもある。ただしこれらの数字には限界があり、EM-DATに記録された災害の多くには経済被害額の推計値そのものが欠けている。 [48][49][51]\n\n## 記録件数の増加と統計の限界\n\n記録上の災害発生件数は1970年代から2000年代初頭にかけて急増した。この増加を受け、世界気象機関や国連を含む多くの国際機関やメディアが、災害件数の4倍から5倍の増加を報じてきた。 [16][33]\n\nただし、この増加の大部分は[災害記録自体の整備](/hubpedia/disaster-data-limits)が進んだことによるものだと説明されている。20世紀前半には歴史に残るような大規模災害のみが記録される傾向にあり、現在なら記録されるはずの中小規模の災害が記録から欠けている。したがって、過去の年の災害件数・死者数・被害の記録は過小評価になっている可能性が高い。 [34][35][36]\n\n記録の整備そのものにも時期がある。災害疫学研究センター（CRED）は1973年に設立され、災害データの収集を開始した。CREDが既存の災害データベースを引き継ぎEM-DATを設立したのは1988年である。 [17][18]\n\n## 記録から漏れやすい災害\n\n漏れの偏りは地域によっても異なる。EM-DATに記録された熱波イベントの半数以上は、日本・インド・パキスタン・米国・フランス・ベルギー・英国・スペイン・ドイツの9カ国からの報告である。一方でサハラ以南アフリカの熱波被害はほぼ完全に記録から見過ごされている。 [19][37]\n\n熱波が数えにくいのには、報告体制以外の理由もある。熱波による死亡の大半は、[心血管疾患](/hubpedia/cardiovascular-disease)のような分かりにくい疾患のリスク増加を通じて生じる。倒壊や浸水と違って死因が災害名で記録されにくく、そのため冒頭で述べた年間1万〜2万人という数字も、気温関連死を除いた上での値として扱われている。 [4][38]\n\n## 気候変動との関係\n\n災害死を防ぐ取り組みは、気候変動への対応と適応において今後ますます重要になるとされる。過去1世紀の減少がハザードの弱まりではなく社会の側の能力向上によって生じたという説明は、ハザードが強まる場合にその能力が何を担うかという問いに直結している。 [29][50]\n\n## 関連記事\n\n- [死因](/hubpedia/cause-of-death)\n- [人口増加](/hubpedia/population-growth)\n- [報道と実際の死因のずれ](/hubpedia/news-and-death)",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/century-disaster-deaths",
+        "title": "災害死の1世紀",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on disaster-deaths-century. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/natural-disasters",
+        "title": "natural-disasters",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "The disasters behind the deaths. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "A Century of Disaster Deaths",
+        "summary": "A century of disaster deaths refers to how the number of people killed by natural disasters has changed over the past 100 years. In the 20th century, years with more than one million deaths were not unusual, driven by famines that followed droughts and floods; today, excluding temperature-related deaths, the annual figure falls within a range of 10,000 to 20,000, and the death rate has dropped by more than 90%. This decline is attributed not to hazards themselves growing weaker but to changes in warning systems, construction, food systems, and response capacity, while at the same time the improved recording of disasters has itself changed how the statistics appear.",
+        "bodyMarkdown": "## Annual deaths today\n\nExcluding temperature-related deaths, natural disasters such as earthquakes, storms, floods, and droughts now claim between 10,000 and 20,000 lives worldwide in most years. That is a scale amounting to less than 0.1% of all deaths globally; in 2023, the world total was 61.7 million deaths. The impression left by daily disaster coverage sits far apart from where these events fall in the statistics. [3][4][26][39]\n\nThis range describes only an average year, however. In years when a major earthquake or a large cyclone strikes, the disaster death toll jumps from tens of thousands to hundreds of thousands. A single extreme event can produce many times more deaths than the total of an ordinary year. [10][11]\n\n## The gap with the 20th century\n\nIn the 20th century, years in which disasters killed several million people were not unusual. Levels above one million a year were no exception, and the main causes of that mass mortality were large-scale droughts and floods. These frequently triggered famines, and people died less from the disaster itself than from the breakdown of the food supply that followed. [6][7][8][12]\n\nOver the past century, the death rate from disasters has fallen by more than 90%. And it is not only the rate that has come down. Even though the world population has quadrupled over those 100 years, the absolute number of disaster deaths has also fallen sharply. [5][15]\n\nThe character of famine has changed as well. Modern famines are caused mainly by civil war and political turmoil; the pathway seen in the first half of the 20th century, in which a failed harvest led directly to mass death, is no longer the dominant one. [9]\n\n## Why deaths declined\n\nThe factors cited behind the decline are early warning systems, improved infrastructure, gains in [agricultural productivity](/hubpedia/agricultural-productivity), and coordinated response systems. Thanks to better food security, greater resilience to other disasters, and stronger domestic and international response capacity, the world has gone decades without experiencing disaster death tolls on the earlier scale. [14][27]\n\nEach pathway works at a different stage. Advances in weather forecasting give notice before a disaster arrives, creating time for society to prepare. Better earthquake and wind resistance in buildings raises the odds that structures hold when an earthquake or hurricane comes. Because [food systems](/hubpedia/food-supply) have become more productive and more interconnected, the impact of a failed harvest is no longer as severe as it was 100 years ago. [30][31][32]\n\nThe important point is that this decline is not the result of a change on the hazard side. It is explained not by disasters themselves growing weaker, but by a large improvement in society's capacity to prevent disasters from killing people. [28][29]\n\nBangladesh is cited as the example where the contrast shows most clearly. Powerful cyclones there once killed hundreds of thousands of people at a stroke, but in recent years improvements in response have made deaths from cyclones of the same kind smaller by orders of magnitude. [25][41]\n\n## High-death years and the main disasters\n\nBreaking down the years that depart from the average shows that a small number of events determine almost the entire total. The estimated global death toll from storms in 2008 was about 141,000, of which 138,366 came from Cyclone Nargis, which struck Myanmar. In other words, nearly all of that year's storm deaths originated in a single event. [1][2][22]\n\nElsewhere, the 2004 [Indian Ocean earthquake](/hubpedia/earthquake) and tsunami killed large numbers of people in Indonesia, Sri Lanka, Thailand, and India; the 2010 earthquake in Haiti killed hundreds of thousands; and the 2023 earthquakes in Turkey and Syria killed tens of thousands. The swings in the year-to-year figures come from individual events like these, not from an average trend. [11][20][21][23]\n\n## Harm beyond deaths\n\nThe fall in deaths does not mean the impact of disasters has grown smaller. The number of people affected by disasters exceeds 100 million in most years and can reach 400 million in extreme years. That affected-population total is made up mainly of droughts and floods, with droughts affecting tens of millions of people in most years and floods likewise affecting tens of millions every year. [24][40][42][43]\n\nThe impact on housing also continues. Disasters displace millions of people each year, and some lose their homes. Loss of housing typically runs into the hundreds of thousands of people each year, driven mainly by floods, with the effect largest in years when a major earthquake occurs. Injuries usually number between 20,000 and 60,000 a year, though in some years they exceed 100,000. [13][44][45]\n\n## Economic damage\n\nIn recent years, economic damage from disasters has amounted to about 0.2% of global GDP, reaching 0.5% in some years. Which disaster causes the greatest losses varies by year, and in years without a major earthquake, storms tend to be the most economically damaging disaster. [46][47]\n\nRegional breakdowns differ from the global average. In the United States, hurricane damage amounts to about 0.5% of GDP, and in heavy years can reach 1%. In the European Union and Pakistan, by contrast, floods are the most economically damaging disaster, with losses sometimes reaching 5% of GDP. These figures have limits, however: many of the disasters recorded in EM-DAT lack any estimate of economic damage at all. [48][49][51]\n\n## Rising record counts and the limits of the statistics\n\nThe recorded number of disaster events rose sharply from the 1970s through the early 2000s. In response to that increase, many international organizations and media outlets, including the World Meteorological Organization and the United Nations, have reported a fourfold to fivefold rise in the number of disasters. [16][33]\n\nMost of that increase, however, is explained by improvements in [the recording of disasters itself](/hubpedia/disaster-data-limits). In the first half of the 20th century, only disasters large enough to enter the historical record tended to be recorded, and small and medium-sized disasters that would be recorded today are missing from the record. The records of disaster counts, deaths, and damage for earlier years are therefore likely to be underestimates. [34][35][36]\n\nThe build-up of the records has its own timeline. The Centre for Research on the Epidemiology of Disasters (CRED) was established in 1973 and began collecting disaster data. CRED took over an existing disaster database and established EM-DAT in 1988. [17][18]\n\n## Disasters that tend to go unrecorded\n\nThe bias in what goes missing also varies by region. More than half of the heatwave events recorded in EM-DAT are reported from nine countries: Japan, India, Pakistan, the United States, France, Belgium, the United Kingdom, Spain, and Germany. Meanwhile, heatwave impacts in sub-Saharan Africa are almost entirely overlooked in the records. [19][37]\n\nThere are reasons beyond reporting systems that make heatwaves hard to count. Most heatwave deaths occur through an increased risk of less visible conditions such as [cardiovascular disease](/hubpedia/cardiovascular-disease). Unlike collapse or inundation, the cause of death is rarely recorded under the name of the disaster, which is why the figure of 10,000 to 20,000 a year given at the outset is treated as a value that excludes temperature-related deaths. [4][38]\n\n## The relationship with climate change\n\nEfforts to prevent disaster deaths are said to become increasingly important in responding and adapting to climate change. The explanation that the past century's decline came from improved societal capacity rather than weakening hazards leads directly to the question of what that capacity will carry if hazards grow stronger. [29][50]\n\n## Related articles\n\n- [Causes of death](/hubpedia/cause-of-death)\n- [Population growth](/hubpedia/population-growth)\n- [The gap between news coverage and actual causes of death](/hubpedia/news-and-death)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:07:30.586Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "2008年の嵐（暴風雨）による世界の推定死者数は約141,000人だった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/century-disaster-deaths",
+              "quote": "the estimated global death toll from storms in 2008 was approximately 141,000"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "2008年の嵐による死者のうち138,366人は、ミャンマーを襲ったサイクロン「マルギス」によるものだった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/century-disaster-deaths",
+              "quote": "138,366 of these deaths occurred in Cyclone Margis, which struck Myanmar"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "現在、災害による死者数はほとんどの年で1万人から2万人の範囲にある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/century-disaster-deaths",
+              "quote": "In most years, the death toll from disasters is now in the range of 10,000 to 20,000 people"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "気温関連死を除くと、地震・嵐・洪水・干ばつなどの災害は世界全体で年間約1万人から2万人の命を奪っている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "Disasters — from earthquakes and storms to floods and droughts — kill approximately 10,000 to 20,000 people per year globally (excluding temperature deaths, which are unevenly counted)"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "過去1世紀で、災害による死亡率は90%以上低下した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "Over the last century, death rates have fallen by more than 90%"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "20世紀には、災害による年間死者数が数百万人に達する年も珍しくなかった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/century-disaster-deaths",
+              "quote": "in the 20th century, it was common to have years where the death toll was in the millions"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "そうした大量死は主に大規模な干ばつや洪水によるものだった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/century-disaster-deaths",
+              "quote": "This was usually the result of major droughts or floods"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "干ばつや洪水はしばしば飢饉を引き起こした。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/century-disaster-deaths",
+              "quote": "Often these would lead to famines"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "現代の飢饉は主に内戦や政治的混乱によって引き起こされている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/century-disaster-deaths",
+              "quote": "Famines today are usually driven by civil war and political unrest"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "大地震や大型サイクロンが起きた特に死者の多い年には、災害死者数が数万人から数十万人に達することがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/century-disaster-deaths",
+              "quote": "In the most fatal years – which tend to be those with major earthquakes or cyclones – this can reach tens to hundreds of thousands"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "単発の極端な災害イベントが数万人から数十万人を死亡させることがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "Single extreme events can kill tens to hundreds of thousands of people"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "20世紀には年間100万人を超える災害死者数も珍しくなかった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "In the 20th century, more than a million deaths per year were not uncommon"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "災害によって毎年数百万人が避難を強いられ、一部は家を失っている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "Millions of people are displaced — some left homeless — by them each year"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "早期警報システム、インフラの改善、農業の生産性向上、協調的な対応により、過去1世紀で災害死者数は大幅に減少した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "deaths from disasters have fallen significantly over the last century due to early warning systems, better infrastructure, more productive agriculture, and coordinated responses"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "100年前より世界人口が4倍になったにもかかわらず、災害による死者の実数も大幅に減少している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "Even the total number of deaths has fallen substantially, despite there being four times as many people in the world as 100 years ago"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "記録上の災害発生件数は1970年代から2000年代初頭にかけて急増した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "the number of disasters globally skyrocketed from the 1970s through to the early 2000s"
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "CRED（災害疫学研究センター）は1973年に設立され、災害データの収集を開始した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "CRED was created in 1973 and started compiling disaster data"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "CREDが災害データベースを引き継ぎEM-DATを設立したのは1988年である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "until 1988 that it took over the disaster database and established EM-DAT"
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "EM-DATに記録された熱波イベントの半数以上は、日本・インド・パキスタン・米国・フランス・ベルギー・英国・スペイン・ドイツの9カ国からの報告である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "Over half of heat events in EM-DAT were reported across only nine countries: Japan, India, Pakistan, the United States, France, Belgium, the United Kingdom, Spain, and Germany"
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "2023年、トルコとシリアを襲った大地震により数万人が死亡した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "In 2023, Turkey and Syria were struck by a severe earthquake that killed tens of thousands"
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "2010年、ハイチを襲った地震により数十万人が死亡した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "it was the earthquake that hit Haiti, killing hundreds of thousands"
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "2008年、サイクロン・ナルギスによりミャンマーで14万人が死亡した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "Cyclone Nargis, which killed 140,000 people in Myanmar"
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "2004年のインド洋大地震・津波は、インドネシア・スリランカ・タイ・インドで多数の死者を出した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "the Indian Ocean earthquake and tsunami that killed many across Indonesia, Sri Lanka, Thailand, and India"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "災害の影響を受ける人数は、ほとんどの年で1億人を超え、極端な年には4億人に達することもある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "In most years, the total is over 100 million people. In extreme years, it can be as much as 400 million"
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "バングラデシュでは、かつて強力なサイクロンが一度に数十万人を死亡させることがあった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "Bangladesh, where strong cyclones could kill hundreds of thousands in a single year"
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "2023年の世界の総死者数は6170万人だった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "In 2023, 61.7 million people died globally"
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "食料安全保障の改善、他の災害への強靭性の向上、国内外の対応力の向上により、世界は数十年にわたりかつての規模の災害死者数を経験していない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/century-disaster-deaths",
+              "quote": "Improved food security, resilience to other disasters, and better national and international responses mean that the world has not experienced death tolls of this scale in many decades"
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "現在の世界は過去と比べて、災害による死亡を防ぐ能力が大きく向上している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/century-disaster-deaths",
+              "quote": "It means the world today is much better at preventing deaths from disasters than in the past"
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "災害死の減少は、災害そのもの（ハザード）が弱まったことによるものではない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "This is not because hazards have become weaker"
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "気象予報の発達により、災害の到来を事前に知り、社会が備える時間を持てるようになった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "Weather forecasting has allowed us to know when disasters are coming ahead of time, giving societies time to prepare"
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "建築物の耐震・耐風性能の向上により、地震やハリケーンに耐えられるようになった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "Better buildings can withstand earthquakes and hurricanes"
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "食料システムがより生産的かつ連携するようになったことで、不作の影響は100年前より深刻でなくなった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "Food systems are more productive and better connected, making the impact of a lost harvest less severe than it would have been a century ago"
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "この増加を受け、世界気象機関や国連を含む多くの国際機関やメディアが、災害件数の4倍から5倍の増加を報じてきた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "This has led to many international organizations — including the World Meteorological Organization and the United Nations — and media outlets reporting on a four or fivefold increase in disaster events"
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "記録上の災害件数の増加の大部分は、災害記録自体の整備が進んだことによるものである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "But this rise is mostly due to improvements in disaster records"
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "20世紀前半には歴史に残るような大規模災害のみが記録される傾向にあり、現在なら記録される中小規模の災害は記録から欠けている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "through the first half of the 20th century, it was mostly large events — making it into the history books — that were recorded; small and medium-level events that would be recorded today are absent"
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "このため、過去の年の災害件数・死者数・被害の記録は過小評価になっている可能性が高い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "This suggests that events, deaths, and impacts from earlier years are likely to be underestimates"
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "サハラ以南アフリカの熱波被害はほぼ完全に記録から見過ごされている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "sub-Saharan Africa is almost completely overlooked"
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "熱波による死亡の大半は、心血管疾患のような分かりにくい疾患のリスク増加によるものである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "most heat-related deaths come from an increase in the risk of less obvious conditions, such as cardiovascular disease"
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "災害による年間死者数（1万〜2万人）は、世界の総死者数の0.1%未満に相当する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "less than 0.1% of global deaths"
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "災害の被災者数は、主に干ばつと洪水によって占められている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "these numbers are usually dominated by droughts and floods"
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "近年では対応の改善により、バングラデシュでのサイクロンによる死者数は桁違いに少なくなっている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "In recent years, this death toll has been several orders of magnitude lower, thanks to improved response"
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "ほとんどの年で、干ばつは数千万人に影響を及ぼしている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "In most years, droughts affect tens of millions"
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "洪水は毎年数千万人に影響を及ぼしている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "Every year, floods affect tens of millions"
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "災害による負傷者数は通常年間2万人から6万人だが、年によっては10万人を超えることもある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "The number of people injured in disasters typically ranges from 20,000 to 60,000 per year, but in some years it can be over 100,000"
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "statement": "毎年、通常は洪水を主因として数十万人が家を失っており、大地震が起きた年にはその影響が最も大きくなる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "Hundreds of thousands are typically left homeless every year, usually due to flooding, but in severe earthquake years, these events dominate"
+            }
+          ]
+        },
+        {
+          "index": 46,
+          "statement": "近年、災害による経済被害は世界GDPの約0.2%に相当し、年によっては0.5%に達する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "In recent years, disaster damages were equal to around 0.2% of global GDP, reaching up to 0.5% in some years"
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "statement": "大地震が起きない年には、嵐が最も経済的被害の大きい災害となる傾向がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "Storms tend to be the most costly events, dominating damages in years without severe earthquakes"
+            }
+          ]
+        },
+        {
+          "index": 48,
+          "statement": "米国ではハリケーンによる被害額がGDPの約0.5%、多い年には1%に達することがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "hurricanes often inflict damage equal to around 0.5% of GDP (and sometimes as much as 1%)"
+            }
+          ]
+        },
+        {
+          "index": 49,
+          "statement": "欧州連合やパキスタンなど他の地域では洪水が最も経済的被害の大きい災害であり、被害額がGDPの5%に達することもある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "flooding is the most costly: this is true of areas such as the European Union, or Pakistan in South Asia, where damages can be as much as 5% of GDP"
+            }
+          ]
+        },
+        {
+          "index": 50,
+          "statement": "災害死を防ぐ取り組みは、気候変動への対応と適応において今後ますます重要になるとされる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/century-disaster-deaths",
+              "quote": "This will become increasingly important in our response and adaptation to climate change"
+            }
+          ]
+        },
+        {
+          "index": 51,
+          "statement": "EM-DATに記録された災害の多くには、経済被害額の推計値が欠けている。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/natural-disasters",
+              "quote": "many disasters in the database lack an economic damage estimate"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "wild-biomass",
+    "topicType": "concept",
+    "categoryLabel": "動物・植物",
+    "title": "野生生物の生物量",
+    "summary": "野生哺乳類と野生鳥類の総量を炭素重量（バイオマス）で測り、人間や家畜との比較で示す指標。供給された推定では、人間と家畜が世界の哺乳類バイオマスの95%を占め、野生哺乳類は5%にとどまる。野生陸上哺乳類のバイオマスは人類の台頭以降およそ85%減少した一方、哺乳類全体の総重量は1850年以降4倍に増えたとされる。",
+    "bodyMarkdown": "## 測り方と現在の内訳\n\n世界にどれだけの野生動物がいるかを個体数で数えると、体重2グラムのネズミも6トンの象も同じ「1」になってしまう。そこで生態学者は野生生物の量を測る指標としてバイオマスをよく用いる。この指標では各動物を炭素のトン数で計測し、分類群のバイオマスは1個体あたりの炭素蓄積量にその個体数を掛け合わせて算出される。 [61][69][70]\n\nこの物差しで世界の哺乳類を分けると、内訳は直感に反する。人間と家畜が哺乳類バイオマスの95%を占め、象や鹿からライオン、クジラまで数千種を含む野生哺乳類は残る5%にすぎない。人間だけで3分の1以上を占めており、これは全野生哺乳類を合わせた量の7倍以上にあたる。家畜とペット（主に牛）は59%を占める。 [1][2][8][9][10][33]\n\n割合は個々の推定値の誤差に左右されるが、[野生哺乳類](/hubpedia/wild-mammal-decline)が哺乳類バイオマス全体の10%を大きく下回るという結論は、不確実性を考慮しても変わらないとされる。哺乳類バイオマスの1%は約1100万トンに相当する。 [34][64]\n\n## 具体的な比較\n\n比率だけでは規模が伝わりにくいため、しばしば個別の群同士が比較される。飼育されている豚の重量は、世界のクジラ、シャチ、ラッコ、アザラシ、イルカを合わせた重量に匹敵する。ペットと野生化した個体を含む世界の犬の総重量は、陸上の全野生哺乳類の重量に匹敵する。 [11][12]\n\n犬の推定は個体数と平均体重の仮定に依存する。世界の犬の個体数は約9億8700万匹と推定され、そのうち約4分の1は中国の農村部に由来し、そこでは人間2.9人に対し犬1匹の割合とされる。よく引用される数値は約7億から9億匹の範囲にある。平均体重を22キログラムと仮定した場合の推定として、Greenspoonら（2023）は犬の総バイオマスを2000万トンとした。猫については個体数6億匹、平均体重3.75キログラムを仮定し、総バイオマスは230万トンとされる。 [39][40][41][42][43][44][45]\n\n人間自体の総重量も同じ方法で概算される。2021年の世界人口は約79.5億人であり、1人あたり50キログラムを乗じると人間の総重量は3億9800万トンになる。 [37][38]\n\n## 鳥類の推定と不確実性\n\n鳥類では、哺乳類ほど明確な結論が出ていない。家禽は世界の野生鳥類全体よりもはるかに重く、その重量は野生鳥類の2倍以上と推定され、家禽の総重量は約3000万トンと算出されている。しかし野生鳥類側の推定値は手法によって500万トンと2400万トンに分かれ、5倍近い開きがある。 [13][14][35][54]\n\nこの差は推定の入口が違うことから生じる。約900種の鳥類の個体密度から外挿した手法では、野生鳥類の総重量は500万トンと算出された。一方、異なるモデルによる外挿では世界の野生鳥類の個体数が約2000億から4000億羽という近い値に収束し、その中間値である3000億羽に、英国の鳥類データから求めた1羽あたりの加重平均体重約80グラムを乗じると2400万トンになる。2つの手法の幾何平均を取ると、最終推定値は1100万トンとなる。 [48][49][50][51][65]\n\nどちらの値を採るかで結論の性格が変わる。野生鳥類を500万トンとすれば鳥類バイオマスに占める野生鳥類の割合は14%、2400万トンとすれば44%になる。さらに、より新しい論文は世界の野生鳥類の個体数をわずか500億羽とより低く推定しているが、この推定には39億羽から2兆1000億羽という非常に大きな不確実性の幅が伴う。 [15][16][52][53]\n\n推定が広い幅を持つ背景には、観測されている種の偏りがある。陸上哺乳類種のうち個体数の報告があるのは約6%の種にとどまる。ただしその約6%が哺乳類の総バイオマスの大部分を占め、残る94%の種が占める割合は比較的わずかだとされる。 [46][47]\n\n## 10万年の推移\n\n現在の内訳は昔からのものではない。約10万年前、地球上の野生の陸生哺乳類のバイオマス合計は約2000万トンの炭素量に達し、北米にマンモス、ヨーロッパにライオン、オーストラレーシアに体重200キログラムのウォンバット、南米にオオナマケモノが生息していた。当時の陸上哺乳類の総バイオマスは約1億2000万トンで、そのほぼ全てが野生動物だった。 [3][18][71]\n\nその後、世界最大級の哺乳類数百種が[絶滅](/hubpedia/extinction-risk)する。この大規模な減少は「第四紀メガファウナ絶滅（QME）」と呼ばれ、世界の大型哺乳類178種以上が姿を消した。主な原因は人間であるとする証拠が多いとされるが、当時の世界人口は500万人未満だったとみられる。紀元前10000年の世界人口は推定240万人、紀元前9000年は360万人であり、QMEが終了した紀元前8000年頃で約500万人だった。 [4][5][55][56][57][62][63]\n\n人口が少なくても影響が大きかった理由の一つとして、農業革命以前の人類の食料が狩猟採集によって得られていたことが挙げられる。約1万年前までに野生哺乳類は大きく減少し、その減少幅はおよそ25%から50%だったと推定される。陸上哺乳類の総バイオマスはこの時点で9000万トンまで減っていた。 [19][23][58]\n\n減少はそこで止まらなかった。1900年までに野生哺乳類は再び大きく減少し、この時点で世界人口は17億人に増加していた。過去1万年で[世界の森林](/hubpedia/forest-area)の3分の1が失われている。総量で見ると、1850年時点で人間と家畜の重量は2億トン、野生陸上哺乳類の重量は5000万トンと推定され、両者を含む陸上哺乳類の総バイオマスは推定2億5000万トンまで増加していた。 [20][24][25][26][66]\n\n結果として、人類の台頭以降に野生の陸生哺乳類は85%減少し、現在残るバイオマスはわずか300万トンの炭素量である。この85%という減少は過去10万年にわたるもので、野生哺乳類は相対的な割合だけでなく絶対量でも減っている。一方、哺乳類の総重量そのものは約11億トンに達し、1850年から4倍になった。総量が増えながら野生の取り分が縮んだ、という二つの動きが同時に起きている。 [6][7][17][21][22][36]\n\n## 食料生産との関係\n\n家畜が哺乳類バイオマスの大部分を占める状態は、食料需要の規模と結びついている。2018年、世界で消費された哺乳類由来の[畜産肉](/hubpedia/meat-production)は2億1000万トンで、これはバイオマス換算で炭素3100万トンに相当する。この量は現存する野生陸上哺乳類のバイオマスを大きく上回るため、もし人類が野生哺乳類だけを食料にした場合、1か月以内に食べ尽くされてしまうと試算される。ただしこの試算は、入手可能なすべての哺乳類種を食べる前提に基づく仮想的な比較である。 [27][28][29][68]\n\n家畜化の影響は一方向ではない。家畜の普及により、野生動物への直接的な狩猟圧力の一部は緩和されたとされる。他方で農地の拡大は森林破壊の主要な要因であり、生息地の側から野生生物量を圧迫してきた。 [60][67]\n\n土地の使い方には近年の変化もある。1960年以降、一人当たりの農地面積は半分以下になり、これまでに4分の1まで減少した。国連食糧農業機関（FAO）によると、[世界の農地面積](/hubpedia/peak-farmland)は2000年以降、49億ヘクタールから48億ヘクタールへと減少している。生産方式の面では、2020年にシンガポールが培養鶏肉を世界で初めて市場に導入した国となった。 [30][31][32][59]\n\n## 関連記事\n\n- [哺乳類の回復](/hubpedia/mammal-recovery)\n- [土地利用](/hubpedia/land-use)\n- [生物多様性](/hubpedia/biodiversity)\n- [大量絶滅](/hubpedia/mass-extinction)",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/wild-mammals-birds-biomass",
+        "title": "野生生物の生物量",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on wild-biomass. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/wild-mammal-decline",
+        "title": "wild-mammal-decline",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "The decline this quantifies. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Wildlife biomass",
+        "summary": "An indicator that measures the total mass of wild mammals and wild birds by carbon weight (biomass) and compares it with humans and livestock. In the estimates supplied, humans and livestock account for 95% of the world's mammal biomass, while wild mammals make up only 5%. The biomass of wild land mammals has fallen by roughly 85% since the rise of humanity, while the total weight of all mammals is said to have quadrupled since 1850.",
+        "bodyMarkdown": "## How it is measured and the current breakdown\n\nIf you count how much wildlife there is in the world by number of individuals, a mouse weighing 2 grams and a 6-tonne elephant both count as a single \"1.\" Ecologists therefore often use biomass as the indicator for the quantity of wildlife. Under this measure each animal is counted in tonnes of carbon, and the biomass of a taxonomic group is calculated by multiplying the carbon stored in one individual by the number of individuals. [61][69][70]\n\nWhen the world's mammals are divided up by this yardstick, the breakdown is counterintuitive. Humans and livestock account for 95% of mammal biomass, and wild mammals — thousands of species from elephants and deer to lions and whales — make up only the remaining 5%. Humans alone account for more than a third, over seven times the mass of all wild mammals combined. Livestock and pets (mainly cattle) account for 59%. [1][2][8][9][10][33]\n\nThe percentages depend on the margin of error in each individual estimate, but the conclusion that [wild mammals](/hubpedia/wild-mammal-decline) make up far less than 10% of total mammal biomass is said to hold even once uncertainty is taken into account. One percent of mammal biomass corresponds to roughly 11 million tonnes. [34][64]\n\n## Specific comparisons\n\nBecause ratios alone convey little about scale, individual groups are often compared with one another. The weight of farmed pigs is comparable to the combined weight of the world's whales, orcas, sea otters, seals, and dolphins. The total weight of the world's dogs, including pets and feral animals, is comparable to the weight of all wild land mammals. [11][12]\n\nThe dog estimate depends on assumptions about population and average body weight. The world's dog population is estimated at about 987 million, roughly a quarter of which comes from rural China, where the ratio is said to be one dog for every 2.9 people. Frequently cited figures fall in the range of about 700 million to 900 million. Assuming an average weight of 22 kilograms, Greenspoon et al. (2023) put the total biomass of dogs at 20 million tonnes. For cats, assuming a population of 600 million and an average weight of 3.75 kilograms, total biomass is given as 2.3 million tonnes. [39][40][41][42][43][44][45]\n\nThe total weight of humans themselves is approximated by the same method. The world population in 2021 was about 7.95 billion, and multiplying by 50 kilograms per person gives a total human weight of 398 million tonnes. [37][38]\n\n## Bird estimates and uncertainty\n\nFor birds, no conclusion as clear-cut as the one for mammals has emerged. Poultry weigh far more than all the world's wild birds; their weight is estimated at more than twice that of wild birds, with the total weight of poultry calculated at about 30 million tonnes. But estimates on the wild-bird side split by method into 5 million tonnes and 24 million tonnes — a gap of nearly fivefold. [13][14][35][54]\n\nThe difference arises because the estimates start from different places. A method extrapolating from the population densities of about 900 bird species yielded a total wild-bird weight of 5 million tonnes. Extrapolation using a different model, by contrast, converged on a similar figure of roughly 200 billion to 400 billion individual wild birds worldwide; multiplying the midpoint of 300 billion by a weighted average weight of about 80 grams per bird, derived from UK bird data, gives 24 million tonnes. Taking the geometric mean of the two methods yields a final estimate of 11 million tonnes. [48][49][50][51][65]\n\nWhich figure you adopt changes the character of the conclusion. If wild birds are put at 5 million tonnes, their share of bird biomass is 14%; at 24 million tonnes it is 44%. Furthermore, a more recent paper estimates the world's wild bird population lower still, at just 50 billion individuals, though this estimate carries a very wide band of uncertainty, from 3.9 billion to 2.1 trillion. [15][16][52][53]\n\nBehind these wide ranges lies a bias in which species have been observed. Only about 6% of land mammal species have reported population figures. That said, those roughly 6% are held to account for the bulk of total mammal biomass, with the remaining 94% of species making up a comparatively small share. [46][47]\n\n## Change over 100,000 years\n\nThe present breakdown is not how things have always been. About 100,000 years ago, the combined biomass of the world's wild land mammals reached roughly 20 million tonnes of carbon, with mammoths in North America, lions in Europe, 200-kilogram wombats in Australasia, and giant sloths in South America. Total land mammal biomass at the time was about 120 million tonnes, almost all of it wild animals. [3][18][71]\n\nAfter that, several hundred of the world's largest mammal species went [extinct](/hubpedia/extinction-risk). This large-scale decline is known as the Quaternary Megafauna Extinction (QME), in which more than 178 large mammal species worldwide disappeared. Much of the evidence points to humans as the main cause, even though the world population at the time is thought to have been under 5 million. The world population in 10000 BC is estimated at 2.4 million and in 9000 BC at 3.6 million, reaching about 5 million around 8000 BC, when the QME ended. [4][5][55][56][57][62][63]\n\nOne reason a small population had such a large impact is that, before the agricultural revolution, human food was obtained by hunting and gathering. By around 10,000 years ago wild mammals had declined substantially, by an estimated 25% to 50%. Total land mammal biomass had fallen to 90 million tonnes by this point. [19][23][58]\n\nThe decline did not stop there. By 1900 wild mammals had fallen sharply again, and by then the world population had grown to 1.7 billion. Over the past 10,000 years, a third of the [world's forests](/hubpedia/forest-area) has been lost. In total terms, as of 1850 the weight of humans and livestock is estimated at 200 million tonnes and that of wild land mammals at 50 million tonnes, with total land mammal biomass including both having risen to an estimated 250 million tonnes. [20][24][25][26][66]\n\nAs a result, wild land mammals have declined by 85% since the rise of humanity, and the biomass remaining today is a mere 3 million tonnes of carbon. That 85% decline spans the past 100,000 years, and wild mammals have fallen not only in relative share but in absolute quantity. The total weight of mammals, meanwhile, has reached about 1.1 billion tonnes, quadrupling since 1850. Two movements are happening at once: the total has grown while the wild share has shrunk. [6][7][17][21][22][36]\n\n## Relationship to food production\n\nThe fact that livestock account for most mammal biomass is tied to the scale of food demand. In 2018, the world consumed 210 million tonnes of mammal-derived [livestock meat](/hubpedia/meat-production), equivalent to 31 million tonnes of carbon in biomass terms. Because this quantity far exceeds the biomass of the wild land mammals now in existence, it is calculated that if humanity fed on wild mammals alone, they would be eaten up within a month. This calculation, however, is a hypothetical comparison premised on eating every available mammal species. [27][28][29][68]\n\nThe effects of domestication do not run in only one direction. The spread of livestock is held to have eased some of the direct hunting pressure on wild animals. On the other hand, the expansion of farmland is a leading driver of deforestation and has squeezed wildlife biomass from the habitat side. [60][67]\n\nThere have also been recent changes in how land is used. Since 1960, farmland area per person has more than halved, falling to a quarter of its earlier level. According to the Food and Agriculture Organization of the United Nations (FAO), the [world's farmland area](/hubpedia/peak-farmland) has declined since 2000, from 4.9 billion hectares to 4.8 billion hectares. On the production side, in 2020 Singapore became the first country in the world to bring cultivated chicken meat to market. [30][31][32][59]\n\n## Related articles\n\n- [Mammal recovery](/hubpedia/mammal-recovery)\n- [Land use](/hubpedia/land-use)\n- [Biodiversity](/hubpedia/biodiversity)\n- [Mass extinction](/hubpedia/mass-extinction)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:07:30.587Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "人間と家畜は世界の哺乳類バイオマスの95%を占める",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "Humans and livestock make up 95% of the world’s mammal biomass"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "野生哺乳類は世界の哺乳類バイオマスのわずか5%である",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "wild mammals are just 5%"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "約10万年前、地球上の野生の陸生哺乳類のバイオマス合計は約2000万トンの炭素量だった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammal-decline",
+              "quote": "all of the wild land mammals on Earth summed up to around 20 million tonnes of carbon"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "この大規模な哺乳類の減少は「第四紀メガファウナ絶滅（QME）」と呼ばれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammal-decline",
+              "quote": "This big decline of mammals is referred to as the Quaternary Megafauna Extinction (QME)"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "QMEにより世界の大型哺乳類（メガファウナ）178種以上が絶滅した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammal-decline",
+              "quote": "The QME led to the extinction of more than 178 of the world’s large mammals (‘megafauna’)"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "人類の台頭以降、野生の陸生哺乳類は85%減少した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammal-decline",
+              "quote": "Since the rise of humans, wild land mammals have declined by 85%."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "現在、世界に残る野生の陸生哺乳類のバイオマスはわずか300万トンの炭素量である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammal-decline",
+              "quote": "there are only 3 million tonnes of wild land mammal biomass left in the world"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "人間は哺乳類バイオマスの3分の1以上を占める",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "We account for more than one-third of mammal biomass."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "人間のバイオマスは全野生哺乳類を合わせたものの7倍以上である",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "Our biomass is more than seven times greater than all wild mammals combined."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "家畜とペット（主に牛）は哺乳類バイオマスの59%を占める",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "Our livestock and pets, which are primarily cattle, account for 59%."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "飼育されている豚の重量は世界のクジラ、シャチ、ラッコ、アザラシ、イルカを合わせた重量に匹敵する",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "Farmed pigs weigh as much as all of the world’s whales, orcas, sea otters, seals, and dolphins combined."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "世界の犬（ペットと野生化した犬を含む）の総重量は陸上の全野生哺乳類の重量に匹敵する",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "All the dogs in the world, including pets and feral dogs, weigh as much as all wild mammals on land."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "家禽は世界の野生鳥類全体よりもはるかに重い",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "poultry livestock collectively weigh much more than all the world’s wild birds"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "野生鳥類の重量推定は手法により500万トンと2400万トンという異なる値になる",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "5 million tonnes in one, and 24 million tonnes in the other"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "野生鳥類の重量を500万トンとした場合、鳥類バイオマスに占める野生鳥類の割合は14%になる",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "If we used the “5 million tonnes” figure, then wild birds would account for just 14%."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "野生鳥類の重量を2400万トンとした場合、鳥類バイオマスに占める野生鳥類の割合は44%になる",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "If we assumed 24 million tonnes, they’d be 44%."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "野生哺乳類のバイオマスは過去10万年で約85%減少した",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "the biomass of wild mammals has declined by roughly 85% over the last 100,000 years"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "約10万年前、陸上哺乳類の総バイオマスは約1億2000万トンで、そのほぼ全てが野生動物だった",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "Around 100,000 years ago, the total biomass of land mammals summed up to approximately 120 million tonnes, essentially all of it in the form of wild animals."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "1万年前までに陸上哺乳類の総バイオマスは9000万トンまで減少した",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "By 10,000 years ago, this had fallen to 90 million tonnes."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "1850年までに陸上哺乳類の総バイオマス（野生動物・人間・家畜を含む）は推定2億5000万トンまで増加した",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "By 1850, the total mammal biomass on land — including wild animals, humans, and livestock — had increased to an estimated 250 million tonnes."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "現在の哺乳類の総重量は約11億トンで、1850年から4倍になった",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "Today, mammals weigh roughly 1100 million tonnes, which represents a quadrupling since 1850."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "人類の台頭以降、野生陸上哺乳類のバイオマスは85%減少した",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammal-decline",
+              "quote": "wild land mammal biomass has declined by 85%"
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "約1万年前までに野生哺乳類は大きく減少し、その減少幅はおよそ25%から50%だったと推定される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammal-decline",
+              "quote": "By around 10,000 years ago we see a huge decline of wild mammals"
+            },
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammal-decline",
+              "quote": "likely in the range of 25% to 50%"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "1900年までに野生哺乳類は再び大きく減少した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammal-decline",
+              "quote": "By the year 1900, wild mammals had seen another large decline."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "1900年時点で世界人口は17億人に増加していた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammal-decline",
+              "quote": "The human population had increased to 1.7 billion people."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "過去1万年で世界の森林の3分の1が失われた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammal-decline",
+              "quote": "Over the last 10,000 years, we’ve lost one-third of the world’s forests"
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "2018年、世界で消費された哺乳類由来の畜産肉は2億1000万トンだった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammal-decline",
+              "quote": "In 2018 the world consumed 210 million tonnes of livestock meat from mammals"
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "その畜産肉消費量はバイオマス換算で炭素3100万トンに相当する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammal-decline",
+              "quote": "In biomass terms, that’s 31 million tonnes of carbon."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "もし人類が野生哺乳類だけを食料にした場合、1か月以内に食べ尽くされてしまうと試算される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammal-decline",
+              "quote": "If we relied on this for food, all of the world’s wild mammals would be eaten within a month"
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "1960年以降、一人当たりの農地面積は半分以下になった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammal-decline",
+              "quote": "the amount of agricultural land per person has more than halved since 1960"
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "国連食糧農業機関（FAO）によると、世界の農地面積は2000年以降49億ヘクタールから48億ヘクタールへと減少した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammal-decline",
+              "quote": "The UN Food and Agriculture Organization reports a decline in global agricultural land since 2000: falling from 4.9 to 4.8 billion hectares."
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "2020年、シンガポールは培養鶏肉を世界で初めて市場に導入した国となった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammal-decline",
+              "quote": "In 2020, Singapore was the first country to bring lab-grown chicken to the market."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "野生哺乳類には象や鹿からライオン、クジラまで数千種が含まれる",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "which includes thousands of different species, from elephants and deer to lions and whales"
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "世界の哺乳類バイオマスの1%は約1100万トンに相当する",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "that 1% is equal to around 11 million tonnes"
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "家禽の重量は野生鳥類の2倍以上と推定される",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "It suggests that poultry weigh more than twice as much as wild birds."
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "野生哺乳類は相対的な割合だけでなく絶対量でも減少した",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "Wild mammals have shrunk not just in relative terms, but also in absolute terms."
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "2021年の世界人口は約79.5億人だった",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "In 2021, the global population was around 7.95 billion."
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "世界人口に1人あたり50キログラムを乗じると人間の総重量は3億9800万トンになる",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "Multiplying by 50 kilograms gives a total weight of 398 million tonnes."
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "世界の犬の個体数は約9億8700万匹と推定される",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "For dogs, the global population is estimated to be 987 million."
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "世界の犬の総数の約4分の1は中国の農村部に由来し、そこでは人間2.9人に対し犬1匹の割合である",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "around one-quarter of the global total comes from rural China, where there is approximately one dog for every 2.9 humans"
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "犬の世界個体数についてよく引用される数値は約7億から9億匹の範囲である",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "commonly cited figures range from approximately 700 to 900 million"
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "犬の平均体重は22キログラムと仮定されている",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "they assume an average weight of 22 kilograms per dog"
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "Greenspoonら（2023）は犬の総バイオマスを2000万トンと推定した",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "Greenspoon et al. (2023) give a final estimate of 20 million tonnes"
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "猫の世界個体数は6億匹、平均体重3.75キログラムと仮定されている",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "they assume a global population of 600 million, and an average mass of 3.75 kilograms"
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "statement": "猫の総バイオマスは230万トンである",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "The total biomass of cats — at 2.3 million tonnes"
+            }
+          ]
+        },
+        {
+          "index": 46,
+          "statement": "陸上哺乳類種のうち個体数報告があるのは約6%の種にとどまる",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "the authors use global population reports — which give estimates of the total number of animals — for roughly 6% of land mammal species"
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "statement": "個体数データのある約6%の種が哺乳類の総バイオマスの大部分を占め、残り94%の種は比較的わずかな割合にとどまる",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "this small fraction dominates total mammal biomass; the remaining 94% make up a relatively small fraction"
+            }
+          ]
+        },
+        {
+          "index": 48,
+          "statement": "異なるモデルによる外挿でも世界の野生鳥類の個体数は約2000億から4000億羽という近い値になった",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "Using slightly different models and extrapolations gave a similar figure of around 200 to 400 billion wild birds globally."
+            }
+          ]
+        },
+        {
+          "index": 49,
+          "statement": "英国の鳥類データから求めた鳥1羽あたりの加重平均体重は約80グラムである",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "they arrived at a weighted average of around 80 grams per bird"
+            }
+          ]
+        },
+        {
+          "index": 50,
+          "statement": "個体数推定の中間値である3000億羽に平均体重を乗じると野生鳥類の総重量は2400万トンになる",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "If we multiply this by 300 billion (the mid-point population estimate), we get a weight of 24 million tonnes."
+            }
+          ]
+        },
+        {
+          "index": 51,
+          "statement": "2つの手法（2400万トンと500万トン）の幾何平均を取ると野生鳥類の総重量の最終推定値は1100万トンになる",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "they took the geometric mean of the two estimates (24 million and 5 million) to get a final estimate of 11 million tonnes"
+            }
+          ]
+        },
+        {
+          "index": 52,
+          "statement": "より新しい論文では世界の野生鳥類の個体数をわずか500億羽と、より低く推定した",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "a more recent paper produced a much lower estimate of wild bird abundance of just 50 billion"
+            }
+          ]
+        },
+        {
+          "index": 53,
+          "statement": "この500億羽という野生鳥類個体数の推定は39億羽から2兆1000億羽まで非常に大きな不確実性の幅を持つ",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "ranging from 3.9 billion to 2.1 trillion"
+            }
+          ]
+        },
+        {
+          "index": 54,
+          "statement": "家禽の総重量は約3000万トンと算出された",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "This gave a result of around 30 million tonnes."
+            }
+          ]
+        },
+        {
+          "index": 55,
+          "statement": "人類の台頭以降、世界最大級の哺乳類数百種が絶滅した",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammal-decline",
+              "quote": "several hundred of the world’s largest mammals have gone extinct"
+            }
+          ]
+        },
+        {
+          "index": 56,
+          "statement": "QMEの主な原因は人間であるとする証拠が多い。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammal-decline",
+              "quote": "Most evidence now points towards humans being a key driver"
+            }
+          ]
+        },
+        {
+          "index": 57,
+          "statement": "QME当時の世界人口は500万人未満だったとみられる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammal-decline",
+              "quote": "There were likely fewer than 5 million people"
+            }
+          ]
+        },
+        {
+          "index": 58,
+          "statement": "農業革命以前、人類の食料は狩猟採集によって得られていた。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammal-decline",
+              "quote": "Before the agricultural revolution around 10,000 years ago, our food came from hunting and gathering."
+            }
+          ]
+        },
+        {
+          "index": 59,
+          "statement": "一人当たりの農地利用面積はこれまでに4分の1まで減少した。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammal-decline",
+              "quote": "Land use per person has fallen four-fold."
+            }
+          ]
+        },
+        {
+          "index": 60,
+          "statement": "農地の拡大は森林破壊の主要な要因である。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammal-decline",
+              "quote": "the expansion of agricultural land is the leading driver of deforestation"
+            }
+          ]
+        },
+        {
+          "index": 61,
+          "statement": "分類群のバイオマスは、1個体あたりの炭素蓄積量にその個体数を掛け合わせて算出される。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammal-decline",
+              "quote": "To calculate the biomass of a taxonomic group, the researchers multiplied the carbon stock for a single organism by the number of individuals in that group."
+            }
+          ]
+        },
+        {
+          "index": 62,
+          "statement": "QME終了時の紀元前8000年頃、世界人口は約500万人だった。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammal-decline",
+              "quote": "At the end of the QME, around 8,000 BC there were around 5 million people globally."
+            }
+          ]
+        },
+        {
+          "index": 63,
+          "statement": "紀元前10000年の世界人口は推定240万人、紀元前9000年は360万人だった。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammal-decline",
+              "quote": "an estimated 2.4 million in 10,000 BC and 3.6 million in 9,000 BC"
+            }
+          ]
+        },
+        {
+          "index": 64,
+          "statement": "野生哺乳類が哺乳類バイオマス全体の10%を大きく下回るという結論は不確実性を考慮しても変わらない",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "the fact that they make up far less than 10% remains true"
+            }
+          ]
+        },
+        {
+          "index": 65,
+          "statement": "約900種の鳥類の個体密度から外挿した手法では野生鳥類の総重量は500万トンと算出された",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "This gave a result of 5 million tonnes."
+            }
+          ]
+        },
+        {
+          "index": 66,
+          "statement": "1850年時点で人間と家畜の重量は2億トン、野生陸上哺乳類の重量は5000万トンと推定される",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammals-birds-biomass",
+              "quote": "They estimate that humans and livestock weighed 200 million tonnes, and wild land mammals, 50 million tonnes."
+            }
+          ]
+        },
+        {
+          "index": 67,
+          "statement": "家畜の普及により野生動物への直接的な狩猟圧力の一部が緩和された。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammal-decline",
+              "quote": "In this way, the rise of livestock saved wildlife."
+            }
+          ]
+        },
+        {
+          "index": 68,
+          "statement": "この試算は、入手可能なすべての哺乳類種を食べる前提に基づいている。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammal-decline",
+              "quote": "Of course this assumes that we would eat every species of mammal available."
+            }
+          ]
+        },
+        {
+          "index": 69,
+          "statement": "生態学者は野生生物量を測る指標としてバイオマスをよく用いる。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammal-decline",
+              "quote": "ecologists often use the metric biomass"
+            }
+          ]
+        },
+        {
+          "index": 70,
+          "statement": "バイオマスの指標では、各動物を炭素トン数で計測する。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammal-decline",
+              "quote": "each animal is measured in tonnes of carbon, the fundamental building block of life"
+            }
+          ]
+        },
+        {
+          "index": 71,
+          "statement": "約10万年前、北米にマンモス、ヨーロッパにライオン、オーストラレーシアに体重200キログラムのウォンバット、南米にオオナマケモノが生息していた",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/wild-mammal-decline",
+              "quote": "Mammoths roamed across North America; lions across Europe; 200-kilogram wombats in Australasia; and the ground sloth lounged around South America."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "mammal-recovery",
+    "topicType": "concept",
+    "categoryLabel": "動物・植物",
+    "title": "哺乳類の回復",
+    "summary": "哺乳類の回復とは、狩猟や生息地の喪失で激減した野生哺乳類の個体数が、法的保護・狩猟規制・再導入によって増加に転じた現象を指す。ヨーロッパはその事例が集中する地域で、ユーラシアビーバー、ヒグマ、ヨーロッパバイソンなどが20世紀後半から数を戻している。ただし増加は一部の種と地域に限られ、世界の哺乳類バイオマスに占める野生哺乳類の割合は依然として小さい。",
+    "bodyMarkdown": "## 世界の哺乳類バイオマスに占める野生哺乳類\n\n「回復」という語が使われる場面でも、野生哺乳類が地球上の哺乳類全体に占める重さはごく小さい。推計では、野生哺乳類は[世界の哺乳類バイオマス](/hubpedia/wild-biomass)の4%、別の示し方では5%にとどまり、残りの95〜96%を人間と家畜が占める。内訳は、人間だけで約3分の1、家畜が約3分の2である。 [1][2][5][6][7]\n\nこの比率は具体的な動物に置き換えると見えやすい。ウシの重量だけで世界の野生哺乳類全体を合わせた重量の約10倍にあたり、人間のバイオマスもやはり野生哺乳類全体の約10倍にのぼる。世界の野生哺乳類をすべて集めた重さは、人間が飼育する羊とほぼ同じである。鳥類でも同様の偏りがあり、家禽のバイオマスは野生鳥類の2倍以上を占める。 [8][9][14][15]\n\n[野生の陸生哺乳類のバイオマス](/hubpedia/wild-mammal-decline)は、人類の台頭以降におよそ85%減少したと推定されている。ヨーロッパで報告されている個体数の増加は、20世紀前半までに歴史的水準のごく一部まで落ち込んだ状態を出発点としている。 [40][46]\n\n## ヨーロッパにおける減少の経緯\n\n大型哺乳類の減少は近代に始まったものではない。5万年前から1万年前にかけて、世界最大級の哺乳類数百種が姿を消した([第四紀メガファウナ絶滅](/hubpedia/mass-extinction))。この時期の世界人口は500万人に満たなかった。人類は一貫して最大級の哺乳類を優先的に狩猟し、しばしば絶滅に追い込んできた。狩猟によって最も脅かされているのが最大級の哺乳類であるという構図は、現在も変わっていない。 [44][45][61][62]\n\nヨーロッパでは、狩猟と生息地の喪失によって多くの大型哺乳類が[絶滅の危機](/hubpedia/extinction-risk)に瀕した。20世紀前半までに、多くの種は歴史的水準のごく一部の個体数にまで減っていた。ヨーロッパビーバーは、この時期に大陸全体でおそらく数千頭しか残っていなかったとみられる。 [13][46][47]\n\n## 回復を支えた制度と土地利用の変化\n\n各国が導入した措置は、狩猟の扱いを変えるものが中心だった。狩猟の全面禁止、狩猟割当制の導入、法的保護区の指定、密猟取締りの巡回、特定種の繁殖に対する補償制度などである。スウェーデンは1981年にヒグマの狩猟へ割当制度を導入し、クズリの繁殖に対しては報奨金を支給する補償制度を設けた。ゼニガタアザラシの狩猟は、アイスランドとノルウェーを除くヨーロッパ全域で禁止された。 [16][30][56][57][63]\n\n個別の措置に加えて、広域の法的枠組みが重なった。ほとんどの哺乳類は現在、EU生息地・種指令、ベルン条約、絶滅のおそれのある野生動植物の種の国際取引に関する条約(CITES)といった厳格な保護制度の対象となっている。再導入も並行して行われ、ユーラシアビーバーは法的保護に加えて、ユーラシア各地の25カ国以上で再導入されている。 [31][55]\n\n生息地の側の変化も同時に起きた。ヨーロッパでは[農業生産性](/hubpedia/agricultural-productivity)の向上によって[農地](/hubpedia/peak-farmland)が減少し、その分の土地が野生生物の生息地として戻った。過去50年間で、ヨーロッパ全体の農業用地利用は減少している。 [41][54]\n\n## 個体数が増えた種の例\n\n最新の報告が個体数変化を調べた対象は、24種の哺乳類と1種の爬虫類である。爬虫類のアカウミガメは哺乳類ではないが、質の高い長期データが得られ、回復の兆候が見られる種として含められている。 [23][59]\n\n増加の幅は種によって大きく異なる。ヒグマは1960年から2016年にかけて平均44%増加した。ユーラシアアナグマは平均100%増、すなわち倍増した。ユーラシアカワウソは1977年から2016年にかけて平均300%増で3倍になり、アカシカは平均331%増加した。 [3][4][24][25][26]\n\n調査対象の中で最も大きな回復を示したのはユーラシアビーバーだった。98の異なる個体群を対象とした研究によれば、平均で16,705%、すなわち167倍に増えた計算になる。現在ヨーロッパのビーバーは120万頭を超える。 [27][28][50][53]\n\n一方で、ヨーロッパの哺乳類のすべての種で個体数が増えているわけではない。イベリアオオヤマネコの現在の平均個体数は1987年当時を上回っており、IUCNレッドリストでは2015年に分類が「近絶滅危惧種」から「絶滅危惧種」へ変更されたが、質の高い時系列データが得られたのは7つの個体群のみだった。 [17][29][48][52]\n\n## ヨーロッパバイソンの再導入\n\nヨーロッパバイソンはヨーロッパ大陸最大の草食動物である。考古学的証拠によれば、かつてフランスからウクライナ、黒海の先端に至るまで広く分布していた。最古の化石は完新世初期、紀元前9000年頃にさかのぼる。 [11][42][43]\n\n個体数は数千年かけて減少したが、落ち込みが最も劇的だったのは過去500年間である。16世紀までにハンガリーで、18世紀までにウクライナで姿を消し、20世紀初頭には野生下で完全に絶滅して、数十頭が飼育下に残るだけとなった。 [18][19][20]\n\n1930年代、野生下での絶滅を受けて保護活動家らが「ヨーロッパバイソン血統書」の初版を発行した。これは現存するすべてのバイソンの系譜を記録するもので、同種を対象とした保護計画としては最初のものにあたり、以後毎年更新され続けている。野生への最初の再導入は1952年に行われ、その後の回復は50年以上にわたる繁殖・再導入計画の成果とされる。適切に管理された再導入計画によって復活した種の例として挙げられるのも、この経緯による。 [12][32][33][34][58]\n\n結果として、ヨーロッパバイソンは過去50年間で顕著な回復を遂げ、2021年末までに約1万頭に達した。血統書の推計では、2021年末時点の世界の個体数は9,554頭で、内訳は飼育下1,801頭、半野生487頭、完全野生7,266頭だった。野生絶滅からおよそ100年後、IUCNレッドリストは分類を「危急」から「準絶滅危惧」に変更している。 [21][22][35][36]\n\n## 回復の範囲と統計上の限界\n\nヨーロッパには250種以上の哺乳類が生息しており、個体数変化が報告された24種はその一部にすぎない。数値の裏づけも一様ではなく、ユーラシアビーバーの結果が98個体群、ハイイロオオカミが86の研究に基づくのに対し、イベリアオオヤマネコで質の高い時系列データが得られたのは7個体群だった。 [23][49][50][51][52]\n\n世界全体の傾向は別の方向を向いている。Living Planet Indexの2024年版報告書は34,000の野生動物個体群のデータを含み、1970年以降、データが得られる個体群の規模は平均で73%減少したと報告した。同じ調査で、対象となった個体群のほぼ半数は1970年以降安定または増加している。この指標が扱うのは脊椎動物(哺乳類、鳥類、魚類、爬虫類、両生類)のみで、昆虫、サンゴ、菌類、植物は含まれない。 [37][38][39][60]\n\nヨーロッパで観測されている増加は、狩猟規制と法的保護、再導入、農地の縮小といった条件が重なった種と地域についての報告である。最大級の哺乳類が狩猟によって最も強く脅かされている状況は続いており、世界の哺乳類バイオマスに占める野生哺乳類の割合も4〜5%にとどまっている。 [1][2][41][45][63]\n\n## 関連記事\n\n- [生物多様性](/hubpedia/biodiversity)\n- [土地利用](/hubpedia/land-use)",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/europe-mammal-comeback",
+        "title": "哺乳類の回復",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on mammal-recovery. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/biodiversity",
+        "title": "biodiversity",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Biodiversity trends this counters. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "The Recovery of Mammals",
+        "summary": "The recovery of mammals refers to the phenomenon whereby populations of wild mammals, sharply reduced by hunting and habitat loss, have begun to increase again through legal protection, hunting regulation, and reintroduction. Europe is the region where such cases are concentrated, with the Eurasian beaver, brown bear, and European bison rebuilding their numbers since the latter half of the twentieth century. The increases are nevertheless limited to certain species and regions, and wild mammals still account for only a small share of global mammal biomass.",
+        "bodyMarkdown": "## Wild mammals as a share of global mammal biomass\n\nEven where the word \"recovery\" is used, the weight of wild mammals as a share of all mammals on Earth is very small. Estimates put wild mammals at 4% of [global mammal biomass](/hubpedia/wild-biomass), or 5% by another accounting, with the remaining 95–96% made up of humans and livestock. Of that share, humans alone account for roughly one third and livestock for roughly two thirds. [1][2][5][6][7]\n\nThe ratio becomes easier to see when translated into specific animals. The weight of cattle alone is about ten times the combined weight of all the world's wild mammals, and human biomass likewise amounts to about ten times that of all wild mammals. The combined weight of every wild mammal on Earth is roughly equal to that of the sheep humans keep. Birds show the same skew: the biomass of poultry is more than twice that of wild birds. [8][9][14][15]\n\n[The biomass of wild land mammals](/hubpedia/wild-mammal-decline) is estimated to have fallen by roughly 85% since the rise of humanity. The population increases reported in Europe start from a state that, by the first half of the twentieth century, had dropped to a small fraction of historical levels. [40][46]\n\n## How the decline unfolded in Europe\n\nThe decline of large mammals did not begin in the modern era. Between 50,000 and 10,000 years ago, several hundred of the world's largest mammal species disappeared (the [Quaternary megafauna extinction](/hubpedia/mass-extinction)). The world population during this period was under five million. Humans have consistently hunted the largest mammals in preference to others, often driving them to extinction. The pattern in which the largest mammals are the ones most threatened by hunting remains unchanged today. [44][45][61][62]\n\nIn Europe, hunting and habitat loss pushed many large mammals to the [risk of extinction](/hubpedia/extinction-risk). By the first half of the twentieth century, many species had been reduced to a small fraction of their historical numbers. The European beaver is thought to have numbered perhaps only a few thousand across the entire continent during this period. [13][46][47]\n\n## The institutions and land-use changes behind the recovery\n\nThe measures adopted by individual countries centred on changing how hunting was handled: outright hunting bans, the introduction of hunting quotas, the designation of legally protected areas, anti-poaching patrols, and compensation schemes for the breeding of particular species. Sweden introduced a quota system for brown bear hunting in 1981 and established a compensation scheme paying bounties for wolverine reproduction. Harbour seal hunting was banned throughout Europe with the exception of Iceland and Norway. [16][30][56][57][63]\n\nOn top of these individual measures, broad legal frameworks were layered. Most mammals are now covered by strict protection regimes such as the EU Habitats Directive, the Bern Convention, and the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES). Reintroductions proceeded in parallel: alongside legal protection, the Eurasian beaver has been reintroduced in more than 25 countries across Eurasia. [31][55]\n\nChanges on the habitat side occurred at the same time. In Europe, rising [agricultural productivity](/hubpedia/agricultural-productivity) reduced the extent of [farmland](/hubpedia/peak-farmland), returning that land to wildlife habitat. Over the past fifty years, agricultural land use across Europe has declined. [41][54]\n\n## Examples of species whose populations have grown\n\nThe most recent report examined population change in 24 mammal species and one reptile. The reptile, the loggerhead sea turtle, is not a mammal, but was included as a species for which high-quality long-term data are available and which shows signs of recovery. [23][59]\n\nThe scale of increase varies widely by species. The brown bear increased by an average of 44% between 1960 and 2016. The Eurasian badger increased by an average of 100% — that is, it doubled. The Eurasian otter increased by an average of 300%, tripling between 1977 and 2016, and the red deer increased by an average of 331%. [3][4][24][25][26]\n\nThe greatest recovery among the species surveyed was that of the Eurasian beaver. According to a study covering 98 distinct populations, the average increase works out to 16,705% — a 167-fold rise. Europe now has more than 1.2 million beavers. [27][28][50][53]\n\nOn the other hand, not every European mammal species is increasing in number. The Iberian lynx's current average population exceeds its 1987 level, and the IUCN Red List changed its classification from \"Critically Endangered\" to \"Endangered\" in 2015, but high-quality time-series data were available for only seven populations. [17][29][48][52]\n\n## The reintroduction of the European bison\n\nThe European bison is the largest herbivore on the European continent. Archaeological evidence indicates it was once widely distributed from France through Ukraine to the edge of the Black Sea. The oldest fossils date to the early Holocene, around 9000 BC. [11][42][43]\n\nIts numbers declined over thousands of years, but the drop was most dramatic over the past 500 years. It disappeared from Hungary by the sixteenth century and from Ukraine by the eighteenth, and by the early twentieth century it was entirely extinct in the wild, with only a few dozen individuals remaining in captivity. [18][19][20]\n\nIn the 1930s, following the species' extinction in the wild, conservationists published the first edition of the European Bison Pedigree Book. Recording the lineage of every surviving bison, it was the first conservation programme directed at the species and has been updated every year since. The first reintroduction to the wild took place in 1952, and the subsequent recovery is credited to more than fifty years of breeding and reintroduction programmes. It is on these grounds that the species is cited as an example of one brought back by a properly managed reintroduction programme. [12][32][33][34][58]\n\nAs a result, the European bison has made a marked recovery over the past fifty years, reaching roughly 10,000 animals by the end of 2021. The pedigree book's estimate put the world population at 9,554 at the end of 2021, comprising 1,801 in captivity, 487 semi-wild, and 7,266 fully wild. Roughly a century after its extinction in the wild, the IUCN Red List changed its classification from \"Vulnerable\" to \"Near Threatened.\" [21][22][35][36]\n\n## The scope of the recovery and its statistical limits\n\nEurope is home to more than 250 mammal species, and the 24 for which population change was reported are only a part of that total. The evidence behind the figures is uneven as well: while the results for the Eurasian beaver rest on 98 populations and those for the grey wolf on 86 studies, high-quality time-series data for the Iberian lynx were available for only seven populations. [23][49][50][51][52]\n\nThe global trend points in a different direction. The 2024 edition of the Living Planet Index report, which includes data on 34,000 wildlife populations, reported that the size of populations for which data are available has declined by an average of 73% since 1970. The same study found that nearly half of the populations covered have been stable or increasing since 1970. The index covers only vertebrates (mammals, birds, fish, reptiles, and amphibians) and does not include insects, corals, fungi, or plants. [37][38][39][60]\n\nThe increases observed in Europe are reports about species and regions where hunting regulation, legal protection, reintroduction, and the contraction of farmland have coincided. The situation in which the largest mammals are the most heavily threatened by hunting persists, and wild mammals remain just 4–5% of global mammal biomass. [1][2][41][45][63]\n\n## Related articles\n\n- [Biodiversity](/hubpedia/biodiversity)\n- [Land use](/hubpedia/land-use)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:07:30.587Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "野生哺乳類は世界の哺乳類バイオマスのわずか4%を占める。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "Wild mammals make up just 4% of global mammal biomass."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "人間と家畜で世界の哺乳類バイオマスの95%を占め、野生哺乳類はわずか5%にすぎない。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "Humans and livestock make up 95% of the world’s mammal biomass; wild mammals are just 5%."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "1960年から2016年にかけて、ヒグマの個体数は平均44%増加した。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "between 1960 and 2016, populations of brown bears increased by an average of 44%."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "1977年から2016年にかけて、ユーラシアカワウソの個体数は平均300%増加した。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "Between 1977 and 2016, populations of Eurasian otters increased by an average of 300%."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "世界の哺乳類バイオマスの残り96%は人間と家畜が占める。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "The other 96% is humans and our livestock."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "人間だけで世界の哺乳類バイオマスの約3分の1を占める。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "Alone, we account for around one-third of mammal biomass."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "家畜は世界の哺乳類バイオマスの約3分の2を占める。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "Our livestock then accounts for almost two-thirds."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "ウシの重量は世界の野生哺乳類全体を合わせた重量の約10倍に相当する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "Cattle weigh almost ten times as much as all wild mammals combined."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "世界の野生哺乳類全体のバイオマスは、人間が飼育する羊のバイオマスとほぼ同じである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "The biomass of all of the world’s wild mammals is about the same as our sheep."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "ヨーロッパバイソンはヨーロッパ大陸最大の草食動物である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "The European bison is the continent’s largest herbivore."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "ヨーロッパバイソンなど一部の種は、適切に管理された再導入プログラムによって復活した。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "some species – such as the European bison – were brought back through well-managed re-introduction programs."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "狩猟と生息地の喪失により、ヨーロッパの多くの大型哺乳類は絶滅の危機に瀕した。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "Hunting and habitat loss drove many large mammals in Europe close to extinction."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "人間のバイオマスは野生哺乳類全体のバイオマスの約10倍にのぼる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "Almost ten times greater than wild mammals."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "家禽のバイオマスは野生鳥類のバイオマスの2倍以上である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "poultry biomass is more than twice that of wild birds."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "各国は狩猟割当制を導入したり、狩猟を全面的に禁止したりした。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "Countries brought in hunting quotas or even complete bans on hunting."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "ヨーロッパの哺乳類のすべての種で個体数が増加しているわけではない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "Not every species in Europe is increasing in numbers."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "バイソンの個体数は数千年かけて減少したが、過去500年間で最も劇的に減少した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "Bison populations steadily declined over millennia, but experienced the most dramatic decline over the last 500 years."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "バイソンは16世紀までにハンガリーで、18世紀までにウクライナで絶滅した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "They had gone extinct in Hungary by the 16th century; in Ukraine by the 18th century."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "20世紀初頭までにバイソンは野生下で完全に絶滅し、数十頭のみが飼育下に残っていた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "by the early 20th century they had gone completely extinct in the wild, with only tens of individuals kept in captivity"
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "ヨーロッパバイソンは過去50年間で顕著な回復を遂げた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "The European bison has made an impressive comeback over the last 50 years."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "2021年末までにヨーロッパバイソンは約1万頭に達した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "By the end of 2021, there were almost 10,000 of them."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "最新の報告では、24種の哺乳類と1種の爬虫類(アカウミガメ)の個体数変化が調査対象となった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "they looked at the change in populations of 24 mammal species, and one reptile species – the Loggerhead turtle"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "ユーラシアアナグマの個体数は平均で100%増加し、倍増した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "Eurasian badger populations achieved an average increase of 100% – a doubling."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "ユーラシアカワウソの個体数は平均で3倍になった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "Eurasian otters tripled, on average."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "アカシカの個体数は平均331%増加した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "For red deer this was an increase of 331%."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "ユーラシアビーバーは平均167倍という、調査対象の中で最も顕著な回復を遂げた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "The Eurasian beaver has made the most remarkable recovery. It’s estimated to have increased 167-fold, on average."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "現在ヨーロッパのビーバーは120万頭を超える。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "Today there are more than 1.2 million."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "イベリアオオヤマネコはIUCNレッドリストで2015年に「近絶滅危惧種」から「絶滅危惧種」に分類が変更された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "the IUCN moved it from Critically Endangered to Endangered on the Red List in 2015"
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "1981年、スウェーデンはヒグマの狩猟に割当制度を導入した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "In 1981 Sweden introduced hunting quotas on brown bears."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "ユーラシアビーバーは法的保護に加えて、ユーラシア各地25カ国以上で再導入されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "the Eurasian Beaver has not only had legal protection, it has also been reintroduced in more than 25 countries across Eurasia"
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "ヨーロッパバイソンの回復は50年以上にわたる繁殖・再導入計画の成果である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "The European bison made its comeback as the result of more than 50 years of breeding and reintroduction programs."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "1930年代、野生下での絶滅後、保護活動家らが「ヨーロッパバイソン血統書」の初版を発行した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "In the 1930s, after going extinct in the wild, conservationists published the first edition of the European Bison Pedigree Book."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "バイソンは1952年に野生への最初の再導入が行われて以来、回復を続けてきた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "The bison has come a long way since its first reintroduction to the wild in 1952."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "野生絶滅からおよそ100年後、IUCNレッドリストはヨーロッパバイソンの分類を「危急」から「準絶滅危惧」に変更した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "A century after going extinct in the wild, the IUCN Red List moved it from the classification of Vulnerable to Near Threatened thanks to continued conservation efforts."
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "ヨーロッパバイソン血統書の推計では、2021年末時点で世界に9,554頭のヨーロッパバイソンがおり、うち飼育下1,801頭、半野生487頭、完全野生7,266頭だった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "The European Bison Pedigree Book estimates that by the end of 2021 there were 9,554 European bison globally. This included 1,801 in captivity; 487 semi-free individuals and 7,266 completely wild individuals."
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "1970年以降、データが得られる動物個体群の規模は平均で73%減少した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "the size of animal populations for which data is available have declined by 73%, on average"
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "Living Planet Indexの2024年版報告書は34,000の野生動物個体群のデータを含んでいる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "Its 2024 report included figures across 34,000 wildlife populations."
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "Living Planet Indexは脊椎動物(哺乳類、鳥類、魚類、爬虫類、両生類)のみを対象とし、昆虫・サンゴ・菌類・植物は含まれない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "The Living Planet Index only includes figures on vertebrate species – mammals, birds, fish, reptiles, and amphibians. It does not include insects, corals, fungi, or plants."
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "野生の陸生哺乳類のバイオマスは、人類の台頭以降、推定で85%減少した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "wild terrestrial mammal biomass has declined by an estimated 85%"
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "ヨーロッパでは農業生産性の向上により農地が減少し、野生生物に生息地が戻った。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "the rise in agricultural productivity made it possible that agricultural land has declined across Europe, giving more habitat back to wildlife"
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "考古学的証拠によれば、バイソンはフランスからウクライナ、黒海の先端に至るまで広く分布していた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "the bison was widespread, stretching from France to Ukraine, down to the tip of the Black Sea"
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "バイソンの最古の化石は完新世初期、紀元前9000年頃にまで遡る。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "The earliest fossils date back to the Early Holocene period – around 9,000 BC."
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "人類は最大級の哺乳類を優先的に狩猟し、しばしば絶滅に追い込んできた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "Humans preferentially hunted the largest mammals, often to extinction."
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "statement": "現在も狩猟によって最も脅かされているのは最大級の哺乳類である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "It is the largest mammals that are most threatened by hunting."
+            }
+          ]
+        },
+        {
+          "index": 46,
+          "statement": "20世紀前半までにヨーロッパの多くの哺乳類は歴史的水準のごく一部にまで減少していた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "By the first half of the 20th century, many of Europe’s mammals had been reduced to just a fraction of their historical levels."
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "statement": "20世紀前半、ヨーロッパに残っていたビーバーはおそらく数千頭に過ぎなかった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "There were likely only a few thousand beavers left in Europe in first half of the 20th century."
+            }
+          ]
+        },
+        {
+          "index": 48,
+          "statement": "イベリアオオヤマネコの現在の平均個体数は1987年当時より多い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "Its average population sizes are now bigger than they were in 1987."
+            }
+          ]
+        },
+        {
+          "index": 49,
+          "statement": "ヨーロッパには250種以上の哺乳類が生息している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "There are more than 250 European mammal species"
+            }
+          ]
+        },
+        {
+          "index": 50,
+          "statement": "ユーラシアビーバーに関する調査結果は98の異なる個体群の研究に基づいている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "the result for Eurasian beavers is based on studies of 98 different populations"
+            }
+          ]
+        },
+        {
+          "index": 51,
+          "statement": "ハイイロオオカミに関する調査結果は86の研究に基づいている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "The grey wolf is based on 86 studies."
+            }
+          ]
+        },
+        {
+          "index": 52,
+          "statement": "イベリアオオヤマネコについては、質の高い時系列データが得られたのは7つの個体群のみだった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "For the Iberian lynx, high-quality time series were only available for 7 populations."
+            }
+          ]
+        },
+        {
+          "index": 53,
+          "statement": "ユーラシアビーバーの「16,705%」という数値は、調査対象の98個体群において平均で16,705%増加したことを意味する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "the value of 16,705% for the Eurasian beaver means that there was, on average, a 16,705% increase in the numbers of beavers in each of the 98 populations that were included in this study"
+            }
+          ]
+        },
+        {
+          "index": 54,
+          "statement": "過去50年間でヨーロッパ全体の農業用地利用は減少した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "Agricultural land use has declined across Europe over the last 50 years."
+            }
+          ]
+        },
+        {
+          "index": 55,
+          "statement": "ほとんどの哺乳類は現在、EU生息地・種指令、ベルン条約、CITES(絶滅のおそれのある野生動植物の種の国際取引に関する条約)など、広域の厳格な保護制度の対象となっている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "Most mammals are now listed under various region-wide protection schemes with strict regulations such as the EU Habitats and Species Directive; the Bern Convention and CITES (the Convention on International Trade in Endangered Species of Wild Fauna and Flora)."
+            }
+          ]
+        },
+        {
+          "index": 56,
+          "statement": "アイスランドとノルウェーを除き、ヨーロッパ全域でゼニガタアザラシの狩猟が禁止された。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "There has also been a European-wide ban on the hunting of Harbour seals, with the exception of Iceland and Norway."
+            }
+          ]
+        },
+        {
+          "index": 57,
+          "statement": "スウェーデンはクズリの繁殖に対して報奨金を支給する補償制度を設けた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "Sweden established a compensation scheme with financial rewards for the reproduction of wolverines."
+            }
+          ]
+        },
+        {
+          "index": 58,
+          "statement": "この血統書は現存するすべてのバイソンの系譜を記録しており、同種の保護計画としては最初のもので、以後毎年更新され続けている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "It records the full genealogical history of all surviving bison. It was the first conservation program of its kind and it has been updated every year since."
+            }
+          ]
+        },
+        {
+          "index": 59,
+          "statement": "アカウミガメは哺乳類ではないが、質の高い長期データが得られ回復の兆候が見られる爬虫類として、この調査に含まれている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "The Loggerhead turtle is not a mammal species, but has been included here as a reptile species with high-quality, long-term data coverage, and evidence of a promising recovery of populations."
+            }
+          ]
+        },
+        {
+          "index": 60,
+          "statement": "調査対象となった動物個体群のほぼ半数は、1970年以降安定または増加している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "Almost half of these animal populations have remained stable or increased."
+            }
+          ]
+        },
+        {
+          "index": 61,
+          "statement": "5万年前から1万年前にかけての期間に、世界最大級の哺乳類数百種が絶滅した(第四紀メガファウナ絶滅)。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "In an extended period between 50,000 to 10,000 years ago, hundreds of the world’s largest mammals were wiped out."
+            }
+          ]
+        },
+        {
+          "index": 62,
+          "statement": "この大量絶滅が起きた当時、世界の人口は500万人に満たなかった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "fewer than 5 million people across the world"
+            }
+          ]
+        },
+        {
+          "index": 63,
+          "statement": "各国は狩猟の全面禁止や割当制、法的保護区の指定、密猟取締りの巡回、特定種の繁殖に対する補償制度など、実効性のある保護政策を導入した。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/europe-mammal-comeback",
+              "quote": "Countries brought in effective protection policies such as complete bans on hunting or hunting quotas; designated areas with legal protections; patrols to catch illegal poachers; and compensation schemes for the reproduction of certain species."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

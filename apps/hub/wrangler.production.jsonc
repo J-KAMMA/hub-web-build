@@ -1,0 +1,111 @@
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "jkamma-hub",
+  "main": "custom-worker.ts",
+  "workers_dev": false,
+  "routes": [
+    { "pattern": "hub.jkamma.com", "custom_domain": true }
+  ],
+  "preview_urls": false,
+  "alias": {
+    "server-only": "./lib/server-only-worker-shim.ts"
+  },
+  "compatibility_date": "2026-07-24",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "minify": true,
+  "assets": {
+    "directory": ".open-next/assets",
+    "binding": "ASSETS",
+    "run_worker_first": ["/_hub-data/*"]
+  },
+  "vars": {
+    "CLOUDFLARE_RUNTIME": "workers",
+    "CLOUDFLARE_DEPLOYMENT_PHASE": "ready",
+    "HUB_DEPLOYMENT_ENVIRONMENT": "production",
+    "HUB_PUBLIC_ORIGIN": "https://hub.jkamma.com",
+    "HUB_MAINTENANCE_MODE": "true",
+    "HUB_SNS_CORE_ONLY": "true",
+    "HUB_SOCIAL_POSTING_ENABLED": "true",
+    "HUB_SEARCH_ENABLED": "true",
+    "HUB_TIPS_ENABLED": "false",
+    "HUB_ADVERTISING_ENABLED": "false",
+    "HUBPEDIA_HUMAN_EDITING": "0",
+    "HUB_ADS_PROVIDER": "disabled"
+  },
+  "d1_databases": [
+    {
+      "binding": "HUB_DATABASE",
+      "database_name": "jkamma-hub-production-db",
+      "database_id": "00000000-0000-0000-0000-000000000000",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "ratelimits": [
+    {
+      "name": "HUB_API_READ_RATE_LIMIT",
+      "namespace_id": "42001",
+      "simple": { "limit": 300, "period": 60 }
+    },
+    {
+      "name": "HUB_API_MUTATION_RATE_LIMIT",
+      "namespace_id": "42002",
+      "simple": { "limit": 120, "period": 60 }
+    }
+  ],
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "FEED_REALTIME",
+        "class_name": "FeedRealtimeShard"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "feed-realtime-v1",
+      "new_sqlite_classes": ["FeedRealtimeShard"]
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "HUB_MEDIA",
+      "bucket_name": "jkamma-hub-production-media"
+    }
+  ],
+  "ai": { "binding": "HUB_AI" },
+  "vectorize": [
+    { "binding": "HUB_MUSIC_VECTORS", "index_name": "jkamma-hub-music" }
+  ],
+  "queues": {
+    "producers": [
+      {
+        "binding": "HUB_JOBS",
+        "queue": "jkamma-hub-production-jobs"
+      }
+    ],
+    "consumers": [
+      {
+        "queue": "jkamma-hub-production-jobs",
+        "max_batch_size": 10,
+        "max_batch_timeout": 5,
+        "max_retries": 3,
+        "dead_letter_queue": "jkamma-hub-production-jobs-dlq"
+      }
+    ]
+  },
+  "observability": {
+    "enabled": true,
+    "logs": {
+      "enabled": true,
+      "head_sampling_rate": 0.1,
+      "invocation_logs": true
+    },
+    "traces": {
+      "enabled": true,
+      "head_sampling_rate": 0.05
+    }
+  },
+  "triggers": {
+    "crons": ["* * * * *", "0 * * * *", "17 */6 * * *", "27 */6 * * *"]
+  }
+}

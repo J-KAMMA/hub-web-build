@@ -1,0 +1,86 @@
+export const HUB_AD_PLACEMENT_POLICY_VERSION = "2026-07-20.1";
+
+export const HUB_AD_PLACEMENT_SPECS = {
+  "home.feed.inline": {
+    surface: "home",
+    enabled: true,
+    position: "after_organic_item",
+    firstAfterItemRange: [1, 8],
+    repeatEveryItems: 8,
+    maximumPerPage: null,
+    allowedFeeds: ["recommended", "latest", "popular", "following", "lists"],
+  },
+  "hubpedia.index.inline": {
+    surface: "hubpedia-index",
+    enabled: true,
+    position: "after_organic_item",
+    afterItem: 6,
+    maximumPerPage: 1,
+  },
+  "article.inline.first": {
+    surface: "hubpedia-article",
+    enabled: true,
+    position: "after_section",
+    minimumSectionsBefore: 2,
+    maximumPerPage: 1,
+  },
+  "article.footer": {
+    surface: "hubpedia-article",
+    enabled: false,
+    position: "after_article",
+    minimumArticleWords: 2400,
+    maximumPerPage: 1,
+  },
+  "shopping.catalog.inline": {
+    surface: "shopping",
+    enabled: false,
+    position: "after_organic_item",
+    afterItem: 6,
+    maximumPerPage: 0,
+  },
+  "threads.replies.inline": {
+    surface: "threads",
+    enabled: true,
+    position: "after_organic_item",
+    firstAfterItemRange: [1, 8],
+    repeatEveryItems: 8,
+    maximumPerPage: null,
+  },
+  "videos.discovery.inline": {
+    surface: "videos",
+    enabled: true,
+    position: "after_organic_item",
+    firstAfterItemRange: [1, 8],
+    repeatEveryItems: 8,
+    maximumPerPage: null,
+  },
+  "search.images.inline": {
+    surface: "search",
+    enabled: true,
+    position: "after_organic_item",
+    afterItem: 6,
+    maximumPerPage: 1,
+  },
+  "music.discovery.sidebar": {
+    surface: "music",
+    enabled: true,
+    position: "selected_track_sidebar",
+    maximumPerPage: 1,
+    desktopOnly: false,
+  },
+} as const;
+
+export const HUB_AD_GLOBALLY_FORBIDDEN_CONTEXTS = [
+  "before-primary-content",
+  "navigation",
+  "composer",
+  "authentication",
+  "settings",
+  "private-messages",
+  "checkout",
+  "payment-confirmation",
+  "destructive-action",
+  "modal",
+  "sticky-overlay",
+  "interstitial",
+] as const;

@@ -1,0 +1,48 @@
+CREATE TABLE IF NOT EXISTS distributed_video_manifests (
+  id TEXT PRIMARY KEY,
+  canonical_video_id TEXT NOT NULL UNIQUE,
+  manifest_url TEXT NOT NULL UNIQUE,
+  origin TEXT NOT NULL,
+  title TEXT NOT NULL,
+  description TEXT NOT NULL DEFAULT '',
+  channel TEXT NOT NULL,
+  category TEXT NOT NULL DEFAULT '未分類',
+  language TEXT,
+  published_at TEXT,
+  thumbnail_url TEXT,
+  license TEXT NOT NULL,
+  cache_policy TEXT NOT NULL DEFAULT 'denied',
+  ai_training_policy TEXT NOT NULL DEFAULT 'denied',
+  embed_allowed INTEGER NOT NULL DEFAULT 1,
+  age_rating TEXT NOT NULL DEFAULT 'general',
+  content_hash TEXT,
+  streams_json TEXT NOT NULL,
+  captions_json TEXT NOT NULL DEFAULT '[]',
+  mirrors_json TEXT NOT NULL DEFAULT '[]',
+  tags_json TEXT NOT NULL DEFAULT '[]',
+  submitted_by_profile_id TEXT NOT NULL REFERENCES profiles(id) ON DELETE RESTRICT,
+  status TEXT NOT NULL DEFAULT 'active',
+  fetched_at TEXT NOT NULL,
+  created_at TEXT NOT NULL,
+  updated_at TEXT NOT NULL,
+  CHECK (length(canonical_video_id) BETWEEN 1 AND 2048),
+  CHECK (length(manifest_url) BETWEEN 1 AND 2048),
+  CHECK (length(origin) BETWEEN 1 AND 2048),
+  CHECK (length(title) BETWEEN 1 AND 240),
+  CHECK (length(description) <= 5000),
+  CHECK (length(channel) BETWEEN 1 AND 120),
+  CHECK (length(category) BETWEEN 1 AND 80),
+  CHECK (language IS NULL OR length(language) <= 35),
+  CHECK (thumbnail_url IS NULL OR length(thumbnail_url) <= 2048),
+  CHECK (length(license) BETWEEN 1 AND 160),
+  CHECK (cache_policy IN ('denied', 'temporary', 'allowed')),
+  CHECK (ai_training_policy IN ('denied', 'allowed', 'attribution', 'consent-required')),
+  CHECK (embed_allowed IN (0, 1)),
+  CHECK (age_rating IN ('general', 'teen', 'adult')),
+  CHECK (status IN ('active', 'unavailable', 'removed'))
+);
+
+CREATE INDEX IF NOT EXISTS distributed_video_manifests_public
+  ON distributed_video_manifests(status, published_at DESC, created_at DESC);
+CREATE INDEX IF NOT EXISTS distributed_video_manifests_origin
+  ON distributed_video_manifests(origin, status, updated_at DESC);

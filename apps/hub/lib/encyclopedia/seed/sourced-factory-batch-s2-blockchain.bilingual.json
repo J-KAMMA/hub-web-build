@@ -1,0 +1,514 @@
+[
+  {
+    "slug": "blockchain-transaction",
+    "topicType": "concept",
+    "categoryLabel": "インターネット・セキュリティ",
+    "title": "トランザクション",
+    "summary": "トランザクションとは、ブロックチェーンネットワークにおいて当事者間のやりとりを記録する基本単位である。各トランザクションには1人以上の利用者が関与し、何が起きたかを示す記録が含まれ、送信者による署名を経てネットワークに送信されることで台帳の状態が変化する。ブロックチェーンは一貫性があり完全性が保護された分散台帳として、こうしたトランザクションの照合・連結・保存を担う。",
+    "bodyMarkdown": "## 基本的な性質\n\nトランザクションには1人以上のブロックチェーンネットワーク利用者が関与し、何が起きたかの記録が含まれる。トランザクションは、それを送信した利用者によって[デジタル署名](/hubpedia/digital-signature)される。 [9][10]\n\nトランザクションは秘密鍵を用いて署名された上で、ブロックチェーン[ノード](/hubpedia/blockchain-node)によって検証・照合され、データの完全性と公開検証性を提供する。 [8]\n\n## 台帳への記録と不変性\n\n台帳の状態は、[ブロックチェーン](/hubpedia/blockchain)に送信されるトランザクションによって変更される。ブロックチェーンネットワークの通常運用下では、一度公開されたトランザクションは変更できない。従来のデータベースと異なり、ブロックチェーン内のトランザクションと値は上書きされない。 [2][4][19]\n\nブロックチェーンネットワークは、一貫性があり完全性が保護された分散台帳において、安全な取引の照合・連結・保存を提供する。 [3]\n\n## 検証と公開性\n\nインターネット接続があれば誰でも、ブロックチェーンを閲覧し、パブリッシングノードを運用し、トランザクションを送信できる。ネットワークの参加者はトランザクションの妥当性を独立に検証できる。 [7][17]\n\nブロックチェーンは、暗号学的に署名されたトランザクションから成る分散型デジタル台帳である。 [18]\n\n## 暗号資産におけるトランザクション\n\n[暗号資産](/hubpedia/cryptocurrency)の場合、トランザクションはブロックチェーンネットワークの利用者間での暗号資産の移転を表す。ビットコインのブロックチェーンはこの譲渡を公開して記録し、ネットワークの全参加者が検証できるようにする。 [14][16]\n\n## 許可制ネットワークにおける開示と認可\n\n許可制のブロックチェーンネットワークの中には、利用者の身元や資格情報に基づいてトランザクション情報を選択的に開示できるものがある。ブロックチェーンは、2者のブロックチェーンネットワーク利用者間でトランザクションが行われたことを記録しつつ、その内容は関係者のみがアクセスできるようにすることができる。 [11][12]\n\n許可制のブロックチェーンネットワークの中には、すべての利用者がトランザクションの送受信について認可を受ける必要があるものがある。 [13]\n\n## 処理能力の拡張\n\n並行トランザクション処理とオフチェーンのスケーリング手法が、トランザクションのスループットを増加させるために開発されてきた。ステートチャネル、コミットチェーン、ロールアップは、トークンのカストディを手放すことなく、トランザクション処理をルートのブロックチェーンの外部へオフロードすることを可能にする。 [5][6]\n\n## 企業間取引への応用\n\n企業間取引のシナリオでは、トランザクションはデジタル資産や物理的資産に関する活動を記録する手段となり得る。 [15]\n\n## 関連記事\n\n- ブロック\n- [合意形成の仕組み](/hubpedia/consensus-mechanism)\n- [鍵ペア](/hubpedia/key-pair)\n- [スマートコントラクト](/hubpedia/smart-contract)",
+    "sources": [
+      {
+        "url": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+        "title": "Blockchain Technology Overview (NISTIR 8202) — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The standards body account of blockchain and its parts. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+        "title": "Blockchain Networks: Token Design and Management Overview (NISTIR 8301) — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "Tokens, wallets and how value is held and moved on a ledger. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Transaction",
+        "summary": "A transaction is the basic unit that records interactions between parties on a blockchain network. Each transaction involves one or more users and contains a record of what occurred; once signed by the sender, it is submitted to the network, changing the state of the ledger. Blockchains, as distributed ledgers that are consistent and protected for integrity, are responsible for verifying, linking, and storing such transactions.",
+        "bodyMarkdown": "## Basic Properties\n\nA transaction involves one or more users of a blockchain network and contains a record of what occurred. A transaction is [digitally signed](/hubpedia/digital-signature) by the user who submitted it. [9][10]\n\nAfter being signed with a private key, a transaction is verified and reconciled by blockchain [nodes](/hubpedia/blockchain-node), providing data integrity and public verifiability. [8]\n\n## Recording on the Ledger and Immutability\n\nThe state of the ledger is changed by transactions submitted to the [blockchain](/hubpedia/blockchain). Under normal operation of a blockchain network, a transaction cannot be altered once it has been published. Unlike traditional databases, transactions and values within a blockchain are not overwritten. [2][4][19]\n\nBlockchain networks provide secure verification, linking, and storage of transactions on a consistent, integrity-protected distributed ledger. [3]\n\n## Verification and Openness\n\nAnyone with an internet connection can view the blockchain, operate a publishing node, and submit transactions. Participants in the network can independently verify the validity of transactions. [7][17]\n\nA blockchain is a distributed digital ledger composed of cryptographically signed transactions. [18]\n\n## Transactions in Cryptocurrency\n\nIn the case of [cryptocurrency](/hubpedia/cryptocurrency), a transaction represents the transfer of cryptocurrency between users of a blockchain network. The Bitcoin blockchain records this transfer publicly, allowing all participants in the network to verify it. [14][16]\n\n## Disclosure and Authorization on Permissioned Networks\n\nSome permissioned blockchain networks can selectively disclose transaction information based on the identity or credentials of users. A blockchain can record that a transaction took place between two users of a blockchain network while making its contents accessible only to the parties involved. [11][12]\n\nOn some permissioned blockchain networks, all users are required to be authorized to send and receive transactions. [13]\n\n## Expanding Processing Capacity\n\nConcurrent transaction processing and off-chain scaling methods have been developed to increase transaction throughput. State channels, commit chains, and rollups make it possible to offload transaction processing outside the root blockchain without relinquishing custody of tokens. [5][6]\n\n## Applications in Business-to-Business Transactions\n\nIn business-to-business transaction scenarios, transactions can serve as a means of recording activity related to digital or physical assets. [15]\n\n## Related Articles\n\n- Block\n- [Consensus Mechanism](/hubpedia/consensus-mechanism)\n- [Key Pair](/hubpedia/key-pair)\n- [Smart Contract](/hubpedia/smart-contract)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-29T23:30:48.615Z",
+      "claims": [
+        {
+          "index": 2,
+          "statement": "ブロックチェーンネットワークの通常運用下では、一度公開されたトランザクションは変更できない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "no transaction can be changed once published."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "ブロックチェーンネットワークは、一貫性があり完全性が保護された分散台帳において、安全な取引の照合・連結・保存を提供する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "secure transaction reconciliation, linkage, and storage in consolidated, integrity-protected"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "台帳の状態は、ブロックチェーンに送信されるトランザクションによって変更される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "Operations modify the ledger’s state by way of transactions submitted to the blockchain, which"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "並行トランザクション処理とオフチェーンのスケーリング手法が、トランザクションのスループットを増加させるために開発されてきた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "Parallel transaction processing and off-chain scaling schemes have been developed to"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "ステートチャネル、コミットチェーン、ロールアップは、トークンのカストディを手放すことなく、トランザクション処理をルートのブロックチェーンの外部へオフロードすることを可能にする。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "processing to be offloaded away from the root blockchain without relinquishing token custody."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "インターネット接続があれば誰でも、ブロックチェーンを閲覧し、パブリッシングノードを運用し、トランザクションを送信できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "internet connection can view the blockchain, operate a publishing node, and submit transactions."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "トランザクションは秘密鍵を用いて署名された上で、ブロックチェーンノードによって検証・照合され、データの完全性と公開検証性を提供する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "Transactions are signed using these private keys before being"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "validated and reconciled by the blockchain nodes, providing data integrity and public verifiability."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "各トランザクションには1人以上のブロックチェーンネットワーク利用者が関与し、何が起きたかの記録が含まれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "Each transaction involves one or more\r\n                                                                                         blockchain network users and a recording of what happened"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "トランザクションは、それを送信した利用者によってデジタル署名される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "it is digitally signed by the user\r\n                                                                                         who submitted the transaction."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "許可制のブロックチェーンネットワークの中には、利用者の身元や資格情報に基づいてトランザクション情報を選択的に開示できるものがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "Some permissioned blockchain networks support the ability to selectively reveal transaction"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "ブロックチェーンは、2者のブロックチェーンネットワーク利用者間でトランザクションが行われたことを記録しつつ、その内容は関係者のみがアクセスできるようにすることができる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "records that a transaction between two blockchain network users took place"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "許可制のブロックチェーンネットワークの中には、すべての利用者がトランザクションの送受信について認可を受ける必要があるものがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "Some permissioned blockchain networks require all users to be authorized to send and receive"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "暗号資産の場合、トランザクションはブロックチェーンネットワークの利用者間での暗号資産の移転を表す。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "transaction represents a transfer of the cryptocurrency between blockchain network users."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "企業間取引のシナリオでは、トランザクションはデジタル資産や物理的資産に関する活動を記録する手段となり得る。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "business-to-business scenarios, a transaction could be a way of recording activities occurring on"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "ビットコインのブロックチェーンはこの譲渡を公開して記録し、ネットワークの全参加者が検証できるようにする。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "blockchain records this transfer publicly, allowing all participants of the network to"
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "ネットワークの参加者はトランザクションの妥当性を独立に検証できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "independently verify the validity of the transactions."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "ブロックチェーンは、暗号学的に署名されたトランザクションから成る分散型デジタル台帳である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "Blockchains are distributed digital ledgers of cryptographically signed transactions that are"
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "従来のデータベースと異なり、ブロックチェーン内のトランザクションと値は上書きされない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "Unlike traditional databases, transactions and values in a blockchain are not overridden."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "blockchain-node",
+    "topicType": "concept",
+    "categoryLabel": "インターネット・セキュリティ",
+    "title": "ノード",
+    "summary": "ノードは、ブロックチェーンネットワークを構成する個々のコンピュータシステムであり、台帳の記録や検証、伝達といった役割を分担して担う。保持する機能の範囲によって軽量ノード・フルノード・パブリッシングノードなどに分かれ、この違いがネットワークの分散性と信頼性を支えている。アクセス制御など特定用途のシステムでは、ノードがデータの管理主体や権限の発行者として機能することもある。",
+    "bodyMarkdown": "## ノードの種類\n\n[ブロックチェーン](/hubpedia/blockchain)ネットワークに参加するコンピュータシステムはノードと呼ばれる。保持する機能に応じて複数の種類に分かれる。軽量ノードはブロックチェーンの複製を保存または維持せず、自身が生成した[トランザクション](/hubpedia/blockchain-transaction)をフルノードへ渡すことで承認を得る。これに対しフルノードはブロックチェーン全体を保存し、個々のトランザクションが有効であるかどうかを検証する役割を担う。 [1][2][3][5]\n\nパブリッシングノードは、新しいブロックの公開も担うフルノードである。公開ノードはブロックデータを[ハッシュ化](/hubpedia/hash-value)してダイジェストを作成し、プルーフ・オブ・ワークを[合意形成の方式](/hubpedia/consensus-mechanism)として採用するネットワークでは、定められたパズル条件を満たすまでナンス値を変えながらブロックヘッダーを繰り返しハッシュ化する。 [4][22][23]\n\n## スマートコントラクトとノードの合意\n\n[スマートコントラクト](/hubpedia/smart-contract)は、ブロックチェーン上にデプロイされたコードとして、ネットワーク上のノードによって実行される。スマートコントラクトを実行するすべてのノードは、同一の入力に対して同一の結果に到達することが求められ、この一致がノード間の合意の基盤となる。 [6][14]\n\n## アクセス制御システムにおけるノード\n\nブロックチェーン技術は、[アクセス制御](/hubpedia/access-control)システムの基盤としても用いられる。この用途では、ノードはアクセス制御上のエンティティや組織として機能し、アクセス制御ネットワーク内のノードはACノードと呼ばれる。ACシステムの設計によって、ACノードはアクセス制御データを保持するホストサーバーとして機能することもあれば、アクセス制御ポリシーの管理や運用を担う管理者として機能することもある。 [12][13][15]\n\nフルブロックチェーンノードは、アクセス制御データやブロックの記録を保存するリポジトリとしてだけでなく、オブジェクトそのものを保存する役割も果たし得る。IoT機器を対象とするアクセス制御システムでは、個々のIoTデバイスがアクセス制御上の実体や組織に対応するACノードとなる。 [16][19]\n\nスマートコントラクトは、信頼できる第三者を介さずにACノード間で認可処理やアクセス制御データの遷移を実施するために、各ACノードへ配布・実行されるイベント駆動型のプログラムである。同一のコードが各ACノードにコピーされることで、ヒューマンエラーが減り、ノード間の紛争を避けやすくなるとされる。 [17][18]\n\nブロックチェーンは、スマートコントラクトの機能を通じてあるACノードから別のACノードへアクセス権限を移転・伝播することを可能にし、より柔軟できめ細かく応答性の高いポリシーの実施を実現するとされる。また、アクセス制御に関する記録の収集を透明かつ信頼できる方法で可能にし、ACノード間でデータを複製する。 [20][21]\n\n## 関連記事\n\n- [暗号資産](/hubpedia/cryptocurrency)",
+    "sources": [
+      {
+        "url": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+        "title": "Blockchain Technology Overview (NISTIR 8202) — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The standards body account of blockchain and its parts. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+        "title": "Blockchain for Access Control Systems (NISTIR 8403) — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "Permissioning and access control on ledgers. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Node",
+        "summary": "A node is an individual computer system that makes up a blockchain network, sharing responsibility for recording, verifying, and propagating the ledger. Depending on the scope of functions it holds, a node falls into categories such as light node, full node, or publishing node, and this distinction underpins the network's decentralization and reliability. In systems built for specific purposes such as access control, a node can also function as the entity managing data or the issuer of permissions.",
+        "bodyMarkdown": "## Types of nodes\n\nA computer system participating in a [blockchain](/hubpedia/blockchain) network is called a node. Nodes fall into several types according to the functions they hold. A light node does not store or maintain a copy of the blockchain; instead, it passes the [transactions](/hubpedia/blockchain-transaction) it generates to a full node to obtain approval. A full node, by contrast, stores the entire blockchain and is responsible for verifying whether individual transactions are valid. [1][2][3][5]\n\nA publishing node is a full node that also takes on the publication of new blocks. A publishing node [hashes](/hubpedia/hash-value) block data to produce a digest, and in networks that adopt proof of work as their [consensus mechanism](/hubpedia/consensus-mechanism), it repeatedly hashes the block header while varying the nonce value until the specified puzzle condition is satisfied. [4][22][23]\n\n## Smart contracts and node consensus\n\nA [smart contract](/hubpedia/smart-contract) is code deployed on a blockchain that is executed by nodes on the network. Every node executing a smart contract is required to arrive at the same result for the same input, and this agreement forms the basis of consensus among nodes. [6][14]\n\n## Nodes in access control systems\n\nBlockchain technology is also used as a foundation for [access control](/hubpedia/access-control) systems. In this use case, a node functions as an entity or organization within access control, and a node within an access control network is called an AC node. Depending on the design of the AC system, an AC node may function as a host server holding access control data, or as an administrator responsible for managing and operating access control policies. [12][13][15]\n\nA full blockchain node can serve not only as a repository storing access control data or block records, but also as a store for objects themselves. In access control systems targeting IoT devices, each individual IoT device becomes the AC node corresponding to an entity or organization within access control. [16][19]\n\nA smart contract is an event-driven program distributed to and executed on each AC node in order to carry out authorization processing and the transition of access control data among AC nodes without going through a trusted third party. Because the same code is copied to each AC node, this is said to reduce human error and make it easier to avoid disputes between nodes. [17][18]\n\nThrough the functionality of smart contracts, blockchain makes it possible to transfer and propagate access permissions from one AC node to another, which is said to enable the enforcement of more flexible, granular, and responsive policies. It is also said to enable the transparent and trustworthy collection of access control records, replicating data among AC nodes. [20][21]\n\n## Related articles\n\n- [Cryptocurrency](/hubpedia/cryptocurrency)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-29T23:30:48.624Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "ノードとは、ブロックチェーンネットワーク内の個々のコンピュータシステムである。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "A node is an individual computer system within a blockchain network."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "軽量ノード（lightweight node）はブロックチェーンのコピーを保存または維持しないノードである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "lightweight nodes (i.e., a node that does not store or maintain a copy of the\r\n                                                                                                  blockchain)"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "フルノード（full node）はブロックチェーン全体を保存し、トランザクションが有効であることを保証するノードである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "full nodes (i.e., a node that stores the entire blockchain and ensures that\r\n                                                                                                  transactions are valid)"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "パブリッシングノード（publishing node）は新しいブロックも公開するフルノードである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "publishing nodes (i.e., a full node that also publishes new\r\n                                                                                                  blocks)"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "軽量ノードは自身のトランザクションをフルノードへ渡す必要がある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "Lightweight nodes must pass their transactions to full nodes."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "スマートコントラクトを実行する全てのブロックチェーンノードは、同じ入力に対して同じ結果に到達すべきである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "Every blockchain node that executes the smart\r\n                                                                                         contract should arrive at the same result given the same input."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "ノードはアクセス制御システムのエンティティや組織として機能し得る。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "It can act as an AC\r\n                                                                                                  system’s entity or organization and is called an AC node within the AC network."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "アクセス制御ネットワーク内のノードはACノードと呼ばれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "is called an AC node within the AC network."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "スマートコントラクトはブロックチェーンにデプロイされ、ブロックチェーンノードによって実行されるコードによって動作する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "as payment term, lien, confidentiality, and even enforcement) on a blockchain via code that is\r\n                                                                                         deployed to and executed by blockchain nodes."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "AC(アクセス制御)システムの設計によっては、ACノードはACデータのホストサーバーとして機能することも、ACポリシーの管理・運用の管理者として機能することもある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "Depending on the\r\n                                                                                                  design of the AC system, AC nodes can act as host servers for AC data (e.g., subject/object\r\n                                                                                                  attributes, environment conditions, and policy rules) or as administrators for AC policy\r\n                                                                                                  management and enforcement."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "フルブロックチェーンノードは、ACデータとブロックのログのリポジトリであるだけでなく、オブジェクトを保存することもできる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "Full blockchain nodes are not only a repository of AC data and logs of blocks but can also\r\n                                                                                                  store objects."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "スマートコントラクトは、信頼できる第三者を介さずにACノード間でAC処理(認可処理やACデータの遷移)を促進・実施するために、ACノードに配布され実行されるイベント駆動型のコンピュータプログラムである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "distributed to and executed by AC\r\n                                                                                                  nodes to facilitate and enforce AC processes (i.e., authorization processes and AC data\r\n                                                                                                  transitions) between them without going through a trusted third party."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "スマートコントラクトのコードは、ヒューマンエラーを減らし紛争を避けるために、各ACノードにコピーされる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "It is copied to each AC node to reduce human\r\n                                                                                                  error and avoid disputation, thus providing a secure way to specify AC policies and\r\n                                                                                                  transform the authorization process into a distributed execution"
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "IoTのアクセス制御システムでは、各IoTデバイスがAC実体または組織のACノードとなる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "Increases performance for managing a large number of subjects and objects, such as IoT\r\n                                                                                                  AC systems, where each IoT device is an AC node of an AC entity or organization"
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "ブロックチェーンは、スマートコントラクトの機能を通じてあるACノードから他のACノードへアクセス権限を移転・伝播することで、柔軟できめ細かく応答性の高いポリシーの実施を可能にする。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "Allows for the enforcement of flexible, fine-grained, and responsive policy by transferring\r\n                                                                                                  or propagating access privileges from one AC node to others through smart contract\r\n                                                                                                  functions"
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "ブロックチェーンは、透明で信頼できる方法でACログ情報の収集を可能にし、ACノード間でデータを複製する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "Blockchain also allows for AC log information collection and replicates data\r\n                                                                                         among AC nodes in a transparent and trustworthy way with verifiable and secure records."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "公開ノード（publishing node）はブロックデータをハッシュ化し、ダイジェストを作成する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "Securing the block data – a publishing node will hash the block data, creating a digest"
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "プルーフ・オブ・ワークのコンセンサスモデルを採用するブロックチェーンネットワークでは、公開ノードはパズル要件が満たされるまで異なるナンス値でブロックヘッダーをハッシュ化する必要がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "publishing node will need to hash the block header with different nonce values"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

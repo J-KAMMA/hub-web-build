@@ -1,0 +1,682 @@
+/*
+ * Canonical visual contract for Hub's in-page left directory.
+ *
+ * tab-left-column-system.css owns placement and drawer behavior. This final
+ * layer owns the shared surface, rhythm, typography and interaction states
+ * after product styles have loaded. Product pages may keep their hierarchy,
+ * but must not redefine these common roles.
+ */
+html {
+  /*
+   * The outer navigation keeps its expanded width in --hub-left-open-width
+   * even while the rail itself is collapsed to 58px. The in-page directory
+   * uses that same expanded width so both left columns follow one geometry
+   * contract without coupling their open/closed state.
+   */
+  --tab-left-column-width: var(--hub-left-open-width, 210px);
+  --tab-left-column-collapsed-width: 58px;
+  --tab-left-column-nav-inset: 8px;
+  --tab-left-column-item-inline: 12px;
+  --tab-left-column-item-height: var(--column-nav-item-height);
+  --tab-left-column-subitem-height: 34px;
+  --tab-left-column-label-size: .8125rem;
+  --tab-left-column-count-size: .6875rem;
+  --tab-left-column-scrollbar-gutter: 10px;
+  --tab-main-search-control-height: 44px;
+  --tab-main-search-radius: var(--apple-control-radius);
+}
+
+html[data-theme] .main-content .tab-main-search-header {
+  position: sticky;
+  top: 0;
+  z-index: 17;
+  box-sizing: border-box;
+  width: 100%;
+  height: var(--column-title-height);
+  min-height: var(--column-title-height);
+  max-height: var(--column-title-height);
+  display: flex;
+  align-items: center;
+  padding: 7px var(--column-title-inline);
+  border-bottom: var(--divider);
+  background: var(--bg);
+  color: var(--text);
+}
+
+html[data-theme] .main-content .tab-main-search-header > :is(
+  form[role="search"],
+  label,
+  .ai-chat__history-filter
+) {
+  display: flex;
+  width: min(100%, 680px);
+  height: var(--tab-main-search-control-height);
+  min-width: 0;
+  align-items: center;
+  gap: 8px;
+}
+
+html[data-theme] .main-content .tab-main-search-header > :is(
+  form[role="search"],
+  label,
+  .ai-chat__history-filter
+) > svg {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 auto;
+  color: var(--muted);
+}
+
+html[data-theme] .main-content .tab-main-search-header input[type="search"] {
+  min-width: 0;
+  height: 100%;
+  flex: 1 1 auto;
+}
+
+/*
+ * The page search is one control, not a loose input and icon-button pair.
+ * Page-specific forms keep their own query behavior while sharing this
+ * field surface, focus treatment and touch geometry.
+ */
+html[data-theme] .main-content :is(
+  .tab-main-search-header > form[role="search"],
+  .tab-main-search-header > label,
+  .tab-main-search-header > .ai-chat__history-filter,
+  .shell-page-search[data-hub-page-main-search],
+  .music-header > .music-search,
+  .video-hub__header > .video-search
+) {
+  box-sizing: border-box;
+  min-height: var(--tab-main-search-control-height);
+  padding: 3px 4px 3px 12px;
+  overflow: hidden;
+  border: var(--divider) !important;
+  border-radius: var(--tab-main-search-radius) !important;
+  background: var(--interactive) !important;
+  color: var(--text);
+  box-shadow: none;
+  transition: border-color 120ms ease, background-color 120ms ease;
+}
+
+html[data-theme] .main-content :is(
+  .tab-main-search-header > form[role="search"],
+  .tab-main-search-header > label,
+  .tab-main-search-header > .ai-chat__history-filter,
+  .shell-page-search[data-hub-page-main-search],
+  .music-header > .music-search,
+  .video-hub__header > .video-search
+):hover {
+  border-color: var(--line-strong) !important;
+}
+
+html[data-theme] .main-content :is(
+  .tab-main-search-header > form[role="search"],
+  .tab-main-search-header > label,
+  .tab-main-search-header > .ai-chat__history-filter,
+  .shell-page-search[data-hub-page-main-search],
+  .music-header > .music-search,
+  .video-hub__header > .video-search
+):focus-within {
+  border-color: var(--focus-ring) !important;
+  background: var(--surface-raised) !important;
+}
+
+html[data-theme] .main-content :is(
+  .tab-main-search-header > form[role="search"],
+  .tab-main-search-header > label,
+  .tab-main-search-header > .ai-chat__history-filter,
+  .shell-page-search[data-hub-page-main-search],
+  .music-header > .music-search,
+  .video-hub__header > .video-search
+):has(:focus-visible) {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+html[data-theme] .main-content [data-hub-page-main-search] :is(input[type="search"], .ui-control[type="search"]) {
+  min-width: 0;
+  height: 100%;
+  min-height: 0;
+  padding-inline: 8px;
+  border: 0 !important;
+  border-radius: 0 !important;
+  outline: 0 !important;
+  background: transparent !important;
+  color: var(--text) !important;
+  box-shadow: none !important;
+  font: inherit;
+}
+
+html[data-theme] .main-content [data-hub-page-main-search] input[type="search"]::placeholder {
+  color: var(--muted) !important;
+  opacity: 1;
+}
+
+html[data-theme] .main-content [data-hub-page-main-search] :is(svg, .music-search > span, .video-search > span) {
+  width: 18px;
+  height: 18px;
+  flex: 0 0 18px;
+  color: var(--muted);
+}
+
+html[data-theme] .main-content [data-hub-page-main-search] button.search-submit-button {
+  width: 36px;
+  min-width: 36px !important;
+  height: 36px;
+  flex-basis: 36px;
+  border: 0 !important;
+  border-radius: calc(var(--tab-main-search-radius) - 3px) !important;
+  background: transparent !important;
+  color: var(--text) !important;
+}
+
+html[data-theme] .main-content [data-hub-page-main-search] button.search-submit-button:hover:not(:disabled) {
+  background: var(--interactive-hover) !important;
+}
+
+html[data-theme] .main-content [data-hub-page-main-search] button.search-submit-button:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: -2px;
+}
+
+html[data-theme] .main-content .tab-main-search-header > .bbs-thread-search {
+  display: flex;
+  margin: 0;
+}
+
+html[data-theme] .main-content .tab-main-search-header:has(> .bbs-new-thread--header) > .bbs-thread-search {
+  width: min(calc(100% - 176px), 680px);
+}
+
+html[data-theme] .main-content .tab-main-search-header > .bbs-new-thread--header {
+  position: absolute;
+  top: 7px;
+  right: var(--column-title-inline);
+  width: auto;
+  margin: 0;
+  overflow: visible;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+html[data-theme] .main-content .tab-main-search-header > .bbs-new-thread--header > summary {
+  box-sizing: border-box;
+  min-width: 156px;
+  height: var(--tab-main-search-control-height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 14px;
+  border: 0;
+  border-radius: var(--tab-main-search-radius);
+  background: var(--action);
+  color: var(--action-text);
+  font-size: .8125rem;
+}
+
+html[data-theme] .main-content .tab-main-search-header > .bbs-new-thread--header > summary small {
+  display: none;
+}
+
+html[data-theme] .main-content .tab-main-search-header > .bbs-new-thread--header > summary:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+html[data-theme] .main-content .tab-main-search-header > .bbs-new-thread--header[open] {
+  width: min(720px, calc(100% - (2 * var(--column-title-inline))));
+  max-height: calc(100vh - var(--column-title-height) - 14px);
+  overflow-y: auto;
+  border: var(--divider);
+  border-radius: var(--tab-main-search-radius);
+  background: var(--surface-raised);
+  box-shadow: var(--shadow);
+}
+
+html[data-theme] .main-content .tab-main-search-header > .bbs-new-thread--header[open] > summary {
+  justify-content: flex-start;
+  border-bottom: var(--divider);
+  border-radius: var(--tab-main-search-radius) var(--tab-main-search-radius) 0 0;
+  background: var(--surface-raised);
+  color: var(--text);
+}
+
+@media (max-width: 560px) {
+  html[data-theme] .main-content .tab-main-search-header:has(> .bbs-new-thread--header) > .bbs-thread-search {
+    width: calc(100% - 138px);
+    margin-inline: 0;
+  }
+
+  html[data-theme] .main-content .tab-main-search-header > .bbs-new-thread--header > summary {
+    min-width: 98px;
+    padding-inline: 10px;
+  }
+}
+
+html[data-theme] .main-content .tab-main-search-header > .bbs-thread-search > label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+}
+
+html[data-theme] .main-content .tab-main-search-header > .bbs-thread-search > div {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  align-items: center;
+  gap: 4px;
+}
+
+html[data-theme] .main-content [data-hub-page-main-search] :is(
+  .bbs-thread-search > div,
+  .search-primary-field
+) {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+html[data-theme] .main-content [data-hub-page-main-search] .market-search select {
+  align-self: stretch;
+  max-width: 180px;
+  min-height: 0;
+  padding-inline: 8px 24px;
+  border: 0;
+  border-right: var(--divider);
+  border-radius: 0;
+  background-color: transparent;
+  color: var(--text);
+  font: inherit;
+}
+
+html[data-theme] .main-content [data-hub-page-main-search] :is(
+  .bbs-thread-search button:not(.search-submit-button),
+  .notifications-page__search button,
+  .music-search button,
+  .video-search button,
+  .ai-chat__history-filter > button
+) {
+  display: grid;
+  width: 32px;
+  min-width: 32px;
+  height: 32px;
+  min-height: 32px;
+  padding: 0;
+  place-items: center;
+  border: 0 !important;
+  border-radius: calc(var(--tab-main-search-radius) - 4px) !important;
+  background: transparent !important;
+  color: var(--muted) !important;
+}
+
+html[data-theme] .main-content [data-hub-page-main-search] :is(
+  .bbs-thread-search button:not(.search-submit-button),
+  .notifications-page__search button,
+  .music-search button,
+  .video-search button,
+  .ai-chat__history-filter > button
+):hover {
+  background: var(--interactive-hover) !important;
+  color: var(--text) !important;
+}
+
+html[data-theme] .main-content .profile-directory-content > .profile-page-simple__header {
+  position: relative;
+  top: auto;
+}
+
+@media (min-width: 1024px) {
+  html[data-theme] .main-content .tab-left-column-layout:has(> .tab-main-search-header) {
+    grid-template-rows: var(--column-title-height) minmax(0, auto);
+  }
+
+  html[data-theme] .main-content .tab-left-column-layout:has(> .tab-main-search-header) > [data-hub-page-left-column] {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+  }
+
+  html[data-theme] .main-content .tab-left-column-layout > .tab-main-search-header {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  html[data-theme] .main-content .tab-left-column-layout:has(> .tab-main-search-header) > .bbs-directory-content,
+  html[data-theme] .main-content .community-workspace > .community-chat {
+    grid-column: 2;
+    grid-row: 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  html[data-theme] .main-content [data-hub-page-left-column] {
+    border-right: var(--divider) !important;
+    background: var(--bg-soft) !important;
+    color: var(--text) !important;
+  }
+
+  html[data-theme] .main-content [data-hub-page-left-column] {
+    box-sizing: border-box;
+    width: var(--tab-left-column-width) !important;
+    min-width: var(--tab-left-column-width) !important;
+  }
+
+  html[data-theme] .main-content :is(
+    .ai-chat:not(.ai-chat--rail),
+    .market-directory-layout
+  ):has(> [data-hub-page-left-column]) {
+    grid-template-columns: var(--tab-left-column-width) minmax(0, 1fr) !important;
+  }
+
+  html[data-theme] .main-content .hubpedia {
+    grid-template-columns: var(--tab-left-column-width) minmax(0, 1fr) !important;
+  }
+
+  
+
+  
+
+  
+
+  html[data-theme] .main-content [data-hub-page-left-column] > .tab-left-column__header,
+  html[data-theme] .main-content .community-room-list > header {
+    box-sizing: border-box;
+    width: 100%;
+    height: var(--column-title-height) !important;
+    min-height: var(--column-title-height) !important;
+    max-height: var(--column-title-height) !important;
+    padding-inline: var(--column-title-inline) !important;
+    background: var(--bg-soft) !important;
+  }
+
+  html[data-theme] .main-content .video-hub {
+    display: grid !important;
+    grid-template-columns: var(--tab-left-column-width) minmax(0, 1fr) !important;
+    align-items: start;
+  }
+
+  html[data-theme] .main-content .video-hub > :not([data-hub-page-left-column]) {
+    grid-column: 2;
+    min-width: 0;
+  }
+
+  html[data-theme] .main-content .video-hub > .video-category-sidebar {
+    position: sticky !important;
+    top: 0 !important;
+    grid-column: 1;
+    grid-row: 1 / span 100;
+    width: var(--tab-left-column-width) !important;
+    height: 100dvh !important;
+    min-height: 100dvh !important;
+    max-height: 100dvh !important;
+    align-self: start;
+  }
+}
+
+@media (min-width: 1024px) {
+  html[data-theme] .main-content :is(
+    .hubpedia__directory,
+    .market-directory,
+    .video-category-sidebar
+  ) {
+    display: flex !important;
+    flex-direction: column;
+    overflow: hidden !important;
+  }
+
+  html[data-theme] .main-content .video-category-sidebar {
+    box-sizing: border-box;
+    width: var(--tab-left-column-width) !important;
+    max-height: 100dvh !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    border-right: var(--divider) !important;
+    border-radius: 0 !important;
+    background: var(--bg-soft) !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  html[data-theme] .main-content .tab-left-column-layout {
+    grid-template-columns: var(--tab-left-column-width) minmax(0, 1fr) !important;
+  }
+}
+
+html[data-theme] .main-content .tab-left-column > :is(
+  .bbs-thread-directory__nav,
+  .settings-directory__nav
+) {
+  display: grid !important;
+  min-height: 0;
+  align-content: start !important;
+  align-items: stretch !important;
+  gap: var(--column-nav-gap) !important;
+  padding: 4px var(--tab-left-column-nav-inset) 16px !important;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border: 0 !important;
+  background: transparent !important;
+  scrollbar-gutter: stable;
+}
+
+html[data-theme] .main-content :is(
+  .tab-left-column:not(.music-library-directory) > .bbs-thread-directory__nav,
+  .settings-directory > .settings-directory__nav,
+  .music-library-directory > .music-library-directory__genres,
+  .community-room-list > nav
+) {
+  flex: 1 1 auto;
+}
+
+html[data-theme] .main-content :is(
+  .music-library-directory__genres,
+  .community-room-list nav,
+  .hubpedia__directory-content > nav,
+  .hubpedia__directory-tree,
+  .market-directory > nav,
+  .video-category-sidebar__nav
+) {
+  display: grid !important;
+  min-height: 0;
+  gap: var(--column-nav-gap) !important;
+  padding: 4px var(--tab-left-column-nav-inset) 16px !important;
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+}
+
+html[data-theme] .main-content :is(
+  .hubpedia__directory-tree,
+  .market-directory > nav,
+  .video-category-sidebar__nav
+) {
+  flex: 1 1 auto;
+}
+
+/*
+ * Primary destinations share one optical and interaction rhythm. Their
+ * silhouette stays rounded even before hover so controls never appear to
+ * change size or shape while the pointer moves through the directory.
+ */
+html[data-theme] .main-content :is(
+  .feed-directory__nav > :is(a, button),
+  .settings-directory__nav a,
+  .bbs-thread-directory__nav > .bbs-thread-directory__all,
+  .music-library-directory .bbs-thread-directory__nav > button,
+  .music-library-directory__genres > button,
+  .community-room-entry > button,
+  .video-category-sidebar__nav > button,
+  .video-category-sidebar__nav > details > summary,
+  .hubpedia__directory-content > nav > a,
+  .hubpedia__directory-tree > section > button,
+  .market-directory > nav > a,
+  .market-directory > nav > details > summary
+) {
+  display: flex !important;
+  box-sizing: border-box;
+  width: 100% !important;
+  min-width: 0 !important;
+  height: var(--tab-left-column-item-height) !important;
+  min-height: var(--tab-left-column-item-height) !important;
+  max-height: var(--tab-left-column-item-height) !important;
+  margin: 0 !important;
+  padding: 0 var(--tab-left-column-item-inline) !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  gap: 8px !important;
+  border: 0 !important;
+  border-radius: var(--apple-control-radius) !important;
+  background: transparent !important;
+  color: var(--muted) !important;
+  font: inherit;
+  font-size: var(--tab-left-column-label-size) !important;
+  font-weight: 600 !important;
+  line-height: 1.2;
+  text-align: left !important;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+html[data-theme] .main-content .settings-directory__nav a small {
+  display: none !important;
+}
+
+html[data-theme] .main-content .settings-directory__group {
+  margin: 12px var(--tab-left-column-item-inline) 4px;
+  color: var(--muted);
+  font-size: var(--tab-left-column-count-size);
+  font-weight: 700;
+  letter-spacing: .04em;
+}
+
+/* Hierarchical children remain visibly subordinate without inventing a page variant. */
+html[data-theme] .main-content :is(
+  .bbs-thread-directory__board > :is(a, button),
+  .video-category-sidebar__nav > details > div > button,
+  .hubpedia__directory-tree nav > a,
+  .market-directory > nav > details > div > a
+) {
+  box-sizing: border-box;
+  min-height: var(--tab-left-column-subitem-height) !important;
+  padding: 0 8px !important;
+  border: 0 !important;
+  border-radius: var(--apple-control-radius) !important;
+  background: transparent !important;
+  color: var(--muted) !important;
+  font-size: .75rem !important;
+  text-align: left;
+}
+
+html[data-theme] .main-content :is(
+  .feed-directory__nav > :is(a, button),
+  .settings-directory__nav a,
+  .bbs-thread-directory__nav :is(a, button),
+  .music-library-directory .bbs-thread-directory__nav > button,
+  .music-library-directory__genres > button,
+  .community-room-entry > button,
+  .video-category-sidebar__nav > button,
+  .video-category-sidebar__nav summary,
+  .video-category-sidebar__nav details > div > button,
+  .hubpedia__directory a,
+  .hubpedia__directory-tree section > button,
+  .market-directory nav :is(a, summary)
+):hover {
+  border-radius: var(--apple-control-radius) !important;
+  background: var(--interactive) !important;
+  color: var(--text) !important;
+}
+
+html[data-theme] .main-content :is(
+  .feed-directory__nav > :is(a, button),
+  .settings-directory__nav a,
+  .bbs-thread-directory__nav :is(a, button),
+  .music-library-directory .bbs-thread-directory__nav > button,
+  .music-library-directory__genres > button,
+  .community-room-entry > button,
+  .video-category-sidebar__nav > button,
+  .video-category-sidebar__nav summary,
+  .video-category-sidebar__nav details > div > button,
+  .hubpedia__directory a,
+  .hubpedia__directory-tree section > button,
+  .market-directory nav :is(a, summary)
+):focus-visible {
+  border-radius: var(--apple-control-radius) !important;
+  outline: 2px solid var(--focus-ring) !important;
+  outline-offset: -2px !important;
+  background: var(--interactive) !important;
+  color: var(--text) !important;
+}
+
+/* All products use the neutral selected role for the current destination. */
+html[data-theme] .main-content [data-hub-page-left-column] :is(
+  .tl-tab--active,
+  .bbs-thread-directory__current,
+  .settings-directory__nav [aria-current],
+  .bbs-thread-directory__nav [aria-current],
+  .music-library-directory .is-active,
+  .community-room--active,
+  .video-category-sidebar .is-active,
+  .market-directory .is-active,
+  .hubpedia__directory [aria-current="page"],
+  [data-hub-page-left-column] [aria-selected="true"],
+  [data-hub-page-left-column] [aria-pressed="true"]
+) {
+  border-color: transparent !important;
+  border-radius: var(--apple-control-radius) !important;
+  background: var(--selected) !important;
+  color: var(--text) !important;
+  box-shadow: none !important;
+}
+
+html[data-theme] .main-content :is(
+  .feed-directory__count,
+  .bbs-thread-directory__nav small,
+  .music-library-directory__genres small,
+  .community-room-entry > button > em
+) {
+  margin-left: auto;
+  color: var(--muted) !important;
+  font-size: var(--tab-left-column-count-size) !important;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Search is an optional directory slot, not a page-specific geometry. */
+html[data-theme] .main-content [data-hub-page-left-column] .bbs-thread-directory__search {
+  gap: 5px;
+  padding: 10px var(--tab-left-column-nav-inset) !important;
+  border-bottom: var(--divider);
+}
+
+html[data-theme] .main-content [data-hub-page-left-column] .bbs-thread-directory__search input {
+  height: var(--search-height-compact) !important;
+  min-height: var(--search-height-compact) !important;
+  border-color: var(--search-border-color) !important;
+  border-radius: var(--search-radius) !important;
+  background: var(--search-surface) !important;
+  color: var(--text) !important;
+}
+
+@media (max-width: 1023px) {
+  html {
+    --tab-left-column-item-height: 44px;
+    --tab-left-column-subitem-height: 40px;
+  }
+
+  html[data-theme] .main-content [data-hub-page-left-column] {
+    background: var(--surface-raised) !important;
+  }
+}
+
+@media (forced-colors: active) {
+  html[data-theme] .main-content [data-hub-page-left-column] :is(a, button, summary):focus-visible {
+    outline: 2px solid CanvasText !important;
+  }
+}

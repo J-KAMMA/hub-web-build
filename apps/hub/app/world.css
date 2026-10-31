@@ -1,0 +1,355 @@
+/* Hub の中の 3D の世界。
+ *
+ * **絵が主で、文字は上に乗る。** 画面いっぱいを絵に使い、居る人・話・行き先は
+ * その上へ半透明で重ねる。左右に並べると、狭い画面で絵が潰れる。
+ *
+ * 色は app/color-system.css の --world-* だけを使う。ここは明暗の切り替えに
+ * 従わない——文字は街の絵の上に乗るので、頁の地の色とは関係が無い。 */
+
+.hub-world {
+  position: relative;
+  width: 100%;
+  height: clamp(420px, calc(100dvh - 180px), 900px);
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--ui-radius-card);
+  background: var(--world-ground);
+  isolation: isolate;
+}
+
+.hub-world__stage {
+  display: block;
+  width: 100%;
+  height: 100%;
+  outline: none;
+  touch-action: none;
+}
+
+.hub-world__banner,
+.hub-world__doors,
+.hub-world__side {
+  position: absolute;
+  z-index: 1;
+  color: var(--world-text);
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+
+.hub-world__banner {
+  inset-block-start: var(--ui-space-3);
+  inset-inline: var(--ui-space-3);
+  padding: 0.4rem 0.75rem;
+  border-radius: 999px;
+  background: var(--world-veil-strong);
+  backdrop-filter: blur(6px);
+  text-align: center;
+}
+.hub-world__banner:empty { display: none; }
+
+.hub-world__doors {
+  inset-block-end: var(--ui-space-3);
+  inset-inline-start: var(--ui-space-3);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--ui-space-2);
+}
+.hub-world__doors button {
+  min-height: var(--ui-target-compact);
+  padding: 0 0.9rem;
+  border: 1px solid var(--world-line);
+  border-radius: 999px;
+  background: var(--world-veil-strong);
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+.hub-world__doors button:hover { background: var(--world-veil-solid); }
+
+/* 品物の棚。**扉の上に積む。** 横に並べると、狭い画面で扉が押し出される。 */
+.hub-world__shelf {
+  position: absolute;
+  z-index: 1;
+  inset-block-end: calc(var(--ui-space-3) + var(--ui-target-compact) + var(--ui-space-2));
+  inset-inline-start: var(--ui-space-3);
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--ui-space-2);
+  max-width: min(46ch, 60%);
+  color: var(--world-text);
+  font-size: 0.82rem;
+}
+.hub-world__shelf button {
+  min-height: var(--ui-target-compact);
+  padding: 0 0.8rem;
+  border: 1px solid var(--world-line);
+  border-radius: 999px;
+  background: var(--world-veil-strong);
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+.hub-world__shelf button:hover { background: var(--world-veil-solid); }
+.hub-world__shelf button[aria-pressed="true"] {
+  background: var(--world-action);
+  border-color: var(--world-action);
+  color: var(--world-action-text);
+}
+
+/* 着替えの棚。**品物とは行を分ける。**
+   同じ行に混ぜると、押した釦が「置く物を選んだ」のか「姿を選んだ」のか
+   見分けが付かない。 */
+.hub-world__shelf .姿 {
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--ui-space-2);
+  padding-block-start: var(--ui-space-2);
+  border-block-start: 1px solid var(--world-line);
+}
+.hub-world__shelf .姿 > span {
+  opacity: 0.75;
+  font-size: 0.76rem;
+}
+
+.hub-world__side {
+  inset-block: var(--ui-space-3);
+  inset-inline-end: var(--ui-space-3);
+  display: flex;
+  flex-direction: column;
+  gap: var(--ui-space-2);
+  width: min(280px, 38vw);
+  /* 上の帯とぶつからないように、少しだけ下げる。 */
+  padding-block-start: 2.6rem;
+  pointer-events: none;
+}
+.hub-world__side > * { pointer-events: auto; }
+
+.hub-world__roster,
+.hub-world__log {
+  padding: 0.6rem 0.75rem;
+  border-radius: var(--ui-radius-control);
+  background: var(--world-veil);
+  backdrop-filter: blur(6px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.hub-world__roster { max-height: 20%; }
+.hub-world__log { max-height: 28%; min-height: 0; margin-block-start: auto; }
+.hub-world__log:empty { display: none; }
+.hub-world__side h2 {
+  margin: 0;
+  padding: 0.4rem 0.75rem;
+  border-radius: var(--ui-radius-control);
+  background: var(--world-veil-strong);
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.hub-world__walking {
+  position: absolute;
+  inset-inline-start: var(--ui-space-3);
+  inset-block-end: 4rem;
+  color: var(--world-text);
+  max-width: 55%;
+}
+.hub-world__walking p {
+  font-size: 0.7rem;
+  background: var(--world-veil-strong);
+  padding: 0.4rem 0.6rem;
+  border-radius: var(--ui-radius-control);
+}
+.hub-world__controls { display: flex; gap: 0.35rem; }
+.hub-world__controls button {
+  width: 44px;
+  height: 44px;
+  border: 1px solid var(--world-line);
+  border-radius: var(--ui-radius-control);
+  background: var(--world-veil-strong);
+  color: var(--world-text);
+  font-size: 1.1rem;
+  touch-action: none;
+  user-select: none;
+  cursor: pointer;
+}
+.hub-world__controls button:active { background: var(--world-action); }
+.hub-world__tools {
+  position: absolute;
+  inset-block-start: 4rem;
+  inset-inline-start: var(--ui-space-3);
+  max-width: min(25rem, 52%);
+  z-index: 2;
+  color: var(--world-text);
+  background: var(--world-veil-solid);
+  border: 1px solid var(--world-line);
+  border-radius: var(--ui-radius-control);
+  padding: 0.6rem 0.8rem;
+  font-size: 0.82rem;
+}
+.hub-world__tools summary { cursor: pointer; min-height: 24px; }
+.hub-world__tools .hub-world__shelf {
+  position: static;
+  max-width: none;
+  max-height: 40dvh;
+  overflow-y: auto;
+  padding-block-start: 0.7rem;
+}
+.hub-world :is(button, summary, input):focus-visible,
+.hub-world__stage:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: -2px; }
+
+.hub-world__say { display: flex; gap: var(--ui-space-1); }
+.hub-world__say input {
+  flex: 1;
+  min-width: 0;
+  min-height: var(--ui-target-compact);
+  padding: 0 0.7rem;
+  border: 1px solid var(--world-line);
+  border-radius: var(--ui-radius-control);
+  background: var(--world-veil-strong);
+  color: inherit;
+  font: inherit;
+}
+.hub-world__say button {
+  min-height: var(--ui-target-compact);
+  padding: 0 0.8rem;
+  border: 0;
+  border-radius: var(--ui-radius-control);
+  background: var(--world-action);
+  color: var(--world-action-text);
+  font: inherit;
+  cursor: pointer;
+}
+
+/* 狭い画面では、重ねると絵が見えなくなる。**下へ落とす。** */
+@media (width < 720px) {
+  .hub-world { height: auto; }
+  .hub-world__stage { height: 58dvh; }
+  /* **絵の外へ出す。** 枠の高さが中身なりになるので、絵の下端に貼ると
+     名簿の上へ重なる（実測で、扉が話の欄を覆った）。 */
+  .hub-world__doors,
+  .hub-world__shelf {
+    position: static;
+    max-width: none;
+    padding: var(--ui-space-3) var(--ui-space-3) 0;
+  }
+  .hub-world__side {
+    position: static;
+    width: auto;
+    padding: var(--ui-space-3);
+    padding-block-start: var(--ui-space-3);
+  }
+  .hub-world__roster { max-height: 6.5rem; }
+  .hub-world__log { min-height: 7rem; }
+  .hub-world__walking {
+    inset-block-start: calc(58dvh - 64px);
+    inset-block-end: auto;
+    max-width: none;
+  }
+  .hub-world__walking p { display: none; }
+  .hub-world__tools { max-width: calc(100% - 2 * var(--ui-space-3)); }
+  .hub-world__side h2 { display: none; }
+}
+
+/* ほかの世界の一覧。**絵の外に置く。** 選ぶ前に読ませるものなので、
+   絵の上へ重ねると、絵を見ている間は目に入らない。 */
+.hub-world-servers {
+  margin-block-start: var(--ui-space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--ui-space-2);
+}
+.hub-world-servers h2 { font-size: 1rem; }
+.hub-world-servers__note { color: var(--muted); font-size: 0.86rem; }
+
+/* 主に見えるという断り。**目立たせる。** 隠せない性質なので、読ませる。 */
+.hub-world-servers__warning {
+  padding: var(--ui-space-2) var(--ui-space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--ui-radius-control);
+  background: var(--emphasis-soft);
+  color: var(--text);
+  font-size: 0.86rem;
+}
+
+.hub-world-servers ul { display: flex; flex-direction: column; gap: var(--ui-space-2); }
+.hub-world-servers li a {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding: var(--ui-space-2) var(--ui-space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--ui-radius-card);
+  background: var(--surface-raised);
+  color: inherit;
+  text-decoration: none;
+}
+.hub-world-servers li a:hover { border-color: var(--interactive-hover); }
+.hub-world-servers li[aria-current] a { border-color: var(--action); }
+.hub-world-servers__who { color: var(--muted); font-size: 0.82rem; }
+.hub-world-servers__about { font-size: 0.86rem; }
+.hub-world-servers__status { color: var(--muted); font-size: 0.78rem; }
+
+/* 通報。**目立たせない。** 押しやすくしすぎると、気に入らない物を
+   下ろして回る道具になる。 */
+.hub-world-servers li { display: flex; flex-direction: column; gap: var(--ui-space-1); }
+.hub-world-servers__report {
+  align-self: flex-start;
+  min-height: var(--ui-target-compact);
+  padding: 0 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: var(--ui-radius-control);
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-size: 0.78rem;
+  cursor: pointer;
+}
+.hub-world-servers__report:disabled { cursor: default; opacity: 0.6; }
+
+/* サーバを建てる頁。**絵ではなく、読んで書く場所。** 3Dの画面とは別の作りにする。 */
+.hub-world-build {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ui-space-3);
+  max-width: var(--ui-content-reading);
+}
+.hub-world-build h1 { font-size: 1.3rem; }
+.hub-world-form { display: flex; flex-direction: column; gap: var(--ui-space-3); }
+.hub-world-form form { display: flex; flex-direction: column; gap: var(--ui-space-2); }
+.hub-world-form label { display: flex; flex-direction: column; gap: 0.25rem; font-size: 0.86rem; }
+.hub-world-form input {
+  min-height: var(--ui-target-standard);
+  padding: 0 0.7rem;
+  border: 1px solid var(--line);
+  border-radius: var(--ui-radius-control);
+  background: var(--surface-sunken);
+  color: var(--text);
+  font: inherit;
+}
+.hub-world-form button {
+  align-self: flex-start;
+  min-height: var(--ui-target-standard);
+  padding: 0 1.1rem;
+  border: 0;
+  border-radius: var(--ui-radius-control);
+  background: var(--action);
+  color: var(--action-text);
+  font: inherit;
+  cursor: pointer;
+}
+.hub-world-form button:disabled { opacity: 0.6; cursor: default; }
+.hub-world-form__saying { font-size: 0.86rem; }
+.hub-world-form__mine { display: flex; flex-direction: column; gap: var(--ui-space-2); }
+.hub-world-form__mine li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  padding: var(--ui-space-2) var(--ui-space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--ui-radius-card);
+  background: var(--surface-raised);
+  font-size: 0.86rem;
+}
+.hub-world-form__mine code { color: var(--muted); font-size: 0.8rem; overflow-wrap: anywhere; }
+/* 下ろされたときは、何が起きたかを取り違えないように書く。 */
+.hub-world-form__stopped { color: var(--muted); font-size: 0.8rem; }

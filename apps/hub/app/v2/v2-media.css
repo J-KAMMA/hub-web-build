@@ -1,0 +1,328 @@
+/* Music library, history and studio in the v2 column: no nested slabs, one type scale. */
+.music-library-page,
+.music-history-page,
+.music-studio-page {
+  padding: 0;
+  gap: var(--v2-space-3, 12px);
+}
+
+.music-library-page > header,
+.music-history-page > header,
+.music-studio-page > header {
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  align-items: center;
+}
+
+.music-library-page > header p,
+.music-history-page > header p,
+.music-studio-page > header p {
+  color: var(--muted);
+  font-size: var(--v2-text-sm, 14px);
+}
+
+.music-library-page > header a,
+.music-history-page a,
+.music-studio-page nav a {
+  min-height: 36px;
+  display: inline-grid;
+  place-items: center;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.music-library-page__tabs {
+  border: 0;
+  background: transparent;
+  padding: 0;
+  border-bottom: var(--divider);
+  border-radius: 0;
+}
+
+.music-library-page__tabs button {
+  font-size: 14px;
+}
+
+.music-library-page__tracks strong,
+.music-history-page li strong {
+  font-size: 14px;
+}
+
+.music-library-page__tracks small,
+.music-library-page__tracks b,
+.music-history-page li small,
+.music-history-page li b {
+  font-size: 12px;
+}
+
+.music-library-page__collections strong {
+  font-size: 14px;
+}
+
+.music-library-page__collections small {
+  font-size: 12px;
+}
+
+.music-studio-page label {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.music-studio-page__flow span {
+  font-size: 13px;
+}
+
+.music-studio-page header p,
+.music-studio-page aside p {
+  font-size: 13px;
+}
+
+.music-studio-page li strong {
+  font-size: 14px;
+}
+
+.music-studio-page li small,
+.music-studio-page li span,
+.music-studio-page li time,
+.music-studio-page li b {
+  font-size: 12px;
+}
+
+.music-studio-page__notice {
+  font-size: 13px;
+}
+
+.music-studio-page__empty {
+  font-size: 14px;
+}
+
+/* Add a game: one column of fields, hints under their field, platforms as chips. */
+.game-submission-page {
+  display: block;
+}
+
+.game-submission-form {
+  display: grid;
+  gap: var(--v2-space-4, 16px);
+  max-width: 760px;
+}
+
+.game-submission-form > header p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.game-submission-form__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--v2-space-4, 16px);
+}
+
+.game-submission-form__wide {
+  grid-column: 1 / -1;
+}
+
+.game-submission-form label,
+.game-submission-form__community {
+  display: grid;
+  gap: 6px;
+  min-width: 0;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.game-submission-form label > small {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.game-submission-form fieldset {
+  display: grid;
+  gap: var(--v2-space-2, 8px);
+  margin: 0;
+  padding: 0;
+  border: 0;
+  min-width: 0;
+}
+
+.game-submission-form legend {
+  padding: 0;
+  margin-bottom: var(--v2-space-2, 8px);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.game-submission-form fieldset > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--v2-space-2, 8px);
+}
+
+.game-submission-form fieldset label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 36px;
+  padding: 0 14px;
+  border: var(--divider);
+  border-radius: 999px;
+  background: var(--surface-raised);
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.game-submission-form fieldset input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  accent-color: var(--emphasis);
+}
+
+.game-submission-form footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--v2-space-3, 12px);
+}
+
+.game-submission-form footer a {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+}
+
+@media (max-width: 640px) {
+  .game-submission-form__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.game-submission-form__grid > label {
+  align-content: start;
+}
+
+/* Shorts: the YouTube consent prompt uses the same compact, centred layout as the watch page. */
+.v2-shorts .youtube-embed-consent {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--v2-space-2, 8px);
+  width: 100%;
+  height: 100%;
+  min-height: 200px;
+  overflow-y: auto;
+  padding: var(--v2-space-5, 20px) var(--v2-space-4, 16px);
+  background: var(--content-nested);
+  color: var(--text);
+}
+
+.v2-shorts .youtube-embed-consent p {
+  max-width: 44em;
+  margin: 0;
+  font-size: 13px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.v2-shorts .youtube-embed-consent a {
+  margin-inline: 0;
+  color: var(--text);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.v2-shorts .youtube-embed-consent > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--v2-space-2, 8px) var(--v2-space-3, 12px);
+}
+
+.v2-shorts .youtube-embed-consent button {
+  min-height: 44px;
+  padding: 0 var(--v2-space-5, 20px);
+  border: 0;
+  border-radius: 999px;
+  background: var(--action);
+  color: var(--action-text);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* Music upload: connection error / sign-in row, aligned to the column. */
+.music-upload-login {
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  padding: var(--v2-space-3, 12px) var(--v2-space-4, 16px);
+  border: var(--divider);
+  border-radius: var(--radius-md, 10px);
+  background: var(--surface-raised);
+}
+
+.music-upload-login b {
+  font-size: 14px;
+}
+
+.music-upload .music-upload-login button {
+  min-height: 36px;
+  border: var(--divider);
+  background: var(--surface-raised);
+  color: var(--text);
+  -webkit-text-fill-color: var(--text);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+/* Scoped checkbox: a plain, small native box instead of the oversized global one. */
+.game-submission-form fieldset input[type="checkbox"] {
+  appearance: auto;
+  -webkit-appearance: checkbox;
+  width: 16px;
+  height: 16px;
+  min-height: 0;
+  padding: 0;
+  border-radius: 3px;
+  background: transparent;
+}
+
+.music-upload.music-add-panel--inline {
+  max-width: none;
+  margin: 0;
+  border: 0;
+  background: transparent;
+  overflow: visible;
+}
+
+.music-add-panel--inline .music-upload-login b {
+  font-size: 14px;
+}
+
+.music-upload.music-add-panel--inline button {
+  min-height: 36px;
+  font-size: 13px;
+}
+
+.music-upload.music-add-panel--inline .music-upload-login button:not(.is-secondary):not(.is-danger) {
+  color: var(--text) !important;
+  -webkit-text-fill-color: var(--text);
+  background: var(--surface-raised);
+}
+
+.game-submission-form fieldset label input[type="checkbox"] {
+  width: 16px !important;
+  height: 16px !important;
+  min-width: 16px !important;
+  min-height: 16px !important;
+  padding: 0 !important;
+  flex: none;
+  appearance: auto !important;
+  -webkit-appearance: checkbox !important;
+}

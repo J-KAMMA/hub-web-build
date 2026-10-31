@@ -1,0 +1,486 @@
+.shell__right {
+  display: grid;
+  grid-template-rows: var(--column-title-height) minmax(0, 1fr);
+  overflow: hidden;
+  background: var(--bg);
+  container: right-rail / inline-size;
+}
+
+.shell__right-header {
+  position: relative;
+  z-index: 3;
+  display: grid;
+  grid-template-columns: 40px minmax(0, 1fr) 40px;
+  align-items: center;
+  min-width: 0;
+  height: var(--column-title-height);
+  padding: 0 14px;
+  border-bottom: var(--divider);
+  background: var(--bg);
+}
+
+.shell__right-header-icon {
+  display: grid;
+  width: 30px;
+  height: 30px;
+  place-items: center;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--text);
+}
+
+.shell__right-header-icon svg {
+  width: 17px;
+  height: 17px;
+  fill: none;
+  stroke: currentColor;
+}
+
+.shell__right-header h2 {
+  overflow: hidden;
+  margin: 0;
+  color: var(--text);
+  font-size: .9rem;
+  font-weight: 700;
+  text-align: center;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.shell__right-header-balance {
+  width: 30px;
+  height: 30px;
+  justify-self: center;
+}
+
+.shell__right-body {
+  min-width: 0;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.shell__right-body > :is(.timeline-rail,.catalog-right-rail,.notifications-right-rail,.music-right-rail,.ai-right-rail,.messages-right-rail) {
+  width: 100%;
+  height: 100%;
+  max-height: 100%;
+  min-height: 0;
+}
+
+.messages-right-rail {
+  display: grid;
+  grid-template-rows: minmax(120px, 42%) minmax(0, 1fr);
+  overflow: hidden;
+  background: var(--bg);
+}
+
+.messages-right-rail__conversations,
+.messages-right-rail__messages {
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.messages-right-rail__conversations {
+  border-bottom: var(--divider);
+}
+
+.messages-right-rail__conversations > button {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 36px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border: 0;
+  border-bottom: var(--divider);
+  background: transparent;
+  color: var(--text);
+  text-align: left;
+  cursor: pointer;
+}
+
+.messages-right-rail__conversations > button:is(:hover, .is-active) {
+  background: var(--interaction-subtle);
+}
+
+.messages-right-rail__conversations > button > span:first-child {
+  display: grid;
+  width: 36px;
+  height: 36px;
+  overflow: hidden;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--surface-sunken);
+  font-weight: 700;
+}
+
+.messages-right-rail__conversations img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.messages-right-rail__conversations button > span:nth-child(2) {
+  display: grid;
+  min-width: 0;
+  gap: 2px;
+}
+
+.messages-right-rail__conversations :is(strong, small) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.messages-right-rail__conversations small {
+  color: var(--muted);
+}
+
+.messages-right-rail__conversations b {
+  min-width: 20px;
+  padding: 2px 6px;
+  border-radius: 999px;
+  background: var(--emphasis);
+  color: var(--bg);
+  font-size: .7rem;
+  text-align: center;
+}
+
+.messages-right-rail__thread {
+  display: grid;
+  min-height: 0;
+  grid-template-rows: minmax(0, 1fr) auto;
+}
+
+.messages-right-rail__messages {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px;
+}
+
+.messages-right-rail__messages p {
+  max-width: 86%;
+  margin: 0;
+  align-self: flex-start;
+  padding: 8px 10px;
+  border-radius: 12px;
+  background: var(--surface-sunken);
+  overflow-wrap: anywhere;
+}
+
+.messages-right-rail__messages p.is-mine {
+  align-self: flex-end;
+  background: var(--emphasis-soft);
+}
+
+.messages-right-rail__thread form {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 8px;
+  padding: 10px;
+  border-top: var(--divider);
+}
+
+.messages-right-rail__thread textarea {
+  min-width: 0;
+  resize: none;
+  border: var(--divider);
+  border-radius: 9px;
+  background: var(--content-surface);
+  color: var(--text);
+  font: inherit;
+}
+
+.messages-right-rail__thread button,
+.right-rail-state button {
+  border: 0;
+  border-radius: 9px;
+  background: var(--emphasis);
+  color: var(--bg);
+  font: inherit;
+  font-weight: 700;
+}
+
+.messages-right-rail__thread button:disabled {
+  opacity: .48;
+}
+
+.right-rail-state {
+  display: grid;
+  min-height: 180px;
+  place-content: center;
+  justify-items: center;
+  gap: 10px;
+  padding: 20px;
+  color: var(--muted);
+  text-align: center;
+}
+
+.right-rail-loading {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  place-items: center;
+  padding: 20px;
+  color: var(--muted);
+  text-align: center;
+}
+
+.right-rail-state button {
+  min-height: 36px;
+  padding-inline: 14px;
+}
+
+/* The shell owns the only title row. Rail components keep only their tools. */
+.shell__right-body .timeline-rail__header,
+.shell__right-body .catalog-right-rail > header,
+.shell__right-body .music-right-rail > header,
+.shell__right-body .ai-right-rail__header {
+  display: none !important;
+}
+
+.shell__right-body .notifications-right-rail > header {
+  min-height: 44px !important;
+  padding: 6px 12px !important;
+  border-bottom: var(--divider) !important;
+  background: var(--bg) !important;
+}
+
+.shell__right-body .notifications-right-rail > header > div:first-child {
+  display: none !important;
+}
+
+.shell__right-body .notifications-right-rail__actions {
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.shell__right-body .timeline-rail {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.shell__right-body .timeline-rail__list {
+  min-height: 0;
+  flex: 1 1 auto;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-gutter: stable;
+}
+
+/*
+ * Feed cards in the narrow rail still expose all five engagement actions.
+ * Main-column rules use six generous tracks; without this stronger rail
+ * contract the bookmark and share controls are laid out beyond the clipped
+ * rail and cannot be reached with a pointer.
+ */
+#hub-right-rail .shell__right-body .timeline-rail .tweet__actions {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  column-gap: 2px;
+}
+
+#hub-right-rail .shell__right-body .timeline-rail .tweet__actions > * {
+  width: 100%;
+  min-width: 0;
+  margin-inline: 0;
+}
+
+#hub-right-rail .shell__right-body .timeline-rail .tweet__action--bookmark {
+  grid-column: 4;
+}
+
+#hub-right-rail .shell__right-body .timeline-rail .tweet__action--share {
+  grid-column: 5;
+}
+
+.rail-hubpedia-filter {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 0 14px 10px;
+  border-bottom: var(--divider);
+}
+
+.rail-hubpedia-filter button {
+  min-width: 0;
+  padding: 8px 4px;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-size: .75rem;
+  font-weight: 650;
+  cursor: pointer;
+}
+
+.rail-hubpedia-filter button:is(:hover, :focus-visible) {
+  background: var(--interaction-subtle);
+  color: var(--text);
+}
+
+.rail-hubpedia-filter button.is-active {
+  border-bottom-color: var(--emphasis);
+  color: var(--text);
+}
+
+.shell__right-body :is(.timeline-rail__list,.catalog-right-rail__list,.notifications-right-rail__list,.community-right-rail__posts) {
+  gap: 0;
+}
+
+.shell__right-body :is(.timeline-rail__list > .tweet,.catalog-right-rail__list > a,.notifications-right-rail__list > a,.community-right-rail__posts > a) {
+  border: 0;
+  border-bottom: var(--divider);
+  border-radius: 0;
+}
+
+.shell__right-body :is(.timeline-rail__list > .tweet,.catalog-right-rail__list > a,.notifications-right-rail__list > a,.community-right-rail__posts > a):last-child {
+  border-bottom: 0;
+}
+
+.shell__right-body .rail-empty,
+.shell__right-body .catalog-right-rail__empty {
+  display: grid;
+  min-height: 140px;
+  place-content: center;
+  gap: 6px;
+  margin: 0;
+  padding: 20px;
+  color: var(--muted);
+  text-align: center;
+}
+
+.shell__right-resize-handle {
+  cursor: col-resize;
+}
+
+.shell__right-resize-handle::before {
+  width: 1px;
+  background: var(--divider);
+  transition: width .15s ease, background-color .15s ease;
+}
+
+.shell__right-resize-handle:is(:hover, :focus-visible)::before {
+  width: 3px;
+  background: var(--emphasis);
+}
+
+.right-rail-skeleton {
+  display: grid;
+  gap: 0;
+}
+
+.right-rail-skeleton span {
+  min-height: 92px;
+  border-bottom: var(--divider);
+  background: var(--content-surface);
+  animation: right-rail-pulse 1.2s ease-in-out infinite alternate;
+}
+
+@keyframes right-rail-pulse {
+  to { background: var(--interaction-subtle); }
+}
+
+.shell__rail-switcher .shell__rail-shortcut--feed { order: 1; }
+.shell__rail-switcher .shell__rail-shortcut--messages { order: 2; }
+.shell__rail-switcher .shell__rail-shortcut--search { order: 3; }
+.shell__rail-switcher .shell__rail-shortcut--notifications { order: 4; }
+.shell__rail-switcher .shell__rail-shortcut--ai { order: 5; }
+.shell__rail-switcher .shell__rail-shortcut--hubpedia { order: 6; }
+.shell__rail-switcher .shell__rail-shortcut--community { order: 7; }
+.shell__rail-switcher .shell__rail-shortcut--music { order: 8; }
+.shell__rail-switcher .shell__rail-shortcut--wallet { order: 9; }
+
+/*
+ * The switcher occupies part of the rail's declared width. Keep card-header
+ * actions icon-only until the content column itself has room for their labels.
+ */
+@container right-rail (max-width: 379px) {
+  .shell__right-body .tweet__handle,
+  .shell__right-body .catalog-right-rail__copy > small,
+  .shell__right-body .catalog-right-rail__copy > p,
+  .shell__right-body .community-right-rail__posts small,
+  .shell__right-body .notifications-right-rail__copy time {
+    display: none;
+  }
+
+  .shell__right-body .tweet__context-tools {
+    display: flex;
+    flex: 0 0 auto;
+    gap: 2px;
+  }
+
+  .shell__right-body .tweet__header .tweet__context-tool--prominent {
+    width: 36px;
+    min-width: 36px;
+    padding-inline: 0;
+  }
+
+  .shell__right-body .tweet__header .tweet__context-tool--prominent > span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .shell__right-body .tweet__text {
+    -webkit-line-clamp: 4;
+  }
+
+  .shell__right-body .catalog-right-rail__item,
+  .shell__right-body .community-right-rail__posts > a {
+    padding-inline: 10px;
+  }
+}
+
+@media (pointer: coarse) {
+  .shell__right-body .tweet__header .tweet__context-tool--prominent {
+    width: 44px;
+    min-width: 44px;
+    min-height: 44px;
+  }
+}
+
+@container right-rail (min-width: 440px) {
+  .shell__right-body .timeline-rail__list,
+  .shell__right-body .catalog-right-rail__list,
+  .shell__right-body .notifications-right-rail__list,
+  .shell__right-body .community-right-rail__posts {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-content: start;
+  }
+
+  .shell__right-body :is(
+    .timeline-rail__list > .tweet,
+    .timeline-rail__list > .rail-result,
+    .catalog-right-rail__list > a,
+    .notifications-right-rail__list > a,
+    .community-right-rail__posts > a
+  ):nth-child(odd) {
+    border-right: var(--divider);
+  }
+
+  .shell__right-body .catalog-right-rail__all,
+  .shell__right-body .notifications-right-rail__all,
+  .shell__right-body .rail-hub-link,
+  .shell__right-body .rail-empty,
+  .shell__right-body .catalog-right-rail__empty {
+    grid-column: 1 / -1;
+  }
+}
+
+@media (max-width: 1199px) {
+  .shell__right-resizer,
+  .shell__right-resize-handle {
+    display: none !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .right-rail-skeleton span { animation: none; }
+}

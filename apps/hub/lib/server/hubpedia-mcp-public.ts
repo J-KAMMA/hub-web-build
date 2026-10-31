@@ -1,0 +1,9 @@
+import "server-only";
+import type { D1Database } from "@cloudflare/workers-types";
+import { clientIpFromRequest, keyedDailyHash } from "@/lib/ip-hash";
+
+export async function clientHash(request:Request){const supplied=request.headers.get("x-hubpedia-mcp-client")?.trim().slice(0,200),source=supplied||clientIpFromRequest(request.headers);return keyedDailyHash("hubpedia-mcp",source);}
+export async function enforceMcpRateLimit(db:D1Database,request:Request,group:"search"|"read"|"report"){const limits={search:120,read:240,report:10},date=new Date().toISOString().slice(0,10),hash=await clientHash(request);await db.prepare(`INSERT INTO hubpedia_mcp_rate_limits(usage_date,client_hash,operation_group,request_count) VALUES(?,?,?,1) ON CONFLICT(usage_date,client_hash,operation_group) DO UPDATE SET request_count=request_count+1`).bind(date,hash,group).run();const row=await db.prepare(`SELECT request_count count FROM hubpedia_mcp_rate_limits WHERE usage_date=? AND client_hash=? AND operation_group=?`).bind(date,hash,group).first<{count:number}>();return {allowed:(row?.count??1)<=limits[group],limit:limits[group],remaining:Math.max(0,limits[group]-(row?.count??1))};}
+export function rateHeaders(rate:{limit:number;remaining:number}){return {"x-ratelimit-limit":String(rate.limit),"x-ratelimit-remaining":String(rate.remaining)};}
+export function conditionalJson(request:Request,value:unknown,etag:string,headers:Record<string,string>={}){const tag=`\"${etag}\"`;if(request.headers.get("if-none-match")===tag)return new Response(null,{status:304,headers:{etag:tag,...headers}});return Response.json(value,{headers:{etag:tag,...headers}});}
+export async function hashJson(value:unknown){const bytes=new TextEncoder().encode(JSON.stringify(value)),digest=await crypto.subtle.digest("SHA-256",bytes);return [...new Uint8Array(digest)].map(byte=>byte.toString(16).padStart(2,"0")).join("");}

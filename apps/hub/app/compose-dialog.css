@@ -1,0 +1,130 @@
+/*
+ * The composer is a dialog, not a header on the feed.
+ *
+ * It used to sit permanently above the timeline, which spent the most valuable
+ * strip of the page on a control that is idle almost all of the time. It now
+ * opens centred, over the content, from the sidebar's compose button. The
+ * installed app keeps its own edge-to-edge sheet in mobile-app.css.
+ */
+
+html[data-hub-surface="web"] .home-compose:not(.home-compose--mobile-open) {
+  display: none !important;
+}
+
+/*
+ * The submit button carries a label for each surface and expects one of them
+ * to be hidden. Only the installed app ever hid its pair, so on the web both
+ * rendered and the button read "ポストするポストする". It went unnoticed while
+ * the composer was a collapsed strip that showed no submit button at all.
+ */
+html[data-hub-surface="web"] .mobile-compose-submit-label {
+  display: none;
+}
+
+/*
+ * The collapsed rail is a 58px column, but the compose button keeps the
+ * left-aligned padding it needs while the label is visible. With the label
+ * gone the icon stays pinned to the inline start and all the spare width
+ * collects on one side, which reads as a misplaced button rather than a
+ * narrow one.
+ */
+.sidebar--collapsed .sidebar__footer {
+  display: grid;
+  justify-items: center;
+}
+
+.sidebar--collapsed .sidebar__compose {
+  width: var(--ui-target-standard);
+  min-width: var(--ui-target-standard);
+  justify-content: center;
+  padding-inline: 0;
+}
+
+html[data-hub-surface="web"] .mobile-compose-backdrop {
+  position: fixed;
+  z-index: 150;
+  inset: 0;
+  display: block !important;
+  border: 0;
+  background: color-mix(in srgb, var(--bg) 72%, transparent);
+  backdrop-filter: blur(6px);
+}
+
+html[data-hub-surface="web"] .home-compose.home-compose--mobile-open {
+  position: fixed !important;
+  z-index: 151 !important;
+  top: 50% !important;
+  left: 50% !important;
+  display: block !important;
+  width: min(100% - 40px, 720px) !important;
+  max-height: min(88dvh, 800px);
+  margin: 0 !important;
+  padding: var(--ui-space-5) !important;
+  overflow-y: auto;
+  transform: translate(-50%, -50%);
+  border: var(--divider-strong) !important;
+  border-radius: var(--ui-radius-card) !important;
+  background: var(--ambient-panel) !important;
+  backdrop-filter: blur(18px) saturate(1.08);
+  box-shadow: var(--shadow-elevated) !important;
+}
+
+/*
+ * The compact web layout withdraws the left column, taking the compose button
+ * with it, so the floating action button is the only way in.
+ */
+@media (max-width: 759px) {
+  html[data-hub-surface="web"] .mobile-compose-fab {
+    position: fixed;
+    z-index: 80;
+    right: var(--ui-space-4);
+    bottom: calc(72px + env(safe-area-inset-bottom));
+    display: grid !important;
+    width: 56px;
+    height: 56px;
+    place-items: center;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: var(--action);
+    color: var(--action-text);
+    box-shadow: var(--shadow-elevated);
+    font: 700 30px/1 system-ui, sans-serif;
+    cursor: pointer;
+    touch-action: manipulation;
+  }
+
+  html[data-hub-surface="web"][data-mobile-compose-open] .shell__mobile-bottom-nav,
+  html[data-hub-surface="web"][data-mobile-compose-open] .mobile-compose-fab {
+    display: none !important;
+  }
+
+  html[data-hub-surface="web"] .home-compose.home-compose--mobile-open {
+    width: calc(100% - 24px) !important;
+    max-height: calc(100dvh - 32px);
+    padding: var(--ui-space-4) !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html[data-hub-surface="web"] .home-compose.home-compose--mobile-open {
+    transition: none;
+  }
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  html[data-hub-surface="web"] .mobile-compose-backdrop,
+  html[data-hub-surface="web"] .home-compose.home-compose--mobile-open {
+    backdrop-filter: none;
+  }
+
+  html[data-hub-surface="web"] .home-compose.home-compose--mobile-open {
+    background: var(--ambient-panel-solid) !important;
+  }
+}
+
+@media (forced-colors: active) {
+  html[data-hub-surface="web"] .home-compose.home-compose--mobile-open {
+    border: 1px solid CanvasText !important;
+  }
+}

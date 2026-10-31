@@ -1,0 +1,56 @@
+.video-report { display: grid; gap: var(--v2-space-2, 8px); min-width: 0; }
+
+.video-report__toggle,
+.video-report__submit,
+.video-report__link {
+  justify-self: start;
+  padding: 6px 12px;
+  border: var(--divider);
+  border-radius: var(--radius-lg);
+  background: var(--surface-raised);
+  color: var(--text);
+  font: inherit;
+  font-size: var(--v2-text-sm);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.video-report__toggle:hover,
+.video-report__link:hover { background: var(--surface-hover); }
+
+.video-report__toggle:focus-visible,
+.video-report__submit:focus-visible,
+.video-report__link:focus-visible,
+.video-report__reason input:focus-visible,
+.video-report__detail textarea:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+
+.video-report__submit { border-color: var(--emphasis); background: var(--emphasis); color: var(--action-text); }
+.video-report__submit:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.video-report__form {
+  display: grid;
+  gap: var(--v2-space-3, 12px);
+  padding: var(--v2-space-3, 12px);
+  border: var(--divider);
+  border-radius: var(--radius-lg);
+  background: var(--surface-raised);
+  color: var(--text);
+}
+
+.video-report__reasons { margin: 0; padding: 0; border: 0; display: grid; gap: 6px; }
+.video-report__reasons legend { padding: 0; margin-bottom: 4px; font-size: var(--v2-text-sm); color: var(--text-muted); }
+.video-report__reason { display: flex; align-items: center; gap: 8px; font-size: var(--v2-text-sm); }
+
+.video-report__detail { display: grid; gap: 4px; font-size: var(--v2-text-sm); color: var(--text-muted); }
+.video-report__detail textarea {
+  min-height: 3.5em;
+  padding: 8px 10px;
+  border: var(--divider);
+  border-radius: var(--radius-lg);
+  background: var(--field);
+  color: var(--text);
+  font: inherit;
+}
+
+.video-report__done { margin: 0; font-size: var(--v2-text-sm); color: var(--positive-text); }
+.video-report__error { margin: 0; font-size: var(--v2-text-sm); color: var(--danger-text); }

@@ -1,0 +1,148 @@
+/*
+ * Cross-surface responsive contract.
+ * Keep this stylesheet last so every Hub product receives the same viewport,
+ * overflow, touch-target, and safe-area behavior.
+ */
+
+:where(.main-content, .main-content *) {
+  min-width: 0;
+}
+
+:where(.main-content img, .main-content video, .main-content canvas, .main-content iframe) {
+  max-width: 100%;
+}
+
+:where(.main-content p, .main-content li, .main-content dd, .main-content td, .main-content th) {
+  overflow-wrap: anywhere;
+}
+
+:where(.main-content input, .main-content select, .main-content textarea, .main-content button) {
+  max-width: 100%;
+}
+
+:where(.main-content dialog, .modal, .dialog, [role="dialog"]) {
+  max-width: calc(100vw - 32px);
+  max-height: calc(100dvh - 32px);
+}
+
+:where(.main-content table) {
+  max-width: 100%;
+}
+
+/* Keep the full desktop navigation label readable without widening the rail. */
+@media (min-width: 1024px) {
+  html[data-hub-surface="web"] .sidebar__label {
+    font-size: .875rem !important;
+  }
+}
+
+/* Short control labels such as 「並び順」 must not split between characters. */
+html[data-hub-surface="web"] .search-page .search-tools label {
+  white-space: nowrap;
+}
+
+/* Compact rail on tablet and small laptop widths. */
+@media (min-width: 760px) and (max-width: 959px) {
+  .shell:not(.shell--immersive),
+  .shell--with-rail:not(.shell--immersive) {
+    grid-template-columns: 68px minmax(0, 1fr) !important;
+  }
+
+  .sidebar,
+  .sidebar--collapsed {
+    padding-inline: 7px !important;
+  }
+
+  .sidebar__brand,
+  .sidebar__footer,
+  .sidebar__link-copy,
+  .sidebar__nav-footer {
+    display: none !important;
+  }
+
+  .sidebar__nav {
+    justify-items: center !important;
+  }
+
+  .sidebar__link,
+  .sidebar--collapsed .sidebar__link {
+    width: 48px !important;
+    min-width: 48px !important;
+    padding-inline: 10px !important;
+    justify-content: center !important;
+  }
+}
+
+@media (max-width: 759px) {
+  .shell:not(.shell--immersive),
+  .shell--with-rail:not(.shell--immersive) {
+    padding-bottom: calc(70px + env(safe-area-inset-bottom)) !important;
+  }
+
+  .shell:not(.shell--immersive) .shell__left {
+    height: calc(70px + env(safe-area-inset-bottom)) !important;
+  }
+
+  .shell:not(.shell--immersive) :where(.sidebar, .sidebar--collapsed) {
+    min-height: calc(70px + env(safe-area-inset-bottom)) !important;
+    max-height: calc(70px + env(safe-area-inset-bottom)) !important;
+    padding-bottom: calc(8px + env(safe-area-inset-bottom)) !important;
+    border-color: var(--line) !important;
+    background: var(--panel) !important;
+  }
+
+  .shell:not(.shell--immersive) .sidebar__nav {
+    scrollbar-width: none;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: inline proximity;
+  }
+
+  .shell:not(.shell--immersive) .sidebar__nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .shell:not(.shell--immersive) .sidebar__link {
+    scroll-snap-align: start;
+  }
+
+  :where(.main-content input, .main-content select, .main-content textarea) {
+    font-size: 16px;
+  }
+
+  :where(.main-content table) {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+  }
+
+  :where(.main-content dialog, .modal, .dialog, [role="dialog"]) {
+    width: calc(100vw - 20px);
+    max-width: calc(100vw - 20px);
+    max-height: calc(100dvh - 20px - env(safe-area-inset-bottom));
+    margin: auto;
+    overflow: auto;
+  }
+
+  :where(.main-content .feature-grid, .main-content .overview-grid, .main-content .collection-grid, .main-content .balance-grid) {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+}
+
+@media (max-width: 520px) {
+  :where(.form-actions, .modal-actions, .dialog-actions, .confirmation-actions) {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+
+  :where(.form-actions, .modal-actions, .dialog-actions, .confirmation-actions) > :where(button, a) {
+    width: 100%;
+    min-height: 44px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :where(.shell, .sidebar, .main-content, .timeline-rail) {
+    scroll-behavior: auto !important;
+  }
+}

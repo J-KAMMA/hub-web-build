@@ -1,0 +1,628 @@
+[
+  {
+    "slug": "blockchain-governance",
+    "topicType": "concept",
+    "categoryLabel": "インターネット・セキュリティ",
+    "title": "台帳の統治",
+    "summary": "台帳の統治とは、分散台帳に記録された状態や規則をだれが、どのような手続きで変更できるかを定める枠組みを指す。ブロックチェーンは中央の管理主体を置かずに合意形成の仕組みとスマートコントラクトによって規則の作成・実施・変更を分散させ、パーミッションレス型とパーミッションド型では規則を変更できる主体の範囲が異なる。",
+    "bodyMarkdown": "## 台帳の状態変更と合意形成\n\n台帳の統治とは、分散台帳に記録された状態をだれがどのような手続きで変更できるかという枠組みを指す。[ブロックチェーン](/hubpedia/blockchain)では、台帳の状態はネットワークに提出されたトランザクションによって書き換えられ、単一の中央機関が単独で規則を決定する構造を持たない点が銀行や企業、政府による従来の台帳管理と異なる。この状態更新の仕組みは記録の整合性を保つ一方で、分散性・拡張性・セキュリティのあいだでどれを優先するかという設計上の選択を常に伴う。 [1][3][4][5][41]\n\n利用者が発行したトランザクションには[デジタル署名](/hubpedia/digital-signature)が付与され、[ノード](/hubpedia/blockchain-node)がこれを検証することでデータの完全性と、誰でも検証できる公開検証可能性が確保される。処理能力の小さい軽量ノードは自らのトランザクションを完全ノードへ渡して処理を委ね、[合意形成の仕組み](/hubpedia/consensus-mechanism)は有効なトランザクションのみが台帳に記録されることを保証する。こうした手続きの積み重ねにより、参加者全員が同じ状態を共有する、改ざんの検知と耐性を備えた計算基盤が成立する。 [6][7][84][85]\n\n## パーミッションレス型とパーミッションド型\n\nブロックチェーンには、参加条件を設けないパーミッションレス型と、参加者や権限を限定するパーミッションド型がある。パーミッションレス型では、インターネットに接続できる者であれば誰でも台帳を閲覧し、取引を発行するノードを運用し、トランザクションを送信できる。これに対しコンソーシアム型のようなパーミッションド型のネットワークでは、トランザクションの送信やブロックの発行に関する詳細な[アクセス制御](/hubpedia/access-control)の仕組みによって、参加できる範囲があらかじめ狭く定められる。 [10][83]\n\nコンソーシアム型のネットワークは、複数の既存組織がデータや業務管理のインフラを共同で運用することで、組織間の統合や変革を目指す仕組みとして構築される。ビットコインやイーサリアムのようなパーミッションレス型のネットワークが、既存の社会構造にはなかった分散的な統治を伴う新しい社会的な構成物をもたらしたのに対し、コンソーシアム型はこれと同じ性格の社会的構成物を共有しているわけではないと指摘されている。参加が認められたノードの調整は、特定のノードや外部のプロセス、あるいは権限を持つ管理者が公開した[スマートコントラクト](/hubpedia/smart-contract)のいずれかによって中央的に管理されることがある。 [9][71][86][87]\n\n## スマートコントラクトによる規則の実施\n\nブロックチェーンを用いたアクセス制御の仕組みでは、信頼できる第三者を介さずに配布・実行される、イベント駆動型のプログラムであるスマートコントラクトが規則の策定と実施を担う。各アクセス制御ノードがスマートコントラクトを実行することで、中央のプロセスに依存せずにポリシーを規定・実施できる。ポリシーを管理する側の管理者は公開用のノードを使って規則を管理し、アクセスを要求する側の主体は軽量なノードを用いる。システムは、あるノードが自分の所有するオブジェクトに関連づけられた規則しか管理できないよう制限する必要がある。 [8][45][46][47]\n\n個々のアクセス制御ノードは、アクセス制御データを保持するホストサーバーとしての役割と、規則の管理・実施を担う管理者としての役割を、システムの設計によっては同時に果たすことがある。規則の実施やデータの所有権を単一の主体に集中させることには信頼性・セキュリティ・可用性の面での懸念があるため、ブロックを分散して所有する仕組みが必要とされる。規則を記述したコードは参加する各ノードに複製され、人為的な誤りを減らし紛争を避けながら、認可の処理を集中管理ではなく分散した実行へと変換する。 [49][50][77]\n\nある主体から別の主体へアクセス権限をスマートコントラクトの機能を通じて移転・伝播させることで、状況の変化に応じたきめ細かな規則の実施が可能になる。重く複雑な認可や管理の作業を複数のノードに分散させることで、従来は中央や第三者のサービスが負っていた費用と責任を軽減できる。他方で、規則を記述したコードに誤りが見つかった場合に備え、当該のスマートコントラクトを無効化し置き換える手段をあらかじめ用意しておく必要がある。 [79][80][82]\n\n## 規則を変更できる主体\n\n台帳の規則をだれが変更できるかは、採用するアクセス制御の方式によって異なる。任意アクセス制御(DAC)は参加やアクセス権の付与を柔軟に変更できる性質上、拡張性と分散性のための動的な管理を要し、参加者を限定しないパーミッションレス型ブロックチェーン向けに構成された合意形成の仕組みと相性がよいとされる。これに対し強制アクセス制御(MAC)では、運用の完全性と一貫性を、参加者を限定したパーミッションド型ブロックチェーン向けに構成された合意形成の仕組みによって維持する。一般に、パーミッションレス型はDACの実装に、パーミッションド型はその統制の仕組みゆえにNDAC(非裁量アクセス制御)の実装に適するとされる。 [52][53][72]\n\n非裁量アクセス制御の強制的な性質のもとでは、合意形成の仕組みによって権限を認められた管理者や担当者だけが、限定的に公開されたアクセス制御ノードを通じて規則を作成・変更できるよう求められる。適用される合意形成の方式には、プルーフ・オブ・ワークやプルーフ・オブ・ステーク、単一の委員会による方式などがある。合意形成の仕組みと手続きは、ブロックやスマートコントラクトを通じて規則を決める際に、参加する主体や組織を共同で規律する役割も果たす。 [40][51][70]\n\n連合型の仕組みの一部では、ブロックチェーンを規則そのものを保存するデータベースとしてのみ用い、実際にアクセスの可否を判断し実施する機能は台帳の外で処理される。ブロックチェーンによるアクセス制御は、規則の評価過程を実行可能なスマートコントラクトへと変換することで、各組織が連合する他の組織とやり取りしながらも自らの仕組みを自律的に統治できるようにする。ただし、稼働中の規則の変更や、規則を管理する権限そのものの委譲を認めるといった一般的な管理要件は、とりわけ合意形成の仕組みやスマートコントラクトの機能の面で、設計を一層複雑にする。 [73][74][75]\n\n## 中央集権的な管理からの移行と残る課題\n\nアクセス制御に関するデータの管理と規則の実施は、従来は中央のサーバーによって担われてきた。ブロックチェーンはこの集中した制御を取り除き、データの管理と処理に柔軟性をもたらすことで、中央のサーバーが過大な権限を持つことによるアクセス権限の漏えいや不備を避けようとする。アクセス制御データの分散した保存と認可処理の委譲は、性能や費用の最適化に加えて、単一の障害点を避けることにも役立つとされる。権限の付与に関わる処理が分散していることで、アクセス制御のデータやログの保存に単一の障害点が存在しなくなり、システムの耐障害性と可用性が高まる。 [39][54][55][56]\n\nもっとも、アクセス制御の実施そのものを台帳の外(オフチェーン)で行う方式を採用すると、単一障害点のような従来の中央集権的な仕組みが抱えていた問題を引き継いでしまうという指摘もある。単一の組織や大規模な仕組みの一員がアクセス制御の規則を実施する場合の信頼できる代替手段としてブロックチェーンが用いられる一方で、状態更新の仕組みそのものが分散性・拡張性・セキュリティのあいだのトレードオフを常に伴うため、個々のブロックチェーン技術はそれぞれ固有の得失と成熟度を持つ。 [4][69][81][98]\n\n## トークンを介した分散型プロトコルの統治\n\n台帳上で発行されるトークンを用いた仕組みで、安全かつ持続可能な統治のモデルを築くには、関係する参加者があらかじめ共通の目的と規則を確立しておく必要があるとされる。相互に交換可能であることを意図したファンジブルトークンは、決済手段として機能するだけでなく、参加者を限定しないピアツーピア型のネットワークにおける参加者への動機づけと統治のモデルを構築する目的でも用いられる。トークンは、利用のための機能と統治のための機能を組み込んだ道具として、オンラインでの取引の効率性と透明性を高める役割も期待されている。ビットコインやイーサリアムがもたらした分散的な統治を伴う社会的構成物は、こうしたトークンを基盤とする仕組みの先例として位置づけられる。 [2][9][17][36]\n\n## 合意・計算・保存の分離\n\nブロックチェーンの仕組みは、合意形成・計算・保存という複数の機能によって主に成り立っており、これらを担う構成要素が分離されて実装される場合がある。例えばHyperledger Fabricでは、トランザクションの実行が、その順序付けおよび合意形成に先立って行われ、それぞれを別のノードが担当する構成が採られている。 [89][90]",
+    "sources": [
+      {
+        "url": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+        "title": "Blockchain for Access Control Systems (NISTIR 8403) — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "Permissioning and access control on ledgers. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+        "title": "Blockchain Networks: Token Design and Management Overview (NISTIR 8301) — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "Tokens, wallets and how value is held and moved on a ledger. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Ledger Governance",
+        "summary": "Ledger governance refers to the framework that defines who can change the state and rules recorded on a distributed ledger, and through what procedures. Blockchain distributes the creation, enforcement, and modification of rules through consensus mechanisms and smart contracts without placing a central governing authority, and the scope of entities able to change the rules differs between permissionless and permissioned types.",
+        "bodyMarkdown": "## Ledger State Changes and Consensus Formation\n\nLedger governance refers to the framework that defines who can change the state recorded on a distributed ledger, and through what procedures. In [blockchain](/hubpedia/blockchain), the state of the ledger is rewritten by transactions submitted to the network, and it differs from traditional ledger management by banks, corporations, or governments in that it has no structure in which a single central authority unilaterally determines the rules. While this state-update mechanism preserves the integrity of records, it always involves a design choice as to which to prioritize among decentralization, scalability, and security. [1][3][4][5][41]\n\nTransactions issued by users are given a [digital signature](/hubpedia/digital-signature), and [nodes](/hubpedia/blockchain-node) verify these to ensure data integrity and public verifiability, meaning that anyone can verify them. Lightweight nodes with limited processing capacity delegate the processing of their own transactions to full nodes, and the [consensus mechanism](/hubpedia/consensus-mechanism) ensures that only valid transactions are recorded on the ledger. The accumulation of these procedures establishes a computational infrastructure, shared by all participants under the same state, that is equipped with tamper detection and tamper resistance. [6][7][84][85]\n\n## Permissionless and Permissioned Types\n\nBlockchains come in two types: permissionless, which imposes no conditions on participation, and permissioned, which restricts participants or privileges. In permissionless types, anyone who can connect to the internet can view the ledger, operate a node that issues transactions, and submit transactions. By contrast, in permissioned networks such as consortium types, the scope of participation is narrowly defined in advance by detailed [access control](/hubpedia/access-control) mechanisms governing transaction submission and block issuance. [10][83]\n\nConsortium-type networks are built as a mechanism through which multiple existing organizations jointly operate infrastructure for data or business management, with the aim of achieving integration and transformation across organizations. It has been pointed out that whereas permissionless networks such as Bitcoin and Ethereum have brought about a new social construct involving decentralized governance that did not exist in prior social structures, consortium types do not share this same character of social construct. Coordination among approved nodes may be managed centrally, either by a specific node, by an external process, or by a [smart contract](/hubpedia/smart-contract) published by an authorized administrator. [9][71][86][87]\n\n## Rule Enforcement through Smart Contracts\n\nIn blockchain-based access control mechanisms, smart contracts—event-driven programs that are distributed and executed without going through a trusted third party—handle the formulation and enforcement of rules. By having each access control node execute smart contracts, policies can be defined and enforced without depending on a central process. Administrators who manage policy use public-facing nodes to manage the rules, while subjects requesting access use lightweight nodes. The system must be restricted so that a given node can only manage rules associated with objects it owns. [8][45][46][47]\n\nDepending on the system design, an individual access control node may simultaneously serve as both a host server holding access control data and an administrator responsible for managing and enforcing rules. Because concentrating rule enforcement and data ownership in a single entity raises concerns regarding reliability, security, and availability, a mechanism for owning blocks in a distributed manner is required. The code describing the rules is replicated to each participating node, reducing human error and avoiding disputes while transforming authorization processing from centralized management into distributed execution. [49][50][77]\n\nBy transferring and propagating access privileges from one entity to another through smart contract functions, fine-grained rule enforcement can be achieved in response to changing circumstances. Distributing heavy and complex authorization and management work across multiple nodes can reduce the cost and responsibility that were traditionally borne by central or third-party services. On the other hand, a means of invalidating and replacing the smart contract in question must be prepared in advance, in case an error is found in the code describing the rules. [79][80][82]\n\n## Entities Able to Change the Rules\n\nWho can change the rules of a ledger depends on the access control method adopted. Discretionary access control (DAC), by its nature of flexibly changing participation and the granting of access privileges, requires dynamic management for scalability and decentralization, and is said to be well suited to consensus mechanisms configured for permissionless blockchains that do not restrict participants. By contrast, mandatory access control (MAC) maintains operational integrity and consistency through consensus mechanisms configured for permissioned blockchains that restrict participants. In general, permissionless types are considered suited to implementing DAC, while permissioned types, because of their governing mechanisms, are considered suited to implementing NDAC (non-discretionary access control). [52][53][72]\n\nUnder the mandatory nature of non-discretionary access control, only administrators or personnel authorized through the consensus mechanism are required to be able to create and change rules, and only through access control nodes that are disclosed in a limited manner. Consensus mechanisms applied include proof of work, proof of stake, and methods based on a single committee. Consensus mechanisms and procedures also play a role in jointly disciplining the participating entities and organizations when rules are decided through blocks or smart contracts. [40][51][70]\n\nIn some federated mechanisms, the blockchain is used only as a database that stores the rules themselves, while the function of actually determining and enforcing whether access is permitted is processed outside the ledger. Blockchain-based access control, by converting the rule-evaluation process into an executable smart contract, enables each organization to govern its own mechanism autonomously even while interacting with other organizations in the federation. However, general administrative requirements—such as allowing changes to rules while in operation, or delegating the authority to manage the rules itself—further complicate the design, particularly with respect to the consensus mechanism and smart contract functionality. [73][74][75]\n\n## Transition from Centralized Management and Remaining Challenges\n\nManagement of access control data and enforcement of rules have traditionally been handled by a central server. Blockchain seeks to remove this concentrated control and bring flexibility to data management and processing, thereby avoiding leaks or deficiencies in access privileges caused by a central server holding excessive authority. The distributed storage of access control data and the delegation of authorization processing are said to help optimize performance and cost, in addition to avoiding a single point of failure. Because the processing involved in granting privileges is distributed, there is no single point of failure in the storage of access control data or logs, which increases the system's fault tolerance and availability. [39][54][55][56]\n\nThat said, it has also been pointed out that adopting a method in which access control enforcement itself is carried out outside the ledger (off-chain) inherits the problems that traditional centralized mechanisms had, such as single points of failure. While blockchain is used as a trustworthy alternative for cases where a single organization or a member of a large-scale mechanism enforces access control rules, because the state-update mechanism itself always involves a trade-off among decentralization, scalability, and security, each individual blockchain technology has its own distinct advantages, disadvantages, and level of maturity. [4][69][81][98]\n\n## Governance of Decentralized Protocols via Tokens\n\nIn mechanisms using tokens issued on a ledger, building a secure and sustainable governance model is said to require that the participants involved first establish common objectives and rules in advance. Fungible tokens, which are designed to be mutually interchangeable, function not only as a means of payment but are also used to construct models of participant incentives and governance in peer-to-peer networks that do not restrict participants. As tools incorporating both utility and governance functions, tokens are also expected to play a role in increasing the efficiency and transparency of online transactions. The social construct involving decentralized governance brought about by Bitcoin and Ethereum is positioned as a precedent for these token-based mechanisms. [2][9][17][36]\n\n## Separation of Consensus, Computation, and Storage\n\nBlockchain mechanisms are primarily composed of multiple functions—consensus formation, computation, and storage—and the components responsible for these may be implemented separately. For example, in Hyperledger Fabric, transaction execution is carried out prior to ordering and consensus formation, with a configuration in which separate nodes are responsible for each. [89][90]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-29T23:50:12.215Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "台帳の状態は、ブロックチェーンに提出されたトランザクションによって変更される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "Operations modify the ledger’s state by way of transactions submitted to the blockchain, which"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "トークンベースのプロトコルで安全で持続可能な統治モデルを形成するには、関係者が共通の目的とルールを確立しなければならない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "with efficiency and interoperability gains, the parties involved must establish common purposes"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "and rules to form secure and sustainable governance models. More generally, blockchain networks"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "ブロックチェーンは、中央のリポジトリを持たない分散的な方式で実装され、通常は銀行・企業・政府のような中央の権威も持たない。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "implemented in a distributed fashion (i.e., without a central"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "repository) and usually without a central authority (i.e., a bank, company, or government)."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "台帳の状態更新の仕組みは整合性の確保をもたらす一方、分散性・拡張性・セキュリティの間でトレードオフを要する。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "provides reconciliation but requires making trade-offs between decentralization, scalability, and"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "連結されたブロックのリスト（ブロックチェーン）は通常、中央の統制権威を持たず、信頼できるデータ取引のために分散型の合意形成メカニズムを利用する。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "change all subsequent blocks that follow it). A linked list of blocks (i.e., a blockchain) typically"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "has no central control authority and utilizes a decentralized consensus mechanism for reliable data"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "コンセンサスメカニズムは、有効な取引のみがブロックチェーンに記録されることを保証する。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "A consensus mechanism ensures that only valid transactions are recorded on the"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "ビットコインとイーサリアムは、分散型ガバナンスを伴う新しい種類の社会的構成物をもたらした。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "new types of global, web-native social constructs with decentralized governance."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "コンソーシアム型ブロックチェーンネットワークの範囲は、トランザクション送信やブロック発行のための詳細なアクセス制御システムによって狭く定義される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "of consortium blockchain networks is narrowly defined through granular access control systems"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "ブロックチェーンネットワークは、統合され完全性が保護された分散台帳において、安全なトランザクションの照合・連結・保存を提供する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "secure transaction reconciliation, linkage, and storage in consolidated, integrity-protected"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "一意の識別子に紐づくトークンは、物やデータを一意に識別することを目的とする。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "unique identifiers are meant to uniquely identify things or data."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "ブロックチェーンベースのトークンは、デジタル資産のプログラム可能な表現を可能にする。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "Blockchain-based tokens allow programmable representations of digital assets."
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "ブロックチェーンは、異なる拠点や組織に位置するプライベートまたはパブリックな分散コンピュータネットワークの利用者間で、複製・共有・同期されたデジタルブロックを用いる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "replicated, shared, and synchronized digital blocks between the users of a private or public"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "distributed computer network located in different sites or organizations."
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "ブロックチェーンは通常、銀行・企業・政府のような中央の権威を持たない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "and usually without a central authority (i.e., a bank, company, or government)."
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "ブロックチェーンは、異なる拠点や組織に位置する私設または公開の分散コンピュータネットワークの利用者間で、複製・共有・同期されたデジタルブロックを用いる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "replicated, shared, and synchronized digital blocks between the users of a private or public"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "distributed computer network located in different sites or organizations."
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "権限付与処理の制御は分散化されており、アクセス制御データ・ログの保存には単一障害点が存在しない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "The control of authorization processing is decentralized, and the storage of access control"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "data/logs has no single point of failure, thus providing more system tolerance and"
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "statement": "NDAC(非裁量アクセス制御)は、主体によってではなく管理上の行為によってのみ変更できる統制を確立する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "established at the discretion of the user. NDAC establishes controls that can only be changed"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "through administrative action, not by subjects. For example, a capability list is a popular model of"
+            }
+          ]
+        },
+        {
+          "index": 46,
+          "statement": "許可不要型(パーミッションレス)ブロックチェーンはDAC実装に適しており、許可型(パーミッションド)ブロックチェーンはその統制機構のためNDAC実装に適している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "examples of NDAC. In general, permissionless blockchains are suitable for DAC implementations,"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "and permissioned blockchains are preferred for NDAC implementations for their control"
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "statement": "アクセス制御システムでは、プルーフ・オブ・ワーク（PoW）、プルーフ・オブ・ステーク（PoS）、単一委員会方式など様々なコンセンサスメカニズムを利用できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "including proof of work (PoW), proof of stake (PoS), and single committee-based"
+            }
+          ]
+        },
+        {
+          "index": 49,
+          "statement": "ブロックチェーンは、アクセス制御ノード間で重く複雑な認可・管理タスクを分散させる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "Dispenses heavy and complex authorization or management tasks between AC nodes to"
+            }
+          ]
+        },
+        {
+          "index": 50,
+          "statement": "一意識別用のトークンは、オンチェーンの非代替性トークンとして、またはブロックチェーンベースのストレージを状態更新に用いる自己完結型トークンとして実装できる。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "(i.e., nonfungible tokens) or as self-contained tokens that use blockchain-based storage for status"
+            }
+          ]
+        },
+        {
+          "index": 51,
+          "statement": "自己完結型トークンは、認証・認可の手法を可能にする。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "Self-contained tokens enable authentication and authorization methods that can provide"
+            }
+          ]
+        },
+        {
+          "index": 52,
+          "statement": "トークンのデータモデルに関するオープン標準が開発されており、プロトコルレベルでの操作を規定している。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "Open standards for token data models have been developed that specify operations at the protocol"
+            }
+          ]
+        },
+        {
+          "index": 53,
+          "statement": "スマートコントラクトのボールトはプロキシとして機能し、永続的なブロックチェーンアドレスを外部で維持しながら、追加のセキュリティ機能と復旧機能を備えたアカウント管理モデルを実現する。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "contract vaults can serve as proxies and enable tailored account management models with"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "additional security and recovery features while externally maintaining persistent blockchain"
+            }
+          ]
+        },
+        {
+          "index": 54,
+          "statement": "トランザクションのスループットを高めるため、並列トランザクション処理やオフチェーンのスケーリング手法が開発されてきた。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "security. Parallel transaction processing and off-chain scaling schemes have been developed to"
+            }
+          ]
+        },
+        {
+          "index": 55,
+          "statement": "デポジット契約に合意済みで自己執行可能な条件を付与することで、ユーザーが秘密鍵の管理を保持したままトークン同士を交換できる。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "attaching agreed-upon and self-enforceable conditions to deposit contracts, tokens can be"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "exchanged with one another while users still remain in control of the private keys at all times."
+            }
+          ]
+        },
+        {
+          "index": 56,
+          "statement": "ブロックチェーンのブリッジング手法は、ブロックチェーン間でのトークンおよびデータの可搬性を可能にする。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "Blockchain bridging schemes allow token and data portability across blockchains as well as hub-"
+            }
+          ]
+        },
+        {
+          "index": 69,
+          "statement": "パーミッションレスなブロックチェーンでは、インターネット接続があれば誰でもブロックチェーンを閲覧し、発行ノードを運用し、トランザクションを送信できる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "internet connection can view the blockchain, operate a publishing node, and submit transactions."
+            }
+          ]
+        },
+        {
+          "index": 70,
+          "statement": "秘密鍵で署名されたトランザクションは、ブロックチェーンノードによって検証・照合されることでデータの完全性と公開検証可能性を提供する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "validated and reconciled by the blockchain nodes, providing data integrity and public verifiability."
+            }
+          ]
+        },
+        {
+          "index": 71,
+          "statement": "パーミッションレスなブロックチェーンは、すべての参加者に共通の状態を維持する、改ざん検知・改ざん耐性のある計算基盤をもたらした。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "brought about tamper-evident and tamper-resistant computing platforms that maintain a common"
+            }
+          ]
+        },
+        {
+          "index": 72,
+          "statement": "コンソーシアム型ブロックチェーンは、パーミッションレス型ブロックチェーンと同じ種類の社会的構成物を共有していない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "models and emerging stack but do not share the same type of social construct described above for"
+            }
+          ]
+        },
+        {
+          "index": 73,
+          "statement": "コンソーシアム型ブロックチェーンは、データと業務管理のインフラを共同化することで既存組織を統合・変革するシステムの構築を目指す。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "existing organizations by mutualizing data and operations management infrastructures."
+            }
+          ]
+        },
+        {
+          "index": 74,
+          "statement": "ブロックチェーンネットワークは、相互運用される記録管理のための実行環境または仮想マシンを形成する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "They form mutually operated record-keeping execution environments or"
+            }
+          ]
+        },
+        {
+          "index": 75,
+          "statement": "ブロックチェーンプロトコルは主にコンセンサス・計算・保存という複数の機能を担い、これらの機能を担う構成要素は分離される場合がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "Blockchain protocols perform multiple functions, primarily consensus, compute, and storage. The protocol components enabling"
+            }
+          ]
+        },
+        {
+          "index": 77,
+          "statement": "自己完結型トークンなどの技術は、身元管理やサプライチェーン管理システムの構築を助け得る。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "additional features for blockchain-based tokens or help build identity or supply chain management"
+            }
+          ]
+        },
+        {
+          "index": 79,
+          "statement": "一意に識別可能な2種類のトークンは、既存の資産(物理的な物品など)を表すものでもあり得る。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "protocol or represent existing assets (e.g., physical objects)."
+            }
+          ]
+        },
+        {
+          "index": 80,
+          "statement": "これらのトークンデータモデルは異なる能力と範囲を持ち、追加のトークン管理プロトコルがそれを補完し得る。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "token transfers. These models have different capabilities and scopes, which additional token"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "management protocols can complement while allowing for separation of concerns."
+            }
+          ]
+        },
+        {
+          "index": 81,
+          "statement": "ブロックチェーンのブリッジング手法は、様々な種類の仲介システムを用いたハブアンドスポーク型アーキテクチャも可能にする。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "Blockchain bridging schemes allow token and data portability across blockchains as well as hub-"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "and-spoke architectures using different types of intermediary systems. Permissions and viewability"
+            }
+          ]
+        },
+        {
+          "index": 82,
+          "statement": "ソフトウェアの設計パターンとインフラツールは、ブロックチェーンネットワーク・ウォレット・外部リソースをユーザーインターフェースと統合しやすくし、トークンの相互作用を促進する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "Additionally, software design patterns and infrastructure tools make it easier to integrate"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "blockchain networks, wallets, and external resources (e.g., user account data, external data feeds)"
+            }
+          ]
+        },
+        {
+          "index": 83,
+          "statement": "ユーザーインターフェース・アプリケーションデータ・ロジックのアンバンドリングは、ユーザー中心のシステムアーキテクチャをもたらす。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "with user interfaces and facilitate token interactions. The unbundling of user interfaces, application"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "data, and logic results in a user-centric system architecture and requires re-examining approaches"
+            }
+          ]
+        },
+        {
+          "index": 84,
+          "statement": "ブロックチェーン技術は、それぞれ独自のトレードオフと成熟度を伴う。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "blockchain technologies come with their own sets of trade-offs and maturity levels. They are"
+            }
+          ]
+        },
+        {
+          "index": 85,
+          "statement": "自己完結型トークンは、デジタル文書や証明書の固定的な表現を可能にする。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "Self-contained"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "tokens permit fixed representations of digital documents or certificates."
+            }
+          ]
+        },
+        {
+          "index": 86,
+          "statement": "ユーザーはピアツーピアの方法で互いにやり取りできる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "cryptography and interact with one another in a peer-to-peer manner."
+            }
+          ]
+        },
+        {
+          "index": 87,
+          "statement": "トークンを発行するために、さまざまな機能と範囲を持つデータモデルが定義されている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "models with varied capabilities and scopes have been defined to issue tokens, which additional"
+            }
+          ]
+        },
+        {
+          "index": 89,
+          "statement": "取引送信のルールは、さまざまな展開シナリオに適合するよう設計されている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "to exchange tokens without intermediaries, transaction submission rules to fit in with different"
+            }
+          ]
+        },
+        {
+          "index": 90,
+          "statement": "プライバシー強化技術は、ユーザーの機密性を保護するために用いられる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "deployment scenarios, and privacy-enhancing techniques to protect user confidentiality."
+            }
+          ]
+        },
+        {
+          "index": 98,
+          "statement": "スマートコントラクトにおける任意のプログラムの実行により、分散したアクセス制御データおよび認可処理の制御が可能になる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "The execution of arbitrary programs in smart contracts allows for controls on distributed"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "AC data and authorization processes."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

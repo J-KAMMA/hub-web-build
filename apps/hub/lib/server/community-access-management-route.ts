@@ -1,0 +1,10 @@
+import 'server-only';
+import {CommunityAccessManagementError} from './community-access-management';
+import {HubAuthenticationError,HubSuspendedError} from './hub-session';
+import {DesktopHubAuthenticationError} from './desktop-hub-auth';
+import type {CommunityAccessKind} from '@/lib/community-access-management';
+export const accessManagementHeaders={'Cache-Control':'private, no-store'};
+export const accessManagementJson=(value:unknown,status=200)=>Response.json(value,{status,headers:accessManagementHeaders});
+export function accessManagementFailure(error:unknown){const status=error instanceof CommunityAccessManagementError?error.status:error instanceof HubSuspendedError?403:error instanceof HubAuthenticationError||error instanceof DesktopHubAuthenticationError?401:503;return accessManagementJson({error:error instanceof CommunityAccessManagementError?error.message:status===401?'ログインしてください。':'参加設定を処理できませんでした。'},status);}
+export function accessManagementQuery(query:URLSearchParams){const kind=query.get('kind'),raw=query.get('offset')??'0',offset=Number(raw);if([...query.keys()].some(k=>k!=='kind'&&k!=='offset')||query.getAll('kind').length!==1||query.getAll('offset').length>1||!['invites','rules','questions'].includes(kind??'')||!/^(0|[1-9][0-9]*)$/.test(raw)||/[^0-9]/.test(raw)||!Number.isSafeInteger(offset)||offset>Number.MAX_SAFE_INTEGER-20)throw new CommunityAccessManagementError('ページ指定が不正です。',400);return {kind:kind as CommunityAccessKind,offset};}
+export async function readAccessManagementInput(request:Request){const reader=request.body?.getReader();if(!reader)throw new CommunityAccessManagementError('入力がありません。',400);const chunks:Uint8Array[]=[];let size=0;for(;;){const {done,value}=await reader.read();if(done)break;size+=value.byteLength;if(size>32768){await reader.cancel();return accessManagementJson({error:'入力が大きすぎます。'},413);}chunks.push(value);}try{const input:unknown=JSON.parse(await new Blob(chunks as BlobPart[]).text());if(!input||typeof input!=='object'||Array.isArray(input))throw new Error();return input;}catch{throw new CommunityAccessManagementError('入力が不正です。',400);}}

@@ -1,0 +1,62 @@
+.hub-adult-gate__note {
+  color: var(--muted);
+  font-size: .85rem;
+}
+
+/*
+ * 年齢確認は本文の上に重ねる。本文を差し替えないのは、クローラーと人間へ
+ * 同じHTMLを返すため（索引に載せる条件）。したがってこれは表示上の確認であって
+ * 遮断ではなく、本文はHTMLに含まれている。
+ *
+ * 背景は不透明にする。半透明にすると本文が透けて確認の意味がなくなる。
+ */
+.hub-adult-gate-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: grid;
+  width: 100vw;
+  max-width: none;
+  min-height: 100dvh;
+  place-items: center;
+  overflow-y: auto;
+  background: var(--bg);
+}
+
+.hub-adult-gate {
+  width: min(100%, 520px);
+  margin: 0 auto;
+  padding: 72px 24px;
+  color: var(--text);
+  line-height: 1.8;
+}
+
+.hub-adult-gate__eyebrow {
+  margin: 0;
+  color: var(--muted);
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+}
+
+.hub-adult-gate button {
+  min-height: 44px;
+  padding: 10px 18px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--emphasis);
+  color: var(--action-text);
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.hub-adult-gate a {
+  color: var(--link-color);
+}
+
+@media (max-width: 720px) {
+  .hub-adult-gate {
+    padding: 44px 18px;
+  }
+}

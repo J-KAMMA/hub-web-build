@@ -1,0 +1,475 @@
+/*
+ * タイムラインの新しい見た目「luxe」（2026-10-30、所有者が承認した案）。
+ * 骨組み（上の帯・名前つきナビ・目録の列・本文・右列・右端の記号の帯、携帯の題の帯と下のタブ）は
+ * 以前のまま。変えるのは色・字・面だけ。/v2 で既定、?skin=classic で以前の見た目。
+ *
+ *   地      --luxe-canvas。ナビ・目録・右列・右端の帯は面を持たず、地の上に 1px の罫線で区切る。
+ *   面      本文の列だけ。見出しとタブ・投稿欄・投稿は角丸20の --luxe-panel。
+ *   金      いまの場所（ナビ）・投稿の主要操作・いいね済み・選んだタブの下線、の4つだけ。
+ *   字      本文は 16px / 1.7（--type-post-*）。数は等幅。
+ * 動きは hover と押下の短い遷移だけ。繰り返す動きは置かない。
+ *
+ * 既存の層は html body .v2 … [data-nav][data-nav] まで特異度を積んでいるので、
+ * 根の [data-skin] を重ねて上回らせる（読み込み順に頼らない）。
+ */
+
+html body .v2[data-skin="luxe"][data-skin][data-skin][data-skin][data-skin] {
+  /* 既存の役割トークンを、この見た目の中でだけ luxe の値へ向け直す。 */
+  --bg: var(--luxe-canvas);
+  --bg-soft: var(--luxe-canvas);
+  --ambient-canvas: var(--luxe-canvas);
+  --surface-sunken: var(--luxe-canvas);
+  --panel: var(--luxe-panel);
+  --panel-strong: var(--luxe-hover);
+  --content-surface: var(--luxe-panel);
+  --content-surface-hover: var(--luxe-hover);
+  --content-nested: var(--luxe-hover);
+  --surface-raised: var(--luxe-raised);
+  --interactive: var(--luxe-hover);
+  --interactive-hover: color-mix(in srgb, var(--luxe-hover) 70%, var(--luxe-line-strong));
+  --line: var(--luxe-line);
+  --line-strong: var(--luxe-line-strong);
+  --divider: 1px solid var(--luxe-line);
+  --text: var(--luxe-text);
+  --accent: var(--luxe-text);
+  --accent-strong: var(--luxe-text);
+  --link-color: var(--luxe-link);
+  --name-color: var(--luxe-text);
+  --muted: var(--luxe-text-2);
+  --text-secondary: var(--luxe-text-2);
+  --text-meta: var(--luxe-text-3);
+  --action: var(--luxe-btn);
+  --action-hover: var(--luxe-btn-hover);
+  /* 黒金: 黒漆のボタンの上端に平らな明るい線を1本。白黒では地と同じ色で見えない。 */
+  --luxe-btn-edge: inset 0 1px 0 var(--luxe-btn-hi);
+  --action-text: var(--luxe-btn-text);
+  --emphasis: var(--luxe-gold);
+  --selected: var(--luxe-hover);
+  --selected-text: var(--luxe-text);
+  --chip-bg: var(--luxe-hover);
+  --chip-text: var(--luxe-text-2);
+  --chip-selected-bg: var(--luxe-text);
+  --chip-selected-text: var(--luxe-canvas);
+  --control-border: var(--luxe-control);
+  --emphasis-soft: color-mix(in srgb, var(--luxe-gold) 14%, var(--luxe-panel));
+  --ambient-canvas-glow: transparent;
+  --ambient-panel: var(--luxe-panel);
+  --ambient-panel-solid: var(--luxe-panel);
+  --ambient-border: var(--luxe-line);
+  --ambient-shadow: none;
+  --ambient-shadow-hover: none;
+  --encyclopedia-bg: var(--luxe-panel);
+  --encyclopedia-panel: var(--luxe-panel);
+  --encyclopedia-subtle: var(--luxe-hover);
+  --encyclopedia-border: var(--luxe-line-strong);
+  --encyclopedia-text: var(--luxe-text);
+  --encyclopedia-muted: var(--luxe-text-2);
+  --encyclopedia-link: var(--luxe-link);
+
+  --lx-radius: 20px;
+  --lx-gap: 12px;
+  --lx-pad: 20px;
+  --lx-fast: var(--dur-fast);
+  --lx-ease: var(--ease-out);
+
+  background: var(--luxe-canvas);
+  color: var(--luxe-text);
+
+  & .v2__workspace,
+  & .v2__frame { background: var(--luxe-canvas); }
+
+  /* 本文の列の面は同じ幅・同じ左右の縁にそろえる。 */
+  & .v2__workspace .v2__frame > #hub-main.v2__main > :is(.v2-top-title, .v2-feed-tabs, .v2-feed__updates, .v2-compose, .v2-feed, .v2-note, .v2-feed-subnav, .v2-state, .ui-skel) {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: var(--v2-width-reading);
+    margin-inline: auto;
+  }
+
+  /* 数は等幅 */
+  & :is(.v2-act__count, .v2-nav__count, .v2-aside__count, .v2-post__time) { font-variant-numeric: tabular-nums; }
+
+  /* ------------------------------------------------ 地の上の列（面なし・罫線だけ） */
+  @media (min-width: 760px) {
+    & .v2__workspace > .v2-titlebar { background: var(--luxe-canvas); border-bottom: 1px solid var(--luxe-line); }
+    & .v2-titlebar .v2-titlebar__search { border: 1px solid var(--luxe-line); border-radius: var(--radius-pill); background: transparent; }
+    & .v2-titlebar .v2-titlebar__search:focus-within { border-color: var(--luxe-line-strong); background: transparent; }
+
+    & .v2__workspace .v2__frame[data-nav] > .v2__nav { background: var(--luxe-canvas); border-right: 1px solid var(--luxe-line); }
+    & .v2__workspace .v2__frame[data-nav] > .v2__nav .v2-nav__item {
+      color: var(--luxe-text-2);
+      transition: background var(--lx-fast) var(--lx-ease), color var(--lx-fast) var(--lx-ease);
+    }
+    & .v2__workspace .v2__frame[data-nav] > .v2__nav .v2-nav__item:hover { background: var(--luxe-hover); color: var(--luxe-text); }
+    & .v2__workspace .v2__frame[data-nav] > .v2__nav .v2-nav__item:active { background: var(--interactive-hover); }
+    & .v2__workspace .v2__frame[data-nav] > .v2__nav .v2-nav__item[aria-current="page"],
+    & .v2__workspace .v2__frame[data-nav] > .v2__nav .v2-nav__item[aria-current="page"]:hover {
+      background: var(--luxe-hover);
+      color: var(--luxe-gold);
+      font-weight: 600;
+    }
+    & .v2__workspace .v2__frame[data-nav] > .v2__nav .v2-nav__item[aria-current="page"] .v2-nav__icon { color: var(--luxe-gold); stroke: currentColor; }
+    & .v2__workspace .v2__frame[data-nav] > .v2__nav .v2-nav__post {
+      border: 1px solid var(--luxe-btn-line);
+      background: var(--luxe-btn);
+      color: var(--luxe-btn-text);
+      box-shadow: var(--luxe-btn-edge);
+      font-weight: 600;
+    }
+    & .v2__workspace .v2__frame[data-nav] > .v2__nav .v2-nav__post:hover { background: var(--action-hover); }
+    & .v2__workspace .v2__frame[data-nav] > .v2__nav .v2-nav__flat-bottom { border-top-color: var(--luxe-line); }
+
+    & .v2__workspace .v2__frame[data-nav] > .v2__tabs-column { background: var(--luxe-canvas); border-right: 1px solid var(--luxe-line); }
+    & .v2__workspace .v2__frame > .v2__tabs-column .v2-mc__row { color: var(--luxe-text-2); border-radius: 12px; }
+    & .v2__workspace .v2__frame > .v2__tabs-column .v2-mc__row:hover { background: var(--luxe-hover); color: var(--luxe-text); }
+    & .v2__workspace .v2__frame > .v2__tabs-column .v2-mc__row[aria-current="page"] { background: var(--luxe-hover); color: var(--luxe-text); font-weight: 600; }
+    & .v2__workspace .v2__frame > .v2__tabs-column .v2-mc { border-color: var(--luxe-line); }
+    & .v2-lib__heading { margin: 0 0 4px; padding: 0 8px; color: var(--luxe-text-3); font-size: var(--type-caption-size); line-height: 16px; font-weight: 600; letter-spacing: .06em; }
+    & .v2-lib__link { display: flex; align-items: center; min-height: 36px; padding: 0 8px; border-radius: 10px; color: var(--luxe-text-2); font-size: var(--type-subhead-size); font-weight: 500; text-decoration: none; }
+    & .v2-lib__link:hover { background: var(--luxe-hover); color: var(--luxe-text); }
+
+    & .v2__workspace .v2__frame[data-nav] .v2__aside { background: var(--luxe-canvas); border-left: 1px solid var(--luxe-line); box-shadow: none; }
+    & .v2__workspace .v2__frame[data-nav] .v2__aside-strip { background: var(--luxe-canvas); border-left: 1px solid var(--luxe-line); }
+
+    & .v2__workspace .v2__frame[data-nav] > #hub-main.v2__main { padding-inline: 16px; }
+  }
+
+  /* ------------------------------------------------ 本文の列: 面 */
+  /* 見出しとタブで1枚。見出しが上半分、タブが下半分。 */
+  @media (min-width: 760px) {
+    & .v2__workspace .v2__frame > #hub-main.v2__main > .v2-top-title {
+      min-height: 0;
+      margin-top: 16px;
+      margin-bottom: 0;
+      padding: 20px var(--lx-pad) 4px;
+      border: 1px solid var(--luxe-line);
+      border-bottom: 0;
+      border-radius: var(--lx-radius) var(--lx-radius) 0 0;
+      background: var(--luxe-panel);
+      box-shadow: none;
+      backdrop-filter: none;
+    }
+    & .v2__workspace .v2__frame > #hub-main.v2__main > .v2-feed-tabs {
+      justify-content: flex-start;
+      gap: 24px;
+      margin-top: 0;
+      margin-bottom: var(--lx-gap);
+      padding: 0 var(--lx-pad);
+      border: 1px solid var(--luxe-line);
+      border-top: 0;
+      border-radius: 0 0 var(--lx-radius) var(--lx-radius);
+      background: var(--luxe-panel);
+    }
+  }
+  & .v2-top-title__label {
+    font-size: var(--type-title2-size);
+    line-height: var(--type-title2-leading);
+    font-weight: 700;
+    letter-spacing: var(--type-title2-tracking);
+    font-feature-settings: "palt";
+  }
+  & .v2-feed-tabs__tab {
+    min-height: 48px;
+    padding: 0;
+    border-radius: 0;
+    background: transparent;
+    color: var(--luxe-text-2);
+    font-size: var(--type-callout-size);
+    font-weight: 500;
+    font-feature-settings: "palt";
+    letter-spacing: .02em;
+    box-shadow: none;
+    transition: color var(--lx-fast) var(--lx-ease), box-shadow var(--lx-fast) var(--lx-ease);
+  }
+  & .v2-feed-tabs__tab:hover { background: transparent; color: var(--luxe-text); box-shadow: inset 0 -2px 0 var(--luxe-line-strong); }
+  & .v2-feed-tabs__tab[aria-current="page"],
+  & .v2-feed-tabs__tab[aria-current="page"]:hover { color: var(--luxe-text); font-weight: 600; box-shadow: inset 0 -2px 0 var(--luxe-gold); }
+  & .v2-feed-tabs__tab:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: -2px; }
+
+  /* 作品・研究の更新の帯も本文の列の小さな面 */
+  & #hub-main.v2__main > .v2-feed__updates {
+    margin-bottom: var(--lx-gap);
+    padding: 0 8px;
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--lx-radius);
+    background: var(--luxe-panel);
+  }
+  & .v2-feed__updates .research-discovery { border: 0; background: transparent; }
+  & #hub-main.v2__main > .v2-feed__updates { overflow: hidden; }
+  & .v2-feed__updates .research-discovery-kind { color: var(--luxe-text-3); }
+
+  & #hub-main.v2__main > .v2-note {
+    margin-block: 0 var(--lx-gap);
+    padding: 0 4px;
+    color: var(--luxe-text-3);
+    font-size: var(--type-subhead-size);
+    line-height: 20px;
+  }
+  & .v2-feed-subnav { margin-bottom: var(--lx-gap); }
+
+  /* 投稿欄の面。操作の段は常に見せ、投稿は金の丸。 */
+  & #hub-main.v2__main > .v2-compose {
+    margin-bottom: var(--lx-gap);
+    padding: 16px var(--lx-pad) 12px;
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--lx-radius);
+    background: var(--luxe-panel);
+    transition: border-color var(--lx-fast) var(--lx-ease);
+  }
+  & #hub-main.v2__main > .v2-compose:focus-within { border-color: var(--luxe-line-strong); }
+  & .v2-compose .v2-reply__input {
+    min-height: 40px;
+    padding: 8px 0;
+    color: var(--luxe-text);
+    font-size: var(--type-post-size);
+    line-height: var(--type-post-leading);
+  }
+  & .v2-compose .v2-reply__input::placeholder { color: var(--luxe-text-3); }
+  & .v2-compose .v2-reply__footer {
+    align-items: center;
+    gap: 2px;
+    max-height: none;
+    min-height: 36px;
+    margin: 4px 0 0 -8px;
+    overflow: visible;
+    visibility: visible;
+    opacity: 1;
+  }
+  & .v2-compose .v2-reply__footer .v2-button--icon,
+  & .v2-compose .v2-gate-attach-toggle .v2-button {
+    justify-content: center;
+    width: 36px;
+    min-width: 36px;
+    height: 36px;
+    padding: 0;
+    border: 0;
+    border-radius: var(--radius-pill);
+    background: transparent;
+    color: var(--luxe-text-2);
+  }
+  & .v2-compose .v2-reply__footer .v2-button--icon:hover,
+  & .v2-compose .v2-gate-attach-toggle .v2-button:hover { background: var(--luxe-hover); color: var(--luxe-text); }
+  /* 「鍵をかける」は記号だけ見せ、名前は読み上げに残す。 */
+  & .v2-compose .v2-gate-attach-toggle .v2-button__label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+  & .v2-compose .v2-compose__audience {
+    flex: 0 0 auto;
+    width: auto;
+    min-width: 0;
+    max-width: 112px;
+    height: 32px;
+    min-height: 32px;
+    margin-left: auto;
+    padding: 0 24px 0 12px;
+    border: 1px solid var(--luxe-line-strong);
+    border-radius: var(--radius-pill);
+    background-color: transparent;
+    color: var(--luxe-text-2);
+    font-size: var(--type-subhead-size);
+  }
+  & .v2-compose .v2-reply__remaining { margin: 0 4px; }
+  & .v2-compose .v2-compose__submit {
+    height: 36px;
+    min-width: 72px;
+    padding: 0 18px;
+    border: 1px solid var(--luxe-btn-line);
+    border-radius: var(--radius-pill);
+    background: var(--luxe-btn);
+    color: var(--luxe-btn-text);
+    box-shadow: var(--luxe-btn-edge);
+    font-weight: 600;
+  }
+  & .v2-compose .v2-compose__submit:hover:not(:disabled) { background: var(--action-hover); }
+  /* 書く前も金の丸のまま薄く置く（共通の点線の無効表示は使わない）。 */
+  & .v2-compose .v2-compose__submit:disabled {
+    border: 1px solid color-mix(in srgb, var(--luxe-btn-line) 45%, var(--luxe-panel));
+    box-shadow: none;
+    background: color-mix(in srgb, var(--luxe-btn) 45%, var(--luxe-panel));
+    color: color-mix(in srgb, var(--luxe-btn-text) 80%, transparent);
+    opacity: 1;
+  }
+
+  /* ------------------------------------------------ 投稿の面 */
+  & #hub-main.v2__main > .v2-feed { display: grid; gap: var(--lx-gap); border: 0; background: none; }
+  & .v2-feed > .v2-feed__row { padding: 0; border: 0; background: none; }
+  & .v2-feed .v2-post {
+    padding: 16px var(--lx-pad) 8px;
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--lx-radius);
+    background: var(--luxe-panel);
+    transition: border-color var(--lx-fast) var(--lx-ease), background var(--lx-fast) var(--lx-ease);
+  }
+  & .v2-feed .v2-post:last-child { border-bottom: 1px solid var(--luxe-line); }
+  & .v2-feed .v2-post--row:hover { border-color: var(--luxe-line-strong); background: var(--luxe-panel); }
+  & .v2-feed .v2-post--gated { padding-bottom: 16px; }
+
+  /* 投稿者の行: 名前・ハンドル・時刻。ハンドルから先に省略し、時刻は切らない。 */
+  & .v2-post__header { display: flex; align-items: baseline; gap: 6px; min-width: 0; }
+  & .v2-post__author { display: flex; align-items: baseline; gap: 6px; min-width: 0; overflow: hidden; }
+  & .v2-post__name {
+    flex: 0 1 auto;
+    min-width: 0;
+    overflow: hidden;
+    color: var(--luxe-text);
+    font-size: var(--type-callout-size);
+    line-height: 20px;
+    font-weight: 600;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  & .v2-post__handle {
+    flex: 0 1000 auto;
+    min-width: 0;
+    overflow: hidden;
+    color: var(--luxe-text-3);
+    font-size: var(--type-subhead-size);
+    line-height: 20px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  & .v2-post__time { flex: none; color: var(--luxe-text-3); font-size: var(--type-subhead-size); line-height: 20px; text-decoration: none; }
+  & .v2-post__time::before { content: "·"; margin-right: 6px; }
+  & .v2-post__time:hover { color: var(--luxe-text); text-decoration: underline; text-underline-offset: 3px; }
+  & .v2-post__more--end { margin-left: auto; align-self: center; }
+  & .v2-post__reply-to { color: var(--luxe-text-3); }
+
+  & .v2-post__text {
+    margin: 4px 0 0;
+    color: var(--luxe-text);
+    font-size: var(--type-post-size);
+    line-height: 1.7;
+    overflow-wrap: anywhere;
+  }
+  & .v2-post__gate-line { color: var(--luxe-text-2); }
+
+  /* 本文の中の作品リンクとタグは札（チップ）にする。 */
+  & .v2-post__inline-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    max-width: 100%;
+    height: 28px;
+    margin: 8px 0 0;
+    padding: 0 12px 0 4px;
+    overflow: hidden;
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--radius-pill);
+    background: var(--luxe-hover);
+    color: var(--luxe-text);
+    font-size: var(--type-subhead-size);
+    line-height: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: middle;
+    transition: border-color var(--lx-fast) var(--lx-ease);
+  }
+  & .v2-post__inline-link:hover { border-color: var(--luxe-line-strong); }
+  & .v2-post__inline-kind {
+    display: inline-flex;
+    flex: none;
+    align-items: center;
+    height: 20px;
+    margin: 0;
+    padding: 0 8px;
+    border-radius: var(--radius-pill);
+    background: var(--luxe-panel);
+    color: var(--luxe-text-2);
+    font-size: var(--type-caption-size);
+    line-height: 16px;
+    font-weight: 600;
+  }
+  & .v2-post__images { margin-top: 12px; border-radius: 16px; }
+
+  /* 数つきの操作。左に詰め、共有だけ右端。いいね済みは金。 */
+  & .v2-post__actions { justify-content: flex-start; gap: 8px; max-width: none; margin: 8px 0 0 -8px; }
+  & .v2-post__actions > .v2-act--share { margin-left: auto; }
+  & .v2-act { height: 36px; min-width: 36px; color: var(--luxe-text-3); font-size: var(--type-subhead-size); }
+  & .v2-act__glyph { width: 36px; height: 36px; }
+  & .v2-act .v2-icon { width: 19px; height: 19px; }
+  & .v2-act__count { margin-left: -4px; padding-right: 8px; font-weight: 500; }
+  & .v2-act:hover { color: var(--luxe-text); }
+  & .v2-act:hover .v2-act__glyph { background: var(--luxe-hover); }
+  & .v2-act[aria-pressed="true"] { color: var(--luxe-text); }
+  & .v2-act--like[aria-pressed="true"] { color: var(--luxe-gold); }
+
+  /* オンのスイッチは強調色（黒金は金、白黒は黒／白）。つまみは地の色。 */
+  & .ui-switch { box-sizing: border-box; border: 1px solid var(--luxe-line-strong); background: var(--luxe-hover); }
+  & .ui-switch .ui-switch__thumb { top: 1px; left: 1px; background: var(--luxe-control); }
+  & .ui-switch[aria-checked="true"] { border-color: var(--luxe-btn-line); background: var(--luxe-btn); }
+  & .ui-switch[aria-checked="true"] .ui-switch__thumb { background: var(--luxe-btn-text); }
+  & .ui-segmented__item--selected { background: var(--luxe-btn); color: var(--luxe-btn-text); box-shadow: inset 0 0 0 1px var(--luxe-btn-line); }
+  & .v2-act:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: -2px; border-radius: var(--radius-pill); }
+
+  /* 骨組みは止まった面。光の帯は流さない。 */
+  & .ui-skel .ui-skel__block::after { display: none; animation: none; }
+  & #hub-main.v2__main .ui-skel .ui-skel__item {
+    margin-bottom: var(--lx-gap);
+    padding: 16px var(--lx-pad);
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--lx-radius);
+    background: var(--luxe-panel);
+  }
+  & #hub-main.v2__main > .v2-state {
+    padding: 48px 24px;
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--lx-radius);
+    background: var(--luxe-panel);
+  }
+
+  /* ------------------------------------------------ 携帯 */
+  @media (max-width: 759px) {
+    & .v2__workspace .v2__frame > #hub-main.v2__main { padding-inline: 12px; }
+    & .v2__workspace .v2__main > .v2-top-title {
+      background: var(--luxe-canvas);
+      border-bottom: 1px solid var(--luxe-line);
+      backdrop-filter: none;
+    }
+    & .v2__tabs-column--mobile { border: 0; }
+    & .v2-top-title__label { font-size: var(--type-headline-size); line-height: 24px; }
+    & #hub-main.v2__main > .v2-feed-tabs { gap: 24px; margin: 4px 0 var(--lx-gap); padding: 0 4px; border-bottom: 1px solid var(--luxe-line); }
+    & .v2-feed .v2-post { padding: 14px 16px 6px; }
+    & #hub-main.v2__main > .v2-compose { padding: 12px 16px 8px; }
+    /* 携帯は操作の段を顔の下から全幅に。1行に収める。 */
+    & .v2-compose .v2-reply__body { display: contents; }
+    & .v2-compose .v2-reply__body > * { grid-column: 1 / -1; }
+    & .v2-compose .v2-reply__body > .v2-reply__input { grid-column: 2; }
+    & .v2-compose .v2-reply__footer { flex-wrap: nowrap; margin-left: -4px; }
+    & .v2-compose .v2-reply__footer .v2-button--icon,
+    & .v2-compose .v2-gate-attach-toggle .v2-button { width: 40px; min-width: 40px; height: 40px; }
+    & .v2-compose .v2-compose__audience { max-width: 100px; }
+    & .v2-compose .v2-compose__submit { min-width: 0; padding: 0 14px; }
+    & .v2-fab { border: 1px solid var(--luxe-btn-line); background: var(--luxe-btn); color: var(--luxe-btn-text); box-shadow: var(--luxe-btn-edge); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    & *, & *::before, & *::after { transition-duration: 0ms !important; }
+  }
+}
+
+/* 地は本文の外（ページの下端・余白）も同じ色に。携帯の下のタブも地の上に罫線だけ。 */
+html:has(.v2[data-skin="luxe"]) body { background: var(--luxe-canvas); }
+html:has(.v2[data-skin="luxe"]) .shell__mobile-bottom-nav {
+  border-top: 1px solid var(--luxe-line);
+  background: var(--luxe-canvas);
+}
+html:has(.v2[data-skin="luxe"]) .shell__mobile-bottom-nav [aria-current="page"] { color: var(--luxe-gold); }
+
+/* primary buttons and selected chips on every luxe page (2026-10-31) */
+html body .v2[data-skin="luxe"][data-skin][data-skin][data-skin][data-skin][data-skin] {
+  & #hub-main.v2__main :is(.ui-button--primary, .v2-button--primary) { border: 1px solid var(--luxe-btn-line); background: var(--luxe-btn); color: var(--luxe-btn-text); box-shadow: var(--luxe-btn-edge); font-weight: 600; }
+  & #hub-main.v2__main :is(.ui-button--primary, .v2-button--primary):hover:not(:disabled) { background: var(--luxe-btn-hover); }
+  & #hub-main.v2__main :is(.ui-button--primary, .v2-button--primary):disabled { background: color-mix(in srgb, var(--luxe-btn) 45%, var(--luxe-panel)); border-color: color-mix(in srgb, var(--luxe-btn-line) 45%, var(--luxe-panel)); color: color-mix(in srgb, var(--luxe-btn-text) 80%, transparent); opacity: 1; }
+  & #hub-main.v2__main .ui-chip--selected { border: 1px solid var(--luxe-btn-line); background: var(--luxe-btn); color: var(--luxe-btn-text); box-shadow: var(--luxe-btn-edge); }
+}
+
+/* 黒金・暗: オンのスイッチは金の面 */
+html[data-palette="gold-ivory"][data-theme="dark"] body .v2[data-skin="luxe"][data-skin][data-skin][data-skin][data-skin][data-skin][data-skin] .ui-switch[aria-checked="true"] { background: var(--luxe-gold); }
+html[data-palette="gold-ivory"][data-theme="dark"] body .v2[data-skin="luxe"][data-skin][data-skin][data-skin][data-skin][data-skin][data-skin] .ui-switch[aria-checked="true"] .ui-switch__thumb { background: var(--luxe-canvas); }

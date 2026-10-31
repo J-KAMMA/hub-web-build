@@ -1,0 +1,3223 @@
+[
+  {
+    "slug": "air-pollution-sources",
+    "topicType": "concept",
+    "categoryLabel": "地球・環境",
+    "title": "大気汚染の発生源",
+    "summary": "大気汚染は屋内と屋外の二つの文脈で生じ、その大半は燃料の燃焼にさかのぼる。二酸化硫黄、窒素酸化物、ブラックカーボン、メタン、アンモニア、非メタン揮発性有機化合物といった主要な汚染物質は、それぞれエネルギー生産、輸送、産業、農業、廃棄物という異なる部門から異なる比率で排出される。部門別の内訳が物質ごとに大きく異なるため、ある物質を減らした対策が別の物質には効かないという事態が繰り返し起きている。",
+    "bodyMarkdown": "## 屋内と屋外という二つの場\n\n同じ「大気汚染」という語が、実際にはまったく違う二つの場所を指している。一つは家庭の中で調理や暖房のために燃やされる燃料が生む[屋内（家庭内）大気汚染](/hubpedia/indoor-air-pollution)であり、もう一つは屋外の大気に広がる汚染である。低所得国では調理に薪や木炭などの固形燃料への依存が続いているため、屋内大気汚染の占める割合が高くなる傾向がある。国が工業化して低所得国から中所得国へ移行するにつれ、今度は屋外大気汚染のほうが増える傾向がある。 [1][2][3]\n\n健康被害を測る際、大気汚染は屋外および屋内の粒子状物質とオゾンの組み合わせとして扱われる。問題そのものは新しくない。人類が燃料として物を燃やし始めて以来存在しており、最初は薪やバイオマス、その後は化石燃料が使われてきた。 [10][11]\n\n2021年の世界の死者数は合計で約800万人と推定されている。その内訳は、屋内の大気汚染によるものが310万人、屋外の粒子状物質によるものが470万人、屋外のオゾン汚染によるものが約50万人である。ただしこの三つのリスク要因を単純に足すと830万人となり、Global Burden of Diseaseが集計として報告する数値より高くなる。リスク要因の重なりを個別合計が二重に数えるためで、部門別・物質別の数値を扱うときに繰り返し現れる注意点である。 [12][58][59][60][61][76]\n\n## 健康被害が生じる経路\n\n汚染物質が健康を害する経路の一つは、直接的な曝露による急性影響である。これは喘息や慢性閉塞性肺疾患（COPD）などの既存の呼吸器疾患を持つ人に、より多く見られる。もう一つの経路は粒子状物質を介したもので、粒子が小さいほど肺や気道、場合によっては血流にまで入り込むため、健康への悪影響が大きくなる傾向がある。粒子状物質はがん、脳卒中、心臓発作を含む呼吸器および心血管系の問題を引き起こしうる。 [13][14][15][16]\n\n三つ目の経路はオゾンである。オゾンは呼吸障害を引き起こし、喘息やCOPDなどの急性症状を悪化させることがある。慢性的な曝露では肺の炎症を引き起こし、呼吸器疾患のリスクを高め、心血管の健康を低下させる。ある気体が直接吸い込まれて有害なのか、大気中で粒子やオゾンに変わって有害なのかで、対策の打ち方は変わる。以下の物質別の記述で繰り返し問題になるのはこの区別である。 [17][18]\n\n## 二酸化硫黄（SO2）\n\n二酸化硫黄は酸性雨を引き起こす主な汚染物質であり、硫黄を含む燃料を燃焼させると発生する。酸性雨は河川や湖の化学組成を変化させ、魚類の個体数や土壌、森林の広がりと質に影響を与えうる。人体への影響としては、直接吸入することで喘息や気管支炎などの呼吸器疾患が悪化しうるが、主な健康影響は分解して微小な粒子状物質を形成することによるものとされる。関連する死者数は年間数十万人規模と推定されるが、この推定値の確度は他の数値より低い。 [4][5][19][20][21][77]\n\n部門別に見ると、2022年時点でエネルギー生産部門がSO2排出の圧倒的に最大の発生源であった。石炭には硫黄不純物が含まれており、燃焼時に放出されるため、[石炭火力発電](/hubpedia/coal-phase-out)が主な発生源となっている。産業部門での主な発生源は金属精錬（smelting）工程で、黄鉄鉱（パイライト）など金属生産に使われる鉱石には多量の硫黄が含まれ、高温で焙焼される際に放出される。石油にも硫黄が含まれているため、道路輸送、海運、航空も排出に寄与している。 [22][23][24][25][26]\n\nSO2は、排出削減が実際に進んだ数少ない汚染物質でもある。世界の排出量は1979年にピークを迎え、その後ほぼ半減した。石炭火力発電所では、大気中に排出される前に硫黄を除去・「スクラブ」する技術により煙突から取り除くことができ、欧州や北米での石炭離れとこのスクラビング技術の組み合わせが[急速な削減](/hubpedia/clean-air-policy)を実現した。海運からの排出も、船舶燃料に対する厳しい規制の導入後、2020年に70％以上減少している。 [27][28][29][62]\n\n## 窒素酸化物（NOx）\n\n窒素酸化物は、主に一酸化窒素（NO）と二酸化窒素（NO2）からなる一群の気体で、化石燃料が燃焼する際に空気中（および燃料自体）の窒素が酸素と反応して生成される。SO2と同様に酸性雨を引き起こし、野生生物や生態系を脅かす。また汚染された都市でよく見られるスモッグや濃い霞の原因ともなる。NOxが人間の健康に特に大きな影響を与えるのは、直接毒性・粒子状物質の形成・オゾンの形成という三つの経路すべてを通じて作用するためであり、この性質から年間100万人以上の死亡に関連していると考えられている。 [6][7][30][31][32][78]\n\n最大の発生源は輸送部門で、主に道路車両の排気ガスから排出される。ただし電力生産のための石炭・ガスの燃焼による排出は道路輸送にほぼ匹敵し、海運のための燃料燃焼も同様に大量に排出しており主要な発生源の一つとなっている。金属精錬、セメント生産、石油精製などの産業プロセスも大きく寄与する。農業は規模としては小さいが重要な発生源で、作物に合成肥料や堆肥として窒素を施すと、その一部が土壌中で窒素酸化物（およびアンモニア）に変換される。 [33][34][63][64][65][66]\n\n排出削減の進み方は部門によって大きく分かれた。触媒コンバーターはNOx化合物を窒素と酸素に分解する装置で、排気ガス中の排出を大幅に削減できる。こうした技術を背景に、輸送や電力生産からの排出は世界的に大きく減少した。一方で農業からの排出はほとんど減少せず横ばいのままである。 [35][67]\n\n## ブラックカーボン（BC）\n\nブラックカーボンは「すす」として知られる微小粒子で、薪やバイオマス、石炭などの化石燃料の不完全燃焼によって形成される。この粒子は光を吸収するため黒く見え、太陽光を吸収することが気候変動にも寄与する。健康面では直接的な毒性と微小粒子状物質の形成を通じて影響し、屋内外の粒子状物質汚染の主要な要因となりうることから、年間数百万人の死亡に寄与していると考えられている。ただしこの寄与の推定は確度が低い。 [8][36][37][68][79]\n\n発生源の第一は建築物部門である。低中所得国の多くの家庭が薪や木炭などの固形燃料で調理や暖房を行っているためで、ここでブラックカーボンの発生源は先に述べた屋内大気汚染と重なる。道路輸送もディーゼルエンジンと排気ガスから発生するもう一つの主要な発生源であり、エネルギー生産部門の寄与は主に電力・熱のために燃やされる石炭とバイオマスに由来する。[廃棄物の野焼き](/hubpedia/waste-management)も、特に低中所得国で廃棄処分の手段として使われており、発生源として意外に大きな役割を果たしている。 [38][39][40][41]\n\n一部の国、特に豊かな国々では、バイオマスや石炭の燃焼からの脱却とよりクリーンな自動車の導入により、過去50年間でブラックカーボン排出が大幅に減少している。 [69]\n\n## メタン（CH4）\n\nメタンは[温室効果ガス](/hubpedia/greenhouse-gas)であり、主に気候変動への寄与という観点で議論される。ただし大気汚染の文脈でも無関係ではなく、分解して人間の健康に有害なオゾンを形成することで健康に影響を与えうる。多くの地域で、メタンはオゾンの最大の前駆物質である。年間最大50万人の早死にをもたらすと推定されているが、この数値の確度は低い。 [42][70][71][80]\n\n最大の発生源は農業、特に[畜産](/hubpedia/meat-production)と稲作である。反芻家畜、主に牛は消化器系でメタンを生成し、げっぷとして大気中に放出する。稲は酸素濃度の低い水田で栽培されることが多いため、メタンを発生させる。エネルギー生産部門も大きな発生源で、その多くは油田・ガス田からの「フュージティブ排出（漏出）」によるものであり、石炭採掘も重要な発生源である。三番目に大きく寄与するのが廃棄物部門で、生ごみや紙などの有機物が埋立地のように酸素の少ない環境で腐敗するとメタンが発生する。 [43][44][45][46][47][48][49][50]\n\n英国のような豊かな国々では、廃棄物側の対策の実施により埋立地由来のメタンが減少している。 [72]\n\n## アンモニア（NH3）と非メタン揮発性有機化合物（NMVOCs）\n\n人間によるアンモニア排出のほぼすべては農業に由来する。作物に合成肥料や堆肥として窒素を施すと、その一部が土壌中でアンモニアに変換される。埋立地での有機廃棄物の分解やエネルギー生産も、小規模な発生源に含まれる。アンモニア自体は大気中に長くとどまらず、典型的には数時間から数日で消滅するが、他の気体と反応して健康を害する微小粒子を形成しうる。一部の研究では、これによる早死にが年間最大38万5000人にのぼりうると示唆されているが、この推定の確度は低い。 [9][51][52][73][81]\n\nアンモニアは、排出の方向が他と逆になっている点で特異である。他の多くの大気汚染物質の排出が世界的にピークを過ぎているのに対し、アンモニアの排出は畜産と合成肥料の使用の増加に伴い増え続けている。例外は限られており、特に欧州の一部の国では、数十年前より肥料の使用量を減らしたことで排出量がわずかに減少した。 [74][75]\n\n非メタン揮発性有機化合物は、高濃度で直接的な毒性を持ちうるほか、他の気体と混ざってオゾンや微小粒子を形成することで人間の健康を脅かしうる。化石燃料の燃焼や自動車の排気ガスといった従来型の汚染源から発生するが、他の多くの汚染物質とは異なり、塗料・洗浄剤・化学工場などの溶剤も主要な発生源である。燃焼を止めるだけでは減らない汚染物質がある、という点でNMVOCsは例外的な位置にある。 [53][54][55]\n\n## 部門別の内訳から見える対策の方向\n\n物質ごとに主要な発生源は異なるが、化石燃料であれバイオマスであれ、[エネルギー用の燃焼](/hubpedia/energy-mix)が多くの大気汚染物質の根本的な発生源となっている点は共通している。SO2は石炭火力、NOxは輸送と発電、ブラックカーボンは家庭の固形燃料とディーゼル、というように、燃焼の形態の違いが物質ごとの内訳の違いを生んでいる。 [23][33][38][56]\n\n燃焼に還元できない部分もある。農業由来のメタンとアンモニアがそれで、肉の生産・消費を減らしてより植物由来の食生活へ移行することで、この二つを同時に削減できるとされる。実際、NOxでも輸送と電力生産の排出が大きく減少する一方、農業からの排出はほとんど減っていない。燃焼側の技術対策が効いた部門と、そうでない部門との差が、部門別の内訳に残されている。 [57][67][74]\n\n## 関連記事\n\n- [死因](/hubpedia/cause-of-death)",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/air-pollution-sources",
+        "title": "大気汚染の発生源",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on air-pollution-sources. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/air-pollution",
+        "title": "air-pollution",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "The pollution these sources produce. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Sources of Air Pollution",
+        "summary": "Air pollution arises in two contexts, indoor and outdoor, and most of it traces back to the burning of fuel. Major pollutants such as sulfur dioxide, nitrogen oxides, black carbon, methane, ammonia, and non-methane volatile organic compounds are each emitted in different proportions by different sectors: energy production, transport, industry, agriculture, and waste. Because the sectoral breakdown differs greatly from one substance to another, it happens repeatedly that a measure which reduces one pollutant does nothing for another.",
+        "bodyMarkdown": "## Two settings: indoors and outdoors\n\nThe same phrase \"air pollution\" in fact refers to two entirely different places. One is [indoor (household) air pollution](/hubpedia/indoor-air-pollution), produced by fuels burned inside the home for cooking and heating; the other is pollution that spreads through the outdoor air. In low-income countries, reliance on solid fuels such as firewood and charcoal for cooking persists, so indoor air pollution tends to account for a larger share. As countries industrialize and move from low-income to middle-income status, outdoor air pollution tends to increase instead. [1][2][3]\n\nWhen measuring health damage, air pollution is treated as the combination of outdoor and indoor particulate matter and ozone. The problem itself is not new. It has existed ever since humans began burning things as fuel, first firewood and biomass, and later fossil fuels. [10][11]\n\nGlobal deaths in 2021 are estimated at roughly 8 million in total. Of these, 3.1 million were due to indoor air pollution, 4.7 million to outdoor particulate matter, and about 0.5 million to outdoor ozone pollution. However, simply adding these three risk factors together gives 8.3 million, higher than the figure the Global Burden of Disease reports as its aggregate. This is because summing the individual factors double-counts the overlap between risk factors — a caveat that recurs whenever sector-by-sector and substance-by-substance figures are handled. [12][58][59][60][61][76]\n\n## How the health damage occurs\n\nOne pathway by which pollutants harm health is the acute effect of direct exposure. This is seen more often in people with pre-existing respiratory conditions such as asthma or chronic obstructive pulmonary disease (COPD). Another pathway runs through particulate matter: the smaller the particles, the further they penetrate into the lungs and airways, and in some cases into the bloodstream, so the adverse health effects tend to be greater. Particulate matter can cause respiratory and cardiovascular problems, including cancer, stroke, and heart attack. [13][14][15][16]\n\nA third pathway is ozone. Ozone causes breathing difficulties and can worsen acute symptoms such as those of asthma and COPD. Chronic exposure causes inflammation of the lungs, raises the risk of respiratory disease, and degrades cardiovascular health. Whether a gas is harmful when inhaled directly, or becomes harmful by turning into particles or ozone in the atmosphere, changes how countermeasures must be designed. This distinction is what comes up again and again in the substance-by-substance sections below. [17][18]\n\n## Sulfur dioxide (SO2)\n\nSulfur dioxide is the main pollutant responsible for acid rain, and it is produced when fuels containing sulfur are burned. Acid rain alters the chemical composition of rivers and lakes and can affect fish populations, soils, and the extent and quality of forests. As for effects on the human body, direct inhalation can worsen respiratory conditions such as asthma and bronchitis, but the main health impact is considered to come from its breaking down to form fine particulate matter. The associated death toll is estimated in the hundreds of thousands per year, though this estimate is less certain than the other figures. [4][5][19][20][21][77]\n\nBroken down by sector, as of 2022 the energy production sector was by far the largest source of SO2 emissions. Coal contains sulfur impurities that are released when it is burned, making [coal-fired power generation](/hubpedia/coal-phase-out) the principal source. Within industry, the main source is metal smelting: ores used in metal production, such as pyrite, contain large amounts of sulfur, which is released when they are roasted at high temperatures. Oil also contains sulfur, so road transport, shipping, and aviation contribute to emissions as well. [22][23][24][25][26]\n\nSO2 is also one of the few pollutants whose emissions have actually been reduced. Global emissions peaked in 1979 and have since fallen by roughly half. At coal-fired power plants, sulfur can be removed at the smokestack by technology that strips out — \"scrubs\" — the sulfur before it is released into the atmosphere, and the combination of this scrubbing technology with the move away from coal in Europe and North America delivered a [rapid reduction](/hubpedia/clean-air-policy). Emissions from shipping also fell by more than 70% in 2020, after strict regulations on marine fuels came into force. [27][28][29][62]\n\n## Nitrogen oxides (NOx)\n\nNitrogen oxides are a group of gases consisting mainly of nitric oxide (NO) and nitrogen dioxide (NO2), formed when fossil fuels burn and nitrogen from the air (and from the fuel itself) reacts with oxygen. Like SO2, they cause acid rain and threaten wildlife and ecosystems. They also cause the smog and thick haze often seen in polluted cities. NOx has a particularly large impact on human health because it acts through all three pathways — direct toxicity, particulate formation, and ozone formation — and for this reason it is thought to be linked to more than a million deaths a year. [6][7][30][31][32][78]\n\nThe largest source is the transport sector, mainly the exhaust of road vehicles. However, emissions from burning coal and gas for electricity generation are nearly on par with road transport, and fuel burned for shipping likewise emits large amounts, making it another major source. Industrial processes such as metal smelting, cement production, and oil refining also contribute substantially. Agriculture is a smaller but important source: when nitrogen is applied to crops as synthetic fertilizer or manure, some of it is converted in the soil into nitrogen oxides (and ammonia). [33][34][63][64][65][66]\n\nProgress in cutting emissions has diverged sharply by sector. Catalytic converters are devices that break NOx compounds down into nitrogen and oxygen, and they can greatly reduce emissions in exhaust gases. Against the background of such technologies, emissions from transport and electricity generation have fallen substantially worldwide. Emissions from agriculture, by contrast, have barely declined and remain flat. [35][67]\n\n## Black carbon (BC)\n\nBlack carbon is the fine particulate known as \"soot,\" formed by the incomplete combustion of firewood, biomass, and fossil fuels such as coal. These particles absorb light, which is why they appear black, and that absorption of sunlight also contributes to climate change. In health terms it acts through direct toxicity and through the formation of fine particulate matter, and because it can be a major contributor to both indoor and outdoor particulate pollution, it is thought to contribute to millions of deaths a year. This contribution estimate is, however, of low certainty. [8][36][37][68][79]\n\nThe leading source is the buildings sector. This is because many households in low- and middle-income countries cook and heat with solid fuels such as firewood and charcoal, and here the sources of black carbon overlap with the indoor air pollution described above. Road transport is another major source, arising from diesel engines and their exhaust, while the energy production sector's contribution comes mainly from coal and biomass burned for electricity and heat. [Open burning of waste](/hubpedia/waste-management), used as a means of disposal especially in low- and middle-income countries, also plays a surprisingly large role as a source. [38][39][40][41]\n\nIn some countries, particularly wealthy ones, black carbon emissions have fallen substantially over the past 50 years thanks to the move away from burning biomass and coal and the introduction of cleaner vehicles. [69]\n\n## Methane (CH4)\n\nMethane is a [greenhouse gas](/hubpedia/greenhouse-gas), and is discussed mainly in terms of its contribution to climate change. It is not irrelevant in the air pollution context, however, since it can affect health by breaking down to form ozone, which is harmful to humans. In many regions, methane is the largest precursor of ozone. It is estimated to cause up to 500,000 premature deaths a year, though this figure is of low certainty. [42][70][71][80]\n\nThe largest source is agriculture, in particular [livestock farming](/hubpedia/meat-production) and rice cultivation. Ruminant livestock, mainly cattle, produce methane in their digestive systems and release it into the atmosphere by belching. Rice is often grown in paddy fields with low oxygen levels, and so generates methane. The energy production sector is also a major source, much of it from \"fugitive emissions\" (leaks) from oil and gas fields, with coal mining an important source as well. The third-largest contributor is the waste sector: methane is produced when organic material such as food waste and paper decays in low-oxygen environments like landfills. [43][44][45][46][47][48][49][50]\n\nIn wealthy countries such as the United Kingdom, methane from landfills has fallen thanks to the implementation of measures on the waste side. [72]\n\n## Ammonia (NH3) and non-methane volatile organic compounds (NMVOCs)\n\nAlmost all human ammonia emissions come from agriculture. When nitrogen is applied to crops as synthetic fertilizer or manure, some of it is converted into ammonia in the soil. Smaller sources include the decomposition of organic waste in landfills and energy production. Ammonia itself does not remain in the atmosphere for long, typically disappearing within hours to days, but it can react with other gases to form fine particles that damage health. Some studies suggest this may cause up to 385,000 premature deaths a year, though this estimate is of low certainty. [9][51][52][73][81]\n\nAmmonia is unusual in that its emissions are moving in the opposite direction from the others. While emissions of most other air pollutants have passed their global peak, ammonia emissions continue to rise along with growth in livestock farming and the use of synthetic fertilizer. The exceptions are limited: in some European countries in particular, emissions have declined slightly because fertilizer use has been reduced from the levels of several decades ago. [74][75]\n\nNon-methane volatile organic compounds can be directly toxic at high concentrations, and can also threaten human health by mixing with other gases to form ozone and fine particles. They arise from conventional pollution sources such as the burning of fossil fuels and vehicle exhaust, but unlike many other pollutants, solvents — in paints, cleaning agents, and chemical plants — are also a major source. NMVOCs occupy an exceptional position in that they are a pollutant which will not be reduced simply by stopping combustion. [53][54][55]\n\n## What the sectoral breakdown suggests about countermeasures\n\nThe principal sources differ from substance to substance, but they have in common that [combustion for energy](/hubpedia/energy-mix) — whether of fossil fuels or biomass — is the fundamental source of many air pollutants. SO2 comes from coal-fired power, NOx from transport and power generation, black carbon from household solid fuels and diesel: differences in the form combustion takes are what produce the differences in the breakdown for each substance. [23][33][38][56]\n\nSome of it cannot be reduced to combustion. That is the case for methane and ammonia from agriculture, and it is held that reducing the production and consumption of meat and shifting toward a more plant-based diet could cut both at once. Indeed, with NOx as well, emissions from transport and electricity generation have fallen greatly while emissions from agriculture have barely declined. The gap between the sectors where technological measures on the combustion side worked and those where they did not is what remains visible in the sectoral breakdown. [57][67][74]\n\n## Related articles\n\n- [Causes of death](/hubpedia/cause-of-death)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T12:42:09.166Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "大気汚染は、屋内（家庭内）大気汚染と屋外大気汚染という二つの文脈で発生する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution",
+              "quote": "It develops in two contexts: indoor (household) air pollution and outdoor air pollution."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "低所得国では、調理用の固形燃料への依存により屋内大気汚染の割合が高くなる傾向がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution",
+              "quote": "indoor pollution rates tend to be high in low-income countries due to a reliance on solid fuels for cooking"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "国が工業化し低所得国から中所得国へ移行するにつれて、屋外大気汚染は増加する傾向がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution",
+              "quote": "outdoor air pollution tends to increase as countries industrialize and shift from low to middle incomes"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "二酸化硫黄（SO2）は酸性雨を引き起こす主な汚染物質である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Sulfur dioxide (SO2) is the main pollutant that causes acid rain."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "SO2は硫黄を含む燃料を燃焼させると発生する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "SO2 is formed when we burn fuels that contain sulfur."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "窒素酸化物（NOx）は、主に一酸化窒素（NO）と二酸化窒素（NO2）からなる一群の気体である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Nitrogen oxides (NOₓ) are a group of gases, mostly made up of nitric oxide (NO) and nitrogen dioxide (NO2)."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "NOxは化石燃料が燃焼する際、空気中（および燃料自体）の窒素が酸素と反応して生成される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "They are formed when fossil fuels are burned, causing nitrogen in the air — and, to a lesser extent, in the fuel itself — to react with oxygen."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "ブラックカーボン（BC）は「すす」として知られる微小粒子である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Black carbon (BC) are the small particles that many of us know as “soot”."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "人間によるアンモニア（NH3）排出のほぼすべては農業に由来する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "As the chart below shows, nearly all human emissions of ammonia (NH3) come from agriculture."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "大気汚染は屋外および屋内の粒子状物質とオゾンの組み合わせである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution",
+              "quote": "the combination of outdoor and indoor particulate matter and ozone"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "大気汚染は人類が燃料として物を燃やし始めて以来存在する問題であり、最初は薪やバイオマス、その後化石燃料が使われた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "This problem has existed since humans started burning materials for fuel — first wood and biomass, then fossil fuels."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "大気汚染により毎年数百万人が早死にしている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Millions of people die prematurely from air pollution every year."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "大気汚染物質が健康に害を与える経路には、直接的な曝露による急性影響がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Direct exposure: Some gases are toxic and can have an acute effect on health."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "直接曝露による急性影響は、喘息や慢性閉塞性肺疾患（COPD）などの既存の呼吸器疾患を持つ人により多く見られる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "These acute impacts are more common for people with existing respiratory conditions such as asthma or chronic obstructive pulmonary disease (COPD)."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "粒子が小さいほど、肺や気道、場合によっては血流に入り込むため、人間の健康への悪影響が大きくなる傾向がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Typically, the smaller the particles are, the worse they can be for human health because they can enter our lungs and airways — and, in some cases, the bloodstream."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "粒子状物質は、がん、脳卒中、心臓発作を含む呼吸器および心血管系の問題を引き起こしうる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Particulate matter can cause respiratory and cardiovascular problems, including cancer, strokes, and heart attacks."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "オゾンは呼吸障害を引き起こし、喘息やCOPDなどの急性症状を悪化させることがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Ozone can cause breathing problems and worsen acute conditions like asthma and COPD4."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "オゾンは慢性曝露により肺の炎症を引き起こし、呼吸器疾患のリスクを高め、心血管の健康を低下させる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "However, it also affects our health through chronic exposure by causing inflammation of the lungs, increasing the risk of respiratory diseases, and reducing our cardiovascular health."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "酸性雨は河川や湖の化学組成を変化させ、魚類の個体数、土壌、森林の広がりと質に影響を与えうる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "This has been a major environmental problem because acid rain can change the chemistry of rivers and lakes, affecting fish populations, soils, and the extent and quality of forests."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "SO2の直接吸入は喘息や気管支炎などの呼吸器疾患を悪化させうる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "First, direct inhalation of SO2 can exacerbate respiratory problems such as asthma and bronchitis."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "SO2が健康に与える主な影響は、分解して微小な粒子状物質を形成することによるものである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "But its main contribution is by breaking down to form small particulate matter."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "2022年、エネルギー生産部門はSO2排出の圧倒的に最大の発生源であった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "In 2022, energy production was the biggest contributor by far."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "石炭には硫黄不純物が含まれており、燃焼時に放出されるため、石炭火力発電がSO2の主な発生源となっている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "This is predominantly due to power from coal, which has sulfur impurities that are released when it’s burned."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "産業部門におけるSO2の主な発生源は金属精錬（smelting）工程である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "The main contribution of the industry is the metal smelting process."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "黄鉄鉱（パイライト）など金属生産に使われる鉱石には多量の硫黄が含まれ、高温で焙焼される際に放出される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "This is because many of the ores that are used to produce metals – such as pyrite – contain large amounts of sulfur, which is released when they are roasted at high temperatures."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "石油にも硫黄が含まれているため、道路輸送、海運、航空もSO2排出に寄与している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Oil also contains sulfur, which is why road transport, shipping, and aviation all contribute."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "海運からのSO2排出は、船舶燃料に対する厳しい規制の導入後、2020年に70％以上減少した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Shipping emissions have received a lot of attention in the last few years because they dropped by more than 70% in 2020 after the introduction of tight regulations on maritime fuels."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "世界のSO2排出量は1979年にピークを迎え、その後ほぼ半減した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "You’ll notice that global emissions of SO2 peaked in 1979 and have almost halved since then, thanks to the introduction of pollution controls, particularly in Europe, North America, and China."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "石炭火力発電所では、大気中に排出される前に硫黄を除去・「スクラブ」する技術によりSO2を煙突から除去できる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "SO2 can be removed from smokestacks in coal plants using technologies that filter or “scrub” the sulfur away before it’s emitted into the atmosphere."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "NOxはSO2と同様に酸性雨を引き起こし、野生生物や生態系を脅かす。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Like sulfur dioxide, which we just looked at, NOₓ can cause acid rain, threatening wildlife and ecosystems."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "NOxは直接毒性・粒子状物質の形成・オゾンの形成という3つの経路すべてを通じて作用するため、人間の健康に特に大きな影響を与える。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "NOₓ has a particularly large impact on human health because it acts through all three mechanisms we looked at earlier."
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "NOxは、汚染された都市でよく見られるスモッグや濃い霞の原因となる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "NOₓ, therefore, causes smog and the thick haze you often see in highly polluted cities."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "NOxの最大の発生源は輸送部門であり、主に道路車両の排気ガスから排出される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "The biggest source is transport — mostly from road vehicles — where NOₓ is emitted from the exhaust of cars and trucks."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "作物に合成肥料や堆肥として窒素を施すと、その一部が土壌中で窒素酸化物（およびアンモニア）に変換される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "When nitrogen is applied to crops as synthetic fertilizer or manure, some of this nitrogen is converted to nitrogen oxides (and ammonia, which we’ll come on to later) in the soil."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "触媒コンバーターは、NOx化合物を窒素と酸素に分解する装置であり、排気ガス中のNOx排出を大幅に削減できる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "NOₓ emissions from exhausts can be dramatically reduced through the use of catalytic converters, which are devices that split the NOₓ compounds into nitrogen and oxygen before they are released into the atmosphere."
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "すすは薪やバイオマス、石炭などの化石燃料の不完全燃焼によって形成される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "soot is formed when we burn materials such as wood and biomass or fossil fuels like coal. It’s the incomplete combustion of these materials that leads to the formation of these BC particles."
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "ブラックカーボン粒子は光を吸収するため黒く見え、この太陽光の吸収が気候変動に寄与する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "These particles are black because they absorb light, and this absorption of sunlight contributes to climate change."
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "低中所得国の多くの家庭が薪や木炭などの固形燃料で調理や暖房を行っているため、建築物部門はブラックカーボンの主要な発生源となっている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Buildings are a major source because many households in low- and middle-income countries still cook and heat with wood, charcoal, and other solid fuels."
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "道路輸送はディーゼルエンジンと排気ガスから発生するため、ブラックカーボンのもう一つの主要な発生源である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Road transport is another major contributor, since BC is formed from diesel engines and exhausts."
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "エネルギー生産部門によるブラックカーボンへの寄与は、主に電力・熱のために燃やされる石炭とバイオマスに由来する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Energy production’s contribution mostly comes from coal and biomass burned for electricity and heat."
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "廃棄物の野焼きは、特に低中所得国で廃棄処分の手段として使われており、ブラックカーボンの発生源として意外に大きな役割を果たしている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "The open burning of waste plays a surprisingly large role, particularly in low-to-middle-income countries, where this is often used for waste disposal."
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "メタン（CH4）は温室効果ガスであり、主に気候変動への寄与という観点で議論される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Methane (CH4) is a greenhouse gas, so it’s mostly discussed regarding contributions to climate change."
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "農業、特に畜産と稲作は、メタンの最大の発生源である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Agriculture, specifically livestock and rice production, is the biggest source of methane."
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "反芻家畜、主に牛は消化器系でメタンを生成し、げっぷとして大気中に放出する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Ruminant livestock — mostly cows — produce methane in their digestive systems and release it into the atmosphere by burping."
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "statement": "稲は酸素濃度の低い水田で栽培されることが多いため、メタンを発生させる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Rice also produces methane because it’s often grown in flooded paddy fields with low oxygen levels."
+            }
+          ]
+        },
+        {
+          "index": 46,
+          "statement": "エネルギー生産部門は、メタンのもう一つの大きな発生源である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Energy generation is another large source of methane."
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "statement": "エネルギー部門からのメタンの多くは、油田・ガス田からの「フュージティブ排出（漏出）」によるものである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Most of it comes from leaks — which we call “fugitive emissions” — from oil and gas wells."
+            }
+          ]
+        },
+        {
+          "index": 48,
+          "statement": "石炭採掘もメタンの重要な発生源である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Another key source is coal mining."
+            }
+          ]
+        },
+        {
+          "index": 49,
+          "statement": "廃棄物部門は、メタンに大きく寄与する3番目のセクターである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "The third sector that contributes a lot is waste."
+            }
+          ]
+        },
+        {
+          "index": 50,
+          "statement": "生ごみや紙などの有機物が埋立地のように酸素の少ない環境で腐敗するとメタンが発生する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Methane is produced when organic material — like food waste or paper — rots in conditions without much oxygen (like in a landfill)."
+            }
+          ]
+        },
+        {
+          "index": 51,
+          "statement": "作物に合成肥料や堆肥として窒素を施すと、その一部が土壌中でNH3に変換される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "When we add nitrogen to crops as synthetic fertilizers or manure, some of this nitrogen is converted into NH3 in the soil."
+            }
+          ]
+        },
+        {
+          "index": 52,
+          "statement": "NH3は大気中に長くとどまらず、典型的には数時間から数日で消滅するが、他の気体と反応して健康を害する微小粒子を形成しうる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Although NH3 doesn’t stay in the atmosphere for long — typically hours to days — it can react with other gases to form small particulates that harm human health."
+            }
+          ]
+        },
+        {
+          "index": 53,
+          "statement": "非メタン揮発性有機化合物（NMVOCs）は、高濃度で直接的な毒性を持ちうるほか、他の気体と混ざってオゾンや微小粒子を形成することで人間の健康を脅かしうる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Non-methane volatile organic compounds (NMVOCs) can threaten human health through all three of the pathways we looked at earlier: they can be directly toxic in high concentrations and mix with other gases to form ozone and small particulates."
+            }
+          ]
+        },
+        {
+          "index": 54,
+          "statement": "NMVOCsは化石燃料の燃焼や自動車の排気ガスといった従来型の汚染源から発生する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "NMVOCs are produced by traditional pollution sources like burning fossil fuels and car exhausts."
+            }
+          ]
+        },
+        {
+          "index": 55,
+          "statement": "他の多くの汚染物質とは異なり、塗料・洗浄剤・化学工場などの溶剤もNMVOCsの主要な発生源である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "However, unlike most other pollutants, solvents such as paints, cleaning products, and chemical plants are also major sources."
+            }
+          ]
+        },
+        {
+          "index": 56,
+          "statement": "化石燃料であれバイオマスであれ、エネルギー用の燃焼が多くの大気汚染物質の根本的な発生源となっている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Burning stuff for energy — whether that’s fossil fuels or biomass — is the root source for many of these gases."
+            }
+          ]
+        },
+        {
+          "index": 57,
+          "statement": "肉の生産・消費を減らしてより植物由来の食生活へ移行することで、メタンとアンモニアの排出を同時に削減できる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Reducing meat production and consumption by shifting to more plant-based diets would reduce methane and ammonia emissions at the same time, too."
+            }
+          ]
+        },
+        {
+          "index": 58,
+          "statement": "2021年、大気汚染による世界の死者数は合計約800万人であった。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "In 2021, this totaled around 8 million deaths."
+            }
+          ]
+        },
+        {
+          "index": 59,
+          "statement": "2021年の大気汚染による死者のうち310万人は屋内（家庭内）の大気汚染によるものだった。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "3.1 million came from household air pollution, a combination of direct toxicity and particulate matter."
+            }
+          ]
+        },
+        {
+          "index": 60,
+          "statement": "2021年の大気汚染による死者のうち470万人は屋外の粒子状物質によるものであった。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "4.7 million came from outdoor particulate matter, and another half a million from outdoor ozone pollution."
+            }
+          ]
+        },
+        {
+          "index": 61,
+          "statement": "2021年の大気汚染による死者のうち約50万人は屋外のオゾン汚染によるものであった。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "4.7 million came from outdoor particulate matter, and another half a million from outdoor ozone pollution."
+            }
+          ]
+        },
+        {
+          "index": 62,
+          "statement": "欧州や北米での石炭離れとスクラビング技術の組み合わせにより、SO2排出の急速な削減が実現した。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "This, combined with a move away from coal in Europe and North America, has led to a rapid reduction in emissions."
+            }
+          ]
+        },
+        {
+          "index": 63,
+          "statement": "電力生産のための石炭・ガスの燃焼によるNOx排出は、道路輸送によるNOx排出にほぼ匹敵する。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "This is almost matched by the burning of coal and gas for electricity production, shown as “energy” in the chart."
+            }
+          ]
+        },
+        {
+          "index": 64,
+          "statement": "海運のための燃料燃焼も道路輸送と同様にNOxを大量に排出しており、主要な発生源の一つとなっている。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Like road transport, burning fuel for shipping emits significant amounts of NOₓ, making it a leading source, too."
+            }
+          ]
+        },
+        {
+          "index": 65,
+          "statement": "金属精錬、セメント生産、石油精製などの産業プロセスもNOx排出に大きく寄与している。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "And industrial processes such as metal smelting, cement production, and petroleum refining contribute a lot."
+            }
+          ]
+        },
+        {
+          "index": 66,
+          "statement": "農業はNOxの発生源として規模は小さいが重要である。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "A smaller but still important source is agriculture."
+            }
+          ]
+        },
+        {
+          "index": 67,
+          "statement": "輸送や電力生産からのNOx排出は世界的に大きく減少した一方、農業からのNOx排出はほとんど減少せず横ばいである。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "While emissions of NOₓ from processes such as transport and electricity production have declined a lot globally, progress on agriculture has been much slower: emissions have flatlined but have not fallen much."
+            }
+          ]
+        },
+        {
+          "index": 68,
+          "statement": "ブラックカーボンは直接的な毒性と微小粒子状物質の形成を通じて健康に影響する。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "However, when it comes to health, it contributes through its direct toxicity and the formation of small particulates."
+            }
+          ]
+        },
+        {
+          "index": 69,
+          "statement": "一部の国、特に豊かな国々では、バイオマスや石炭の燃焼からの脱却とよりクリーンな自動車の導入により、過去50年間でブラックカーボン排出が大幅に減少した。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Some countries — particularly richer ones — have seen a huge drop in black carbon emissions over the last 50 years due to moving away from biomass and coal burning and introducing cleaner cars."
+            }
+          ]
+        },
+        {
+          "index": 70,
+          "statement": "メタンは分解して人間の健康に有害なオゾンを形成することでも健康に影響を与えうる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "However, methane can also affect health when it breaks down to form ozone, a gas that’s hazardous to human health."
+            }
+          ]
+        },
+        {
+          "index": 71,
+          "statement": "多くの地域で、メタンはオゾンの最大の前駆物質である。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "In fact, methane is the biggest precursor to ozone in many places."
+            }
+          ]
+        },
+        {
+          "index": 72,
+          "statement": "英国のような豊かな国々では、こうした対策の実施により廃棄物由来のメタンが減少している。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Methane from waste has been falling in many richer countries — like the United Kingdom — that have implemented these strategies."
+            }
+          ]
+        },
+        {
+          "index": 73,
+          "statement": "埋立地での有機廃棄物の分解やエネルギー生産も、アンモニアの小規模な発生源に含まれる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Other smaller sources include decomposing organic waste in landfills and energy production."
+            }
+          ]
+        },
+        {
+          "index": 74,
+          "statement": "他の多くの大気汚染物質の排出が世界的にピークを過ぎているのに対し、NH3の排出は畜産と合成肥料の使用の増加に伴い増え続けている。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "unlike most other air pollutants, where emissions have peaked globally, emissions of NH3 have continued to rise as livestock production and the use of synthetic fertilizers have increased."
+            }
+          ]
+        },
+        {
+          "index": 75,
+          "statement": "特に欧州の一部の国では、数十年前より肥料の使用量を減らしたことでアンモニア排出量がわずかに減少した。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Some countries — particularly those in Europe — have achieved small reductions in emissions because they use less fertilizers than a few decades ago."
+            }
+          ]
+        },
+        {
+          "index": 76,
+          "statement": "屋内・屋外の粒子状物質と屋外オゾンの個別のリスク要因を合計すると830万人となり、Global Burden of Diseaseが集計として報告する数値より高くなる。",
+          "confidence": 0.7,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Note that when we add all of these individual risk factors — indoor particulates, outdoor particulates, and outdoor ozone — the total comes to 8.3 million, which is higher than the Global Burden of Disease reports on aggregate."
+            }
+          ]
+        },
+        {
+          "index": 77,
+          "statement": "SO2に関連する死者数は年間数十万人規模と推定される。",
+          "confidence": 0.65,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "we would estimate that hundreds of thousands of deaths per year are linked to SO2"
+            }
+          ]
+        },
+        {
+          "index": 78,
+          "statement": "NOxはオゾンおよび粒子状物質の主要な発生源であることから、年間100万人以上の死亡に関連していると考えられる。",
+          "confidence": 0.65,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "given that it’s a main source of ozone (which kills around half a million) and a substantial fraction of particulate matter (which kills several million), it’s reasonable to expect that NOₓ is linked to over a million deaths yearly."
+            }
+          ]
+        },
+        {
+          "index": 79,
+          "statement": "ブラックカーボンは屋内外の粒子状物質汚染の主要な要因となりうり、年間数百万人の死亡に寄与していると考えられる。",
+          "confidence": 0.65,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Black carbon can be a major issue for household and outdoor particulate matter and probably contributes to several million deaths per year."
+            }
+          ]
+        },
+        {
+          "index": 80,
+          "statement": "メタンは年間最大50万人の早死にをもたらすと推定されている。",
+          "confidence": 0.65,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "It’s estimated that methane can lead to up to half a million premature deaths a year."
+            }
+          ]
+        },
+        {
+          "index": 81,
+          "statement": "一部の研究では、アンモニアが粒子状物質による早死にを年間最大38万5000人もたらしうると示唆している。",
+          "confidence": 0.65,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution-sources",
+              "quote": "Some studies suggest ammonia could drive several hundred thousand (up to 385,000) premature deaths from particulate matter."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "clean-air-policy",
+    "topicType": "concept",
+    "categoryLabel": "地球・環境",
+    "title": "大気改善の事例",
+    "summary": "大気汚染は世界の死亡の10件に1件に寄与する主要なリスク要因だが、その死亡率は1990年以降ほぼ半減した。低下の大部分は屋内大気汚染の改善によるもので、屋外汚染については石炭消費の削減、排煙脱硫、車両の排出基準といった個別の政策と技術が導入された国で二酸化硫黄と窒素酸化物が下がった。改善の速度は国によって大きく異なり、費用負担が導入の遅れとして表れている。",
+    "bodyMarkdown": "## 屋内と屋外という二つの文脈\n\n大気汚染には屋内（家庭内）大気汚染と屋外大気汚染という二つの文脈があり、汚染源も、影響を受ける人の範囲も同じではない。いずれも世界最大級の健康・環境問題の一つに数えられ、死亡と疾病負荷の双方で主要なリスク要因となっている。近年では、世界の死亡の10件に1件に大気汚染が寄与している。 [1][2][3][4][22][23]\n\n死亡率が最も高いのは低・中所得国である。低所得国では、大気汚染がリスク要因の順位で最上位に近い、あるいは最大の要因になることが多い。低所得国では[調理用の固体燃料](/hubpedia/energy-access)への依存によって屋内汚染の比重が高くなりやすく、屋外大気汚染のほうは、国が工業化して低所得から中所得へ移行するにつれて増える傾向がある。 [5][21][24]\n\n## 1990年以降の死亡率の低下\n\n1990年以降、大気汚染による死亡率はほぼ半減した。この低下の大部分は[屋内大気汚染](/hubpedia/indoor-air-pollution)の改善によってもたらされたもので、屋外汚染の改善はより緩やかに進んでいる。世界全体の数字が改善しているという事実と、屋外の空気がどれだけ良くなったかという問いは、区別して扱う必要がある。 [6][7][8][9]\n\n屋外大気汚染だけでも、毎年数百万人が早死にしている。長期の推移としては、国が発展し豊かになるにつれて大気汚染が逆U字型のパターンをたどる傾向がある。すなわち、工業化の過程で上昇し、その後に低下へ転じる。 [11][12]\n\n低下の側は、実際に測られている。英国の大気質は、これまでの数世代のいずれよりも現在の方が良好である。 [10]\n\n## 二酸化硫黄と酸性雨\n\n二酸化硫黄と窒素酸化物は、世界保健機関の大気質ガイドラインに含まれる4種類の気体汚染物質のうちの2つである。二酸化硫黄は、20世紀後半における最大級の環境問題の一つだった酸性雨の主な原因物質で、水に溶けて雨を酸性化させ、森林・土壌・河川・湖などの生態系に損害を与える。主な発生源は[石炭燃焼](/hubpedia/coal-phase-out)であり、石炭が含む少量の硫黄が、燃焼時に二酸化硫黄として大気中へ放出される。 [13][14][15][16][25][26]\n\n排出を止める方法は二つある。石炭の使用量そのものを減らすことと、排煙脱硫（スクラビング）技術を導入することである。英国は前者が大きく、1960年代以降に石炭燃焼量が急速に減少し、2022年までに石炭消費量は96%、二酸化硫黄排出量は99%以上減った。イタリアはこれと対照的で、石炭使用量が大きく減り始める前の段階で、二酸化硫黄排出量が90%以上減少していた。 [17][27][28][30]\n\n米国は1990年、クリーン大気法改正の一環として二酸化硫黄の排出量取引制度（キャップ・アンド・トレード）を導入した。目標は2010年までに排出量を1980年比で半減させることだった。1980年代から2000年代初頭にかけて石炭使用量が増えたにもかかわらず排出量は減り、2010年までの削減幅は1980年比でほぼ80%と、目標を上回った。 [18][19][29][31]\n\n欧州諸国は、1979年に定められた長距離越境大気汚染条約の目標達成に向けて排出削減の圧力を受けた。中国の二酸化硫黄排出量は2006年にピークを迎え、その後4分の3、直近10年間だけでも3分の2減少している。中国の1人当たり排出量は、ピーク時でも英国のピーク水準の約5分の1にとどまった。 [32][33][35][49]\n\n## 窒素酸化物と道路交通\n\n窒素酸化物では[道路交通](/hubpedia/air-pollution-sources)が主要な発生源であり、都市部の住民にとっては最大の曝露源となる。英国の交通由来の窒素酸化物排出量は1990年にピークを迎えた後に減少し、直近数年では1950年の水準を下回っている。同じ英国で、1952年から1990年にかけて自動車・バス・トラック・オートバイの走行距離は約300%増えており、走行距離の増加と排出量の減少は両立している。 [36][37][38][39]\n\n同じ時期に、車両の排出基準と後処理技術が整備された。最初の「ユーロ」排出基準は1992年に施行され（ユーロ1）、現在はユーロ6にあたる。適用範囲は欧州連合加盟国に加えて、ノルウェー、アイスランド、リヒテンシュタインに及ぶ。削減技術には触媒コンバーター、粒子状物質フィルター、排ガス再循環、リーンNOxトラップなどがあり、英国のディーゼル車とガソリン車の走行1キロあたりの窒素酸化物排出量は、1990年代後半の15%未満になっている。 [20][40][41][42][43]\n\nテールパイプからの排出がない電気自動車は、窒素酸化物の排出を完全になくす。ルワンダの首都キガリは、新規ガソリンオートバイの登録を禁止している。窒素酸化物の排出量については、中国、南アフリカ、ブラジルがすでにピークを過ぎた中所得国に含まれる。 [44][45][48]\n\n## 費用と導入の遅れ\n\n排出制御技術は無償ではない。石炭火力発電所に導入すると、発電所のコストは約10%から30%増える。インドでは石炭発電所の半数以上で脱硫技術導入の入札が行われたものの、コスト増加により大幅に遅延しており、実際に脱硫技術が導入されている石炭火力発電容量は8%にとどまる。 [34][46][47]\n\n結果として、改善の進み方は一様ではない。屋内汚染の改善が続く一方で屋外汚染の改善は緩やかで、屋外大気汚染による早死には今も年間数百万人の規模にある。二酸化硫黄や窒素酸化物のピークをすでに過ぎた国がある一方、脱硫のような既存技術の導入が費用を理由に進まない国もある。 [9][11][34][48]\n\n## 関連記事\n\n- [死因](/hubpedia/cause-of-death)\n- [エネルギー構成](/hubpedia/energy-mix)\n- [低炭素電力](/hubpedia/low-carbon-electricity)",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/cleanest-air-lessons",
+        "title": "大気改善の事例",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on clean-air-policy. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/air-pollution",
+        "title": "air-pollution",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "The pollution being reduced. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Cases of Air Quality Improvement",
+        "summary": "Air pollution is a leading risk factor contributing to one in ten deaths worldwide, yet its death rate has roughly halved since 1990. Most of the decline came from improvements in indoor air pollution, while for outdoor pollution, sulfur dioxide and nitrogen oxides fell in countries that adopted specific policies and technologies such as reduced coal consumption, flue-gas desulfurization, and vehicle emission standards. The pace of improvement varies widely between countries, with cost burdens showing up as delays in adoption.",
+        "bodyMarkdown": "## Two contexts: indoor and outdoor\n\nAir pollution has two contexts — indoor (household) air pollution and outdoor air pollution — and neither the sources nor the range of people affected are the same. Both rank among the world's largest health and environmental problems, and both are leading risk factors for deaths as well as disease burden. In recent years, air pollution has contributed to one in ten deaths worldwide. [1][2][3][4][22][23]\n\nDeath rates are highest in low- and middle-income countries. In low-income countries, air pollution is often near the top of, or the single largest, risk factor. In low-income countries, reliance on [solid fuels for cooking](/hubpedia/energy-access) tends to make indoor pollution weigh more heavily, while outdoor air pollution tends to increase as countries industrialize and move from low- to middle-income status. [5][21][24]\n\n## The decline in death rates since 1990\n\nSince 1990, the death rate from air pollution has roughly halved. Most of this decline was driven by improvements in [indoor air pollution](/hubpedia/indoor-air-pollution), while improvements in outdoor pollution have progressed more slowly. The fact that global figures are improving and the question of how much cleaner the outdoor air has become need to be treated as separate matters. [6][7][8][9]\n\nOutdoor air pollution alone causes millions of premature deaths every year. Over the long run, air pollution tends to follow an inverted U-shaped pattern as countries develop and grow richer: it rises through the process of industrialization and then turns downward. [11][12]\n\nThe downward side has actually been measured. Air quality in the United Kingdom is better today than in any of the past several generations. [10]\n\n## Sulfur dioxide and acid rain\n\nSulfur dioxide and nitrogen oxides are two of the four gaseous pollutants covered by the World Health Organization's air quality guidelines. Sulfur dioxide was the main agent behind acid rain, one of the largest environmental problems of the late twentieth century: it dissolves in water and acidifies rain, damaging ecosystems such as forests, soils, rivers, and lakes. Its main source is [coal combustion](/hubpedia/coal-phase-out) — the small amount of sulfur that coal contains is released into the atmosphere as sulfur dioxide when it burns. [13][14][15][16][25][26]\n\nThere are two ways to stop these emissions: reducing the amount of coal used, and installing flue-gas desulfurization (scrubbing) technology. In the United Kingdom the former dominated: coal combustion fell rapidly from the 1960s onward, and by 2022 coal consumption had dropped by 96% and sulfur dioxide emissions by more than 99%. Italy stands in contrast — its sulfur dioxide emissions had fallen by more than 90% before coal use began to decline substantially. [17][27][28][30]\n\nIn 1990, the United States introduced a cap-and-trade system for sulfur dioxide emissions as part of the Clean Air Act Amendments. The goal was to halve emissions from 1980 levels by 2010. Despite coal use rising from the 1980s into the early 2000s, emissions fell, and the reduction achieved by 2010 was nearly 80% below 1980 levels — exceeding the target. [18][19][29][31]\n\nEuropean countries faced pressure to cut emissions in order to meet the targets of the Convention on Long-Range Transboundary Air Pollution, established in 1979. China's sulfur dioxide emissions peaked in 2006 and have since fallen by three-quarters, with two-thirds of that decline coming in the last decade alone. Even at its peak, China's per capita emissions remained at about one-fifth of the United Kingdom's peak level. [32][33][35][49]\n\n## Nitrogen oxides and road transport\n\nFor nitrogen oxides, [road transport](/hubpedia/air-pollution-sources) is the main source and the largest source of exposure for urban residents. Nitrogen oxide emissions from transport in the United Kingdom peaked in 1990 and then declined, falling below 1950 levels in recent years. In that same country, distance traveled by cars, buses, trucks, and motorcycles rose by roughly 300% between 1952 and 1990 — rising mileage and falling emissions are compatible. [36][37][38][39]\n\nOver the same period, vehicle emission standards and after-treatment technologies were put in place. The first \"Euro\" emission standard took effect in 1992 (Euro 1), and the current one is Euro 6. It applies across European Union member states as well as Norway, Iceland, and Liechtenstein. Abatement technologies include catalytic converters, particulate filters, exhaust gas recirculation, and lean NOx traps, and nitrogen oxide emissions per kilometer traveled from diesel and gasoline vehicles in the United Kingdom are now less than 15% of their late-1990s levels. [20][40][41][42][43]\n\nElectric vehicles, which have no tailpipe emissions, eliminate nitrogen oxide emissions entirely. Kigali, the capital of Rwanda, has banned the registration of new gasoline motorcycles. For nitrogen oxide emissions, China, South Africa, and Brazil are among the middle-income countries that have already passed their peak. [44][45][48]\n\n## Costs and delays in adoption\n\nEmission control technology is not free. Installing it at a coal-fired power plant raises the plant's costs by roughly 10% to 30%. In India, more than half of coal power plants have tendered for desulfurization technology, but rising costs have caused substantial delays, and only 8% of coal-fired generating capacity actually has desulfurization technology installed. [34][46][47]\n\nAs a result, progress is uneven. Indoor pollution keeps improving while outdoor pollution improves slowly, and premature deaths from outdoor air pollution still run into the millions each year. Some countries have already passed their peaks for sulfur dioxide and nitrogen oxides, while in others the adoption of existing technologies such as desulfurization stalls on cost. [9][11][34][48]\n\n## Related articles\n\n- [Cause of death](/hubpedia/cause-of-death)\n- [Energy mix](/hubpedia/energy-mix)\n- [Low-carbon electricity](/hubpedia/low-carbon-electricity)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T12:42:09.166Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "大気汚染は世界最大級の健康・環境問題の一つである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution",
+              "quote": "Air pollution is one of the world's largest health and environmental problems."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "大気汚染には屋内（家庭内）大気汚染と屋外大気汚染の二つの文脈がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution",
+              "quote": "It develops in two contexts: indoor (household) air pollution and outdoor air pollution."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "大気汚染は死亡の主要なリスク要因の一つである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution",
+              "quote": "Air pollution is one of the leading risk factors for death."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "近年、大気汚染は世界の死亡の10件に1件に寄与している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution",
+              "quote": "In recent years, air pollution has contributed to one in ten deaths globally."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "大気汚染による死亡率は低・中所得国で最も高い。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution",
+              "quote": "Death rates from air pollution are highest in low-to-middle-income countries"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "大気汚染による死亡率は、主に屋内汚染の改善により低下している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution",
+              "quote": "Death rates from air pollution are falling – mainly due to improvements in indoor pollution"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "1990年以降、大気汚染による死亡率はほぼ半減した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution",
+              "quote": "since 1990, death rates have nearly halved."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "この死亡率の低下は主に屋内大気汚染の改善によってもたらされた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution",
+              "quote": "this decline has been primarily driven by improvements in indoor air pollution."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "屋内大気汚染による死亡率は大きく低下した一方、屋外汚染の改善はより緩やかである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution",
+              "quote": "Death rates from indoor air pollution have seen an impressive decline, while improvements in outdoor pollution have been much more modest."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "英国の大気質は、これまでの数世代よりも現在の方が良好である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "air quality in the United Kingdom is now better than it was for several generations"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "屋外大気汚染により、毎年数百万人が早死にしている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "outdoor air pollution leads to millions of premature deaths every year"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "大気汚染は国が発展し豊かになるにつれて、逆U字型のパターンをたどる傾向がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "an upside-down U. Outdoor pollution starts low, then climbs as countries burn more fossil fuels for energy and industrialize their economies. Eventually, this reaches a turning point, and emissions fall"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "二酸化硫黄と窒素酸化物は、世界保健機関の大気質ガイドラインに含まれる4種類の気体汚染物質のうち2つである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "These are two of the four gaseous pollutants included in the World Health Organization’s Air Quality Guidelines"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "酸性雨は主に二酸化硫黄（SO2）の排出によって引き起こされる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "Acid rain is mostly caused by emissions of a gas called sulfur dioxide (SO2)"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "二酸化硫黄の主な発生源は石炭燃焼である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "The main source of SO2 is coal burning, whether for electricity, heat, or industrial processes"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "石炭は少量の硫黄を含み、燃焼時に二酸化硫黄として大気中に放出される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "Coal contains small amounts of sulfur, which is released into the atmosphere as sulfur dioxide when it's burned"
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "英国では2022年までに石炭消費量が96%減少し、二酸化硫黄排出量は99%以上減少した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "by 2022, coal consumption had fallen by 96% and sulfur dioxide emissions by more than 99%"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "1990年、米国はクリーン大気法改正の一環として二酸化硫黄の排出量取引制度（キャップ・アンド・トレード）を導入した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "In 1990, the US included a cap-and-trade scheme on SO2 as part of its Clean Air Act Amendments"
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "この米国の制度の目標は、2010年までに二酸化硫黄排出量を1980年比で半減させることだった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "The goal was to cut the country's emissions in half by 2010 compared to 1980"
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "1992年、車両向けの最初の「ユーロ」排出基準が施行された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "In 1992, the first “Euro” standards for vehicles were put into force"
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "低所得国では大気汚染がリスク要因の中で最上位に近い、あるいは最大のリスク要因であることが多い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution",
+              "quote": "In low-income countries, it is often very near the top of the list (or is the leading risk factor)."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "大気汚染は疾病負荷（disease burden）の主要なリスク要因の一つである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution",
+              "quote": "Air pollution is one of the leading risk factors for disease burden"
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "大気汚染は世界の疾病負荷の主な要因の一つでもある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution",
+              "quote": "it is also one of the main contributors to the global disease burden."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "低所得国では調理用の固体燃料への依存により屋内汚染の割合が高くなりがちであり、屋外大気汚染は国が工業化して低所得から中所得へ移行するにつれて増加する傾向がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/air-pollution",
+              "quote": "indoor pollution rates tend to be high in low-income countries due to a reliance on solid fuels for cooking, and outdoor air pollution tends to increase as countries industrialize and shift from low to middle incomes."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "酸性雨は20世紀後半における最大級の環境問題の一つだった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "Acid rain was one of the biggest environmental problems of the late 20th century"
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "二酸化硫黄は水に溶けて雨を酸性化させ、森林・土壌・河川・湖などの生態系に損害を与える。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "SO2 can dissolve in water, making rainfall acidic, which damages ecosystems such as forests, soils, rivers, and lakes"
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "二酸化硫黄の排出を止める方法は、石炭使用量を減らすことと、排煙脱硫（スクラビング）技術を導入することの2つがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "Burn less coal.Install technologies on coal plants which remove the sulfur from the smokestacks before it is emitted into the atmosphere: this is called “scrubbing” or “flue gas desulfurization”"
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "英国では1960年代以降、石炭燃焼量が急速に減少した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "Its coal burning has fallen rapidly since the 1960s"
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "米国では1980年代から2000年代初頭にかけて、石炭使用量が増加する一方で二酸化硫黄排出量は減少した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "In the United States, SO2 emissions declined from the 1980s to the early 2000s while coal use increased"
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "イタリアでは、石炭使用量が大きく減少し始める前に二酸化硫黄排出量が90%以上減少していた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "In Italy, emissions had fallen by more than 90% before coal use started to fall significantly"
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "米国の二酸化硫黄排出量は2010年までに1980年比でほぼ80%減少し、目標を上回った。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "It was clearly successful and even exceeded its goal: as you can see in the chart, SO2 emissions in the US had dropped by almost 80% by 2010"
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "欧州諸国は、1979年に定められた長距離越境大気汚染条約の目標達成に向けて排出削減の圧力を受けた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "European countries were under similar pressure to reduce emissions after targets were set within the region’s Convention on Long-range Transboundary Air Pollution, which was set in 1979"
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "中国の二酸化硫黄排出量は2006年にピークを迎えた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "Emissions peaked in 2006 and have dropped rapidly in the last decade while coal consumption has continued to grow"
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "インドの石炭火力発電容量のうち脱硫技術が導入されているのはわずか8%である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "Just 8% of India’s coal plant capacity has desulfurization technologies installed"
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "中国の二酸化硫黄排出量は2006年のピーク以降、4分の3減少し、直近10年間だけでも3分の2減少した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "Emissions have fallen by three-quarters since their peak in 2006 and by two-thirds in the last decade alone"
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "道路交通は窒素酸化物の主要な発生源であり、都市部の住民にとっては最大の曝露源である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "Road transport is one of the main sources of NOx, and for the huge number of people living in towns and cities — with high levels of congestion and traffic — it’s the largest source of NOx that they’re exposed to"
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "英国の交通由来の窒素酸化物排出量は1990年にピークを迎えた後、減少した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "climbing steeply through to the 1980s before peaking in 1990 and then falling"
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "英国では、走行距離が増加したにもかかわらず、直近数年の窒素酸化物排出量は1950年の水準を下回っている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "Emissions within the last few years have dipped lower than 1950 levels"
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "1952年から1990年にかけて、英国での自動車・バス・トラック・オートバイの走行距離は約300%増加した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "From 1952 to 1990, the number of miles driven by cars, buses, trucks and motorcycles increased about 300%"
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "ユーロ排出基準は欧州連合加盟国に加え、ノルウェー、アイスランド、リヒテンシュタインにも適用された。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "These standards — which applied to all countries in the European Union, plus Norway, Iceland, and Liechtenstein — were designed to reduce emissions of harmful local air pollutants, including NOx"
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "「ユーロ1」基準は1992年に導入され、現在は「ユーロ6」基準となっている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "“Euro 1” was launched in 1992, and we’re now on Euro 6 standards"
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "窒素酸化物排出削減のための技術には、触媒コンバーター、粒子状物質フィルター、排ガス再循環、リーンNOxトラップなどがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "These technologies have included catalytic converters, filters for particulate matter, gas recirculation — which lowers the temperature of combustion and therefore produces less NOx from the exhaust — and “lean NOx traps” — which convert NOx into other less harmful nitrogen gases"
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "英国のディーゼル車とガソリン車は、1990年代後半と比べて走行1キロあたりの窒素酸化物排出量が15%未満になっている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "both fuel types emit less than 15% of what they did in the late 1990s"
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "電気自動車はテールパイプからの排出がなく、窒素酸化物の排出を完全になくす。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "Electric vehicles produce no tailpipe emissions, eliminating NOx entirely"
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "statement": "ルワンダの首都キガリは、新規ガソリンオートバイの登録を禁止している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "Rwanda’s capital, Kigali, has already banned the registration of new gasoline motorcycles, accelerating the move to all-electric ones"
+            }
+          ]
+        },
+        {
+          "index": 46,
+          "statement": "石炭火力発電所への排出制御技術導入は、発電所のコストを約10%から30%増加させる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "installing pollution controls increases the cost of coal plants — often by around 10% to 30% —"
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "statement": "インドの石炭発電所の半数以上で脱硫技術導入の入札が行われたが、コスト増加により大幅に遅延している。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "More than half of India’s coal plants have had a “bid awarded” to have desulfurization technologies installed, but increasing costs have led to huge delays"
+            }
+          ]
+        },
+        {
+          "index": 48,
+          "statement": "中国、南アフリカ、ブラジルは窒素酸化物排出量のピークを既に過ぎた中所得国に含まれる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "some middle-income countries have passed their peak, including China, South Africa, and Brazil"
+            }
+          ]
+        },
+        {
+          "index": 49,
+          "statement": "中国の1人当たり二酸化硫黄排出量は、ピーク時で英国のピーク水準の約5分の1にとどまった。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/cleanest-air-lessons",
+              "quote": "China peaked at around one-fifth of the levels of the UK"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "temperature-anomaly",
+    "topicType": "concept",
+    "categoryLabel": "気候・エネルギー",
+    "title": "気温偏差",
+    "summary": "気温偏差は、ある地点や地域の気温を、あらかじめ定めた基準期間の平均気温と比べたときのずれとして表した量である。絶対気温が標高や都市化の程度によって大きく異なるのに対し、偏差は場所ごとの条件の影響を打ち消して比較できるため、世界の温暖化を追跡する主要な指標として使われている。現在広く用いられている月別の偏差データは、観測とモデルを統合したECMWFのERA5に基づき、1940年以降を対象としている。",
+    "bodyMarkdown": "## 基準からのずれという指標\n\n気温偏差は、ある月の気温そのものを示す量ではなく、過去の気温と比べてどれだけ異なるかを示す量である。値が正であれば基準より気温が高かったこと、負であれば基準より低かったことを意味する。世界の温暖化を追跡するための主要な指標は、この気温偏差である。 [1][2][3]\n\n絶対気温をそのまま並べても、地域どうしの比較は難しい。標高や都市化の程度が異なれば絶対気温は大きく食い違うからである。気温偏差は基準値または平均気温からのずれを取ることで、観測地点の場所や標高といった要因の影響を緩和し、その地域が過去の平均と比べて暖かいか寒いかという比較可能な指標を与える。たとえば平年より涼しい夏の月は、山頂と谷とで絶対気温が大きく異なっていても、双方で同じように涼しい月として記録される。 [15][26][27]\n\nこの性質があるため、気候研究では気温偏差が、時間の経過に伴う変化を示す重要な指標として扱われている。 [4]\n\n## 基準期間の設定\n\n偏差は基準となる気温、すなわちベースラインを基準に測られる。ベースラインは通常、数十年分の気温データを平均して定められる。数十年をまとめて平均するのは、単年の変動が基準そのものを揺らすことを避けるためである。 [5][6]\n\n広く用いられている気温偏差の分析では、1991年から2020年までの期間が基準として選ばれている。これはECMWFの既定の基準期間である。基準期間が異なれば同じ観測に対する偏差の数値も変わるため、偏差の値を読むときはどの期間を基準にしているかが前提として必要になる。 [7]\n\n## ERA5による観測とモデルの統合\n\n気温偏差のデータは、ECMWFのERA5プロジェクトのデータに基づいている。ERA5は衛星、観測所、気球などの膨大な観測データを、物理法則に基づくモデルと統合したものである。この統合により、1940年代以降の世界の気候動向について、統一された詳細な気候記録が作られている。月別平均データは1940年から現在までの期間をカバーする。 [8][20][21][28]\n\nERA5は31キロメートル四方の高解像度の気候記録を提供し、大気、海洋波、陸地表面に関する幅広い変数を含む。気温偏差に用いられるのは地表2メートルの気温記録で、陸上、海上、内陸水域における測定値を含む。地表付近の気温そのものは直接の格子点値として得られるわけではなく、ECMWFは地表と最も近い上空の気象データ地点との間を補完する手法で算出している。 [9][10][22]\n\nERA5の気温データは当初ケルビン(K)で示される。摂氏に直すには273.15を引く。 [14][23]\n\n## 格子データから国別の値へ\n\nERA5のデータは格子(グリッド)形式で構成されている。国ごとの値を出すには、この格子を国境で切り分ける必要があり、世界銀行の国境データを用いて国別データに変換したうえで、地球の曲率による地理的な差異を調整している。 [11][17]\n\n調整が必要なのは、格子セルの物理的な面積が緯度によって変わるためである。極に近いセルは赤道付近のセルよりも面積が小さい。そのまま単純平均すると高緯度のセルが実際の広さ以上に効いてしまうため、国別平均気温の算出には緯度の余弦(コサイン)を用いた数学的補正が適用されている。こうして得られた国別の月次気温偏差データは、1940年以降について確認できる。 [16][24][25]\n\n## 記録が示す傾向と地域差\n\n年ごとの変動はあるものの、気温は上昇し続けている。単年の高低だけを取り出しても傾向は読み取れず、長期の並びとして見る必要があるのは、この年々の揺れがあるためである。 [13]\n\n上昇は地球上に一様に及ぶわけではない。気候変動はすべての地域に同じように影響するのではなく、世界全体で見ると気温には大きな地域差がある。北極は1979年以降、世界平均に比べておよそ4倍の速さで温暖化していると見積もられており、この推計は他の指標に比べて確度が低い部類に属する。 [18][19][29]\n\n## 政策上の基準点と想定される影響\n\n気温偏差は国際的な政策目標の表現にも使われている。2015年にパリ協定が採択され、産業革命前と比べて気温上昇を「2°Cを十分下回る」水準に抑え、「1.5°Cに抑える努力を追求する」ことが合意された。ここでの数値も絶対気温ではなく、過去の水準からのずれとして述べられている。 [12]\n\n現在の気候変動は、主に人間による[温室効果ガス](/hubpedia/greenhouse-gas)の排出によって引き起こされているとされる。温暖化は海面水位、海氷、氷河のバランス、降水パターン、極端な気温に大きな変化をもたらし得る。これらの影響の大きさや時期についての記述は、気温偏差そのものの観測より確度が低く、示された範囲を超えて確定的に読むことはできない。 [30][31]\n\n## 関連記事\n\n- [年間二酸化炭素排出量](/hubpedia/annual-co2)\n- [一人あたり排出](/hubpedia/per-capita-co2)\n- [消費ベース排出](/hubpedia/consumption-based-emissions)\n- 気候変動への支持",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/temperature-anomaly",
+        "title": "気温偏差",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on temperature-anomaly. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/climate-change",
+        "title": "climate-change",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "The change the anomaly measures. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Temperature anomaly",
+        "summary": "A temperature anomaly is the temperature of a given location or region expressed as its deviation from the average temperature over a predefined baseline period. Whereas absolute temperatures differ widely according to elevation and the degree of urbanization, anomalies cancel out the influence of local conditions and so allow comparison, which is why they serve as the principal indicator for tracking global warming. The monthly anomaly data now in wide use are based on ECMWF's ERA5, which integrates observations and models, and cover the period from 1940 onward.",
+        "bodyMarkdown": "## An indicator of deviation from a baseline\n\nA temperature anomaly is not a measure of the temperature of a given month in itself, but a measure of how much that temperature differs from temperatures in the past. A positive value means the temperature was higher than the baseline; a negative value means it was lower. The temperature anomaly is the principal indicator used to track global warming. [1][2][3]\n\nSimply listing absolute temperatures makes comparison between regions difficult, because absolute temperatures diverge widely where elevation and the degree of urbanization differ. By taking the deviation from a baseline value or an average temperature, the temperature anomaly mitigates the influence of factors such as the location and elevation of an observation site, and gives a comparable indicator of whether a region is warm or cold relative to its own past average. A summer month cooler than usual, for example, is recorded as equally cool on a mountain summit and in a valley, even though the absolute temperatures at the two differ greatly. [15][26][27]\n\nBecause of this property, climate research treats the temperature anomaly as an important indicator of change over time. [4]\n\n## Setting the baseline period\n\nAnomalies are measured against a reference temperature, that is, a baseline. The baseline is normally established by averaging several decades of temperature data. Decades are averaged together so that variation in any single year does not unsettle the baseline itself. [5][6]\n\nWidely used analyses of temperature anomalies take the period from 1991 to 2020 as their baseline. This is ECMWF's default baseline period. Because a different baseline period changes the anomaly figures derived from the same observations, reading an anomaly value requires knowing which period it is measured against. [7]\n\n## Integrating observations and models through ERA5\n\nTemperature anomaly data are based on data from ECMWF's ERA5 project. ERA5 integrates a vast body of observational data from satellites, stations, balloons and other sources with models grounded in physical laws. This integration produces a unified and detailed climate record of global climate trends since the 1940s. The monthly average data cover the period from 1940 to the present. [8][20][21][28]\n\nERA5 provides a high-resolution climate record on a 31-kilometre grid and includes a broad range of variables for the atmosphere, ocean waves and land surface. What is used for temperature anomalies is the record of temperature two metres above the surface, including measurements over land, sea and inland waters. Near-surface temperature itself is not obtained directly as a grid-point value; ECMWF derives it by interpolating between the surface and the nearest meteorological data point aloft. [9][10][22]\n\nERA5 temperature data are given initially in kelvin (K). To convert to degrees Celsius, subtract 273.15. [14][23]\n\n## From gridded data to country-level values\n\nERA5 data are organized in a grid format. Producing country-level values requires dividing this grid along national borders; the data are converted into country-level data using World Bank boundary data, with adjustments for geographic differences arising from the curvature of the Earth. [11][17]\n\nAdjustment is necessary because the physical area of a grid cell varies with latitude. Cells nearer the poles are smaller in area than cells near the equator. A simple average would therefore give high-latitude cells more weight than their actual extent warrants, so a mathematical correction using the cosine of latitude is applied when calculating country average temperatures. The resulting country-level monthly temperature anomaly data are available from 1940 onward. [16][24][25]\n\n## Trends and regional differences shown by the record\n\nDespite year-to-year variation, temperatures continue to rise. It is because of this year-to-year fluctuation that the trend cannot be read from the high or low of a single year alone and must be viewed as a long-term sequence. [13]\n\nThe rise is not uniform across the globe. Climate change does not affect every region equally, and temperatures show large regional differences worldwide. The Arctic is estimated to have warmed roughly four times as fast as the global average since 1979, an estimate that belongs among the less certain figures compared with other indicators. [18][19][29]\n\n## Policy benchmarks and projected impacts\n\nTemperature anomalies are also used to express international policy targets. The Paris Agreement, adopted in 2015, set out to hold the increase in temperature to \"well below 2°C\" above pre-industrial levels and to \"pursue efforts to limit it to 1.5°C\". These figures too are stated not as absolute temperatures but as deviations from past levels. [12]\n\nPresent-day climate change is held to be caused mainly by human emissions of [greenhouse gases](/hubpedia/greenhouse-gas). Warming can bring major changes in sea level, sea ice, glacier balance, precipitation patterns and temperature extremes. Statements about the magnitude and timing of these impacts are less certain than observations of temperature anomalies themselves, and cannot be read as definitive beyond the ranges given. [30][31]\n\n## Related articles\n\n- [Annual CO2 emissions](/hubpedia/annual-co2)\n- [Per capita emissions](/hubpedia/per-capita-co2)\n- [Consumption-based emissions](/hubpedia/consumption-based-emissions)\n- Support for climate action"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T12:42:09.166Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "世界の温暖化を追跡するための主要な指標は気温偏差である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/temperature-anomaly",
+              "quote": "The main metric we use to track global warming is the temperature anomaly."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "気温偏差は、ある月の絶対気温ではなく、過去の気温と比較してどれだけ異なるかを示す。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/temperature-anomaly",
+              "quote": "This doesn’t tell us the absolute temperature in a given month, but how different it is compared to historical temperatures."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "正の気温偏差は気温がベースラインより高いことを、負の偏差はベースラインより低いことを示す。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/temperature-anomaly",
+              "quote": "A positive anomaly indicates temperatures are warmer than the baseline, whereas a negative anomaly shows cooler conditions."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "気候研究において気温偏差は、時間の経過に伴う変化を示すため重要な指標とされている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/temperature-anomaly",
+              "quote": "In climate research, temperature anomalies are considered a key metric since they tell us about changes over time."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "気温偏差は基準となる気温(ベースライン)を基準に測定される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/temperature-anomaly",
+              "quote": "This anomaly has to be measured relative to a temperature baseline."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "気温偏差のベースラインは通常、数十年間の気温データを平均して設定される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/temperature-anomaly",
+              "quote": "This baseline is usually established by averaging over several decades of temperature data."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "気温偏差の分析では1991年から2020年までの期間が基準として選ばれており、これはECMWFの既定の基準期間である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/temperature-anomaly",
+              "quote": "For our analysis, we selected the 1991–2020 period as the reference, which is the ECMF’s default baseline period."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "気温偏差データはECMWFのERA5プロジェクトのデータに基づいている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/temperature-anomaly",
+              "quote": "We have relied on the excellent data from the European Centre for Medium-Range Weather Forecasts (ECMWF) ERA5 project to do this."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "ERA5データセットは31キロメートル四方の高解像度の気候記録を提供し、大気・海洋波・陸地表面に関する幅広い変数を含む。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/temperature-anomaly",
+              "quote": "This comprehensive dataset provides high-resolution (31-kilometer square) climate records that include a wide range of atmospheric, ocean-wave, and land-surface variables."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "気温偏差データには地表2メートルの気温記録が用いられており、陸・海・内陸水域における測定値を含む。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/temperature-anomaly",
+              "quote": "We’ve used its 2-meter air surface temperature records, which include measurements across land, sea, and inland waters."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "ERA5データは格子(グリッド)形式で構成されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/temperature-anomaly",
+              "quote": "The ERA5 data is structured in a gridded format."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "2015年にパリ協定が採択され、産業革命前と比べて気温上昇を「2°Cを十分下回る」水準に抑え、「1.5°Cに抑える努力を追求する」ことが合意された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/temperature-anomaly",
+              "quote": "In 2015, countries across the world adopted the Paris Agreement, agreeing on a goal to limit global warming “well below 2°C” above pre-industrial temperatures while “pursuing efforts” to limit warming to 1.5°C."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "年ごとの変動はあるものの、気温は上昇し続けている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/temperature-anomaly",
+              "quote": "You can see that while there is often year-to-year variability, temperatures have been rising."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "ケルビンの気温は273.15を引くことで摂氏(°C)に変換できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/temperature-anomaly",
+              "quote": "temperatures can be converted from Kelvin to degrees Celsius (°C) by subtracting 273.15"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "気温偏差とは、基準値または平均気温からの偏差を指し、観測地点の場所や標高といった要因の影響を緩和する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/temperature-anomaly",
+              "quote": "A temperature anomaly signifies the deviation from a baseline or average temperature, mitigating the influence of factors like station location or elevation on the data."
+            },
+            {
+              "sourceUrl": "https://ourworldindata.org/temperature-anomaly",
+              "quote": "A temperature anomaly signifies the deviation from a baseline or average temperature, mitigating the influence of factors like station location or elevation on the data."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "国別の月次気温偏差データは1940年以降について確認できる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/temperature-anomaly",
+              "quote": "This data can be explored from 1940 onwards using the time slider below the map."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "グリッド形式のERA5データは世界銀行の国境データを用いて国別データに変換され、地球の曲率による地理的な差異を調整している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/temperature-anomaly",
+              "quote": "We’ve converted this into country-level data using the World Bank's country outlines, making adjustments for geographical disparities from Earth’s curvature."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "気候変動は地球上のすべての地域に一様に影響するわけではない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/temperature-anomaly",
+              "quote": "climate change does not affect all areas of the globe uniformly"
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "世界全体で見ると、気温には大きな地域差がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/temperature-anomaly",
+              "quote": "The obvious takeaway from this chart is the large differences in temperature across the world."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "ERA5の月別平均データは1940年から現在までの期間をカバーしている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/temperature-anomaly",
+              "quote": "ERA5 monthly averaged data on single levels from 1940 to present"
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "ERA5は衛星・観測所・気球などの膨大な観測データを、物理法則に基づくモデルと統合している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/temperature-anomaly",
+              "quote": "It synthesizes a vast collection of observational data sources, including satellites, weather stations, and balloons, with models grounded in the laws of physics."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "ECMWFは、地表と最も近い上空の気象データ地点との間を補完する手法を用いて地表付近の気温を算出している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/temperature-anomaly",
+              "quote": "The ECMWF calculates ground-level temperatures by using a method that fills in the gaps between the ground and the closest weather data point above it, while also considering the current weather conditions to make the estimates more accurate."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "ERA5の気温データは当初ケルビン(K)で示される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/temperature-anomaly",
+              "quote": "These temperatures are initially presented in Kelvin (K), a standard unit of measurement in scientific research."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "極に近いグリッドセルは赤道付近のグリッドセルよりも物理的な面積が小さい。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/temperature-anomaly",
+              "quote": "Grid cells closer to the poles cover a smaller physical area than those near the equator."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "国別平均気温の算出には、緯度の余弦(コサイン)を用いた数学的補正が適用されている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/temperature-anomaly",
+              "quote": "we applied a mathematical correction using the cosine of the latitude"
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "絶対気温は標高や都市化の程度が異なる地域間で大きく異なる場合があるが、気温偏差はある地域が過去の平均と比べて暖かいか寒いかを示す比較可能な指標を提供する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/temperature-anomaly",
+              "quote": "while absolute temperatures can vary greatly between locations with different elevations or urbanization levels, anomalies provide a comparative measure highlighting whether a specific area is warmer or cooler than its historical average"
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "例えば、平年より涼しい夏の月は、山頂と谷とで絶対気温が大きく異なっていても、両方の地点で同様に涼しい月として記録される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/temperature-anomaly",
+              "quote": "a cooler-than-average summer month will register as such both at a mountaintop and in a valley despite the absolute temperatures at these locations being markedly different"
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "この統合により、1940年代以降の世界の気候動向に関する統一された詳細な気候記録が作られている。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/temperature-anomaly",
+              "quote": "This integration has produced a unified, detailed global climate record, offering insights into climate trends worldwide since the 1940s."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "北極は1979年以降、世界平均に比べておよそ4倍の速さで温暖化している。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/temperature-anomaly",
+              "quote": "The Arctic has warmed nearly four times faster than the globe since 1979."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "現在の気候変動は、主に人間による温室効果ガスの排出によって引き起こされている。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/climate-change",
+              "quote": "Current climate change is primarily caused by human emissions of greenhouse gases."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "温暖化は、海面水位、海氷、氷河のバランス、降水パターン、極端な気温に大きな変化をもたらし得る。",
+          "confidence": 0.7,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/climate-change",
+              "quote": "This warming can drive large changes in sea level, sea ice and glacier balances, rainfall patterns, and extreme temperatures."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "plastic-emissions",
+    "topicType": "concept",
+    "categoryLabel": "気候・エネルギー",
+    "title": "プラスチックの排出",
+    "summary": "プラスチックの排出とは、プラスチックの生産から廃棄までに生じる温室効果ガスを指し、世界の排出量の約3%を占める。特徴は排出の重心が廃棄ではなく生産段階にあることで、その約90%は化石燃料をプラスチックへ変換する過程から生じる。生産量が1950年の200万トンから現在の4億5000万トン超へ拡大したため、海洋汚染とは別の問題として気候面での比重が増している。",
+    "bodyMarkdown": "## 世界排出量に占める位置\n\nプラスチックの生産と廃棄に伴う[温室効果ガス](/hubpedia/greenhouse-gas)は、世界全体の排出量のおよそ3%にあたる。OECDの推計では、生産と廃棄を含むライフサイクル全体の排出量は18億トンだった。世界の排出量を約[546億トンCO2換算](/hubpedia/annual-co2)とすれば、プラスチックの占める比率は約3.3%と見積もられる。 [1][2][9]\n\n## 排出が生じる段階\n\n気候への影響は、製品が捨てられる場面ではなく作られる場面に集中している。プラスチックによる排出量の約90%は生産段階、すなわち化石燃料をプラスチックに変換する過程から生じ、その大半は二酸化炭素の形をとる。廃棄段階からの排出は、これに比べれば小さい。 [3][10][11]\n\nこの内訳は、排出量という指標で見るかぎり、問題の大きさが廃棄物の処理方法よりも生産される量そのものに強く結びついていることを意味する。ただしこれは気候への影響についての整理であり、後述する環境への流出や海洋汚染は別の尺度で測られる。 [3][10][11]\n\n## 生産量の推移\n\n最初の合成プラスチックであるベークライトが生産されたのは1907年である。工業的な規模に達したのはさらに後で、1950年の世界生産量はわずか200万トンだった。 [4][6]\n\nその後の伸びは急である。過去70年間で年間生産量は約230倍に増え、2019年には4億6000万トンに達した。現在の世界生産量は4億5000万トンを超え、この20年間だけで倍増している。生産段階が排出の大半を占める以上、この生産量の推移がそのまま排出量の推移をおおむね決めている。 [3][5][7][13]\n\n## 廃棄物の発生量と国別の分布\n\n世界は毎年約3億5000万トンのプラスチック廃棄物を生成している。総量で最も多いのは中国とインドで、上位5カ国の残りは米国、ブラジル、インドネシアが占める。 [8][20][35]\n\n一人当たりで見ると順位は入れ替わる。平均的なアメリカ人やスペイン人が生成するプラスチック廃棄物量は、平均的なインド人の約4倍、エチオピア人の約10倍にあたる。高所得国の人々は低所得国の人々の4倍以上、中位中所得国の人々の2倍の廃棄物を生成している。 [14][21]\n\n## 環境への流出と汚染\n\n廃棄物を多く出すことと、それを環境へ漏らすことは別の問題である。世界のプラスチック廃棄物のうち約4分の1は、リサイクル・焼却・密閉埋立のいずれもされずに不適切に管理されている。この扱いの差が、発生量の分布と汚染の分布を食い違わせる。 [18]\n\n[廃棄物管理](/hubpedia/waste-management)が効果的な高所得国では、発生量が多くても環境への流出はごくわずかで、汚染量はほぼゼロに近く、残る汚染の大半はポイ捨てに由来する。逆に、最も多くのプラスチック汚染を生み出している国々は、一人当たりの廃棄物発生量はむしろ少ないことが多く、生成する廃棄物の総量も高所得国の4分の1にとどまる。 [29][30][31][38]\n\n一人当たりの汚染量では、低所得国および低位中所得国が高所得国を大きく上回るとされる。その倍率は推計により幅があり、50倍以上とも、ほぼ100倍とも示されている。地域別では、アジア、サハラ以南アフリカ、南米の国々が欧州や北米の国々よりはるかに多く、この傾向は野焼きによる汚染と環境に流出した廃棄物の双方について当てはまる。 [15][22][36][37]\n\n## 海洋への流入量\n\n[海洋に流入するプラスチック](/hubpedia/ocean-plastic)の量は、年間100万から200万トンと推定されている。これはプラスチック廃棄物のおよそ0.5%にあたる。海に入った分の大半は外洋へ広がらず、海岸近くにとどまる。 [12][16][17][34]\n\nこの数字は研究の蓄積とともに下方に修正されてきた。初期の推計は最大800万トンに達していたが、その後のより新しい研究では年間約100万トン程度という値も示されており、高品質な近年の研究では100万から200万トンの範囲に収まっている。 [16][32][33]\n\n発生源は現在、中所得国、とりわけアジア地域に集中している。最大の5カ国はフィリピン、インド、マレーシア、中国、インドネシアで、この5カ国だけで河川経由の世界全体の流入量の約70%を占める。一人当たりで見ても欧州と北米の排出量は少なく、アジア・アフリカ・南米の国々ははるかに高い水準にあり、フィリピンが最大である。 [19][23][24][39][40]\n\nただし現在の年間流入量と、これまでに海洋へ蓄積された累積量は一致しない。富裕国はより長期間にわたって海洋を汚染してきたため、累積量で見れば欧州・北米の高所得国は現在の割合よりも大きな比重を占める。 [43][44]\n\n## 廃棄物の国際取引\n\n2024年には各国間で約320万トンのプラスチック廃棄物が取引された。これは世界で生成される廃棄物のうち1%弱にすぎない。取引される廃棄物の約90%は高所得国からの輸出であり、同時に高所得国は最大の輸入国でもある。 [25][26][41][42]\n\n取引量は2016年のピークから大きく減少した。主な理由は、中国が2018年に輸入を禁止したことである。一人当たりの純輸出量が最も多い国々は、日本とニュージーランドを除きすべて欧州の国々である。 [27][28]\n\n## 関連記事\n\n- [消費ベース排出](/hubpedia/consumption-based-emissions)",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/ghg-emissions-plastics",
+        "title": "プラスチックの排出",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on plastic-emissions. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/plastic-pollution",
+        "title": "plastic-pollution",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Plastic pollution overall. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Plastic emissions",
+        "summary": "Plastic emissions refers to the greenhouse gases generated across the life of plastics, from production to disposal, and accounts for roughly 3% of global emissions. A defining feature is that the center of gravity lies in production rather than disposal: about 90% of these emissions arise from converting fossil fuels into plastic. Because production has grown from 2 million tonnes in 1950 to more than 450 million tonnes today, the climate dimension carries increasing weight as an issue distinct from ocean pollution.",
+        "bodyMarkdown": "## Share of global emissions\n\nThe [greenhouse gases](/hubpedia/greenhouse-gas) associated with producing and disposing of plastics amount to roughly 3% of global emissions. OECD estimates put full life-cycle emissions, covering production and disposal, at 1.8 billion tonnes. Taking global emissions to be about [54.6 billion tonnes of CO2 equivalent](/hubpedia/annual-co2), the share attributable to plastics works out to roughly 3.3%. [1][2][9]\n\n## Where the emissions arise\n\nThe climate impact is concentrated not at the point where products are thrown away but at the point where they are made. About 90% of plastic-related emissions come from the production stage — that is, from converting fossil fuels into plastic — and most of it takes the form of carbon dioxide. Emissions from the disposal stage are small by comparison. [3][10][11]\n\nThis breakdown means that, as far as emissions are concerned, the scale of the problem is tied far more closely to how much plastic is produced than to how waste is handled. That said, this is an accounting of climate impact alone; the leakage into the environment and ocean pollution discussed below are measured on a different yardstick. [3][10][11]\n\n## Growth in production\n\nBakelite, the first synthetic plastic, was produced in 1907. Industrial scale came considerably later: global production in 1950 was a mere 2 million tonnes. [4][6]\n\nGrowth since then has been steep. Annual production has risen roughly 230-fold over the past 70 years, reaching 460 million tonnes in 2019. Global production now exceeds 450 million tonnes, having doubled in the past two decades alone. Since production accounts for the bulk of emissions, this trajectory in output broadly determines the trajectory in emissions. [3][5][7][13]\n\n## Waste generation and its distribution across countries\n\nThe world generates about 350 million tonnes of plastic waste each year. China and India generate the most in absolute terms, with the United States, Brazil, and Indonesia rounding out the top five. [8][20][35]\n\nThe ranking shifts on a per capita basis. The average American or Spaniard generates roughly four times as much plastic waste as the average Indian and about ten times as much as the average Ethiopian. People in high-income countries generate more than four times as much waste as people in low-income countries, and twice as much as people in upper-middle-income countries. [14][21]\n\n## Leakage into the environment and pollution\n\nGenerating a lot of waste and leaking it into the environment are separate problems. About a quarter of the world's plastic waste is mismanaged — neither recycled, incinerated, nor sent to sealed landfill. This difference in handling is what pulls the distribution of waste generation apart from the distribution of pollution. [18]\n\nIn high-income countries with effective [waste management](/hubpedia/waste-management), leakage into the environment is minimal even where generation is high; pollution is close to zero, and most of what remains comes from littering. Conversely, the countries producing the most plastic pollution often generate rather little waste per capita, and the total waste they generate amounts to just a quarter of that of high-income countries. [29][30][31][38]\n\nOn pollution per capita, low-income and lower-middle-income countries are reported to far exceed high-income countries. The multiple varies across estimates, given as more than 50-fold and as close to 100-fold. By region, countries in Asia, sub-Saharan Africa, and South America are far higher than those in Europe or North America, and this holds both for pollution from open burning and for waste leaked into the environment. [15][22][36][37]\n\n## Inflows to the ocean\n\nThe amount of [plastic entering the ocean](/hubpedia/ocean-plastic) is estimated at 1 million to 2 million tonnes per year. That is roughly 0.5% of plastic waste. Most of what enters the sea does not spread to the open ocean but stays near the coast. [12][16][17][34]\n\nThis figure has been revised downward as research has accumulated. Early estimates ran as high as 8 million tonnes, while later and more recent work has put the figure at around 1 million tonnes per year; high-quality recent studies fall in the range of 1 million to 2 million tonnes. [16][32][33]\n\nThe sources are now concentrated in middle-income countries, particularly in Asia. The five largest are the Philippines, India, Malaysia, China, and Indonesia, and these five alone account for about 70% of the global inflow via rivers. On a per capita basis as well, emissions from Europe and North America are low, while countries in Asia, Africa, and South America are at far higher levels, with the Philippines the highest. [19][23][24][39][40]\n\nCurrent annual inflows do not, however, match the cumulative amount that has accumulated in the ocean to date. Because wealthy countries polluted the ocean over a longer period, high-income countries in Europe and North America account for a larger share of the cumulative total than they do of the current figure. [43][44]\n\n## International trade in waste\n\nIn 2024, about 3.2 million tonnes of plastic waste were traded between countries. That is a little under 1% of the waste generated worldwide. About 90% of the waste traded is exported from high-income countries, which are at the same time the largest importers. [25][26][41][42]\n\nTraded volumes have fallen sharply from their 2016 peak, chiefly because China banned imports in 2018. The countries with the highest net exports per capita are all European, apart from Japan and New Zealand. [27][28]\n\n## Related articles\n\n- [Consumption-based emissions](/hubpedia/consumption-based-emissions)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T12:42:09.167Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "プラスチックの生産と廃棄は、世界の温室効果ガス排出量の約3%を占めている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ghg-emissions-plastics",
+              "quote": "Plastic production and disposal emits around 3% of global emissions."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "OECDの推計では、生産と廃棄を含むプラスチックのライフサイクル排出量は18億トンだった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ghg-emissions-plastics",
+              "quote": "The OECD estimates that the life-cycle emissions of plastics – which includes the production of the material and its disposal – was 1.8 billion tonnes."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "プラスチックの排出量の約90%は生産段階、すなわち化石燃料をプラスチックに変換する過程から生じる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ghg-emissions-plastics",
+              "quote": "Around 90% come from the production stage – that is, converting fossil fuels into plastics."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "1950年、世界のプラスチック生産量はわずか200万トンだった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "In 1950, the world produced just two million tonnes."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "現在、世界のプラスチック生産量は4億5000万トンを超えている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "It now produces over 450 million tonnes."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "最初の合成プラスチックであるベークライトは1907年に生産された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "The first synthetic plastic — Bakelite — was produced in 1907"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "過去70年間でプラスチックの年間生産量は約230倍に増加し、2019年には4億6000万トンに達した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "the annual production of plastics has increased nearly 230-fold to 460 million tonnes in 2019"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "世界は毎年約3億5000万トンのプラスチック廃棄物を生成している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "The world produces around 350 million tonnes of plastic waste each year."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "世界の温室効果ガス排出量が約546億トンCO2換算であることを踏まえると、プラスチックは世界排出量の約3.3%を占めるとされる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ghg-emissions-plastics",
+              "quote": "plastics were responsible for around 3.3% of global emissions."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "プラスチックのライフサイクル排出の大半は生産段階から生じ、二酸化炭素の形をとる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ghg-emissions-plastics",
+              "quote": "Most come from the production stage, and are in the form of carbon dioxide."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "廃棄段階からの排出は比較的小さい。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/ghg-emissions-plastics",
+              "quote": "Emissions from the end-of-life tend to be relatively small."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "年間100万から200万トンのプラスチックが海洋に流入している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "one to two million tonnes of plastic enter our oceans yearly"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "世界のプラスチック生産量はこの20年間で倍増した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "global plastic production has doubled"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "平均的なアメリカ人またはスペイン人が生成するプラスチック廃棄物量は、平均的なインド人の約4倍、エチオピア人の約10倍である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "The average American or Spaniard generates around four times as much as the average Indian, and ten times as much as an Ethiopian."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "低所得国および低位中所得国の平均的な人は、高所得国の人の50倍以上のプラスチック汚染を生み出している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "The average person in a low- or lower-middle-income country generates more than 50 times the plastic pollution of someone in a high-income country."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "高品質な最近の研究では、年間100万から200万トンのプラスチックが海洋に流入すると推定されている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "between 1 and 2 million tonnes of plastic enter the oceans annually"
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "これはプラスチック廃棄物の約0.5%が海洋に流れ着くことを意味する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "That means about 0.5% of plastic waste ends up in the ocean."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "プラスチック廃棄物の約4分の1は、リサイクル・焼却・密閉埋立のいずれもされず不適切に管理されている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "around one-quarter of plastic waste is mismanaged, meaning it is not recycled, incinerated, or stored in sealed landfills"
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "現在、海洋に流入するプラスチックの大半は中所得国、特にアジア地域からのものである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "most plastic flowing into the ocean today comes from middle-income countries, particularly across Asia."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "プラスチック廃棄物の発生量が最も多い国は中国とインドである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "China and India top the list."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "高所得国の人々は、低所得国の人々の4倍以上、中位中所得国の人々の2倍のプラスチック廃棄物を生成している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "people in high-income countries generate more than four times as much plastic waste as those in low-income one, and twice as much as those in upper-middle income countries"
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "低所得国は高所得国に比べ、一人当たりのプラスチック汚染量がほぼ100倍多い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "low-income countries produce almost 100 times more plastic pollution per person than high-income countries."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "海洋プラスチックの発生源として最大の5カ国は、フィリピン・インド・マレーシア・中国・インドネシアである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "The five largest sources of ocean plastics are the Philippines, India, Malaysia, China, and Indonesia."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "これら5カ国を合わせると、河川経由で海洋に流入するプラスチックの世界全体の約70%を占める。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "Combined, these five countries contribute around 70% of the world’s ocean plastics from rivers."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "2024年には各国間で約320万トンのプラスチック廃棄物が取引された。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "Globally, around 3.2 million tonnes of plastic waste were traded between countries in 2024."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "国際取引されるプラスチック廃棄物の約90%は高所得国から輸出されたものである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "Around 90% of this waste was exported from high-income countries."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "プラスチックの国際取引は2016年のピークから大きく減少しており、主な理由は中国が2018年に輸入を禁止したことである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "Global trade in plastics has fallen sharply from its peak in 2016, largely because of China’s 2018 ban on imports."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "一人当たりで見たプラスチック廃棄物の最大の純輸出国は、日本とニュージーランドを除きすべて欧州の国々である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "The largest net exporters of plastic waste per person are all countries in Europe, with the exception of Japan and New Zealand."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "廃棄物発生量が多い国々でも環境への流出は少なく、その汚染量はほぼゼロに近い。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "these high-waste producers do not leak much waste into the environment; their pollution is close to zero"
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "最もプラスチック汚染を生み出している国々は、一人当たりのプラスチック廃棄物発生量はむしろ少ないことが多い。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "the countries that generate the most plastic pollution often produce much less plastic waste per person"
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "それにもかかわらず、これらの国々が生成するプラスチック廃棄物の総量は高所得国の4分の1にとどまる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "That’s despite the fact that they generate four times less plastic waste overall."
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "海洋へのプラスチック流入量の初期の推計は最大800万トンに達していた。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "Earlier estimates were as high as 8 million tonnes."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "その後のより新しい研究では、年間約100万トン程度という推計も示されている。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "other more recent studies have also found estimates in the range of around 1 million tonnes of plastic each year"
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "海洋に流入したプラスチックの大半は海岸近くにとどまる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "Most of it stays close to the shoreline."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "米国・ブラジル・インドネシアが、プラスチック廃棄物発生量上位5カ国の残りを占める。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "The United States, Brazil, and Indonesia complete the top five"
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "アジア・サハラ以南アフリカ・南米の国々は、欧州や北米の国々よりも一人当たりのプラスチック汚染がはるかに多い傾向がある。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "Countries across Asia, Sub-Saharan Africa, and South America tend to produce much more plastic pollution per person than those in Europe and North America."
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "この傾向は、野焼きによる汚染と環境に流出した廃棄物の両方について当てはまる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "This is true for both the open burning of plastic and debris that’s leaked into the environment."
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "廃棄物管理が効果的な高所得国では、汚染の大半はポイ捨てに由来する。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "In high-income countries with effective waste management systems, most pollution comes from littering."
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "一人当たりで見ると、欧州と北米の海洋プラスチック排出量は少なく、アジア・アフリカ・南米の国々ははるかに高い水準にある。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "Europe and North America tend to have small emissions, whereas countries across Asia, Africa, and South America have much higher rates."
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "一人当たりで見ると、フィリピンは依然として最大の海洋プラスチック排出国である。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "On a per capita basis, the Philippines is still the largest emitter"
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "これは世界で生成されるプラスチック廃棄物のうち1%弱が国際取引されたことを意味する。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "just under 1% of plastic waste was traded"
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "高所得国はまた、プラスチック廃棄物の最大の輸入国でもある。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "high-income countries were also the largest importers of plastic waste"
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "富裕国はより長期間にわたって海洋を汚染してきた。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "richer countries have been polluting the oceans for longer"
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "海洋に蓄積されたプラスチックの累積量で見ると、欧州・北米の高所得国は現在よりも大きな割合を占めている。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/plastic-pollution",
+              "quote": "higher-income countries across Europe and North America play a larger role than they do today"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "bioenergy",
+    "topicType": "concept",
+    "categoryLabel": "気候・エネルギー",
+    "title": "バイオエネルギー",
+    "summary": "バイオエネルギーは、作物・木材・有機性廃棄物などの生物由来の物質から得られるエネルギーの総称である。19世紀半ばまで人類の主要なエネルギー源であり、現在も数十億人の調理と暖房を支える一方、世界の電力では約2%、輸送エネルギーでは約4%にとどまる。液体バイオ燃料の生産は過去20年で7倍に増えたが、その9割以上が食用作物を原料とするため、土地利用をめぐる論点が残る。",
+    "bodyMarkdown": "## 定義と原料\n\nバイオエネルギーとは、バイオマス、すなわち生物に由来する有機物から取り出されるエネルギーを指し、そこから作られる燃料はバイオ燃料と呼ばれる。原料は単一ではない。穀物やサトウキビのような栽培作物、木材や草といった植物体、さらに動物性脂肪や油を含む生物由来の廃棄物まで、炭素を蓄えた有機物であれば広く原料になりうる。この原料の幅広さが、バイオエネルギーを単一の技術ではなく一群の技術として扱わせている。 [1][2]\n\nエネルギー分類の上では、バイオマスは[再生可能エネルギー](/hubpedia/renewable-energy)に含まれる個別の技術の一つとして位置づけられる。低炭素エネルギー源を列挙する際には、水力、風力、太陽光、地熱、波力・潮力、および原子力と並んでバイオエネルギーが数えられる。統計上は地熱や廃棄物とまとめて「その他の再生可能エネルギー」として扱われることもある。 [3][48][60]\n\n## 伝統的バイオマスと歴史的位置\n\nバイオエネルギーは新しい技術ではなく、むしろ人類が最も長く使ってきたエネルギーである。19世紀半ばまでは、木材、作物残渣、木炭といった固体燃料を燃やす伝統的バイオマスが世界の主要なエネルギー源だった。石炭や石油に主役の座を譲った後も、この用途は消えていない。木材・作物・生物由来廃棄物を直接燃やす伝統的バイオエネルギーは、現在も数十億人にとって調理と暖房の主要な手段である。 [4][47]\n\n## 発電における利用\n\nバイオマスから電力を得る最も一般的な方法は、石炭と同じように発電所で燃焼させて蒸気を発生させ、タービンを回す燃焼方式である。この技術的な近さは普及の経路にも表れており、多くの欧州諸国は既存の石炭火力発電所の設備をバイオマス利用に比較的容易に転用できた。EUの政策はバイオマスを再生可能エネルギー源とみなし、補助金や固定価格買取制度を通じて転換を後押ししてきた。 [5][29][31]\n\nそれでも世界全体で見た規模は小さい。2000年時点でバイオエネルギーが生み出していた電力は[世界の約1%](/hubpedia/electricity-mix)であり、その後の20年でシェアはほぼ倍増したものの、直近5年間は2%強で停滞している。比較として、太陽光発電は現在、毎年1パーセントポイント以上のペースでシェアを伸ばしている。バイオエネルギーが1%から2%へ進むのに要した約20年は、この対比の中で意味を持つ。 [6][7][25][26]\n\n分布は地域によって大きく偏る。バイオエネルギーは他地域に比べてヨーロッパと南米で盛んであり、ルクセンブルクは電力の約3分の1をバイオマスから得ている。ウルグアイ、エストニア、デンマークでは約5分の1に達する。フィンランド、スウェーデン、エストニア、ラトビアは大規模な林業部門を持ち、木質残渣や低品質材が電力生産に転用されている点で、原料供給が国内産業の構造と結びついている。 [8][27][28][30]\n\n## 液体バイオ燃料と輸送\n\n液体バイオ燃料は主に輸送用として使われ、ガソリンや軽油と様々な濃度で混合できる。世界の生産量は過去20年で7倍に増加した。この拡大は市場の自然な成長というより、主に米国、ブラジル、EUの政策によって牽引されてきたものである。 [13][14][15][34]\n\n米国では1990年代に、外国産石油市場への依存を減らす手段としてバイオ燃料への関心と政策が始まった。2005年には再生可能燃料基準（Renewable Fuel Standard）が導入され、輸送燃料の最低量をバイオ燃料由来とすることが義務付けられ、2007年にはこの基準がさらに拡大された。結果として、主にトウモロコシを原料とするバイオ燃料生産が急速に拡大した。 [20][35][36][37]\n\nブラジルの経路はより古い。同国は数十年前からバイオエタノールを利用しており、1990年代初頭には既に相当量を生産していた。その代表例が「プロアルコール」計画である。2000年代初頭には、輸送用石油への依存を減らす手段として生産がさらに拡大した。ブラジルの主要なバイオ燃料作物はサトウキビであり、同国のバイオ燃料の大半がこれに由来する。サトウキビの繊維質の残渣は電力生産にも利用できる。南米では他の複数国も、石油依存を減らすためバイオエタノール生産を促進する大規模プログラムを実施してきた。 [9][10][21][32][38][39]\n\n生産は少数の国に集中している。米国が世界最大の生産国で、ブラジル、EU、インドネシア、中国が続き、上位5か国・地域だけで世界全体の80%以上を占める。 [16][17][18][19]\n\n## 原料の内訳\n\n液体バイオ燃料の大半は、トウモロコシ、サトウキビ、パーム油、大豆といった作物から生産されている。廃食用油や動物性脂肪も原料として用いられるが、その比重は限られる。世界のバイオ燃料の90%以上は廃油や脂肪ではなく食用作物由来であり、廃食用油と動物性脂肪を合わせても原料全体の約12%にとどまる。 [11][12][22][43]\n\n個別の原料では、トウモロコシが最大で全体の3分の1強を占め、そのほとんどは米国産である。米国のトウモロコシ生産量の増加の大半は、過去数十年にわたりバイオ燃料需要によって牽引されてきた。2番目に大きいのは主にブラジル産のサトウキビで、これにパーム油、大豆油、菜種油などの油糧作物が続く。 [23][24][40][41][42]\n\n## 土地利用への影響\n\n原料の大部分が農作物であるため、バイオ燃料の生産は[農地の利用](/hubpedia/land-use)と直接競合する。Cerulogyの研究者による分析では、バイオ燃料は6100万ヘクタールの土地で栽培されていると推定されている。ただしこの面積のすべてが燃料専用というわけではなく、バイオ燃料と家畜飼料向けの土地利用を分けると、バイオ燃料単独では3200万ヘクタール、残りの2900万ヘクタールが家畜飼料用に割り当てられる。 [49][50][51]\n\n推定値には大きな幅がある。Union for the Promotion of Oil and Protein Plantsは、バイオ燃料の原料供給に使われている土地が最大1億1200万ヘクタールに達すると推定しており、Cerulogyの分析による数値の数倍にあたる。どの副産物をバイオ燃料に帰属させるかによって結論が変わるため、単一の面積を確定値として扱うことはできない。 [49][61]\n\n## 航空・海運への適用と現状の規模\n\n液体バイオ燃料は、航空や海運の脱炭素化の潜在的な解決策として次第に推進されている。しかし現在の利用実態は道路輸送に偏っており、国際エネルギー機関（IEA）はバイオ燃料利用の約99%が道路輸送向けであると報告している。バイオ燃料が賄っているのは世界の輸送エネルギー需要の約4%である。 [13][33][44][45]\n\n航空分野での比重はさらに小さい。2023年の航空分野でのバイオ燃料使用は1%未満だった。IEAの推定では、2024年に18億リットルの液体バイオ燃料が「バイオジェット」燃料に使われたが、同年の液体バイオ燃料の総生産量は1180億リットルであり、バイオジェットは全体のわずか1%にあたる。バイオジェット燃料のエネルギー含有量を1リットルあたり34MJとすると、航空向けに使われたバイオ燃料は約17TWh相当と推定される。IEAが2024年の[航空エネルギー需要](/hubpedia/aviation-emissions)を14.16エクサジュール（3,932TWh相当）と見積もっていることを踏まえると、バイオ燃料が航空需要のエネルギーに占める割合は約0.4%に過ぎない。 [46][54][55][56][57][58][62]\n\n別の集計も同程度の水準を示す。国際航空運送協会（IATA）の報告によれば、2024年の持続可能な航空燃料（SAF）生産量は100万トン（12億5000万リットル）に達し、2023年の2倍となったが、世界のジェット燃料使用量に占める割合は0.3%だった。IATAは2025年までにこの割合が世界のジェット燃料需要の0.6%に達すると見込んでいた。 [59][63]\n\nこの規模の差は、供給の制約がどれほど大きいかを示している。世界の航空需要すべてをバイオ燃料で賄うには、世界のバイオ燃料生産量を3倍以上に増やし、そのすべてを航空専用に振り向ける必要がある。 [53]\n\n## 関連記事\n\n- [低炭素電力](/hubpedia/low-carbon-electricity)\n- [エネルギーアクセス](/hubpedia/energy-access)\n- [エネルギー構成](/hubpedia/energy-mix)\n- [室内空気汚染](/hubpedia/indoor-air-pollution)",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/bioenergy-biofuels",
+        "title": "バイオエネルギー",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on bioenergy. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/energy-mix",
+        "title": "energy-mix",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Its place in the energy mix. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Bioenergy",
+        "summary": "Bioenergy is the collective term for energy obtained from biological materials such as crops, wood, and organic waste. It was humanity's primary energy source until the mid-19th century and still supports cooking and heating for billions of people, yet it accounts for only about 2% of the world's electricity and about 4% of transport energy. Production of liquid biofuels has grown sevenfold over the past two decades, but more than 90% of it is made from food crops, so questions about land use remain.",
+        "bodyMarkdown": "## Definition and feedstocks\n\nBioenergy refers to energy extracted from biomass — that is, organic matter derived from living things — and the fuels made from it are called biofuels. The feedstocks are not of a single kind. Cultivated crops such as grains and sugarcane, plant material such as wood and grasses, and even biological waste including animal fats and oils: virtually any organic matter that stores carbon can serve as a feedstock. This breadth of feedstocks is why bioenergy is treated not as a single technology but as a family of technologies. [1][2]\n\nIn energy classifications, biomass is positioned as one of the individual technologies included under [renewable energy](/hubpedia/renewable-energy). When low-carbon energy sources are listed, bioenergy is counted alongside hydropower, wind, solar, geothermal, wave and tidal, and nuclear. In statistics it is sometimes grouped together with geothermal and waste as \"other renewables.\" [3][48][60]\n\n## Traditional biomass and its historical place\n\nBioenergy is not a new technology; it is rather the energy humanity has used the longest. Until the mid-19th century, traditional biomass — the burning of solid fuels such as wood, crop residues, and charcoal — was the world's main energy source. Even after coal and oil took the leading role, this use did not disappear. Traditional bioenergy, the direct burning of wood, crops, and biological waste, remains the principal means of cooking and heating for billions of people today. [4][47]\n\n## Use in electricity generation\n\nThe most common way to obtain electricity from biomass is combustion: burning it in a power plant, just as coal is burned, to generate steam that turns a turbine. This technical closeness is reflected in how the technology spread — many European countries were able to convert the equipment of existing coal-fired power plants to burn biomass with relative ease. EU policy treats biomass as a renewable energy source and has encouraged the switch through subsidies and feed-in tariffs. [5][29][31]\n\nEven so, the scale worldwide is small. In 2000, bioenergy generated [about 1% of the world's electricity](/hubpedia/electricity-mix), and although its share roughly doubled over the following two decades, it has stalled at a little over 2% for the past five years. By comparison, solar power is currently increasing its share by more than one percentage point every year. The roughly twenty years bioenergy took to move from 1% to 2% takes on meaning against that contrast. [6][7][25][26]\n\nThe distribution is heavily skewed by region. Bioenergy is more prominent in Europe and South America than elsewhere, and Luxembourg obtains about a third of its electricity from biomass. In Uruguay, Estonia, and Denmark the figure reaches about a fifth. Finland, Sweden, Estonia, and Latvia have large forestry sectors, and in that wood residues and low-grade timber are diverted into electricity production, their feedstock supply is tied to the structure of domestic industry. [8][27][28][30]\n\n## Liquid biofuels and transport\n\nLiquid biofuels are used mainly for transport and can be blended with gasoline or diesel at various concentrations. Global production has grown sevenfold over the past two decades. This expansion has been driven less by natural market growth than chiefly by policy in the United States, Brazil, and the EU. [13][14][15][34]\n\nIn the United States, interest and policy in biofuels began in the 1990s as a means of reducing dependence on foreign oil markets. In 2005 the Renewable Fuel Standard was introduced, mandating that a minimum volume of transport fuel come from biofuels, and in 2007 the standard was expanded further. As a result, biofuel production — mainly from corn — expanded rapidly. [20][35][36][37]\n\nBrazil's path is older. The country has used bioethanol for decades and was already producing substantial volumes in the early 1990s, the leading example being the Proálcool program. In the early 2000s, production expanded further as a means of reducing dependence on oil for transport. Brazil's main biofuel crop is sugarcane, from which most of the country's biofuel is derived. The fibrous residue of sugarcane can also be used for electricity production. Several other countries in South America have likewise run large-scale programs to promote bioethanol production in order to reduce oil dependence. [9][10][21][32][38][39]\n\nProduction is concentrated in a small number of countries. The United States is the world's largest producer, followed by Brazil, the EU, Indonesia, and China, with the top five countries and regions alone accounting for more than 80% of the global total. [16][17][18][19]\n\n## Breakdown of feedstocks\n\nMost liquid biofuel is produced from crops such as corn, sugarcane, palm oil, and soybeans. Used cooking oil and animal fats also serve as feedstocks, but their weight is limited. More than 90% of the world's biofuel comes from food crops rather than waste oils or fats, and used cooking oil and animal fats combined account for only about 12% of total feedstock. [11][12][22][43]\n\nAmong individual feedstocks, corn is the largest, making up a little more than a third of the total, most of it grown in the United States. Most of the increase in US corn production over recent decades has been driven by biofuel demand. The second largest is sugarcane, mainly from Brazil, followed by oil crops such as palm oil, soybean oil, and rapeseed oil. [23][24][40][41][42]\n\n## Impact on land use\n\nBecause the bulk of feedstock is farm crops, biofuel production competes directly with [agricultural land use](/hubpedia/land-use). An analysis by researchers at Cerulogy estimates that biofuels are grown on 61 million hectares of land. Not all of that area is dedicated to fuel alone, however: separating land use for biofuels from that for livestock feed gives 32 million hectares for biofuels by themselves, with the remaining 29 million hectares allocated to animal feed. [49][50][51]\n\nEstimates vary widely. The Union for the Promotion of Oil and Protein Plants estimates that as much as 112 million hectares are used to supply biofuel feedstock, several times the figure from Cerulogy's analysis. Because the conclusion changes depending on which co-products are attributed to biofuels, no single area figure can be treated as settled. [49][61]\n\n## Application to aviation and shipping, and the current scale\n\nLiquid biofuels are increasingly promoted as a potential solution for decarbonizing aviation and shipping. Current use, however, is concentrated in road transport: the International Energy Agency (IEA) reports that about 99% of biofuel use goes to road transport. Biofuels supply about 4% of global transport energy demand. [13][33][44][45]\n\nThe share in aviation is smaller still. Biofuel use in aviation was under 1% in 2023. The IEA estimates that 1.8 billion liters of liquid biofuel went to \"biojet\" fuel in 2024, while total liquid biofuel production that year was 118 billion liters, making biojet just 1% of the total. Taking the energy content of biojet fuel as 34 MJ per liter, the biofuel used for aviation is estimated to be equivalent to about 17 TWh. Given that the IEA puts 2024 [aviation energy demand](/hubpedia/aviation-emissions) at 14.16 exajoules (equivalent to 3,932 TWh), biofuels account for only about 0.4% of the energy in aviation demand. [46][54][55][56][57][58][62]\n\nOther tallies point to a similar level. The International Air Transport Association (IATA) reports that production of sustainable aviation fuel (SAF) reached 1 million tonnes (1.25 billion liters) in 2024, double the 2023 figure, but that this was 0.3% of global jet fuel use. IATA expected the share to reach 0.6% of global jet fuel demand by 2025. [59][63]\n\nThis gap in scale shows how large the supply constraint is. Meeting all of global aviation demand with biofuels would require more than tripling world biofuel production and directing all of it to aviation alone. [53]\n\n## Related articles\n\n- [Low-carbon electricity](/hubpedia/low-carbon-electricity)\n- [Energy access](/hubpedia/energy-access)\n- [Energy mix](/hubpedia/energy-mix)\n- [Indoor air pollution](/hubpedia/indoor-air-pollution)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T12:42:09.167Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "バイオ燃料はバイオマスや有機物から作られる燃料である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "Biofuels are fuels produced from biomass and organic matter"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "バイオ燃料は穀物やサトウキビなどの作物、木材、草、動物性脂肪や油などの生物由来の廃棄物から作ることができる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "which can be made from crops such as cereals or sugarcane, wood, grasses, or biological waste such as animal fats and oils"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "バイオマスは再生可能エネルギーに分類される個別のエネルギー技術の一つである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/energy-mix",
+              "quote": "'Renewables' typically include hydropower, solar, wind, geothermal, biomass, and wave and tidal energy."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "伝統的バイオエネルギー（木材・作物・生物由来廃棄物の直接燃焼）は、現在も数十億人にとって調理と暖房の主要なエネルギー源である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "Traditional bioenergy, which is the direct burning of wood, crops, and other biological waste, remains a primary source of energy for cooking and heating for billions of people."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "バイオマスから電力を作る最も一般的な方法は、石炭のように発電所で燃やして蒸気を発生させタービンを回す燃焼方式である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "The most common method is combustion: biomass, such as wood pellets, wood chips, and forest residues, is burned in a power plant, just like you’d do with coal. This creates steam, which turns a turbine, and this generates power."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "2000年時点でバイオエネルギーは世界の電力の約1%を生産していた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "In 2000, it produced around 1% of the world’s electricity."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "バイオエネルギーの電力シェアはその後20年でほぼ倍増したが、直近5年間は2%強で停滞している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "This doubled over the next two decades, but has stagnated at just over 2% in the last five years."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "ルクセンブルクは電力の約3分の1をバイオマスから得ている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "Luxembourg generates almost one-third from biomass."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "その代表例がブラジルの「プロアルコール」計画である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "The most notable is the “Proálcool” program in Brazil."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "ブラジルの主要なバイオ燃料作物はサトウキビであり、その繊維質の残渣は電力生産に利用できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "Sugarcane is their primary biofuel crop, and it leaves behind a fibrous residue that can be used for electricity production."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "液体バイオ燃料の大半はトウモロコシ、サトウキビ、パーム油、大豆などの作物から生産されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "most of this biofuel comes from growing crops, such as corn, sugarcane, oil palm, and soybeans"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "廃食用油や動物性脂肪も液体燃料の生産に用いられる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "Waste cooking oil and animal fats are also used to produce liquid fuels."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "現在、液体バイオ燃料の大部分は道路輸送で使用されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "Today, most liquid biofuels are used in road transport."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "液体バイオ燃料は様々な濃度でガソリンや軽油と混合できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "They can be blended with petrol or diesel at various concentrations"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "世界の液体バイオ燃料生産量は過去20年で7倍に増加した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "global production has grown sevenfold in the last 20 years."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "米国とブラジルは世界最大のバイオ燃料生産国として際立っている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "Both the United States and Brazil stand out as the world’s largest producers."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "米国は世界最大のバイオ燃料生産国である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "The United States is the world’s largest producer"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "米国に次いでブラジル、EU、インドネシア、中国がバイオ燃料生産で続く。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "Next are Brazil, the EU, Indonesia, and China."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "上位5か国・地域だけで世界全体のバイオ燃料生産の80%以上を占める。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "These five countries/regions alone produce more than 80% of the global total."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "米国は2005年に再生可能燃料基準（Renewable Fuel Standard）を導入し、輸送燃料の最低量をバイオ燃料由来とすることを義務付けた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "In 2005, it introduced its Renewable Fuel Standard, which mandated that a minimum volume of the country’s transport fuel be sourced from biofuels."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "ブラジルのバイオ燃料の大半はサトウキビ由来である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "Most of its biofuels come from sugarcane."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "世界のバイオ燃料の90%以上は廃油や脂肪ではなく食用作物由来である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "Most of the world’s biofuels — over 90% of them — come from food crops, not waste oils or fats."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "最大の原料はトウモロコシで、全体の3分の1強を占める。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "The largest source is corn (maize), which accounts for just over one-third of the total."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "サトウキビ（主にブラジル産）は2番目に大きなバイオ燃料原料である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "Sugarcane — mostly produced in Brazil — is the second largest source"
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "バイオエネルギーの電力シェアが1%から2%へ増えるのに約20年かかった。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "It took almost 20 years for its share to increase one percentage point, from 1% to 2%."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "太陽光発電は現在、毎年1パーセントポイント以上のペースでシェアを伸ばしている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "Solar power is now growing its share by more than one percentage point every year."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "ウルグアイ、エストニア、デンマークでは電力の約5分の1をバイオマスから得ている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "In Uruguay, Estonia, and Denmark, around one-fifth."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "バイオエネルギーは他地域に比べてヨーロッパと南米で盛んである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "Bioenergy is much more common in Europe and South America than in other regions"
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "多くの欧州諸国は既存の石炭発電所インフラをバイオマス利用に容易に転用できた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "Many countries in Europe had existing or older coal plant infrastructure; these could be easily retrofitted to use biomass instead of coal."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "フィンランド、スウェーデン、エストニア、ラトビアは大規模な林業部門を持ち、木質残渣や低品質材が電力生産に転用されている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "Several, including Finland, Sweden, Estonia, and Latvia, also have large forestry sectors that produce wood residues and lower-grade wood, which could be diverted towards electricity production."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "EUの政策はバイオマスを再生可能エネルギー源とみなし、補助金や固定価格買取制度を通じてバイオエネルギーへの転換を促してきた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "Policies in the European Union — where biomass is counted as a renewable source — have often encouraged a switch to bioenergy through subsidies and feed-in tariffs."
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "南米の複数国は石油依存を減らすためバイオエタノール生産を促進する大規模プログラムを実施してきた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "several countries in South America have implemented large-scale programs to promote the production of bioethanol"
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "液体バイオ燃料は航空や海運の脱炭素化の潜在的解決策として次第に推進されている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "increasingly, they are promoted as a potential solution to decarbonizing sectors such as aviation or shipping."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "この生産拡大は主に米国、ブラジル、EUの政策によって牽引されてきた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "This has been driven by policies in a few key regions — particularly the United States, Brazil, and the European Union — that have actively promoted biofuel production."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "米国でのバイオ燃料への関心と政策は1990年代に、外国産石油市場への依存を減らす手段として始まった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "Interest and policies oriented towards biofuels started in the United States in the 1990s as a way to reduce its dependence on foreign oil markets."
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "米国は2007年にこの基準をさらに拡大した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "In 2007, it extended it further."
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "米国ではこの政策により主にトウモロコシ由来のバイオ燃料生産が急速に拡大した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "This led to a rapid growth in biofuel production, mostly from corn (maize)."
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "ブラジルは数十年前からバイオエタノールを利用しており、1990年代初頭には既に相当量を生産していた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "Brazil started using bioethanol decades earlier. As you can see, by the early 1990s, they were already producing significant volumes."
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "ブラジルのバイオエタノール生産は2000年代初頭に、輸送用石油への依存を減らす手段として拡大した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "production ramped up in the early 2000s, again, as a means to reduce the country’s dependence on oil for transportation."
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "このトウモロコシ由来のバイオ燃料の大半は米国産である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "Most of this comes from the United States"
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "米国のトウモロコシ生産量の増加の大半は過去数十年にわたりバイオ燃料需要によって牽引されてきた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "biofuel demand has driven most of its growth in corn production over the last few decades"
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "サトウキビに続き、パーム油、大豆油、菜種油などの油糧作物がバイオ燃料原料として続く。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "followed by oil crops including palm oil, soy oil, and rapeseed."
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "廃食用油と動物性脂肪はバイオ燃料原料全体の約12%を占める。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "Used cooking oil and animal fats make up around 12%."
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "バイオ燃料は世界の輸送エネルギー需要の約4%を生産している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "Collectively, biofuels produce around 4% of the world’s energy demand for transport."
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "statement": "バイオ燃料利用の大部分は道路輸送向けで、国際エネルギー機関（IEA）はその約99%を占めると報告している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "The vast majority of biofuel use is for road transport. The International Energy Agency reports around 99% of it."
+            }
+          ]
+        },
+        {
+          "index": 46,
+          "statement": "2023年の航空分野でのバイオ燃料使用は1%未満だった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "Less than 1% was used for aviation in 2023."
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "statement": "19世紀半ばまでは、木材・作物残渣・木炭などの固体燃料を燃やす伝統的バイオマスが世界の主要なエネルギー源だった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/energy-mix",
+              "quote": "We see that until the mid-19th century, traditional biomass – the burning of solid fuels such as wood, crop waste, or charcoal – was the dominant energy source used worldwide."
+            }
+          ]
+        },
+        {
+          "index": 48,
+          "statement": "低炭素エネルギー源には、水力、風力、太陽光、バイオエネルギー、地熱、波力・潮力を含む再生可能エネルギーと原子力が含まれる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/energy-mix",
+              "quote": "Low-carbon sources are the sum of nuclear energy and renewables – which includes hydropower, wind, solar, bioenergy, geothermal, and wave and tidal."
+            }
+          ]
+        },
+        {
+          "index": 49,
+          "statement": "Cerulogyの研究者による分析では、バイオ燃料は6100万ヘクタールの土地で栽培されていると推定されている。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "A recent analysis from researchers at Cerulogy estimated that biofuels are grown on 61 million hectares of land."
+            }
+          ]
+        },
+        {
+          "index": 50,
+          "statement": "バイオ燃料と家畜飼料向けの土地利用を分けると、バイオ燃料単独の土地利用は3200万ヘクタールとなる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "the land use for biofuels alone was 32 million hectares."
+            }
+          ]
+        },
+        {
+          "index": 51,
+          "statement": "残りの2900万ヘクタールは家畜飼料用の土地利用に割り当てられる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "The other 29 million hectares would be allocated for land use for animal feed."
+            }
+          ]
+        },
+        {
+          "index": 53,
+          "statement": "世界の航空需要すべてを賄うには、世界のバイオ燃料生産量を3倍以上に増やし、それを航空専用にする必要がある。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "To fuel all of the world’s aviation demand, global biofuels would need to more than triple and be exclusively used for air travel."
+            }
+          ]
+        },
+        {
+          "index": 54,
+          "statement": "IEAの推定では、2024年に18億リットルの液体バイオ燃料が「バイオジェット」燃料に使われた。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "In 2024, the International Energy Agency estimates that 1.8 billion liters of liquid biofuel were for “biojet” fuel."
+            }
+          ]
+        },
+        {
+          "index": 55,
+          "statement": "2024年の液体バイオ燃料の総生産量は1180億リットルだった。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "Total production was 118 billion liters."
+            }
+          ]
+        },
+        {
+          "index": 56,
+          "statement": "バイオジェット燃料は液体バイオ燃料全体のわずか1%だった。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "That means biojet fuel was only 1%."
+            }
+          ]
+        },
+        {
+          "index": 57,
+          "statement": "IEAは2024年の航空エネルギー需要を14.16エクサジュール（EJ）、すなわち3,932テラワット時（TWh）相当と推定した。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "The International Energy Agency (IEA) estimated that aviation energy demand in 2024 was 14.16 exajoules (EJ). That’s equivalent to 13.6 exajoules (EJ), or 3,932 terawatt-hours (TWh)."
+            }
+          ]
+        },
+        {
+          "index": 58,
+          "statement": "バイオジェット燃料のエネルギー含有量は1リットルあたり34MJである。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "With an energy content of 34 MJ per litre, this is equivalent to 61 billion MJ (or 0.061 EJ)."
+            }
+          ]
+        },
+        {
+          "index": 59,
+          "statement": "国際航空運送協会（IATA）の報告によれば、2024年の持続可能な航空燃料（SAF）生産量は100万トン（12億5000万リットル）に達し、2023年の生産量の2倍となり、世界のジェット燃料使用量の0.3%を占めた。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "In 2024, SAF production reached 1Mt (1.250 billion liters), doubling the amounts produced in 2023, representing 0.3% of global jet fuel use."
+            }
+          ]
+        },
+        {
+          "index": 60,
+          "statement": "その他の再生可能エネルギーには地熱、バイオマス、廃棄物が含まれる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/energy-mix",
+              "quote": "other renewables (which include geothermal, biomass, and waste)"
+            }
+          ]
+        },
+        {
+          "index": 61,
+          "statement": "Union for the Promotion of Oil and Protein Plantsは、バイオ燃料の原料供給に使われている土地は最大1億1200万ヘクタールに達すると推定している。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "The Union for the Promotion of Oil and Protein Plants estimates that as much as 112 million hectares are “used to supply feedstock for biofuels”"
+            }
+          ]
+        },
+        {
+          "index": 62,
+          "statement": "航空向けに使われたバイオ燃料は約17TWh相当と推定される。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "We estimate that biofuels used for aviation are equivalent to around 17 TWh."
+            }
+          ]
+        },
+        {
+          "index": 63,
+          "statement": "IATAは2025年までにこの割合が世界のジェット燃料需要の0.6%に達すると見込んでいた。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/bioenergy-biofuels",
+              "quote": "By 2025, the IATA expected that this could be 0.6% of global demand."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

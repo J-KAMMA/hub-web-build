@@ -1,0 +1,1 @@
+import type{ReactNode}from"react";import{EncyclopediaAdminShell}from"@/components/encyclopedia/admin-shell";export default function Layout({children}:{children:ReactNode}){return <EncyclopediaAdminShell>{children}</EncyclopediaAdminShell>}

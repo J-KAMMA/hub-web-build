@@ -1,0 +1,65 @@
+/* Bitcoin wallet panel. Semantic tokens only (app/color-system.css): no raw colours. */
+.panel {
+  display: grid;
+  gap: 12px;
+  padding: 16px;
+  border: var(--divider);
+  border-radius: 12px;
+  background: var(--surface-raised);
+  color: var(--text);
+}
+.title { margin: 0; font-size: 1rem; letter-spacing: 0.04em; }
+.note { margin: 0; color: var(--text-secondary); font-size: 0.875rem; line-height: 1.6; overflow-wrap: anywhere; }
+.warning { margin: 0; padding: 8px 12px; border-radius: 8px; background: var(--warning-bg); color: var(--warning-text); font-size: 0.875rem; line-height: 1.6; }
+.badge { margin: 0; justify-self: start; padding: 2px 10px; border: 1px solid var(--emphasis); border-radius: 999px; color: var(--emphasis); font-size: 0.8125rem; }
+.field { display: grid; gap: 4px; font-size: 0.875rem; color: var(--text-secondary); }
+.input {
+  min-height: 44px;
+  padding: 0 12px;
+  border: var(--divider);
+  border-radius: 10px;
+  background: var(--surface-sunken);
+  color: var(--text);
+  font: inherit;
+  max-width: 100%;
+}
+.row { display: flex; flex-wrap: wrap; gap: 8px; }
+.action, .secondary {
+  min-height: 44px;
+  padding: 0 16px;
+  border: var(--divider);
+  border-radius: 10px;
+  background: var(--emphasis);
+  color: var(--on-emphasis, var(--surface-raised));
+  font: inherit;
+  cursor: pointer;
+}
+.secondary { background: var(--surface-sunken); color: var(--text); }
+.action:disabled, .secondary:disabled { opacity: 0.6; cursor: not-allowed; }
+.connected { display: grid; gap: 8px; padding: 8px 12px; border: var(--divider); border-radius: 8px; }
+.address { font-family: ui-monospace, monospace; font-size: 0.8125rem; overflow-wrap: anywhere; }
+.facts { display: grid; grid-template-columns: max-content 1fr; gap: 4px 12px; margin: 0; font-size: 0.875rem; }
+.facts dt { color: var(--text-secondary); }
+.facts dd { margin: 0; overflow-wrap: anywhere; }
+.form { display: grid; gap: 12px; }
+.presets { display: flex; flex-wrap: wrap; gap: 8px 16px; margin: 0; padding: 0; border: 0; font-size: 0.875rem; }
+.presets legend { padding: 0; color: var(--text-secondary); font-size: 0.8125rem; }
+.preset { display: flex; align-items: center; gap: 6px; min-height: 44px; }
+.dialog {
+  position: fixed;
+  inset: auto 16px 16px;
+  z-index: 1000;
+  max-width: 560px;
+  max-height: 80vh;
+  overflow-y: auto;
+  display: grid;
+  gap: 12px;
+  padding: 16px;
+  border: 1px solid var(--emphasis);
+  border-radius: 12px;
+  background: var(--surface-sunken);
+  color: var(--text);
+}
+.warnings { margin: 0; padding-left: 1.2em; color: var(--warning-text); font-size: 0.875rem; line-height: 1.6; }
+.buttons { display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end; }
+.link { color: var(--emphasis); }

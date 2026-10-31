@@ -1,0 +1,1068 @@
+/*
+ * Hub v2 / ウォレット・マーケット・商品・取引。
+ * v2.css から機械的に切り出した（規則の本文と相対順は変えていない）。
+ */
+
+/* 決済の明るい面を v2 の中に置くときの器。角を丸めて、面だと分かるようにする。 */
+.v2-wallet__surface {
+  border-radius: var(--v2-radius);
+  overflow: hidden;
+}
+
+.v2-wallet__surface > * {
+  padding-inline: var(--v2-space-4);
+}
+
+.v2-hubaction {
+  display: flex;
+  gap: var(--v2-space-3);
+  max-width: var(--v2-measure);
+  margin-top: var(--v2-space-2);
+  padding: var(--v2-space-3);
+  border: 1px solid var(--action);
+  border-radius: var(--v2-radius);
+  background: var(--panel);
+  color: inherit;
+  text-decoration: none;
+}
+
+.v2-hubaction:hover {
+  background: var(--interactive);
+}
+
+.v2-hubaction--off {
+  border-color: var(--line);
+  opacity: .7;
+}
+
+.v2-hubaction__art {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 88px;
+  aspect-ratio: 1;
+  border-radius: var(--v2-space-1);
+  overflow: hidden;
+  background: var(--line);
+}
+
+.v2-hubaction__art img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.v2-hubaction__body {
+  display: grid;
+  gap: var(--v2-space-1);
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.v2-hubaction__eyebrow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--v2-space-2);
+}
+
+.v2-hubaction__eyebrow strong {
+  font-size: var(--v2-text);
+  font-variant-numeric: tabular-nums;
+}
+
+.v2-hubaction__title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  font-size: var(--v2-text-sm);
+  line-height: var(--v2-leading-tight);
+}
+
+.v2-hubaction__note {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+}
+
+.v2-hubaction__foot {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--v2-space-2);
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+}
+
+.v2-hubaction__go {
+  color: var(--link-color);
+  font-weight: 700;
+}
+
+.v2-hubaction--off .v2-hubaction__go {
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.v2-hubaction__affiliate {
+  max-width: var(--v2-measure);
+  margin: var(--v2-space-1) 0 0;
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+}
+
+/* 商品の詳細。上は画像と説明の2列、下は購入先の一覧。 */
+.v2-product {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--v2-space-5);
+}
+.v2-product > * { min-width: 0; }
+
+.v2-product__hero {
+  display: grid;
+  grid-template-columns: minmax(0, 280px) minmax(0, 1fr);
+  gap: var(--v2-space-5);
+}
+
+@media (max-width: 900px) {
+  .v2-product__hero {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.v2-product__media {
+  display: grid;
+  align-self: start;
+  gap: var(--v2-space-2);
+}
+
+.v2-product__description p {
+  margin: 0 0 var(--v2-space-2);
+}
+
+.v2-product__media img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: var(--v2-radius);
+  background: var(--panel);
+}
+
+.v2-product__copy {
+  display: grid;
+  gap: var(--v2-space-3);
+  min-width: 0;
+}
+
+.v2-product__facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: var(--v2-space-2);
+  margin: 0;
+  font-size: var(--v2-text-sm);
+}
+
+.v2-product__facts div {
+  display: grid;
+  gap: 2px;
+}
+
+.v2-product__facts dt {
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+}
+
+.v2-product__facts dd {
+  margin: 0;
+}
+
+/* ゲームと本の札。左に絵、右に文字。 */
+.v2-gcard {
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr);
+  gap: var(--v2-space-3);
+}
+
+.v2-gcard__image {
+  width: 96px;
+  height: 96px;
+  object-fit: cover;
+  border-radius: var(--v2-radius);
+  background: var(--panel);
+}
+
+.v2-gcard__image--empty {
+  display: grid;
+  place-items: center;
+  color: var(--muted);
+  font-size: var(--v2-text-xl);
+}
+
+.v2-gcard__body {
+  display: grid;
+  gap: var(--v2-space-1);
+  min-width: 0;
+}
+
+/* 既存の市場の部品（Marketplace・PhysicalCommerce・PurchasedLibrary）を置く枠。 */
+.v2-market__panels {
+  max-width: none;
+}
+
+/* マーケット ----------------------------------------------------------- */
+
+/* 節の頭。列の頭（.v2-top-title）とは別で、本文の中の小見出し。 */
+.v2-msec {
+  margin-top: var(--v2-space-6);
+}
+
+.v2-msec:first-of-type {
+  margin-top: 0;
+}
+
+.v2-msec__head {
+  display: flex;
+  align-items: baseline;
+  gap: var(--v2-space-3);
+  margin-bottom: var(--v2-space-3);
+  padding-bottom: var(--v2-space-2);
+  border-bottom: 1px solid var(--line);
+}
+
+.v2-msec__note {
+  color: var(--muted);
+  font-size: var(--v2-text-sm);
+}
+
+.v2-msec__foot {
+  margin-top: var(--v2-space-3);
+  font-size: var(--v2-text-xs);
+}
+
+/* 商品の札。下限200px。既存は幅に関係なく列を決めて名前が潰れた。 */
+.v2-pgrid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr));
+  gap: var(--v2-space-4);
+}
+
+/*
+ * 札とタグの行を縦に積む。札は height: 100% で li を使い切っていたので、
+ * 後ろに置いたタグの行が li の外へ落ち、次の段の絵の下に隠れていた（2026-09-03）。
+ */
+.v2-pgrid > li {
+  display: flex;
+  flex-direction: column;
+  gap: var(--v2-space-2);
+  min-width: 0;
+}
+
+/* TOPの札（physical-product-card と同じ見た目。題は h3）。 */
+.v2-pgrid .physical-product-card h3 {
+  display: -webkit-box;
+  overflow: hidden;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.v2-pgrid .physical-product-card h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+.v2-pgrid .physical-product-card h3 a:hover {
+  color: var(--emphasis);
+  text-decoration: underline;
+}
+
+/* 商品・カート・注文・デジタル: 枠（V2MarketShell）が見出しと操作を持つので、部品側の頭と内側の余白は外し、タブと同じ左端に揃える。 */
+.v2-market__panels .physical-commerce,
+.v2-market__panels .digital-commerce {
+  min-height: 0;
+  padding: 0;
+  background: none;
+}
+.v2-market__panels .physical-commerce > .digital-commerce__header,
+.v2-market__panels .digital-commerce > .digital-commerce__header {
+  display: none;
+}
+.v2-market__panels:has(.physical-commerce, .digital-commerce) {
+  margin-top: var(--v2-space-3);
+}
+
+/* 商品一覧: 検索と絞り込みを1つの組にして、格子と同じ左右の端に揃える。 */
+.v2-market__panels .physical-catalog {
+  display: grid;
+  gap: var(--v2-space-3);
+}
+.v2-market__panels .physical-catalog__tools,
+.v2-market__panels .physical-catalog__filters {
+  margin: 0;
+}
+.v2-market__panels .physical-catalog__filters {
+  padding-bottom: var(--v2-space-3);
+  border-bottom: 1px solid var(--line);
+}
+
+/* 商品・予約・仕事の空の状態。罫線の枠の中に収める。 */
+.v2-msec > .v2-empty {
+  max-width: var(--v2-content-max);
+  padding: var(--v2-space-5) var(--v2-space-4);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius-lg);
+  background: var(--panel);
+}
+
+/* 題は2行で止める。 */
+
+/* 予約・仕事・車・住まいの行。絵は無いか小さいので1列で読む。 */
+.v2-mitems {
+  list-style: none;
+  margin: 0;
+  padding: 0 var(--v2-space-4);
+  max-width: var(--v2-content-max);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius-lg);
+  background: var(--panel);
+}
+
+.v2-mitem {
+  display: flex;
+  align-items: center;
+  gap: var(--v2-space-3);
+  padding: var(--v2-space-3) 0;
+  border-bottom: 1px solid var(--line);
+  color: inherit;
+  text-decoration: none;
+}
+
+.v2-mitems li:last-child .v2-mitem {
+  border-bottom: 0;
+}
+
+.v2-mitem__mark {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--v2-radius);
+  background: var(--line);
+  font-size: var(--v2-text-sm);
+  font-weight: 700;
+}
+
+.v2-mitem__body {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.v2-mitem__body strong {
+  overflow: hidden;
+  font-size: var(--v2-text-sm);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.v2-mitem__body small {
+  overflow: hidden;
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.v2-mitem__value {
+  flex: none;
+  font-size: var(--v2-text-sm);
+  font-variant-numeric: tabular-nums;
+}
+
+/* ウォレット ----------------------------------------------------------- */
+
+.v2-wallet {
+  max-width: var(--v2-content-max);
+}
+
+.v2-wallet__links,
+.v2-wallet__activity {
+  list-style: none;
+  margin: 0;
+  padding: 0 var(--v2-space-4);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius-lg);
+  background: var(--panel);
+}
+
+.v2-wallet__link,
+.v2-wallet__row {
+  display: flex;
+  align-items: center;
+  gap: var(--v2-space-3);
+  padding: var(--v2-space-3) 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.v2-wallet__link:last-child,
+.v2-wallet__row:last-child {
+  border-bottom: 0;
+}
+
+.v2-wallet__address {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: var(--v2-text-sm);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.v2-wallet__row-body {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.v2-wallet__row-body small {
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+}
+
+.v2-wallet__amount {
+  flex: none;
+  font-variant-numeric: tabular-nums;
+}
+
+/* 既存の接続ボタンを v2 の操作と同じ高さに寄せる。 */
+.v2-wallet .hub-wallet-button {
+  font: inherit;
+  font-size: var(--v2-text-sm);
+}
+
+/* 未導入時のインストール案内。接続行とは分けて手順を読める形にする。 */
+.v2-wallet__install {
+  padding: var(--v2-space-3) var(--v2-space-4) var(--v2-space-4);
+  border-top: 1px solid var(--line);
+}
+
+.v2-wallet__steps {
+  margin: 0 0 var(--v2-space-3);
+  padding-left: var(--v2-space-5);
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+}
+
+/* 販売者の取扱商品（/v2/market/sellers/[seller]）。絵は正方形、札は自動で列を割る。 */
+
+/* ウォレット承認ダイアログ（NativeWalletHost）。署名・送信の直前確認。 */
+.v2-wallet-approval__dialog {
+  margin: auto;
+  padding: var(--v2-space-5);
+  max-width: 480px;
+  width: calc(100% - var(--v2-space-7));
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius);
+  background: var(--bg);
+  color: var(--text);
+}
+
+.v2-wallet-approval__dialog::backdrop {
+  background: var(--scrim);
+}
+
+.v2-wallet-approval h2 {
+  margin: 0 0 var(--v2-space-4);
+  font-size: var(--v2-text-lg);
+}
+
+.v2-wallet-approval__fields {
+  display: grid;
+  gap: var(--v2-space-3);
+  margin: 0;
+}
+
+.v2-wallet-approval__fields dt {
+  font-size: var(--v2-text-sm);
+  color: var(--muted);
+}
+
+.v2-wallet-approval__fields dd {
+  margin: 0;
+}
+
+.v2-wallet-approval__mono {
+  font-family: var(--font-mono, ui-monospace, monospace);
+  font-size: var(--v2-text-sm);
+  word-break: break-all;
+}
+
+.v2-wallet-approval__detail {
+  max-height: 12em;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-size: var(--v2-text-sm);
+  padding: var(--v2-space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius);
+  background: var(--panel);
+}
+
+.v2-wallet-approval__risk {
+  margin: var(--v2-space-4) 0;
+  padding: var(--v2-space-3);
+  border-radius: var(--v2-radius);
+  font-size: var(--v2-text-sm);
+  background: var(--panel);
+  color: var(--muted);
+}
+
+.v2-wallet-approval__risk--warning {
+  background: var(--warning-bg);
+  color: var(--warning-text);
+}
+
+.v2-wallet-approval__risk--danger {
+  background: var(--danger-bg);
+  color: var(--danger-text);
+}
+
+.v2-wallet-approval__actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: var(--v2-space-3);
+}
+
+/* ウォレット面（/v2/wallet）。アカウント表示・送金フォーム。 */
+.v2-wallet__address {
+  display: flex;
+  align-items: center;
+  gap: var(--v2-space-3);
+  flex-wrap: wrap;
+}
+
+.v2-wallet__address code {
+  font-size: var(--v2-text-sm);
+  word-break: break-all;
+  background: var(--panel);
+  padding: var(--v2-space-1) var(--v2-space-2);
+  border-radius: var(--v2-radius);
+}
+
+.v2-wallet__form {
+  display: grid;
+  gap: var(--v2-space-3);
+  max-width: 420px;
+}
+
+.v2-wallet__form label {
+  display: grid;
+  gap: var(--v2-space-1);
+}
+
+/* ---- /v2/wallet 高品質面：ヒーローカード・資産・送金・履歴 ---- */
+
+.v2-wallet__card {
+  margin: 0 0 var(--v2-space-4);
+  padding: var(--v2-space-4) var(--v2-space-5);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius-lg);
+  background: var(--panel);
+}
+
+.v2-wallet__card-head h2 {
+  margin: 0 0 var(--v2-space-3);
+  font-size: var(--v2-text-lg);
+}
+
+.v2-wallet__hero-title {
+  margin: 0 0 var(--v2-space-2);
+  font-size: var(--v2-text-xl);
+  line-height: var(--v2-leading-tight);
+}
+
+.v2-wallet__hero-label {
+  margin: var(--v2-space-3) 0 var(--v2-space-1);
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+}
+
+.v2-wallet__hero-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--v2-space-2);
+}
+
+.v2-wallet__net-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--v2-space-2);
+  padding: var(--v2-space-1) var(--v2-space-3);
+  border-radius: var(--v2-radius-pill);
+  background: var(--emphasis-soft);
+  color: var(--emphasis);
+  font-size: var(--v2-text-sm);
+  font-weight: 600;
+}
+
+.v2-wallet__net-badge--testnet {
+  background: var(--warning-bg);
+  color: var(--warning-text);
+}
+
+.v2-wallet__net-kind {
+  font-weight: 400;
+  font-size: var(--v2-text-xs);
+  opacity: .8;
+}
+
+.v2-wallet__status {
+  padding: var(--v2-space-1) var(--v2-space-2);
+  border-radius: var(--v2-radius-pill);
+  background: var(--interactive);
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+}
+
+.v2-wallet__status--on {
+  background: var(--positive-bg);
+  color: var(--positive-text);
+}
+
+.v2-wallet__hero-balance {
+  margin: 0;
+  font-size: var(--v2-text-xl);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  line-height: var(--v2-leading-tight);
+  letter-spacing: -0.01em;
+}
+
+.v2-wallet__hero-symbol {
+  color: var(--muted);
+  font-size: var(--v2-text-lg);
+  font-weight: 500;
+}
+
+.v2-wallet__hero-loading {
+  color: var(--muted);
+  font-size: var(--v2-text);
+  font-weight: 400;
+}
+
+.v2-wallet__hero-address {
+  display: flex;
+  align-items: center;
+  gap: var(--v2-space-2);
+  margin: var(--v2-space-2) 0 var(--v2-space-3);
+}
+
+.v2-wallet__hero-address code {
+  font-size: var(--v2-text-sm);
+  color: var(--muted);
+}
+
+.v2-wallet__mini {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--v2-space-1) var(--v2-space-2);
+  border: 0;
+  border-radius: var(--v2-radius);
+  background: var(--interactive);
+  color: var(--muted);
+  font: inherit;
+  font-size: var(--v2-text-xs);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.v2-wallet__mini:hover {
+  background: var(--interactive-hover);
+  color: var(--text);
+}
+
+.v2-wallet__chains {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--v2-space-2);
+  margin: var(--v2-space-2) 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.v2-wallet__chain {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--v2-space-2);
+  padding: var(--v2-space-1) var(--v2-space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius-pill);
+  background: var(--panel);
+  color: var(--text);
+  font: inherit;
+  font-size: var(--v2-text-sm);
+  cursor: pointer;
+}
+
+.v2-wallet__chain:hover:not(:disabled) {
+  background: var(--interactive);
+}
+
+.v2-wallet__chain--on {
+  border-color: var(--emphasis);
+  background: var(--emphasis-soft);
+  color: var(--emphasis);
+  font-weight: 600;
+}
+
+.v2-wallet__chain--pending {
+  color: var(--muted);
+  cursor: default;
+  opacity: .7;
+}
+
+.v2-wallet__chain-dot {
+  display: inline-grid;
+  place-items: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--interactive);
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+  font-weight: 700;
+}
+
+.v2-wallet__chain--on .v2-wallet__chain-dot {
+  background: var(--emphasis);
+  color: var(--action-text);
+}
+
+.v2-wallet__chain-tag {
+  padding: 0 var(--v2-space-2);
+  border-radius: var(--v2-radius-pill);
+  background: var(--interactive);
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+}
+
+.v2-wallet__steps-flow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--v2-space-2) var(--v2-space-4);
+  margin: 0 0 var(--v2-space-4);
+  padding: 0;
+  list-style: none;
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+}
+
+.v2-wallet__step {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--v2-space-1);
+}
+
+.v2-wallet__step-dot {
+  display: inline-grid;
+  place-items: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--interactive);
+  font-size: 10px;
+}
+
+.v2-wallet__step--done {
+  color: var(--positive-text);
+}
+
+.v2-wallet__step--done .v2-wallet__step-dot {
+  background: var(--positive-bg);
+  color: var(--positive-text);
+}
+
+.v2-wallet__step--now {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.v2-wallet__step--now .v2-wallet__step-dot {
+  background: var(--emphasis);
+  color: var(--action-text);
+}
+
+.v2-wallet__assets {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.v2-wallet__asset {
+  display: flex;
+  align-items: center;
+  gap: var(--v2-space-3);
+  padding: var(--v2-space-3) 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.v2-wallet__asset:last-child {
+  border-bottom: 0;
+}
+
+.v2-wallet__asset-mark {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--emphasis-soft);
+  color: var(--emphasis);
+  font-size: var(--v2-text-xs);
+  font-weight: 700;
+}
+
+.v2-wallet__asset-body {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.v2-wallet__asset-body small {
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+}
+
+.v2-wallet__asset-balance {
+  flex: none;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+
+.v2-wallet__field {
+  display: grid;
+  gap: var(--v2-space-1);
+}
+
+.v2-wallet__field-label {
+  display: flex;
+  align-items: baseline;
+  gap: var(--v2-space-2);
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+}
+
+.v2-wallet__field-unit {
+  font-weight: 600;
+}
+
+.v2-wallet__input {
+  width: 100%;
+  padding: var(--v2-space-2) var(--v2-space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius);
+  background: var(--panel);
+  color: var(--text);
+  font: inherit;
+}
+
+.v2-wallet__input:focus {
+  outline: none;
+  border-color: var(--focus-ring);
+  box-shadow: none;
+}
+
+.v2-wallet__input--mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: var(--v2-text-sm);
+}
+
+.v2-wallet__amount-row {
+  display: flex;
+  gap: var(--v2-space-2);
+  align-items: center;
+}
+
+.v2-wallet__amount-row .v2-wallet__input {
+  flex: 1 1 auto;
+}
+
+.v2-wallet__segments {
+  display: inline-flex;
+  padding: 2px;
+  gap: 2px;
+  border-radius: var(--v2-radius);
+  background: var(--interactive);
+  width: fit-content;
+}
+
+.v2-wallet__segment {
+  padding: var(--v2-space-1) var(--v2-space-3);
+  border: 0;
+  border-radius: calc(var(--v2-radius) - 4px);
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-size: var(--v2-text-sm);
+  cursor: pointer;
+}
+
+.v2-wallet__segment--on {
+  background: var(--panel);
+  color: var(--text);
+  font-weight: 600;
+  box-shadow: 0 0 0 1px var(--line);
+}
+
+.v2-wallet__cta {
+  margin-top: var(--v2-space-3);
+}
+
+.v2-wallet__form-note {
+  margin: 0;
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+}
+
+.v2-wallet__activity-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.v2-wallet__activity-item {
+  display: flex;
+  align-items: center;
+  gap: var(--v2-space-3);
+  padding: var(--v2-space-3) 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.v2-wallet__activity-item:last-child {
+  border-bottom: 0;
+}
+
+.v2-wallet__activity-icon {
+  display: grid;
+  place-items: center;
+  flex: none;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--interactive);
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+}
+
+.v2-wallet__activity-icon--activate {
+  background: var(--positive-bg);
+  color: var(--positive-text);
+}
+
+.v2-wallet__activity-body {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.v2-wallet__activity-body small {
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+}
+
+.v2-wallet__activity-right {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--v2-space-1);
+}
+
+.v2-wallet__activity-amount {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  font-size: var(--v2-text-sm);
+}
+
+.v2-wallet__notice {
+  margin: 0 0 var(--v2-space-4);
+  padding: var(--v2-space-3);
+  border-radius: var(--v2-radius);
+  background: var(--emphasis-soft);
+  color: var(--text);
+  font-size: var(--v2-text-sm);
+}
+
+.v2-wallet__danger-zone {
+  margin: var(--v2-space-3) 0 0;
+  padding-top: var(--v2-space-3);
+  border-top: 1px solid var(--line);
+}
+
+/* 選択中のネットワークは「選べない」ではなく「今これ」。disabled でも薄くしない。 */
+.v2-wallet__chain--on,
+.v2-wallet__chain--on:disabled {
+  opacity: 1;
+  cursor: default;
+}
+
+/* 開発者向けの拡張機能手順は閉じておく。 */
+.v2-wallet__install > summary {
+  cursor: pointer;
+  color: var(--muted);
+}
+
+.v2-wallet__install[open] > summary {
+  margin-bottom: var(--v2-space-3);
+}
+
+/* ハードウェア接続の直後に出す、プロフィール連携の欄。 */
+.v2-wallet__profile-link {
+  display: grid;
+  gap: var(--v2-space-2);
+  justify-items: start;
+  margin: var(--v2-space-3) 0;
+}
+
+.v2-wallet__profile-link p {
+  margin: 0;
+}
+
+.v2-wallet__ext-summary {
+  display: grid;
+  gap: var(--v2-space-2);
+  margin: 0;
+}
+
+.v2-wallet__ext-summary > div {
+  display: grid;
+  gap: var(--v2-space-1);
+  padding-bottom: var(--v2-space-2);
+  border-bottom: var(--divider);
+}
+
+.v2-wallet__ext-summary dt {
+  color: var(--muted);
+  font-size: var(--type-caption-size);
+}
+
+.v2-wallet__ext-summary dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}

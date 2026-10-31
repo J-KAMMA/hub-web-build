@@ -1,0 +1,208 @@
+.advertising {
+  position: relative;
+  display: grid;
+  gap: 10px;
+  width: min(100%, 760px);
+  margin: 18px auto;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface-raised);
+}
+
+.advertising--feed,.advertising--thread { width:100%; margin:0; border-radius:0; border-right:0; border-left:0; background:var(--content-surface); }
+.advertising--video { width:100%; margin:8px 0; background:var(--surface-raised); }
+.advertising--article { max-width:680px; background:var(--surface-sunken); }
+
+.advertising__label {
+  color: var(--muted);
+  font-size: 10px;
+  letter-spacing: .12em;
+}
+
+.advertising__menu-button { margin-left:auto; border:0; background:transparent; color:var(--muted); cursor:pointer; }
+.advertising__menu { position:absolute; z-index:4; top:30px; right:8px; display:grid; min-width:210px; padding:6px; border:var(--divider); border-radius:10px; background:var(--surface-raised); box-shadow:var(--shadow); }
+.advertising__menu button,.advertising__menu a { padding:9px 10px; border:0; border-radius:7px; background:transparent; color:var(--text); text-align:left; text-decoration:none; cursor:pointer; }
+.advertising__menu button:hover,.advertising__menu a:hover { background:var(--interactive); }
+
+.advertising__card {
+  display: grid;
+  gap: 4px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.advertising__card span,
+.advertising__card small,
+.advertising__disclosure {
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.55;
+}
+
+.advertising__adsense {
+  min-height: 90px;
+}
+
+.advertising__adsense:has(> .adsbygoogle[data-ad-status="unfilled"]),
+.advertising--adsense-only:has(.adsbygoogle[data-ad-status="unfilled"]) {
+  display: none;
+}
+
+html[data-theme="dark"] .advertising {
+  background: var(--surface-raised);
+}
+
+@media (max-width: 600px) {
+  .advertising { margin: 8px; width: auto; padding: 10px; }
+}
+
+.music-sidebar-ad {
+  grid-column: 1 / -1;
+  min-width: 0;
+  margin-top: 2px;
+  padding-top: 12px;
+  border-top: var(--divider);
+}
+
+.music-sidebar-ad > .advertising {
+  width: 100%;
+  margin: 0;
+}
+
+@container app-main (max-width: 850px) {
+  .music-sidebar-ad {
+    grid-column: 1 / -1;
+    margin: 2px 0 0;
+  }
+}
+
+.timeline-rail__inline-ad > .advertising {
+  width: auto;
+  margin: 0;
+  padding: 13px 10px;
+  border: 0;
+  border-bottom: var(--divider);
+  border-radius: 0;
+  background: var(--surface);
+}
+
+.advertising--demo {
+  gap: 6px;
+}
+
+.advertising--demo .advertising__card {
+  gap: 3px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+}
+
+.advertising--demo .advertising__card strong {
+  font-size: .82rem;
+  line-height: 1.4;
+}
+
+.advertising--demo .advertising__label,
+.advertising--demo .advertising__disclosure {
+  font-size: .58rem;
+}
+
+.music-sidebar-ad > .advertising--demo {
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+.home-feed__inline-ad {
+  min-width: 0;
+}
+
+.home-feed__inline-ad > .advertising {
+  width: 100%;
+  margin: 0;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 0;
+}
+
+@container main (min-width: 780px) {
+  .main-content .home-feed__stream > .home-feed__inline-ad {
+    grid-column: auto;
+    grid-row: span 128;
+    align-self: stretch;
+  }
+}
+
+.hubpedia-article__inline-ad > .advertising {
+  width: 100%;
+  margin: 24px 0;
+}
+
+.advertising--image-grid {
+  display: inline-grid;
+  break-inside: avoid;
+  width: 100%;
+  margin: 0 0 18px;
+  padding: 0;
+  gap: 7px;
+  overflow: hidden;
+  border-color: var(--line);
+  border-radius: 15px;
+  background: var(--surface);
+}
+
+.advertising--image-grid > .advertising__label,
+.advertising--image-grid > .advertising__disclosure {
+  padding-inline: 11px;
+}
+
+.advertising--image-grid > .advertising__label {
+  padding-top: 9px;
+  color: var(--text-muted);
+}
+
+.advertising--image-grid > .advertising__card {
+  padding: 0 11px 8px;
+  border: 0;
+  border-radius: 0;
+}
+
+.advertising--image-grid > .advertising__card img {
+  width: calc(100% + 22px);
+  max-width: none;
+  height: auto;
+  margin: -1px -11px 5px;
+  object-fit: cover;
+}
+
+.advertising--image-grid > .advertising__card strong {
+  color: var(--text-primary);
+  font-size: .9rem;
+  line-height: 1.4;
+}
+
+.advertising--image-grid > .advertising__disclosure {
+  padding-bottom: 10px;
+  color: var(--text-muted);
+}
+
+/* 広告の同意（2026-10-14）。同意の前は広告を読み込まない。 */
+.ad-consent { display: grid; gap: 8px; padding: 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface-sunken); font-size: 12px; line-height: 1.6; }
+.ad-consent p { margin: 0; }
+.ad-consent a { text-decoration: underline; }
+.ad-consent__actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.ad-consent__actions button { min-height: 40px; padding: 0 16px; border: 1px solid var(--text); border-radius: 999px; background: var(--text); color: var(--background); font-weight: 800; cursor: pointer; }
+.ad-consent__actions .ad-consent__deny { background: transparent; color: var(--text); }
+.ad-consent__link { padding: 0 0 0 6px; border: 0; background: transparent; color: var(--text); text-decoration: underline; cursor: pointer; font: inherit; }
+.advertising__adsense--declined { min-height: 0; color: var(--muted); }
+
+.hub-consent-choices { display: grid; gap: 6px; margin-top: 10px; }
+.hub-consent-choices p { margin: 0; }
+.hub-consent-choices button { min-height: 36px; padding: 0 14px; border: 1px solid var(--line-strong, var(--line)); border-radius: 999px; background: transparent; color: var(--text); cursor: pointer; }
+.hub-consent-choices small { color: var(--muted); }
+.v2-settings-consent__list { margin: 6px 0; padding-left: 18px; }

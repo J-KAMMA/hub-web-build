@@ -1,0 +1,1 @@
+import{SourceDetail}from"@/components/encyclopedia/source-detail";export default async function Page({params}:{params:Promise<{sourceId:string}>}){const{sourceId}=await params;return <SourceDetail id={sourceId}/>}

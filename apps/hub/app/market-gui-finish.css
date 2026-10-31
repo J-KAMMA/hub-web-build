@@ -1,0 +1,548 @@
+/*
+ * Market GUI finish.
+ * Preserve the market taxonomy while making search, discovery and transaction
+ * controls read as one coherent product.
+ */
+
+:root {
+  --market-directory-width: 188px;
+  --market-content-gutter: clamp(16px, 2.5vw, 34px);
+  --market-card-radius: 14px;
+}
+
+:where(.storefront, .market-taxonomy-layout, .shopping-product-page) {
+  color: var(--text);
+  background: var(--surface-sunken);
+}
+
+/*
+ * The categories past the first few fold away so the listing starts higher.
+ * The panel is anchored to the summary rather than pushing the row open, so
+ * expanding it never shifts the content underneath.
+ */
+
+.market-taxonomy-directory__current {
+  margin-top: 14px;
+  padding-top: 14px;
+}
+
+.market-taxonomy-directory__category > span {
+  min-height: 40px;
+  border-radius: 9px;
+}
+
+.commerce-seller-hero {
+  align-items: center;
+  padding-bottom: 18px;
+}
+
+.commerce-seller-hero h2 {
+  margin: 0;
+  font-size: clamp(1.25rem, 2vw, 1.625rem);
+}
+
+.commerce-seller-hero nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 6px;
+}
+
+.commerce-seller-hero nav a {
+  min-height: 36px;
+  display: inline-flex;
+  align-items: center;
+  padding-inline: 12px;
+  border-radius: 999px;
+  color: var(--text);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.commerce-seller-hero nav a:hover,
+.commerce-seller-hero nav a:focus-visible {
+  background: var(--interactive-hover);
+}
+
+.commerce-seller-settings {
+  display: grid;
+  gap: 16px;
+  padding-top: 8px;
+}
+
+.commerce-seller-settings > header {
+  display: grid;
+  gap: 4px;
+}
+
+.commerce-seller-settings > header h2,
+.commerce-seller-settings > header p {
+  margin: 0;
+}
+
+.commerce-seller-settings > header p {
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+.commerce-seller-settings__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: flex-start;
+  gap: 18px;
+}
+
+.commerce-seller-settings__grid > * {
+  min-width: 0;
+}
+
+.commerce-order-page > header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 18px;
+  padding-bottom: 18px;
+}
+
+.commerce-order-page > header h1,
+.commerce-order-page > header p {
+  margin: 0;
+}
+
+.commerce-order-page > header p {
+  margin-top: 6px;
+  color: var(--muted);
+}
+
+.commerce-order-page > header a {
+  flex: none;
+  min-height: 40px;
+  display: inline-flex;
+  align-items: center;
+  padding-inline: 15px;
+  border-radius: 999px;
+  color: var(--text);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.commerce-order-page > header a:hover,
+.commerce-order-page > header a:focus-visible {
+  background: var(--interactive-hover);
+}
+
+.commerce-order-progress {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.commerce-order-progress li {
+  padding: 12px 8px;
+  border-bottom: var(--divider);
+  color: var(--muted);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.commerce-order-progress li[data-complete],
+.commerce-order-progress li[aria-current="step"] {
+  border-bottom: var(--divider-strong);
+  color: var(--text);
+}
+
+.commerce-order-actions > p {
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.commerce-order-actions .commerce-order-action--danger {
+  background: var(--danger-bg);
+  color: var(--danger-text);
+}
+
+.commerce-order-empty {
+  min-height: 220px;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+  gap: 9px;
+  padding: 28px;
+  border: var(--divider);
+  border-radius: var(--market-card-radius);
+  background: var(--surface-raised);
+  text-align: center;
+}
+
+.commerce-order-empty strong {
+  font-size: 1.125rem;
+}
+
+.commerce-order-empty p {
+  max-width: 34rem;
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.commerce-order-empty :where(a, button) {
+  min-height: 42px;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 6px;
+  padding-inline: 18px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--emphasis);
+  color: var(--action-text);
+  font: inherit;
+  font-weight: 800;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.storefront__skeleton {
+  display: grid;
+  gap: 9px;
+  animation: market-skeleton-pulse 1.4s ease-in-out infinite alternate;
+}
+
+.storefront__skeleton span {
+  height: 180px;
+  border-radius: 10px;
+  background: var(--interactive-hover);
+}
+
+.storefront__skeleton i,
+.storefront__skeleton b {
+  height: 12px;
+  border-radius: 999px;
+  background: var(--interactive-hover);
+}
+
+.storefront__skeleton i {
+  width: 46%;
+}
+
+.storefront__skeleton b {
+  width: 82%;
+}
+
+@keyframes market-skeleton-pulse {
+  from {
+    opacity: 0.55;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@container seller-center (max-width: 900px) {
+  .commerce-seller-hero nav {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .commerce-seller-settings__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 700px) {
+  
+
+  
+
+  .commerce-seller-hero {
+    gap: 14px;
+  }
+
+  .commerce-seller-hero nav {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .commerce-seller-settings__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .commerce-order-page > header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+.storefront__overview {
+  margin-inline: var(--market-content-gutter);
+}
+
+.storefront__overview {
+  padding-block: 24px;
+}
+
+.storefront__overview > header {
+  align-items: flex-end;
+  margin-bottom: 14px;
+  padding-bottom: 12px;
+  border-bottom: var(--divider);
+}
+
+.storefront__overview > header h1 {
+  letter-spacing: -0.025em;
+}
+
+/*
+ * 写真の枠は、この密な並びに合わせて正方形にする。
+ * store.css の .storefront__media は height: 180px を持つが、これは
+ * .storefront__grid が4列（1枚あたり約260px）だった頃の寸法で、列が118pxへ
+ * 縮んだ後も取り残されていた。結果、113×187の縦長の枠に商品写真を
+ * object-fit: contain で収める形になっていた。
+ * app面（mobile-app.css）は既に aspect-ratio: 1/1 へ直してある。
+ */
+
+:where(.shopping-product-toolbar, .shopping-product-breadcrumb) {
+  padding-inline: var(--market-content-gutter);
+  background: var(--surface-raised);
+}
+
+.shopping-product-toolbar {
+  border-bottom: var(--divider);
+}
+
+.shopping-product-breadcrumb {
+  min-height: 42px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
+.shopping-product-hero {
+  gap: clamp(20px, 3vw, 38px);
+  padding: clamp(22px, 3vw, 40px) var(--market-content-gutter);
+  border: 0;
+  border-radius: var(--market-card-radius);
+  box-shadow: var(--ambient-shadow);
+}
+
+.shopping-product-media,
+.shopping-product-price-box {
+  border: var(--divider);
+  border-radius: var(--market-card-radius);
+  background: var(--surface-raised);
+  box-shadow: none;
+}
+
+.shopping-product-copy h1 {
+  letter-spacing: -0.035em;
+}
+
+.shopping-product-price-box > .shopping-product-price-unavailable {
+  min-height: 38px;
+  display: grid;
+  place-items: center;
+  padding: 8px 12px;
+  border: var(--divider);
+  border-radius: 8px;
+  background: var(--surface-sunken);
+  color: var(--muted);
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.shopping-product-description {
+  margin: 16px 0;
+  border-block: var(--divider);
+}
+
+.shopping-product-description summary {
+  padding: 11px 0;
+  color: var(--text);
+  font-size: 0.8125rem;
+  font-weight: 750;
+  cursor: pointer;
+}
+
+.shopping-product-description p {
+  margin: 0;
+  padding: 0 0 14px;
+  color: var(--muted);
+  font-size: 0.8125rem;
+  line-height: 1.7;
+}
+
+.shopping-product-detail-grid {
+  grid-template-columns: minmax(250px, 0.82fr) minmax(320px, 1.18fr);
+  align-items: flex-start;
+}
+
+.shopping-product-detail-grid > .shopping-product-offers {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+}
+
+.shopping-product-detail-grid > .embedded-hub-thread {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.shopping-product-price-box {
+  position: sticky;
+  top: 76px;
+  align-self: flex-start;
+}
+
+.storefront__section--services {
+  padding-top: 20px;
+}
+
+@media (max-width: 1320px) {
+  .shopping-product-detail-grid {
+    grid-template-columns: minmax(280px, 0.9fr) minmax(300px, 1.1fr);
+    gap: 14px;
+  }
+
+  .shopping-product-detail-grid
+    > :where(
+      .shopping-product-reviews,
+      .shopping-product-offers,
+      .embedded-hub-thread
+    ) {
+    padding: 16px;
+  }
+}
+
+@media (min-width: 701px) and (max-width: 1440px) {
+  .shopping-product-hero {
+    grid-template-columns:
+      135px
+      minmax(240px, 1fr)
+      175px;
+    gap: 14px;
+    padding: 20px;
+  }
+
+  .shopping-product-price-box {
+    grid-column: auto;
+    grid-template-columns: minmax(0, 1fr);
+    align-items: stretch;
+  }
+
+  .shopping-product-price-box > span {
+    grid-column: auto;
+  }
+}
+
+@media (max-width: 700px) {
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  .storefront__overview {
+    margin-inline: 14px;
+  }
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  .shopping-product-price-box {
+    position: static;
+  }
+
+  .shopping-product-detail-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .shopping-product-detail-grid
+    > :where(
+      .shopping-product-reviews,
+      .shopping-product-offers,
+      .embedded-hub-thread
+    ) {
+    grid-column: 1;
+    grid-row: auto;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .storefront__skeleton {
+    animation: none;
+    transition: none;
+  }
+
+  
+}
+
+@media (prefers-contrast: more) {
+  :where(
+    .storefront__card,
+    .storefront__areas article,
+    .shopping-product-media,
+    .shopping-product-price-box
+  ) {
+    border-color: var(--line-strong);
+  }
+}
+
+/*
+ * Tags read as a quiet index line, not as another price or title. On a card
+ * they are text because the card is already a link; on the product page they
+ * are links into Hub-wide search.
+ */
+
+.shopping-product-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--ui-space-2);
+  margin: var(--ui-space-3) 0 0;
+}
+
+.shopping-product-tags a {
+  color: var(--muted);
+  font-size: .78rem;
+  text-decoration: none;
+}
+
+.shopping-product-tags a:hover {
+  color: var(--text);
+  text-decoration: underline;
+}
+
+.shopping-product-tags a:focus-visible {
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+/*
+ * Tag filters sit between the heading and the listing. They are buttons, not
+ * links, because the filter is client state and a URL would promise a
+ * shareable result the page cannot honour.
+ */
+

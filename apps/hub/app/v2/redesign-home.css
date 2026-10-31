@@ -1,0 +1,10 @@
+/* v2 redesign (2026-10-11). Semantic color tokens only (app/color-system.css). */
+
+.v2 .v2__main .v2-home-more {
+  margin: var(--v2-space-2, 8px) 0;
+  font-size: 13px;
+}
+.v2 .v2__main .v2-home-more a {
+  color: var(--text);
+  text-decoration: underline;
+}

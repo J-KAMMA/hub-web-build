@@ -1,0 +1,200 @@
+/*
+ * Canonical in-tab left-column behavior.
+ *
+ * The global Hub navigation is owned by ShellFrame. This contract covers the
+ * second navigation column rendered inside product tabs. On desktop it stays
+ * visible for the viewport and scrolls internally when its contents are long.
+ * Product-specific mobile layouts remain in control below the desktop cutoff.
+ */
+@media (max-width: 1023px) {
+  .main-content [data-hub-page-left-column] {
+    position: fixed !important;
+    z-index: 72 !important;
+    inset: 0 auto 0 0 !important;
+    display: flex !important;
+    flex-direction: column;
+    width: min(86vw, 360px) !important;
+    min-width: 0 !important;
+    max-width: 360px !important;
+    height: 100dvh !important;
+    max-height: 100dvh !important;
+    margin: 0 !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    border: 0 !important;
+    border-right: var(--divider) !important;
+    border-radius: 0 !important;
+    background: var(--surface-raised) !important;
+    box-shadow: var(--shadow) !important;
+    overscroll-behavior: contain;
+    transform: translateX(-104%);
+    transition: transform 220ms cubic-bezier(.2, .8, .2, 1);
+    visibility: hidden;
+    pointer-events: none;
+  }
+
+  .shell--page-left-open .main-content [data-hub-page-left-column],
+  .main-content [data-hub-page-left-column].bbs-thread-directory--open {
+    transform: translateX(0);
+    visibility: visible;
+    pointer-events: auto;
+  }
+
+  .shell__page-left-backdrop {
+    position: fixed;
+    z-index: 71;
+    inset: 0 0 0 min(86vw, 360px);
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    border: 0;
+    background: var(--scrim);
+  }
+}
+
+@media (max-width: 1023px) and (prefers-reduced-motion: reduce) {
+  .main-content [data-hub-page-left-column] {
+    transition: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  :is(
+    .hubpedia__directory,
+    .bbs-thread-directory,
+    .music-library-directory,
+    .video-category-sidebar,
+    .community-workspace--channels > .community-channels,
+    .community-workspace--channels > .community-room-list,
+    .ai-chat:not(.ai-chat--rail) > .ai-chat__sidebar,
+    .market-directory
+  ) {
+    position: sticky !important;
+    top: 0 !important;
+    align-self: flex-start;
+    min-height: 0;
+    max-height: 100dvh;
+    overscroll-behavior: contain;
+    scrollbar-gutter: stable;
+  }
+
+  :is(
+    .hubpedia__directory,
+    .bbs-thread-directory,
+    .music-library-directory,
+    .community-workspace--channels > .community-channels,
+    .community-workspace--channels > .community-room-list,
+    .ai-chat:not(.ai-chat--rail) > .ai-chat__sidebar,
+    .market-directory
+  ) {
+    height: 100dvh;
+  }
+
+  :is(
+    .video-category-sidebar,
+    .community-workspace--channels > .community-room-list,
+    .ai-chat:not(.ai-chat--rail) > .ai-chat__sidebar,
+    .market-directory
+  ) {
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  .video-category-sidebar {
+    top: 0 !important;
+    max-height: 100dvh;
+    margin-top: 0;
+  }
+
+  .music-library-content {
+    overflow: visible;
+  }
+
+  .ai-chat:not(.ai-chat--rail) > .ai-chat__sidebar {
+    z-index: 3;
+  }
+
+  .tab-left-column__header {
+    position: sticky;
+    z-index: 5;
+    top: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 0 var(--column-title-height);
+    width: 100%;
+    height: var(--column-title-height);
+    min-height: var(--column-title-height);
+    max-height: var(--column-title-height);
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0 var(--column-title-inline);
+    border-bottom: var(--divider);
+    background: var(--bg);
+    color: var(--text);
+  }
+
+  .tab-left-column__header :is(strong, b) {
+    min-width: 0;
+    overflow: hidden;
+    color: var(--text);
+    font-size: var(--column-title-font-size);
+    font-weight: 700;
+    line-height: 1.2;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .tab-left-column__header > :is(span, div) {
+    min-width: 0;
+  }
+
+  .tab-left-column__header > :is(span, div) > span,
+  .tab-left-column__header small {
+    display: none;
+  }
+
+  .community-channels > .tab-left-column__header {
+    justify-content: center;
+    padding-inline: 4px;
+  }
+
+  .community-channels > .tab-left-column__header strong {
+    max-width: 100%;
+    font-size: .58rem;
+    letter-spacing: -.04em;
+    text-overflow: clip;
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 1024px) {
+  .tab-left-column-layout {
+    display: grid;
+    grid-template-columns: 228px minmax(0, 1fr);
+    align-items: flex-start;
+    min-width: 0;
+  }
+
+  .tab-left-column-layout > .tab-left-column {
+    position: sticky !important;
+    top: 0 !important;
+    display: flex;
+    flex-direction: column;
+    grid-column: 1;
+    grid-row: 1;
+    width: 100%;
+    height: calc(100dvh - var(--tab-left-column-offset, 0px)) !important;
+    min-height: 0;
+    max-height: calc(100dvh - var(--tab-left-column-offset, 0px)) !important;
+    overflow: hidden;
+    overscroll-behavior: contain;
+  }
+
+  .tab-left-column-main {
+    grid-column: 2;
+    grid-row: 1;
+    min-width: 0;
+  }
+}

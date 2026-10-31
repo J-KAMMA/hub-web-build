@@ -1,0 +1,5 @@
+import {NextResponse} from "next/server";import {getHubD1} from "@/lib/server/hub-d1";import {requireModerationAdmin} from "@/lib/server/moderation-admin-auth";
+export async function GET(request:Request){const denied=requireModerationAdmin(request);if(denied)return denied;const database=getHubD1();const[advertisers,appeals,reports]=await database.batch([
+ database.prepare("SELECT advertiser_ref advertiserRef,status,policy_version policyVersion,policy_accepted_at policyAcceptedAt,reviewed_at reviewedAt,created_at createdAt FROM hub_ad_advertisers ORDER BY created_at DESC LIMIT 200"),
+ database.prepare("SELECT id,advertiser_ref advertiserRef,target_type targetType,target_id targetId,reason,status,resolution_note resolutionNote,created_at createdAt FROM hub_ad_review_appeals ORDER BY created_at DESC LIMIT 200"),
+ database.prepare("SELECT id,token_id tokenId,reason_code reasonCode,detail,status,created_at createdAt FROM hub_ad_public_reports ORDER BY created_at DESC LIMIT 200")]);return NextResponse.json({advertisers:advertisers.results,appeals:appeals.results,reports:reports.results},{headers:{"Cache-Control":"no-store"}});}

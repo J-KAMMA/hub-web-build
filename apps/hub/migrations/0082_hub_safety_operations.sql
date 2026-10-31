@@ -1,0 +1,9 @@
+PRAGMA foreign_keys = ON;
+CREATE TABLE IF NOT EXISTS hub_admin_audit_log(id TEXT PRIMARY KEY,actor_role TEXT NOT NULL CHECK(actor_role IN('moderator','content_admin','ads_admin','operations_admin')),action TEXT NOT NULL,target_type TEXT NOT NULL,target_id TEXT NOT NULL,metadata_json TEXT NOT NULL DEFAULT '{}',created_at TEXT NOT NULL);
+CREATE INDEX IF NOT EXISTS idx_hub_admin_audit_created ON hub_admin_audit_log(created_at DESC);
+CREATE TABLE IF NOT EXISTS social_post_revisions(id TEXT PRIMARY KEY,post_id TEXT NOT NULL REFERENCES social_posts(id) ON DELETE CASCADE,editor_profile_id TEXT REFERENCES profiles(id) ON DELETE SET NULL,previous_body TEXT NOT NULL,created_at TEXT NOT NULL);
+CREATE INDEX IF NOT EXISTS idx_social_post_revisions_post ON social_post_revisions(post_id,created_at DESC);
+CREATE TABLE IF NOT EXISTS profile_muted_terms(profile_id TEXT NOT NULL REFERENCES profiles(id) ON DELETE CASCADE,term TEXT NOT NULL COLLATE NOCASE,created_at TEXT NOT NULL,PRIMARY KEY(profile_id,term),CHECK(length(term) BETWEEN 2 AND 80));
+CREATE TABLE IF NOT EXISTS profile_content_preferences(profile_id TEXT PRIMARY KEY REFERENCES profiles(id) ON DELETE CASCADE,show_sensitive INTEGER NOT NULL DEFAULT 0 CHECK(show_sensitive IN(0,1)),updated_at TEXT NOT NULL);
+CREATE TABLE IF NOT EXISTS copyright_notices(id TEXT PRIMARY KEY,reporter_profile_id TEXT NOT NULL REFERENCES profiles(id) ON DELETE CASCADE,target_type TEXT NOT NULL CHECK(target_type IN('social_post','social_image','video','hubpedia')),target_id TEXT NOT NULL,work_description TEXT NOT NULL,claim_basis TEXT NOT NULL,status TEXT NOT NULL DEFAULT 'open' CHECK(status IN('open','actioned','rejected','countered','restored')),created_at TEXT NOT NULL,updated_at TEXT NOT NULL,CHECK(length(work_description) BETWEEN 20 AND 2000),CHECK(length(claim_basis) BETWEEN 20 AND 2000));
+CREATE INDEX IF NOT EXISTS idx_copyright_notices_queue ON copyright_notices(status,created_at DESC);

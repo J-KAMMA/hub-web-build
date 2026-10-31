@@ -1,0 +1,250 @@
+.workbench {
+  margin-top: 32px;
+  border-top: var(--divider);
+  border-bottom: var(--divider);
+}
+
+.tabs {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  border-bottom: var(--divider);
+}
+
+.tabs button {
+  min-height: 44px;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-size: .78rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.tabs button[aria-selected="true"] {
+  border-bottom-color: var(--emphasis);
+  color: var(--text);
+}
+
+.panel {
+  display: grid;
+  gap: 14px;
+  padding: 18px 0;
+}
+
+.toolbar,
+.composerActions,
+.itemHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.toolbar h2,
+.panel h2,
+.panel p {
+  margin: 0;
+}
+
+.toolbar h2,
+.panel h2 {
+  font-size: 1rem;
+}
+
+.watch,
+.primary,
+.secondary {
+  min-height: 40px;
+  padding: 0 14px;
+  border: var(--divider);
+  border-radius: 10px;
+  font: inherit;
+  font-size: .76rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.watch,
+.secondary {
+  background: var(--interactive);
+  color: var(--text);
+}
+
+.primary {
+  border-color: var(--action);
+  background: var(--action);
+  color: var(--action-text);
+}
+
+.watch:hover,
+.secondary:hover {
+  background: var(--interactive-hover);
+}
+
+.primary:hover {
+  background: var(--action-hover);
+}
+
+.composer {
+  display: grid;
+  gap: 10px;
+  padding: 14px;
+  border: var(--divider);
+  border-radius: 12px;
+  background: var(--surface-sunken);
+}
+
+.composer textarea,
+.composer input {
+  width: 100%;
+  border: var(--divider);
+  border-radius: 9px;
+  background: var(--content-surface);
+  color: var(--text);
+  font: inherit;
+}
+
+.composer textarea {
+  min-height: 96px;
+  padding: 11px 12px;
+  resize: vertical;
+}
+
+.composer input {
+  min-height: 40px;
+  padding: 0 12px;
+}
+
+.composer label {
+  display: grid;
+  gap: 6px;
+  color: var(--muted);
+  font-size: .72rem;
+  font-weight: 700;
+}
+
+.list {
+  display: grid;
+}
+
+.item {
+  display: grid;
+  gap: 7px;
+  padding: 14px 0;
+  border-top: var(--divider);
+}
+
+.item p {
+  line-height: 1.65;
+  white-space: pre-wrap;
+}
+
+.item small,
+.status,
+.empty {
+  color: var(--muted);
+  font-size: .72rem;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.kind {
+  color: var(--emphasis);
+  font-size: .68rem;
+  font-weight: 800;
+}
+
+.error {
+  color: var(--danger-text);
+}
+
+.related {
+  display: grid;
+  gap: 12px;
+  padding-top: 18px;
+  border-top: var(--divider);
+}
+
+.relatedHeader,
+.relatedLink,
+.linkForm > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.relatedHeader div,
+.relatedLink span:first-child {
+  display: grid;
+  gap: 4px;
+}
+
+.relatedHeader p,
+.relatedHeader > span,
+.relatedLink small,
+.linkForm label {
+  color: var(--muted);
+  font-size: .72rem;
+}
+
+.relatedList {
+  display: grid;
+  border-top: var(--divider);
+}
+
+.relatedLink {
+  min-height: 56px;
+  padding: 10px 2px;
+  border-bottom: var(--divider);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.relatedLink:hover {
+  background: var(--interactive-hover);
+}
+
+.linkForm {
+  display: grid;
+  gap: 6px;
+}
+
+.linkForm input {
+  min-width: 0;
+  flex: 1;
+  min-height: 40px;
+  padding: 0 12px;
+  border: var(--divider);
+  border-radius: 9px;
+  background: var(--content-surface);
+  color: var(--text);
+  font: inherit;
+}
+
+@media (max-width: 640px) {
+  .toolbar,
+  .composerActions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .watch,
+  .primary,
+  .secondary {
+    width: 100%;
+  }
+
+  .relatedHeader,
+  .linkForm > div {
+    align-items: stretch;
+    flex-direction: column;
+  }
+}

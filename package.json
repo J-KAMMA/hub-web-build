@@ -1,0 +1,26 @@
+{
+  "name": "@jkamma/platform",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "packages/content-tags",
+    "packages/gltf-guard",
+    "packages/game-kit",
+    "apps/hub",
+    "apps/hub-world"
+  ],
+  "scripts": {
+    "build:hub": "npm run build --workspace=sekai-seifu-hub-handoff-docs-v2",
+    "build:hub:cloudflare": "npm run build:cloudflare --workspace=sekai-seifu-hub-handoff-docs-v2",
+    "typecheck:hub": "npm run typecheck --workspace=sekai-seifu-hub-handoff-docs-v2"
+  },
+  "devDependencies": {
+    "kuromoji": "^0.1.2",
+    "undici": "^7.29.0",
+    "viem": "2.55.15"
+  },
+  "overrides": {
+    "undici": "$undici",
+    "viem": "$viem"
+  }
+}

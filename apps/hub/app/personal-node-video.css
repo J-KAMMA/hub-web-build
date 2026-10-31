@@ -1,0 +1,117 @@
+.personal-video-settings {
+  border-top: var(--divider);
+}
+
+.personal-video-settings__header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 18px;
+  border-bottom: var(--divider);
+}
+
+.personal-video-settings__header > div {
+  display: grid;
+  gap: 6px;
+}
+
+.personal-video-settings__header strong {
+  color: var(--text);
+  font-size: .9rem;
+}
+
+.personal-video-settings__header p,
+.personal-video-settings__footer p {
+  margin: 0;
+  color: var(--muted);
+  font-size: .75rem;
+  line-height: 1.6;
+}
+
+.personal-video-settings__header > span {
+  flex: 0 0 auto;
+  padding: 5px 9px;
+  border: var(--divider);
+  border-radius: 999px;
+  background: var(--panel-strong);
+  color: var(--muted);
+  font-size: .75rem;
+  font-weight: 700;
+}
+
+.personal-video-settings__header > span.is-ready {
+  color: var(--positive-text);
+}
+
+.personal-video-settings__header > span.is-unavailable {
+  color: var(--warning-text);
+}
+
+.personal-video-settings__flow {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 12px 18px;
+  border-bottom: var(--divider);
+  scrollbar-width: thin;
+}
+
+.personal-video-settings__flow span {
+  flex: 0 0 auto;
+  padding: 7px 10px;
+  border: var(--divider);
+  border-radius: 999px;
+  background: var(--panel);
+  color: var(--text);
+  font-size: .75rem;
+  font-weight: 650;
+}
+
+.personal-video-settings__flow i {
+  color: var(--muted);
+  font-style: normal;
+}
+
+.personal-video-settings :is(input, select):disabled + i,
+.personal-video-settings select:disabled {
+  cursor: not-allowed;
+  opacity: .55;
+}
+
+.personal-video-settings__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  padding: 14px 18px;
+}
+
+.personal-video-settings__footer button {
+  flex: 0 0 auto;
+  min-height: 40px;
+  padding: 0 15px;
+  border: var(--divider);
+  border-radius: 10px;
+  background: var(--emphasis);
+  color: var(--action-text);
+  cursor: pointer;
+}
+
+.personal-video-settings__footer button:disabled {
+  cursor: not-allowed;
+  opacity: .5;
+}
+
+@media (max-width: 600px) {
+  .personal-video-settings__header,
+  .personal-video-settings__footer {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .personal-video-settings__footer button {
+    width: 100%;
+  }
+}

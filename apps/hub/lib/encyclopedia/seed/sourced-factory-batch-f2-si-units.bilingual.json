@@ -1,0 +1,1072 @@
+[
+  {
+    "slug": "ampere",
+    "topicType": "concept",
+    "categoryLabel": "物理・化学・宇宙",
+    "title": "アンペア",
+    "summary": "アンペア（記号A）は電流を表すSI基本単位で、1クーロンの電荷がある点を1秒間で通過するときの電流に等しい。2019年5月20日の改定により、2本の平行導体に働く力を用いた従来の定義から、電気素量eの値を正確に1.602176634×10⁻¹⁹クーロンと定める定義へ移行した。この改定後、電流の直接測定は装置内を通過する個々の電子を数える方法によって行われるようになった。",
+    "bodyMarkdown": "## 電流の単位としてのアンペア\n\nアンペア（記号A）は、電流を表すSI基本単位である。1アンペアは、1クーロンの電荷がある点を1秒間で通過するときの電流に等しい。国際的に認知された単位となったのは1908年である。 [1][4][7]\n\nクーロンは電荷の量を表す単位で、1クーロンはおよそ6.241×10¹⁸個の電気素量に等しい。したがって1アンペアの電流とは、毎秒それだけの個数に相当する電荷が通過している状態を指す。電流は電荷そのものではなく、単位時間あたりに通過する電荷の量である。この区別は、電流の値が大きくても運ばれる電荷の総量は小さいという場合に表面化する。 [4][6][11]\n\n## 定義の変遷\n\n2019年以前のアンペアの公式定義は、力を介したものだった。真空中に1メートル離して置いた、無限に長く断面積が無視できる2本の平行な導体に同じ電流を流したとき、導体間に1メートルあたり2×10⁻⁷ニュートンの力を生じさせる一定の電流が1アンペアと定められていた。この定義は理想化された配置を前提としており、実験室でそのまま再現できるものではない。 [2]\n\n2019年5月20日以降、アンペアは基礎物理定数である電気素量eに基づいて定義されている。改定後のSIでは、eの値は正確に1.602176634×10⁻¹⁹クーロンと定められ、この固定された値がアンペアの定義に用いられる。単位の基準は、力の測定を経由する取り決めから、値を固定した定数へ移った。 [3][5][9]\n\nアンペアが1秒間に通過する電荷として表される以上、その大きさは電気素量と秒の両方に依存する。秒の基準となるセシウム133の超微細遷移周波数∆νCsは、9,192,631,770ヘルツである。 [4][10]\n\n## 電気素量との関係\n\n電気素量eは、電子1個が持つ負の電荷、または陽子1個が持つ正の電荷の量である。改定後のSIではその値が正確に1.602176634×10⁻¹⁹クーロンと定められており、1クーロンはおよそ6.241×10¹⁸個のeに等しい。 [5][6][8]\n\neは、1アンペアの電流が1秒間にある点を通過させる電荷量と比べると、きわめて小さい。日常的な電流でも膨大な個数の電荷が関わるため、単位の基準を1個分の電荷に置くことと、それを実際に数え上げることのあいだには大きな隔たりがある。 [17]\n\n## 測定の方法と精度\n\nアンペアの測定精度は時とともに向上し、直近ではおよそ1000万分の数という水準に達している。 [15]\n\n再定義の後、電流の直接測定は、装置内を通過する個々の電子を数えることによって行われるようになった。この用途には単一電子転送（SET）チップを用いることができる。定義が電気素量に置き換わったことで、測定の対象は力の釣り合いではなく電荷の個数になった。 [12][24]\n\n## 実際の電流の大きさ\n\n実用上の電流値は広い範囲にわたる。小型のLEDに流れる電流は数千分の1アンペア程度のこともあり、60ワット相当のLED電球が使う電流も1アンペアのごくわずかな割合にすぎない。一方、消費電力1800ワットのヘアドライヤーはおよそ15アンペアを使う。 [18][22][23]\n\n家庭の配線はこの範囲を前提に保護されている。単相回路のブレーカーは15から20アンペア、延長コードは通常1から20アンペアの電流に対応する。作業用の機器ではこれを上回り、アーク溶接では最大約200アンペアが使われる。 [19][20][21]\n\n送電の側では事情が異なる。送電線は電圧が最大75万ボルトと高い一方で、電流は最大1000アンペア程度と比較的低い。 [13]\n\n落雷は電流の値としては桁違いで、10万アンペア以上に達することがある。ただし継続時間はわずか数十ミリ秒程度であり、数万アンペアに達する平均的な落雷が運ぶ電荷は約5クーロンにすぎない。電流の大きさと運ばれる電荷の量が別の量であることを、この例は端的に示している。 [11][14][16]\n\n## 関連記事\n\n- [ケルビン](/hubpedia/kelvin)\n- [モル](/hubpedia/mole)",
+    "sources": [
+      {
+        "url": "https://www.nist.gov/si-redefinition/ampere",
+        "title": "The Ampere — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The measurement institute's own account of ampere. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.nist.gov/si-redefinition/meet-constants",
+        "title": "Meet the Constants — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The defining constants every base unit is now fixed against. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Ampere",
+        "summary": "The ampere (symbol A) is the SI base unit of electric current, equal to the current when one coulomb of charge passes a point in one second. A revision on 20 May 2019 moved the unit from its former definition, based on the force between two parallel conductors, to a definition that fixes the elementary charge e at exactly 1.602176634×10⁻¹⁹ coulomb. Following this revision, direct measurement of electric current came to be performed by counting the individual electrons passing through a device.",
+        "bodyMarkdown": "## The ampere as the unit of electric current\n\nThe ampere (symbol A) is the SI base unit of electric current. One ampere is equal to the current when one coulomb of charge passes a point in one second. It became an internationally recognized unit in 1908. [1][4][7]\n\nThe coulomb is the unit of quantity of electric charge, and one coulomb is equal to roughly 6.241×10¹⁸ elementary charges. A current of one ampere therefore refers to a state in which charge corresponding to that number passes each second. Current is not charge itself, but the quantity of charge passing per unit of time. This distinction becomes apparent in cases where the value of the current is large yet the total charge carried is small. [4][6][11]\n\n## Changes in the definition\n\nBefore 2019, the official definition of the ampere was framed in terms of force. One ampere was defined as the constant current that, when flowing through two parallel conductors of infinite length and negligible cross-section placed one metre apart in a vacuum, produces a force of 2×10⁻⁷ newton per metre between the conductors. This definition presupposes an idealized arrangement and cannot be reproduced as such in a laboratory. [2]\n\nSince 20 May 2019, the ampere has been defined on the basis of the elementary charge e, a fundamental physical constant. In the revised SI, the value of e is fixed at exactly 1.602176634×10⁻¹⁹ coulomb, and this fixed value is used in the definition of the ampere. The basis of the unit moved from a convention mediated by measurements of force to a constant whose value is fixed. [3][5][9]\n\nBecause the ampere is expressed as charge passing in one second, its magnitude depends on both the elementary charge and the second. The hyperfine transition frequency of caesium-133, ∆νCs, which serves as the basis of the second, is 9,192,631,770 hertz. [4][10]\n\n## Relation to the elementary charge\n\nThe elementary charge e is the quantity of negative charge carried by one electron, or of positive charge carried by one proton. In the revised SI its value is fixed at exactly 1.602176634×10⁻¹⁹ coulomb, and one coulomb is equal to roughly 6.241×10¹⁸ times e. [5][6][8]\n\nCompared with the quantity of charge that a current of one ampere carries past a point in one second, e is exceedingly small. Since even everyday currents involve an enormous number of charges, there is a wide gap between basing the unit on the charge of a single particle and actually counting those charges. [17]\n\n## Methods and precision of measurement\n\nThe precision with which the ampere can be measured has improved over time, most recently reaching a level of a few parts in ten million. [15]\n\nAfter the redefinition, direct measurement of electric current came to be performed by counting the individual electrons passing through a device. Single-electron transfer (SET) chips can be used for this purpose. With the definition replaced by one based on the elementary charge, the object of measurement became a number of charges rather than a balance of forces. [12][24]\n\n## The magnitude of real currents\n\nCurrents encountered in practice span a wide range. The current flowing through a small LED can be on the order of a few thousandths of an ampere, and the current used by an LED bulb equivalent to 60 watts is only a tiny fraction of one ampere. A hair dryer consuming 1800 watts, by contrast, uses roughly 15 amperes. [18][22][23]\n\nHousehold wiring is protected on the assumption of this range. Circuit breakers on single-phase circuits are rated at 15 to 20 amperes, and extension cords typically handle currents of 1 to 20 amperes. Equipment used for work exceeds this: arc welding uses up to about 200 amperes. [19][20][21]\n\nThe situation differs on the transmission side. Transmission lines run at voltages as high as 750,000 volts, while the current is comparatively low, at up to about 1000 amperes. [13]\n\nA lightning strike is of an entirely different order as a value of current, sometimes reaching more than 100,000 amperes. Its duration, however, is only a few tens of milliseconds, and an average strike reaching tens of thousands of amperes carries only about 5 coulombs of charge. This example plainly shows that the magnitude of a current and the quantity of charge carried are separate quantities. [11][14][16]\n\n## Related articles\n\n- [Kelvin](/hubpedia/kelvin)\n- [Mole](/hubpedia/mole)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:12:51.655Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "アンペア(A)は電流を表すSI基本単位である。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/ampere",
+              "quote": "The ampere (A), the SI base unit of electric current, is a familiar and indispensable quantity in everyday life."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "2019年以前のアンペアの公式定義は、真空中に1メートル離して置いた無限長・断面積が無視できる2本の平行導体に流したとき、導体間に1メートルあたり2×10⁻⁷ニュートンの力を生じさせる一定の電流というものだった。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/ampere",
+              "quote": "The ampere is that constant current which, if maintained in two straight parallel conductors of infinite length, of negligible circular cross-section, and placed 1 meter apart in vacuum, would produce between these conductors a force equal to 2 x 10-7 newton per meter of length."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "2019年5月20日以降、アンペアは基礎物理定数である電気素量(e)に基づいて定義されている。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/ampere",
+              "quote": "Starting on May 20, 2019, the ampere is based on a fundamental physical constant: the elementary charge (e)"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "1アンペアは、1クーロンの電荷がある点を1秒間で通過する電流である。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/ampere",
+              "quote": "One ampere is the current in which one coulomb of charge travels across a given point in 1 second."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "改定後のSIでは、電気素量eの値は正確に1.602176634×10⁻¹⁹クーロンと定められている。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "In the revised SI, e is equal to 1.602176634 × 10-19 coulombs."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "1クーロンは約6.241×10¹⁸個の電気素量(e)に等しい。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/ampere",
+              "quote": "One coulomb is equal to about 6.241 x 1018 electric charges (e)."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "アンペアは1908年から国際的に認知された単位となっている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/ampere",
+              "quote": "The ampere has been an internationally recognized unit since 1908"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "電気素量(e)は、電子1個(負)または陽子1個(正)が持つ電荷の量である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/ampere",
+              "quote": "the elementary charge (e), which is the amount of electric charge in a single electron (negative) or proton (positive)"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "電気素量eはアンペアの定義に用いられる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "It helps to define the ampere."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "セシウム133の超微細遷移周波数∆νCsは9,192,631,770ヘルツに等しい。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "The hyperfine transition frequency ∆νCs is equal to 9,192,631,770 hertz."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "平均的な落雷は電流が数万アンペアに達することがあっても、運ぶ電荷は約5クーロンにすぎない。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/ampere",
+              "quote": "an average lightning bolt carries around 5 coulombs of charge, even though its current may be tens of thousands of amps"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "アンペアの再定義後、電流の直接測定は装置内を通過する個々の電子を数えることによって行われるようになった。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/ampere",
+              "quote": "direct measurements of the ampere became a matter of counting the transit of individual electrons in a device over time"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "送電線は電圧が最大75万ボルトと高い一方、電流は最大1000アンペア程度と比較的低い。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/ampere",
+              "quote": "Transmission power lines typically have high voltages, up to 750,000 volts, but relatively low currents, up to 1000 amperes."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "落雷は10万アンペア以上の電流を運ぶことがある。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/ampere",
+              "quote": "a lightning bolt can carry 100,000 amps or more"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "アンペアは時とともに徐々に高い精度で測定されるようになり、直近ではおよそ1000万分の数という精度に達している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/ampere",
+              "quote": "has been measured with progressively better accuracy over time, most recently to a few parts in ten million"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "落雷が続く時間はわずか数十ミリ秒程度である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/ampere",
+              "quote": "a lightning strike only lasts a matter of a few tens of milliseconds (thousandths of a second)"
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "電気素量eは、1アンペアの電流が1秒間である点を通過する電荷量と比べて、極めて小さい(10億分の1のさらに10分の1程度)。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/ampere",
+              "quote": "e is almost unimaginably small ― about a tenth of a billionth of a billionth of the amount of charge in a current of 1 ampere that moves past a given point in 1 second."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "消費電力1800ワットのヘアドライヤーはおよそ15アンペアの電流を使う。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/ampere",
+              "quote": "15 amps for an 1,800-watt model"
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "延長コードは通常1から20アンペアの電流に対応する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/ampere",
+              "quote": "extension cords (typically 1 to 20 amps)"
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "家庭用の単相回路のブレーカーは15から20アンペアである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/ampere",
+              "quote": "home circuit breakers (15 to 20 amps for a single line)"
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "アーク溶接では最大約200アンペアの電流が使われる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/ampere",
+              "quote": "arc welding (up to around 200 amps)"
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "60ワット相当のLED電球が使う電流は1アンペアのごくわずかな割合にすぎない。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/ampere",
+              "quote": "A 60-watt equivalent LED lamp draws a small fraction of an amp"
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "小型LEDに流れる電流はわずか数千分の1アンペア程度のこともある。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/ampere",
+              "quote": "currents for a small LED can be just a few thousandths of an amp"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "単一電子転送(SET)チップは、再定義されたアンペアにおいて電子を数えるために使用できる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/ampere",
+              "quote": "Single-electron transport (SET) chip that could be used to count electrons in a redefined ampere."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "kelvin",
+    "topicType": "concept",
+    "categoryLabel": "物理・化学・宇宙",
+    "title": "ケルビン",
+    "summary": "ケルビン（記号K）は国際単位系における温度の単位であり、目盛の原点を絶対零度に置く点と、摂氏や華氏のように「度」を付けずに表記する点で他の温度目盛と異なる。1ケルビンの変化量は1摂氏度の変化量と等しいため、両者の違いは目盛の刻み幅ではなく原点の取り方にある。2018年11月に承認された改訂SIでは、ボルツマン定数の数値を正確に固定することによってその大きさが定められている。",
+    "bodyMarkdown": "## 表記と摂氏・華氏との関係\n\nケルビン（記号K）は国際単位系（SI）における温度の単位である。摂氏や華氏と違い、単位に「度」を付けて表記しない。目盛の刻み幅そのものは摂氏と共通で、1ケルビンの変化量は1摂氏度の変化量と等しい。両者を隔てているのは原点の取り方であり、ケルビン目盛は絶対零度を起点とする絶対温度目盛である。 [1][4][5][8]\n\n絶対零度は0Kであり、これは摂氏で-273.15℃、華氏で-459.67℉に相当する。日常的な温度に当てはめると、室温はおよそ294K、21℃、70℉となる。 [2][9]\n\n単位の名は、英国の物理学者ロード・ケルビン（1824年-1907年）にちなむ。この目盛は科学、とりわけ物理科学の分野で広く用いられている。 [3][15]\n\n## 絶対零度と分子の運動\n\n物体の絶対（熱力学的）温度は、その原子や分子が持つ平均的な運動エネルギーの情報を与える量である。エネルギーと温度を結びつける係数がボルツマン定数kであり、この関係が絶対温度という量に物理的な意味を与えている。 [18][19]\n\n19世紀の古典物理学では、絶対零度において運動は完全に停止すると考えられていた。ケルビンらがこの状態を「無限の冷たさ」と呼んだのは、この見方に沿ったものである。20世紀に導入された量子論は、この描像を修正した。絶対零度でも物質には「零点運動」と呼ばれるランダムな運動が残る。ただし零点運動は熱に由来する運動とはみなされず、熱力学的（絶対）温度の定義には含まれない。つまり0Kは運動が皆無であることを意味するのではなく、熱的な運動が無いことを意味する。 [8][20][21][26]\n\n## 定義の変遷\n\n1954年、ケルビンは水の三重点の熱力学温度の1/273.16という分数として定義された。水の三重点とは、水・氷・水蒸気が平衡状態で共存する点であり、特定の圧力のもとでは常に正確に273.16Kで生じる。再現性の高い一つの物理現象に目盛全体を結びつける定義である。 [6][11][12]\n\n改訂されたSIは2018年11月に承認された。この体系ではボルツマン定数kがケルビンの定義に用いられ、その数値を正確に1.380649×10⁻²³ジュール毎ケルビンに固定することでケルビンの大きさが定められる。定義の拠り所は特定の物質の性質から基礎定数へ移り、ケルビンはエネルギーの単位を介して規定されることになった。関連する基礎定数としては、真空中の光速cが秒速299,792,458メートル、プランク定数hが正確に6.62607015×10⁻³⁴ジュール秒とされている。 [7][13][14][24][25]\n\n## 温度目盛の実現と定義定点\n\n定数を固定する定義は単位の大きさを決めるが、実際の温度計を較正するには具体的な基準点が要る。この用途のため、国際的な取り決めによって、ヘリウムの凝固点から銅の凝固点までの範囲に21の定義定点が定められている。水の三重点の273.16Kも、こうした基準点の一つとして広い温度域を橋渡ししている。 [12][23]\n\n## 照明の色温度としての利用\n\n日常生活でケルビンに触れる機会が最も多いのは、照明の「色温度」としての表示である。昔ながらの白熱電球は黄色みを帯びた光を出し、その色温度は約3,000Kとされる。色温度5,000K～5,600Kの照明はより多くの青色光を含み、「昼光色」または「フルスペクトラム」と呼ばれる。多くの新しいLED照明はこの範囲内、あるいはそれ以上の色温度を持つ。 [10][16][22][27]\n\n同じ単位はより高温の対象にもそのまま用いられる。[太陽](/hubpedia/sun)の表面温度は約5,800Kである。 [17]\n\n## 関連記事\n\n- [アンペア](/hubpedia/ampere)\n- [モル](/hubpedia/mole)",
+    "sources": [
+      {
+        "url": "https://www.nist.gov/si-redefinition/kelvin",
+        "title": "The Kelvin — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The measurement institute's own account of kelvin. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.nist.gov/si-redefinition/meet-constants",
+        "title": "Meet the Constants — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The defining constants every base unit is now fixed against. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Kelvin",
+        "summary": "The kelvin (symbol K) is the unit of temperature in the International System of Units. It differs from other temperature scales in that its scale origin is placed at absolute zero and in that it is written without the word \"degree,\" unlike Celsius and Fahrenheit. Because a change of 1 kelvin equals a change of 1 degree Celsius, the difference between the two lies not in the size of the scale divisions but in where the origin is set. Under the revised SI approved in November 2018, its magnitude is fixed by assigning an exact numerical value to the Boltzmann constant.",
+        "bodyMarkdown": "## Notation and the relationship to Celsius and Fahrenheit\n\nThe kelvin (symbol K) is the unit of temperature in the International System of Units (SI). Unlike Celsius and Fahrenheit, the unit is written without the word \"degree.\" The size of the scale division itself is shared with Celsius: a change of 1 kelvin equals a change of 1 degree Celsius. What separates the two is where the origin is placed, and the Kelvin scale is an absolute temperature scale that starts from absolute zero. [1][4][5][8]\n\nAbsolute zero is 0 K, which corresponds to -273.15 °C on the Celsius scale and -459.67 °F on the Fahrenheit scale. Applied to everyday temperatures, room temperature is about 294 K, 21 °C, or 70 °F. [2][9]\n\nThe unit is named after the British physicist Lord Kelvin (1824-1907). The scale is widely used in science, and particularly in the physical sciences. [3][15]\n\n## Absolute zero and molecular motion\n\nThe absolute (thermodynamic) temperature of an object is a quantity that tells us about the average kinetic energy of its atoms and molecules. The coefficient that links energy to temperature is the Boltzmann constant k, and this relationship is what gives the quantity called absolute temperature its physical meaning. [18][19]\n\nIn the classical physics of the nineteenth century, motion was thought to cease entirely at absolute zero. It was in keeping with this view that Kelvin and others called this state \"infinite cold.\" Quantum theory, introduced in the twentieth century, revised that picture. Even at absolute zero, matter retains a random motion known as \"zero-point motion.\" However, zero-point motion is not regarded as motion of thermal origin, and it is not included in the definition of thermodynamic (absolute) temperature. In other words, 0 K does not mean that there is no motion at all; it means that there is no thermal motion. [8][20][21][26]\n\n## How the definition has changed\n\nIn 1954, the kelvin was defined as the fraction 1/273.16 of the thermodynamic temperature of the triple point of water. The triple point of water is the point at which water, ice, and water vapor coexist in equilibrium, and under a specified pressure it always occurs at exactly 273.16 K. It was a definition that tied the entire scale to a single, highly reproducible physical phenomenon. [6][11][12]\n\nThe revised SI was approved in November 2018. In this system, the Boltzmann constant k is used in the definition of the kelvin, and the magnitude of the kelvin is set by fixing its numerical value at exactly 1.380649×10⁻²³ joules per kelvin. The basis of the definition moved from the properties of a particular substance to a fundamental constant, and the kelvin came to be specified by way of a unit of energy. Among the related fundamental constants, the speed of light in vacuum c is 299,792,458 meters per second, and the Planck constant h is exactly 6.62607015×10⁻³⁴ joule seconds. [7][13][14][24][25]\n\n## Realizing the temperature scale and the defining fixed points\n\nA definition that fixes a constant determines the magnitude of the unit, but calibrating an actual thermometer requires concrete reference points. For this purpose, international agreement has established 21 defining fixed points spanning the range from the freezing point of helium to the freezing point of copper. The triple point of water at 273.16 K also serves as one of these reference points, bridging a wide range of temperatures. [12][23]\n\n## Use as the color temperature of lighting\n\nThe most common encounter with the kelvin in everyday life is as the \"color temperature\" given for lighting. Traditional incandescent bulbs emit a yellowish light, and their color temperature is given as roughly 3,000 K. Lighting with a color temperature of 5,000 K to 5,600 K contains more blue light and is called \"daylight\" or \"full spectrum.\" Many newer LED lights have color temperatures within this range or higher. [10][16][22][27]\n\nThe same unit applies just as readily to hotter objects. The surface temperature of the [Sun](/hubpedia/sun) is about 5,800 K. [17]\n\n## Related articles\n\n- [Ampere](/hubpedia/ampere)\n- [Mole](/hubpedia/mole)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:12:51.659Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "ケルビン(K)はSI（国際単位系）における温度の単位である。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kelvin",
+              "quote": "The kelvin (K) — the SI unit of temperature"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "絶対零度は0K、-273.15℃、-459.67℉に相当する。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kelvin",
+              "quote": "0 K = -273.15 degrees C = -459.67 degrees F"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "ケルビン温度目盛は、英国の著名な物理学者ロード・ケルビン（1824年-1907年）にちなんで名付けられた。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kelvin",
+              "quote": "the Kelvin temperature scale — named for the celebrated British physicist Lord Kelvin (1824–1907)"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "ケルビン単位は、摂氏や華氏のように「度」を付けて表記されない。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kelvin",
+              "quote": "The kelvin unit is not expressed in degrees like Celsius or Fahrenheit are."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "1ケルビンの変化量は1摂氏度の変化量と同じである。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kelvin",
+              "quote": "A change of one kelvin is the same amount of temperature change as one degree Celsius"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "1954年、ケルビンは水の三重点の熱力学温度の1/273.16という分数として定義された。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kelvin",
+              "quote": "In 1954, the kelvin was defined as equal to the fraction 1/273.16 of the thermodynamic temperature of the triple point of water"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "新しい定義では、ボルツマン定数の数値を正確に1.380649×10⁻²³ジュール毎ケルビンに固定することでケルビンの大きさが定められる。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kelvin",
+              "quote": "its magnitude is set by fixing the numerical value of the Boltzmann constant to be equal to exactly 1.380649 × 10-23...J K-1[joules per kelvin]"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "ケルビン目盛は絶対零度（ケルビンらが「無限の冷たさ」と呼んだ状態）から始まる絶対温度目盛である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kelvin",
+              "quote": "the Kelvin scale is “absolute” in the sense that it starts at absolute zero, or what Kelvin and other scientists called “infinite cold.”"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "室温はおよそ70℉、21℃、294Kである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kelvin",
+              "quote": "Room temperature is about 70 degrees F, 21 degrees C or 294 K."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "昔ながらの白熱電球は黄色みを帯びた光を出し、その色温度は約3,000Kである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kelvin",
+              "quote": "An old-fashioned incandescent bulb, which puts out yellowish light, has a color temperature of about 3,000 K."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "水の三重点とは、水・氷・水蒸気が平衡状態で共存する点である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kelvin",
+              "quote": "the triple point of water—the point at which water, ice and water vapor co-exist in equilibrium"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "特定の圧力における水の三重点は常に正確に273.16Kで生じる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kelvin",
+              "quote": "for a precise formulation of water at a specific pressure, the triple point always occurs at exactly the same temperature: 273.16 K"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "真空中の光速cは秒速299,792,458メートルである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "c is equal to 299,792,458 meters per second"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "プランク定数hは正確に6.62607015×10⁻³⁴ジュール秒に等しい。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "the Planck constant h is equal to exactly 6.626 070 15 × 10-34 Joule seconds"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "ケルビン目盛は科学、特に物理科学の分野で広く用いられている。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kelvin",
+              "quote": "The Kelvin scale is used widely in science, particularly in the physical sciences."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "色温度5,000K～5,600Kの照明はより多くの青色光を含み、「昼光色」または「フルスペクトラム」と呼ばれる。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kelvin",
+              "quote": "A lamp with a color temperature of 5,000 K to 5,600 K, which contains more blue light, is typically labeled “daylight” or “full spectrum”"
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "太陽表面の温度は約5,800Kである。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kelvin",
+              "quote": "the temperature of the surface of the sun is about 5,800 K"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "ボルツマン定数kは、物体のエネルギーとその温度を関連づける。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "The Boltzmann constant relates an object’s energy to its temperature."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "物体の絶対（熱力学的）温度は、その原子や分子が持つ平均的な運動エネルギーの情報を与える。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kelvin",
+              "quote": "The absolute, thermodynamic temperature of an object provides information on how much average energy of motion (kinetic energy) its atoms and molecules have."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "19世紀の古典物理学によれば、絶対零度では運動が完全に停止する。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kelvin",
+              "quote": "According to classical, 19th-century physics, motion completely stops at absolute zero."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "20世紀に導入された量子論によれば、絶対零度でも物質には「零点運動」と呼ばれるランダムな運動が存在する。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kelvin",
+              "quote": "according to the quantum theory introduced in the 20th century, matter does have random motion at absolute zero, called “zero-point motion,”"
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "日常生活では、ケルビン目盛は照明の「色温度」として最もよく使われる。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kelvin",
+              "quote": "In everyday life, it is most often encountered as the “color temperature” of a lamp."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "国際的な取り決めにより、ヘリウムの凝固点から銅の凝固点までの範囲で21の定義定点が定められている。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kelvin",
+              "quote": "by international agreement, 21 other defining points are specified, ranging from the freezing point of helium to the freezing point of copper"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "改訂されたSI（国際単位系）は2018年11月に承認された。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kelvin",
+              "quote": "When the revised SI was approved in November 2018"
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "改訂されたSIにおいて、ボルツマン定数kはケルビンの定義に用いられる。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "k will help to define the kelvin."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "零点運動は熱由来（熱的）の運動とはみなされず、熱力学的（絶対）温度の定義には含まれない。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kelvin",
+              "quote": "The zero-point motion is not considered heat-driven (thermal) motion and thus is not part of the definition of thermodynamic, or absolute, temperature."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "多くの新しいLED照明は、色温度5,000K～5,600Kの範囲内、あるいはそれ以上の色温度を持つ。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kelvin",
+              "quote": "Many newly available LED lights fall within this range or go even higher."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "mole",
+    "topicType": "concept",
+    "categoryLabel": "物理・化学・宇宙",
+    "title": "モル",
+    "summary": "モルは物質量を表す国際単位系(SI)の基本単位で、アボガドロ定数によって定義される粒子の個数を表す。かつては炭素12の0.012キログラムに含まれる原子数として定義されていたが、2018年11月16日にヴェルサイユで採択された再定義により、物理的な物体から切り離された。化学反応で原子や分子の量を扱うための基本的な計数単位である。",
+    "bodyMarkdown": "## 単位としての位置づけ\n\n水を10分子つくるには、酸素原子が10個と水素原子が20個いる。この比は原子の個数で決まるが、実験室で扱うのは個数ではなく重さである。モルはこの隔たりを埋める単位で、物質量を表すSIの7つの基本単位の一つとして、原子や分子といった要素粒子の個数を一括して数える役割を担う。 [3][12][16]\n\n1モルに含まれる粒子の数を定めるのがアボガドロ定数であり、炭素12についてその値は6.022×10^23、すなわち602,200,000,000,000,000,000,000と表記される。数えるものが何であるかは問わない。アボガドロ数の電子は1モルの電子であり、アボガドロ数の水分子は1モルの水である。 [1][6][7][8]\n\nこの規模は日常の量とかけ離れて見えるが、実際には手に取れる量に対応する。水18グラムには約600垓個の水分子が含まれる。反応の計算もこの単位で行える。酸素分子(O2)半モルと水素分子(H2)1モルを反応させると、水(H2O)が1モル、およそ18グラム生成する。 [5][13]\n\n## 名称の由来\n\nアボガドロの名は定数に冠されているが、彼が厳密にモルという単位を考案したわけではない。「モル(mole)」という語自体は1900年近くまで登場せず、「分子」を意味するドイツ語Molekülの略語Molに由来する。定数の呼び名も後から定まったもので、酸素1グラム分子中の分子の数を「アボガドロ数」と呼ぶことが20世紀初頭に決められ、1971年にモルがSIに導入されたのに伴って、それまでの呼称が「アボガドロ定数」へ改められた。 [15][18][29]\n\n## 炭素12による旧定義\n\n再定義以前のモルは、炭素の最も一般的な形態である炭素12の0.012キログラムに含まれる原子の数と同じ数の要素粒子を含む物質量と定義されていた。この定義はキログラムを経由しており、キログラムに紐づけられていた他のSI基本単位には、モルのほか、電流を測る[アンペア](/hubpedia/ampere)、光度を測るカンデラが含まれていた。 [4][17]\n\n## ケイ素球によるアボガドロ定数の測定\n\n定義を物体から切り離すには、アボガドロ定数そのものを高い精度で測る必要があった。国際アボガドロ協力(IAC)は2004年に各国の計量機関の協力体制として活動を開始し、ドイツが主導して、ロシア、イタリア、ベルギー、オーストラリア、日本、英国、米国の機関が加わり、高濃縮のケイ素28を用いた再定義に取り組んだ。 [11][21]\n\n出発点は同位体の純度である。天然のケイ素の約92パーセントはケイ素28で構成されているが、2000年代初頭にドイツの計量機関PTBがロシアの科学者にケイ素試料の濃縮を依頼し、遠心分離カスケード法による濃縮でケイ素28の存在比は92パーセントから99.995パーセントまで高められた。ドイツはこの濃縮ケイ素から、それぞれ1キログラムの重さを持つ精密な球を2つ切り出した。 [24][25][26][30]\n\n測定はS5とS8と名付けられた2つの高純度で研磨されたケイ素単結晶球を用いて行われ、球にX線を照射することで1モルのケイ素中の原子数を数える手法がとられた。1キログラムのケイ素には1モルより多くのケイ素原子が含まれる。この手法が、モルの現代的な定義のためのアボガドロ定数の測定を与えた。 [10][19][20][27]\n\n測定は一国では完結しなかった。NISTに加え、カナダ国立研究会議や日本の国立計量研究所などの機関が参加を依頼され、NISTは2012年に正式にIACの取り組みに加わった。IACの予備的な測定結果は2011年に学術誌Metrologiaに発表された。 [22][23][28]\n\n## 2018年の再定義\n\n国際社会は約20年間かけてモルの現代的な再定義に取り組み、2018年11月16日、50カ国以上の代表がフランスのヴェルサイユに集まって、モルを含むSIの再定義について投票した。これにより、モルはもはや炭素12という物理的な物体に結び付けられていない。 [2][9][14]\n\n再定義後のモルは孤立した定数に依拠するわけではなく、アボガドロ定数はプランク定数と方程式によって結び付けられている。ケイ素球の測定が意味を持ったのも、この関係を通じて定数どうしが整合するためである。 [31]\n\n## 関連記事\n\n- [ケルビン](/hubpedia/kelvin)",
+    "sources": [
+      {
+        "url": "https://www.nist.gov/si-redefinition/mole",
+        "title": "The Mole — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The measurement institute's own account of mole. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.nist.gov/si-redefinition/meet-constants",
+        "title": "Meet the Constants — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The defining constants every base unit is now fixed against. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Mole",
+        "summary": "The mole is the base unit of amount of substance in the International System of Units (SI), defined by the Avogadro constant as a number of particles. It was once defined as the number of atoms contained in 0.012 kilograms of carbon-12, but a redefinition adopted at Versailles on 16 November 2018 severed it from any physical object. It is the fundamental counting unit for handling quantities of atoms and molecules in chemical reactions.",
+        "bodyMarkdown": "## Position as a unit\n\nMaking ten molecules of water requires ten oxygen atoms and twenty hydrogen atoms. That ratio is set by the number of atoms, but what a laboratory handles is not a count — it is a weight. The mole is the unit that bridges this gap; as one of the seven SI base units, representing amount of substance, it takes on the role of counting elementary particles such as atoms and molecules in bulk. [3][12][16]\n\nThe number of particles contained in one mole is set by the Avogadro constant, whose value for carbon-12 is 6.022×10^23 — that is, 602,200,000,000,000,000,000,000. What is being counted does not matter. An Avogadro number of electrons is one mole of electrons, and an Avogadro number of water molecules is one mole of water. [1][6][7][8]\n\nThis scale may look far removed from everyday quantities, but it in fact corresponds to amounts you can hold in your hand. Eighteen grams of water contains roughly 6×10^23 water molecules. Reaction calculations can also be carried out in this unit: reacting half a mole of oxygen molecules (O2) with one mole of hydrogen molecules (H2) produces one mole of water (H2O), about 18 grams. [5][13]\n\n## Origin of the name\n\nAvogadro's name is attached to the constant, but he did not, strictly speaking, devise the unit called the mole. The word \"mole\" itself did not appear until close to 1900, and derives from Mol, the German abbreviation of Molekül, meaning \"molecule.\" The constant's name was likewise settled later: in the early twentieth century it was decided to call the number of molecules in one gram-molecule of oxygen the \"Avogadro number,\" and when the mole was introduced into the SI in 1971, that earlier designation was changed to \"Avogadro constant.\" [15][18][29]\n\n## The former definition by carbon-12\n\nBefore the redefinition, the mole was defined as the amount of substance containing as many elementary particles as there are atoms in 0.012 kilograms of carbon-12, the most common form of carbon. This definition went by way of the kilogram, and the other SI base units tied to the kilogram included, besides the mole, the [ampere](/hubpedia/ampere), which measures electric current, and the candela, which measures luminous intensity. [4][17]\n\n## Measuring the Avogadro constant with silicon spheres\n\nSevering the definition from a physical object required measuring the Avogadro constant itself to high precision. The International Avogadro Coordination (IAC) began work in 2004 as a cooperative framework among national metrology institutes; led by Germany, and joined by institutes from Russia, Italy, Belgium, Australia, Japan, the United Kingdom, and the United States, it pursued a redefinition using highly enriched silicon-28. [11][21]\n\nThe starting point was isotopic purity. About 92 percent of natural silicon consists of silicon-28, but in the early 2000s the German metrology institute PTB asked Russian scientists to enrich a silicon sample, and enrichment by a centrifuge cascade method raised the abundance of silicon-28 from 92 percent to 99.995 percent. From this enriched silicon, Germany cut two precision spheres, each weighing one kilogram. [24][25][26][30]\n\nThe measurements were performed using two highly pure, polished single-crystal silicon spheres named S5 and S8, with the number of atoms in one mole of silicon counted by irradiating the spheres with X-rays. One kilogram of silicon contains more than one mole of silicon atoms. This approach yielded the measurement of the Avogadro constant used for the modern definition of the mole. [10][19][20][27]\n\nThe measurements were not completed by any one country. In addition to NIST, institutions such as the National Research Council of Canada and Japan's national metrology institute were asked to take part, and NIST formally joined the IAC effort in 2012. The IAC's preliminary measurement results were published in the journal Metrologia in 2011. [22][23][28]\n\n## The 2018 redefinition\n\nThe international community worked for about twenty years toward a modern redefinition of the mole, and on 16 November 2018, representatives of more than fifty countries gathered at Versailles, France, to vote on the redefinition of the SI, including the mole. As a result, the mole is no longer tied to a physical object such as carbon-12. [2][9][14]\n\nThe redefined mole does not rest on an isolated constant: the Avogadro constant is linked to the Planck constant by an equation. The silicon sphere measurements carried meaning precisely because this relationship makes the constants consistent with one another. [31]\n\n## Related articles\n\n- [Kelvin](/hubpedia/kelvin)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:12:51.661Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "アボガドロ定数は、物質量を表すSI単位であるモルに含まれる粒子の数を定義する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "The Avogadro constant defines the number of particles in a mole, the SI unit that expresses the amount of substance."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "2018年11月16日、50カ国以上の代表がフランスのヴェルサイユに集まり、モルを含むSIの再定義について投票した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/mole",
+              "quote": "On November 16, 2018, representatives from more than 50 countries made history when they gathered in Versailles, France, to vote on redefining the SI, including the mole."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "モルはSI(国際単位系)の7つの基本単位の一つである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/mole",
+              "quote": "The mole is one of the seven base units of the SI."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "モルは、炭素の最も一般的な形態である炭素12の0.012キログラムに含まれる原子の数と同じ数の要素粒子を含む物質量と定義されていた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/mole",
+              "quote": "As noted before, a mole is the amount of substance that contains as many elementary entities as there are atoms in 0.012 kilograms of carbon-12."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "酸素分子(O2)半モルと水素分子(H2)1モルを反応させると、水(H2O)が1モル、約18グラム生成する。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/mole",
+              "quote": "Cause a half-mole of oxygen molecules (O2) to react with a mole of hydrogen molecules (H2) and you get a mole of water (H2O)—equal to about 18 grams of substance."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "炭素12についてのアボガドロ定数は6.022×10^23、すなわち602,200,000,000,000,000,000,000と表記される。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/mole",
+              "quote": "The Avogadro constant for carbon-12 is written out as: 6.022×1023, or 602,200,000,000,000,000,000,000."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "アボガドロ数の電子は1モルの電子に等しい。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "Avogadro’s number of electrons equals one mole of electrons."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "アボガドロ数の水分子は1モルの水に等しい。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "Avogadro’s number of water molecules equals one mole of water."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "モルはもはや炭素12という物理的な物体に結び付けられていない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/mole",
+              "quote": "The mole is no longer tied to a physical object—the carbon-12 atom."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "この測定は、S5とS8と名付けられた2つの高純度で研磨されたケイ素単結晶球を用いて行われた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/mole",
+              "quote": "This has been done on two highly purified and polished crystal silicon spheres named S5 and S8."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "国際アボガドロ協力(IAC)は2004年に各国の計量機関の協力体制として活動を開始した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/mole",
+              "quote": "The International Avogadro Coordination (IAC) began work in 2004 as a collaboration between the members of national measurement institutes."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "モルは化学反応における原子や分子の量を表すのに役立つ。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/mole",
+              "quote": "It helps express the amounts of atoms or molecules in a chemical reaction."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "水18グラムには約600垓(600 billion trillion)個の水分子が含まれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/mole",
+              "quote": "18 grams of water—a macro quantity you can easily see and measure—contains approximately 600 billion trillion individual water molecules"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "国際社会は約20年間かけてモルの現代的な再定義に取り組んだ。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/mole",
+              "quote": "For about 20 years, the international community worked on the modern redefinition of the mole."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "1971年にモルがSIに導入されたことに伴い、それまでの呼称が「アボガドロ定数」に変更された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/mole",
+              "quote": "With the introduction of the mole to the SI in 1971, this definition was changed to the “Avogadro constant.”"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "水分子を10個作るには、酸素原子10個と水素原子20個が必要である。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/mole",
+              "quote": "for every 10 water molecules you create, you need exactly 10 oxygen atoms and 20 hydrogen atoms"
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "キログラムに紐づけられていた他のSI基本単位には、モル、アンペア(電流を測る)、カンデラ(光度を測る)が含まれていた。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/mole",
+              "quote": "Other SI base units tied to the kilogram included the mole, the ampere (used to measure electrical current) and the candela (which measures the luminous intensity of light)"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "アボガドロは厳密にはモルを発明したわけではなく、「モル(mole)」という語自体は1900年近くまで登場せず、「分子」を意味するドイツ語Molekülの略語Molに由来する。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/mole",
+              "quote": "Technically, Avogadro didn’t invent the mole—in fact the term didn’t appear until almost 1900, taken from the abbreviation Mol, from the German word for “molecule” (“Molekül”)."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "1モルのケイ素中の原子数を数える手法として、ケイ素球にX線を照射する方法が用いられた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/mole",
+              "quote": "uses X-rays focused on a silicon sphere to count the number of atoms in a mole of silicon"
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "この手法はモルの現代的な定義のためのアボガドロ定数の測定を提供する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/mole",
+              "quote": "It provides a measurement of the Avogadro constant—for a modern definition of the mole."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "IACはドイツが主導し、ロシア、イタリア、ベルギー、オーストラリア、日本、英国、米国の機関を含み、高濃縮ケイ素28を用いたモルの再定義に取り組んだ。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/mole",
+              "quote": "It was this committee, led by Germany, including members from Russia, Italy, Belgium, Australia, Japan, the U.K. and the U.S, that later began work on redefining the mole in terms of the highly silicon-28-enriched silicon."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "IACの予備的な測定結果は2011年に学術誌Metrologiaに発表された。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/mole",
+              "quote": "In 2011, the preliminary results of their efforts were published in a paper in the journal Metrologia."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "NISTは2012年に正式にIACの取り組みに参加した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/mole",
+              "quote": "NIST officially became part of the IAC effort in 2012"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "天然のケイ素の約92パーセントはケイ素28で構成されている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/mole",
+              "quote": "In nature, about 92 percent of silicon consists of silicon-28."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "遠心分離カスケード法による濃縮によって、ケイ素28の同位体存在比は92パーセントから99.995パーセントまで高められた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/mole",
+              "quote": "The enrichment via a centrifugal cascade process raised the isotopic abundance of silicon-28 from 92 percent to 99.995 percent."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "ドイツは濃縮ケイ素からそれぞれ1キログラムの重さを持つ精密な球を2つ切り出した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/mole",
+              "quote": "The Germans cut two precise spheres from the enriched silicon, each weighing a kilogram."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "1キログラムのケイ素には1モルより多くのケイ素原子が含まれる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/mole",
+              "quote": "Although a kilogram contains more than one mole of silicon atoms"
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "NISTに加え、カナダ国立研究会議や日本の国立計量研究所などの機関がこの測定への参加を依頼された。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/mole",
+              "quote": "In addition to NIST, the National Research Council Canada, the National Metrology Institute of Japan and other such organizations were asked to participate."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "酸素1グラム分子中の分子の数は、20世紀初頭に「アボガドロ数」と呼ばれることに決められた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/mole",
+              "quote": "it was decided early in the last century that the number of molecules in one gram-molecule of oxygen would be called the “Avogadro number.”"
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "2000年代初頭、ドイツの計量機関PTBはロシアの科学者にケイ素試料をケイ素28で濃縮できないか依頼した。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/mole",
+              "quote": "in the early 2000s, scientists at Germany’s national metrology institute, the Physikalisch-Technische Bundesanstalt (PTB), asked Russian scientists if they could enrich the silicon sample in silicon-28"
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "アボガドロ定数はプランク定数と方程式によって結び付けられている。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/mole",
+              "quote": "Vocke’s beloved equations link the Avogadro constant to the Planck constant"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

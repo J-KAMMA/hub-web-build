@@ -1,0 +1,1945 @@
+[
+  {
+    "slug": "si-units",
+    "topicType": "concept",
+    "categoryLabel": "教育・研究",
+    "title": "国際単位系",
+    "summary": "国際単位系（SI）は、メートル系とも呼ばれる国際的な測定単位系である。7つの基本単位とそこから組み立てられる組立単位で構成され、2019年にキログラムなど4単位が自然の物理定数に基づいて再定義された。1875年のメートル条約に基づく国際枠組みのもと、科学技術と国際商取引を支える共通の測定言語として機能する。",
+    "bodyMarkdown": "## 概要\n\n国際単位系（SI）はメートル系としても知られる、測定のための国際標準である。1875年5月20日にパリで米国を含む17か国が署名したメートル条約を起源とし、その条約が設置した計量の国際機関――度量衡総会（CGPM）、国際度量衡委員会（CIPM）、国際度量衡局（BIPM）――の枠組みの上に運用されている。 [1][2]\n\nNISTはこれらの国際機関に米国の公式代表を送っている。SIは国際商取引で不可欠の役割を果たし、科学技術の研究開発でも広く用いられる。 [3][14]\n\n## 基本単位と組立単位\n\nSIは7つの定義定数を基盤とする。セシウム超微細分裂周波数、真空中の光速、プランク定数、素電荷、ボルツマン定数、アボガドロ定数、所定の単色光源の発光効率である。 [4]\n\n7つの基本単位――長さのメートル、時間の秒、物質量のモル、電流のアンペア、温度のケルビン、光度のカンデラ、質量のキログラム――は明示的定数定式で表され、それぞれ特定の実践的手法によって実現される。 [5][6]\n\nSIは7つの基本単位から、特別な名前と記号を持つ22の組立単位を定義する。基本単位と特別名の組立単位を合わせた29単位がSI単位の中核セットを構成し、それ以外のSI単位はすべてこの29単位の組み合わせとして表される。 [7][8]\n\n単位の大きさを調整する接頭語は、10の30乗から10のマイナス30乗までの範囲で24個が認められている。 [9]\n\n## 2019年の再定義\n\n2018年11月16日、フランスのヴェルサイユで60か国が全会一致で投票し、世界の科学と貿易を支える国際単位系を改訂した。この変更は2019年5月20日に発効した。 [10][18]\n\nこの決定は、不変の自然の基本特性のみに基づく測定系という科学者の150年の夢を実現したもので、フランス革命後の成立以来で最も深い変更と評される。 [11][17]\n\n発効日の2019年5月20日、キログラム、ケルビン、アンペア、モルの4単位が自然定数によって再定義された。残る[秒](/hubpedia/second-unit)、[メートル](/hubpedia/metre)、カンデラの3単位は、すでに普遍定数に基づいていた。 [12]\n\n改訂後のSIの単位は、光速、電子の電荷、プランク定数を含む7つの不変量に完全に基づく。 [13]\n\n## 表記と量の値\n\nSI記法は言語の綴りや発音の違いを越えて技術情報を効果的に伝達し、誤伝達、データの誤解釈、計算ミスの防止に役立つ。 [15][16]\n\n物理量の値は数と単位の積として表され、その数値は用いる単位に依存する。ワシントン記念塔の高さが hW = 169 m と書かれるように、単位を変えれば数値も変わる。 [19][20]\n\n## 教育と実務での意義\n\nSI記法は、STEMの専門家と公衆が測定情報を解釈・評価・統合・伝達・応用するための素養と位置づけられる。たとえば時間の秒は、セシウム原子の超微細遷移――[原子時計](/hubpedia/atomic-clock)が計る周波数――によって定義され、[キログラム](/hubpedia/kilogram)はプランク定数によって定義される。 [4][21]",
+    "sources": [
+      {
+        "url": "https://www.nist.gov/pml/owm/metric-si/si-units",
+        "title": "SI Units",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-and-software"
+          },
+          "notes": "NIST Office of Weights and Measures explainer on the SI model: defining constants, base and derived units, prefixes, writing conventions, and the Meter Convention. Publisher policy read 2026-08-28: NIST-authored content is public domain and usable commercially with credit. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.nist.gov/si-redefinition",
+        "title": "SI Redefinition",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-and-software"
+          },
+          "notes": "NIST portal on the 2018 vote and 2019 redefinition of the kilogram, kelvin, ampere, and mole in terms of constants of nature. Publisher policy read 2026-08-28: NIST-authored content is public domain and usable commercially with credit. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "International System of Units",
+        "summary": "The International System of Units (SI), also called the metric system, is the international system of measurement units. It consists of seven base units and derived units built from them, and in 2019 four units including the kilogram were redefined in terms of constants of nature. Operating within the international framework of the 1875 Treaty of the Meter, it serves as a common measurement language for science, technology, and global commerce.",
+        "bodyMarkdown": "## Overview\n\nThe International System of Units (SI), also known as the metric system, is the international standard for measurement. It descends from the Treaty of the Meter, signed in Paris on May 20, 1875 by seventeen countries including the United States, and operates within the international metrology bodies that treaty established — the CGPM, the CIPM, and the BIPM. [1][2]\n\nNIST provides official U.S. representation to these international bodies. The SI plays an essential role in international commerce and is widely used in scientific and technological research and development. [3][14]\n\n## Base units and derived units\n\nThe SI rests on seven defining constants: the cesium hyperfine splitting frequency, the speed of light in vacuum, the Planck constant, the elementary charge, the Boltzmann constant, the Avogadro constant, and the luminous efficacy of a specified monochromatic source. [4]\n\nThe seven base units — meter for length, second for time, mole for amount of substance, ampere for electric current, kelvin for temperature, candela for luminous intensity, and kilogram for mass — are expressed in an explicit-constant formulation and realized through specific practical techniques. [5][6]\n\nFrom the seven base units, the SI defines 22 derived units with special names and symbols. Together the base units and the specially named derived units form a core set of 29 units, and every other SI unit is a combination of these twenty-nine. [7][8]\n\nTwenty-four prefixes, ranging from 10^30 to 10^-30, are recognized for adjusting unit magnitude. [9]\n\n## The 2019 redefinition\n\nOn November 16, 2018, sixty countries meeting in Versailles, France voted unanimously to revise the international system underpinning global science and trade; the change went into effect on May 20, 2019. [10][18]\n\nThe decision realized a 150-year dream of a measurement system based entirely on unchanging fundamental properties of nature — described as a change more profound than any since the system's establishment following the French Revolution. [11][17]\n\nOn the effective date of May 20, 2019, four units — the kilogram, kelvin, ampere, and mole — were redefined in terms of constants of nature. The remaining three — the [second](/hubpedia/second-unit), the [meter](/hubpedia/metre), and the candela — were already based on universal constants. [12]\n\nThe units of the revised SI rest completely on seven unchanging quantities, including the speed of light, the amount of electric charge in an electron, and the Planck constant. [13]\n\n## Notation and quantity values\n\nSI writing style communicates technical information effectively across differences of language, spelling, and pronunciation, and helps prevent miscommunication, misinterpretation of data, and calculation errors. [15][16]\n\nThe value of a physical quantity is expressed as the product of a number and a unit, and its numerical value depends on the unit used — the height of the Washington Monument, for example, is written hW = 169 m. [19][20]\n\n## Significance in education and practice\n\nSI writing style is an essential literacy skill that lets STEM professionals and the public interpret, evaluate, synthesize, communicate, and apply measurement information. The second, for instance, is defined through the cesium hyperfine transition — the frequency an [atomic clock](/hubpedia/atomic-clock) measures — and the [kilogram](/hubpedia/kilogram) is defined through the Planck constant. [4][21]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "国際単位系（SI）はメートル系としても知られる、測定の国際標準である。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "The International System of Units (SI), commonly known as the metric system, is the international standard for measurement."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "メートル条約は1875年5月20日にパリで米国を含む17か国が署名した。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "was signed in Paris on May 20, 1875 by seventeen countries, including the United States"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "NISTはメートル条約が設置した国際機関（CGPM・CIPM・BIPM）に米国の公式代表を送っている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "NIST provides official U.S. representation in the various international bodies established by the Meter Convention"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "SIはセシウム超微細分裂周波数、真空中の光速、プランク定数、素電荷、ボルツマン定数、アボガドロ定数、所定の単色光源の発光効率という7つの定義定数を基盤とする。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "the cesium hyperfine splitting frequency, the speed of light in vacuum, the Planck constant, the elementary charge (i.e. the charge on a proton), the Boltzmann constant, the Avogadro constant, and the luminous efficacy of a specified monochromatic source"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "7つのSI基本単位は明示的定数定式で表され、特定の実践的手法によって実現される。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "Definitions of all seven (7) SI base units are expressed using an explicit-constant formulation and experimentally realized using a specific"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "(practical technique)"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "7つの基本単位はメートル、秒、モル、アンペア、ケルビン、カンデラ、キログラムである。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "Length - meter (m)"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "Time - second (s)"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "Amount of substance - mole (mol)"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "Electric current - ampere (A)"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "Mass - kilogram (kg)"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "SIは7つの基本単位から、特別な名前と記号を持つ22の組立単位を定義する。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "The SI is made up of 7 base units that define the 22 derived units with special names and symbols"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "基本単位と特別名の組立単位を合わせた29単位がSI単位の中核セットで、他のSI単位はすべてその組み合わせである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "Together the base units and derived units with special names (twenty-nine units) form the"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "All other SI units are combinations of some of these twenty-nine units."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "10の30乗から10のマイナス30乗までの範囲で24の接頭語が認められている。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "Twenty-four"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "ranging from 10³⁰ to 10^{−30}, are currently recognized for use."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "2018年11月16日、ヴェルサイユで60か国が全会一致で投票し、世界の科学と貿易を支える国際単位系を変革した。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition",
+              "quote": "On November 16, 2018, in Versailles, France, a group of 60 countries made history. With a unanimous vote, they dramatically transformed the international system that underpins global science and trade."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "この投票は、不変の自然の基本特性のみに基づく測定系という科学者の150年の夢を実現した。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition",
+              "quote": "This single action finally realized scientists’ 150-year dream of a measurement system based entirely on unchanging fundamental properties of nature."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "2019年5月20日にキログラム、ケルビン、アンペア、モルの4単位が自然定数で再定義され、秒、メートル、カンデラの3単位はすでに普遍定数に基づいていた。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition",
+              "quote": "On May 20, 2019, four of them — the kilogram, kelvin, ampere and mole — were redefined in terms of constants of nature. The remaining three — the second, meter, and candela — are already based on universal constants."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "改訂後のSIの単位は、光速、電子の電荷、プランク定数を含む7つの不変量に完全に基づく。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition",
+              "quote": "The units in the revised SI are based completely on seven unchanging quantities or “universal constants,” including the speed of light, the amount of electric charge in an electron, and the Planck constant."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "SIは国際商取引で不可欠の役割を果たし、科学技術の研究開発で広く用いられる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "The SI plays an essential role in international commerce and is commonly used in scientific and technological research and development."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "SI記法は言語の綴りや発音の違いを越えて技術情報を効果的に伝達する。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "written technical information is effectively communicated, overcoming the variations of language, including spelling and pronunciation."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "SI記法は誤伝達、データの誤解釈、計算ミスの防止に役立つ。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "Using SI writing style helps prevent miscommunication, misinterpretation of data, and calculation errors."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "2018年の変更は、フランス革命後の成立以来で最も深い変更と評される。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition",
+              "quote": "changed in a way that is more profound than anything since its establishment following the French Revolution."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "変更は2019年5月20日に発効した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition",
+              "quote": "A vote to adopt the change happened on November 16, 2018, at Versailles, France, and the change went into effect on"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition",
+              "quote": "May 20, 2019."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "物理量の値は数と単位の積として表され、その数値は用いる単位に依存する。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "The value of a physical quantity is the quantitative expression of a particular physical quantity as the product of a number and a unit, the number being its numerical value."
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "the numerical value of a particular physical quantity depends on the unit in which it is expressed."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "ワシントン記念塔の高さは hW = 169 m と表される例が示されている。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "the value of the height hW of the Washington Monument is hW = 169 m."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "SI記法はSTEMの専門家と公衆が測定情報を解釈・評価・統合・伝達・応用するための素養とされる。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "SI writing style is an essential literacy skill used by STEM professionals and the public to interpret, evaluate, synthesize, communicate, and apply measurement information."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "atomic-clock",
+    "topicType": "machine",
+    "categoryLabel": "教育・研究",
+    "title": "原子時計",
+    "summary": "原子時計は、原子が特定の周波数の光を吸収・放出する性質を利用して時を刻む時計である。セシウム原子の共鳴周波数を基準とし、1967年以降は国際単位系の秒の定義そのものとなった。人工の振動子では得られない安定性から、GPS衛星や通信網の同期、科学計測を支える現代社会の基盤技術である。",
+    "bodyMarkdown": "## 概要\n\n原子時計は、原子が示す固有の振動を利用して時を刻む時計である。時計とは一般に、一定の周期で振動する機構と、その振動を数えて時刻を表示する装置の結合であり、原子時計はその振動子として人の手で作られた部品ではなく原子を用いる。 [1][7]\n\n振り子や水晶振動子のような人工の振動子は二つとして完全に同じものがなく、生じる刻みも互いにずれ、時間とともにドリフトする。これに対して原子は人工の部品を持たず摩耗もせず、同じ種類の原子はすべて同一であるため、ほぼ完璧な拍を生み出せる。 [2][3][4]\n\nセシウム原子を用いる時計では、1秒を刻むのに9,192,631,770回の光の周期を数える。1967年、国際度量衡総会はこの原子測定に基づき[秒](/hubpedia/second-unit)を再定義し、[国際単位系](/hubpedia/si-units)（SI）の時間の単位は天体ではなく原子に結び付けられた。 [8][21]\n\n## 時を刻む仕組み\n\n原子は特定の色、すなわち周波数の光波を吸収・放出する。原子を時計に変えるには、その原子の共鳴周波数に細かく同調させた光を浴びせる。光の周波数が共鳴に近づくと、原子は光のエネルギーの一部を吸収して内部のエネルギー状態を変え、いわゆる量子跳躍を起こす。 [5][6]\n\n原子時計で実際に時を刻むのは、原子にエネルギーを与える光波である。何個の原子がエネルギーを吸収したかを測定して光の周波数が共鳴に達したことを検出し、共鳴光の山と谷を数えて時の刻みに変換する。今日の最良の原子時計は他のどの種類の時計よりも数十億倍正確で、ビッグバンから動いていたとしても誤差は1秒未満とされる。 [7][28]\n\n## 歴史\n\n原子時計の構想は1870年代、マックスウェルとケルビン卿として知られるトムソンによって提案された。1939年にはコロンビア大学の物理学者ラビが米国国立標準局（NBS、後のNIST）に分子ビーム磁気共鳴法を時刻標準として用いるよう提案し、1940年にはセシウムの共鳴周波数を約91億914万サイクル毎秒と測定した。 [10][11][12]\n\n1948年8月12日、標準局のライオンズらはアンモニア分子を9メートルの銅セルに閉じ込めてマイクロ波に浸し、その放射が約239億サイクルに達する時間として秒を定義できることを示した。1949年に最初の原子時計として公開されたが、アンモニア時計は既存の時計より正確でも精密でもなかった。 [13][14][15][16]\n\nセシウムは大きく重い原子で比較的低速で制御しやすく、内部エネルギー準位をマイクロ波で操作しやすい。1955年5月に英国国立物理学研究所のエッセンが公開したセシウムビーム時計は時刻標準として使える最初の原子時計となり、1958年にエッセンとマルコウィッツが発表した9,192,631,770サイクル毎秒という値は10億分の20程度の誤差だった。1959年にはNBS-1が米国の公式周波数標準となり、1960年にNBS-2へ置き換えられた。 [17][18][19][20]\n\n## 精度の向上と応用\n\nNBS-1とNBS-2の精度は1兆分の10以上で、3,000年動かしても1秒のずれも生じなかった。1975年までにNISTのNBS-6は40万年に1秒もずれない精度と安定性を達成し、1993年に稼働したNIST-7は600万年に1秒もずれなかった。 [22][23][24]\n\n原子時計は時刻合わせ、通信、計量学、測位・航法システムの進歩を促した。米海軍は1977年にGPS衛星網を打ち上げ、各衛星はセシウムとルビジウムの時計を搭載した。セシウムほど正確ではないものの小型・安価にできるルビジウム時計も普及し、今日では株式取引の記録や電話・検索を支える[コンピューターネットワーク](/hubpedia/computer-network)の同期も原子時刻に依存している。 [25][26][27][9]",
+    "sources": [
+      {
+        "url": "https://www.nist.gov/atomic-clocks/how-do-atomic-clocks-work",
+        "title": "How Do Atomic Clocks Work?",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-and-software"
+          },
+          "notes": "NIST explainer on the physics of atomic timekeeping: resonance, quantum jumps, counting light-wave cycles, the cesium second, and why atomic beats outperform manufactured oscillators. Publisher policy read 2026-08-28: NIST-authored content is public domain and usable commercially with credit. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.nist.gov/atomic-clocks/brief-history-atomic-time",
+        "title": "A Brief History of Atomic Time",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-and-software"
+          },
+          "notes": "NIST historical feature covering the Maxwell–Kelvin idea, Rabi, the 1949 Lyons ammonia clock, Essen's 1955 cesium beam clock, the 1967 redefinition of the second, and the NBS/NIST clock series. Publisher policy read 2026-08-28: NIST-authored content is public domain and usable commercially with credit. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Atomic clock",
+        "summary": "An atomic clock is a clock that measures time by exploiting the property that atoms absorb and emit light at specific frequencies. Based on the resonant frequency of cesium atoms, it has defined the SI second since 1967. Offering a stability no manufactured oscillator can match, it is foundational technology for GPS satellites, telecommunications network synchronization, and scientific measurement.",
+        "bodyMarkdown": "## Overview\n\nAn atomic clock is a clock that measures time using the characteristic oscillations of atoms. A clock in general is a marriage of two components — a mechanism that oscillates with a steady beat and a device that counts the beats and displays the time — and an atomic clock uses atoms rather than manufactured parts as its oscillator. [1][7]\n\nHuman-made oscillators such as pendulums and quartz crystals are never exactly alike, the ticks they produce differ from one another, and they drift over time. Atoms, by contrast, have no manufactured parts, do not wear out, and every atom of a given type is identical, so they can provide nearly perfect beats. [2][3][4]\n\nIn a clock based on cesium atoms, ticking off one second means counting 9,192,631,770 cycles of light. In 1967 the General Conference on Weights and Measures redefined the [second](/hubpedia/second-unit) on the basis of this atomic measurement, tying the unit of time in the [International System of Units](/hubpedia/si-units) (SI) to atoms rather than to the heavens. [8][21]\n\n## How it keeps time\n\nAtoms absorb and emit light waves of specific colors, or frequencies. To turn atoms into a clock, they are immersed in light finely tuned to their resonant frequency; as the light frequency approaches resonance, atoms absorb some of the light's energy and change their internal energy state — a so-called quantum jump. [5][6]\n\nWhat actually ticks in an atomic clock are the light waves used to energize the atoms. Measuring how many atoms have absorbed energy reveals when the light has reached the resonant frequency, and the clock then counts the crests and troughs of that resonant light and converts the counts into ticks of time. Today's best atomic clocks are billions of times more accurate and precise than any other type; had they run since the Big Bang, they would have lost or gained less than a second. [7][28]\n\n## History\n\nThe idea of the atomic clock was proposed in the 1870s by James Clerk Maxwell and William Thompson, better known as Lord Kelvin. In 1939 Columbia University physicist Isidor Isaac Rabi suggested that the National Bureau of Standards (NBS, later NIST) use his team's molecular beam magnetic resonance technique as a time standard, and in 1940 he measured the cesium resonant frequency at about 9.1914 billion cycles per second. [10][11][12]\n\nOn August 12, 1948, Harold Lyons and his NBS colleagues trapped ammonia molecules in a 9-meter copper cell and immersed them in microwaves, showing that the second could be defined as the time the molecules took to emit roughly 23.9 billion cycles of radiation. Publicly unveiled in early 1949, it was the world's first atomic clock — yet the ammonia clock ultimately proved no more accurate or precise than existing ones. [13][14][15][16]\n\nCesium is a large, heavy atom that is relatively slow and easy to control, and its internal energy levels are easy to manipulate with microwaves. The cesium beam clock unveiled in May 1955 by Louis Essen of the U.K. National Physical Laboratory was the first atomic clock stable enough to serve as a time standard, and the frequency Essen and William Markowitz published in 1958 — 9,192,631,770 cycles per second — had an error of only about 20 parts per billion. NBS-1 became the official U.S. frequency standard in 1959 and was replaced by NBS-2 in 1960. [17][18][19][20]\n\n## Rising accuracy and applications\n\nNBS-1 and NBS-2 were accurate to ten parts per trillion or better and would not have gained or lost a second in 3,000 years. By 1975, NIST's NBS-6 was accurate and stable enough to go 400,000 years without gaining or losing a second, and NIST-7, launched in 1993, stretched that figure to 6 million years. [22][23][24]\n\nAtomic clocks spurred advances in timekeeping, communication, metrology, and positioning and navigation systems. The U.S. Navy launched the GPS satellite network in 1977, each satellite carrying both cesium- and rubidium-based clocks. Rubidium clocks — less accurate but far smaller and cheaper — also spread widely, and today stock transactions and the [computer networks](/hubpedia/computer-network) behind phone calls and web searches are synchronized by atomic time. [25][26][27][9]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "時計は、安定した周期で振動する機構と、その振動を数えて時刻を表示する装置の結合である。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/how-do-atomic-clocks-work",
+              "quote": "a mechanism that oscillates, or ticks with a steady beat, and a device that counts those beats and displays the time"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "振り子や水晶のような人工の振動子は二つとして完全に同じものがなく、生じる時の刻みも互いにずれる。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/how-do-atomic-clocks-work",
+              "quote": "But no two pendulums or crystals are exactly alike — so neither are the ticks of time they produce."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "人工の時計はドリフトし、ある刻みは次の刻みとわずかに異なる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/how-do-atomic-clocks-work",
+              "quote": "They drift. One tick of time is slightly different from the next, and the next, and so on."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "原子は人工の部品を持たず摩耗せず、同じ種類の原子はすべて同一である。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/how-do-atomic-clocks-work",
+              "quote": "Atoms don’t have any manufactured parts, and they don’t wear out or slow down over time."
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/how-do-atomic-clocks-work",
+              "quote": "And all atoms of a given type are identical."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "原子は特定の色、すなわち周波数の光波を吸収・放出する。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/how-do-atomic-clocks-work",
+              "quote": "atoms absorb and emit light waves of specific colors, or frequencies"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "共鳴周波数に近い光を浴びると、原子は光のエネルギーの一部を吸収して内部のエネルギー状態を変える。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/how-do-atomic-clocks-work",
+              "quote": "atoms can absorb some of the light’s energy and change their internal energy state"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "原子時計で時を刻むのは原子にエネルギーを与える光波であり、共鳴光の山と谷を数えて時の刻みに変換する。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/how-do-atomic-clocks-work",
+              "quote": "What ticks in an atomic clock are the light waves used to energize atoms."
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/how-do-atomic-clocks-work",
+              "quote": "Then we count the crests and troughs of the resonant light and convert those counts into ticks of time."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "セシウム原子を用いる時計では、1秒を刻むのに9,192,631,770サイクルの光の周期を数える。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/how-do-atomic-clocks-work",
+              "quote": "the answer is 9,192,631,770 cycles"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "株式の売買は原子時刻で刻印され、電話やウェブ検索は原子で同期されたネットワークを利用している。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/how-do-atomic-clocks-work",
+              "quote": "If you’ve bought or sold a stock, that transaction was stamped in atomic time."
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/how-do-atomic-clocks-work",
+              "quote": "If you’ve made a phone call or searched the web, you have tapped into networks synced by atoms."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "原子時計の構想は1870年代にマックスウェルとケルビン卿として知られるトムソンによって提案された。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/brief-history-atomic-time",
+              "quote": "The dream started in the 1870s, when famed British scientists James Clerk Maxwell and William Thompson (better known as Lord Kelvin) proposed a bold and radical new idea."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "1939年、コロンビア大学のラビは米国国立標準局に、分子ビーム磁気共鳴法を時刻標準として用いるよう提案した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/brief-history-atomic-time",
+              "quote": "In 1939, Columbia University physicist Isidor Isaac Rabi suggested that scientists at the National Bureau of Standards (NBS)"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/brief-history-atomic-time",
+              "quote": "molecular beam magnetic resonance technique as a time standard"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "ラビは1940年にセシウムの共鳴周波数を約91億914万サイクル毎秒と測定した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/brief-history-atomic-time",
+              "quote": "He measured the frequency at which cesium atoms naturally absorb and emit microwaves"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/brief-history-atomic-time",
+              "quote": "to be around 9.1914 billion cycles per second"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "1948年8月12日、ライオンズらはアンモニア分子を9メートルの銅セルに閉じ込めてマイクロ波に浸した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/brief-history-atomic-time",
+              "quote": "On Aug. 12, 1948"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/brief-history-atomic-time",
+              "quote": "trapped a cloud of ammonia molecules in a 9-meter-long copper cell and immersed them in microwaves"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "ライオンズらはアンモニア分子が約239億サイクルのマイクロ波放射を放出する時間として秒を定義できた。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/brief-history-atomic-time",
+              "quote": "define the second as the time it took ammonia molecules to emit roughly 23.9 billion cycles of microwave radiation"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "アンモニア時計は結局、既存の時計より正確でも精密でもなかった。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/brief-history-atomic-time",
+              "quote": "the ammonia clock ultimately proved no more accurate or precise than existing ones"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "最初の原子時計は1949年に国立標準局（現NIST）のワシントン研究所の科学者によって発明された。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/how-do-atomic-clocks-work",
+              "quote": "The first atomic clock, invented in 1949 by scientists working in the Washington, D.C., lab of the National Bureau of Standards (now NIST)"
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "セシウムは大きく重い原子で比較的低速で制御しやすく、内部エネルギー準位をマイクロ波で操作しやすい。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/brief-history-atomic-time",
+              "quote": "A large and heavy atom, cesium is relatively slow and easy to control."
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/brief-history-atomic-time",
+              "quote": "Its internal energy levels are easy to manipulate with microwaves and resist being disturbed by external magnetic fields."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "1955年5月に公開されたエッセンの時計は、時刻標準として使えるほど安定した最初の原子時計となった。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/brief-history-atomic-time",
+              "quote": "Unveiled in May 1955, the timepiece was the first atomic clock stable enough to be used as a time standard."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "エッセンとマルコウィッツが1958年に発表した共鳴周波数は9,192,631,770サイクル毎秒で、誤差は10億分の20程度だった。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/brief-history-atomic-time",
+              "quote": "9,192,631,770 cycles per second"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/brief-history-atomic-time",
+              "quote": "an error of around 20 parts per billion"
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "NBS-1は1959年に米国の公式周波数標準となり、1960年にNBS-2へ置き換えられた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/brief-history-atomic-time",
+              "quote": "NBS-1 became the U.S.’s official frequency standard in 1959. It was soon replaced by NBS-2 in 1960."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "1967年、国際度量衡総会はエッセンの原子測定に基づき秒を再定義し、セシウム133の超微細遷移に対応するマイクロ波放射9,192,631,770サイクルの継続時間とした。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/brief-history-atomic-time",
+              "quote": "In 1967, the General Conference on Weights and Measures"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/brief-history-atomic-time",
+              "quote": "The second officially became the duration of 9,192,631,770 cycles of microwave radiation corresponding to what is known as the “hyperfine energy transition” in the isotope of cesium known as cesium-133."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "NBS-1とNBS-2の精度は1兆分の10以上で、3,000年動かしても1秒のずれも生じなかった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/brief-history-atomic-time",
+              "quote": "NBS-1 and NBS-2 had accuracies of 10 parts per trillion or better."
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/brief-history-atomic-time",
+              "quote": "neither clock would have gained or lost even one second had it run continuously for 3,000 years"
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "1975年までにNISTのNBS-6は40万年に1秒のずれも生じない精度と安定性を達成した。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/brief-history-atomic-time",
+              "quote": "By 1975, NIST’s NBS-6 atomic clock was accurate and stable enough to neither gain nor lose a second in 400,000 years."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "1993年に稼働したNIST-7は600万年に1秒もずれない精度を持った。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/brief-history-atomic-time",
+              "quote": "in 1993, NIST’s NIST-7 atomic clock was significantly more accurate and wouldn’t have gained or lost a second in 6 million years"
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "米海軍は1977年にGPS衛星網を打ち上げ、各衛星はセシウムとルビジウムの時計を搭載した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/brief-history-atomic-time",
+              "quote": "In 1977, it launched the GPS satellite network. Each satellite had on board both cesium- and rubidium-based clocks."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "ルビジウム時計はセシウム時計ほど正確ではないが、はるかに小型かつ安価にできる。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/brief-history-atomic-time",
+              "quote": "While never as accurate as cesium clocks, rubidium clocks could be made much smaller and cheaper"
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "原子時計は時刻合わせ、通信、計量学、測位・航法システムの進歩を促した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/brief-history-atomic-time",
+              "quote": "Atomic clocks spurred advances in timekeeping, communication, metrology, and advanced positioning and navigation systems."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "今日の最良の原子時計は他のどの種類の時計よりも数十億倍正確で、ビッグバンから動いていたとしても誤差は1秒未満とされる。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/how-do-atomic-clocks-work",
+              "quote": "Today’s best atomic clocks are billions of times more accurate and precise than any other type of clock."
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/atomic-clocks/how-do-atomic-clocks-work",
+              "quote": "If they had been running since the Big Bang, 13.8 billion years ago, they would have lost or gained less than a second."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "quantum-computing",
+    "topicType": "concept",
+    "categoryLabel": "コンピューター・ソフトウェア",
+    "title": "量子コンピューティング",
+    "summary": "量子コンピューティングは、重ね合わせともつれという量子力学の性質を利用して計算を行う技術分野である。キュービットを用いる量子コンピューターは、素因数分解や量子シミュレーションなど古典計算機に困難な問題を高速に解く可能性を持つが、現在の装置は誤りが多く実用化には課題が残る。NISTは初期の量子論理ゲート開発以来この分野を主導し、耐量子暗号の標準化も進める。",
+    "bodyMarkdown": "## 概要\n\n量子コンピューティングは、量子物理学の法則を利用して計算を行う新しい計算技術である。量子コンピューターは、現在のコンピューターに何年もかかる特定の問題を高速に処理する可能性を持つが、今日の装置は原始的で誤りが多い。古典コンピューターを置き換えるものではなく、古典計算機が行き詰まる問題を両者で協働して解く補完的な機械とされる。 [1][2][3]\n\n## 量子力学の基礎\n\n量子計算の基礎にあるのが重ね合わせである。原子は測定されるか外界に攪乱されるまで、複数の異なるエネルギー状態が混ざり合った量子重ね合わせにとどまり、測定されると単一の状態へ収縮する。 [4]\n\nさらに複数の原子や量子物体は、もつれ合って単一の量子状態を共有できる。もつれた対の一方を操作すれば、遠く離れたもう一方にも同時に影響が及ぶ。 [5]\n\n## キュービットと計算の仕組み\n\nデジタルコンピューターは1と0のビットで情報を符号化・処理する。量子コンピューターも入出力・情報処理・記憶を持つが、ビットの代わりに量子ビット、すなわちキュービットを使う。キュービットは0・1またはその混合状態をとり、個々のキュービットの量子状態は互いにもつれさせられる。 [6][7]\n\n2つのキュービットは4通りの0と1の組み合わせの重ね合わせを同時に保持でき、キュービットを1つ追加するごとに組み合わせ数は倍増する。利用者はまずキュービットをもつれさせてこの指数関数的な計算力を利用し、その後加算や乗算などの操作を行う。 [8][9]\n\nただし最終測定では、重ね合わせで行われた全計算の結果のうち少量の情報しか取り出せず、全候補への総当たり探索ができるわけではない。論理ゲート方式とは別に、量子アニーリングという方式は特定の物理・最適化問題を古典計算機より速く解く可能性があるとされる。 [10][26]\n\n## 応用と課題\n\n1981年のファインマンの講演が量子計算分野を始めたとされる。量子コンピューターによる量子シミュレーションは材料科学や創薬などの進歩をもたらすと期待される一方、1994年にショアが記述した量子アルゴリズムは、巨大素数の積を高速に素因数分解して世界の暗号化情報を危険にさらす可能性を示し、量子計算を国家安全保障の問題に変えた。 [11][12][13]\n\n実現には課題が残る。現在最高の量子コンピューターは数百の接続キュービットを持ち約千回に1回誤りを起こすが、古典コンピューターの誤りは10の18乗回に約1回で、訂正もはるかに容易である。キュービットは脆弱で、電場・磁場・温度変動・宇宙線が重ね合わせやもつれを壊す。 [14][15][16]\n\n主な候補にも長短がある。イオンキュービットは重ね合わせを長く保てるが計算は比較的低速で、超電導キュービットは高速かつ既存のチップ製造技術を使えるが量子状態はイオン型より脆弱で短命である。誤り耐性を内蔵する可能性を持つトポロジカルキュービットも研究されているが、実現の確証はまだ得られていない。 [17][18][19]\n\n現行暗号を破るには数千キュービットを使う量子計算機が必要とされ、暗号を破れる装置の出現時期について専門家の推定は数年から数十年と幅がある。 [21][20]\n\n## NISTの役割\n\nNISTは1990年代初頭から量子情報科学を主導し、[原子時計](/hubpedia/atomic-clock)やジョセフソン接合のような量子技術の深い経験を基盤に、初期の量子論理ゲートの一つを開発した。単一光子検出器や極低温技術など量子デバイスの基盤技術も進めている。 [22][23]\n\nNISTは量子経済開発コンソーシアムを立ち上げて初期産業を支援し、2018年の国家量子イニシアチブで政府横断の量子科学計画を支える。将来の量子計算機が今日広く使われる[暗号化](/hubpedia/encryption)や[公開鍵暗号](/hubpedia/public-key-cryptography)を破る可能性に備え、耐量子[暗号](/hubpedia/cryptography)の開発も主導している。 [24][25]",
+    "sources": [
+      {
+        "url": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+        "title": "Quantum Computing Explained",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-and-software"
+          },
+          "notes": "NIST explainer on superposition, entanglement, qubits and their exponential state space, candidate qubit technologies, Shor's algorithm, quantum advantage, and the error and fragility challenges facing the field. Publisher policy read 2026-08-28: NIST-authored content is public domain and usable commercially with credit. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.nist.gov/quantum-information-science",
+        "title": "Quantum information science",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-and-software"
+          },
+          "notes": "NIST topic page describing the agency's role in quantum information science since the early 1990s: early quantum logic gates, enabling technologies, joint institutes, the QED-C, and the National Quantum Initiative. Publisher policy read 2026-08-28: NIST-authored content is public domain and usable commercially with credit. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography",
+        "title": "What Is Post-Quantum Cryptography?",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-and-software"
+          },
+          "notes": "NIST FAQ on post-quantum cryptography explaining why large qubit counts would be needed to break present-day encryption and how uncertain the arrival time of a cryptographically relevant quantum computer is. Publisher policy read 2026-08-28: NIST-authored content is public domain and usable commercially with credit. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Quantum computing",
+        "summary": "Quantum computing is a field of computing that performs calculations by harnessing the quantum-mechanical properties of superposition and entanglement. Quantum computers built from qubits could rapidly solve problems that are hard for classical machines — factoring large numbers or simulating quantum systems — but today's devices are error-prone and practical use still faces major challenges. NIST has led the field since early quantum logic gates and is standardizing post-quantum cryptography.",
+        "bodyMarkdown": "## Overview\n\nQuantum computing is an emerging computing technology that performs calculations by harnessing the laws of quantum physics. Quantum computers have the potential to rapidly work through certain problems that would take current computers years, but today's machines are rudimentary and error-prone. They will not replace familiar \"classical\" computers; rather, the two kinds of machines are expected to work together on problems that stymie classical computers. [1][2][3]\n\n## The quantum mechanical basis\n\nAt the foundation of quantum computing is superposition. Until it is measured or disturbed by the outside world, an atom can remain in a quantum superposition — a mixture of two or more distinct energy states — and then collapses to a single state. [4]\n\nMultiple atoms or other quantum objects can additionally be entangled with each other to share a single quantum state, so that affecting one member of an entangled pair simultaneously affects the other. [5]\n\n## Qubits and how computation works\n\nDigital computers encode and process information using bits — 1s and 0s. Quantum computers also have input, output, processing and memory, but instead of classical bits they use quantum bits, or qubits. A qubit can be in state 0, state 1, or a mix of the two, and the quantum states of individual qubits can be entangled with each other. [6][7]\n\nTwo qubits can hold a superposition of four combinations of 0s and 1s at once, and each additional qubit doubles the number of combinations — an exponential increase. A user first entangles qubits to harness this exponential computing power and then carries out operations on them, such as addition, multiplication or more complicated computations. [8][9]\n\nThe final measurement, however, can extract only a small amount of information about the results of all the computations done in superposition, so a quantum computer cannot simply brute-force every candidate solution. Beyond the logic-gate approach, a different technology called quantum annealing may solve certain physics and optimization problems faster than classical computers. [10][26]\n\n## Applications and challenges\n\nRichard Feynman's 1981 talk is often credited with launching the field. Quantum simulation is expected to bring advances in materials science and drug development, while the quantum algorithm Peter Shor described in 1994 could quickly factor the immense products of huge prime numbers — potentially putting much of the world's encrypted information at risk and turning quantum computing into a national security issue. [11][12][13]\n\nSignificant challenges remain. Today's best quantum computers contain hundreds of interconnected qubits and make an error roughly once every thousand operations, whereas a classical computer makes around one error per quintillion calculations and its errors are far easier to correct. Qubits are fragile: a stray electric or magnetic field, temperature fluctuations or even a cosmic ray can ruin a superposition or entanglement. [14][15][16]\n\nEach leading qubit design has trade-offs. Ion qubits sustain superpositions for a long time but compute relatively slowly; superconducting qubits are fast and can use existing chip manufacturing, but their quantum states are more fragile and shorter-lived. Topological qubits could have built-in immunity to errors, yet researchers are still seeking definitive evidence that one has been made. [17][18][19]\n\nBreaking present-day encryption is expected to require quantum computers employing many thousands of qubits, and expert estimates of when a capable device may appear range from a few years to a few decades. [21][20]\n\n## NIST's role\n\nNIST has led quantum information science since the early 1990s, developing early building blocks of quantum computing — including one of the first quantum logic gates — on the basis of deep expertise with quantum technologies such as [atomic clocks](/hubpedia/atomic-clock) and Josephson junctions. It has also advanced enabling technology such as single-photon detectors and cryogenics. [22][23]\n\nNIST launched the Quantum Economic Development Consortium to support the nascent industry and, with the 2018 National Quantum Initiative, now supports a whole-of-government quantum science program. Because future quantum computers could break the [encryption](/hubpedia/encryption) and [public-key cryptography](/hubpedia/public-key-cryptography) widely used today, NIST also leads the development of post-quantum [cryptography](/hubpedia/cryptography) to safeguard information. [24][25]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "量子コンピューターは量子物理学を利用し、現在のコンピューターに何年もかかる特定の問題を高速に処理する可能性を持つ。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+              "quote": "These computers work by harnessing quantum physics"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+              "quote": "they have the potential to rapidly crunch through certain problems that would take current computers years"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "今日の量子コンピューターは原始的で誤りが多い。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+              "quote": "Today’s quantum computers are rudimentary and error-prone."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "量子コンピューターは古典コンピューターを置き換えるのではなく、古典計算機が行き詰まる問題を両者で協働して解く補完的な機械とされる。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+              "quote": "Quantum computers will not replace our familiar “classical” computers."
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+              "quote": "the two types of machines could work together to solve problems that stymie classical computers"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "原子は測定されるか外界に攪乱されるまで量子重ね合わせにとどまり、その後単一のエネルギー状態へ収縮する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+              "quote": "an atom will remain there until it is measured or disturbed by the outside world"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+              "quote": "Then the atom “collapses” to a single energy state"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "複数の原子や量子物体は、もつれ合って単一の量子状態を共有できる。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+              "quote": "multiple atoms or other quantum objects can be entangled with each other to share a single quantum state"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "デジタルコンピューターはビット（1と0）で情報を符号化・処理する。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+              "quote": "All of these digital computers encode and process information using “bits.”"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+              "quote": "as 1s and 0s"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "量子コンピューターはキュービットを使い、キュービットは0・1またはその混合状態をとり、個々の量子状態は互いにもつれさせられる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+              "quote": "quantum computers use quantum bits, or qubits"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+              "quote": "a qubit can be in state 0, state 1, or a mix of the two"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+              "quote": "the quantum states of individual qubits can be entangled with each other"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "2つのキュービットは4通りの0と1の組み合わせの重ね合わせを同時に保持でき、キュービットを1つ追加するごとに組み合わせ数は倍増する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+              "quote": "two qubits can contain a superposition of four combinations of 0s and 1s simultaneously"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+              "quote": "Each additional qubit doubles the number of combinations: an exponential increase."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "利用者はまずキュービットをもつれさせて指数関数的な計算力を利用し、その後加算や乗算などの操作を行う。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+              "quote": "Someone using a quantum computer must first entangle qubits to harness their exponential computing power."
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+              "quote": "The operator then carries out operations on the qubits, such as addition, multiplication or more complicated computations."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "最終測定では、重ね合わせで行われた全計算の結果のうち少量の情報しか取り出せない。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+              "quote": "The measurement at the end of the computation can only extract a small amount of information about the results of all of these computations"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "1981年のファインマンの講演が量子計算分野を始めたとされる。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+              "quote": "At a 1981 gathering of physicists outside Boston, the famous physicist Richard Feynman spoke"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+              "quote": "Feynman’s talk is often credited with launching the field of quantum computing."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "量子シミュレーションは材料科学や創薬などの進歩をもたらすと期待されている。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+              "quote": "such quantum simulations could bring about major advances in materials science, drug development and other areas"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "1994年にショアが記述した量子アルゴリズムは、巨大素数の積を高速に素因数分解して世界の暗号化情報を危険にさらす可能性を示した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+              "quote": "In 1994, a mathematician named Peter Shor"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+              "quote": "described a quantum algorithm that could quickly factor the immense numbers that are products of these huge prime numbers, potentially putting much of the world’s encrypted information at risk"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "現在最高の量子コンピューターは数百の接続キュービットを持ち、約千回に1回誤りを起こす。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+              "quote": "The best quantum computers today contain hundreds of interconnected qubits and make an error roughly once in every thousand operations."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "古典コンピューターの誤りは10の18乗回に約1回で、誤り訂正もはるかに容易である。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+              "quote": "a classical computer makes around one error, such as a bit randomly flipping from 0 to 1, for every quintillion"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+              "quote": "correcting errors in a classical computer is much easier"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "キュービットは脆弱で、電場・磁場・温度変動・宇宙線が重ね合わせやもつれを壊す。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+              "quote": "A stray electric or magnetic field, temperature fluctuations or even a cosmic ray can ruin a superposition or entanglement."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "イオンキュービットは重ね合わせを長く保てるが計算は比較的低速である。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+              "quote": "Ion qubits can sustain quantum superpositions for a long time, but they are relatively sluggish at performing computations."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "超電導キュービットは高速かつ既存のチップ製造技術を使えるが、量子状態はイオン型より脆弱で短命である。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+              "quote": "These qubits allow for fast computations and can be made using existing chip manufacturing techniques. But their quantum states are more fragile and shorter-lived than those of ion qubits."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "トポロジカルキュービットは誤り耐性を内蔵する可能性があるが、実現の確証はまだ得られていない。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+              "quote": "“topological” qubit, that would have some built-in immunity to errors"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+              "quote": "They have proved challenging to build, and researchers are still seeking definitive evidence that they have managed to make one."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "暗号を破れる量子計算装置の出現時期について、専門家の推定は数年から数十年と幅がある。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography",
+              "quote": "Experts’ estimates range from a few years to a few decades."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "現行暗号を破るには数千キュービットを使う量子計算機が必要とされる。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography",
+              "quote": "Quantum computers employing many thousands of qubits will be needed to break present-day encryption."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "NISTは1990年代初頭から量子情報科学を主導し、原子時計やジョセフソン接合のような量子技術の経験を基盤に初期の量子論理ゲートの一つを開発した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science",
+              "quote": "NIST has been a leader in quantum information science since the early 1990s"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science",
+              "quote": "Building on deep expertise with quantum technologies such as atomic clocks and Josephson junctions, NIST scientists developed early building blocks of quantum computing technology, including one of the first quantum logic gates."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "NISTは単一光子検出器や極低温技術など量子デバイスの基盤技術を進めた。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science",
+              "quote": "NIST researchers have also advanced enabling technology for quantum devices, including single-photon detectors and cryogenics."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "NISTは量子経済開発コンソーシアムを立ち上げ、2018年の国家量子イニシアチブで政府横断の量子科学計画を支援している。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science",
+              "quote": "to support the nascent industry"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science",
+              "quote": "NIST now supports a whole-of-government quantum science program."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "NISTは将来の量子計算機が今日広く使われる暗号を破ることから情報を守る耐量子暗号の開発を主導している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science",
+              "quote": "NIST has also taken the lead in developing post-quantum cryptography, which aims to safeguard information from future quantum computers that could break codes widely used today to encrypt data."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "量子アニーリングという別方式は、特定の物理・最適化問題を古典計算機より速く解く可能性がある。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/quantum-information-science/quantum-computing-explained",
+              "quote": "“quantum annealing” that could be used to solve certain physics and optimization problems faster than classical computers can"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "cybersecurity-framework",
+    "topicType": "concept",
+    "categoryLabel": "インターネット・セキュリティ",
+    "title": "サイバーセキュリティフレームワーク",
+    "summary": "サイバーセキュリティフレームワーク（CSF）は、NISTが開発したサイバーセキュリティリスク管理の指針文書である。組織がリスクを理解・評価・優先付け・伝達するための成果の分類体系を提供し、6つの機能とカテゴリ・サブカテゴリで構成される中核を持つ。2014年の初版以来広く使われ、2024年のCSF 2.0で対象を全組織へ拡大しガバナンス機能を加えた。",
+    "bodyMarkdown": "## 概要\n\nサイバーセキュリティフレームワーク（CSF）は、NISTが開発したサイバーセキュリティリスク管理の指針文書である。あらゆる組織がサイバーセキュリティへの取り組みを理解・評価・優先付け・伝達するために使える高次成果の分類体系を提供し、成果を達成する実践や統制への追加指針を与える資源へ結び付ける。 [1][2]\n\nCSFはリスクを優先付けて対処するための成果の系列を示すが、各成果を達成する行動までは特定しない。[暗号](/hubpedia/cryptography)をどう実装するかといった具体の手段は組織に委ねられ、規定された過程ではなく成果を示す設計は、あらゆる活動で達成できる柔軟性を残すためである。 [12][5]\n\n## 開発の経緯とCSF 2.0\n\n大統領令を受けてNISTは2014年にCSFを初めて公開し、組織がサイバーセキュリティリスクを理解・低減・伝達するのを助けてきた。以来10年にわたり、産業界・学術界・政府・国際フォーラムの利害関係者と協働して開発され、世界中の利用者から寄せられた多数の意見が内容を形作ってきた。 [14][6]\n\n2024年に公開されたCSF 2.0は、作成以来初の大幅更新であり、複数年にわたる議論とパブリックコメントを経た成果である。対象範囲は病院や発電所のような重要インフラの保護に限らず、あらゆる部門の組織へ拡大された。 [15][26][16]\n\n更新はガバナンスに新たな重点を置き、サイバーセキュリティを財務や評判と並ぶ主要な企業リスクとして上級幹部が考慮すべきと強調する。ガバナンス活動は従来Identify機能に埋め込まれ可視性が限られていたが、Govern機能への昇格で、AIや[プライバシー](/hubpedia/privacy)などガバナンス機能を持つ他のNIST枠組みとも整合した。 [17][18][28]\n\nバージョン1.1から2.0への移行で内容の削除はなく、1.1の全内容の意味は2.0に含まれる。サブカテゴリ番号に残る空きは、項目が別のカテゴリへ移された痕跡である。 [19]\n\n## フレームワークの構成\n\nフレームワーク中核は、サイバーセキュリティ活動と所望の成果と適用可能な参照の集まりで、Govern・Identify・Protect・Detect・Respond・Recoverという6つの並行・継続的な機能からなり、機能ごとに主要なカテゴリとサブカテゴリが特定される。 [3][4]\n\n組織CSFプロファイルは組織の現状と目標のサイバーセキュリティ態勢を記述する。現行プロファイルは現在達成している成果を、目標プロファイルは新たな要求や技術採用・脅威情報の変化を踏まえて達成したい成果を記述する。 [7][8]\n\n実装ティアはPartial・Risk Informed・Repeatable・Adaptiveの4段階で、非公式で場当たり的な対応から、機敏でリスクに基づき継続的に改善する取り組みへの進行を表す。 [9]\n\n## 利用と普及\n\nNISTは規制機関ではなく、多くの組織はCSFを任意で利用する。ただし連邦[コンピューターネットワーク](/hubpedia/computer-network)と重要インフラのサイバーセキュリティ強化を命じた大統領令13800により米国連邦政府機関には必須で、顧客やサプライチェーンに要求する企業もある。NISTはCSF関連製品・実装・サービスの認証や推奨は行わない。 [10][11][13]\n\nCSFはIT部門に限るよりも、組織全体の企業リスク管理プログラムの一部として実装するのが最も効果的とされる。CSF 2.0はサプライチェーンへの配慮を強め、複数の製品・サービス提供者の中から選ぶ評価基準としても使える。 [23][22]\n\n支援資源には、中核データをJSONとExcelでエクスポートできるCSF 2.0参照ツールや、NIST指針文書を相互に閲覧できる参照ツール、CSFの指針を50超の他文書と相互参照する検索カタログがある。バージョン1.1と1.0は13言語に翻訳され、ISO/IECの資源により組織はCSF機能でサイバーセキュリティ枠組みを構築し統制を体系化できる。 [24][27][25][20][21]",
+    "sources": [
+      {
+        "url": "https://www.nist.gov/cyberframework/faqs",
+        "title": "Frequently Asked Questions",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-and-software"
+          },
+          "notes": "NIST CSF FAQ covering the framework's outcome-based Core, six functions, profiles, implementation tiers, the voluntary basis of use alongside the federal mandate, and the 1.1-to-2.0 transition. Publisher policy read 2026-08-28: NIST-authored content is public domain and usable commercially with credit. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.nist.gov/news-events/news/2024/02/nist-releases-version-20-landmark-cybersecurity-framework",
+        "title": "NIST Releases Version 2.0 of Landmark Cybersecurity Framework",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-and-software"
+          },
+          "notes": "NIST news release on CSF 2.0: the first major update since 2014, the expanded scope beyond critical infrastructure, the new Govern function, supporting tools, translations, and ISO/IEC alignment. Publisher policy read 2026-08-28: NIST-authored content is public domain and usable commercially with credit. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Cybersecurity Framework",
+        "summary": "The Cybersecurity Framework (CSF) is NIST's guidance document for managing cybersecurity risk. It offers a taxonomy of outcomes that organizations use to understand, assess, prioritize, and communicate about risk, with a Core organized around six functions plus underlying categories and subcategories. Widely used since 2014, CSF 2.0 in 2024 expanded its scope to all organizations and added a Govern function.",
+        "bodyMarkdown": "## Overview\n\nThe Cybersecurity Framework (CSF) is NIST's guidance document for managing cybersecurity risk. It provides a taxonomy of high-level outcomes that any organization can use to understand, assess, prioritize, and communicate its cybersecurity efforts, and it links to resources that give additional guidance on the practices and controls for achieving those outcomes. [1][2]\n\nThe CSF offers a series of outcomes for prioritizing and addressing risk but does not specify the actions for meeting them — how to implement measures such as [cryptography](/hubpedia/cryptography) is left to each organization. Presenting outcomes rather than prescribed processes keeps the framework flexible, because an outcome can be accomplished through any number of activities. [12][5]\n\n## Development history and CSF 2.0\n\nFollowing a presidential Executive Order, NIST first released the CSF in 2014 to help organizations understand, reduce and communicate about cybersecurity risk. It has been developed for a decade in collaboration with stakeholders in industry, academia, government and international forums, shaped by thousands of detailed comments from users around the world. [14][6]\n\nCSF 2.0, released in 2024, is the framework's first major update since its creation and the outcome of a multiyear process of discussions and public comments. Its scope expands beyond protecting critical infrastructure — such as hospitals and power plants — to all organizations in any sector. [15][26][16]\n\nThe update adds a new focus on governance, emphasizing that cybersecurity is a major source of enterprise risk that senior leaders should weigh alongside finance and reputation. Governance activities had previously been embedded in the Identify function with limited visibility; elevating them also aligns the CSF with other NIST frameworks, such as the AI and [Privacy](/hubpedia/privacy) Frameworks, that include governance-focused functions. [17][18][28]\n\nNo content was removed in moving from version 1.1 to 2.0: the meaning of all 1.1 content is included in CSF 2.0, and the gaps left in subcategory numbering mark items that were relocated. [19]\n\n## Structure of the framework\n\nThe Framework Core is a set of cybersecurity activities, desired outcomes and applicable references organized around six concurrent and continuous functions — Govern, Identify, Protect, Detect, Respond and Recover — with underlying Categories and Subcategories identified for each function. [3][4]\n\nAn Organizational CSF Profile describes an organization's current and target cybersecurity posture: a Current Profile records the outcomes being achieved, while a Target Profile records the outcomes the organization wants to achieve, accounting for anticipated changes such as new requirements and threat trends. [7][8]\n\nImplementation Tiers — Partial, Risk Informed, Repeatable and Adaptive — describe a progression from informal, ad hoc responses to agile, risk-informed, continuously improving approaches. [9]\n\n## Use and adoption\n\nNIST is not a regulatory agency and most organizations use the CSF voluntarily, but Executive Order 13800 on strengthening the cybersecurity of federal [computer networks](/hubpedia/computer-network) and critical infrastructure made it mandatory for U.S. federal agencies, and some companies require it of customers or suppliers. NIST does not offer certifications or endorsements of CSF products, implementations or services. [10][11][13]\n\nThe framework is most effective when implemented as part of an organization's broader enterprise risk management program rather than being confined to the IT department, and CSF 2.0's emphasis on supply chains lets it serve as evaluation criteria for choosing among product and service providers. [23][22]\n\nSupporting resources include the CSF 2.0 Reference Tool, which exports Core data in JSON and Excel; a reference tool that interrelates NIST guidance documents; and a searchable catalog that cross-references CSF guidance to more than 50 other cybersecurity documents. Versions 1.1 and 1.0 were translated into 13 languages, and ISO/IEC resources let organizations build cybersecurity frameworks and organize controls using the CSF functions. [24][27][25][20][21]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "CSFはあらゆる組織がサイバーセキュリティへの取り組みを理解・評価・優先付け・伝達するために使える高次成果の分類体系を提供する。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cyberframework/faqs",
+              "quote": "The CSF helps manage and reduce cybersecurity risks with a taxonomy of high-level outcomes that any organization can use to understand, assess, prioritize, and communicate its cybersecurity efforts."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "CSFは成果を達成する実践や統制への追加指針を与える資源へ結び付ける。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cyberframework/faqs",
+              "quote": "It also links to resources that provide additional guidance on practices and controls for achieving security outcomes."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "フレームワーク中核はGovern・Identify・Protect・Detect・Respond・Recoverの6つの並行・継続的な機能からなる。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cyberframework/faqs",
+              "quote": "It consists of six concurrent and continuous Functions"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "中核は機能ごとに主要なカテゴリとサブカテゴリを特定する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cyberframework/faqs",
+              "quote": "The Framework Core then identifies underlying key Categories and Subcategories for each Function."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "NISTは柔軟性のため規定された過程ではなく成果を用い、成果はあらゆる活動で達成できる。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cyberframework/faqs",
+              "quote": "NIST has designed the CSF to be as flexible as possible. Outcomes are non-prescriptive and can be accomplished through any number of activities"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "NISTは10年にわたり産業界・学術界・政府・国際フォーラムの利害関係者と協働してCSFを開発してきた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cyberframework/faqs",
+              "quote": "For the past 10 years, NIST has collaborated with stakeholders in industry, academia, government, and international forums to develop the CSF."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "組織CSFプロファイルは組織の現状と目標のサイバーセキュリティ態勢を記述する。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cyberframework/faqs",
+              "quote": "An Organizational CSF Profile describes an organization’s current and target cybersecurity posture."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "現行プロファイルは現在達成している成果を、目標プロファイルは達成したい成果を記述する。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cyberframework/faqs",
+              "quote": "describes the Core outcomes that your organization is currently achieving"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/cyberframework/faqs",
+              "quote": "describes the Core outcomes that your organization wants to achieve"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "実装ティアはPartial・Risk Informed・Repeatable・Adaptiveの4段階で、非公式で場当たり的な対応から機敏で継続的に改善する取り組みへの進行を表す。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cyberframework/faqs",
+              "quote": "Partial (Tier 1)"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/cyberframework/faqs",
+              "quote": "Adaptive (Tier 4)"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/cyberframework/faqs",
+              "quote": "The Tiers reflect a progression from informal, ad hoc responses to approaches that are agile, risk-informed, and continuously improving."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "NISTは規制機関ではなく、多くの組織はCSFを任意で利用する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cyberframework/faqs",
+              "quote": "NIST is not a regulatory agency, and most organizations use the CSF on a voluntary basis."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "大統領令13800により米国連邦政府機関には必須で、顧客やサプライチェーンに要求する企業もある。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cyberframework/faqs",
+              "quote": "Executive Order 13800"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/cyberframework/faqs",
+              "quote": "made the Framework mandatory for U.S. Federal Government agencies, and some companies require the CSF for their customers or within their supply chain"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "CSFはリスクを優先付けて対処するための成果の系列を示すが、各成果を達成する行動までは特定しない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cyberframework/faqs",
+              "quote": "The CSF provides a series of outcomes to prioritize and address cybersecurity risks but does not specify actions for meeting those outcomes."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "NISTはCSF関連製品・実装・サービスの認証や推奨を行わず、適合性評価プログラムの計画もない。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cyberframework/faqs",
+              "quote": "NIST does not offer certifications or endorsements of CSF-related products, implementations, or services, and there are no plans to develop a conformity assessment program."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "大統領令を受けてNISTは2014年にCSFを初めて公開した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/news-events/news/2024/02/nist-releases-version-20-landmark-cybersecurity-framework",
+              "quote": "Following a presidential Executive Order, NIST first released the CSF in 2014 to help organizations understand, reduce and communicate about cybersecurity risk."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "CSF 2.0は2014年の作成以来初の大幅更新である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/news-events/news/2024/02/nist-releases-version-20-landmark-cybersecurity-framework",
+              "quote": "the framework’s first major update since its creation in 2014"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "CSF 2.0は病院や発電所のような重要インフラの保護に限らず、あらゆる部門の組織へ範囲を拡大した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/news-events/news/2024/02/nist-releases-version-20-landmark-cybersecurity-framework",
+              "quote": "has an expanded scope that goes beyond protecting critical infrastructure, such as hospitals and power plants, to all organizations in any sector"
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "CSF 2.0はガバナンスに新たな重点を置き、サイバーセキュリティを財務や評判と並ぶ主要な企業リスクとして上級幹部が考慮すべきと強調する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/news-events/news/2024/02/nist-releases-version-20-landmark-cybersecurity-framework",
+              "quote": "It also has a new focus on governance"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/news-events/news/2024/02/nist-releases-version-20-landmark-cybersecurity-framework",
+              "quote": "The CSF’s governance component emphasizes that cybersecurity is a major source of enterprise risk that senior leaders should consider alongside others such as finance and reputation."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "ガバナンス活動は従来Identify機能に埋め込まれ、可視性が限られていた。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cyberframework/faqs",
+              "quote": "Previously, governance activities were embedded within the Identify Function, limiting visibility into how governance supports all aspects of a cybersecurity program."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "バージョン1.1から2.0への移行で内容の削除はなく、1.1の全内容の意味は2.0に含まれる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cyberframework/faqs",
+              "quote": "There was no removal of content from 1.1 to 2.0; the meaning of all 1.1 content is included within CSF 2.0."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "バージョン1.1と1.0は13言語に翻訳されている。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/news-events/news/2024/02/nist-releases-version-20-landmark-cybersecurity-framework",
+              "quote": "Versions 1.1 and 1.0 have been translated into 13 languages"
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "ISO/IECの資源により、組織はCSF機能でサイバーセキュリティ枠組みを構築し統制を体系化できる。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/news-events/news/2024/02/nist-releases-version-20-landmark-cybersecurity-framework",
+              "quote": "ISO/IEC resources now allow organizations to build cybersecurity frameworks and organize controls using the CSF functions."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "CSF 2.0はサプライチェーンへの配慮を強め、複数の製品・サービス提供者の中から選ぶ評価基準としても使える。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cyberframework/faqs",
+              "quote": "CSF 2.0 has been revised to emphasize supply chain considerations and can be used as evaluation criteria for selecting among multiple product and service providers."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "CSFはIT部門に限るよりも、組織全体の企業リスク管理プログラムの一部として実装するのが最も効果的とされる。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cyberframework/faqs",
+              "quote": "it is most effective when implemented as part of your organization’s broader enterprise risk management (ERM) program, rather than being limited to the IT department."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "CSF 2.0参照ツールは中核データをJSONとExcelでエクスポートできる。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cyberframework/faqs",
+              "quote": "the CSF 2.0 Reference Tool allows you to export data in both JSON and Excel formats."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "検索カタログはCSFの指針を50超の他のサイバーセキュリティ文書と相互参照できる。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/news-events/news/2024/02/nist-releases-version-20-landmark-cybersecurity-framework",
+              "quote": "cross-reference the CSF’s guidance to more than 50 other cybersecurity documents"
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "CSF 2.0の更新は、枠組みをより効果的にするための複数年にわたる議論とパブリックコメントを経た成果である。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/news-events/news/2024/02/nist-releases-version-20-landmark-cybersecurity-framework",
+              "quote": "This update is the outcome of a multiyear process of discussions and public comments aimed at making the framework more effective."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "NIST指針文書を相互に閲覧・ダウンロードできるサイバーセキュリティ・プライバシー参照ツールがある。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/news-events/news/2024/02/nist-releases-version-20-landmark-cybersecurity-framework",
+              "quote": "the Cybersecurity and Privacy Reference Tool"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/news-events/news/2024/02/nist-releases-version-20-landmark-cybersecurity-framework",
+              "quote": "contains an interrelated, browsable and downloadable set of NIST guidance documents"
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "ガバナンス機能の昇格は、AIやプライバシーなどガバナンス機能を持つ他のNIST枠組みとも整合する。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cyberframework/faqs",
+              "quote": "other NIST frameworks, like the AI and Privacy Frameworks, which include similar governance-focused functions"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "cryptography",
+    "topicType": "concept",
+    "categoryLabel": "インターネット・セキュリティ",
+    "title": "暗号",
+    "summary": "暗号は、機密の電子情報を権限のない閲覧者から守るために数学を使う技術である。公開鍵暗号は巨大な素数の積の素因数分解の困難さに依拠するが、十分な能力の量子計算機はこれを破り得るため、NISTは2016年から耐量子暗号の標準化を進め、2024年に最初の3つの確定標準を公開した。",
+    "bodyMarkdown": "## 概要\n\n暗号は、機密の電子情報を権限のない閲覧者から守る技術である。電子メール・医療記録・財務書類などを守り、[暗号化](/hubpedia/encryption)されたデータは送信者と意図した受信者以外に読めないため、公開[コンピューターネットワーク](/hubpedia/computer-network)上でも送ることができる。 [1][2]\n\n暗号ツールは従来型コンピューターにとって困難または不可能な複雑な数学問題に依拠する。安全なウェブサイトやメッセージを支える[公開鍵暗号](/hubpedia/public-key-cryptography)システムも、コンピューターが扱いきれない数学問題を根拠とする。 [3][11]\n\n## 数学的困難さへの依拠\n\n多くの現行暗号アルゴリズムは、1と自分自身でしか割れない2つの巨大な素数を選び、その積を得る。素数の乗算は容易で高速だが、積から元の素因数を逆算するのははるかに困難で時間がかかり、十分大きな数では従来型コンピューターに数十億年かかると推定される。 [4][5]\n\n十分な能力の量子計算機は、候補となる素因数を一つずつではなく同時にふるいにかけ、指数関数的に速く答えに到達する。このような成熟した装置は「暗号学的に意味のある」量子計算機と呼ばれ、数日から数時間で解く可能性があるとされる。 [6][7]\n\n## 耐量子暗号の設計\n\n量子計算機による攻撃を防ぐには、従来型と量子の両方のコンピューターにとって困難な数学問題に基づく耐量子暗号アルゴリズムが必要である。アルゴリズムは、公開ネットワークでやり取りする情報を守る一般暗号化と、身元認証に使う[デジタル署名](/hubpedia/digital-signature)という2つの主任務向けに設計される。 [8][9]\n\nNISTが標準化対象として選んだ最初の4アルゴリズムのうち3つは構造化格子と呼ばれる数学問題の系に基づき、残る1つは[ハッシュ関数](/hubpedia/hash-value)と呼ばれる数学的関係を用いる。大きな数の素因数分解を要求する代わりに、格子とハッシュの問題は量子・従来型の両方に困難とされる別種の数学を使う。 [10]\n\n## NISTの標準化プロセス\n\nNISTは産業界・政府・学術界を結ぶ公開プロセスを通じて50年にわたり暗号技術を育成してきた。2016年に耐量子暗号プロジェクトを開始し、年末に世界の暗号専門家へ古典・量子両計算機に困難なアルゴリズムの提出を求めた。約1年後の締切までに、数十か国の専門家から69の候補が基準を満たして集まった。 [15][12][13]\n\n候補は公開され、世界の暗号研究者が解析と解読を試みる複数ラウンドの評価で絞られた。NISTは2022年に標準化予定の4アルゴリズムを発表し、2024年に最初の3つの確定耐量子暗号標準を公開した。これらは連邦機関に採用され、無償で公開される。 [14][22][16][26]\n\n## 新標準の内容\n\n標準はアルゴリズムのコンピューターコード・実装手順・用途を含む。FIPS 203は一般暗号の主要標準で、CRYSTALS-Kyberを改称したML-KEMを基盤とし、比較的小さな鍵と動作速度が利点である。 [17][18]\n\nFIPS 204はデジタル署名保護の主要標準でCRYSTALS-Dilithiumを改称したML-DSAを用い、FIPS 205はSphincs+を改称したSLH-DSAを使い、ML-DSAが脆弱と判明した場合のバックアップとされる。FALCONに基づくFIPS 206の公開時にはFN-DSAと命名される予定である。NISTは別種の数学に基づく一般暗号候補と署名用の大きな候補群という2組のバックアップ候補も評価を続けている。 [19][20][21][25]\n\n## 移行の課題\n\n新アルゴリズムの標準化から情報システムへの統合までは歴史的に時間がかかり、製品やサービスへの組み込みを含め10年から20年を要することもある。「今集めて後で解読」攻撃では、敵対者が暗号データを保存して将来の量子計算機で解読する可能性があるため、NISTは組織に直ちの移行を促している。 [24][23][27]",
+    "sources": [
+      {
+        "url": "https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography",
+        "title": "What Is Post-Quantum Cryptography?",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-and-software"
+          },
+          "notes": "NIST FAQ on post-quantum cryptography: how current encryption relies on the difficulty of factoring large primes, the cryptographically relevant quantum threat, the 2016 project and evaluation process, harvest-now-decrypt-later, and the transition timeline. Publisher policy read 2026-08-28: NIST-authored content is public domain and usable commercially with credit. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards",
+        "title": "NIST Releases First 3 Finalized Post-Quantum Encryption Standards",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/open/copyright-fair-use-and-licensing-statements-srd-data-and-software"
+          },
+          "notes": "NIST news release on the August 2024 finalized standards FIPS 203, 204 and 205 — ML-KEM, ML-DSA and SLH-DSA — their purposes, the planned FN-DSA, backup algorithm sets, and the call to transition. Publisher policy read 2026-08-28: NIST-authored content is public domain and usable commercially with credit. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Cryptography",
+        "summary": "Cryptography is the use of mathematics to protect confidential electronic information from unauthorized viewers. Public-key encryption relies on the difficulty of factoring the product of huge prime numbers, but a sufficiently capable quantum computer could defeat it, so NIST has run a post-quantum cryptography standardization project since 2016 and released the first three finalized standards in 2024.",
+        "bodyMarkdown": "## Overview\n\nCryptography is the technology that protects confidential electronic information — from email messages to medical records and financial statements — from unauthorized viewers. Because [encrypted](/hubpedia/encryption) data is unreadable to all but its sender and intended recipient, it can be sent across public [computer networks](/hubpedia/computer-network). [1][2]\n\nEncryption tools rely on complex math problems that conventional computers find difficult or impossible to solve. The [public-key cryptography](/hubpedia/public-key-cryptography) systems behind secure websites and messages likewise rest on math problems that computers find intractable. [3][11]\n\n## Reliance on mathematical hardness\n\nMany current encryption algorithms select two very large prime numbers — divisible only by 1 and themselves — and multiply them to obtain an even larger number. Multiplying the primes is easy and fast, but reversing the process to recover the prime factors is far harder and more time-consuming; for large enough numbers a conventional computer is estimated to need billions of years. [4][5]\n\nA sufficiently capable quantum computer, though, could sift through all the potential prime factors simultaneously rather than one by one, arriving at the answer exponentially more quickly. Such a mature device is called a cryptographically relevant quantum computer, and it could potentially solve the puzzle in days or even hours. [6][7]\n\n## Designing post-quantum cryptography\n\nStaving off quantum attacks requires post-quantum cryptography: algorithms based on math problems that would be difficult for both conventional and quantum computers to solve. The algorithms are designed for two main tasks — general encryption, which protects information exchanged across a public network, and [digital signatures](/hubpedia/digital-signature), used for identity authentication. [8][9]\n\nOf the first four algorithms NIST selected for standardization, three are based on a family of math problems called structured lattices, while the fourth uses mathematical relationships known as [hash functions](/hubpedia/hash-value). Instead of requiring a computer to factor large numbers, lattice and hash problems use other kinds of math believed hard for quantum and conventional computers alike. [10]\n\n## NIST's standardization process\n\nNIST has fostered cryptographic techniques and technology for 50 years through an open process that brings together industry, government and academia. It kicked off the Post-Quantum Cryptography project in 2016 and late that year formally asked the world's cryptography experts to submit algorithms that would prove intractable to classical and quantum computers alike; by the deadline about a year later, experts from dozens of countries had submitted 69 candidate algorithms that cleared the bar. [15][12][13]\n\nThe candidates were published and narrowed through multiple rounds of evaluation in which the world's cryptographers tried to analyze and break them. NIST announced its selection of four algorithms slated for standardization in 2022 and released the first three finalized post-quantum encryption standards in 2024; once complete, the standards are adopted by federal agencies and released for free public use. [14][22][16][26]\n\n## Content of the new standards\n\nThe standards contain the encryption algorithms' computer code, instructions for implementing them, and their intended uses. FIPS 203, the primary standard for general encryption, is based on the CRYSTALS-Kyber algorithm renamed ML-KEM and offers comparatively small encryption keys that two parties can exchange easily along with speed of operation. [17][18]\n\nFIPS 204, the primary standard for protecting digital signatures, uses the CRYSTALS-Dilithium algorithm renamed ML-DSA, while FIPS 205 employs Sphincs+ renamed SLH-DSA as a backup method in case ML-DSA proves vulnerable. The FIPS 206 standard built around FALCON is planned to name its algorithm FN-DSA. NIST also continues to evaluate two other sets of algorithms that could one day serve as backup standards. [19][20][21][25]\n\n## Challenges of migration\n\nHistorically it has taken a long time from the moment a new algorithm is standardized until it is fully integrated into information systems — often 10 to 20 years, partly because companies must build the algorithms into everyday products and services. Because adversaries can capture encrypted data now in the hope that a future quantum computer will break it — \"harvest now, decrypt later\" — NIST urges organizations to begin transitioning to the new standards immediately. [24][23][27]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "暗号アルゴリズムは電子メール・医療記録・財務書類などの機密電子情報を権限のない閲覧者から守る。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography",
+              "quote": "Encryption algorithms protect confidential electronic information, from email messages to medical records and financial statements, from unauthorized viewers."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "暗号化されたデータは送信者と意図した受信者以外に読めないため、公開コンピューターネットワーク上でも送ることができる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards",
+              "quote": "Encrypted data can be sent across public computer networks because it is unreadable to all but its sender and intended recipient."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "暗号ツールは従来型コンピューターにとって困難または不可能な複雑な数学問題に依拠する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards",
+              "quote": "Encryption tools rely on complex math problems that conventional computers find difficult or impossible to solve."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "従来の暗号アルゴリズムは2つの巨大素数を選んで積を作り、積から元の素因数を逆算するのははるかに困難で時間がかかる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography",
+              "quote": "Conventional cryptographic algorithms select two very large prime numbers"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography",
+              "quote": "multiply them to obtain an even larger number"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography",
+              "quote": "it’s far more difficult and time-consuming to reverse the process"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "十分大きな数の素因数の特定は従来型コンピューターに数十億年かかると推定される。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography",
+              "quote": "need billions of years to figure out these prime factors"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "十分な能力の量子計算機は候補の素因数を同時にふるいにかけ、指数関数的に速く答えに到達する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography",
+              "quote": "sift through all of the potential prime factors simultaneously, rather than one by one, arriving at the answer exponentially more quickly"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "成熟した装置は「暗号学的に意味のある」量子計算機と呼ばれ、数日から数時間で解く可能性があるとされる。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography",
+              "quote": "Experts have begun referring to such a mature device as a “cryptographically relevant” quantum computer."
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography",
+              "quote": "it’s possible a quantum computer could solve this puzzle in days or even hours"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "耐量子暗号アルゴリズムは、従来型と量子の両方のコンピューターにとって困難な数学問題に基づく必要がある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography",
+              "quote": "Post-quantum encryption algorithms must be based on math problems that would be difficult for both conventional and quantum computers to solve."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "アルゴリズムは公開ネットワークでやり取りする情報を守る一般暗号化と、身元認証に使うデジタル署名という2つの主任務向けに設計される。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography",
+              "quote": "general encryption, used to protect information such as passwords exchanged across a public network"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography",
+              "quote": "digital signatures, used for identity authentication"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "最初の4アルゴリズムのうち3つは構造化格子の数学問題に基づき、残る1つはハッシュ関数を用いる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography",
+              "quote": "three are based on a family of math problems called structured lattices, while the fourth uses mathematical relationships known as hash functions"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "公開鍵暗号システムはコンピューターが扱いきれない数学問題に依拠し、安全なウェブサイトやメッセージを支える。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards",
+              "quote": "public-key encryption systems, which rely on math problems that computers find intractable, ensure that these websites and messages are inaccessible to unwelcome third parties"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "NISTは2016年に耐量子暗号プロジェクトを開始し、世界の暗号専門家へ古典・量子両計算機に困難なアルゴリズムの提出を求めた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography",
+              "quote": "NIST kicked off the Post-Quantum Cryptography project"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography",
+              "quote": "the world’s cryptography experts to submit algorithms that would prove intractable to both classical and quantum computers"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "締切までに数十か国の専門家から69の候補アルゴリズムが基準を満たして集まった。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography",
+              "quote": "experts from dozens of countries had submitted 69 candidate algorithms that cleared the bar NIST had set"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "候補は公開・透明な複数ラウンドの評価で絞られた。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography",
+              "quote": "This process was open and transparent."
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography",
+              "quote": "which reduced the number of candidates"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "NISTは産業界・政府・学術界を結ぶ公開プロセスを通じて50年にわたり暗号技術を育成してきた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography",
+              "quote": "NIST has fostered the development of cryptographic techniques and technology for 50 years through an open process that brings together industry, government and academia"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "2024年にNISTは最初の3つの確定耐量子暗号標準を公開した。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards",
+              "quote": "specified in the first completed standards from NIST’s post-quantum cryptography (PQC) standardization project, and are ready for immediate use"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography",
+              "quote": "the first three finalized PQC standards that incorporate them in 2024"
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "標準はアルゴリズムのコンピューターコード・実装手順・用途を含む。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards",
+              "quote": "containing the encryption algorithms’ computer code, instructions for how to implement them, and their intended uses"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "FIPS 203は一般暗号の主要標準で、CRYSTALS-Kyberを改称したML-KEMを基盤とし、比較的小さな鍵と動作速度が利点である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards",
+              "quote": "intended as the primary standard for general encryption"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards",
+              "quote": "comparatively small encryption keys that two parties can exchange easily, as well as its speed of operation"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards",
+              "quote": "based on the CRYSTALS-Kyber algorithm, which has been renamed ML-KEM, short for Module-Lattice-Based Key-Encapsulation Mechanism"
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "FIPS 204はデジタル署名保護の主要標準で、CRYSTALS-Dilithiumを改称したML-DSAを用いる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards",
+              "quote": "the primary standard for protecting digital signatures"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards",
+              "quote": "uses the CRYSTALS-Dilithium algorithm, which has been renamed ML-DSA, short for Module-Lattice-Based Digital Signature Algorithm"
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "FIPS 205はSphincs+を改称したSLH-DSAを使い、ML-DSAが脆弱と判明した場合のバックアップとされる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards",
+              "quote": "employs the Sphincs+ algorithm, which has been renamed SLH-DSA, short for Stateless Hash-Based Digital Signature Algorithm"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards",
+              "quote": "a backup method in case ML-DSA proves vulnerable"
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "FALCONに基づくFIPS 206の公開時にはFN-DSAと命名される予定である。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards",
+              "quote": "dubbed FN-DSA, short for FFT (fast-Fourier transform) over NTRU-Lattice-Based Digital Signature Algorithm"
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "NISTは2022年にCRYSTALS-Kyber・CRYSTALS-Dilithium・Sphincs+・FALCONの4アルゴリズムを標準化予定と発表した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards",
+              "quote": "CRYSTALS-Kyber, CRYSTALS-Dilithium, Sphincs+ and FALCON"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards",
+              "quote": "slated for standardization in 2022"
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "「今集めて後で解読」攻撃では、敵対者が暗号データを保存して将来の量子計算機で解読する可能性がある。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography",
+              "quote": "it could still be beneficial to capture encrypted data and hold onto it, in the hopes that a quantum computer will break the encryption down the road"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography",
+              "quote": "“harvest now, decrypt later”"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "新アルゴリズムの標準化から情報システムへの統合までは10年から20年を要することもある。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography",
+              "quote": "it has taken a long time from the moment that a new algorithm is standardized until it is fully integrated into information systems"
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography",
+              "quote": "The process can take 10 to 20 years"
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "NISTは将来バックアップ標準となり得る2組のアルゴリズムの評価を続けている。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/news-events/news/2024/08/nist-releases-first-3-finalized-post-quantum-encryption-standards",
+              "quote": "NIST also continues to evaluate two other sets of algorithms that could one day serve as backup standards."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "耐量子暗号標準は完成後、連邦機関に採用され無償で公開される。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography",
+              "quote": "they will be adopted by federal agencies and released for free public use"
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "NISTは組織に新標準への直ちの移行を促している。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cybersecurity-and-privacy/what-post-quantum-cryptography",
+              "quote": "We encourage organizations to begin their transition to these standards immediately"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

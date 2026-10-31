@@ -1,0 +1,1768 @@
+[
+  {
+    "slug": "economic-inequality",
+    "topicType": "concept",
+    "categoryLabel": "経済・ビジネス",
+    "title": "経済的不平等",
+    "summary": "経済的不平等は、所得や資産が人々のあいだにどれだけ偏って分布しているかを指し、ジニ係数や上位10%と下位10%の比、貧困ラインを下回る人口割合などで測られる。ただし数値は、所得を測るか消費を測るか、税と給付の前で見るか後で見るかといった定義の選択によって系統的に動くため、指標そのものの読み方が論点になる。世界人口全体で測ったグローバルな所得不平等は近年数十年で低下してきた一方、国内の格差の動きと水準は国ごとに大きく異なる。",
+    "bodyMarkdown": "## 所得と消費という二つの測定対象\n\n「所得の不平等」という同じ言葉で呼ばれていても、国際的な統計が実際に集計している対象は国によって異なる。世界銀行のデータでは、高所得国については税と給付を経たあとの所得が測られる一方、多くの低・中所得国では所得ではなく消費が測られている。世界の所得を一つの調査で網羅する国際的な仕組みは存在せず、各国の家計調査を突き合わせて全体像が組み立てられているためである。 [2][3][7]\n\n所得と消費は概念として結びついている。世帯の所得は、その消費に貯蓄を加えたもの、あるいは借入や貯蓄の取り崩しを差し引いたものに等しい。ただし両者は同じようには動かない。所得は失業や事業の損失でゼロになりうるが、消費がゼロになることは現実にはあり得ない。飢えてしまうからである。この非対称の結果、同じ国の同じ年で比べても、消費ではなく所得を用いると貧困率は高く出る傾向がある。 [8][9][73][93]\n\n分布の上のほうへ行くほど、所得と消費の乖離は大きくなる。豊かな世帯ほど所得のうち貯蓄に回す割合が大きいためで、消費で測った不平等は所得で測った不平等より概して低くなる。世界銀行の研究者による論文では、同一国について所得ベースのジニ係数が消費ベースのジニ係数より平均でおよそ13%高いと報告されている。 [10][55][74][82][94]\n\n金銭のやり取りを伴わない生活も測定の対象に入る。貧困下にある多くの人々は市場での販売や賃労働による金銭的所得ではなく自給的農業に頼っており、統計担当者はその生産の金銭的価値を推計し、所得または消費支出に加算して生活水準を比較している。 [79][80]\n\n## 不平等を表す指標\n\n広く使われる尺度の一つがジニ係数である。全員が同じ所得を得ている状態を0、所得がすべて一人に集中した状態を1として、分布全体の偏りを一つの数値に要約する。 [4][32]\n\n分布の両端を直接比べる方法もある。所得上位10%を画する所得と下位10%を画する所得の比で見ると、アメリカ合衆国では7倍の差があるのに対し、ドイツでは4.5倍とはるかに小さい。ブラジルではドイツの2倍以上にあたる10倍に達する。アンゴラの相対的な開きは、マダガスカルやベトナムの2倍の大きさである。 [33][34][35][48]\n\nただし比率は、その分布がどの水準に置かれているかを語らない。ドイツの下位10%のすぐ内側にいる人は、アメリカ合衆国で同じ位置にいる人よりわずかに裕福である。他方、アンゴラやマダガスカルのような貧しい国では所得分布全体を通じて水準が極めて低く、下位10%の所得は世界銀行が定める1日3ドルという極度の貧困ラインをも大きく下回る。相対的な開きが小さいことは、そこにいる人の暮らし向きがよいことを意味しない。 [49][50][51]\n\n## 貧困ラインと国際ドル\n\n絶対的貧困ラインは、時間を通じて一定に保たれる固定的な生活水準の基準を表す。最もよく知られているのは1日3国際ドル(2021年価格)の[国際貧困ライン](/hubpedia/international-poverty-line)で、世界銀行と国連が極度の貧困を測定するために用いている。 [13][14]\n\n国際比較のための金額は、国ごとの生活費の違いと物価上昇を調整した仮想的な通貨である国際ドルで表示される。1国際ドルは基準年における米国内の1米ドルと同じ購買力を持つと定義され、2021年国際ドルであれば2021年に米国で1米ドルが購入できた財・サービスの価値を指す。基準年は据え置かれるものではなく、世界銀行は2025年6月に世界の貧困推計を更新し、2017年価格から2021年価格表示の国際ドルへ切り替えた。 [11][12][42][56][75]\n\nこれに対し相対的貧困ラインの値は、当該国内の平均所得の変化に応じて上下する。多くは中央値所得の一定割合、よくある例では50%に設定される。主に豊かな国で用いられ、OECDと欧州連合による貧困測定の主な方法となっており、中央値所得の50%を下回る人々の割合は国連の持続可能な開発目標の指標の一つでもある。 [15][16][76][77]\n\n相対的貧困は、所得分布の下位半分がどれだけ散らばっているかを示すため、不平等の指標とみなすことができる。ただしラインが国内の所得水準に連動する以上、豊かな国と貧しい国とでは同じ「中央値の50%」が指す生活水準が大きく異なる。世界銀行は、絶対的要素と相対的要素を組み合わせた社会的貧困ラインによる世界の貧困推計も作成している。 [15][17][78][96]\n\n## 推計を支えるデータの枠組み\n\n世界銀行の貧困・不平等プラットフォーム(PIP)は、大規模な各国調査データの集積に基づき、世界のほぼすべての国のデータを公開しており、税引き後の所得指標に焦点を当てている。2026年時点で対象は172か国にのぼるが、約30か国は過去10年間の調査データを持たない。世帯の数値を個人の水準に直す際には、子どもを含む世帯全員の人数で世帯の総所得または総消費を単純に割る方式が採られている。 [1][6][43][58][85]\n\nルクセンブルク所得研究(LIS)は、ルクセンブルクに拠点を置く国際比較データベースで、比較可能性を優先している。世帯人数の平方根で総所得を割る平方根等価尺度を用い、世帯内で暖房費や家賃などの費用を分担できる分、一人当たりに必要な所得を少なく見積もる。税・給付の前と後の双方を捕捉するため政府による所得再分配の研究に用いられるが、対象は2026年時点で52か国と世界銀行より少なく、特に低所得国のデータが乏しい。 [39][44][59][60][61][85]\n\n等価尺度の違いだけでなく、どの所得を数え入れるかも結果を動かす。LISの税引き前所得の指標は公的年金を除外する一方で私的年金は含むため、退職者の税引き前所得はその国の年金制度がどう組み立てられているかに左右される。 [5][72][92]\n\n世界不平等データベース(WID)のチームは、分配国民勘定(DINA)と呼ばれる手法を採り、一国の国民所得の総額が人口にどのように分配されているかを推計する。税務記録・国民経済計算・サーベイデータという複数の情報源を組み合わせ、経済で生み出されたすべての所得が計上されているかを各国の公式統計である国民経済計算で確認する。基幹系列は世帯所得を20歳以上の成人の人数で割る均等分割方式を用い、税・給付の前後を含む所得分布全体の推計を世界のほぼすべての国について、一部の国では100年以上遡って提供している。 [21][45][66][68][71]\n\n税務記録は、任意参加ではなく行政による報告に基づき、投資や事業所有からの所得をより詳細に捉えられるため、最上位層の所得を追跡する情報源として調査より優れていることが多い。一方で、税務当局に把握されている所得しか捉えられず、インフォーマル雇用が多い国では人口の大部分の所得を見落とす可能性がある。実際、アフリカの大半の国についてWIDの所得不平等推計は世帯消費に関するサーベイデータに基づいており、中東の大半の国では一部存在する所得サーベイを、レバノン1か国で観測された税務データとサーベイデータの関係に基づいて調整している。 [46][67][86][87]\n\nWIDが定義する税引き前所得は、税金の支払いや大半の給付の受給の前、ただし公的・私的年金などの社会保険給付の受給後の所得として測られる。税引き後国民所得はこれより広く、現金給付だけでなく学校や病院などの公共サービス、道路や国防といった他の[政府支出](/hubpedia/government-spending)の価値も所得に含める。基準系列では政府支出の大半を所得に比例して配分し、公的医療支出は成人全体にほぼ均等に配分している。 [29][40][41]\n\nこの所得概念には、家計が手にする金銭という通常の感覚から外れる項目も入る。企業がコストと税金を支払い株主に配当したうえで留保する内部留保利益は、誰も直接受け取るものではないが、企業価値を高めることで所有者に利益をもたらす。個人がそのまま支出できない点で通常の意味の所得とは異なるものの、富裕層は株式の売却などで利益をいつ実現するかを選ぶことができ、納税を繰り延べるために内部留保という形で利益を得るインセンティブを持つことが多い。持ち家に住む世帯が自分自身に家賃を支払っているとみなす帰属家賃も、国民経済計算では所得に算入される。 [25][26][27][28][90][91]\n\n## 世界と各国の水準\n\n世界銀行のデータによれば、2026年時点で世界の所得の中央値は月290ドル、1日あたり10ドルをわずかに下回る水準にある。世界人口の半分はこれを下回る所得で暮らしている。政治経済学者ガウタム・ナイアの研究によると、米国人はこの世界の所得中央値を実際のおよそ10倍に見積もる傾向がある。 [36][52][84]\n\n上位への集中の度合いは国によって大きく異なる。WIDの推計では、オランダでは2022年に上位1%が税・給付前所得全体の約7%を受け取っており、比較的不平等が低い国の例とされる。不平等が高い国とされるブラジルでは、同じ2022年に所得全体の4分の1超が上位1%に渡ったと推計されている。 [18][19]\n\n米国についてはさらに細かい層まで推計がある。WIDの推計では、2024年に成人の上位1%が税引き前国民所得の20.7%を受け取り、同年の成人1人当たり純国民所得の平均は95,280ドルだった。この二つを組み合わせると、上位1%の平均所得は年間およそ200万ドルとなる。同じ年、上位0.1%すなわち1000人に1人が国民所得の約10%を受け取っており、その額は上位0.1%を除いた残りの上位1%が受け取った所得の合計とほぼ同水準だった。 [20][22][23][24][81]\n\n## 長期的な推移\n\n世界人口全体で測定したグローバルな所得不平等は、近年数十年で低下してきた。これは特にアジアの一部地域における急速な経済成長によってもたらされた。個々の国の内側を見ると動きは異なり、多くの国では同じ期間に所得格差が低下したか、横ばいで推移している。 [30][31][47]\n\n世界の分布のどこがどれだけ伸びたかは、金額で見るか比率で見るかによって像が変わる。1990年から2026年にかけて、所得上位10%に入るために必要な所得は1日あたり約37ドルから55ドルへと約18ドル上昇したのに対し、下位10%を画する所得水準の上昇は約1.80ドル、上位10%の10分の1程度にとどまった。他方、比率で見ると下位10%と世界の所得中央値は1990年以降で2倍以上になり、上位10%の伸びは約半分程度の増加にとどまっている。 [37][38][53][54]\n\n数十年を超える国別の系列があるのは一部の国に限られる。アメリカ合衆国とイギリスについては1960年代まで遡るデータが存在し、イギリスでは1980年代後半に急激な不平等の上昇があってその後1990年代にかけてより緩やかな上昇が続いたのに対し、アメリカ合衆国では同じ期間を通じてより連続的かつ緩やかな上昇が見られた。経済学者トニー・アトキンソンは、著書『Inequality: What Can Be Done?』の中でこの米英比較が示す意味に注目した。 [63][64][65][95]\n\n同じ国を税・給付の前後で比べると、ほとんどの国で税・給付後のジニ係数は前のジニ係数より低くなる。こうした比較が可能なのは、LISのように前後の双方を捕捉するデータが整えられている場合である。 [60][62]\n\n## 測定の限界と解釈の相違\n\n家計調査は、数が少なく調査への参加率も低い最富裕層の所得を捉えることが難しい。極めて裕福な層は人数が少ないために調査対象として選ばれにくく、選ばれても回答を拒否したり所得を過少に申告したりすることが多い。このため調査に基づく不平等の指標は、所得上位における集中の実際の水準を過小評価している可能性が高い。 [57][69][70][83]\n\n上位の推計を税務データや国民経済計算で補う場合も、結果は配分の仮定に依存する。近年、米国の国民所得のうち約40%は個人の税務データには表れておらず、この部分の配分方法の違いが推計結果の相違を生む一因となっている。ピケティ・サエズ・ズックマンのチームとオーテン・スプリンターのチームは、同じ米国のデータを用いながら、近年数十年間で税引き後の不平等が上昇したのか、上昇したとすればどの程度かについて意見が対立している。 [88][89]\n\n分配の決まり方そのものについても解釈がある。経済学者ブランコ・ミラノヴィッチは、所得分配は選挙、各種社会集団によるロビー活動、社会的選好、歴史的経緯を通じた社会的選択の産物でもあるとの見解を述べている。 [97]",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/economic-inequality",
+        "title": "経済的不平等",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on economic-inequality. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/poverty",
+        "title": "poverty",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Poverty as the lower end of the distribution. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Economic inequality",
+        "summary": "Economic inequality refers to how unevenly income and wealth are distributed across people, and it is measured with indicators such as the Gini coefficient, the ratio between the top 10% and the bottom 10%, and the share of the population living below a poverty line. The figures, however, shift systematically with definitional choices — whether income or consumption is measured, and whether the view is before or after taxes and transfers — so how to read the indicators themselves becomes a point of contention. Global income inequality, measured across the world's entire population, has fallen in recent decades, while the direction and level of inequality within countries vary widely from one country to another.",
+        "bodyMarkdown": "## Income and consumption as two objects of measurement\n\nEven when the same term \"income inequality\" is used, what international statistics actually compile differs by country. In World Bank data, income after taxes and transfers is measured for high-income countries, while for many low- and middle-income countries what is measured is consumption rather than income. No international mechanism exists to cover the world's incomes in a single survey, so the overall picture is assembled by piecing together each country's household surveys. [2][3][7]\n\nIncome and consumption are conceptually linked. A household's income equals its consumption plus saving, or minus borrowing and the drawing down of savings. The two do not move in the same way, however. Income can fall to zero through unemployment or business losses, but consumption cannot realistically fall to zero, because that would mean starvation. As a result of this asymmetry, poverty rates tend to come out higher when income rather than consumption is used, even for the same country in the same year. [8][9][73][93]\n\nThe higher up the distribution one goes, the wider the gap between income and consumption becomes. Wealthier households save a larger share of their income, so inequality measured by consumption is generally lower than inequality measured by income. A paper by World Bank researchers reports that, for the same country, income-based Gini coefficients are on average about 13% higher than consumption-based ones. [10][55][74][82][94]\n\nLivelihoods that involve no exchange of money also fall within the scope of measurement. Many people living in poverty rely on subsistence agriculture rather than on monetary income from market sales or wage labour, and statisticians estimate the monetary value of that production and add it to income or consumption expenditure in order to compare living standards. [79][80]\n\n## Indicators of inequality\n\nOne widely used measure is the Gini coefficient. Taking 0 as the state in which everyone earns the same income and 1 as the state in which all income is concentrated in a single person, it summarises the skew of the whole distribution in a single number. [4][32]\n\nAnother approach compares the two ends of the distribution directly. Looking at the ratio between the income marking off the top 10% and the income marking off the bottom 10%, the United States shows a sevenfold gap, whereas Germany's is far smaller at 4.5-fold. In Brazil it reaches tenfold, more than twice Germany's. The relative spread in Angola is twice as large as that in Madagascar or Vietnam. [33][34][35][48]\n\nRatios, however, say nothing about the level at which the distribution sits. Someone just inside the bottom 10% in Germany is slightly better off than someone in the same position in the United States. In poor countries such as Angola and Madagascar, on the other hand, levels are extremely low throughout the income distribution, and the income of the bottom 10% falls far below even the World Bank's extreme poverty line of 3 dollars a day. A small relative spread does not mean that the people there are well off. [49][50][51]\n\n## Poverty lines and international dollars\n\nAn absolute poverty line represents a fixed standard of living held constant over time. The best known is the [international poverty line](/hubpedia/international-poverty-line) of 3 international dollars a day (2021 prices), which the World Bank and the United Nations use to measure extreme poverty. [13][14]\n\nAmounts used for international comparison are expressed in international dollars, a hypothetical currency adjusted for differences in the cost of living between countries and for price increases. One international dollar is defined as having the same purchasing power as one US dollar within the United States in the base year, so a 2021 international dollar refers to the value of the goods and services that one US dollar could buy in the United States in 2021. The base year is not fixed permanently: in June 2025 the World Bank updated its global poverty estimates, switching from international dollars expressed in 2017 prices to 2021 prices. [11][12][42][56][75]\n\nThe value of a relative poverty line, by contrast, rises and falls with changes in average income within the country concerned. It is usually set at a fixed share of median income, commonly 50%. Used mainly in rich countries, it is the principal method of poverty measurement used by the OECD and the European Union, and the share of people below 50% of median income is also one of the indicators of the United Nations Sustainable Development Goals. [15][16][76][77]\n\nRelative poverty can be regarded as an indicator of inequality, since it shows how dispersed the bottom half of the income distribution is. But because the line is tied to the country's own income level, the same \"50% of the median\" points to very different living standards in rich and poor countries. The World Bank also produces global poverty estimates using a societal poverty line that combines absolute and relative elements. [15][17][78][96]\n\n## The data frameworks behind the estimates\n\nThe World Bank's Poverty and Inequality Platform (PIP) is based on a large accumulation of national survey data and publishes data for nearly every country in the world, focusing on after-tax income measures. As of 2026 it covers 172 countries, though about 30 countries have no survey data from the past ten years. To convert household figures to the individual level, it simply divides total household income or consumption by the number of everyone in the household, children included. [1][6][43][58][85]\n\nThe Luxembourg Income Study (LIS) is an international comparative database based in Luxembourg that gives priority to comparability. It uses the square-root equivalence scale, dividing total income by the square root of household size, which assumes a lower required income per person to the extent that costs such as heating and rent can be shared within the household. Because it captures figures both before and after taxes and transfers, it is used to study income redistribution by governments, but as of 2026 it covers 52 countries, fewer than the World Bank, and data on low-income countries in particular are sparse. [39][44][59][60][61][85]\n\nBeyond differences in equivalence scales, which incomes are counted also shifts the results. The LIS pre-tax income measure excludes public pensions while including private ones, so the pre-tax income of retirees depends on how the country's pension system is put together. [5][72][92]\n\nThe team behind the World Inequality Database (WID) uses a method known as distributional national accounts (DINA) to estimate how a country's total national income is distributed across its population. It combines multiple sources — tax records, national accounts and survey data — and uses the national accounts, each country's official statistics, to check that all income generated in the economy has been accounted for. The core series uses equal-split allocation, dividing household income by the number of adults aged 20 and over, and provides estimates of the entire income distribution both before and after taxes and transfers for nearly every country in the world, in some cases going back more than 100 years. [21][45][66][68][71]\n\nTax records are often a better source than surveys for tracking incomes at the very top, because they rest on administrative reporting rather than voluntary participation and capture income from investments and business ownership in greater detail. On the other hand, they capture only income known to the tax authorities and may miss the incomes of a large share of the population in countries with substantial informal employment. Indeed, for most countries in Africa, WID's income inequality estimates are based on survey data on household consumption, and for most countries in the Middle East, the income surveys that do exist are adjusted on the basis of the relationship between tax data and survey data observed in a single country, Lebanon. [46][67][86][87]\n\nPre-tax income as defined by WID is measured before the payment of taxes and the receipt of most transfers, but after the receipt of social insurance benefits such as public and private pensions. After-tax national income is broader, counting as income not only cash transfers but also the value of public services such as schools and hospitals and of other [government spending](/hubpedia/government-spending) such as roads and national defence. In the benchmark series, most government spending is allocated in proportion to income, while public health spending is allocated roughly equally across all adults. [29][40][41]\n\nThis income concept also includes items that fall outside the ordinary sense of money reaching households. Retained earnings — profits a company keeps after paying costs and taxes and distributing dividends to shareholders — are not received directly by anyone, but they benefit owners by raising the value of the company. Although they differ from income in the ordinary sense in that individuals cannot spend them as they are, wealthy people can choose when to realise gains, for instance by selling shares, and they often have an incentive to take gains in the form of retained earnings in order to defer taxes. Imputed rent, which treats a household living in its own home as paying rent to itself, is also counted as income in the national accounts. [25][26][27][28][90][91]\n\n## Global and national levels\n\nAccording to World Bank data, as of 2026 the world's median income stands at 290 dollars a month, just under 10 dollars a day. Half of the world's population lives on less than this. Research by the political economist Gautam Nair finds that Americans tend to estimate this global median income at roughly ten times its actual level. [36][52][84]\n\nThe degree of concentration at the top varies greatly by country. WID estimates that in the Netherlands the top 1% received about 7% of total pre-tax and pre-transfer income in 2022, an example of a country with relatively low inequality. In Brazil, cited as a high-inequality country, more than a quarter of total income is estimated to have gone to the top 1% in the same year, 2022. [18][19]\n\nFor the United States, estimates are available for even finer strata. WID estimates that in 2024 the top 1% of adults received 20.7% of pre-tax national income, and that average net national income per adult that year was 95,280 dollars. Combining the two puts the average income of the top 1% at roughly 2 million dollars a year. In the same year, the top 0.1% — one person in a thousand — received about 10% of national income, an amount roughly equal to the total income received by the rest of the top 1% excluding the top 0.1%. [20][22][23][24][81]\n\n## Long-run trends\n\nGlobal income inequality, measured across the world's entire population, has fallen in recent decades. This has been driven by rapid economic growth, particularly in parts of Asia. Looking within individual countries, the picture differs: in many countries income gaps have fallen or held flat over the same period. [30][31][47]\n\nWhich parts of the global distribution grew, and by how much, looks different depending on whether one looks at absolute amounts or at ratios. Between 1990 and 2026, the income needed to enter the top 10% rose by about 18 dollars, from roughly 37 to 55 dollars a day, whereas the income level marking off the bottom 10% rose by about 1.80 dollars, around a tenth as much as for the top 10%. In ratio terms, on the other hand, the bottom 10% and the global median income have more than doubled since 1990, while the growth of the top 10% amounts to an increase only about half as large. [37][38][53][54]\n\nCountry series spanning more than a few decades exist for only some countries. Data going back to the 1960s exist for the United States and the United Kingdom: in the United Kingdom there was a sharp rise in inequality in the late 1980s followed by a more gradual rise through the 1990s, whereas the United States saw a more continuous and gradual rise across the same period. The economist Tony Atkinson drew attention to what this US–UK comparison implies in his book *Inequality: What Can Be Done?*. [63][64][65][95]\n\nComparing the same country before and after taxes and transfers, the after-tax-and-transfer Gini coefficient is lower than the before figure in almost every country. Such comparisons are possible where data capturing both sides have been assembled, as in the LIS. [60][62]\n\n## Limits of measurement and differences in interpretation\n\nHousehold surveys have difficulty capturing the incomes of the very richest, who are few in number and have low survey participation rates. The extremely wealthy are unlikely to be selected for surveys because there are so few of them, and even when selected they often refuse to respond or under-report their income. Survey-based inequality indicators are therefore likely to understate the true level of concentration at the top of the income distribution. [57][69][70][83]\n\nEven when top estimates are supplemented with tax data and national accounts, the results depend on allocation assumptions. In recent years about 40% of US national income does not appear in individual tax data, and differences in how this portion is allocated are one source of divergence between estimates. The team of Piketty, Saez and Zucman and the team of Auten and Splinter disagree, while using the same US data, over whether after-tax inequality has risen in recent decades and, if so, by how much. [88][89]\n\nThere are also interpretations of how distribution itself comes to be determined. The economist Branko Milanović has expressed the view that the distribution of income is also a product of social choice, made through elections, lobbying by various social groups, social preferences and historical circumstance. [97]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T10:40:11.079Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "世界銀行の貧困・不平等プラットフォーム(PIP)は、大規模な各国調査データの集積に基づき、世界のほぼすべての国のデータを公開している。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "The World Bank’s Poverty and Inequality Platform (PIP) publishes data for almost all countries in the world, based on a large collection of national survey data."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "世界銀行のデータは、高所得国については税・給付後の所得を測定している。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "For high-income countries, the data measures people’s incomes after taxes and benefits."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "世界銀行のデータは、多くの低・中所得国については所得ではなく消費を測定している。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "For most low- and middle-income countries, it instead measures their consumption."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "ジニ係数は0(全員が同じ所得)から1(所得がすべて一人に集中)までの値をとる。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "ranges from 0 (everyone has the same income) to 1 (all income goes to one person)"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "LIS(ルクセンブルク所得研究)の税引き前所得の指標は公的年金を除外する一方、私的年金は含む。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "The before-tax measure in LIS excludes public pensions but includes private ones"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "世界銀行の貧困・不平等プラットフォーム(PIP)は税引き後の所得指標に焦点を当てている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "PIP focuses on after-tax measures"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "世界の所得を網羅する単一の国際調査は存在しない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty",
+              "quote": "There is no global survey of incomes."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "消費がゼロになることは現実的にあり得ない(飢えてしまうため)が、所得はゼロになり得る。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty",
+              "quote": "while zero consumption is not a feasible value — people with zero consumption would starve — a zero income is a possible value"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "同じ国・同じ年で比較した場合、消費でなく所得を用いると貧困率は高くなる傾向がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty",
+              "quote": "Poverty rates tend to be higher when income is used rather than consumption, for the same country and year."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "消費で測った不平等は、所得で測った不平等より概して低くなる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty",
+              "quote": "inequality measured in terms of consumption is generally somewhat lower than the inequality measured in terms of income"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "1国際ドルは、基準年における米国内の1米ドルと同じ購買力を持つと定義される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty",
+              "quote": "One international dollar is defined as having the same purchasing power as one US dollar would in the United States in a given base year."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "2025年6月、世界銀行は世界の貧困推計を更新し、2017年価格から2021年価格表示の国際ドルを用いるようになった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty",
+              "quote": "In June 2025, the World Bank updated its global poverty estimates and now uses international dollars expressed in 2021 prices, updated from 2017 prices."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "絶対的貧困ラインは、時間を通じて一定に保たれる固定的な生活水準の基準を表す。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty",
+              "quote": "An absolute poverty line represents a fixed standard of living; a threshold that is held constant across time."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "1日3国際ドル(2021年価格)の国際貧困ラインは最もよく知られた絶対的貧困ラインであり、世界銀行と国連が極度の貧困を測定するために用いている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty",
+              "quote": "The International Poverty Line of $3 per day (in international-$ at 2021 prices) is the best-known absolute poverty line and is used by the World Bank and the UN to measure extreme poverty around the world."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "相対的貧困ラインの値は、当該国内の平均所得の変化に応じて上下する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty",
+              "quote": "the value of relative poverty lines rises and falls as average incomes change within a given country"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "相対的貧困ラインの多くは中央値所得の一定割合(よくある例では50%)に設定される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty",
+              "quote": "these lines are set at a certain fraction of the median income, a common choice being 50% of the median income"
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "相対的貧困は、所得分布の下位半分がどれだけ散らばっているかを示すため、不平等の指標とみなすことができる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty",
+              "quote": "relative poverty can be considered a metric of inequality—it measures how spread out the bottom half of the income distribution is"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "オランダでは、WIDの推計によると2022年に上位1%が税・給付前所得全体の約7%を受け取っており、これは比較的不平等が低い国の例とされる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "the richest 1% received around 7% of all income before taxes and benefits in 2022"
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "不平等が高い国とされるブラジルでは、同じ2022年に所得全体の4分の1超が上位1%に渡ったと推計されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "over a quarter of all income went to the richest 1% in the same year"
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "米国では2024年、上位0.1%(1000人に1人)が国民所得の約10%を受け取った。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "the richest 0.1% — that is, one in a thousand people — received about 10% of the national income in 2024"
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "WID(世界不平等データベース)は、税務記録・国民経済計算・サーベイデータという複数のデータソースを組み合わせて所得分布を推計している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "it combines multiple sources of data: tax records, national accounts data, and the more common survey data"
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "米国では2024年、WIDデータにおける成人1人当たりの純国民所得の平均は95,280ドルだった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "the average net national income per adult was $95,280"
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "WIDの推計では、2024年の米国において成人の上位1%が税引き前国民所得の20.7%を受け取った。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "WID estimates that the top 1% of adults received 20.7% of pre-tax national income in that year"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "この推計に基づくと、米国の上位1%の平均所得は年間約200万ドルとなる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "so the average income of the top 1% was around $2 million per year"
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "WIDが所得に含める「内部留保利益」とは、企業がコスト・税金・株主への配当を支払った後に留保する利益を指す。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "undistributed corporate profits”: the income that companies retain after paying costs, taxes, and dividends to shareholders"
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "内部留保利益は誰も直接受け取るものではないが、企業価値を高めることで所有者に利益をもたらす。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "No one receives this directly when profits are retained, but it still benefits the owners because it increases the value of the business."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "内部留保利益は通常の意味での所得とは異なり、個人がそのまま支出することはできない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "people cannot spend undistributed profits"
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "国民経済計算では、持ち家に住む世帯が自分自身に家賃を支払っているとみなす「帰属家賃」を所得として算入する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "national accounts treat homeowners as if they were paying rent to themselves"
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "WIDの「税引き後国民所得」は、現金給付だけでなく学校や病院などの公共サービス、道路や国防といった他の政府支出の価値も含む所得概念である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "Post-tax national income captures income after taxes have been paid and government benefits have been received. This includes not only social benefits in cash, but also the value of public services like schools and hospitals, and other government spending like roads and defense."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "世界人口全体で測定したグローバルな所得不平等は、近年数十年で低下してきた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "Global income inequality — measured across the world’s population as a whole — has fallen in recent decades, driven in particular by rapid economic growth in parts of Asia."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "このグローバルな所得不平等の低下は、特にアジアの一部地域における急速な経済成長によってもたらされた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "Global income inequality — measured across the world’s population as a whole — has fallen in recent decades, driven in particular by rapid economic growth in parts of Asia."
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "不平等を測る尺度として広く使われるものの一つにジニ係数がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "One commonly used measure is the Gini coefficient."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "アメリカ合衆国では、所得上位10%を画する所得と下位10%を画する所得との間に7倍の差がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "In the United States, there’s a 7-fold gap between the incomes marking the richest tenth and the poorest tenth."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "ドイツでは、同様の所得格差(P90/P10比)が4.5倍とアメリカよりはるかに小さい。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "In Germany, the gap is much lower: 4.5-fold."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "ブラジルでは所得格差がドイツの2倍以上に達し、10倍の差がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "In Brazil, inequality is much higher — more than twice as large as in Germany, with a 10-fold gap."
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "世界銀行のデータによれば、2026年時点で世界の所得の中央値は月290ドル、1日あたり10ドルをわずかに下回る水準である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "the global median income is $290 per month, or a little under $10 a day"
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "1990年から2026年にかけて、所得上位10%に入るために必要な所得は1日あたり約37ドルから55ドルへ、約18ドル上昇した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "From 1990 to 2026, the income needed to just place someone in the richest 10% rose by about $18, from around $37 to $55 per person per day."
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "同期間に所得下位10%を画する所得水準の上昇は約1.80ドルにとどまり、上位10%の上昇の10分の1程度であった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "The income level marking the poorest 10% also rose, but by only around $1.80, ten times less."
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "ルクセンブルク所得研究(LIS)は、ルクセンブルクに拠点を置く国際比較データベースであり、比較可能性を優先している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "The Luxembourg Income Study (LIS) is a cross-national database, located in Luxembourg, which instead prioritizes comparability."
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "WIDの定義する「税引き前所得」は、税金の支払いや大半の給付の受給前だが、公的・私的年金などの社会保険給付の受給後の所得として測定される。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "Pre-tax income — also described by WID as “pre-tax, post-replacement income” — is measured before taxes are paid and most benefits are received, but after the receipt of social insurance benefits, such as public and private pensions"
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "WIDの基準系列では、政府支出の大半を所得に比例して配分し、公的医療支出は成人全体にほぼ均等に配分している。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "In its benchmark series, WID allocates most government spending proportionally to income, and public healthcare spending roughly equally across all adults."
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "2021年国際ドルは、2021年に米国で1米ドルが購入できた財・サービスの価値として定義される。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "One 2021 international dollar is defined as the value of goods and services that one US dollar would buy in the US in 2021."
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "世界銀行は、子どもを含む世帯全員の人数で世帯の総所得または総消費を単純に割る方式を採用している。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "The World Bank takes a simple approach and divides the total household income or consumption by all members of the household, including children."
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "LIS(ルクセンブルク所得研究)は、世帯人数の平方根で総所得を割る「平方根等価尺度」を用いている。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "LIS uses the square root equivalence scale: it divides the total household income by the square root of the number of people in the household."
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "statement": "世界不平等データベース(WID)の基幹系列は「均等分割」方式を用い、世帯所得を20歳以上の成人の人数で割る。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "The World Inequality Database main series (discussed below) uses an “equal split” and divides it by the number of adults (aged 20 and over) in the household."
+            }
+          ]
+        },
+        {
+          "index": 46,
+          "statement": "税務データは税務当局に把握されている所得しか捉えられず、インフォーマル雇用が多い国では人口の大部分の所得を見落とす可能性がある。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "Tax data only captures income visible to the tax system."
+            },
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "In countries where informal employment is very common, for example, tax data alone can miss income from a large share of the population."
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "statement": "多くの個々の国では、近年数十年で所得格差が低下したか、あるいは横ばいで推移してきた。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "within many individual countries, income inequality has fallen in recent decades or remained stable."
+            }
+          ]
+        },
+        {
+          "index": 48,
+          "statement": "アンゴラでは、上位10%と下位10%の相対的な格差がマダガスカルやベトナムの2倍の大きさである。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "The relative gap between the top and bottom tenth in Angola is twice as big as it is in either Madagascar or Vietnam."
+            }
+          ]
+        },
+        {
+          "index": 49,
+          "statement": "ドイツの下位10%のすぐ内側にいる人は、アメリカ合衆国の同水準の人よりわずかに裕福である。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "A person just inside the bottom tenth in Germany is actually slightly better off than their counterpart in the United States."
+            }
+          ]
+        },
+        {
+          "index": 50,
+          "statement": "アンゴラやマダガスカルのような貧しい国では、所得分布全体を通じて所得水準が極めて低い。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "In poor countries like Angola and Madagascar, incomes are incredibly low across the entire distribution."
+            }
+          ]
+        },
+        {
+          "index": 51,
+          "statement": "これらの国の下位10%の所得は、世界銀行が定める1日3ドルという極度の貧困ラインをも大きく下回る。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "They are extremely low among the poorest tenth, far below even the World Bank’s extreme poverty line of $3 a day."
+            }
+          ]
+        },
+        {
+          "index": 52,
+          "statement": "世界人口の半分は、この所得水準(月290ドル)未満で生活している。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "Half the world’s population lives on less than this amount"
+            }
+          ]
+        },
+        {
+          "index": 53,
+          "statement": "所得下位10%と世界の所得中央値は、1990年以降で2倍以上に増加した。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "The incomes of the poorest 10% and the global median — those right in the middle of the distribution — have more than doubled since 1990."
+            }
+          ]
+        },
+        {
+          "index": 54,
+          "statement": "所得上位10%の所得の伸びは比率で見るとはるかに小さく、約半分程度の増加にとどまった。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "The rise for the richest 10% was much lower in proportional terms, increasing by around a half."
+            }
+          ]
+        },
+        {
+          "index": 55,
+          "statement": "不平等の推計値は、消費データに基づく場合よりも所得データに基づく場合の方がやや高くなる傾向がある。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "inequality estimates tend to be somewhat higher when based on income rather than consumption data."
+            }
+          ]
+        },
+        {
+          "index": 56,
+          "statement": "国際的な所得・消費の比較のため、すべての数値は国ごとの生活費の違いと物価上昇を調整する仮想通貨である「国際ドル」で表示されている。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "all figures are expressed in international dollars — a hypothetical currency that adjusts for differences in the cost of living between countries and for inflation over time"
+            }
+          ]
+        },
+        {
+          "index": 57,
+          "statement": "家計調査は、数が少なく調査への参加率も低い最富裕層の所得を捉えることが難しい。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "Household surveys struggle to capture the incomes of the very richest, who are few in number, less likely to participate in such surveys"
+            }
+          ]
+        },
+        {
+          "index": 58,
+          "statement": "2026年時点で、約30か国は過去10年間の調査データを持たない。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "as of 2026, around 30 countries had no survey data from the last decade."
+            }
+          ]
+        },
+        {
+          "index": 59,
+          "statement": "LISは「等価化」により世帯所得を調整し、世帯内で暖房費や家賃などの費用を分担できる分、一人当たり必要な所得を少なく見積もる。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "LIS adjusts household income to account for the fact that people in a household can share some costs, like heating and rent, so they need less income per person to achieve the same standard of living."
+            }
+          ]
+        },
+        {
+          "index": 60,
+          "statement": "LISは税・給付前と税・給付後の両方の所得を捕捉しており、政府による所得再分配の研究を可能にしている。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "LIS also captures incomes both before and after taxes and benefits, which makes it possible to study government redistribution"
+            }
+          ]
+        },
+        {
+          "index": 61,
+          "statement": "LISは世界銀行のデータよりもカバーする国の数が少なく、特に低所得国のデータが乏しい。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "LIS covers fewer countries than the World Bank and has especially sparse coverage of low-income countries."
+            }
+          ]
+        },
+        {
+          "index": 62,
+          "statement": "ほとんどの国で、税・給付後のジニ係数は税・給付前のジニ係数より低くなる。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "In most countries, the Gini is lower after taxes and benefits"
+            }
+          ]
+        },
+        {
+          "index": 63,
+          "statement": "アメリカ合衆国とイギリスについては、不平等のデータが1960年代まで遡って存在する。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "For the United States and the United Kingdom, the data reaches back to the 1960s"
+            }
+          ]
+        },
+        {
+          "index": 64,
+          "statement": "イギリスでは1980年代後半に急激な不平等の上昇があり、その後1990年代にかけてより緩やかな上昇が続いた。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "the UK saw a large, steep rise in inequality in the late 1980s, followed by a more steady increase across the 1990s"
+            }
+          ]
+        },
+        {
+          "index": 65,
+          "statement": "アメリカ合衆国では、同じ期間を通じてより連続的かつ緩やかな不平等の上昇が見られた。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "the US saw a more continuous, gradual increase throughout this period."
+            }
+          ]
+        },
+        {
+          "index": 66,
+          "statement": "分配国民勘定(DINA)は、一国の国民所得総額が人口にどのように分配されているかを推計する手法であり、世界不平等データベース(WID)のチームが採用している手法である。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "distributional national accounts (DINA): estimates of how a country’s total national income is distributed across the population. This is the approach used by the team behind the World Inequality Database (WID)."
+            }
+          ]
+        },
+        {
+          "index": 67,
+          "statement": "税務記録は、任意参加ではなく行政による報告に基づき、投資や事業所有からの所得をより詳細に捉えられるため、最上位層の所得を追跡する情報源として調査より優れていることが多い。",
+          "confidence": 0.87,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "Tax records are often a better source for tracking top incomes because, unlike surveys, they draw on administrative reporting rather than voluntary participation, and can capture income from investments and business ownership in more detail."
+            }
+          ]
+        },
+        {
+          "index": 68,
+          "statement": "世界不平等データベース(WID)プロジェクトは、税・給付前後を含む所得分布全体の推計を世界のほぼすべての国について含んでおり、一部の国では100年以上遡るデータを提供している。",
+          "confidence": 0.87,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "It includes estimates of the entire income distribution, both before and after taxes and benefits, for almost every country in the world — in some cases dating back over a hundred years."
+            }
+          ]
+        },
+        {
+          "index": 69,
+          "statement": "極めて裕福な層は数が少ないため、調査の対象として選ばれにくい。",
+          "confidence": 0.86,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "The extremely rich are few in number and so less likely to be asked to join a survey."
+            }
+          ]
+        },
+        {
+          "index": 70,
+          "statement": "調査に基づく不平等の指標は、所得上位における所得集中の実際の水準を過小評価している可能性が高い。",
+          "confidence": 0.86,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "survey-based measures of inequality likely understate the true level of income concentration at the top."
+            }
+          ]
+        },
+        {
+          "index": 71,
+          "statement": "国民経済計算(各国の経済全体を測る公式統計)は、経済で生み出されたすべての所得が計上されているかを確認するために用いられる。",
+          "confidence": 0.86,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "National accounts data — countries’ official statistics that measure the whole economy — is used to ensure that all the income generated in the economy is accounted for."
+            }
+          ]
+        },
+        {
+          "index": 72,
+          "statement": "年金制度の国ごとの違いにより、退職者の税引き前所得は自国の年金制度の組み立て方に左右される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "meaning a retired person’s before-tax income depends on how their country organizes pensions"
+            }
+          ]
+        },
+        {
+          "index": 73,
+          "statement": "世帯の所得は、その消費に貯蓄を加えるか、借入や貯蓄の取り崩しを差し引いたものに等しい。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty",
+              "quote": "the income of a household equals their consumption plus any savings, or minus any borrowing or spending out of savings"
+            }
+          ]
+        },
+        {
+          "index": 74,
+          "statement": "所得分布の上位ほど所得と消費の乖離は大きく、豊かな世帯は所得のより大きな割合を貯蓄する傾向がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty",
+              "quote": "The gap between income and consumption is also larger at the top of this distribution. Richer households tend to save a greater share of their income, so their consumption often understates the resources they have."
+            }
+          ]
+        },
+        {
+          "index": 75,
+          "statement": "国際ドルは、時代や地域による価格差を調整して作られた仮想的な通貨である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty",
+              "quote": "International dollars are a hypothetical currency that results from price adjustments across time and place."
+            }
+          ]
+        },
+        {
+          "index": 76,
+          "statement": "相対的貧困ラインは主に豊かな国で用いられ、OECDと欧州連合による貧困測定の主な方法となっている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty",
+              "quote": "Such lines are most commonly used in rich countries, and are the main way poverty is measured by the OECD and the European Union."
+            }
+          ]
+        },
+        {
+          "index": 77,
+          "statement": "中央値所得の50%を下回る人々の割合は、国連の持続可能な開発目標(SDGs)の指標の一つである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty",
+              "quote": "The share of people living below 50% of the median income is, for instance, one of the UN’s Sustainable Development Goal indicators."
+            }
+          ]
+        },
+        {
+          "index": 78,
+          "statement": "世界銀行は、絶対的要素と相対的要素を組み合わせた社会的貧困ラインを用いて世界の貧困推計も作成している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty",
+              "quote": "The World Bank also produces estimates of global poverty using a Societal Poverty Line that combines absolute and relative components."
+            }
+          ]
+        },
+        {
+          "index": 79,
+          "statement": "貧困下にある多くの人々は、市場での販売や労働による金銭的所得ではなく自給的農業に頼っている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty",
+              "quote": "Many people in poverty today, as in the past, rely on subsistence farming rather than a monetary income gained from selling goods or their labor on the market."
+            }
+          ]
+        },
+        {
+          "index": 80,
+          "statement": "統計担当者は自給的生産の金銭的価値を推計し、それを所得または消費支出に加算することで生活水準の比較を行っている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty",
+              "quote": "the statisticians who produce these figures estimate the monetary value of their home production and add it to their income or consumption expenditure"
+            }
+          ]
+        },
+        {
+          "index": 81,
+          "statement": "米国の上位0.1%が受け取った所得は、残りの上位1%(上位0.1%を除く部分)が受け取った所得の合計とほぼ同水準だった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "That’s almost the same as the rest of the richest 1% combined."
+            }
+          ]
+        },
+        {
+          "index": 82,
+          "statement": "富裕世帯ほど所得に占める貯蓄割合が大きい傾向があるため、消費で測った不平等は所得で測った不平等よりもやや低くなる傾向がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "Because richer households tend to save a larger share of their income, inequality tends to be somewhat lower when measured in terms of consumption."
+            }
+          ]
+        },
+        {
+          "index": 83,
+          "statement": "サーベイ調査では富裕層は人数が少なく回答を拒否したり所得を過少申告したりすることが多いため、最富裕層の所得は十分に捕捉されにくい。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "The very rich are few in number and often don’t respond, or underreport their incomes when they do."
+            }
+          ]
+        },
+        {
+          "index": 84,
+          "statement": "政治経済学者ガウタム・ナイアの研究によると、米国人は世界の所得中央値を実際のおよそ10倍過大評価する傾向がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "Americans overestimate the global median income by a factor of ten"
+            }
+          ]
+        },
+        {
+          "index": 85,
+          "statement": "2026年時点で、LISは52カ国を、世界銀行のPIPは172カ国を対象としている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "At the time of writing in 2026, LIS covers 52 countries and PIP 172."
+            }
+          ]
+        },
+        {
+          "index": 86,
+          "statement": "アフリカの大半の国について、WIDの所得不平等推計は世帯消費に関するサーベイデータに基づいている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "For most African countries, for example, the WID’s income inequality estimates are based on surveys of household consumption."
+            }
+          ]
+        },
+        {
+          "index": 87,
+          "statement": "中東の大半の国については所得サーベイデータが一部存在するが、レバノン1カ国で観測された税務データとサーベイデータの関係に基づいて調整されている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "For most Middle East countries, some income survey data is available, but it is adjusted based on the relationship between tax and survey data observed just in one country: Lebanon."
+            }
+          ]
+        },
+        {
+          "index": 88,
+          "statement": "ピケティ・サエズ・ズックマンのチームとオーテン・スプリンターのチームは、同じ米国データを用いながら、近年数十年間で(税引き後)不平等が上昇したかどうか、またどの程度上昇したかについて意見が対立している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "But they disagree about whether (post-tax) inequality has risen in recent decades, and by how much."
+            }
+          ]
+        },
+        {
+          "index": 89,
+          "statement": "近年、米国の国民所得のうち約40%は個人の税務データには表れておらず、この部分の配分方法の違いが不平等の推計結果の相違を生む一因となっている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "the large share (around 40% in recent years) of national income that doesn’t appear on individual tax data"
+            }
+          ]
+        },
+        {
+          "index": 90,
+          "statement": "未実現の資本利得を実現するとは、株式の売却などによって現金化することを意味する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "Realizing these gains means converting them into cash, for example, by selling shares."
+            }
+          ]
+        },
+        {
+          "index": 91,
+          "statement": "富裕層は利益をいつ実現するかを選択でき、納税を繰り延べるために内部留保という形で利益を得るインセンティブを持つことが多い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "The richest can choose when to realize profits and often have an incentive to take income in this form to defer paying taxes."
+            }
+          ]
+        },
+        {
+          "index": 92,
+          "statement": "LISの税引き前所得の指標は公的年金を除外し私的年金を含めるため、退職者の税引き前所得はその国の年金制度の組み立て方に左右される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "The before-tax measure in LIS excludes public pensions but includes private ones, meaning a retired person’s before-tax income depends on how their country organizes pensions."
+            }
+          ]
+        },
+        {
+          "index": 93,
+          "statement": "所得は消費に貯蓄を加えたものに等しい。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "income equals consumption plus savings"
+            }
+          ]
+        },
+        {
+          "index": 94,
+          "statement": "世界銀行の研究者による論文によれば、同一国について所得ベースのジニ係数は消費ベースのジニ係数より平均して約13%高い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "income-based Gini coefficients are about 13% higher than consumption-based ones for the same country."
+            }
+          ]
+        },
+        {
+          "index": 95,
+          "statement": "経済学者トニー・アトキンソンは、著書『Inequality: What Can Be Done?』の中でこの米英比較が示す意味に注目した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "Economist Tony Atkinson drew attention to what this comparison reveals in his book Inequality: What Can Be Done?"
+            }
+          ]
+        },
+        {
+          "index": 96,
+          "statement": "豊かな国と貧しい国では平均所得の水準が大きく異なるため、相対的貧困ラインが指す生活水準は国によって大きく異なる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty",
+              "quote": "since average incomes are so far apart — relative poverty lines relate to very different standards of living in rich and poor countries"
+            }
+          ]
+        },
+        {
+          "index": 97,
+          "statement": "経済学者ブランコ・ミラノヴィッチは、所得分配は選挙・各種社会集団によるロビー活動・社会的選好・歴史的経緯を通じた社会的選択の産物でもあるとの見解を述べた。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "Income distribution is viewed also as the product of social choices mediated through elections, lobbying of various social groups, societal preferences or historical development."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "government-spending",
+    "topicType": "concept",
+    "categoryLabel": "経済・ビジネス",
+    "title": "政府支出",
+    "summary": "政府支出とは、政府が公共財の提供や資源の再分配といった目的のために財・サービスを生産・購入する行為とその金額を指す。早期工業化国では19世紀末にGDPの約10%だった政府支出が21世紀には約50%に迫るまで拡大し、その増加分の多くは社会保障・保健・教育といった社会支出が占める。高所得国ほど政府支出はGDP比でも一人当たりでも大きく、支出の実行手段としては直接の公共部門だけでなく、公共調達・アウトソーシング・官民パートナーシップといった民間部門を介した形態も広く用いられている。",
+    "bodyMarkdown": "## 政府支出とは何か\n\n政府支出は、政府が財・サービスを生産あるいは購入することを通じて、公共財の提供や資源の再分配といった目的を達成するための手段である。支出は目的そのものではなく、政策を実現する経路として位置づけられる。 [1]\n\n支出には財源が要る。政府は政策の費用を、租税、開発援助などの形での贈与（移転）、そして債務——財政赤字を出すか、あるいは財政黒字を縮小すること——から賄っている。この三つのどれに依存するかは国によって異なり、財源調達の能力そのものが支出水準の制約になる。 [32]\n\n政府支出を国際比較する際には、どの政府レベルを数えているかが結果を左右する。国際通貨基金（IMF）の系列は、可能な場合には中央政府・州（地域）政府・地方政府のすべてを含む「一般政府」の支出を指す。これに対し中央政府だけの支出は、特に地方政府の規模が大きい連邦制国家において政府活動の全体像を歪めて示す可能性があり、そうした推計は注意して解釈する必要がある。 [20][47]\n\n支出の内訳を比較する際にも分類の枠組みが問題になる。保健・教育・社会保護といったカテゴリーは「政府機能分類（COFOG）」に基づいており、支出をその目的・機能ごとに分類する。一方、OECDの社会支出データベース（SOCX）による社会保護の系列は、COFOGでいう社会保護に加えて、COFOGでは別立てに分類される分野も含んでいる。同じ「社会保護」という語でも、どちらの枠組みかによって範囲が異なる。 [45][49]\n\n## 長期的な推移\n\n政府支出の水準は歴史的に一定だったわけではない。19世紀末のヨーロッパ諸国では、政府支出はGDPのおよそ10%にとどまっていた。21世紀には、多くのヨーロッパ諸国でこの数字がGDPの約50%に近づいている。一世紀あまりで、経済に占める政府の規模はおおよそ5倍になった計算になる。 [4][5]\n\nこの長期的な増加は、早期工業化国において政府が社会保障・教育・医療により多くの資源を支出するようになったことによる。初期の政府は、秩序の維持や財産権の保護といった基本的な機能を果たすのに足りるだけの支出しか行っていなかった。 [2][50]\n\n推移は連続的というより、性格の異なるいくつかの局面に分かれる。第一次世界大戦までの第一期、政府支出は概して低水準であり、その水準は秩序の維持や財産権の執行といった基本的機能を政府が担うのに十分な程度でしかなかった。 [8][16]\n\n1915年から1945年までの第二期には、特に二つの世界大戦に深く関与した国々で、政府支出は不安定になった。これらの国では、主に防衛支出と国民所得の変動により、GDPに対する政府支出の割合が急激に上下した。分母である国民所得が戦時に大きく動くため、比率としての支出はいっそう振れ幅を増した。 [9][17]\n\n1945年から1980年までの第三期、政府支出は特に急速に拡大した。この拡大は社会支出の増加によるもので、それは同時期の政府歳入の歴史的増加によって可能になった。1920年から1980年にかけての税収の増加は、特に教育と医療における公共サービスへの支出の増加を伴っている。 [10][14][18]\n\n1980年以降、早期工業化国における政府支出の伸びは鈍化し、相対的な水準が低下した例もある。ただし水準の違いはあるものの、これらすべての国で今日のGDPに対する政府支出の割合は第二次世界大戦前より高い。伸びの鈍化は、拡大以前の水準への回帰を意味してはいない。 [11][19]\n\n## 所得水準による違い\n\n政府支出の規模は国の所得水準と強く結びついている。低所得国と比べて、高所得国の政府支出は一人当たりでもGDP比でもはるかに大きく、社会支出により重点を置く傾向がある。 [3]\n\n差の大きさは具体的な国の対比に表れる。フランスのような国は、エチオピアのような国の数倍の政府支出（対GDP比）を行っている。一人当たりで見れば、メキシコの政府支出はノルウェーのような国と比べてわずかである。GDP比と一人当たり額は別々の尺度であり、両方で差が開くとき、絶対額での隔たりは比率が示すよりさらに大きくなる。 [21][34]\n\n高所得国ほどGDPに対する政府支出の割合が大きいという正の相関がみられる。この相関は、高所得国ほど公的歳入を調達する能力が高く、それが効率的な徴税制度を実施する能力に関連していることを反映している可能性が高い。ただしこれは相関から示唆される解釈であり、因果の方向が確定しているわけではない。 [30][48]\n\n## 支出の内訳\n\n支出の中身は、政府が何を優先しているかを示す。OECD諸国では平均して、総支出の約半分が社会保護と保健に充てられている。20世紀後半の社会支出の急激な増加は、主に医療と教育への公的資金の拡大によってもたらされたものである。 [6][12]\n\n「社会支出」は「社会保護」より広い概念で、保健サービス、積極的労働市場政策、就学前教育などへの公的支出を含む。社会支出の配分では、通常、高齢者向け支出（年金や高齢者介護）が最大の割合を占め、次いで保健、そして家族関連または障害関連給付が3番目に多い。これらの優先順位の相対的な順位は1980年以降ほとんど変わっていないが、多くの国は現在、それぞれの分野によりGDPの大きな割合を割り当てている。順位が固定されたまま、全体の規模だけが上がってきたことになる。 [23][24][35]\n\n分野ごとの水準は国によって大きく開く。国によっては[教育支出](/hubpedia/education)が他国の2〜3倍に達することがある。政府による移転支出には、社会保険からの現金給付・現物給付に加えて、その他の政府支援プログラムによる給付が含まれる。 [22][46]\n\n人件費の比重も地域によって異なる。ヨーロッパ全体では、政府支出のうち公務員給与に充てられる割合は5%から20%の範囲にある。対照的に、アフリカの大半では、この割合は30%から50%の範囲にある。給与の比重が高いことは、給付やインフラなど他の用途に回る余地がそれだけ小さいことを意味する。 [13][25]\n\n対外援助は支出の一部として国際的な広がりを持つ。1980年から1995年にかけて、対GDP比で見た対外援助（政府開発援助）の割合は増加した。1995年以降、対GDP比で見た政府開発援助（ODA）純額の割合は低下している。 [52][53]\n\n## 民間部門を通じた支出\n\n政府支出は必ずしも政府自身が生産することを意味しない。世界各国の政府は、財・サービスの生産・管理をしばしば民間部門に依存している。政府が選定した企業から工事・財・サービスを購入するプロセスは、しばしば「公共調達」と呼ばれる。 [26][27]\n\n公共調達のうち総固定資本形成（道路の新設など）に該当しない部分は、一般に「アウトソーシング」または「業務委託」と呼ばれる。この形態の調達は短期契約に依拠することが多い。OECDの定義によれば、アウトソーシングには政府が用いる中間財（情報技術サービスの調達など）と、政府が資金負担する最終財・サービスの外部委託（市場供給者を通じた現物社会移転など）の両方が含まれる。 [36][37][38]\n\nより長い期間にわたる形態もある。「プライベート・ファイナンス・イニシアティブ（PFI）」という用語は、政府が民間企業（またはコンソーシアム）を選び、公共インフラを建設・運営し、時には資金調達も行わせる公共調達戦略を指す。これらのPFI事業は通常、長期契約の形をとる。「官民パートナーシップ（PPP）」という用語は、公共部門が重要な関与を保持するPFIを指すのに用いられる。 [39][40][41]\n\n官民パートナーシップは、政府がインフラ事業の資金調達・設計・建設・運営を行うための手段として一般的になっている。過去20年間で、低・中所得国における官民パートナーシップは顕著に増加した。2005年から2010年の間だけで、低・中所得国における官民パートナーシップ事業の総額は2倍以上になった。 [7][15][29]\n\nこの増加の像は集計の範囲に依存する。インフラ分野の官民パートナーシップの推移は、世界銀行のPPIデータベースに基づき、137の低・中所得国のプロジェクトを集計したものである。分野別・地域別の推計では、特に南アジアとラテンアメリカの電力・道路事業がこの集計傾向の主な牽引役だったことが示唆されている。全体の増加は世界一様の現象というより、特定の地域と分野に強く引かれた動きだったことになる。 [28][42]\n\n## 再分配効果\n\n支出の効果を測るには、税・移転の前後で所得を比べる必要がある。「税引き前」所得は賃金・給与、自営業所得、資本・財産所得からなる市場所得を指し、「税・移転後」所得は市場所得に社会保障・現金給付・民間移転を加え所得税を差し引いた可処分所得を指す。この可処分所得が、家計が実際に使える所得にあたる。 [44][51]\n\n縮小の幅は対象国の範囲によって変わる。対象となったOECD諸国では、税と移転支出によって[所得格差](/hubpedia/economic-inequality)が平均で約3分の1（ジニ係数にして約0.15ポイント）縮小している。対象を45カ国全体に広げると、税と移転により所得格差は平均で約4分の1縮小するが、国によるばらつきは大きい。 [31][33]\n\n一般に、税と移転による再分配の効果が最も大きい国は、税引き後の格差が最も小さい国である傾向がある。ただしこれは各国の分布から観察される傾向であり、再分配の規模だけが税引き後の格差水準を決めていることを示すものではない。 [43]",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/government-spending",
+        "title": "政府支出",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on government-spending. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/taxation",
+        "title": "taxation",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "The revenue that funds spending. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Government spending",
+        "summary": "Government spending refers to the act, and the amount, of a government producing or purchasing goods and services for purposes such as providing public goods and redistributing resources. In early-industrialized countries, government spending grew from roughly 10% of GDP at the end of the 19th century to close to about 50% in the 21st century, and much of that increase consists of social spending such as social security, health, and education. Higher-income countries spend more both as a share of GDP and per capita, and spending is carried out not only through the public sector directly but also through private-sector arrangements such as public procurement, outsourcing, and public-private partnerships.",
+        "bodyMarkdown": "## What government spending is\n\nGovernment spending is the means by which a government achieves purposes such as providing public goods and redistributing resources, through producing or purchasing goods and services. Spending is not an end in itself; it is positioned as the route through which policy is realized. [1]\n\nSpending requires financing. Governments fund the cost of their policies through taxation, grants (transfers) in forms such as development assistance, and debt — running a fiscal deficit, or reducing a fiscal surplus. Which of these three a country relies on varies, and the very capacity to raise financing constrains the level of spending. [32]\n\nWhen comparing government spending internationally, which level of government is being counted shapes the result. The International Monetary Fund (IMF) series refers, where possible, to the spending of \"general government,\" which includes central, state (regional), and local government. Spending by central government alone, by contrast, may give a distorted picture of overall government activity, particularly in federal countries where subnational governments are large; such estimates need to be interpreted with care. [20][47]\n\nThe classification framework also matters when comparing the composition of spending. Categories such as health, education, and social protection are based on the Classification of the Functions of Government (COFOG), which classifies spending by its purpose or function. The OECD Social Expenditure Database (SOCX) series for social protection, by contrast, covers social protection as defined in COFOG plus areas that COFOG classifies separately. The same term \"social protection\" therefore covers a different scope depending on which framework is used. [45][49]\n\n## Long-run trends\n\nThe level of government spending has not been historically constant. In European countries at the end of the 19th century, government spending stood at only about 10% of GDP. In the 21st century, this figure approaches about 50% of GDP in many European countries. Over little more than a century, the size of government relative to the economy has grown roughly fivefold. [4][5]\n\nThis long-run increase reflects governments in early-industrialized countries devoting more resources to social security, education, and health care. Early governments spent only enough to carry out basic functions such as maintaining order and protecting property rights. [2][50]\n\nThe trend is less a continuous rise than a sequence of phases with different characters. In the first period, up to the First World War, government spending was generally low — only enough for governments to carry out basic functions such as maintaining order and enforcing property rights. [8][16]\n\nIn the second period, from 1915 to 1945, government spending became unstable, particularly in countries deeply involved in the two world wars. In these countries, government spending as a share of GDP rose and fell sharply, driven mainly by defense spending and fluctuations in national income. Because the denominator — national income — moved substantially in wartime, spending as a ratio swung all the more widely. [9][17]\n\nIn the third period, from 1945 to 1980, government spending expanded especially rapidly. This expansion was driven by increases in social spending, which were made possible by the historic increase in government revenue over the same period. The rise in tax revenue between 1920 and 1980 was accompanied by increased spending on public services, particularly education and health care. [10][14][18]\n\nSince 1980, growth in government spending in early-industrialized countries has slowed, and in some cases relative levels have declined. Yet despite differences in level, government spending as a share of GDP is today higher in all of these countries than before the Second World War. The slowdown in growth does not mean a return to pre-expansion levels. [11][19]\n\n## Differences by income level\n\nThe scale of government spending is strongly linked to a country's income level. Compared with low-income countries, government spending in high-income countries is far larger both per capita and as a share of GDP, and tends to place greater weight on social spending. [3]\n\nThe size of the gap shows up in specific country comparisons. A country such as France spends several times as much (as a share of GDP) as a country such as Ethiopia. In per capita terms, government spending in Mexico is small compared with a country such as Norway. Share of GDP and per capita amounts are separate measures, and when the gap widens on both, the divide in absolute terms is even larger than the ratios suggest. [21][34]\n\nThere is a positive correlation whereby higher-income countries have larger government spending as a share of GDP. This correlation likely reflects the greater capacity of higher-income countries to raise public revenue, which is related to their capacity to implement efficient tax collection systems. This is, however, an interpretation suggested by correlation; the direction of causation is not established. [30][48]\n\n## The composition of spending\n\nWhat spending goes toward shows what governments prioritize. In OECD countries, about half of total spending on average goes to social protection and health. The sharp increase in social spending in the second half of the 20th century was driven mainly by the expansion of public funding for health care and education. [6][12]\n\n\"Social spending\" is a broader concept than \"social protection,\" and includes public spending on health services, active labor market policies, and pre-primary education. Within social spending, spending on older people (pensions and elder care) usually accounts for the largest share, followed by health, with family-related or disability-related benefits third. The relative ranking of these priorities has changed little since 1980, but many countries now allocate a larger share of GDP to each area. The ranking has stayed fixed while only the overall scale has risen. [23][24][35]\n\nLevels by area vary widely across countries. In some countries, [education spending](/hubpedia/education) reaches two to three times that of others. Government transfer spending includes cash and in-kind benefits from social insurance as well as benefits from other government support programs. [22][46]\n\nThe weight of personnel costs also differs by region. Across Europe, the share of government spending devoted to public employee wages ranges from 5% to 20%. By contrast, across most of Africa this share ranges from 30% to 50%. A high wage share means correspondingly less room for other uses such as benefits and infrastructure. [13][25]\n\nForeign aid gives spending an international reach. Between 1980 and 1995, foreign aid (official development assistance) as a share of GDP increased. Since 1995, net official development assistance (ODA) as a share of GDP has declined. [52][53]\n\n## Spending through the private sector\n\nGovernment spending does not necessarily mean that the government itself produces. Governments around the world often rely on the private sector to produce and manage goods and services. The process by which governments purchase works, goods, and services from firms they select is often called \"public procurement.\" [26][27]\n\nThe portion of public procurement that does not constitute gross fixed capital formation (such as building new roads) is generally called \"outsourcing\" or \"contracting out.\" This form of procurement often relies on short-term contracts. Under the OECD definition, outsourcing covers both intermediate goods used by government (such as procuring information technology services) and government-financed final goods and services contracted out (such as social transfers in kind provided through market producers). [36][37][38]\n\nThere are also forms that extend over longer periods. The term \"private finance initiative (PFI)\" refers to a public procurement strategy in which the government selects a private firm (or consortium) to build and operate, and sometimes finance, public infrastructure. These PFI schemes usually take the form of long-term contracts. The term \"public-private partnership (PPP)\" is used for PFIs in which the public sector retains significant involvement. [39][40][41]\n\nPublic-private partnerships have become a common means for governments to finance, design, build, and operate infrastructure projects. Over the past two decades, public-private partnerships in low- and middle-income countries have increased markedly. Between 2005 and 2010 alone, the total value of public-private partnership projects in low- and middle-income countries more than doubled. [7][15][29]\n\nThe picture of this increase depends on the scope of aggregation. Trends in infrastructure public-private partnerships are based on the World Bank's PPI database, aggregating projects across 137 low- and middle-income countries. Estimates by sector and region suggest that electricity and road projects, particularly in South Asia and Latin America, were the main drivers of this aggregate trend. The overall increase was thus less a uniform global phenomenon than a movement pulled strongly by particular regions and sectors. [28][42]\n\n## Redistributive effects\n\nMeasuring the effect of spending requires comparing incomes before and after taxes and transfers. \"Pre-tax\" income refers to market income, consisting of wages and salaries, self-employment income, and capital and property income, while \"post-tax, post-transfer\" income refers to disposable income — market income plus social security, cash benefits, and private transfers, less income taxes. This disposable income is what households actually have available to spend. [44][51]\n\nThe size of the reduction varies with the set of countries covered. In the OECD countries covered, taxes and transfer spending reduce [income inequality](/hubpedia/economic-inequality) by about one-third on average (about 0.15 points on the Gini coefficient). Widening the coverage to all 45 countries, taxes and transfers reduce income inequality by about one-quarter on average, but with wide variation across countries. [31][33]\n\nIn general, the countries where taxes and transfers have the largest redistributive effect tend to be the countries with the lowest post-tax inequality. This, however, is a tendency observed across country distributions, and does not show that the scale of redistribution alone determines the level of post-tax inequality. [43]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T10:40:11.080Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "公共支出により、政府は公共財の提供や資源の再分配といった目的を達成するために財・サービスを生産・購入することができる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "Public spending enables governments to produce and purchase goods and services in order to fulfill their objectives — such as the provision of public goods or the redistribution of resources."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "早期工業化国では、政府が社会保障・教育・医療により多くの資源を支出するようになったことで、20世紀に政府支出が著しく増加した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "In early-industrialized countries, specifically, the historical data shows that public spending increased remarkably in the 20th century, as governments started spending more resources on social protection, education, and healthcare."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "低所得国と比べて、高所得国の政府支出は一人当たりでもGDP比でもはるかに大きく、社会支出により重点を置く傾向がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "Relative to low-income countries, government spending in high-income countries tends to be much larger (both in per capita terms and as a share of GDP), and it also tends to be more focused on social spending."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "19世紀末、ヨーロッパ諸国の政府支出はGDPの約10%だった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "At the end of the 19th century, governments in European countries spent around 10% of their GDP."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "21世紀には、多くのヨーロッパ諸国でこの数字はGDPの約50%に近づいている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "In the 21st century, this figure is closer to 50% in many European countries."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "OECD諸国では平均して、総支出の約半分が社会保護と保健に充てられている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "On average, in OECD countries, about half of total spending goes to social protection and health."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "2005年から2010年の間だけで、低・中所得国における官民パートナーシップ事業の総額は2倍以上になった。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "In the period 2005–2010 alone, the total value of these projects in low and middle-income countries more than doubled."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "第一次世界大戦までの最初の期間、政府支出は概して低水準だった。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "In the first period, until the First World War, spending was generally low."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "1915年から1945年までの第二の期間、特に第一次・第二次世界大戦により深く関与した国々で、政府支出は概して不安定だった。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "In the second period, between 1915 and 1945, public spending was generally volatile, particularly for countries that were more heavily involved in the First and Second World Wars."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "1945年から1980年までの第三の期間、政府支出は特に急速に拡大した。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "In the third period, between 1945 and 1980, public spending grew particularly fast."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "1980年以降、早期工業化国における政府支出の伸びは鈍化しており、相対的な水準が低下した例もある。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "Since 1980, the growth of government spending has been slowing down in early-industrialized countries — and in some cases, it has gone down in relative terms."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "20世紀後半の社会支出の急激な増加は、主に医療と教育への公的資金の拡大によってもたらされた。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "The steep growth of social spending in the second half of the 20th century was largely driven by the expansion of public funding for healthcare and education."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "ヨーロッパ全体では、政府支出のうち公務員給与に充てられる割合は5%から20%の範囲にある。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "Throughout Europe, the share of government spending that is devoted to the compensation of government employees ranges between 5% and 20%."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "1920年から1980年にかけての税収増加は、特に教育と医療における公共サービスへの政府支出の増加を伴った。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/taxation",
+              "quote": "These increases in taxation went together with more government expenditure on public services, particularly education and healthcare"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "官民パートナーシップは、政府がインフラ事業の資金調達・設計・建設・運営を行うための手段として一般的になっている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "Public-private partnerships, in particular, have become a popular mechanism for governments to finance, design, build, and operate infrastructure projects."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "これらの低水準の政府支出は、秩序の維持や財産権の執行といった基本的機能を政府が担うのに十分な程度でしかなかった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "These low levels of public spending were just enough for governments to be concerned with basic functions, such as maintaining order and enforcing property rights."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "これらの国では、主に防衛支出と国民所得の変動により、GDPに対する政府支出の割合が急激に上下した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "Government spending as a share of national output went sharply up and down in these countries, mainly because of changes in defense spending and national incomes."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "この拡大は社会支出の増加によるもので、それは同時期の政府歳入の歴史的増加によって可能になった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "this was the result of growth in social spending, which was largely made possible by historical increases in government revenues over the same period."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "水準の違いはあるものの、これらすべての国で今日のGDPに対する政府支出の割合は第二次世界大戦前より高い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "However, in spite of differences in levels, in all these countries public spending as a share of GDP is higher today than before the Second World War."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "IMFのこれらの数値は、可能な場合には中央・州(地域)・地方のすべての政府レベルを含む「一般政府」の支出を指す。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "These figures from the International Monetary Fund (IMF) refer to “general government” spending, when available. This includes all levels of government: central, state or regional, and local."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "フランスのような国はエチオピアのような国の数倍の政府支出（対GDP比）を行っている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "Countries like France spend multiple times as much as countries like Ethiopia."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "国によっては教育支出が他国の2〜3倍に達することがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "education spending in some countries is twice or three times higher than in others."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "「社会支出」は「社会保護」より広い概念で、保健サービス、積極的労働市場政策、就学前教育などへの公的支出を含む。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "Social spending here is a broader concept than social protection, as shown in the chart above. It includes public spending on health services, active labor market programs, pre-primary education, and a few other areas."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "社会支出の配分では、通常、高齢者向け支出（年金や高齢者介護）が最大の割合を占め、次いで保健、そして家族関連または障害関連給付が3番目に多い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "Spending on old age (in the form of pensions and elderly care) typically receives the largest allocation of social spending, followed by health, with either family or incapacity-related benefits coming in third."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "対照的に、アフリカの大半では、この割合は30%から50%の範囲にある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "In contrast, throughout most of Africa, the available figures range between 30% and 50%."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "世界各国の政府は、財・サービスの生産・管理をしばしば民間部門に依存している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "Governments around the world often rely on the private sector to produce and manage goods and services."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "政府が選定した企業から工事・財・サービスを購入するプロセスは、しばしば「公共調達」と呼ばれる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "The process through which governments purchase works, goods, and services from companies, which they have selected for this purpose, is often referred to as “public procurement.”"
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "世界銀行のPPIデータベースに基づくインフラ分野の官民パートナーシップの推移は、137の低・中所得国のプロジェクトを集計したものである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "The chart below, from the World Bank's PPID, shows the evolution of public-private partnerships in infrastructure (PPI), aggregating projects across 137 low and middle-income countries."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "過去20年間で、低・中所得国における官民パートナーシップは顕著に増加した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "the last two decades have seen a marked increase in public-private partnerships in low and middle-income countries."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "高所得国ほどGDPに対する政府支出の割合が大きいという正の相関がみられる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "We can see that there is a positive correlation: high-income countries tend to have larger government spending as a share of their GDP."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "対象となった45カ国全体でみると、税と移転により所得格差は平均で約4分の1縮小するが、国によるばらつきは大きい。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "The data shows that across the 45 countries covered, taxes and transfers lower income inequality by about one-quarter on average, though there is considerable variation between countries."
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "政府は政策の財源を、租税、贈与（開発援助などの形での移転）、および債務（財政赤字または財政黒字の縮小）から賄っている。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/taxation",
+              "quote": "governments finance policy from taxes, grants (typically in the form of 'development assistance' transfers), and debt (more precisely budget deficits, or reductions of budget surpluses)"
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "対象となったOECD諸国では、税と移転支出によって所得格差が平均で約3分の1（ジニ係数にして約0.15ポイント）縮小している。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/taxation",
+              "quote": "taxes and transfers lower income inequality by around one-third on average (equivalent to around 0.15 Gini points)"
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "メキシコの一人当たり政府支出は、ノルウェーのような国と比べてわずかである。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "In Mexico, the government spends a fraction per person than countries like Norway."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "これらの優先順位の相対的な順位は1980年以降ほとんど変わっていないが、多くの国は現在、それぞれの分野によりGDPの大きな割合を割り当てている。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "While the relative ranking of these priorities has remained largely unchanged since 1980, most countries now allocate a larger share of their GDP to each."
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "公共調達のうち総固定資本形成（道路の新設など）に該当しない部分は、一般に「アウトソーシング」または「業務委託」と呼ばれる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "Generally speaking, the part of public procurement that does not fall within the category of gross fixed capital formation (e.g., building new roads) is referred to as “outsourcing” or “contracting out.”"
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "このアウトソーシング形態の調達は短期契約に依拠することが多い。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "This form of procurement often relies on short-term contracts."
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "OECDの定義によれば、アウトソーシングには政府が用いる中間財（情報技術サービスの調達など）と、政府が資金負担する最終財・サービスの外部委託（市場供給者を通じた現物社会移転など）の両方が含まれる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "According to the definitions used by the OECD, outsourcing includes both intermediate goods used by governments (such as procurement of information technology services), or the outsourcing of final goods and services financed by governments (such as social transfers in kind via market producers paid for by governments)."
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "「プライベート・ファイナンス・イニシアティブ（PFI）」という用語は、政府が民間企業（またはコンソーシアム）を選び、公共インフラを建設・運営し、時には資金調達も行わせる公共調達戦略を指すのに用いられる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "The term “private finance initiative” is often used to denote a public procurement strategy whereby governments choose a private firm (or consortium) to construct and operate — and sometimes also finance — public infrastructure."
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "これらのPFI事業は通常、長期契約の形をとる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "These initiatives typically take the form of long-term contracts."
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "「官民パートナーシップ（PPP）」という用語は、公共部門が重要な関与を保持するPFIを指すのに用いられる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "The term “public-private partnerships” is often used to denote those private finance initiatives where the public sector retains an important participation."
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "分野別・地域別の推計では、特に南アジアとラテンアメリカの電力・道路事業がこの集計傾向の主な牽引役だったことが示唆されている。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "The estimates by sectors and world regions suggest that electricity and roads, specifically in South Asia and Latin America, have been the key drivers of these aggregate trends."
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "一般に、税と移転による再分配の効果が最も大きい国は、税引き後の格差が最も小さい国である傾向がある。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "Generally speaking, countries that achieve the largest redistribution through taxes and transfers tend to be those with the lowest after-tax inequality."
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "「税引き前」所得は賃金・給与、自営業所得、資本・財産所得からなる市場所得を指し、「税・移転後」所得は市場所得に社会保障・現金給付・民間移転を加え所得税を差し引いた可処分所得を指す。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "Income “before taxes” corresponds to what is usually known as market income (wages and salaries, self-employment income, capital, and property income), while income after taxes and transfers corresponds to disposable income (market income, plus social security, cash transfers, and private transfers, minus income taxes)."
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "statement": "これらの支出カテゴリーは「政府機能分類（COFOG）」に基づいており、保健・教育・社会保護など支出の目的・機能ごとに支出を分類する。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "These categories are based on the Classification of the Functions of Government (COFOG), which groups spending by the purpose or function of the expenditure, such as health, education, and social protection."
+            }
+          ]
+        },
+        {
+          "index": 46,
+          "statement": "政府による移転支出には、社会保険からの現金給付・現物給付に加えて、その他の政府支援プログラムによる給付が含まれる。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/taxation",
+              "quote": "government transfers (specifically cash payments and in-kind benefits from social insurance and other government assistance programs)"
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "statement": "中央政府支出は、特に大規模な地方政府を持つ連邦制国家において政府支出全体の実態を歪めて示す可能性があるため、これらの推計は注意して解釈する必要がある。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "These estimates have to be interpreted with caution, since central government spending can provide a somewhat distorted picture of total government spending, particularly in federal countries with large sub-national governments."
+            }
+          ]
+        },
+        {
+          "index": 48,
+          "statement": "この相関は、高所得国ほど公的歳入を調達する能力が高く、それが効率的な徴税制度を実施する能力に関連していることを反映している可能性が高い。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "This correlation likely reflects the fact that high-income countries tend to have more capacity to raise public revenues, which in turn relates to their capacity to implement efficient tax collection systems."
+            }
+          ]
+        },
+        {
+          "index": 49,
+          "statement": "社会保護の支出データはOECDの社会支出データベース（SOCX）に基づいており、COFOGで定義される社会保護への支出に加え、COFOGが別立てで分類する他の分野も含んでいる。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/government-spending",
+              "quote": "This data comes from the OECD Social Expenditure Database (SOCX). It includes what governments spend on social protection — as defined in the Classification of the Functions of Government (COFOG) — but also covers other areas that COFOG lists separately."
+            }
+          ]
+        },
+        {
+          "index": 50,
+          "statement": "初期の政府は、秩序の維持や財産権の保護といった基本的な機能を果たすのに足りるだけの支出しか行っていなかった。",
+          "confidence": 0.7,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/taxation",
+              "quote": "just enough for them to fulfill basic functions, such as maintaining order and enforcing property rights"
+            }
+          ]
+        },
+        {
+          "index": 51,
+          "statement": "税引き後の可処分所得は、市場所得に社会保障給付・現金移転・民間からの移転を加え、所得税を差し引いたものである。",
+          "confidence": 0.7,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/taxation",
+              "quote": "income after taxes and transfers corresponds to disposable income (market income, plus social security, cash transfers and private transfers, minus income taxes)"
+            }
+          ]
+        },
+        {
+          "index": 52,
+          "statement": "1980年から1995年にかけて、対GDP比で見た対外援助（政府開発援助）の割合は増加した。",
+          "confidence": 0.7,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/taxation",
+              "quote": "between 1980 and 1995, when foreign aid as a share of GDP was increasing"
+            }
+          ]
+        },
+        {
+          "index": 53,
+          "statement": "1995年以降、対GDP比で見た政府開発援助（ODA）純額の割合は低下した。",
+          "confidence": 0.7,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/taxation",
+              "quote": "Post-1995, a decline in the share of total net ODA to GDP was accompanied by higher tax revenues as a percentage of GDP."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,2106 @@
+[
+  {
+    "slug": "tetanus",
+    "topicType": "concept",
+    "categoryLabel": "医学・健康",
+    "title": "破傷風",
+    "summary": "破傷風は、土壌などに存在する細菌クロストリジウム・テタニ（Clostridium tetani）が傷口から侵入し、産生する毒素が運動神経の働きを妨げることで起こる疾患である。筋肉のこわばりや牙関緊急、痙攣、呼吸困難を引き起こし、アフリカでは発症した成人の約45%が死亡すると推定されている。DTPワクチンによる予防が可能で、年間死亡者数は1990年代の数十万人規模から2010年代には約5万人まで減少したが、人から人へ伝播しないかわりに原因菌が土壌中に残り続けるため、根絶はできないと考えられている。",
+    "bodyMarkdown": "## 病原体と感染の経路\n\n破傷風は、クロストリジウム・テタニ（Clostridium tetani）という細菌によって引き起こされる疾患である。この細菌は人や動物の糞便、土壌、路上の埃の中に広く存在し、傷口から体内へ入り込む。土のついた傷から感染しうる一方、感染者から別の人へ直接病気が伝わることはない。この性質のため、破傷風は感染性はあるが伝染性・伝播性のある疾患ではないと位置づけられる。 [1][5][6][14][15]\n\n感染から1〜2週間ほどで、細菌は運動を司る神経に作用する毒素を放出する。この毒素は神経細胞からのシグナル伝達物質GABAの放出を妨げ、神経が正常に機能しなくなる。結果として筋肉のこわばり、顎が麻痺して口を開けられなくなる「牙関緊急（lockjaw）」、痙攣、背部痛、呼吸困難が現れ、最終的には麻痺や呼吸困難を経て死に至ることがある。 [3][7][8][44]\n\n破傷風に感染しても免疫は獲得されない。そのため一度発症して生き延びた人であっても、あらためてワクチン接種を受ける必要がある。治療としては、抗生物質、細菌毒素に対する抗毒素、痙攣を抑える薬の投与が行われる。 [26][27]\n\n## 死亡数と地理的な分布\n\n破傷風による死亡は大きく減少してきた。1990年代には毎年数十万人が破傷風で死亡していたと推定されるが、2010年代には年間約5万人まで下がった。それでも現在なお年間約5万人が破傷風で死亡している。過去も現在も、その死亡の大半は5歳未満の子どもで発生している。 [4][18][19][20]\n\n致死率は地域によって大きく異なる。アフリカでは破傷風を発症した成人の約45%がその後死亡すると推定されている。新規症例の大半、そして死亡の大半は、南アジアとサハラ以南アフリカで発生している。破傷風は衛生状態が悪く予防接種率が低い地域で特に多い。 [12][13][21][22]\n\n感染率の低下は数字にはっきり表れている。1990年代にはアフリカとアジアの多くの国で感染率が年間人口10万人当たり5人を超え、インド、パキスタン、チャド、ソマリアなどでは10万人当たり20人を上回っていた。2019年までに多くの国で感染率が低下し、10万人当たり5人を超える国は世界でごくわずかとなった。南アジアの新規感染者数は、1990年の約40万件から2019年には約3万件へと、約30年間で大幅に減少している。 [23][33][34][35]\n\n一方、予防接種プログラムが充実している国では破傷風はほぼ根絶されている。中欧のような高所得国・地域では子どもの破傷風は非常にまれで、その主な理由は非常に効果的な小児用ワクチンが利用できることにある。高所得国のうち衛生状態が良く予防接種プログラムが充実していた国では、1980年以前の時点ですでに症例数が減少していた。 [25][31][32][36]\n\n## 母子破傷風\n\n新生児とその母親に影響する破傷風は「母子破傷風（Maternal and Neonatal Tetanus, MNT）」と呼ばれ、破傷風が特に強く影響する集団として区別されている。破傷風菌の芽胞は環境中に存在するため、分娩環境が非衛生的な場合、母親は分娩時の裂傷や傷から感染し、新生児は臍帯断端から感染しうる。この経路を断つには清潔な分娩サービスが不可欠である。 [2][10][39][40]\n\n母子への予防接種は母子破傷風を防ぐ。MNTの大半は予防接種率が不十分な地域で発生しており、その症例は医療サービスへのアクセスの不平等と関連している。 [38][41]\n\n## ワクチンと予防接種\n\n破傷風は予防接種で予防できる。現在用いられているDTPワクチンは、破傷風だけでなくジフテリアと百日咳も同時に予防する。破傷風のワクチンは1980年より前に認可されている。 [9][24][47]\n\n予防接種が広がるにつれて症例数は減少し、破傷風による影響はワクチン、とりわけDTPワクチンの使用によって時間とともに大きく減少してきた。ジフテリア、破傷風、麻疹などいくつかの疾患による死亡はワクチンの普及により劇的に減少しており、過去50年間に予防接種によって救われた命のうち、破傷風ワクチンは麻疹に次ぐ主要な貢献要因の一つとされている。 [11][37][45][46]\n\n## 根絶目標と到達可能な範囲\n\n1988年、WHOは1995年までに新生児破傷風を根絶するという目標を宣言した。進捗が遅かったため目標年は2000年、次いで2005年へと延期され、最終的には具体的な目標年が設定されなくなった。2010年にはキワニスとユニセフが提携してELIMINATEプロジェクトを結成し、残る39か国での根絶を目指した。2020年時点では47か国が母子破傷風を根絶し、12か国が未達成のまま残っている。 [28][29][42][43]\n\nここで「根絶」の意味には注意が必要である。将来ある時点で症例数がゼロになったとしても、破傷風が根絶されるわけではない。原因菌が土壌中に存在し続ける以上、未接種者はいつでも再感染しうるためである。破傷風を抑え込んだ状態を保つには、継続的な予防接種の取り組みが欠かせない。 [16][17][30]\n\n## 関連記事\n\n- [予防接種](/hubpedia/vaccination)\n- [疾病の根絶](/hubpedia/disease-eradication)\n- [乳幼児死亡率](/hubpedia/child-mortality)\n- [国際保健](/hubpedia/global-health)\n- [衛生設備](/hubpedia/sanitation)\n- 衛生行動\n- [死因](/hubpedia/cause-of-death)\n- [医療財源](/hubpedia/healthcare-financing)",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/tetanus",
+        "title": "破傷風",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on tetanus. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/vaccination",
+        "title": "vaccination",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Vaccination that prevents tetanus. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Tetanus",
+        "summary": "Tetanus is a disease caused when the bacterium Clostridium tetani, found in soil and elsewhere, enters the body through a wound and produces a toxin that disrupts the functioning of motor nerves. It causes muscle stiffness, lockjaw, spasms, and difficulty breathing, and an estimated 45% of adults in Africa who develop the disease die from it. It can be prevented with the DTP vaccine, and annual deaths fell from the hundreds of thousands in the 1990s to about 50,000 in the 2010s. However, because the disease does not spread from person to person but the causative bacterium persists in soil, eradication is considered impossible.",
+        "bodyMarkdown": "## The pathogen and route of infection\n\nTetanus is a disease caused by a bacterium called Clostridium tetani. This bacterium is widely present in human and animal feces, in soil, and in street dust, and it enters the body through wounds. While infection can occur through a wound contaminated with soil, the disease is never transmitted directly from an infected person to another person. Because of this property, tetanus is classified as an infectious disease but not a contagious or communicable one. [1][5][6][14][15]\n\nAbout one to two weeks after infection, the bacterium releases a toxin that acts on the nerves governing movement. This toxin prevents nerve cells from releasing the signaling substance GABA, so the nerves stop functioning normally. The result is muscle stiffness, \"lockjaw\" in which the jaw becomes paralyzed and the mouth cannot be opened, spasms, back pain, and difficulty breathing, and ultimately paralysis and respiratory difficulty can lead to death. [3][7][8][44]\n\nContracting tetanus does not confer immunity. For that reason, even someone who has developed the disease and survived needs to be vaccinated afterward. Treatment consists of administering antibiotics, an antitoxin against the bacterial toxin, and drugs to control spasms. [26][27]\n\n## Death toll and geographic distribution\n\nDeaths from tetanus have fallen sharply. In the 1990s, several hundred thousand people were estimated to die of tetanus each year, but by the 2010s the figure had dropped to about 50,000 annually. Even so, about 50,000 people still die of tetanus every year. Then as now, the majority of these deaths occur in children under five. [4][18][19][20]\n\nThe fatality rate varies greatly by region. In Africa, an estimated 45% of adults who develop tetanus subsequently die. The majority of new cases, and the majority of deaths, occur in South Asia and sub-Saharan Africa. Tetanus is especially common in areas with poor sanitation and low vaccination coverage. [12][13][21][22]\n\nThe decline in infection rates is clearly visible in the numbers. In the 1990s, infection rates in many countries in Africa and Asia exceeded 5 cases per 100,000 people per year, and in India, Pakistan, Chad, Somalia, and elsewhere they exceeded 20 per 100,000. By 2019, rates had fallen in many countries, and only a very small number of countries worldwide exceeded 5 per 100,000. New infections in South Asia fell substantially over roughly three decades, from about 400,000 cases in 1990 to about 30,000 in 2019. [23][33][34][35]\n\nMeanwhile, tetanus has been all but eradicated in countries with well-developed immunization programs. In high-income countries and regions such as Central Europe, childhood tetanus is very rare, chiefly because a highly effective pediatric vaccine is available. Among high-income countries, those with good sanitation and well-developed immunization programs had already seen case numbers decline before 1980. [25][31][32][36]\n\n## Maternal and neonatal tetanus\n\nTetanus affecting newborns and their mothers is called \"Maternal and Neonatal Tetanus (MNT)\" and is distinguished as a population particularly hard hit by the disease. Because tetanus spores are present in the environment, when the birth setting is unsanitary a mother can be infected through tears or wounds sustained during delivery, and a newborn through the umbilical stump. Clean delivery services are essential to breaking this route of infection. [2][10][39][40]\n\nVaccinating mothers and infants prevents maternal and neonatal tetanus. Most MNT occurs in areas with inadequate vaccination coverage, and these cases are linked to inequitable access to health services. [38][41]\n\n## Vaccines and immunization\n\nTetanus can be prevented by vaccination. The DTP vaccine now in use protects not only against tetanus but also against diphtheria and pertussis at the same time. The tetanus vaccine was licensed before 1980. [9][24][47]\n\nAs immunization spread, case numbers fell, and the burden of tetanus has declined greatly over time through the use of vaccines, especially the DTP vaccine. Deaths from several diseases, including diphtheria, tetanus, and measles, have fallen dramatically with the spread of vaccines, and among the lives saved by immunization over the past 50 years, the tetanus vaccine is considered one of the leading contributing factors, second only to measles. [11][37][45][46]\n\n## Eradication goals and what is achievable\n\nIn 1988, the WHO declared a goal of eradicating neonatal tetanus by 1995. Because progress was slow, the target year was pushed back to 2000 and then to 2005, and eventually no specific target year was set at all. In 2010, Kiwanis and UNICEF partnered to form the ELIMINATE Project, aiming at eradication in the 39 remaining countries. As of 2020, 47 countries had eliminated maternal and neonatal tetanus, and 12 countries remained short of the goal. [28][29][42][43]\n\nCare is needed here about what \"eradication\" means. Even if case numbers reach zero at some future point, that does not mean tetanus has been eradicated. As long as the causative bacterium persists in the soil, unvaccinated people can be infected at any time. Sustained immunization efforts are indispensable to keeping tetanus in check. [16][17][30]\n\n## Related articles\n\n- [Vaccination](/hubpedia/vaccination)\n- [Disease eradication](/hubpedia/disease-eradication)\n- [Child mortality](/hubpedia/child-mortality)\n- [Global health](/hubpedia/global-health)\n- [Sanitation](/hubpedia/sanitation)\n- Hygiene\n- [Causes of death](/hubpedia/cause-of-death)\n- [Healthcare financing](/hubpedia/healthcare-financing)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T11:25:39.046Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "破傷風はクロストリジウム・テタニ菌（Clostridium tetani）という細菌によって引き起こされる疾患である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "Tetanus is a disease caused by the bacteria Clostridium tetani."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "破傷風は傷口に入った土から感染することがあり、特に出産する母親と新生児に強く影響する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "It can be caught from dirt that enters wounds, which especially affects mothers giving birth and newborns."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "破傷風菌が放出する毒素は神経の正常な機能を妨げ、最終的に麻痺、呼吸困難、死につながることがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "The bacteria release a toxin that prevents the normal functioning of nerves, and can eventually lead to paralysis, difficulty breathing, and death."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "破傷風は現在も世界で年間約5万人の死亡を引き起こしている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "the disease still causes around 50,000 deaths worldwide annually"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "破傷風菌（クロストリジウム・テタニ菌）は人や動物の糞便、土壌、路上の埃の中に存在する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "Tetanus is caused by the toxin of a bacterium, Clostridium tetani, found in human and animal feces, soil, and street dust."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "破傷風菌は傷口から体内に侵入する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "The bacteria enter the body through wounds."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "感染後1〜2週間で、破傷風菌は運動を司る神経に作用する毒素を放出し、神経が正常に機能しなくなる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "By a week or two after infection, the bacteria releases a toxin that enters nerves responsible for movement and prevents them from functioning properly."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "破傷風の症状には筋肉のこわばり、「牙関緊急（lockjaw、顎の麻痺）」、痙攣、背部痛、呼吸困難がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "This causes symptoms such as muscle stiffness, “lockjaw” (paralysis of the jaw), spasms, back pain, and difficulty breathing."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "破傷風はDTPワクチンによる予防接種で予防でき、DTPワクチンはジフテリア、破傷風、百日咳を同時に予防する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "Tetanus can be prevented through vaccination, with the DTP vaccine, which protects against diphtheria, tetanus, and pertussis together."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "新生児とその母親に影響する破傷風は「母子破傷風（Maternal and Neonatal Tetanus, MNT）」と呼ばれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "Tetanus that affects newborns and their mothers is referred to as Maternal and Neonatal Tetanus (MNT)."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "破傷風による影響は、ワクチン、特にDTPワクチンの使用により時間とともに大きく減少してきた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "Over time, the impact of tetanus has been reduced greatly with the use of vaccines, especially the DTP vaccine, which protects mothers and newborns against the disease."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "破傷風は衛生状態が悪く予防接種率が低い地域で特に多く発生する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "especially affects regions where sanitation is lacking and vaccination rates are low"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "アフリカでは破傷風を発症した成人の約45%がその後死亡すると推定されている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "It’s estimated that, in Africa, around 45% of adults who develop tetanus then die from the disease."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "破傷風は感染性はあるが、伝染性・伝播性のある疾患ではない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "Tetanus is a disease that is infectious but not contagious or communicable."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "破傷風は傷に入った土などから感染しうるが、人から人へ直接病気を伝播させることはない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "One can become infected with it, e.g. through dirt that enters wounds, but cannot transmit the disease to other people directly (it is not communicable)."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "将来ある時点で破傷風の症例数がゼロになっても、破傷風が根絶されるわけではない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "Even if the number of tetanus cases were reduced to zero at one point in the future tetanus would not be eradicated."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "破傷風の原因菌は土壌中に存在するため、未接種者はいつでも再感染しうる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "As the disease-causing bacteria can be found in soil, unvaccinated people can become reinfected at any time."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "1990年代には、毎年数十万人が破傷風で死亡していたと推定されている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "In the 1990s, it’s estimated that hundreds of thousands of people died from tetanus each year."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "2010年代には、破傷風による年間死亡者数は約5万人まで減少した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "In contrast, in the 2010s, that figure had declined to around 50,000 deaths annually."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "過去も現在も、破傷風による死亡の大半は5歳未満の子どもで発生している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "the majority of tetanus deaths in the past and today occur in children under the age of 5"
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "現在、破傷風の新規症例の大半は南アジアとサハラ以南アフリカで発生している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "Today the majority of new cases of tetanus occur in South Asia and Sub-Saharan Africa."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "破傷風による死亡の大半も南アジアとサハラ以南アフリカで発生している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "Similarly, the majority of all deaths from tetanus, occur in South Asia and Sub-Saharan Africa."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "南アジアの破傷風新規感染者数は、1990年の約40万件から2019年には約3万件へと約30年間で大幅に減少した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "in just three decades the number of new infections has fallen massively, from close to 400,000 infections in 1990 to around 30,000 in 2019"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "現在、破傷風に対する効果的なワクチンとして「DTP」があり、破傷風だけでなくジフテリアと百日咳も予防する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "Today we have an effective vaccine against tetanus. The vaccine is called “DTP”, which protects against not only tetanus but also diphtheria and pertussis."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "予防接種プログラムが充実している国では、破傷風はほぼ根絶されている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "In countries with good vaccination programs tetanus has been largely eliminated."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "破傷風菌に感染した場合の治療には、抗生物質、細菌毒素に対する抗毒素、痙攣抑制薬の投与が含まれる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "If a person gets infected with tetanus-causing bacteria, treatment involves antibiotics, antitoxin against the bacterial toxin, and spasm-controlling drugs."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "破傷風の感染は免疫を獲得させないため、破傷風の生存者もワクチン接種が必要である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "tetanus survivors still need to be vaccinated as the infection does not result in immunity to the disease"
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "1988年、WHOは1995年までに新生児破傷風を根絶するという目標を宣言した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "In 1988 the WHO declared the goal to eliminate neonatal tetanus by 1995."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "2020年時点で47か国が母子破傷風を根絶し、12か国が未達成のまま残っている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "In 2020, 47 countries have eliminated MNT and 12 countries remain."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "破傷風を制御するには継続的な予防接種の取り組みが必要である。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "Continued vaccination efforts are therefore necessary to control tetanus."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "中欧のような高所得国・地域では、子どもの破傷風は非常にまれである。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "if you switch the country in the chart to any high-income country or region, such as Central Europe, you will see that tetanus in children is very uncommon in those places"
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "高所得国で子どもの破傷風がまれなのは、主に非常に効果的な小児用ワクチンが利用可能なためである。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "This is in large part due to a highly effective childhood vaccine that we have available for this disease."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "1990年代には、アフリカとアジアの多くの国で破傷風の感染率が年間人口10万人当たり5人を超えていた。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "In the 1990s, many countries in Africa and Asia had tetanus infection rates greater than 5 per 100,000 people per year."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "インド、パキスタン、チャド、ソマリアなどいくつかの国では、破傷風の感染率が人口10万人当たり20人を超えていた。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "Several countries, such as India, Pakistan, Chad, and Somalia, had tetanus infection rates higher than 20 per 100,000 people."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "2019年までに多くの国で破傷風の感染率が低下し、人口10万人当たり5人を超える国は世界でごくわずかとなった。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "But by 2019, infection rates had declined in many countries, and only a few countries worldwide had infection rates of tetanus greater than 5 per 100,000 people per year."
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "1980年以前、衛生状態が良く予防接種プログラムが充実していた高所得国では、破傷風の症例数はすでに減少していた。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "Before 1980, the number of tetanus cases had already declined in high-income countries with good hygiene and immunization programs."
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "破傷風の予防接種が増加するにつれて、破傷風の症例数は減少した。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "As vaccination for tetanus has increased, the number of tetanus cases declined"
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "母子破傷風の症例は医療サービスへのアクセスの不平等と関連している。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "Maternal and neonatal tetanus cases are linked to inequality in access to healthcare services."
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "破傷風菌の芽胞は環境中に存在するため、出産時の母子保護には清潔な分娩サービスが不可欠である。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "Because tetanus bacteria spores are present in the environment, clean birth delivery services are essential for the protection of mothers and newborns during delivery."
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "分娩環境が非衛生的な場合、母親は分娩時の裂傷や傷から破傷風に感染し、新生児は臍帯断端から破傷風に感染しうる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "If the environment during birth is not hygienic, mothers can contract tetanus through tears and wounds during delivery, and newborns can be infected by tetanus through the umbilical stump."
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "母子への予防接種は母子破傷風（MNT）を防ぎ、MNTの大半は予防接種率が不十分な地域で発生している。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "Vaccination of mothers and newborns protects from MNT and most cases of MNT occur in places where vaccine coverage is insufficient."
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "進捗が遅かったため、母子破傷風根絶の目標年は2000年、次いで2005年に延期され、最終的には具体的な目標年は設定されなくなった。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "Due to slow progress, this goal was pushed back to 2000, then 2005, and eventually no specific goal was set."
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "キワニスとユニセフは2010年に提携してELIMINATEプロジェクトを結成し、残る39か国での破傷風根絶を目指した。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "the organizations Kiwanis and UNICEF partnered in 2010 to form the ELIMINATE project which aims to eliminate tetanus in the remaining 39 countries."
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "破傷風菌の毒素は、神経細胞からのシグナル伝達物質GABAの放出を妨げることで神経機能を阻害する。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/tetanus",
+              "quote": "Specifically, it prevents the release of the signaling substance GABA from nerve cells."
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "statement": "ジフテリア、破傷風、麻疹などいくつかの疾患による死亡は、ワクチンの普及により劇的に減少した。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "It shows that deaths from several diseases — including diphtheria, tetanus, and measles — have dropped dramatically."
+            }
+          ]
+        },
+        {
+          "index": 46,
+          "statement": "過去50年間に予防接種によって救われた命のうち、破傷風ワクチンは麻疹に次ぐ主要な貢献要因の一つである。",
+          "confidence": 0.7,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "Other major contributors include vaccines against tetanus, whooping cough, tuberculosis, and polio."
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "statement": "破傷風のワクチンは1980年より前に認可された。",
+          "confidence": 0.55,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "The vaccines against the diseases listed from diphtheria to tetanus were licensed before 1980."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "micronutrient-deficiency",
+    "topicType": "concept",
+    "categoryLabel": "医学・健康",
+    "title": "微量栄養素欠乏",
+    "summary": "微量栄養素欠乏は、鉄・ヨウ素・亜鉛・ビタミンAなど、体がごく少量だけ必要とする必須ビタミンとミネラルが不足した状態を指す。エネルギー摂取量が足りていても起こり得るため「隠れた飢餓」と呼ばれ、貧血、子どもの予防可能な失明、幼少期の脳損傷といった帰結と結び付けられている。妊婦と幼い子どもが最も高いリスクを負い、対策としては栄養補助、食品強化、バイオフォーティフィケーションが用いられる。",
+    "bodyMarkdown": "## 定義と対象となる栄養素\n\n腹が満たされていても栄養素は足りていないことがある。微量栄養素欠乏は、体が正常な成長と発達のためにごく少量必要とする必須ビタミンとミネラルが不足している状態と定義される。エネルギーやたんぱく質の不足として目に見えるとは限らないことから、この状態は「隠れた飢餓」とも呼ばれる。 [1][3]\n\n必須微量栄養素に含まれるのは、鉄、亜鉛、カルシウム、ヨウ素、ビタミンA、ビタミンB群、ビタミンCなどである。健康的な食事には、たんぱく質や脂肪に加えてこれらの微量栄養素を十分に摂取することが不可欠とされる。 [2][33]\n\n## 主要な欠乏症と身体への影響\n\n貧血は、体内の赤血球が不足し、酸素を効率的に運べなくなる状態である。貧血は鉄またはビタミンB12の不足によって起こり得るが、鉄欠乏が最も一般的な原因とされる。 [4][5]\n\nビタミンAは、妊娠中の胎児発達、免疫系の発達、視覚にとって重要な栄養素である。その欠乏は軽度では「夜盲症」と呼ばれる症状として現れ、重症化すると永続的な失明へ進行することがある。ビタミンA欠乏症は、世界的に子どもの予防可能な失明の主要な原因とされている。 [6][12][13]\n\n亜鉛は免疫系に不可欠であり、体内でDNAとタンパク質を作るために使われる。亜鉛が不足すると成長が妨げられ、病気や感染症への罹りやすさが高まり、回復が損なわれる。亜鉛欠乏は母親と新生児の死亡率上昇とも関連付けられている。亜鉛は全粒穀物、豆類、強化シリアル、肉、魚、鶏肉、魚介類に含まれる。 [14][15][19]\n\nヨウ素の不足は、幼少期における予防可能な脳損傷の主要な原因とされる。ヨウ素欠乏は死産や乳幼児の死亡、精神障害、甲状腺機能障害を引き起こすことがある。 [18][25]\n\n## 世界での広がりと影響を受けやすい集団\n\n影響の範囲は限られた集団にとどまらない。世界全体で、5歳未満児の半数以上が鉄・亜鉛・ビタミンAのうち少なくとも1つの微量栄養素欠乏の状態にあると推定されている。妊婦と幼い子どもは、微量栄養素欠乏を発症するリスクが最も高い集団とされる。 [7][8]\n\n貧血の広がりはこの偏りを具体的に示す。世界全体で妊婦のおよそ3分の1が貧血であり、5歳未満児ではおよそ10人中4人が貧血である。妊婦の貧血の有病率は北米やヨーロッパ・中央アジアなどの高所得地域で低く、南アジアやサハラ以南アフリカで特に高い。 [9][10][11]\n\n複数の欠乏を横断してとらえる指標として、世界隠れた飢餓指数（GHHI）がある。これは未就学児における発育阻害（年齢に対する低身長）、貧血、ビタミンA欠乏という3つの栄養指標の平均として算出される。 [16]\n\n## 食事構成・所得との関係\n\n欠乏の分布は食事の中身と対応している。穀物・根菜・イモ類など微量栄養素の少ない食品からのエネルギー摂取割合が高い国ほど、微量栄養素欠乏の水準が高い傾向にある。また、1人当たりGDPが低い国ほど、子どもの栄養欠乏と栄養不良の問題がより深刻である。 [30][31]\n\nこの対応関係の背景として指摘されるのが価格である。貧しい世帯では穀物が他の食品より安価であるため、食事は単調でエネルギー密度の高いものになりがちで、微量栄養素の必要量を満たすために必要な多様性を欠く。 [32]\n\n## 感染症との相互作用\n\n栄養状態と感染症の関係は一方向ではない。[下痢性疾患](/hubpedia/diarrheal-disease)により毎年およそ50万人の子どもが死亡しており、栄養不良の子どもではその影響がより深刻になる。栄養不良は下痢による死亡リスクを増大させ得る一方、下痢は子どもが栄養素を保持・利用する能力に影響を及ぼし、栄養摂取の必要量を増大させる。 [27][28][29]\n\n## 対策\n\n食事だけで微量栄養素の必要量を満たせない場合には、栄養補助、食品強化、バイオフォーティフィケーションという3つの対策が用いられる。栄養補助は、濃縮された微量栄養素を錠剤・粉末・液体の形で摂取することを指す。食品強化は、シリアルや小麦粉、米など一般に消費される食品に少量の微量栄養素を添加することである。 [17][20][21]\n\nバイオフォーティフィケーションは、農学的・品種改良的な手法を用いて主食作物中の特定の微量栄養素の濃度を高める方法である。その最もよく知られた例が、高濃度のビタミンAを含むように栽培された「ゴールデンライス」である。 [22][23]\n\n実施の目安と費用についても数値が示されている。ビタミンA補給は、子どもが年に少なくとも2回の高用量カプセルを受け取れば十分とみなされる。塩へのヨウ素添加を普遍化するユニバーサル・ソルト・アイオダイゼーションの費用は、2014年時点で1人当たり年間0.02〜0.05米ドルと見積もられていた。 [24][26]\n\n## 関連記事\n\n- [国際保健](/hubpedia/global-health)\n- [乳幼児死亡率](/hubpedia/child-mortality)\n- [食料供給](/hubpedia/food-supply)\n- [経済的不平等](/hubpedia/economic-inequality)",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/micronutrient-deficiency",
+        "title": "微量栄養素欠乏",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on micronutrient-deficiency. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/hunger-and-undernourishment",
+        "title": "hunger-and-undernourishment",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Undernutrition of which deficiency is part. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Micronutrient deficiency",
+        "summary": "Micronutrient deficiency refers to a lack of essential vitamins and minerals that the body needs in only very small amounts, such as iron, iodine, zinc, and vitamin A. Because it can occur even when energy intake is adequate, it is known as \"hidden hunger,\" and it is linked to outcomes such as anemia, preventable blindness in children, and brain damage in early childhood. Pregnant women and young children bear the highest risk, and the measures used against it include supplementation, food fortification, and biofortification.",
+        "bodyMarkdown": "## Definition and the nutrients involved\n\nA full stomach does not always mean sufficient nutrients. Micronutrient deficiency is defined as a lack of the essential vitamins and minerals that the body requires in very small quantities for normal growth and development. Because it does not necessarily show itself as a shortfall of energy or protein, this condition is also called \"hidden hunger.\" [1][3]\n\nEssential micronutrients include iron, zinc, calcium, iodine, vitamin A, the B vitamins, and vitamin C. Adequate intake of these micronutrients, alongside protein and fat, is considered indispensable to a healthy diet. [2][33]\n\n## Major deficiencies and their effects on the body\n\nAnemia is a condition in which the body lacks enough red blood cells and can no longer carry oxygen efficiently. Anemia can result from a shortage of either iron or vitamin B12, but iron deficiency is regarded as its most common cause. [4][5]\n\nVitamin A is an important nutrient for fetal development during pregnancy, for the development of the immune system, and for vision. In mild cases its deficiency appears as a condition known as \"night blindness,\" and in severe cases it can progress to permanent blindness. Vitamin A deficiency is considered the leading cause of preventable blindness in children worldwide. [6][12][13]\n\nZinc is essential to the immune system and is used by the body to make DNA and proteins. When zinc is lacking, growth is impaired, susceptibility to illness and infection rises, and recovery is compromised. Zinc deficiency has also been linked to higher maternal and newborn mortality. Zinc is found in whole grains, beans, fortified cereals, meat, fish, poultry, and seafood. [14][15][19]\n\nA shortage of iodine is considered the leading cause of preventable brain damage in early childhood. Iodine deficiency can cause stillbirth and infant death, mental impairment, and thyroid dysfunction. [18][25]\n\n## Global extent and susceptible populations\n\nThe reach of the problem is not confined to a limited set of populations. Worldwide, more than half of all children under the age of five are estimated to have at least one micronutrient deficiency among iron, zinc, and vitamin A. Pregnant women and young children are the groups considered at highest risk of developing micronutrient deficiencies. [7][8]\n\nThe spread of anemia illustrates this imbalance concretely. Worldwide, roughly one third of pregnant women are anemic, and among children under five roughly four in ten are anemic. The prevalence of anemia in pregnant women is low in high-income regions such as North America and Europe and Central Asia, and is especially high in South Asia and sub-Saharan Africa. [9][10][11]\n\nOne indicator that captures multiple deficiencies together is the Global Hidden Hunger Index (GHHI). It is calculated as the average of three nutritional indicators in preschool-age children: stunting (low height for age), anemia, and vitamin A deficiency. [16]\n\n## Relationship to diet composition and income\n\nThe distribution of deficiencies corresponds to what people eat. Countries where a higher share of energy intake comes from micronutrient-poor foods such as cereals, roots, and tubers tend to have higher levels of micronutrient deficiency. Countries with lower GDP per capita also face more severe problems of nutrient deficiency and malnutrition among children. [30][31]\n\nPrice is cited as the reason behind this correspondence. Because cereals are cheaper than other foods for poor households, diets tend to become monotonous and energy-dense, and to lack the diversity needed to meet micronutrient requirements. [32]\n\n## Interaction with infectious disease\n\nThe relationship between nutritional status and infectious disease does not run in only one direction. [Diarrheal disease](/hubpedia/diarrheal-disease) kills roughly 500,000 children each year, and its effects are more severe in malnourished children. While malnutrition can increase the risk of death from diarrhea, diarrhea in turn affects a child's ability to retain and use nutrients, and increases nutritional requirements. [27][28][29]\n\n## Measures\n\nWhen diet alone cannot meet micronutrient requirements, three measures are used: supplementation, food fortification, and biofortification. Supplementation refers to taking concentrated micronutrients in the form of tablets, powders, or liquids. Food fortification is the addition of small amounts of micronutrients to commonly consumed foods such as cereals, wheat flour, and rice. [17][20][21]\n\nBiofortification is a method that uses agronomic and plant-breeding techniques to raise the concentration of specific micronutrients in staple crops. Its best-known example is \"golden rice,\" grown to contain high levels of vitamin A. [22][23]\n\nFigures have also been given for the standards of delivery and the costs involved. Vitamin A supplementation is considered sufficient if children receive high-dose capsules at least twice a year. The cost of universal salt iodization, which adds iodine to salt everywhere, was estimated at 0.02 to 0.05 US dollars per person per year as of 2014. [24][26]\n\n## Related articles\n\n- [Global health](/hubpedia/global-health)\n- [Child mortality](/hubpedia/child-mortality)\n- [Food supply](/hubpedia/food-supply)\n- [Economic inequality](/hubpedia/economic-inequality)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T11:25:39.046Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "微量栄養素欠乏とは、体が正常な成長と発達のためにごく少量必要とする必須ビタミンとミネラルが不足している状態と定義される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/micronutrient-deficiency",
+              "quote": "Micronutrient deficiency is defined as a lack of essential vitamins and minerals that are required in small amounts by the body for proper growth and development."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "必須微量栄養素には、鉄、亜鉛、カルシウム、ヨウ素、ビタミンA、ビタミンB群、ビタミンCなどが含まれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/micronutrient-deficiency",
+              "quote": "Essential micronutrients include, but are not limited to: iron, zinc, calcium, iodine, vitamin A, B vitamins, and vitamin C."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "微量栄養素欠乏は「隠れた飢餓」とも呼ばれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/micronutrient-deficiency",
+              "quote": "Micronutrient deficiency is therefore sometimes termed \"hidden hunger\""
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "貧血は、体内の赤血球が不足し酸素を効率的に運べなくなる状態である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/micronutrient-deficiency",
+              "quote": "Anemia is a condition in which an individual’s blood lacks enough red blood cells to carry oxygen efficiently around the body."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "貧血は鉄またはビタミンB12の不足によって起こり得るが、鉄欠乏が最も一般的な原因である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/micronutrient-deficiency",
+              "quote": "Anemia can result from a lack of iron or vitamin B12, although iron deficiency is the most common type."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "ビタミンA欠乏症は、世界的に子どもの予防可能な失明の主要な原因である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/micronutrient-deficiency",
+              "quote": "Vitamin A deficiency is the leading cause of preventable blindness in children globally."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "世界全体で、5歳未満児の半数以上が鉄・亜鉛・ビタミンAのうち少なくとも1つの微量栄養素欠乏の状態にあると推定されている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/micronutrient-deficiency",
+              "quote": "it’s estimated that over half of children under five years old are micronutrient deficient (in at least one of iron, zinc, and vitamin A)"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "妊婦と幼い子どもは微量栄養素欠乏を発症するリスクが最も高い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/micronutrient-deficiency",
+              "quote": "Pregnant women and young children are at greatest risk of developing deficiencies"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "世界全体で、妊婦のおよそ3分の1が貧血である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/micronutrient-deficiency",
+              "quote": "Globally, around a third of pregnant women worldwide are anemic."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "妊婦の貧血の有病率は北米やヨーロッパ・中央アジアなど高所得地域で低く、南アジアやサハラ以南アフリカで特に高い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/micronutrient-deficiency",
+              "quote": "The prevalence of anemia in pregnant women is typically lower in higher-income regions, being lowest in North America, and Europe & Central Asia. Rates are particularly high across South Asia and sub-Saharan Africa."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "世界全体で、5歳未満児のおよそ10人中4人が貧血である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/micronutrient-deficiency",
+              "quote": "Globally, around four-in-ten children have anemia."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "ビタミンAは、妊娠中の胎児発達、免疫系の発達、視覚にとって重要な栄養素である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/micronutrient-deficiency",
+              "quote": "Vitamin A is a key nutrient for the development of embryos during pregnancy, the development of the immune system, and vision."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "ビタミンA欠乏症は、軽度では「夜盲症」と呼ばれる症状として現れ、重症化すると永続的な失明に進行することがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/micronutrient-deficiency",
+              "quote": "It can begin as a milder form called \"night blindness\", and progress to permanent blindness in stronger cases."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "亜鉛は免疫系に不可欠な栄養素であり、体内でDNAとタンパク質を作るために使われる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/micronutrient-deficiency",
+              "quote": "Zinc is an essential nutrient for the immune system, and is used to make DNA and protein in our body."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "亜鉛欠乏は成長を妨げ、病気や感染症への罹りやすさを高め、回復を損ない、母親と新生児の死亡率上昇と関連する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/micronutrient-deficiency",
+              "quote": "deficiencies can therefore stunt growth, increase susceptibility to disease and infection, and impair recovery, and is associated with higher mortality in mothers and newborns"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "世界隠れた飢餓指数（GHHI）は、未就学児における発育阻害（年齢に対する低身長）、貧血、ビタミンA欠乏という3つの栄養指標の平均として算出される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/micronutrient-deficiency",
+              "quote": "The GHHI is calculated as the average of three nutritional indicators in preschool children: the prevalence of stunting (children who are too short for their age), anemia, and vitamin A deficiency."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "食事だけで微量栄養素の必要量を満たせない場合、栄養補助、食品強化、バイオフォーティフィケーションという3つの対策が用いられる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/micronutrient-deficiency",
+              "quote": "three other strategies can be used to address deficiencies.These are supplementation, food fortification, and biofortification."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "ヨウ素欠乏は、幼少期における予防可能な脳損傷の主要な原因である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/micronutrient-deficiency",
+              "quote": "Iodine deficiency is a major cause of preventable brain damage in childhood."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "亜鉛は全粒穀物、豆類、強化シリアル、肉、魚、鶏肉、魚介類に含まれている。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/micronutrient-deficiency",
+              "quote": "It is found in whole grains, beans, fortified cereals, meat, fish, poultry, and seafood."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "栄養補助とは、濃縮された微量栄養素を錠剤・粉末・液体の形で摂取することである。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/micronutrient-deficiency",
+              "quote": "Supplementation is the use of concentrated micronutrients in pill, powder, or liquid form."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "食品強化とは、シリアルや小麦粉、米などの一般に消費される食品に少量の微量栄養素を添加することである。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/micronutrient-deficiency",
+              "quote": "Food fortification is when small amounts of micronutrients are added to common food products used by the general population, such as cereals, wheat flour, and rice."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "バイオフォーティフィケーションとは、農学的・品種改良的な手法を用いて主食作物中の特定の微量栄養素の濃度を高めることである。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/micronutrient-deficiency",
+              "quote": "Biofortification is when agronomic and plant-breeding approaches in agriculture are used to increase the concentration of particular micronutrients in staple food crops."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "バイオフォーティフィケーションの最もよく知られた例は、高濃度のビタミンAを含むように栽培された「ゴールデンライス」である。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/micronutrient-deficiency",
+              "quote": "The most well-known example is the so-called \"golden rice\", which is rice grown with high concentrations of vitamin A."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "ビタミンA補給は、子どもが年に少なくとも2回の高用量カプセルを受け取れば十分とみなされる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/micronutrient-deficiency",
+              "quote": "Vitamin A supplementation is defined as being sufficient if a child receives at least two high-dose capsules per year."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "ヨウ素欠乏は死産や乳幼児の死亡、精神障害、甲状腺機能障害を引き起こすことがある。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/micronutrient-deficiency",
+              "quote": "It can result in stillbirths and the deaths of young infants, mental disability, and thyroid impairments."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "2014年時点で、ユニバーサル・ソルト・アイオダイゼーション（塩へのヨウ素添加の普遍化）の費用は1人当たり年間0.02〜0.05米ドルと見積もられていた。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/micronutrient-deficiency",
+              "quote": "In 2014, Universal Salt Iodization was estimated to cost US$0.02–0.05 per person per year."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "下痢性疾患により、毎年およそ50万人の子どもが死亡しており、栄養不良の子どもではその影響がより深刻になる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/micronutrient-deficiency",
+              "quote": "Around half a million children die annually from diarrheal diseases, which is more severe in children who are malnourished."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "栄養不良は下痢による死亡リスクを増大させ得る。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/micronutrient-deficiency",
+              "quote": "Malnutrition can exacerbate the risk of death from diarrhea."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "下痢は子どもが栄養素を保持・利用する能力に影響を及ぼし、栄養摂取の必要量を増大させる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/micronutrient-deficiency",
+              "quote": "diarrhea affects the ability of children to retain and use nutrients sufficiently, which increases the requirements for nutrient intake"
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "穀物・根菜・イモ類など微量栄養素の少ない食品からのエネルギー摂取割合が高い国ほど、微量栄養素欠乏の水準が高い傾向にある。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/micronutrient-deficiency",
+              "quote": "Overall, we see that countries where diets are higher in micronutrient-poor cereals also tend to have higher levels of micronutrient deficiency."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "1人当たりGDPが低い国ほど、子どもの栄養欠乏と栄養不良の問題がより深刻である。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/micronutrient-deficiency",
+              "quote": "Overall, we see that countries with lower GDP per capita experience more severe deficiency and malnutrition issues in children."
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "貧しい世帯は穀物が他の食品より安価であるため、微量栄養素の必要量を満たすために必要な食事の多様性を欠いた、単調でエネルギー密度の高い食事になりがちである。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/micronutrient-deficiency",
+              "quote": "Since cereals tend to be less expensive than other food commodities, poorer households tend to have a more monotonous and energy-dense diet that is lacking in the dietary diversity required to meet micronutrient requirements."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "健康的な食事には、たんぱく質や脂肪に加えて微量栄養素も十分に摂取することが不可欠である。",
+          "confidence": 0.7,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/hunger-and-undernourishment",
+              "quote": "Sufficient protein, fats, and micronutrients are also essential"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "healthcare-financing",
+    "topicType": "concept",
+    "categoryLabel": "医学・健康",
+    "title": "医療財源",
+    "summary": "医療財源とは、医療サービスに投じられる資金の総量と、その負担が家計・政府・保険者・海外援助のあいだでどう配分されるかを指す。一人当たりの支出額は国際ドル建てで100倍を超える開きがあり、その差の大半は国民所得で説明されるが、家計の自己負担に頼るか公的資金で賄うかという構成の違いは、所得水準だけでは決まらない。財源のあり方は平均寿命や子どもの死亡率と結びつくため、保健政策の中心的な論点であり続けている。",
+    "bodyMarkdown": "## 医療費支出の水準と国際的な差\n\n2019年、中央アフリカ共和国の一人当たり医療費支出は、購買力を調整した国際ドルで100を下回っていた。同じ年、米国の一人当たり支出は10,000国際ドルを超えている。国と国のあいだで、医療に投じられる金額の水準にはこれほど大きな差がある。 [1][2][7][34]\n\nただし、経済規模との比で見ると差は縮む。どの国でも医療支出は国内総生産の4分の1未満に収まっており、大半の国は5〜12.5%の範囲にある。世界全体で見た所得に占める医療支出の割合は、過去数十年にわたって緩やかに上昇してきた。上昇は一様ではなく、一人当たり所得が高い国ほど所得に占める医療支出の割合が大きく、高所得国のその割合は低所得国のおよそ2倍にあたる。 [10][40][41][55][56]\n\n実際の水準に対する一般の認識はずれている。世界各地で人々は自国の医療支出を大幅に過大評価していることが観察されている。 [57]\n\n## 制度の成立と拡大の経緯\n\n中世の西欧では、健康は大部分が運命の問題とみなされていた。公的資金によって医療を賄うという考え方は啓蒙時代に起源を持つ遺産とされ、制度としての形をとるのは19世紀後半である。多くのヨーロッパ諸国はこの時期に立法措置を通じて医療制度を公式に確立し始めた。健康保険に関する最初の立法例も、医療財源について残る最も古いデータも、同じ19世紀後半にさかのぼる。 [13][20][33][36][82]\n\n財政規模で見ると、出発点は小さい。1880年時点では、記録の残る高所得国のすべてで政府の医療支出は国内総生産の1%に満たなかった。1970年までには、同じ国々のすべてで2%を超えている。第二次世界大戦以前の段階で、多くの欧州諸国では労働者を対象とする公的医療保険がすでにかなり普及していた。1929年までに、記録のある欧州11か国はいずれも少なくとも任意加入の保険制度を持ち、1935年までにはその労働力人口の半数が健康保険に加入していた。 [44][45][47][48][76]\n\n対象範囲を全国民へ広げた時期は国によってずれる。フランス、オーストリア、ドイツは1920年から1960年にかけて医療保障の対象を拡大したのに対し、スペイン、ポルトガル、ギリシャの拡大は1960年から1980年と遅れた。より近年では、中国、ルワンダ、ベトナムが21世紀にほぼゼロから制度を構築し、10年ほどでほぼ皆保険に到達している。 [14][15][16][51][52]\n\n保障の拡大と支出の増加は同時には起きなかった。初期の医療保険制度では、適用範囲が広がってから数年後、強力な新しい治療法の登場とともに支出が上昇し始めている。20世紀後半の医療における大きな進歩は、とりわけペニシリンをはじめとする抗生物質の発見と利用から始まった。 [37][46]\n\n現在では、米国という顕著な例外を除き、すべての高所得国がほぼ完全な医療保険加入率を達成している。所得水準が加入率を決めるわけではなく、ガンビア、ルワンダ、バヌアツはいずれも米国より医療保障の対象範囲が広い。多くの国では、医療へのアクセスは憲法上の権利として位置づけられている。 [53][54][81]\n\n## 財源の構成\n\n同じ額を医療に使う場合でも、誰がその負担を負うかは国によって異なる。家計が医療提供者へ直接支払う自己負担支出の割合は、世界的に大きく開いている。フランスのような富裕国では、自己負担は医療費総額のごく一部にとどまる。一方、アフガニスタンやナイジェリアのような貧しい国では、自己負担が医療費支出の大半を占めることがある。低中所得国では医療財源に占める公的資金の割合が低く、自己負担が総支出の50%を超える国が多い。 [17][18][19][42][61]\n\n自己負担の高さを決めるのは、公的財源と民間任意保険の合計である。医療が主に民間の任意保険で賄われている米国のような国でも、自己負担支出は低い水準にとどまる。逆に、公的医療支出も民間任意保険もともに小さいインド、アフガニスタン、スーダンのような国では自己負担が高くなる。ロシアのように自己負担が増加している国もある。公的部門の医療施設の多くは医薬品を低コストまたは無料で提供しており、貧困層に医療を届けるうえで不可欠な役割を担っている。 [35][80][84][85]\n\n## 支出水準を決める要因\n\n国別に見たとき、医療支出の最も強い予測因子は国民所得である。Newhouse(1977)は、国民所得の合計が国ごとの医療支出水準の分散のほぼすべてを説明することを示した。一人当たり所得が高い国ほど医療支出は多く、一人当たり国内総生産は医療費支出に対して明確で有意な正の効果を持つ。 [9][11][12][25][32]\n\n支出は所得の変化だけでなく、価格の変化にも反応する。低所得国では価格感応性がとりわけ重要で、重要な医療製品のわずかな費用の違いが需要に大きな差を生む。貧しい国の人々は医薬品価格への感応度が高く、少額の負担であっても必須医療製品の利用を大きく減らしうる。米国では20世紀を通じて、総合消費者物価指数の伸びが医療消費者物価指数の伸びを下回った。 [67][68][69][91]\n\n価格の動きには、医療部門の外の事情も関わる。多くの市場経済国では、医療は他の市場と資源を奪い合う市場の一つであるため、医療サービスの価格は他市場の生産性変化の影響を受ける。医療産業の生産性が他産業より緩やかにしか伸びない場合、医療分野の価格はインフレ率より速く上昇し、所得に占める医療支出の割合も増加すると論じられている。この議論はボーモルの「コスト病」として知られる。 [88][89]\n\n制度の設計も支出水準と関係する。プライマリケアの「ゲートキーパー」を用いる制度は医療費支出が低くなる傾向がある。患者がまず医療提供者に支払い、後から払い戻しを受ける仕組みの制度でも、他の仕組みに比べて支出水準は低めになる傾向が観察されている。近年、多くの国で医療費支出は比較的安定している。 [77][78][79][86]\n\n## 医療支出と健康アウトカムの関係\n\n医療費支出が増えると、健康アウトカムは良くなる傾向がある。その効果は、支出水準が低い段階でとくに大きい。一人当たり医療費支出が多い国ほど、平均して[平均寿命](/hubpedia/life-expectancy)は長い。 [3][4][5][29]\n\nただし関係は直線ではない。支出が増えるほど、追加的な支出による平均余命の伸びは小さくなる。この逓減は富裕国でより顕著であり、当初の支出水準が低い低所得国では、比較的わずかな支出増でも平均寿命を大幅に改善できる可能性がある。実際、多くのアフリカ諸国では過去20年間で医療支出が大幅に増え、平均余命が10年以上延びる進歩が見られた。 [22][70][71]\n\n子どもの死亡率（[5歳未満児死亡率](/hubpedia/child-mortality)）も、医療支出の増加とともに低下する傾向がある。支出が比例的に増えたときの死亡率の比例的な低下幅は、豊かな国でも貧しい国でも驚くほど似ている。もっとも、出発点の差は大きく、最も豊かな国々の子ども死亡率は最も貧しい国々のおよそ100分の1にとどまる。 [6][31][72][90]\n\nこの傾向から外れる国もある。1970年以降の経済協力開発機構加盟国のデータでは、対象国はいずれも医療支出の増加とともに平均余命が上昇する経路をたどったが、米国だけはその経路がはるかに平坦だった。米国では、とくに1980年代半ば以降、追加的な医療支出による平均余命の伸びが他の高所得国に比べてはるかに小さい。世界で最も高い医療支出を持ちながら、それに見合わない比較的短い平均余命しか達成していない外れ値として扱われている。 [30][73][74]\n\n医療への投資に対する健康面の見返りは大きく、とくに低所得国でその効果が顕著だとする見方がある。低所得国・中所得国の大半では、医療技術と保健システムへの投資を拡大することで、感染症・小児・妊産婦の死亡率を2035年までに現在の最も優れた中所得国と同水準まで引き下げられるとの推計も示されている。 [66][95]\n\n## 開発援助と国内税収\n\nミレニアム開発目標の設立以降、保健分野の開発援助資金は急増し、2014年までに2279億ドルがこれらの重点分野に投じられた。それでもこの額は、高所得国が自国の医療に費やす資源のおよそ0.7%に相当するにすぎない。援助資金は2000年から2010年にかけて急増した後、横ばいとなった。 [43][58][60]\n\n援助への依存度は、受け取る側の所得水準によって大きく異なる。サハラ以南アフリカでは開発援助資金が総医療支出の25%超を賄っている。一人当たり国内総生産が年500米ドル未満の貧困国では、平均して医療支出の約45%を援助資金が占める。1000米ドルまでの国では34%に下がり、1500米ドルではおよそ30%弱、3000米ドルまででは25%未満となる。3000米ドルを超えるほとんどの国では援助資金は総医療支出の5%未満にとどまり、中所得国でも対外資金の比重は5%未満である。 [59][62][63][64][75]\n\n援助が国内財源を置き換える可能性も指摘されている。Lu et al.(2010)は、政府への保健開発援助と、政府が自主財源で組む保健予算とのあいだに負の相関があることを示した。この効果は援助の経路によって異なるが、非政府組織を経由する国際保健援助と政府の保健予算のあいだにも負の相関が見られる。 [26][93]\n\n国内の税収は、対外資金とは別の経路で医療財源を支える。税収の高い開発途上国ほど医療支出は多くなる傾向がある。Reeves et al.(2015)は、途上国において税収がユニバーサル・ヘルス・カバレッジへの進展の重要な統計的決定要因であることを示し、利益や資本利得に対する累進的な課税は、消費税など他の高税率課税で見られる健康アウトカムへの悪影響を伴わずに医療保障の拡大を支えうると示唆した。これらの結果は、課税基盤の弱い国において国内税収を増やすことが皆保険の達成に大きく寄与すると解釈されている。 [27][28][87][96]\n\n援助の効果は、その使い方に左右されるとされる。適切に対象を絞り管理された[国際保健](/hubpedia/global-health)の援助は、世界の健康格差を大きく縮小し、生活水準を向上させ得ると論じられている。財源の使途の一つである条件付き現金給付については、就学、健康、乳幼児死亡率、児童労働、貧困削減といった意図された成果に有意な影響を与えるという実証的証拠がある。 [21][94]\n\n## 米国の保険加入と支出構造\n\n米国の無保険者数は、1965年にメディケアとメディケイドが創設されたのに伴って急減した。次の大きな変化は21世紀に入ってからで、2012年6月、医療のアクセス性・手頃さ・質の向上を目的とする法改正として医療保険制度改革法が導入され、無保険者数は再び急減した。加入傾向の変化は、この法が発効し始めた2012年以降に現れている。メディケイドを拡大した州では2013年から2015年にかけて無保険率の低下幅が大きく、もともと無保険人口の多かった州でその傾向が顕著だった。 [8][23][24][65][83]\n\n加入率と支出は必ずしも連動しない。米国では数十年にわたり総医療保険加入率が約85%でほぼ一定に保たれる一方、民間・公的いずれの医療支出も増加を続けた。しかも米国は、国民皆保険制度を運営する多くの国よりも、一人当たりの[政府医療支出](/hubpedia/government-spending)が多い。 [38][49]\n\n支出は少数の患者に集中している。2009年の米国では、上位5%の支出者が支出全体のほぼ半分を占め、上位1%が総医療支出の20%超を占めた。集中の度合いは対象集団によって異なり、メディケイドに加入する個人の支出は、人口全体と比べるとやや集中度が低い。 [39][50][92]\n\n## 関連記事\n\n- [経済的不平等](/hubpedia/economic-inequality)",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/financing-healthcare",
+        "title": "医療財源",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on healthcare-financing. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/global-health",
+        "title": "global-health",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Health outcomes financing supports. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Healthcare Financing",
+        "summary": "Healthcare financing refers to the arrangements determining how many resources are devoted to health care and who bears the cost through which channels. Per capita spending differs by more than a hundredfold in international dollars, while differences in the share of national income devoted to health are far smaller, meaning spending levels are largely explained by national income. Whether the burden falls mainly on taxes, insurance, out-of-pocket payments, or foreign aid varies greatly across countries, and that difference determines how directly households are exposed to medical costs.",
+        "bodyMarkdown": "## Differences in spending levels across countries\n\nThe amount of money devoted to health care differs by orders of magnitude between countries. As of 2019, per capita health spending in the Central African Republic was below 100 international dollars adjusted for purchasing power, whereas the United States exceeded 10,000 international dollars. Spending levels thus vary enormously from country to country. [1][2][7][34]\n\nThe picture looks different, however, when compared with the size of a country's economy. No country spends more than a quarter of its GDP on health, and most fall within a range of 5 to 12.5 percent. The share of global income spent on health has risen gradually over recent decades, but the gap between high-income and low-income countries is only about twofold when measured relative to income, and in recent years it has been relatively stable in many countries. In other words, the hundredfold difference in per capita amounts reflects, first and foremost, differences in income itself rather than differences in the proportion allocated to health. [40][41][55][56][77]\n\nThis share is not generally well understood by the public. People around the world tend to substantially overestimate how much their own country actually spends on health. [57]\n\n## The history of institutionalization\n\nIn medieval Western Europe, health was largely regarded as a matter of fate. The idea of supporting health care with public funds is considered a legacy originating in the Enlightenment. The earliest surviving data on health financing, as well as the first legislative examples of health insurance, both date back to the late nineteenth century, and many European countries began formally establishing health systems through legislation during this period. [13][20][33][36][82]\n\nThe weight of these institutions changed considerably over the twentieth century. In 1880, [government spending](/hubpedia/government-spending) on health was below 1 percent of GDP in every high-income country covered, but by 1970 it exceeded 2 percent in all of them, and government health spending as a share of GDP in high-income countries has increased substantially over time. Even before the Second World War, public health insurance for workers was already fairly widespread in many European countries: by 1929, all eleven European countries charted had at least a voluntary scheme, and by 1935 half of their labor force was covered by health insurance. [44][45][47][48][76]\n\nThe timing of the extension of coverage to entire populations differed across countries. France, Austria, and Germany expanded coverage between 1920 and 1960, whereas expansion in Spain, Portugal, and Greece came later, between 1960 and 1980. Since the turn of the twenty-first century, China, Rwanda, and Vietnam have rapidly built systems from close to nothing, reaching near-universal coverage in roughly a decade. [14][15][16][51][52]\n\nThe expansion of coverage and the growth of spending did not occur simultaneously but in sequence. In early health insurance systems, spending began to rise several years after coverage expanded, alongside the discovery of powerful new treatments. The major advances in medicine in the second half of the twentieth century began above all with the discovery and use of antibiotics such as penicillin. [37][46]\n\nToday, access to health care is a constitutional right in many countries. In terms of coverage rates, high-income countries have achieved almost complete health insurance coverage, with the notable exception of the United States; the Gambia, Rwanda, and Vanuatu all have broader health coverage than the United States. [53][54][81]\n\n## The composition of financing and out-of-pocket payments\n\nEven when the same amount is spent, the source of those funds differs greatly between countries. The share of out-of-pocket spending, paid by households directly to providers, varies widely around the world: in wealthy countries such as France it accounts for only a small fraction of total health expenditure, while in poor countries such as Afghanistan and Nigeria it can account for the majority of spending. In low- and middle-income countries, public funds make up a low share of health financing, and out-of-pocket spending exceeds 50 percent of total spending in many of them. [17][18][19][42][61]\n\nWhat determines high out-of-pocket costs is not whether payment is public or private, but the depth of prepaid funds. Even in a country such as the United States, where health care is financed largely through private voluntary insurance, out-of-pocket spending remains at a low level; conversely, out-of-pocket payments are high in countries such as India, Afghanistan, and Sudan, where both public health spending and private voluntary insurance are scarce. In some countries, such as Russia, out-of-pocket medical costs have been increasing. [35][84][85]\n\nMany public-sector health facilities provide medicines at low cost or free of charge, playing an essential role in delivering health care to the poor. [80]\n\n## Factors shaping spending levels\n\nAcross countries, the strongest predictor of health spending is national income. Newhouse (1977) showed that aggregate national income explains nearly all of the variance in health spending levels across countries. GDP per capita has a clear and significant positive effect on health expenditure: countries with higher incomes not only spend more in absolute terms, but also tend to devote a larger share of that income to health. [9][10][11][12][25][32]\n\nHealth spending responds not only to changes in income but also to changes in prices. Price sensitivity is extremely important in low-income countries, where small differences in the cost of important health products produce large differences in demand, and where people may sharply reduce their use of essential health products even in response to a small charge. On the price side, the general Consumer Price Index (CPI) in the United States grew more slowly than the Medical Consumer Price Index (MCPI) over the twentieth century. In many market economies, health care is one market competing for resources with others, so the prices of health services are affected by productivity changes in other markets. If productivity in the health industry grows more slowly than in other industries, prices in the health sector will rise faster than inflation and the share of income spent on health will increase — an argument known as Baumol's \"cost disease.\" [67][68][69][88][89][91]\n\nSystem design is also linked to spending levels. Systems that use primary care \"gatekeepers\" tend to have lower health expenditure, and systems in which patients first pay the provider and are reimbursed afterwards also tend to have lower spending levels than other arrangements. [78][79][86]\n\nIn developing countries, the capacity to raise revenue is itself a constraint. Developing countries with higher tax revenues tend to spend more on health, and Reeves et al. (2015) showed that tax revenue is an important statistical determinant of progress toward universal health coverage in developing countries. The same study suggests that progressive taxation of profits and capital gains can support the expansion of health coverage without the adverse effects on health outcomes observed with other high-rate taxes such as consumption taxes. These results can be read as indicating that increasing domestic tax revenue contributes substantially to achieving health coverage, particularly in countries with weak tax bases. [27][28][87][96]\n\n## The relationship between spending and health outcomes\n\nAs health expenditure rises, health outcomes improve, and the effect is especially large at low levels of spending. In international comparisons, countries with higher per capita health expenditure tend to have longer [life expectancy](/hubpedia/life-expectancy), and as countries have increased their spending, the life expectancy of their populations has risen. [3][4][5][29]\n\nThe relationship is not linear, however. The additional gain in life expectancy that accompanies increased spending follows a pattern of diminishing returns as spending grows. The diminishing returns are more pronounced in wealthy countries, and low-income countries starting from low spending levels can achieve substantial improvements in life expectancy from relatively small increases in spending. Indeed, many African countries have seen health spending increase substantially over the past two decades, with striking progress in which life expectancy rose by more than ten years. [22][70][71]\n\nThe same direction of relationship is observed for child survival. As spending on health increases, [child mortality](/hubpedia/child-mortality) (the under-five mortality rate) tends to fall, and child mortality in the richest countries is about one hundredth of that in the poorest. The proportional reduction in child mortality for a proportional increase in spending is remarkably similar in rich and poor countries alike. [6][31][72][90]\n\nSome countries depart from this relationship. The United States is cited as an outlier that has the highest health spending in the world yet achieves a comparatively short life expectancy that does not match it. In data on OECD countries since 1970, every country covered followed a path in which life expectancy rose as health spending increased, but that path was far flatter for the United States alone: especially since the mid-1980s, the gain in life expectancy from additional spending has been far smaller there than in other high-income countries. [30][73][74]\n\n## Coverage and the distribution of spending in the United States\n\nHealth financing in the United States differs from that of other high-income countries in that spending levels and coverage have moved separately. The number of uninsured people fell sharply with the creation of Medicare and Medicaid in 1965, but for decades afterwards total health insurance coverage remained roughly constant at about 85 percent while both private and public health spending continued to rise. The United States spends more per capita in government health expenditure than many countries that operate universal health insurance systems. [8][38][49]\n\nIn June 2012, the United States introduced the Affordable Care Act (ACA), a legislative reform intended to improve the accessibility, affordability, and quality of health care. Insurance coverage trends changed from 2012, when the ACA began to take effect, and the number of uninsured people fell sharply once again. States that expanded Medicaid saw larger declines in uninsured rates between 2013 and 2015, and the trend was especially pronounced in states that had large uninsured populations to begin with. [23][24][65][83]\n\nSpending is heavily concentrated among a small number of patients. In the United States, the top 1 percent of spenders account for more than 20 percent of total health spending, and in 2009 the top 5 percent of spenders accounted for nearly half of all spending. Spending among individuals enrolled in Medicaid is somewhat less concentrated than in the population as a whole. [39][50][92]\n\n## The role of development assistance funding\n\nHealth financing in low-income countries is supplemented by foreign funding. Since the establishment of the Millennium Development Goals, 227.9 billion dollars of development assistance funding had been directed toward health focus areas by 2014. Development assistance funding for health rose sharply between 2000 and 2010 but has been flat since then. The total may appear large, but it amounts to roughly 0.7 percent of the resources that high-income countries spend on their own health care. [43][58][60]\n\nDependence declines in stages along with income levels. In poor countries with a GDP per capita below 500 US dollars a year, aid funding accounts on average for about 45 percent of health spending; for countries up to 1,000 US dollars the figure is 34 percent, at 1,500 US dollars it is just under 30 percent, and up to 3,000 US dollars it is less than 25 percent. In most countries above 3,000 US dollars, aid funding remains below 5 percent of total health spending, and although middle-income countries do receive some aid, the weight of foreign funding is far smaller. By region, development assistance funding covers more than 25 percent of total health spending in sub-Saharan Africa. [59][62][63][64][75]\n\nAid does not necessarily add to domestic financing. Lu et al. (2010) showed a negative correlation between health development assistance to governments and governments' own domestically funded health budgets. This crowding-out effect is said to differ by aid channel, and [global health](/hubpedia/global-health) aid delivered through non-governmental organizations (NGOs) is also negatively correlated with government health budgets. [26][93]\n\nEven so, the returns on investment are held to be large. Well-targeted and well-managed global health aid is considered capable of substantially narrowing global health inequalities and raising living standards, and the health returns on health investment are assessed as particularly pronounced in low-income countries. In the majority of low- and middle-income countries, scaling up investment in health technologies and systems is held to be capable of reducing infectious, child, and maternal mortality to the levels of today's best-performing middle-income countries by 2035. On the demand side, there is empirical evidence that conditional cash transfers (CCTs) have significant effects on intended outcomes such as school enrollment, health, infant mortality, child labor, and poverty reduction. [21][66][94][95]\n\n## Related articles\n\n- [Economic Inequality](/hubpedia/economic-inequality)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T11:25:39.047Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "中央アフリカ共和国の一人当たり医療費支出は2019年に国際ドル100未満だった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "healthcare spending per capita was less than 100 international dollars in 2019"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "アメリカ合衆国の一人当たり医療費支出は国際ドル10,000を超える。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "the United States, where it was higher than 10,000 international dollars"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "医療費支出が増加すると、特に支出水準が低い段階において、健康アウトカムは良くなる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "health outcomes respond positively to increased healthcare spending, particularly at lower levels of expenditure"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "一人当たり医療費支出が多い国ほど、平均して平均寿命が長い傾向がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "countries with higher healthcare spending per capita generally exhibit longer life expectancy"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "各国が医療への支出を増やすほど、その人口の平均寿命は延びる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "as countries spend more on health, the population’s life expectancy increases"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "医療費支出が増加すると、小児死亡率は低下する傾向がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "as healthcare spending increases, child mortality rates decline"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "世界的に医療費支出には大きな格差があり、2019年時点で中央アフリカ共和国の一人当たり医療費支出は国際ドルで100ドル未満だったのに対し、米国は10,000国際ドルを超えていた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "where healthcare spending per capita was less than 100 international dollars in 2019, and the United States, where it was higher than 10,000 international dollars"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "1965年にメディケアとメディケイドが創設されたことに伴い、米国の無保険者数は急減した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "there was a sharp drop in the number of uninsured in 1965 with the creation of Medicare and Medicaid"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "国別に見ると、医療支出の最も強い予測因子は国民所得である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "the strongest predictor of healthcare spending is national income"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "一人当たり所得が高い国ほど、所得に占める医療支出の割合が大きくなる傾向がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "countries with a higher per capita income are much more likely to spend a larger share of their income on healthcare"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "国の医療費支出を最も強く予測するのはその国の国民所得である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "The strongest predictor of a country's healthcare spending is its national income."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "一人当たり所得が高い国ほど医療費支出が多い傾向がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "Countries with a higher per capita income tend to spend more on healthcare"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "医療財源に関する最も古いデータは19世紀後半にさかのぼる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "The earliest data on the financing of healthcare dates back to the late 19th century."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "フランス・オーストリア・ドイツなどのヨーロッパ諸国は1920年から1960年の間に医療保障を拡大した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "countries like France, Austria, and Germany expanded healthcare coverage between 1920 and 1960"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "スペイン・ポルトガル・ギリシャは1960年から1980年の間に医療保障を拡大した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "followed by Spain, Portugal, and Greece between 1960 and 1980"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "中国・ルワンダ・ベトナムは21世紀にほぼゼロから医療制度を急速に発展させ、10年ほどでほぼ皆保険を達成した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "China, Rwanda, and Vietnam rapidly developed their healthcare systems in the 21st century, almost from scratch, achieving near-universal coverage within just a decade"
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "自己負担支出（家計から医療提供者への直接支払い）の割合は世界的に大きく異なる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "Out-of-pocket spending — direct payments to healthcare providers by households — varies significantly around the world."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "フランスのような富裕国では自己負担支出は医療費総額のごく一部を占める。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "In richer countries like France, it represents a small fraction of total healthcare expenditure."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "アフガニスタンやナイジェリアのような貧しい国では自己負担支出が医療費支出の大半を占めることがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "But in poorer countries, such as Afghanistan and Nigeria, it can be the majority of healthcare spending."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "健康保険に関する最初の立法例は19世紀後半にさかのぼる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "The first examples of legislation on health insurance date back to the late 19th century."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "適切に対象を絞り管理された国際保健援助は、世界の健康格差を大きく縮小し、生活水準を向上させ得る。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "appropriately targeted and managed international health aid can significantly reduce global health inequalities and improve living standards worldwide"
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "医療費支出増加の逓減効果は富裕国でより大きく、当初の支出水準が低い低所得国は、比較的わずかな医療費支出の増加でも平均寿命を大幅に改善できる可能性がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "This effect is larger in wealthier countries, which suggests that lower-income countries, which have low initial spending, can substantially improve life expectancy by making relatively modest increases in healthcare spending."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "2012年のACA(医療保険制度改革法)導入に伴い、米国の無保険者数は再び急減した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "then another sharp drop in 2012 with the introduction of the ACA"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "メディケイドを拡大した州では、2013年から2015年にかけて無保険率の低下幅が大きく、特に元々の無保険人口が多かった州でその傾向が顕著だった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "those states that decided to expand their Medicaid programs saw larger reductions in their uninsured rates from 2013 to 2015, especially when those states had large uninsured populations to start with"
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "Newhouse(1977)は、国民所得の合計が医療支出水準の分散のほぼすべてを説明することを示した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "Newhouse (1977) showed that aggregate income explains almost all of the variance in the level of healthcare expenditure"
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "Lu et al.(2010)は、政府への保健開発援助と、政府の自主財源による保健予算との間に負の相関があることを示した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "Lu et al. (2010) use data from the IHME – the same data we discussed in the previous section – to show that there is a negative correlation between development assistance for health provided to governments, and government health funding from autonomous sources."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "税収の高い開発途上国ほど、医療支出が多くなる傾向がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "developing countries with higher tax revenues tend to spend more on healthcare"
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "Reeves et al.(2015)は、途上国において税収がユニバーサル・ヘルス・カバレッジへの進展の重要な統計的決定要因であることを示した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "Reeves et al. (2015) estimate the relationship between tax revenue and access to healthcare in developing countries, and find that tax revenue is an important statistical determinant of progress towards universal health coverage"
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "一人当たり医療支出が多い国ほど平均余命が高い傾向がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "countries with higher expenditure on healthcare per person tend to have a higher life expectancy"
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "米国は世界で最も高い医療支出を持つにもかかわらず、それに見合わない比較的短い平均余命しか達成していない外れ値の国である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "The US is an outlier that achieves only a comparatively short life expectancy considering the fact that the country has by far the highest health expenditure of any country in the world."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "最も豊かな国々の子ども死亡率は、最も貧しい国々の子ども死亡率の約100分の1である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "child mortality in the best-off countries is almost 100 times lower than in the worst"
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "一人当たりGDPは医療費支出に対して明確で有意な正の効果を持つ。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "there is a clear and significant positive effect of per capita GDP on healthcare spending"
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "多くのヨーロッパ諸国は19世紀後半に立法措置を通じて公式に医療制度を確立し始めた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "This is when many European countries began officially establishing healthcare systems through legislative acts."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "国ごとの医療費支出水準には非常に大きな差がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "But there are very large differences in the level of spending between countries."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "ロシアのような国では自己負担の医療費が増加している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "others like Russia have seen these costs increase"
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "公的資金による医療制度は啓蒙時代に起源を持つ遺産である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "Publicly funded healthcare is a legacy of the Age of Enlightenment."
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "初期の医療保険制度では、保険適用の拡大から数年後、強力な新治療法の発見とともに医療支出が上昇し始めた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "healthcare expenditure only began rising several years after the expansion of insurance coverage, with the discovery of powerful new treatments"
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "米国は、国民皆保険制度を運営する多くの国よりも、1人当たりの政府医療支出が多い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "the U.S. currently spends more government money per person on healthcare than many countries that fund universal programs"
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "米国では医療支出の集中度が高く、上位1%の支出者が総医療支出の20%超を占める。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "spending is so concentrated that the top 1% of spenders account for more than 20% of total healthcare expenditure"
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "世界所得に占める医療支出の割合は、過去数十年にわたり緩やかに増加してきた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "Global expenditure on healthcare as a share of world income has been increasing, steadily but slowly over the course of the last couple of decades."
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "高所得国は低所得国に比べ、所得に占める医療支出の割合が約2倍大きい。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "high-income countries spend – and have been spending – a much larger share of their income on healthcare than low-income countries (about twice as much)"
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "低中所得国では医療財源に占める公的資金の割合が低く、自己負担支出の割合は総支出の50%を超える国が多い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "in low and middle-income countries the public share of healthcare funding is much lower – although it has been catching up – and the role of out-of-pocket expenditures is much higher (above 50% of total expenditure in many countries)"
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "ミレニアム開発目標の導入後に急増した開発援助資金は、高所得国が医療に費やす資源の約0.7%に相当する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "These flows – which saw a steep increase after the introduction of the Millennium Development Goals – account for around 0.7% of the resources spent by high-income countries on healthcare."
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "1880年時点では、対象となったすべての高所得国で政府の医療支出はGDPの1%未満だった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "in 1880 government health spending was below 1% of GDP in all countries"
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "statement": "1970年までに、対象となったすべての高所得国で政府の医療支出はGDPの2%を超えていた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "by 1970 government spending on healthcare was above 2% of GDP in all these countries"
+            }
+          ]
+        },
+        {
+          "index": 46,
+          "statement": "20世紀後半の医療における大きな進歩は、とりわけペニシリンなど抗生物質の発見と利用に始まった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "medicine had major breakthroughs during the second half of the 20th century – beginning, notably, with the discovery and use of penicillin and other antibiotics"
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "statement": "第二次世界大戦以前、多くの欧州諸国では労働者向けの公的医療保険がすでにかなり普及していた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "public health insurance for workers was already substantial in a number of European countries before the Second World War"
+            }
+          ]
+        },
+        {
+          "index": 48,
+          "statement": "1929年までに図示された欧州11か国すべてが少なくとも任意加入の保険制度を持ち、1935年までにはその労働力人口の半数が健康保険に加入していた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "by 1929 all the eleven European countries shown in this visualization had at least voluntary insurance schemes; and that by 1935 half their labor force was covered by health insurance"
+            }
+          ]
+        },
+        {
+          "index": 49,
+          "statement": "米国では、数十年にわたり総医療保険加入率が約85%でほぼ一定に保たれる一方、民間・公的医療支出は継続的に増加した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "total health insurance coverage remained virtually constant at around 85% for decades, while private and public healthcare expenditures increased continuously over the same period"
+            }
+          ]
+        },
+        {
+          "index": 50,
+          "statement": "2009年の米国では、上位5%の支出者が支出全体のほぼ半分を占め、上位1%が20%超を占めた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "the top 5% of spenders account for almost half of spending, and the top 1% account for more than 20%"
+            }
+          ]
+        },
+        {
+          "index": 51,
+          "statement": "フランス、オーストリア、ドイツは1920年から1960年にかけて医療保障の対象を拡大したが、スペイン、ポルトガル、ギリシャはそれより遅れて1960年から1980年にかけて拡大した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "France, Austria, and Germany increased healthcare coverage in the years 1920-1960, while Spain, Portugal, and Greece did it later, in the years 1960-1980"
+            }
+          ]
+        },
+        {
+          "index": 52,
+          "statement": "中国、ルワンダ、ベトナムは21世紀にほぼゼロから医療保障制度を構築し、わずか10年でほぼ皆保険を達成した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "China, Rwanda, and Vietnam built health protection systems in the 21st century, almost from scratch, achieving near-universal coverage in only a decade"
+            }
+          ]
+        },
+        {
+          "index": 53,
+          "statement": "米国という顕著な例外を除き、すべての高所得国はほぼ完全な医療保険加入率を達成している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "all high-income countries have virtually full health insurance coverage, with the notable exception of the US"
+            }
+          ]
+        },
+        {
+          "index": 54,
+          "statement": "ガンビア、ルワンダ、バヌアツは、いずれも米国より医療保障の対象範囲が広い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "Gambia, Rwanda, and Vanuatu, for example, all have higher health protection coverage than the US"
+            }
+          ]
+        },
+        {
+          "index": 55,
+          "statement": "すべての国において、医療支出はGDPの4分の1未満に収まっている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "all countries spend less than a quarter of gross domestic product (GDP) on healthcare"
+            }
+          ]
+        },
+        {
+          "index": 56,
+          "statement": "大半の国では、医療支出はGDPの5〜12.5%の範囲にある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "most countries spend between 5-12.5 percent of GDP"
+            }
+          ]
+        },
+        {
+          "index": 57,
+          "statement": "世界中の人々は、実際の医療支出を大幅に過大評価している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "all over the world, people grossly overestimate actual healthcare spending"
+            }
+          ]
+        },
+        {
+          "index": 58,
+          "statement": "ミレニアム開発目標の設立以降、2014年までに2279億ドルの開発援助資金がこれらの保健重点分野に投じられた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "since the formation of the Millennium Development Goals, $227.9 billion in development assistance had targeted these health focus areas until 2014"
+            }
+          ]
+        },
+        {
+          "index": 59,
+          "statement": "サハラ以南アフリカでは、開発援助資金が総医療支出の25%超を賄っている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "in sub-Saharan Africa they finance more than 25% of total expenditure on healthcare"
+            }
+          ]
+        },
+        {
+          "index": 60,
+          "statement": "保健分野の開発援助資金は2000年から2010年にかけて急増したが、それ以降は横ばいとなった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "these funds increased sharply in the period 2000-2010, but plateaued since"
+            }
+          ]
+        },
+        {
+          "index": 61,
+          "statement": "高所得国では自己負担支出が医療支出のごく一部を占めるにとどまるが、低所得国では財源の大きな部分を占める。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "in high-income countries these outlays tend to account for only a small fraction of expenditure on healthcare; while in low-income countries, they account for a large part of funding"
+            }
+          ]
+        },
+        {
+          "index": 62,
+          "statement": "1人当たりGDPが年500米ドル未満の貧困国では、平均して医療支出の約45%を援助資金が占める。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "For poor countries with a per capita GDP of less than 500 US$ per year, donor funding accounts for approximately 45 percent of health expenditure, on average."
+            }
+          ]
+        },
+        {
+          "index": 63,
+          "statement": "1人当たりGDPが1000米ドルまでの国では援助資金の割合が34%に下がり、1500米ドルではおよそ30%弱、3000米ドルまででは25%未満となる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "This drops to 34 percent for countries up to 1000 US$; just under 30 percent when extended to 1500 US$; and below 25 percent up to 3000 US$ per capita per year"
+            }
+          ]
+        },
+        {
+          "index": 64,
+          "statement": "1人当たりGDPが年3000米ドルを超えるほとんどの国では、援助資金は総医療支出の5%未満とごくわずかな割合しか占めない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "For most countries with a GDP per capita of more than 3000 US$ per year, donor funding makes up a very small share of total expenditure—typically less than five percent"
+            }
+          ]
+        },
+        {
+          "index": 65,
+          "statement": "2012年6月、米国は医療のアクセス性・手頃さ・質の向上を目的とする法改正である医療保険制度改革法（ACA）を導入した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "In June 2012 the US introduced the Affordable Care Act (ACA) – a legal reform aiming to improve the accessibility, affordability, and quality of healthcare"
+            }
+          ]
+        },
+        {
+          "index": 66,
+          "statement": "低所得国・中所得国の大半では、医療技術とシステムへの投資を拡大することで、感染症・小児・妊産婦の死亡率を2035年までに、現在の最も優れた中所得国と同水準まで引き下げられるとされる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "With enhanced investments to scale up health technologies and systems, these rates in most low-income and middle-income countries would fall to those presently seen in the best-performing middle-income countries."
+            }
+          ]
+        },
+        {
+          "index": 67,
+          "statement": "医療支出は所得の変化だけでなく、価格の変化にも敏感である。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "healthcare spending is not only sensitive to changes in income (as discussed above), but in many instances, also sensitive to changes in prices"
+            }
+          ]
+        },
+        {
+          "index": 68,
+          "statement": "低所得国では価格感応性が極めて重要であり、重要な医療製品のわずかな費用の違いが需要に大きな差を生む。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "price sensitivity is so critical in low-income countries, that small costs for important healthcare products make a vast difference in demand"
+            }
+          ]
+        },
+        {
+          "index": 69,
+          "statement": "米国では20世紀を通じて、総合消費者物価指数（CPI）の伸びが、医療消費者物価指数（MCPI）の伸びを下回った。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "in the U.S., over the course of the 20th century, the growth in the consumer price index for all goods and services (CPI) was lower than the growth in the medical consumer price index (MCPI)"
+            }
+          ]
+        },
+        {
+          "index": 70,
+          "statement": "医療支出の増加に伴う平均余命の追加的な伸びは、支出が増えるほど逓減する（収穫逓減のパターン）。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "the additional increase in life expectancy associated with an increase in healthcare expenditure decreases as expenditure increases"
+            }
+          ]
+        },
+        {
+          "index": 71,
+          "statement": "多くのアフリカ諸国では過去20年間で医療支出が大幅に増加し、平均余命が10年以上延びる顕著な進歩が見られた。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "Many of the African countries (in purple) achieved remarkable progress over the last 2 decades: health spending often increased substantially and life expectancy in many African countries increased by more than 10 years."
+            }
+          ]
+        },
+        {
+          "index": 72,
+          "statement": "医療への支出が増えるほど、子どもの死亡率（5歳未満児死亡率）は低下する傾向がある。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "child mortality is declining as more money is spent on health"
+            }
+          ]
+        },
+        {
+          "index": 73,
+          "statement": "1970年以降のOECD諸国のデータでは、対象国はいずれも医療支出の増加とともに平均余命が上昇する経路をたどったが、米国だけはその経路がはるかに平坦な例外だった。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "all countries in this graph have followed an upward trajectory (life expectancy increased as health expenditure increased), but the U.S. stands out as an exception following a much flatter trajectory"
+            }
+          ]
+        },
+        {
+          "index": 74,
+          "statement": "米国では、特に1980年代半ば以降、追加的な医療支出による平均余命の伸びが他の高所得国に比べてはるかに小さかった。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "gains in life expectancy from additional health spending in the U.S. were much smaller than in the other high-income countries, particularly since the mid-1980s"
+            }
+          ]
+        },
+        {
+          "index": 75,
+          "statement": "中所得国では開発援助資金を一部受け取っているものの、その比重ははるかに小さく、対外資金は医療支出の5%未満にとどまる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "In middle-income countries, also receiving some of such development assistance funds, the weight is much lower – external funding accounts for less than 5% of spending in these countries."
+            }
+          ]
+        },
+        {
+          "index": 76,
+          "statement": "高所得国における対GDP政府医療支出は時間とともに大きく増加してきた。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "healthcare spending has risen substantially over time"
+            }
+          ]
+        },
+        {
+          "index": 77,
+          "statement": "近年、多くの国で医療費支出は比較的安定している。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "In recent decades, spending on healthcare has been relatively stable in countries."
+            }
+          ]
+        },
+        {
+          "index": 78,
+          "statement": "プライマリケアの「ゲートキーパー」を用いる制度は医療費支出を低くする傾向がある。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "the use of primary care “gatekeepers” seems to result in lower health expenditure"
+            }
+          ]
+        },
+        {
+          "index": 79,
+          "statement": "患者がまず医療提供者に支払い、後で払い戻しを受ける制度では、他の制度に比べ医療費支出水準が低くなる傾向がある。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "lower levels of health expenditure also appear to occur in systems where the patient first pays the provider and then seeks reimbursement, compared to other systems"
+            }
+          ]
+        },
+        {
+          "index": 80,
+          "statement": "公的部門の医療施設の多くは医薬品を低コストまたは無料で提供しており、貧困層への医療提供に不可欠である。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "Most health facilities in the public sector offer medicines at low cost or free of charge, so are essential in healthcare provision for the poor."
+            }
+          ]
+        },
+        {
+          "index": 81,
+          "statement": "多くの国で、医療へのアクセスは現在、憲法上の権利となっている。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "access to healthcare is currently a constitutional right in many countries"
+            }
+          ]
+        },
+        {
+          "index": 82,
+          "statement": "中世においては、西欧の大半で健康は運命の問題とみなされていた。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "during the Middle Ages health was considered a matter of destiny across most of Western Europe"
+            }
+          ]
+        },
+        {
+          "index": 83,
+          "statement": "米国の保険加入傾向は、医療保険制度改革法（ACA）が発効し始めた2012年以降に変化が見られた。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "an apparent change in coverage trends after 2012, when the ‘Affordable Care Act’ started kicking in"
+            }
+          ]
+        },
+        {
+          "index": 84,
+          "statement": "医療が主に民間の任意保険で賄われている国（米国など）でも、自己負担支出は低い水準にとどまる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "out-of-pocket spending is also low in countries where healthcare is largely financed through private funds in the form of private voluntary insurance (e.g. US)"
+            }
+          ]
+        },
+        {
+          "index": 85,
+          "statement": "公的医療支出も民間任意保険も低い国（インド、アフガニスタン、スーダンなど）では、自己負担支出が高くなる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "It is in countries with low public healthcare spending and low private voluntary insurance that out-of-pocket expenditure is high (e.g. India, Afghanistan, Sudan)"
+            }
+          ]
+        },
+        {
+          "index": 86,
+          "statement": "患者がまず医療提供者に支払い、その後に払い戻しを受ける仕組みの制度では、他の仕組みと比べて医療支出の水準が低くなる傾向がある。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "Lower levels of health expenditure also appear to occur in systems where the patient first pays the provider and then seeks reimbursement, compared to other systems."
+            }
+          ]
+        },
+        {
+          "index": 87,
+          "statement": "Reeves et al.(2015)は、利益や資本利得に対する累進的な課税は、消費税など他の高税率課税で見られる健康アウトカムへの悪影響を伴わずに医療保障の拡大を支えうると示唆した。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "Reeves et al. (2015) further suggest that pro-poor taxes on profits and capital gains may support expanding health coverage without the adverse associations with health outcomes observed for higher consumption taxes"
+            }
+          ]
+        },
+        {
+          "index": 88,
+          "statement": "多くの市場経済国では、医療分野は他の市場と資源を奪い合う市場の一つであるため、医療サービスの価格は他市場の生産性変化の影響を受ける。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "the prices for healthcare services are affected by productivity changes in other markets"
+            }
+          ]
+        },
+        {
+          "index": 89,
+          "statement": "医療産業の生産性が他産業より緩やかにしか伸びない場合、医療分野の価格はインフレ率より速く上昇し、所得に占める医療支出の割合も増加すると考えられる（この議論はボーモルの「コスト病」として知られる）。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "if the productivity of the healthcare industry increases slower than that of other industries (a probable scenario given that healthcare provision is particularly labor-intensive), then prices in the healthcare sector are likely to grow faster than inflation, and expenditure as a share of income is thus likely to grow (this argument is known as Baumol’s ‘cost disease’)"
+            }
+          ]
+        },
+        {
+          "index": 90,
+          "statement": "医療支出の比例的な増加に伴う子ども死亡率の比例的な低下幅は、豊かな国でも貧しい国でも驚くほど類似している。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "the proportional decline in child mortality associated with a proportional increase in health expenditure is remarkably similar"
+            }
+          ]
+        },
+        {
+          "index": 91,
+          "statement": "貧しい国の人々は医薬品価格への感応度が高く、わずかな費用でも必須医療製品の利用を大きく減らしうる。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "people in poorer countries have higher price sensitivity to medicines, and even minimal costs can significantly reduce people’s use of essential healthcare products"
+            }
+          ]
+        },
+        {
+          "index": 92,
+          "statement": "Medicaidに加入する個人の個人支出は、人口全体と比べて集中度がやや低い。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "personal spending for individuals covered by Medicaid is somewhat less concentrated than for the population as a whole"
+            }
+          ]
+        },
+        {
+          "index": 93,
+          "statement": "このクラウディングアウト効果は援助の経路によって異なり、非政府組織（NGO）経由の国際保健援助と政府の保健予算との相関も負である。",
+          "confidence": 0.7,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "this 'crowding-out' effect depends on the channel: the correlation between international health aid to non-governmental organizations and government health funding is negative"
+            }
+          ]
+        },
+        {
+          "index": 94,
+          "statement": "条件付き現金給付（CCT）は、就学・健康・乳幼児死亡率・児童労働・貧困削減といった意図された成果に有意な影響を与えるという実証的証拠がある。",
+          "confidence": 0.7,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "There is substantial evidence suggesting that CCTs have a significant impact on the intended outcomes, typically schooling, health, infant mortality, child labor, and poverty reduction."
+            }
+          ]
+        },
+        {
+          "index": 95,
+          "statement": "医療投資に対する健康面での見返りは大きく、特に低所得国においてその効果が顕著である。",
+          "confidence": 0.65,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "the health returns to healthcare investment suggested by the figures above are substantial, particularly for low-income countries"
+            }
+          ]
+        },
+        {
+          "index": 96,
+          "statement": "国内税収を増やすことは、特に課税基盤の弱い国においてユニバーサル・ヘルス・カバレッジの達成に大きく寄与すると解釈できる。",
+          "confidence": 0.6,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/financing-healthcare",
+              "quote": "the implication seems to be that increasing domestic tax revenues contributes importantly to achieving universal health coverage, particularly in countries with low tax bases"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

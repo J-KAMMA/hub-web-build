@@ -1,0 +1,163 @@
+/* マーケット・ウォレットの整理。意味のあるトークンだけを使う。 */
+
+.v2 .v2__main .v2-market-actions {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--v2-space-2);
+}
+
+.v2 .v2__main .v2-market-actions .ui-button {
+  text-decoration: none;
+}
+
+/* 市場TOPが全体で空のとき: 空表示1つだけを残し、ほかの節は畳む。 */
+.v2 .v2__main .v2-market-empty {
+  padding-top: var(--v2-space-6);
+}
+
+.v2 .v2__main:has([data-market-empty]) .v2-msec--rest {
+  display: none;
+}
+
+/* 狭い幅では題の横で折り返さず、ボタンを1行のまま縮める。 */
+@media (max-width: 560px) {
+  /* 狭い幅では上の帯に題と操作が並び切らない。操作を題の下の1行へ回す。 */
+  .v2 .v2__main .v2-top-title:has(.v2-market-actions) {
+    flex-wrap: wrap;
+  }
+
+  .v2 .v2__main .v2-top-title__action:has(.v2-market-actions) {
+    flex: 1 0 100%;
+    width: 100%;
+    max-width: none;
+    justify-content: flex-start;
+    padding: 0 0 var(--v2-space-2);
+  }
+
+  .v2 .v2__main .v2-market-actions {
+    flex-wrap: nowrap;
+    gap: var(--v2-space-2);
+  }
+
+  .v2 .v2__main .v2-market-actions .ui-button {
+    white-space: nowrap;
+  }
+}
+
+.v2 .v2__main .v2-filter-disclosure {
+  margin: 0 0 var(--v2-space-4);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius);
+  background: var(--panel);
+}
+
+.v2 .v2__main .v2-filter-disclosure > summary {
+  display: flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 0 var(--v2-space-3);
+  color: var(--muted);
+  font-size: var(--v2-text-sm);
+  cursor: pointer;
+  list-style: none;
+}
+
+.v2 .v2__main .v2-filter-disclosure > summary::-webkit-details-marker {
+  display: none;
+}
+
+.v2 .v2__main .v2-filter-disclosure > summary::after {
+  content: "+";
+  margin-left: auto;
+  color: var(--muted);
+}
+
+.v2 .v2__main .v2-filter-disclosure[open] > summary::after {
+  content: "-";
+}
+
+.v2 .v2__main .v2-filter-disclosure > summary:hover {
+  color: var(--text);
+}
+
+.v2 .v2__main .v2-filter-disclosure__body {
+  display: grid;
+  gap: var(--v2-space-3);
+  padding: var(--v2-space-3);
+  border-top: 1px solid var(--line);
+}
+
+.v2 .v2__main .v2-filter-disclosure__title {
+  margin: 0 0 var(--v2-space-1);
+  color: var(--muted);
+  font-size: var(--v2-text-sm);
+  font-weight: 600;
+}
+
+.v2 .v2__main .v2-filter-list,
+.v2 .v2__main .v2-filter-chips {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.v2 .v2__main .v2-filter-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+  gap: 2px var(--v2-space-3);
+}
+
+.v2 .v2__main .v2-filter-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--v2-space-1);
+}
+
+.v2 .v2__main .v2-filter-list a,
+.v2 .v2__main .v2-filter-chips a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--muted);
+  font-size: var(--v2-text-sm);
+  text-decoration: none;
+}
+
+.v2 .v2__main .v2-filter-list a {
+  min-height: 28px;
+}
+
+.v2 .v2__main .v2-filter-chips a {
+  padding: 2px 10px;
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius-pill);
+}
+
+.v2 .v2__main .v2-filter-list a:hover,
+.v2 .v2__main .v2-filter-chips a:hover {
+  color: var(--text);
+}
+
+.v2 .v2__main .v2-filter-list a[aria-current],
+.v2 .v2__main .v2-filter-chips a[aria-current] {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.v2 .v2__main .v2-filter-chips a[aria-current] {
+  background: var(--selected);
+}
+
+.v2 .v2__main .v2-filter-list small {
+  color: var(--muted);
+}
+
+/* 枠が唯一の可視h1を出す。本文側の同名h1は表示もアクセシビリティツリーからも外す。 */
+.v2 .v2__main .v2-market-body {
+  display: contents;
+}
+
+.v2 .v2__main .v2-market-body h1 {
+  display: none;
+}

@@ -1,0 +1,553 @@
+[
+  {
+    "slug": "candela",
+    "topicType": "concept",
+    "categoryLabel": "物理・化学・宇宙",
+    "title": "カンデラ",
+    "summary": "カンデラ（記号 cd）は、国際単位系（SI）における光度の基本単位である。物理的な放射の量そのものではなく、人間の目が感じる明るさに重み付けした量を測る点で、ワットなどの放射量の単位と区別される。名称はラテン語の「ろうそく」に由来し、炎や白熱する白金を基準とした歴史的な標準を経て、現在は視感効果度の定数 Kcd を683 lm/W と固定することで定義されている。",
+    "bodyMarkdown": "## 何を測る単位か\n\n同じ「明るさ」という日本語でも、測る対象が違えば単位が違う。カンデラが測るのは、光っているものを直接見たときに、その方向から目に届く光がどれだけ強く感じられるかである。SIでは測光、すなわち人間の視覚系が知覚する光の測定における基本単位に位置づけられている。 [1][4][19]\n\nそのため、カンデラは光源が出す光の総量を表さない。電球のパッケージに書かれているのはカンデラではなくルーメンで、これは全方向へ放たれる光を合計した量である。さらに、目に見えない電磁放射にはカンデラを使わない。電波やX線の強さはワットで測られる。カンデラという単位は、可視光であることと、人間が見ていることの両方を前提としている。 [2][3][18]\n\nこの前提の裏返しとして、カンデラには物理量としての測定に加えて生理学的な補正が組み込まれている。人間の視覚に対する調整を行わない光の強度は放射強度と呼ばれ、視覚感度を補正した測光量である光度とは別の量である。国際照明委員会（CIE）は、目が特定の色相に対してより敏感であることを勘定に入れる方法を定めた。 [36][37][38]\n\n名称そのものが、この単位の出自を示している。カンデラはラテン語で「ろうそく」を意味する語に由来する。 [5]\n\n## 立体角と光度の関係\n\n「ある方向における」という限定を数量として扱うために、光度の定義には立体角が現れる。立体角の単位はステラジアンで、半径1メートルの球を考えると、1ステラジアンの立体角が球面上に切り取る領域は面積1平方メートルの円になる。球全体を見込む立体角は4πステラジアンである。光度は、この立体角あたりで評価される量であり、光源を取り囲む全空間にわたって合計した量とは別物である。 [16][17][39]\n\n## 測光学の成立と初期の標準\n\n近代的な測光学の起点として挙げられるのが、1729年にフランスの科学者ピエール・ブーゲが行った測定である。ブーゲは[太陽の光が月の光より300倍強い](/hubpedia/sun)と測った。星の明るさを比べる見かけの等級の尺度も古く、古代ギリシャに由来する体系が1856年に整理・成文化されたものである。一方で白熱電球の発明は150年足らず前のことであり、光を人工的に安定して作り出せるようになったのは測光学の歴史のなかでは新しい。 [10][28][29]\n\n人工光源の登場は測光学を加速させた。白熱灯とガスマントルの発明により、この分野ははるかに速く進歩したとされる。基準となる光源をどう選ぶかは、当時の中心的な問題だった。1879年、フランスの物理学者ジュール・ヴィオールは白金を融点である摂氏1770度まで加熱し、その金属の輝きに光度の基準を結びつけようと試みた。 [11][45]\n\n標準は国ごとに分かれてもいた。1909年、英国・フランス・米国は「国際キャンドル」を光度の単位として採用した。ドイツで用いられたヘフナーキャンドルは、国際キャンドルの0.9倍の大きさとみなされていた。米国国家標準局（NBS）では1903年頃に測光の研究が始まり、ヘフナー炎標準に対して校正された炭素フィラメント電球群が、光度の最初の国家基準標準として設定された。各国が標準的な測定単位について合意することを助けるための機関としては、1875年に国際度量衡局（BIPM）が設立されている。 [9][12][30][31][32]\n\n炎から白熱体へという流れは1933年に一つの合意へ到達する。この年、科学界は白金の融点における黒体の光度に基づく単位を作ることで一致した。カンデラという単位の最初の定義が定められたのは1948年である。 [13][14]\n\n## 定義の変遷\n\n1948年の定義は、物質としての白金と特定の物理条件に依存していた。すなわち、101,325ニュートン毎平方メートルの圧力の下で、摂氏の凝固点にある白金の黒体の1/600,000平方メートルの表面の垂直方向における光度、というものである。基準を再現するには、白金を融点付近まで加熱した黒体炉を実際に作る必要があった。1970年代には、500ワットのガス入り白熱電球が光度標準として使われている。 [6][33]\n\n1979年、国際度量衡総会（CGPM）は新しい定義を採択した。新定義では、カンデラは、周波数540×10^12ヘルツの単色放射を放出し、その方向の放射強度が1/683ワット毎ステラジアンである光源の、ある方向における光度とされた。この周波数は緑色の色相にあたり、よく照らされた部屋で人間の目が最も敏感に捉える緑の色合いを指している。 [7][8][15][27]\n\nこの改定は、単位の適用範囲ではなく定義の足場を絞り込むものだった。可視スペクトル全体ではなく特定の1つの光の周波数を指定した点で、従来の定義を狭めるものだったと整理されている。実務上の意味は大きく、1979年の再定義によって、校正された光放射検出器を用いて単位を実現することが可能になった。 [21][34]\n\n2019年5月20日付で、定義の文言は1979年のものよりはるかに複雑なものへ改められた。現行の定義は、周波数540×10^12 Hzの単色放射の視感効果度を表す固定数値 Kcd を、単位 lm・W⁻¹ で表したときに683と定めることによって与えられる。この Kcd は683ルーメン毎ワットに等しく、[SI基本単位を定義する7つの定数](/hubpedia/defining-constants)の一つである。同種の方式は他の単位にも用いられており、たとえばプランク定数 h は正確に6.626 070 15×10⁻³⁴ジュール秒に等しいとされ、この値は2017年に確定した。 [20][22][23][24][44]\n\n## 実現方法と測定精度\n\n定数を固定する定義は、その定数から実際に単位を作り出す手段があって初めて機能する。NISTは1990年代初頭、人間の視覚応答に分光的に合致するフィルターを備えたシリコンダイオード光検出器を用いてこの手法を実装した。これは米国においてカンデラを実現するために検出器デバイスが用いられた最初の事例であった。 [25][40]\n\n検出器の応答を波長ごとに較正できるかどうかが、実現の精度を左右する。プリズムで光を分割して各色を光度計に通す従来の方法では、およそ2×10^12ヘルツ（2ナノメートル）幅のスペクトルにわたる応答度しか得られなかった。NISTは特定の波長に調整可能なパルスレーザー光源を開発し、個々の色をおよそ0.1×10^12ヘルツ（0.1ナノメートル）幅まで狭く定義できるようにした。 [41][42]\n\nそれでもカンデラは、SI基本単位のなかでは精度の低い部類にとどまる。秒が10億分の10億秒という精度で測定できるのに対し、カンデラは1000分の1、すなわち0.1%以内の精度でさえ測定できない。 [26]\n\n## 視覚感度に依存することの限界\n\nカンデラの定義に組み込まれた視覚感度は、条件によらず一定ではない。人間の目は、少なくとも昼間は黄緑色の光に最も敏感である。しかし夜間、たとえば車を運転する場面では、目は青色の光に最も敏感になる。定義が単一の周波数と一つの視感効果度に基づいている以上、この条件差は単位の適用にあたって考慮すべき事柄として残る。 [35][43]\n\n## 関連記事\n\n- [国際単位系](/hubpedia/international-system-of-units)\n- [アンペア](/hubpedia/ampere)\n- [ケルビン](/hubpedia/kelvin)\n- [モル](/hubpedia/mole)\n- [月](/hubpedia/moon)",
+    "sources": [
+      {
+        "url": "https://www.nist.gov/si-redefinition/candela",
+        "title": "The Candela — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The measurement institute's own account of candela. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.nist.gov/si-redefinition/meet-constants",
+        "title": "Meet the Constants — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The defining constants every base unit is now fixed against. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Candela",
+        "summary": "The candela (symbol cd) is the SI base unit of luminous intensity in the International System of Units (SI). It is distinguished from units of radiant quantities such as the watt in that it measures not the physical amount of radiation itself, but a quantity weighted according to the brightness perceived by the human eye. The name derives from the Latin word for \"candle,\" and after historical standards based on flames and incandescent platinum, it is now defined by fixing the luminous efficacy constant Kcd at 683 lm/W.",
+        "bodyMarkdown": "## What the unit measures\n\nEven under the single English word \"brightness,\" a different object of measurement calls for a different unit. What the candela measures is how strongly the light reaching the eye from a given direction is perceived when one looks directly at something that is glowing. In the SI it is positioned as the base unit of photometry, that is, of the measurement of light as perceived by the human visual system. [1][4][19]\n\nFor that reason, the candela does not express the total amount of light a source emits. What is printed on a light bulb package is not candelas but lumens, which is the quantity obtained by summing the light emitted in all directions. Furthermore, the candela is not used for electromagnetic radiation that is invisible to the eye. The strength of radio waves and X-rays is measured in watts. The unit candela presupposes both that the radiation is visible light and that a human being is looking at it. [2][3][18]\n\nAs the converse of this presupposition, the candela incorporates a physiological correction in addition to measurement as a physical quantity. The strength of light without adjustment for human vision is called radiant intensity, and it is a quantity distinct from luminous intensity, the photometric quantity corrected for visual sensitivity. The International Commission on Illumination (CIE) established the method for taking into account that the eye is more sensitive to certain hues. [36][37][38]\n\nThe name itself indicates the unit's origin. Candela derives from the Latin word meaning \"candle.\" [5]\n\n## The relationship between solid angle and luminous intensity\n\nIn order to treat the qualifier \"in a given direction\" as a quantity, solid angle appears in the definition of luminous intensity. The unit of solid angle is the steradian: considering a sphere of radius 1 meter, the region a solid angle of 1 steradian cuts out on the spherical surface is a circle with an area of 1 square meter. The solid angle subtending the entire sphere is 4π steradians. Luminous intensity is a quantity evaluated per unit of this solid angle, and it is a different thing from a quantity summed over the whole space surrounding a source. [16][17][39]\n\n## The rise of photometry and its early standards\n\nOften cited as the starting point of modern photometry is a measurement carried out in 1729 by the French scientist Pierre Bouguer. Bouguer measured [the light of the Sun to be 300 times stronger than that of the Moon](/hubpedia/sun). The scale of apparent magnitude for comparing the brightness of stars is also old, a system originating in ancient Greece that was organized and codified in 1856. The invention of the incandescent light bulb, on the other hand, was less than 150 years ago, and the ability to produce light artificially and stably is recent within the history of photometry. [10][28][29]\n\nThe advent of artificial light sources accelerated photometry. With the invention of the incandescent lamp and the gas mantle, the field is said to have advanced far more rapidly. How to choose the source to serve as a reference was a central problem of the time. In 1879, the French physicist Jules Violle heated platinum to its melting point of 1770 degrees Celsius, attempting to tie the standard of luminous intensity to the glow of that metal. [11][45]\n\nStandards were also divided by country. In 1909, the United Kingdom, France, and the United States adopted the \"international candle\" as the unit of luminous intensity. The Hefner candle used in Germany was regarded as 0.9 times the size of the international candle. At the United States National Bureau of Standards (NBS), photometric research began around 1903, and a group of carbon-filament lamps calibrated against the Hefner flame standard was established as the first national reference standard of luminous intensity. As an institution to help countries agree on standard units of measurement, the International Bureau of Weights and Measures (BIPM) was founded in 1875. [9][12][30][31][32]\n\nThe move from flames to incandescent bodies reached an agreement in 1933. In that year, the scientific community concurred on creating a unit based on the luminous intensity of a blackbody at the melting point of platinum. The first definition of the unit candela was established in 1948. [13][14]\n\n## Changes in the definition\n\nThe 1948 definition depended on platinum as a material and on specific physical conditions: namely, the luminous intensity, in the perpendicular direction, of a surface of 1/600,000 square meter of a blackbody of platinum at the temperature of solidification in degrees Celsius, under a pressure of 101,325 newtons per square meter. To reproduce the standard, one had to actually build a blackbody furnace heating platinum to near its melting point. In the 1970s, 500-watt gas-filled incandescent lamps were used as luminous intensity standards. [6][33]\n\nIn 1979, the General Conference on Weights and Measures (CGPM) adopted a new definition. Under it, the candela was defined as the luminous intensity, in a given direction, of a source that emits monochromatic radiation of frequency 540×10^12 hertz and that has a radiant intensity in that direction of 1/683 watt per steradian. This frequency corresponds to a green hue, indicating the shade of green to which the human eye is most sensitive in a well-lit room. [7][8][15][27]\n\nThis revision narrowed the footing of the definition, not the scope of the unit's application. In specifying a single frequency of light rather than the whole visible spectrum, it has been characterized as narrowing the previous definition. Its practical significance was large: the 1979 redefinition made it possible to realize the unit using calibrated optical radiation detectors. [21][34]\n\nEffective May 20, 2019, the wording of the definition was revised into something far more complex than the 1979 version. The current definition is given by fixing the numerical value Kcd, the luminous efficacy of monochromatic radiation of frequency 540×10^12 Hz, at 683 when expressed in the unit lm·W⁻¹. This Kcd is equal to 683 lumens per watt and is one of the [seven constants that define the SI base units](/hubpedia/defining-constants). The same approach is used for other units as well; for example, the Planck constant h is taken to be exactly 6.626 070 15×10⁻³⁴ joule second, a value fixed in 2017. [20][22][23][24][44]\n\n## Realization and measurement accuracy\n\nA definition that fixes a constant works only once there is a means of actually producing the unit from that constant. In the early 1990s, NIST implemented this approach using silicon diode photodetectors equipped with filters spectrally matched to the human visual response. This was the first instance in which detector devices were used to realize the candela in the United States. [25][40]\n\nWhether a detector's response can be calibrated wavelength by wavelength governs the accuracy of the realization. The conventional method of splitting light with a prism and passing each color through a photometer yielded responsivity only over spectral widths of roughly 2×10^12 hertz (2 nanometers). NIST developed a pulsed laser source tunable to specific wavelengths, making it possible to define individual colors as narrowly as about 0.1×10^12 hertz (0.1 nanometer). [41][42]\n\nEven so, the candela remains among the less precise of the SI base units. Whereas the second can be measured to a precision of one part in a billion of a billion, the candela cannot be measured even to one part in a thousand, that is, to within 0.1%. [26]\n\n## The limits of depending on visual sensitivity\n\nThe visual sensitivity built into the definition of the candela is not constant regardless of conditions. The human eye is most sensitive to yellow-green light, at least in daytime. At night, however, such as when driving a car, the eye becomes most sensitive to blue light. So long as the definition rests on a single frequency and one value of luminous efficacy, this difference in conditions remains a matter to be taken into account when applying the unit. [35][43]\n\n## Related articles\n\n- [International System of Units](/hubpedia/international-system-of-units)\n- [Ampere](/hubpedia/ampere)\n- [Kelvin](/hubpedia/kelvin)\n- [Mole](/hubpedia/mole)\n- [Moon](/hubpedia/moon)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:16:46.706Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "カンデラはSIにおける測光(人間の視覚系によって知覚される光の測定)の基本単位である。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "The candela is the SI’s base unit for photometry—the science of measuring light as perceived by the human visual system."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "カンデラは物体から出る光の総量を表すものではなく、その用途にはルーメンという別の単位が用いられる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "It does not represent the entire amount of light shining from an object; we have a different unit called the lumen for that."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "カンデラは目に見えないあらゆる種類の電磁放射には用いられず、電波やX線などはワットで測定される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "It is not used for every kind of electromagnetic radiation; radio waves, X-rays and other types of light our eyes cannot detect are measured in watts of power."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "カンデラは、見える光源から直接目に入る、目に見える光を測定する単位である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "It measures light we can see, coming directly from a source we can see, straight into our eyes."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "「カンデラ」という名称はラテン語で「ろうそく」を意味する語に由来する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "Its name is the Latin word for “candle,”"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "1948年のカンデラの定義は「摂氏の凝固点にある白金の黒体の1/600,000平方メートルの表面の垂直方向における光度、101,325ニュートン毎平方メートルの圧力の下で」というものであった。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "the luminous intensity, in the perpendicular direction, of a surface of 1/600,000 square meter of a black body at the temperature of freezing platinum under a pressure of 101,325 newtons per square meter"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "1979年、国際度量衡総会(CGPM)はカンデラの新しい定義を採択した。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "In 1979, the General Conference on Weights and Measures (CGPM) adopted a new definition"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "1979年の定義では、カンデラ(cd)は周波数540×10^12ヘルツの単色放射を放出し、その方向の放射強度が1/683ワット毎ステラジアンである光源の、ある方向における光度と定義された。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "The candela (cd) is the luminous intensity, in a given direction, of a source that emits monochromatic radiation of frequency 540 × 1012 hertz and that has a radiant intensity in that direction of 1/683 watt per steradian."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "国際度量衡局(BIPM)は1875年に、各国が標準的な測定単位について合意するのを助けるために設立された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "even in 1875, when the International Bureau of Weights and Measures (BIPM) was created to help nations agree on standard measurement units"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "近代的な測光学は1729年、フランスの科学者ピエール・ブーゲが太陽の光は月の光より300倍強いと測定したことに遡る。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "What we would recognize as modern photometry stretches back to 1729, when French scientist Pierre Bouguer made measurements determining the light of the Sun to be 300 times more intense than that of the Moon."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "フランスの物理学者ジュール・ヴィオールは1879年、白金をその融点(摂氏1770度)まで加熱し、その金属の輝きに光度の基準を結びつけようとした。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "French physicist Jules Violle attempted to sidestep these issues in 1879 by heating platinum to its melting point (1770 C, or 3220 F) and tying luminosity to the metal’s glow."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "1909年に英国・フランス・米国は「国際キャンドル」を光度の単位として採用した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "culminated in the adoption in 1909 of the \"international candle\" as the unit in England, France, and the United States"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "1933年、科学界は白金の融点における黒体の光度に基づく単位を開発することに合意した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "In 1933, the scientific community agreed to develop units based on the luminous intensity—essentially the power emitted by a light in a particular direction—of a black body at platinum’s melting point."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "カンデラの最初の定義は1948年に定められた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "expressed by the first definition of the candela from 1948"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "周波数540×10^12ヘルツは緑色の色相にあたる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "The frequency 540 × 1012 hertz is a hue of green."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "立体角の単位はステラジアンである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "This three-dimensional angle stretching out from the center to the surface is measured in steradians, the unit of solid angle."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "球全体の立体角は4πステラジアンである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "the solid angle of a sphere is 4π steradians"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "電球の明るさはカンデラではなくルーメンで示され、全方向に放たれる光の総量を表す。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "When you purchase a lightbulb, its brightness is given not in candelas but in lumens, which tells you how much light it puts out in total"
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "カンデラは、光源を直接見たときにその光がどれだけ明るく目に映るかを測る尺度である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "The candela, on the other hand, is a measure of how brightly the light source will appear to your eye if you look directly at it."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "SI基本単位を定義する7つの定数の一つであるKcdは683ルーメン毎ワットに等しい。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "This constant, Kcd, is equal to 683 lumens per watt"
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "1979年のカンデラ再定義により、校正された光放射検出器を用いて単位を実現することが可能になった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "The 1979 redefinition of the candela made it possible to realize the unit using calibrated detectors of optical radiation."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "2019年5月20日付で、カンデラの定義は1979年の定義よりはるかに複雑な文言に変更された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "As of May 20, 2019, the definition of the candela has changed to a far more complicated wording than the 1979 definition."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "現行の定義では、カンデラは周波数540×10^12Hzの単色放射の光視効果の固定数値Kcdを、単位lm・W⁻¹で表したとき683と定めることによって定義される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "The candela is defined by taking the fixed numerical value of the luminous efficacy of monochromatic radiation of frequency 540×1012 Hz, Kcd, to be 683 when expressed in the unit lm⋅W−1, which is equal to cd⋅sr⋅W−1, or cd⋅sr⋅kg−1⋅m−2⋅s3, where the kilogram, meter and second are defined in terms of h, c and ΔνCs"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "Kcdは683ルーメン毎ワットに等しく、カンデラの定義に用いられる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "Kcd is equal to 683 lumens per watt and helps to define the candela."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "NISTは1990年代初頭、人間の視覚応答に分光的に合致するフィルターを備えたシリコンダイオード光検出器を用いてこの手法を実装した。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "NIST implemented this technique in the early 1990s with this artifact, a silicon diode photodetector which included a filter that spectrally matched the accepted human visual response."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "秒は10億分の10億秒の精度で測定できるのに対し、カンデラは1000分の1(0.1%)以内の精度でさえ測定できない。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "We can measure the second to an accuracy of a billionth of a billionth of a second, but the candela not even to within one part in a thousand (0.1%)."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "「540×10^12ヘルツの単色放射」とは、よく照らされた部屋で人間の目が最も敏感に捉える緑色の光の色合いを指す。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "“Monochromatic radiation of frequency 540 × 1012 hertz” is simply green light, specifically the shade of green light that the human eye can pick up most sensitively in a well-lit room."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "白熱電球の発明は150年足らず前の出来事である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "The creation of incandescent lamps less than 150 years ago up through our contemporary LEDs and smartphone screens has demanded a means to describe how intense these artificial light sources would appear"
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "星の明るさを比較する見かけの等級尺度は、1856年に整理・成文化された古代ギリシャの体系に基づいている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "The apparent magnitude scale we still use for comparing the brightness of stars builds on an ancient Greek system refined and codified in 1856."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "米国国家標準局(NBS)では1903年頃に測光の研究が開始された。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "When work in photometry was initiated at the National Bureau of Standards (NBS) around 1903"
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "Hefner炎標準に対して校正された炭素フィラメント電球群が、光度の最初の国家基準標準として設定された。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "a group of carbon-filament lamps calibrated against Hefner flame standards were set up as the first National Reference Standard of luminous intensity"
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "ドイツのヘフナーキャンドルは国際キャンドルの0.9倍の大きさとみなされた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "with the Hefner candle of Germany considered as 0.9 as large as the international candle"
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "500ワットのガス入り白熱電球が1970年代に光度標準として使用された。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "This artifact is a 500 Watt gas-filled incandescent lamp and was used as the luminous intensity standard in the 1970s."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "1979年の定義は、可視スペクトル全体ではなく特定の1つの光の周波数を指定した点で、従来の定義を狭めるものだった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "The 1979 definition narrowed the previous formulation in one notable respect: It specified one particular frequency of light, not the entire visible spectrum."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "人間の目は少なくとも昼間は黄緑色の光に最も敏感である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "our eyes—in the daytime at least—are most sensitive to greenish-yellow light"
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "国際照明委員会(CIE)は、目の特定の色相への感度の高さを考慮する方法を作成した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "the International Commission on Illumination (CIE) has created a method of accounting for the eye’s greater sensitivity to certain hues"
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "放射強度(radiant intensity)は人間の視覚に対する調整を伴わない光の強度である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "“radiant intensity” is the intensity of light without adjustments for human vision"
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "光度(luminous intensity)は人間の視覚感度を補正した測光的な単位である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "luminous intensity is a “photometric” unit that compensates for human visual sensitivity"
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "半径1メートルの球において、1ステラジアンの立体角の底面は、その球面上で1平方メートルの面積を占める円になる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "If you had a sphere whose radius was one meter, a one-steradian section’s base would be a circle marking out an area of one square meter of its surface."
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "これは米国においてカンデラを実現するために検出器デバイスが用いられた最初の事例であった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "This was the first use of a detector device to realize the candela for the United States"
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "プリズムで光を分割して各色を光度計に通す従来の方法では、約2×10^12ヘルツ(2ナノメートル)幅のスペクトルの応答度しか得られない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "This method allows scientists to obtain responsivities of slices of the spectrum that are about 2 x 1012 hertz wide (2 nanometers)"
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "NISTは特定の波長に調整可能なパルスレーザー光源を開発し、個々の色を約0.1×10^12ヘルツ(0.1ナノメートル)幅まで狭く定義できるようにした。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "NIST has spent the past few years creating a pulsed laser light source that can be tuned to very particular wavelengths, so that the individual colors are more narrowly defined—only about 0.1 x 1012 hertz (0.1 nm) wide."
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "人間の目は夜間、車を運転する際には青色の光に最も敏感になる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "when we are driving a car at night we are most sensitive to blue"
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "プランク定数hは正確に6.626 070 15×10⁻³⁴ジュール秒に等しく、この値は2017年に確定した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "the Planck constant h is equal to exactly 6.626 070 15 × 10-34 Joule seconds. This value for the Planck constant was only finalized in 2017"
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "statement": "白熱灯とガスマントルの発明により測光学ははるかに急速に進歩した。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/candela",
+              "quote": "Photometry progressed far more rapidly with the inventions of the incandescent lamp and the gas mantle."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

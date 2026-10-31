@@ -1,0 +1,320 @@
+.v2-gate,
+.v2-gate-card,
+.v2-gate-attach {
+  display: grid;
+  gap: var(--v2-space-3, 12px);
+  max-width: var(--v2-measure, 40rem);
+  color: var(--text);
+}
+
+.v2-gate-card {
+  padding: var(--v2-space-4, 16px);
+  border: var(--divider);
+  border-radius: var(--v2-radius, 8px);
+  background: var(--content-surface);
+}
+
+.v2-gate-card__title,
+.v2-gate-card__state,
+.v2-gate-card__description,
+.v2-gate-card__match,
+.v2-gate-card__acquire {
+  margin: 0;
+}
+
+.v2-gate-card__state,
+.v2-gate-card__match {
+  color: var(--muted);
+}
+
+.v2-gate-card__conditions,
+.v2-gate__list,
+.v2-gate__item ul {
+  margin: 0;
+  padding-left: 1.2em;
+}
+
+.v2-gate__list {
+  display: grid;
+  gap: var(--v2-space-3, 12px);
+  padding: 0;
+  list-style: none;
+}
+
+.v2-gate__item {
+  display: grid;
+  gap: var(--v2-space-2, 8px);
+  padding: var(--v2-space-3, 12px);
+  border: var(--divider);
+  border-radius: var(--v2-radius, 8px);
+}
+
+.v2-gate__form,
+.v2-gate__condition {
+  display: grid;
+  gap: var(--v2-space-3, 12px);
+}
+
+.v2-gate__condition {
+  margin: 0;
+  padding: var(--v2-space-3, 12px);
+  border: var(--divider);
+  border-radius: var(--v2-radius, 8px);
+}
+
+.v2-gate__field {
+  display: grid;
+  gap: 4px;
+  font-size: var(--v2-text-sm, 0.875rem);
+}
+
+.v2-gate__field input,
+.v2-gate__field select,
+.v2-gate__field textarea {
+  min-height: 32px;
+  padding: 4px 8px;
+  border: var(--divider);
+  border-radius: var(--v2-radius, 8px);
+  background: var(--field);
+  color: var(--text);
+  font: inherit;
+}
+
+.v2-gate__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--v2-space-2, 8px);
+  align-items: center;
+}
+
+.v2-gate__button {
+  min-height: 32px;
+  padding: 0 12px;
+  border: var(--divider);
+  border-radius: var(--v2-radius, 8px);
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  cursor: pointer;
+}
+
+a.v2-gate__button {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.v2-gate-card__details {
+  display: grid;
+  gap: var(--v2-space-2, 8px);
+  color: var(--muted);
+  font-size: var(--v2-text-sm, 0.875rem);
+}
+
+.v2-gate-card__details > summary {
+  cursor: pointer;
+}
+
+.v2-gate__button--primary {
+  border-color: var(--emphasis);
+  background: var(--emphasis);
+  color: var(--text-on-emphasis);
+}
+
+.v2-gate__button--danger {
+  color: var(--danger);
+}
+
+.v2-gate__button:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.v2-gate__link {
+  color: var(--link-color);
+}
+
+/* 作成面では操作列の1つとして並び、開いた中身は次の行へ広げる。 */
+.v2-gate-attach-toggle {
+  display: contents;
+}
+
+.v2-gate-attach-toggle > .v2-gate-attach {
+  flex: 1 0 100%;
+  order: 10;
+  max-width: none;
+}
+
+/* ハブ内の GohoToken 購入（販売元 GohoToken）。 */
+.v2-gate-purchase {
+  display: grid;
+  gap: 8px;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: var(--divider);
+}
+
+.v2-gate-purchase h3,
+.v2-gate-purchase__seller {
+  margin: 0;
+}
+
+.v2-gate-purchase dl {
+  display: grid;
+  gap: 4px;
+  margin: 0;
+}
+
+/* 閲覧条件つきの投稿・記事の添付ファイル。 */
+.v2-content-files {
+  display: grid;
+  gap: 8px;
+  margin-block: 12px;
+  padding: 12px;
+  border: var(--divider);
+  border-radius: 8px;
+  background: var(--content-surface);
+  color: var(--text);
+}
+
+.v2-content-files__title {
+  margin: 0;
+}
+
+.v2-content-files__list {
+  display: grid;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.v2-content-files__item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.v2-content-files__name {
+  overflow-wrap: anywhere;
+}
+
+.v2-content-files__upload {
+  display: grid;
+  gap: 4px;
+}
+
+.v2-gate__resolved {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: var(--v2-space-1, 4px) var(--v2-space-3, 12px);
+  margin: 0;
+  padding: var(--v2-space-3, 12px);
+  border: var(--divider);
+  border-radius: var(--v2-radius, 8px);
+  background: var(--content-surface);
+  color: var(--text);
+}
+
+.v2-gate__resolved dt {
+  color: var(--muted);
+}
+
+.v2-gate__resolved dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.v2-gate-card__headline {
+  margin: 0;
+  font-weight: 600;
+}
+
+/* 開くまでの手順（鍵付きカード）。 */
+.v2-gate-steps {
+  display: grid;
+  gap: 4px;
+  margin: 0;
+  padding-left: 1.5em;
+  color: var(--muted);
+}
+
+.v2-gate-steps__item[data-done="true"] {
+  color: var(--text);
+}
+
+.v2-gate-attach__summary {
+  margin: 0;
+}
+
+.creator-sell {
+  display: grid;
+  gap: var(--v2-space-3, 12px);
+  padding: var(--v2-space-4, 16px);
+  border: var(--divider);
+  border-radius: var(--v2-radius, 8px);
+  background: var(--content-surface);
+  color: var(--text);
+}
+
+.creator-sell h2,
+.creator-sell p {
+  margin: 0;
+}
+
+.creator-sell p {
+  color: var(--muted);
+}
+
+.creator-sell__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--v2-space-2, 8px);
+}
+
+.creator-sell__button {
+  padding: var(--v2-space-2, 8px) var(--v2-space-3, 12px);
+  border: var(--divider);
+  border-radius: var(--v2-radius, 8px);
+  color: var(--text);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.v2-post__lock {
+  padding: 0 var(--v2-space-2, 8px);
+  border: var(--divider);
+  border-radius: var(--radius-pill);
+  color: var(--muted);
+  font-size: 0.8em;
+}
+
+.v2-post__gate-line {
+  margin: 0;
+  color: var(--muted);
+}
+
+.v2-post__gate-actions {
+  margin: var(--v2-space-2, 8px) 0 0;
+}
+
+/* 鍵の一覧: 題・条件・付け先を1枚のカードにまとめる。 */
+.v2-gate__title {
+  font-size: var(--v2-text-md, 1rem);
+}
+
+.v2-gate__meta {
+  color: var(--muted);
+  font-size: var(--v2-text-sm, 0.875rem);
+}
+
+.v2-gate__item {
+  background: var(--content-surface);
+}
+
+.v2-gate__item ul {
+  display: grid;
+  gap: 2px;
+  font-size: var(--v2-text-sm, 0.875rem);
+}

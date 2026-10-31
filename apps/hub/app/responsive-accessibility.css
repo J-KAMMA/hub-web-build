@@ -1,0 +1,532 @@
+/*
+ * Responsive and accessibility recovery layer.
+ * This file protects reflow, focus, target size, long content and system
+ * preferences without changing page-specific information architecture.
+ */
+
+:where(#hub-main, .shell, .main-content, .shell__left, .shell__right) {
+  min-width: 0;
+}
+
+:where(
+  .main-content,
+  .timeline-rail,
+  dialog,
+  [role="dialog"]
+) :where(
+  article,
+  section,
+  form,
+  fieldset,
+  header,
+  footer,
+  nav,
+  div,
+  label
+) {
+  min-width: 0;
+}
+
+:where(.main-content, .timeline-rail) :where(
+  h1,
+  h2,
+  h3,
+  h4,
+  p,
+  li,
+  dd,
+  dt,
+  strong,
+  small,
+  code,
+  pre,
+  output,
+  blockquote
+) {
+  overflow-wrap: anywhere;
+}
+
+:where(.main-content, .timeline-rail) :where(img, video, canvas, svg) {
+  max-width: 100%;
+}
+
+:where(.main-content, .timeline-rail) :where(img, video, canvas) {
+  height: auto;
+}
+
+:where(.main-content) :where(pre, table) {
+  max-width: 100%;
+}
+
+:where(.main-content) pre {
+  overflow: auto;
+  overscroll-behavior-inline: contain;
+}
+
+.skip-to-content {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  z-index: 2000;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 14px;
+  border: var(--divider-strong);
+  border-radius: 10px;
+  background: var(--action);
+  color: var(--action-text);
+  font-weight: 700;
+  text-decoration: none;
+  transform: translateY(calc(-100% - 16px));
+}
+
+.skip-to-content:focus {
+  transform: translateY(0);
+}
+
+#hub-main {
+  scroll-margin-top: var(--shell-column-header-height, 58px);
+}
+
+:where(
+  a,
+  button,
+  input,
+  textarea,
+  select,
+  summary,
+  [tabindex]:not([tabindex="-1"])
+):focus-visible {
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 2px;
+  box-shadow: none !important;
+}
+
+:where(
+  a,
+  button,
+  input,
+  textarea,
+  select,
+  summary,
+  [tabindex]:not([tabindex="-1"])
+):focus:not(:focus-visible) {
+  outline: 0;
+}
+
+:where(.main-content, .sidebar, .shell__right) :where(
+  button,
+  [role="button"],
+  input:not([type="hidden"]):not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="color"]),
+  select,
+  summary
+) {
+  min-height: 44px;
+}
+
+:where(.main-content, .sidebar, .shell__right) :where(
+  button,
+  [role="button"],
+  a,
+  input,
+  select,
+  summary
+) {
+  touch-action: manipulation;
+}
+
+:where(.main-content) :where(
+  .empty-state,
+  .search-empty,
+  .notification-empty,
+  .rail-empty
+) {
+  min-height: 144px;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 8px;
+  padding: 24px;
+  color: var(--muted);
+  text-align: center;
+}
+
+:where(.main-content) :where(
+  .empty-state,
+  .search-empty,
+  .notification-empty,
+  .rail-empty
+) :where(h2, h3, strong, p) {
+  max-width: 52ch;
+  margin: 0;
+}
+
+:where(.main-content) :where(
+  [role="alert"],
+  .inline-error,
+  .notifications-page__error
+) {
+  border: var(--divider);
+  border-color: var(--danger-text);
+  background: var(--danger-bg);
+  color: var(--danger-text);
+}
+
+:where(dialog, [role="dialog"]) {
+  max-width: min(640px, calc(100vw - 32px));
+  max-height: min(760px, calc(100dvh - 32px));
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+
+@media (max-width: 760px) {
+  :root {
+    --responsive-inline-padding: 14px;
+  }
+
+  body {
+    overflow-x: clip;
+  }
+
+  :where(.main-content, .shell__right) {
+    max-width: 100%;
+  }
+
+  :where(.main-content) :where(
+    .feature-header,
+    .page-header,
+    .settings-page-header,
+    .profile-page-simple__header
+  ) {
+    padding-inline: var(--responsive-inline-padding) !important;
+  }
+
+  :where(.main-content) :where(
+    .feature-grid,
+    .services-directory__grid,
+    .storefront__grid,
+    .unified-market-search__grid,
+    .market-product-grid,
+    .video-grid,
+    .music-grid,
+    .search-discovery__threads,
+    .hub-account__areas
+  ) {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+
+  :where(.main-content) :where(
+    .setting-row,
+    .setting-select,
+    .profile-card-simple__top,
+    .profile-card-simple__actions,
+    .notifications-page > header
+  ) {
+    min-width: 0;
+  }
+
+  :where(.main-content) :where(
+    .profile-card-simple__actions,
+    .market-card-actions,
+    .market-modal-actions,
+    .token-wallet-connect__actions
+  ) {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    align-items: stretch;
+  }
+
+  :where(.main-content) :where(
+    .profile-card-simple__actions,
+    .market-card-actions,
+    .market-modal-actions,
+    .token-wallet-connect__actions
+  ) > :where(button, a, [role="button"]) {
+    width: 100%;
+  }
+
+  :where(dialog, [role="dialog"]) {
+    width: 100%;
+    max-width: 100%;
+    max-height: calc(100dvh - env(safe-area-inset-top));
+    margin: auto 0 0;
+    border-radius: 18px 18px 0 0;
+    padding-bottom: max(16px, env(safe-area-inset-bottom));
+  }
+
+  .shell__mobile-bottom-nav {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  :where(.main-content) {
+    padding-bottom: max(76px, calc(60px + env(safe-area-inset-bottom)));
+  }
+}
+
+@media (max-width: 480px) {
+  :where(.main-content) :where(
+    .profile-card-simple__stats,
+    .offer-facts,
+    .token-ranking-summary
+  ) {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+
+  :where(.main-content) :where(.setting-row, .setting-select) {
+    gap: 12px;
+  }
+
+  :where(.main-content) :where(.setting-row, .setting-select) > :first-child {
+    min-width: 0;
+  }
+}
+
+@media (max-height: 520px) and (orientation: landscape) {
+  :where(dialog, [role="dialog"]) {
+    max-height: calc(100dvh - 8px);
+  }
+
+  .shell__mobile-bottom-nav {
+    min-height: 48px;
+  }
+}
+
+@media (forced-colors: active) {
+  :where(a, button, input, textarea, select, summary):focus-visible {
+    outline: 3px solid Highlight;
+  }
+
+  :where(
+    .active,
+    .is-active,
+    [aria-selected="true"],
+    [aria-pressed="true"]
+  ) {
+    border-color: Highlight !important;
+  }
+
+  :where(button, [role="button"], input, select, textarea) {
+    forced-color-adjust: auto;
+  }
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  :where(
+    .shell__left,
+    .shell__right,
+    .timeline-rail__header,
+    .home-feed__tabs
+  ) {
+    background: var(--bg) !important;
+    backdrop-filter: none !important;
+  }
+}
+
+/*
+ * Search discovery cards must stay in normal document flow. The home feed
+ * uses one-pixel masonry rows on wide screens, which collapses search cards
+ * when this shared stream class is reused outside the home timeline.
+ */
+.main-content .search-page .search-post-results {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-auto-flow: row;
+  grid-auto-rows: auto;
+  align-items: stretch;
+  gap: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.main-content .search-page .search-post-results > .tweet {
+  grid-column: auto;
+  grid-row: auto !important;
+  min-height: 0;
+  height: auto;
+}
+
+/*
+ * The right rail changes the space available to search without changing the
+ * browser viewport. React to the actual center-column width, not viewport
+ * width, so cards never remain in two cramped columns beside an open rail.
+ */
+/*
+ * 列の数は枠の実幅から決める。
+ *
+ * 上の @container main は本体全体（910px）を見ていて、4列規格で入った
+ * 中左列210pxを勘定していない。/search の一覧が実際に入るのは700pxの本体列で、
+ * 655pxに2列。1投稿あたり327pxしか無く、投稿者名が22pxまで潰れていた
+ * （必要31px）。900pxの分岐は910>900の**10px差**で届かない。
+ * 2026-09-02に npm run sweep が検出。
+ *
+ * 1投稿に要る幅（420px）を下限にすれば、中左列があってもなくても答えが合う。
+ * 655pxで1列、910px（中左列なし）で2列、1920px時の1180pxでも2列。
+ */
+.main-content .search-page .search-post-results {
+  grid-template-columns: repeat(auto-fill, minmax(min(420px, 100%), 1fr));
+}
+
+/*
+ * Product pages should use the whole center canvas between the persistent
+ * rails. Long-form reading surfaces keep their own readable line length, but
+ * directories, dashboards, catalogs and workspaces must not inherit the old
+ * narrow feed column.
+ */
+.main-content > :where(main, section, article),
+.main-content > :where(.feature-header, .page-header) {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: none;
+}
+
+.main-content :where(
+  .hub-account,
+  .settings,
+  .service-directory,
+  .storefront,
+  .market-guide,
+  .market-seller,
+  .shopping-product-page,
+  .games-catalog,
+  .game-submission-page,
+  .community-trends,
+  .community-review-page,
+  .hubpedia:not(.hubpedia-article):not(.hubpedia-paper),
+  .token-ranking,
+  .notifications-page,
+  .bookmarks-page,
+  .lists-page,
+  .requests-page,
+  .monetization-page,
+  .ad-inventory-page,
+  .thread-curation,
+  .post-detail,
+  .wallet-light-surface
+) {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: none;
+}
+
+.main-content :where(
+  .services-directory__grid,
+  .storefront__grid,
+  .market-product-grid,
+  .video-grid,
+  .music-grid,
+  .games-catalog__grid
+) {
+  width: 100%;
+}
+
+/* Purpose-led sidebar hierarchy. Group labels are siblings of links so every
+ * destination retains the same single-row icon and label alignment. */
+html[data-hub-surface="web"] .sidebar__group-label {
+  display: block;
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: .75rem;
+  font-weight: var(--type-emphasis-weight);
+  line-height: 1.2;
+  letter-spacing: .04em;
+}
+
+html[data-hub-surface="web"] .sidebar__group-label:first-child {
+  margin-top: 0;
+}
+
+@media (max-width: 1080px) {
+  .sidebar__group-label {
+    display: none;
+  }
+}
+
+/* Shared route context: category, current location, then nearby destinations. */
+.page-context {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+  min-height: 48px;
+  padding: 8px clamp(14px, 2vw, 24px);
+  border-bottom: var(--divider);
+  background: var(--surface-raised);
+}
+
+.page-context :is(nav, a, span) {
+  min-width: 0;
+}
+
+.page-context__breadcrumbs,
+.page-context__siblings {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.page-context__breadcrumbs {
+  flex: 0 1 auto;
+  font-size: .875rem;
+  font-weight: var(--type-control-weight);
+  white-space: nowrap;
+}
+
+.page-context__breadcrumbs a,
+.page-context__siblings a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.page-context__breadcrumbs a,
+.page-context__siblings a {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+}
+
+.page-context__breadcrumbs [aria-current="page"] {
+  overflow: hidden;
+  color: var(--text);
+  font-weight: var(--type-emphasis-weight);
+  text-overflow: ellipsis;
+}
+
+.page-context__siblings {
+  justify-content: flex-end;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scrollbar-width: none;
+}
+
+.page-context__siblings::-webkit-scrollbar {
+  display: none;
+}
+
+.page-context__siblings a {
+  flex: 0 0 auto;
+  padding: 8px 10px;
+  border-radius: 999px;
+  font-size: .8125rem;
+  font-weight: var(--type-control-weight);
+}
+
+.page-context__siblings a:hover {
+  background: var(--interactive-hover);
+  color: var(--text);
+}
+
+@media (max-width: 760px) {
+  .page-context {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 6px;
+    padding-block: 8px;
+  }
+
+  .page-context__siblings {
+    justify-content: flex-start;
+  }
+}

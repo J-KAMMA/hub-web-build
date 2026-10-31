@@ -1,0 +1,6 @@
+/* 通知: メンション欄の「もっと見る」。 */
+.v2-notifs__more {
+  display: flex;
+  justify-content: center;
+  padding: var(--v2-space-3) 0;
+}

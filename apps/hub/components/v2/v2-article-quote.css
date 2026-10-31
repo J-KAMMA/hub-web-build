@@ -1,0 +1,37 @@
+/* 記事の一節を引用して投稿する小さなボタン。色は意味トークンだけ。 */
+
+.v2-article-quote {
+  position: fixed;
+  z-index: 40;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.v2-article-quote__button {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 16px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--action);
+  color: var(--action-text);
+  box-shadow: var(--shadow);
+  font: inherit;
+  font-size: .8125rem;
+  font-weight: 700;
+  white-space: nowrap;
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.v2-article-quote__button:hover {
+  background: var(--action-hover);
+}
+
+.v2-article-quote__button:focus-visible {
+  outline: 2px solid var(--text);
+  outline-offset: 2px;
+}

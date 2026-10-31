@@ -1,0 +1,1354 @@
+[
+  {
+    "slug": "automated-clearing-house",
+    "topicType": "concept",
+    "categoryLabel": "経済・ビジネス",
+    "title": "自動決済機構",
+    "summary": "米国の預金取扱機関どうしが電子的な貸方・借方の振替をまとめて送り合う全国規模のネットワーク。給与の直接入金や公共料金の口座振替を担い、連邦準備銀行とElectronic Payments Networkの2つのオペレーターが運営する。バッチ方式の決済に加え、2023年に稼働したFedNowサービスによる24時間365日の即時決済が並立するようになった。",
+    "bodyMarkdown": "## ネットワークの位置づけ\n\n給与が月末に口座へ入り、公共料金が翌月に引き落とされる。この二つは利用者から見れば別の出来事だが、通る道は同じである。ACH（自動清算機関）は、預金取扱機関どうしが電子的な貸方および借方の振替をバッチでまとめて送り合う全国規模のネットワークであり、個々の支払いを一件ずつ即時に処理するのではなく、まとめて受け渡す仕組みを土台にしている。 [1]\n\n送り手が受け手の口座へ資金を押し出す形が貸方振替で、給与、社会保障給付、還付金の直接入金がその典型例にあたる。反対に受け手が送り手の口座から資金を引き出す形が借方振替で、住宅ローンや公共料金の直接引き落としがこれにあたる。同じネットワークの上で、資金を動かす主導権がどちら側にあるかによって二つの型が区別される。 [2][3]\n\nACHネットワークは元々、主として定期的な支払いの処理に使われていた。現在では用途が広がり、小切手を電子化した支払いや、電話・インターネット経由の支払いといった一回限りの借方振替の処理にも広く使われている。 [15]\n\n## オペレーターと決済の流れ\n\n全国規模のACHオペレーターは、[連邦準備銀行(Reserve Banks)](/hubpedia/central-bank-structure)とElectronic Payments Network(EPN)の2つが存在する。オペレーターとしての連邦準備銀行は、送付元の預金取扱金融機関からACH支払いのファイルを受け取り、支払いを編集・仕分けしたうえで受取側の預金取扱金融機関へ届け、預金取扱金融機関の決済口座への貸記・借記によって支払いを決済する。 [4][5]\n\nオペレーターが2つある以上、送付元と受取側が別々のオペレーターを使う支払いが生じる。この「オペレーター間ACH支払い」を処理するため、連邦準備銀行とEPNは互いに依存する関係にあり、オペレーター間のACH支払いは連邦準備銀行によって決済される。 [6][16]\n\n## 即日ACHをめぐる規則の改定\n\n2019年12月23日、理事会(Board)は即日ACHサービスの機能強化を支援するため、連邦準備銀行のNational Settlement ServiceおよびFedwire Funds Serviceの変更を承認した。承認の目的は、Nachaの ACH運用規則にサービスを合わせることにあった。その後2020年9月25日に、理事会は一部の変更の実施日を修正している。 [17][18][19]\n\n## FedNowサービスと即時決済\n\nFedNowサービスは2023年7月20日に稼働を開始した。米国内の預金取扱機関が利用でき、個人および企業が自らの預金取扱機関口座を通じて即時決済を送金できるようにするものである。最も基本的なレベルでは、このサービスは銀行間の清算と決済を提供し、送金者の口座から受取人の口座へほぼリアルタイムかつ年中無休で資金を移動できるようにする。 [7][8][10]\n\nバッチ処理を前提とするACHとの違いは、時間の扱いに現れる。FedNowサービスは週末や祝日を含む毎日24時間の営業日を持ち、支払いの完全性とデータセキュリティを支えるセキュリティ機能を備えつつ、休みなく処理を維持するよう設計されている。営業日ごとに、参加する各預金取扱機関の日末残高が連邦準備制度の会計記録に報告される。 [11][12][13]\n\nサービス自体は多様な即時決済に対応する柔軟で中立的なプラットフォームと位置づけられており、預金取扱機関およびそのサービス提供者は、この基本機能を基盤として顧客に付加価値サービスを提供できる。最初のリリースには、不正防止ツール、当初は受取専用参加者として参加できる機能、支払い請求機能、参加者による支払い照会対応を支援するツールといった、任意で選択できる機能も含まれている。追加機能やサービス強化は今後段階的に導入される予定とされている。 [9][20][24][25]\n\n## 流動性の管理\n\n休みなく動く決済には、休みなく手当てされる資金が要る。FedNowサービスは、即時決済サービスを支えるための流動性管理振替機能を提供しており、これにより参加者は、決済活動に関連する流動性ニーズを支えるため互いに資金を移動できる。参加者には、他の連邦準備制度サービスと同一の条件のもとで、その営業日中に日中信用へのアクセスも提供される。 [14][21][22]\n\nこの振替機能が支える範囲はFedNowサービスの中だけにとどまらない。参加者のマスター口座と連邦準備銀行における共同口座との間の振替を可能にすることで、連邦準備銀行の共同口座に裏付けられた民間セクターの即時決済サービスの参加者も支援する。 [23]\n\n## 関連記事\n\n- [小切手の決済](/hubpedia/check-clearing)\n- 現金の流通\n- [金融政策](/hubpedia/monetary-policy)",
+    "sources": [
+      {
+        "url": "https://www.federalreserve.gov/paymentsystems/fedach_about.htm",
+        "title": "FedACH Services — Federal Reserve",
+        "publisher": "Board of Governors of the Federal Reserve System",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/disclaimer.htm"
+          },
+          "notes": "Batch electronic settlement between banks. Publisher policy read 2026-08-28: Public domain unless marked otherwise and copyable without permission, with a request to cite the Board. Board seals, logos, and official insignia are protected by federal law and need written permission. Material identified with a non-Board source is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.federalreserve.gov/paymentsystems/fednow_about.htm",
+        "title": "FedNow Service — Federal Reserve",
+        "publisher": "Board of Governors of the Federal Reserve System",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/disclaimer.htm"
+          },
+          "notes": "An instant settlement service run by the central bank. Publisher policy read 2026-08-28: Public domain unless marked otherwise and copyable without permission, with a request to cite the Board. Board seals, logos, and official insignia are protected by federal law and need written permission. Material identified with a non-Board source is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Automated Clearing House",
+        "summary": "A nationwide network over which U.S. depository institutions exchange batched electronic credit and debit transfers. It carries direct deposit of payroll and automatic bill payment of utilities, and is operated by two operators: the Reserve Banks and the Electronic Payments Network. Alongside its batch-based settlement, the FedNow Service, which launched in 2023, added instant settlement available 24 hours a day, 365 days a year.",
+        "bodyMarkdown": "## Where the network sits\n\nA paycheck lands in an account at the end of the month, and a utility bill is drawn from it the following month. To the customer these are two separate events, but they travel the same road. The ACH (Automated Clearing House) is a nationwide network over which depository institutions send each other batched electronic credit and debit transfers; rather than processing each payment individually and immediately, it is built on a mechanism that hands payments off in batches. [1]\n\nWhen the sender pushes funds into the receiver's account, that is a credit transfer, typified by direct deposit of payroll, Social Security benefits, and tax refunds. Conversely, when the receiver pulls funds from the sender's account, that is a debit transfer, as with direct payment of mortgages and utility bills. On one and the same network, the two types are distinguished by which side holds the initiative to move the funds. [2][3]\n\nThe ACH network was originally used primarily to process recurring payments. Its uses have since broadened, and it is now widely used to process one-time debit transfers as well, such as converted check payments and payments made over the telephone and the internet. [15]\n\n## Operators and the flow of settlement\n\nThere are two nationwide ACH operators: the [Reserve Banks](/hubpedia/central-bank-structure) and the Electronic Payments Network (EPN). As an operator, the Reserve Banks receive files of ACH payments from the originating depository financial institution, edit and sort the payments, deliver them to the receiving depository financial institution, and settle the payments by crediting and debiting the depository institutions' settlement accounts. [4][5]\n\nBecause there are two operators, payments arise in which the originating side and the receiving side use different operators. To process these \"inter-operator ACH payments,\" the Reserve Banks and EPN depend on each other, and inter-operator ACH payments are settled by the Reserve Banks. [6][16]\n\n## Rule changes concerning same-day ACH\n\nOn December 23, 2019, the Board approved changes to the Reserve Banks' National Settlement Service and Fedwire Funds Service to support enhancements to the same-day ACH service. The purpose of the approval was to align the services with Nacha's ACH operating rules. Subsequently, on September 25, 2020, the Board revised the implementation dates for some of the changes. [17][18][19]\n\n## The FedNow Service and instant settlement\n\nThe FedNow Service launched on July 20, 2023. It is available to depository institutions in the United States and enables individuals and businesses to send instant payments through their depository institution accounts. At the most basic level, the service provides interbank clearing and settlement, allowing funds to move from a sender's account to a receiver's account in near real time and around the clock, every day of the year. [7][8][10]\n\nThe difference from the ACH, which presupposes batch processing, appears in how time is handled. The FedNow Service has a business day that runs 24 hours a day, every day, including weekends and holidays, and it is designed to keep processing without interruption while incorporating security features that support payment integrity and data security. For each business day, the end-of-day balance of every participating depository institution is reported in the Federal Reserve's accounting records. [11][12][13]\n\nThe service itself is positioned as a flexible, neutral platform that supports a range of instant payments, and depository institutions and their service providers can build on this core functionality to offer value-added services to their customers. The initial release also includes optional features such as fraud-prevention tools, the ability to join initially as a receive-only participant, a request-for-payment capability, and tools to help participants respond to payment inquiries. Additional features and service enhancements are planned to be introduced over time. [9][20][24][25]\n\n## Managing liquidity\n\nSettlement that runs without interruption requires funds that are provided without interruption. The FedNow Service offers a liquidity management transfer capability to support the instant payment service, allowing participants to move funds to one another in support of liquidity needs related to settlement activity. Participants are also provided access to intraday credit during the business day under the same terms as other Federal Reserve services. [14][21][22]\n\nThe reach of this transfer capability extends beyond the FedNow Service itself. By enabling transfers between a participant's master account and a joint account at a Reserve Bank, it also supports participants in private-sector instant payment services backed by a joint account at a Reserve Bank. [23]\n\n## Related articles\n\n- [Check clearing](/hubpedia/check-clearing)\n- Currency distribution\n- [Monetary policy](/hubpedia/monetary-policy)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:14:50.454Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "ACH（自動清算機関）は、預金取扱機関同士が電子的な貸方および借方の振替をバッチで送り合う全国規模のネットワークである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fedach_about.htm",
+              "quote": "The automated clearinghouse (ACH) system is a nationwide network through which depository institutions send each other batches of electronic credit and debit transfers."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "給与、社会保障給付、還付金の直接入金はACH貸方振替の典型例である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fedach_about.htm",
+              "quote": "The direct deposit of payroll, social security benefits, and tax refunds are typical examples of ACH credit transfers."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "住宅ローンや公共料金の直接引き落としはACH借方振替の典型例である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fedach_about.htm",
+              "quote": "The direct debiting of mortgages and utility bills are typical examples of ACH debit transfers."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "連邦準備銀行(Reserve Banks)とElectronic Payments Network(EPN)は、全国規模のACHオペレーターとして2つ存在する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fedach_about.htm",
+              "quote": "The Reserve Banks and Electronic Payments Network (EPN) are the two national ACH operators."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "ACHオペレーターとしての連邦準備銀行は、送付元の預金取扱金融機関からACH支払いのファイルを受け取り、支払いを編集・仕分けし、受取側の預金取扱金融機関へ届け、預金取扱金融機関の決済口座への貸記・借記によって支払いを決済する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fedach_about.htm",
+              "quote": "As an ACH operator, the Reserve Banks receive files of ACH payments from originating depository financial institutions, edit and sort the payments, deliver the payments to receiving depository financial institutions, and settle the payments by crediting and debiting the depository financial institutions' settlement accounts."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "オペレーター間のACH支払いは連邦準備銀行によって決済される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fedach_about.htm",
+              "quote": "These interoperator payments are settled by the Reserve Banks."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "FedNowサービスは2023年7月20日に稼働を開始した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fednow_about.htm",
+              "quote": "The FedNow Service went live on July 20, 2023."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "FedNowサービスは米国内の預金取扱機関が利用可能であり、個人および企業が自らの預金取扱機関口座を通じて即時決済を送金できるようにする。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fednow_about.htm",
+              "quote": "It is available to depository institutions in the United States and enables individuals and businesses to send instant payments through their depository institution accounts."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "FedNowサービスは、多様な即時決済に対応する柔軟で中立的なプラットフォームである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fednow_about.htm",
+              "quote": "The service is a flexible, neutral platform that supports a broad variety of instant payments."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "最も基本的なレベルでは、FedNowサービスは銀行間の清算と決済を提供し、送金者の口座から受取人の口座へほぼリアルタイムかつ年中無休で資金を移動できるようにする。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fednow_about.htm",
+              "quote": "At the most fundamental level, the service provides interbank clearing and settlement that enables funds to be transferred from the account of a sender to the account of a receiver in near real-time and at any time, any day of the year."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "FedNowサービスは、支払いの完全性とデータセキュリティを支えるセキュリティ機能を備えつつ、24時間365日休みなく処理を維持するよう設計されている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fednow_about.htm",
+              "quote": "The FedNow Service is designed to maintain uninterrupted 24x7x365 processing with security features to support payment integrity and data security."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "FedNowサービスは、週末や祝日を含む毎日24時間の営業日を持つ。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fednow_about.htm",
+              "quote": "The service has a 24-hour business day each day of the week, including weekends and holidays."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "FedNowサービスの営業日ごとに、参加する各預金取扱機関の日末残高が連邦準備制度の会計記録に報告される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fednow_about.htm",
+              "quote": "End-of-day balances are reported on Federal Reserve accounting records for each participating depository institution on each FedNow Service business day."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "FedNowサービスは、即時決済サービスを支えるための流動性管理振替機能を提供する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fednow_about.htm",
+              "quote": "The FedNow Service provides liquidity management transfer capability to support instant payment services."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "ACHネットワークは元々主に定期的な支払いの処理に使われていたが、現在では小切手を電子化した支払いや電話・インターネット経由の支払いなど、一回限りの借方振替の処理にも広く使われている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fedach_about.htm",
+              "quote": "While the ACH network was originally used to process mostly recurring payments, the network is today being used extensively to process one-time debit transfers, such as converted check payments and payments made over the telephone and Internet."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "連邦準備銀行とEPNは、送付元と受取側の預金取扱金融機関が異なるオペレーターを利用している「オペレーター間ACH支払い」を処理するために互いに依存している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fedach_about.htm",
+              "quote": "The Reserve Banks and EPN rely on each other to process interoperator ACH payments--that is, payments in which the originating depository financial institution and the receiving depository financial institution are served by different operators."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "2019年12月23日、理事会(Board)は即日ACHサービスの機能強化を支援するため、連邦準備銀行のNational Settlement ServiceおよびFedwire Funds Serviceの変更を承認した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fedach_about.htm",
+              "quote": "On December 23, 2019, the Board approved modifications to the Federal Reserve Banks' National Settlement Service and Fedwire® Funds Service to support enhancements to the same-day ACH service."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "2020年9月25日、理事会は一部の変更の実施日を修正した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fedach_about.htm",
+              "quote": "On September 25, 2020, the Board amended the implementation date for certain modifications."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "理事会は、Nachaの ACH運用規則にサービスを合わせるため、連邦準備銀行の即日ACHサービスの機能強化を承認した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fedach_about.htm",
+              "quote": "The Board has approved enhancements to the Reserve Banks' same-day ACH service to align the service with Nacha's ACH operating rules."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "預金取扱機関およびそのサービス提供者は、FedNowサービスの基本機能を基盤として顧客に付加価値サービスを提供できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fednow_about.htm",
+              "quote": "Depository institutions and their service providers can build on this fundamental capability to offer value-added services to their customers."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "FedNowサービスの参加者には、他の連邦準備制度サービスと同一の条件のもとで、その営業日中に日中信用へのアクセスが提供される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fednow_about.htm",
+              "quote": "Access to intraday credit is provided to participants in the FedNow Service during its business day under the same terms and conditions as for other Federal Reserve services."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "流動性管理振替により、FedNowサービスの参加者は、FedNowサービスにおける決済活動に関連する流動性ニーズを支えるため、互いに資金を移動できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fednow_about.htm",
+              "quote": "The liquidity management transfer enables participants in the FedNow Service to transfer funds to one another to support liquidity needs related to payment activity in the FedNow Service."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "この振替機能は、参加者のマスター口座と連邦準備銀行における共同口座との間の振替を可能にすることで、連邦準備銀行の共同口座に裏付けられた民間セクターの即時決済サービスの参加者も支援する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fednow_about.htm",
+              "quote": "The transfer also supports participants in a private-sector instant payment service backed by a joint account at a Reserve Bank by enabling transfers between the master accounts of participants and a joint account."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "FedNowサービスの最初のリリースには、不正防止ツール、当初は受取専用参加者として参加できる機能、支払い請求機能、参加者による支払い照会対応を支援するツールといった、任意で選択できる機能も含まれている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fednow_about.htm",
+              "quote": "The first release of the FedNow Service also includes optional features: fraud prevention tools, the ability to join initially as a receive-only participant, request for payment capability, and tools to support participants in their handling of payment inquiries."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "FedNowサービスの追加機能やサービス強化は今後段階的に導入される予定である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fednow_about.htm",
+              "quote": "Additional features and service enhancements will be introduced over time."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "check-clearing",
+    "topicType": "concept",
+    "categoryLabel": "経済・ビジネス",
+    "title": "小切手の決済",
+    "summary": "小切手の決済とは、受取人が預け入れた紙の支払指図を、支払銀行まで届けて資金の付け替えを完了させる処理経路をいう。米国では預金機関が直送・手形交換所・コルレス機関・連邦準備銀行のいずれかの経路を選べ、連邦準備銀行の収集サービスでは収集機関の口座への貸方記入と支払銀行の口座への借方記入によって決済が行われる。Check 21 以降は電子的な収集が主流となり、紙の処理拠点は2003年の45カ所から2010年初頭以降は全米1カ所にまで縮小した。",
+    "bodyMarkdown": "## 経路の選択\n\n小切手を受け取った側の銀行は、その紙を自分で換金することはできない。券面に記された支払銀行まで届けて初めて資金が動く。この「届ける」部分が小切手の決済であり、米国では預金機関に複数の経路が開かれている。他機関宛の小切手の預け入れを受けた預金機関は、その機関へ直接送付する方法、地方の手形交換所を通じて届ける方法、そしてコルレス機関または連邦準備銀行の小切手収集サービスを利用する方法のいずれかを選ぶことができる。 [4]\n\n[連邦準備銀行](/hubpedia/central-bank-structure)は預金機関に対してこの小切手収集サービスを提供しており、経路の一つとして機能している。どの経路を通るかは小切手を振り出した人にも受け取った人にも見えないが、資金が届くまでの時間と、その間に生じる銀行間の債権債務の記録のされ方は経路によって変わる。 [1][4]\n\n## 連邦準備銀行を通じた決済の仕組み\n\n連邦準備銀行を通じて収集される小切手では、決済は準備銀行に置かれた口座の帳簿上の操作として行われる。収集機関側の口座は預け入れられた小切手の額面分だけ貸方記入され、支払銀行側の口座は呈示された小切手の額面分だけ借方記入される。二つの記入が対になることで、紙そのものを動かさずに機関間の資金移動が完了する。 [2]\n\nこの処理は速い。ほとんどの小切手は1営業日以内に収集・決済される。 [3]\n\n## 電子化と処理拠点の集約\n\n紙の支払指図であることと、紙を物理的に運ぶこととは別の問題である。21世紀小切手決済法（Check 21）は小切手の電子収集に対する障壁を取り除き、電子的な小切手収集は現在では小切手収集の主要な方法となっている。準備銀行が処理する小切手についても、現在ではそのほぼすべてが準備銀行の電子小切手収集サービスを用いて預け入れ・呈示されている。 [7][8]\n\nこの転換は施設の規模に直接現れた。準備銀行は2010年初頭以降、紙の小切手を全米1カ所で処理しており、これは2003年時点の45カ所から減少したものである。7年ほどの間に処理拠点が45分の1になったことになる。 [5]\n\n## 小切手利用の減少と他の決済手段\n\n処理経路の効率化が進む一方で、処理される対象そのものが減っている。全米で振り出される小切手の数は、電子決済手段の利用拡大に伴い1990年代半ば以降減少し続けている。 [6]\n\n小切手から離れた支払いの一部は、別のネットワークへ移っている。[ACH（自動決済機関）ネットワーク](/hubpedia/automated-clearing-house)は、転換された小切手決済（converted check payments）を含む1回限りの借方振替の処理にも広く用いられている。小切手として振り出された支払いが、途中で電子的な借方振替に置き換えられて処理される場合があるということであり、紙の減少と電子決済の増加は必ずしも別々の流れではない。 [9]\n\n## 関連記事\n\n- 現金の流通\n- [金融政策](/hubpedia/monetary-policy)",
+    "sources": [
+      {
+        "url": "https://www.federalreserve.gov/paymentsystems/check_about.htm",
+        "title": "Check Services — Federal Reserve",
+        "publisher": "Board of Governors of the Federal Reserve System",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/disclaimer.htm"
+          },
+          "notes": "The older paper settlement path. Publisher policy read 2026-08-28: Public domain unless marked otherwise and copyable without permission, with a request to cite the Board. Board seals, logos, and official insignia are protected by federal law and need written permission. Material identified with a non-Board source is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.federalreserve.gov/paymentsystems/fedach_about.htm",
+        "title": "FedACH Services — Federal Reserve",
+        "publisher": "Board of Governors of the Federal Reserve System",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/disclaimer.htm"
+          },
+          "notes": "Batch electronic settlement between banks. Publisher policy read 2026-08-28: Public domain unless marked otherwise and copyable without permission, with a request to cite the Board. Board seals, logos, and official insignia are protected by federal law and need written permission. Material identified with a non-Board source is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Check Clearing",
+        "summary": "Check clearing refers to the processing route by which a paper payment order deposited by the payee is delivered to the paying bank so that the transfer of funds is completed. In the United States, a depository institution may choose among direct presentment, a local clearinghouse, a correspondent institution, or a Federal Reserve Bank; under the Federal Reserve Banks' collection service, settlement is effected by crediting the account of the collecting institution and debiting the account of the paying bank. Since Check 21, electronic collection has become the dominant method, and paper processing sites have shrunk from 45 locations in 2003 to a single location nationwide since early 2010.",
+        "bodyMarkdown": "## Choosing a Route\n\nA bank that receives a check cannot turn that piece of paper into money by itself. Funds move only once the check is delivered to the paying bank named on its face. This act of delivery is what check clearing consists of, and in the United States several routes are open to depository institutions. A depository institution that accepts a deposit of a check drawn on another institution may choose to send it directly to that institution, to deliver it through a local clearinghouse, or to use the check collection service of a correspondent institution or of a Federal Reserve Bank. [4]\n\nThe [Federal Reserve Banks](/hubpedia/central-bank-structure) provide this check collection service to depository institutions, functioning as one of these routes. Which route a check travels is invisible both to the person who wrote it and to the person who received it, but the time it takes for funds to arrive, and the way interbank claims and obligations are recorded in the meantime, differ from route to route. [1][4]\n\n## How Settlement Works Through the Federal Reserve Banks\n\nFor checks collected through a Federal Reserve Bank, settlement takes place as a bookkeeping operation on accounts held at the Reserve Bank. The collecting institution's account is credited for the amount of the checks deposited, and the paying bank's account is debited for the amount of the checks presented. Because the two entries are paired, the transfer of funds between institutions is completed without moving the paper itself. [2]\n\nThe process is fast. Most checks are collected and settled within one business day. [3]\n\n## Electronic Processing and Consolidation of Sites\n\nBeing a paper payment order and being physically transported as paper are two separate matters. The Check Clearing for the 21st Century Act (Check 21) removed barriers to the electronic collection of checks, and electronic check collection is now the primary method of check collection. As for the checks processed by the Reserve Banks, virtually all of them are now deposited and presented using the Reserve Banks' electronic check collection services. [7][8]\n\nThis shift showed up directly in the scale of the facilities. Since early 2010, the Reserve Banks have processed paper checks at a single location nationwide, down from 45 locations as of 2003. Over roughly seven years, the number of processing sites fell to one forty-fifth of what it had been. [5]\n\n## Declining Check Use and Other Payment Methods\n\nWhile the processing route has grown more efficient, the volume being processed has been shrinking. The number of checks written nationwide has declined since the mid-1990s as the use of electronic payment methods has expanded. [6]\n\nSome of the payments that have moved away from checks have shifted to other networks. The [automated clearing house (ACH) network](/hubpedia/automated-clearing-house) is also widely used to process one-time debit transfers, including converted check payments. That is to say, a payment written as a check may be replaced along the way by an electronic debit transfer and processed as such, which means that the decline of paper and the growth of electronic payments are not necessarily separate currents. [9]\n\n## Related Articles\n\n- Currency Distribution\n- [Monetary Policy](/hubpedia/monetary-policy)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:14:50.456Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "連邦準備銀行は預金機関に対して小切手収集サービスを提供している。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/check_about.htm",
+              "quote": "The Federal Reserve Banks provide check collection services to depository institutions."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "連邦準備銀行を通じて収集される小切手については、収集機関側の口座は預け入れられた小切手の額面分だけ貸方記入され、支払銀行側の口座は呈示された小切手の額面分だけ借方記入される。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/check_about.htm",
+              "quote": "For checks collected through the Federal Reserve Banks, the accounts of the collecting institutions are credited for the value of the checks deposited for collection and the accounts of the paying banks are debited for the value of checks presented for payment."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "ほとんどの小切手は1営業日以内に収集・決済される。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/check_about.htm",
+              "quote": "Most checks are collected and settled within one business day."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "預金機関は他機関宛の小切手の預け入れを受けた場合、その機関へ直接送付する、地方の手形交換所を通じて届ける、またはコルレス機関や連邦準備銀行の小切手収集サービスを利用する、のいずれかの方法で収集に回すことができる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/check_about.htm",
+              "quote": "When a depository institution receives deposits of checks drawn on other institutions, it may send the checks for collection to those institutions directly, deliver them to the institutions through a local clearinghouse exchange, or use the check-collection services of a correspondent institution or a Federal Reserve Bank."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "準備銀行は2010年初頭以降、紙の小切手を全米1カ所で処理しており、これは2003年時点の45カ所から減少したものである。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/check_about.htm",
+              "quote": "since early 2010, they have been processing paper checks at one location nationwide, down from 45 in 2003"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "全米で振り出される小切手の数は、電子決済手段の利用拡大に伴い1990年代半ば以降減少し続けている。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/check_about.htm",
+              "quote": "The number of checks written nationally has been declining since the mid-1990s as the use of electronic payment instruments has grown."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "21世紀小切手決済法(Check 21)は小切手の電子収集に対する障壁を取り除き、電子的な小切手収集は現在では小切手収集の主要な方法となっている。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/check_about.htm",
+              "quote": "the Check Clearing for the 21st Century Act (Check 21) removed barriers to the electronic collection of checks and electronic check collection has now become the primary method for collecting checks"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "現在、準備銀行が処理する小切手のほぼすべては、準備銀行の電子小切手収集サービスを用いて預け入れ・呈示されている。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/check_about.htm",
+              "quote": "almost all checks processed by the Reserve Banks today are deposited and presented using the Reserve Banks' electronic check collection services"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "ACH(自動決済機関)ネットワークは、転換された小切手決済(converted check payments)を含む1回限りの借方振替の処理にも広く用いられている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fedach_about.htm",
+              "quote": "the network is today being used extensively to process one-time debit transfers, such as converted check payments and payments made over the telephone and Internet"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "central-bank-structure",
+    "topicType": "concept",
+    "categoryLabel": "政治・法律",
+    "title": "連邦準備制度の組織",
+    "summary": "連邦準備制度は米国の中央銀行で、1913年の連邦準備法によって設立された。単一の官庁ではなく、ワシントンD.C.の連邦機関である理事会と全国12の連邦準備銀行という二層構造をとり、金融政策そのものは両者の代表が集まる連邦公開市場委員会（FOMC）で決まる。誰が金利を決めているのかという問いの答えが、政府機関でも地域の銀行でもなく、その両方から人を出す委員会になっている点が、この制度の組織上の特徴である。",
+    "bodyMarkdown": "## 制度の三つの部分\n\n連邦準備制度は米国の中央銀行であり、1913年の連邦準備法によって設立された。組織としては一つの官庁ではなく、ワシントンD.C.に置かれた連邦機関である理事会と、全国に12ある連邦準備銀行から構成される。そして[金融政策](/hubpedia/monetary-policy)の決定は、そのどちらの単独の権限でもなく、連邦公開市場委員会（FOMC）の会合で行われる。 [1][2][3][12]\n\nそこで働く人々という観点から見ると、制度は理事会、12の連邦準備銀行、そしてFOMCで投票する12名の委員という三つの主要な組織に整理される。三つ目は前の二つから人を出して構成されるため、組織図としては重なり合っており、独立した第三の役所があるわけではない。 [7][24]\n\n## 理事会\n\n理事会はワシントンD.C.に所在し、連邦準備制度の統括機関にあたる。運営するのは、大統領に指名され上院の承認を受けた7名の理事（ガバナー）で、その任期は14年、しかも互い違いに定められている。理事会には議長と副議長が置かれ、この二つの職の任期は4年で、さらに1期以上再任されることがある。 [4][5][14]\n\n理事会は連邦政府の機関であり、議会に報告して直接説明責任を負う立場にある。同時に12の連邦準備銀行の業務を監督し、一定の金融機関および活動についての監督規制の責任を各準備銀行と分担している。 [9][15]\n\n## 連邦準備銀行と地区\n\n12の連邦準備銀行とその24の支店は、制度の実働機関である。各行は米国内の独自の地理的地域、すなわち地区の内部で活動する。これらの銀行は連邦準備理事会の監督下に置かれる一方で、多くの点では独立して運営されている。 [6][10][11]\n\n準備銀行の中核機能には、銀行をはじめとする金融機関の監督と検査、消費者保護法および公正貸付法の遵守の強制、そして預金機関への貸付を通じた流動性の確保が含まれる。監督と資金供給という、平時と緊急時にまたがる役割が同じ組織に置かれている。 [16]\n\n決済の分野では、連邦準備銀行は銀行に現金と硬貨を配布し、[電子決済システム](/hubpedia/automated-clearing-house)を運営し、[小切手の清算](/hubpedia/check-clearing)を行う。さらに「政府の銀行」として、財務省の取引口座の管理や、米国政府証券の発行と償還といったサービスも提供している。 [17][18]\n\n## 連邦公開市場委員会\n\n連邦公開市場委員会（FOMC）は連邦準備制度の当局者12名からなる組織で、年に少なくとも8回開かれる会合で米国の重要な金融政策を決定する。投票権を持つ12名の内訳は、理事会の7名の理事、ニューヨーク連邦準備銀行総裁、そして残り11行の総裁のうち持ち回りで1年任期を務める4名である。ニューヨークだけが常任で、他の11地区は交代制という非対称がここにある。 [7][8]\n\n投票権を持たない残り7名の連邦準備銀行総裁も、会合には出席して審議に参加する。投票できるのはその時点で委員会のメンバーである総裁に限られるため、議論に加わる人数と票を投じる人数は一致しない。 [19]\n\nFOMCは、長期目標と金融政策戦略に関する声明を、2012年の採択以来毎年1月に再確認している。 [28]\n\n## 議会が課した機能\n\n連邦準備制度は五つの主要機能を果たすものとされている。金融政策の実施、金融システムの安定の促進、金融機関の監督と規制、決済システムの安全性と効率性の促進、そして消費者保護と地域社会開発の促進である。 [13]\n\nこれらの役割は制度が自ら選んだものではなく、米国議会がFedに課したものとして位置づけられている。議会は、金融システム全体の安定、個々の金融機関の安全性と健全性、決済・清算システムの安全性と効率性、そして消費者保護と地域社会の発展という各領域について、それぞれ促進する役割をFedに与えている。マクロの安定と、個別機関の健全性と、利用者の保護が、同じ機関の任務として並んでいる。 [20][21][22][23]\n\n## 準備預金と流動性供給の枠組み\n\nFedに準備預金残高を置くのは民間銀行だけではない。ファニーメイ、フレディマック、連邦住宅貸付銀行といった政府支援機関も、他機関への大口決済を円滑にするためにFedに残高を保有している。 [25]\n\nまた Fedは、インターバンク市場以外の金融市場に流動性を供給するために幅広い貸出制度を設立し、海外のドル資金調達市場の緊張に対応するために複数の外国中央銀行との間でスワップラインを設定した。前者は国内の貸し手としての機能を銀行以外へ広げるもので、後者は国外のドル需要に届かせるものであり、いずれも預金機関への通常の貸付とは対象が異なる。 [26][27]",
+    "sources": [
+      {
+        "url": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+        "title": "Structure of the Federal Reserve System",
+        "publisher": "Board of Governors of the Federal Reserve System",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/disclaimer.htm"
+          },
+          "notes": "How the central bank is organised. Publisher policy read 2026-08-28: Public domain unless marked otherwise and copyable without permission, with a request to cite the Board. Board seals, logos, and official insignia are protected by federal law and need written permission. Material identified with a non-Board source is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+        "title": "Monetary Policy: goals and mechanism — Federal Reserve",
+        "publisher": "Board of Governors of the Federal Reserve System",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/disclaimer.htm"
+          },
+          "notes": "What the central bank is trying to achieve and how. Publisher policy read 2026-08-28: Public domain unless marked otherwise and copyable without permission, with a request to cite the Board. Board seals, logos, and official insignia are protected by federal law and need written permission. Material identified with a non-Board source is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Organization of the Federal Reserve System",
+        "summary": "The Federal Reserve is the central bank of the United States, established by the Federal Reserve Act of 1913. It is not a single government office but a two-tiered structure consisting of the Board of Governors, a federal agency in Washington, D.C., and 12 Federal Reserve Banks across the country, while monetary policy itself is decided by the Federal Open Market Committee (FOMC), where representatives of both come together. The organizational hallmark of this system is that the answer to the question of who sets interest rates is neither a government agency nor a regional bank, but a committee drawing its members from both.",
+        "bodyMarkdown": "## The three parts of the system\n\nThe Federal Reserve is the central bank of the United States, established by the Federal Reserve Act of 1913. As an organization it is not a single government office; it consists of the Board of Governors, a federal agency located in Washington, D.C., and the 12 Federal Reserve Banks located across the country. And decisions on [monetary policy](/hubpedia/monetary-policy) fall under the sole authority of neither one, but are made at the meetings of the Federal Open Market Committee (FOMC). [1][2][3][12]\n\nViewed in terms of the people who work within it, the system can be organized into three principal bodies: the Board of Governors, the 12 Federal Reserve Banks, and the 12 members who vote on the FOMC. Because the third is composed of people drawn from the first two, the organizational chart overlaps; there is no separate third agency.  [7][24]\n\n## The Board of Governors\n\nThe Board of Governors is located in Washington, D.C., and serves as the governing body of the Federal Reserve System. It is run by seven governors, nominated by the President and confirmed by the Senate, who serve staggered 14-year terms. The Board has a Chair and a Vice Chair, positions whose terms run four years and may be renewed for one or more additional terms. [4][5][14]\n\nThe Board is an agency of the federal government and reports to and is directly accountable to Congress. At the same time, it oversees the operations of the 12 Federal Reserve Banks and shares with those Reserve Banks the responsibility for supervising and regulating certain financial institutions and activities. [9][15]\n\n## The Reserve Banks and their Districts\n\nThe 12 Federal Reserve Banks and their 24 Branches are the operating arms of the system. Each Bank operates within its own distinct geographic area of the United States, known as a District. These Banks are subject to oversight by the Board of Governors while operating independently in many respects. [6][10][11]\n\nThe core functions of the Reserve Banks include supervising and examining banks and other financial institutions, enforcing compliance with consumer protection and fair lending laws, and providing liquidity through lending to depository institutions. Supervision and the provision of funds — roles that span normal times and emergencies — are housed in the same organization. [16]\n\nIn the field of payments, the Federal Reserve Banks distribute currency and coin to banks, operate [electronic payment systems](/hubpedia/automated-clearing-house), and perform [check clearing](/hubpedia/check-clearing). They also act as the \"bank for the government,\" providing services such as maintaining the Treasury's transaction account and issuing and redeeming U.S. government securities. [17][18]\n\n## The Federal Open Market Committee\n\nThe Federal Open Market Committee (FOMC) is a body of 12 Federal Reserve officials that decides key U.S. monetary policy at meetings held at least eight times a year. The 12 voting members comprise the seven governors of the Board, the president of the Federal Reserve Bank of New York, and four of the remaining 11 Reserve Bank presidents, who serve one-year terms on a rotating basis. Herein lies an asymmetry: New York alone holds a permanent seat, while the other 11 Districts rotate. [7][8]\n\nThe remaining seven Reserve Bank presidents, who do not hold voting rights, also attend the meetings and take part in the deliberations. Because only those presidents who are members of the Committee at the time may vote, the number of people joining the discussion does not match the number casting votes. [19]\n\nThe FOMC has reaffirmed its Statement on Longer-Run Goals and Monetary Policy Strategy each January since its adoption in 2012. [28]\n\n## Functions assigned by Congress\n\nThe Federal Reserve System is understood to carry out five key functions: conducting monetary policy, promoting the stability of the financial system, supervising and regulating financial institutions, fostering the safety and efficiency of the payment system, and promoting consumer protection and community development. [13]\n\nThese roles were not chosen by the system itself; they are framed as duties Congress imposed on the Fed. Congress has given the Fed a role in promoting each of the following areas: the stability of the financial system as a whole, the safety and soundness of individual financial institutions, the safety and efficiency of payment and settlement systems, and consumer protection and community development. Macroeconomic stability, the soundness of individual institutions, and the protection of users stand side by side as duties of the same institution. [20][21][22][23]\n\n## The framework for reserve balances and liquidity provision\n\nPrivate banks are not the only entities that hold reserve balances at the Fed. Government-sponsored enterprises such as Fannie Mae, Freddie Mac, and the Federal Home Loan Banks also maintain balances at the Fed to facilitate large-value settlements with other institutions. [25]\n\nThe Fed has also established a wide range of lending facilities to supply liquidity to financial markets beyond the interbank market, and set up swap lines with several foreign central banks to address strains in dollar funding markets abroad. The former extends its domestic lender function beyond banks, while the latter reaches dollar demand outside the country; in both cases the counterparties differ from those of ordinary lending to depository institutions. [26][27]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:14:50.457Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "連邦準備制度(FRB)は米国の中央銀行である。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "The Federal Reserve is the U.S. central bank"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "連邦準備制度は1913年の連邦準備法によって設立された。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "created by the Federal Reserve Act of 1913"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "連邦準備制度は、ワシントンD.C.にある連邦機関である理事会と、全国に12ある連邦準備銀行から構成される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "The Board of Governors, a federal agency located in Washington, D.C., and"
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "12 Federal Reserve Banks around the nation."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "理事会はワシントンD.C.に所在し、連邦準備制度の統括機関である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "The Board of Governors—located in Washington, D.C.—is the governing body of the Federal Reserve System."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "理事会は、大統領に指名され上院の承認を受けた7名の理事(ガバナー)によって運営され、任期は14年で互い違いに定められている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "is run by 7 members, or \"governors\" serving staggered 14-year terms, who are nominated by the President of the United States and confirmed in their positions by the U.S. Senate"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "12の連邦準備銀行とその24の支店は連邦準備制度の実働機関である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "The 12 Reserve Banks—and their 24 Branches—are the operating arms of the Federal Reserve System."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "連邦公開市場委員会(FOMC)は、連邦準備制度の当局者12名からなる組織で、年に少なくとも8回開催される会合で米国の重要な金融政策を決定する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "The Federal Open Market Committee, or FOMC, is a 12-person group of Federal Reserve System officials that sets crucial U.S. monetary policy at meetings held at least 8 times each year."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "FOMCの投票権を持つ12名の委員は、理事会の7名の理事、ニューヨーク連邦準備銀行総裁、および残り11行の総裁のうち持ち回りで1年任期を務める4名で構成される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "the 7 members of the Board of Governors;"
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "the president of the Federal Reserve Bank of New York; and"
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "4 of the remaining 11 Reserve Bank presidents, who serve one-year terms on a rotating basis."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "理事会は連邦政府の機関であり、議会に報告し直接説明責任を負う。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "is an agency of the federal government that reports to and is directly accountable to Congress"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "各連邦準備銀行は米国内の独自の地理的地域(地区)内で活動する。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "Each Reserve Bank operates within its own particular geographic area, or district, of the United States."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "連邦準備銀行は連邦準備理事会の監督下にあるが、多くの点で独立して運営されている。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "Although supervised by the Federal Reserve Board, the Reserve Banks operate independently in many respects."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "金融政策の決定は連邦公開市場委員会(FOMC)の会合で行われる。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "Decisions about monetary policy are made at meetings of the Federal Open Market Committee (FOMC)."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "連邦準備制度は、金融政策の実施、金融システムの安定促進、金融機関の監督規制、決済システムの安全性・効率性の促進、消費者保護と地域社会開発の促進という5つの主要機能を果たす。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "The Federal Reserve System performs five key functions that serve all Americans and promote the health and stability of the U.S. economy and financial system."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "理事会には議長と副議長が置かれ、4年任期でさらに1期以上再任されることがある。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "includes a Chairman and Vice Chair, who may be appointed for one or more additional four-year terms"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "理事会は12の連邦準備銀行の業務を監督し、一定の金融機関・活動の監督規制の責任を各準備銀行と共有する。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "oversees the operations of the 12 Reserve Banks and shares with them the responsibility for supervising and regulating certain financial institutions and activities"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "連邦準備銀行は、銀行など金融機関の監督・検査、消費者保護法・公正貸付法の遵守の強制、預金機関への貸付による流動性確保などの中核機能を担う。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "supervising and examining banks and other financial institutions;"
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "lending to depository institutions to ensure liquidity in the financial system."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "連邦準備銀行は、銀行への現金・硬貨の配布、電子決済システムの運営、小切手の清算を行う。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "distributing currency and coins to banks, operating electronic payment systems, and clearing our checks; and"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "連邦準備銀行は「政府の銀行」として、財務省の取引口座の管理や米国政府証券の発行・償還といったサービスを提供する。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "acting as the \"government's bank\" by providing services such as maintaining the Treasury Department's transaction account and issuing and redeeming U.S. government securities"
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "残りの7名の連邦準備銀行総裁もFOMCの会合に出席し審議に参加するが、投票できるのはその時点で委員会のメンバーである総裁のみである。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "In addition, all the remaining 7 Reserve Bank presidents attend FOMC meetings and participate in FOMC deliberations."
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "All 12 of the Reserve Bank presidents attend FOMC meetings and participate in FOMC discussions, but only the presidents who are Committee members at the time may vote on policy decisions."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "米国議会は、金融システムの安定を促進する役割をFedに課している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "the Congress has tasked the Fed with promoting the stability of the financial system"
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "米国議会は、個々の金融機関の安全性と健全性を促進する役割をFedに課している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "promoting the safety and soundness of individual financial institutions"
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "米国議会は、決済・清算システムの安全性と効率性を高める役割をFedに課している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "fostering the safety and efficiency of payment and settlement systems"
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "米国議会は、消費者保護と地域社会の発展を促進する役割をFedに課している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "promoting consumer protection and community development"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "連邦準備制度は、理事会、12の連邦準備銀行、およびFOMCで投票する12名の委員という3つの主要な組織で働く人々から成る。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "The Federal Reserve System is all the people who work at"
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "the Federal Reserve Board of Governors, a federal agency in Washington, D.C.;"
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "the 12 voting members from around the System who serve on the Federal Open Market Committee and help set crucial U.S. monetary policy."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "ファニーメイ、フレディマック、連邦住宅貸付銀行などの政府支援機関は、他機関への大口決済を円滑にするためFedに準備預金残高を保有している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "a number of government-sponsored enterprises--such as Fannie Mae, Freddie Mac, and the Federal Home Loan Banks--hold reserve balances at the Fed to facilitate large payment transfers to other institutions"
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "Fedは、インターバンク市場以外の金融市場に流動性を供給するため、幅広い貸出制度を設立した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "the establishment of broad-based lending facilities to provide liquidity to financial markets other than the interbank market"
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "Fedは、海外ドル資金調達市場の緊張に対応するため、複数の外国中央銀行との間でスワップラインを設定した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "swap lines with several foreign central banks to address strains in foreign dollar funding markets"
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "FOMCは、長期目標と金融政策戦略に関する声明を、2012年の採択以来毎年1月に再確認している。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "which the FOMC has reaffirmed each January since its adoption in 2012"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "monetary-policy",
+    "topicType": "concept",
+    "categoryLabel": "経済・ビジネス",
+    "title": "金融政策",
+    "summary": "金融政策とは、中央銀行が金利や信用状況に働きかけ、経済全体の需要の伸びを刺激または抑制することで、物価と雇用に関する目標の達成を図る手段である。米国では連邦準備制度がこれを担い、連邦準備法により雇用の最大化、物価の安定、長期金利の適正水準を促進する義務を負う。政策決定は年8回以上開かれる連邦公開市場委員会(FOMC)の会合で行われ、主要な手段はフェデラルファンド金利の誘導目標の変更である。",
+    "bodyMarkdown": "## 目標と法的な位置づけ\n\n金融政策は、経済全体の財・サービスに対する需要の伸びを刺激するか、あるいは抑制することによって働く。需要が生産能力に対して鈍化すれば、失業は上昇しインフレは低下する傾向がある。中央銀行はこの関係を通じて、物価と雇用の双方に働きかける。 [14][20]\n\n米国の場合、この運営には明文の根拠がある。連邦準備法は、雇用の最大化、物価の安定、および長期金利の適正水準を効果的に促進するよう金融政策を運営することを連邦準備制度に義務付けている。この使命は一般に「デュアルマンデート」として知られている。連邦準備制度は1913年の連邦準備法により、銀行システムのストレスに効果的に対応できる金融システムを確立するために設立された米国の中央銀行であり、国の金融政策を実施する機能を担っている。 [1][5][10][11]\n\n二つの目標の扱いは対称的ではない。物価安定については、個人消費支出物価指数の年間変化率で測って年2%の低位安定したインフレ率が、デュアルマンデートの両方の目標達成に最も資するとFOMCは判断している。一方で雇用については固定的な数値目標を定めていない。最大雇用の水準が主に非金融的な要因によって決まるためである。 [7][26]\n\n## 決定を行う機関\n\n金融政策の決定は連邦公開市場委員会(FOMC)の会合で行われる。FOMCは連邦準備制度の当局者12人からなる集団で、年に少なくとも8回開催される会合で米国の重要な金融政策を決定し、議会が定めた最大雇用と物価安定という目標に経済を近づけるため、金融政策の適切な立場(スタンス)に関するすべての決定を行う。 [2][12][13][18][31]\n\n投票権を持つ12人の内訳は、理事会の7人のメンバー、ニューヨーク連邦準備銀行総裁、および残り11人の地区連銀総裁のうち持ち回りで1年任期を務める4人である。もっとも、会合の出席者はこの12人に限られない。12地区連銀総裁全員がFOMC会合に出席して議論に参加し、投票権を持たない残りの7人の地区連銀総裁も審議に加わる。地区連銀は、健全な米国経済と安定した金融システムの維持に役立つ全国的な金融政策の策定に不可欠な情報を提供している。 [3][6][33][38][39]\n\n## 政策金利と波及の経路\n\nFOMCが金融政策のスタンスを調整する主要な手段は、フェデラルファンド金利の誘導目標を変更することである。フェデラルファンド金利とは、銀行が準備預金を翌日物で借り入れる際に支払う金利を指す。FOMCはこの金利そのものを直接指定するのではなく、FRBが銀行の準備預金に対して支払う金利を変更することによって影響を与えることができる。 [4][8][15]\n\n翌日物の一つの金利がなぜ経済全体に届くのかは、他の金利との連動によって説明される。コマーシャルペーパーおよび米国財務省短期証券の利回りは、通常フェデラルファンド金利と密接に連動して動く。変動金利住宅ローンや個人・商業向けクレジットラインなどの変動金利ローンの金利にも、その変化は速やかに反映される。 [21][22]\n\n金利の変化は支出の決定へ及ぶ。FOMCが金融緩和すなわちフェデラルファンド金利目標の引き下げを行うと、消費者ローン金利の低下が電子機器・家電・自動車などの耐久財を中心に財・サービスへの支出を増やす。住宅ローン金利の低下は住宅購入をより手頃にし、既存の住宅所有者に借り換えを促す。金利の変動はまた、株式を保有することの相対的な魅力を変化させることで株価に影響を与える傾向があり、米国資産の相対的な魅力を通じて為替レートも変動させる。 [19][27][28][34]\n\n長期金利は、住宅や自動車の購入、設備投資といった長期の計画期間を伴う経済的意思決定にとって特に重要である。こうした経路を通じて、FOMCの政策措置は金利や信用状況に影響を及ぼし、経済生産性や家計・地域社会・企業の支出・投資判断に大きな影響を与えうる。 [23][30][32]\n\n## 金融危機以降の運営\n\n2007年夏に始まり2008年に深刻化した金融危機を受け、FOMCはフェデラルファンド金利の目標を2007年9月中旬の5-1/4%から2008年12月下旬にはゼロ近辺まで引き下げた。この時点で主要な手段は限界に達する。名目金利はゼロを大きく下回って引き下げることがほとんどできない。貸し手が金利付き資産を、名目収益率がゼロである通貨に転換する方が有利になるためである。フェデラルファンド金利がゼロ近辺まで低下した後、FRBはもはや金融緩和の主要な手段に頼ることができなくなった。 [9][29][37]\n\nそこで用いられたのが、政策金利の水準以外に働きかける手段である。FOMCは、労働市場の顕著な改善が達成されるまで高度に緩和的な金融政策スタンスを維持する可能性が高いというフォワードガイダンスを伝えた。あわせて大規模資産購入によって証券への需要が押し上げられ、FRBは長期金利にさらなる下押し圧力をかけた。 [24][35]\n\nこの措置の効果について、供給された記録は、大規模資産購入への市場の反応が全体的な金融市場の状況を緩和させ、経済活動と雇用創出の成長、およびインフレ率の2%への回帰を後押ししたとしている。 [36]\n\n緩和状態からの復帰は段階的に進んだ。2015年12月、FOMCはフェデラルファンド金利の目標をゼロ近辺から引き上げ、金融政策スタンスを正常な水準に戻す最初の一歩を踏み出した。2017年10月には保有証券の段階的な削減を開始し、正常化に向けたさらなる一歩を踏み出した。 [16][17]\n\n## 関連記事\n\n- [中央銀行の組織](/hubpedia/central-bank-structure)\n- 現金の流通\n- [自動決済機構](/hubpedia/automated-clearing-house)\n- [小切手の決済](/hubpedia/check-clearing)\n- [政府支出](/hubpedia/government-spending)",
+    "sources": [
+      {
+        "url": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+        "title": "Monetary Policy: goals and mechanism — Federal Reserve",
+        "publisher": "Board of Governors of the Federal Reserve System",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/disclaimer.htm"
+          },
+          "notes": "What the central bank is trying to achieve and how. Publisher policy read 2026-08-28: Public domain unless marked otherwise and copyable without permission, with a request to cite the Board. Board seals, logos, and official insignia are protected by federal law and need written permission. Material identified with a non-Board source is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+        "title": "Structure of the Federal Reserve System",
+        "publisher": "Board of Governors of the Federal Reserve System",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/disclaimer.htm"
+          },
+          "notes": "How the central bank is organised. Publisher policy read 2026-08-28: Public domain unless marked otherwise and copyable without permission, with a request to cite the Board. Board seals, logos, and official insignia are protected by federal law and need written permission. Material identified with a non-Board source is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Monetary policy",
+        "summary": "Monetary policy is the means by which a central bank acts on interest rates and credit conditions to stimulate or restrain the growth of overall demand in the economy, and so to pursue its objectives for prices and employment. In the United States it is conducted by the Federal Reserve, which the Federal Reserve Act charges with promoting maximum employment, stable prices, and moderate long-term interest rates. Decisions are made at meetings of the Federal Open Market Committee (FOMC), held at least eight times a year, and the primary tool is a change in the target for the federal funds rate.",
+        "bodyMarkdown": "## Objectives and legal basis\n\nMonetary policy works by either stimulating or restraining the growth of overall demand for goods and services in the economy. When demand slows relative to productive capacity, unemployment tends to rise and inflation tends to fall. Through this relationship, the central bank acts on both prices and employment. [14][20]\n\nIn the United States, this conduct rests on an explicit statutory basis. The Federal Reserve Act requires the Federal Reserve to conduct monetary policy so as to promote effectively the goals of maximum employment, stable prices, and moderate long-term interest rates. This mission is commonly known as the \"dual mandate.\" The Federal Reserve is the central bank of the United States, established by the Federal Reserve Act of 1913 to create a financial system capable of responding effectively to stress in the banking system, and it carries out the nation's monetary policy. [1][5][10][11]\n\nThe two goals are not treated symmetrically. On price stability, the FOMC has judged that inflation at a low and stable rate of 2 percent a year, as measured by the annual change in the price index for personal consumption expenditures, is most conducive to achieving both parts of the dual mandate. On employment, by contrast, it has set no fixed numerical target, because the level of maximum employment is determined largely by nonmonetary factors. [7][26]\n\n## The body that makes the decisions\n\nMonetary policy decisions are made at meetings of the Federal Open Market Committee (FOMC). The FOMC is a group of 12 Federal Reserve officials that sets the key monetary policy of the United States at meetings held at least eight times a year, making all decisions about the appropriate stance of monetary policy in order to move the economy toward the goals of maximum employment and price stability set by Congress. [2][12][13][18][31]\n\nThe 12 voting members consist of the seven members of the Board of Governors, the president of the Federal Reserve Bank of New York, and four of the remaining 11 Reserve Bank presidents, who serve one-year terms on a rotating basis. Attendance at the meetings, however, is not limited to these 12. All 12 Reserve Bank presidents attend FOMC meetings and take part in the discussion, and the seven presidents who do not hold a vote also join the deliberations. The Reserve Banks supply information essential to formulating a national monetary policy that helps maintain a healthy U.S. economy and a stable financial system. [3][6][33][38][39]\n\n## The policy rate and the channels of transmission\n\nThe FOMC's primary tool for adjusting the stance of monetary policy is changing its target for the federal funds rate. The federal funds rate is the interest rate banks pay to borrow reserve balances overnight. The FOMC does not specify this rate directly, but it can influence it by changing the interest rate the Federal Reserve pays on banks' reserve balances. [4][8][15]\n\nWhy a single overnight rate reaches the economy as a whole is explained by its link to other interest rates. Yields on commercial paper and U.S. Treasury bills typically move closely with the federal funds rate. Rates on floating-rate loans, such as adjustable-rate mortgages and personal and commercial lines of credit, also reflect the change promptly. [21][22]\n\nChanges in interest rates reach spending decisions. When the FOMC eases policy — that is, lowers its target for the federal funds rate — lower consumer loan rates increase spending on goods and services, especially durable goods such as electronics, appliances, and automobiles. Lower mortgage rates make buying a home more affordable and encourage existing homeowners to refinance. Movements in interest rates also tend to affect stock prices by changing the relative attractiveness of holding equities, and they move exchange rates through the relative attractiveness of U.S. assets. [19][27][28][34]\n\nLong-term interest rates are especially important for economic decisions with long planning horizons, such as buying a house or a car and investing in equipment. Through these channels, the FOMC's policy actions influence interest rates and credit conditions and can significantly affect economic productivity and the spending and investment decisions of households, communities, and businesses. [23][30][32]\n\n## Conduct since the financial crisis\n\nIn response to the financial crisis that began in the summer of 2007 and intensified in 2008, the FOMC lowered its target for the federal funds rate from 5-1/4% in mid-September 2007 to near zero by late December 2008. At that point the primary tool reached its limit. Nominal interest rates cannot be lowered much below zero, because lenders would find it more advantageous to convert interest-bearing assets into currency, which has a nominal rate of return of zero. Once the federal funds rate had fallen to near zero, the Federal Reserve could no longer rely on its primary tool for easing policy. [9][29][37]\n\nWhat it used instead were tools that work on something other than the level of the policy rate. The FOMC communicated forward guidance that it was likely to maintain a highly accommodative stance of monetary policy until a substantial improvement in the labor market had been achieved. Alongside that, large-scale asset purchases raised demand for securities, and the Federal Reserve put further downward pressure on longer-term interest rates. [24][35]\n\nAs to the effect of these measures, the record supplied states that the market response to the large-scale asset purchases eased overall financial market conditions and supported growth in economic activity and job creation, as well as a return of inflation toward 2 percent. [36]\n\nThe withdrawal of accommodation proceeded in steps. In December 2015, the FOMC raised its target for the federal funds rate from near zero, taking a first step toward returning the stance of monetary policy to a normal level. In October 2017, it began gradually reducing its securities holdings, a further step toward normalization. [16][17]\n\n## Related articles\n\n- [Central bank structure](/hubpedia/central-bank-structure)\n- Currency distribution\n- [Automated Clearing House](/hubpedia/automated-clearing-house)\n- [Check clearing](/hubpedia/check-clearing)\n- [Government spending](/hubpedia/government-spending)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:14:50.458Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "連邦準備法は、雇用の最大化、物価の安定、および長期金利の適正水準を効果的に促進するよう金融政策を運営することを連邦準備制度に義務付けている。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "so as to promote effectively the goals of maximum employment, stable prices, and moderate long-term interest rates."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "金融政策の決定は連邦公開市場委員会(FOMC)の会合で行われる。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "Decisions about monetary policy are made at meetings of the Federal Open Market Committee (FOMC)."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "FOMCは理事会メンバー、ニューヨーク連銀総裁、および残り11の地区連銀総裁のうち持ち回りで1年任期を務める4名によって構成される。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "The FOMC comprises the members of the Board of Governors; the president of the Federal Reserve Bank of New York; and 4 of the remaining 11 Reserve Bank presidents, who serve one-year terms on a rotating basis."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "FOMCが金融政策のスタンスを調整する主要な手段は、フェデラルファンド金利の誘導目標を変更することである。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "The FOMC's primary means of adjusting the stance of monetary policy is by changing its target for the federal funds rate."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "FRBの金融政策の使命は一般に「デュアルマンデート」として知られている。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "the Fed's mandate for monetary policy is commonly known as the dual mandate."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "12地区連銀総裁全員がFOMC会合に出席し議論に参加するが、政策決定への投票ができるのはその時点で委員会メンバーである総裁のみである。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "All 12 of the Reserve Bank presidents attend FOMC meetings and participate in FOMC discussions, but only the presidents who are Committee members at the time may vote on policy decisions."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "FOMCは、個人消費支出物価指数の年間変化率で測って年2%の低位安定したインフレ率が、デュアルマンデートの両方の目標達成に最も資すると判断している。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "The FOMC judges that low and stable inflation at the rate of 2 percent per year, as measured by the annual change in the price index for personal consumption expenditures, is most consistent with achievement of both parts of the dual mandate."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "フェデラルファンド金利とは、銀行が準備預金を翌日物で借り入れる際に支払う金利のことである。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "The federal funds rate is the interest rate that banks pay to borrow reserve balances overnight."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "2007年夏に始まり2008年に深刻化した金融危機を受け、FOMCはフェデラルファンド金利の目標を2007年9月中旬の5-1/4%から2008年12月下旬にはゼロ近辺まで引き下げた。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "The crisis in financial markets that began in the summer of 2007 and became particularly severe in 2008 led the FOMC to cut its target for the federal funds rate from 5-1/4 percent in mid-September 2007 to near zero in late December 2008."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "連邦準備制度は1913年の連邦準備法により、銀行システムのストレスに効果的に対応できる金融システムを確立するために設立された、米国の中央銀行である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "The Federal Reserve is the U.S. central bank, created by the Federal Reserve Act of 1913 to establish a monetary system that could respond effectively to stresses in the banking system."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "連邦準備制度は、国の金融政策を実施する機能を担っている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "It conducts the nation’s monetary policy, promotes financial system stability, supervises and regulates financial institutions, fosters payment and settlement system safety and efficiency, and promotes consumer protection and community development."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "連邦公開市場委員会（FOMC）は、連邦準備制度の当局者12人からなる集団で、年に少なくとも8回開催される会合で米国の重要な金融政策を決定する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "The Federal Open Market Committee, or FOMC, is a 12-person group of Federal Reserve System officials that sets crucial U.S. monetary policy at meetings held at least 8 times each year."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "FOMCは、議会が定めた最大雇用と物価安定という目標に経済を近づけるため、金融政策の適切な立場（スタンス）に関するすべての決定を行う。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "The FOMC makes all decisions regarding the appropriate position or \"stance\" of monetary policy to help move the economy toward the congressionally mandated goals of maximum employment and price stability."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "金融政策は、経済全体の財・サービスに対する需要の伸びを刺激または抑制することによって機能する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "monetary policy works by spurring or restraining growth of overall demand for goods and services in the economy."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "FOMCは、FRBが銀行の準備預金に対して支払う金利を変更することによって、フェデラルファンド金利に影響を与えることができる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "The FOMC has the ability to influence the federal funds rate--and thus the cost of short-term interbank credit--by changing the rate of interest the Fed pays on reserve balances that banks hold at the Fed."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "2015年12月、FOMCはフェデラルファンド金利の目標をゼロ近辺から引き上げ、金融政策スタンスを正常な水準に戻す最初の一歩を踏み出した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "In December 2015, the FOMC took a first step toward returning the stance of monetary policy to more normal levels by increasing its target for the federal funds rate from near zero."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "2017年10月、FOMCは保有証券の段階的な削減を開始し、正常化に向けたさらなる一歩を踏み出した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "A further step toward normalization occurred in October 2017, when the FOMC began a gradual reduction in its securities holdings."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "FOMCは、連邦準備制度の職員12名からなる集団であり、年8回以上開催される会合で重要な米国の金融政策を決定する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "The Federal Open Market Committee, or FOMC, is a 12-person group of Federal Reserve System officials that sets crucial U.S. monetary policy at meetings held at least 8 times each year."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "FOMCが金融緩和(フェデラルファンド金利目標の引き下げ)を行うと、消費者ローン金利の低下が電子機器・家電・自動車などの耐久財を中心に財・サービスへの支出を増やす。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "when the FOMC eases monetary policy (that is, reduces its target for the federal funds rate), the resulting lower interest rates on consumer loans elicit greater spending on goods and services, particularly on durable goods such as electronics, appliances, and automobiles."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "経済全体の需要が生産能力に対して鈍化すると、失業は上昇しインフレは低下する傾向がある。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "When overall demand slows relative to the economy's capacity to produce goods and services, unemployment tends to rise and inflation tends to decline."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "コマーシャルペーパーおよび米国財務省短期証券の利回りは、通常フェデラルファンド金利と密接に連動して動く。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "the rates of return on commercial paper and U.S. Treasury bills--which are short-term debt securities issued by private companies and the federal government, respectively, to raise funds--typically move closely with the federal funds rate."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "フェデラルファンド金利の変化は、変動金利住宅ローンや個人・商業向けクレジットラインなどの変動金利ローンの金利に速やかに反映される。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "changes in the federal funds rate are rapidly reflected in the rates applied to floating-rate loans, including floating-rate mortgages as well as many personal and commercial credit lines."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "長期金利は、住宅や自動車の購入、設備投資といった長期の計画期間を伴う経済的意思決定にとって特に重要である。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "Longer-term interest rates are especially important for economic activity and job creation because many key economic decisions--such as consumers' purchases of houses, cars, and other big-ticket items or businesses' investments in structures, machinery, and equipment--involve long planning horizons."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "金融危機後、FOMCは労働市場の顕著な改善が達成されるまで高度に緩和的な金融政策スタンスを維持する可能性が高いというフォワードガイダンスを伝えた。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "The FOMC conveyed that it likely would keep a highly accommodative stance of monetary policy until a marked improvement in the labor market had been achieved."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "FOMCは、最大雇用の水準が主に非金融的な要因によって決まるため、雇用について固定的な数値目標を定めていない。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "The FOMC does not specify a fixed goal for employment because the maximum level of employment is largely determined by nonmonetary factors that affect the structure and dynamics of the labor market"
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "金利の変動は、株式を保有することの相対的な魅力を変化させることで株価に影響を与える傾向がある。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "Changes in interest rates tend to affect stock prices by changing the relative attractiveness of equity as an investment and as a way of holding wealth."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "住宅ローン金利の低下は住宅購入をより手頃にし、既存の住宅所有者に借り換えを促す。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "Lower mortgage rates make buying a house more affordable and encourage existing homeowners to refinance their mortgages to free up some cash for other purchases."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "フェデラルファンド金利がゼロ近辺まで低下した後、FRBはもはや金融緩和の主要な手段に頼ることができなくなった。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "with the federal funds rate near zero, the Fed could no longer rely on its primary means of easing monetary policy."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "FOMCの金融政策措置は金利や信用状況に影響を及ぼし、経済生産性や家計・地域社会・企業の支出・投資判断に大きな影響を与えうる。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "The FOMC's monetary policy actions influence interest rates and credit conditions, which can significantly impact financial conditions, including economic productivity and even spending and investment decisions by households, communities, and businesses."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "連邦公開市場委員会（FOMC）に所属する、制度内から選ばれた12人の投票権を持つメンバーが、米国の重要な金融政策を決定する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "the 12 voting members from around the System who serve on the Federal Open Market Committee and help set crucial U.S. monetary policy"
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "FOMCの金融政策上の措置は金利や信用状況に影響を及ぼし、それが経済生産性や家計・地域社会・企業の支出・投資判断を含む金融状況に大きな影響を与えうる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "The FOMC's monetary policy actions influence interest rates and credit conditions, which can significantly impact financial conditions, including economic productivity and even spending and investment decisions by households, communities, and businesses."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "FOMCの投票権を持つ12人のメンバーは、理事会の7人のメンバー、ニューヨーク連邦準備銀行総裁、および残り11人の地区連銀総裁のうち持ち回りで1年任期を務める4人で構成される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "The FOMC's 12 voting members include\n\n the 7 members of the Board of Governors;\n the president of the Federal Reserve Bank of New York; and\n 4 of the remaining 11 Reserve Bank presidents, who serve one-year terms on a rotating basis."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "米国内の金利変動は米国債など米国資産の相対的な魅力に影響し、それが為替レートを変動させる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "Variations in interest rates in the United States also have a bearing on the attractiveness of U.S. bonds and related U.S. assets compared with similar investments in other countries; changes in the relative attractiveness of U.S. assets will move exchange rates"
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "大規模資産購入によってこれらの証券への需要が押し上げられ、FRBは長期金利にさらなる下押し圧力をかけた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "By boosting the overall demand for these securities, the Fed put additional downward pressure on longer-term interest rates."
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "大規模資産購入への市場の反応は全体的な金融市場の状況を緩和させ、経済活動と雇用創出の成長、およびインフレ率の2%への回帰を後押しした。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "These market reactions to the large-scale asset purchases helped ease overall financial market conditions and thus supported growth in economic activity, job creation, and a return of inflation toward 2 percent."
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "名目金利はゼロを大きく下回って引き下げることがほとんどできない。貸し手が金利付き資産を、名目収益率がゼロである通貨に転換する方が有利になるためである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "Nominal interest rates cannot be cut much below zero, if at all, because lenders would find it profitable to convert their interest-bearing assets to currency, which has a nominal rate of return of zero."
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "連邦準備銀行（地区連銀）は、健全な米国経済と安定した金融システムの維持に役立つ全国的な金融政策の策定に不可欠な情報を提供している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "The Reserve Banks also provide a wealth of information on conditions across the nation—information that is vital to formulating a national monetary policy that helps maintain a healthy U.S. economy and stable financial system."
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "残りの7人の地区連銀総裁は投票権を持たないが、FOMCの会合に出席し審議に参加する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/structure-federal-reserve-system.htm",
+              "quote": "In addition, all the remaining 7 Reserve Bank presidents attend FOMC meetings and participate in FOMC deliberations."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

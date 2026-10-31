@@ -1,0 +1,165 @@
+/*
+ * Responsive layout recovery
+ * Keeps compact app screens information-dense without forcing forms and
+ * reading surfaces into columns that are too narrow to use.
+ */
+
+:where(
+  #hub-main,
+  #hub-main > *,
+  .main-content,
+  .shell__center,
+  .feature-grid,
+  .services-directory__grid,
+  .storefront__grid,
+  .unified-market-search__grid,
+  .market-product-grid,
+  .video-grid,
+  .music-grid,
+  .ai-chat__suggestions,
+  .ai-commerce__products,
+  .ai-account__cards,
+  .ad-inventory__list,
+  .search-discovery__threads,
+  .hub-about__principles,
+  .token-ranking-summary,
+  .music-history-page ol,
+  .music-library-page__tracks,
+  .storefront__areas,
+  .community-discovery__category-picker > div,
+  .hub-account__areas,
+  .hub-transaction__roles
+) {
+  min-width: 0;
+}
+
+:where(
+  .feature-grid,
+  .services-directory__grid,
+  .storefront__grid,
+  .unified-market-search__grid,
+  .market-product-grid,
+  .video-grid,
+  .music-grid,
+  .ai-chat__suggestions,
+  .ai-commerce__products,
+  .ai-account__cards,
+  .ad-inventory__list,
+  .search-discovery__threads,
+  .hub-about__principles,
+  .token-ranking-summary,
+  .music-history-page ol,
+  .music-library-page__tracks,
+  .storefront__areas,
+  .community-discovery__category-picker > div,
+  .hub-account__areas,
+  .hub-transaction__roles
+) > * {
+  min-width: 0;
+  max-width: 100%;
+}
+
+@media (min-width: 360px) and (max-width: 760px) {
+  html[data-hub-surface="app"] :where(
+    .feature-grid,
+    .services-directory__grid,
+    .storefront__grid,
+    .unified-market-search__grid,
+    .market-product-grid,
+    .video-grid,
+    .music-grid,
+    .music-favorites ol,
+    .music-my-playlist ol,
+    .community-portal__start-grid,
+    .future-surface__grid,
+    .people-grid,
+    .ai-chat__suggestions,
+    .ai-commerce__products,
+    .ai-account__cards,
+    .ad-inventory__list,
+    .search-discovery__threads,
+    .hub-about__principles,
+    .token-ranking-summary,
+    .music-history-page ol,
+    .music-library-page__tracks,
+    .storefront__areas,
+    .community-discovery__category-picker > div,
+    .hub-account__areas,
+    .hub-transaction__roles
+  ) {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 8px !important;
+  }
+
+  /* People cards can use spare tablet width while compact catalogs stay predictably two-column. */
+  html[data-hub-surface="app"] .people-grid {
+    grid-template-columns: repeat(auto-fit, minmax(156px, 1fr)) !important;
+  }
+
+  html[data-hub-surface="app"] :where(
+    .market-card-actions,
+    .market-modal-actions,
+    .token-wallet-connect__actions,
+    .ai-chat__confirmation > div:last-child
+  ) {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(132px, 1fr)) !important;
+    align-items: stretch;
+    gap: 8px !important;
+  }
+
+  html[data-hub-surface="app"] :where(
+    .market-card-actions,
+    .market-modal-actions,
+    .token-wallet-connect__actions,
+    .ai-chat__confirmation > div:last-child
+  ) > :where(button, a, [role="button"]) {
+    width: auto;
+    min-width: 0;
+    margin: 0;
+  }
+
+  html[data-hub-surface="app"] :where(
+    .feature-panel__heading,
+    .services-directory__header,
+    .storefront__header,
+    .music-library-page > header,
+    .music-history-page > header
+  ) {
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 359px) {
+  html[data-hub-surface="app"] :where(
+    .feature-grid,
+    .services-directory__grid,
+    .storefront__grid,
+    .unified-market-search__grid,
+    .market-product-grid,
+    .video-grid,
+    .music-grid,
+    .music-favorites ol,
+    .music-my-playlist ol,
+    .community-portal__start-grid,
+    .future-surface__grid,
+    .people-grid,
+    .ai-chat__suggestions,
+    .ai-commerce__products,
+    .ai-account__cards,
+    .ad-inventory__list,
+    .search-discovery__threads,
+    .hub-about__principles,
+    .token-ranking-summary,
+    .music-history-page ol,
+    .music-library-page__tracks,
+    .storefront__areas,
+    .community-discovery__category-picker > div,
+    .hub-account__areas,
+    .hub-transaction__roles
+  ) {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+}

@@ -1,0 +1,1024 @@
+/*
+ * Hub v2 / 音楽の棚・札・プレーヤー。
+ * v2.css から機械的に切り出した（規則の本文と相対順は変えていない）。
+ */
+
+/*
+ * 音楽の棚（SPEC 4.6）。オリジナルは札（絵 180）を横に送る。外部の曲は別の節の低い行。
+ * 棚の見出しはすべて --type-title3。色は意味トークンだけ。
+ */
+.v2-shelves {
+  display: grid;
+  gap: var(--v2-space-7);
+  min-width: 0;
+}
+
+/* grid の子は min-width が auto で、横に流す帯の中身の幅まで伸びて本文からはみ出す。0 に。 */
+.v2-shelf {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.v2-shelf__head,
+.v2-ext__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--v2-space-3);
+  min-height: 32px;
+  margin-bottom: var(--v2-space-3);
+}
+
+.v2-ext__head { justify-content: flex-start; }
+
+.v2-shelf__title,
+.v2-shelves h2.v2-shelf__title {
+  margin: 0;
+  font-size: var(--type-title3-size);
+  line-height: var(--type-title3-leading);
+  font-weight: var(--type-title3-weight);
+  letter-spacing: var(--type-title3-tracking);
+}
+
+.v2-shelf__rail {
+  display: flex;
+  gap: var(--v2-space-4);
+  margin: 0 -16px;
+  padding: 0 16px var(--v2-space-2);
+  list-style: none;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding-inline: 16px;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+}
+.v2-shelf__rail::-webkit-scrollbar { display: none; }
+
+.v2-mtile {
+  position: relative;
+  flex: none;
+  display: grid;
+  align-content: start;
+  gap: var(--v2-space-2);
+  width: 180px;
+  scroll-snap-align: start;
+}
+
+.v2-mtile__art { position: relative; }
+.v2-mtile__art .ui-media { box-shadow: var(--elevation-1); }
+.v2-mtile__symbol {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: var(--muted);
+  font-size: var(--type-title1-size);
+  font-weight: 700;
+}
+
+/* 絵の全面が再生。丸は触れたとき・焦点・再生中に出る。 */
+.v2-mtile__hit {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: block;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-md);
+  background: transparent;
+  cursor: pointer;
+}
+.v2-mtile__hit:disabled { cursor: default; }
+.v2-mtile__hit:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+.v2-mtile__play {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--action);
+  color: var(--action-text);
+  box-shadow: var(--elevation-2);
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity var(--dur-fast) var(--ease-out), transform var(--dur-fast) var(--ease-out);
+}
+.v2-mtile__hit:disabled .v2-mtile__play { display: none; }
+@media (hover: hover) {
+  .v2-mtile:hover .v2-mtile__play { opacity: 1; transform: none; }
+}
+.v2-mtile__hit:focus-visible .v2-mtile__play,
+.v2-mtile[data-current] .v2-mtile__play { opacity: 1; transform: none; }
+@media (hover: none) {
+  .v2-mtile__play { opacity: 1; transform: none; width: 36px; height: 36px; }
+}
+.v2-mtile__play .v2-icon { width: 22px; height: 22px; fill: currentColor; stroke: none; }
+
+.v2-mtile__body {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: start;
+  gap: var(--v2-space-1);
+}
+.v2-mtile__text { display: grid; min-width: 0; }
+.v2-mtile__title {
+  display: block;
+  max-width: 100%;
+  min-height: 24px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  font-size: var(--type-body-size);
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+.v2-mtile__title:disabled { cursor: default; }
+.v2-mtile__artist {
+  display: block;
+  overflow: hidden;
+  color: var(--muted);
+  font-size: var(--type-subhead-size);
+  line-height: 20px;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.v2-mtile__artist:hover { color: var(--text); text-decoration: underline; }
+.v2-mtile__heart { margin: -4px -6px 0 0; }
+
+/* ヒーロー（注目のオリジナル）。地は絵の拡大ぼかし、前面に絵 240。 */
+.v2-mhero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  min-height: 360px;
+  border-radius: var(--radius-lg);
+  background: var(--media-app-bg);
+  color: var(--media-app-text);
+}
+.v2-mhero__ground { position: absolute; inset: 0; z-index: -1; overflow: hidden; }
+.v2-mhero__ground img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.6);
+  filter: blur(60px) saturate(140%);
+}
+.v2-mhero__ground::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, transparent, var(--scrim));
+}
+.v2-mhero__inner {
+  display: flex;
+  align-items: flex-end;
+  gap: var(--v2-space-6);
+  min-height: 360px;
+  padding: var(--v2-space-6);
+}
+.v2-mhero__art { flex: none; width: 240px; }
+.v2-mhero__art .ui-media { box-shadow: var(--elevation-2); }
+.v2-mhero__symbol {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: var(--media-app-muted);
+  font-size: var(--type-display-size);
+}
+.v2-mhero__body { display: grid; justify-items: start; gap: var(--v2-space-2); min-width: 0; }
+.v2-mhero__tag {
+  display: inline-flex;
+  align-items: center;
+  height: 24px;
+  padding: 0 var(--v2-space-2);
+  border-radius: var(--radius-xs);
+  background: var(--material-sheet);
+  color: var(--text);
+  font-size: var(--type-caption-size);
+  font-weight: 600;
+}
+.v2-mhero__title {
+  margin: 0;
+  font-size: var(--type-display-size);
+  line-height: var(--type-display-leading);
+  font-weight: var(--type-display-weight);
+  letter-spacing: var(--type-display-tracking);
+  font-feature-settings: "palt";
+  overflow-wrap: anywhere;
+}
+.v2-mhero__title a, .v2-mhero__artist { color: inherit; text-decoration: none; }
+.v2-mhero__artist { font-size: 17px; line-height: 24px; color: var(--media-app-muted); }
+.v2-mhero__artist:hover, .v2-mhero__title a:hover, .v2-mhero__titlebutton:hover { text-decoration: underline; }
+.v2-mhero__titlebutton { display: block; padding: 0; border: 0; background: transparent; color: inherit; font: inherit; letter-spacing: inherit; text-align: left; overflow-wrap: anywhere; cursor: pointer; }
+.v2-mhero__actions { display: flex; align-items: center; gap: var(--v2-space-2); margin-top: var(--v2-space-3); }
+.v2-mhero__play {
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: var(--action);
+  color: var(--action-text);
+  cursor: pointer;
+  transition: transform var(--dur-press) var(--ease-out);
+}
+.v2-mhero__play:active { transform: scale(.94); }
+.v2-mhero__play:disabled { opacity: .5; cursor: default; }
+.v2-mhero__play:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+.v2-mhero__play .v2-icon { width: 26px; height: 26px; fill: currentColor; stroke: none; }
+.v2-mhero .v2-mhero__icon { width: 44px; height: 44px; color: var(--media-app-text); }
+.v2-mhero .v2-mhero__icon:hover { background: var(--media-app-panel); }
+.v2-mhero .v2-mhero__icon .v2-icon { width: 22px; height: 22px; }
+
+@media (max-width: 759px) {
+  .v2-mhero { min-height: 420px; border-radius: 0; }
+  .v2-mhero__inner { flex-direction: column; align-items: flex-start; justify-content: flex-end; gap: var(--v2-space-4); min-height: 420px; padding: var(--v2-space-5) var(--v2-space-4); }
+  .v2-mhero__art { width: 200px; }
+  .v2-mhero__title { font-size: var(--type-title1-size); line-height: var(--type-title1-leading); }
+  .v2-mtile { width: 148px; }
+  .v2-mtile__heart { width: 44px; height: 44px; margin: -10px -10px 0 0; }
+}
+
+/* オリジナルがまだ無いとき、ヒーローの位置で最初の公開を誘う。 */
+.v2-mfirst { display: flex; flex-wrap: wrap; align-items: center; gap: var(--v2-space-3); margin: var(--v2-space-5) 0 0; }
+.v2-mfirst__note { color: var(--muted); font-size: var(--type-subhead-size); }
+.v2-mfirst .v2-card__link { display: inline-flex; align-items: center; min-height: 32px; }
+
+/* 入口の操作は3行まで: 並びのタブ、検索と絞り込みの1行、ジャンルのチップ。 */
+.v2 .v2-music-toolbar { display: flex; flex-wrap: wrap; align-items: flex-start; gap: var(--v2-space-2); margin-bottom: var(--v2-space-3); }
+.v2 .v2-music-toolbar > .v2-music-search { flex: 1 1 240px; margin: 0; }
+.v2 .v2__main .v2-music-toolbar > .v2-music-filter { margin: 0; }
+.v2 .v2__main .v2-music-toolbar > .v2-music-filter[open] { flex: 1 0 100%; order: 3; }
+/* 検索は Enter で送る。送信ボタンは読み上げ用に残し、見た目からは外す。 */
+.v2 .v2-music-search .v2-search__submit { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+@media (hover: none), (max-width: 759px) {
+  .v2-music-row__art .v2-music-row__play { opacity: 1; background: transparent; color: var(--text); }
+}
+
+/* 外部の曲。オリジナルの後ろ、区切り線と余白の下。行は 56、絵は 40。 */
+.v2-ext { padding-top: var(--v2-space-6); border-top: var(--divider); }
+.v2-ext__tag {
+  display: inline-flex;
+  align-items: center;
+  height: 22px;
+  padding: 0 var(--v2-space-2);
+  border-radius: var(--radius-pill);
+  background: var(--interactive);
+  color: var(--muted);
+  font-size: var(--type-caption-size);
+  font-weight: 600;
+}
+.v2-ext__group + .v2-ext__group { margin-top: var(--v2-space-4); }
+.v2-ext__sub { margin: 0 0 var(--v2-space-2); color: var(--muted); font-size: var(--type-title3-size); line-height: var(--type-title3-leading); font-weight: var(--type-title3-weight); letter-spacing: var(--type-title3-tracking); }
+.v2-ext .v2-music-rows,
+.v2-mlist__external .v2-music-results {
+  grid-template-rows: none;
+  grid-auto-flow: row;
+  grid-auto-columns: auto;
+  grid-template-columns: repeat(auto-fill, minmax(min(340px, 100%), 1fr));
+  overflow: visible;
+  gap: 0 var(--v2-space-5);
+  padding: 0;
+}
+
+/* 帯の「…」と二次の入口。 */
+.v2-music-menu__trigger {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+}
+.v2-music-menu__trigger:hover { background: var(--interactive); }
+.v2-music-menu__trigger:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+.v2-music-menu {
+  position: fixed;
+  inset: auto;
+  margin: 0;
+  width: 200px;
+  padding: 6px;
+  border: 0;
+  border-radius: var(--radius-md);
+  background: var(--surface-raised);
+  color: var(--text);
+  box-shadow: var(--elevation-2);
+}
+.v2-music-menu > a { display: flex; align-items: center; min-height: 44px; padding: 0 var(--v2-space-3); border-radius: var(--radius-sm); color: inherit; text-decoration: none; }
+.v2-music-menu > a:hover { background: var(--interactive); }
+@media (max-width: 759px) {
+  .v2-music-menu__trigger { width: 44px; height: 44px; }
+}
+
+.v2-music-tabs { margin-bottom: var(--v2-space-4); }
+.v2-music-register { margin-top: var(--v2-space-6); }
+.v2-music-how { margin-top: var(--v2-space-5); color: var(--muted); font-size: var(--type-subhead-size); }
+.v2-music-how summary { cursor: pointer; min-height: 32px; display: flex; align-items: center; }
+.v2-music-how p { margin: var(--v2-space-2) 0 0; max-width: 64ch; line-height: 1.6; }
+
+/* 音楽プレーヤー ------------------------------------------------------ */
+
+/*
+ * 右下に浮く盤。**絵の上には何も置かない**（YouTube の規約。詳しくは
+ * lib/youtube-iframe-api.ts）。並びは 題 → 絵 → 操作 → 出所 → 続きの曲。
+ * 幅は絵の 356px ＋ 左右の余白で 380px。
+ */
+.v2-player {
+  position: fixed;
+  right: var(--v2-space-4);
+  bottom: var(--v2-space-4);
+  z-index: 30;
+  display: grid;
+  gap: var(--v2-space-2);
+  width: 380px;
+  max-width: calc(100vw - var(--v2-space-5));
+  padding: var(--v2-space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius);
+  background: var(--bg);
+  box-shadow: 0 8px 32px var(--scrim);
+}
+
+.v2-player__head {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--v2-space-2);
+}
+
+/* つかむ取っ手。ここだけが動かす場所（絵の上には何も置かない）。 */
+.v2-player__grip {
+  display: grid;
+  flex: none;
+  place-items: center;
+  width: 24px;
+  height: 28px;
+  padding: 0;
+  border: 0;
+  border-radius: var(--v2-radius);
+  background: none;
+  color: var(--muted);
+  cursor: grab;
+  touch-action: none;
+}
+
+.v2-player__grip:hover {
+  background: var(--interactive);
+  color: var(--text);
+}
+
+.v2-player[data-dragging] {
+  cursor: grabbing;
+  user-select: none;
+}
+
+.v2-player[data-dragging] .v2-player__grip {
+  cursor: grabbing;
+  background: var(--interactive);
+  color: var(--text);
+}
+
+/* 動かしている間は、絵に指を取られないようにする。位置は取っ手が決める。 */
+.v2-player[data-dragging] .v2-player__frame {
+  pointer-events: none;
+}
+
+.v2-player__now {
+  display: grid;
+  gap: 2px;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.v2-player__now strong {
+  overflow: hidden;
+  font-size: var(--v2-text-sm);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.v2-player__now span {
+  overflow: hidden;
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 絵の場。356×200（規約の下限 200×200 を満たす）。ここに重ねない。 */
+.v2-player__stage {
+  width: 100%;
+  aspect-ratio: 356 / 200;
+  min-height: 200px;
+  border-radius: var(--v2-radius);
+  overflow: hidden;
+  background: var(--media-app-bg);
+}
+
+/* 縦型（ショート）。横 202px で 200×200 の下限は満たす。 */
+.v2-player__stage--tall {
+  width: auto;
+  max-width: 100%;
+  aspect-ratio: 9 / 16;
+  max-height: 360px;
+  margin-inline: auto;
+}
+
+.v2-player__stage--consent {
+  display: grid;
+  align-content: center;
+  aspect-ratio: auto;
+  padding: var(--v2-space-3);
+  font-size: var(--v2-text-xs);
+}
+
+.v2-player__frame {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.v2-player__audio {
+  width: 100%;
+}
+
+.v2-player__controls {
+  display: flex;
+  align-items: center;
+  gap: var(--v2-space-1);
+}
+
+.v2-player__volume {
+  display: flex;
+  align-items: center;
+  gap: var(--v2-space-1);
+  flex: 1 1 auto;
+  min-width: 0;
+  color: var(--muted);
+}
+
+.v2-player__volume input {
+  width: 100%;
+  min-width: 0;
+  accent-color: var(--action);
+  cursor: pointer;
+}
+
+/* 出所と YouTube へ戻る道。規約で必ず出す。 */
+.v2-player__source {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 var(--v2-space-3);
+  margin: 0;
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+}
+
+.v2-player__error {
+  margin: 0;
+  color: var(--danger-text);
+  font-size: var(--v2-text-xs);
+}
+
+/* 続きの曲。絵の下に開く（絵の上には出さない）。 */
+.v2-player__queue {
+  display: grid;
+  gap: 0;
+  max-height: 200px;
+  margin: 0;
+  padding: var(--v2-space-2) 0 0;
+  border-top: 1px solid var(--line);
+  list-style: none;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.v2-player__queue button {
+  display: flex;
+  align-items: center;
+  gap: var(--v2-space-2);
+  width: 100%;
+  padding: var(--v2-space-2);
+  border: 0;
+  border-radius: var(--v2-radius);
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.v2-player__queue button:hover {
+  background: var(--interactive);
+}
+
+.v2-player__queue .is-current button {
+  background: var(--interactive);
+}
+
+.v2-player__queue-no {
+  flex: none;
+  width: 18px;
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+  font-variant-numeric: tabular-nums;
+}
+
+.v2-player__queue-body {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.v2-player__queue-body strong {
+  overflow: hidden;
+  font-size: var(--v2-text-sm);
+  font-weight: 400;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.v2-player__queue-body small {
+  overflow: hidden;
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.v2-player__queue-empty {
+  padding: var(--v2-space-2);
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+}
+
+.v2-music-rows, .v2-music-results {
+  display: grid;
+  list-style: none;
+  margin: 0;
+  padding: 0 0 8px;
+  gap: 4px 24px;
+}
+.v2-music-rows {
+  grid-template-rows: repeat(4, 60px);
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(min(300px, 100%), 1fr);
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  scrollbar-width: thin;
+}
+.v2-music-results { grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr)); }
+.v2-music-row {
+  position: relative;
+  display: grid;
+  grid-template-columns: 48px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+  min-height: 60px;
+  border-radius: 6px;
+  scroll-snap-align: start;
+}
+.v2-music-row:hover, .v2-music-row:focus-within, .v2-music-row[data-current] { background: var(--interactive); }
+.v2-music-row[data-compact] { grid-template-columns: 40px minmax(0, 1fr) auto; min-height: 56px; border-radius: var(--radius-sm); }
+.v2-music-row[data-compact] .v2-music-row__art { width: 40px; height: 40px; border-radius: var(--radius-xs); }
+.v2-music-row[data-compact] .v2-music-row__title { font-size: var(--type-body-size); font-weight: 400; }
+.v2-music-row[data-compact] .v2-music-row__meta { margin-top: 2px; font-size: var(--type-subhead-size); }
+.v2-music-row__art {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 48px;
+  height: 48px;
+  padding: 0;
+  border: 0;
+  border-radius: 4px;
+  overflow: hidden;
+  background: var(--surface-sunken);
+  color: var(--text);
+  cursor: pointer;
+}
+.v2-music-row__art img { width: 100%; height: 100%; object-fit: cover; }
+.v2-music-row__play { position: absolute; inset: 0; display: grid; place-items: center; background: var(--scrim); opacity: 0; }
+.v2-music-row:hover .v2-music-row__play, .v2-music-row:focus-within .v2-music-row__play, .v2-music-row[data-current] .v2-music-row__play { opacity: 1; }
+.v2-music-row__body { min-width: 0; }
+.v2-music-row__title { display: block; width: 100%; padding: 0; border: 0; background: transparent; color: var(--text); text-align: left; font: inherit; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; cursor: pointer; }
+.v2-music-row__meta { margin-top: 4px; font-size: var(--v2-text-sm); color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.v2-music-row__meta a { color: inherit; text-decoration: none; }
+.v2-music-row__meta a:hover { text-decoration: underline; }
+.v2-music-row__actions { display: flex; gap: 4px; padding-right: 4px; }
+.v2-music-row__more { display: grid; place-items: center; width: 36px; height: 36px; border: 0; border-radius: 50%; background: transparent; color: var(--text); cursor: pointer; }
+.v2-music-row__more:hover { background: var(--selected); }
+@media (hover: hover) and (min-width: 760px) {
+  .v2-music-row:not(:hover):not(:focus-within):not([data-current]) .v2-music-row__more { opacity: 0; }
+}
+.v2-music-row__menu { position: fixed; inset: auto; margin: 0; width: min(232px, calc(100vw - 16px)); max-height: min(460px, calc(100dvh - 16px)); overflow-y: auto; padding: 6px; border: var(--divider); border-radius: 8px; background: var(--surface-raised); color: var(--text); }
+.v2-music-row__menu > * { display: block; width: 100%; padding: 12px; border: 0; border-radius: 4px; background: transparent; color: inherit; font: inherit; text-decoration: none; text-align: left; cursor: pointer; }
+.v2-music-row__menu > *:hover { background: var(--interactive); }
+.v2-music-row button:disabled { cursor: default; }
+.v2-music-row :focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+
+/* 音楽 --------------------------------------------------------------- */
+
+/* 一覧は横並びの札。絵は96px固定、右に題・作者・操作。 */
+.v2-mgrid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(180px, 100%), 1fr));
+  gap: var(--v2-space-4) var(--v2-space-3);
+}
+
+/* 音楽も絵が上の札。正方形の絵の上に再生、題の右にお気に入り。 */
+.v2-mcard {
+  display: flex;
+  flex-direction: column;
+  gap: var(--v2-space-2);
+}
+
+.v2-mcard--playing .v2-mcard__art {
+  outline: 2px solid var(--action);
+}
+
+.v2-mcard__art {
+  position: relative;
+  flex: none;
+  width: 100%;
+  aspect-ratio: 1;
+  padding: 0;
+  border: 0;
+  border-radius: var(--v2-radius);
+  overflow: hidden;
+  background: var(--line);
+  color: var(--media-app-text);
+  font: inherit;
+  font-size: var(--v2-text-lg);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.v2-mcard__art:disabled {
+  cursor: default;
+}
+
+.v2-mcard__art img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 再生の印。絵の上に重ねる。押せないものには出さない。 */
+.v2-mcard__play {
+  position: absolute;
+  right: var(--v2-space-2);
+  bottom: var(--v2-space-2);
+  padding: 2px var(--v2-space-2);
+  border-radius: var(--v2-space-1);
+  background: var(--media-app-bg);
+  color: var(--media-app-text);
+  font-size: var(--v2-text-xs);
+}
+
+.v2-mcard__art:disabled .v2-mcard__play {
+  display: none;
+}
+
+.v2-mcard__body {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.v2-mcard__row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--v2-space-2);
+}
+
+.v2-mcard__title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  font-size: var(--v2-text-sm);
+  line-height: 1.45;
+}
+
+.v2-mcard__artist {
+  overflow: hidden;
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.v2-mcard__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 var(--v2-space-2);
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+}
+
+/* URLから登録の欄。下の格子と離す。 */
+.v2-mreg {
+  margin-bottom: var(--v2-space-4);
+}
+
+/*
+ * 作者名は押せる（2026-09-04）。棚と一覧の両方から作者の画面へ行く。
+ * 押せると分かる最小の手当て。下線は当たったときだけ出す。
+ */
+.v2-shelf__artist,
+.v2-mcard__artist {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.v2-shelf__artist:hover,
+.v2-shelf__artist:focus-visible,
+.v2-mcard__artist:hover,
+.v2-mcard__artist:focus-visible {
+  color: var(--text);
+  text-decoration: underline;
+}
+
+/* Hub の曲を先に（2026-10-14）。外部の曲は穴埋めで、別の見出しの下に置く。色は意味トークンのみ。 */
+.v2-music-row__origin { white-space: nowrap; }
+.v2-music-row__origin[data-origin="external"] { color: var(--muted); }
+/* 検索結果の中の外部の節の見出し。 */
+.v2-shelf__sub { display: flex; align-items: center; gap: var(--v2-space-2); margin: var(--v2-space-6) 0 var(--v2-space-3); padding-top: var(--v2-space-5); border-top: var(--divider); }
+.v2-shelf__subtitle { margin: 0; font-size: var(--type-title3-size); line-height: var(--type-title3-leading); font-weight: var(--type-title3-weight); }
+@media (max-width: 759px) {
+  .v2-music-row__more, .v2-music-row .v2-button--icon { width: 44px; height: 44px; }
+  .v2-music-row[data-compact] { min-height: 64px; }
+}
+
+/* 外部の行のハート。机上では触れたときだけ、携帯では「…」の中だけ。 */
+.v2-music-row[data-compact] .v2-music-row__heart { opacity: 0; }
+.v2-music-row[data-compact]:hover .v2-music-row__heart,
+.v2-music-row[data-compact]:focus-within .v2-music-row__heart,
+.v2-music-row[data-compact] .v2-music-row__heart[aria-pressed="true"] { opacity: 1; }
+@media (hover: none), (max-width: 759px) {
+  .v2-music-row[data-compact] .v2-music-row__heart { display: none; }
+}
+.v2-ext__subhead { display: flex; align-items: center; justify-content: space-between; gap: var(--v2-space-3); margin-bottom: var(--v2-space-2); }
+.v2-ext__subhead .v2-ext__sub { margin: 0; }
+
+/* 仕上げ（L5）: ヒーローの可読性、札と行の操作、携帯の押し手。 */
+.v2-mhero__ground::after {
+  background: linear-gradient(to bottom, transparent 15%, color-mix(in srgb, var(--media-app-bg) 88%, transparent) 100%);
+}
+.v2-mhero .v2-button.v2-mhero__icon {
+  width: 44px;
+  height: 44px;
+  border: 0;
+  background: var(--material-sheet);
+  color: var(--text);
+}
+.v2-mhero .v2-button.v2-mhero__icon:hover { background: var(--interactive-hover); }
+.v2-mtile .v2-button.v2-mtile__heart {
+  width: 32px;
+  height: 32px;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+}
+.v2-mtile .v2-button.v2-mtile__heart:hover { background: var(--interactive); color: var(--text); }
+.v2-mtile .v2-button.v2-mtile__heart[aria-pressed="true"] { color: var(--reaction-like); }
+.v2-mtile__artist { line-height: 24px; }
+.v2-music-row .v2-button--icon { border: 0; background: transparent; }
+.v2-music-row .v2-button--icon:hover { background: var(--selected); }
+@media (max-width: 759px) {
+  .v2-mtile .v2-button.v2-mtile__heart { width: 44px; height: 44px; margin: -10px -10px 0 0; }
+  /* 作者名は題の下の小さな字。押す先は作品・作者の画面で、行の「…」から行ける。 */
+  .v2-mtile__artist, .v2-music-row__meta a { pointer-events: none; }
+  .v2-music-publish, .v2-music-search > input, .v2-music-search .v2-search__submit, .v2-music-filter > summary { min-height: 44px; }
+}
+
+/* L5 の上のタブ（記事・音楽・Hubpedia）。古い [class*="-tabs"] a の字・余白に負けないよう、部品の値を明示する。 */
+.v2-l5-tabs.ui-tabs > .ui-tab {
+  padding: 0;
+  font-size: 15px;
+  line-height: 20px;
+  font-weight: 600;
+  border-radius: 0;
+  background: transparent;
+}
+.v2-l5-tabs.ui-tabs { margin-bottom: var(--v2-space-4); }
+.v2-l5-tabs.ui-tabs > .ui-tab { min-width: 44px; justify-content: center; }
+
+/* 行の押し手。作者名の行内リンクは机上で 24 以上、携帯は題・絵の 44 を確保（作者は行の「…」から）。 */
+.v2-music-row__meta a { display: inline-block; padding-block: 4px; margin-block: -4px; }
+@media (max-width: 759px) {
+  .v2-music-row[data-compact] { grid-template-columns: 44px minmax(0, 1fr) auto; }
+  .v2-music-row[data-compact] .v2-music-row__art { width: 44px; height: 44px; }
+  .v2-music-row__title { padding-block: 10px; margin-block: -10px; }
+}
+.v2-ext__subhead .v2-card__link, .v2-shelf__head .v2-card__link { display: inline-flex; align-items: center; min-height: 32px; }
+@media (max-width: 759px) {
+  .v2-ext__subhead .v2-card__link, .v2-shelf__head .v2-card__link, .v2-music-register .v2-toggle, .v2-music-how > summary { min-height: 44px; }
+}
+
+/* 機上の盤: 浮かせず、右列の底か右の帯の左に置く（v2-floating-panel.tsx が寸法を書く）。 */
+@media (min-width: 760px) {
+  .v2-player[data-dock] {
+    z-index: 20;
+    top: auto !important;
+    box-sizing: border-box;
+    width: var(--dock-width, 380px) !important;
+    max-width: none;
+    max-height: var(--dock-max-h, calc(100dvh - 24px));
+    bottom: var(--dock-bottom, 12px) !important;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    box-shadow: none;
+    background: var(--panel);
+  }
+  .v2-player[data-dock="aside"] {
+    left: var(--dock-left, auto) !important;
+    right: auto !important;
+    border-color: var(--line);
+  }
+  .v2-player[data-dock="edge"] {
+    left: auto !important;
+    right: var(--dock-right, 12px) !important;
+    box-shadow: 0 1px 2px color-mix(in srgb, var(--text) 6%, transparent), 0 4px 14px color-mix(in srgb, var(--text) 8%, transparent);
+  }
+  .v2-player[data-dock] .v2-player__grip { display: none; }
+  /* 右列が開いている間は、右列の中身（縦に流れる所）を盤の上で終わらせて、重ねない。 */
+  html[data-v2-dock="aside"] .v2__aside .v2-aside__body { margin-bottom: calc(var(--v2-dock-reserve, 0px) - var(--v2-space-2)); }
+  /* 右列が閉じている間は、盤ぶんを本文の右に空ける。 */
+  html[data-v2-dock="edge"] body .v2 .v2__workspace .v2__frame > #hub-main.v2__main { margin-right: var(--v2-dock-reserve, 0px); }
+}
+
+/* 操作の行。主操作（再生）を中央に大きく、あとは44pxの面で並べる。 */
+.v2-player__progress { display: grid; gap: 2px; }
+.v2-player__progress > div { height: 4px; overflow: hidden; border-radius: var(--v2-radius-pill); background: var(--interactive); }
+.v2-player__progress > div > span { display: block; height: 100%; background: var(--emphasis); }
+.v2-player__progress > p { display: flex; justify-content: space-between; margin: 0; color: var(--muted); font-size: var(--v2-text-xs); font-variant-numeric: tabular-nums; }
+.v2-player__controls { display: grid; grid-template-columns: repeat(5, auto); align-items: center; justify-content: space-between; gap: var(--v2-space-1); }
+.v2-player__controls .v2-button--icon { width: 44px; height: 44px; min-width: 44px; min-height: 44px; }
+.v2-player__controls .v2-button--primary { width: 48px; height: 48px; min-width: 48px; min-height: 48px; border-radius: var(--v2-radius-pill); }
+.v2-player__controls .v2-button--icon:has(.v2-button__count) { width: auto; }
+.v2-player__volume { grid-column: 1 / -1; order: 1; min-height: 44px; }
+.v2-player__volume input { height: 44px; margin: 0; }
+.v2-player__controls :focus-visible, .v2-player__grip:focus-visible, .v2-player__source a:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 1px; }
+.v2-player__volume input:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; box-shadow: none; }
+.v2-player__source { align-items: center; row-gap: var(--v2-space-1); }
+.v2-player__source > * { min-height: 24px; display: inline-flex; align-items: center; }
+.v2-player__origin { padding: 0 var(--v2-space-2); border: 1px solid var(--line); border-radius: var(--v2-radius-pill); color: var(--text); font-size: var(--v2-text-xs); font-weight: 700; }
+.v2-player__source a { color: var(--text); text-decoration: underline; text-underline-offset: 2px; min-height: 32px; }
+/* 再生の円は記号だけ（名前は読み上げに残す）。押した状態は赤でなく、地の濃さで示す。 */
+.v2-player__controls .v2-button--primary .v2-button__label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.v2-player__controls .v2-button--primary .v2-icon { width: 22px; height: 22px; }
+.v2-player__controls .v2-button[aria-pressed="true"] { border-color: var(--line-strong); background: var(--interactive); color: var(--text); }
+.v2-player__volume input { accent-color: var(--text); }
+
+/*
+ * 共有の小窓（V2PlayerShell、2026-10-18）。音楽と動画の中身の差し込み口と、
+ * 一時停止して畳んだ側の1行。畳んだ側は止まっているので隠してよい。
+ */
+.v2-player__slot {
+  display: grid;
+  gap: var(--v2-space-2);
+  min-width: 0;
+}
+
+.v2-player__slot[hidden] {
+  display: none;
+}
+
+.v2-player__slot:empty {
+  display: none;
+}
+
+.v2-player__paused {
+  display: flex;
+  align-items: center;
+  gap: var(--v2-space-2);
+  width: 100%;
+  min-height: 44px;
+  padding: var(--v2-space-1) var(--v2-space-2);
+  border: var(--divider);
+  border-radius: var(--v2-radius);
+  background: transparent;
+  color: var(--text);
+  text-align: left;
+  cursor: pointer;
+}
+
+.v2-player__paused:hover {
+  background: var(--interactive);
+}
+
+.v2-player__paused-text {
+  display: grid;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.v2-player__paused-text small {
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+}
+
+.v2-player__paused-text strong {
+  overflow: hidden;
+  font-size: var(--v2-text-sm);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.v2-player__paused-action {
+  color: var(--emphasis);
+  font-size: var(--v2-text-xs);
+  white-space: nowrap;
+}
+
+/* 小窓の Hub動画。絵の枠は小窓の場（.v2-player__stage）が持つ。 */
+.v2-player__stage .native-video--compact,
+.v2-player__stage .native-video--compact .native-video__frame {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+}
+
+/* ===== アルバム・アーティストの頁（MusicCollectionView）: 表紙つきの頭と1列の曲リスト ===== */
+.v2-mc { display: grid; gap: 16px; }
+.v2-mc__hero { display: flex; align-items: flex-end; gap: 24px; padding: 20px; border: var(--divider); border-radius: 14px; background: var(--surface-raised); }
+.v2-mc__cover { flex: 0 0 auto; display: grid; place-items: center; width: 220px; height: 220px; overflow: hidden; border-radius: 10px; background: var(--surface-sunken); color: var(--muted); font-size: 3rem; }
+.v2-mc__cover img { width: 100%; height: 100%; object-fit: cover; }
+.v2-mc__meta { display: grid; gap: 6px; min-width: 0; }
+.v2-mc__meta small { color: var(--muted); font-size: .75rem; font-weight: 800; letter-spacing: .08em; }
+.v2-mc__meta h1 { margin: 0; font-size: 2rem; line-height: 1.2; overflow-wrap: anywhere; }
+.v2-mc__meta p { margin: 0; color: var(--muted); font-size: .9rem; }
+.v2-mc__actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 10px; }
+.v2-mc__actions :is(a, button) { display: inline-flex; align-items: center; min-height: 40px; padding: 0 14px; border: var(--divider); border-radius: 999px; background: var(--surface-raised); color: var(--text); font: inherit; font-size: .8rem; font-weight: 700; text-decoration: none; cursor: pointer; }
+.v2-mc__actions button[aria-pressed="true"] { background: var(--emphasis); color: var(--action-text); }
+.v2-mc__actions .v2-mc__play { min-width: 112px; justify-content: center; border: 0; background: var(--emphasis); color: var(--action-text); }
+.v2-mc__actions .v2-mc__play:disabled { opacity: .5; cursor: default; }
+.v2-mc__tracks { display: grid; margin: 0; padding: 0; list-style: none; border: var(--divider); border-radius: 12px; overflow: hidden; }
+.v2-mc__tracks > li { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; min-height: 56px; background: var(--surface-raised); }
+.v2-mc__tracks > li + li { border-top: var(--divider); }
+.v2-mc__tracks > li:hover { background: var(--interactive-hover); }
+.v2-mc__tracks > li.is-current .v2-mc__text strong { color: var(--emphasis); }
+.v2-mc__track { display: grid; grid-template-columns: 32px 40px minmax(0, 1fr); align-items: center; gap: 12px; min-width: 0; min-height: 56px; padding: 8px 12px; border: 0; background: transparent; color: var(--text); font: inherit; text-align: left; cursor: pointer; }
+.v2-mc__track:disabled { cursor: default; opacity: .6; }
+.v2-mc__no { color: var(--muted); font-size: .8rem; font-weight: 600; text-align: center; font-variant-numeric: tabular-nums; }
+.v2-mc__art { display: grid; place-items: center; width: 40px; height: 40px; overflow: hidden; border-radius: 6px; background: var(--surface-sunken); color: var(--muted); }
+.v2-mc__art img { width: 100%; height: 100%; object-fit: cover; }
+.v2-mc__text { display: grid; min-width: 0; }
+.v2-mc__text :is(strong, em) { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.v2-mc__text strong { font-size: .92rem; }
+.v2-mc__text em { color: var(--muted); font-size: .78rem; font-style: normal; }
+.v2-mc__row-actions { display: flex; gap: 2px; padding-right: 10px; }
+.v2-mc__row-actions button { width: 40px; height: 40px; border: 0; border-radius: 50%; background: transparent; color: var(--text); font-size: 1rem; cursor: pointer; }
+.v2-mc__row-actions button:hover { background: var(--interactive-hover); }
+.v2-mc__row-actions button:disabled { opacity: .4; cursor: default; }
+.v2-mc :focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 1px; }
+@media (max-width: 640px) {
+  .v2-mc__hero { flex-direction: column; align-items: flex-start; }
+  .v2-mc__cover { width: 160px; height: 160px; }
+  .v2-mc__meta h1 { font-size: 1.5rem; }
+}
+
+/* ===== 常駐プレーヤー: Hub の曲の表紙・シーク・待ち行列の表紙 ===== */
+.v2-player__hub { display: flex; align-items: center; gap: 12px; }
+.v2-player__cover { flex: 0 0 auto; display: grid; place-items: center; width: 56px; height: 56px; overflow: hidden; border-radius: 8px; background: var(--surface-sunken); color: var(--muted); }
+.v2-player__cover img { width: 100%; height: 100%; object-fit: cover; }
+.v2-player__audio-hidden { display: none; }
+.v2-player__seek { width: 100%; height: 20px; margin: 0; accent-color: var(--emphasis); cursor: pointer; }
+.v2-player__seek:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+.v2-player__queue-art { flex: 0 0 auto; width: 32px; height: 32px; overflow: hidden; border-radius: 4px; background: var(--surface-sunken); }
+.v2-player__queue-art img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+/* 旧い2列指定（music.css の .music-collection-page > ol）より強くして、1列にそろえる */
+.music-collection-page > ol.v2-mc__tracks { grid-template-columns: minmax(0, 1fr); gap: 0; border: var(--divider); border-radius: 12px; background: var(--surface-raised); }
+
+/* ?work= で共有された曲。棚の上に1行だけ置く。 */
+.v2-music-shared { margin: 0 0 16px; padding: 8px 0; border-bottom: var(--divider); }
+.v2-music-shared__label { margin: 0 0 4px; font-size: var(--type-title3-size); line-height: var(--type-title3-leading); font-weight: var(--type-title3-weight); }

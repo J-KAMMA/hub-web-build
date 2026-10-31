@@ -1,0 +1,2 @@
+import type {D1Database} from "@cloudflare/workers-types";import {advertiserSessionFromRequest} from "@/lib/server/hub-ads-advertiser-session";
+export async function requireActiveHubAdvertiser(request:Request,database:D1Database){const session=advertiserSessionFromRequest(request);if(!session)return null;const row=await database.prepare("SELECT advertiser_ref advertiserRef FROM hub_ad_advertisers WHERE advertiser_ref=? AND status='active' AND policy_version IS NOT NULL").bind(session.advertiserRef).first<{advertiserRef:string}>();return row??null;}

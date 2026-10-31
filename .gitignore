@@ -1,0 +1,14 @@
+node_modules/
+.next/
+.next-*/
+.open-next/
+.wrangler/
+dist/
+.dev.vars*
+.env*
+*.log
+*.tmp
+*.tsbuildinfo
+apps/hub/public/zones/
+apps/hub/public/avatar.glb
+apps/hub/public/items.glb

@@ -1,0 +1,122 @@
+[
+  {
+    "name": "現行形式: 見出し・段落・箇条書き・引用",
+    "input": "## 大見出し\n段落の一行目\n二行目\n\n- 一\n- 二\n\n> 引用\n\n### 小見出し",
+    "expected": [
+      { "kind": "heading", "level": 2, "text": "大見出し", "id": "h-大見出し", "inline": [{ "t": "text", "v": "大見出し" }] },
+      { "kind": "paragraph", "text": "段落の一行目\n二行目", "inline": [{ "t": "text", "v": "段落の一行目\n二行目" }] },
+      { "kind": "list", "ordered": false, "items": ["一", "二"], "itemsInline": [[{ "t": "text", "v": "一" }], [{ "t": "text", "v": "二" }]] },
+      { "kind": "quote", "text": "引用", "inline": [{ "t": "text", "v": "引用" }] },
+      { "kind": "heading", "level": 3, "text": "小見出し", "id": "h-小見出し", "inline": [{ "t": "text", "v": "小見出し" }] }
+    ]
+  },
+  {
+    "name": "現行形式: CRLFと箇条書き直後の段落",
+    "input": "- 一\r\n続きの段落",
+    "expected": [
+      { "kind": "list", "ordered": false, "items": ["一"], "itemsInline": [[{ "t": "text", "v": "一" }]] },
+      { "kind": "paragraph", "text": "続きの段落", "inline": [{ "t": "text", "v": "続きの段落" }] }
+    ]
+  },
+  {
+    "name": "現行形式: HTMLは文字のまま",
+    "input": "<script>alert(1)</script>\n\n<img src=x onerror=alert(1)>",
+    "expected": [
+      { "kind": "paragraph", "text": "<script>alert(1)</script>", "inline": [{ "t": "text", "v": "<script>alert(1)</script>" }] },
+      { "kind": "paragraph", "text": "<img src=x onerror=alert(1)>", "inline": [{ "t": "text", "v": "<img src=x onerror=alert(1)>" }] }
+    ]
+  },
+  {
+    "name": "空の本文",
+    "input": "\n\n   \n",
+    "expected": []
+  },
+  {
+    "name": "インライン: 強調・斜体・コード・リンク",
+    "input": "**太字**と*斜体*と`code`と[Hub](https://example.com/a)と[内部](/v2/articles/x)",
+    "expected": [
+      {
+        "kind": "paragraph",
+        "text": "**太字**と*斜体*と`code`と[Hub](https://example.com/a)と[内部](/v2/articles/x)",
+        "inline": [
+          { "t": "strong", "c": [{ "t": "text", "v": "太字" }] },
+          { "t": "text", "v": "と" },
+          { "t": "em", "c": [{ "t": "text", "v": "斜体" }] },
+          { "t": "text", "v": "と" },
+          { "t": "code", "v": "code" },
+          { "t": "text", "v": "と" },
+          { "t": "link", "href": "https://example.com/a", "external": true, "c": [{ "t": "text", "v": "Hub" }] },
+          { "t": "text", "v": "と" },
+          { "t": "link", "href": "/v2/articles/x", "external": false, "c": [{ "t": "text", "v": "内部" }] }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "本文中のURLは自動でリンクにし、日本語の句読点では切る",
+    "input": "詳しくは https://example.com/page、続き",
+    "expected": [
+      {
+        "kind": "paragraph",
+        "text": "詳しくは https://example.com/page、続き",
+        "inline": [
+          { "t": "text", "v": "詳しくは " },
+          { "t": "link", "href": "https://example.com/page", "external": true, "c": [{ "t": "text", "v": "https://example.com/page" }] },
+          { "t": "text", "v": "、続き" }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "番号付きリスト・区切り線・連続引用",
+    "input": "1. 一\n2) 二\n\n---\n\n> 一行目\n> 二行目",
+    "expected": [
+      { "kind": "list", "ordered": true, "items": ["一", "二"], "itemsInline": [[{ "t": "text", "v": "一" }], [{ "t": "text", "v": "二" }]] },
+      { "kind": "hr" },
+      { "kind": "quote", "text": "一行目\n二行目", "inline": [{ "t": "text", "v": "一行目\n二行目" }] }
+    ]
+  },
+  {
+    "name": "コードブロックは中身を解釈しない",
+    "input": "```ts\nconst a = \"**x**\";\n## not heading\n```\n後ろ",
+    "expected": [
+      { "kind": "code", "lang": "ts", "text": "const a = \"**x**\";\n## not heading" },
+      { "kind": "paragraph", "text": "後ろ", "inline": [{ "t": "text", "v": "後ろ" }] }
+    ]
+  },
+  {
+    "name": "画像: HTTPSとHubのアップロード画像。httpは画像にしない",
+    "input": "![猫](https://example.com/cat.png)\n\n![](/api/media/images/abc_123)\n\n![古い](http://example.com/a.png)",
+    "expected": [
+      { "kind": "image", "src": "https://example.com/cat.png", "alt": "猫" },
+      { "kind": "image", "src": "/api/media/images/abc_123", "alt": "" },
+      { "kind": "paragraph", "text": "![古い](http://example.com/a.png)", "inline": [{ "t": "text", "v": "!" }, { "t": "link", "href": "http://example.com/a.png", "external": true, "c": [{ "t": "text", "v": "古い" }] }] }
+    ]
+  },
+  {
+    "name": "画像: 記事画像 /api/articles/images/ID も通る。別の経路は通さない",
+    "input": "![](/api/articles/images/Ab-9_z)\n\n![x](/api/other/images/abc)",
+    "expected": [
+      { "kind": "image", "src": "/api/articles/images/Ab-9_z", "alt": "" },
+      { "kind": "paragraph", "text": "![x](/api/other/images/abc)", "inline": [{ "t": "text", "v": "!" }, { "t": "link", "href": "/api/other/images/abc", "external": false, "c": [{ "t": "text", "v": "x" }] }] }
+    ]
+  },
+  {
+    "name": "YouTube埋め込み: 行全体のYouTube URLだけ",
+    "input": "https://youtu.be/dQw4w9WgXcQ\n\nhttps://www.youtube.com/watch?v=dQw4w9WgXcQ\n\nhttps://vimeo.com/123",
+    "expected": [
+      { "kind": "embed", "provider": "youtube", "id": "dQw4w9WgXcQ" },
+      { "kind": "embed", "provider": "youtube", "id": "dQw4w9WgXcQ" },
+      { "kind": "paragraph", "text": "https://vimeo.com/123", "inline": [{ "t": "link", "href": "https://vimeo.com/123", "external": true, "c": [{ "t": "text", "v": "https://vimeo.com/123" }] }] }
+    ]
+  },
+  {
+    "name": "見出しの id は安定で、重複には番号を付ける",
+    "input": "## はじめに\n\n## はじめに\n\n### A **b** c",
+    "expected": [
+      { "kind": "heading", "level": 2, "text": "はじめに", "id": "h-はじめに", "inline": [{ "t": "text", "v": "はじめに" }] },
+      { "kind": "heading", "level": 2, "text": "はじめに", "id": "h-はじめに-2", "inline": [{ "t": "text", "v": "はじめに" }] },
+      { "kind": "heading", "level": 3, "text": "A b c", "id": "h-a-b-c", "inline": [{ "t": "text", "v": "A " }, { "t": "strong", "c": [{ "t": "text", "v": "b" }] }, { "t": "text", "v": " c" }] }
+    ]
+  }
+]

@@ -1,0 +1,413 @@
+.inline { width: 100%; min-width: 0; }
+.inline .panel { width: 100%; max-height: none; overflow: visible; padding: 0; border: 0; border-radius: 0; box-shadow: none; }
+/* Settings sit behind a quiet disclosure row, not a section of their own —
+   the transcript owns this surface. */
+.settings { margin-bottom: 12px; }
+.settings > summary { padding: 6px 0; cursor: pointer; font-weight: 500; font-size: 12.5px; color: var(--muted); }
+.settings > summary:hover { color: var(--text); }
+.settings > summary span { display: block; color: var(--muted); font-size: 12px; font-weight: 400; overflow-wrap: anywhere; }
+/* The request is the user's own message — a solid accent bubble, the way
+   DeepSeek's harness marks the human turn. */
+.request {
+  justify-self: end;
+  max-width: 92%;
+  margin: 0;
+  padding: 10px 14px;
+  background: var(--emphasis);
+  color: var(--on-emphasis);
+  border-radius: 16px 16px 4px 16px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.request p { margin: 0; }
+
+/* Embedded header — context (model + workspace) compresses to one line so the
+   work thread, not the title block, owns the first impression. */
+.headerSlim { display: flex; align-items: baseline; gap: 10px; margin-bottom: 10px; min-width: 0; }
+.headerTitle { margin: 0; font-size: 14px; flex: 0 0 auto; }
+.headerMeta { flex: 1 1 auto; min-width: 0; color: var(--muted); font-size: 12px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.headerSlim button { flex: 0 0 auto; border: 1px solid var(--line); background: transparent; color: inherit; border-radius: 8px; padding: 5px 10px; font: inherit; font-size: 12px; cursor: pointer; }
+.inline .header { flex-wrap: wrap; }
+.inline .entryHead, .inline .changesHead { flex-wrap: wrap; }
+.inline .modelControl { min-width: 0; max-width: 100%; flex-wrap: wrap; }
+.inline input, .inline select { min-width: 0; max-width: 100%; }
+.inline .modeSwitch { display: flex; flex-wrap: wrap; }
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: var(--overlay);
+  backdrop-filter: blur(3px);
+}
+
+.panel {
+  width: min(680px, 100%);
+  max-height: min(88vh, 900px);
+  overflow: auto;
+  padding: 22px;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: var(--surface-raised);
+  color: var(--text);
+  box-shadow: var(--shadow);
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+.header h2 { margin: 0; font-size: 17px; }
+.header p { margin: 6px 0 0; font-size: 13px; color: var(--muted); }
+.header button {
+  flex: 0 0 auto;
+  white-space: nowrap;
+  border: 1px solid var(--line);
+  background: transparent;
+  color: inherit;
+  border-radius: 9px;
+  padding: 7px 12px;
+  font: inherit;
+  cursor: pointer;
+}
+
+/* The folder is the boundary the whole feature rests on, so it is stated
+   plainly above the controls rather than tucked into help text. */
+.workspace {
+  margin: 0 0 14px;
+  padding: 9px 11px;
+  border-radius: 9px;
+  background: var(--content-nested);
+  border: 1px solid var(--line);
+  font: 12px/1.5 ui-monospace, SFMono-Regular, Consolas, monospace;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+.workspaceAction {
+  width: 100%;
+  min-height: 40px;
+  margin-top: 12px;
+  border: var(--divider);
+  border-radius: 10px;
+  background: var(--emphasis);
+  color: var(--on-emphasis);
+  font: inherit;
+  font-weight: 650;
+  cursor: pointer;
+}
+.workspaceAction:disabled { cursor: wait; opacity: 0.6; }
+.workspaceSetup {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 14px;
+  padding: 12px;
+  border: var(--divider);
+  border-radius: 12px;
+  background: var(--surface-sunken);
+}
+.workspaceSetup p { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.55; }
+.workspaceSetup .workspaceAction { margin-top: 0; }
+.runtime {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 8px;
+  margin-bottom: 14px;
+}
+.runtime > span {
+  display: grid;
+  gap: 3px;
+  padding: 9px 10px;
+  border: var(--divider);
+  border-radius: 10px;
+  background: var(--surface-sunken);
+}
+.runtime small { color: var(--muted); font-size: 10px; }
+.runtime strong { font-size: 12px; }
+.runtime p { grid-column: 1 / -1; margin: 0; color: var(--danger-text); font-size: 11px; }
+.controlPlane {
+  grid-column: 1 / -1;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+  padding-top: 8px;
+  border-top: var(--divider);
+}
+.controlPlane > span { display: grid; gap: 2px; min-width: 0; }
+.controlPlane strong { overflow-wrap: anywhere; }
+.controlPlane p { grid-column: 1 / -1; }
+
+.agentPicker { margin-bottom: 12px; }
+.agentPickerHead { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 12px; margin-bottom: 8px; }
+.agentPickerHead h3 { margin: 0; font-size: 13px; }
+.agentPickerHead span { color: var(--muted); font-size: 11px; }
+.agentPickerHead button { border: var(--divider); border-radius: 8px; background: var(--surface-raised); color: var(--text); padding: 6px 9px; font: inherit; font-size: 11px; cursor: pointer; }
+.agentPickerHead button:disabled { cursor: not-allowed; opacity: 0.6; }
+.agentCards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 9px; }
+.agentCard {
+  display: grid;
+  gap: 5px;
+  min-width: 0;
+  padding: 11px;
+  border: var(--divider);
+  border-radius: 10px;
+  background: var(--surface-sunken);
+  color: var(--text);
+  text-align: left;
+  font: inherit;
+  cursor: pointer;
+}
+.agentCard:hover { background: var(--content-surface-hover); }
+.agentCard:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+.agentCard:disabled { cursor: not-allowed; opacity: 0.6; }
+.agentCardSelected { border-color: var(--emphasis); background: var(--emphasis-soft); }
+.agentName { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.agentName strong { font-size: 13px; }
+.agentName small { color: var(--emphasis); font-size: 10px; }
+.agentWork { font-size: 12px; font-weight: 620; }
+.agentDetail { color: var(--muted); font-size: 11px; line-height: 1.45; }
+.usage { display: grid; gap: 7px; margin-top: 4px; padding-top: 8px; border-top: var(--divider); }
+.usageMessage { color: var(--muted); font-size: 11px; }
+.usageWindow { display: grid; gap: 3px; }
+.usageWindow > span { display: flex; justify-content: space-between; gap: 8px; font-size: 11px; }
+.usageWindow b { font-weight: 650; }
+.usageWindow progress { width: 100%; height: 6px; accent-color: var(--emphasis); }
+.usageWindow small { color: var(--muted); font-size: 10px; }
+
+.controls { display: flex; align-items: center; gap: 9px; flex-wrap: wrap; margin-bottom: 10px; }
+.controls select,
+.modelControl input,
+.panel textarea {
+  background: var(--surface-sunken);
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  color: inherit;
+  font: inherit;
+  padding: 8px 10px;
+}
+.panel textarea { width: 100%; resize: vertical; font-size: 13px; }
+.resume { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--muted); }
+.modelControl { display: flex; align-items: center; gap: 8px; color: var(--muted); font-size: 12px; min-width: 0; max-width: 100%; flex-wrap: wrap; }
+.modelControl > span { flex-shrink: 0; }
+.modelControl input, .modelControl select { min-width: 0; max-width: 100%; }
+.verificationControl { display: grid; width: 100%; }
+.verificationControl textarea { min-height: 5em; }
+
+.actions { display: flex; justify-content: flex-end; gap: 9px; margin-top: 12px; }
+.actions button {
+  border: 1px solid var(--line);
+  background: transparent;
+  color: inherit;
+  border-radius: 9px;
+  padding: 8px 14px;
+  font: inherit;
+  font-weight: 620;
+  cursor: pointer;
+}
+.actions button:disabled { opacity: 0.45; cursor: not-allowed; }
+.actions button.primary, .changesHead button.primary { background: var(--emphasis); color: var(--on-emphasis); border-color: transparent; }
+
+.status { margin: 14px 0 8px; font-size: 12px; color: var(--muted); }
+.status[data-active] { display: flex; align-items: center; gap: 7px; }
+.liveDot { width: 7px; height: 7px; flex: 0 0 auto; border-radius: 50%; background: var(--emphasis); animation: livePulse 1.4s ease-in-out infinite; }
+@keyframes livePulse { 50% { opacity: 0.35; } }
+
+/* Tool transcript — one row per call: status glyph, name, what it acts on.
+   Rows with a result excerpt expand in place, like terminal harnesses. */
+.toolList { margin: 0; padding: 0; list-style: none; display: grid; gap: 1px; }
+.toolItem { font: 12px/1.6 ui-monospace, SFMono-Regular, Consolas, monospace; min-width: 0; }
+.toolRow, .toolExpand > summary {
+  display: flex;
+  align-items: baseline;
+  gap: 7px;
+  min-width: 0;
+  padding: 1px 0;
+}
+.toolExpand > summary { cursor: pointer; list-style: none; border-radius: 4px; }
+.toolExpand > summary::-webkit-details-marker { display: none; }
+.toolExpand > summary:hover { background: var(--content-surface-hover); }
+.toolMark { flex: 0 0 1em; text-align: center; }
+.toolMark[data-state="ok"] { color: var(--positive-text); }
+.toolMark[data-state="fail"] { color: var(--danger-text); }
+.toolMark[data-state="run"] { color: var(--muted); animation: livePulse 1.4s ease-in-out infinite; }
+.toolName { color: var(--text); flex: 0 0 auto; }
+.toolArg { color: var(--muted); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; min-width: 0; }
+.toolState { margin-left: auto; flex: 0 0 auto; color: var(--muted); font-size: 11px; }
+.toolPreview {
+  margin: 2px 0 6px calc(1em + 7px);
+  padding: 6px 10px;
+  border-left: 2px solid var(--line);
+  max-height: 160px;
+  overflow: auto;
+  color: var(--muted);
+  font: 11px/1.55 ui-monospace, SFMono-Regular, Consolas, monospace;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+.toolMore { color: var(--muted); font-size: 11px; }
+.error { margin: 10px 0 0; font-size: 13px; color: var(--danger-text); }
+
+/* Assistant text — prose like the chat surface, not a boxed log. The height
+   cap stays so a long answer does not push history off the panel. */
+.answer {
+  max-height: 340px;
+  overflow: auto;
+  margin: 0;
+  padding: 2px 0;
+  font-size: 13.5px;
+  line-height: 1.75;
+  overflow-wrap: anywhere;
+}
+.meta { margin: 0; font-size: 12px; color: var(--muted); line-height: 1.55; }
+.meta small { font-size: 11px; }
+.answer p { margin: 0 0 8px; }
+.answer p:last-child { margin-bottom: 0; }
+.answer code { font: 0.92em ui-monospace, SFMono-Regular, Consolas, monospace; }
+.mdList { margin: 0 0 8px; padding-left: 1.4em; }
+.mdCode {
+  margin: 0 0 8px;
+  padding: 8px 10px;
+  border-radius: 8px;
+  background: var(--surface-sunken);
+  font: 12px/1.55 ui-monospace, SFMono-Regular, Consolas, monospace;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* The stream keeps arriving; this scrolls rather than pushing the controls off
+   the panel. */
+.output {
+  max-height: 340px;
+  overflow: auto;
+  margin: 0;
+  padding: 12px;
+  border-radius: 10px;
+  background: var(--content-nested);
+  border: 1px solid var(--line);
+  font: 12px/1.55 ui-monospace, SFMono-Regular, Consolas, monospace;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.note { margin: 14px 0 0; font-size: 12px; color: var(--muted); }
+
+.model { flex: 0 1 190px; font: 12px ui-monospace, SFMono-Regular, Consolas, monospace; }
+
+/* Approvals halt the run, so they take the warning surface — a pending
+   decision must never look like ordinary output. */
+.attention { background: var(--warning-bg); border-color: var(--warning-text); }
+.attention > strong { color: var(--warning-text); }
+
+/* The change list is the compensating control for skipping per-edit approval,
+   so it sits with the output rather than behind a disclosure. */
+.changes { margin-top: 14px; padding: 12px; border-radius: 10px; border: 1px solid var(--line); background: var(--bg); }
+.changesHead { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 9px; }
+.changesHead strong { font-size: 13px; }
+.changesHead button { border: 1px solid var(--line); background: transparent; color: inherit; border-radius: 9px; padding: 6px 11px; font: inherit; font-size: 12px; cursor: pointer; }
+.changesHead button:disabled { opacity: 0.45; cursor: not-allowed; }
+.changes ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 5px; }
+.changes li { font: 12px/1.5 ui-monospace, SFMono-Regular, Consolas, monospace; overflow-wrap: anywhere; }
+.changes code { display: inline-block; min-width: 2.2em; color: var(--muted); }
+.changes small { margin-left: 8px; font-family: system-ui, sans-serif; color: var(--muted); }
+.untouched { opacity: 0.6; }
+
+.resumeHint { color: var(--muted); font-size: 11px; max-width: 150px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* Past runs are earlier turns in the same transcript, not a separate card
+   list — the request bubble leads and the outcome trails as meta. */
+.history { display: grid; gap: 18px; margin: 0; }
+.history > h3 { margin: 0; font-size: 12px; font-weight: 600; color: var(--muted); }
+.historyEmpty { margin: 0; font-size: 12px; color: var(--muted); }
+.entry { display: grid; gap: 6px; }
+.entry + .entry { padding-top: 16px; border-top: var(--divider); }
+.entryHead { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.entryHead strong { font-size: 12px; }
+.entryHead span { font-size: 11px; color: var(--muted); white-space: nowrap; }
+.count { margin: 0; font-size: 12px; color: var(--muted); }
+.audit { margin: 0; color: var(--muted); font-size: 11px; }
+.entryActions { display: flex; gap: 8px; margin-top: 2px; flex-wrap: wrap; }
+.entryActions button { border: 1px solid var(--line); background: transparent; color: inherit; border-radius: 8px; padding: 5px 10px; font: inherit; font-size: 12px; cursor: pointer; }
+.entryActions button:disabled { opacity: 0.45; cursor: not-allowed; }
+.entry pre { max-height: 200px; margin: 11px 0 0; }
+.entry ul { margin: 10px 0 0; padding: 0; list-style: none; display: grid; gap: 5px; }
+.entry li { font: 12px/1.5 ui-monospace, SFMono-Regular, Consolas, monospace; overflow-wrap: anywhere; }
+.entry code { display: inline-block; min-width: 2.2em; color: var(--muted); }
+.failed { color: var(--danger-text); }
+
+@media (max-width: 560px) {
+  .agentCards { grid-template-columns: 1fr; }
+  .runtime { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+/* Mode switch — same segmented language as the Hub nav pills. */
+.modeSwitch {
+  display: inline-flex;
+  gap: 2px;
+  margin: 0 0 14px;
+  padding: 3px;
+  border-radius: 10px;
+  background: var(--surface-sunken);
+  border: 1px solid var(--line);
+}
+.modeSwitch button {
+  border: 0;
+  border-radius: 8px;
+  padding: 6px 14px;
+  font: inherit;
+  font-size: 12.5px;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+}
+.modeSwitch button.modeSelected {
+  background: var(--surface-raised);
+  color: var(--text);
+  box-shadow: none;
+}
+
+/* The feed is the work transcript — request, approvals, progress and answer
+   flow as one column with no enclosing chrome. */
+.feed {
+  display: grid;
+  gap: 12px;
+  margin-top: 14px;
+}
+.feed:empty { display: none; }
+.feed > * { margin-top: 0; margin-bottom: 0; }
+
+/* Tool activity folds into one trace row — the DeepSeek harness idiom: while
+   running, the summary carries the latest call; expanding reveals the full
+   transcript on a recessed surface with an accent bar. */
+.trace {
+  border: var(--divider);
+  border-left: 2px solid var(--emphasis);
+  border-radius: 10px;
+  background: var(--surface-sunken);
+}
+.trace > summary {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  min-width: 0;
+  padding: 8px 12px;
+  cursor: pointer;
+  list-style: none;
+  font-size: 12px;
+  color: var(--muted);
+}
+.trace > summary::-webkit-details-marker { display: none; }
+.traceCount { flex: 0 0 auto; font-weight: 600; color: var(--text); }
+.traceLatest {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 7px;
+  min-width: 0;
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+}
+.trace[open] .traceLatest { display: none; }
+.trace .toolList { padding: 0 12px 10px; }

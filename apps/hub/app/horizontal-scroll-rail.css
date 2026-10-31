@@ -1,0 +1,40 @@
+.horizontal-scroll-rail {
+  position: relative;
+  min-width: 0;
+}
+
+.horizontal-scroll-rail__viewport {
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  cursor: grab;
+  user-select: none;
+}
+
+.horizontal-scroll-rail__viewport::-webkit-scrollbar { display: none; }
+.horizontal-scroll-rail__viewport.is-dragging { scroll-behavior: auto; cursor: grabbing; }
+
+.horizontal-scroll-rail__button {
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  display: grid;
+  width: 34px;
+  height: 34px;
+  place-items: center;
+  padding: 0;
+  transform: translateY(-50%);
+  border: var(--divider);
+  border-radius: 50%;
+  background: var(--surface-raised);
+  color: var(--text);
+  box-shadow: var(--shadow-soft);
+  font: inherit;
+  font-size: 1.15rem;
+  cursor: pointer;
+}
+
+.horizontal-scroll-rail__button:hover { background: var(--interactive-hover); }
+.horizontal-scroll-rail__button--previous { left: 4px; }
+.horizontal-scroll-rail__button--next { right: 4px; }

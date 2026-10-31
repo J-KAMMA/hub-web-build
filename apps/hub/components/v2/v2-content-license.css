@@ -1,0 +1,31 @@
+.v2-license {
+  max-width: var(--v2-measure, 40rem);
+  margin: 0;
+  padding: var(--v2-space-3, 12px) 0;
+  color: var(--muted);
+  font-size: var(--v2-text-sm);
+}
+
+.v2-license a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.v2-license-picker {
+  display: grid;
+  gap: var(--v2-space-2, 8px);
+  max-width: var(--v2-measure, 40rem);
+  color: var(--text);
+}
+
+.v2-license-picker__field {
+  display: grid;
+  gap: var(--v2-space-1, 4px);
+}
+
+.v2-license-picker__note {
+  margin: 0;
+  color: var(--muted);
+  font-size: var(--v2-text-sm);
+}

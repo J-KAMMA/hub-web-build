@@ -1,0 +1,10 @@
+export type Topic = {id:string;canonicalName:string;slug:string;description?:string|null;topicType:string;status:string;freshnessIntervalHours?:number|null;lastResearchedAt?:string|null;lastVerifiedAt?:string|null;updatedAt?:string;sourceCount?:number;sources?:Source[];pipelineRuns?:PipelineRun[];article?:Article|null};
+export type Source = {id:string;topicId?:string;url:string;title?:string|null;publisher?:string|null;author?:string|null;sourceType?:string|null;language?:string|null;license?:string|null;reliabilityTier?:string|null;snapshots?:Snapshot[];latestSnapshot?:Snapshot|null};
+export type Snapshot = {id:string;retrievedAt?:string;contentHash?:string;mimeType?:string;extractedText?:string|null;extractionStatus?:string;chunks?:Array<{id?:string;chunkIndex:number;headingPath?:string[]|string;textContent:string}>};
+export type PipelineRun = {id:string;runType:string;status:string;error?:unknown;startedAt?:string;completedAt?:string};
+export type Article = {id:string;title:string;slug:string;status:string;currentRevisionId?:string|null;revisions?:ArticleRevision[]};
+export type ArticleRevision = {id:string;revisionNumber:number;title:string;summary?:string|null;bodyMarkdown:string;createdBy?:string|null;createdAt?:string;translations?:ArticleTranslation[]};
+export type ArticleTranslation = {id:string;locale:string;title:string;summary?:string|null;bodyMarkdown:string;status:string;createdAt?:string;updatedAt?:string};
+export const listFrom = <T,>(data: unknown, key: string): T[] => Array.isArray(data) ? data as T[] : (data && typeof data === "object" && Array.isArray((data as Record<string,unknown>)[key]) ? (data as Record<string,T[]>)[key] : []);
+export const entityFrom = <T,>(data: unknown, key: string): T => (data && typeof data === "object" && (data as Record<string,unknown>)[key] ? (data as Record<string,T>)[key] : data) as T;
+export const fmt = (value?: string|null) => value ? new Intl.DateTimeFormat("ja-JP",{dateStyle:"medium",timeStyle:"short"}).format(new Date(value)) : "—";

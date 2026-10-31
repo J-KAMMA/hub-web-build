@@ -1,0 +1,481 @@
+/*
+ * v2 redesign (2026-10-11). Semantic color tokens only (app/color-system.css).
+ *
+ * Navigation is ONE column like Windows Task Manager: a hamburger on top toggles
+ * icons only (64px) / icon + label (208px). The page's `directory` renders as
+ * vertical tabs in a column to the right of it, like Hub Desktop (owner decision
+ * 2026-10-11). Selection is a background color only (no edge bars).
+ *
+ * Every selector is prefixed `.v2 .v2__workspace` (or `.v2 .v2__main`) so it wins over
+ * app/v2/v2.css regardless of which stylesheet loads last.
+ */
+
+/* ナビの列 ---------------------------------------------------------- */
+
+.v2 .v2__workspace .v2__frame > .v2__nav {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  box-sizing: border-box;
+  width: 64px;
+  min-width: 64px;
+  max-width: none;
+  height: 100dvh;
+  padding: var(--v2-space-2);
+  border-right: 1px solid var(--line);
+  overflow: hidden;
+}
+
+.v2 .v2__workspace .v2__frame[data-nav="open"] > .v2__nav {
+  width: 208px;
+  min-width: 208px;
+}
+
+/* ハンバーガー。折りたたみでも展開でも同じ位置・同じ大きさ。 */
+.v2 .v2__workspace .v2__nav .v2-nav__burger {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  margin: 0 0 var(--v2-space-2);
+  padding: 0;
+  border: 0;
+  border-radius: var(--v2-radius);
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.v2 .v2__workspace .v2__nav .v2-nav__burger:hover:not(:disabled) {
+  background: var(--interactive);
+}
+
+.v2 .v2__workspace .v2__nav .v2-nav__burger:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.v2 .v2__workspace .v2__nav .v2-nav__burger-mark {
+  width: 22px;
+  height: 22px;
+  color: inherit;
+}
+
+.v2 .v2__workspace .v2__nav .v2-nav__flat {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.v2 .v2__workspace .v2__nav .v2-nav__flat ul {
+  display: grid;
+  align-content: start;
+  gap: 2px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.v2 .v2__workspace .v2__nav .v2-nav__flat-main {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+/* ウォレット・プロフィール・設定。列の下端に、薄い罫線で分ける。 */
+.v2 .v2__workspace .v2__nav .v2-nav__flat-bottom {
+  flex: none;
+  margin-top: var(--v2-space-2);
+  padding-top: var(--v2-space-2);
+  border-top: 1px solid var(--line);
+}
+
+.v2 .v2__workspace .v2__nav .v2-nav__item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  box-sizing: border-box;
+  height: 40px;
+  padding: 0 13px;
+  border-radius: var(--v2-radius);
+  background: transparent;
+  color: var(--text);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.v2 .v2__workspace .v2__nav .v2-nav__item:hover {
+  background: var(--interactive);
+}
+
+/* 選択は背景色だけ。縦線も下線も使わない。 */
+.v2 .v2__workspace .v2__nav .v2-nav__item[aria-current="page"] {
+  background: var(--selected);
+  color: var(--text);
+  font-weight: 700;
+}
+
+.v2 .v2__workspace .v2__nav .v2-nav__item:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: -2px;
+}
+
+.v2 .v2__workspace .v2__nav .v2-nav__icon {
+  flex: none;
+  width: 22px;
+  height: 22px;
+  color: var(--muted);
+}
+
+.v2 .v2__workspace .v2__nav .v2-nav__item:hover .v2-nav__icon,
+.v2 .v2__workspace .v2__nav .v2-nav__item[aria-current="page"] .v2-nav__icon {
+  color: var(--text);
+}
+
+.v2 .v2__workspace .v2__nav .v2-nav__count {
+  flex: none;
+  margin-left: auto;
+}
+
+/* 折りたたみ: 文字は読み上げ用に残し、見えないようにする。未読数は記号の角へ。 */
+.v2 .v2__workspace .v2__frame[data-nav="collapsed"] > .v2__nav .v2-nav__label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.v2 .v2__workspace .v2__frame[data-nav="collapsed"] > .v2__nav .v2-nav__count {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  margin-left: 0;
+}
+
+/* タブの列 ---------------------------------------------------------- */
+
+/*
+ * 画面ごとの目録（directory）は、ナビの右の列に縦のタブとして並べる（2026-10-11 ユーザー指定）。
+ * デスクトップ版の左の列と同じ形。選択は背景色だけ。
+ */
+.v2 .v2__workspace .v2__frame > .v2__tabs-column {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  position: sticky;
+  top: 0;
+  box-sizing: border-box;
+  width: 224px;
+  height: 100dvh;
+  padding: var(--v2-space-3) var(--v2-space-2);
+  border-right: 1px solid var(--line);
+  overflow-x: hidden;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.v2 .v2__workspace .v2__frame > .v2__tabs-column > .v2__tabs-column-title {
+  flex: none;
+  margin: 6px 10px var(--v2-space-3);
+  color: var(--text);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.v2 .v2__workspace .v2__frame > .v2__tabs-column :is(nav, ul, ol, .v2-main-directory__tools) {
+  display: grid;
+  align-content: start;
+  gap: 2px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.v2 .v2__workspace .v2__frame > .v2__tabs-column li { list-style: none; }
+
+/* 節の見出しは小さな薄い文字。 */
+.v2 .v2__workspace .v2__frame > .v2__tabs-column :is(h2, h3, h4, .v2-column__title) {
+  margin: var(--v2-space-3) 10px 4px;
+  padding: 0;
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+}
+
+.v2 .v2__workspace .v2__frame > .v2__tabs-column :is(.v2-nav__item, .v2-rail__item) {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 34px;
+  padding: 0 10px;
+  border: 0;
+  border-radius: var(--v2-radius);
+  background: transparent;
+  color: var(--text);
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.v2 .v2__workspace .v2__frame > .v2__tabs-column :is(.v2-nav__item, .v2-rail__item):hover {
+  background: var(--interactive);
+}
+
+.v2 .v2__workspace .v2__frame > .v2__tabs-column .v2-nav__item[aria-current]:not([aria-current="false"]) {
+  background: var(--selected);
+  color: var(--text);
+  font-weight: 600;
+}
+
+.v2 .v2__workspace .v2__frame > .v2__tabs-column :is(.v2-nav__item, .v2-rail__item):focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: -2px;
+}
+
+.v2 .v2__workspace .v2__frame > .v2__tabs-column :is(.v2-nav__icon, .v2-rail__item .v2-icon) {
+  flex: none;
+  width: 18px;
+  height: 18px;
+  color: var(--muted);
+}
+
+.v2 .v2__workspace .v2__frame > .v2__tabs-column .v2-nav__label {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.v2 .v2__workspace .v2__frame > .v2__tabs-column .v2-nav__count {
+  position: static;
+  margin-left: auto;
+}
+
+/* リンクでない内容（検索欄・フォーム・説明）は列の幅いっぱいに。 */
+.v2 .v2__workspace .v2__frame > .v2__tabs-column > :is(form, details, div, section, table, dl, fieldset, p, input, select, textarea, label):not(.v2__tabs-column-title):not(.v2-column__title) {
+  flex: none;
+  min-width: 0;
+  font-size: var(--v2-text-sm);
+}
+
+.v2 .v2__workspace .v2__frame > .v2__tabs-column > p:not(.v2__tabs-column-title):not(.v2-column__title) {
+  margin: 4px 10px;
+  color: var(--muted);
+}
+
+/* 携帯幅では列にせず、本文の上に横へ流れる1行にする。 */
+@media (max-width: 759px) {
+  .v2 .v2__workspace .v2__frame > .v2__tabs-column {
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    left: 64px;
+    right: 0;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+    padding: 6px var(--v2-space-2);
+    border-right: 0;
+    border-bottom: 1px solid var(--line);
+    background: var(--bg);
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .v2 .v2__workspace .v2__frame > .v2__tabs-column :is(nav, ul, ol, .v2-main-directory__tools) { display: flex; }
+  .v2 .v2__workspace .v2__frame > .v2__tabs-column :is(h2, h3, h4, .v2-column__title, .v2__tabs-column-title) { display: none; }
+  .v2 .v2__workspace .v2__frame > .v2__tabs-column :is(.v2-nav__item, .v2-rail__item) { width: auto; }
+  .v2 .v2__workspace .v2__frame:has(> .v2__tabs-column) > .v2__main { padding-top: 52px; }
+}
+
+/* 携帯幅: 下部ナビ（高さ約61px）が列の下端を覆わないよう、列を短くする。 */
+@media (max-width: 759px) {
+  .v2 .v2__workspace .v2__frame > .v2__nav {
+    height: calc(100dvh - 64px - env(safe-area-inset-bottom, 0px));
+  }
+}
+
+/* One tab look everywhere (docs/color-system.md: top tabs are unfilled, --text,
+   and only the selected tab gets a 2px --action underline). Covers page tab rows
+   rendered from `directory` and in-page `.v2-tabs` rows such as the timeline's. */
+.v2 .v2__main .v2-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 var(--v2-space-1, 4px);
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  background: transparent;
+}
+.v2 .v2__main .v2-tabs > a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  margin: 0 0 -1px;
+  padding: 0 12px;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  border-radius: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+.v2 .v2__main .v2-tabs > a:hover {
+  color: var(--text);
+  background: transparent;
+}
+.v2 .v2__main .v2-tabs > a[aria-current="page"] {
+  border-bottom-color: var(--action);
+  background: transparent;
+  color: var(--text);
+  font-weight: 600;
+}
+
+/* One 絞り込み look everywhere: a small pill that opens a bordered panel. Page
+   stylesheets (redesign-sns/media/market.css) only style what goes inside. */
+html body .v2 .v2__main details.v2-filter-disclosure {
+  flex: none;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: 0 0 var(--v2-space-3, 12px);
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+html body .v2 .v2__main details.v2-filter-disclosure > summary {
+  display: inline-flex;
+  width: auto;
+  align-items: center;
+  gap: 6px;
+  min-height: 32px;
+  padding: 4px 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text);
+  font-size: 13px;
+  list-style: none;
+  cursor: pointer;
+}
+html body .v2 .v2__main details.v2-filter-disclosure > summary::-webkit-details-marker { display: none; }
+html body .v2 .v2__main details.v2-filter-disclosure > summary:hover { background: var(--interactive); }
+html body .v2 .v2__main details.v2-filter-disclosure[open] > summary { margin-bottom: var(--v2-space-3, 12px); }
+html body .v2 .v2__main details.v2-filter-disclosure > .v2-filter-disclosure__body {
+  padding: var(--v2-space-3, 12px);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius, 12px);
+  background: var(--panel);
+}
+
+/* 規約・プライバシーなどの読み物は、本文の中央に読みやすい幅で置く。 */
+.v2 .v2__workspace .v2__main .hub-legal {
+  max-width: 760px;
+  margin-inline: auto;
+}
+
+/*
+ * 左のナビの「投稿する」（2026-10-15 所有者指定）。主な画面の列と下の列のあいだ。
+ * 広げたときは幅いっぱいに記号と字、畳んだときは記号だけ（字は .v2-nav__label の既存の規則で隠れる）。
+ * 色は強調トークン（--action）だけ。高さは 44px の押す範囲。携帯では既存の丸いボタンを使うので出さない。
+ */
+.v2 .v2__workspace .v2__nav .v2-nav__post-slot {
+  flex: none;
+  margin-top: var(--v2-space-2);
+}
+
+.v2 .v2__workspace .v2__nav .v2-nav__post {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 44px;
+  min-height: 44px;
+  padding: 0 13px;
+  border-radius: var(--v2-radius);
+  background: var(--action);
+  color: var(--action-text);
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 20px;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.v2 .v2__workspace .v2__nav .v2-nav__post:hover { background: var(--action-hover); }
+
+.v2 .v2__workspace .v2__nav .v2-nav__post:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.v2 .v2__workspace .v2__nav .v2-nav__post-icon {
+  flex: none;
+  width: 22px;
+  height: 22px;
+  color: inherit;
+}
+
+@media (max-width: 759px) {
+  .v2 .v2__workspace .v2__nav .v2-nav__post-slot { display: none; }
+}
+
+/* 右列のウォレット（要約）。 */
+.v2 .v2-aside-wallet { display: grid; gap: var(--v2-space-2); align-content: start; }
+.v2 .v2-aside-wallet__network { display: flex; align-items: center; gap: 8px; margin: 0; }
+.v2 .v2-aside-wallet__tag { color: var(--muted); font-size: 12px; }
+.v2 .v2-aside-wallet__label { margin: var(--v2-space-2) 0 0; color: var(--muted); font-size: 12px; font-weight: 600; }
+.v2 .v2-aside-wallet__balance { margin: 0; font-size: 22px; font-weight: 700; overflow-wrap: anywhere; }
+.v2 .v2-aside-wallet__token { margin: 0; color: var(--muted); overflow-wrap: anywhere; }
+.v2 .v2-aside-wallet__address { display: flex; align-items: center; gap: 8px; margin: 0; overflow-wrap: anywhere; }
+.v2 .v2-aside-wallet__copy,
+.v2 .v2-aside-wallet__send,
+.v2 .v2-aside-wallet__open {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 36px;
+  padding: 0 12px;
+  border: var(--divider);
+  border-radius: var(--v2-radius);
+  background: transparent;
+  color: var(--text);
+  font-size: 14px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.v2 .v2-aside-wallet__copy:hover,
+.v2 .v2-aside-wallet__send:hover,
+.v2 .v2-aside-wallet__open:hover { background: var(--interactive); }
+.v2 .v2-aside-wallet__actions { display: flex; flex-wrap: wrap; gap: var(--v2-space-2); }
+
+/* ナビのプロフィール項目は本人の顔（24px の丸）。現在地は塗りでなく細い輪で示す。 */
+.v2 .v2__workspace .v2__nav .v2-nav__avatar { flex: none; width: 24px; height: 24px; }
+.v2 .v2__workspace .v2__nav .v2-nav__item[aria-current="page"] .v2-nav__avatar { box-shadow: 0 0 0 2px var(--bg), 0 0 0 3.5px var(--emphasis); }

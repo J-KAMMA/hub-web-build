@@ -1,0 +1,676 @@
+[
+  {
+    "slug": "digital-certificate",
+    "topicType": "concept",
+    "categoryLabel": "インターネット・セキュリティ",
+    "title": "電子証明書",
+    "summary": "電子証明書は、公開鍵とその鍵を使う資格を持つ主体の識別情報を、認証局の署名によって結びつけたデータ構造である。証明書には加入者の識別情報、公開鍵、発行した認証局の識別情報、有効期間などが含まれ、鍵の用途を限定する情報が加わることもある。デジタル証明書とも呼ばれ、実務ではIETF RFC 5280に基づいて定義される場合がある。",
+    "bodyMarkdown": "## 鍵と身元を結びつける仕組み\n\n[公開鍵](/hubpedia/public-key-cryptography)そのものは、ただの数値の並びであって、誰のものかを語らない。電子証明書は、その公開鍵と、対応する秘密鍵を持ち鍵ペアの使用を許可された主体を一意に識別するデータとを、ひとまとめにしたデータ構造である。証明書には所有者の公開鍵が含まれ、認証局と呼ばれる信頼された第三者がその全体にデジタル署名を施す。 [1][2][11]\n\nこの署名によって成り立つのが、証明書の中心的な機能である結びつけ（バインド）である。公開鍵証明書とは、認証局の秘密鍵で署名されたデジタル文書であり、ある識別子を加入者の公開鍵に結びつける。結びつけの対象は鍵と所有者であり、証明書を検証する側は、認証局の署名を確かめることを通じて、その公開鍵が名指しされた主体のものだと扱う。 [3][7]\n\n電子証明書は「デジタル証明書」とも呼ばれる。ある実務ガイドでは、証明書はIETF RFC 5280に基づいて定義されている。 [9][14]\n\n## 証明書に含まれる情報\n\n証明書が備える項目は、結びつけを検証可能にするという目的から導かれる。証明書は加入者（サブスクライバー）を名指しまたは識別し、その加入者の公開鍵を含む。同時に、証明書を発行した認証局を識別する情報も含まれる。誰の鍵かという情報と、誰がそれを保証したかという情報が、同じ文書の中に置かれる。 [4][5][6]\n\n証明書はさらに、その運用期間、すなわち有効期間を識別する。証明書に加えられる追加情報は、鍵の使用方法や証明書の有効期間を指定できる。用途を限定する情報が入りうるという点は重要で、ある証明書に含まれる公開鍵が、あらゆる目的に無制限に使えるとは限らない。 [8][12]\n\nデータ構造としての証明書は、エンティティの識別子と公開鍵に加え、場合によりドメインパラメータの集合を示す情報を含み、信頼された第三者である[認証局による署名](/hubpedia/cryptographic-standards)を伴う。ドメインパラメータのように、鍵そのものではなく鍵が属する数学的な設定を示す情報が、証明書の一部となることがある。 [11]\n\n## 秘密鍵の管理と保管の形態\n\n証明書が主張しているのは公開鍵の帰属だけではない。証明書は、その中で識別される加入者が秘密鍵を単独で管理し、それにアクセスできることを示す。単独の管理という条件は、証明書の意味を支える前提である。秘密鍵が本人以外にも渡っていれば、証明書が名指しする主体と、実際に鍵を使える主体は一致しなくなる。 [10]\n\n実装上、デジタル証明書はしばしば[認証器（オーセンティケータ）](/hubpedia/security-token)にその秘密鍵とともに格納される形をとる。証明書と秘密鍵が同じ装置に置かれることで、鍵の単独管理という前提を装置の側で担保する構成になる。 [13]\n\n## 有効期間と失効\n\n証明書は永続的な文書ではない。証明書自身が運用期間を識別しており、追加情報によって有効期間を指定することもできる。有効期間が定められているということは、期間の外では結びつけの主張が効力を持たないことを意味する。なお、期間満了より前に結びつけを取り消す失効の手続きについて、ここで用いた資料は具体的な仕組みを述べていない。 [8][12]\n\n## 関連記事\n\n- [暗号化](/hubpedia/encryption)\n- [デジタル上の身元](/hubpedia/digital-identity)\n- 資格情報",
+    "sources": [
+      {
+        "url": "https://csrc.nist.gov/glossary/term/certificate",
+        "title": "Certificate — NIST CSRC Glossary",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The standards body's own definition of digital-certificate. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://csrc.nist.gov/glossary/term/credential",
+        "title": "Credential — NIST CSRC Glossary",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The broader class a certificate belongs to. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Digital certificate",
+        "summary": "A digital certificate is a data structure that binds a public key to identifying information about the entity authorized to use that key, by means of a signature from a certification authority. A certificate contains the subscriber's identifying information, the public key, identifying information for the issuing certification authority, and a validity period, and it may also carry information that restricts how the key may be used. It is also called a digital certificate, and in practice it may be defined on the basis of IETF RFC 5280.",
+        "bodyMarkdown": "## The mechanism that binds a key to an identity\n\nA [public key](/hubpedia/public-key-cryptography) is in itself merely a sequence of numbers, and says nothing about whose it is. A digital certificate is a data structure that gathers together that public key and data uniquely identifying the entity that holds the corresponding private key and is authorized to use the key pair. The certificate contains the owner's public key, and a trusted third party known as a certification authority applies a digital signature over the whole of it. [1][2][11]\n\nWhat this signature establishes is the certificate's central function: the binding. A public key certificate is a digital document signed with the certification authority's private key that binds an identifier to a subscriber's public key. What is bound is the key and its owner, and the party verifying the certificate treats that public key as belonging to the named entity by way of checking the certification authority's signature. [3][7]\n\nA digital certificate is also referred to as a \"digital certificate.\" In one practical guide, certificates are defined on the basis of IETF RFC 5280. [9][14]\n\n## The information contained in a certificate\n\nThe items a certificate carries follow from the purpose of making the binding verifiable. A certificate names or identifies the subscriber and contains that subscriber's public key. At the same time, it also contains information identifying the certification authority that issued the certificate. Information about whose key it is and information about who vouched for it are placed within the same document. [4][5][6]\n\nA certificate further identifies its operational period, that is, its validity period. Additional information added to a certificate can specify how the key may be used and the certificate's validity period. The point that information restricting the intended use may be included is an important one: the public key contained in a given certificate is not necessarily usable without limit for every purpose. [8][12]\n\nAs a data structure, a certificate contains, in addition to an entity's identifier and public key, information indicating a set of domain parameters in some cases, accompanied by a [signature from a certification authority](/hubpedia/cryptographic-standards) acting as a trusted third party. Information indicating not the key itself but the mathematical setting to which the key belongs, such as domain parameters, can form part of a certificate. [11]\n\n## Management and storage of the private key\n\nWhat a certificate asserts is not only the attribution of a public key. A certificate indicates that the subscriber identified within it has sole control of, and access to, the private key. The condition of sole control is a premise that underpins the meaning of the certificate. If the private key has passed to anyone besides the holder, the entity the certificate names and the entity that can actually use the key cease to coincide. [10]\n\nIn implementation, a digital certificate often takes the form of being stored on an [authenticator](/hubpedia/security-token) together with its private key. By placing the certificate and the private key on the same device, the arrangement has the device itself uphold the premise of sole control of the key. [13]\n\n## Validity period and revocation\n\nA certificate is not a perpetual document. The certificate itself identifies an operational period, and additional information may also specify a validity period. That a validity period is set means that outside that period the assertion of the binding has no force. Note that regarding revocation procedures, which cancel a binding before its period expires, the sources used here do not describe any specific mechanism. [8][12]\n\n## Related articles\n\n- [Encryption](/hubpedia/encryption)\n- [Digital identity](/hubpedia/digital-identity)\n- Credential"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:01:49.868Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "証明書は所有者の公開鍵を含み、認証局（信頼された第三者）によってデジタル署名される。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/certificate",
+              "quote": "The certificate contains the owner’s public key and possibly other information and is digitally signed by a Certification Authority (i.e., a trusted party), thereby binding the public key to the owner."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "証明書は、対応する秘密鍵を持つ公開鍵と、その鍵ペアの使用を許可された所有者を一意に識別するデータの集合である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/certificate",
+              "quote": "A set of data that uniquely identifies a public key (which has a corresponding private key) and an owner that is authorized to use the key pair."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "証明書は公開鍵を所有者に結びつける（バインドする）役割を持つ。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/certificate",
+              "quote": "thereby binding the public key to the owner"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "証明書は、それを発行した認証局（CA）を識別する情報を含む。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/certificate",
+              "quote": "A digital representation of information which at least (1) identifies the certification authority (CA) issuing it, (2) names or identifies its subscriber, (3) contains the subscriber's public key, (4) identifies its operational period, and (5) is digitally signed by the certification authority issuing it."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "証明書は加入者（サブスクライバー）を名指しまたは識別する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/certificate",
+              "quote": "names or identifies its subscriber"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "証明書は加入者の公開鍵を含む。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/certificate",
+              "quote": "contains the subscriber's public key"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "公開鍵証明書は、証明書認証局の秘密鍵によってデジタル署名されたデジタル文書であり、識別子を加入者の公開鍵に結びつける。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/certificate",
+              "quote": "A digital document issued and digitally signed by the private key of a certificate authority that binds an identifier to a subscriber’s public key."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "証明書はその運用期間（有効期間）を識別する。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/certificate",
+              "quote": "identifies its operational period"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "証明書は「デジタル証明書」とも呼ばれる。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/certificate",
+              "quote": "Also known as a digital certificate."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "証明書は、その中で識別される加入者が秘密鍵を単独で管理し、それにアクセスできることを示す。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/certificate",
+              "quote": "The certificate indicates that the subscriber identified in the certificate has sole control of and access to the private key."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "証明書はデータ構造であり、エンティティの識別子と公開鍵、および場合によりドメインパラメータの集合を示す情報を含み、信頼された第三者（認証局）による署名を伴う。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/certificate",
+              "quote": "A data structure that contains an entity’s identifier(s), the entity's public key (including an indication of the associated set of domain parameters) and possibly other information, along with a signature on that data set that is generated by a trusted party, i.e., a certificate authority, thereby binding the public key to the included identifier(s)."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "証明書に含まれる追加情報は、鍵の使用方法や証明書の有効期間を指定できる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/certificate",
+              "quote": "Additional information in the certificate could specify how the key is used and the validity period of the certificate."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "デジタル証明書は、しばしば認証器（オーセンティケータ）にその秘密鍵とともに格納される形をとる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/credential",
+              "quote": "typically in the form of one or more digital certificates that are often contained in an authenticator along with their associated private keys."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "ある実務ガイドにおいて、証明書はIETF RFC 5280に基づいて定義されている。",
+          "confidence": 0.7,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/certificate",
+              "quote": "(Certificates in this practice guide are based on IETF RFC 5280)."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "digital-identity",
+    "topicType": "concept",
+    "categoryLabel": "インターネット・セキュリティ",
+    "title": "デジタル上の身元",
+    "summary": "デジタル上の身元(デジタルアイデンティティ)とは、システム上で個人や機器を指し示すための属性の集合を指す。NISTの一連の標準文書では「特定の文脈内で主体を一意に記述する属性またはその集合」と定義され、文脈への依存が本質的な特徴とされる。身元そのものと、それを他者に示すための証拠であるクレデンシャルは、標準上は区別して扱われる。",
+    "bodyMarkdown": "## 文脈に依存する定義\n\nデジタル上の身元は、その人物や機器そのものではなく、システムがそれを指し示すために用いる属性の集まりである。NIST SP 800-63-4およびSP 800-63A-4は、デジタルアイデンティティを「特定の文脈内で主体を一意に記述する属性またはその集合」と定義する。ここで「特定の文脈内で」という限定は付随的なものではなく、定義の核心にある。同じ人物が、ある業務システムでは社員番号と所属で一意に記述され、別のサービスでは電子メールアドレスと登録日で一意に記述される。どちらも同じ人物の身元だが、属性の集合としては別物である。 [2]\n\nこの文脈依存性は、NISTの他の文書でも繰り返し現れる。NIST SP 1800-17b/17cは同じ言い回しで身元を定義し、NISTIR 8149は対象を人物に限定したうえで「特定の文脈内で人物を一意に記述する属性の集合」とする。NISTIR 7622はさらに踏み込み、身元とは「識別管理者の責任範囲内において当該エンティティを他のあらゆるエンティティから区別するのに十分な、属性値の集合」であるとする。この定式化では、一意性は世界全体に対して成立する必要がなく、識別を管理する主体が責任を負う範囲の内側で成立すればよい。 [5][6][7]\n\n一方、NISTの定義は一つに収斂しているわけではない。同じ「身元」という語が、文書の目的に応じて異なる粒度で定義されている。 [1][3][4]\n\n## 文書によって異なる定義の粒度\n\n最も抽象的な水準では、NIST SP 800-57 Part 1 Rev. 5が身元を「エンティティを特徴づける識別性や個性」と定義する。これは属性の集合という具体的な構造には触れず、識別され得る性質そのものを指している。逆に最も具体的な水準にあるのがNIST SP 800-56B Rev. 2で、身元(ID)を「エンティティに関連付けられた識別子を表すビット列」と定義する。鍵確立の手順を規定する文書では、身元は最終的に計算に投入される具体的なデータでなければならないため、この粒度が選ばれている。 [3][4]\n\n三つ目の系統として、身体的・行動的特徴に焦点を当てる定義がある。NISTでは、身元を「個人を一意に識別可能にする身体的・行動的特徴の集合」とする定義も用いられている。属性を一般的なデータとして扱う定義とは異なり、この定式化は生体的な特性そのものを身元の内容とみなす点で性格が異なる。 [1]\n\nこれらの定義は矛盾しているというより、記述の階層が異なると理解できる。抽象的な「識別性」があり、それが属性値の集合として表現され、最終的に識別子のビット列へと符号化される。ただし、どの文書のどの定義を参照しているかによって、「身元」という語が指す対象の具体性は大きく変わる。 [1][3][4][6]\n\n## 身元とクレデンシャルの区別\n\n身元そのものと、身元を他者に示すための証拠は別の概念である。FIPS 201-3は、クレデンシャルを「信用または権限に対する権利を証する証拠」と定義する。これは身元の定義ではなく、身元に基づく主張を裏付けるものの定義である。属性の集合としての身元が「誰であるか」を記述するのに対し、クレデンシャルは「その記述が正当であること」を示す役割を担う。 [8]\n\nより技術的な定義では、クレデンシャルは結合の構造として記述される。CNSSI 4009-2022は、クレデンシャルを「識別子を介して身元(および任意で追加の属性)を、加入者が保有し管理する少なくとも1つの認証器に権威的に結びつけるオブジェクトまたはデータ構造」と定義する。NISTIR 8149もほぼ同様に、身元を加入者が保有し管理する認証器へ結びつけるものとする。NIST SP 800-79-2は結合先をカードまたはトークンとし、FIPS 201-3ではPIVカードまたは派生PIVクレデンシャルという具体的な形態を指す。共通するのは、クレデンシャルが身元と、加入者の手元にある物理的または論理的な保持物との間の結合であるという構造である。 [9][10][12][14]\n\nただし、この語には別系統の用法もある。NISTIR 7497はクレデンシャルを「人物、組織、サービス、デバイスなどのシステムエンティティを一意に識別する属性の集合」と定義しており、これは他の文書における身元の定義に近い。同じ用語が、結合の構造を指す場合と、識別する属性そのものを指す場合とがある。 [13]\n\n## クレデンシャルの発行と保管の分離\n\nNIST SP 800-63-4によれば、クレデンシャルはクレデンシャルサービスプロバイダ(CSP)によって発行、保管、維持される。同ガイドラインではクレデンシャルという用語が、加入者の認証器と身元との結びつきを確立する、CSPが維持する電子記録も指す。つまり、クレデンシャルは加入者の手元にある物だけを意味するのではなく、発行主体の側に存在する記録も含む。 [11][15]\n\nこの二面性は運用上の含意を持つ。NIST SP 800-63-4は、クレデンシャルの情報の複製が、多くの場合1つ以上のデジタル証明書の形で、対応する秘密鍵とともに認証器に含まれ、加入者によって保有され得るとしている。つまり同じ結合が、CSP側の記録と加入者側の認証器の両方に存在し得る。この配置により、CSPは自らが発行した結合を追跡・失効させることができ、加入者は手元の認証器だけで結合を提示できる。 [16]\n\n以上の定義群を通して見ると、デジタル上の身元は単一の対象ではなく、識別性、属性値の集合、識別子のビット列、そしてそれらを認証器に結びつけるクレデンシャルという複数の層からなる。ある文書が身元と呼ぶものを、別の文書はクレデンシャルと呼び得る。ここで扱った定義はいずれもNISTおよび関連する米国連邦標準に由来するものであり、他の標準化団体や法域における定義との異同については、本稿の根拠となる資料は述べていない。 [2][3][4][13]\n\n## 関連記事\n\n- 資格情報\n- [電子証明書](/hubpedia/digital-certificate)\n- [セキュリティトークン](/hubpedia/security-token)\n- [公開鍵暗号](/hubpedia/public-key-cryptography)\n- [暗号標準](/hubpedia/cryptographic-standards)",
+    "sources": [
+      {
+        "url": "https://csrc.nist.gov/glossary/term/identity",
+        "title": "Identity — NIST CSRC Glossary",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The standards body's own definition of digital-identity. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://csrc.nist.gov/glossary/term/credential",
+        "title": "Credential — NIST CSRC Glossary",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "How an identity is asserted. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Digital Identity",
+        "summary": "A digital identity is the set of attributes used within a system to point to a person or a device. The NIST family of standards documents defines it as \"an attribute or set of attributes that uniquely describes a subject within a given context,\" treating dependence on context as an essential characteristic. The identity itself and the credential that serves as evidence of it to others are treated as distinct concepts in the standards.",
+        "bodyMarkdown": "## A definition that depends on context\n\nA digital identity is not the person or device itself, but the collection of attributes a system uses to point to it. NIST SP 800-63-4 and SP 800-63A-4 define digital identity as \"an attribute or set of attributes that uniquely describes a subject within a given context.\" Here the qualifier \"within a given context\" is not incidental; it lies at the core of the definition. The same person may be uniquely described in one business system by an employee number and department, and in another service by an email address and a registration date. Both are that person's identity, but as sets of attributes they are different things. [2]\n\nThis dependence on context recurs across other NIST documents. NIST SP 1800-17b/17c define identity with the same phrasing, and NISTIR 8149 narrows the subject to a person, giving \"the set of attributes that uniquely describes a person within a given context.\" NISTIR 7622 goes further, holding that an identity is \"the set of attribute values that is sufficient to distinguish the entity in question from all other entities within the scope of responsibility of the identity manager.\" Under this formulation, uniqueness need not hold with respect to the whole world; it need only hold inside the scope for which the party managing identification is responsible. [5][6][7]\n\nAt the same time, NIST's definitions have not converged on a single one. The same word \"identity\" is defined at different levels of granularity depending on a document's purpose. [1][3][4]\n\n## Granularity of definitions differs by document\n\nAt the most abstract level, NIST SP 800-57 Part 1 Rev. 5 defines identity as \"the distinguishing character or personality of an entity.\" This does not touch on any concrete structure such as a set of attributes; it refers to the very quality of being identifiable. At the most concrete level, by contrast, is NIST SP 800-56B Rev. 2, which defines identity (ID) as \"a bit string that is associated with an entity and represents an identifier for that entity.\" In a document that specifies key-establishment procedures, identity must ultimately be concrete data fed into a computation, which is why this granularity was chosen. [3][4]\n\nA third line of definitions focuses on physical and behavioral characteristics. NIST also uses a definition of identity as \"the set of physical and behavioral characteristics by which an individual is uniquely recognizable.\" Unlike definitions that treat attributes as general data, this formulation differs in character in that it regards biometric traits themselves as the content of an identity. [1]\n\nRather than contradicting one another, these definitions can be understood as operating at different layers of description. There is an abstract \"distinguishing character,\" it is expressed as a set of attribute values, and it is finally encoded into a bit string that is an identifier. Even so, how concrete a thing the word \"identity\" denotes varies considerably depending on which definition in which document is being cited. [1][3][4][6]\n\n## The distinction between identity and credential\n\nAn identity itself and the evidence used to demonstrate it to others are separate concepts. FIPS 201-3 defines a credential as \"evidence attesting to one's right to credit or authority.\" This is not a definition of identity but a definition of what backs a claim based on an identity. Whereas identity as a set of attributes describes \"who someone is,\" a credential plays the role of showing \"that this description is legitimate.\" [8]\n\nIn more technical definitions, a credential is described as a binding structure. CNSSI 4009-2022 defines a credential as \"an object or data structure that authoritatively binds an identity - via an identifier and, optionally, additional attributes - to at least one authenticator possessed and controlled by a subscriber.\" NISTIR 8149 says much the same, binding an identity to an authenticator possessed and controlled by a subscriber. NIST SP 800-79-2 makes the binding target a card or token, while FIPS 201-3 points to concrete forms such as a PIV Card or a derived PIV credential. What they share is the structure whereby a credential is a binding between an identity and a physical or logical holding in the subscriber's possession. [9][10][12][14]\n\nThe term does, however, have another line of usage. NISTIR 7497 defines a credential as \"a set of attributes that uniquely identify a system entity such as a person, an organization, a service, or a device,\" which is close to the definition of identity in other documents. The same term sometimes denotes a binding structure and sometimes the identifying attributes themselves. [13]\n\n## Separating credential issuance from storage\n\nAccording to NIST SP 800-63-4, credentials are issued, stored, and maintained by a credential service provider (CSP). In that guideline, the term credential also refers to the electronic record maintained by the CSP that establishes the binding between a subscriber's authenticator and their identity. In other words, a credential means not only something in the subscriber's possession but also a record residing on the issuing party's side. [11][15]\n\nThis dual nature has operational implications. NIST SP 800-63-4 states that a copy of the credential's information may be contained in the authenticator - often in the form of one or more digital certificates, together with the corresponding private key - and may be held by the subscriber. The same binding can therefore exist both in the CSP's record and in the subscriber's authenticator. This arrangement lets the CSP track and revoke the bindings it has issued, while the subscriber can present a binding using only the authenticator at hand. [16]\n\nSeen across this body of definitions, a digital identity is not a single object but consists of several layers: a distinguishing character, a set of attribute values, an identifier bit string, and the credential that binds these to an authenticator. What one document calls an identity, another may call a credential. All the definitions treated here derive from NIST and related U.S. federal standards; the sources underlying this article say nothing about how they compare with definitions used by other standards bodies or in other jurisdictions. [2][3][4][13]\n\n## Related articles\n\n- Credential\n- [Digital certificate](/hubpedia/digital-certificate)\n- [Security token](/hubpedia/security-token)\n- [Public-key cryptography](/hubpedia/public-key-cryptography)\n- [Cryptographic standards](/hubpedia/cryptographic-standards)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:01:49.871Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "NISTの定義では、身元(identity)とは個人を一意に識別可能にする身体的・行動的特徴の集合である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/identity",
+              "quote": "The set of physical and behavioral characteristics by which an individual is uniquely recognizable."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "NIST SP 800-63-4およびSP 800-63A-4では、デジタルアイデンティティ(digital identity)とは特定の文脈内で主体を一意に記述する属性またはその集合であると定義される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/identity",
+              "quote": "An attribute or set of attributes that uniquely describes a subject within a given context."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "NIST SP 800-56B Rev. 2では、身元(ID)とはエンティティに関連付けられた識別子を表すビット列であると定義される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/identity",
+              "quote": "The bit string denoting the identifier associated with an entity."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "NIST SP 800-57 Part 1 Rev. 5では、身元とはエンティティを特徴づける識別性や個性であると定義される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/identity",
+              "quote": "The distinguishing character or personality of an entity."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "NIST SP 1800-17b/17cでは、身元とは特定の文脈内で主体を一意に記述する属性またはその集合であると定義される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/identity",
+              "quote": "An attribute or set of attributes that uniquely describe a subject within a given context."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "NISTIR 7622では、身元とは、識別管理者の責任範囲内において当該エンティティを他のあらゆるエンティティから区別するのに十分な、属性値の集合であると定義される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/identity",
+              "quote": "The set of attribute values (i.e., characteristics) by which an entity is recognizable and that, within the scope of an identity manager’s responsibility, is sufficient to distinguish that entity from any other entity."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "NISTIR 8149では、身元とは特定の文脈内で人物を一意に記述する属性の集合であると定義される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/identity",
+              "quote": "A set of attributes that uniquely describe a person within a given context."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "FIPS 201-3では、クレデンシャル(credential)とは信用または権限に対する権利を証する証拠であると定義される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/credential",
+              "quote": "Evidence attesting to one’s right to credit or authority."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "CNSSI 4009-2022では、クレデンシャルとは、識別子を介して身元(および任意で追加の属性)を、加入者が保有し管理する少なくとも1つの認証器に権威的に結びつけるオブジェクトまたはデータ構造であると定義される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/credential",
+              "quote": "An object or data structure that authoritatively binds an identity - via an identifier or identifiers - and (optionally) additional attributes, to at least one authenticator possessed and controlled by a subscriber."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "NIST SP 800-79-2では、クレデンシャルとは、身元(および任意で追加の属性)を、カード保有者または加入者が保有し管理するカードまたはトークンに結びつけるオブジェクトまたはデータ構造であると定義される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/credential",
+              "quote": "An object or data structure that authoritatively binds an identity (and optionally, additional attributes) to a card or token possessed and controlled by a cardholder or subscriber."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "NIST SP 800-63-4によれば、クレデンシャルはクレデンシャルサービスプロバイダ(CSP)によって発行、保管、維持される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/credential",
+              "quote": "A credential is issued, stored, and maintained by the CSP."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "NISTIR 8149では、クレデンシャルとは、身元(および任意で追加の属性)を、加入者が保有し管理する認証器に結びつけるオブジェクトまたはデータ構造であると定義される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/credential",
+              "quote": "An object or data structure that authoritatively binds an identity (and optionally, additional attributes) to an authenticator possessed and controlled by a subscriber."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "NISTIR 7497では、クレデンシャルとは、人物、組織、サービス、デバイスなどのシステムエンティティを一意に識別する属性の集合であると定義される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/credential",
+              "quote": "A set of attributes that uniquely identifies a system entity such as a person, an organization, a service, or a device."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "FIPS 201-3では、クレデンシャルとは、身元(および任意で追加の属性)を個人に権威的に結びつけるPIVカードまたは派生PIVクレデンシャルを指す。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/credential",
+              "quote": "it is the PIV Card or derived PIV credential associated with an individual that authoritatively binds an identity (and, optionally, additional attributes) to that individual."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "NIST SP 800-63-4のガイドラインでは、クレデンシャルという用語は、加入者の認証器と身元との結びつきを確立する、クレデンシャルサービスプロバイダ(CSP)が維持する電子記録も指す。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/credential",
+              "quote": "these guidelines also use the term to refer to electronic records maintained by the Credential Service Providers that establish binding between the subscriber’s authenticator(s) and identity."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "NIST SP 800-63-4によれば、クレデンシャルの情報の複製は、多くの場合1つ以上のデジタル証明書の形で、対応する秘密鍵とともに認証器に含まれ、加入者によって保有され得る。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/credential",
+              "quote": "Copies of information from the credential can be possessed by the subscriber, typically in the form of one or more digital certificates that are often contained in an authenticator along with their associated private keys."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "security-token",
+    "topicType": "concept",
+    "categoryLabel": "インターネット・セキュリティ",
+    "title": "セキュリティトークン",
+    "summary": "セキュリティトークンは、利用者が所持し管理する物または情報であり、その所持を根拠として本人を認証するために用いられる。スマートカードのような可搬型の物理デバイスに限る定義もあれば、鍵やパスワードなどの情報を含めて呼ぶ定義もあり、標準ごとに範囲が異なる。近年は分散台帳上の資産の表象を指す用法も加わり、同じ語が分野によって別の対象を指す。",
+    "bodyMarkdown": "## 所持を根拠とする認証\n\n認証の根拠には、知っていること、持っていること、身体的な特徴などがある。トークンはこのうち「持っていること」に置かれる道具であり、ある定義では、利用者が所持し管理する物理的なオブジェクトであって、利用者の[身元](/hubpedia/digital-identity)を認証するために用いられるものとされる。別の定義では対象は物に限られず、申請者（Claimant）が所持し管理するもの、典型的には鍵やパスワードが挙げられ、さらに別の定義では暗号モジュールまたはパスワードとされる。いずれも「所持し管理する」という条件は共通しており、違いは、その所持の対象を物体に限るか情報まで含めるかにある。 [2][4][5]\n\n所持そのものではなく、出力によってトークンを定義する立て方もある。この立て方では、トークンとは、本人と検証者のみが知る情報を生成できるものか、あるいは検証者がその機器のみが生成できると把握している情報を生成できるハードウェアデバイスのいずれかである。ここで根拠になっているのは物体の存在ではなく、その物体以外からは同じ出力が得られないという性質である。 [10]\n\n## 物理デバイスとしての形態\n\n物理デバイスとしてのトークンは、可搬型でユーザーが管理する装置であり、暗号情報を保存し、場合によっては[暗号機能](/hubpedia/encryption)も実行するものと説明される。例として挙げられるのはスマートカードやメモリスティックである。この説明は、鍵などの情報を保管するだけの器と、内部で演算まで行う器の両方を同じ語で覆っており、後者は暗号モジュールをトークンに含める定義と重なる。 [3][4]\n\n具体的な発行物を名指しする定義もある。ある基準では、トークンとはカード保持者が所持し管理するものであり、PIVカードや派生PIV資格情報がその例として示され、カード保持者の身元を認証するために用いられる。同じ基準系では、PIVカードまたは派生PIV資格情報そのものが、身元と任意の追加属性を個人に権威的に結びつける資格情報としても位置づけられる。 [1][11]\n\n## 資格情報との関係\n\n資格情報（credential）は、最も広くは、信用または権限に対する権利を証明する証拠と定義される。より限定した定義では、資格情報とは、識別子を介して身元と任意の追加属性を、加入者が所持し管理する少なくとも1つの認証子に権威的に結びつけるオブジェクトまたはデータ構造であり、結びつけ先をカードまたはトークンとする言い換えもある。この定義に従えば、トークンは結びつけられる側であり、資格情報は結びつけを成立させるデータの側になる。 [7][12][13]\n\n資格情報は、CSP（Credential Service Provider）によって発行、保管、維持される。加入者の手元に渡るのは資格情報そのものではなく、そこからの情報のコピーであり、典型的にはそれは、対応する[秘密鍵](/hubpedia/public-key-cryptography)とともに認証子に含まれる1つ以上の[デジタル証明書](/hubpedia/digital-certificate)という形を取る。トークンが手元にあることと、発行者側の記録が有効であることは別の事柄であり、両者を結ぶのがこの発行と維持の関係である。 [14][15]\n\nただし資格情報という語も一義ではない。人、組織、サービス、デバイスなどのシステムエンティティを一意に識別する属性の集合を資格情報と呼ぶ定義もあり、この場合の焦点は権利の証拠ではなく識別のための属性そのものに移る。証拠と見るか属性の集合と見るかで、何をもって資格情報が有効かも変わる。 [7][16]\n\n## 用語の変遷と他分野での用法\n\n「トークン」という語は、以前は認証子（authenticator）を指すために用いられていた。その後の定義では認証子と資格情報が別の概念として書き分けられ、資格情報は身元を認証子に結びつけるものとされる。古い文献と新しい文献で同じ語が指す層が異なりうるのは、この経緯による。 [9][12][15]\n\n装置ではなく役割を担うエンティティを指す用法もある。ある定義では、トークンとは公開鍵証明書を用いて同一LAN上の他のエンティティの認証を仲介するエンティティである。ここでのトークンは利用者が携帯する物ではなく、ネットワーク内で認証の仲立ちをする側に置かれている。 [8]\n\n認証とは別系統の用法として、資産の表象を指すものがある。この用法におけるトークンとは、通常[ブロックチェーン](/hubpedia/blockchain)や他の種類の分散台帳に依拠する、特定の資産の表象である。ここでの所持は本人であることの証明ではなく資産の帰属を意味しており、認証の道具としてのトークンとは目的が異なる。 [6]\n\n## 定義の揺れと確定していない点\n\n以上の定義は同じ語について並立しており、範囲が一致していない。物理的なオブジェクトや可搬型の物理デバイスに限る定義に従えばパスワードはトークンではないが、鍵やパスワード、あるいは暗号モジュールまたはパスワードを挙げる定義に従えばパスワードもトークンに含まれる。どの定義を採るかを示さずに「トークン」とだけ書くと、物を指しているのか情報を指しているのかが読み手に決まらない。 [2][3][4][5]\n\nこれらの定義が述べているのは、何がトークンに当たるかと、それが何のために用いられるかまでである。所持し管理することが条件に置かれてはいるが、その管理が失われた場合の扱いや、具体的な運用上の要件は定義の文言そのものからは導かれない。 [2][5]\n\n## 関連記事\n\n- [暗号標準](/hubpedia/cryptographic-standards)",
+    "sources": [
+      {
+        "url": "https://csrc.nist.gov/glossary/term/token",
+        "title": "Token — NIST CSRC Glossary",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The standards body's own definition of security-token. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://csrc.nist.gov/glossary/term/credential",
+        "title": "Credential — NIST CSRC Glossary",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The credential class it belongs to. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Security token",
+        "summary": "A security token is an object or piece of information that a user possesses and controls, used to authenticate that user on the basis of that possession. Some definitions limit the term to portable physical devices such as smart cards, while others include information such as keys and passwords, so the scope varies from standard to standard. In recent years a further usage has been added, referring to the representation of an asset on a distributed ledger, so the same word denotes different things depending on the field.",
+        "bodyMarkdown": "## Authentication based on possession\n\nThe bases for authentication include something known, something possessed, and physical characteristics. A token is a means placed in the \"something possessed\" category; under one definition it is a physical object that a user possesses and controls and that is used to authenticate the user's [identity](/hubpedia/digital-identity). Another definition does not limit the subject to physical objects, describing it as something the Claimant possesses and controls, typically a key or a password, while yet another defines it as a cryptographic module or a password. All of them share the condition of being \"possessed and controlled\"; they differ in whether the object of that possession is limited to a physical object or extends to information as well. [2][4][5]\n\nThere is also an approach that defines a token by its output rather than by possession itself. Under this approach, a token is either something that can generate information known only to the individual and the verifier, or a hardware device that can generate information the verifier understands can be generated only by that device. What serves as the basis here is not the existence of a physical object, but the property that the same output cannot be obtained from anything other than that object. [10]\n\n## Forms as a physical device\n\nA token as a physical device is described as a portable, user-controlled apparatus that stores cryptographic information and, in some cases, also performs [cryptographic functions](/hubpedia/encryption). The examples given are smart cards and memory sticks. This description covers with a single word both a container that merely stores information such as keys and one that also performs computation internally, and the latter overlaps with definitions that include cryptographic modules among tokens. [3][4]\n\nSome definitions name specific issued items. Under one standard, a token is something the cardholder possesses and controls, with the PIV card or derived PIV credential given as examples, used to authenticate the cardholder's identity. Within the same body of standards, the PIV card or derived PIV credential itself is also positioned as a credential that authoritatively binds an identity and optional additional attributes to a person. [1][11]\n\n## Relationship to credentials\n\nA credential is defined in the broadest sense as evidence attesting to one's right to credit or authority. Under a more restricted definition, a credential is an object or data structure that authoritatively binds an identity and optional additional attributes, via an identifier, to at least one authenticator possessed and controlled by a subscriber, with a variant wording that makes the binding target a card or token. Following this definition, the token is what is bound, and the credential is the data that establishes the binding. [7][12][13]\n\nCredentials are issued, stored, and maintained by a CSP (Credential Service Provider). What reaches the subscriber's hands is not the credential itself but a copy of information from it, typically taking the form of one or more [digital certificates](/hubpedia/digital-certificate) contained in the authenticator together with the corresponding [private key](/hubpedia/public-key-cryptography). Having the token at hand and the issuer-side record being valid are separate matters, and it is this issuance-and-maintenance relationship that connects the two. [14][15]\n\nThe word credential, however, is not univocal either. Some definitions call a credential a set of attributes that uniquely identifies a system entity such as a person, organization, service, or device, in which case the focus shifts from evidence of a right to the identifying attributes themselves. Whether it is seen as evidence or as a set of attributes also changes what makes a credential valid. [7][16]\n\n## Changes in terminology and usage in other fields\n\nThe word \"token\" was formerly used to refer to an authenticator. Later definitions write authenticator and credential as distinct concepts, with the credential being what binds an identity to an authenticator. It is because of this history that the same word can refer to different layers in older and newer literature. [9][12][15]\n\nThere is also a usage that refers to an entity performing a role rather than to a device. Under one definition, a token is an entity that mediates the authentication of other entities on the same LAN using public key certificates. The token here is not an object carried by a user but something placed on the side that brokers authentication within a network. [8]\n\nAs a usage in a line separate from authentication, there is one referring to the representation of an asset. A token in this usage is a representation of a particular asset that usually relies on a [blockchain](/hubpedia/blockchain) or another type of distributed ledger. Possession here signifies the attribution of an asset rather than proof of who someone is, so its purpose differs from that of a token as an instrument of authentication. [6]\n\n## Variation in definitions and unsettled points\n\nThe definitions above stand side by side for the same word, and their scopes do not coincide. Under definitions limited to physical objects or portable physical devices, a password is not a token; under definitions that cite keys and passwords, or a cryptographic module or a password, a password is included among tokens. If one writes only \"token\" without indicating which definition is being adopted, the reader cannot determine whether an object or information is meant. [2][3][4][5]\n\nWhat these definitions state extends only to what counts as a token and what it is used for. Although possession and control are set as conditions, how the loss of that control is handled, and the specific operational requirements, are not derived from the wording of the definitions themselves. [2][5]\n\n## Related articles\n\n- [Cryptographic standards](/hubpedia/cryptographic-standards)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:01:49.873Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "トークンとは、カード保持者が所持し管理するもの（PIVカードや派生PIV資格情報など）であり、カード保持者の身元を認証するために用いられる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/token",
+              "quote": "Something the cardholder possesses and controls (e.g., PIV Card or derived PIV credential) that is used to authenticate the cardholder’s identity."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "トークンとは、申請者（Claimant）が所持し管理するもの（典型的には鍵やパスワード）であり、申請者の身元を認証するために用いられる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/token",
+              "quote": "Something that the Claimant possesses and controls (typically a key or password) that is used to authenticate the Claimant’s identity."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "トークンとは、暗号情報を保存し、場合によっては暗号機能も実行する、可搬型でユーザーが管理する物理デバイス（スマートカードやメモリスティックなど）である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/token",
+              "quote": "A portable, user-controlled, physical device (e.g., smart card or memory stick) used to store cryptographic information and possibly also perform cryptographic functions."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "トークンとは、申請者（claimant）が所持し管理するもの（典型的には暗号モジュールやパスワード）であり、申請者の身元を認証するために用いられる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/token",
+              "quote": "Something the claimant possesses and controls (typically a cryptographic module or password) that is used to authenticate the claimant’s identity."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "トークンとは、ユーザーが所持し管理する物理的なオブジェクトであり、ユーザーの身元を認証するために用いられる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/token",
+              "quote": "A physical object a user possesses and controls that is used to authenticate the user’s identity."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "トークンとは、通常ブロックチェーンや他の種類の分散台帳に依拠する、特定の資産の表象である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/token",
+              "quote": "A representation of a particular asset that typically relies on a blockchain or other types of distributed ledgers."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "資格情報（credential）とは、信用または権限に対する権利を証明する証拠である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/credential",
+              "quote": "Evidence attesting to one’s right to credit or authority."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "トークンとは、公開鍵証明書を用いて同一LAN上の他のエンティティの認証を仲介するエンティティである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/token",
+              "quote": "An entity that facilitates authentication of other entities attached to the same LAN using a public key certificate."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "「トークン」という用語は、以前は認証子（authenticator）を指すために用いられていた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/token",
+              "quote": "This was previously referred to as a token."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "トークンとは、本人と検証者のみが知る情報、または検証者がその機器のみが生成できると把握している情報を生成できるハードウェアデバイスのいずれかである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/token",
+              "quote": "Either information that is only known to the person and the verifier, or a hardware device that can generate information that the verifier knows can only come from that device"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "ある基準において、資格情報とは個人に紐づくPIVカードまたは派生PIV資格情報であり、身元（および任意で追加の属性）をその個人に権威的に結びつけるものである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/credential",
+              "quote": "In this Standard, it is the PIV Card or derived PIV credential associated with an individual that authoritatively binds an identity (and, optionally, additional attributes) to that individual."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "資格情報とは、識別子を介して身元（および任意で追加の属性）を、加入者が所持し管理する少なくとも1つの認証子に権威的に結びつけるオブジェクトまたはデータ構造である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/credential",
+              "quote": "An object or data structure that authoritatively binds an identity - via an identifier or identifiers - and (optionally) additional attributes, to at least one authenticator possessed and controlled by a subscriber."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "資格情報とは、カード保持者または加入者が所持し管理するカードまたはトークンに、身元（および任意で追加の属性）を権威的に結びつけるオブジェクトまたはデータ構造である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/credential",
+              "quote": "An object or data structure that authoritatively binds an identity (and optionally, additional attributes) to a card or token possessed and controlled by a cardholder or subscriber."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "資格情報はCSP（Credential Service Provider）によって発行、保管、維持される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/credential",
+              "quote": "A credential is issued, stored, and maintained by the CSP."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "資格情報からの情報のコピーは加入者が所持することができ、典型的には対応する秘密鍵とともに認証子に含まれる1つ以上のデジタル証明書という形を取る。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/credential",
+              "quote": "Copies of information from the credential can be possessed by the subscriber, typically in the form of one or more digital certificates that are often contained in an authenticator along with their associated private keys."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "資格情報とは、人、組織、サービス、デバイスなどのシステムエンティティを一意に識別する属性の集合である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/credential",
+              "quote": "A set of attributes that uniquely identifies a system entity such as a person, an organization, a service, or a device."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

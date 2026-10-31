@@ -1,0 +1,1596 @@
+/*
+ * Canonical three-column title geometry.
+ * Keep application-shell titles aligned without constraining content headings.
+ */
+html {
+  /*
+   * Primary shell geometry token. `--column-title-height` remains as the
+   * compatibility alias used by feature styles while they migrate.
+   */
+  --shell-column-header-height: 58px;
+  --column-title-height: var(--shell-column-header-height);
+  --column-title-inline: 14px;
+  --column-title-toggle-safe: 54px;
+  --column-title-font-size: .9rem;
+  /*
+   * 38px on a pointer. Fifteen destinations at 44 stood 990px tall against
+   * a 900px window, so the settings — the last row — could only be reached
+   * by scrolling a column that looks like it has nothing more to show. This
+   * token is the one answer thirteen stylesheets were all trying to give.
+   */
+  --column-nav-item-height: 38px;
+  --column-nav-gap: 2px;
+  --shell-icon-control-size: 44px;
+  --shell-icon-glyph-size: 20px;
+  --shell-icon-control-inset: 7px;
+  --shell-icon-control-radius: 10px;
+  --column-section-height: 58px;
+  --column-control-height: 36px;
+  --column-list-row-height: 76px;
+  --column-panel-radius: 14px;
+}
+
+.shell__page-left-toggle {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  /*
+   * Pages with an in-page directory expose the four-part desktop structure
+   * explicitly: outer navigation | page navigation | main content | right
+   * rail. The title occupies the page-navigation cell while search belongs
+   * to the main-content cell above the page body.
+   */
+  html[data-theme] .main-content:has([data-hub-page-left-column]) > .shell-page-header {
+    display: grid;
+    grid-template-columns: var(--tab-left-column-width, var(--hub-left-open-width, 210px)) minmax(0, 1fr);
+    align-items: stretch;
+    padding: 0;
+  }
+
+  html[data-theme] .main-content:has([data-hub-page-left-column]) > .shell-page-header > .shell-page-header__title {
+    box-sizing: border-box;
+    min-width: 0;
+    height: var(--shell-column-header-height);
+    align-content: center;
+    padding: 0 var(--column-title-toggle-safe) 0 var(--column-title-inline);
+    border-right: var(--divider);
+    background: var(--bg-soft);
+  }
+
+  html[data-theme] .main-content:has([data-hub-page-left-column]) > .shell-page-header > :is(
+    .shell-page-search,
+    .shell-page-search-link
+  ) {
+    grid-column: 2;
+    align-self: center;
+    justify-self: start;
+    margin-right: var(--column-title-inline);
+    margin-left: var(--column-title-inline);
+  }
+
+  html .shell__page-left-toggle {
+    position: fixed;
+    z-index: 24;
+    top: var(--shell-icon-control-inset);
+    left: calc(
+      var(--left-width, 210px) + var(--tab-left-column-width, var(--hub-left-open-width, 210px)) -
+      var(--shell-icon-control-size) - var(--shell-icon-control-inset)
+    );
+    display: grid;
+    width: var(--shell-icon-control-size);
+    min-width: var(--shell-icon-control-size);
+    height: var(--shell-icon-control-size);
+    padding: 0;
+    place-items: center;
+    border: var(--divider);
+    border-radius: var(--shell-icon-control-radius);
+    background: var(--panel);
+    color: var(--text);
+    box-shadow: none;
+    cursor: pointer;
+  }
+
+  html .shell__page-left-toggle:hover {
+    background: var(--interactive-hover);
+  }
+
+  html .shell__page-left-toggle:focus-visible {
+    outline: 3px solid var(--focus-ring);
+    outline-offset: 2px;
+  }
+
+  html .shell__page-left-toggle svg {
+    width: var(--shell-icon-glyph-size);
+    height: var(--shell-icon-glyph-size);
+  }
+
+  html .shell--page-left-collapsed .shell__page-left-toggle {
+    left: calc(var(--left-width, 210px) + var(--shell-icon-control-inset));
+  }
+
+  html[data-theme] .shell--page-left-collapsed .main-content:has([data-hub-page-left-column]) > .shell-page-header {
+    grid-template-columns: var(--tab-left-column-collapsed-width, 58px) minmax(0, 1fr);
+  }
+
+  html[data-theme] .shell--page-left-collapsed .main-content:has([data-hub-page-left-column]) > .shell-page-header > .shell-page-header__title {
+    padding: 0;
+  }
+
+  html[data-theme] .shell--page-left-collapsed .main-content:has([data-hub-page-left-column]) > .shell-page-header > .shell-page-header__title > * {
+    visibility: hidden;
+  }
+
+  html[data-theme] .shell.shell--page-left-collapsed .main-content [data-hub-page-left-column] {
+    display: flex !important;
+    width: var(--tab-left-column-collapsed-width, 58px) !important;
+    min-width: var(--tab-left-column-collapsed-width, 58px) !important;
+    overflow: hidden !important;
+  }
+
+  html[data-theme] .shell.shell--page-left-collapsed .main-content [data-hub-page-left-column] > * {
+    visibility: hidden !important;
+    pointer-events: none !important;
+  }
+
+  html .shell--page-left-collapsed .main-content :is(
+    .tab-left-column-layout,
+    .ai-chat,
+    .market-directory-layout
+  ):has(> [data-hub-page-left-column]) {
+    grid-template-columns: var(--tab-left-column-collapsed-width, 58px) minmax(0, 1fr) !important;
+  }
+
+  /*
+   * The column shell clips and positions its contents; the inner list owns
+   * scrolling. Reserving a second stable gutter on the shell narrowed every
+   * page directory even though no scrollbar could be drawn there.
+   */
+  html[data-theme] .main-content [data-hub-page-left-column] {
+    scrollbar-gutter: auto !important;
+  }
+}
+
+.shell-page-header {
+  position: sticky;
+  top: 0;
+  z-index: 18;
+  min-height: var(--shell-column-header-height);
+  display: flex;
+  align-items: center;
+  padding: 0 var(--column-title-inline);
+  border-bottom: var(--divider);
+  background: var(--bg);
+  color: var(--text);
+}
+
+/*
+ * Only the width is local. The shared search field in design-system.css owns
+ * the height, the pill, the border, the fill and the inner input and button;
+ * this file loads last, so repeating any of that here would silently win and
+ * put the header field back out of step with every other search field.
+ */
+.shell-page-search {
+  /*
+   * 幅は max-width でも留める。共有の :is(...) ルールは width: 100% を
+   * 同じ詳細度で当ててくるので、読み込み順が入れ替わると clamp が負ける。
+   * 実際に負けて700pxになり、左右マージン28pxと合わせて親の700px列を
+   * はみ出し、右列へ14px重なっていた。max-width は width と競合せず
+   * 上限として効くので、どちらが勝っても越えない。
+   */
+  width: clamp(220px, 32vw, 440px);
+  max-width: min(440px, 100%);
+  box-sizing: border-box;
+  margin-left: auto;
+}
+.shell-page-search-link {
+  display: none;
+  width: 40px;
+  height: 40px;
+  margin-left: auto;
+  place-items: center;
+  border-radius: 50%;
+  color: var(--text);
+}
+
+.shell-page-search-link:hover {
+  background: var(--interactive-hover);
+}
+
+.shell-page-search-link svg {
+  width: 20px;
+  height: 20px;
+}
+
+.shell-page-header__title {
+  flex: 0 1 auto;
+  min-width: 0;
+  display: grid;
+  justify-items: start;
+  gap: 1px;
+  text-align: left;
+}
+
+.shell-page-header__title h1,
+.shell-page-header__title .shell-page-header__section,
+.shell-page-header__title small {
+  max-width: 100%;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.shell-page-header__title h1,
+/*
+ * A section link one level down reads as the same title. It is a different
+ * element only so the document has one heading, not two.
+ */
+.shell-page-header__title .shell-page-header__section {
+  font-size: var(--column-title-font-size);
+  font-weight: 750;
+  letter-spacing: -.01em;
+  line-height: 1.2;
+}
+
+.shell-page-header__title .shell-page-header__section {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+
+.shell-page-header__title .shell-page-header__section:hover {
+  text-decoration: underline;
+}
+
+.shell-page-header__title small {
+  color: var(--muted);
+  font-size: .65rem;
+  line-height: 1.1;
+}
+
+/*
+ * Compatibility layer while feature pages migrate their local hero headings.
+ * Only where the shell header is the heading. One level down it is a section
+ * link, so hiding the page`s own hero would leave the screen with no title at
+ * all.
+ */
+.shell-page-header[data-shell-heading="page"] + :is(.feature-header, .settings-page-header) {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .shell-page-header {
+    padding-inline: max(var(--column-title-inline), env(safe-area-inset-left));
+  }
+
+  .shell-page-header .shell-page-search {
+    /*
+     * The canonical search-field rule in page-palettes.css intentionally uses
+     * display:flex !important so page-local styles cannot dismantle the field.
+     * This responsive contract is the one legitimate exception: the full
+     * field yields to the adjacent search link before it crushes the title.
+     * The header ancestor also makes this rule more specific than the shared
+     * :is(...) rule: webpack can split those source files into CSS chunks whose
+     * runtime order no longer matches their import order.
+     */
+    display: none !important;
+  }
+
+  .shell-page-search-link {
+    display: grid;
+  }
+}
+
+/*
+ * Remaining application surfaces use the same quiet, edge-to-edge hierarchy
+ * as the home timeline. Page identity stays in the column header; content
+ * below it is grouped with dividers instead of floating cards.
+ */
+@media (min-width: 761px) {
+  html[data-theme] .main-content .search-experience {
+    width: 100%;
+    max-width: none;
+    margin-inline: 0;
+  }
+
+  html[data-theme] .main-content :is(
+    .notifications-page,
+    .profile-page-simple,
+    .settings
+  ) {
+    width: min(100%, 920px);
+    max-width: none;
+  }
+
+  html[data-theme] .main-content .settings {
+    margin-inline: 0 auto;
+  }
+}
+
+html[data-theme] .main-content :is(
+  .search-tabs,
+  .profile-activity-tabs,
+  .notifications-page > nav
+) {
+  width: 100%;
+  gap: 0;
+  padding: 0;
+  overflow-x: auto;
+  border: 0;
+  border-bottom: var(--divider);
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  scrollbar-width: none;
+}
+
+html[data-theme] .main-content :is(
+  .search-tabs,
+  .profile-activity-tabs,
+  .notifications-page > nav
+)::-webkit-scrollbar {
+  display: none;
+}
+
+html[data-theme] .main-content :is(
+  .search-tabs,
+  .profile-activity-tabs,
+  .notifications-page > nav
+) > :is(button, a, [role="tab"]) {
+  min-width: max-content;
+  min-height: 44px;
+  flex: 1 0 auto;
+  padding-inline: 16px;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  border-radius: 0;
+  background: transparent;
+  color: var(--muted);
+  box-shadow: none;
+}
+
+html[data-theme] .main-content :is(
+  .search-tabs,
+  .profile-activity-tabs,
+  .notifications-page > nav
+) > :is(
+  .active,
+  .is-active,
+  [aria-selected="true"],
+  [aria-pressed="true"]
+) {
+  border-bottom-color: var(--emphasis);
+  color: var(--text);
+  font-weight: 700;
+}
+
+html[data-theme] .main-content :is(
+  .search-memory,
+  .search-filter-panel,
+  .search-mixed-results,
+  .search-related,
+  .notification-list,
+  .profile-posts-simple,
+  .profile-activity-panel
+) {
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+html[data-theme] .search-experience .community-trends {
+  width: 100%;
+  max-width: none;
+  padding-inline: 0;
+}
+
+html[data-theme] .main-content :is(
+  .search-hit,
+  .notification-row,
+  .profile-activity-post,
+  .profile-thread-item
+) {
+  margin: 0;
+  border-right: 0;
+  border-bottom: var(--divider);
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+html[data-theme] .main-content :is(
+  .search-hit,
+  .notification-row,
+  .profile-activity-post,
+  .profile-thread-item
+):hover {
+  background: var(--interactive-hover);
+}
+
+html[data-theme] .main-content .profile-card-simple {
+  border: 0;
+  border-bottom: var(--divider);
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+html[data-theme] .main-content .profile-card-simple__stats {
+  border-top: var(--divider);
+}
+
+html[data-theme] .main-content .profile-card-simple__stats > :is(div, button, a) {
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+html[data-theme] .main-content :is(.settings-summary, .settings-card) {
+  border-inline: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+html[data-theme] .main-content .settings-summary {
+  padding-inline: 0;
+  border-top: var(--divider);
+  border-bottom: var(--divider);
+}
+
+html[data-theme] .main-content .settings-card > * {
+  border-bottom: var(--divider);
+}
+
+html[data-theme] .main-content .settings-card > *:last-child {
+  border-bottom: 0;
+}
+
+html[data-theme] .timeline-rail__header {
+  border-bottom: var(--divider);
+  background: var(--bg);
+  box-shadow: none;
+  backdrop-filter: none;
+}
+
+html[data-theme] .timeline-rail :is(
+  .rail-mode,
+  .rail-search-tabs,
+  .rail-list-filter
+) {
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+html[data-theme] .timeline-rail .rail-result {
+  border-radius: 0;
+  box-shadow: none;
+}
+
+html[data-theme] .timeline-rail .rail-result:hover {
+  border-radius: 0;
+  background: var(--interactive-hover);
+}
+
+@media (max-width: 760px) {
+  html[data-theme] .main-content :is(
+    .search-tabs,
+    .profile-activity-tabs,
+    .notifications-page > nav
+  ) > :is(button, a, [role="tab"]) {
+    flex-basis: auto;
+    padding-inline: 14px;
+  }
+
+  html[data-theme] .main-content :is(.settings-summary, .settings-card) {
+    margin-inline: calc(var(--apple-page-padding) * -1);
+    padding-inline: var(--apple-page-padding);
+  }
+}
+
+.shell__right-drawer-backdrop {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  /*
+   * Stable DOM markers expose the shell contract to tests and future
+   * components without coupling them to page-specific class names.
+   */
+  [data-shell-column-header] {
+    box-sizing: border-box;
+    height: var(--shell-column-header-height) !important;
+    min-height: var(--shell-column-header-height) !important;
+    max-height: var(--shell-column-header-height) !important;
+  }
+
+  /*
+   * Left/right disclosure buttons and the right shortcut rail share one
+   * 44px hit target, glyph box, radius, and vertical center.
+   */
+  :is(.shell__rail-toggle, .shell__rail-shortcut) {
+    box-sizing: border-box;
+    width: var(--shell-icon-control-size) !important;
+    min-width: var(--shell-icon-control-size) !important;
+    height: var(--shell-icon-control-size) !important;
+    min-height: var(--shell-icon-control-size) !important;
+    max-height: var(--shell-icon-control-size) !important;
+    border-radius: var(--shell-icon-control-radius) !important;
+  }
+
+  .shell__rail-toggle {
+    top: var(--shell-icon-control-inset) !important;
+  }
+
+  .shell__rail-toggle--left {
+    left: calc(var(--left-width, 230px) - var(--shell-icon-control-size) - var(--shell-icon-control-inset)) !important;
+  }
+
+  .shell__rail-toggle--right {
+    right: calc(var(--right-width, 320px) - var(--shell-icon-control-size) - var(--shell-icon-control-inset)) !important;
+  }
+
+  .shell--left-collapsed .shell__rail-toggle--left {
+    left: var(--shell-icon-control-inset) !important;
+  }
+
+  .shell--right-collapsed .shell__rail-toggle--right {
+    right: var(--shell-icon-control-inset) !important;
+  }
+
+  :is(.shell__rail-toggle, .shell__rail-shortcut) svg,
+  .shell__rail-shortcut > span {
+    width: var(--shell-icon-glyph-size) !important;
+    height: var(--shell-icon-glyph-size) !important;
+  }
+
+  /* Left column */
+  .shell__left > .sidebar {
+    padding-top: 0 !important;
+  }
+
+  /*
+   * In the collapsed rail, center every navigation control on the same axis
+   * as the disclosure button. Earlier feature styles add asymmetric padding
+   * and a negative icon margin that otherwise move the icon off the 58px
+   * column center.
+   */
+  .shell__left > .sidebar.sidebar--collapsed {
+    padding-inline: 0 !important;
+  }
+
+  .shell__left > .sidebar.sidebar--collapsed :is(
+    .sidebar__brand,
+    .sidebar__brand-top,
+    .sidebar__nav,
+    .sidebar__footer,
+    .sidebar__profile-pinned
+  ) {
+    width: 100%;
+  }
+
+  .shell__left > .sidebar.sidebar--collapsed .sidebar__brand {
+    margin-inline: 0 !important;
+    padding-inline: 0 !important;
+  }
+
+  .shell__left > .sidebar.sidebar--collapsed :is(
+    .sidebar__link,
+    .sidebar__compose,
+    .sidebar__collapse,
+    .account-profile-switcher__trigger
+  ) {
+    margin-inline: auto !important;
+  }
+
+  .shell__left > .sidebar.sidebar--collapsed .account-profile-switcher__trigger {
+    width: 44px !important;
+    padding-inline: 0 !important;
+    justify-content: center !important;
+  }
+
+  .shell__left > .sidebar.sidebar--collapsed .sidebar__nav-icon {
+    margin-inline: auto !important;
+  }
+
+  .shell__left > .sidebar .sidebar__brand,
+  .shell__left > .sidebar .sidebar__brand-top {
+    box-sizing: border-box;
+    height: var(--column-title-height) !important;
+    min-height: var(--column-title-height) !important;
+    max-height: var(--column-title-height) !important;
+  }
+
+  .shell__left > .sidebar .sidebar__brand {
+    width: calc(100% + 20px);
+    margin-bottom: 0 !important;
+    margin-inline: -10px !important;
+    padding-inline: 10px;
+    border-bottom: var(--divider);
+  }
+
+  .shell__left > .sidebar .sidebar__brand-top {
+    width: 100%;
+  }
+
+  .shell__left > .sidebar:not(.sidebar--collapsed) .sidebar__brand-top {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 40px;
+    gap: 0;
+  }
+
+  .shell__left > .sidebar .sidebar__header-balance {
+    display: none;
+  }
+
+  .shell__left > .sidebar .sidebar__brand-identity {
+    display: flex;
+    min-width: 0;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .shell__left > .sidebar .sidebar__wordmark {
+    flex: 0 1 auto;
+  }
+
+  .shell__left > .sidebar .sidebar__collapse {
+    justify-self: center;
+  }
+
+  :is(.sidebar__nav, .sidebar--collapsed .sidebar__nav) {
+    grid-auto-rows: var(--column-nav-item-height) !important;
+    gap: var(--column-nav-gap) !important;
+  }
+
+  :is(.sidebar__link, .sidebar--collapsed .sidebar__link) {
+    height: var(--column-nav-item-height) !important;
+    min-height: var(--column-nav-item-height) !important;
+    max-height: var(--column-nav-item-height) !important;
+  }
+
+  /* Right column */
+  :is(
+    .shell__right-header,
+    .timeline-rail__header,
+    .catalog-right-rail > header,
+    .notifications-right-rail > header,
+    .ai-right-rail__header,
+    .music-right-rail > header
+  ) {
+    box-sizing: border-box;
+    display: flex !important;
+    width: 100%;
+    height: var(--column-title-height) !important;
+    min-height: var(--column-title-height) !important;
+    max-height: var(--column-title-height) !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    margin: 0 !important;
+    padding: 0 var(--column-title-inline) 0 var(--column-title-toggle-safe) !important;
+    border-bottom: var(--divider) !important;
+    background: var(--bg) !important;
+    text-align: left !important;
+  }
+
+  .shell__right {
+    grid-template-rows: var(--column-title-height) minmax(0, 1fr) !important;
+  }
+
+  .shell__right-header {
+    display: grid !important;
+    grid-template-columns: 40px minmax(0, 1fr) 30px !important;
+  }
+
+  .shell__right-header h2 {
+    min-width: 0;
+    margin: 0 !important;
+    overflow: hidden;
+    color: var(--text) !important;
+    font-size: var(--column-title-font-size) !important;
+    font-weight: 700 !important;
+    line-height: 1.2 !important;
+    text-align: left !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* The right switcher gutter is part of the right column, including its title row. */
+  .shell__rail-switcher {
+    box-sizing: border-box;
+    top: 0 !important;
+    grid-auto-rows: var(--column-nav-item-height);
+    gap: var(--column-nav-gap) !important;
+    justify-items: center !important;
+    padding-inline: 0 !important;
+    padding-top: var(--column-title-height);
+  }
+
+  .shell__rail-switcher .shell__rail-shortcut {
+    position: static !important;
+    inset-inline: auto !important;
+    height: var(--column-nav-item-height) !important;
+    min-height: var(--column-nav-item-height) !important;
+    max-height: var(--column-nav-item-height) !important;
+    margin-inline: auto !important;
+    justify-self: center !important;
+    transform: none !important;
+  }
+
+  .shell__rail-switcher::before {
+    content: "";
+    position: absolute;
+    top: calc(var(--column-title-height) - 1px);
+    right: 0;
+    left: 0;
+    border-bottom: var(--divider);
+    pointer-events: none;
+  }
+
+  :is(
+    .timeline-rail__title-row,
+    .timeline-rail__title-row > div,
+    .catalog-right-rail > header > div,
+    .notifications-right-rail > header > div,
+    .music-right-rail > header > div
+  ) {
+    display: flex !important;
+    width: 100%;
+    min-width: 0;
+    height: auto !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    grid-column: auto !important;
+    justify-items: start !important;
+    text-align: left !important;
+  }
+
+  :is(
+    .timeline-rail__title-row h2,
+    .catalog-right-rail > header h2,
+    .notifications-right-rail > header h2,
+    .ai-right-rail__header h2,
+    .music-right-rail > header h2
+  ) {
+    min-width: 0;
+    margin: 0 !important;
+    overflow: hidden;
+    color: var(--text) !important;
+    font-size: var(--column-title-font-size) !important;
+    font-weight: 700 !important;
+    line-height: 1.2 !important;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* Middle column: compact title bars that already own the full first row. */
+  :is(
+    .feature-header,
+    .post-detail__header,
+    .profile-page-simple__header,
+    .ai-chat:not(.ai-chat--rail) .ai-chat__header,
+    .video-hub__header,
+    .music-header,
+    .digital-commerce__header,
+    .commerce-payment-header,
+    .storefront__command,
+    .market-search-bar,
+    .market-brand-row,
+    .shopping-product-toolbar
+  ) {
+    box-sizing: border-box;
+    height: var(--column-title-height) !important;
+    min-height: var(--column-title-height) !important;
+    max-height: var(--column-title-height) !important;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    border-bottom: var(--divider) !important;
+  }
+
+  :is(
+    .feature-header,
+    .post-detail__header,
+    .profile-page-simple__header,
+    .video-hub__header,
+    .music-header,
+    .digital-commerce__header,
+    .commerce-payment-header,
+    .storefront__command,
+    .market-search-bar,
+    .market-brand-row,
+    .shopping-product-toolbar
+  ) {
+    align-items: center !important;
+  }
+
+  /*
+   * Market pages use the same first-row boundary as the shell right rail.
+   * Their search controls stay inside the canonical 58px title row.
+   */
+  :is(.storefront__command, .market-search-bar) {
+    top: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    background: var(--bg) !important;
+  }
+
+  
+
+  /* Full-width and nested workspaces still share the shell's first boundary. */
+  :is(
+    .community-brand,
+    .community-chat-header,
+    .community-room-list > header,
+    .bbs-thread-directory__header,
+    .bbs-directory-content__topbar,
+    .hubpedia-article__topbar,
+    .hubpedia-wiki-page > h1
+  ) {
+    box-sizing: border-box;
+    height: var(--column-title-height) !important;
+    min-height: var(--column-title-height) !important;
+    max-height: var(--column-title-height) !important;
+    align-items: center !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    border-bottom: var(--divider) !important;
+  }
+
+  .bbs-directory-content__topbar {
+    display: flex;
+    padding-inline: var(--column-title-inline);
+    background: var(--bg);
+  }
+
+  .bbs-directory-content__topbar strong {
+    font-size: var(--column-title-font-size);
+    font-weight: 700;
+  }
+
+  .hubpedia-wiki-page > h1 {
+    display: flex;
+  }
+
+  /* The default feed uses navigation tabs as its top row instead of a title. */
+  html[data-theme] .main-content .home-feed > .home-feed__tabs {
+    box-sizing: border-box;
+    width: calc(100% + (2 * var(--home-feed-gutter, 0px))) !important;
+    height: var(--column-title-height) !important;
+    min-height: var(--column-title-height) !important;
+    max-height: var(--column-title-height) !important;
+    align-items: stretch !important;
+    gap: 0 !important;
+    margin:
+      calc(0px - var(--home-feed-gutter, 0px))
+      calc(0px - var(--home-feed-gutter, 0px))
+      0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    border-bottom: var(--divider) !important;
+    border-radius: 0 !important;
+    background: var(--bg) !important;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+  }
+
+  html[data-theme] .main-content .home-feed > .home-feed__tabs .tl-tab {
+    height: 100% !important;
+    min-height: 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+  }
+
+  .ai-chat:not(.ai-chat--rail) .ai-chat__main {
+    min-height: 100vh;
+  }
+
+  
+
+  /* Middle column: pages whose controls continue below the title row. */
+  :is(.search-page, .notifications-page, .hubpedia, .video-hub) {
+    padding-top: 0 !important;
+  }
+
+  .search-page > header > h1 {
+    display: flex;
+    height: var(--column-title-height);
+    min-height: var(--column-title-height);
+    align-items: center;
+    margin: 0 !important;
+    border-bottom: var(--divider);
+  }
+
+  .notifications-page > header {
+    box-sizing: border-box;
+    height: var(--column-title-height) !important;
+    min-height: var(--column-title-height) !important;
+    max-height: var(--column-title-height) !important;
+    align-items: center !important;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    border-bottom: var(--divider);
+  }
+
+  .notifications-page > header p {
+    display: none !important;
+  }
+
+  .notifications-page > header h1 {
+    margin: 0 !important;
+  }
+
+  /*
+   * The shell owns the first divider even on a route whose first child is
+   * content rather than a named header component. This keeps the 58px
+   * boundary continuous across every middle-column screen and prevents a
+   * feature stylesheet from moving it independently of the right rail.
+   */
+  .main-content {
+    position: relative;
+  }
+
+  .main-content::after {
+    position: absolute;
+    top: calc(var(--column-title-height) - 1px);
+    right: 0;
+    left: 0;
+    z-index: 8;
+    border-bottom: var(--divider);
+    content: "";
+    pointer-events: none;
+  }
+
+  /*
+   * A route may center its readable content, but its application header still
+   * belongs to the column. Container query units let that first row reach both
+   * edges of the middle column without widening the document body below it.
+   */
+  :is(
+    .feature-header,
+    .page-header,
+    .post-detail__header,
+    .profile-page-simple__header,
+    .search-page > header > h1,
+    .notifications-page > header,
+    .settings-page-header,
+    .hub-account__header,
+    .hub-legal > header,
+    .ad-inventory-page > header,
+    .games-catalog > header,
+    .video-hub__header,
+    .music-header,
+    .digital-commerce__header,
+    .commerce-payment-header
+  ) {
+    box-sizing: border-box;
+    inline-size: 100cqw !important;
+    max-inline-size: none !important;
+    margin-inline: calc((100% - 100cqw) / 2) !important;
+    padding-inline: var(--column-title-inline) !important;
+    border-radius: 0 !important;
+    background: var(--bg) !important;
+    box-shadow: none !important;
+  }
+
+  /*
+   * 4列（外左列・中左列・本体・右列）の本体列に入ったヘッダーは、上の
+   * フルブリードで中左列の分だけ広がり、右列へ食い込む。100cqw が指すのは
+   * main-content で、本体列ではないため。
+   * 2026-08-31 に /videos で実測。本体列は700px、ヘッダーは910pxになり
+   * 左右へ約134pxずつはみ出していた（インポートボタンが右列に重なる）。
+   * 本体列の中では列いっぱいに戻す。
+   */
+  .tab-left-column-main :is(
+    .feature-header,
+    .page-header,
+    .post-detail__header,
+    .profile-page-simple__header,
+    .notifications-page > header,
+    .settings-page-header,
+    .hub-account__header,
+    .ad-inventory-page > header,
+    .games-catalog > header,
+    .video-hub__header,
+    .music-header,
+    .digital-commerce__header,
+    .commerce-payment-header
+  ) {
+    inline-size: 100% !important;
+    margin-inline: 0 !important;
+  }
+
+  :is(.digital-commerce__header, .commerce-payment-header) {
+    justify-content: space-between !important;
+  }
+
+  :is(.digital-commerce, .commerce-payment-checkout) {
+    padding-top: 0 !important;
+  }
+
+  .commerce-payment-checkout > section {
+    padding-top: 0 !important;
+  }
+
+  :is(.digital-commerce__header, .commerce-payment-header) h1 {
+    margin: 0 !important;
+    font-size: var(--column-title-font-size) !important;
+    font-weight: 700 !important;
+    letter-spacing: normal !important;
+  }
+
+  .digital-commerce__header :is(p, span),
+  .commerce-payment-header small {
+    display: none !important;
+  }
+
+  /*
+   * Header navigation never uses a colored fill. Selection remains legible
+   * through weight and the canonical divider/underline, while keyboard focus
+   * keeps its separate accessible outline.
+   */
+  :is(
+    .home-feed > .home-feed__tabs,
+    .tl-tabs,
+    .search-tabs,
+    .profile-tabs,
+    .profile-activity-tabs,
+    .content-discovery-tabs,
+    .community-view-tabs,
+    .thread-view-tabs,
+    .trend-tabs,
+    .market-view-tabs
+  ) :is(button, a, [role="tab"]),
+  :is(
+    .home-feed > .home-feed__tabs,
+    .tl-tabs,
+    .search-tabs,
+    .profile-tabs,
+    .profile-activity-tabs,
+    .content-discovery-tabs,
+    .community-view-tabs,
+    .thread-view-tabs,
+    .trend-tabs,
+    .market-view-tabs
+  ) :is(button, a, [role="tab"]):is(:hover, :active, [aria-selected="true"], [aria-current="page"]) {
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+}
+
+@media (max-width: 1199px) {
+  /*
+   * Compact layouts keep the middle column primary. The right rail remains
+   * available as a drawer instead of disappearing from the product.
+   */
+  html :is(.shell__right-resizer, .shell__right-resize-handle) {
+    display: none !important;
+  }
+
+  html .shell__right {
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: auto !important;
+    z-index: 110 !important;
+    display: grid !important;
+    width: min(92vw, 420px) !important;
+    min-width: 0 !important;
+    height: 100dvh !important;
+    padding-right: 58px !important;
+    transform: translateX(0);
+    transition: transform 180ms ease;
+  }
+
+  html .shell--right-collapsed .shell__right {
+    transform: translateX(100%);
+    pointer-events: none;
+  }
+
+  html .shell__rail-toggle--right {
+    top: var(--shell-icon-control-inset) !important;
+    right: var(--shell-icon-control-inset) !important;
+    z-index: 120 !important;
+    display: grid !important;
+    width: var(--shell-icon-control-size) !important;
+    min-width: var(--shell-icon-control-size) !important;
+    height: var(--shell-icon-control-size) !important;
+  }
+
+  html .shell__rail-switcher {
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    z-index: 115 !important;
+    display: grid !important;
+    width: 58px !important;
+    padding-top: var(--shell-column-header-height) !important;
+    transform: translateX(0);
+    transition: transform 180ms ease;
+  }
+
+  html .shell--right-collapsed .shell__rail-switcher {
+    transform: translateX(0);
+    pointer-events: auto;
+  }
+
+  html .shell__right-drawer-backdrop {
+    position: fixed;
+    inset: 0;
+    z-index: 109;
+    display: block;
+    padding: 0;
+    border: 0;
+    background: var(--scrim);
+  }
+}
+
+/*
+ * The fixed switcher remains available on compact desktop widths. Reserve its
+ * gutter in the shell grid so it never covers middle-column content.
+ */
+@media (min-width: 760px) and (max-width: 1199px) {
+  html[data-hub-surface="web"] .shell--with-rail:not(.shell--immersive) {
+    grid-template-columns: var(--left-width, 58px) minmax(0, 1fr) 58px !important;
+  }
+
+  html[data-hub-surface="web"] .shell__rail-switcher .shell__rail-shortcut {
+    display: grid !important;
+  }
+}
+
+/*
+ * Keep right-rail tools visible while the result list owns the remaining
+ * viewport height. This lives in the final geometry layer so legacy rail
+ * themes cannot turn the list back into a page-height, clipped surface.
+ */
+@media (min-width: 1200px) {
+  #hub-right-rail.shell__right {
+    position: sticky !important;
+    top: 0 !important;
+    align-self: flex-start;
+    min-height: 0 !important;
+    height: 100dvh !important;
+    max-height: 100dvh !important;
+  }
+}
+
+#hub-right-rail .shell__right-body {
+  min-height: 0 !important;
+  overflow: hidden !important;
+}
+
+#hub-right-rail .shell__right-body > .timeline-rail {
+  display: grid !important;
+  grid-template-rows: auto minmax(0, 1fr) !important;
+  min-height: 0 !important;
+  height: 100% !important;
+  max-height: 100% !important;
+  overflow: hidden !important;
+}
+
+#hub-right-rail .timeline-rail__list {
+  grid-template-columns: minmax(0, 1fr) !important;
+  min-height: 0 !important;
+  height: auto !important;
+  max-height: none !important;
+  overflow-x: hidden !important;
+  overflow-y: auto !important;
+  overscroll-behavior-y: contain;
+  touch-action: pan-y;
+  scrollbar-width: thin;
+  scrollbar-color: var(--muted) var(--surface-sunken);
+}
+
+#hub-right-rail .timeline-rail__list > :is(.tweet, .rail-result) {
+  grid-column: 1 !important;
+  border-right: 0 !important;
+}
+
+#hub-right-rail .timeline-rail__list::-webkit-scrollbar {
+  display: block;
+  width: 8px;
+}
+
+#hub-right-rail .timeline-rail__list::-webkit-scrollbar-track {
+  background: var(--surface-sunken);
+}
+
+#hub-right-rail .timeline-rail__list::-webkit-scrollbar-thumb {
+  border: 2px solid var(--surface-sunken);
+  border-radius: 999px;
+  background: var(--muted);
+}
+
+/*
+ * Keep every viewport scrollbar outside the shell title row. Desktop Hub
+ * scrolls `.main-content` rather than the document, so both scroll owners
+ * must share the same track inset. The right rail already owns a body/list
+ * below its structural header and therefore must not receive a second inset.
+ */
+html[data-hub-surface="web"],
+html[data-hub-surface="web"] body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--muted) var(--surface-sunken);
+}
+
+html[data-hub-surface="web"]::-webkit-scrollbar,
+html[data-hub-surface="web"] body::-webkit-scrollbar,
+html[data-hub-surface="web"] .main-content::-webkit-scrollbar {
+  display: block;
+  width: 8px;
+  height: 8px;
+}
+
+html[data-hub-surface="web"]::-webkit-scrollbar-track,
+html[data-hub-surface="web"] body::-webkit-scrollbar-track,
+html[data-hub-surface="web"] .main-content::-webkit-scrollbar-track {
+  margin-block-start: var(--shell-column-header-height);
+  background: var(--surface-sunken);
+}
+
+html[data-hub-surface="web"]::-webkit-scrollbar-thumb,
+html[data-hub-surface="web"] body::-webkit-scrollbar-thumb,
+html[data-hub-surface="web"] .main-content::-webkit-scrollbar-thumb {
+  border: 2px solid var(--surface-sunken);
+  border-radius: 999px;
+  background: var(--muted);
+}
+
+/*
+ * Chromium overlay scrollbars ignore a track inset while the thumb is being
+ * dragged or revealed. Hide only the desktop middle-column indicator so it
+ * can never cover the title row; wheel, touchpad, keyboard and touch scrolling
+ * remain available. Right-rail lists retain their visible body scrollbar.
+ */
+@media (min-width: 760px) {
+  html[data-hub-surface="web"] .main-content {
+    scrollbar-width: none;
+  }
+
+  html[data-hub-surface="web"] .main-content::-webkit-scrollbar {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+}
+
+@media (max-width: 1199px) and (prefers-reduced-motion: reduce) {
+  html :is(.shell__right, .shell__rail-switcher) {
+    transition: none;
+  }
+}
+
+/*
+ * The native app uses route navigation instead of the web right-rail drawer.
+ * Keep this after the compact web contract so the web and app surfaces cannot
+ * accidentally overlap or capture taps intended for the persistent app tabs.
+ */
+@media (max-width: 1199px) {
+  html[data-hub-surface="app"] :is(
+    .shell__right,
+    .shell__right-resizer,
+    .shell__right-resize-handle,
+    .shell__rail-toggle--right,
+    .shell__rail-switcher,
+    .shell__right-drawer-backdrop
+  ) {
+    display: none !important;
+    pointer-events: none !important;
+  }
+
+  html[data-hub-surface="app"] .shell__mobile-bottom-nav {
+    z-index: 1000 !important;
+    pointer-events: auto !important;
+  }
+}
+
+/*
+ * Installed-app header contract.
+ * The global Hub control and the current page title share one compact row.
+ * Web retains the three-column title geometry above.
+ */
+@media (max-width: 1199px) {
+  html[data-hub-surface="app"] {
+    --shell-column-header-height: 56px;
+    --column-title-height: var(--shell-column-header-height);
+    --column-title-font-size: 1rem;
+  }
+
+  html[data-hub-surface="app"] .main-content::before {
+    display: none !important;
+    height: 0 !important;
+  }
+
+  html[data-hub-surface="app"] .shell-page-header {
+    box-sizing: border-box;
+    width: 100%;
+    height: var(--shell-column-header-height) !important;
+    min-height: var(--shell-column-header-height) !important;
+    max-height: var(--shell-column-header-height) !important;
+    justify-content: center;
+    padding-inline: 112px !important;
+  }
+
+  html[data-hub-surface="app"] .shell-page-header__title {
+    justify-items: center;
+    text-align: center;
+  }
+
+  html[data-hub-surface="app"] .shell-page-search {
+    display: none !important;
+  }
+
+  html[data-hub-surface="app"] .shell-page-search-link {
+    position: absolute;
+    right: 12px;
+    display: grid;
+    margin-left: 0;
+  }
+
+  html[data-hub-surface="app"] .shell:not(.shell--immersive) .shell__rail-toggle--left {
+    top: var(--hub-app-shell-top) !important;
+    left: 0 !important;
+    width: 104px !important;
+    min-width: 104px !important;
+    height: var(--shell-column-header-height) !important;
+    padding-inline: 12px !important;
+    border: 0 !important;
+    background: transparent !important;
+    font-size: 18px !important;
+  }
+}
+
+/*
+ * Compact notebook contract.
+ * A narrow viewport with a precise pointer is still a desktop workspace:
+ * retain a persistent collapsible rail instead of covering the content with
+ * the phone drawer. Coarse-pointer devices continue to use the mobile drawer.
+ */
+@media (max-width: 1023px) and (hover: hover) and (pointer: fine) {
+  html .shell:not(.shell--with-rail, .shell--immersive) {
+    display: grid !important;
+    grid-template-columns: var(--left-width, 58px) minmax(0, 1fr) !important;
+    padding-bottom: 0 !important;
+  }
+
+  html[data-hub-surface="web"] .shell--with-rail:not(.shell--immersive) {
+    display: grid !important;
+    grid-template-columns: var(--left-width, 58px) minmax(0, 1fr) 58px !important;
+    padding-bottom: 0 !important;
+  }
+
+  html .shell:not(.shell--immersive) .shell__left {
+    position: sticky !important;
+    inset: 0 auto auto 0 !important;
+    z-index: 100 !important;
+    width: var(--left-width, 58px) !important;
+    min-width: 0 !important;
+    height: 100dvh !important;
+    transform: none !important;
+    pointer-events: auto !important;
+  }
+
+  html .shell:not(.shell--immersive) :where(.sidebar, .sidebar--collapsed) {
+    width: 100% !important;
+    min-width: 0 !important;
+    height: 100dvh !important;
+    min-height: 100dvh !important;
+    max-height: 100dvh !important;
+    padding: var(--shell-column-header-height) 8px 12px !important;
+    border-top: 0 !important;
+    border-right: var(--divider) !important;
+    box-shadow: none !important;
+  }
+
+  html .shell:not(.shell--immersive) .sidebar__nav {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    gap: 2px !important;
+    width: 100% !important;
+    height: auto !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+  }
+
+  html .shell:not(.shell--immersive) .sidebar__link {
+    width: 100% !important;
+    min-width: 0 !important;
+    min-height: 44px !important;
+    padding-inline: 10px !important;
+  }
+
+  html .shell--left-collapsed:not(.shell--immersive) .sidebar__link {
+    justify-content: center !important;
+    padding-inline: 0 !important;
+  }
+
+  html .shell:not(.shell--immersive) .shell__rail-toggle--left {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    z-index: 120 !important;
+    display: grid !important;
+    place-items: center !important;
+    width: var(--left-width, 58px) !important;
+    min-width: 0 !important;
+    height: var(--shell-column-header-height) !important;
+    padding: 0 !important;
+    border: 0 !important;
+    border-right: var(--divider) !important;
+    border-bottom: var(--divider) !important;
+    border-radius: 0 !important;
+    background: var(--panel) !important;
+    color: var(--text) !important;
+    box-shadow: none !important;
+  }
+
+  html .shell:not(.shell--immersive) .shell__mobile-hub-label {
+    display: none !important;
+  }
+
+  html .shell:not(.shell--immersive) .shell__desktop-rail-label {
+    display: grid !important;
+    place-items: center !important;
+  }
+
+  html .shell__mobile-drawer-backdrop {
+    display: none !important;
+    pointer-events: none !important;
+  }
+
+  html .main-content {
+    grid-column: 2 !important;
+    width: 100% !important;
+    max-width: none !important;
+    border-inline: 0 !important;
+  }
+}
+
+/*
+ * The market command becomes a two-row control surface on narrow screens.
+ * It intentionally leaves the single-row title contract so search and
+ * transaction actions never overlap or clip.
+ */
+
+@media (max-width: 1023px) {
+  html .shell__page-left-toggle {
+    position: fixed;
+    top: var(--shell-icon-control-inset);
+    left: 112px;
+    z-index: 74;
+    display: grid;
+    width: var(--shell-icon-control-size);
+    min-width: var(--shell-icon-control-size);
+    height: var(--shell-icon-control-size);
+    padding: 0;
+    place-items: center;
+    border: var(--divider);
+    border-radius: var(--shell-icon-control-radius);
+    background: var(--panel);
+    color: var(--text);
+    box-shadow: none;
+    cursor: pointer;
+    pointer-events: auto;
+    touch-action: manipulation;
+  }
+
+  html .shell__page-left-toggle:hover {
+    background: var(--interactive-hover);
+  }
+
+  html .shell__page-left-toggle:focus-visible {
+    outline: 3px solid var(--focus-ring);
+    outline-offset: 2px;
+  }
+
+  html .shell--page-left-open .shell__page-left-toggle {
+    left: min(calc(86vw - 52px), 308px);
+  }
+
+  html .shell__page-left-toggle svg {
+    width: var(--shell-icon-glyph-size);
+    height: var(--shell-icon-glyph-size);
+  }
+}
+/*
+ * The compact bottom bar is rendered on every surface and revealed only where
+ * a surface asks for it. Without this base rule it would fall back to a
+ * block-level nav on the wide web layout, which already has the left column.
+ */
+.shell__mobile-bottom-nav {
+  display: none;
+}
+@media (max-width: 759px) {
+  html[data-hub-surface="web"] .shell:not(.shell--immersive),
+  html[data-hub-surface="web"] .shell--with-rail:not(.shell--immersive) {
+    grid-template-columns: minmax(0, 1fr) !important;
+    padding-bottom: calc(64px + env(safe-area-inset-bottom)) !important;
+  }
+
+  html[data-hub-surface="web"] :is(
+    .shell__left,
+    .shell__left-resizer,
+    .shell__left-resize-handle,
+    .shell__right,
+    .shell__right-resizer,
+    .shell__right-resize-handle,
+    .shell__rail-switcher,
+    .shell__rail-toggle--left,
+    .shell__rail-toggle--right,
+    .shell__right-drawer-backdrop
+  ) {
+    display: none !important;
+  }
+
+  html[data-hub-surface="web"] .main-content {
+    grid-column: 1 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  html[data-hub-surface="web"] body :is(
+    .shell__rail-toggle--left,
+    .shell__rail-toggle--right
+  ) {
+    display: none !important;
+  }
+
+  html[data-hub-surface="web"] body .shell__rail-toggle.shell__rail-toggle--left,
+  html[data-hub-surface="web"] body .shell__rail-toggle.shell__rail-toggle--right {
+    display: none !important;
+  }
+
+  html[data-hub-surface="web"] .shell__mobile-bottom-nav {
+    position: fixed;
+    z-index: 100;
+    inset: auto 0 0;
+    display: grid !important;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    min-height: calc(60px + env(safe-area-inset-bottom));
+    padding: 4px 8px calc(4px + env(safe-area-inset-bottom));
+    border-top: var(--divider);
+    background: var(--panel);
+  }
+
+  html[data-hub-surface="web"] .shell__mobile-bottom-nav a {
+    display: flex;
+    min-width: 0;
+    min-height: 52px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2px;
+    border-radius: 10px;
+    color: var(--muted);
+    text-decoration: none;
+  }
+
+  html[data-hub-surface="web"] .shell__mobile-bottom-nav a[aria-current="page"] {
+    color: var(--link-color);
+    background: var(--emphasis-soft);
+  }
+
+  html[data-hub-surface="web"] .shell__mobile-bottom-nav svg {
+    width: 22px;
+    height: 22px;
+  }
+
+  html[data-hub-surface="web"] .shell__mobile-bottom-nav span {
+    overflow: hidden;
+    max-width: 100%;
+    font-size: 12px;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}

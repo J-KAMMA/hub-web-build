@@ -1,0 +1,78 @@
+.panel {
+  display: grid;
+  gap: 16px;
+  padding: 18px;
+  border: var(--divider);
+  border-radius: 16px;
+  background: var(--content-surface);
+}
+.heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+.heading h2,
+.heading p { margin: 0; }
+.heading p { margin-top: 5px; color: var(--muted); font-size: .8rem; }
+.status {
+  padding: 6px 10px;
+  border: var(--divider);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: .72rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.status[data-state="active"] { color: var(--positive-text); }
+.status[data-state="funding_required"] { color: var(--warning-text); }
+.balances {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  border: var(--divider);
+  border-radius: 12px;
+}
+.balances div { min-width: 0; padding: 12px; }
+.balances div + div { border-left: var(--divider); }
+.balances dt { color: var(--muted); font-size: .68rem; }
+.balances dd { margin: 5px 0 0; font-size: 1rem; font-weight: 750; }
+.policy {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+.policy label { display: grid; gap: 5px; color: var(--muted); font-size: .72rem; }
+.policy input[type="number"] {
+  min-height: 42px;
+  padding: 0 10px;
+  border: var(--divider);
+  border-radius: 10px;
+  background: var(--surface-raised);
+  color: var(--text);
+}
+.toggle {
+  display: flex !important;
+  grid-column: 1 / -1;
+  align-items: center;
+  gap: 9px !important;
+  color: var(--text) !important;
+}
+.actions { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.actions button,
+.actions a {
+  min-height: 42px;
+  padding: 0 14px;
+  border: var(--divider);
+  border-radius: 10px;
+  background: var(--action);
+  color: var(--action-text);
+  font-weight: 700;
+}
+.message { margin: 0; color: var(--muted); font-size: .75rem; }
+@media (max-width: 720px) {
+  .balances,
+  .policy { grid-template-columns: 1fr 1fr; }
+  .balances div + div { border-left: 0; border-top: var(--divider); }
+  .heading,
+  .actions { align-items: stretch; flex-direction: column; }
+}

@@ -1,0 +1,658 @@
+[
+  {
+    "slug": "earthquake",
+    "topicType": "concept",
+    "categoryLabel": "地球・環境",
+    "title": "地震",
+    "summary": "地震は、断層が急激にすべることで生じ、放出されたエネルギーが波として地殻を伝わって地面を揺らす現象である。規模を表すマグニチュードは地震そのものに固有の量であるのに対し、震度は地点ごとの揺れの大きさを表し、両者は測る対象が異なる。発生時刻・位置・マグニチュードは、地面の動きを増幅して記録する地震計のデータから決定される。",
+    "bodyMarkdown": "## 断層のすべりと揺れの伝わり方\n\n地震は、断層における突然のすべりによって引き起こされる。[プレート](/hubpedia/plate-tectonics)は常にゆっくりと動き続けているが、その縁は摩擦のために固着しており、すぐには動けない。縁にかかる応力が摩擦に打ち勝つと固着が外れて地震が起き、そのとき放出されたエネルギーが波として地殻を伝わり、地面の揺れを生じさせる。 [1][2][3]\n\nすべりが起きる深さは地殻の浅い部分に限られる。カリフォルニアで発生する地震の大半は、地殻の上部16km以内で起きている。 [28]\n\n## プレート境界の例：サンアンドレアス断層\n\nカリフォルニアには[太平洋プレート](/hubpedia/plate-tectonics)と北アメリカプレートという2つのプレートがあり、その主要な境界がサンアンドレアス断層である。この断層は長さ650マイル以上に及び、少なくとも深さ10マイルまで達している。太平洋プレートは北アメリカプレートに対し、年間およそ2インチの速度で北西へずれ動いている。 [4][5][6][7]\n\n同じ動きに対する断層の応じ方は一様ではない。サンアンドレアス断層系の一部は絶え間ない「クリープ」によってこの動きに順応しており、そこでは多数の微小な震動と少数の中程度の揺れが生じている。これに対しクリープが一定でない地域では、ひずみが数百年にわたって蓄積し、それが最終的に解放されるときに巨大地震を起こす。 [14][15]\n\n## 地震計による観測\n\n各地震計が記録するのは、その直下の地面の揺れである。地面の動きを大きく拡大する高感度の観測機器であれば、世界中のどこを震源とする強い地震も検知できる。現代の観測システムは、通常0.1秒から100秒の周期の地面の動きを、時間の関数として精密に増幅・記録する。 [11][16][26]\n\nこうして得られた記録から、地震の発生時刻・位置・マグニチュードが決定される。各観測点の計測データを用いて、震度の推定値を計算することもできる。 [8][40]\n\n## マグニチュードの尺度\n\n地震のマグニチュードという概念は、1935年にカリフォルニア工科大学の地震学者チャールズ・F・リヒターによって導入された。その基本的な着想は、地震計から地震までの距離と、地震計に記録された最大信号振幅とから、地震に固有の規模を経験的かつ定量的に順位づけできるというものだった。リヒターマグニチュードは、記録された波の振幅の対数から決定される。 [9][10][46]\n\n算出にあたっては、各地震計と震央との距離の違いに対する補正が加えられる。この補正があるため、マグニチュードはどこで測定したかに依存しない。値は整数と小数で表され、たとえばマグニチュード5.3は中程度の地震、6.3は強い地震にあたる。 [12][17][29]\n\nただしリヒターによる当初の定義は、特定の型の地震計から600km以内で発生したカリフォルニアの地震にのみ当てはまるものだった。その範囲を外れる地震については、モーメントマグニチュード（Mw）尺度のほうが規模をより正確に測る指標とされる。 [13][18]\n\n## モーメントマグニチュードと地震モーメント\n\nモーメントマグニチュードは、まず地震モーメントを計算し、それをマグニチュードの値に変換して求める。地震モーメント（MO）は、剛性×面積×すべり量で与えられる。変換式は Mw = 2/3 (log10(MO) - 9.1) であり、この尺度は、重なり合う範囲でリヒタースケールとほぼ等しい値になるよう設計されている。 [19][20][38]\n\n1つの地震に対して、わずかに異なる複数のマグニチュードが報告されることがある。これは地震観測値とマグニチュードの関係が複雑で、手法ごとに少しずつ異なる値が出るためである。とくに非常に大きな地震では、真の規模を過大評価するマグニチュードと過小評価するマグニチュードがある。地震は多くの周波数でエネルギーを放出するため、正確な値を計算するには事象全体のすべての揺れの周波数を含める必要がある。 [27][35][47]\n\n## 放出エネルギーの推定\n\n地震が放出するエネルギー量は、人工構造物への被害の可能性を示す指標である。その量はモーメントマグニチュードから log E = 5.24 + 1.44Mw の式で概算できる。ただしエネルギーマグニチュードとモーメントマグニチュードは地震の異なる性質を測るため、両者の値は一致しない。 [30][31][32]\n\nエネルギーの総量という点では、頻度は規模を埋め合わせない。世界中で頻繁に起きる小規模・中規模の地震が放出するエネルギーは、1回の巨大地震よりはるかに少ない。過去約110年間のすべての地震のエネルギー放出を合計すると、等価マグニチュードは約Mw9.95になる。 [34][49]\n\n## 震度と震度階級\n\n震度は各地点での揺れの尺度であり、1つの地震に対して1つの値が決まるのではなく、震央周辺の地理的範囲に多数の値が分布する。表記にはVIやXのようなローマ数字が用いられる。震度は伝統的に、体感した揺れや被害についての人々の観察と報告から導かれる主観的な尺度である。 [21][22][23]\n\n改正メルカリ震度階級やロッシ・フォレル震度階級のような震度階級は、特定の地点での揺れの大きさを測る。メルカリ震度階級は観察可能な地震被害に基づいており、I〜Vの段階は観察できる被害が少ない状態、すなわち扉ががたつき、食器が割れ、弱いまたは粗悪な漆喰にひびが入る程度を表す。数値が大きくなるにつれて被害の量は大幅に増加し、改正メルカリ震度階級（MMI）の最大値は震度X（10）である。 [24][25][37][42][51]\n\n震度のデータはかつて郵送のアンケートで集められていたが、インターネットの登場によりウェブ上の入力フォームで収集されるようになった。地震はときに、それが生じた最大震度によって言及されることがある。 [39][50]\n\nマグニチュード尺度が地震記録に基づくのに対し、メルカリ震度階級は主観的になりうる観察データに基づく。このためマグニチュード尺度のほうが、科学的により客観的で正確とみなされる。 [36]\n\n## 揺れの強さを左右する要因\n\n各地点の震度には、地震がどの方向に破壊したか、真下の地表地質の種類など、多くの要因が影響する。したがってマグニチュードの大小が、そのまま揺れの大小になるとは限らない。 [48]\n\nM6.7のノースリッジ地震の揺れは、わずかに規模の大きいM6.8のニスカリー地震よりも激しく、より広い範囲に及んだ。ノースリッジ地震で揺れが大きかったのは、震源が地表に近い3〜11マイルで発生したためであり、ニスカリー地震の震源は30〜36マイルとより深かった。 [33][41]\n\n## 想定される規模の上限\n\n地震モーメントが断層の面積とすべり量で決まる以上、起こりうる最大の規模は断層の大きさに制約される。サンアンドレアス断層が約1400kmにわたり端から端まで破壊し、平均約10mすべった場合、Mw8.47の地震になる。南アメリカの沈み込み帯が約6400kmにわたり端から端まで破壊し、平均約40mすべった場合はMw9.86となる。 [43][44]\n\nさらに大きな値には、現実には存在しない長さの断層が必要になる。Mw10の地震を起こすには、断層長約14,000km、地震発生層の平均厚さ40km（幅100km）で平均30mすべる必要がある。Mw10.5には断層長約80,000kmと平均地震発生幅100kmが要る。世界のすべての沈み込み帯と一部の隣接構造を合わせても約40,000kmであり、地球の円周も約40,000kmであるため、Mw10.5はきわめて起こりにくい。 [45][52][53]",
+    "sources": [
+      {
+        "url": "https://www.usgs.gov/faqs/what-earthquake-and-what-causes-them-happen",
+        "title": "What is an earthquake and what causes them to happen?",
+        "publisher": "U.S. Geological Survey",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits"
+          },
+          "notes": "USGS-authored content is in the public domain. Substantive body text on fault slip, plate motion, and creep confirmed in the browser on 2026-08-28."
+        }
+      },
+      {
+        "url": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+        "title": "Earthquake Magnitude, Energy Release, and Shaking Intensity",
+        "publisher": "U.S. Geological Survey",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits"
+          },
+          "notes": "Explanatory article on magnitude, energy release, seismometers, and intensity. Body text confirmed in the browser on 2026-08-28."
+        }
+      },
+      {
+        "url": "https://www.usgs.gov/faqs/what-difference-between-earthquake-magnitude-and-earthquake-intensity-what-modified-mercalli",
+        "title": "What is the difference between earthquake magnitude and earthquake intensity?",
+        "publisher": "U.S. Geological Survey",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits"
+          },
+          "notes": "Distinguishes magnitude from intensity and describes the Modified Mercalli scale. Body text confirmed in the browser on 2026-08-28."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Earthquake",
+        "summary": "An earthquake is a phenomenon caused by the sudden slip of a fault, in which the released energy travels through the crust as waves and shakes the ground. Magnitude, which expresses the size of the event, is a quantity intrinsic to the earthquake itself, whereas seismic intensity expresses the strength of shaking at each location; the two measure different things. The origin time, location, and magnitude are determined from the data of seismometers, which amplify and record ground motion.",
+        "bodyMarkdown": "## Fault slip and how shaking travels\n\nEarthquakes are caused by sudden slip on a fault. [Plates](/hubpedia/plate-tectonics) are always moving slowly, but their edges are locked by friction and cannot move right away. When the stress on the edge overcomes the friction, the lock is released and an earthquake occurs, and the energy released at that moment travels through the crust as waves, producing ground shaking. [1][2][3]\n\nThe depths at which slip occurs are limited to the shallow part of the crust. Most earthquakes that occur in California happen within the upper 16 km of the crust. [28]\n\n## An example of a plate boundary: the San Andreas Fault\n\nCalifornia has two plates, the [Pacific Plate](/hubpedia/plate-tectonics) and the North American Plate, and their principal boundary is the San Andreas Fault. The fault extends more than 650 miles in length and reaches to depths of at least 10 miles. The Pacific Plate is shifting northwest relative to the North American Plate at a rate of roughly 2 inches per year. [4][5][6][7]\n\nFaults do not respond uniformly to the same motion. Parts of the San Andreas Fault system accommodate this motion by constant \"creep,\" where many tiny tremors and a few moderate shocks occur. In areas where creep is not steady, by contrast, strain accumulates over hundreds of years, and when it is finally released it produces a great earthquake. [14][15]\n\n## Observation with seismometers\n\nWhat each seismometer records is the ground shaking directly beneath it. A highly sensitive instrument that greatly magnifies ground motion can detect a strong earthquake originating anywhere in the world. Modern observation systems precisely amplify and record ground motion, as a function of time, typically at periods from 0.1 second to 100 seconds. [11][16][26]\n\nFrom the records thus obtained, an earthquake's origin time, location, and magnitude are determined. Estimates of seismic intensity can also be calculated using the measurement data from each observation station. [8][40]\n\n## Magnitude scales\n\nThe concept of earthquake magnitude was introduced in 1935 by Charles F. Richter, a seismologist at the California Institute of Technology. The basic idea was that the size intrinsic to an earthquake could be ranked empirically and quantitatively from the distance between the seismometer and the earthquake and the maximum signal amplitude recorded on the seismometer. Richter magnitude is determined from the logarithm of the amplitude of the recorded waves. [9][10][46]\n\nIn the calculation, a correction is applied for the differing distances between each seismometer and the epicenter. Because of this correction, magnitude does not depend on where it was measured. Values are expressed in whole numbers and decimals; for example, a magnitude 5.3 is a moderate earthquake and a 6.3 a strong one. [12][17][29]\n\nRichter's original definition, however, applied only to California earthquakes occurring within 600 km of a particular type of seismometer. For earthquakes outside that range, the moment magnitude (Mw) scale is regarded as a more accurate measure of size. [13][18]\n\n## Moment magnitude and seismic moment\n\nMoment magnitude is obtained by first calculating the seismic moment and then converting it into a magnitude value. Seismic moment (MO) is given by rigidity × area × amount of slip. The conversion formula is Mw = 2/3 (log10(MO) - 9.1), and this scale is designed to give values approximately equal to the Richter scale over the range where they overlap. [19][20][38]\n\nSeveral slightly different magnitudes are sometimes reported for a single earthquake. This is because the relationship between seismic observations and magnitude is complex, and each method yields a slightly different value. For very large earthquakes in particular, some magnitudes overestimate and others underestimate the true size. Because an earthquake releases energy at many frequencies, calculating an accurate value requires including all the shaking frequencies of the entire event. [27][35][47]\n\n## Estimating released energy\n\nThe amount of energy an earthquake releases is an indicator of the potential for damage to artificial structures. That amount can be approximated from moment magnitude with the formula log E = 5.24 + 1.44Mw. However, because energy magnitude and moment magnitude measure different properties of an earthquake, their values do not agree. [30][31][32]\n\nIn terms of total energy, frequency does not compensate for size. The small and moderate earthquakes that occur frequently around the world release far less energy than a single great earthquake. Summing the energy release of all earthquakes over roughly the past 110 years gives an equivalent magnitude of about Mw9.95. [34][49]\n\n## Seismic intensity and intensity scales\n\nSeismic intensity is a measure of shaking at each location; rather than a single value being determined for one earthquake, many values are distributed across the geographic area around the epicenter. Roman numerals such as VI or X are used in notation. Intensity is traditionally a subjective scale, derived from people's observations and reports of the shaking they felt and the damage they saw. [21][22][23]\n\nIntensity scales such as the Modified Mercalli intensity scale and the Rossi-Forel intensity scale measure the strength of shaking at a particular location. The Mercalli intensity scale is based on observable earthquake damage, with levels I through V representing conditions with little observable damage — doors rattling, dishes breaking, and cracks in weak or poor plaster. As the numbers rise the amount of damage increases greatly, and the maximum value of the Modified Mercalli Intensity (MMI) scale is intensity X (10). [24][25][37][42][51]\n\nIntensity data were once gathered through mailed questionnaires, but with the arrival of the internet they came to be collected through web entry forms. Earthquakes are sometimes referred to by the maximum intensity they produced. [39][50]\n\nWhereas magnitude scales are based on seismic records, the Mercalli intensity scale is based on observational data that can be subjective. For this reason magnitude scales are considered scientifically more objective and accurate. [36]\n\n## Factors that govern the strength of shaking\n\nThe intensity at each location is influenced by many factors, including the direction in which the earthquake ruptured and the type of surface geology directly beneath. A larger or smaller magnitude therefore does not necessarily translate into stronger or weaker shaking. [48]\n\nShaking from the M6.7 Northridge earthquake was more violent and covered a wider area than that from the slightly larger M6.8 Nisqually earthquake. The shaking in the Northridge earthquake was greater because its focus occurred close to the surface, at 3 to 11 miles, whereas the focus of the Nisqually earthquake was deeper, at 30 to 36 miles. [33][41]\n\n## The conceivable upper limit of size\n\nSince seismic moment is determined by the area of the fault and the amount of slip, the largest possible size is constrained by the size of the fault. If the San Andreas Fault ruptured end to end over about 1400 km with an average slip of about 10 m, it would be an Mw8.47 earthquake. If the South American subduction zone ruptured end to end over about 6400 km with an average slip of about 40 m, it would be Mw9.86. [43][44]\n\nLarger values would require faults of lengths that do not exist in reality. Producing an Mw10 earthquake would require a fault length of about 14,000 km, an average seismogenic layer thickness of 40 km (100 km wide), and an average slip of 30 m. An Mw10.5 would require a fault length of about 80,000 km and an average seismogenic width of 100 km. All of the world's subduction zones combined with some adjacent structures total only about 40,000 km, and the Earth's circumference is also about 40,000 km, so an Mw10.5 is exceedingly unlikely. [45][52][53]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-27T21:24:32.050Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "地震は断層における突然のすべりによって引き起こされる。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/faqs/what-earthquake-and-what-causes-them-happen",
+              "quote": "An earthquake is caused by a sudden slip on a fault."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "プレートは常にゆっくり動いているが、摩擦のため縁で固着している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/faqs/what-earthquake-and-what-causes-them-happen",
+              "quote": "The tectonic plates are always slowly moving, but they get stuck at their edges due to friction."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "縁にかかる応力が摩擦を超えると地震が起き、エネルギーが波として地殻を伝わり、揺れを生じさせる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/faqs/what-earthquake-and-what-causes-them-happen",
+              "quote": "When the stress on the edge overcomes the friction, there is an earthquake that releases energy in waves that travel through the earth's crust and cause the shaking that we feel."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "カリフォルニアには太平洋プレートと北アメリカプレートの2つのプレートがある。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/faqs/what-earthquake-and-what-causes-them-happen",
+              "quote": "In California there are two plates - the Pacific Plate and the North American Plate."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "太平洋プレートと北アメリカプレートの主要な境界はサンアンドレアス断層である。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/faqs/what-earthquake-and-what-causes-them-happen",
+              "quote": "The primary boundary between these two plates is the San Andreas Fault."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "サンアンドレアス断層は長さ650マイル以上あり、少なくとも深さ10マイルまで達している。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/faqs/what-earthquake-and-what-causes-them-happen",
+              "quote": "The San Andreas Fault is more than 650 miles long and extends to depths of at least 10 miles."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "太平洋プレートは北アメリカプレートに対して年間約2インチの速度で北西へずれ動いている。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/faqs/what-earthquake-and-what-causes-them-happen",
+              "quote": "The Pacific Plate grinds northwestward past the North American Plate at a rate of about two inches per year."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "地震の発生時刻・位置・マグニチュードは地震計が記録したデータから決定できる。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "The time, location, and magnitude of an earthquake can be determined from the data recorded by seismometer."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "地震のマグニチュードという概念は、1935年にカリフォルニア工科大学の地震学者チャールズ・F・リヒターによって導入された。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "it was only in 1935 that Charles F. Richter, a seismologist at the California Institute of Technology, introduced the concept of earthquake magnitude"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "地震のリヒターマグニチュードは、地震計に記録された波の振幅の対数から決定される。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "The Richter magnitude of an earthquake is determined from the logarithm of the amplitude of waves recorded by seismographs."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "各地震計は、その直下の地面の揺れを記録する。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "Each seismometer records the shaking of the ground directly beneath it."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "マグニチュードは、どこで測定したかに依存しない。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/faqs/what-difference-between-earthquake-magnitude-and-earthquake-intensity-what-modified-mercalli",
+              "quote": "The magnitude does not depend on where the measurement is made."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "それ以外のすべての地震では、モーメントマグニチュード（Mw）尺度のほうが地震の規模をより正確に測る指標である。",
+          "confidence": 0.91,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "For all other earthquakes, the moment magnitude (Mw) scale is a more accurate measure of the earthquake size."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "サンアンドレアス断層系の一部は絶え間ない「クリープ」でこの動きに順応し、多数の微小な震動と少数の中程度の揺れを生じている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/faqs/what-earthquake-and-what-causes-them-happen",
+              "quote": "Parts of the San Andreas Fault system adapt to this movement by constant \"creep\" resulting in many tiny shocks and a few moderate earth tremors."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "クリープが一定でない地域では、ひずみが数百年にわたって蓄積し、最終的に解放されるときに巨大地震を起こす。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/faqs/what-earthquake-and-what-causes-them-happen",
+              "quote": "In other areas where creep is NOT constant, strain can build up for hundreds of years, producing great earthquakes when it finally releases."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "地面の動きを大きく拡大する高感度の観測機器は、世界中のどこを震源とする強い地震も検知できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "Sensitive instruments, which greatly magnify these ground motions, can detect strong earthquakes from sources anywhere in the world."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "マグニチュードは整数と小数で表され、例えばマグニチュード5.3は中程度の地震、6.3は強い地震である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "Magnitude is expressed in whole numbers and decimal fractions. For example, a magnitude 5.3 is a moderate earthquake, and a 6.3 is a strong earthquake."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "リヒターによる当初の定義は、特定の型の地震計から600km以内で発生したカリフォルニアの地震にのみ当てはまるものだった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "His original definition held only for California earthquakes occurring within 600 km of a particular type of seismograph (the Woods-Anderson torsion instrument)."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "地震モーメント（MO）は、剛性×面積×すべり量で与えられる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "Moment (MO) = rigidity x area x slip"
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "モーメントマグニチュードは Mw = 2/3 (log10(MO) - 9.1) で計算される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "Moment Magnitude (MW) = 2/3 (log10(MO) - 9.1)"
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "地震の震度は各地点での揺れの尺度であり、震央周辺の地理的範囲に多数の値が分布する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "there are many intensity values for each earthquake that are distributed across the geographic area around the earthquake epicenter. The intensity is the measure of shaking at each location"
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "震度はVIやXのようにローマ数字で表される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "Intensities are expressed in Roman numerals, for example, VI, X, etc."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "震度は伝統的に、体感した揺れや被害についての人々の観察と報告から導かれる主観的な尺度である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "Traditionally the intensity is a subjective measure derived from human observations and reports of felt shaking and damage."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "改正メルカリ震度階級やロッシ・フォレル震度階級のような震度階級は、特定の地点での揺れの大きさを測る。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/faqs/what-difference-between-earthquake-magnitude-and-earthquake-intensity-what-modified-mercalli",
+              "quote": "Intensity scales, like the Modified Mercalli Scale and the Rossi-Forel scale, measure the amount of shaking at a particular location."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "メルカリ震度階級は観察可能な地震被害に基づいている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/faqs/what-difference-between-earthquake-magnitude-and-earthquake-intensity-what-modified-mercalli",
+              "quote": "The Mercalli Scale is based on observable earthquake damage."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "現代の観測システムは、通常0.1秒から100秒の周期で地面の動きを時間の関数として精密に増幅・記録する。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "Modern systems precisely amplify and record ground motion (typically at periods of between 0.1 and 100 seconds) as a function of time."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "非常に大きな地震では、真の地震規模を過大評価するマグニチュードと過小評価するマグニチュードがある。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "But for very large earthquakes, some magnitudes overestimate true earthquake size, and some underestimate the size."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "カリフォルニアの地震の大半は地殻の上部16km以内で発生する。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "Most California earthquakes occur within the top 16 km of the crust"
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "リヒターマグニチュードの算出では、各地震計と震央との距離の違いに対する補正が加えられる。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "Adjustments are included for the variation in the distance between the various seismographs and the epicenter of the earthquakes."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "地震が放出するエネルギー量は、人工構造物への被害の可能性を示す指標である。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "The amount of energy radiated by an earthquake is a measure of the potential for damage to man-made structures."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "エネルギーマグニチュードとモーメントマグニチュードは地震の異なる性質を測るため、両者の値は一致しない。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "since the Energy Magnitude and Moment Magnitude measure two different properties of the earthquake, their values are not the same"
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "エネルギー放出量は log E = 5.24 + 1.44Mw の式でモーメントマグニチュードから概算できる。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "converting the moment magnitude, Mw, to energy using the equation log E = 5.24 + 1.44Mw, where Mw is the moment magnitude"
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "M6.7のノースリッジ地震の揺れは、わずかに規模の大きいM6.8のニスカリー地震よりも激しく、より広い範囲に及んだ。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "The shaking from the M6.7 Northridge, CA earthquake was more intense and covered a wider area than the slightly larger M6.8 Nisqually, WA earthquake."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "世界中で頻繁に起きる小規模・中規模の地震が放出するエネルギーは、1回の巨大地震よりはるかに少ない。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "The small- and moderate-size earthquakes that occur frequently around the world release far less energy that a single great earthquake."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "1つの地震に対してわずかに異なる複数のマグニチュードが報告されることがあり、これは地震観測値とマグニチュードの関係が複雑で、手法ごとに少しずつ異なる値が出るためである。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/faqs/what-difference-between-earthquake-magnitude-and-earthquake-intensity-what-modified-mercalli",
+              "quote": "This happens because the relation between the seismic measurements and the magnitude is complex and different procedures will often give slightly different magnitudes for the same earthquake."
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "マグニチュード尺度は地震記録に基づくのに対し、メルカリ震度階級は主観的になりうる観察データに基づくため、マグニチュード尺度のほうが科学的により客観的で正確とみなされる。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/faqs/what-difference-between-earthquake-magnitude-and-earthquake-intensity-what-modified-mercalli",
+              "quote": "the magnitude scale is based on seismic records while the Mercalli is based on observable data which can be subjective. Thus, the magnitude scale is considered scientifically more objective and therefore more accurate"
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "改正メルカリ震度階級（MMI）の最大値は震度X（10）である。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/faqs/what-difference-between-earthquake-magnitude-and-earthquake-intensity-what-modified-mercalli",
+              "quote": "Intensity X (10) is the highest value on the MMI."
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "モーメントマグニチュードは、まず地震モーメントを計算し、それを重なり合う範囲でリヒタースケールとほぼ等しくなるよう設計されたマグニチュードに変換して求める。",
+          "confidence": 0.87,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "First the seismic moment is computed, and then it is converted to a magnitude designed to be roughly equal to the Richter Scale in the magnitude range where they overlap."
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "震度のデータはかつて郵送のアンケートで集められていたが、インターネットの登場によりウェブ上の入力フォームで収集されるようになった。",
+          "confidence": 0.87,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "The data used to be gathered from postal questionnaires, but with the advent of the internet, it's now collected using a web-based form."
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "各観測点の計測データを用いて震度の推定値を計算することもできる。",
+          "confidence": 0.87,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "instrumental data at each station location can be used to calculate an estimated intensity"
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "ノースリッジ地震で揺れが大きかったのは、震源が地表に近い3〜11マイルで発生したためであり、ニスカリー地震の震源はより深い30〜36マイルだった。",
+          "confidence": 0.87,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "There was more shaking in the Northridge earthquake because the earthquake occurred closer to the surface (3-11 miles), as opposed to the Nisqually earthquake's deeper hypocenter (30-36 miles)."
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "メルカリ震度階級では数値が大きくなるにつれて被害の量が大幅に増加する。",
+          "confidence": 0.87,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/faqs/what-difference-between-earthquake-magnitude-and-earthquake-intensity-what-modified-mercalli",
+              "quote": "As the level rises toward the larger numbers, the amount of damage increases considerably."
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "サンアンドレアス断層が約1400kmにわたり端から端まで破壊し、平均約10mすべった場合、Mw8.47の地震になる。",
+          "confidence": 0.86,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "If the San Andreas Fault were to rupture end-to-end (~1400km), with ~10m of average slip, it would produce an earthquake of Mw 8.47."
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "南アメリカの沈み込み帯が約6400kmにわたり端から端まで破壊し、平均約40mすべった場合、Mw9.86の地震になる。",
+          "confidence": 0.86,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "If the South American subduction zone were to rupture end-to-end (~6400km), with ~40m of average slip, it would produce an earthquake of Mw 9.86."
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "statement": "世界のすべての沈み込み帯と一部の隣接構造を合わせても約40,000kmであり、地球の円周も約40,000kmであるため、Mw10.5はきわめて起こりにくい。",
+          "confidence": 0.86,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "All of the subduction zones in the World, plus some adjoining structures amount to ~40,000km, and the circumference of the Earth is ~40,000km, so an Mw 10.5 is highly unlikely."
+            }
+          ]
+        },
+        {
+          "index": 46,
+          "statement": "リヒターの基本的な着想は、地震計から地震までの距離と地震計に記録された最大信号振幅から、地震固有の規模を経験的・定量的に順位づけできるというものだった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "by knowing the distance from a seismograph to an earthquake and observing the maximum signal amplitude recorded on the seismograph, an empirical quantitative ranking of the earthquake's inherent size or strength could be made"
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "statement": "地震は多くの周波数でエネルギーを放出するため、正確な値を計算するには事象全体のすべての揺れの周波数を含める必要がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "An earthquake releases energy at many frequencies, and in order to compute an accurate value, you have to include all frequencies of shaking for the entire event."
+            }
+          ]
+        },
+        {
+          "index": 48,
+          "statement": "各地点の震度には、地震がどの方向に破壊したか、真下の地表地質の種類など、他の多くの要因も影響する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "such as what direction the earthquake ruptured, and what type of surface geology is directly beneath you"
+            }
+          ]
+        },
+        {
+          "index": 49,
+          "statement": "過去約110年間のすべての地震のエネルギー放出を合計すると、等価マグニチュードは約Mw9.95になる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "If we sum all of the energy release from all of the earthquakes over the past ~110 years, the equivalent magnitude ~ Mw9.95."
+            }
+          ]
+        },
+        {
+          "index": 50,
+          "statement": "地震はときに、それが生じた最大震度によって言及されることがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/faqs/what-difference-between-earthquake-magnitude-and-earthquake-intensity-what-modified-mercalli",
+              "quote": "Sometimes earthquakes are referred to by the maximum intensity they produce."
+            }
+          ]
+        },
+        {
+          "index": 51,
+          "statement": "メルカリ震度階級のI〜Vの段階は、観察できる被害が少ない状態を表し、扉ががたつき、食器が割れ、弱いまたは粗悪な漆喰にひびが入る程度である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/faqs/what-difference-between-earthquake-magnitude-and-earthquake-intensity-what-modified-mercalli",
+              "quote": "a level I-V on the Mercalli scale would represent a small amount of observable damage. At this level doors would rattle, dishes break and weak or poor plaster would crack"
+            }
+          ]
+        },
+        {
+          "index": 52,
+          "statement": "Mw10の地震を起こすには、断層長約14,000km、地震発生層の平均厚さ40km（幅100km）で平均30mすべる必要がある。",
+          "confidence": 0.84,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "You would need ~14,000km fault length, with a seismogenic thickness averaging 40km (width of 100km), to slip and average of 30m to produce an Mw 10."
+            }
+          ]
+        },
+        {
+          "index": 53,
+          "statement": "Mw10.5を起こすには断層長約80,000kmと平均地震発生幅100kmが必要になる。",
+          "confidence": 0.84,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/programs/earthquake-hazards/earthquake-magnitude-energy-release-and-shaking-intensity",
+              "quote": "You would need ~80,000km of fault length with an average seismogenic width of 100km to produce an Mw10.5."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

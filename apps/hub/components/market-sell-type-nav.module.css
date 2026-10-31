@@ -1,0 +1,155 @@
+/*
+ * 出品の種類の選択。v2 の列にそのまま置く（白い台紙で囲まない）。
+ * 見出しは列の見出し（20px）、カードの文字は 16/13px。
+ */
+.section {
+  display: grid;
+  gap: var(--v2-space-3, 12px);
+  padding: 0;
+  background: transparent;
+  color: var(--text);
+}
+
+.section h1,
+.section h2 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: normal;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 4px;
+  padding: 4px;
+  border-radius: var(--v2-radius, 12px);
+  background: var(--surface-sunken);
+}
+
+.nav a {
+  display: grid;
+  min-width: 0;
+  min-height: 40px;
+  padding: 8px 12px;
+  place-items: center;
+  border-radius: 9px;
+  color: var(--muted);
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  color: var(--text);
+  background: var(--interactive);
+}
+
+.nav a:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.nav a.active {
+  color: var(--text);
+  background: var(--surface-raised);
+  box-shadow: var(--shadow);
+}
+
+.section[data-detailed] {
+  gap: var(--v2-space-4, 16px);
+}
+
+.section[data-detailed] .nav {
+  grid-template-columns: repeat(auto-fill, minmax(min(260px, 100%), 1fr));
+  gap: var(--v2-space-3, 12px);
+  padding: 0;
+  background: transparent;
+}
+
+.section[data-detailed] .area {
+  display: grid;
+  align-content: start;
+  gap: 4px;
+  min-height: 0;
+  padding: var(--v2-space-4, 16px);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius, 12px);
+  background: var(--surface-raised);
+  box-shadow: none;
+  text-align: left;
+}
+
+.section[data-detailed] .area:hover {
+  border-color: var(--line-strong);
+}
+
+.section[data-detailed] .area > .areaIcon {
+  display: inline-grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  margin-bottom: var(--v2-space-2, 8px);
+  border-radius: 50%;
+  background: var(--interactive);
+  color: var(--text);
+}
+
+.areaIcon :global(.v2-icon) {
+  width: 20px;
+  height: 20px;
+}
+
+.section[data-detailed] .area > strong {
+  color: var(--text);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.section[data-detailed] .area > span {
+  color: var(--muted);
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+.section[data-detailed] .area nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: var(--v2-space-2, 8px);
+}
+
+.section[data-detailed] .area nav a {
+  display: inline-flex;
+  min-height: 32px;
+  align-items: center;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: var(--surface-raised);
+  box-shadow: none;
+  color: var(--text);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.section[data-detailed] .area nav a:hover {
+  border-color: var(--line-strong);
+  background: var(--interactive-hover);
+}
+
+@media (max-width: 560px) {
+  .nav a {
+    min-height: 40px;
+    padding-inline: 6px;
+    font-size: 0.8125rem;
+  }
+}
+
+.section:not([data-detailed]) .nav {
+  width: fit-content;
+  max-width: 100%;
+  grid-template-columns: repeat(3, minmax(112px, auto));
+}

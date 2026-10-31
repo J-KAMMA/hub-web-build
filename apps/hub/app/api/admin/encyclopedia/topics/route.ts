@@ -1,0 +1,3 @@
+import { NextResponse } from "next/server"; import { apiError, requireAdmin } from "@/lib/encyclopedia/admin"; import { createTopic, listTopics } from "@/lib/encyclopedia/repository"; import { createTopicSchema } from "@/lib/encyclopedia/validation";
+export async function GET(request: Request) { const denied = requireAdmin(request); if (denied) return denied; try { return NextResponse.json({ topics: await listTopics() }); } catch (e) { return apiError(e); } }
+export async function POST(request: Request) { const denied = requireAdmin(request); if (denied) return denied; try { return NextResponse.json({ topic: await createTopic(createTopicSchema.parse(await request.json())) }, { status: 201 }); } catch (e) { return apiError(e); } }

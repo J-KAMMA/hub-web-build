@@ -1,0 +1,406 @@
+/*
+ * Hub translation of the jkamma.com product language.
+ *
+ * This layer changes presentation only. Product state, safety colors and
+ * layout ownership remain with their feature styles and semantic tokens.
+ */
+html {
+  --jkamma-card-radius: 24px;
+  --jkamma-compact-radius: 16px;
+  --jkamma-control-radius: 12px;
+  --jkamma-content-gap: clamp(14px, 2vw, 22px);
+  --jkamma-reading-size: 1rem;
+  --jkamma-reading-leading: 1.72;
+  --jkamma-meta-size: .8125rem;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-ui);
+  font-weight: 400;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/*
+ * Reading hierarchy
+ *
+ * Feed-density styles intentionally compress geometry. This final brand layer
+ * restores a readable text measure without making controls or the narrow rail
+ * feel oversized.
+ */
+:where(
+  .main-content .tweet__text,
+  .main-content .thread-post-card__text,
+  .main-content .community-post-card__text,
+  .main-content .bbs-post__body,
+  .main-content .profile-post-simple__text,
+  .main-content .notification-row__content p,
+  .main-content .search-items p
+) {
+  color: var(--text) !important;
+  font-size: var(--jkamma-reading-size) !important;
+  font-weight: 400;
+  line-height: var(--jkamma-reading-leading) !important;
+  letter-spacing: 0;
+}
+
+:where(
+  .main-content .tweet__name,
+  .main-content .thread-post-card__name,
+  .main-content .community-post-card__name,
+  .main-content .bbs-post__name
+) {
+  color: var(--text) !important;
+  font-size: .9375rem !important;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+:where(
+  .main-content .tweet__handle,
+  .main-content .tweet__time,
+  .main-content .tweet__permalink,
+  .main-content .thread-post-card__handle,
+  .main-content .bbs-post__date,
+  .main-content small,
+  .main-content .muted-copy
+) {
+  color: var(--muted) !important;
+  font-size: var(--jkamma-meta-size) !important;
+  line-height: 1.45;
+}
+
+.sidebar__label {
+  font-size: .9375rem !important;
+  font-weight: 550;
+  line-height: 1.35;
+}
+
+.home-feed > .home-feed__tabs .tl-tab,
+.tl-tabs .tl-tab,
+.search-tabs button,
+.profile-tabs button {
+  font-size: .875rem;
+  font-weight: 550;
+  line-height: 1.4;
+}
+
+:where(.main-content) :where(input, textarea, select) {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+:where(.main-content) :where(p, li) {
+  text-wrap: pretty;
+}
+
+.shell__right-body :where(.tweet__text, .rail-result p) {
+  font-size: .875rem !important;
+  line-height: 1.62 !important;
+}
+
+.shell__right-body :where(.tweet__name, .rail-result__meta strong) {
+  font-size: .875rem !important;
+}
+
+.shell__right-body :where(.tweet__handle, .tweet__time, .rail-result small) {
+  font-size: .75rem !important;
+}
+
+.shell,
+.main-content {
+  background: var(--bg);
+}
+
+.sidebar,
+.shell__right {
+  border-color: var(--line);
+  background: var(--bg) !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+}
+
+.sidebar__wordmark,
+.sidebar__logo-text {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: -.025em;
+}
+
+.sidebar__link {
+  border-color: transparent;
+  border-radius: var(--jkamma-control-radius);
+  background: transparent;
+  box-shadow: none;
+}
+
+.sidebar__link:hover,
+.sidebar__link--active {
+  border-color: transparent;
+  background: var(--interactive) !important;
+  box-shadow: none !important;
+}
+
+.sidebar__nav-icon,
+.sidebar__link--active .sidebar__nav-icon {
+  background: transparent !important;
+}
+
+.sidebar__compose {
+  border-color: var(--action);
+  border-radius: var(--jkamma-control-radius);
+  box-shadow: none !important;
+}
+
+.home-feed,
+.search-page,
+.settings,
+.profile-page-simple,
+.service-directory {
+  width: min(100%, 1180px);
+  margin-inline: auto;
+}
+
+.home-feed {
+  --home-feed-gutter: clamp(12px, 2.2vw, 30px);
+  padding: 0 var(--home-feed-gutter) clamp(48px, 8vw, 96px);
+}
+
+html[data-theme] .main-content .home-feed > .home-feed__tabs,
+.tl-tabs,
+.search-tabs,
+.profile-tabs {
+  margin-inline: 0;
+  padding: 0;
+  border: 0;
+  border-bottom: var(--divider);
+  border-radius: 0 !important;
+  background: var(--bg) !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+}
+
+.home-feed > .home-feed__tabs .tl-tab,
+.tl-tabs .tl-tab,
+.search-tabs button,
+.profile-tabs button {
+  border-radius: 0;
+}
+
+.home-compose {
+  margin-block: var(--jkamma-content-gap) !important;
+  padding: clamp(18px, 3vw, 30px) !important;
+  border: 0 !important;
+  border-radius: var(--jkamma-card-radius) !important;
+  background: var(--surface-sunken) !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+}
+
+.home-compose:focus-within {
+  box-shadow: none !important; border-color: var(--focus-ring) !important;
+}
+
+.main-content .home-feed__stream {
+  gap: var(--jkamma-content-gap);
+  border: 0;
+  background: transparent;
+}
+
+html[data-theme] .main-content .home-feed__stream > .tweet,
+html[data-theme] .main-content > .tweet,
+html[data-theme] .main-content .saved-social-post.tweet,
+.main-content .thread-post-card,
+.main-content .community-post-card {
+  overflow: clip;
+  border: var(--divider) !important;
+  border-radius: var(--jkamma-card-radius) !important;
+  background: var(--surface-raised) !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+  transition: background-color var(--motion-fast) var(--motion-move);
+}
+
+html[data-theme] .main-content .home-feed__stream > .tweet:hover,
+html[data-theme] .main-content > .tweet:hover,
+html[data-theme] .main-content .saved-social-post.tweet:hover,
+.main-content .thread-post-card:hover,
+.main-content .community-post-card:hover {
+  transform: none;
+  background: var(--interactive-hover) !important;
+  box-shadow: none !important;
+}
+
+.main-content .tweet__header .tweet__context-tool--prominent {
+  min-height: 34px;
+  padding-inline: 9px;
+  border: var(--divider);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--muted);
+  font-size: .75rem;
+  font-weight: 700;
+}
+
+.main-content .tweet__header .tweet__context-tool--ai {
+  border: var(--divider);
+  background: transparent;
+  color: var(--muted);
+}
+
+.main-content .tweet__header .tweet__context-tool--prominent:hover {
+  border-color: var(--line-strong);
+  background: var(--interactive-hover);
+  color: var(--text);
+}
+
+@media (pointer: coarse) {
+  .main-content .tweet__header .tweet__context-tool--prominent {
+    min-width: 44px;
+    min-height: 44px;
+  }
+}
+
+.main-content .tweet__quote,
+.main-content .thread-post-card__reply-context,
+.external-link-card,
+.referenced-card {
+  border-color: var(--line);
+  border-radius: var(--jkamma-compact-radius);
+  background: var(--content-nested);
+  box-shadow: none;
+}
+
+.main-content .post-image-grid,
+.main-content .external-media-preview {
+  border-color: var(--line);
+  border-radius: var(--jkamma-compact-radius);
+}
+
+:where(
+  .feature-panel,
+  .hub-account__section,
+  .settings-card,
+  .settings-summary,
+  .collection-card,
+  .person-card,
+  .list-grid__item,
+  .balance-grid article,
+  .profile-card-simple,
+  .token-lookup,
+  .bbs-board-group,
+  .bbs-thread-card,
+  .hubpedia__recent-list,
+  .hubpedia__articles article,
+  .future-surface__grid article,
+  .notification-list,
+  .conversation-list,
+  .conversation-panel,
+  .video-card,
+  .music-library,
+  .music-service-panel,
+  .market-product-card
+) {
+  border-color: transparent !important;
+  border-radius: var(--jkamma-card-radius);
+  background: var(--surface-sunken) !important;
+  box-shadow: none !important;
+}
+
+:where(
+  .feature-panel,
+  .collection-card,
+  .person-card,
+  .bbs-thread-card,
+  .hubpedia__articles article,
+  .future-surface__grid article,
+  .video-card,
+  .market-product-card
+):hover {
+  border-color: transparent !important;
+  background: var(--interactive-hover) !important;
+  box-shadow: none !important;
+}
+
+.rail-search {
+  border-color: var(--line);
+  border-radius: var(--jkamma-control-radius);
+  background: var(--surface-raised);
+  box-shadow: none;
+  backdrop-filter: none;
+}
+
+.timeline-rail,
+.music-right-rail,
+.notifications-right-rail,
+.catalog-right-rail,
+.timeline-rail__header,
+.right-rail-header {
+  background: var(--bg);
+}
+
+.timeline-rail__list > .tweet,
+.rail-result,
+.catalog-right-rail__card {
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+:where(.feature-header, .page-header, .settings-page-header) :where(h1, h2) {
+  font-weight: 600;
+  letter-spacing: -.04em;
+}
+
+:where(.main-content) :where(button, [role="button"], input, textarea, select) {
+  border-radius: var(--jkamma-control-radius);
+}
+
+:where(.main-content) :where(dialog, [role="dialog"], .tweet__more-menu, .tweet__repost-menu) {
+  border-color: var(--line);
+  border-radius: var(--jkamma-compact-radius);
+  background: var(--surface-raised);
+  box-shadow: none !important;
+}
+
+@media (max-width: 760px) {
+  html {
+    --jkamma-card-radius: 18px;
+    --jkamma-compact-radius: 14px;
+    --jkamma-reading-size: 1rem;
+    --jkamma-reading-leading: 1.65;
+    --jkamma-meta-size: .8125rem;
+  }
+
+  .home-feed {
+    padding-inline: 0;
+  }
+
+  .home-feed > .home-feed__tabs,
+  .tl-tabs,
+  .search-tabs,
+  .profile-tabs {
+    margin-inline: 0;
+  }
+
+  .home-compose {
+    margin-inline: 12px !important;
+  }
+
+  html[data-theme] .main-content .home-feed__stream > .tweet,
+  html[data-theme] .main-content > .tweet,
+  html[data-theme] .main-content .saved-social-post.tweet {
+    border-radius: 0 !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html[data-theme] .main-content .home-feed__stream > .tweet,
+  html[data-theme] .main-content > .tweet,
+  html[data-theme] .main-content .saved-social-post.tweet {
+    transition: none;
+  }
+}

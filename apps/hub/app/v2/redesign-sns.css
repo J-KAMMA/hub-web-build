@@ -1,0 +1,134 @@
+/* v2 SNS pages tidy (2026-10-11). Semantic color tokens only (app/color-system.css). */
+
+/* 絞り込み: 二次的な絞り込み・長い一覧は、この1つの開閉の中に置く。既定は閉じる。 */
+.v2 .v2__main details.v2-filter-disclosure {
+  margin: 0 0 var(--v2-space-3);
+}
+
+.v2 .v2__main details.v2-filter-disclosure > summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 32px;
+  padding: 6px 14px;
+  border-radius: var(--v2-radius-pill);
+  color: var(--muted);
+  font-size: var(--v2-text-sm);
+  font-weight: 600;
+  list-style: none;
+  cursor: pointer;
+}
+
+.v2 .v2__main details.v2-filter-disclosure > summary::-webkit-details-marker { display: none; }
+.v2 .v2__main details.v2-filter-disclosure > summary:hover,
+.v2 .v2__main details.v2-filter-disclosure[open] > summary {
+  background: var(--interactive);
+  color: var(--text);
+}
+.v2 .v2__main details.v2-filter-disclosure > summary:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.v2 .v2__main details.v2-filter-disclosure > .v2-filter-disclosure__body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--v2-space-3);
+  max-height: min(60dvh, 28rem);
+  margin-top: var(--v2-space-2);
+  padding: var(--v2-space-3) 0;
+  border-bottom: 1px solid var(--line);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.v2 .v2__main .v2-filter-disclosure__body :is(.v2-nav__list, .v2-tabs) {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--v2-space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.v2 .v2__main .v2-filter-disclosure__body .v2-nav__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 32px;
+  padding: 6px 14px;
+  border-radius: var(--v2-radius-pill);
+  color: var(--muted);
+  font-size: var(--v2-text-sm);
+}
+.v2 .v2__main .v2-filter-disclosure__body .v2-nav__item:hover { background: var(--interactive); color: var(--text); }
+.v2 .v2__main .v2-filter-disclosure__body .v2-nav__item[aria-current]:not([aria-current="false"]) {
+  background: var(--selected);
+  color: var(--text);
+  font-weight: 700;
+}
+.v2 .v2__main .v2-filter-disclosure__body .v2-column__title {
+  margin: 0;
+  color: var(--muted);
+  font-size: var(--v2-text-sm);
+}
+
+/* ヘッダーの操作は折り返さず縮める側にする。 */
+.v2 .v2__main .v2-top-title__action { flex-wrap: wrap; justify-content: flex-end; }
+
+/* メッセージ: 本文列の中の2ペイン。左に会話一覧（約280px）、右にスレッド。 */
+.v2 .v2-messenger {
+  display: grid;
+  grid-template-columns: 280px minmax(0, 1fr);
+  gap: 0;
+  align-items: start;
+  min-height: 0;
+  border-top: 1px solid var(--line);
+}
+.v2 .v2-messenger__list {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--v2-space-2);
+  box-sizing: border-box;
+  max-height: calc(100dvh - 9rem);
+  padding: var(--v2-space-3) var(--v2-space-3) var(--v2-space-3) 0;
+  border-right: 1px solid var(--line);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.v2 .v2-messenger__list .v2-nav__list { display: flex; flex-direction: column; gap: 2px; margin: 0; padding: 0; list-style: none; }
+.v2 .v2-messenger__list .v2-nav__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--v2-space-2);
+  min-height: 40px;
+  padding: 8px 12px;
+  border-radius: var(--v2-radius);
+  color: var(--text);
+}
+.v2 .v2-messenger__list .v2-nav__item:hover { background: var(--interactive); }
+.v2 .v2-messenger__list .v2-nav__item[aria-current]:not([aria-current="false"]) { background: var(--selected); font-weight: 700; }
+.v2 .v2-messenger__list .v2-nav__label { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.v2 .v2-messenger__list .v2-column__title { margin: 0; color: var(--muted); font-size: var(--v2-text-sm); }
+/* 会話が1件も無いときは、一覧と本文の2ペインにせず、全幅の1つの空状態にする。本文はポーリングのため残して隠す。 */
+.v2 .v2-messenger[data-empty="true"] { grid-template-columns: minmax(0, 1fr); }
+.v2 .v2-messenger[data-empty="true"] .v2-messenger__list { position: static; max-height: none; padding-right: 0; border-right: 0; }
+.v2 .v2-messenger[data-empty="true"] .v2-messenger__list .v2-empty { width: 100%; max-width: none; box-sizing: border-box; }
+.v2 .v2-messenger[data-empty="true"] .v2-messenger__thread { display: none; }
+.v2 .v2-messenger__thread { min-width: 0; padding: var(--v2-space-3) 0 0 var(--v2-space-4); }
+
+@media (max-width: 759px) {
+  .v2 .v2-messenger { grid-template-columns: minmax(0, 1fr); }
+  .v2 .v2-messenger__list { position: static; max-height: 40dvh; padding-right: 0; border-right: 0; border-bottom: 1px solid var(--line); }
+  .v2 .v2-messenger__thread { padding-left: 0; }
+  .v2 .v2-messenger[data-active="true"] .v2-messenger__list { max-height: 7rem; }
+}
+
+/* 投稿の一覧の行 (2026-10-14)。区切りは髪の毛線だけ。余白は投稿側（12px上下）が持つ。 */
+.v2-social-stream__list { background: var(--content-surface); }
+.v2-social-stream__item { padding: 0; border-bottom: 1px solid var(--line); }
+.v2-social-stream__item:not(.v2-social-stream__item--post) { padding: var(--v2-space-3) var(--v2-space-4); }
+.v2-social-stream__item .v2-post { border: 0; }

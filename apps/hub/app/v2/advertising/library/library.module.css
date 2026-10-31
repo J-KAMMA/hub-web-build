@@ -1,0 +1,67 @@
+.intro {
+  margin: 0 0 var(--v2-space-3, 12px);
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.card {
+  display: grid;
+  align-content: start;
+  gap: 8px;
+  min-width: 0;
+  border: var(--divider);
+  border-radius: 14px;
+  background: var(--surface);
+  padding: 14px 16px;
+}
+
+.eyebrow {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  color: var(--text-secondary);
+  font-size: 0.75rem;
+}
+
+.title {
+  color: var(--text-primary);
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.desc {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.foot {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px;
+  border-top: var(--divider);
+  padding-top: 8px;
+  color: var(--text-secondary);
+  font-size: 0.75rem;
+}
+
+.foot a {
+  color: var(--link-color);
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.foot a:hover {
+  text-decoration: underline;
+}

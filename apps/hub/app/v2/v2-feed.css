@@ -1,0 +1,1583 @@
+/*
+ * Hub v2 / タイムライン・投稿・投稿欄・スレッド・リンク札。
+ * v2.css から機械的に切り出した（規則の本文と相対順は変えていない）。
+ */
+
+/*
+ * Action Card。投稿から所有サービスの行動へ繋ぐ札（構想の中心。第2章）。
+ * 名前は v2-hubaction。v2-action は既にスレッドの小さなボタンが使っていて、
+ * 後ろに来るその規則に負けて高さ32pxに潰れた（2026-09-03）。
+ * 素のリンクの札より一段強く見せる。使えないときは押せない見た目にして理由を出す。
+ */
+/*
+ * 包みは枠を持たない。札が自分の枠を持つので、二重の線になる。
+ * .v2-link は後ろで定義されるので、同じ強さだと負ける。2つ重ねて強くする。
+ */
+.v2-link.v2-link--hubaction {
+  display: block;
+  padding: 0;
+  border: 0;
+  background: none;
+}
+
+/* 投稿 --------------------------------------------------------------- */
+
+/*
+ * 一覧は箱を持たない。本文の列の1枚の面に、髪の毛線で区切った行が続く。
+ * 1行の高さは 12 + 20 + 2 + 24 + 4 + 36 + 12 = 110px（本文1行のとき）。
+ * 影・角・溝は使わない。区別は余白と字の太さで付ける。
+ */
+.v2-feed {
+  display: block;
+  max-width: var(--v2-content-max);
+  background: var(--content-surface);
+}
+
+/* 先頭の目印。「新しい投稿」の札を押したときの行き先。 */
+.v2-feed__top {
+  display: block;
+  height: 0;
+  scroll-margin-top: calc(var(--v2-top-height) + 8px);
+}
+
+/*
+ * 新着の札。高さ0の帯の中に浮かせるので、出ても下の行は動かない。
+ * 押すまで差し込まない。
+ */
+.v2-feed__fresh {
+  position: sticky;
+  top: calc(var(--v2-top-height) + 8px);
+  z-index: 6;
+  display: flex;
+  justify-content: center;
+  height: 0;
+  max-width: var(--v2-content-max);
+  pointer-events: none;
+}
+
+.v2-feed__fresh-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  height: 36px;
+  padding: 0 16px 0 12px;
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: var(--action);
+  box-shadow: var(--elevation-1);
+  color: var(--action-text);
+  font-size: var(--type-callout-size);
+  font-weight: var(--type-callout-weight);
+  line-height: 36px;
+  cursor: pointer;
+  pointer-events: auto;
+  animation: v2-fresh-in var(--dur-base) var(--ease-spring) both;
+  transition: transform var(--dur-press) var(--ease-out), background var(--dur-fast) var(--ease-out);
+}
+
+.v2-feed__fresh-pill:hover { background: var(--action-hover); }
+.v2-feed__fresh-pill:active { transform: scale(.97); }
+.v2-feed__fresh-icon { width: 16px; height: 16px; transform: rotate(180deg); }
+
+@keyframes v2-fresh-in {
+  from { opacity: 0; transform: translateY(-8px) scale(.96); }
+  to { opacity: 1; transform: none; }
+}
+
+/* 取り足し。一覧の下の目印。下端の600px手前に入ったら自動で読む。 */
+.v2-feed__more {
+  display: flex;
+  justify-content: center;
+  min-height: 1px;
+  max-width: var(--v2-content-max);
+  padding-block: var(--v2-space-2);
+}
+
+.v2-feed__more .ui-skel { width: 100%; }
+
+/* 一覧の1件の包み。区切りは髪の毛線だけ。 */
+.v2 .v2-feed > .v2-feed__row {
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.v2 .v2-feed__row > .v2-post { border-bottom: 0; }
+
+/* 作品・研究の更新。本文の先頭に高さ固定の1行。読み込み前も後も同じ高さ。 */
+.v2-feed__updates {
+  display: flex;
+  align-items: center;
+  height: 44px;
+  max-width: var(--v2-content-max);
+  padding-inline: var(--v2-space-4);
+  overflow: hidden;
+  border-bottom: 1px solid var(--line);
+  background: var(--content-surface);
+}
+
+.v2-feed__updates:empty { visibility: hidden; }
+
+.v2-feed__updates .research-discovery {
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  gap: var(--v2-space-3);
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  box-shadow: none;
+  font-size: var(--type-subhead-size);
+  line-height: var(--type-subhead-leading);
+  white-space: nowrap;
+}
+
+.v2-feed__updates .research-discovery > * { margin: 0; }
+
+.v2-feed__updates .research-discovery h3,
+.v2-feed__updates .research-discovery-head h3 {
+  flex: none;
+  color: var(--text);
+  font-size: var(--type-callout-size);
+  font-weight: var(--type-callout-weight);
+  line-height: var(--type-callout-leading);
+}
+
+.v2-feed__updates .research-discovery-head { display: flex; flex: none; align-items: center; gap: var(--v2-space-2); margin: 0; }
+.v2-feed__updates .research-discovery-toggle { display: none; }
+.v2-feed__updates .research-discovery-description { display: none; }
+
+.v2-feed__updates .research-discovery-list {
+  display: flex;
+  flex: 1 1 auto;
+  gap: var(--v2-space-2);
+  min-width: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.v2-feed__updates .research-discovery-list::-webkit-scrollbar { display: none; }
+
+.v2-feed__updates .research-discovery-list a {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  gap: var(--v2-space-2);
+  max-width: 220px;
+  height: 28px;
+  padding: 0 var(--v2-space-3);
+  border-radius: var(--radius-pill);
+  background: var(--interactive);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.v2-feed__updates .research-discovery-list strong { overflow: hidden; font-weight: 400; text-overflow: ellipsis; }
+.v2-feed__updates .research-discovery-kind { color: var(--muted); }
+
+.v2-feed__updates .research-discovery > a:last-child {
+  flex: none;
+  margin-left: auto;
+  color: var(--muted);
+  font-size: var(--type-subhead-size);
+  text-decoration: none;
+}
+
+.v2-feed__updates .research-discovery > a:last-child::after { content: " ›"; }
+.v2-feed__updates .research-discovery > a:last-child:hover { color: var(--text); }
+.v2-feed__updates .research-discovery [role="status"],
+.v2-feed__updates .research-discovery [role="alert"] { overflow: hidden; color: var(--muted); text-overflow: ellipsis; }
+
+/*
+ * 投稿欄はフィードの先頭。顔40＋入力。閉じて64px、開いて128px。
+ * 開閉で高さが跳ねないよう、閉じた高さを先に確保し、操作の段だけを畳む。
+ */
+.v2 .v2-compose {
+  display: grid;
+  grid-template-columns: 40px minmax(0, 1fr);
+  gap: var(--v2-space-3);
+  min-height: 64px;
+  margin: 0;
+  padding: var(--v2-space-3) var(--v2-space-4);
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  background: var(--content-surface);
+  box-shadow: none;
+}
+
+.v2 .v2-compose[data-open] { padding-bottom: var(--v2-space-2); }
+
+.v2-compose .v2-compose__avatar { margin-top: 0; }
+
+/*
+ * 全体の入力欄の指定（color-system.css）は !important で面と枠を塗る。投稿欄は
+ * 入力そのものを面にしない（外側が境界と開閉を持つ）ので、同じく !important で外す。
+ */
+.v2 .v2-compose .v2-reply__input {
+  height: 40px;
+  min-height: 40px;
+  padding: var(--v2-space-2) 0;
+  border: 0 !important;
+  border-radius: 0;
+  outline: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  font-size: var(--type-body-size);
+  line-height: var(--type-body-leading);
+  resize: none;
+  overflow: hidden;
+}
+
+.v2 .v2-compose[data-open] .v2-reply__input { min-height: 72px; }
+.v2-compose .v2 .v2-reply:not(.v2-compose) .v2-reply__input { min-height: 56px; }
+.v2-reply__input::placeholder { color: var(--muted); }
+
+
+/* 操作の段。閉じている間は高さ0で、触れない・見えない。 */
+.v2-compose .v2-reply__footer {
+  justify-content: flex-start;
+  gap: var(--v2-space-1);
+  max-height: 0;
+  margin-top: 0;
+  overflow: hidden;
+  visibility: hidden;
+  opacity: 0;
+  transition: max-height var(--dur-base) var(--ease-out), opacity var(--dur-fast) var(--ease-out);
+}
+
+.v2-compose[data-open] .v2-reply__footer {
+  max-height: 220px;
+  min-height: 36px;
+  overflow: visible;
+  visibility: visible;
+  opacity: 1;
+}
+
+.v2 .v2-compose .v2-reply__footer > .v2-button--icon:first-of-type,
+.v2 .v2-compose .v2-reply__footer > .v2-post__more:first-of-type { margin-right: 0; }
+
+.v2-compose .v2-button--icon { width: 36px; height: 36px; border-color: transparent; border-radius: var(--radius-pill); background: none; }
+.v2-compose .v2-button--icon:hover { background: var(--interactive); }
+.v2-compose .v2-gate-attach-toggle .v2-button { height: 36px; }
+.v2-compose .v2-button--icon .v2-icon { width: 20px; height: 20px; }
+
+/* メンションの候補。入力欄の直下に最大5件。選んでいる行だけ塗る。 */
+.v2-mentions {
+  display: grid;
+  margin-top: var(--v2-space-1);
+  padding: var(--v2-space-1);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--surface-raised);
+  box-shadow: var(--elevation-1);
+}
+
+.v2-mentions__item {
+  display: flex;
+  align-items: baseline;
+  gap: var(--v2-space-2);
+  padding: var(--v2-space-2) var(--v2-space-3);
+  border: 0;
+  border-radius: var(--radius-xs);
+  background: none;
+  color: var(--text);
+  font: inherit;
+  font-size: var(--type-subhead-size);
+  text-align: left;
+  cursor: pointer;
+}
+
+.v2-mentions__item small {
+  color: var(--muted);
+}
+
+.v2-mentions__item:hover,
+.v2-mentions__item--selected {
+  background: var(--interactive);
+}
+
+/* 選んだ画像。枠に縮小版を入れ、説明の欄を隣に置く。4枚まで。 */
+.v2-compose__images {
+  display: grid;
+  gap: var(--v2-space-2);
+  margin: var(--v2-space-2) 0 var(--v2-space-2);
+  padding: 0;
+  list-style: none;
+}
+
+.v2-compose__image {
+  display: grid;
+  grid-template-columns: 96px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: var(--v2-space-2);
+}
+
+.v2-compose__image input,
+.v2-compose__audience,
+.v2-compose__schedule input,
+.v2-tnew__title,
+.v2-tnew select {
+  min-width: 0;
+  height: 36px;
+  padding: 0 var(--v2-space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--content-surface);
+  color: var(--text);
+  font: inherit;
+  font-size: var(--type-subhead-size);
+}
+
+.v2 .v2-compose__audience {
+  flex: none;
+  margin-left: auto;
+  border-color: transparent !important;
+  background: var(--interactive) !important;
+  font-weight: 600;
+}
+
+/* 文字数。残りを円で示し、残り20字からだけ数字を出す。 */
+.v2-count {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--v2-space-1);
+  height: 20px;
+  margin-inline: var(--v2-space-2);
+  color: var(--muted);
+  font-size: var(--type-caption-size);
+  font-variant-numeric: tabular-nums;
+  line-height: var(--type-caption-leading);
+}
+
+.v2-count__ring { width: 20px; height: 20px; transform: rotate(-90deg); }
+.v2-count__track,
+.v2-count__bar { fill: none; stroke-width: 2; }
+.v2-count__track { stroke: var(--line); }
+.v2-count__bar { stroke: var(--muted); stroke-linecap: round; transition: stroke-dashoffset var(--dur-fast) var(--ease-out); }
+.v2-count[data-warn] { color: var(--warning-text); }
+.v2-count[data-warn] .v2-count__bar { stroke: var(--warning-text); }
+
+.v2-compose__submit { flex: none; }
+
+/* 予約投稿の日時を選ぶ行。本文だけ送れるので、画像がある間は日時を置けない。 */
+.v2-compose__schedule {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--v2-space-2) var(--v2-space-3);
+  margin-top: var(--v2-space-2);
+}
+
+.v2-compose__schedule label {
+  display: flex;
+  align-items: center;
+  gap: var(--v2-space-2);
+}
+
+.v2-compose__schedule span,
+.v2-compose__schedule small {
+  color: var(--muted);
+  font-size: var(--type-subhead-size);
+}
+
+/* 新しいスレッド。一覧の上に畳んで置き、開くと入力が並ぶ。 */
+.v2-tnew {
+  max-width: var(--v2-content-max);
+  margin-bottom: var(--v2-space-4);
+}
+
+.v2-tnew__form {
+  display: grid;
+  gap: var(--v2-space-3);
+  margin-top: var(--v2-space-3);
+  padding: var(--v2-space-4);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+}
+
+.v2-tnew__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--v2-space-3);
+}
+
+.v2-tnew input[type="date"] {
+  height: 36px;
+  padding: 0 var(--v2-space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--content-surface);
+  color: var(--text);
+  font: inherit;
+}
+
+/*
+ * 投稿1件。顔40・間12・上下12・左右16。
+ * hover は1件全体の面の色だけ。どこを押しても詳細へ（中の押し手と文字選択は除く）。
+ */
+.v2-post {
+  position: relative;
+  display: grid;
+  grid-template-columns: 40px minmax(0, 1fr);
+  column-gap: var(--v2-space-3);
+  padding: var(--v2-space-3) var(--v2-space-4);
+  border-bottom: 1px solid var(--line);
+  transition: background var(--dur-fast) var(--ease-out);
+}
+
+.v2-post:last-child {
+  border-bottom: 0;
+}
+
+.v2-post--row { cursor: pointer; }
+.v2-post--row:hover { background: var(--content-surface-hover); }
+.v2-post--row a,
+.v2-post--row button,
+.v2-post--row .v2-menu,
+.v2-post--row .v2-post__panel { cursor: auto; }
+.v2-post--row a,
+.v2-post--row button { cursor: pointer; }
+
+.v2-post__avatar {
+  align-self: start;
+}
+
+.v2-post__body {
+  min-width: 0;
+}
+
+/*
+ * 見出し行は1行。名前は縮めず、ハンドルを省略する。時刻は右へ、「…」は端。
+ * 押せる領域は上下へ広げる（行の高さは変えない）。
+ */
+.v2-post__header {
+  display: flex;
+  align-items: center;
+  gap: var(--v2-space-1);
+  min-width: 0;
+  height: 20px;
+  font-size: var(--type-callout-size);
+  line-height: var(--type-callout-leading);
+}
+
+.v2-post__author {
+  display: flex;
+  align-items: baseline;
+  gap: var(--v2-space-1);
+  min-width: 0;
+  padding-block: 8px;
+  margin-block: -8px;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.v2-post__name {
+  flex: none;
+  max-width: 100%;
+  overflow: hidden;
+  color: var(--text);
+  font-weight: var(--type-callout-weight);
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.v2-post__author:hover .v2-post__name { text-decoration: underline; }
+
+.v2-post__handle,
+.v2-post__time {
+  color: var(--muted);
+  font-size: var(--type-callout-size);
+  font-weight: 400;
+  text-decoration: none;
+}
+
+/* 返信の行の「返信先 @handle」（X と同じく見出しの下、本文の上）。 */
+.v2-post__reply-to {
+  margin: 0;
+  color: var(--muted);
+  font-size: var(--type-callout-size);
+  line-height: 20px;
+  overflow-wrap: anywhere;
+}
+.v2-post__reply-to a { color: var(--action); text-decoration: none; }
+.v2-post__reply-to a:hover { text-decoration: underline; }
+
+.v2-post__handle {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.v2-post__time {
+  flex: none;
+  min-width: 44px;
+  padding-block: 8px;
+  margin-block: -8px;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.v2-post__time::before { content: "· "; }
+.v2-post__time:hover { text-decoration: underline; }
+
+.v2-post__header .v2-post__more { margin-left: auto; margin-block: -8px; }
+
+.v2-post__text {
+  max-width: var(--v2-measure);
+  margin: 2px 0 0;
+  color: var(--text);
+  font-size: var(--type-body-size);
+  font-weight: var(--type-body-weight);
+  line-height: var(--type-body-leading);
+  overflow-wrap: anywhere;
+  text-wrap: pretty;
+  white-space: pre-wrap;
+}
+
+.v2-post__inline-link {
+  display: inline;
+  max-width: 100%;
+  color: var(--link-color, var(--text));
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  overflow-wrap: anywhere;
+}
+
+.v2-post__inline-link--hub {
+  padding: 0 var(--v2-space-2);
+  border: var(--divider);
+  border-radius: var(--radius-pill);
+  background: var(--interactive);
+  color: var(--text);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: baseline;
+  gap: var(--v2-space-1);
+  max-width: 100%;
+  overflow: hidden;
+  vertical-align: bottom;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.v2-post__inline-kind {
+  color: var(--muted);
+  font-size: var(--type-caption-size);
+  flex: none;
+}
+
+.v2-post__translate {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  margin-block: -6px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--muted);
+  font: inherit;
+  font-size: var(--type-subhead-size);
+  cursor: pointer;
+}
+
+.v2-post__translate:hover { color: var(--text); text-decoration: underline; }
+.v2-post__translate:disabled { cursor: default; opacity: .5; }
+
+/*
+ * 添付。幅は最大560（Hub Desktop と同じ）。1枚は縦横比を保って高さ最大510、2〜4枚は16:9の
+ * 2列の格子（隙間2px。3枚は左の1枚を縦に通す）。縁の内側に細線。押すと拡大表示（v2-image-lightbox）。
+ */
+.v2-post__images {
+  position: relative;
+  display: grid;
+  gap: 2px;
+  width: fit-content;
+  max-width: min(100%, 560px);
+  margin-top: var(--v2-space-3);
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  background: var(--interactive);
+}
+
+.v2-post__image {
+  display: block;
+  min-width: 0;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: zoom-in;
+}
+.v2-post__image:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: -2px; }
+
+.v2-post__images::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: inset 0 0 0 1px var(--media-outline);
+  pointer-events: none;
+}
+
+.v2-post__images img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  object-fit: cover;
+  background: var(--interactive);
+}
+
+.v2-post__images--1 img { width: auto; max-width: 100%; height: auto; max-height: 510px; object-fit: contain; }
+
+.v2-post__images--2,
+.v2-post__images--3,
+.v2-post__images--4 {
+  width: min(100%, 560px);
+  grid-template-columns: 1fr 1fr;
+  aspect-ratio: 16 / 9;
+}
+
+.v2-post__images--3,
+.v2-post__images--4 { grid-template-rows: 1fr 1fr; }
+.v2-post__images--3 > :first-child { grid-row: 1 / 3; }
+
+/* 拡大表示。地は媒体の地（明暗どちらでも暗い）、記号は媒体の文字色。 */
+.v2-lightbox {
+  width: 100vw;
+  max-width: none;
+  height: 100vh;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--media-app-text);
+}
+.v2-lightbox::backdrop { background: color-mix(in srgb, var(--media-app-bg) 92%, transparent); }
+.v2-lightbox__figure { display: grid; place-items: center; gap: var(--v2-space-2); box-sizing: border-box; width: 100%; height: 100%; margin: 0; padding: 48px 72px; }
+.v2-lightbox__image { display: block; max-width: 100%; max-height: calc(100vh - 128px); object-fit: contain; border-radius: var(--radius-sm); }
+.v2-lightbox__caption { max-width: 720px; color: var(--media-app-text); font-size: var(--type-subhead-size); text-align: center; }
+.v2-lightbox__close,
+.v2-lightbox__nav {
+  position: fixed;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: var(--media-badge-bg);
+  color: var(--media-badge-text);
+  font-size: 24px;
+  line-height: 1;
+  cursor: pointer;
+}
+.v2-lightbox__close:hover,
+.v2-lightbox__nav:hover:not(:disabled) { background: color-mix(in srgb, var(--media-app-text) 18%, var(--media-app-bg)); }
+.v2-lightbox__nav:disabled { opacity: .35; cursor: default; }
+.v2-lightbox__close { top: 12px; left: 12px; }
+.v2-lightbox__nav--prev { top: 50%; left: 16px; transform: translateY(-50%); }
+.v2-lightbox__nav--next { top: 50%; right: 16px; transform: translateY(-50%); }
+.v2-lightbox__count { position: fixed; top: 20px; left: 50%; margin: 0; transform: translateX(-50%); color: var(--media-app-text); font-size: var(--type-subhead-size); font-variant-numeric: tabular-nums; }
+
+.v2-post__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--v2-space-1) var(--v2-space-3);
+  margin: var(--v2-space-2) 0 0;
+}
+
+/*
+ * 操作の行。返信・リポスト・いいね・保存・共有を最大幅420で均等に。
+ * 記号20px。押せる領域は机上36・携帯44。hover は記号の後ろに丸い面。
+ * 最初の記号の絵が本文の左端と揃うよう、左へ8px戻す。
+ */
+.v2-post__actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 420px;
+  margin: var(--v2-space-1) 0 0 -8px;
+}
+
+/* ••• ・リポストの下に出す小さな一覧。投稿の枠の中で完結し、外を押すと閉じる。 */
+.v2-post__more {
+  position: relative;
+}
+
+.v2-post__more--end .v2-menu { right: 0; left: auto; }
+
+.v2-act {
+  display: inline-flex;
+  align-items: center;
+  min-width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--muted);
+  font: inherit;
+  font-size: var(--type-subhead-size);
+  font-variant-numeric: tabular-nums;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color var(--dur-fast) var(--ease-out);
+}
+
+.v2-act__glyph {
+  display: grid;
+  flex: none;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: var(--radius-pill);
+  transition: background var(--dur-fast) var(--ease-out), transform var(--dur-press) var(--ease-out);
+}
+
+.v2-act .v2-icon { width: 20px; height: 20px; }
+.v2-act__count { margin-left: -4px; padding-right: var(--v2-space-2); }
+
+.v2-act:hover { color: var(--text); }
+.v2-act:hover .v2-act__glyph { background: var(--interactive); }
+.v2-act:active .v2-act__glyph { transform: scale(.9); }
+.v2-act:disabled { cursor: default; opacity: .5; }
+.v2-act:disabled:hover .v2-act__glyph { background: none; }
+.v2-act:focus-visible { outline: 2px solid var(--text); outline-offset: -2px; border-radius: var(--radius-pill); }
+
+.v2-act[aria-pressed="true"] { color: var(--text); }
+.v2-act[aria-pressed="true"] .v2-icon path { fill: currentColor; }
+.v2-act--repeat[aria-pressed="true"] .v2-icon path { fill: none; stroke-width: 2.4; }
+
+.v2-act--like:hover { color: var(--reaction-like); }
+.v2-act--like:hover .v2-act__glyph { background: var(--reaction-like-soft); }
+.v2-act--like[aria-pressed="true"] { color: var(--reaction-like); }
+
+/* いいねのハートは 1 → 1.2 → 1 を 280ms。 */
+.v2-act--pop .v2-act__glyph svg { animation: v2-act-pop var(--dur-base) var(--ease-spring); }
+
+@keyframes v2-act-pop {
+  0% { transform: scale(1); }
+  40% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+/* メニュー。浮いた面。下端の影は --elevation-1。 */
+.v2-post .v2-menu,
+.v2-compose .v2-menu {
+  min-width: 12em;
+  padding: var(--v2-space-1);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface-raised);
+  box-shadow: var(--elevation-1);
+  animation: v2-menu-in var(--dur-fast) var(--ease-out);
+}
+
+@keyframes v2-menu-in {
+  from { opacity: 0; transform: translateY(-4px) scale(.98); }
+  to { opacity: 1; transform: none; }
+}
+
+.v2-menu__note {
+  max-width: 18em;
+  margin: 0;
+  padding: var(--v2-space-2) var(--v2-space-3);
+  color: var(--muted);
+  font-size: var(--type-subhead-size);
+  line-height: var(--type-subhead-leading);
+}
+
+.v2-menu__rule {
+  height: 0;
+  margin: var(--v2-space-1) 0;
+  border: 0;
+  border-top: 1px solid var(--line);
+}
+
+/* 引用・編集・通報の欄。投稿の本文の下に開く。 */
+.v2-post__panel {
+  display: grid;
+  gap: var(--v2-space-2);
+  margin-top: var(--v2-space-3);
+}
+
+.v2 .v2-post__panel .v2-reply__input {
+  min-height: 72px;
+  padding: var(--v2-space-2) var(--v2-space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  font-size: var(--type-body-size);
+  line-height: var(--type-body-leading);
+  resize: vertical;
+}
+
+.v2-post__notice {
+  margin: var(--v2-space-2) 0 0;
+}
+
+/* 翻訳した本文。原文の下に、左に線を引いて区別する。 */
+.v2-post__translation {
+  margin-top: var(--v2-space-2);
+  padding-left: var(--v2-space-3);
+  border-left: 2px solid var(--line);
+  color: var(--muted);
+}
+
+/* 予約が保存できた報せ。投稿欄の下に薄く出す。 */
+.v2-compose__status {
+  margin: var(--v2-space-2) 0 0;
+  padding: 0;
+}
+
+/* 投稿詳細 ----------------------------------------------------------- */
+
+/*
+ * 主役の投稿。顔48と名前の行、その下に全幅の本文（20/30）、日時の行、件数の行、
+ * 操作の行（44）。body を外し、子を格子へ直接並べる。
+ */
+.v2-post--emphasized {
+  grid-template-columns: 48px minmax(0, 1fr);
+  padding-block: var(--v2-space-4);
+}
+
+.v2-post--emphasized .v2-post__body { display: contents; }
+.v2-post--emphasized .v2-post__avatar { grid-column: 1; grid-row: 1; }
+.v2-post--emphasized .v2-post__header { grid-column: 2; grid-row: 1; align-self: center; min-height: 20px; }
+.v2-post--emphasized .v2-post__body > :not(.v2-post__header) { grid-column: 1 / -1; }
+
+.v2-post--emphasized .v2-post__text {
+  margin-top: var(--v2-space-3);
+  font-size: var(--type-title3-size);
+  line-height: 30px;
+}
+
+.v2-post--emphasized .v2-post__actions { max-width: none; margin: var(--v2-space-2) 0 0 -8px; padding-top: var(--v2-space-1); border-top: 1px solid var(--line); }
+.v2-post--emphasized .v2-post__actions .v2-act,
+.v2-post--emphasized .v2-post__actions .v2-act__glyph { height: 44px; }
+
+.v2-post__stamp,
+.v2-post__counts {
+  margin: var(--v2-space-3) 0 0;
+  color: var(--muted);
+  font-size: var(--type-subhead-size);
+  line-height: var(--type-subhead-leading);
+  font-variant-numeric: tabular-nums;
+}
+
+.v2-post__counts {
+  display: flex;
+  gap: var(--v2-space-4);
+  margin-top: var(--v2-space-3);
+  padding-block: var(--v2-space-3);
+  border-block: 1px solid var(--line);
+}
+
+.v2-post__counts strong { color: var(--text); font-weight: 700; }
+
+/* 引用元・リポスト元・返信先の札。線で囲み、題と本文の頭を2行まで。 */
+.v2-post__referenced {
+  display: grid;
+  gap: var(--v2-space-1);
+  max-width: 560px;
+  margin: var(--v2-space-3) 0 0;
+  padding: var(--v2-space-2) var(--v2-space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  color: var(--text);
+  font-size: var(--type-subhead-size);
+  text-decoration: none;
+}
+
+.v2-post__referenced:hover .v2-post__referenced-title {
+  text-decoration: underline;
+}
+
+.v2-post__referenced-label {
+  color: var(--muted);
+  font-size: var(--type-caption-size);
+}
+
+.v2-post__referenced-title {
+  overflow: hidden;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.v2-post__referenced-body {
+  display: -webkit-box;
+  overflow: hidden;
+  color: var(--muted);
+  line-height: var(--v2-leading-tight);
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+/*
+ * リンクの札。外部は16:9の絵（無ければ文字だけ）、下に域名13 mutedと題15/600。
+ * 絵は縦横比の枠が先に決まるので、読み込みで札の高さは変わらない。
+ */
+.v2-link {
+  display: block;
+  max-width: 100%;
+  margin: var(--v2-space-3) 0 0;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  color: var(--text);
+  font-size: var(--type-subhead-size);
+  text-decoration: none;
+  transition: background var(--dur-fast) var(--ease-out);
+}
+
+.v2-link:hover { background: var(--content-surface-hover); }
+.v2-link:hover .v2-link__title { text-decoration: underline; }
+
+.v2-link__frame { border-bottom: 1px solid var(--line); border-radius: 0; }
+.v2-link__frame::after { box-shadow: none; }
+
+.v2-link__text {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+  min-height: 62px;
+  padding: 10px var(--v2-space-3);
+}
+
+.v2-link__site {
+  overflow: hidden;
+  color: var(--muted);
+  font-size: var(--type-subhead-size);
+  line-height: var(--type-subhead-leading);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.v2-link__title {
+  display: -webkit-box;
+  overflow: hidden;
+  font-size: var(--type-callout-size);
+  font-weight: var(--type-callout-weight);
+  line-height: var(--type-callout-leading);
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.v2-link__description {
+  display: -webkit-box;
+  overflow: hidden;
+  color: var(--muted);
+  line-height: var(--type-subhead-leading);
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.v2-link--image {
+  display: grid;
+  gap: var(--v2-space-1);
+  padding: 0;
+  border: 0;
+  overflow: visible;
+}
+
+.v2-link--image:hover { background: none; }
+
+/*
+ * 「おすすめの調整」は他の一覧（記事・動画・商品など）が使う小さな札。
+ * 畳んだ状態は静かな文字だけにする。投稿の一覧は「…」の中へ移した。
+ */
+.v2-discovery {
+  margin-top: var(--v2-space-2);
+}
+
+.v2-discovery > summary {
+  display: inline-block;
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+  cursor: pointer;
+}
+
+.v2-discovery > summary:hover {
+  color: var(--text);
+}
+
+.v2-discovery__panel {
+  margin-top: var(--v2-space-2);
+  padding: var(--v2-space-3);
+  border-radius: var(--v2-radius);
+  background: var(--interactive);
+  font-size: var(--v2-text-sm);
+}
+
+.v2-discovery__panel > p {
+  margin: 0 0 var(--v2-space-2);
+  color: var(--muted);
+}
+
+.v2-discovery__dismiss {
+  min-height: 28px;
+  margin-top: var(--v2-space-2);
+  padding: 0 var(--v2-space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius);
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-size: var(--v2-text-xs);
+  cursor: pointer;
+}
+
+.v2-discovery__dismiss:hover {
+  color: var(--text);
+}
+
+/* カード下端の右端に置く小さな文字ボタン。帯にしない。 */
+.v2-discovery__dismiss--inline {
+  min-height: 24px;
+  margin: 0 0 0 auto;
+  padding: 0 var(--v2-space-2);
+  border-color: transparent;
+}
+
+.v2-discovery__dismiss--inline:hover {
+  background: var(--interactive);
+}
+
+.v2-discovery__panel > button {
+  margin-right: var(--v2-space-2);
+}
+
+/* 未読の区切り。前回の先頭だった投稿の直前に引く。 */
+.v2-unread-line {
+  display: flex;
+  align-items: center;
+  gap: var(--v2-space-3);
+  margin: 0;
+  padding: var(--v2-space-2) var(--v2-space-4);
+  color: var(--accent-text, var(--link-color));
+  font-size: var(--type-caption-size);
+}
+
+.v2-unread-line::before,
+.v2-unread-line::after {
+  content: "";
+  flex: 1 1 auto;
+  border-top: 1px solid currentColor;
+}
+
+/* 携帯と粗い指先: 押せる領域は44px。 */
+@media (max-width: 759px), (pointer: coarse) {
+  .v2-act,
+  .v2-act__glyph { min-width: 44px; height: 44px; }
+  .v2-act__glyph { width: 44px; }
+  .v2-act .v2-icon { width: 22px; height: 22px; }
+  .v2-post__author,
+  .v2-post__time { padding-block: 12px; margin-block: -12px; }
+  .v2-post__header .v2-post__more { margin-block: -12px; }
+  .v2-post__actions { margin-left: -12px; }
+  .v2-post__translate { min-height: 44px; margin-block: -10px; }
+  .v2-compose .v2-gate-attach-toggle .v2-button { height: 44px; }
+  .v2-compose .v2-button--icon,
+  .v2-compose__audience,
+  .v2-compose__image input { width: 44px; height: 44px; }
+  .v2-compose__audience,
+  .v2-compose__image input { width: auto; }
+  .v2-feed__fresh-pill { height: 44px; line-height: 44px; }
+  .v2 .v2-compose .v2-reply__footer { row-gap: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .v2-post,
+  .v2-act,
+  .v2-act__glyph,
+  .v2-link,
+  .v2-compose .v2-reply__footer,
+  .v2-count__bar { transition: none; }
+  .v2-act--pop .v2-act__glyph svg,
+  .v2-feed__fresh-pill,
+  .v2-post .v2-menu,
+  .v2-compose .v2-menu { animation: none; }
+}
+
+/* 会話の流れ。主役の上に、薄く連ねる。 */
+.v2-thread-context {
+  max-width: var(--v2-content-max);
+  margin-bottom: var(--v2-space-4);
+}
+
+.v2-thread-context .v2-post {
+  border-left: 2px solid var(--line);
+  padding-left: var(--v2-space-3);
+}
+
+/*
+ * 返信を書く欄。枠なし、顔40＋入力。送る押し手は空のとき半透明（色は変えない）。
+ * 書き手の名前は出さない（顔と入力だけで足りる）。
+ */
+.v2-reply {
+  display: grid;
+  grid-template-columns: 40px minmax(0, 1fr);
+  gap: var(--v2-space-3);
+  max-width: var(--v2-content-max);
+  padding: var(--v2-space-3) var(--v2-space-4);
+  border-bottom: 1px solid var(--line);
+  background: var(--content-surface);
+}
+
+.v2-reply__body {
+  min-width: 0;
+}
+
+.v2 .v2-reply .v2-reply__input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: var(--v2-space-2) 0;
+  border: 0 !important;
+  border-radius: var(--radius-xs);
+  outline: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  color: var(--text);
+  font: inherit;
+  font-size: var(--type-body-size);
+  line-height: var(--type-body-leading);
+  resize: none;
+}
+
+.v2-reply__input::placeholder { color: var(--muted); }
+
+.v2-reply__footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--v2-space-2);
+  margin-top: var(--v2-space-2);
+}
+
+/* 名前の無い欄（投稿欄）では、添付の＋を左に、公開範囲・残り字数・投稿するを右に寄せる。 */
+.v2-reply__footer:not(:has(.v2-reply__identity)) {
+  justify-content: flex-end;
+}
+
+/* 書き手の名前は読み上げにだけ残す。 */
+.v2-reply__identity {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+.v2-reply:has(.v2-reply__identity) .v2-reply__footer { justify-content: flex-end; }
+
+.v2-reply__remaining {
+  flex: none;
+  color: var(--muted);
+  font-size: var(--type-caption-size);
+  font-variant-numeric: tabular-nums;
+}
+
+.v2-reply__submit {
+  flex: none;
+  height: 36px;
+  padding: 0 var(--v2-space-4);
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: var(--action);
+  color: var(--action-text);
+  font: inherit;
+  font-size: var(--type-callout-size);
+  font-weight: var(--type-callout-weight);
+  white-space: nowrap;
+  cursor: pointer;
+  transition: transform var(--dur-press) var(--ease-out), background var(--dur-fast) var(--ease-out);
+}
+
+.v2-reply__submit:hover {
+  background: var(--action-hover);
+}
+
+.v2-reply__submit:active { transform: scale(.97); }
+
+@media (max-width: 759px), (pointer: coarse) {
+  .v2-reply__submit { height: 44px; }
+  .v2 .v2-compose { padding-block: 10px; }
+  .v2 .v2-compose .v2-reply__input { height: 44px; min-height: 44px; padding-block: 10px; }
+  .v2 .v2-compose[data-open] .v2-reply__input { min-height: 72px; }
+}
+
+.v2-reply-auth {
+  max-width: var(--v2-content-max);
+  margin-block: var(--v2-space-5);
+}
+
+/* 返信の一覧 */
+.v2-replies {
+  max-width: var(--v2-content-max);
+}
+
+.v2-replies__count {
+  margin: var(--v2-space-5) 0 var(--v2-space-2);
+  color: var(--muted);
+  font-size: var(--v2-text-sm);
+  font-variant-numeric: tabular-nums;
+}
+
+.v2-replies__more {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--v2-space-3);
+  margin: var(--v2-space-4) 0 0;
+}
+
+/* スレッド一覧 --------------------------------------------------------- */
+
+.v2-tlist {
+  display: grid;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.v2 .v2-tcard {
+  display: grid;
+  gap: var(--v2-space-2);
+  padding: var(--v2-space-3) var(--v2-space-4);
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  background: var(--content-surface);
+  box-shadow: none;
+  transition: background var(--dur-fast) var(--ease-out);
+}
+
+.v2 .v2-tcard:hover { background: var(--content-surface-hover); }
+
+.v2-tcard:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+.v2-tcard__meta,
+.v2-tcard__foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--v2-space-2);
+  margin: 0;
+}
+
+.v2-tcard__title {
+  color: var(--text);
+  font-size: var(--v2-text);
+  font-weight: 700;
+  line-height: var(--v2-leading-tight);
+  overflow-wrap: anywhere;
+  text-decoration: none;
+}
+
+.v2-tcard__title:hover {
+  text-decoration: underline;
+}
+
+/* 抜粋は2行で止める。一覧は題を読む場所で、本文は詳細で読む。 */
+.v2-tcard__excerpt {
+  display: -webkit-box;
+  max-width: var(--v2-measure);
+  margin: 0;
+  overflow: hidden;
+  color: var(--muted);
+  font-size: var(--v2-text-sm);
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.v2-tcard__count {
+  margin-left: auto;
+  color: var(--muted);
+  font-size: var(--v2-text-sm);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+/* スレッド詳細 --------------------------------------------------------- */
+
+.v2-tbody {
+  max-width: var(--v2-content-max);
+}
+
+/*
+ * 投稿1件。左に番号、右に本文。番号は6emの幅を持つので、#1 でも #1234 でも
+ * 本文の左端が揃う。既存の .bbs-post は8枚のスタイルシートが描いていた。
+ * ここは1つの規則で描く。
+ */
+.v2 .v2-tpost {
+  display: grid;
+  grid-template-columns: 3.5em minmax(0, 1fr);
+  gap: var(--v2-space-3);
+  margin-bottom: 0;
+  padding: var(--v2-space-3) var(--v2-space-4);
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  background: var(--content-surface);
+  box-shadow: none;
+  scroll-margin-top: var(--v2-space-5);
+}
+
+.v2-tpost--best {
+  border-left: 3px solid var(--positive-text);
+  padding-left: var(--v2-space-3);
+}
+
+.v2-tpost__no {
+  color: var(--muted);
+  font-size: var(--v2-text-sm);
+  font-variant-numeric: tabular-nums;
+  line-height: var(--v2-leading);
+  text-decoration: none;
+}
+
+.v2-tpost__no:hover {
+  color: var(--text);
+}
+
+.v2-tpost__body {
+  min-width: 0;
+}
+
+.v2-tpost__reply-to {
+  display: inline-block;
+  margin-bottom: var(--v2-space-2);
+  color: var(--link-color);
+  font-size: var(--v2-text-sm);
+  text-decoration: none;
+}
+
+.v2-tpost__hidden {
+  max-width: var(--v2-measure);
+  margin: 0;
+  color: var(--muted);
+  font-size: var(--v2-text-sm);
+}
+
+.v2-unread {
+  display: flex;
+  align-items: center;
+  gap: var(--v2-space-3);
+  margin: var(--v2-space-3) 0 0;
+  color: var(--warning-text);
+  font-size: var(--v2-text-xs);
+}
+
+.v2-unread::before,
+.v2-unread::after {
+  content: "";
+  flex: 1 1 auto;
+  height: 1px;
+  background: var(--warning-text);
+}
+
+/*
+ * 文の中の未読の印（通知の頭・右列の行・コミュニティの札）。区切り線の
+ * <p class="v2-unread"> とは別物。span のまま flex にすると文の途中で
+ * 行が割れ、通知の頭には線が1本浮いて見えた。字が入るときはナビの
+ * .v2-nav__count と同じ数の札、空なら小さな点にする。
+ */
+span.v2-unread {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+  align-self: center;
+  gap: 0;
+  margin: 0;
+  padding-inline: var(--v2-space-2);
+  border-radius: var(--v2-radius-pill);
+  background: var(--emphasis);
+  color: var(--action-text);
+  font-size: var(--v2-text-xs);
+  font-variant-numeric: tabular-nums;
+  line-height: 1.6;
+  vertical-align: middle;
+}
+
+span.v2-unread::before,
+span.v2-unread::after {
+  content: none;
+}
+
+span.v2-unread:empty {
+  width: 8px;
+  height: 8px;
+  padding: 0;
+}
+
+.v2-tinfo__row,
+.v2-tinfo__conditions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--v2-space-2);
+  margin: 0;
+  padding-inline: var(--v2-space-3);
+  color: var(--muted);
+  font-size: var(--v2-text-sm);
+}
+
+.v2-tinfo__conditions {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--v2-space-1);
+}
+
+.v2-tinfo .v2-post__tags {
+  padding-inline: var(--v2-space-3);
+}
+
+.v2-tracking {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--v2-space-2);
+  padding-inline: var(--v2-space-3);
+  font-size: var(--v2-text-sm);
+}
+
+.v2-tracking__read {
+  color: var(--muted);
+}
+
+.v2-treply {
+  max-width: var(--v2-content-max);
+  padding-block: var(--v2-space-5);
+}
+
+.v2-treply__anon {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--v2-space-1);
+  color: var(--muted);
+  font-size: var(--v2-text-sm);
+}
+
+.v2-pager {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--v2-space-3);
+  max-width: var(--v2-content-max);
+  margin: var(--v2-space-4) 0;
+}
+
+.v2-pager__label {
+  color: var(--muted);
+  font-size: var(--v2-text-sm);
+  font-variant-numeric: tabular-nums;
+}
+
+/*
+ * 書く欄は投稿詳細の .v2-reply を使うが、あちらは左に44pxの顔の列がある。
+ * コミュニティでは顔を出さないので、その列を外す。外さないと textarea が
+ * 44pxの列に入って縦1列になる（2026-09-02 の写真でそうなっていた）。
+ */
+.v2-reply--plain {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.v2-profile__link-row .v2-reply__input {
+  min-height: 0;
+}
+
+.v2-profile__item .v2-post {
+  padding-block: 0;
+  border-bottom: 0;
+}
+
+.v2-post__own {
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+}
+
+.v2-aside__feed .v2-post { display: block; padding-block: 12px; }
+.v2-aside__feed .v2-post__text { font-size: var(--v2-text-sm); }
+
+/* j/k で焦点が来た投稿。はっきりした輪郭で分かるように。 */
+article.v2-post:focus-visible {
+  outline: 2px solid var(--text);
+  outline-offset: -2px;
+  border-radius: 0;
+  background: var(--content-surface-hover);
+}
+
+/* Reply settings keep the existing editor compact and reveal detail on demand. */
+.v2-treply__fields { min-width:0; margin:0; padding:0; border:0; }
+.v2-treply__scope, .v2-treply .thread-reply-metadata { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,160px),1fr)); gap:10px 12px; margin-block:12px; }
+.v2-treply__scope label, .v2-treply .thread-reply-metadata label { display:grid; min-width:0; gap:5px; color:var(--muted); font-size:12px; }
+.v2-treply__scope select, .v2-treply .thread-reply-metadata :is(select,input) { box-sizing:border-box; width:100%; min-width:0; min-height:32px; padding:5px 8px; border:var(--divider); border-radius:6px; background:var(--surface); color:var(--text); font:inherit; }
+.v2-treply .thread-reply-options { margin-block:10px; border-block:var(--divider); }
+.v2-treply .thread-reply-options summary { padding-block:9px; color:var(--muted); cursor:pointer; font-size:13px; }
+.v2-treply__target { display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin-block:10px; color:var(--muted); font-size:13px; overflow-wrap:anywhere; }
+.v2-treply__preview { margin-block:12px; padding:12px; border:var(--divider); border-radius:8px; background:var(--surface); color:var(--text); white-space:pre-wrap; overflow-wrap:anywhere; font-size:14px; }
+.v2-treply :is(select,input,summary):focus-visible { outline:2px solid var(--focus-ring); outline-offset:2px; }
+
+.v2-tpost__sources { display:flex; flex-wrap:wrap; gap:6px 16px; margin:8px 0; padding:0; list-style:none; color:var(--muted); font-size:12px; overflow-wrap:anywhere; }
+.v2-tpost__sources a { color:inherit; text-decoration:underline; text-underline-offset:3px; }
+.v2-social-stream__item .v2-post { border:0; }
+
+/* 入力欄の焦点: 青い光は使わない。枠の色だけを中立色に変える。 */
+.v2 .v2-compose__image input:focus,
+.v2 .v2-compose__schedule input:focus,
+.v2 .v2-compose__audience:focus,
+.v2 .v2-post__panel .v2-reply__input:focus,
+.v2 .v2-post__panel select:focus {
+  border-color: var(--line-strong) !important;
+  box-shadow: none !important;
+  outline: 0;
+}
+
+/*
+ * 投稿詳細: 元の投稿・主役の投稿・返信欄・返信一覧を1本の列に入れる。
+ * main は flex で、子は中身の幅に縮んでいた（621 / 549 / 254px）。
+ * 列を1本にして、左端と幅をそろえる。
+ */
+html body .v2 .v2__workspace .v2__frame #hub-main.v2__main > .v2-post-thread {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: var(--v2-content-max);
+  margin-inline: auto;
+}
+.v2-post-thread > *,
+.v2-post-thread .v2-feed,
+.v2-post-thread .v2-reply,
+.v2-post-thread .v2-thread-context {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: none;
+}
+/* 戻る導線は左の列のチップに1つだけ。 */
+.v2__frame:has(.v2__dirwrap[data-directory-rail="open"]) .v2-main-controls--directory-fallback { display: none; }
+
+/* 送れないときは塗りを外し、点線の枠と控えめな字にする（不透明度だけでは有効な主ボタンに見える）。 */
+.v2-reply__submit:disabled {
+  border: 1px dashed var(--line-strong);
+  background: transparent;
+  color: var(--text-meta, var(--muted));
+  cursor: not-allowed;
+  opacity: 1;
+}

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "accountVersion": 2,
+  "network": "kaia-kairos",
+  "chainId": 1001,
+  "status": "active",
+  "entryPoint": "0x4337084D9E255Ff0702461CF8895CE9E3b5Ff108",
+  "senderCreator": "0x449ED7C3e6Fee6a97311d4b55475DF59C44AdD33",
+  "factory": "0xE4E5dc64A1275C0568333c18d00C08D666554aba",
+  "implementation": "0x852DC7243b717db3327F852C6335B5FEF1E10Ad7",
+  "validator": "0x1D981460D0244dB3fff3Fcb56d6b2437Bd38D81D",
+  "policy": "0x44Ce285231958706d336430d1fCF97e30D148e2a",
+  "factoryCodeHash": "0x26449e9e3a20eacdce363fb61c7d50596000045b55a749d6f8ec1d4dee920b75",
+  "implementationCodeHash": "0x4a089a63e027c3d03baeb1de2d10e11b2b0df6a66fccf704c949d5f077b5387b",
+  "validatorCodeHash": "0xf03d5bbea51e74a41319b91d8efb91124c8ac975cbb27672505b35a36794007e",
+  "policyCodeHash": "0x91278a9d67bd272a91719470b19dc4ff5934abdb3c26cca8d7851027d1e8f57c",
+  "deploymentTransaction": "0x4a9d242f2ebe481275d9a0b06acb312281266a41c5a7b9110dd3705f644a3f79",
+  "deployedAt": "2026-08-22T17:25:07.505Z",
+  "manifestSigner": "0x307e6115eddb7cA3996804E30C3396034e04cb0d",
+  "manifestSignature": "0xd55d37902cceaf56dd6d3905f69ab2ab026c75660ad0d55beb5e8f32fbfad8bb434c7da80de56d47005ae2c983178186c30fd4090f45d93756bdb587ed6210f01b"
+}

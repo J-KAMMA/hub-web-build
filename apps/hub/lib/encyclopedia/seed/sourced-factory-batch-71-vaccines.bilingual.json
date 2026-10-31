@@ -1,0 +1,2283 @@
+[
+  {
+    "slug": "vaccines-lives-saved",
+    "topicType": "concept",
+    "categoryLabel": "医学・健康",
+    "title": "ワクチンが救った命",
+    "summary": "予防接種によって回避された死亡数の推計と、その規模・方法・限界を扱う概念。基礎となる研究では過去50年間で1億5400万人の死亡が回避され、その大半が5歳未満の子どもだったと推定されている。麻疹ワクチン単独で9400万人を占め、天然痘根絶やポリオ根絶間近の事例とともに、接種率・供給網の制約という現実的な限界も併せて示される。",
+    "bodyMarkdown": "## 推計の規模\n\n1974年の時点で、世界の乳児のうちジフテリア・百日咳・[破傷風](/hubpedia/tetanus)の3種混合ワクチン(DTP3)を接種していたのは5%未満だった。それから半世紀後、基礎となる研究は過去50年間で1億5400万人の死亡が回避され、うち1億4600万人が5歳未満の子どもだったと推定している。子どもに限れば1億5000万人という数字が示され、これは10秒に1人の子どもが致命的な病気から救われている計算にあたる。 [1][2][16][23]\n\n同じ規模を別の時間単位に置き換えると、毎分およそ6人、1時間あたり約360人、1日あたり約8,640人、年間では約320万人となる。これらはいずれも同一の推計を異なる分母で表したものであり、独立した観測値ではない。推計である以上、前提となるモデルや対象疾患の選び方によって数値は動きうる。 [40][49]\n\n効果の内訳は疾患ごとに大きく偏っている。麻疹ワクチンだけで9400万人の命を救ったと推定され、全体の60%以上を占める最大の寄与となっている。地域別では、アフリカで5000万人以上、東南アジアで3800万人の子どもが救われたと推計され、すべての地域で500万人以上という下限が示されている。 [3][14][34][36]\n\n## ワクチンが働く仕組み\n\n[ワクチン](/hubpedia/vaccination)は、病原体が重篤な発症を引き起こす前に、免疫系がそれを認識して戦えるよう安全に訓練することで機能する。効果は接種を受けた個人にとどまらない。十分な人数が接種を受けると、健康上の理由などで接種できない人々を含め、地域社会全体が守られる。 [24][25]\n\nただし、この集団レベルの防御に必要な接種率は疾患によって異なる。麻疹のように容易に広がる疾患では、集団免疫を達成して流行を防ぐために通常90%を超える接種率が必要とされる。世界の麻疹ワクチン接種率は2000年の20%未満から現在は70%以上へ上昇したが、この水準はなお流行阻止に必要とされる線を下回っている。 [19][30]\n\n## 開発の年表\n\n1796年、エドワード・ジェンナーが牛痘を用いて世界初の天然痘ワクチンを開発した。次のワクチンである狂犬病ワクチンが登場するまでには、そこからほぼ1世紀を要している。その後ルイ・パスツールやロベルト・コッホらが狂犬病、コレラ、炭疽のワクチンを開発した。 [4][26][27]\n\n20世紀半ばには、後に最大の効果をもたらす二つの系統が実用化する。ジョナス・ソークの不活化ポリオワクチンが1955年、アルバート・セービンの経口ポリオワクチンが1960年に導入され、感染を止めて症例を劇的に減少させた。ウイルス学者ジョン・エンダースが最初の有効な麻疹ワクチンを開発し、1963年に導入されて広く使われるようになると、麻疹の症例数は急減した。ワクチン普及以前、麻疹ウイルスはほとんどの子どもに感染し、多数の死者を出していた。現在使用されている高効性の麻疹ワクチンも、エンダースのワクチンに用いられた元の株に由来する。 [31][32][33][43][44]\n\n認可の時期には段差がある。ジフテリアから破傷風までの疾患に対するワクチンは1980年より前に認可されていたのに対し、残る5つの疾患に対するワクチンが認可または推奨されたのは1980年から2005年の間だった。開発速度そのものも変化しており、COVID-19[パンデミック](/hubpedia/pandemic)期のmRNAワクチン技術の進歩により、ワクチンを数年ではなく数か月で開発・更新できるようになった。 [8][9][28]\n\n## 接種を広げた制度\n\n世界規模の推計が可能になった背景には、接種を組織的に広げる仕組みの成立がある。1974年、WHOの意思決定機関である世界保健総会がExpanded Programme on Immunization(予防接種拡大計画)を設立した。開始後まもなく接種率は世界の子どもの60%以上へ拡大したと推定されている。現在では乳児の80%以上がDTP3ワクチンの必要な接種をすべて受けており、子どもの84%が結核ワクチンを、80%がポリオとB型肝炎のワクチンを接種している。 [17][18][20][38]\n\n資金と調達の面では、Gavi(ワクチンアライアンス)がビル&メリンダ・ゲイツ財団、WHO、ユニセフ、世界銀行の連携によって設立されている。もっとも接種率は世界で均一ではない。ヨーロッパ・アジア・北米の国々は、アフリカや南米の国々よりも接種率が高い傾向にある。 [6][45]\n\n## 根絶に至った疾患と近づいている疾患\n\n天然痘は1980年に予防接種を通じて世界的に[根絶](/hubpedia/disease-eradication)され、ワクチンの成功を示す最大の例とされている。WHOは1959年に天然痘根絶決議を採択し、1967年から根絶キャンペーンを強化、1977年に最後の症例が記録された。 [5][29]\n\n天然痘が根絶できた理由は、ワクチンの存在だけではない。このウイルスはヒトのみに感染し、症状が判別しやすく、ワクチンが安価で効果的だったため、保健従事者が感染拡大を効果的に封じ込めることができた。つまり根絶の可否は、ワクチンの性能と病原体側の性質の組み合わせに左右される。 [41]\n\nポリオは根絶に近づいており、達成されれば天然痘に次いでヒトの疾患として2例目の根絶となる。一方、接種率が高い疾患であっても根絶と同義ではない。結核ワクチンの接種率は子どもの84%に達しているが、結核により年間100万人以上が今なお死亡している。 [20][21][22]\n\n## 乳児死亡率への寄与\n\n世界の[乳児死亡率](/hubpedia/child-mortality)は1974年の約10%から現在は3%未満へと、3分の2以上減少した。研究によれば、このうち予防接種は乳児死亡率を40%減少させたと推定されている。逆に言えば、死亡率低下の残りの部分は予防接種以外の要因に帰せられており、ワクチンは大きな寄与要因の一つではあっても唯一の要因ではない。 [15][37]\n\n国レベルでは、米国においていくつかの疾患について症例と死亡が100%減少し、他の多くの疾患でも大幅な減少が達成されたと報告されている。 [42]\n\n## 供給と到達の制約\n\nワクチンが存在することと、それが接種されることは同じではない。脆弱な医療インフラと不安定なコールドチェーン(低温保存の仕組み)により、ワクチンを適切な温度に保つことが難しくなる。政治的不安定、紛争、資金不足、経済危機も供給を妨げる。生産の遅れ、製造能力の制約、輸送の問題といったサプライチェーンのボトルネックも、特に僻地や紛争の影響を受ける地域で不足の一因となっている。 [10][11][12]\n\n不足は例外的な事態ではない。2022年には約90か国が少なくとも1種類のワクチンの不足を報告した。報告が最も多かったのは経口ポリオ、DTP、BCGのワクチンで、肺炎球菌感染症に対するワクチンも、より小さい程度ではあるが不足に見舞われた。WHOはワクチンについて3か月分の緩衝在庫を保有することを推奨している。 [35][46][47][50]\n\nこうした不足は予防接種の実施を遅らせ、感染症の集団発生のリスクを高める。 [13]\n\n## 今後の見込み\n\n新たな疾患への拡張も進んでいる。現在推奨されているマラリアワクチンは2種類あり、毎年数十万人の子どもを救う可能性があるとされる。これは実績ではなく見込みであり、実際の効果は接種の到達範囲に左右される。ワクチンはこれまで、麻疹、ポリオ、天然痘などの致命的な病気を防ぐことで数億人の命を救ってきたと推定されている。 [7][39]\n\n## 関連記事\n\n- [国際保健](/hubpedia/global-health)\n- [ワクチンへの不信](/hubpedia/vaccine-hesitancy)\n- 予防接種政策\n- [平均寿命](/hubpedia/life-expectancy)",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/vaccines-children-saved",
+        "title": "ワクチンが救った命",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on vaccines-lives-saved. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/vaccination",
+        "title": "vaccination",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Vaccination coverage behind the estimate. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Lives Saved by Vaccines",
+        "summary": "A concept covering estimates of the number of deaths averted through immunization, along with its scale, methodology, and limitations. The underlying research estimates that 154 million deaths were averted over the past 50 years, the majority of them children under five. Measles vaccine alone accounts for 94 million, and alongside cases such as the eradication of smallpox and the near-eradication of polio, the practical limits of coverage rates and supply networks are presented as well.",
+        "bodyMarkdown": "## The scale of the estimate\n\nAs of 1974, fewer than 5% of the world's infants had received the three-in-one vaccine against diphtheria, pertussis, and [tetanus](/hubpedia/tetanus) (DTP3). Half a century later, the underlying research estimates that 154 million deaths were averted over the past 50 years, of which 146 million were children under five. For children alone, the figure given is 150 million, which works out to one child saved from a fatal disease every 10 seconds. [1][2][16][23]\n\nExpressing the same scale in other units of time gives roughly 6 people per minute, about 360 per hour, about 8,640 per day, and about 3.2 million per year. All of these are the same estimate expressed over different denominators, not independent observations. Being estimates, the figures can shift depending on the underlying model and the choice of diseases covered. [40][49]\n\nThe breakdown of the effect is heavily skewed by disease. Measles vaccine alone is estimated to have saved 94 million lives, the single largest contribution, accounting for more than 60% of the total. By region, more than 50 million children are estimated to have been saved in Africa and 38 million in South-East Asia, with a floor of more than 5 million in every region. [3][14][34][36]\n\n## How vaccines work\n\n[Vaccines](/hubpedia/vaccination) work by safely training the immune system to recognize and fight a pathogen before it can cause serious illness. The effect does not stop with the individual who receives the shot. When enough people are vaccinated, the whole community is protected, including those who cannot be vaccinated for reasons such as their health. [24][25]\n\nHowever, the coverage rate required for this population-level protection differs by disease. For easily spread diseases such as measles, coverage above 90% is generally required to achieve herd immunity and prevent outbreaks. Global measles vaccine coverage has risen from under 20% in 2000 to more than 70% today, but this level still falls below the line said to be needed to stop outbreaks. [19][30]\n\n## A timeline of development\n\nIn 1796, Edward Jenner used cowpox to develop the world's first smallpox vaccine. Nearly a century passed before the next vaccine, against rabies, appeared. Louis Pasteur, Robert Koch, and others then developed vaccines against rabies, cholera, and anthrax. [4][26][27]\n\nIn the middle of the 20th century, the two lines that would later produce the greatest effect came into practical use. Jonas Salk's inactivated polio vaccine was introduced in 1955 and Albert Sabin's oral polio vaccine in 1960, halting transmission and dramatically reducing cases. The virologist John Enders developed the first effective measles vaccine, and after its introduction in 1963 and widespread adoption, measles cases fell sharply. Before vaccines became widespread, the measles virus infected most children and caused many deaths. The highly effective measles vaccines in use today also derive from the original strain used in Enders's vaccine. [31][32][33][43][44]\n\nThere is a step change in the timing of licensure. Vaccines against diseases from diphtheria through tetanus were licensed before 1980, whereas vaccines against the remaining five diseases were licensed or recommended between 1980 and 2005. The pace of development itself has also changed: advances in mRNA vaccine technology during the COVID-19 [pandemic](/hubpedia/pandemic) made it possible to develop and update vaccines in months rather than years. [8][9][28]\n\n## The institutions that expanded coverage\n\nBehind the possibility of global estimates lies the establishment of systems for expanding immunization in an organized way. In 1974, the World Health Assembly, the decision-making body of the WHO, established the Expanded Programme on Immunization. Shortly after it began, coverage is estimated to have expanded to more than 60% of the world's children. Today more than 80% of infants receive all the required doses of the DTP3 vaccine, while 84% of children receive the tuberculosis vaccine and 80% receive the polio and hepatitis B vaccines. [17][18][20][38]\n\nOn the funding and procurement side, Gavi (the Vaccine Alliance) was established through a partnership of the Bill & Melinda Gates Foundation, the WHO, UNICEF, and the World Bank. Coverage is not uniform across the world, however. Countries in Europe, Asia, and North America tend to have higher coverage rates than countries in Africa and South America. [6][45]\n\n## Diseases eradicated and diseases close to it\n\nSmallpox was globally [eradicated](/hubpedia/disease-eradication) through immunization in 1980, and is regarded as the greatest example of vaccine success. The WHO adopted a resolution on smallpox eradication in 1959, intensified the eradication campaign from 1967, and the last case was recorded in 1977. [5][29]\n\nThe existence of a vaccine was not the only reason smallpox could be eradicated. The virus infects only humans, its symptoms are easy to identify, and the vaccine was cheap and effective, so health workers were able to contain its spread effectively. In other words, whether eradication is possible depends on the combination of vaccine performance and the properties of the pathogen itself. [41]\n\nPolio is approaching eradication, and if achieved it would be the second human disease eradicated after smallpox. On the other hand, high coverage for a disease is not the same as eradication. Coverage of the tuberculosis vaccine has reached 84% of children, yet tuberculosis still kills more than a million people every year. [20][21][22]\n\n## Contribution to infant mortality\n\nGlobal [infant mortality](/hubpedia/child-mortality) has fallen by more than two-thirds, from about 10% in 1974 to under 3% today. Research estimates that immunization accounts for a 40% reduction in infant mortality. Put the other way, the remainder of the decline in mortality is attributed to factors other than immunization; vaccines are one major contributing factor, but not the only one. [15][37]\n\nAt the national level, the United States is reported to have achieved a 100% reduction in cases and deaths for several diseases, and substantial reductions for many others. [42]\n\n## Constraints on supply and reach\n\nA vaccine existing is not the same as a vaccine being administered. Fragile health infrastructure and unstable cold chains (systems for keeping vaccines refrigerated) make it difficult to hold vaccines at the proper temperature. Political instability, conflict, underfunding, and economic crises also impede supply. Supply chain bottlenecks such as production delays, manufacturing capacity constraints, and transport problems likewise contribute to shortages, particularly in remote and conflict-affected areas. [10][11][12]\n\nShortages are not exceptional events. In 2022, roughly 90 countries reported a shortage of at least one vaccine. The most frequently reported were oral polio, DTP, and BCG vaccines, while vaccines against pneumococcal disease were also affected, though to a lesser degree. The WHO recommends holding a three-month buffer stock of vaccines. [35][46][47][50]\n\nSuch shortages delay the delivery of immunization and raise the risk of infectious disease outbreaks. [13]\n\n## The outlook ahead\n\nExtension to new diseases is also advancing. Two malaria vaccines are currently recommended, and they are said to have the potential to save hundreds of thousands of children each year. This is a prospect rather than a record, and the actual effect will depend on how far immunization reaches. Vaccines are estimated to have saved hundreds of millions of lives to date by preventing fatal diseases such as measles, polio, and smallpox. [7][39]\n\n## Related articles\n\n- [Global health](/hubpedia/global-health)\n- [Vaccine hesitancy](/hubpedia/vaccine-hesitancy)\n- Vaccination policy\n- [Life expectancy](/hubpedia/life-expectancy)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T12:26:10.442Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "ワクチンにより10秒に1人の子どもが致命的な病気から救われている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccines-children-saved",
+              "quote": "Every ten seconds, one child is saved by a vaccine against a fatal disease."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "過去50年間で1億5000万人の子どもがワクチンによって救われた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccines-children-saved",
+              "quote": "Over the last 50 years, that adds up to 150 million children."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "麻疹ワクチンは過去50年間で9400万人の命を救い、全体の60%以上を占める最大の効果をもたらした。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccines-children-saved",
+              "quote": "Vaccination against measles has had the biggest impact, saving 94 million lives over the last 50 years — more than 60% of the total."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "1796年、エドワード・ジェンナーが牛痘を用いて世界初の天然痘ワクチンを開発した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "The first came in 1796, when Edward Jenner created the first smallpox vaccine, using cowpox to trigger immunity."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "天然痘は1980年にワクチン接種を通じて世界的に根絶され、ワクチンの成功を示す最大の例となっている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "The greatest example of the success of vaccination has been smallpox, which was eradicated worldwide in 1980 through vaccination."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "Gavi(ワクチンアライアンス)はビル&メリンダ・ゲイツ財団、WHO、ユニセフ、世界銀行の連携によって設立された。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccines-children-saved",
+              "quote": "Gavi, the Vaccine Alliance — a partnership between the Bill and Melinda Gates Foundation, the WHO, Unicef, and the World Bank — was formed to close the gaps and ensure vaccination programs were available for all."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "ワクチンは麻疹、ポリオ、天然痘などの致命的な病気を防ぐことで数億人の命を救ってきた。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "They have saved hundreds of millions of lives by preventing deadly diseases like measles, polio, and smallpox."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "ジフテリアから破傷風までの疾患に対するワクチンは1980年より前に認可されていた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "The vaccines against the diseases listed from diphtheria to tetanus were licensed before 1980."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "残る5つの疾患に対するワクチンは、1980年から2005年の間になってようやく認可または推奨された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "The vaccines against the last 5 diseases were only licensed or recommended between 1980 and 2005."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "脆弱な医療インフラと不安定なコールドチェーン(低温保存の仕組み)により、ワクチンを適切な温度に保つことが難しくなっている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "Weak healthcare infrastructure and unreliable cold storage systems make it difficult to keep vaccines at the right temperature."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "政治的不安定、紛争、資金不足、経済危機もワクチンの供給を妨げることがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "Political instability, conflicts, funding shortages, and economic crises can also disrupt vaccine deliveries."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "生産の遅れ・製造能力の制約・輸送の問題といったサプライチェーンのボトルネックも、特に僻地や紛争の影響を受ける地域でワクチン不足の一因となっている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "Supply chain bottlenecks — such as production delays, limited manufacturing, and transportation issues — also play a role, especially in remote or conflict-affected areas."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "こうしたワクチンの不足は予防接種の実施を遅らせ、感染症の集団発生のリスクを高める。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "These shortages delay vaccinations and increase the risk of disease outbreaks."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "アフリカでは5000万人以上、東南アジアでは3800万人の子どもがワクチンにより救われた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccines-children-saved",
+              "quote": "including over 50 million in Africa and 38 million in Southeast Asia"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "世界の乳児死亡率は1974年の約10%から現在は3%未満へと、3分の2以上減少した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccines-children-saved",
+              "quote": "Globally, they’ve fallen by over two-thirds, from around 10% in 1974 to less than 3% today."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "50年前、ジフテリア・百日咳・破傷風の3種混合ワクチン(DTP3)を接種していた乳児は5%未満だった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccines-children-saved",
+              "quote": "fewer than 5% of infants received the vaccine against diphtheria, pertussis, and tetanus (DTP3)"
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "1974年、WHOの意思決定機関である世界保健総会がExpanded Programme on Immunization(予防接種拡大計画)を設立した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccines-children-saved",
+              "quote": "In 1974, the World Health Assembly – the WHO’s decision-making body – formed the Essential Programme on Immunization"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "現在、乳児の80%以上がDTP3ワクチンの必要な接種をすべて受けている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccines-children-saved",
+              "quote": "More than 80% of infants get all necessary doses of the DTP3 vaccine."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "麻疹ワクチンの世界的な接種率は2000年の20%未満から現在は70%以上に増加した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccines-children-saved",
+              "quote": "global vaccination against measles has increased from less than 20% in 2000 to over 70% today"
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "子どもの84%が結核ワクチンを、80%がポリオとB型肝炎のワクチンを接種している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccines-children-saved",
+              "quote": "84% of children are also vaccinated against tuberculosis, and 80% against polio and Hepatitis B."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "結核により年間100万人以上が今なお死亡している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccines-children-saved",
+              "quote": "More than a million people still die from tuberculosis every year."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "ポリオは根絶に近づいており、根絶されれば天然痘に次いでヒトの疾患として2例目の根絶となる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccines-children-saved",
+              "quote": "The world is also close to eradicating polio, which would make it the second human disease to be eradicated (the first was smallpox)."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "基礎となる研究では、過去50年間で1億5400万人の死亡が回避され、そのうち1億4600万人が5歳未満の子どもだったと推定されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccines-children-saved",
+              "quote": "The underlying study estimates that 154 million deaths have been averted, with 146 million of those among children younger than five."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "ワクチンは、病原体が重篤な発症を引き起こす前に免疫系がそれを認識し戦えるよう、安全に訓練することで機能する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "Vaccines work by safely training the immune system to recognize and fight pathogens before they can cause serious illness."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "十分な人数がワクチン接種を受けると、接種できない人々も含め地域社会全体が守られる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "When enough people are vaccinated, entire communities are protected, including those who can’t get vaccinated."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "天然痘ワクチンの後、次のワクチン(狂犬病用)が開発されるまでにほぼ1世紀を要した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "After the smallpox vaccine, it took almost a century for the next vaccine to be developed, this time against rabies."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "ルイ・パスツールとロベルト・コッホらは狂犬病、コレラ、炭疽のワクチンを開発した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "scientists like Louis Pasteur and Robert Koch were able to develop vaccines for rabies, cholera, and anthrax"
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "COVID-19パンデミック期のmRNAワクチン技術の進歩により、ワクチンを数年でなく数か月で開発・更新できるようになった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "During the COVID-19 pandemic, advances in mRNA vaccine technology made it possible to develop and update vaccines in months rather than years."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "WHOは1959年に天然痘根絶決議を採択し、1967年から根絶キャンペーンを強化、1977年に最後の症例が記録された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "the WHO’s resolution to eradicate the disease in 1959, the intensified eradication campaign from 1967, and the last recorded case in 1977"
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "麻疹のように容易に広がる疾患では、集団免疫を達成し流行を防ぐために通常90%を超える高いワクチン接種率が必要とされる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "For diseases that spread easily, like measles, very high vaccination coverage — typically above 90% — is needed to reach herd immunity and prevent outbreaks."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "ウイルス学者ジョン・エンダースが最初の有効な麻疹ワクチンを開発した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "That became possible thanks to John Enders, a virologist who developed the first effective measles vaccine."
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "エンダースの麻疹ワクチンは1963年に導入され広く使われるようになると、麻疹の症例数は急減した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "After Enders’ vaccine was introduced in 1963 and became widely used, measles cases plummeted."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "ジョナス・ソークの不活化ポリオワクチンは1955年に、アルバート・セービンの経口ポリオワクチンは1960年に導入され、感染を止め症例を劇的に減少させた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "Jonas Salk’s inactivated polio vaccine, introduced in 1955, and Albert Sabin’s oral polio vaccine, introduced in 1960, stopped transmission and dramatically reduced cases."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "麻疹ワクチンだけで9400万人の命が救われ、最も効果の大きいワクチンとなっている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "Measles vaccination alone has saved 94 million lives, making it the most impactful vaccine."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "2022年には約90か国が少なくとも1種類のワクチンの不足を報告した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "around 90 countries reported shortages of at least one vaccine in 2022"
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "ワクチンによって、すべての地域で500万人以上の子どもが救われた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccines-children-saved",
+              "quote": "with more than 5 million children saved in every region"
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "研究によれば、ワクチン接種は乳児死亡率を40%減少させたと推定されている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccines-children-saved",
+              "quote": "The study’s researchers estimate vaccinations have reduced infant mortality by 40%."
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "予防接種拡大計画の開始後まもなく、世界の子どもの60%以上にワクチン接種率が拡大した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccines-children-saved",
+              "quote": "expanding to over 60% of the world’s children"
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "現在推奨されているマラリアワクチンは2種類あり、毎年数十万人の子どもを救う可能性がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccines-children-saved",
+              "quote": "There are now two recommended malaria vaccines that could potentially save hundreds of thousands of children every year."
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "毎分約6人の子どもがワクチンによって救われていると推定され、年間では約320万人にのぼる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccines-children-saved",
+              "quote": "It's estimated that around 6 children are saved every minute. That's about 3.2 million children per year."
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "天然痘ウイルスはヒトのみに感染し症状が判別しやすく、ワクチンが安価で効果的だったため、保健従事者が感染拡大を効果的に封じ込めることができた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "Because the virus only infected humans (but not other animals), had distinguishable symptoms, and the vaccine was cheap and effective, health workers could effectively contain the spread of the virus."
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "米国ではいくつかの疾患について症例と死亡が100%減少し、他の多くの疾患でも大幅な減少を達成した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "The US has achieved a 100% reduction of cases and deaths for several diseases, and a very substantial decrease for many others."
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "現在使用されている高効性の麻疹ワクチンは、エンダースのワクチンに用いられた元の株に由来する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "The highly effective measles vaccines used today are derived from the original strain in Enders’ vaccine."
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "ワクチン普及以前、麻疹ウイルスはほとんどの子どもに感染し、多数の死者を出していた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "Before vaccination, the measles virus infected most children, killing millions"
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "statement": "ヨーロッパ・アジア・北米の国々は、アフリカや南米の国々よりもワクチン接種率が高い傾向にある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "vaccination rates tend to be higher in countries in Europe, Asia, and North America than in Africa and South America"
+            }
+          ]
+        },
+        {
+          "index": 46,
+          "statement": "不足が最も多く報告されたのは経口ポリオ、DTP、BCGのワクチンだった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "The most common were oral polio, DTP, and BCG vaccines — critical for preventing polio and tuberculosis."
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "statement": "WHOはワクチンについて3か月分の緩衝在庫を保有することを推奨している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "The WHO recommends a three-month buffer stock of vaccines"
+            }
+          ]
+        },
+        {
+          "index": 49,
+          "statement": "ワクチンによって1日あたり約8,640人(1時間あたり360人)の子どもが救われていると推定される。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccines-children-saved",
+              "quote": "The true figure is around 8,640. Approximately 6 children are saved per minute. That’s 360 per hour, or 8,640 in 24 hours."
+            }
+          ]
+        },
+        {
+          "index": 50,
+          "statement": "肺炎球菌感染症に対するワクチンも、より小さい程度ではあるが不足に見舞われた。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "pneumococcal disease faced shortages, though to a lesser extent."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "vaccine-hesitancy",
+    "topicType": "concept",
+    "categoryLabel": "心理・こころ",
+    "title": "ワクチンへの不信",
+    "summary": "ワクチンの安全性や有効性を疑い、接種をためらう態度。世界全体では9割以上がワクチンは子どもにとって重要だと考える一方、フランスのように高所得で接種率も高い国で安全性への不信が突出する例があり、不信の広がりと実際の接種率は必ずしも一致しない。誤情報の拡散が懐疑を強めているとの指摘があり、事実に基づく公的な反論の効果を検討した研究もある。",
+    "bodyMarkdown": "## 不信の広がりと接種率の食い違い\n\nワクチンへの不信とは、ワクチンの安全性や必要性を疑い、接種をためらう態度を指す。世界全体で見れば、この態度は多数派ではない。人々の92%は、ワクチンが子どもにとって重要だと考えている。 [1]\n\nただし国ごとの差は大きい。フランスでは回答者の3人に1人が、ワクチンは安全だという意見に同意しなかった。フランスは医療従事者への信頼が比較的高い国であるにもかかわらず、ワクチンの安全性を最も信頼していない国の一つに数えられる。 [2][9]\n\n不信の強さは、そのまま接種行動に現れるとは限らない。フランスでは国民の3分の1が安全性に同意しない一方で、子どもの97%は[ワクチン接種](/hubpedia/vaccination)を受けている。態度としての懐疑と、実際に打つかどうかは別の問題である。 [3]\n\n## 接種率が低い国で何が起きているか\n\n接種率の低さを懐疑心で説明しようとすると、多くの場合は説明に失敗する。貧しい国々で接種率が低いのは、懐疑が強いためではないことが多い。調査によれば、多くの低所得国ではワクチンへの信頼はむしろ概して高い。ワクチンが子どもにとって重要だと考える人が多い国でも、接種率が低い場合は少なくない。 [10][23][24]\n\n逆の組み合わせも存在する。接種率が高い一部の高所得国では、ワクチンへの公的な信頼はむしろ低いと報告されている。両方向の食い違いを合わせると、安全性への懸念の広がりは予防接種率と強い相関があるようには見えない。 [11][22]\n\nウクライナは、懐疑と低接種率が重なった例として挙げられる。同国の接種率は所得水準に比して異例に低く、DTPワクチンを受ける子どもは4人に1人に満たない。安全性への懐疑も15%と高い水準にある。 [4][5]\n\n## ヨーロッパの麻疹流行\n\n接種率の低下は感染症の再燃という形で現れる。2019年の最初の2か月間だけで、ヨーロッパでは麻疹の症例が34,000件以上報告された。このうち70%以上をウクライナが占めた。 [6][7]\n\nウクライナ、アルバニア、ルーマニアでは、麻疹の一部症例が子どもの死亡につながった。 [8]\n\n## 不信と結びつく要因\n\nワクチンの安全性への不信が強い国は、医療従事者への信頼も低い傾向がある。ただしフランスのように、医療従事者への信頼が比較的高いままワクチンへの不信が突出する例もあり、両者は完全には重ならない。 [9][12]\n\n科学的理解の乏しさも、ワクチンへの信頼と接種率を低下させ得る要因として挙げられている。また、ワクチンへの懐疑が近年高まっている一因として、ソーシャルメディア上での誤情報の拡散が指摘されている。 [13][26]\n\n## 誤情報への対応\n\n誤情報の拡散を受けて、米国と英国の政治家はソーシャルメディア企業に対し、反ワクチンのメッセージを禁止または規制するよう求めた。アダム・シフがGoogleとFacebookのCEOに行動を求めたことが一連の対応を引き起こし、英国保健相マット・ハンコックも同様の要求を行った。 [14][15][16]\n\n規制とは別に、反論そのものの効果を検討した研究もある。Nature誌に掲載されたある研究は、ワクチン接種と気候変動に関する科学的誤情報への反論が、公的な議論でどれだけ有効かを検討した。 [17]\n\nこの研究では、反論を伴わずに否定論に触れることは、ワクチンへの信頼と支持に悪影響を与えた。一方で、事実を提示して反論することは、公衆の態度に良い影響を与えたと報告されている。 [18][19]\n\n効果の大きさは相手によって異なった。反論は米国において、リベラル層よりも保守層に対してより大きな好影響を与えた。より一般には、科学否定論の影響を受けやすい既存の信念やイデオロギーを持つ層に対して特に効果的だったとされる。こうした結果は、事実に基づく公的な反論が誤情報への対抗手段として有効であることを示す証拠と位置づけられている。 [20][21][25]\n\n## 関連記事\n\n- 予防接種政策\n- [国際保健](/hubpedia/global-health)\n- [乳幼児死亡率](/hubpedia/child-mortality)\n- [ワクチンが救った命](/hubpedia/vaccines-lives-saved)\n- [疾病の根絶](/hubpedia/disease-eradication)",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/vaccine-skepticism",
+        "title": "ワクチンへの不信",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on vaccine-hesitancy. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/vaccination",
+        "title": "vaccination",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "The programmes hesitancy affects. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Vaccine distrust",
+        "summary": "An attitude of doubting the safety or effectiveness of vaccines and hesitating to be vaccinated. Worldwide, more than 90% of people consider vaccines important for children, yet in some high-income countries with high coverage — France among them — distrust of vaccine safety stands out, so the spread of distrust does not necessarily match actual vaccination rates. The spread of misinformation has been identified as intensifying this skepticism, and research has examined how effective fact-based public rebuttals are.",
+        "bodyMarkdown": "## The mismatch between distrust and vaccination rates\n\nVaccine distrust refers to an attitude of doubting the safety or necessity of vaccines and hesitating to be vaccinated. Seen worldwide, this attitude is not the majority view. 92% of people consider vaccines important for children. [1]\n\nDifferences between countries are large, however. In France, one in three respondents did not agree with the statement that vaccines are safe. Even though France is a country with comparatively high trust in medical staff, it ranks among the countries with the least trust in the safety of vaccines. [2][9]\n\nThe strength of distrust does not necessarily show up directly in vaccination behavior. While a third of the French population does not agree that vaccines are safe, 97% of children receive [vaccination](/hubpedia/vaccination). Skepticism as an attitude and whether people actually get vaccinated are separate questions. [3]\n\n## What is happening in countries with low vaccination rates\n\nAttempts to explain low vaccination rates by skepticism usually fail. In poorer countries, low coverage is often not the result of strong skepticism. Surveys indicate that in many low-income countries trust in vaccines is on the whole rather high. There are plenty of countries where many people consider vaccines important for children yet coverage is low. [10][23][24]\n\nThe reverse combination also exists. In some high-income countries with high coverage, public trust in vaccines is reported to be comparatively low. Taking both directions of mismatch together, the prevalence of safety concerns does not appear to be strongly correlated with immunization rates. [11][22]\n\nUkraine is cited as a case where skepticism and low coverage overlap. The country's vaccination rate is exceptionally low for its income level, with fewer than one in four children receiving the DTP vaccine. Safety skepticism is also high, at 15%. [4][5]\n\n## The measles outbreak in Europe\n\nFalling vaccination rates show up as a resurgence of infectious disease. In the first two months of 2019 alone, more than 34,000 cases of measles were reported in Europe. Ukraine accounted for over 70% of them. [6][7]\n\nIn Ukraine, Albania and Romania, some measles cases led to the deaths of children. [8]\n\n## Factors linked to distrust\n\nCountries with strong distrust of vaccine safety also tend to have low trust in medical staff. The two do not overlap completely, however: France is a case where distrust of vaccines stands out even as trust in medical staff remains comparatively high. [9][12]\n\nA weak grasp of science has also been cited as a factor that can lower both trust in vaccines and vaccination rates. In addition, the spread of misinformation on social media has been identified as one reason vaccine skepticism has risen in recent years. [13][26]\n\n## Responding to misinformation\n\nIn response to the spread of misinformation, politicians in the United States and the United Kingdom called on social media companies to ban or regulate anti-vaccine messaging. Adam Schiff's call for action addressed to the CEOs of Google and Facebook set off a series of responses, and UK Health Secretary Matt Hancock made similar demands. [14][15][16]\n\nApart from regulation, research has also examined the effectiveness of rebuttal itself. One study published in Nature examined how effective rebuttals of scientific misinformation about vaccination and climate change are in public debate. [17]\n\nIn that study, exposure to denialism without any rebuttal had a negative effect on trust in and support for vaccines. Rebuttal that presented the facts, by contrast, was reported to have a positive effect on public attitudes. [18][19]\n\nThe size of the effect varied by audience. In the United States, rebuttal had a greater positive effect on conservatives than on liberals. More generally, it was said to be especially effective for those whose existing beliefs and ideology make them susceptible to science denialism. These results are presented as evidence that fact-based public rebuttal is an effective countermeasure against misinformation. [20][21][25]\n\n## Related articles\n\n- Vaccination policy\n- [Global health](/hubpedia/global-health)\n- [Child mortality](/hubpedia/child-mortality)\n- [Lives saved by vaccines](/hubpedia/vaccines-lives-saved)\n- [Disease eradication](/hubpedia/disease-eradication)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T12:26:10.493Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "世界的には人々の92%が、ワクチンは子どもにとって重要だと考えている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccine-skepticism",
+              "quote": "most people (92%) globally think vaccines are important for children to have"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "フランスでは回答者の3人に1人が、ワクチンは安全だという意見に同意しなかった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccine-skepticism",
+              "quote": "In France, for example, 1-in-3 respondents disagreed that vaccines are safe."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "フランスでは国民の3分の1がワクチンの安全性に同意しない一方で、子どもの97%がワクチン接種を受けている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccine-skepticism",
+              "quote": "While one-third of the French public disagrees with their safety, 97% of children in France are vaccinated."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "ウクライナでは所得水準に比してワクチン接種率が異例に低く、DTPワクチンを受ける子どもは4人に1人未満である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccine-skepticism",
+              "quote": "vaccination rates are uncharacteristically low for its income level – less than 1-in-4 children receive the DTP vaccine"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "ウクライナにおけるワクチンの安全性への懐疑は15%と高い水準にある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccine-skepticism",
+              "quote": "Skepticism of vaccine safety in Ukraine is high at 15%."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "2019年最初の2か月間だけで、ヨーロッパでは麻疹の症例が34,000件以上報告された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccine-skepticism",
+              "quote": "there were more than 34,000 cases of measles in the first two months of 2019 alone"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "これらの麻疹症例の大半（70%以上）をウクライナが占めた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccine-skepticism",
+              "quote": "Ukraine accounted for the majority (more than 70%) of these cases."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "ウクライナ、アルバニア、ルーマニアでは、麻疹の一部症例が子どもの死亡につながった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccine-skepticism",
+              "quote": "here as well as in Albania and Romania some measles cases led to the death of children"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "フランスは医療従事者への信頼が比較的高いにもかかわらず、ワクチンの安全性を最も信頼していない国の一つである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccine-skepticism",
+              "quote": "France has relatively high trust in health staff, but are most mistrusting of vaccine safety."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "貧しい国々でワクチン接種率が低いのは、多くの場合、懐疑心の強さが理由ではない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "Poorer countries often have lower vaccination rates, but not due to greater skepticism"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "ワクチンの安全性への懸念の広がりは、予防接種率と強い相関があるようには見えない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccine-skepticism",
+              "quote": "widespread public concern for vaccine safety does not appear to be strongly correlated with vaccination rates"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "ワクチンの安全性への不信が強い国は、医療従事者への信頼も低い傾向がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccine-skepticism",
+              "quote": "countries with higher levels of distrust in the safety of vaccines tend to also have less trust in health professionals"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "ワクチンへの懐疑が高まっている一因として、ソーシャルメディア上での誤情報の拡散が挙げられている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccine-skepticism",
+              "quote": "One reason being attributed to higher skepticism is the spread of misinformation on social media."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "米国と英国の政治家は、ソーシャルメディア企業に対して反ワクチンのメッセージを禁止または規制するよう求めている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccine-skepticism",
+              "quote": "social and online media companies are being asked by politicians in the US and UK to ban or control anti-vaccination messaging"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "アダム・シフがGoogleとFacebookのCEOに行動を求めたことが、一連の対応を引き起こした。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccine-skepticism",
+              "quote": "A request for action by Adam Schiff to the CEOs of Google and Facebook sparked a cascade of responses."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "英国保健相マット・ハンコックも、ワクチン誤情報への対応を求める同様の要求を行った。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccine-skepticism",
+              "quote": "similar demands have been made since, from the UK Health Secretary Matt Hancock among others"
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "Nature誌に掲載されたある研究は、ワクチン接種と気候変動に関する科学的誤情報への反論の公的議論での有効性を検討した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccine-skepticism",
+              "quote": "A recent study published in Nature tried to address the question of what is effective in rebutting scientific misinformation in public discussions. Its analyses focused on misinformation on vaccination and climate change."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "反論を伴わずに否定論に触れることは、ワクチンへの信頼と支持に悪影響を与えた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccine-skepticism",
+              "quote": "being exposed to denial arguments without a rebuttal had a negative effect on trust and support of vaccination"
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "事実を提示して反論することは、公衆のワクチンに対する態度に良い影響を与えた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccine-skepticism",
+              "quote": "putting forward the facts or using similar techniques to denialist arguments in public discussion had positive effects on public attitudes"
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "反論は米国において、リベラル層よりも保守層に対してより大きな好影響を与えた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccine-skepticism",
+              "quote": "it suggests it had a larger positive impact on conservatives than liberals in the US"
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "事実に基づく公的な反論は、誤情報への対抗手段として有効であるという証拠がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccine-skepticism",
+              "quote": "evidence suggests that public rebuttal of facts is effective in countering misinformation"
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "接種率が高い一部の高所得国では、ワクチンへの公的な信頼はむしろ低いと報告されている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "some higher-income countries, where coverage is higher, report lower public trust in vaccines"
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "ワクチンが子どもにとって重要だと考える人が多い国でも、ワクチン接種率が低い場合が多い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "Many countries where more people agree that vaccines are important for children also have lower vaccination rates."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "ワクチンへの懐疑は一部の地域で役割を果たすが、調査によれば多くの低所得国ではワクチンへの信頼は概して高い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "Vaccine skepticism plays a role in some places, but surveys show vaccine confidence is generally high in many lower-income countries."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "反論は、科学否定論の影響を受けやすい既存の信念やイデオロギーを持つ層に対して特に効果的だった。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccine-skepticism",
+              "quote": "it was particularly beneficial among audiences with prior beliefs or an ideology that makes them particularly vulnerable to science deniers"
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "科学的理解の乏しさは、ワクチンへの信頼と接種率を低下させ得る。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/vaccination",
+              "quote": "poor scientific understanding can reduce trust and uptake"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "oral-rehydration",
+    "topicType": "concept",
+    "categoryLabel": "医学・健康",
+    "title": "経口補水療法",
+    "summary": "経口補水療法（ORT）は、水・塩・糖からなる単純な溶液を飲ませることで下痢による脱水を補う治療法である。1960年代後半にダッカなどで臨床試験が行われ、静脈内補水に頼らず家庭でも実施できる方法として広まった。医学誌ランセットはこれを「20世紀で最も重要な医学的進歩」と呼んでいる。",
+    "bodyMarkdown": "## 治療法の内容\n\n経口補水療法（ORT）は、水・塩・糖を混ぜた溶液で失われた水分を補いながら、患者に摂食を続けさせる治療法である。経口補水塩（ORS）とも呼ばれ、特別な医療の助けなしに口から投与できる点が最大の特徴である。1960年代に、科学者たちは家庭で簡単に使える低コスト版の溶液を開発した。 [1][2][5][12][13]\n\n効果は下痢の原因を問わない。コレラだけでなく、多くの下痢性疾患において水分喪失を効果的に補うことが確認されている。世界保健機関（WHO）は下痢を、1日に3回以上の軟便・水様便が出る状態と定義している。 [3][4][21]\n\n一方で、ORTは下痢そのものを止める薬ではない。死亡の可能性を下げ回復を早めるが、下痢の予防や停止をもたらすわけではない。この区別は、治療の限界を理解するうえで重要である。 [29]\n\n## 作用の仕組み\n\nORTが効くのは、腸内での糖とナトリウムの吸収を司る分子機構による。ロバート・K・クレインらの研究により、腸管内腔にナトリウムイオンが存在することが糖の吸収過程に不可欠であることが示された。細胞内で糖とナトリウムが増加すると、それに伴って水と塩化物イオンの吸収も増加する。塩と砂糖を同時に溶かすという一見素朴な配合が意味を持つのは、この仕組みのためである。 [31][32][39]\n\n電解質と糖の推奨配合量は固定されたものではなく、時代とともに変化してきた。現在では他の推奨される水分や亜鉛が併用されることが多く、それによって回復時間の短縮や再発リスクの低下が示されている。 [33]\n\n## 開発と普及の経緯\n\nORTの初期の臨床試験は1960年代後半、リチャード・キャッシュ医師とデイビッド・ナリン医師によって、現在のバングラデシュのダッカで行われた。当時、下痢の最も一般的な治療法は、病院で生理食塩水を静脈投与する、より高額な静脈内補水療法（IVT）だった。病院と器材と訓練された人手を必要とするこの方法は、流行時に真っ先に不足した。 [15][16]\n\nその限界が露呈したのが1971年のインド・パキスタン戦争に伴うコレラ流行である。流行の初期にはIVTの不足により患者の約30%が死亡した。ディリップ・マハラナビス医師は難民キャンプの人々に、塩と砂糖を水に溶かした袋を配り始めた。ORTで治療を受けた人々の間で、コレラなど下痢性疾患による致死率は、それ以前の30%から4%未満にまで低下した。 [17][18][28]\n\nWHOは1978年に下痢性疾患対策プログラムを創設し、世界的なORTの普及を後押しした。20世紀最後の20年間で、子どもの下痢性疾患による年間死亡者数は1980年の約480万人から2000年には120万人に減少した。 [19][20]\n\n## 費用と静脈内補水療法との比較\n\nORTの治療1回あたりの費用は約0.50ドルである。UNICEFによると、低所得国でORTの治療1コースを提供する費用はこの水準にとどまる。英国の臨床現場では、ORTはIVTに比べて治療1コースあたり351.84～630.48ポンド安いと推計されている。 [27][36][37]\n\n費用差は治療成績の差と引き換えではない。近年の研究では、IVTとORTの効果に差は見られないとされている。このため現在では、ORTを第一選択の対応として用い、ORTが無効な場合にのみIVTに切り替えることが推奨されている。 [34][35]\n\n## 救われた命の推計\n\nORTは1970年代後半の導入以来、推定約7000万人の命を救ったとされる。フォンテーヌ、ガーナー、バンの推計では、1982年から2007年の間にORTによって5000万人以上の子どもの命が救われ、年平均200万人に相当する。この推計に基づくと、1982年から2019年までに救われた子どもの数は7000万人を超える可能性がある。 [24][38][41]\n\n推計の幅は小さくない。ORT発見に関わった研究者の一人ナサニエル・F・ピアースは、対象期間によって子どもの下痢による年間死亡減少数は150万人から330万人の幅があると推定した。数値は一致しないものの、諸推計はいずれも、ORTによって毎年数百万人の命が救われていることを示唆している。 [42][43]\n\n下痢による死亡の集計自体にも不確かさがある。死因としての下痢は、実際の解剖ではなく口頭での聞き取り（verbal examination）によって判定されることが多い。 [30]\n\n## 死亡数の推移と併用される対策\n\n5歳未満の子どもの下痢性疾患による死亡は1990年以降3分の2減少した。1990年には260万人が下痢性疾患で死亡しており、1990年以降、年間死亡者数はおよそ100万人減少した。それでも記事執筆当時、下痢性疾患により毎年およそ50万人近くの子どもが死亡していた。 [10][11][25][26]\n\n一部の下痢性疾患の治療には、ORTに加えて抗生物質や抗寄生虫薬などの追加の薬剤が必要になる場合がある。亜鉛補給も下痢性疾患を減らす効果があり、経口補水液と併用して提供できる。経口補水療法は、[ロタウイルスワクチン](/hubpedia/rotavirus-vaccine)接種率の向上などと並ぶ公衆衛生上の取り組みの一つであり、下痢性疾患による死亡に占める病原体別の割合を変化させ得る。 [8][9][40]\n\n清潔な水と[衛生設備](/hubpedia/sanitation)、経口補水療法、予防接種への到達を世界的に拡大することで、下痢性疾患による死亡は大幅に減らせるとされる。 [44]\n\n## 普及の遅れ\n\n安価で効果が確認されているにもかかわらず、多くの国では、経口補水療法を受ける子どもはごく一部にとどまっている。普及が進まない要因には、その効果についての知識不足、普及啓発活動の不足、治療供給の少なさなどが挙げられている。 [6][7]\n\n経口補水療法についての理解が進んだことで、下痢はずっと致死性の低いものになり得る。より多くの子どもにORTを提供することで、[下痢性疾患](/hubpedia/diarrheal-disease)の負担を大きく減らせるとされる。医学誌ランセットがORTを「20世紀で最も重要な医学的進歩」と呼んだ背景には、この単純さと効果の落差がある。 [14][22][23]\n\n## 関連記事\n\n- [乳幼児死亡率](/hubpedia/child-mortality)\n- [安全な水](/hubpedia/clean-water)\n- [国際保健](/hubpedia/global-health)\n- [死因](/hubpedia/cause-of-death)\n- [予防接種](/hubpedia/vaccination)",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/oral-rehydration-therapy",
+        "title": "経口補水療法",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on oral-rehydration. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/diarrheal-diseases",
+        "title": "diarrheal-diseases",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "The disease it treats. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Oral rehydration therapy",
+        "summary": "Oral rehydration therapy (ORT) is a treatment that replaces the fluids lost to diarrhoeal dehydration by having the patient drink a simple solution of water, salt, and sugar. Clinical trials conducted in Dhaka and elsewhere in the late 1960s established it as a method that could be carried out at home without relying on intravenous rehydration. The medical journal The Lancet has called it \"potentially the most important medical advance of the 20th century.\"",
+        "bodyMarkdown": "## What the treatment involves\n\nOral rehydration therapy (ORT) is a treatment that replaces lost fluids with a solution of water, salt, and sugar while the patient continues to eat. Also known as oral rehydration salts (ORS), its defining feature is that it can be given by mouth without special medical assistance. In the 1960s, scientists developed a low-cost version of the solution that was easy to use at home. [1][2][5][12][13]\n\nIts effectiveness does not depend on the cause of the diarrhoea. Beyond cholera, it has been confirmed to replace fluid losses effectively in many diarrhoeal diseases. The World Health Organization (WHO) defines diarrhoea as the passage of three or more loose or watery stools per day. [3][4][21]\n\nAt the same time, ORT is not a drug that stops diarrhoea itself. It lowers the chance of death and speeds recovery, but it does not prevent or halt diarrhoea. This distinction matters for understanding the limits of the treatment. [29]\n\n## How it works\n\nORT works because of the molecular machinery that governs the absorption of sugar and sodium in the intestine. Research by Robert K. Crane and others showed that the presence of sodium ions in the intestinal lumen is essential to the process of sugar absorption. As sugar and sodium increase inside the cell, the absorption of water and chloride ions increases along with them. It is because of this mechanism that the seemingly plain formula of dissolving salt and sugar together has meaning. [31][32][39]\n\nThe recommended proportions of electrolytes and sugar are not fixed and have changed over time. Today the solution is often given together with other recommended fluids and with zinc, which has been shown to shorten recovery time and lower the risk of recurrence. [33]\n\n## Development and spread\n\nThe early clinical trials of ORT were carried out in the late 1960s by Dr. Richard Cash and Dr. David Nalin in Dhaka, in what is now Bangladesh. At the time, the most common treatment for diarrhoea was the more expensive intravenous therapy (IVT), in which saline solution was administered intravenously in a hospital. Requiring hospitals, equipment, and trained staff, this method was the first thing to run short during an outbreak. [15][16]\n\nThose limits were exposed by the cholera outbreak that accompanied the Indo-Pakistani War of 1971. In the early stage of the outbreak, a shortage of IVT meant that about 30% of patients died. Dr. Dilip Mahalanabis began distributing packets of salt and sugar to be dissolved in water to people in the refugee camps. Among those treated with ORT, the fatality rate from cholera and other diarrhoeal diseases fell from the earlier 30% to under 4%. [17][18][28]\n\nThe WHO established its Diarrhoeal Diseases Control Programme in 1978, giving a push to the worldwide spread of ORT. Over the last two decades of the 20th century, annual deaths of children from diarrhoeal disease fell from about 4.8 million in 1980 to 1.2 million in 2000. [19][20]\n\n## Cost and comparison with intravenous therapy\n\nORT costs roughly US$0.50 per treatment. According to UNICEF, the cost of providing a course of ORT treatment in low-income countries stays at this level. In UK clinical settings, ORT has been estimated to be £351.84 to £630.48 cheaper per course of treatment than IVT. [27][36][37]\n\nThe difference in cost is not traded against a difference in outcomes. Recent studies have found no difference in effectiveness between IVT and ORT. For this reason, current recommendations are to use ORT as the first-line response and to switch to IVT only when ORT is ineffective. [34][35]\n\n## Estimates of lives saved\n\nORT is estimated to have saved roughly 70 million lives since its introduction in the late 1970s. Estimates by Fontaine, Garner, and Bhan hold that more than 50 million children's lives were saved by ORT between 1982 and 2007, an average of 2 million per year. On the basis of this estimate, the number of children saved between 1982 and 2019 may exceed 70 million. [24][38][41]\n\nThe range of the estimates is not narrow. Nathaniel F. Pierce, one of the researchers involved in the discovery of ORT, estimated that the annual reduction in child deaths from diarrhoea ranged from 1.5 million to 3.3 million depending on the period considered. The figures do not agree, but all of the estimates suggest that ORT saves several million lives every year. [42][43]\n\nThere is also uncertainty in the tallying of diarrhoeal deaths themselves. Diarrhoea as a cause of death is often determined by verbal examination rather than by actual autopsy. [30]\n\n## Trends in deaths and accompanying measures\n\nDeaths from diarrhoeal disease among children under five have fallen by two-thirds since 1990. In 1990, 2.6 million people died of diarrhoeal disease, and annual deaths have fallen by roughly 1 million since then. Even so, at the time of writing, close to 500,000 children were still dying each year from diarrhoeal disease. [10][11][25][26]\n\nTreating some diarrhoeal diseases may require additional medicines beyond ORT, such as antibiotics or antiparasitic drugs. Zinc supplementation is also effective in reducing diarrhoeal disease and can be provided alongside oral rehydration solution. Oral rehydration therapy is one of several public health efforts, alongside such measures as increasing [rotavirus vaccine](/hubpedia/rotavirus-vaccine) coverage, that can shift the share of diarrhoeal deaths attributable to each pathogen. [8][9][40]\n\nExpanding global access to clean water and [sanitation](/hubpedia/sanitation), oral rehydration therapy, and vaccination is held to be capable of substantially reducing deaths from diarrhoeal disease. [44]\n\n## Slow uptake\n\nDespite being inexpensive and of confirmed effectiveness, in many countries only a small fraction of children receive oral rehydration therapy. Factors cited for the limited uptake include a lack of knowledge about its effectiveness, insufficient awareness campaigns, and a low supply of the treatment. [6][7]\n\nWith better understanding of oral rehydration therapy, diarrhoea can become far less deadly. Providing ORT to more children is held to be capable of greatly reducing the burden of [diarrhoeal disease](/hubpedia/diarrheal-disease). It is this gap between simplicity and effect that lies behind The Lancet's description of ORT as \"potentially the most important medical advance of the 20th century.\" [14][22][23]\n\n## Related articles\n\n- [Child mortality](/hubpedia/child-mortality)\n- [Clean water](/hubpedia/clean-water)\n- [Global health](/hubpedia/global-health)\n- [Cause of death](/hubpedia/cause-of-death)\n- [Vaccination](/hubpedia/vaccination)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T12:26:10.497Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "経口補水療法とは、水・塩・糖分から成る溶液で失われた水分を補いながら、摂食を続けるという治療法である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diarrheal-diseases",
+              "quote": "what patients need is rehydration, using a solution of water, salts, and sugar, which replenish fluids lost, while continuing to feed"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "1960年代に、科学者たちは家庭で簡単に使える低コスト版の経口補水液を開発した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diarrheal-diseases",
+              "quote": "In the 1960s, scientists developed a low-cost version, oral rehydration solution, which can be used easily at home."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "経口補水療法は、多くの下痢性疾患において失われた水分を補う効果がある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diarrheal-diseases",
+              "quote": "Oral rehydration therapy is effective at replacing fluid loss in many diarrheal diseases."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "経口補水液は、コレラに限らず多くの下痢性疾患において水分喪失を効果的に補う。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diarrheal-diseases",
+              "quote": "Oral rehydration solution effectively replaces fluid loss in many diarrheal diseases, not just cholera."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "経口補水療法(ORT)は塩・水・砂糖からなる単純な溶液である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/oral-rehydration-therapy",
+              "quote": "a simple salt, water and sugar solution"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "多くの国では、経口補水療法を受ける子どもはごく一部にとどまっている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diarrheal-diseases",
+              "quote": "But, in many countries, only a small share of children receive oral rehydration therapy."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "経口補水療法の普及が進まない要因には、その効果についての知識不足、普及啓発活動の不足、治療供給の少なさなどがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diarrheal-diseases",
+              "quote": "This is due to various factors, such as a lack of knowledge about its benefits, limited advocacy and messaging, and low treatment supply."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "一部の下痢性疾患の治療には、経口補水療法に加えて抗生物質や抗寄生虫薬などの追加の薬剤が必要になる場合がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diarrheal-diseases",
+              "quote": "Additional medications, such as antibiotics and antiparasitic treatments, may also be needed to treat some diarrheal diseases."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "亜鉛補給も下痢性疾患を減らす効果があり、経口補水液と併用して提供できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diarrheal-diseases",
+              "quote": "Zinc supplementation also reduces diarrheal diseases and can be provided with oral rehydration solution."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "5歳未満の子どもの下痢性疾患による死亡は1990年以降3分の2減少した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/oral-rehydration-therapy",
+              "quote": "deaths of children under 5 have fallen by two-thirds since 1990"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "1990年には260万人が下痢性疾患で死亡した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/oral-rehydration-therapy",
+              "quote": "2.6 million people died from diarrheal diseases back in 1990"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "ORTはORS(経口補水塩)とも呼ばれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/oral-rehydration-therapy",
+              "quote": "Oral rehydration therapy (ORT, also referred to as ORS)"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "ORTは水・塩・砂糖を混ぜたもので、特別な医療の助けなしに経口で投与できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/oral-rehydration-therapy",
+              "quote": "a mixture of water, salt and sugar. It can be administered orally, without the need for special medical assistance."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "医学誌ランセットはORTを「20世紀で最も重要な医学的進歩」と呼んだ。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/oral-rehydration-therapy",
+              "quote": "the most important medical advance of the 20th century"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "ORTの初期の臨床試験は1960年代後半、リチャード・キャッシュ医師とデイビッド・ナリン医師によって、現在のバングラデシュのダッカで行われた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/oral-rehydration-therapy",
+              "quote": "The early hospital trials for ORT in the late 1960s were performed by Drs Richard Cash and David Nalin in Dacca, in today’s Bangladesh."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "当時、下痢の最も一般的な治療法は、病院で生理食塩水を静脈投与する、より高額な静脈内補水療法(IVT)だった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/oral-rehydration-therapy",
+              "quote": "The most common treatment for diarrhea at the time was the much more expensive intravenous rehydration therapy (IVT), which involved the administration of saline solution intravenously in hospital settings."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "ディリップ・マハラナビス医師は難民キャンプの人々に塩と砂糖を水に溶かした袋を配り始めた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/oral-rehydration-therapy",
+              "quote": "Dr Dilip Mahalanabis decided to start providing bags of salt and sugar dissolved in water to the people in the camp."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "ORTで治療を受けた人々の間で、コレラなど下痢性疾患による致死率は、それ以前の30%から4%未満にまで低下した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/oral-rehydration-therapy",
+              "quote": "the case-fatality ratio from cholera and cholera-like diarrheal diseases fell below 4% among the people treated with ORT, as compared with the 30% ratio observed previously"
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "WHOは1978年に下痢性疾患対策プログラムを創設し、世界的なORTの普及を後押しした。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/oral-rehydration-therapy",
+              "quote": "It wasn’t until 1978 that the World Health Organization (WHO) created the diarrheal disease control program that has helped to popularise the use of ORT worldwide."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "20世紀最後の20年間で、子どもの下痢性疾患による年間死亡者数は1980年の約480万人から2000年には120万人に減少した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/oral-rehydration-therapy",
+              "quote": "from around 4.8 million annual deaths in 1980 to 1.2 million deaths in 2000"
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "WHOは下痢を1日に3回以上の軟便・水様便が出ることと定義している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/oral-rehydration-therapy",
+              "quote": "WHO defines diarrhea as the passage of three or more loose stools per day."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "経口補水療法についての理解が進んだことで、下痢はずっと致死性の低いものになり得る。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diarrheal-diseases",
+              "quote": "With this understanding, diarrhea can be made much less deadly."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "より多くの子どもに経口補水療法を提供することで、下痢性疾患の負担を大きく減らせる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diarrheal-diseases",
+              "quote": "By providing more children with treatment, the burden of diarrheal diseases can be reduced significantly."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "ORTは1970年代後半の導入以来、推定約7000万人の命を救ったとされる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/oral-rehydration-therapy",
+              "quote": "It is estimated that it saved around 70 million lives since its introduction in the late 1970s."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "記事執筆当時、下痢性疾患により毎年およそ50万人近くの子どもが死亡していた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/oral-rehydration-therapy",
+              "quote": "Still close to half a million children die every year from diarrheal diseases."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "1990年以降、下痢性疾患による年間死亡者数はおよそ100万人減少した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/oral-rehydration-therapy",
+              "quote": "the annual number of deaths from diarrheal diseases fell by around one million"
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "ORTの治療1回あたりの費用は約0.50ドルである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/oral-rehydration-therapy",
+              "quote": "around 0.50$ per treatment course"
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "1971年のインド・パキスタン戦争に伴うコレラ流行の初期には、IVTの不足により患者の約30%が死亡した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/oral-rehydration-therapy",
+              "quote": "Early during the outbreak almost 30% of the afflicted patients died due to the shortage of the IVT therapy."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "ORTは死亡の可能性を下げ回復を早める一方、下痢そのものを予防・停止させるものではない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/oral-rehydration-therapy",
+              "quote": "while it reduces the likelihood of death and speeds up recovery, it does not actually prevent or stop diarrhea"
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "死因としての下痢は、実際の解剖ではなく口頭での聞き取り(verbal examination)によって判定されることが多い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/oral-rehydration-therapy",
+              "quote": "diarrhea as the cause of death is often determined by a verbal examination rather than an actual autopsy"
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "ORTは腸内での糖とナトリウムの吸収を司る分子機構によって効果を発揮する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/oral-rehydration-therapy",
+              "quote": "ORT works because of the molecular mechanisms that govern sugar and sodium absorption inside the gut."
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "ロバート・K・クレインらの研究により、腸管内腔にナトリウムイオンが存在することが糖の吸収過程に不可欠であることが示された。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/oral-rehydration-therapy",
+              "quote": "Research by Robert K. Crane and others has shown that the presence of sodium ions in the gut lumen is essential for this process."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "ORTにおける電解質と糖の推奨配合量は時代とともに変化しており、現在では他の推奨される水分や亜鉛が併用されることが多く、それによって回復時間の短縮や再発リスクの低下が示されている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/oral-rehydration-therapy",
+              "quote": "The recommended formulation of the amounts of electrolytes and sugars in ORT has changed over time. It’s now often supplemented with other recommended fluids and zinc, which have been shown to improve recovery time and decrease the likelihood of another diarrheal episode in the short term."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "近年の研究では、IVTとORTの効果に差は見られないとされている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/oral-rehydration-therapy",
+              "quote": "Recent studies have found no differences between the effectiveness of IVT versus ORT treatments."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "現在ではORTを第一選択の対応として用い、ORTが無効な場合にのみIVTに切り替えることが推奨されている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/oral-rehydration-therapy",
+              "quote": "it’s now recommended that ORT is used as a first response measure, switching to IVT only if ORT proves to be ineffective"
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "UNICEFによると、低所得国でORTの治療1コースを提供する費用は約0.50ドルである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/oral-rehydration-therapy",
+              "quote": "According to UNICEF, it costs around $0.50 to provide a course of ORT in lower-income countries"
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "英国の臨床現場では、ORTはIVTに比べて治療1コースあたり351.84~630.48ポンド安いと推計されている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/oral-rehydration-therapy",
+              "quote": "In clinical settings in the UK, ORT has been estimated to be between £351.84 and £630.48 cheaper per course of treatment than IVT."
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "フォンテーヌ、ガーナー、バンの推計では、1982年から2007年の間にORTによって5000万人以上の子どもの命が救われ、年平均200万人に相当するとされる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/oral-rehydration-therapy",
+              "quote": "Fontaine, Garner, and Bhan estimated that more than 50 million children have been saved by ORT between 1982 and 2007 – that is on average of 2 million lives a year."
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "細胞内で糖とナトリウムが増加すると、水と塩化物イオンの吸収も増加する。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/oral-rehydration-therapy",
+              "quote": "The increase in sugar and sodium inside the cells leads to increased absorption of water and chloride ions as well."
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "経口補水療法は、ロタウイルスワクチン接種率の向上などと並ぶ公衆衛生上の取り組みの一つであり、下痢性疾患による死亡に占める病原体別の割合を変化させ得る。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diarrheal-diseases",
+              "quote": "The share of diarrheal deaths caused by each pathogen can change with public health efforts, such as greater rotavirus vaccination rates and oral rehydration therapy."
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "この推計に基づくと、1982年から2019年までにORTによって救われた子どもの数は7000万人を超える可能性がある。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/oral-rehydration-therapy",
+              "quote": "the number of children saved from 1982 until 2019 by ORT could be more than 70 million"
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "ORT発見に関わった研究者の一人ナサニエル・F・ピアースは、対象期間によって子どもの下痢による年間死亡減少数は150万人から330万人の幅があると推定した。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/oral-rehydration-therapy",
+              "quote": "Nathaniel F. Pierce, another researcher involved in ORT discovery, suggested that the annual decline in childhood diarrhea could be anywhere between 1.5 and 3.3 million per year, depending on the period one looks at."
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "諸推計はいずれも、ORTによって毎年数百万人の命が救われていることを示唆している。",
+          "confidence": 0.7,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/oral-rehydration-therapy",
+              "quote": "All estimates, though, suggest that millions of lives are saved by ORT each year."
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "清潔な水と衛生設備、経口補水療法、予防接種への到達を世界的に拡大することで、下痢性疾患による死亡は大幅に減らせる。",
+          "confidence": 0.7,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diarrheal-diseases",
+              "quote": "By increasing global access to clean water and sanitation, oral rehydration therapy, and vaccination, this major cause of death can be reduced substantially."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "rotavirus-vaccine",
+    "topicType": "concept",
+    "categoryLabel": "医学・健康",
+    "title": "ロタウイルスワクチン",
+    "summary": "ロタウイルスによる乳幼児の重症下痢を防ぐ経口ワクチン。2006年に米国で最初の広く使われる製剤が承認され、2018年末までに101か国が導入した。導入国では下痢関連の入院が大きく減った一方、乳幼児死亡率の高い国ほど有効性が低いという地域差が残っている。",
+    "bodyMarkdown": "## 対象となる疾患と位置づけ\n\nロタウイルスワクチンは、[乳幼児の重い下痢](/hubpedia/diarrheal-disease)を引き起こすロタウイルスの感染を防ぐために経口で投与されるワクチンである。ロタウイルスは小児の下痢による死亡の主要な原因であり、接種によって毎年およそ10万人の死亡を防ぐことができるとされる。ただしロタウイルスは下痢の唯一の原因ではなく、コレラや赤痢など他の病原体による死亡は、入手可能であれば抗生物質や別のワクチンによって回避される。 [1][2][63][64]\n\n下痢は小児死亡の第3位の原因で、2017年には50万人を超える子どもの命を奪った。このうち4分の1から3分の1がロタウイルス感染によるものと推定されている。世界疾病負担研究(GBD)は、2016年にロタウイルスが5歳未満児で128,500人の死亡と、推定2億5,800万件の感染性下痢症例の原因になったとしている。 [9][10][12]\n\n死亡のうちロタウイルスが占める割合の推定値は機関によって幅がある。2013年の下痢による死亡についてIHMEは24%、CHERGは27%、WHOは37%と見積もっており、同じ年を対象としても1.5倍以上の開きがある。この差は、ワクチンで回避できる死亡数の見積もりにもそのまま影響する。 [55]\n\n## 種類と接種スケジュール\n\n最初の広く使用されたロタウイルスワクチンは2006年に米国で承認された。世界保健機関(WHO)が使用を推奨する経口ロタウイルスワクチンは、Rotarix、RotaTeq、RotaSiil、Rotavacの4種類である。このうちRotarixとRotaTeqが最も広く使われており、いずれも臨床試験でロタウイルス感染に対する良好な有効性を示した。 [3][13][14][15]\n\n接種は製剤の種類によって2回または3回など複数回に分けて行われる。完全な接種とされるのは、Rotarixでは2回、RotaTeqでは3回である。接種は出生後15週で開始し、32週までに完了することが推奨されている。 [7][21][35]\n\n## 導入状況と接種率\n\n2018年末までに101か国がロタウイルスワクチンを使用していた。導入を左右する主な要因としては、その国の下痢性疾患の負担、資金の利用可能性、ワクチンに好意的な政治的環境が挙げられる。政治的環境が好意的な国ほど導入の可能性が高く、ミレニアム開発目標の達成を優先課題としている場合や、特に選挙の年に導入が肯定的なニュースとみなされる場合には導入が促されるとされる。 [20][34][66][67]\n\n導入と接種率の高さは別の問題である。2018年時点で1歳未満児のうち接種を受けたのは推定でわずか35%にとどまる。2021年時点でガーナ、ケニア、タジキスタンなどは接種率が90%を超えていた一方、コンゴで接種を受けた子どもの割合は5人に1人未満だった。 [5][6][22]\n\n接種率は短期間で大きく動きうる。スーダン、マラウイ、ガンビアなどは、数年のうちに接種率を10%未満から80〜95%まで引き上げている。 [36]\n\n費用は国によって異なる。一人当たり国民総所得が1,000米ドル未満の国はGlobal Alliance for Vaccines and Immunisationから補助を受けており、1回分の費用は2.10〜3.20米ドルに設定されている。追加の共同資金調達の選択肢を用いれば0.13米ドルまで引き下げられる。これに対し米国のような高所得国では1回分が70〜95米ドルである。 [56][57][58][65]\n\n## 有効性と地域差\n\nロタウイルスワクチンの有効性は、接種した小児群と未接種の小児群における下痢発生率の減少割合として定義される。この値は国によって大きく異なり、小児死亡率が高い国では有効性がはるかに低い。Clark et al.(2019)の研究では、低小児死亡率を新生児の1.3%未満、中程度を1.35〜2.81%、高い死亡率を2.81%超と定義している。 [38][39][68]\n\n死亡率の低い国では、生後12か月未満の子どもにおける有効性は約86%である。これに対し死亡率の高い国では63〜66%にとどまる。接種直後で比べると差はさらに明確で、小児死亡率の低い国の98%に対し、高い国では66%である。 [8][23][26]\n\n差は時間とともに広がる。有効性は死亡率の高い国のほうが速く低下し、接種から5年後には、死亡率の低い国で下痢にかかる可能性を90%減らすのに対し、高い国では30%の減少にとどまる。 [24][40]\n\n地域別に見ると、重症下痢に対する有効性は東アジアで88%、ラテンアメリカで80%であるのに対し、南アジアとサハラ以南アフリカでは重症下痢を半分程度しか減らせない。個別の数値では、先進国91%、南アジア50%、サハラ以南アフリカ46%とされる。入院に対する有効性も同様の傾向で、先進国と東アジア・東南アジアで94%、ラテンアメリカ・カリブ海地域で84%、サハラ以南アフリカで58%である。高所得国では重症ロタウイルス下痢の症例が91%、入院が94%減少することが示されている。 [25][41][42][43][44][45][46][47][48][49]\n\n## 有効性が地域で異なる理由\n\n貧しい国でロタウイルスワクチンの効果が低くなる理由は明らかになっていないが、複数の要因が関係している可能性が指摘されている。同様の傾向はロタウイルスに限らず、ポリオワクチンやコレラワクチンなど他の経口ワクチンでも示されている。 [27][28]\n\n提示されている仮説の一つは、子どもが他の腸管ウイルスに同時感染していることが、ワクチンに対する腸管免疫応答を弱めているというものである。ほかにウイルスへの曝露量の多さ、腸内細菌叢・血液型・免疫抗原の違いも要因として考えられている。より一般には、低所得国の子どもでは経口ロタウイルスワクチンに対する腸管反応が異なる可能性が高いとされ、その原因として[微量栄養素欠乏](/hubpedia/micronutrient-deficiency)、接種前の特定病原体への曝露、マラリアやHIVなどの慢性疾患の存在などが挙げられている。 [59][60][61][62]\n\n## 導入による効果\n\nロタウイルスワクチンを導入した国では、ロタウイルス関連の下痢症例が大幅に減少した。2008年から2016年にかけて、導入により下痢関連の入院数は平均40%減少している。入院の減少は医療制度への負担軽減にもつながる。 [11][19][33]\n\n2016年には、ワクチンの使用によって世界で約28,900人の小児死亡が予防されたと推定される(別の推定では5歳未満で約28,000人)。同じ年に世界的な接種率100%が達成されていれば、さらに83,200人の死亡を予防できた可能性があり、これはその年のロタウイルスによる5歳未満児死亡の53%にあたる。実際に予防された数より、接種率の不足によって失われた数のほうが大きい。 [16][17][18][29][69]\n\n## 残された課題\n\nロタウイルスによる小児死亡率はサハラ以南アフリカ地域で最も高く、症例の大半も同地域で発生している。総数で見るとナイジェリア、コンゴ民主共和国、インドがロタウイルス関連死亡の最も多い国である。有効性が最も低い地域と、負担が最も重い地域が重なっている。 [30][31][37]\n\n下痢による小児死亡には、ワクチンで対処しきれない条件が関わっている。小児の消耗症(身長に対して体重が低すぎる状態)、[清潔な水へのアクセス](/hubpedia/clean-water)、[不衛生な衛生環境](/hubpedia/sanitation)は主要な危険因子であり、小児の下痢性疾患による全死亡の84%に関連している。2016年の5歳未満児の下痢性疾患による死亡について、不衛生な水は72%、不衛生な衛生環境は56%に寄与し、消耗症は推定80%に寄与している。 [32][51][52]\n\n治療面では、ロタウイルス感染によるものを含む大半の下痢症例を治療する最も費用対効果の高い方法の一つは、高度な薬剤やワクチンではなく、水・塩・砂糖の簡単な溶液である[経口補水療法(ORT)](/hubpedia/oral-rehydration)である。ORTはあらゆる原因による下痢死の予防に使え、1970年代の導入以来すでに数千万人の子どもの命を救ってきた。 [53][54]\n\n下痢による小児死亡を引き続き減らす鍵は、とくにサハラ以南アフリカと南アジアにおける接種率の改善にあるとされる。 [50]\n\n## 関連記事\n\n- [予防接種](/hubpedia/vaccination)\n- [乳幼児死亡率](/hubpedia/child-mortality)\n- [国際保健](/hubpedia/global-health)\n- [ワクチンが救った命](/hubpedia/vaccines-lives-saved)",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/rotavirus-vaccine",
+        "title": "ロタウイルスワクチン",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on rotavirus-vaccine. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/diarrheal-diseases",
+        "title": "diarrheal-diseases",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "The disease burden it reduces. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Rotavirus vaccine",
+        "summary": "An oral vaccine that prevents severe rotavirus diarrhea in infants and young children. The first widely used formulation was approved in the United States in 2006, and by the end of 2018, 101 countries had introduced it. Countries that introduced the vaccine saw large drops in diarrhea-related hospitalizations, but a regional gap remains: the vaccine is less effective in countries with higher child mortality.",
+        "bodyMarkdown": "## The disease it targets and where it fits\n\nRotavirus vaccine is given orally to prevent infection with rotavirus, which causes [severe diarrhea in infants and young children](/hubpedia/diarrheal-disease). Rotavirus is a leading cause of diarrheal death in children, and vaccination is estimated to prevent roughly 100,000 deaths each year. Rotavirus is not, however, the only cause of diarrhea; deaths from other pathogens such as cholera and dysentery are averted by antibiotics or different vaccines where these are available. [1][2][63][64]\n\nDiarrhea is the third leading cause of child death, claiming the lives of more than 500,000 children in 2017. An estimated one-quarter to one-third of these were due to rotavirus infection. The Global Burden of Disease (GBD) study attributes 128,500 deaths among children under five and an estimated 258 million cases of infectious diarrhea to rotavirus in 2016. [9][10][12]\n\nEstimates of rotavirus's share of these deaths vary by institution. For diarrheal deaths in 2013, IHME put the figure at 24%, CHERG at 27%, and WHO at 37% — a spread of more than 1.5-fold for the same year. That difference carries directly into estimates of how many deaths a vaccine can avert. [55]\n\n## Types and immunization schedule\n\nThe first widely used rotavirus vaccine was approved in the United States in 2006. The World Health Organization (WHO) recommends four oral rotavirus vaccines: Rotarix, RotaTeq, RotaSiil, and Rotavac. Of these, Rotarix and RotaTeq are the most widely used, and both showed good efficacy against rotavirus infection in clinical trials. [3][13][14][15]\n\nThe vaccine is given in multiple doses — two or three, depending on the formulation. A full course is two doses for Rotarix and three for RotaTeq. Vaccination is recommended to begin at 15 weeks of age and to be completed by 32 weeks. [7][21][35]\n\n## Introduction and coverage\n\nBy the end of 2018, 101 countries were using rotavirus vaccine. The main factors shaping introduction are a country's burden of diarrheal disease, the availability of funding, and a political environment favorable to vaccines. Countries with a more favorable political environment are more likely to introduce the vaccine, and introduction is encouraged where meeting the Millennium Development Goals is a policy priority or where introduction counts as positive news, particularly in an election year. [20][34][66][67]\n\nIntroduction and high coverage are separate matters. As of 2018, an estimated 35% of infants under one year of age had been vaccinated. As of 2021, coverage exceeded 90% in countries such as Ghana, Kenya, and Tajikistan, while in the Congo fewer than one child in five was vaccinated. [5][6][22]\n\nCoverage can move sharply in a short time. Sudan, Malawi, and the Gambia, among others, raised coverage from under 10% to 80–95% within a few years. [36]\n\nCost varies by country. Countries with a gross national income per capita below US$1,000 receive subsidies from the Global Alliance for Vaccines and Immunisation, which sets the price at US$2.10–3.20 per dose; with additional co-financing options this can fall to US$0.13. In high-income countries such as the United States, by contrast, a dose costs US$70–95. [56][57][58][65]\n\n## Efficacy and regional differences\n\nThe efficacy of rotavirus vaccine is defined as the percentage reduction in the incidence of diarrhea among vaccinated children compared with unvaccinated children. This value varies widely by country, and efficacy is far lower in countries with high child mortality. The study by Clark et al. (2019) defines low child mortality as under 1.3% of newborns, medium as 1.35–2.81%, and high mortality as above 2.81%. [38][39][68]\n\nIn low-mortality countries, efficacy among children under 12 months of age is about 86%. In high-mortality countries it is only 63–66%. The gap is even clearer immediately after vaccination: 98% in countries with low child mortality against 66% in those with high child mortality. [8][23][26]\n\nThe gap widens over time. Efficacy declines faster in high-mortality countries: five years after vaccination, the likelihood of contracting diarrhea is reduced by 90% in low-mortality countries but by only 30% in high-mortality ones. [24][40]\n\nBy region, efficacy against severe diarrhea is 88% in East Asia and 80% in Latin America, whereas in South Asia and sub-Saharan Africa the vaccine cuts severe diarrhea only by about half. Individual figures are 91% for developed countries, 50% for South Asia, and 46% for sub-Saharan Africa. Efficacy against hospitalization follows the same pattern: 94% in developed countries and East and Southeast Asia, 84% in Latin America and the Caribbean, and 58% in sub-Saharan Africa. In high-income countries, cases of severe rotavirus diarrhea have been shown to fall by 91% and hospitalizations by 94%. [25][41][42][43][44][45][46][47][48][49]\n\n## Why efficacy differs by region\n\nWhy rotavirus vaccine works less well in poorer countries is not established, but several contributing factors have been proposed. The same pattern is not limited to rotavirus; it has also been shown for other oral vaccines, including polio and cholera vaccines. [27][28]\n\nOne hypothesis put forward is that children's co-infection with other enteric viruses weakens the intestinal immune response to the vaccine. Other suggested factors include higher levels of exposure to the virus and differences in gut microbiota, blood group, and immune antigens. More generally, children in low-income countries are considered likely to have a different intestinal response to oral rotavirus vaccine, with proposed causes including [micronutrient deficiency](/hubpedia/micronutrient-deficiency), exposure to particular pathogens before vaccination, and the presence of chronic conditions such as malaria and HIV. [59][60][61][62]\n\n## Effects of introduction\n\nCountries that introduced rotavirus vaccine saw large reductions in rotavirus-related diarrhea cases. Between 2008 and 2016, introduction reduced diarrhea-related hospitalizations by an average of 40%. Fewer hospitalizations also ease the burden on health systems. [11][19][33]\n\nIn 2016, vaccine use is estimated to have prevented about 28,900 child deaths worldwide (another estimate puts it at about 28,000 among children under five). Had 100% global coverage been achieved that same year, a further 83,200 deaths might have been prevented — 53% of that year's rotavirus deaths among children under five. The number lost to insufficient coverage is larger than the number actually prevented. [16][17][18][29][69]\n\n## Remaining challenges\n\nChild mortality from rotavirus is highest in sub-Saharan Africa, and most cases occur in that region as well. In absolute numbers, Nigeria, the Democratic Republic of the Congo, and India have the most rotavirus-related deaths. The regions where efficacy is lowest overlap with those where the burden is heaviest. [30][31][37]\n\nChild deaths from diarrhea involve conditions that vaccines cannot fully address. Child wasting (weight too low for height), [access to clean water](/hubpedia/clean-water), and [poor sanitation](/hubpedia/sanitation) are major risk factors, associated with 84% of all deaths from childhood diarrheal disease. Of deaths from diarrheal disease among children under five in 2016, unsafe water contributed to 72% and unsafe sanitation to 56%, while wasting is estimated to have contributed to 80%. [32][51][52]\n\nOn the treatment side, one of the most cost-effective ways to treat most cases of diarrhea, including those caused by rotavirus infection, is not an advanced drug or vaccine but [oral rehydration therapy (ORT)](/hubpedia/oral-rehydration), a simple solution of water, salt, and sugar. ORT can be used to prevent diarrheal death from any cause and has already saved the lives of tens of millions of children since its introduction in the 1970s. [53][54]\n\nThe key to further reducing child deaths from diarrhea is held to be improved vaccination coverage, particularly in sub-Saharan Africa and South Asia. [50]\n\n## Related articles\n\n- [Vaccination](/hubpedia/vaccination)\n- [Child mortality](/hubpedia/child-mortality)\n- [Global health](/hubpedia/global-health)\n- [Lives saved by vaccines](/hubpedia/vaccines-lives-saved)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T12:26:10.503Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "ロタウイルスは小児の下痢による死亡の主要な原因である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "Rotavirus is the leading cause of diarrheal deaths in children."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "ロタウイルスワクチンの接種により、毎年約10万人の死亡を防ぐことができる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diarrheal-diseases",
+              "quote": "Rotavirus vaccination can prevent around a hundred thousand deaths each year"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "ロタウイルスワクチンは2006年に米国で初めて導入された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diarrheal-diseases",
+              "quote": "rotavirus vaccines were first introduced in the United States in 2006"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "2021年時点で、ガーナ、ケニア、タジキスタンなどの国ではロタウイルスワクチンの接種率が90%を超えていた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diarrheal-diseases",
+              "quote": "Vaccination rates were high in some countries, such as Ghana, Kenya, and Tajikistan, with rates above 90% in 2021."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "コンゴでは、ロタウイルスワクチンを接種した子どもの割合は5人に1人未満だった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diarrheal-diseases",
+              "quote": "fewer than 1-in-5 children in Congo were vaccinated."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "ロタウイルスワクチンは通常、種類によって2回または3回など複数回に分けて接種される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diarrheal-diseases",
+              "quote": "Rotavirus vaccines are typically given in several doses, typically two or three, depending on the vaccine."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "ロタウイルスによる死亡率が低い国では、生後12か月未満の子どもにおけるロタウイルスワクチンの有効性は約86%である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diarrheal-diseases",
+              "quote": "The effectiveness of rotavirus vaccines has been around 86% among children under 12 months in countries with low rotavirus mortality"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "下痢は小児死亡の第3位の原因であり、2017年には50万人を超える子どもの命を奪った。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "Diarrhea is the third leading cause of child mortality – it claimed more than half a million children in 2017."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "下痢による小児死亡のうち4分の1から3分の1はロタウイルス感染によるものと推定されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "it is estimated that between one-quarter and one-third of all child deaths from diarrhea are the result of rotavirus infection."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "ロタウイルスワクチンを導入した国では、ロタウイルス関連の下痢症例が大幅に減少した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "Countries which have introduced vaccines against rotavirus have seen significant reductions in rotavirus-related cases of diarrhea."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "世界疾病負担研究(GBD)によると、2016年にロタウイルスは5歳未満児で128,500人の死亡原因となり、推定2億5,800万件の感染性下痢症例の原因となった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "The Global Burden of Disease study estimated that rotavirus was the cause of 128,500 deaths and was responsible for an estimated 258 million cases of infectious diarrhea among children under-5 in 2016."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "最初の広く使用されたロタウイルスワクチンは2006年に米国で承認された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "The first widely-used rotavirus vaccine was approved in the United States in 2006."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "世界保健機関(WHO)が使用を推奨する経口ロタウイルスワクチンは、Rotarix、RotaTeq、RotaSiil、Rotavacの4種類である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "there are four oral rotavirus vaccines recommended for use by the World Health Organisation (WHO): Rotarix, RotaTeq, RotaSiil, and Rotavac."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "RotarixとRotaTeqが最も広く使用されており、いずれも臨床試験でロタウイルス感染に対する良好な有効性を示した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "Rotarix and RotaTeq are the most widely used and both have shown good efficacy against rotavirus infections in clinical trials."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "2016年、ロタウイルスワクチンの使用により世界で約28,900人の小児死亡が予防された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "the use of rotavirus vaccines prevented approximately 28,900 child deaths globally in 2016."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "ワクチンの完全な使用、すなわち世界的な接種率100%が達成されていれば、さらに83,200人の死亡を予防できた可能性がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "full vaccine use – that is a 100% coverage globally – could have prevented an additional 83,200 deaths."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "2016年のロタウイルスによる5歳未満児死亡の53%は、ワクチンの完全な接種率があれば回避できた可能性がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "53% of all deaths in children under-5 from rotavirus in 2016 could have been avoided by full vaccine coverage."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "2008年から2016年にかけて、ロタウイルスワクチンの導入により下痢関連の入院数が平均40%減少した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "Between 2008 and 2016 the introduction of the rotavirus vaccine has reduced the number of diarrhea-related hospital admissions on average by 40%."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "2018年末までに101か国がロタウイルスワクチンを使用していた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "by the end of 2018, 101 countries were using the rotavirus vaccine."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "ロタウイルスワクチンの接種は出生後15週で開始し、32週までに完了することが推奨されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "it’s recommended that the vaccination should be initiated 15 weeks after birth and finished by the 32nd week."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "2018年時点で1歳未満児のうちワクチン接種を受けたのはわずか35%と推定される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "it is estimated that just 35% of under one-year-olds were vaccinated in 2018."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "ワクチン接種直後の有効性は、小児死亡率の低い国で98%であるのに対し、小児死亡率の高い国では66%にとどまる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "98% in low child mortality countries versus 66% in high child mortality countries"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "接種から5年後、ロタウイルスワクチンは小児死亡率の低い国では下痢にかかる可能性を90%減少させるが、死亡率の高い国では30%の減少にとどまる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "Five years after vaccination, the rotavirus vaccine reduces the chances of getting diarrhea by 90% in low child mortality countries and only by 30% in high mortality countries."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "高所得国では、ロタウイルスワクチン接種により重症ロタウイルス下痢の症例が91%、入院が94%減少することが示されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "rotavirus vaccination has been shown to reduce the cases of severe rotavirus diarrhea by 91% and hospitalization by 94%"
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "ロタウイルスによる死亡率が高い国では、ロタウイルスワクチンの有効性は63〜66%である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diarrheal-diseases",
+              "quote": "and 63 or 66% in countries with high rotavirus mortality."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "貧しい国でロタウイルスワクチンの効果が低くなる理由は明らかになっていないが、複数の要因が関係している可能性がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diarrheal-diseases",
+              "quote": "The reasons for a lower efficacy in poorer countries are unknown but may result from many factors."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "ポリオワクチンやコレラワクチンなど、他の経口ワクチンも貧しい国で効果が低いことが示されている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diarrheal-diseases",
+              "quote": "other oral vaccines, including vaccines against polio and cholera, have also shown lower efficacies in poorer countries."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "2016年に完全なワクチン接種率が達成されていれば、5歳未満の子どもにおいてさらに83,200人の死亡を追加で回避できたと推定されている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diarrheal-diseases",
+              "quote": "They also estimate that an additional 83,200 deaths in this age group could have been averted if full vaccine coverage had been achieved that year."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "ロタウイルス関連の小児死亡率はサハラ以南アフリカ地域で最も高い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "the highest mortality rates occur in the Sub-Saharan region."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "ナイジェリア、コンゴ民主共和国、インドはロタウイルス関連死亡の総数が最も多い国である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "Nigeria, the Democratic Republic of Congo and India have the highest total number of rotavirus-related deaths."
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "小児の消耗症、清潔な水へのアクセス、不衛生な衛生環境は主要な危険因子であり、小児の下痢性疾患による全死亡の84%に関連している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "Childhood wasting, access to clean water and unsafe sanitation are the major risk factors, associated with 84% of all deaths from diarrheal disease in children."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "ロタウイルスワクチンは医療制度への負担も軽減する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "the rotavirus vaccine also reduces the burden on healthcare systems."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "ワクチン導入の主な要因は、下痢性疾患の負担、資金の利用可能性、ワクチンに好意的な政治的環境である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "The major drivers for the introduction of the vaccine are the burden of diarrheal diseases, the availability of funding, and a favourable political climate for vaccines."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "推奨される完全な接種は、Rotarixワクチンでは2回、RotaTeqワクチンでは3回の接種である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "two immunizations for Rotarix vaccine or three immunizations for RotaTeq vaccine"
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "スーダン、マラウイ、ガンビアなどの国々は、数年間でロタウイルスワクチンの接種率を10%未満から80~95%まで引き上げた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "countries including Sudan, Malawi and Gambia have increased immunisation rates from below 10% to 80-95%"
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "ロタウイルスの症例の大半はサハラ以南アフリカで発生しており、同地域はロタウイルス感染による死亡率も最も高い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "most rotavirus cases occur in Sub-Saharan Africa where mortality from rotavirus infection is also the highest"
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "ロタウイルスワクチンの有効性は、接種した小児群と未接種の小児群における下痢発生率の減少割合として定義される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "Vaccine efficacy for the rotavirus vaccine is defined as the percentage reduction of the rate of diarrhea incidences in vaccinated versus unvaccinated groups of children."
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "ロタウイルスワクチンの有効性は国によって異なり、小児死亡率が高い国ではワクチンの有効性がはるかに低い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "the efficacy of the rotavirus vaccine is not the same across all countries — in countries with high child mortality rates the vaccine shows much lower efficacy."
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "ワクチンの有効性は、小児死亡率の高い国の方が時間とともに速く低下する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "the vaccine efficacy decreases faster in high child mortality countries over time."
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "東アジアとラテンアメリカでは、ロタウイルスワクチンはそれぞれ重症下痢症例の88%と80%を予防する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "preventing 88% and 80% of severe diarrhea cases, respectively"
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "南アジアとサハラ以南アフリカではワクチンの効果は著しく低く、重症下痢を半分程度しか減少させない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "effectiveness in South Asia and Sub-Saharan Africa is significantly lower, only reducing severe diarrhea in around half of the cases."
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "先進国における重症ロタウイルス下痢に対するワクチンの有効性は91%である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "Developed91%"
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "南アジアにおける重症ロタウイルス下痢に対するワクチンの有効性は50%である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "Southern Asia50%"
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "statement": "サハラ以南アフリカにおける重症ロタウイルス下痢に対するワクチンの有効性は46%である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "Sub-Saharan Africa46%"
+            }
+          ]
+        },
+        {
+          "index": 46,
+          "statement": "先進国におけるロタウイルス感染による入院に対するワクチンの有効性は94%である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "Developed94%"
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "statement": "東アジア・東南アジアにおけるロタウイルス感染による入院に対するワクチンの有効性は94%である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "Eastern Asia and Southeast Asia94%"
+            }
+          ]
+        },
+        {
+          "index": 48,
+          "statement": "ラテンアメリカ・カリブ海地域におけるロタウイルス感染による入院に対するワクチンの有効性は84%である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "Latin America and Caribbean84%"
+            }
+          ]
+        },
+        {
+          "index": 49,
+          "statement": "サハラ以南アフリカにおけるロタウイルス感染による入院に対するワクチンの有効性は58%である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "Sub-Saharan Africa58%"
+            }
+          ]
+        },
+        {
+          "index": 50,
+          "statement": "特にサハラ以南アフリカと南アジアにおける接種率の改善が、下痢による小児死亡の継続的な削減の鍵となる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "Improving vaccination coverage, particularly across Sub-Saharan Africa and South Asia is key to continued reduction of childhood deaths from diarrhea."
+            }
+          ]
+        },
+        {
+          "index": 51,
+          "statement": "2016年、不衛生な水と不衛生な衛生環境は、それぞれ5歳未満児の下痢性疾患による死亡の72%と56%に寄与した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "Unsafe water and unsafe sanitation contributed to 72% and 56% of the under-5 deaths from diarrheal diseases in 2016."
+            }
+          ]
+        },
+        {
+          "index": 52,
+          "statement": "小児の消耗症(身長に対して体重が低すぎる状態)は小児の下痢による死亡の主要な危険因子であり、2016年の5歳未満児の下痢性疾患による死亡の推定80%に寄与している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "childhood wasting (having a weight too low for their height) is the leading risk factor for diarrheal mortality in children, contributing to an estimated 80% of under-5 deaths from diarrheal diseases in 2016."
+            }
+          ]
+        },
+        {
+          "index": 53,
+          "statement": "ロタウイルス感染による下痢を含む大半の下痢症例を治療する最も費用対効果の高い方法の一つは、高度な薬剤やワクチンではなく、水・塩・砂糖の簡単な溶液である経口補水療法(ORT)である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "One of the most cost-effective ways to treat most cases of diarrhea, including those due to rotavirus infection, is not a highly sophisticated drug or vaccine but a simple water, salt and sugar solution: oral rehydration therapy (ORT)."
+            }
+          ]
+        },
+        {
+          "index": 54,
+          "statement": "経口補水療法(ORT)はあらゆる原因による下痢死を予防するために使用でき、1970年代の導入以来すでに数千万人の子どもの命を救ってきた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "ORT can be used to prevent deaths from diarrhea originating from any cause, and has already saved the lives of tens of millions of children since its introduction in the 1970s."
+            }
+          ]
+        },
+        {
+          "index": 55,
+          "statement": "2013年の下痢による死亡のうちロタウイルスが原因とされる割合について、IHMEは24%、CHERGは27%、WHOは37%と推定している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "The IHME estimates 24% of diarrheal deaths resulted from the rotavirus in 2013; 27% by the CHERG; and 37% from the WHO."
+            }
+          ]
+        },
+        {
+          "index": 56,
+          "statement": "ロタウイルスワクチンの費用は国によって異なる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "The cost of rotavirus vaccines varies by country."
+            }
+          ]
+        },
+        {
+          "index": 57,
+          "statement": "一人当たり国民総所得が1,000米ドル未満の国は、Global Alliance for Vaccines and Immunisationから補助を受けており、そこでは1回分の費用が2.10~3.20米ドルに設定されている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "countries with a gross national income per capita of less than US$1,000 receive subsidies from the Global Alliance for Vaccines and Immunisation, and there the cost per dose is set between US$2.10 - 3.20."
+            }
+          ]
+        },
+        {
+          "index": 58,
+          "statement": "米国のような高所得国では、ロタウイルスワクチンの1回分の費用は70~95米ドルである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "the cost per dose is between US$70 and 95"
+            }
+          ]
+        },
+        {
+          "index": 59,
+          "statement": "子どもが他の腸管ウイルスに同時感染していることが、ワクチンに対する腸管免疫応答を弱め、ロタウイルスワクチンの効果を下げている可能性がある。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diarrheal-diseases",
+              "quote": "This may be because children have co-infections with other enteric viruses, which reduce their gut immune response to the vaccines."
+            }
+          ]
+        },
+        {
+          "index": 60,
+          "statement": "ロタウイルスワクチンの効果を下げる他の要因として、ウイルスへの曝露量の多さや、腸内細菌叢・血液型・免疫抗原の違いが考えられる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diarrheal-diseases",
+              "quote": "Other potential factors include higher exposure to the virus and variations in gut microbiomes, blood groups, and immune antigens."
+            }
+          ]
+        },
+        {
+          "index": 61,
+          "statement": "低所得国の子どもでは経口ロタウイルスワクチンに対する腸管反応が異なる可能性が高い。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "It is likely that the gut responses to the oral rotavirus vaccines in children in lower-income countries are different."
+            }
+          ]
+        },
+        {
+          "index": 62,
+          "statement": "この違いは、微量栄養素欠乏、接種前の特定病原体への曝露、マラリアやHIVなどの慢性疾患の存在など、様々な原因による可能性がある。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "This may be due to a variety of causes, including micronutrient deficiencies, pre-vaccination exposure to certain pathogens, and the presence of chronic conditions such as malaria or HIV."
+            }
+          ]
+        },
+        {
+          "index": 63,
+          "statement": "ロタウイルスは小児の下痢の主要な原因であり、ロタウイルスワクチンは多くの子どもの命を救えるが、下痢の唯一の原因ではない。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "While rotavirus is the leading cause of diarrhea in children and therefore, rotavirus vaccine can save the lives of many children, it is not the only cause of diarrhea."
+            }
+          ]
+        },
+        {
+          "index": 64,
+          "statement": "コレラや赤痢など他の下痢病原体による死亡は、入手可能であれば抗生物質やワクチンによって回避できる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "Deaths from other diarrheal pathogens, such as cholera or shigella, could be avoided by antibiotics or vaccines, where they are available."
+            }
+          ]
+        },
+        {
+          "index": 65,
+          "statement": "追加の共同資金調達の選択肢により、ロタウイルスワクチンの費用を0.13米ドルまで引き下げることができる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "With additional co-financing options can reduce the costs down to US$0.13."
+            }
+          ]
+        },
+        {
+          "index": 66,
+          "statement": "政治的環境がワクチンに好意的である場合、その国はワクチンを導入する可能性が高くなる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "Countries are more likely to introduce the vaccine if the political environment is favourably disposed towards them."
+            }
+          ]
+        },
+        {
+          "index": 67,
+          "statement": "国がミレニアム開発目標の達成を優先課題としている場合や、特に選挙の年にワクチン導入が肯定的なニュースとみなされる場合に、ワクチン導入が促進される。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "if a country has set a high priority on achieving the Millennium Development Goal targets or the introduction of vaccines is seen as a positive news story, especially during election years."
+            }
+          ]
+        },
+        {
+          "index": 68,
+          "statement": "Clark et al.(2019)の研究では、低小児死亡率を新生児の1.3%未満、中程度の死亡率を1.35~2.81%、高い死亡率を2.81%超と定義した。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/rotavirus-vaccine",
+              "quote": "The Clark et al. (2019) study defined low child mortality rate as less than 1.3% of newborns; medium mortality rate as between 1.35% and 2.81%; and high mortality rate as more than 2.81%"
+            }
+          ]
+        },
+        {
+          "index": 69,
+          "statement": "2016年において、ロタウイルスワクチンにより5歳未満の子どもの死亡が約28,000人回避されたと推定されている。",
+          "confidence": 0.7,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diarrheal-diseases",
+              "quote": "The authors estimate that the rotavirus averted around 28,000 deaths in children under five in 2016."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

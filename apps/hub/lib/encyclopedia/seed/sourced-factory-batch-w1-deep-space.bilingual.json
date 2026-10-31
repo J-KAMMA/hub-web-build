@@ -1,0 +1,1985 @@
+[
+  {
+    "slug": "exoplanet",
+    "topicType": "concept",
+    "categoryLabel": "物理・化学・宇宙",
+    "title": "系外惑星",
+    "summary": "系外惑星は、太陽系の外にあり主に他の恒星を回る惑星である。NASAによる確認済みの数は6,000個を超え、ガス巨人から地球サイズの岩石惑星、恒星を持たない放浪惑星まで多様である。銀河系には恒星よりも惑星のほうが多いと推定されている。",
+    "bodyMarkdown": "## 概要と定義\n\n他の恒星を回る惑星は「系外惑星」と呼ばれる。その大きさは幅広く、[木星](/hubpedia/jupiter)よりも大きいガス巨人から、地球や[火星](/hubpedia/mars)ほどの小さな岩石惑星まで存在する。金属が沸騰するほど高温の世界もあれば深い凍結状態にある世界もあり、恒星のすぐそばを数日で一周する惑星や、2つの恒星を同時に回る惑星も確認されている。さらに、恒星を持たず銀河の中を永遠の暗闇のまま放浪する「ローグ惑星」もある。 [1][2][3][4][5]\n\nこれまでに発見された系外惑星のほとんどは、[銀河系](/hubpedia/milky-way)の比較的狭い領域に集中している。「狭い」とは[太陽系](/hubpedia/solar-system)から数千光年以内を意味し、1光年は約5.88兆マイル（9.46兆キロメートル）に相当する。地球に最も近い既知の系外惑星プロキシマ・ケンタウリbでさえ約4光年離れている。それでも銀河系には恒星よりも惑星のほうが多いと分かっており、その総数は天文学的な規模に達する。 [6][7][8][9]\n\n## 種類と組成\n\n系外惑星の直径と質量を測定することで、その組成が地球や金星のような岩石質のものから、木星や土星のようなガスに富むものまで連続的に分布していることが分かる。水や氷に支配された惑星もあれば、鉄や炭素に支配された惑星もある。溶岩の海に覆われた「溶岩世界」、発泡スチロールなみの密度しか持たない膨らんだ惑星、そして母星を回り続ける高密度の核だけが残った惑星も確認されている。 [10][11][12]\n\nNASAではこれまでに、系外惑星をガス巨人、ネプチュニアン（海王星型）、スーパーアース（超地球型）、地球型の4種に分類し、ミニ・ネプチューンのような下位区分も設けている。この分類は、各惑星がどのように似ていて何が特別なのかを整理する枠組みとなっている。太陽系の惑星に必ずしも対応しない種類が含まれる点が、系外惑星特有の多様性を示している。 [13]\n\n## 発見の方法\n\n1995年に発見された惑星は、木星の約半分の大きさとみられる高温のガス巨人だった。わずか4日の軌道で母星を力強く引っ張ったため、星の「ふらつき」は地上の望遠鏡にも明白に観測できた。この視線速度法（ふらつき法）は、恒星がわずかに近づいたり遠ざかったりする動きに伴う星光の波長の伸縮を測定する。その揺れは、公転する惑星からの重力の引きによって生じる。 [17][18][19][20][21]\n\nもう一つの主要な手法がトランジット法である。ケプラー宇宙望遠鏡（2009年から2018年まで運用）は地球を追う軌道に入り、15万個の[恒星](/hubpedia/star)を含む小さな天域を4年間見続け、惑星が恒星の手前を横切る際の微小な減光を捉えた。トランジットで検出された惑星の軌道サイズは、公転周期と恒星の質量から計算できる。2018年に打ち上げられたNASAのTESS（トランジット系外惑星探索衛星）は同じ手法で全天の広い領域を調査している。 [22][23][24][25]\n\nこれらのほか、アインシュタインが最初に記述した効果、すなわち重力が星光を歪めて曲げる性質を利用する重力マイクロレンズがある。手前の恒星の重力が背後の恒星の光を拡大するため、惑星の存在は光度の小さな第二のピークとして現れる。NASAの将来のナンシー・グレース・ローマン宇宙望遠鏡はこの手法を用いる計画である。分光ではプリズムのように光を色帯へ分け、そのスペクトルをバーコードのように読み取って大気中の分子を特定する。直接撮像が捉えるわずかな光も、惑星大気のプロファイルや生命の存在を示唆するガスの証拠を提供し得る。 [26][27][28][29]\n\n## 発見の歩みと居住可能性\n\n太陽のような恒星を回る系外惑星の最初の確認は1995年であり、同年10月に特定された51ペガシbがその始まりだった。2025年は発見から30年の節目にあたり、確認済み惑星の数は6,000個を超えている。ケプラー宇宙望遠鏡のデータに基づく統計的推定によれば、銀河系には恒星よりも惑星が多く、銀河系だけで1兆個を超える惑星が存在し、その多くが地球サイズの範囲にあるとされる。 [14][15][16]\n\n探索の中心には居住可能性の問題がある。ハビタブルゾーンとは、惑星が表面に液体の水を持ち得る恒星周りの領域で、「ゴルディロックス・ゾーン」とも呼ばれる。そこは、生命にとって条件がちょうど良い――暑すぎず寒すぎない――領域を指す。とはいえ、確認された惑星の多くは地球とは大きく環境が異なり、地球に似た惑星がどれほど一般的なのか、生命の兆候をどこで探すべきかは、今後の観測に委ねられた未解決の課題である。 [30]",
+    "sources": [
+      {
+        "url": "https://science.nasa.gov/exoplanets/",
+        "title": "Exoplanets",
+        "publisher": "NASA",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+          },
+          "notes": "Exoplanet counts, types, habitable zone. Publisher policy read 2026-08-28: Text is public domain and usable commercially. Logos and insignia need clearance for promotional use; content must not imply NASA endorses a product or service; third-party copyrighted images and staff likenesses are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://science.nasa.gov/exoplanets/what-is-an-exoplanet/",
+        "title": "What is an exoplanet?",
+        "publisher": "NASA",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+          },
+          "notes": "Definition and variety of exoplanets. Publisher policy read 2026-08-28: Text is public domain and usable commercially. Logos and insignia need clearance for promotional use; content must not imply NASA endorses a product or service; third-party copyrighted images and staff likenesses are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+        "title": "How We Find and Classify Exoplanets",
+        "publisher": "NASA",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+          },
+          "notes": "Detection methods and missions. Publisher policy read 2026-08-28: Text is public domain and usable commercially. Logos and insignia need clearance for promotional use; content must not imply NASA endorses a product or service; third-party copyrighted images and staff likenesses are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Exoplanet",
+        "summary": "An exoplanet is a planet outside our solar system, most of them orbiting other stars. NASA has confirmed more than 6,000 exoplanets, ranging from gas giants to rocky worlds the size of Earth, and even rogue planets bound to no star. The galaxy is estimated to contain more planets than stars.",
+        "bodyMarkdown": "## Overview and definition\n\nPlanets orbiting other stars are called exoplanets. They come in a wide variety of sizes, from gas giants larger than [Jupiter](/hubpedia/jupiter) to small, rocky planets about as big as Earth or [Mars](/hubpedia/mars). Some are hot enough to boil metal, while others are locked in deep freeze. Some orbit their stars so tightly that a year lasts only a few days, and some orbit two suns at once. There are also rogue planets, sunless wanderers drifting through the galaxy in permanent darkness. [1][2][3][4][5]\n\nMost exoplanets discovered so far lie in a relatively small region of the [Milky Way](/hubpedia/milky-way), where small means within thousands of light-years of the [solar system](/hubpedia/solar-system); one light-year equals about 5.88 trillion miles (9.46 trillion kilometers). Even the closest known exoplanet to Earth, Proxima Centauri b, is still about 4 light-years away. Yet we know there are more planets than stars in the galaxy, so the total reaches an astronomical scale. [6][7][8][9]\n\n## Types and compositions\n\nBy measuring exoplanets' diameters and masses, astronomers can see compositions ranging continuously from rocky to gas-rich. Some planets may be dominated by water or ice, while others are dominated by iron or carbon. Lava worlds covered in molten seas, puffy planets with only the density of Styrofoam, and dense leftover cores still orbiting their stars have all been identified. [10][11][12]\n\nNASA has so far categorized exoplanets into four types — gas giant, Neptunian, super-Earth, and terrestrial — with subcategories such as mini-Neptunes. This framework organizes how the planets are alike and what makes each of them special. [13]\n\n## Detection methods\n\nThe planet discovered in 1995 was a hot gas giant believed to be about half the size of Jupiter. It tugged so hard on its parent star during its four-day orbit that the star's wobble was obvious to telescopes on Earth. This radial velocity, or wobble, method measures the stretching and squeezing of starlight wavelengths as a star moves slightly closer to and then farther from us. Those gyrations are caused by the gravitational tugs of orbiting planets. [17][18][19][20][21]\n\nThe other main technique is the transit method. The Kepler Space Telescope (in operation from 2009 to 2018) settled into an Earth-trailing orbit and stared for four years at a small patch of sky containing 150,000 [stars](/hubpedia/star), catching the tiny dips in light caused by planets crossing in front of them. Once a planet is detected by transit, its orbital size can be calculated from its period and the mass of its star. NASA's Transiting Exoplanet Survey Satellite (TESS), launched in 2018, employs the same technique to survey broad swaths of the sky. [22][23][24][25]\n\nBeyond these, gravitational microlensing exploits an effect first described by Einstein: gravity's ability to warp and bend starlight. NASA's future Nancy Grace Roman Space Telescope plans to use this technique. In spectroscopy, light is split into color bands as by a prism, and the spectrum is read like a bar code to identify which molecules are present. Even the single pixels captured by direct imaging can provide profiles of exoplanet atmospheres and perhaps evidence of gases suggesting the presence of life. [26][27][28][29]\n\n## History of discovery and habitability\n\nThe first confirmation of an exoplanet orbiting a Sun-like star came in 1995, beginning with 51 Pegasi b, identified in October of that year. The year 2025 marked three decades of discovery, and the number of confirmed planets has passed 6,000. A statistical estimate based on Kepler data indicates there are more planets than stars in the galaxy, meaning more than a trillion planets in the Milky Way alone, many of them in Earth's size range. [14][15][16]\n\nAt the center of the search lies habitability. The habitable zone is the region around a star where a planet could have liquid water on its surface, also called the Goldilocks zone. Even so, most confirmed planets differ greatly from Earth, and how common Earth-like planets really are, and where to look for signs of life, remain open questions awaiting future observations. [30]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "他の恒星を回る惑星は「系外惑星」と呼ばれる。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/exoplanets/what-is-an-exoplanet/",
+              "quote": "The worlds orbiting other stars are called “exoplanets,” and they come in a wide variety of sizes,"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "系外惑星の大きさは、木星より大きいガス巨人から地球や火星ほどの岩石惑星まで幅広い。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/exoplanets/what-is-an-exoplanet/",
+              "quote": "from gas giants larger than Jupiter to small, rocky planets about as big around as Earth or Mars."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "金属を沸騰させるほど高温の系外惑星や、深い凍結状態にあるものがある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/exoplanets/what-is-an-exoplanet/",
+              "quote": "They can be hot enough to boil metal or locked in deep freeze."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "恒星に極めて近く「1年」が数日しかない系外惑星や、2つの恒星を同時に回るものがある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/exoplanets/what-is-an-exoplanet/",
+              "quote": "They can orbit their stars so tightly that a “year” lasts only a few days; they can orbit two suns at once."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "恒星を持たず、銀河を永遠の暗闇の中で放浪する系外惑星（ローグ惑星）も存在する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/exoplanets/what-is-an-exoplanet/",
+              "quote": "Some exoplanets are sunless rogues, wandering through the galaxy in permanent darkness."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "発見された系外惑星の大半は、銀河系の比較的狭い領域に集中している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/exoplanets/",
+              "quote": "Most of the exoplanets discovered so far are in a relatively small region of our galaxy, the Milky Way."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "その「狭い」領域とは太陽系から数千光年以内を指し、1光年は5.88兆マイル（9.46兆キロメートル）に相当する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/exoplanets/",
+              "quote": "“Small” meaning within thousands of light-years of our solar system; one light-year equals 5.88 trillion miles, or 9.46 trillion kilometers."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "地球に最も近い既知の系外惑星プロキシマ・ケンタウリbは約4光年先にある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/exoplanets/",
+              "quote": "Even the closest known exoplanet to Earth, Proxima Centauri b, is still about 4 light-years away."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "銀河系には恒星よりも惑星のほうが多いと分かっている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/exoplanets/",
+              "quote": "We know there are more planets than stars in the galaxy."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "系外惑星の直径と質量の測定から、岩石質からガス質までの組成の幅が見える。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/exoplanets/",
+              "quote": "By measuring exoplanets’ sizes (diameters) and masses (weights), we can see compositions ranging from rocky (like Earth and Venus) to gas-rich (like Jupiter and Saturn)."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "水や氷に支配された惑星もあれば、鉄や炭素に支配された惑星もある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/exoplanets/",
+              "quote": "Some planets may be dominated by water or ice, while others are dominated by iron or carbon."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "溶岩の海に覆われた惑星や、発泡スチロールなみの密度の惑星、母星を回る高密度の核が確認されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/exoplanets/",
+              "quote": "We’ve identified lava worlds covered in molten seas, puffy planets the density of Styrofoam and dense cores of planets still orbiting their stars."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "系外惑星はガス巨人、ネプチュニアン、スーパーアース、地球型に分類され、ミニ・ネプチューンなどの下位区分がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/exoplanets/",
+              "quote": "So far scientists have categorized exoplanets into the following types: Gas giant, Neptunian, super-Earth, and terrestrial, with subcategories — such as mini-Neptunes — within those groups."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "太陽型恒星を回る最初の系外惑星51ペガシbは1995年10月に特定され、確認済み惑星の数は2025年の節目までに6,000個を超えた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/exoplanets/",
+              "quote": "The first planet discovered orbiting a Sun-like star, 51 Pegasi b, was identified in October 1995; in the three decades since then, we’ve confirmed 6,000 more, out of billions that we believe exist."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "ケプラー宇宙望遠鏡のデータに基づく統計的推定は、銀河系に恒星よりも多くの惑星があることを示した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+              "quote": "A statistical estimate based on data from NASA’s Kepler Space Telescope revealed that there are more planets than stars in our galaxy."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "銀河系だけで1兆個を超える惑星が存在し、その多くが地球サイズの範囲にあると推定される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+              "quote": "That means there are more than a trillion planets in our galaxy alone, many of them in Earth’s size range."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "1995年に発見された惑星は、木星の約半分の大きさとみられる高温のガス巨人だった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+              "quote": "The planet discovered in 1995 was a hot, star-hugging gas giant believed to be about half the size of Jupiter."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "その惑星は4日の軌道で母星を力強く引っ張り、星のふらつきが地上の望遠鏡に明白に観測された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+              "quote": "It tugged so hard on its parent star as it raced around in a four-day orbit that the star’s wobbling was obvious to earthly telescopes — once astronomers knew what to look for."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "ふらつき法（視線速度法）は、恒星の「視線速度」の変化を測定する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+              "quote": "The wobble method measures changes in a star’s “radial velocity.”"
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "恒星がわずかに近づいたり遠ざかったりするのに伴い、星光の波長は交互に圧縮・伸長される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+              "quote": "The wavelengths of starlight are alternately squeezed and stretched as a star moves slightly closer, then slightly farther away from us."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "その揺れは、公転する惑星からの重力の引きによって生じる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+              "quote": "Those gyrations are caused by gravitational tugs, this way and that, from orbiting planets."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "ケプラー宇宙望遠鏡（2009–2018年）は地球を追う軌道に入り、小さな天域を4年間見続けた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+              "quote": "The Kepler Space Telescope (2009-2018) ushered in what we could call the “modern” era of planet hunting. Kepler settled into an Earth-trailing orbit, then fixed its gaze on a small patch of sky. It stared at that patch for four years."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "その天域には15万個の恒星があり、ケプラーは惑星の通過による微小な減光を待ち受けた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+              "quote": "Within that small patch were 150,000 stars. Kepler was waiting to catch tiny dips in the amount of light coming from individual stars, caused by planets crossing in front of them."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "トランジットで検出されると、惑星の軌道サイズは公転周期と恒星の質量から計算できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+              "quote": "Once detected, the planet's orbital size can be calculated from the period (how long it takes the planet to circle once around the star) and the mass of the star."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "2018年に打ち上げられたNASAのトランジット系外惑星探索衛星（TESS）は、同じ手法で全天の広い領域を調査している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+              "quote": "NASA’s Transiting Exoplanet Survey Satellite, launched in 2018, employs the same technique (it’s in the name, afterall) to survey whole swaths of our sky."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "分光ではスペクトルの色帯をバーコードのように読み取り、存在する分子を特定できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+              "quote": "Scientists can read the color bands of this spectrum like a bar code, revealing which molecules are present."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "重力マイクロレンズは、アインシュタインが最初に記述した効果である、重力が星光を歪め曲げる性質を利用し、手前の恒星が背後の恒星の光を拡大する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+              "quote": "Another planet-hunting method takes advantage of an effect first described by Einstein: gravity's ability to warp and bend starlight. The gravity of a star in the foreground will magnify the light from a background star that passes just behind it."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "NASAの将来のナンシー・グレース・ローマン宇宙望遠鏡は、重力マイクロレンズを用いて系外惑星を発見する計画である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+              "quote": "NASA’s future Nancy Grace Roman Space Telescope will employ this technique, currently used by ground telescopes, to discover exoplanets."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "直接撮像が捉えるわずかな光は、惑星大気のプロファイルや生命の存在を示唆するガスの証拠を提供し得る。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/exoplanets/how-we-find-and-characterize/",
+              "quote": "But they will provide the next best thing: profiles of exoplanet atmospheres, and perhaps evidence of gases suggesting the presence of life."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "ハビタブルゾーンは、惑星が表面に液体の水を持ち得る恒星周りの領域で、「ゴルディロックス・ゾーン」とも呼ばれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/exoplanets/",
+              "quote": "The area around a star where its planets could have liquid water on the surface. Also called “Goldilocks zones,” where conditions might be just right — not too hot, not too cold — for life."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "milky-way",
+    "topicType": "astronomical-object",
+    "categoryLabel": "物理・化学・宇宙",
+    "title": "銀河系",
+    "summary": "銀河系は、太陽系を含むおそらく1,000億から4,000億個の恒星が集まった渦巻銀河で、直径は約10万光年に及ぶ。中心には太陽400万個分の超大質量ブラックホールがあり、私たちは中心と外縁の中間付近、オリオン腕のそばに位置する。約50の銀河からなる局部群に属し、アンドロメダ銀河とは約45億年後に衝突すると予測されている。",
+    "bodyMarkdown": "## 概要と規模\n\n銀河系は、重力によって束縛された膨大な[恒星](/hubpedia/star)の集まりであり、渦を巻きながら宇宙を回転している。これまでに得られた最深部の画像によれば、観測可能な宇宙には約2兆個の[銀河](/hubpedia/galaxy)が存在し、銀河系はその一つである。銀河系にはおそらく1,000億個から4,000億個の恒星が含まれ、直径は約10万光年に及ぶ。 [1][2][3][4]\n\nこの大きさは、他の銀河と比較してはじめて実感できる規模である。隣の大型銀河アンドロメダは約22万光年の幅を持ち、IC 1101と呼ばれる銀河は最大400万光年に達するため、銀河系は巨大だが最大級ではない。 [5][6]\n\n## 地球から見た姿と名前の由来\n\n地球から見ると、銀河系は空全体に弧を描く淡い乳白色の光の帯に見え、これがその名前の由来となった。この帯は、私たちの銀河系の中心円盤を真横から見た姿にほかならない。地球は銀河系の渦巻腕の一つに沿った位置、中心からほぼ中間のあたりにある。 [11][12][14][15]\n\n## 渦巻構造と腕\n\nNASAのスピッツァー宇宙望遠鏡による赤外線画像から、銀河系の優美な渦巻構造は、恒星の中心バーの両端から巻き出す2本の主腕に支配されていることが分かった。それ以前は、銀河系は4本の主腕を持つと考えられていた。2本の主腕はさて座・ケンタウルス腕とペルセウス腕で、太い中心バーの両端に接続しており、かつて主腕とされたノルマ腕といて座腕は、主腕の間に位置するあいまいな従腕へと格下げされた。 [19][20][21]\n\n主腕には若い星も古い星も最高密度で集まり、従腕は主にガスと散発的な星形成領域で満たされている。私たちの[太陽](/hubpedia/sun)は、いて座腕とペルセウス腕の間にあるオリオン腕（オリオン・スパー）と呼ばれる小さな部分腕の近くにある。さらに、銀河系内のガスを対象とした電波望遠鏡の調査では「Far-3キロパーセク腕」と呼ばれる新しい腕も見つかっており、これは2本の主腕より短く、銀河系のバーに沿って位置する。 [22][23][27]\n\n## 中心のブラックホールと局部群\n\n銀河系の中心には、太陽400万個分の質量を持つ[ブラックホール](/hubpedia/black-hole)が鎮座している。大きな銀河の中心には、太陽の数十万倍から数十億倍の質量を持つ超大質量ブラックホールが存在することが多く、これは大型銀河に共通する特徴の一つである。 [24]\n\n銀河系は、50以上の銀河が集まる局部群（ローカル・グループ）と呼ばれる近隣に位置している。その構成員は、数十億個までの恒星を持つ矮小銀河から、最も近い大銀河であるアンドロメダまで幅広い。局部群はおとめ座銀河団の縁のすぐ外側に位置し、ラニアケア超銀河団の一部をなしている。 [16][17][18]\n\n## 距離の尺度と太陽系の公転\n\n銀河系内の距離を語る際の基本的な物差しが光年、すなわち光が1年間に進む距離である。光は秒速186,000マイル（30万キロメートル）で進み、1年間では5.8兆マイル（9.5兆キロメートル）に達する。地球は太陽から約8光分の距離にあり、最も近い隣星プロキシマ・ケンタウリへは光速でも4.25年かかる。 [7][8][9][10]\n\n私たちの[太陽系](/hubpedia/solar-system)は、銀河系を1周するのに約2億4,000万年を要する。銀河系の巨大さは、この公転周期の長さからもうかがえる。 [13]\n\n銀河系がどれほどの惑星を抱えているかも、観測から見積もられている。NASAのケプラー宇宙望遠鏡の観測に基づき、空に見えるすべての恒星がおそらく少なくとも1つの惑星を持つと確度をもって予測できる。数千億個の恒星を抱える銀河系では、惑星の総数は数兆個に達し得るとされる。惑星は稀な存在ではなく、恒星に普遍的に付随する現象であることが示唆されている。 [28]\n\n## 他の銀河との相互作用と未来\n\n銀河系は孤立して存在するのではない。天文学者は、銀河系が現在も衛星矮小銀河である大小マゼラン雲から水素の流れを引き寄せていると考えている。そして銀河系と隣の大型銀河アンドロメダは、約45億年後に衝突する軌道にあると見込まれている。 [25][26]\n\n銀河同士が衝突しても、銀河の内部には空隙が多いため、恒星同士が激突するとは限らない。ただし衝突はガス雲を圧縮し、新たな星形成の波を引き起こすことがある。互いを通り過ぎるだけの運動量がなければ、衝突した銀河は合体してより大きな1つの銀河を形成する。衝突の時期やその結果の姿の詳細は、なお研究が続く課題である。 [29][30]",
+    "sources": [
+      {
+        "url": "https://science.nasa.gov/universe/galaxies/",
+        "title": "Galaxies",
+        "publisher": "NASA",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+          },
+          "notes": "Milky Way overview and Local Group. Publisher policy read 2026-08-28: Text is public domain and usable commercially. Logos and insignia need clearance for promotional use; content must not imply NASA endorses a product or service; third-party copyrighted images and staff likenesses are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://science.nasa.gov/resource/the-milky-way-galaxy/",
+        "title": "The Milky Way Galaxy",
+        "publisher": "NASA",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+          },
+          "notes": "Spiral arm structure from Spitzer. Publisher policy read 2026-08-28: Text is public domain and usable commercially. Logos and insignia need clearance for promotional use; content must not imply NASA endorses a product or service; third-party copyrighted images and staff likenesses are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://science.nasa.gov/universe/exoplanets/our-milky-way-galaxy-how-big-is-space/",
+        "title": "Our Milky Way Galaxy: How Big is Space?",
+        "publisher": "NASA",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+          },
+          "notes": "Galaxy size and distance scales. Publisher policy read 2026-08-28: Text is public domain and usable commercially. Logos and insignia need clearance for promotional use; content must not imply NASA endorses a product or service; third-party copyrighted images and staff likenesses are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://science.nasa.gov/universe/galaxies/evolution/",
+        "title": "Galaxy Evolution",
+        "publisher": "NASA",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+          },
+          "notes": "Central black hole and collisions. Publisher policy read 2026-08-28: Text is public domain and usable commercially. Logos and insignia need clearance for promotional use; content must not imply NASA endorses a product or service; third-party copyrighted images and staff likenesses are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Milky Way",
+        "summary": "The Milky Way is the spiral galaxy that contains our solar system, holding probably 100 to 400 billion stars and spanning about 100,000 light-years. A supermassive black hole of 4 million Suns sits at its center, and we lie roughly halfway out, near the small Orion Spur. It belongs to the Local Group of more than 50 galaxies and is predicted to collide with Andromeda in about 4.5 billion years.",
+        "bodyMarkdown": "## Overview and scale\n\nThe Milky Way is a gravitationally bound collection of [stars](/hubpedia/star), swirling in a spiral through space. Based on the deepest images obtained so far, it is one of about 2 trillion [galaxies](/hubpedia/galaxy) in the observable universe. Our galaxy probably contains 100 to 400 billion stars and is about 100,000 light-years across. [1][2][3][4]\n\nIts scale becomes tangible only in comparison with other galaxies. Our neighboring Andromeda galaxy is some 220,000 light-years wide, and a galaxy called IC 1101 spans as much as 4 million light-years, so the Milky Way is huge but not the largest. [5][6]\n\n## Appearance from Earth and the origin of the name\n\nFrom our perspective on Earth, the Milky Way looks like a faint, milky band of light arcing across the entire sky, which is how it got its name. This feature marks the central disk of our home galaxy seen edge on. Earth is located along one of the galaxy's spiral arms, about halfway from the center. [11][12][14][15]\n\n## Spiral structure and arms\n\nUsing infrared images from NASA's Spitzer Space Telescope, scientists discovered that the Milky Way's elegant spiral structure is dominated by just two arms wrapping off the ends of a central bar of stars. Previously, our galaxy was thought to possess four major arms. The two major arms, Scutum-Centaurus and Perseus, attach to the ends of the thick central bar, while the now-demoted minor arms, Norma and Sagittarius, are less distinct and lie between the major arms. [19][20][21]\n\nThe major arms hold the highest densities of both young and old stars, while the minor arms are primarily filled with gas and pockets of star-forming activity. Our [Sun](/hubpedia/sun) lies near a small, partial arm called the Orion Arm, or Orion Spur, located between the Sagittarius and Perseus arms. A radio-telescope survey of gas in the Milky Way has also revealed a new spiral arm called the Far-3 kiloparsec arm, which is shorter than the two major arms and lies along the galaxy's bar. [22][23][27]\n\n## The central black hole and the Local Group\n\nA [black hole](/hubpedia/black-hole) weighing 4 million Suns sits in the center of our galaxy. Most big galaxies have supermassive black holes at their centers packing hundreds of thousands to billions of times the Sun's mass, making this a feature common to large galaxies. [24]\n\nThe Milky Way sits in a neighborhood with over 50 other galaxies called the Local Group. Its members range in size from dwarf galaxies with up to a few billion stars to Andromeda, our nearest large galactic neighbor. The Local Group sits just off the edge of the Virgo cluster and is part of the Laniakea supercluster. [16][17][18]\n\n## Distance scales and the orbit of the solar system\n\nThe basic yardstick for distances inside the galaxy is the light-year, the distance light travels in one year. Light moves through interstellar space at 186,000 miles (300,000 kilometers) per second, covering 5.8 trillion miles (9.5 trillion kilometers) in a year. Earth is about eight light minutes from the Sun, and the nearest neighboring star, Proxima Centauri, would take 4.25 years to reach even at light speed. [7][8][9][10]\n\nOur [solar system](/hubpedia/solar-system) takes about 240 million years to orbit the Milky Way just once, a measure of the galaxy's immense scale. [13]\n\nHow many planets the Milky Way holds can also be estimated from observations. Based on data from NASA's Kepler space telescope, we can confidently predict that every star you see in the sky probably hosts at least one planet. In a galaxy of hundreds of billions of stars, that pushes the number of planets potentially into the trillions. Planets appear to be not a rarity but a phenomenon that universally accompanies stars. [28]\n\n## Interactions with other galaxies and the future\n\nThe Milky Way does not exist in isolation. Researchers think it is currently funneling away a stream of hydrogen from its satellite dwarf galaxies, the Large and Small Magellanic Clouds. And the Milky Way and its large neighbor Andromeda are set to collide in about 4.5 billion years. [25][26]\n\nWhen galaxies collide, their stars do not necessarily crash, because galaxies contain a lot of empty space, but collisions can compress gas clouds and spur new bouts of star formation. If colliding galaxies lack the momentum to move past each other, they can merge to form a single larger galaxy. The details of when the collision will unfold and what shape it will produce remain open questions under continued study. [29][30]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "銀河系は重力に束縛された恒星の集まりで、渦を巻きながら宇宙を回転している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/exoplanets/our-milky-way-galaxy-how-big-is-space/",
+              "quote": "Our galaxy is a gravitationally bound collection of stars, swirling in a spiral through space."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "観測可能な宇宙には約2兆個の銀河が存在し、銀河系はその一つである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/exoplanets/our-milky-way-galaxy-how-big-is-space/",
+              "quote": "Based on the deepest images obtained so far, it’s one of about 2 trillion galaxies in the observable universe."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "銀河系にはおそらく1,000億個から4,000億個の恒星が含まれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/exoplanets/our-milky-way-galaxy-how-big-is-space/",
+              "quote": "Our galaxy probably contains 100 to 400 billion stars, and is about 100,000 light-years across."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "銀河系の直径は約10万光年である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/exoplanets/our-milky-way-galaxy-how-big-is-space/",
+              "quote": "Our galaxy probably contains 100 to 400 billion stars, and is about 100,000 light-years across."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "隣の大型銀河アンドロメダは約22万光年の幅を持つ。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/exoplanets/our-milky-way-galaxy-how-big-is-space/",
+              "quote": "Our neighboring Andromeda galaxy, for example, is some 220,000 light-years wide."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "IC 1101と呼ばれる銀河は最大400万光年に達する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/exoplanets/our-milky-way-galaxy-how-big-is-space/",
+              "quote": "Another galaxy, IC 1101, spans as much as 4 million light-years."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "光年とは光が1年間に進む距離であり、最もよく使われる天体の物差しの一つである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/exoplanets/our-milky-way-galaxy-how-big-is-space/",
+              "quote": "It’s one of the most commonly used celestial yardsticks, the distance light travels in one year."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "光は秒速186,000マイル（30万キロメートル）で進み、1光年は5.8兆マイル（9.5兆キロメートル）に相当する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/exoplanets/our-milky-way-galaxy-how-big-is-space/",
+              "quote": "Light zips along through interstellar space at 186,000 miles (300,000 kilometers) per second"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/exoplanets/our-milky-way-galaxy-how-big-is-space/",
+              "quote": "Multiply that by all the seconds in one year, and you get 5.8 trillion miles (9.5 trillion kilometers)."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "地球は太陽から約8光分の距離にある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/exoplanets/our-milky-way-galaxy-how-big-is-space/",
+              "quote": "Just for reference, Earth is about eight light minutes from the Sun."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "最も近い隣星プロキシマ・ケンタウリへは、光速でも4.25年かかる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/exoplanets/our-milky-way-galaxy-how-big-is-space/",
+              "quote": "Keep going to Proxima Centauri, our nearest neighboring star, and plan on arriving in 4.25 years at light speed."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "銀河系は10万光年を超える恒星の円盤を持つ渦巻銀河である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/",
+              "quote": "It’s a spiral galaxy with a disk of stars spanning more than 100,000 light-years."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "地球は銀河系の渦巻腕の一つに沿い、中心からほぼ中間に位置する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/",
+              "quote": "Earth is located along one of the galaxy’s spiral arms, about halfway from the center."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "太陽系は銀河系を1周するのに約2億4,000万年かかる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/",
+              "quote": "Our solar system takes about 240 million years to orbit the Milky Way just once."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "地球から見ると銀河系は空を横切る淡い乳白色の光の帯に見え、これが名前の由来となった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/",
+              "quote": "From our perspective on Earth, the Milky Way looks like a faint, milky band of light arcing across the entire sky, which is how it got its name."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "その帯は、真横から見た銀河系の中心円盤である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/",
+              "quote": "This feature marks the central disk of our home galaxy seen edge on."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "銀河系は50以上の銀河からなる局部群（ローカル・グループ）に属している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/",
+              "quote": "The Milky Way sits in a neighborhood with over 50 other galaxies called the Local Group."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "局部群の構成員は、数十億個までの恒星を持つ矮小銀河から、最も近い大銀河アンドロメダまで幅広い。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/",
+              "quote": "Its members range in size from dwarf galaxies (smaller galaxies with up to a few billion stars) to Andromeda, our nearest large galactic neighbor."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "局部群はおとめ座銀河団の縁のすぐ外側に位置し、ラニアケア超銀河団の一部をなす。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/",
+              "quote": "The Local Group sits just off the edge of the Virgo cluster and is part of the Laniakea supercluster."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "スピッツァー宇宙望遠鏡の赤外線画像により、銀河系の渦巻構造は中心の恒星バーの両端から巻き出す2本の腕に支配されていると判明した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/resource/the-milky-way-galaxy/",
+              "quote": "Using infrared images from NASA's Spitzer Space Telescope, scientists have discovered that the Milky Way's elegant spiral structure is dominated by just two arms wrapping off the ends of a central bar of stars."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "それ以前は、銀河系は4本の主腕を持つと考えられていた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/resource/the-milky-way-galaxy/",
+              "quote": "Previously, our galaxy was thought to possess four major arms."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "2本の主腕はさて座・ケンタウルス腕とペルセウス腕で中心バーの両端に接続し、ノルマ腕といて座腕は主腕の間のあいまいな従腕へ格下げされた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/resource/the-milky-way-galaxy/",
+              "quote": "The galaxy's two major arms (Scutum-Centaurus and Perseus) can be seen attached to the ends of a thick central bar, while the two now-demoted minor arms (Norma and Sagittarius) are less distinct and located between the major arms."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "主腕には若い星も古い星も最高密度で集まり、従腕は主にガスと散発的な星形成領域で満たされている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/resource/the-milky-way-galaxy/",
+              "quote": "The major arms consist of the highest densities of both young and old stars; the minor arms are primarily filled with gas and pockets of star-forming activity."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "太陽は、いて座腕とペルセウス腕の間にあるオリオン腕（オリオン・スパー）と呼ばれる小さな部分腕の近くにある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/resource/the-milky-way-galaxy/",
+              "quote": "Our Sun lies near a small, partial arm called the Orion Arm, or Orion Spur, located between the Sagittarius and Perseus arms."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "銀河系の中心には太陽400万個分の質量を持つブラックホールが鎮座し、大きな銀河の中心には太陽の数十万倍から数十億倍の超大質量ブラックホールがあることが多い。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/evolution/",
+              "quote": "Most big galaxies have supermassive black holes at their centers that pack hundreds of thousands to billions of times the Sun’s mass. A black hole weighing 4 million Suns sits in the center of our own galaxy, the Milky Way."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "銀河系と隣の大型銀河アンドロメダは、約45億年後に衝突すると見込まれている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/evolution/",
+              "quote": "Astronomers think the Milky Way and its galactic neighbor Andromeda are set to collide in another 4.5 billion years."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "銀河系は現在も、衛星矮小銀河である大小マゼラン雲から水素の流れを引き寄せていると考えられている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/evolution/",
+              "quote": "Researchers think the Milky Way is currently funneling away a stream of hydrogen from its satellite dwarf galaxies, the Large and Small Magellanic Clouds."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "銀河系内のガスの電波調査で「Far-3キロパーセク腕」と呼ばれる新しい腕が見つかっており、2本の主腕より短くバーに沿って位置する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/resource/the-milky-way-galaxy/",
+              "quote": "The artist's concept also includes a new spiral arm, called the \"Far-3 kiloparsec arm,\" discovered via a radio-telescope survey of gas in the Milky Way. This arm is shorter than the two major arms and lies along the bar of the galaxy."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "ケプラー宇宙望遠鏡の観測に基づき、空に見えるすべての恒星がおそらく少なくとも1つの惑星を持つと予測され、数千億の恒星を抱える銀河系の惑星数は数兆個に達し得る。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/exoplanets/our-milky-way-galaxy-how-big-is-space/",
+              "quote": "we can confidently predict that every star you see in the sky probably hosts at least one planet. Realistically, we’re most likely talking about multi-planet systems rather than just single planets. In our galaxy of hundreds of billions of stars, this pushes the number of planets potentially into the trillions."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "銀河同士が衝突しても恒星同士が激突するとは限らないが、衝突はガス雲を圧縮して新たな星形成を促すことがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/evolution/",
+              "quote": "Sometimes, galaxies collide. This doesn’t necessarily mean their stars crash – galaxies contain a lot of empty space – but collisions can compress gas clouds, spurring new bouts of star formation."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "互いを通り過ぎるだけの運動量がなければ、衝突した銀河は合体してより大きな1つの銀河を形成する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/evolution/",
+              "quote": "If colliding galaxies don’t have enough momentum to move past each other, they can merge to form a single larger galaxy."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "galaxy",
+    "topicType": "concept",
+    "categoryLabel": "物理・化学・宇宙",
+    "title": "銀河",
+    "summary": "銀河は、恒星や惑星、ガスと塵の巨大な雲が重力によって束縛された集まりで、形や中心部の活動性によって渦巻・楕円・レンズ状・不規則・活動銀河などに分類される。NASAの観測資料に基づき、その規模、構造、形成と進化、そして衝突や合体を通じた相互作用を概説する。",
+    "bodyMarkdown": "## 概要と規模\n\n銀河は、[恒星](/hubpedia/star)や惑星、そしてガスと塵の巨大な雲が重力によって束縛された集まりである。最大の銀河は数兆個の恒星を含み、100万光年を超える広がりを持つ。一方、最小の銀河は数千個の恒星を含むだけで、幅はわずか数百光年である。ほとんどの大きな銀河の中心には超大質量[ブラックホール](/hubpedia/black-hole)が存在し、その質量は[太陽](/hubpedia/sun)の数十億倍に達するものもある。 [1][2][3][4]\n\nほとんどの銀河の年齢は100億年から136億年の間で、約138億年前に形成された宇宙そのものに近い年齢のものもある。天文学者は、既知で最も若い銀河が約5億年前に形成されたと考えている。 [6][7]\n\n## 形態による分類\n\n銀河はさまざまな形を持ち、多くは渦巻銀河と楕円銀河に分類され、秩序だった姿を持たないものは不規則銀河と呼ばれる。科学者は形と物理的特徴で分類するほか、中心部の活動性や観測する角度でも整理する。 [5][8]\n\n渦巻銀河は渦巻腕の存在で定義される広いクラスで、回転する巨大な風車のような平らな恒星の円盤と、中心のバルジと呼ばれる密集した恒星の集まりを持つ。渦巻銀河は古い恒星・星団・暗黒物質を混ぜたハローに囲まれており、暗黒物質は光を放射も反射もしないが他の物質に重力を及ぼす目に見えない物質である。最も若い星はガスに富む腕で生まれ、古い星は円盤やバルジ、ハロー全体に分布する。[銀河系](/hubpedia/milky-way)とアンドロメダ銀河は、渦巻銀河の3分の2を占める棒渦巻という亜型に属し、棒は中心を横切る恒星・ガス・塵の帯で、銀河が完全な成熟に達した印と考えられている。 [9][10][11][12][13]\n\n楕円銀河は真円から卵形までの形を持ち、渦巻銀河より少ない。ガスや塵が少なく組織だった構造をほとんど示さず、恒星は中心核の周りを不規則な方向に公転する。新しい星を作るガスがほとんど残っていないため、その恒星は一般に渦巻銀河のものより古い。楕円銀河は渦巻銀河との衝突や合体から生じたと考えられている。 [14][15][16]\n\nレンズ状銀河は渦巻と楕円の中間的な存在で、中心バルジと円盤は持つが腕はなく、楕円銀河と同様に古い恒星集団とわずかな星形成しか持たない。不規則銀河は、つまようじや環、小さな星の集まりのような奇妙な形を持ち、質量は太陽の1億倍の矮小不規則銀河から100億倍の大型まで及ぶ。その奇妙な形は、他の銀河との相互作用の結果である場合があると考えられている。 [17][18][19]\n\n## 活動銀河と中心ブラックホール\n\n既知の銀河の約1割は活動銀河で、その中心は全恒星の合計光の100倍以上明るく見える。この余剰エネルギーは、中心の超大質量ブラックホールの近傍から来ていると考えられている。ガスと塵はブラックホールの周囲に降着円盤を形成し、重力によって圧縮・加熱されて赤外線からX線まで複数の波長で輝く。降着円盤は数光年の広さを持つトーラスと呼ばれる冷たい塵の環に包まれ、落ち込むガスのごく一部は円盤に垂直な方向へ光速に近い粒子のジェットとして放出される。 [20][21][22][23]\n\n## 形成と進化\n\n観測された最古の銀河の一部は、宇宙が約10億歳の頃に形成された。これらの銀河は、宇宙の始まりのインフレーションによって生じた周囲よりわずかに密度の高い領域の周りで成長し始めたと考えられている。ただし、ブラックホールが先に存在して銀河がその周りに育ったのか、銀河が先に存在して内部の小さなブラックホールが合体しガスや塵や星を食べて巨大化したのかという形成順序の問題は未解決であり、NASAのジェイムズ・ウェッブ宇宙望遠鏡にとって主要な探究目標となっている。 [24][25]\n\n2004年にNASAが公開したハッブル・ウルトラ・ディープ・フィールドは、ほうおう座の小さな領域に約1万個の銀河を写し、その一部はビッグバンから8億年以内の130億年前に存在した。こうした画像は異なる進化段階の銀河を一度に研究する手がかりとなるが、銀河がどのように始まり成長するかについては、現代の観測所をもってしても多くの疑問が残されている。 [26]\n\n## 集団構造と相互作用\n\n銀河は、相互の重力で束縛された約100個以下の群にまとまることができ、より大きな銀河団には数千の銀河が含まれる。群や銀河団は重力では束縛されない超銀河団へと配置され、超銀河団・空っぽのボイド・銀河の壁などの大規模構造が宇宙の物質の網目構造を構成する。 [27]\n\n銀河同士は衝突もする。内部に空隙が多いため恒星が激突するとは限らないが、衝突はガス雲を圧縮して新たな星形成を促す。互いを通り過ぎるだけの運動量がなければ合体して1つの大きな銀河になり、渦巻銀河と楕円銀河の合体は不規則銀河を生むこともある。さらに、大きな銀河は近接と重力相互作用によって小さな銀河を呑み込んで成長することもあり、銀河系は現在も衛星矮小銀河である大小マゼラン雲から水素の流れを引き寄せていると考えられている。銀河系とアンドロメダ銀河は約45億年後に衝突すると見込まれている。 [28][29][30]",
+    "sources": [
+      {
+        "url": "https://science.nasa.gov/universe/galaxies/",
+        "title": "Galaxies",
+        "publisher": "NASA",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+          },
+          "notes": "Galaxy basics: composition, size range, ages, and large-scale structure. Publisher policy read 2026-08-28: Text is public domain and usable commercially. Logos and insignia need clearance for promotional use; content must not imply NASA endorses a product or service; third-party copyrighted images and staff likenesses are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://science.nasa.gov/universe/galaxies/types/",
+        "title": "Types of Galaxies",
+        "publisher": "NASA",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+          },
+          "notes": "Morphological classification and active galaxies. Publisher policy read 2026-08-28: Text is public domain and usable commercially. Logos and insignia need clearance for promotional use; content must not imply NASA endorses a product or service; third-party copyrighted images and staff likenesses are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://science.nasa.gov/universe/galaxies/evolution/",
+        "title": "Galaxy Evolution",
+        "publisher": "NASA",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+          },
+          "notes": "Formation, deep fields, collisions, mergers, and cannibalism. Publisher policy read 2026-08-28: Text is public domain and usable commercially. Logos and insignia need clearance for promotional use; content must not imply NASA endorses a product or service; third-party copyrighted images and staff likenesses are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Galaxy",
+        "summary": "A galaxy is a gravitationally bound collection of stars, planets, and vast clouds of gas and dust, classified by shape and central activity into spirals, ellipticals, lenticulars, irregulars, and active galaxies. Drawing on NASA observations, this article surveys galaxy scales, structure, formation and evolution, and interactions through collisions and mergers.",
+        "bodyMarkdown": "## Overview and scale\n\nGalaxies consist of [stars](/hubpedia/star), planets, and vast clouds of gas and dust, all bound together by gravity. The largest contain trillions of stars and can be more than a million light-years across, while the smallest hold only a few thousand stars and span just a few hundred light-years. Most large galaxies have supermassive [black holes](/hubpedia/black-hole) at their centers, some with billions of times the [Sun's](/hubpedia/sun) mass. [1][2][3][4]\n\nMost galaxies are between 10 billion and 13.6 billion years old, and some are nearly as old as the universe itself, which formed around 13.8 billion years ago. Astronomers think the youngest known galaxy formed approximately 500 million years ago. [6][7]\n\n## Classification by shape\n\nGalaxies come in a variety of shapes, mostly spirals and ellipticals, with less orderly ones usually dubbed irregular. Scientists categorize them by shape and physical features, and also by the activity in their central regions and the angle at which we view them. [5][8]\n\nSpiral galaxies are a broad class defined by the presence of spiral arms, resembling giant rotating pinwheels with a pancake-like disk of stars and a central bulge of tightly concentrated stars. They are surrounded by halos of old stars, star clusters, and dark matter, invisible material that does not emit or reflect light but still exerts a gravitational pull on other matter. The youngest stars form in gas-rich arms, while older stars are found throughout the disk, bulge, and halo. The [Milky Way](/hubpedia/milky-way) and Andromeda belong to a subtype called barred spirals, which make up two-thirds of the group; the bar is a ribbon of stars, gas, and dust cutting across the center and is thought to mark a galaxy that has reached full maturity. [9][10][11][12][13]\n\nElliptical galaxies range from completely round to oval and are less common than spirals. They contain little gas and dust, show very little organized structure, and their stars orbit the core in random directions. Because little of the gas needed to form new stars remains, their stars are generally older than those in spiral galaxies. Scientists think ellipticals originate from collisions and mergers with spirals. [14][15][16]\n\nLenticular galaxies are a kind of cross between spirals and ellipticals: they have the central bulge and disk of spirals but no arms, and like ellipticals they hold older stellar populations with little ongoing star formation. Irregular galaxies have unusual shapes, like toothpicks, rings, or little groupings of stars, and range from dwarf irregulars of 100 million solar masses to large ones of 10 billion. Astronomers think their odd shapes are sometimes the result of interactions with other galaxies. [17][18][19]\n\n## Active galaxies and central black holes\n\nAround 10 percent of known galaxies are active, meaning their centers appear more than 100 times brighter than the combined light of their stars. Astronomers think this excess energy comes from areas near the galaxies' central supermassive black holes. Gas and dust collect around the black hole into an accretion disk that gravity compresses and heats until the material glows across multiple wavelengths from infrared to X-rays. The disk is embedded in a clumpy ring of cooler dust called a torus that may be a few light-years across, and a small fraction of the infalling gas is driven perpendicular to the disk as jets of particles moving near the speed of light. [20][21][22][23]\n\n## Formation and evolution\n\nSome of the oldest galaxies observed formed when the universe was only about a billion years old. Astronomers think those galaxies started to grow around pockets of space slightly denser than their surroundings, an effect created by cosmic inflation when the universe began. Whether black holes came first and galaxies grew around them, or galaxies came first and their small black holes merged and fed on gas, dust, and stars, remains an open question and a major goal for NASA's James Webb Space Telescope. [24][25]\n\nIn 2004, NASA released the Hubble Ultra Deep Field, an image of a small part of the constellation Fornax containing around 10,000 galaxies, some of which existed 13 billion years ago, less than 800 million years after the big bang. Such snapshots let scientists study galaxies at different evolutionary stages, yet even with modern observatories many questions remain about exactly how galaxies begin and grow. [26]\n\n## Grouping and interactions\n\nGalaxies can organize into groups of about 100 or fewer members held together by mutual gravity, while larger structures called clusters may contain thousands of galaxies. Groups and clusters arrange into superclusters that are not gravitationally bound, and superclusters, empty voids, walls of galaxies, and other large-scale structures make up the cosmic web of matter in the universe. [27]\n\nGalaxies also collide. Because they contain a lot of empty space their stars do not necessarily crash, but collisions can compress gas clouds and spur new bouts of star formation. If colliding galaxies lack the momentum to move past each other they merge into a single larger galaxy, and a spiral merging with an elliptical can produce an irregular galaxy. Larger galaxies can also gobble up smaller ones through proximity and gravitational interactions; researchers think the Milky Way is currently funneling away a stream of hydrogen from its satellite dwarf galaxies, the Large and Small Magellanic Clouds. The Milky Way and Andromeda are set to collide in about 4.5 billion years. [28][29][30]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "銀河は、恒星や惑星、ガスと塵の巨大な雲が重力によって束縛された集まりである。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/",
+              "quote": "Galaxies consist of stars, planets, and vast clouds of gas and dust, all bound together by gravity."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "最大の銀河は数兆個の恒星を含み、100万光年を超える広がりを持つ。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/",
+              "quote": "The largest contain trillions of stars and can be more than a million light-years across."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "最小の銀河は数千個の恒星を含み、幅はわずか数百光年である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/",
+              "quote": "The smallest can contain a few thousand stars and span just a few hundred light-years."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "ほとんどの大きな銀河の中心には超大質量ブラックホールがあり、太陽の数十億倍の質量を持つものもある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/",
+              "quote": "Most large galaxies have supermassive black holes at their centers, some with billions of times the Sun’s mass."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "銀河の形は多様で、多くは渦巻と楕円に分類され、秩序だった姿を持たないものは不規則と呼ばれる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/",
+              "quote": "Galaxies come in a variety of shapes, mostly spirals and ellipticals, as well as those with less orderly appearances, usually dubbed irregular."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "ほとんどの銀河の年齢は100億年から136億年の間で、宇宙そのものは約138億年前に形成された。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/",
+              "quote": "Most galaxies are between 10 billion and 13.6 billion years old. Some are almost as old as the universe itself, which formed around 13.8 billion years ago."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "天文学者は、既知で最も若い銀河が約5億年前に形成されたと考えている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/",
+              "quote": "Astronomers think the youngest known galaxy formed approximately 500 million years ago."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "銀河の分類は形と物理的特徴のほか、超大質量ブラックホールに支えられた中心部の活動性や観測する角度にも基づく。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/types/",
+              "quote": "Scientists sometimes categorize galaxies based on their shapes and physical features. Other classifications organize galaxies by the activity in their central regions – powered by a supersized black hole – and the angle at which we view them."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "渦巻銀河は渦巻腕で定義される広いクラスで、回転する風車のような平らな恒星の円盤と中心バルジを持つ。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/types/",
+              "quote": "Our Milky Way is one example of a broad class of galaxies defined by the presence of spiral arms. These galaxies resemble giant rotating pinwheels with a pancake-like disk of stars and a central bulge or tight concentration of stars."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "渦巻銀河は古い恒星・星団・暗黒物質を混ぜたハローに囲まれ、暗黒物質は光を放射も反射もしないが重力を及ぼす。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/types/",
+              "quote": "Spiral galaxies are surrounded by halos, mixtures of old stars, star clusters, and dark matter – invisible material that does not emit or reflect light but still has a gravitational pull on other matter."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "最も若い星はガスに富む腕で形成され、古い星は円盤やバルジ、ハロー全体に分布する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/types/",
+              "quote": "The youngest stars form in gas-rich arms, while older stars can be found throughout the disk and within the bulge and halo."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "銀河系とアンドロメダ銀河は棒渦巻という亜型に属し、棒渦巻は渦巻銀河の3分の2を占める。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/types/",
+              "quote": "Both the Milky Way and the Andromeda galaxies belong to a subtype known as barred spirals, which make up two-thirds of the group."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "棒は中心を横切る恒星・ガス・塵の帯で、銀河が完全な成熟に達した印と考えられている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/types/",
+              "quote": "Barred spirals sport ribbons of stars, gas, and dust that cut across their centers. Scientists think the presence of a bar indicates that a galaxy has reached full maturity."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "楕円銀河は真円から卵形までの形を持ち、渦巻銀河より少ない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/types/",
+              "quote": "Elliptical galaxies have shapes that range from completely round to oval. They are less common than spiral galaxies."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "楕円銀河はガスや塵が少なく構造をほとんど持たず、恒星は中心核の周りを不規則な方向に公転し、新しい星を作るガスが乏しいため一般に古い。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/types/",
+              "quote": "Unlike spirals, elliptical galaxies usually contain little gas and dust and show very little organization or structure. The stars orbit around the core in random directions and are generally older than those in spiral galaxies since little of the gas needed to form new stars remains."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "楕円銀河は渦巻銀河との衝突や合体から生じたと考えられている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/types/",
+              "quote": "Scientists think elliptical galaxies originate from collisions and mergers with spirals."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "レンズ状銀河は渦巻と楕円の中間で、中心バルジと円盤を持つが腕はなく、古い恒星集団とわずかな星形成しか持たない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/types/",
+              "quote": "Lenticular galaxies are a kind of cross between spirals and ellipticals. They have the central bulge and disk common to spiral galaxies but no arms. But like ellipticals, lenticular galaxies have older stellar populations and little ongoing star formation."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "不規則銀河は奇妙な形を持ち、質量は太陽の1億倍の矮小不規則銀河から100億倍の大型まで及ぶ。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/types/",
+              "quote": "Irregular galaxies have unusual shapes, like toothpicks, rings, or even little groupings of stars. They range from dwarf irregular galaxies with 100 million times the Sun’s mass to large ones weighing 10 billion solar masses."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "不規則銀河の奇妙な形は、他の銀河との相互作用の結果である場合があると考えられている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/types/",
+              "quote": "Astronomers think these galaxies’ odd shapes are sometimes the result of interactions with others."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "既知の銀河の約1割は活動銀河で、その中心は全恒星の合計光の100倍以上明るく見える。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/types/",
+              "quote": "Around 10% of known galaxies are active, which means their centers appear more than 100 times brighter than the combined light of their stars."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "活動銀河の余剰エネルギーは、中心の超大質量ブラックホールの近傍から来ていると考えられている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/types/",
+              "quote": "Astronomers think this excess energy comes from areas near the galaxies’ central supermassive black holes, which range from hundreds of thousands to billions of times the mass of our Sun."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "ブラックホールの周囲の降着円盤は重力で圧縮・加熱され、赤外線からX線まで複数の波長で輝く。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/types/",
+              "quote": "Gas and dust collect around the black hole to form an accretion disk. The black hole’s gravity compresses and heats the disk, which causes the material to glow across multiple wavelengths, from infrared to X-rays."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "降着円盤はトーラスと呼ばれる数光年の冷たい塵の環に包まれ、落ち込むガスの一部は光速に近い粒子のジェットとして放出される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/types/",
+              "quote": "Infrared observations show that the black hole and its accretion disk are embedded within a clumpy ring of cooler dust, called a torus, that may be a few light-years across. Close to the black hole, a small fraction of the infalling gas can be driven outward, perpendicular to the disk, as jets of particles that move near the speed of light."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "観測された最古の銀河の一部は宇宙が約10億歳の頃に形成され、宇宙の始まりのインフレーションが生んだわずかに密な領域の周りで成長し始めたと考えられている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/evolution/",
+              "quote": "Astronomers know that some of the oldest galaxies observed formed when the universe was only about a billion years old. They think those galaxies started to grow around pockets of space that were slightly denser than their surroundings, an effect created by cosmic inflation when the universe began."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "ブラックホールが先か銀河が先かという形成順序は未解決で、ジェイムズ・ウェッブ宇宙望遠鏡の主要な探究目標である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/evolution/",
+              "quote": "It’s possible that the black holes came first, and galaxies grew around them. Or perhaps the galaxies came first, and small black holes within them merged and fed on gas, dust, and stars, eventually becoming the monsters they are today. Exploring this question is a major goal for NASA’s James Webb Space Telescope."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "2004年に公開されたハッブル・ウルトラ・ディープ・フィールドは約1万個の銀河を写し、その一部はビッグバンから8億年以内の130億年前に存在した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/evolution/",
+              "quote": "In 2004, NASA released the Hubble Ultra Deep Field. This image of a small part of the constellation Fornax contains around 10,000 galaxies, some of which existed 13 billion years ago, less than 800 million years after the big bang."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "銀河は約100個以下の群や数千の銀河団にまとまり、超銀河団・ボイド・銀河の壁などが宇宙の物質の網目構造を構成する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/",
+              "quote": "Galaxies can organize into groups of about 100 or fewer members held together by their mutual gravity. Larger structures, called clusters, may contain thousands of galaxies. Groups and clusters can be arranged in superclusters, which are not gravitationally bound. Superclusters, empty voids, “walls” of galaxies, and other large-scale structures make up the cosmic web of matter in the universe."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "銀河の衝突は恒星の激突を必ずしも意味しないが、ガス雲を圧縮して新たな星形成を促し、銀河系とアンドロメダ銀河は約45億年後に衝突すると見込まれている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/evolution/",
+              "quote": "Sometimes, galaxies collide. This doesn’t necessarily mean their stars crash – galaxies contain a lot of empty space – but collisions can compress gas clouds, spurring new bouts of star formation."
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/evolution/",
+              "quote": "Astronomers think the Milky Way and its galactic neighbor Andromeda are set to collide in another 4.5 billion years."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "互いを通り過ぎる運動量がなければ銀河は合体して1つの大きな銀河になり、渦巻と楕円の合体は不規則銀河を生むこともある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/evolution/",
+              "quote": "If colliding galaxies don’t have enough momentum to move past each other, they can merge to form a single larger galaxy. A merged galaxy can look very different from the two that created it. For example, if a spiral and elliptical merge, the result could be an irregular galaxy."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "大きな銀河は小さな銀河を呑み込んで成長することがあり、銀河系は現在も大小マゼラン雲から水素の流れを引き寄せていると考えられている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/galaxies/evolution/",
+              "quote": "Larger galaxies can also gobble up smaller ones through proximity and gravitational interactions, pulling material away to fuel their own growth. Researchers think the Milky Way is currently funneling away a stream of hydrogen from its satellite dwarf galaxies, the Large and Small Magellanic Clouds."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "supernova",
+    "topicType": "concept",
+    "categoryLabel": "物理・化学・宇宙",
+    "title": "超新星",
+    "summary": "超新星は恒星の爆発であり、人類が目撃した最大級の爆発現象である。大質量星の重力崩壊と、連星系における白色矮星の熱核爆発という2つの主要な経路があり、爆発は中性子星やブラックホールを残し、重元素を宇宙へ供給する。NASAの資料に基づき、その仕組み、残骸、観測上の意義を概説する。",
+    "bodyMarkdown": "## 概要と明るさ\n\n超新星は[恒星](/hubpedia/star)の爆発であり、人類がこれまでに目撃した最大の爆発である。その原因は大きく2つの型に分けられ、単独の大質量星で起こるものと、連星系で白色矮星への質量移動によって起こるものがある。[太陽](/hubpedia/sun)の8倍以上の質量を持つ恒星は、その生涯を超新星として終える。 [1][2][3]\n\n超新星は非常に明るく、数日から数か月にわたって銀河全体を上回る明るさで輝き、宇宙の彼方からでも観測できる。とはいえ発生は稀で、[銀河系](/hubpedia/milky-way)のような銀河では1世紀に2〜3個程度と考えられている。宇宙に膨大な数の銀河があるため、銀河系外では毎年数百個の超新星が観測されているが、銀河系内では宇宙塵が多くの超新星の視界を遮っている。 [15][16]\n\n## 大質量星の重力崩壊\n\n恒星は、内側へ押し縮めようとする重力と、中心核での核燃料の燃焼が生む外向きの圧力という相反する2つの力の均衡によって保たれている。大質量星が燃料を使い果たすと冷却して圧力が下がり、重力が勝って星は突如として崩壊する。その崩壊は非常に速く、巨大な衝撃波を生じて星の外側を爆発させる。 [4][5]\n\n崩壊の前、星の外側は赤色超巨星へと膨らみ、内側では中心核が重力に屈して収縮し、より高温・高密度になる。中心核が実質的に鉄だけになると、鉄の核構造上それ以上融合しても正味のエネルギーは得られず、融合は止まる。1秒未満で最終的な重力崩壊が始まり、鉄原子が押し潰される中で核の温度は1,000億度を超える。核は圧縮された後に跳ね返り、その反動エネルギーが星の外層へ伝わって衝撃波を生じさせる。衝撃が外層の物質を加熱すると新たな元素や放射性同位体が融合生成され、吹き飛ばされた物質は超新星残骸と呼ばれる。 [6][7][8]\n\n## 白色矮星の熱核爆発\n\nもう一つの型は、連星系における白色矮星の突然の爆発である。白色矮星は太陽の約8倍までの恒星の終点で、質量は太陽の1.4倍未満、大きさは地球ほどである。白色矮星が伴星から降り注ぐ物質を受けて質量が太陽の1.4倍に近づくと、チャンドラセカール限界と呼ばれるこの質量において中心の圧力が炭素と酸素の核融合を制御不能に開始する閾値を超え、星全体の熱核爆発に至る。爆発後に星は残らず、白色矮星由来または爆発で生成された元素だけが残され、放射性ニッケルが可視光を含む膨大なエネルギーを放つ。この型の超新星の進展は互いに似通う傾向がある。 [11][12][13][14]\n\n## 爆発後に残るものと元素の供給\n\n重力崩壊型では、元の星にはほぼ中性子だけでできた超高密度の核、すなわち中性子星が残る。元の星が太陽の15倍以上と非常に大質量なら、中性子さえ崩壊に耐えられず[ブラックホール](/hubpedia/black-hole)が形成される。高密度の核とともに、膨張する高温ガスの雲である[星雲](/hubpedia/nebula)も残される。太陽の約10倍を超える大きさの星の超新星は、宇宙で最も高密度な天体であるブラックホールを残すことがある。かに星雲は、6,500光年先で死んだ大質量星の残骸であり、1054年に天文学者や観察者がその超新星を目撃した。 [9][10][24]\n\n超新星は宇宙で元素を供給する重要な役割を担う。星間物質を加熱し、重元素を銀河全体に撒き、宇宙線を加速する。金・銀・ウランのような重元素は大質量星だけが作ることができ、爆発的な超新星は蓄積された元素と新たに作られた元素の双方を宇宙へ散布する。 [18][19]\n\n## 新星との違いと観測上の意義\n\n新星は超新星と混同されやすいが別の現象である。超新星は星を本質的に破壊する爆発的な噴出であり、新星では大きな噴出が起きても系内の恒星は破壊されない。新星は必ず連星系で起きるのに対し、超新星は連星系でも単独の恒星系でも起きる。明るさも桁違いで、新星が太陽の数十万倍程度なのに対し、超新星は太陽の数十億倍に達することがある。重力崩壊型では大質量星が自ら潰れて衝撃波を生み、Ia型では白色矮星が伴星から得た物質によって質量上限を超え、大規模な熱核爆発を起こす。 [20][21][22][23]\n\n白色矮星を伴う型は進展が似通うため、科学者はこれを物差しのように用いて宇宙の距離を測る。NASAはNuSTAR（核分光望遠鏡アレイ）などの望遠鏡でX線観測を行い、超新星や若い星雲を調べて爆発の前・最中・後の出来事を探っている。超新星が放出する高温物質・放射性同位体・中性子星の強磁場中を動く電子はX線やガンマ線を生じ、天体物理学者がこれらの高エネルギー光子を研究に用いる。ただし銀河系内では宇宙塵が観測を妨げるという制約が残る。 [16][17][25][26]",
+    "sources": [
+      {
+        "url": "https://spaceplace.nasa.gov/supernova/en/",
+        "title": "What Is a Supernova?",
+        "publisher": "NASA",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+          },
+          "notes": "NASA Space Place overview of supernova types, remnants, frequency, and element distribution. Publisher policy read 2026-08-28: Text is public domain and usable commercially. Logos and insignia need clearance for promotional use; content must not imply NASA endorses a product or service; third-party copyrighted images and staff likenesses are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://imagine.gsfc.nasa.gov/science/objects/supernovae1.html",
+        "title": "Supernovae",
+        "publisher": "NASA",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+          },
+          "notes": "NASA Imagine the Universe page on core-collapse and white-dwarf supernova mechanisms. Publisher policy read 2026-08-28: Text is public domain and usable commercially. Logos and insignia need clearance for promotional use; content must not imply NASA endorses a product or service; third-party copyrighted images and staff likenesses are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://science.nasa.gov/universe/whats-a-nova-inside-the-chaos-of-erupting-and-exploding-stars/",
+        "title": "What's a Nova? Inside the Chaos of Erupting and Exploding Stars",
+        "publisher": "NASA",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+          },
+          "notes": "NASA feature distinguishing novae from supernovae. Publisher policy read 2026-08-28: Text is public domain and usable commercially. Logos and insignia need clearance for promotional use; content must not imply NASA endorses a product or service; third-party copyrighted images and staff likenesses are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Supernova",
+        "summary": "A supernova is the explosion of a star and the biggest explosion humans have ever seen. Two main pathways exist: the gravitational collapse of a massive star and the thermonuclear detonation of a white dwarf in a binary system. Drawing on NASA material, this article covers the mechanisms, the neutron-star and black-hole remnants, and the role of supernovae in seeding space with heavy elements.",
+        "bodyMarkdown": "## Overview and brightness\n\nA supernova is the explosion of a [star](/hubpedia/star) and the biggest explosion humans have ever seen. There seem to be two distinct types: those that occur for a single massive star and those that occur because of mass transfer onto a white dwarf in a binary system. Stars eight or more times as massive as our [Sun](/hubpedia/sun) end their lives as supernovae. [1][2][3]\n\nSupernovae can be so bright that they outshine their entire galaxies for days or even months, and they can be seen across the universe. Yet they are rare: astronomers believe about two or three occur each century in galaxies like our own [Milky Way](/hubpedia/milky-way). Because the universe holds so many galaxies, astronomers observe a few hundred supernovas per year outside our galaxy, while space dust blocks our view of most of the supernovas within the Milky Way. [15][16]\n\n## Gravitational collapse of a massive star\n\nA star is held in balance between two opposite forces: gravity tries to squeeze the star inward, while nuclear fuel burning in the core creates a strong outward pressure. When a massive star runs out of fuel it cools, the pressure drops, gravity wins, and the star suddenly collapses. The collapse happens so quickly that it creates enormous shock waves that cause the outer part of the star to explode. [4][5]\n\nBeforehand, the star swells into a red supergiant on the outside while the core yields to gravity and shrinks, growing hotter and denser. When the core contains essentially just iron it has nothing left to fuse, because iron's nuclear structure means fusing it yields no net energy, and fusion ceases. In less than a second the final gravitational collapse begins, and the core temperature rises to over 100 billion degrees as the iron atoms are crushed together. The core compresses but then recoils, and the recoil energy is transferred to the star's envelope, producing a shock wave. As the shock heats material in the outer layers, new elements and radioactive isotopes fuse, and the matter propelled into space is known as a supernova remnant. [6][7][8]\n\n## Thermonuclear explosion of a white dwarf\n\nThe other type is the sudden explosion of a white dwarf in a binary star system. A white dwarf is the endpoint for stars of up to about eight times the Sun's mass; it has less than 1.4 solar masses and is about the size of Earth. If infalling matter from a companion star pushes the white dwarf toward 1.4 times the Sun's mass, a mass called the Chandrasekhar limit, the pressure at the center exceeds the threshold for carbon and oxygen nuclei to fuse uncontrollably, producing a thermonuclear detonation of the entire star. Nothing is left behind except elements left over from the white dwarf or forged in the blast, and radioactive nickel liberates huge amounts of energy, including visible light. The evolution of these supernovae tends to be similar. [11][12][13][14]\n\n## Remnants and the supply of elements\n\nIn a core-collapse event, all that remains of the original star is a small, super-dense core composed almost entirely of neutrons, a neutron star. If the original star is very massive indeed, say 15 or more times the Sun's mass, even the neutrons cannot survive the collapse and a [black hole](/hubpedia/black-hole) forms. Along with the dense core, an expanding cloud of hot gas called a [nebula](/hubpedia/nebula) is left behind, and a supernova of a star more than about 10 times the size of the Sun may leave behind one of the densest objects in the universe, a black hole. The Crab Nebula is the remnant of a massive star in our Milky Way that died 6,500 light-years away; astronomers and careful observers saw the supernova in the year 1054. [9][10][24]\n\nSupernovae play a key role in supplying elements to the universe. They heat up the interstellar medium, distribute heavy elements throughout the galaxy, and accelerate cosmic rays. Only massive stars can make heavy elements like gold, silver, and uranium, and explosive supernovas distribute both stored-up and newly created elements throughout space. [18][19]\n\n## Distinction from novae and observational significance\n\nA nova is easily confused with a supernova but is a different phenomenon. A supernova is an explosive outburst that essentially destroys the star, while in a nova a large outburst takes place but the stars in the system are not destroyed. Novae always take place in binary systems, whereas supernovae can occur in binaries or in systems with singular stars. The brightness differs by orders of magnitude too: novae can be hundreds of thousands of times as bright as the Sun, but a supernova can be billions of times as bright. In core-collapse supernovae a massive star collapses in on itself and creates a shock wave, while in Type Ia supernovae a white dwarf gains so much material from a companion that it exceeds the mass limit for white dwarfs, resulting in a massive thermonuclear explosion. [20][21][22][23]\n\nBecause the white-dwarf type evolves so similarly, scientists use these supernovae like a ruler to measure distances in space. NASA telescopes such as NuSTAR, the Nuclear Spectroscopic Telescope Array, observe supernovas and young nebulas in X-rays to learn what happens before, during, and after these blasts. The hot material given off, the radioactive isotopes, and free electrons moving in the neutron star's strong magnetic field all produce X-rays and gamma rays, which astrophysicists use to study these phenomena. Still, space dust blocks our view of most supernovas inside the Milky Way, an observational limitation that remains. [16][17][25][26]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "超新星は恒星の爆発であり、人類がこれまでに目撃した最大の爆発である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://spaceplace.nasa.gov/supernova/en/",
+              "quote": "A supernova is the biggest explosion that humans have ever seen. Each blast is the extremely bright, super-powerful explosion of a star."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "超新星には、単独の大質量星で起こるものと、連星系で白色矮星への質量移動によって起こるものという2つの異なる型がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://imagine.gsfc.nasa.gov/science/objects/supernovae1.html",
+              "quote": "there seems to be two distinct types of supernovae -- those which occur for a single massive star and those which occur because of mass transfer onto a white dwarf in a binary system."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "太陽の8倍以上の質量を持つ恒星は、その生涯を超新星として終える。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://imagine.gsfc.nasa.gov/science/objects/supernovae1.html",
+              "quote": "Stars which are 8 times or more massive than our Sun end their lives in a most spectacular way; they go supernova."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "恒星は、内側へ押し縮める重力と中心核の核燃焼が生む外向きの圧力という相反する力の均衡によって保たれている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://spaceplace.nasa.gov/supernova/en/",
+              "quote": "A star is in balance between two opposite forces. The star’s gravity tries to squeeze the star into the smallest, tightest ball possible. But the nuclear fuel burning in the star’s core creates strong outward pressure."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "大質量星が燃料を使い果たすと冷却して圧力が下がり、重力が勝って突如崩壊し、巨大な衝撃波が星の外側を爆発させる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://spaceplace.nasa.gov/supernova/en/",
+              "quote": "When a massive star runs out of fuel, it cools off. This causes the pressure to drop. Gravity wins out, and the star suddenly collapses. Imagine something one million times the mass of Earth collapsing in 15 seconds! The collapse happens so quickly that it creates enormous shock waves that cause the outer part of the star to explode!"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "崩壊前に星の外側は赤色超巨星へ膨らみ、中心核が鉄だけになると核融合は止まる。鉄を融合しても正味のエネルギーは得られないためである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://imagine.gsfc.nasa.gov/science/objects/supernovae1.html",
+              "quote": "First, the star will swell into a red supergiant...at least on the outside. On the inside, the core yields to gravity and begins shrinking. As it shrinks, it grows hotter and denser."
+            },
+            {
+              "sourceUrl": "https://imagine.gsfc.nasa.gov/science/objects/supernovae1.html",
+              "quote": "When the core contains essentially just iron, it has nothing left to fuse. (Because of iron’s nuclear structure, fusing iron does not result in a net yield of energy. Since energy production cannot then be maintained, the star begins to collapse.) Fusion in the core ceases."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "1秒未満で最終的な重力崩壊が始まり、核の温度は1,000億度を超え、核は圧縮後に跳ね返って反動エネルギーが衝撃波を生じさせる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://imagine.gsfc.nasa.gov/science/objects/supernovae1.html",
+              "quote": "In less than a second, the star begins the final phase of gravitational collapse. The core temperature rises to over 100 billion degrees as the iron atoms are crushed together. The repulsive force between the nuclei is overcome by the force of gravity. So the core compresses but then recoils. The energy of the recoil is transferred to the envelope of the star, which then explodes and produces a shock wave."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "衝撃波が外層の物質を加熱して新たな元素や放射性同位体を融合生成し、吹き飛ばされた物質は超新星残骸と呼ばれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://imagine.gsfc.nasa.gov/science/objects/supernovae1.html",
+              "quote": "As the shock encounters material in the star’s outer layers, the material is heated, fusing to form new elements and radioactive isotopes. The shock then propels that matter out into space. The material that is exploded away from the star is now known as a supernova remnant."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "重力崩壊型ではほぼ中性子だけでできた中性子星が残り、太陽の15倍以上の大質量星ではブラックホールが形成される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://imagine.gsfc.nasa.gov/science/objects/supernovae1.html",
+              "quote": "All that remains of the original star is a small, super-dense core composed almost entirely of neutrons -- a neutron star. Or, if the original star is very massive indeed (say 15 or more times the mass of our Sun), even the neutrons cannot survive the core collapse...and a black hole forms."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "高密度の核とともに、膨張する高温ガスの雲である星雲が残され、太陽の約10倍を超える星の超新星はブラックホールを残すことがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://spaceplace.nasa.gov/supernova/en/",
+              "quote": "Usually a very dense core is left behind, along with an expanding cloud of hot gas called a nebula. A supernova of a star more than about 10 times the size of our sun may leave behind the densest objects in the universe—black holes."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "白色矮星は太陽の約8倍までの恒星の終点で、質量は太陽の1.4倍未満、大きさは地球ほどである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://imagine.gsfc.nasa.gov/science/objects/supernovae1.html",
+              "quote": "A white dwarf is the endpoint for stars of up to about 8 times that of the Sun. The remaining white dwarf has a mass less than 1.4 times the mass of the Sun, and is about the size of the Earth."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "白色矮星の質量が太陽の1.4倍のチャンドラセカール限界に近づくと、炭素と酸素の核融合が制御不能に始まり星全体の熱核爆発に至る。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://imagine.gsfc.nasa.gov/science/objects/supernovae1.html",
+              "quote": "Should the in-falling matter from the companion star cause the white dwarf to approach a mass of 1.4 times that of the Sun (a mass called the Chandrasekhar limit after the scientist who discovered it), the pressure at the center will exceed the threshold for the carbon and oxygen nuclei to start to fuse uncontrollably. This results in a thermonuclear detonation of the entire star."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "熱核爆発後に星は残らず、放射性ニッケルが可視光を含む膨大なエネルギーを放ち、この型の超新星の進展は互いに似通う。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://imagine.gsfc.nasa.gov/science/objects/supernovae1.html",
+              "quote": "Nothing is left behind, except whatever elements were left over from the white dwarf or forged in the supernova blast. Among the new elements is radioactive nickel, which liberates huge amounts of energy, including visible light. The evolution of these supernovae tend to all be similar."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "2つ目の型の超新星は、少なくとも1つの地球サイズの白色矮星を含む連星系で、白色矮星同士の衝突や伴星からの過剰な物質の引き込みによって起きる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://spaceplace.nasa.gov/supernova/en/",
+              "quote": "A second type of supernova can happen in systems where two stars orbit one another and at least one of those stars is an Earth-sized white dwarf. A white dwarf is what’s left after a star the size of our sun has run out of fuel. If one white dwarf collides with another or pulls too much matter from its nearby star, the white dwarf can explode."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "超新星は数日から数か月にわたって銀河全体を上回る明るさで輝き、宇宙の彼方からでも観測できる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://spaceplace.nasa.gov/supernova/en/",
+              "quote": "These spectacular events can be so bright that they outshine their entire galaxies for a few days or even months. They can be seen across the universe."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "銀河系のような銀河では1世紀に2〜3個の超新星が起きると考えられ、銀河系外では毎年数百個が観測されるが、宇宙塵が銀河系内の多くの超新星の視界を遮る。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://spaceplace.nasa.gov/supernova/en/",
+              "quote": "Astronomers believe that about two or three supernovas occur each century in galaxies like our own Milky Way. Because the universe contains so many galaxies, astronomers observe a few hundred supernovas per year outside our galaxy. Space dust blocks our view of most of the supernovas within the Milky Way."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "科学者は白色矮星を伴う型の超新星を物差しのように用いて宇宙の距離を測る。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://spaceplace.nasa.gov/supernova/en/",
+              "quote": "They use the second type of supernova (the kind involving white dwarfs) like a ruler, to measure distances in space."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "金・銀・ウランのような重元素は大質量星だけが作ることができ、爆発的な超新星は蓄積された元素と新たに作られた元素の双方を宇宙へ散布する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://spaceplace.nasa.gov/supernova/en/",
+              "quote": "Only massive stars can make heavy elements like gold, silver, and uranium. When explosive supernovas happen, stars distribute both stored-up and newly-created elements throughout space."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "超新星は星間物質を加熱し、重元素を銀河全体に撒き、宇宙線を加速する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://imagine.gsfc.nasa.gov/science/objects/supernovae1.html",
+              "quote": "They heat up the interstellar medium, distribute heavy elements throughout the Galaxy, and accelerate cosmic rays."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "超新星は星を本質的に破壊する爆発的な噴出であり、新星では噴出が起きても系内の恒星は破壊されない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/whats-a-nova-inside-the-chaos-of-erupting-and-exploding-stars/",
+              "quote": "in general, a supernova is an explosive outburst that essentially destroys the star. When a nova occurs, a large outburst takes place, but the stars in the system aren’t destroyed."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "重力崩壊型では大質量星が自ら潰れて衝撃波を生み、Ia型では白色矮星が伴星から得た物質で質量上限を超えて大規模な熱核爆発を起こす。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/whats-a-nova-inside-the-chaos-of-erupting-and-exploding-stars/",
+              "quote": "In core collapse supernovae, a massive star collapses in on itself and creates a shock wave that produces a bright flash of light. In another class, called Type Ia, a white dwarf gains so much material from a companion that it exceeds the mass limit for white dwarfs, resulting in a massive thermonuclear explosion."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "新星は必ず連星系で起きるが、超新星は連星系でも単独の恒星系でも起きる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/whats-a-nova-inside-the-chaos-of-erupting-and-exploding-stars/",
+              "quote": "Novae always take place in binary systems. Supernovae can take place in binary systems or systems with singular stars."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "新星が太陽の数十万倍の明るさなのに対し、超新星は太陽の数十億倍の明るさに達することがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/whats-a-nova-inside-the-chaos-of-erupting-and-exploding-stars/",
+              "quote": "While novae can be hundreds of thousands of times as bright as the Sun, a supernova can be billions of times as bright."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "かに星雲は6,500光年先で死んだ大質量星の残骸であり、その超新星は1054年に観測された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://spaceplace.nasa.gov/supernova/en/",
+              "quote": "The Crab Nebula is the leftover, or remnant, of a massive star in our Milky Way that died 6,500 light-years away. Astronomers and careful observers saw the supernova in the year 1054."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "NASAのNuSTAR（核分光望遠鏡アレイ）はX線で宇宙を観測し、超新星や若い星雲で爆発前・最中・後の出来事を調べている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://spaceplace.nasa.gov/supernova/en/",
+              "quote": "One example is the NuSTAR (Nuclear Spectroscopic Telescope Array) mission, which uses X-ray vision to investigate the universe. NuSTAR is helping scientists observe supernovas and young nebulas to learn more about what happens leading up to, during, and after these spectacular blasts."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "超新星が放出する高温物質・放射性同位体・中性子星の強磁場中を動く電子はX線とガンマ線を生じ、天体物理学者がこれらの高エネルギー光子を研究に用いる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://imagine.gsfc.nasa.gov/science/objects/supernovae1.html",
+              "quote": "The hot material given off by the supernova, the radioactive isotopes, and the free electrons moving in the strong magnetic field of the neutron star... all of these things produce X-rays and gamma rays. These high-energy photons are used by astrophysicists to study the phenomena of neutron stars and supernovae."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "nebula",
+    "topicType": "concept",
+    "categoryLabel": "物理・化学・宇宙",
+    "title": "星雲",
+    "summary": "星雲は、宇宙空間にあるガスと塵の巨大な雲で、新しい星を育む「星のゆりかご」であると同時に、死んだ星が放出した物質の痕跡でもある。輝線星雲・反射星雲・惑星状星雲・超新星残骸・暗黒星雲といった種類があり、NASAの望遠鏡群による観測は恒星のライフサイクルの理解を深めている。",
+    "bodyMarkdown": "## 星雲とは\n\n星雲は、宇宙空間にある塵とガスの巨大な雲である。その成分は主に水素とヘリウムのガスと微細な宇宙塵で、星と星の間に広がる星間物質の一部をなす。星間物質は極めて密度が低く、1立方センチあたり0.1個の原子程度まで薄まることがあり、地球の空気1立方センチに約1,000京個の分子が含まれるのとは対照的である。星雲は、重力がガスと塵を寄せ集めるか、死んだ星が内容物を宇宙へ放出するかして、星間物質が雲を形成するほど密になった場所に生じる。 [1][3][4][5]\n\n星雲は[恒星](/hubpedia/star)のライフサイクルの両端と結びついている。一方では新しい星を育む「星のゆりかご」であり、他方では[超新星](/hubpedia/supernova)のような死にゆく星の爆発が放出したガスと塵の雲でもある。 [2][6]\n\n## 星雲の中での星形成\n\n星雲の塵とガスは非常に薄く広がっているが、重力はゆっくりと塵とガスの塊を寄せ集める。塊が大きくなるほどその重力は強まり、やがて塊は自身の重力で崩壊し、雲の中心の物質が加熱される。この高温の核が星の始まりである。 [7][8]\n\n[太陽](/hubpedia/sun)もまた星のゆりかごで生まれた。45億年以上前に星雲内のガスと塵が重力で集まって幼い太陽が誕生し、幼い星の形成そのものには100万年あるいはそれ以上かかることがある。地球に最も近い既知の星雲はヘリックス星雲で、死にゆく星（おそらく太陽のような星）の残骸であり、約700光年の距離にある。 [9][10]\n\n## 星雲の主な種類\n\n輝線星雲（散光星雲）は自ら光を放つ星雲で、内部や近傍の恒星の強い放射がガスを励起して形成される。恒星の紫外線は水素原子から電子を剥ぎ取る電離を起こし、電子が再結合して低エネルギー状態へ戻るときに光を放ち、ガスが輝く。オリオン星雲は有名な例で、太陽の15〜30倍の質量を持つトラペジウムと呼ばれる4つの大質量星が全体を照らしている。恒星の放射と星風はガスを削り彫刻して洞窟や柱を作るとともに、さらなる星誕生を促す圧力も生む。 [11][12][13]\n\n反射星雲は、近くの恒星の光を散乱して輝く。照らす星はガスを電離するほど強力ではないが、その光がガスと塵で散乱して輝き、しばしば青みがかった色に見える。NGC 1999はオリオン星雲の近く約1,500光年の距離にあり、形成直後の明るい恒星V380オリオンisに照らされ、そのガスと塵はその星の形成の残りである。 [14][15]\n\n惑星状星雲は、初期の望遠鏡で惑星に似て見えたことから名付けられたが、惑星とは無関係である。小質量から中質量の星の死の際に形成され、外層が宇宙へ放出されて環・砂時計・長方形など多様な形をなし、その複雑な形がどう生じるかはなお研究途上にある。星は外層を脱ぎ捨てた後に中心核を残し、これは白色矮星となる。白色矮星は太陽ほどの質量を地球サイズで持つ、[ブラックホール](/hubpedia/black-hole)と中性子星に次ぐ高密度物質であり、その紫外線が惑星状星雲のガスを電離して輝かせる。太陽はその生涯の終わりに惑星状星雲を形成すると予想されている。 [16][17][18]\n\n超新星残骸は、星が超新星として爆発し、秒速9,000〜25,000マイル（15,000〜40,000キロメートル）で内容物を宇宙へ放つことで生じ、爆発した星の物質と進路上で巻き込んだ星間物質からなる。その輝きは、爆発した星の核から生まれた高速自転する中性子星であるパルサーの星風によって駆動されることもあり、パルサーが放つ電子は磁場と相互作用するシンクロトロン放射によってX線・可視光・電波を生じる。かに星雲はその例で、1054年の爆発は数週間にわたり昼間の空でも見えるほど明るく、世界中の天文学者によって記録され、星の物質は今も秒速約300万マイル（480万キロメートル）で外側へ膨張している。 [19][20][21]\n\n暗黒星雲（吸収星雲）は光を放射も反射もせず、背後からの光を遮るガスと塵の雲である。18世紀末の天文学者ウィリアム・ハーシェルは、こうした一見空虚な点を「空の穴」と呼んだ。ボック・グロービュールと呼ばれる小さく冷たいガスと高密度の宇宙塵の雲も含まれ、内部で星形成が起きていることを示す温かい核を持つものも見つかっている。 [22][23]\n\n## 観測と研究の意義\n\n天文学者は強力な望遠鏡で遠方の星雲を撮影し、NASAのスピッツァー宇宙望遠鏡やハッブル宇宙望遠鏡は多くの星雲の画像を記録してきた。ジェイムズ・ウェッブ宇宙望遠鏡は主に赤外線で宇宙を観測し、塵とガスの雲の深部を見通して星と惑星系の形成を研究している。チャンドラX線天文台は、かに星雲において超新星として爆発した星のつぶれた都市サイズの核であるパルサーからの高エネルギーX線を捉えている。 [24][25][26]\n\n星雲の研究は恒星のライフサイクルの理解を助ける。太陽は私たちよりはるかに長く生きるため、その生涯全体を直接観測することはできないが、科学者は異なる段階にある膨大な数の恒星や星雲を調べ、太陽がどこから来てどこへ向かうかを推論している。 [27]",
+    "sources": [
+      {
+        "url": "https://spaceplace.nasa.gov/nebula/en/",
+        "title": "What Is a Nebula?",
+        "publisher": "NASA",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+          },
+          "notes": "NASA Space Place overview of nebulae, star formation inside them, and the Helix Nebula. Publisher policy read 2026-08-28: Text is public domain and usable commercially. Logos and insignia need clearance for promotional use; content must not imply NASA endorses a product or service; third-party copyrighted images and staff likenesses are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://science.nasa.gov/universe/stories/quick-reads/decoding-nebulae/",
+        "title": "Decoding Nebulae",
+        "publisher": "NASA",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+          },
+          "notes": "NASA feature on nebula types, the Sun's origin in a stellar nursery, and multi-wavelength telescope observations. Publisher policy read 2026-08-28: Text is public domain and usable commercially. Logos and insignia need clearance for promotional use; content must not imply NASA endorses a product or service; third-party copyrighted images and staff likenesses are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://science.nasa.gov/mission/hubble/science/universe-uncovered/hubble-nebulae/",
+        "title": "Hubble's Nebulae",
+        "publisher": "NASA",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+          },
+          "notes": "NASA Hubble mission page covering emission, reflection, planetary, supernova-remnant, and absorption nebulae. Publisher policy read 2026-08-28: Text is public domain and usable commercially. Logos and insignia need clearance for promotional use; content must not imply NASA endorses a product or service; third-party copyrighted images and staff likenesses are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Nebula",
+        "summary": "A nebula is a giant cloud of gas and dust in space that serves both as a nursery where new stars form and as the mark left by stars that have died. Emission, reflection, planetary, supernova-remnant, and dark nebulae each reveal different processes, and NASA's telescopes use them to trace the life cycle of stars.",
+        "bodyMarkdown": "## What a nebula is\n\nA nebula is a giant cloud of dust and gas in space, made mostly of hydrogen and helium plus fine cosmic dust, and forms part of the interstellar medium spread between the stars. That medium is extremely thin, reaching densities as low as 0.1 atoms per cubic centimeter, in contrast with the roughly 10 million trillion molecules in a cubic centimeter of the air we breathe. Nebulae happen where the interstellar medium has become dense enough to form clouds, either because gravity has pulled the gas and dust together or because dying stars have spewed their contents into the cosmos. [1][3][4][5]\n\nNebulae are tied to both ends of the [stellar](/hubpedia/star) life cycle. On one side they are stellar nurseries forming new baby stars; on the other, expanding clouds of gas and dust thrown off by a dying star's explosion, such as a [supernova](/hubpedia/supernova), mark where stars have died. [2][6]\n\n## Star formation inside nebulae\n\nThe dust and gases in a nebula are very spread out, but gravity slowly pulls clumps of dust and gas together. As the clumps grow bigger their gravity strengthens, until a clump collapses under its own gravity and the material at the center heats up. That hot core is the beginning of a star. [7][8]\n\nOur [Sun](/hubpedia/sun) also began in a stellar nursery: over 4.5 billion years ago, gas and dust in a nebula clumped together under gravity and a baby Sun was born, and the process of forming a baby star can itself take a million years or more. The closest known nebula to Earth is the Helix Nebula, the remnant of a dying star possibly like the Sun, about 700 light-years away. [9][10]\n\n## Main types of nebulae\n\nEmission nebulae emit their own light, forming when the intense radiation of stars within or near the nebula energizes the gas. A star's ultraviolet radiation strips electrons from hydrogen atoms in a process called ionization, and as the electrons recombine and drop to a lower-energy state they emit light, causing the gas to glow. A famous example is the Orion Nebula, illuminated by four massive stars known as the Trapezium that are 15 to 30 times the Sun's mass. The radiation and stellar winds of stars inside emission nebulae carve and sculpt the gas into caverns and pillars, while also creating pressures that can give rise to more star birth. [11][12][13]\n\nReflection nebulae glow by reflecting the light of nearby stars. The illuminating stars are not powerful enough to ionize the gas, but their light scatters through the gas and dust, and these nebulae are often bluish in color. One example, NGC 1999, lies near the Orion Nebula about 1,500 light-years from Earth and is lit by the bright, recently formed star V380 Orionis; its gas and dust are material left over from that star's formation. [14][15]\n\nPlanetary nebulae earned their name because they resembled planets to astronomers looking through early telescopes, though they have nothing to do with planets. They form during the death of low-mass to medium-mass stars, which expel their outer layers into space as expanding shells of gas shaped into rings, hourglasses, rectangles, and more; astronomers are still studying how these intricate shapes form. The star leaves behind its core, which becomes a white dwarf, an object with the approximate mass of the Sun but the size of Earth and one of the densest forms of matter after [black holes](/hubpedia/black-hole) and neutron stars. The white dwarf's ultraviolet radiation ionizes the planetary nebula's gas and makes it glow, and our Sun is expected to form a planetary nebula at the end of its life. [16][17][18]\n\nSupernova remnants arise when a star explodes as a supernova, flinging its contents into space at 9,000 to 25,000 miles (15,000 to 40,000 kilometers) per second; they consist of material from the exploded star plus any interstellar material it sweeps up. A remnant's glow can also be powered by the stellar wind of a pulsar, a rapidly spinning neutron star created from the exploded star's core, whose emitted electrons interact with its magnetic field in a process called synchrotron radiation that produces X-rays, visible light, and radio waves. The Crab Nebula is one example: the explosion that created it in the year 1054 was so bright it could be seen in the daytime sky for weeks and was recorded by astronomers across the world, and the star's material is still rushing outward at around 3 million mph (4.8 million kph). [19][20][21]\n\nDark or absorption nebulae are clouds of gas and dust that neither emit nor reflect light but block the light coming from behind them. Astronomer William Herschel, discussing these seemingly empty spots in the late 1700s, called them a hole in the sky. They include Bok globules, small cold clouds of gas and dense cosmic dust, some of which have been found to have warm cores indicating star formation inside. [22][23]\n\n## Observation and research significance\n\nAstronomers use powerful telescopes to photograph distant nebulae, and NASA's Spitzer Space Telescope and Hubble Space Telescope have captured many images of them. The James Webb Space Telescope primarily observes the infrared universe, peering deep into clouds of dust and gas to study how stars and planetary systems form. The Chandra X-ray Observatory sees high-energy X-rays from the pulsar in the Crab Nebula, a rapidly spinning neutron star that is the crushed, city-sized core of a star that exploded as a supernova. [24][25][26]\n\nStudying nebulae helps scientists understand the life cycle of stars. The Sun will live far longer than us, so its whole life cycle cannot be observed directly, but scientists can study vast numbers of other stars and nebulae at different phases of their lives and draw conclusions about where our Sun came from and where it is headed. [27]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "星雲は、宇宙空間にある塵とガスの巨大な雲である。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://spaceplace.nasa.gov/nebula/en/",
+              "quote": "A nebula is a giant cloud of dust and gas in space."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "一部の星雲は超新星のような死にゆく星の爆発が放出したガスと塵から来ており、他の星雲は新しい星が形成され始めた領域、すなわち「星のゆりかご」である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://spaceplace.nasa.gov/nebula/en/",
+              "quote": "Some nebulae (more than one nebula) come from the gas and dust thrown out by the explosion of a dying star, such as a supernova. Other nebulae are regions where new stars are beginning to form. For this reason, some nebulae are called \"star nurseries.\""
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "星雲は主に水素とヘリウムのガスと塵でできている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://spaceplace.nasa.gov/nebula/en/",
+              "quote": "Nebulae are made of dust and gases—mostly hydrogen and helium."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "星雲は星間物質の一部であり、その密度は1立方センチあたり0.1個の原子まで低くなり得る。地球の空気1立方センチには約1,000京個の分子が含まれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/science/universe-uncovered/hubble-nebulae/",
+              "quote": "These clouds are part of the interstellar medium of extremely low-density gas and dust that exists between stars in the void of space, material so dispersed through the vastness of the cosmos that it can have a density as low as 0.1 atoms per cubic centimeter. In contrast, a cubic centimeter of the air we breathe on Earth would contain about 10 million trillion molecules."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "星雲は、重力がガスと塵を寄せ集めるか、死んだ星が内容物を宇宙へ放出するかして、星間物質が雲を形成するほど密になった場所に生じる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/science/universe-uncovered/hubble-nebulae/",
+              "quote": "Nebulae happen in places where the interstellar medium has become dense enough to form clouds. That could be because gravity has pulled the gas and dust together, or because stars have died and spewed their contents into the cosmos."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "星雲は恒星のライフサイクルの2つの場面、すなわち新しい星の形成と星の死の痕跡に結びついている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/stories/quick-reads/decoding-nebulae/",
+              "quote": "They’re commonly associated with two parts of the life cycle of stars: First, they can be nurseries forming new baby stars. Second, expanding clouds of gas and dust can mark where stars have died."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "重力は塵とガスの塊をゆっくりと寄せ集め、塊が大きくなるほどその重力は強まる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://spaceplace.nasa.gov/nebula/en/",
+              "quote": "The dust and gases in a nebula are very spread out, but gravity can slowly begin to pull together clumps of dust and gas. As these clumps get bigger and bigger, their gravity gets stronger and stronger."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "塵とガスの塊は自身の重力で崩壊し、中心の物質が加熱され、その高温の核が星の始まりとなる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://spaceplace.nasa.gov/nebula/en/",
+              "quote": "Eventually, the clump of dust and gas gets so big that it collapses from its own gravity. The collapse causes the material at the center of the cloud to heat up-and this hot core is the beginning of a star."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "太陽は45億年以上前に星雲内のガスと塵が重力で集まって誕生し、幼い星の形成には100万年あるいはそれ以上かかることがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/stories/quick-reads/decoding-nebulae/",
+              "quote": "Over 4.5 billion years ago, some gas and dust in a nebula clumped together due to gravity, and a baby Sun was born. The process to form a baby star itself can take a million years or more!"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "地球に最も近い既知の星雲はヘリックス星雲で、死にゆく星の残骸であり約700光年の距離にある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://spaceplace.nasa.gov/nebula/en/",
+              "quote": "The closest known nebula to Earth is called the Helix Nebula. It is the remnant of a dying star—possibly one like the Sun. It is approximately 700 light-years away from Earth."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "輝線星雲は、恒星の紫外線が水素原子から電子を剥ぎ取る電離を起こし、電子が再結合して低エネルギー状態へ戻るときに光を放つことで輝く。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/science/universe-uncovered/hubble-nebulae/",
+              "quote": "This type of nebula forms when the intense radiation of stars within or near the nebula energizes the gas. A star’s ultraviolet radiation floods the gas with so much energy that it strips electrons from the nebula’s hydrogen atoms, a process called ionization. As the energized electrons revert from their higher-energy state to a lower-energy state by recombining with atoms, they emit energy in the form of light, causing the nebula’s gas to glow."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "オリオン星雲は、太陽の15〜30倍の質量を持つトラペジウムと呼ばれる4つの大質量星によって照らされている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/science/universe-uncovered/hubble-nebulae/",
+              "quote": "The Orion Nebula is home to a star cluster defined by four massive stars known as the Trapezium. These stars are only a few hundred thousand years old, about 15-30 times the mass of our Sun, and so hot and bright that they’re responsible for illuminating the entire Orion Nebula."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "輝線星雲内の恒星の放射と星風はガスを削り彫刻して洞窟や柱を作り、さらなる星誕生を促す圧力も生む。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/science/universe-uncovered/hubble-nebulae/",
+              "quote": "The radiation and solar winds of stars within emission nebulae carve and sculpt the nebula’s gas, creating caverns and pillars but also creating pressures on the gas clouds that can give rise to more starbirth."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "反射星雲は近くの恒星の光を散乱して輝き、照らす星はガスを電離するほど強力ではなく、しばしば青みがかった色に見える。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/science/universe-uncovered/hubble-nebulae/",
+              "quote": "Reflection nebulae reflect the light from nearby stars. The stars that illuminate them aren’t powerful enough to ionize the nebula’s gas, as with emission nebulae, but their light scatters through the gas and dust causing it to glow"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/science/universe-uncovered/hubble-nebulae/",
+              "quote": "these reflection nebulae are often bluish in color."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "NGC 1999はオリオン星雲の近く約1,500光年の距離にあり、形成直後の恒星V380オリオンisに照らされ、そのガスと塵はその星の形成の残りである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/science/universe-uncovered/hubble-nebulae/",
+              "quote": "A reflection nebula called NGC 1999 lies close to the famous Orion Nebula, about 1,500 light-years from Earth. The nebula is illuminated by a bright, recently formed star called V380 Orionis, and the gas and dust of the nebula is material left over from that star’s formation."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "惑星状星雲は惑星に似て見えたことから名付けられたが惑星とは無関係で、小質量から中質量の星の死の際に外層が放出されて形成され、環・砂時計・長方形など多様な形をなす。その複雑な形の成因はなお研究途上にある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/science/universe-uncovered/hubble-nebulae/",
+              "quote": "Some of the fuzzy objects resembled planets, and these earned the name \"planetary nebulae.\""
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/science/universe-uncovered/hubble-nebulae/",
+              "quote": "Today these nebulae keep the name, but we know they have nothing to do with planets. Planetary nebulae form during the death of low-mass to medium-mass stars. When such stars die, they expel their outer layers into space. These expanding shells of gas form a huge variety of unique shapes – rings, hourglasses, rectangles, and more – that show the complexity of stellar death. Astronomers are still studying how these intricate shapes form at the end of a star’s life."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "惑星状星雲を残した星の中心核は白色矮星となり、太陽ほどの質量を地球サイズで持つブラックホールと中性子星に次ぐ高密度物質で、その紫外線が星雲のガスを電離して輝かせる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/science/universe-uncovered/hubble-nebulae/",
+              "quote": "it leaves behind its core, which becomes a white dwarf star. White dwarf stars are objects with the approximate mass of the Sun but the size of the Earth, making them one of the densest forms of matter in the universe after black holes and neutron stars. The white dwarf star’s ultraviolet radiation ionizes the gas of the planetary nebula and causes it to glow"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "太陽はその生涯の終わりに惑星状星雲を形成すると予想されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/science/universe-uncovered/hubble-nebulae/",
+              "quote": "Our Sun is expected to form a planetary nebula at the end of its life."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "超新星残骸は、星が秒速9,000〜25,000マイルで内容物を放つ超新星爆発で生じ、爆発した星の物質と進路上で巻き込んだ星間物質からなる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/science/universe-uncovered/hubble-nebulae/",
+              "quote": "Some explode in a supernova, flinging their contents into space at anywhere from 9,000 to 25,000 miles (15,000 to 40,000 kilometers) per second."
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/science/universe-uncovered/hubble-nebulae/",
+              "quote": "Supernova remnants consist of material from the exploded star and any interstellar material it sweeps up in its path."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "超新星残骸の輝きはパルサーの星風によって駆動されることがあり、パルサーが放つ電子は磁場と相互作用するシンクロトロン放射によってX線・可視光・電波を生じる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/science/universe-uncovered/hubble-nebulae/",
+              "quote": "Supernova remnants’ glow can also be powered by the stellar wind of a pulsar – a rapidly spinning neutron star created from the core of the exploded star. The pulsar emits electrons that interact with the magnetic field it produces, a process called synchrotron radiation, and emits X-rays, visible light and radio waves."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "かに星雲を生んだ1054年の爆発は数週間昼間の空でも見えるほど明るく、星の物質は今も時速約300万マイルで外側へ膨張している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/science/universe-uncovered/hubble-nebulae/",
+              "quote": "The explosion that created it in the year 1054 was so bright that for weeks it could be seen even in the daytime sky, and it was recorded by astronomers across the world. The material from the star is still rushing outward at around 3 million mph (4.8 million kph)."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "暗黒星雲（吸収星雲）は光を放射も反射もせず背後の光を遮るガスと塵の雲で、ウィリアム・ハーシェルはこれを「空の穴」と呼んだ。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/science/universe-uncovered/hubble-nebulae/",
+              "quote": "Absorption nebulae or dark nebulae are clouds of gas and dust that don’t emit or reflect light, but block light coming from behind them."
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/science/universe-uncovered/hubble-nebulae/",
+              "quote": "Astronomer William Herschel, discussing these seemingly empty spots in the late 1700s, called them “a hole in the sky.”"
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "ボック・グロービュールは小さく冷たいガスと高密度の宇宙塵の雲で、内部で星形成が起きていることを示す温かい核を持つものも見つかっている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/science/universe-uncovered/hubble-nebulae/",
+              "quote": "Included among absorption nebulae are objects like Bok globules, small, cold clouds of gas and dense cosmic dust. Some Bok globules have been found to have warm cores, which would be caused by star formation inside"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "NASAのスピッツァー宇宙望遠鏡やハッブル宇宙望遠鏡は、多くの遠方の星雲の画像を記録してきた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://spaceplace.nasa.gov/nebula/en/",
+              "quote": "Astronomers use very powerful telescopes to take pictures of faraway nebulae. Space telescopes such as NASA’s Spitzer Space Telescope and Hubble Space Telescope have captured many images of faraway nebulae."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "ジェイムズ・ウェッブ宇宙望遠鏡は主に赤外線で観測し、塵とガスの雲の深部を見通して星と惑星系の形成を研究している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/stories/quick-reads/decoding-nebulae/",
+              "quote": "The James Webb Space Telescope primarily observes the infrared universe. With Webb, scientists are peering deep into clouds of dust and gas to study how stars and planetary systems form."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "チャンドラX線天文台は、かに星雲で超新星として爆発した星のつぶれた都市サイズの核であるパルサーからの高エネルギーX線を捉えている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/stories/quick-reads/decoding-nebulae/",
+              "quote": "In the Crab Nebula, Chandra sees high-energy X-rays from a pulsar (a type of rapidly spinning neutron star, which is the crushed, city-sized core of a star that exploded as a supernova)."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "太陽の生涯全体は直接観測できないため、科学者は異なる段階にある膨大な数の恒星や星雲を調べて太陽の来歴と行方を推論している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/universe/stories/quick-reads/decoding-nebulae/",
+              "quote": "Since the Sun will live so much longer than us, scientists can’t observe its whole life cycle directly … but they can study tons of other stars and nebulae at different phases of their lives and draw conclusions about where our Sun came from and where it’s headed."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

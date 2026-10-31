@@ -1,0 +1,348 @@
+[
+  {
+    "slug": "annual-co2",
+    "topicType": "concept",
+    "categoryLabel": "気候・エネルギー",
+    "title": "二酸化炭素排出量",
+    "summary": "二酸化炭素排出量は、国や地域が年間に排出するCO2の総量と、それを人口で割った一人あたりの値で表される。総量ではアジアが世界の53%を占め、中国一国で4分の1以上を排出する一方、一人あたりで見ると主要産油国や米国・オーストラリア・カナダが上位に立ち、サハラ以南アフリカの最貧国との間には百倍を超える開きがある。総量と一人あたりのどちらを見るかで排出の地図が入れ替わることが、この指標の扱いを難しくしている。",
+    "bodyMarkdown": "## 二つの数え方\n\n排出量の順位表は、何で割るかによって顔ぶれが変わる。総量で並べれば中国が首位に来て、年間およそ100億トン、世界全体の4分の1以上を一国で占める。同じ排出を人口で割り直すと、中国を含むアジア全体の一人あたり排出量は世界平均をやや下回る水準に落ち着く。総量の大きさと一人あたりの大きさは別の事実であり、片方から他方を読み取ることはできない。 [2][4][17]\n\n一人あたりCO2排出量は、その国の総排出量を人口で割って求める。定義そのものは単純だが、分母に人口が入ることで、人口の多い国は総量で目立ち、人口の少ない国は一人あたりで目立つという構造的な違いが生まれる。 [12]\n\n## 地域別の排出量\n\nアジアは世界のCO2排出量の53%を占め、単一の地域としては最大の排出源である。ただしアジアには世界人口の60%が住んでおり、人口比で見れば排出のシェアは人口のシェアより小さい。中国はこの地域の最大排出国であると同時に、世界の最大排出国でもある。 [1][2][3]\n\n第2位は米国を中心とする北米で、世界排出量の18%を占める。欧州連合28か国をまとめた地域が17%で僅差に続く。中国、米国、EU28か国の三者を合わせると、世界のCO2排出量の半分以上に達する。 [5][6][11]\n\nこれに対し、アフリカと南米はそれぞれ3〜4%程度にとどまる比較的小さな排出地域である。両地域の排出量は、国際航空と海運から生じる排出量とほぼ同規模とされる。 [7][18]\n\n## 統計に含まれないもの\n\n国際航空と海運からの排出は、国別・地域別の排出量統計には計上されていない。どの国の領域でもない場所で燃やされた燃料をどこに帰属させるかという問題があるためで、その結果、各国の数値を足し合わせても世界の総排出量には届かない。 [8]\n\n帰属の問題は国内の排出についても生じる。気候変動に関する政府間パネル(IPCC)が定める各国の排出量算定・報告のガイドラインは、消費ベースではなく生産ベースの排出量に基づいて作られている。つまり、ある国で生産された製品が別の国で消費された場合、その排出は生産国の側に数えられる。 [16]\n\n## 歴史的な推移\n\n最大排出国の座は移動してきた。英国は1888年に米国に抜かれるまで世界最大のCO2排出国であり、これは英国が最初に産業化した国だったためだと説明されている。現在の排出地図は、産業化の順序が時間をかけて塗り替えられた結果である。 [9][19]\n\n排出の増加は生活水準の変化と並行して進んだ。1950年以降、アジアの平均寿命は41歳から74歳へ上昇し、極度の貧困も劇的に減少した。同じ期間にアジアは世界最大の排出地域となっている。 [1][10][20]\n\n## 一人あたり排出量の分布\n\n一人あたりの排出量が世界で最も多いのは主要な産油国で、その多くは中東に位置する。人口規模の大きい国に限れば、米国、オーストラリア、カナダが突出しており、いずれも世界平均の3倍以上に達する。 [13][14][21][22]\n\n欧州の内部でも幅がある。ポルトガル、フランス、英国の一人あたり排出量は世界平均からそれほど離れておらず、これらの国では電力に占める原子力および再生可能エネルギー由来の割合がはるかに高い。 [23][24]\n\n下端はまったく別の桁にある。チャド、ニジェール、中央アフリカ共和国といったサハラ以南アフリカの最貧国では、平均的な一人あたり排出量は年間およそ0.1トンで、米国・オーストラリア・カナダの水準より160倍以上低い。平均的な米国人やオーストラリア人は、2.3日でマリ人やニジェール人の年間排出量に相当する量を排出する計算になる。 [15][25][26]\n\n## 関連記事\n\n- [温室効果ガス](/hubpedia/greenhouse-gas)\n- [消費ベース排出](/hubpedia/consumption-based-emissions)\n- [航空の排出](/hubpedia/aviation-emissions)\n- [排出の指標](/hubpedia/emission-metrics)\n- [不平等と排出](/hubpedia/inequality-and-emissions)\n- [一人あたりエネルギー消費](/hubpedia/per-capita-energy)\n- [低炭素電力](/hubpedia/low-carbon-electricity)\n- [燃料別の排出](/hubpedia/emissions-by-fuel)",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/annual-co2-emissions",
+        "title": "Annual CO2 emissions — Our World in Data",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Total emissions by country, region and year. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/per-capita-co2",
+        "title": "Per capita CO2 emissions — Our World in Data",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "The same emissions divided by population. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Carbon dioxide emissions",
+        "summary": "Carbon dioxide emissions are expressed both as the total annual CO2 a country or region emits and as a per capita figure obtained by dividing that total by population. In total terms, Asia accounts for 53% of the world's emissions, with China alone responsible for more than a quarter, while on a per capita basis the major oil-producing states along with the United States, Australia, and Canada rank at the top, separated from the poorest countries of sub-Saharan Africa by a gap of more than a hundredfold. That the map of emissions changes depending on whether one looks at totals or per capita figures is what makes this indicator difficult to handle.",
+        "bodyMarkdown": "## Two ways of counting\n\nThe ranking of emissions changes its cast depending on what you divide by. Ordered by total, China comes first, emitting roughly 10 billion tonnes a year and accounting on its own for more than a quarter of the world total. Divide those same emissions by population, and per capita emissions across Asia as a whole, China included, settle somewhat below the global average. The size of the total and the size of the per capita figure are separate facts, and neither can be read off from the other. [2][4][17]\n\nPer capita CO2 emissions are obtained by dividing a country's total emissions by its population. The definition is simple in itself, but placing population in the denominator creates a structural difference: populous countries stand out in the totals, while sparsely populated ones stand out per capita. [12]\n\n## Emissions by region\n\nAsia accounts for 53% of global CO2 emissions, making it the largest single emitting region. Asia is, however, home to 60% of the world's population, so measured against population its share of emissions is smaller than its share of people. China is both the region's largest emitter and the largest emitter in the world. [1][2][3]\n\nSecond comes North America, centred on the United States, at 18% of global emissions. The 28 countries of the European Union taken together follow closely at 17%. China, the United States, and the EU28 combined reach more than half of the world's CO2 emissions. [5][6][11]\n\nAfrica and South America, by contrast, are comparatively small emitting regions at roughly 3–4% each. The emissions of these two regions are said to be about the same size as those arising from international aviation and shipping. [7][18]\n\n## What the statistics leave out\n\nEmissions from international aviation and shipping are not counted in national or regional emissions statistics. The reason is the problem of assigning fuel burned in places that lie within no country's territory, and as a result the national figures do not add up to the world total. [8]\n\nThe attribution problem also arises for domestic emissions. The guidelines set by the Intergovernmental Panel on Climate Change (IPCC) for national emissions accounting and reporting are built on production-based rather than consumption-based emissions. That is, when goods produced in one country are consumed in another, the emissions are counted on the producing country's side. [16]\n\n## Historical trends\n\nThe position of largest emitter has moved. The United Kingdom was the world's largest CO2 emitter until it was overtaken by the United States in 1888, which is explained by the UK having been the first country to industrialise. Today's map of emissions is the result of the order of industrialisation being redrawn over time. [9][19]\n\nThe rise in emissions ran in parallel with changes in living standards. Since 1950, life expectancy in Asia has risen from 41 to 74 years, and extreme poverty has fallen dramatically. Over the same period Asia has become the world's largest emitting region. [1][10][20]\n\n## The distribution of per capita emissions\n\nThe highest per capita emissions in the world are found among the major oil-producing states, many of them located in the Middle East. Among countries of substantial population size, the United States, Australia, and Canada stand out, each reaching more than three times the global average. [13][14][21][22]\n\nThere is variation within Europe as well. Per capita emissions in Portugal, France, and the United Kingdom are not far from the global average, and in these countries the share of electricity from nuclear and renewable sources is far higher. [23][24]\n\nThe bottom end lies in an entirely different order of magnitude. In the poorest countries of sub-Saharan Africa — Chad, Niger, the Central African Republic — average per capita emissions are around 0.1 tonnes a year, more than 160 times lower than the level in the United States, Australia, and Canada. By this reckoning, the average American or Australian emits in 2.3 days the equivalent of a Malian's or Nigerien's annual emissions. [15][25][26]\n\n## Related articles\n\n- [Greenhouse gas](/hubpedia/greenhouse-gas)\n- [Consumption-based emissions](/hubpedia/consumption-based-emissions)\n- [Aviation emissions](/hubpedia/aviation-emissions)\n- [Emission metrics](/hubpedia/emission-metrics)\n- [Inequality and emissions](/hubpedia/inequality-and-emissions)\n- [Per capita energy consumption](/hubpedia/per-capita-energy)\n- [Low-carbon electricity](/hubpedia/low-carbon-electricity)\n- [Emissions by fuel](/hubpedia/emissions-by-fuel)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T14:55:52.100Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "アジアは世界のCO2排出量の53%を占め、世界最大の排出地域である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/annual-co2-emissions",
+              "quote": "Asia is by far the largest emitter, accounting for 53% of global emissions."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "中国はアジア及び世界最大のCO2排出国であり、年間排出量は約100億トンに達する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/annual-co2-emissions",
+              "quote": "it emits nearly 10 billion tonnes each year"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "アジアは世界人口の60%を占める。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/annual-co2-emissions",
+              "quote": "home to 60% of the world’s population"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "中国のCO2排出量は世界全体の4分の1以上を占める。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/annual-co2-emissions",
+              "quote": "more than one-quarter of global emissions"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "北米(主に米国)は世界第2位の排出地域であり、世界排出量の18%を占める。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/annual-co2-emissions",
+              "quote": "North America – dominated by the USA – is the second largest regional emitter at 18% of global emissions."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "欧州連合28か国をまとめた地域は世界排出量の17%を占め、北米に僅差で続く。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/annual-co2-emissions",
+              "quote": "It’s followed closely by Europe with 17%."
+            },
+            {
+              "sourceUrl": "https://ourworldindata.org/annual-co2-emissions",
+              "quote": "Here we have grouped the 28 countries of the European Union together"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "アフリカと南米はそれぞれ世界排出量の3〜4%を占める比較的小さな排出地域である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/annual-co2-emissions",
+              "quote": "Africa and South America are both fairly small emitters: accounting for 3-4% of global emissions each."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "国際航空と海運からの排出は、各国・地域別の排出量統計には含まれていない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/annual-co2-emissions",
+              "quote": "Both aviation and shipping are not included in national or regional emissions."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "英国は1888年に米国に抜かれるまで世界最大のCO2排出国だった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/annual-co2-emissions",
+              "quote": "The UK was – until 1888, when it was overtaken by the US – the world’s largest emitter."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "1950年以降、アジアの平均寿命は41歳から74歳に上昇した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/annual-co2-emissions",
+              "quote": "since 1950 life expectancy in Asia has increased from 41 to 74 years"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "中国、米国、EU加盟28か国を合わせると世界のCO2排出量の半分以上を占める。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/annual-co2-emissions",
+              "quote": "China, the USA and the 28 countries of the EU account for more than half of global emissions."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "一人当たりCO2排出量は、ある国の総排出量をその国の人口で割ることで算出される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/per-capita-co2",
+              "quote": "We can calculate the contribution of the average citizen of each country by dividing its total emissions by its population."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "世界で一人当たりCO2排出量が最も多いのは主要な産油国である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/per-capita-co2",
+              "quote": "The world’s largest per capita CO2 emitters are the major oil producing countries"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "人口の多い国の中で一人当たり排出量が特に高い国は、米国、オーストラリア、カナダである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/per-capita-co2",
+              "quote": "More populous countries with some of the highest per capita emissions – and therefore high total emissions – are the United States, Australia, and Canada."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "チャド、ニジェール、中央アフリカ共和国などサハラ以南アフリカの最貧国の平均的な一人当たりCO2排出量は年間約0.1トンである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/per-capita-co2",
+              "quote": "In many of the poorest countries in Sub-Saharan Africa – such as Chad, Niger and the Central African Republic – the average footprint is around 0.1 tonnes per year."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "気候変動に関する政府間パネル(IPCC)の各国排出量算定・報告に関するガイドラインは、消費ベースではなく生産ベースの排出量に基づいて作成されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/per-capita-co2",
+              "quote": "The Intergovernmental Panel for Climate Change (IPCC) guidelines on national emissions accounting and reporting are written on the basis of production-based, rather than consumption-based emissions."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "アジアの一人当たりCO2排出量は世界平均よりやや低い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/annual-co2-emissions",
+              "quote": "per capita emissions in Asia are slightly lower than the world average"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "アフリカと南米の排出量は、国際航空・海運からの排出量とほぼ同規模である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/annual-co2-emissions",
+              "quote": "Both have emissions almost equal in size to international aviation and shipping."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "英国が世界最大の排出国だったのは、英国が最初に産業化した国だったためである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/annual-co2-emissions",
+              "quote": "the UK was the first country to industrialize"
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "アジアでは極度の貧困が劇的に減少した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/annual-co2-emissions",
+              "quote": "it has seen a dramatic fall in extreme poverty"
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "一人当たり排出量が高い主要産油国の多くは中東に位置する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/per-capita-co2",
+              "quote": "Most are in the Middle East."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "米国・オーストラリア・カナダの一人当たり排出量は世界平均の3倍以上である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/per-capita-co2",
+              "quote": "This is more than three times higher than the global average."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "ポルトガル、フランス、英国など一部の欧州諸国の一人当たり排出量は世界平均からそれほど離れていない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/per-capita-co2",
+              "quote": "some European countries – such as Portugal, France and UK – have emissions not far from the global average"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "英国、ポルトガル、フランスでは電力の中で原子力および再生可能エネルギー由来の割合がはるかに高い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/per-capita-co2",
+              "quote": "in the UK, Portugal and France, a much higher share of electricity is produced from nuclear and renewable sources"
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "サハラ以南アフリカ最貧国の一人当たり排出量は、米国・オーストラリア・カナダの160倍以上低い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/per-capita-co2",
+              "quote": "That’s more than 160 times lower than the USA, Australia and Canada."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "平均的な米国人またはオーストラリア人は、わずか2.3日でマリ人またはニジェール人の平均的な年間排出量に相当する量を排出する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/per-capita-co2",
+              "quote": "In just 2.3 days the average American or Australian emits as much as the average Malian or Nigerien in a year."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

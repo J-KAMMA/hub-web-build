@@ -1,0 +1,867 @@
+/*
+ * Hub v2 / 動画の一覧・視聴・コメント（SPEC 4.4, 4.5。レーン L3）。
+ * 色は意味トークンだけ。絵の上の札は --media-badge-*（テーマで変えない）。
+ */
+
+/* 動画の格子 ---------------------------------------------------------- */
+
+/*
+ * 1枚の下限は296px、列の隙間16・行の隙間40。1440で4列、1280で3列、390で1列。
+ * 骨組みも同じ格子に入れる（.v2-vgrid を付ける）ので、読み込み前後で位置が動かない。
+ */
+.v2-vgrid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(296px, 100%), 1fr));
+  gap: var(--v2-space-7) var(--v2-space-4);
+}
+
+.v2-vgrid > li {
+  min-width: 0;
+}
+
+/* 検索欄: 入力と「検索」を必ず1行に置く。狭い幅で押し手が次の行へ落ちない。 */
+.v2-vsearch {
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.v2-vsearch > input {
+  flex: 1 1 0;
+}
+
+.v2-vsearch > button {
+  flex: none;
+  min-height: 40px;
+}
+
+@media (pointer: coarse) {
+  .v2-vsearch > input,
+  .v2-vsearch > button {
+    min-height: 44px;
+  }
+}
+
+/* 動画の札 ------------------------------------------------------------ */
+
+.v2-vcard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--v2-space-3);
+  min-width: 0;
+  color: inherit;
+  text-decoration: none;
+}
+
+/* 閲覧条件つきの札は文字だけ。 */
+a.v2-vcard {
+  gap: var(--v2-space-1);
+}
+
+.v2-vcard__thumb {
+  position: relative;
+}
+
+/* 縦型（ショート）は 9:16 の絵。格子の幅いっぱいにすると画面より高くなる。 */
+.v2-vcard--tall .v2-vcard__thumb {
+  width: min(100%, 202px);
+}
+
+/* 絵。枠が縦横比を持ち、絵は枠いっぱい。hover で少し持ち上がる。 */
+.v2-vcard__art {
+  transition: transform var(--dur-base) var(--ease-out), border-radius var(--dur-base) var(--ease-out);
+}
+
+.v2-vcard__fallback {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  color: var(--muted);
+  font-size: var(--type-subhead-size);
+  font-weight: 600;
+}
+
+@media (hover: hover) {
+  .v2-vcard:hover .v2-vcard__art {
+    transform: scale(1.02);
+    border-radius: var(--radius-sm);
+  }
+}
+
+/*
+ * 「ここで見る」の押し手。右下は再生時間の札なので、上に置く。
+ * 机上では hover か焦点が当たったときだけ。触る端末には hover が無いので常に出す（44px）。
+ */
+.v2-vcard__here {
+  position: absolute;
+  top: var(--v2-space-2);
+  right: var(--v2-space-2);
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: var(--material-sheet);
+  color: var(--text);
+  cursor: pointer;
+  -webkit-backdrop-filter: saturate(180%) blur(30px);
+  backdrop-filter: saturate(180%) blur(30px);
+  transition: opacity var(--dur-fast) var(--ease-out), transform var(--dur-press) var(--ease-out);
+}
+
+.v2-vcard__here:active {
+  transform: scale(.94);
+}
+
+.v2-vcard__here svg {
+  width: 18px;
+  height: 18px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .v2-vcard__here {
+    opacity: 0;
+  }
+
+  .v2-vcard:hover .v2-vcard__here,
+  .v2-vcard:focus-within .v2-vcard__here {
+    opacity: 1;
+  }
+}
+
+@media (pointer: coarse) {
+  .v2-vcard__here {
+    width: 44px;
+    height: 44px;
+  }
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  .v2-vcard__here {
+    background: var(--surface-raised);
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
+  }
+}
+
+@supports not (backdrop-filter: blur(1px)) {
+  .v2-vcard__here {
+    background: var(--surface-raised);
+  }
+}
+
+/* 題のリンクを札いっぱいに広げる。押し手は z-index 2 で上に残る。 */
+.v2-vcard__link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.v2-vcard__link::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+.v2-vcard__link:focus-visible {
+  outline: none;
+}
+
+.v2-vcard__link:focus-visible::after {
+  border-radius: var(--radius-md);
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.v2-vcard__info {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--v2-space-3);
+  min-width: 0;
+}
+
+.v2-vcard .v2-vcard__avatar {
+  flex: none;
+  width: 36px;
+  height: 36px;
+  font-size: 15px;
+}
+
+.v2-vcard__body {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+  flex: 1;
+}
+
+.v2-vcard__heading {
+  margin: 0;
+  font-size: var(--type-headline-size);
+  line-height: var(--type-headline-leading);
+  font-weight: var(--type-headline-weight);
+}
+
+/* 題は2行で止める。日本語は文節で折り返す。 */
+.v2-vcard__link,
+.v2-vcard__title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  word-break: auto-phrase;
+  overflow-wrap: anywhere;
+  text-wrap: pretty;
+}
+
+a.v2-vcard > .v2-vcard__body > .v2-vcard__title {
+  font-size: var(--type-headline-size);
+  line-height: var(--type-headline-leading);
+  font-weight: var(--type-headline-weight);
+}
+
+.v2-vcard__channel,
+.v2-vcard__meta {
+  overflow: hidden;
+  color: var(--muted);
+  font-size: var(--type-subhead-size);
+  line-height: var(--type-subhead-leading);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/*
+ * 「次に見る」の行（compact）。絵 168×94 の隣に題2行・発信者・回数。行の間 8。
+ * 発信者の顔は出さない。幅 402px の列に収める。
+ */
+.v2-vcard--compact {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--v2-space-3);
+}
+
+.v2-vcard--compact .v2-vcard__thumb {
+  flex: none;
+  width: 168px;
+}
+
+.v2-vcard--compact.v2-vcard--tall .v2-vcard__thumb {
+  width: 53px;
+}
+
+.v2-vcard--compact .v2-vcard__info {
+  flex: 1;
+}
+
+.v2-vcard--compact .v2-vcard__heading {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+.v2-vcard--compact .v2-vcard__channel,
+.v2-vcard--compact .v2-vcard__meta {
+  font-size: var(--type-caption-size);
+  line-height: var(--type-caption-leading);
+}
+
+/* 狭い列では絵を小さくして題に幅を残す。 */
+@media (max-width: 420px) {
+  .v2-vcard--compact .v2-vcard__thumb {
+    width: 136px;
+  }
+}
+
+.v2-vcard--compact .v2-vcard__here {
+  display: none;
+}
+
+.v2-vlist__more {
+  height: 1px;
+}
+
+.v2-vlist__count {
+  margin-top: var(--v2-space-4);
+  font-size: var(--v2-text-xs);
+}
+
+/* 視聴ページ ---------------------------------------------------------- */
+
+/*
+ * 主列（可変）＋「次に見る」(402px)。列の幅は本文の幅で決める（container query）。
+ * 画面幅で決めると、左右の列の開閉で本文が狭くなっても右の列が居座る。
+ * 本文が 960px に満たなければ「次に見る」は下へ回る。
+ */
+.v2-watch {
+  container: watch / inline-size;
+  min-width: 0;
+}
+
+.v2-watch__layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--v2-space-5);
+  align-items: start;
+}
+
+@container watch (min-width: 960px) {
+  .v2-watch__layout {
+    grid-template-columns: minmax(0, 1fr) 402px;
+  }
+
+  /* 広い幅：右の列は本文と投稿の両方の高さを使う。 */
+  .v2-watch__next {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+    position: sticky;
+    top: var(--v2-space-4);
+  }
+
+  .v2-watch__rest {
+    grid-column: 1;
+    grid-row: 2;
+  }
+}
+
+/* 縦型（ショート）は 9:16 の絵だけを中央に。左右を黒い帯で埋めない。 */
+.v2-watch__player:has(.video-unified-player__frame--vertical) {
+  background: transparent;
+}
+
+.v2-watch__player .video-unified-player__frame--vertical {
+  margin-inline: auto;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+}
+
+.v2-watch__main {
+  min-width: 0;
+}
+
+/* プレーヤー。主列の全幅、16:9、角 --radius-lg。 */
+.v2-watch__player {
+  overflow: hidden;
+  border-radius: var(--radius-lg);
+  background: var(--media-app-bg);
+}
+
+.v2-watch__player .video-detail-player {
+  background: transparent;
+}
+
+.v2-watch__player .video-detail-player .video-unified-player__frame {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: var(--media-app-bg);
+}
+
+.v2-watch__player .video-detail-player .video-unified-player__frame--vertical {
+  width: min(100%, 360px);
+  aspect-ratio: 9 / 16;
+}
+
+/*
+ * 同意の表示。枠の寸法は変えず、枠の中に収める。
+ * 既存は「枠 16:9 に固定、中身は 390px 必要」で、携帯では枠 165px に中身 390px が
+ * はみ出して「同意して再生」が切れていた。ここでは枠が中身に合わせて伸びる
+ * （min-height を中身の高さにし、200px の下限は中身の側に持たせる）。
+ * 同意の内容・取得の扱い・リンクは変えない（components/youtube-embed-consent.tsx）。
+ */
+.v2-watch__player .video-unified-player__frame:has(> .youtube-embed-consent) {
+  display: flex;
+  min-height: min-content;
+}
+
+.v2-watch__player .youtube-embed-consent {
+  flex: 1 1 auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--v2-space-2);
+  min-width: 0;
+  min-height: 200px;
+  padding: var(--v2-space-4);
+  background: var(--content-nested);
+  color: var(--text);
+}
+
+.v2-watch__player .youtube-embed-consent p {
+  max-width: 44em;
+  margin: 0;
+  font-size: var(--type-subhead-size);
+  line-height: var(--type-subhead-leading);
+  text-align: center;
+  text-wrap: pretty;
+}
+
+.v2-watch__player .youtube-embed-consent p:first-child {
+  font-size: var(--type-body-size);
+  line-height: 22px;
+}
+
+.v2-watch__player .youtube-embed-consent a {
+  margin-inline: 0;
+  color: var(--text);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* ボタンの段。同意して再生（主）と配信元で開く（面なし）。隙間を空け、44px。 */
+.v2-watch__player .youtube-embed-consent > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: var(--v2-space-2) var(--v2-space-3);
+  margin-top: var(--v2-space-1);
+}
+
+.v2-watch__player .youtube-embed-consent button {
+  min-height: 44px;
+  padding: 0 var(--v2-space-5);
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: var(--action);
+  color: var(--action-text);
+  font-size: var(--type-callout-size);
+  font-weight: var(--type-callout-weight);
+  cursor: pointer;
+}
+
+.v2-watch__player .youtube-embed-consent > div a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 var(--v2-space-3);
+  font-size: var(--type-callout-size);
+  font-weight: var(--type-callout-weight);
+  text-decoration: none;
+}
+
+/* 携帯: 再生中のプレーヤーは上端に貼り付く（同意の表示は背が高いので貼らない）。 */
+@media (max-width: 759px) {
+  .v2-watch__player:has(iframe) {
+    position: sticky;
+    top: 0;
+    z-index: 4;
+    border-radius: 0;
+  }
+}
+
+.v2-watch__head {
+  margin-top: var(--v2-space-3);
+}
+
+.v2-watch__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  letter-spacing: -0.008em;
+  word-break: auto-phrase;
+  overflow-wrap: anywhere;
+  text-wrap: pretty;
+}
+
+.v2-watch__byline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--v2-space-3) var(--v2-space-4);
+  margin-top: var(--v2-space-3);
+}
+
+.v2-watch__channel {
+  display: flex;
+  align-items: center;
+  gap: var(--v2-space-3);
+  min-width: 0;
+}
+
+.v2-watch__channel-text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.v2-watch__channel-name {
+  overflow: hidden;
+  font-size: var(--type-callout-size);
+  line-height: var(--type-callout-leading);
+  font-weight: var(--type-callout-weight);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.v2-watch__channel-sub {
+  overflow: hidden;
+  color: var(--muted);
+  font-size: var(--type-subhead-size);
+  line-height: var(--type-subhead-leading);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* 操作の群。外へ出る「配信元で開く」は主操作の青を使わない。 */
+.v2-watch__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--v2-space-2);
+}
+
+.v2-watch__actions .v2-button,
+.v2-watch__actions .ui-button {
+  min-height: 36px;
+  border-radius: var(--radius-pill);
+  background: var(--interactive);
+  color: var(--text);
+}
+
+.v2-watch__actions .v2-button:hover,
+.v2-watch__actions .ui-button:hover {
+  background: var(--interactive-hover);
+}
+
+.v2-watch__actions .v2-button[aria-pressed="true"] {
+  background: var(--selected);
+}
+
+@media (pointer: coarse) {
+  .v2-watch__actions .v2-button,
+  .v2-watch__actions .ui-button {
+    min-height: 44px;
+  }
+}
+
+/* 説明の箱。1行目に回数・日付・タグ、本文は3行で省略。 */
+.v2-watch__desc {
+  margin-top: var(--v2-space-4);
+  padding: var(--v2-space-3);
+  border-radius: var(--radius-md);
+  background: var(--content-nested);
+}
+
+.v2-watch__desc-stats {
+  margin: 0;
+  font-size: var(--type-subhead-size);
+  line-height: var(--type-subhead-leading);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.v2-watch__desc-body {
+  margin: var(--v2-space-2) 0 0;
+  font-size: var(--type-body-size);
+  line-height: var(--type-body-leading);
+  overflow-wrap: anywhere;
+}
+
+.v2-watch__desc-body:not([data-open="true"]) {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.v2-watch__desc-more {
+  min-height: 36px;
+  margin: var(--v2-space-1) 0 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--text);
+  font: inherit;
+  font-size: var(--type-subhead-size);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media (pointer: coarse) {
+  .v2-watch__desc-more {
+    min-height: 44px;
+  }
+}
+
+/* 次に見る。 */
+.v2-watch__next-title {
+  margin: 0 0 var(--v2-space-3);
+  font-size: var(--type-headline-size);
+  line-height: var(--type-headline-leading);
+  font-weight: var(--type-headline-weight);
+}
+
+.v2-watch__next-list {
+  display: grid;
+  gap: var(--v2-space-2);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.v2-watch__rest {
+  margin-top: var(--v2-space-5);
+}
+
+/* コメント */
+.v2-vthread {
+  margin-top: var(--v2-space-5);
+}
+
+.v2-vcomments {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.v2-vcomment {
+  display: flex;
+  gap: var(--v2-space-3);
+  padding: var(--v2-space-4) 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.v2-vcomments--nested {
+  margin-top: var(--v2-space-3);
+}
+
+.v2-vcomment--reply {
+  padding: var(--v2-space-3) 0 0;
+  border-bottom: 0;
+  border-top: 1px solid var(--line);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .v2-vcard__art,
+  .v2-vcard__here {
+    transition: none;
+  }
+
+  .v2-vcard:hover .v2-vcard__art {
+    transform: none;
+  }
+}
+
+/*
+ * 格子の札の「おすすめの調整」（2026-10-18）。札ごとに文字の行が出て、行の間が 100px 近く空いていた。
+ * YouTube と同じく題の右の「…」へ畳む。位置は絵（16:9）の下端から決める。
+ */
+.v2-vgrid > li:has(> .v2-discovery) {
+  position: relative;
+  container-type: inline-size;
+}
+.v2-vgrid > li > .v2-discovery {
+  position: absolute;
+  top: calc(100cqw * 9 / 16 + var(--v2-space-2));
+  right: 0;
+  z-index: 2;
+  margin: 0;
+}
+.v2-vgrid > li:has(> .v2-discovery) .v2-vcard__body {
+  padding-right: 32px;
+}
+.v2-vgrid > li > .v2-discovery > summary {
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border-radius: 50%;
+  color: var(--text);
+  font-size: 0;
+  list-style: none;
+  cursor: pointer;
+}
+.v2-vgrid > li > .v2-discovery > summary:hover { background: var(--interactive); }
+.v2-vgrid > li > .v2-discovery > summary::-webkit-details-marker { display: none; }
+.v2-vgrid > li > .v2-discovery > summary::after { content: "\22EE"; font-size: 18px; line-height: 1; }
+.v2-vgrid > li > .v2-discovery .v2-discovery__panel {
+  position: absolute;
+  top: 36px;
+  right: 0;
+  width: 240px;
+  padding: var(--v2-space-3);
+  border-radius: var(--radius-md);
+  background: var(--surface-raised);
+  box-shadow: var(--elevation-2);
+  font-size: var(--type-subhead-size);
+}
+@media (pointer: coarse) {
+  .v2-vgrid > li > .v2-discovery > summary { width: 44px; height: 44px; }
+  .v2-vgrid > li > .v2-discovery .v2-discovery__panel { top: 48px; }
+}
+
+/* チャンネル ---------------------------------------------------------- */
+
+.v2-watch__channel-name {
+  color: inherit;
+  text-decoration: none;
+}
+a.v2-watch__channel-name:hover { text-decoration: underline; }
+
+.v2-channel__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--v2-space-4);
+  margin-bottom: var(--v2-space-5);
+  padding-bottom: var(--v2-space-5);
+  border-bottom: var(--divider);
+}
+.v2-channel__text {
+  flex: 1 1 240px;
+  min-width: 0;
+}
+.v2-channel__name {
+  margin: 0;
+  font-size: var(--type-title2-size);
+  line-height: var(--type-title2-leading);
+  font-weight: var(--type-title2-weight);
+  overflow-wrap: anywhere;
+}
+.v2-channel__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--v2-space-1) var(--v2-space-3);
+  margin: var(--v2-space-1) 0 0;
+  color: var(--muted);
+  font-size: var(--type-subhead-size);
+  line-height: var(--type-subhead-leading);
+}
+.v2-channel__meta a { color: inherit; text-decoration: none; }
+.v2-channel__meta a:hover { text-decoration: underline; }
+.v2-channel__bio {
+  margin: var(--v2-space-2) 0 0;
+  max-width: var(--v2-measure);
+  font-size: var(--type-body-size);
+  line-height: var(--type-body-leading);
+  overflow-wrap: anywhere;
+  white-space: pre-line;
+}
+.v2-channel__follow {
+  display: flex;
+  align-items: center;
+  gap: var(--v2-space-2);
+}
+.v2-channel__more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--v2-space-3);
+  margin-top: var(--v2-space-6);
+}
+
+/* ショートの縦フィード -------------------------------------------------- */
+
+/*
+ * 1画面に1本。高さは画面からヘッダー分を引いた値。scroll-snap の止め位置は各本の頭。
+ * 絵（.v2-shorts__stage）の上には何も重ねない（YouTube の規約: 200×200以上・覆わない）。
+ */
+.v2-shorts {
+  --v2-shorts-height: calc(100dvh - var(--v2-top-height) - 72px);
+  height: var(--v2-shorts-height);
+  min-height: 420px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+}
+.v2-shorts::-webkit-scrollbar { display: none; }
+.v2-shorts:focus-visible { outline: 2px solid var(--emphasis); outline-offset: 2px; }
+
+.v2-shorts__item {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--v2-space-3);
+  height: 100%;
+  padding-block: var(--v2-space-2);
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+.v2-shorts__stage {
+  position: relative;
+  flex: 1 1 0;
+  min-height: 260px;
+  aspect-ratio: 9 / 16;
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  background: var(--surface-sunken);
+}
+.v2-shorts__stage > *,
+.v2-shorts__stage .video-detail-player,
+.v2-shorts__stage .video-unified-player__frame {
+  width: 100%;
+  height: 100%;
+}
+.v2-shorts__stage iframe,
+.v2-shorts__stage video {
+  width: 100%;
+  height: 100%;
+  min-width: 200px;
+  min-height: 200px;
+  object-fit: contain;
+}
+.v2-shorts__idle {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  color: var(--muted);
+}
+.v2-shorts__info {
+  flex: none;
+  width: min(100%, 420px);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--v2-space-1) var(--v2-space-3);
+}
+.v2-shorts__title {
+  flex: 1 1 100%;
+  margin: 0;
+  font-size: var(--type-headline-size);
+  line-height: var(--type-headline-leading);
+  font-weight: var(--type-headline-weight);
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.v2-shorts__title a { color: inherit; text-decoration: none; }
+.v2-shorts__channel {
+  flex: 1 1 0;
+  min-width: 0;
+  margin: 0;
+  overflow: hidden;
+  color: var(--muted);
+  font-size: var(--type-subhead-size);
+  line-height: var(--type-subhead-leading);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.v2-shorts__channel a { color: inherit; text-decoration: none; }
+.v2-shorts__channel a:hover { text-decoration: underline; }
+.v2-shorts__actions { display: flex; align-items: center; gap: var(--v2-space-2); }
+.v2-shorts__status {
+  flex: 1 1 100%;
+  margin: 0;
+  color: var(--muted);
+  font-size: var(--type-subhead-size);
+}
+@media (prefers-reduced-motion: reduce) {
+  .v2-shorts { scroll-behavior: auto; }
+}

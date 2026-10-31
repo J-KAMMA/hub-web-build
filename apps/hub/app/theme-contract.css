@@ -1,0 +1,98 @@
+/*
+ * Final product-wide theme contract.
+ *
+ * Feature styles own layout and product semantics. This layer owns the last
+ * visual resolution of shared states so older light-only rules cannot leak
+ * into dark or automatic mode.
+ */
+
+:where(.bbs-view-tabs) {
+  background: var(--surface-sunken) !important;
+  color: var(--text) !important;
+}
+
+:where(.bbs-view-tabs button) {
+  background: transparent !important;
+  color: var(--muted) !important;
+}
+
+.bbs-view-tabs button.bbs-view-tabs__active {
+  background: var(--selected) !important;
+  color: var(--text) !important;
+  box-shadow: none !important;
+}
+
+.bbs-thread-card__solved {
+  background: var(--positive-bg) !important;
+  color: var(--positive-text) !important;
+}
+
+.bbs-template-row button[aria-pressed="true"] {
+  border-color: var(--line-strong) !important;
+  background: var(--selected) !important;
+  color: var(--text) !important;
+}
+
+:where(.community-create-shortcut, .community-portal__actions button) {
+  border-color: var(--action) !important;
+  background: var(--action) !important;
+  color: var(--action-text) !important;
+}
+
+:where(.community-channel__hash) {
+  border-color: var(--line) !important;
+  background: var(--interactive) !important;
+  color: var(--muted) !important;
+}
+
+:where(.community-channel--active .community-channel__hash) {
+  background: var(--selected) !important;
+  color: var(--text) !important;
+}
+
+:where(.community-membership) {
+  border-color: var(--line) !important;
+  background: var(--surface-raised) !important;
+  color: var(--muted) !important;
+}
+
+.community-membership.community-membership--joined,
+.community-game-filters button.community-game-filter--active,
+.community-composer-kinds button.community-composer-kind--active {
+  border-color: var(--line-strong) !important;
+  background: var(--selected) !important;
+  color: var(--text) !important;
+}
+
+:where(.community-composer__box button:disabled) {
+  border-color: var(--line) !important;
+  background: var(--interactive) !important;
+  color: var(--muted) !important;
+  -webkit-text-fill-color: var(--muted) !important;
+}
+
+.music-provider-nav button.is-active,
+.music-genres button.is-active,
+.music-subgenres button.is-active,
+.music-library-directory button.is-active,
+.music-feature-actions button.is-active,
+.music-right-rail__categories button.is-active,
+.music-right-rail__sort button.is-active {
+  border-color: var(--line-strong) !important;
+  background: var(--selected) !important;
+  color: var(--text) !important;
+  box-shadow: none !important;
+}
+
+@media (forced-colors: active) {
+  :where(
+    .bbs-view-tabs button.bbs-view-tabs__active,
+    .community-membership--joined,
+    .community-game-filter--active,
+    .community-composer-kind--active,
+    .music-genres button.is-active
+  ) {
+    border-color: Highlight !important;
+    color: HighlightText !important;
+  }
+}

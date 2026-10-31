@@ -1,0 +1,265 @@
+/*
+ * Standard Hub post presentation.
+ * The anatomy stays shared; page surfaces may only vary available width.
+ */
+
+html[data-theme] :is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed,
+  .timeline-rail__list,
+  .post-detail
+) .tweet {
+  gap: 10px;
+  padding: 10px 12px 7px;
+  border: var(--divider) !important;
+  border-radius: 12px !important;
+  background: var(--panel) !important;
+  box-shadow: none !important;
+}
+
+html[data-theme] :is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed,
+  .timeline-rail__list,
+  .post-detail
+) .tweet:hover {
+  border-color: var(--line-strong) !important;
+  background: var(--interactive-hover) !important;
+}
+
+:is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed,
+  .timeline-rail__list,
+  .post-detail
+) .tweet__avatar {
+  /* 44px — the size the design canvas draws the post row at. */
+  width: 44px;
+  height: 44px;
+  margin: 0;
+}
+
+:is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed,
+  .timeline-rail__list,
+  .post-detail
+) .tweet__header {
+  min-height: 28px;
+  align-items: center;
+  margin: 0 0 5px;
+}
+
+:is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed,
+  .timeline-rail__list,
+  .post-detail
+) .tweet__identity {
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 4px;
+}
+
+:is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed,
+  .timeline-rail__list,
+  .post-detail
+) :is(.tweet__name, .tweet__handle, .tweet__time) {
+  white-space: nowrap;
+}
+
+:is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed,
+  .timeline-rail__list,
+  .post-detail
+) .tweet__time::before {
+  content: "\00b7";
+  margin-inline-end: 4px;
+  color: var(--muted);
+}
+
+:is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed,
+  .timeline-rail__list,
+  .post-detail
+) .tweet__text {
+  margin: 0 0 7px;
+  /* 15px on the 16px root, 1.75 leading — the canvas's post body. */
+  font-size: .9375rem !important;
+  line-height: 1.75 !important;
+}
+
+:is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed,
+  .timeline-rail__list,
+  .post-detail
+) .tweet__actions {
+  display: grid;
+  width: 100%;
+  min-height: 36px;
+  grid-template-columns: repeat(3, minmax(52px, max-content)) minmax(18px, 1fr) 42px 42px;
+  align-items: center;
+  column-gap: clamp(6px, 1.4vw, 18px);
+  margin: 1px 0 0;
+  padding: 3px 0 0;
+  border-top: var(--divider);
+}
+
+:is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed,
+  .timeline-rail__list,
+  .post-detail
+) .tweet__actions > * {
+  min-width: 0;
+  min-height: 36px;
+  margin: 0;
+  justify-self: stretch;
+}
+
+:is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed,
+  .timeline-rail__list,
+  .post-detail
+) .tweet__action {
+  width: 100%;
+  min-width: 0;
+  min-height: 36px;
+  justify-content: flex-start;
+  padding: 6px 8px;
+  border-radius: 9px;
+}
+
+:is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed,
+  .timeline-rail__list,
+  .post-detail
+) :is(.tweet__action--bookmark, .tweet__action--share) {
+  width: 42px;
+  justify-content: center;
+  padding-inline: 0;
+}
+
+:is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed,
+  .timeline-rail__list,
+  .post-detail
+) .tweet__action--bookmark {
+  grid-column: 5;
+}
+
+:is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed,
+  .timeline-rail__list,
+  .post-detail
+) .tweet__action--share {
+  grid-column: 6;
+}
+
+.tweet--masonry .tweet__header .tweet__context-tool {
+  width: 30px;
+  min-width: 30px;
+  padding-inline: 0;
+}
+
+.tweet--masonry .tweet__header .tweet__context-tool > span {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/*
+ * The two-column masonry is gone, and with it the reason these rules
+ * existed: each card sat in a narrow column, so its action row was a
+ * five-equal-column grid of full-width centred buttons. In one reading
+ * column that grid stretched the controls hundreds of pixels apart.
+ */
+
+.tweet__quote-context {
+  display: block;
+  margin-bottom: 4px;
+  color: var(--muted);
+  font-size: .72rem;
+  font-weight: 700;
+}
+
+@media (max-width: 680px) {
+  html[data-theme] :is(
+    .main-content .home-feed__stream,
+    .main-content .search-post-results,
+    .main-content .profile-posts-feed,
+    .timeline-rail__list,
+    .post-detail
+  ) .tweet {
+    gap: 8px;
+    padding: 9px 10px 6px;
+    border-radius: 10px !important;
+  }
+
+  :is(
+    .main-content .home-feed__stream,
+    .main-content .search-post-results,
+    .main-content .profile-posts-feed,
+    .timeline-rail__list,
+    .post-detail
+  ) .tweet__actions {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    column-gap: 2px;
+  }
+
+  :is(
+    .main-content .home-feed__stream,
+    .main-content .search-post-results,
+    .main-content .profile-posts-feed,
+    .timeline-rail__list,
+    .post-detail
+  ) .tweet__action {
+    justify-content: center;
+  }
+
+  :is(
+    .main-content .home-feed__stream,
+    .main-content .search-post-results,
+    .main-content .profile-posts-feed,
+    .timeline-rail__list,
+    .post-detail
+  ) .tweet__action--bookmark {
+    grid-column: 4;
+  }
+
+  :is(
+    .main-content .home-feed__stream,
+    .main-content .search-post-results,
+    .main-content .profile-posts-feed,
+    .timeline-rail__list,
+    .post-detail
+  ) .tweet__action--share {
+    grid-column: 5;
+  }
+}

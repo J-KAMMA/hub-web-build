@@ -1,0 +1,762 @@
+/*
+ * The editorial surface.
+ *
+ * One decision, applied to every reading list on the platform: content is
+ * set on the page itself, divided by a hairline, and given room. No card
+ * has a ground of its own, no card has a border of its own, and nothing a
+ * reader looks at sits inside a box drawn around it.
+ *
+ * This file exists because the alternative was another patch. Seventy
+ * stylesheets already describe the post; each earlier answer stayed, and
+ * the surface ended up with a border from one, a radius from another and a
+ * fill from a third. So this layer owns exactly one thing — how a reading
+ * list looks — and it is loaded last so it is the only answer that counts.
+ *
+ * The type is set to be read: the name carries the row, the body is 16px on
+ * a 1.8 leading, and everything else recedes to the muted role. Controls
+ * are drawn, not upholstered — an icon with its count, no medallion behind
+ * it, no pill on hover. Where a state has to show, it shows on the ground.
+ */
+
+:where(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed
+) {
+  --editorial-gutter: 20px;
+}
+
+/* The list is continuous: the hairline between entries is the only join. */
+html[data-theme] :is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed
+) {
+  gap: 0 !important;
+  padding-inline: 0 !important;
+  background: var(--bg) !important;
+}
+
+html[data-theme] :is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed
+) > :is(.tweet, .home-feed__inline-ad, .advertising) {
+  margin: 0 !important;
+  padding: 16px var(--editorial-gutter) 10px !important;
+  border: 0 !important;
+  border-bottom: 1px solid var(--line) !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  transform: none !important;
+}
+
+html[data-theme] :is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed
+) > .tweet:hover {
+  background: color-mix(in srgb, var(--text) 3%, transparent) !important;
+}
+
+/* The identity line: one name, then everything that is not the name. */
+html[data-theme] :is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed
+) .tweet__name {
+  color: var(--text) !important;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  letter-spacing: -.01em !important;
+}
+
+html[data-theme] :is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed
+) :is(.tweet__handle, .tweet__time, .tweet__permalink, .tweet__recommendation-reason) {
+  color: var(--muted) !important;
+  font-size: .8125rem !important;
+  font-weight: 400 !important;
+}
+
+/* The body is the reason the row exists. */
+html[data-theme] :is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed
+) .tweet__text {
+  max-width: 62ch !important;
+  margin: 2px 0 10px !important;
+  color: var(--text) !important;
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+  line-height: 1.8 !important;
+  letter-spacing: 0 !important;
+}
+
+/* Controls are drawn, not upholstered. */
+html[data-theme] :is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed
+) .tweet__actions {
+  display: flex !important;
+  grid-template-columns: none !important;
+  align-items: center !important;
+  gap: 2px !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border-top: 0 !important;
+}
+
+html[data-theme] :is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed
+) .tweet__actions > * {
+  width: auto !important;
+  min-width: 0 !important;
+  flex: 0 0 auto !important;
+  justify-self: start !important;
+}
+
+html[data-theme] :is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed
+) .tweet__action {
+  gap: 6px !important;
+  height: auto !important;
+  min-width: 0 !important;
+  min-height: 28px !important;
+  padding: 2px 10px 2px 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  color: var(--muted) !important;
+  font-size: .8125rem !important;
+}
+
+html[data-theme] :is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed
+) .tweet__action:hover:not(:disabled) {
+  background: transparent !important;
+  color: var(--text) !important;
+}
+
+/* No medallion behind the icon — the icon is the control. */
+html[data-theme] :is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed
+) .tweet__action-icon {
+  /* The medallion also carried a floor of its own. */
+  width: auto !important;
+  min-width: 0 !important;
+  height: auto !important;
+  min-height: 0 !important;
+  flex: 0 0 auto !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+}
+
+html[data-theme] :is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed
+) .tweet__action-icon svg {
+  width: 17px !important;
+  height: 17px !important;
+}
+
+/* The bookmark and the share are asides; they keep to the far end. */
+html[data-theme] :is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed
+) .tweet__action--bookmark {
+  margin-left: auto !important;
+}
+
+html[data-theme] :is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed
+) :is(.tweet__action--bookmark, .tweet__action--share) {
+  width: auto !important;
+  padding-inline: 8px !important;
+}
+
+/* Quoted and referenced content: a rule at its edge, never a filled box. */
+html[data-theme] :is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed
+) :is(.tweet__quote, .tweet__thread-context, .referenced-card) {
+  margin: 0 0 10px !important;
+  padding: 2px 0 2px 14px !important;
+  border: 0 !important;
+  border-left: 1px solid var(--line-strong) !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+}
+
+/* The menu triggers are quiet until the row is under the pointer. */
+html[data-theme] :is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed
+) .tweet__header :is(button, [role="button"]) {
+  height: auto !important;
+  min-height: 24px !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+/* The reader's thumb still needs its target on a phone. */
+@media (max-width: 680px) {
+  html[data-theme] :is(
+    .main-content .home-feed__stream,
+    .main-content .search-post-results,
+    .main-content .profile-posts-feed
+  ) {
+    --editorial-gutter: 14px;
+  }
+
+  html[data-theme] :is(
+    .main-content .home-feed__stream,
+    .main-content .search-post-results,
+    .main-content .profile-posts-feed
+  ) .tweet__action {
+    min-height: 40px !important;
+    padding-inline: 4px 14px !important;
+  }
+
+  /*
+   * The header carries two menus — the context tool and the overflow — and
+   * on a pointer they are 24px because a pointer can hit 24px. Measured at
+   * 375px they were still 24px, which is a quarter of what a thumb needs.
+   */
+  html[data-theme] :is(
+    .main-content .home-feed__stream,
+    .main-content .search-post-results,
+    .main-content .profile-posts-feed
+  ) .tweet__header :is(button, [role="button"]) {
+    min-width: 40px !important;
+    min-height: 40px !important;
+  }
+}
+
+/*
+ * The columns share one inset.
+ *
+ * Measured at 1720: the directory set its text 20px from the column edge,
+ * the body 50px (a 30px page gutter and then the post's own 20px), and the
+ * rail held its content 58px off the right edge. Three columns standing
+ * side by side, each with a different margin — on a page divided by rules,
+ * that misalignment is the first thing the eye finds.
+ *
+ * One inset, 20px, measured from each column's own edge.
+ */
+html[data-theme] .main-content .feed-directory-content .home-feed {
+  padding-inline: 0 !important;
+}
+
+html[data-theme] .main-content :is(.feed-directory, .search-directory, .notifications-directory, .profile-activity-directory) .bbs-thread-directory__nav {
+  width: 100% !important;
+  padding-inline: 0 !important;
+}
+
+html[data-theme] .main-content :is(.feed-directory, .search-directory, .notifications-directory, .profile-activity-directory) .bbs-thread-directory__nav > :is(a, button) {
+  padding-inline: 20px !important;
+}
+
+html[data-theme] .main-content :is(.feed-directory, .search-directory, .notifications-directory, .profile-activity-directory) .bbs-thread-directory__header {
+  padding-inline: 20px !important;
+}
+
+html[data-theme] .shell__right .shell__right-body {
+  padding-right: 20px !important;
+}
+
+/*
+ * The navigation's group rules.
+ *
+ * The column is a grid whose rows are sized for a destination, and the
+ * hairline between groups was placed in a row of its own — so a 1px rule
+ * held open 44px, and the groups stood 48px apart where the entries inside
+ * them stood 2px apart. The rule takes the height it needs.
+ */
+html[data-theme] .sidebar__nav {
+  grid-auto-rows: min-content !important;
+}
+
+html[data-theme] .sidebar__nav-rule {
+  height: 1px !important;
+  min-height: 0 !important;
+  margin-block: 7px !important;
+}
+
+/*
+ * The identity line spaces itself with the header's gap, so the three
+ * parts carry no margins of their own. home.css used to zero them here —
+ * against margins globals.css still sets — and taking its rules out let
+ * those margins back in. The zeroing belongs to the surface's owner.
+ */
+html[data-theme] :is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed
+) .tweet__name {
+  margin-right: 0 !important;
+}
+
+html[data-theme] :is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed
+) .tweet__handle {
+  margin-right: 0 !important;
+}
+
+html[data-theme] :is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed
+) .tweet__time {
+  margin-left: 0 !important;
+}
+
+/*
+ * Structure the action row needs, taken over from feed-density.css when its
+ * post rules came out. Two things there were load-bearing and the rest was
+ * repetition: the row packs from the left (without it the controls spread
+ * across the width again, which is the shape this design was drawn to end),
+ * and each control establishes a containing block for the ripple its
+ * ::after draws. The post detail is included because these are structural
+ * facts about a post, not a decision about how a list reads.
+ */
+html[data-theme] :is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed,
+  .main-content .post-detail
+) .tweet__actions {
+  justify-content: flex-start !important;
+}
+
+html[data-theme] :is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed,
+  .main-content .post-detail
+) .tweet__action {
+  position: relative;
+  transition: transform .1s ease, background-color .14s ease, color .14s ease;
+}
+
+/*
+ * The right rail's posts.
+ *
+ * The rail's list carries the feed's class, so rules written for the feed
+ * have always reached it — which is why taking them out of
+ * feed-density.css moved the rail and nothing else on the page. Only three
+ * of them were doing work there: the identity line sat on a tight leading,
+ * and each control established the containing block its ripple is drawn
+ * in. Restated here, deliberately, and no more than that: the rest of what
+ * the rail was inheriting it was inheriting by accident.
+ */
+html[data-theme] .timeline-rail__list :is(.tweet__header, .tweet__name) {
+  line-height: 1.3;
+}
+
+html[data-theme] .timeline-rail__list .tweet__header {
+  gap: 5px;
+}
+
+/*
+ * The hairline over the action row. A border declared without a colour
+ * takes currentColor, and the row is set in the muted role, so without this
+ * the rule above the controls drew itself in the text colour instead of the
+ * line colour — on every post surface at once.
+ */
+html[data-theme] .tweet__actions {
+  border-color: var(--line) !important;
+}
+
+html[data-theme] .timeline-rail__list .tweet__action {
+  position: relative;
+  transition: transform .1s ease, background-color .14s ease, color .14s ease;
+}
+
+/* The rail's action row recedes the same way the feed's does. */
+html[data-theme] .timeline-rail__list .tweet__actions {
+  color: var(--muted);
+}
+
+/*
+ * One muted role, not two.
+ *
+ * A post's handle and time used to be set in --text-secondary while the
+ * same parts inside a reading list were set in --muted: two greys a few
+ * steps apart doing the same job, which reads as drift rather than
+ * intent. They are the muted role now, on every surface that draws a post.
+ * In light this moves them from #616161 to #6e6e6e; that difference is the
+ * point of the change, and it is the only thing this moves.
+ */
+html[data-theme] :is(.tweet__handle, .tweet__time, .tweet__quote-context) {
+  color: var(--muted);
+}
+
+/*
+ * A post fills the column it is set in. home.css said so for the feed; the
+ * width was inherited from a rule about the feed's card, and taking that
+ * card away took the width with it. It belongs here: the entry spans the
+ * reading column, and its parts align to the top of the row rather than
+ * stretching to its height.
+ */
+html[data-theme] :is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed
+) > .tweet {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: none;
+  min-height: 0;
+  align-items: stretch;
+}
+
+/*
+ * The rail's entries fill their column too, and settle without the card's
+ * transition — it had one because it used to be a card that lifted on
+ * hover, and there is no card to lift any more.
+ */
+html[data-theme] .timeline-rail__list > .tweet {
+  max-width: none;
+  align-items: stretch;
+  transition: background-color .12s ease;
+}
+
+/*
+ * The post detail, taken over from feed-density.css. Three facts about a
+ * post that happen to matter most on the page that shows one on its own:
+ * it is as tall as it needs to be, nothing inside it is clipped, and the
+ * body sits flush against the avatar's column rather than indented from it.
+ */
+html[data-theme] .main-content .post-detail .tweet {
+  min-height: 0;
+  overflow: visible;
+}
+
+html[data-theme] .main-content .post-detail .tweet__body {
+  min-height: 0;
+  padding-inline-start: 0;
+}
+
+/*
+ * The avatar inside a quoted post. A quote is a post shown small, so its
+ * avatar is 24px against the 44px of the post quoting it — the ratio is
+ * what tells a reader which one they are reading.
+ */
+html[data-theme] :is(.main-content, .timeline-rail) .tweet__quote-avatar {
+  display: inline-flex;
+  width: 24px;
+  height: 24px;
+  flex: 0 0 24px;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--panel-strong);
+  color: var(--text);
+  font-size: .62rem;
+  font-weight: 750;
+}
+
+/*
+ * The rail's action row, taken over from feed-density.css. A narrow column
+ * cannot spare the space a count takes when it sits wherever the text ends,
+ * so each control is a fixed two-track cell — icon, then a four-character
+ * lane for the number — and the row packs from the left like the feed's.
+ * Without these the row spread itself with space-around, which is the shape
+ * this design was drawn to end.
+ */
+html[data-theme] .timeline-rail .tweet__actions {
+  justify-content: flex-start;
+  row-gap: 8px;
+}
+
+html[data-theme] .timeline-rail .tweet__action {
+  display: grid;
+  width: 60px;
+  min-width: 60px;
+  grid-template-columns: 24px 4ch;
+  /* Measured, not copied: the row that shipped had 2px between the icon and
+     its count and 8px at the ends. */
+  gap: 2px;
+  padding-inline: 8px;
+}
+
+/*
+ * One soft corner, and it is square.
+ *
+ * Measured across seven screens, the controls and cards carried radii of 8,
+ * 9, 10, 12 and 14 — five values for one idea, and no reader can tell 8 from
+ * 9. The round shapes are different and stay: a pill (999) and a circular
+ * icon button (50%) each say something a rectangle does not.
+ *
+ * The value is a token because it is a decision, not a fact. The design
+ * settled on paper — square columns, square navigation, square lists — so
+ * this follows at 0. Changing that here changes it everywhere at once,
+ * which is the point of naming it.
+ */
+:root {
+  --ui-corner: 0px;
+}
+
+html[data-theme] .main-content :is(button, a.button, .ui-button, input, [class*="-card"]):not(
+  [class*="pill"], [class*="chip"], [class*="avatar"], [class*="round"]
+) {
+  border-radius: var(--ui-corner);
+}
+
+/*
+ * A pill and a circle are shapes, not corner sizes, so they are excluded
+ * above rather than restated here. An avatar draws its circle with 50%,
+ * which is the honest way to say "round" for a box whose size varies —
+ * 999px lands in the same place only because the box is small.
+ */
+
+/*
+ * 投稿詳細の面。2026-08-31 に tab-left-column-standard.css から移した。
+ * ポストの見た目の持ち主はこのファイル一つ（lib/post-surface-ownership.test.ts）。
+ * 4列標準の側に置くと、面を語るファイルが27枚目として増えてしまう。
+ * 選択子はそのまま。このファイルは最後に読まれるので、勝ち方は変わらないか強まる。
+ * 移動の前後で投稿詳細の実測値が一致することを確認済み。
+ */
+/*
+ * A post conversation is the feed continued, not a separate card canvas.
+ * Keep every row on the same full-width, square, divider-led surface as the
+ * feed list so opening a post does not introduce a second visual language.
+ */
+html[data-theme] .main-content .post-detail-directory-content > .post-detail {
+  width: 100%;
+  max-width: none;
+  margin-inline: 0;
+  padding: 0 0 72px;
+  border-inline: 0;
+  background: var(--bg);
+}
+
+html[data-theme] .main-content .post-detail :is(
+  .post-detail__context .tweet,
+  .post-detail__main > .tweet,
+  .post-detail__reply-list > .tweet
+) {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 20px 22px 12px;
+  border: 0;
+  border-bottom: var(--divider);
+  border-radius: 0;
+  background: var(--bg);
+  box-shadow: none;
+  transform: none;
+}
+
+html[data-theme] .main-content .post-detail :is(
+  .post-detail__context .tweet,
+  .post-detail__main > .tweet,
+  .post-detail__reply-list > .tweet
+):hover {
+  background: var(--interactive-hover);
+  transform: none;
+}
+
+html[data-theme] .main-content .post-detail__main .tweet__avatar {
+  width: 44px;
+  height: 44px;
+}
+
+html[data-theme] .main-content .post-detail__main .tweet__text {
+  margin-top: 0;
+  font-size: .94rem !important;
+  line-height: 1.65 !important;
+}
+
+html[data-theme] .main-content .post-detail__main .tweet__actions {
+  margin-top: 8px;
+}
+
+html[data-theme] .main-content .post-detail__main {
+  border-inline: 0;
+  background: var(--bg);
+}
+
+html[data-theme] .main-content .post-detail__reply-auth {
+  display: grid;
+  gap: 5px;
+  margin: 0;
+  padding: 16px 22px;
+  border: 0;
+  border-bottom: var(--divider);
+  border-radius: 0;
+  background: var(--bg);
+  box-shadow: none;
+}
+
+html[data-theme] .main-content .post-detail__reply-auth > a {
+  margin-top: 5px;
+  border-radius: 999px;
+}
+
+html[data-theme] .main-content .post-detail__replies {
+  border: 0;
+  background: var(--bg);
+}
+
+html[data-theme] .main-content .post-detail__replies-heading {
+  padding-inline: 22px;
+  background: var(--bg);
+}
+
+html[data-theme] .main-content .post-detail__empty {
+  margin: 0;
+  border: 0;
+  border-bottom: var(--divider);
+  border-radius: 0;
+  background: var(--bg);
+  box-shadow: none;
+}
+
+/*
+ * 右列の投稿は見出し行を折り返す。
+ *
+ * 右列320pxは、切替帯58px・本体の右余白20px・一覧の左右10px・投稿の左右12px・
+ * アイコン44pxを引くと、中身に187pxしか残らない。見出しを1行に詰めると
+ * 操作群（AIバッジ48px＋•••40px、どちらも flex:0 0 auto で縮まない）が90pxを
+ * 占め、名前が3px・@が0px・日付が6pxまで潰れて、誰がいつ書いたか読めなかった
+ * （2026-09-01 実測）。
+ * 機能は消さず、行を折り返して名前と日付を先に置く。
+ */
+html[data-theme] .timeline-rail__list .tweet__header {
+  flex-wrap: wrap;
+}
+
+html[data-theme] .timeline-rail__list .tweet__identity {
+  flex: 1 1 100%;
+  min-width: 0;
+}
+
+/*
+ * 右列の操作ボタンは、縮められた幅に中身も合わせる。
+ *
+ * html[data-theme] .timeline-rail .tweet__action は幅60px・
+ * grid-template-columns: 24px 4ch（アイコン＋件数）で設計されている。
+ * ところが詳細度の高い
+ * `#hub-right-rail … .timeline-rail .tweet__actions > * { width:100%; min-width:0 }`
+ * が、操作行133pxを5等分した25pxまでボタンを縮める。内側の55pxの軌道だけが
+ * 取り残され、justify-content:center のブックマークと共有はその軌道が
+ * 中央寄せされてアイコンが自分のボタンより16px左へ出ていた。
+ * 結果、投稿1件あたりのアイコンが隣と重なっていた（2026-09-01 実測で
+ * 右列12行すべてに重なりあり）。
+ *
+ * 縮められた幅に合わせて1列へ畳み、アイコンを24pxで中央に置く。
+ * リポストは .tweet__repost-control に包まれていて `> *` では届かないので、
+ * 子孫で指定する。本体列は触らない。
+ */
+#hub-right-rail .shell__right-body .timeline-rail .tweet__actions .tweet__action {
+  width: 100%;
+  min-width: 0;
+  grid-template-columns: minmax(0, 1fr);
+  justify-content: stretch;
+  padding-inline: 0;
+}
+
+#hub-right-rail .shell__right-body .timeline-rail .tweet__actions .tweet__action-icon {
+  width: 24px;
+  height: 24px;
+  justify-self: center;
+}
+
+/*
+ * 右列では名前・@・日付も折り返す。
+ *
+ * 見出し行を折り返しても、名前側に配られるのは122px。そこに名前64pxと
+ * 日付61pxが並ぶと入らず、どちらも10pxずつ切れていた（2026-09-01 実測、
+ * 右列の検索パネル）。overflow:hidden なので切れた分は読めない。
+ * ここも折り返して、それぞれを自然な幅で置く。
+ */
+#hub-right-rail .shell__right-body .timeline-rail__list .tweet__identity {
+  flex-wrap: wrap;
+  overflow: visible;
+}
+
+/*
+ * 右列では外部メディアカードを縦に積む。
+ *
+ * .external-media-card__preview は
+ * grid-template-columns: minmax(112px, 42%) minmax(0, 1fr)
+ * で、カードが267px以上ある前提。右列ではカードが133pxしか無く、
+ * 最小112pxの画像列がほとんどを取って題名の列に19pxしか残らない。
+ * 「YouTubeのコンテンツ」が13pxに潰れ、overflow:hidden で読めなかった
+ * （2026-09-01 実測）。右列では1列にして画像の下へ題名を置く。
+ */
+#hub-right-rail .shell__right-body .external-media-card__preview {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+/*
+ * 右列のコミュニティ一覧は、枠に収まる列にする。
+ *
+ * .catalog-right-rail は grid-template-columns が 316px 固定で、右列の枠
+ * 241pxを75px超えていた。中の検索フォームが296pxになり、送信ボタンが
+ * 枠の外（右端1382pxに対しx=1386px）へ出て押せなかった（2026-09-01 実測）。
+ * 右列と同じ「寸法だけ縮められて内側の軌道が取り残される」形。
+ * 枠に追随する1列にする。
+ */
+#hub-right-rail .shell__right-body .catalog-right-rail {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+/*
+ * 読み幅の上限。
+ *
+ * 1920pxで記事の本文が1330px＝1行83字になっていた。日本語で読みやすいのは
+ * おおよそ35〜45字なので、倍近い。行の終わりから次の行の頭へ目を戻すのに
+ * 距離がありすぎて、同じ行を二度読む。
+ *
+ * 上限は列ではなく本文の枠にだけ掛ける。列を狭めると見出しのフルブリードや
+ * カードの並びまで動いてしまう。単位を em にしてあるので、利用者が文字を
+ * 大きくしても字数は変わらない。左寄せのまま（中央寄せにすると見出しと
+ * 本文の左端が揃わなくなる）。
+ *
+ * 46em ＝ 16pxで736px、約46字。
+ */
+:is(.hub-article-page__body, .hubpedia-article__content) {
+  max-width: 46em;
+}
+
+/*
+ * 掲示板のポストの操作の行は、入らないときは折り返す（2026-09-04）。
+ *
+ * この行は「評価」「操作の並び」「引用」の3つを横に置くが、1280px の画面では
+ * 434px しか無く、操作の並びは 207px しか もらえないのに 332px を必要としていた。
+ * いちばん右の操作が本文の外にあり、押せなかった。
+ *
+ * 置き場所はここ。掲示板のポストの見た目は lib/bbs-post-surface-ownership.test.ts が
+ * この持ち主に集めていて、中間層へ書き足すと天井に当たる。読み込みは
+ * feed-density.css より後なので、同じ詳細度でこちらが効く。
+ */
+.main-content .thread-post-card .bbs-post__eng {
+  flex-wrap: wrap;
+}

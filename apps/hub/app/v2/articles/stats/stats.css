@@ -1,0 +1,14 @@
+/* 書き手の日別統計。色は意味トークンだけ。 */
+.v2-article-stats { display: grid; gap: var(--v2-space-5); }
+.v2-article-stats__note { color: var(--muted); font-size: var(--v2-text-sm); margin: 0; }
+.v2-article-stats__list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--v2-space-4); }
+.v2-article-stats__item { border: var(--divider); border-radius: var(--v2-radius); padding: var(--v2-space-4); background: var(--panel); display: grid; gap: var(--v2-space-3); }
+.v2-article-stats__head { display: flex; flex-wrap: wrap; gap: var(--v2-space-3); justify-content: space-between; align-items: baseline; }
+.v2-article-stats__title { color: var(--text); font-weight: 600; }
+.v2-article-stats__totals { display: flex; gap: var(--v2-space-4); color: var(--muted); font-size: var(--v2-text-sm); }
+.v2-article-stats__totals strong { color: var(--text); }
+.v2-article-stats__bars { display: grid; grid-template-columns: repeat(30, minmax(0, 1fr)); align-items: end; gap: 2px; height: 56px; margin: 0; padding: 0; list-style: none; border-bottom: var(--divider); }
+.v2-article-stats__bar { background: var(--emphasis); border-radius: 2px 2px 0 0; min-height: 0; }
+.v2-article-stats__bar[data-empty="true"] { background: var(--surface-sunken); height: 2px; }
+.v2-article-stats__axis { display: flex; justify-content: space-between; color: var(--muted); font-size: var(--v2-text-sm); }
+.v2-article-stats { max-width: 880px; }

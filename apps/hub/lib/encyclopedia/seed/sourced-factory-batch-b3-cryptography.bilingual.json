@@ -1,0 +1,643 @@
+[
+  {
+    "slug": "confidentiality",
+    "topicType": "concept",
+    "categoryLabel": "インターネット・セキュリティ",
+    "title": "機密性",
+    "summary": "機密性は、情報へのアクセスと開示を認可された範囲に保ち、認可されていない者・プロセス・装置に内容が渡らないようにする性質である。単に情報を隠すことではなく、誰に開示してよいかという制限を維持することを指し、保管中・処理中・伝送中のいずれの局面でも問われる。実現の手段としては平文を暗号文へ変換する暗号化がよく挙げられ、その効力は鍵情報が秘匿されているかに依存する。",
+    "bodyMarkdown": "## 認可された開示の制限\n\n機密性は「誰にも見せないこと」ではなく、見てよい相手の範囲を定め、その線引きを保ち続けることを指す。定義の一つは、機密性を、個人の[プライバシー](/hubpedia/privacy)および専有情報の保護を含めて、情報へのアクセスおよび開示に関する認可された制限を維持することとする。別の言い方では、機微な情報が認可されていない主体に開示されない特性、あるいはデータや情報が認可されていない者やプロセスに提供または開示されない特性とされる。いずれの言い方でも中心にあるのは「認可されているかどうか」であり、情報の秘匿そのものではなく、認可の境界が破られていない状態が機密性の内容をなす。 [1][2][11]\n\n同じ語が、性質・状態・能力のいずれとして述べられるかは文献によって異なる。認可されていない者がデータを閲覧できないようにデータを保護する能力とする定義があり、情報が秘密として保持され、認可されていない開示から保護されている状態とする定義もある。さらに、データの機密性を、通常は法制上の措置に由来するデータの特性であり、認可されていない開示を防ぐものとする捉え方もある。この最後の捉え方では、機密性は技術的な仕組みだけから生じるのではなく、何を認可とみなすかを決める制度の側にも根拠を持つ。 [9][10][12]\n\n## 情報が置かれる局面\n\n機密性は特定の場面に限った要求ではない。ある定義は、情報が保管中・処理中・伝送中のいずれにおいても、認可されていない者、プロセス、または装置に開示されないことの保証として機密性を述べる。ここで開示の相手として人だけでなくプロセスや装置が並べられている点は実務上の意味を持つ。保管された情報を読み出すのも、通信路を流れる情報を取得するのも、人が直接操作するとは限らないためである。 [5]\n\n## 暗号化による実現\n\n機密性を確保する技術的手段として繰り返し挙げられるのが[暗号化](/hubpedia/encryption)である。暗号化は、平文と呼ばれるデータを暗号文と呼ばれる形式に変換する暗号学的処理であり、データの本来の意味が知られたり利用されたりしないように隠すことを目的とする。処理は暗号アルゴリズムと鍵を用いて行われ、セキュリティまたはプライバシーを目的として平文を暗号文に変えるものと説明される。 [3][4][6][14][16]\n\n効果の側から述べると、暗号化は意図した受信者以外がデータを読めないようにするための手続きであり、利用可能なデータを判読不能な形式に変換する機密性モードの処理として位置づけられる。機密性そのものも、暗号化などの技術を通じてデータが認可されていない主体に漏えいすることを防ぐこととして説明されることがあり、この場合は達成すべき性質と、それを達成する手段とが同じ記述の中で結びついている。 [8][13][15]\n\n変換が可逆である場合、その逆変換の処理は復号と呼ばれ、暗号化されたデータを元の状態に復元する。したがって暗号化された情報は失われた情報ではなく、復元の手立てを持つ側にとっては元のまま利用できる。機密性の観点で問われるのは、その手立てを誰が持つかである。 [7]\n\n## 鍵情報の秘匿への依存\n\n暗号化がアルゴリズムと鍵によって行われる以上、保護の成否は鍵の扱いに移る。機密性という語は、鍵情報の秘匿性が維持されることを意味する場合があるとされ、この用法では対象が保護されるべきデータではなく鍵そのものになる。守りたい情報の機密性が、別の情報である鍵の機密性に置き換わるという入れ子の関係がここにある。 [4][17]\n\n## 評価尺度としての用法\n\n機密性は、備わっているか否かの二値としてだけでなく、程度を測る軸として使われることもある。攻撃者がアプリケーションまたはシステムから情報への認可されていないアクセスを得る能力を測る尺度として機密性が扱われることがある、という説明がその例にあたる。この用法では、評価の対象は情報の状態ではなく、認可されていない側がどこまで到達しうるかという系の性質になる。 [18]\n\n## 関連記事\n\n- [公開鍵暗号](/hubpedia/public-key-cryptography)\n- [暗号標準](/hubpedia/cryptographic-standards)\n- [アクセス制御](/hubpedia/access-control)\n- [パスワード](/hubpedia/password)\n- [鍵ペア](/hubpedia/key-pair)\n- [電子証明書](/hubpedia/digital-certificate)",
+    "sources": [
+      {
+        "url": "https://csrc.nist.gov/glossary/term/confidentiality",
+        "title": "Confidentiality — NIST CSRC Glossary",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The standards body's own definition of confidentiality. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://csrc.nist.gov/glossary/term/encryption",
+        "title": "Encryption — NIST CSRC Glossary",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The means of enforcing it. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Confidentiality",
+        "summary": "Confidentiality is the property of keeping access to and disclosure of information within an authorized scope, so that its contents do not pass to unauthorized persons, processes, or devices. It does not mean simply hiding information; it means maintaining the restrictions on who may be granted disclosure, and it is at issue while information is stored, while it is processed, and while it is transmitted. Encryption, which converts plaintext into ciphertext, is often cited as a means of achieving it, and its effectiveness depends on whether the key material is kept secret.",
+        "bodyMarkdown": "## Restrictions on authorized disclosure\n\nConfidentiality does not mean \"showing information to no one\"; it means defining the range of parties who may see it and continuing to maintain that boundary. One definition treats confidentiality as preserving authorized restrictions on access to and disclosure of information, including means for protecting personal [privacy](/hubpedia/privacy) and proprietary information. Another phrasing describes it as the property that sensitive information is not disclosed to unauthorized entities, or the property that data or information is not made available or disclosed to unauthorized persons or processes. In every phrasing, what stands at the center is whether a party is authorized; confidentiality consists not in the concealment of information itself but in the state where the boundary of authorization has not been breached. [1][2][11]\n\nWhether the same term is described as a property, a state, or a capability differs from one source to another. There is a definition that treats it as the ability to protect data so that unauthorized parties cannot view it, and there is a definition that treats it as the state in which information is held secret and protected from unauthorized disclosure. There is also a view of data confidentiality as a characteristic of data, usually arising from legal or statutory measures, that prevents unauthorized disclosure. Under this last view, confidentiality arises not from technical mechanisms alone but also has its grounds in the institutions that decide what counts as authorization. [9][10][12]\n\n## The situations information is placed in\n\nConfidentiality is not a requirement limited to particular settings. One definition describes confidentiality as the assurance that information is not disclosed to unauthorized persons, processes, or devices, whether that information is stored, being processed, or in transmission. That processes and devices are listed alongside people as recipients of disclosure carries practical significance here, because neither reading out stored information nor obtaining information flowing over a communication channel is necessarily something a person does by direct operation. [5]\n\n## Achieving it through encryption\n\nThe technical means cited repeatedly for securing confidentiality is [encryption](/hubpedia/encryption). Encryption is a cryptographic operation that converts data called plaintext into a form called ciphertext, with the purpose of concealing data so that its original meaning is not learned or used. The operation is performed using a cryptographic algorithm and a key, and is described as turning plaintext into ciphertext for purposes of security or privacy. [3][4][6][14][16]\n\nStated from the side of its effect, encryption is a procedure for making data unreadable to anyone other than the intended recipient, and it is positioned as a confidentiality-mode operation that converts usable data into an unintelligible form. Confidentiality itself is sometimes explained as preventing data from leaking to unauthorized entities through techniques such as encryption, in which case the property to be achieved and the means of achieving it are tied together within a single description. [8][13][15]\n\nWhere the transformation is reversible, the inverse operation is called decryption, and it restores encrypted data to its original state. Encrypted information is therefore not lost information; for the party holding the means of restoration, it remains usable as it was. What is at issue from the standpoint of confidentiality is who holds that means. [7]\n\n## Dependence on keeping key material secret\n\nSince encryption is performed by an algorithm and a key, the success or failure of the protection shifts to the handling of the key. The term confidentiality is said to sometimes mean that the secrecy of key material is maintained, and in this usage the object is not the data to be protected but the key itself. There is a nested relationship here, in which the confidentiality of the information one wants to protect is replaced by the confidentiality of another piece of information, the key. [4][17]\n\n## Use as a measure of evaluation\n\nConfidentiality is used not only as a binary of present or absent but also as an axis for measuring degree. An example is the explanation that confidentiality is sometimes treated as a measure of an attacker's ability to gain unauthorized access to information from an application or system. In this usage, what is evaluated is not the state of the information but a property of the system: how far an unauthorized party can reach. [18]\n\n## Related articles\n\n- [Public-key cryptography](/hubpedia/public-key-cryptography)\n- [Cryptographic standards](/hubpedia/cryptographic-standards)\n- [Access control](/hubpedia/access-control)\n- [Password](/hubpedia/password)\n- [Key pair](/hubpedia/key-pair)\n- [Digital certificate](/hubpedia/digital-certificate)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:44:04.994Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "機密性とは、個人のプライバシー及び専有情報を保護する手段を含め、情報へのアクセス及び開示に関する認可された制限を維持することである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/confidentiality",
+              "quote": "Preserving authorized restrictions on information access and disclosure, including means for protecting personal privacy and proprietary information."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "機密性とは、機微な情報が認可されていない主体に開示されない特性である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/confidentiality",
+              "quote": "The property that sensitive information is not disclosed to unauthorized entities."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "暗号化とは、平文データを暗号文に変換する暗号学的な処理である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/encryption",
+              "quote": "The cryptographic transformation of data to produce ciphertext."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "暗号化とは、暗号アルゴリズムと鍵を用いて平文を暗号文に変える処理である。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/encryption",
+              "quote": "The process of changing plaintext into ciphertext using a cryptographic algorithm and key."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "機密性とは、情報が保管中・処理中・伝送中のいずれにおいても、認可されていない者、プロセス、または装置に開示されないことの保証である。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/confidentiality",
+              "quote": "Assurance that information is not disclosed to unauthorized persons, processes, or devices. Confidentiality covers data in storage, during processing, and in transit."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "暗号化とは、データの本来の意味が知られたり利用されたりしないように隠すため、平文と呼ばれるデータを暗号文と呼ばれる形式に変換する暗号学的処理である。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/encryption",
+              "quote": "Cryptographic transformation of data (called “plaintext”) into a form (called “ciphertext”) that conceals the data’s original meaning to prevent it from being known or used."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "変換が可逆である場合、その逆変換の処理は復号と呼ばれ、暗号化されたデータを元の状態に復元する変換である。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/encryption",
+              "quote": "If the transformation is reversible, the corresponding reversal process is called “decryption,” which is a transformation that restores encrypted data to its original state."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "機密性とは、暗号化などの技術を通じて、データが認可されていない主体に漏えいすることを防ぐことである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/confidentiality",
+              "quote": "Prevention of compromise of data to unauthorized entities through techniques such as encryption."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "機密性とは、認可されていない者がデータを閲覧できないようにデータを保護する能力である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/confidentiality",
+              "quote": "The ability to protect data so that unauthorized parties cannot view the data."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "データの機密性は、通常は法制上の措置に由来するデータの特性であり、認可されていない開示を防ぐものである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/confidentiality",
+              "quote": "Data confidentiality is a property of data, usually resulting from legislative measures, which prevents it from unauthorized disclosure."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "機密性とは、データまたは情報が認可されていない者やプロセスに提供または開示されない特性である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/confidentiality",
+              "quote": "The property that data or information is not made available or disclosed to unauthorized persons or processes."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "機密性とは、情報が秘密として保持され、認可されていない開示から保護されている状態である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/confidentiality",
+              "quote": "The state that exists when information is held in confidence and protected from unauthorized disclosure."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "暗号化とは、意図した受信者以外がデータを読めないようにするために、暗号技術を用いて平文を暗号文に変換する手続きである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/encryption",
+              "quote": "Any procedure used in cryptography to convert plain text into cipher text to prevent anyone but the intended recipient from reading that data."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "暗号化とは、平文を暗号文に変換する処理である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/encryption",
+              "quote": "The process of transforming plaintext into ciphertext."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "暗号化とは、機密性モードの処理であり、利用可能なデータを判読不能な形式に変換するものである。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/encryption",
+              "quote": "The process of a confidentiality mode that transforms usable data into an unreadable form."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "暗号化とは、セキュリティまたはプライバシーを目的として、暗号アルゴリズムを用いて平文を暗号文に変える処理である。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/encryption",
+              "quote": "The process of changing plaintext into ciphertext using a cryptographic algorithm for the purpose of security or privacy."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "機密性は、鍵情報の秘匿性が維持されることを意味する場合がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/confidentiality",
+              "quote": "the secrecy of key information is maintained"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "機密性は、攻撃者がアプリケーションまたはシステムから情報への認可されていないアクセスを得る能力を測る尺度として扱われることがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/confidentiality",
+              "quote": "measures the attacker’s ability to obtain unauthorized access to information from an application or system."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "non-repudiation",
+    "topicType": "concept",
+    "categoryLabel": "インターネット・セキュリティ",
+    "title": "否認防止",
+    "summary": "否認防止（non-repudiation）は、ある行為を行った当事者が後からそれを偽って否認できないようにする性質を指す情報セキュリティ上の保証である。米国立標準技術研究所（NIST）の各文書では、デジタル署名によってメッセージが特定のエンティティによって署名されたかどうかを第三者が判定できるようにするサービスとして定義される一方、通信の当事者双方に配達証明と身元証明を与える保証として定義する系統もあり、力点は文書によって異なる。",
+    "bodyMarkdown": "## 性質としての位置づけ\n\n「後から否認できない」という言い方は、当事者の心変わりを封じる魔法のように聞こえるが、技術的に実現されるのはもっと限定的なものである。NISTIR 4734は否認防止を、特定の行為を行った責任を否認できないことと定義する。NIST SP 800-53 Rev.5はより具体的に、ある行為を行ったことを個人が虚偽に否認することへの防御であり、情報の作成、メッセージの送信、情報の承認、メッセージの受信といった特定の行動を個人が取ったかどうかを判定する能力を提供するものとする。SP 800-63-4およびSP 800-63A-4も同様に、特定の取引を行ったことを個人が虚偽に否認することを防ぐ能力としている。共通しているのは、否認そのものを不可能にするのではなく、否認が事実に反することを示せる状態を作る、という構図である。 [6][7][12]\n\n言い換えれば、否認防止は当事者以外の者が事後に判定できることを前提としている。NIST SP 800-57 Part 1 Rev.5は、あるメッセージが特定のエンティティによって実際に署名されたかどうかを第三者が判定するのを裏付けるためにデジタル署名を用いるサービスとしてこれを定義する。SP 800-175B Rev.1およびSP 800-57 Part 2 Rev.1もほぼ同じ定義を採り、デジタル署名を用いるサービスとして記述する。 [4][5]\n\n## デジタル署名との関係\n\n否認防止を成立させる代表的な仕組みがデジタル署名である。FIPS 186-5は、デジタル署名を、適切に実装されればデータの出所認証、完全性、および署名者の否認防止を検証する仕組みを提供する暗号変換の結果と定義しており、FIPS 205も同じ定義を引用している。FIPS 204はこれをやや強い語で述べ、適切に実装されれば出所の真正性とデータ完全性を検証し、署名者の否認防止を強制する仕組みを提供するものとする。いずれの定義にも「適切に実装されれば」という条件が明示されている点は、否認防止が署名アルゴリズムの存在だけで自動的に得られるものではないことを示している。 [8][9]\n\n仕組みの中核は鍵の非対称性にある。NIST SP 800-63-4は、秘密鍵で署名し公開鍵で検証する非対称鍵操作としてデジタル署名を説明し、これが真正性保護、完全性保護、および否認防止のサポートを提供するとしている。NISTIR 8011 Vol.3も同じ構成を示し、同様に真正性保護、完全性保護、否認防止を提供するとする。NISTIR 8202は、非対称鍵を用いたデジタル署名の暗号技術が真正性および完全性とともに判定する性質の一つとして否認防止を挙げ、これをユーザーがメッセージを送信したことを否認できないことと定義している。 [10][11][13]\n\n署名の効力の根拠が秘密鍵の占有にあることは、NISTの定義にも表れている。FIPS 186-5、FIPS 204、FIPS 205は否認防止を、データの完全性と出所についての保証を提供するサービスであり、秘密鍵を保持する特定のエンティティすなわち署名者に由来するものとして、その完全性と出所を第三者が検証・確認できるようにするものと定義する。第三者が確認できるのは署名が当該の秘密鍵で作られたという事実であり、その鍵を保持していたのが誰かという問題は定義の外側に置かれている。 [1]\n\n## 署名が与えないもの\n\nデジタル署名が提供する保証の範囲は、NISTの記述では明示的に区切られている。SP 800-63-4は、デジタル署名が真正性保護、完全性保護、否認防止のサポートを提供する一方で、機密性やリプレイ攻撃への保護は提供しないとする。NISTIR 8011 Vol.3も、機密性保護は提供しないとしている。署名された文書は誰でも読める状態のままであり、また同じ署名済みメッセージをそのまま再送する攻撃は、署名の有効性だけでは防げない。 [10][11]\n\n## 双方向の保証とする定義\n\n否認防止を送信者側だけの性質と捉えない定義も並存する。NIST SP 800-60は否認防止を、情報の送信者には配達証明が、受信者には送信者の身元証明が提供され、両者とも後になって情報を処理したことを否認できないようにする保証と定義する。SP 800-59もほぼ同じ文言で、データの送信者には配達証明が、受信者には送信者の身元証明が提供され、両者とも後になってデータを処理したことを否認できないようにする保証としている。この系統では、送信者が「送っていない」と言えないだけでなく、受信者が「受け取っていない」と言えないことも否認防止の内容に含まれる。 [2][3]\n\nこの違いは実装上の要求に直結する。署名を軸とする定義（SP 800-57、SP 800-175B、FIPS各文書）が求めるのは署名の生成と検証であるのに対し、配達証明を含む定義が求めるのはそれに加えて配達の事実を裏付ける仕組みである。どちらか一方が誤りというわけではなく、同じ用語が、単一のメッセージの出所を証明する狭い意味と、通信の往復全体を対象とする広い意味の両方で使われている。 [2][3][4][5][8]\n\n## 関連記事\n\n- [公開鍵暗号](/hubpedia/public-key-cryptography)\n- [鍵ペア](/hubpedia/key-pair)\n- [電子証明書](/hubpedia/digital-certificate)\n- [ハッシュ値](/hubpedia/hash-value)\n- [暗号標準](/hubpedia/cryptographic-standards)\n- [デジタル上の身元](/hubpedia/digital-identity)\n- [暗号化](/hubpedia/encryption)\n- [ブロックチェーン](/hubpedia/blockchain)",
+    "sources": [
+      {
+        "url": "https://csrc.nist.gov/glossary/term/non_repudiation",
+        "title": "Non-repudiation — NIST CSRC Glossary",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The standards body's own definition of non-repudiation. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://csrc.nist.gov/glossary/term/digital_signature",
+        "title": "Digital Signature — NIST CSRC Glossary",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The mechanism that provides it. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Non-repudiation",
+        "summary": "Non-repudiation is an information security assurance referring to the property that prevents a party who performed an action from later falsely denying it. Across the documents of the United States National Institute of Standards and Technology (NIST), it is defined in some places as a service that uses digital signatures to allow a third party to determine whether a message was signed by a particular entity, while another line of documents defines it as an assurance that provides both parties to a communication with proof of delivery and proof of the sender's identity; the emphasis differs from document to document.",
+        "bodyMarkdown": "## Positioning as a property\n\nThe phrase \"cannot deny it afterward\" sounds like magic that seals off a party's change of heart, but what is technically achieved is far more limited. NISTIR 4734 defines non-repudiation as the inability to deny responsibility for having performed a particular action. NIST SP 800-53 Rev. 5 puts it more concretely: protection against an individual falsely denying having performed an action, providing the capability to determine whether an individual took a particular action such as creating information, sending a message, approving information, or receiving a message. SP 800-63-4 and SP 800-63A-4 likewise describe it as the ability to prevent an individual from falsely denying having performed a particular transaction. What they share is a structure in which repudiation itself is not made impossible; rather, a state is created in which a repudiation can be shown to be contrary to fact. [6][7][12]\n\nPut differently, non-repudiation presupposes that someone other than the parties involved can make a determination after the fact. NIST SP 800-57 Part 1 Rev. 5 defines it as a service that uses a digital signature to support the determination by a third party of whether a message was actually signed by a given entity. SP 800-175B Rev. 1 and SP 800-57 Part 2 Rev. 1 adopt nearly the same definition, describing it as a service that uses digital signatures. [4][5]\n\n## Relationship to digital signatures\n\nThe representative mechanism that establishes non-repudiation is the digital signature. FIPS 186-5 defines a digital signature as the result of a cryptographic transformation that, when properly implemented, provides a mechanism for verifying origin authentication of data, data integrity, and signatory non-repudiation; FIPS 205 cites the same definition. FIPS 204 states this in somewhat stronger terms: when properly implemented, it provides a mechanism for verifying origin authenticity and data integrity, and for enforcing signatory non-repudiation. The fact that every one of these definitions explicitly carries the condition \"when properly implemented\" shows that non-repudiation is not obtained automatically merely from the existence of a signature algorithm. [8][9]\n\nAt the core of the mechanism lies the asymmetry of keys. NIST SP 800-63-4 explains a digital signature as an asymmetric key operation in which signing is done with a private key and verification with a public key, and states that this provides authenticity protection, integrity protection, and support for non-repudiation. NISTIR 8011 Vol. 3 presents the same structure, likewise stating that it provides authenticity protection, integrity protection, and non-repudiation. NISTIR 8202 lists non-repudiation as one of the properties determined by the cryptographic technique of digital signatures using asymmetric keys, together with authenticity and integrity, and defines it as the inability of a user to deny having sent a message. [10][11][13]\n\nThat the force of a signature rests on possession of the private key is also apparent in NIST's definitions. FIPS 186-5, FIPS 204, and FIPS 205 define non-repudiation as a service that provides assurance of the integrity and origin of data, allowing a third party to verify and confirm that integrity and origin as originating from a specific entity that holds the private key — that is, the signatory. What a third party can confirm is the fact that the signature was produced with that private key; the question of who held that key is placed outside the definition. [1]\n\n## What signatures do not provide\n\nThe scope of assurance that a digital signature provides is explicitly bounded in NIST's descriptions. SP 800-63-4 states that while a digital signature provides authenticity protection, integrity protection, and support for non-repudiation, it does not provide confidentiality or protection against replay attacks. NISTIR 8011 Vol. 3 likewise states that it does not provide confidentiality protection. A signed document remains readable by anyone, and an attack that simply resends the same signed message cannot be prevented by the validity of the signature alone. [10][11]\n\n## Definitions treating it as a two-way assurance\n\nDefinitions that do not treat non-repudiation as a property of the sender's side alone also exist in parallel. NIST SP 800-60 defines non-repudiation as assurance that the sender of information is provided with proof of delivery and the recipient is provided with proof of the sender's identity, so that neither can later deny having processed the information. SP 800-59 uses nearly identical wording, describing it as assurance that the sender of data is provided with proof of delivery and the recipient is provided with proof of the sender's identity, so that neither can later deny having processed the data. In this line of definitions, non-repudiation covers not only the sender's inability to say \"I did not send it\" but also the recipient's inability to say \"I did not receive it.\" [2][3]\n\nThis difference translates directly into implementation requirements. What the signature-centered definitions (SP 800-57, SP 800-175B, and the FIPS documents) require is the generation and verification of signatures, whereas what the definitions including proof of delivery require is, in addition, a mechanism that substantiates the fact of delivery. Neither one is wrong; rather, the same term is used both in a narrow sense that proves the origin of a single message and in a broad sense that covers the entire round trip of a communication. [2][3][4][5][8]\n\n## Related articles\n\n- [Public-key cryptography](/hubpedia/public-key-cryptography)\n- [Key pair](/hubpedia/key-pair)\n- [Digital certificate](/hubpedia/digital-certificate)\n- [Hash value](/hubpedia/hash-value)\n- [Cryptographic standards](/hubpedia/cryptographic-standards)\n- [Digital identity](/hubpedia/digital-identity)\n- [Encryption](/hubpedia/encryption)\n- [Blockchain](/hubpedia/blockchain)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:44:04.994Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "NIST(FIPS 186-5、FIPS 204、FIPS 205)は否認防止を、データの完全性と出所についての保証を提供するサービスであり、秘密鍵を保持する特定のエンティティ（署名者）に由来するものとしてその完全性と出所を第三者が検証・確認できるようにするものと定義している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/non_repudiation",
+              "quote": "A service that is used to provide assurance of the integrity and origin of data in such a way that the integrity and origin can be verified and validated by a third party as having originated from a specific entity in possession of the private key (i.e., the signatory)."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "NIST SP 800-60は否認防止を、情報の送信者には配達証明が、受信者には送信者の身元証明が提供され、両者とも後になって情報を処理したことを否認できないようにする保証と定義している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/non_repudiation",
+              "quote": "Assurance that the sender of information is provided with proof of delivery and the recipient is provided with proof of the sender’s identity, so neither can later deny having processed the information."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "NIST SP 800-59は否認防止を、データの送信者には配達証明が、受信者には送信者の身元証明が提供され、両者とも後になってデータを処理したことを否認できないようにする保証と定義している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/non_repudiation",
+              "quote": "Assurance the sender of data is provided with proof of delivery and the recipient is provided with proof of the sender’s identity, so neither can later deny having processed the data."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "NIST SP 800-175B Rev.1およびSP 800-57 Part 2 Rev.1は否認防止を、あるメッセージが特定のエンティティによって実際に署名されたかどうかの判定を裏付けるためにデジタル署名を用いるサービスと定義している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/non_repudiation",
+              "quote": "A service using a digital signature that is used to support a determination of whether a message was actually signed by a given entity."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "NIST SP 800-57 Part 1 Rev.5は否認防止を、あるメッセージが特定のエンティティによって実際に署名されたかどうかを第三者が判定するのを裏付けるためにデジタル署名を用いるサービスと定義している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/non_repudiation",
+              "quote": "A service using a digital signature that is used to support a determination by a third party of whether a message was actually signed by a given entity."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "NIST SP 800-53 Rev.5は否認防止を、ある行為を行ったことを個人が虚偽に否認することへの防御であり、情報の作成・メッセージの送信・情報の承認・メッセージの受信など特定の行動を個人が取ったかどうかを判定する能力を提供するものと定義している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/non_repudiation",
+              "quote": "Protection against an individual who falsely denies having performed a certain action and provides the capability to determine whether an individual took a certain action, such as creating information, sending a message, approving information, or receiving a message."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "NIST SP 800-63-4およびSP 800-63A-4は否認防止を、特定の取引を行ったことを個人が虚偽に否認することを防ぐ能力と定義している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/non_repudiation",
+              "quote": "The capability to protect against an individual falsely denying having performed a particular transaction."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "FIPS 186-5（FIPS 205も同じ定義を引用）は、デジタル署名を、適切に実装されればデータの出所認証・完全性・署名者の否認防止を検証する仕組みを提供する暗号変換の結果と定義している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/digital_signature",
+              "quote": "The result of a cryptographic transformation of data that, when properly implemented, provides a mechanism for verifying origin authentication, data integrity, and signatory non-repudiation."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "FIPS 204は、デジタル署名を、適切に実装されれば出所の真正性とデータ完全性を検証し、署名者の否認防止を強制する仕組みを提供する暗号変換の結果と定義している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/digital_signature",
+              "quote": "The result of a cryptographic transformation of data that, when properly implemented, provides a mechanism to verify origin authenticity and data integrity and to enforce signatory non-repudiation."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "NIST SP 800-63-4は、秘密鍵で署名し公開鍵で検証する非対称鍵操作であるデジタル署名が真正性保護・完全性保護・否認防止のサポートを提供する一方、機密性やリプレイ攻撃への保護は提供しないとしている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/digital_signature",
+              "quote": "An asymmetric key operation in which the private key is used to digitally sign data, and the public key is used to verify the signature. Digital signatures provide authenticity protection, integrity protection, and non-repudiation support but not confidentiality or replay attack protection."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "NISTIR 8011 Vol.3は、秘密鍵で署名し公開鍵で検証する非対称鍵操作であるデジタル署名が真正性保護・完全性保護・否認防止を提供する一方、機密性保護は提供しないとしている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/digital_signature",
+              "quote": "An asymmetric key operation where the private key is used to digitally sign data and the public key is used to verify the signature. Digital signatures provide authenticity protection, integrity protection, and non-repudiation, but not confidentiality protection."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "NISTIR 4734は否認防止を、特定の行為を行った責任を否認できないことと定義している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/non_repudiation",
+              "quote": "The inability to deny responsibility for performing a specific act."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "NISTIR 8202は、否認防止をユーザーがメッセージを送信したことを否認できないことと定義し、これを非対称鍵を用いたデジタル署名の暗号技術が真正性・完全性とともに判定する性質の一つとしている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/digital_signature",
+              "quote": "A cryptographic technique that utilizes asymmetric-keys to determine authenticity (i.e., users can verify that the message was signed with a private key corresponding to the specified public key), non-repudiation (a user cannot deny having sent a message) and integrity (that the message was not altered during transmission)."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "public-key-infrastructure",
+    "topicType": "concept",
+    "categoryLabel": "インターネット・セキュリティ",
+    "title": "公開鍵基盤",
+    "summary": "公開鍵基盤（PKI）は、公開鍵証明書を発行・維持・失効させるために設けられた枠組みであり、公開されている鍵が誰のものかを証明書によって裏づける役目を担う。技術だけでなく、認証局の階層、要員、方針、手順といった運用側の要素まで含めて捉えられる点に特徴があり、電子署名の検証や通信の保護といった具体的な機能はその上に成り立っている。",
+    "bodyMarkdown": "## 公開鍵証明書を扱う枠組み\n\n公開鍵基盤（PKI）は、[公開鍵証明書](/hubpedia/digital-certificate)を発行し、維持し、失効させるために確立された枠組みである。より広く、証明書にもとづく[公開鍵暗号](/hubpedia/public-key-cryptography)システムの実装と運用を集合的に支える構造・組織・技術・実践・手順の総体として説明されることもあり、また証明書の生成、製造、配布、管理、記録、廃棄までを担う枠組みおよびサービス群として位置づけられることもある。 [1][3][4]\n\nこれらの説明は互いに矛盾するものではないが、範囲の取り方は一様ではない。証明書の発行・維持・失効という機能に絞る捉え方と、それを成り立たせる組織や手順まで含める捉え方があり、後者では技術的な装置よりも運用の設計が主題になる。証明書の具体的な形式や失効情報の配布方式といった実装の細部は、こうした一般的な定義からは直接導けない。 [1][3][4]\n\n## 構成要素と認証局の階層\n\n構成要素として挙げられるのは、要員、方針、プロセス、サーバープラットフォーム、ソフトウェア、ワークステーションである。これらは証明書と、公開鍵および秘密鍵からなる[鍵ペア](/hubpedia/key-pair)の管理に用いられ、管理の内容には発行、維持、復旧、失効が含まれる。人と規程が構成要素に数え上げられているのは、鍵の正当な持ち主を判断する作業が機械だけでは完結しないためである。 [5]\n\nPKIには認証局の階層が含まれ、この階層があることでデジタル証明書を展開できる。展開された証明書は[暗号化](/hubpedia/encryption)、電子署名、認証を支え、業務上の要件とセキュリティ上の要件の双方を満たすために用いられる。 [6]\n\n## 公開鍵の性質と用途\n\n公開鍵は非対称鍵ペアのうち公開される側の鍵であり、対応する秘密鍵と関連付けられた、非対称暗号アルゴリズムで使用される暗号鍵である。公開が可能な数学的な鍵として所有者と結びつけられ、実際に公開されることがある。アプリケーションはこれを、対応する秘密鍵で作成されたデータの暗号化や、署名の検証に使う。 [7][8][10][11]\n\n用途は一般に、署名の検証とデータの暗号化に大別される。電子署名では、公開鍵は対応する秘密鍵によって生成された署名を検証するために用いられる。このほか、鍵合意処理において共有秘密を計算するための入力値の一つとして使われることもある。 [7][9][12]\n\n## PIVシステムでの利用\n\nPKIは、PIVシステムに対する支援サービスとして位置づけられている。ここでのPKIの役割は、電子署名によるID検証を行うために必要な暗号鍵を提供すること、および通信と、検証システム内に保管される機微な検証データの保護に必要な鍵を提供することである。 [2]\n\n## 関連記事\n\n- [暗号標準](/hubpedia/cryptographic-standards)\n- [デジタル上の身元](/hubpedia/digital-identity)",
+    "sources": [
+      {
+        "url": "https://csrc.nist.gov/glossary/term/public_key_infrastructure",
+        "title": "Public Key Infrastructure — NIST CSRC Glossary",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The standards body's own definition of public-key-infrastructure. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://csrc.nist.gov/glossary/term/public_key",
+        "title": "Public Key — NIST CSRC Glossary",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The keys the infrastructure binds. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Public key infrastructure",
+        "summary": "Public key infrastructure (PKI) is a framework established to issue, maintain, and revoke public key certificates, and it serves to attest, by means of certificates, whose a published key is. A distinguishing feature is that it is understood to encompass not only technology but also operational elements such as the hierarchy of certification authorities, personnel, policies, and procedures; concrete functions such as verifying digital signatures and protecting communications are built on top of it.",
+        "bodyMarkdown": "## A framework for handling public key certificates\n\nPublic key infrastructure (PKI) is a framework established to issue, maintain, and revoke [public key certificates](/hubpedia/digital-certificate). More broadly, it is sometimes described as the collective set of structures, organizations, technologies, practices, and procedures that support the implementation and operation of a certificate-based [public key cryptography](/hubpedia/public-key-cryptography) system, and it is also positioned as the framework and set of services responsible for the generation, production, distribution, management, recording, and destruction of certificates. [1][3][4]\n\nThese descriptions are not mutually contradictory, but the scope they take is not uniform. There is a view that narrows PKI to the functions of issuing, maintaining, and revoking certificates, and a view that also includes the organizations and procedures that make those functions possible; in the latter, the design of operations, rather than technical apparatus, becomes the subject. Implementation details such as the concrete format of certificates or the method of distributing revocation information cannot be derived directly from such general definitions. [1][3][4]\n\n## Components and the hierarchy of certification authorities\n\nThe components cited are personnel, policies, processes, server platforms, software, and workstations. These are used to manage certificates and [key pairs](/hubpedia/key-pair) consisting of a public key and a private key, and the content of that management includes issuance, maintenance, recovery, and revocation. People and regulations are counted among the components because the work of judging the rightful holder of a key cannot be completed by machines alone. [5]\n\nPKI includes a hierarchy of certification authorities, and the presence of this hierarchy makes it possible to deploy digital certificates. The certificates thus deployed support [encryption](/hubpedia/encryption), digital signatures, and authentication, and are used to satisfy both business requirements and security requirements. [6]\n\n## Properties and uses of public keys\n\nA public key is the publicly disclosed key of an asymmetric key pair — a cryptographic key used with an asymmetric cryptographic algorithm and associated with a corresponding private key. It is linked to its owner as a mathematical key that can be made public, and it is in fact sometimes published. Applications use it to encrypt data, or to verify signatures created with the corresponding private key. [7][8][10][11]\n\nIts uses are generally divided into verifying signatures and encrypting data. In digital signatures, the public key is used to verify a signature generated by the corresponding private key. Besides this, it is sometimes used as one of the input values for computing a shared secret in key agreement processing. [7][9][12]\n\n## Use in PIV systems\n\nPKI is positioned as a support service for PIV systems. The role of PKI here is to provide the cryptographic keys necessary for performing identity verification by digital signature, and to provide the keys necessary for protecting communications and the sensitive verification data stored within the verification system. [2]\n\n## Related articles\n\n- [Cryptographic standards](/hubpedia/cryptographic-standards)\n- [Digital identity](/hubpedia/digital-identity)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:44:04.995Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "PKI（公開鍵基盤）は、公開鍵証明書を発行・維持・失効させるために確立された枠組みである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/public_key_infrastructure",
+              "quote": "A framework that is established to issue, maintain and revoke public key certificates."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "PKIは、PIVシステムに対して、電子署名によるID検証を行い、通信および検証システム内の機微な検証データの保管を保護するために必要な暗号鍵を提供する支援サービスである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/public_key_infrastructure",
+              "quote": "A support service to the PIV system that provides the cryptographic keys needed to perform digital signature-based identity verification and to protect communications and the storage of sensitive verification system data within identity cards and the verification system."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "PKIは、証明書ベースの公開鍵暗号システムの実装と運用を集合的に支える構造・組織・技術・実践・手順である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/public_key_infrastructure",
+              "quote": "The architecture, organization, techniques, practices, and procedures that collectively support the implementation and operation of a certificate-based public key cryptographic system."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "PKIは、公開鍵証明書の生成・製造・配布・管理・記録・廃棄を提供する枠組みおよびサービス群である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/public_key_infrastructure",
+              "quote": "The framework and services that provide for the generation, production, distribution, control, accounting, and destruction of public key certificates."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "PKIの構成要素には、証明書および公開鍵・秘密鍵ペアの管理（発行・維持・復旧・失効を含む）に用いられる要員・方針・プロセス・サーバープラットフォーム・ソフトウェア・ワークステーションが含まれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/public_key_infrastructure",
+              "quote": "Components include the personnel, policies, processes, server platforms, software, and workstations used for the purpose of administering certificates and public-private key pairs, including the ability to issue, maintain, recover, and revoke public key certificates."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "PKIには、業務およびセキュリティ要件を満たすために暗号化・電子署名・認証を支えるデジタル証明書の展開を可能にする認証局の階層が含まれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/public_key_infrastructure",
+              "quote": "The PKI includes the hierarchy of certificate authorities that allow for the deployment of digital certificates that support encryption, digital signature and authentication to meet business and security requirements."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "公開鍵は非対称鍵ペアのうち公開される部分であり、一般に署名の検証またはデータの暗号化に用いられる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/public_key",
+              "quote": "The public part of an asymmetric key pair that is typically used to verify signatures or encrypt data."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "公開鍵は非対称暗号アルゴリズムで使用される暗号鍵であり、対応する秘密鍵と関連付けられている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/public_key",
+              "quote": "A cryptographic key that is used with an asymmetric (public key) cryptographic algorithm and is associated with a private key."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "電子署名においては、公開鍵は対応する秘密鍵によって生成された電子署名を検証するために用いられる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/public_key",
+              "quote": "In the case of digital signatures, the public key is used to verify a digital signature that was generated using the corresponding private key."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "公開鍵は所有者と関連付けられ、公開されることがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/public_key",
+              "quote": "The public key is associated with an owner and may be made public."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "公開鍵は公開が可能な数学的な鍵であり、対応する秘密鍵で作成されたデータの暗号化や署名の検証にアプリケーションが使用する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/public_key",
+              "quote": "A mathematical key that has public availability and that applications use to encrypt data or to verify signatures created with its corresponding private key."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "公開鍵は、鍵合意処理において共有秘密を計算するための入力値の一つとして使用されることがある。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/public_key",
+              "quote": "As on of the input values to compute a shared secret during a key agreement transaction."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

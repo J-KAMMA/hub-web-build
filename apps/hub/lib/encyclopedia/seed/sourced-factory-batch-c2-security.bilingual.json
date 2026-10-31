@@ -1,0 +1,357 @@
+[
+  {
+    "slug": "access-control",
+    "topicType": "concept",
+    "categoryLabel": "インターネット・セキュリティ",
+    "title": "アクセス制御",
+    "summary": "アクセス制御は、情報やサービス、あるいは施設への要求を許可するか拒否するかを決める仕組みである。定義は文献によって幅があり、対象を情報システムに限るものと物理的な立ち入りまで含めるもの、判断そのものを指すものと判断を支える手続き全体を指すものが併存する。共通しているのは、あらかじめ定められた方針に照らして主体の許可を確かめ、認可された者だけにリソースを開くという構造である。",
+    "bodyMarkdown": "## 定めていること\n\nアクセス制御という語が最も広く使われるのは、情報および関連する情報処理サービスの取得・利用に関する要求を許可するか拒否するかを決めるプロセスという意味においてである。ただしこの定義には範囲の異なる版がある。連邦政府庁舎、軍事施設、国境検問所といった特定の物理的施設への立ち入りに関する要求までを同じ枠組みに含めるものがある一方、対象を情報とその処理サービスに限り、施設への立ち入りを含めない定義も用いられている。 [1][9]\n\n別の系統の定義は、判断そのものではなく判断を支える手続きの側に重心を置く。あらかじめ定められた方針および規則に従ってのみ情報へのアクセスを許可する手続き・プロセスの集合とする定義や、重要な情報資源へのアクセスを制限または検知する手続きと管理策とする定義がこれにあたる。前者が「どの要求を通すか」を指すのに対し、後者は「通す仕組みをどう組み立て、運用するか」を指しており、同じ語が決定と体制の両方を指し得る。 [3][4]\n\n## 主体・リソース・方針という構造\n\n定義の表現は分かれるが、いずれも同じ三つの要素を前提にしている。アクセスを求める主体、保護されるリソース、そして両者の間で可否を決める基準である。基準の側を明示した定義では、主体があらかじめ定められたアクセス制御方針に基づく適切な許可を持つ場合に限り、保護されたリソースにアクセスできることを保証するものとされる。結果の側から述べれば、アクセス制御はリソースへのアクセスを認可された主体のみに制限する。 [5][8]\n\nリソースとして何を数えるかも定義によって異なる。ネットワーク、データ、アプリケーション、サービスといったシステムオブジェクトへの主体のアクセスを許可または拒否する決定とする定義があり、この場合の保護対象はオブジェクト一般に及ぶ。より狭く、ネットワーク内のシステムのリソースへのアクセスを対象とする定義もある。 [6][7]\n\n主体の側についても同様の幅がある。ネットワークを対象とする定義では、アクセスを許される側として認可されたプログラム、プロセス、他のシステムが挙げられており、人間の利用者に限られない。主体を人に限定して考えると、機械同士のやり取りに同じ制御が及ぶことを見落とすことになる。 [7]\n\n## 制御の粒度\n\n許可と拒否を、どの単位で切り分けるかは設計上の選択である。アプリケーションへのアクセスについては、ユーザー単位、グループ単位、リソース単位といった粒度で許可または制限するプロセスとしてアクセス制御を定義する例がある。粒度が粗ければ管理は簡素になるが、必要以上の権限を与えやすい。細かくすれば絞り込みは正確になる一方、方針そのものが大きくなる。 [2]\n\n## 実現の手段\n\nアクセス制御は特定の技術と結び付いた概念ではない。重要な情報資源へのアクセスを制限または検知する手続きと管理策とする定義では、その実現手段としてソフトウェア、生体認証装置、および物理的な立ち入り制限を伴う空間が並べて挙げられている。施錠された部屋とログイン画面は、外見上まったく異なるが、方針に照らして要求を許可または拒否するという点では同じ役割を担う。 [3]\n\nこの手段の幅は、定義の幅と対応している。物理的施設への立ち入りを含めて定義する立場では、庁舎や検問所での入退管理も情報システムのアクセス判断と同じ枠組みで扱われる。含めない立場では、両者は別の管理領域として扱われることになる。用語を使う際にどちらの定義に立っているかは、文脈から補う必要がある。 [1][9]\n\n## 関連記事\n\n- 認可\n- [多要素認証](/hubpedia/multi-factor-authentication)\n- 可用性\n- [暗号化](/hubpedia/encryption)",
+    "sources": [
+      {
+        "url": "https://csrc.nist.gov/glossary/term/access_control",
+        "title": "Access Control — NIST CSRC Glossary",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The standards body's own definition of access-control. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://csrc.nist.gov/glossary/term/authorization",
+        "title": "Authorization — NIST CSRC Glossary",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The permission decisions it enforces. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Access Control",
+        "summary": "Access control is the mechanism that determines whether a request for information, a service, or a facility is granted or denied. Definitions vary in scope across the literature: some restrict the subject matter to information systems while others extend it to physical entry, and some refer to the decision itself while others refer to the entire set of procedures that support the decision. What they share is a common structure — verifying a subject's authorization against a predetermined policy and opening the resource only to those who are authorized.",
+        "bodyMarkdown": "## What It Establishes\n\nThe term access control is most widely used to mean the process of granting or denying requests to obtain and use information and related information processing services. This definition, however, exists in versions of differing scope. Some bring requests to enter specific physical facilities — federal government buildings, military installations, border crossing points — within the same framework, while other definitions limit the subject matter to information and its processing services and exclude entry to facilities. [1][9]\n\nA different line of definition places its center of gravity on the procedures that support the decision rather than on the decision itself. Definitions that treat it as the set of procedures and processes that permit access to information only in accordance with predetermined policies and rules fall into this category, as do those that treat it as the procedures and controls that limit or detect access to critical information resources. Where the former refers to \"which requests get through,\" the latter refers to \"how the mechanism that lets them through is assembled and operated,\" showing that the same term can denote both a decision and an organizational arrangement. [3][4]\n\n## The Structure of Subject, Resource, and Policy\n\nThe wording of the definitions diverges, but all of them presuppose the same three elements: the subject requesting access, the resource being protected, and the criteria that determine permission between the two. Definitions that make the criteria explicit hold that a subject may access a protected resource only if it holds appropriate authorization based on a predetermined access control policy. Stated from the side of the outcome, access control restricts access to a resource to authorized subjects only. [5][8]\n\nWhat counts as a resource also differs by definition. Some define it as the decision to grant or deny a subject's access to system objects such as networks, data, applications, and services, in which case what is protected extends to objects in general. Others define it more narrowly, covering access to the resources of systems within a network. [6][7]\n\nThere is comparable variation on the side of the subject. Definitions concerned with networks list authorized programs, processes, and other systems among those permitted access, so the scope is not limited to human users. Thinking of subjects as people alone means overlooking the fact that the same controls apply to machine-to-machine interactions. [7]\n\n## Granularity of Control\n\nThe unit at which permission and denial are divided is a design choice. For access to applications, there are examples that define access control as the process of permitting or restricting at granularities such as per user, per group, or per resource. Coarse granularity simplifies administration but makes it easy to grant more privilege than necessary. Finer granularity makes the narrowing more precise, but the policy itself grows larger. [2]\n\n## Means of Implementation\n\nAccess control is not a concept tied to any particular technology. In the definition that treats it as the procedures and controls that limit or detect access to critical information resources, the means of implementation listed side by side include software, biometric devices, and spaces subject to physical entry restrictions. A locked room and a login screen look entirely different, but they play the same role in granting or denying a request against a policy. [3]\n\nThis range of means corresponds to the range of the definitions. Under the position that includes entry to physical facilities, entry and exit management at government buildings and checkpoints is handled within the same framework as access decisions in information systems. Under the position that excludes it, the two are treated as separate domains of control. Which definition is in play when the term is used must be supplied from context. [1][9]\n\n## Related Articles\n\n- Authorization\n- [Multi-Factor Authentication](/hubpedia/multi-factor-authentication)\n- Availability\n- [Encryption](/hubpedia/encryption)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:03:25.197Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "アクセス制御とは、情報および関連する情報処理サービスの取得・利用に関する要求と、連邦政府庁舎・軍事施設・国境検問所などの特定の物理的施設への立ち入りに関する要求を、許可または拒否するプロセスである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/access_control",
+              "quote": "The process of granting or denying specific requests to 1) obtain and use information and related information processing services and 2) enter specific physical facilities (e.g., federal buildings, military establishments, border crossing entrances)."
+            },
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/access_control",
+              "quote": "The process of granting or denying specific requests to: 1) obtain and use information and related information processing services; and 2) enter specific physical facilities (e.g., federal buildings, military establishments, border crossing entrances)."
+            },
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/access_control",
+              "quote": "The process of granting or denying specific requests to: (i) obtain and use information and related information processing services; and (ii) enter specific physical facilities (e.g., Federal buildings, military establishments, and border-crossing entrances)."
+            },
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/authorization",
+              "quote": "The process of granting or denying specific requests for obtaining and using information and related information processing services; and to enter specific physical facilities (e.g., Federal buildings, military establishments, and border crossing entrances)."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "アクセス制御は、ユーザー単位・グループ単位・リソース単位といった粒度で、アプリケーションへのアクセスを許可または制限するプロセスと定義されることもある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/access_control",
+              "quote": "The process of permitting or restricting access to applications at a granular level, such as per-user, per-group, and per-resources."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "アクセス制御は、重要な情報資源へのアクセスを制限または検知する手続きと管理策であり、ソフトウェア、生体認証装置、または物理的な立ち入り制限を伴う空間によって実現され得る。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/access_control",
+              "quote": "Procedures and controls that limit or detect access to critical information resources. This can be accomplished through software, biometrics devices, or physical access to a controlled space."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "アクセス制御は、あらかじめ定められた方針および規則に従ってのみ情報へのアクセスを許可する手続き・プロセスの集合と定義されることもある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/access_control",
+              "quote": "As used in this Recommendation, the set of procedures and/or processes that only allow access to information in accordance with pre-established policies and rules."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "アクセス制御は、リソースへのアクセスを認可された主体のみに制限する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/access_control",
+              "quote": "Restricts resource access to only authorized entities."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "アクセス制御に関する定義の一つに、ネットワーク・データ・アプリケーション・サービスなどのシステムオブジェクトへの主体のアクセスを許可または拒否する決定、というものがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/authorization",
+              "quote": "The decision to permit or deny a subject access to system objects (network, data, application, service, etc.)."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "アクセス制御は、ネットワーク内のシステムのリソースへのアクセスを、認可されたプログラム・プロセス・他のシステムのみに限定するプロセスと定義されることもある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/access_control",
+              "quote": "The process of limiting access to resources of a system only to authorized programs, processes, or other systems (in a network)."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "アクセス制御は、主体があらかじめ定められたアクセス制御方針に基づく適切な許可を持つ場合に限り、保護されたリソースにアクセスできることを保証するものと定義されることもある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/access_control",
+              "quote": "To ensure that an entity can only access protected resources if they have the appropriate permissions based on the predefined access control policies."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "アクセス制御は、情報および関連する情報処理サービスの取得・利用に関する特定の要求を許可または拒否するプロセスとして、物理的施設への立ち入りを含めずに定義されることもある。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/access_control",
+              "quote": "The process of granting or denying specific requests for obtaining and using information and related information processing services."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "multi-factor-authentication",
+    "topicType": "concept",
+    "categoryLabel": "インターネット・セキュリティ",
+    "title": "多要素認証",
+    "summary": "多要素認証（MFA）は、本人確認のために種類の異なる2つ以上の認証要素を要求する認証方式である。要素は「本人が知っている情報」「本人が持っているもの」「本人自身の特性」の3種類に分けられる。定義上の要点は使う機器の数ではなく、成功に必要な要素が互いに別個であることにあり、1台の認証器で複数要素を満たす構成も、複数の認証器を組み合わせる構成も同じ枠に収まる。",
+    "bodyMarkdown": "## 要素による分類\n\nパスワードをもう1つ増やしても、多要素認証にはならない。多要素認証（MFA）とは、認証を達成するために2つ以上の異なる要素を用いる認証方式を指し、認証システムまたは認証器の特性としては、認証の成功のために2つ以上の別個の認証要素を要求することと説明される。条件になっているのは手順の多さではなく、求められる要素が種類として別であることである。 [1][3]\n\n認証の要素は3つに分類される。本人が知っている情報（something you know）、本人が持っているもの（something you have）、本人自身の特性（something you are）である。第一の例はPINやパスワード、第二の例は暗号識別デバイスやトークン、第三の例は生体情報（バイオメトリクス）である。 [2][4][5][6]\n\n## 認証と認証器\n\n要素はそれ自体で完結するものではなく、認証という手続きの中で使われる。認証とは、情報システムの資源への[アクセスを許可する](/hubpedia/access-control)前提条件として、利用者・プロセス・機器の身元を検証することである。加入者アカウントの観点から言い換えると、申請者が1つ以上の認証器の所持と管理を証明し、そのアカウントに関連付けられた本人であることを示す過程であり、その際に上記3種類のうち1つ以上の要素が伴う。 [9][10]\n\n認証器（authenticator）は、申請者の身元を認証するために申請者が所持し管理するもので、典型的には暗号モジュールまたはパスワードである。この語は以前はトークン（token）と呼ばれていた。物としてのトークンが「本人が持っているもの」の例として挙げられる一方、用語としての authenticator はパスワードのような知識も含む点で範囲が広く、要素の分類と認証器の分類は一致しない。 [5][8][12]\n\n## 実施の形\n\n多要素認証は、複数の要素を提供する単一の認証器によっても実施できるし、異なる要素を提供する複数の認証器の組み合わせによっても実施できる。さらに、単一の種類の要素のみを提供する単要素認証器を複数組み合わせる形でも成立する。したがって「認証器がいくつあるか」は多要素かどうかの判定基準にならず、数えるべきは満たされた要素の種類である。 [7][11]\n\n## 定義が扱う範囲\n\nここで示した定義が条件としているのは、認証の成功に2つ以上の別個の要素を要求するという構造であり、どの方式を選ぶべきか、各方式がどの程度の攻撃に耐えるかといった評価は、この定義そのものからは導かれない。 [1][3]\n\n## 関連記事\n\n- 認可\n- [公開鍵暗号](/hubpedia/public-key-cryptography)\n- [暗号標準](/hubpedia/cryptographic-standards)\n- フィッシング",
+    "sources": [
+      {
+        "url": "https://csrc.nist.gov/glossary/term/multi_factor_authentication",
+        "title": "Multi-Factor Authentication — NIST CSRC Glossary",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The standards body's own definition of multi-factor-authentication. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://csrc.nist.gov/glossary/term/authentication",
+        "title": "Authentication — NIST CSRC Glossary",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "Authentication generally. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Multi-factor authentication",
+        "summary": "Multi-factor authentication (MFA) is an authentication method that requires two or more authentication factors of different kinds in order to verify identity. The factors fall into three categories: something the person knows, something the person has, and something the person is. The defining point is not the number of devices used but that the factors required for success are distinct from one another, so a configuration in which a single authenticator satisfies multiple factors and a configuration that combines several authenticators both fall within the same category.",
+        "bodyMarkdown": "## Classification by factor\n\nAdding one more password does not make authentication multi-factor. Multi-factor authentication (MFA) refers to an authentication method that uses two or more different factors to achieve authentication, and as a property of an authentication system or an authenticator, it is described as requiring two or more distinct authentication factors for authentication to succeed. What the condition rests on is not the number of steps but that the required factors are different in kind. [1][3]\n\nAuthentication factors are classified into three types: something you know, something you have, and something you are. Examples of the first are a PIN or a password; of the second, a cryptographic identification device or a token; and of the third, biometric information (biometrics). [2][4][5][6]\n\n## Authentication and authenticators\n\nA factor is not self-contained; it is used within the procedure called authentication. Authentication is the verification of the identity of a user, process, or device as a prerequisite to [granting access](/hubpedia/access-control) to the resources of an information system. Restated from the standpoint of a subscriber account, it is the process by which a claimant proves possession and control of one or more authenticators and thereby demonstrates that they are the person associated with that account, accompanied in doing so by one or more of the three types of factors above. [9][10]\n\nAn authenticator is something the claimant possesses and controls in order to authenticate the claimant's identity, typically a cryptographic module or a password. The term was formerly called a token. While a token as a physical object is cited as an example of something you have, the term authenticator is broader in that it also covers knowledge such as a password, so the classification of factors and the classification of authenticators do not coincide. [5][8][12]\n\n## Forms of implementation\n\nMulti-factor authentication can be implemented by a single authenticator that provides multiple factors, and it can also be implemented by combining several authenticators that provide different factors. It can further be achieved by combining several single-factor authenticators, each providing only one type of factor. Accordingly, \"how many authenticators there are\" is not a criterion for deciding whether authentication is multi-factor; what should be counted is the types of factors satisfied. [7][11]\n\n## The scope the definition covers\n\nWhat the definition presented here sets as its condition is the structure of requiring two or more distinct factors for authentication to succeed. Evaluations such as which method should be chosen, or how well each method withstands a given attack, do not follow from the definition itself. [1][3]\n\n## Related articles\n\n- Authorization\n- [Public-key cryptography](/hubpedia/public-key-cryptography)\n- [Cryptographic standards](/hubpedia/cryptographic-standards)\n- Phishing"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:03:25.201Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "多要素認証(MFA)とは、認証を達成するために2つ以上の異なる要素を用いる認証方式である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/multi_factor_authentication",
+              "quote": "Authentication using two or more different factors to achieve authentication."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "認証の3要素は、本人が知っている情報（something you know）、本人が持っているもの（something you have）、本人自身の特性（something you are）である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/multi_factor_authentication",
+              "quote": "The three authentication factors are something you know, something you have, and something you are."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "多要素認証(MFA)とは、認証の成功のために2つ以上の別個の認証要素を要求する、認証システムまたは認証器の特性である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/multi_factor_authentication",
+              "quote": "A characteristic of an authentication system or an authenticator that requires more than one distinct authentication factor for successful authentication."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "「本人が知っている情報」の要素の例として、PINやパスワードが挙げられる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/multi_factor_authentication",
+              "quote": "something you know (e.g., PIN, password)"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "「本人が持っているもの」の要素の例として、暗号識別デバイスやトークンが挙げられる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/multi_factor_authentication",
+              "quote": "something you have (e.g., cryptographic identification device, token)"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "「本人自身の特性」の要素の例として、生体情報（バイオメトリクス）が挙げられる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/multi_factor_authentication",
+              "quote": "something you are (e.g., biometric)"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "多要素認証は、複数の要素を提供する単一の認証器によっても、異なる要素を提供する複数の認証器の組み合わせによっても実施できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/multi_factor_authentication",
+              "quote": "MFA can be performed using a single authenticator that provides more than one factor or by a combination of authenticators that provide different factors."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "認証器（authenticator）とは、申請者の身元を認証するために使われる、申請者が所持し管理するもの（典型的には暗号モジュールまたはパスワード）である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/multi_factor_authentication",
+              "quote": "Something that the claimant possesses and controls (typically a cryptographic module or password) that is used to authenticate the claimant’s identity."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "認証（authentication）とは、情報システムの資源へのアクセスを許可する前提条件として、ユーザー、プロセス、またはデバイスの身元を検証することである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/authentication",
+              "quote": "Verifying the identity of a user, process, or device, often as a prerequisite to allowing access to resources in an information system."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "認証とは、申請者が加入者アカウントに紐づく1つ以上の認証器の所持と管理を証明し、そのアカウントに関連付けられた加入者本人であることを示す過程であり、本人が知っている情報・本人が持っているもの・本人自身の特性のうち1つ以上の要素を伴う。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/authentication",
+              "quote": "The process by which a claimant proves possession and control of one or more authenticators bound to a subscriber account to demonstrate that they are the subscriber associated with that account and involves one or more of the following factors:i. something you know (e.g., password/personal identification number (PIN) );ii. something you have (e.g., cryptographic identification device, token); oriii. something you are (e.g., biometric)."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "多要素認証は、単一の種類の要素のみを提供する複数の単要素認証器を組み合わせて実施することもできる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/multi_factor_authentication",
+              "quote": "MFA can be performed using a multi-factor authenticator or by combining single-factor authenticators that provide different types of factors."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "認証器（authenticator）は、以前はトークン（token）と呼ばれていた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/multi_factor_authentication",
+              "quote": "This was previously referred to as a token."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

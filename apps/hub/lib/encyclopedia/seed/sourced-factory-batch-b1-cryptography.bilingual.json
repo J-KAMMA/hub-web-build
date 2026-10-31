@@ -1,0 +1,422 @@
+[
+  {
+    "slug": "hash-value",
+    "topicType": "concept",
+    "categoryLabel": "インターネット・セキュリティ",
+    "title": "ハッシュ値",
+    "summary": "ハッシュ値は、ハッシュ関数をメッセージやデータに適用して得られる固定長のビット列である。入力の長さにかかわらず出力の長さが一定であることが最大の特徴で、メッセージダイジェストとも呼ばれる。その有用性は値そのものではなく、同じ値を持つ別の入力や、値から遡った入力を見つけることが計算量的に困難であるという性質に支えられている。",
+    "bodyMarkdown": "## 固定長のビット列としての出力\n\nハッシュ値は、ハッシュ関数をメッセージやデータ、より一般には情報に適用した結果として得られる値である。ハッシュ関数は任意長のビット列を固定長のビット列へ写像する関数であり、したがってハッシュ値は、入力がどれだけ長くても、あるいは極端に短くても、常に同じ長さのビット列になる。入力の長さが出力に現れないというこの一点が、ハッシュ値を他の変換結果から区別している。 [1][3][5][6][7]\n\n呼び名は一つに定まっていない。ハッシュ値はメッセージダイジェスト、ハッシュダイジェスト、ハッシュ出力とも呼ばれ、暗号学的ハッシュ関数をデータに適用した結果についても同じくメッセージダイジェストという語が用いられる。文献によって語が入れ替わるだけで、指しているものは同じ固定長の出力である。 [2][4][13][14]\n\n## 安全性を測る三つの性質\n\nハッシュ値が同一性の確認に使えるかどうかは、値の見た目ではなく、その値を作るハッシュ関数がどれだけ「都合のよい入力」を作らせないかで決まる。第一の性質が原像耐性で、無作為に選ばれた出力に対して、その出力へ写像される入力を見つけることが計算量的に困難であるという性質を指す。原像耐性は一方向性とも呼ばれる。 [9][10]\n\n残る二つは、同じ出力を共有する入力の組を扱う。衝突耐性は、同じハッシュ値へ写像される二つの異なる入力を見つけることが計算量的に困難であるという性質であり、第二原像耐性は、ある入力値が与えられたときに、それと同じハッシュ値へ写像される別の入力値を見つけることが計算量的に困難であるという性質である。両者の違いは入力の選び方にある。衝突耐性では二つの入力をいずれも自由に選べるのに対し、第二原像耐性では一方の入力があらかじめ与えられており、攻撃者が動かせるのは他方だけである。 [8][11]\n\nハッシュ関数の、ひいてはそれが生成するハッシュ値の安全強度は、衝突耐性・原像耐性・第二原像耐性という三つの性質をどの程度備えているかによって測られる。いずれの性質も「不可能である」とは述べておらず、そのような入力を見つける計算が現実的でないという意味で困難だと述べている点に注意が必要である。強度は絶対的な保証ではなく、計算量に対する相対的な尺度として与えられている。 [8][9][11][15]\n\n## 標準による規定\n\n承認されたハッシュ関数は [FIPS 180 および FIPS 202](/hubpedia/cryptographic-standards) で規定されている。個々の関数がどの出力長を持ち、どの用途で承認されているかは、これらの規格の側で定められる。 [12]\n\n## 関連記事\n\n- [公開鍵暗号](/hubpedia/public-key-cryptography)\n- [暗号化](/hubpedia/encryption)\n- [電子証明書](/hubpedia/digital-certificate)",
+    "sources": [
+      {
+        "url": "https://csrc.nist.gov/glossary/term/hash_value",
+        "title": "Hash Value — NIST CSRC Glossary",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The standards body's own definition of hash-value. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://csrc.nist.gov/glossary/term/hash_function",
+        "title": "Hash Function — NIST CSRC Glossary",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The function that produces the value. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Hash value",
+        "summary": "A hash value is a fixed-length bit string obtained by applying a hash function to a message or to data. Its defining characteristic is that the output length stays constant regardless of the input length, and it is also called a message digest. Its usefulness rests not on the value itself but on the property that finding another input with the same value, or working backward from the value to an input, is computationally difficult.",
+        "bodyMarkdown": "## Output as a fixed-length bit string\n\nA hash value is the value obtained by applying a hash function to a message, to data, or more generally to information. A hash function maps a bit string of arbitrary length to a bit string of fixed length, and therefore a hash value is always a bit string of the same length, no matter how long the input is or how extremely short it may be. This single fact — that the length of the input does not show up in the output — is what distinguishes a hash value from the results of other transformations. [1][3][5][6][7]\n\nThe naming is not settled on a single term. A hash value is also called a message digest, a hash digest, or a hash output, and the term message digest is likewise used for the result of applying a cryptographic hash function to data. Only the words change from one source to another; what they refer to is the same fixed-length output. [2][4][13][14]\n\n## Three properties that measure security\n\nWhether a hash value can be used to confirm identity is determined not by how the value looks, but by how well the hash function that produces it prevents anyone from crafting a \"convenient\" input. The first property is preimage resistance, which refers to the property that, for a randomly chosen output, it is computationally difficult to find an input that maps to that output. Preimage resistance is also called one-wayness. [9][10]\n\nThe remaining two deal with pairs of inputs that share the same output. Collision resistance is the property that it is computationally difficult to find two different inputs that map to the same hash value, while second preimage resistance is the property that, given one input value, it is computationally difficult to find another input value that maps to the same hash value as it. The difference between the two lies in how the inputs may be chosen. Under collision resistance both inputs may be chosen freely, whereas under second preimage resistance one input is given in advance and only the other one can be moved by the attacker. [8][11]\n\nThe security strength of a hash function — and by extension of the hash values it generates — is measured by the degree to which it possesses the three properties of collision resistance, preimage resistance, and second preimage resistance. It should be noted that none of these properties states that such a thing is impossible; they state that it is difficult in the sense that computing such an input is not practical. Strength is given not as an absolute guarantee but as a measure relative to computational effort. [8][9][11][15]\n\n## Specification by standards\n\nApproved hash functions are specified in [FIPS 180 and FIPS 202](/hubpedia/cryptographic-standards). Which output length each individual function has, and which uses it is approved for, are determined on the side of these standards. [12]\n\n## Related articles\n\n- [Public-key cryptography](/hubpedia/public-key-cryptography)\n- [Encryption](/hubpedia/encryption)\n- [Digital certificate](/hubpedia/digital-certificate)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:33:32.417Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "ハッシュ値とは、ハッシュ関数をメッセージに適用した結果である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/hash_value",
+              "quote": "The result of applying a hash function to a message. Also known as a “hash value.”"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "ハッシュ値はメッセージダイジェスト（message digest）とも呼ばれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/hash_value",
+              "quote": "Message digest"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "ハッシュ値とは、ハッシュ関数をデータに適用した結果である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/hash_value",
+              "quote": "The result of applying a hash function to data."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "暗号学的ハッシュ関数をデータ（例えばメッセージ）に適用した結果もハッシュ値と呼ばれ、メッセージダイジェストとも呼ばれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/hash_value",
+              "quote": "The result of applying a cryptographic hash function to data (e.g., a message). Also known as a “message digest”."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "ハッシュ値とは、ハッシュ関数によって生成される固定長のビット列である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/hash_value",
+              "quote": "The fixed-length bit string produced by a hash function."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "ハッシュ値とは、ハッシュ関数を情報に適用した結果である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/hash_value",
+              "quote": "The result of applying a hash function to information."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "ハッシュ関数は、任意長のビット列を固定長のビット列に写像する関数である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/hash_function",
+              "quote": "A function that maps a bit string of arbitrary length to a fixed-length bit string."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "衝突耐性とは、同じ出力（ハッシュ値）に写像される2つの異なる入力を見つけることが計算量的に困難であるという性質である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/hash_function",
+              "quote": "(Collision resistance) It is computationally infeasible to find any two distinct inputs that map to the same output."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "原像耐性とは、無作為に選ばれた出力（ハッシュ値）に対して、その出力に写像される入力を見つけることが計算量的に困難であるという性質である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/hash_function",
+              "quote": "(Preimage resistance) Given a randomly chosen target output, it is computationally infeasible to find any input that maps to that output."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "原像耐性は一方向性（one-way property）とも呼ばれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/hash_function",
+              "quote": "(This property is called the one-way property.)"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "第二原像耐性とは、ある入力値が与えられたとき、それと同じ出力（ハッシュ値）に写像される別の入力値を見つけることが計算量的に困難であるという性質である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/hash_function",
+              "quote": "(Second preimage resistance) Given one input value, it is computationally infeasible to find a second (distinct) input value that maps to the same output as the first value."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "承認されたハッシュ関数はFIPS 180およびFIPS 202で規定されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/hash_function",
+              "quote": "Approved hash functions are specified in [FIPS 180] and [FIPS 202]."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "ハッシュ値はハッシュダイジェスト（hash digest）とも呼ばれる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/hash_value",
+              "quote": "Hash digest"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "ハッシュ値は「ハッシュ出力（hash output）」とも呼ばれる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/hash_value",
+              "quote": "Also known as a “hash value” or “hash output”."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "ハッシュ関数（ひいてはそれが生成するハッシュ値）の安全強度は、衝突耐性・原像耐性・第二原像耐性という性質をどの程度備えているかによって測られる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/hash_function",
+              "quote": "the security strength that can be supported by a hash function is typically measured by the extent to which it possesses one or more of the following properties"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "key-pair",
+    "topicType": "concept",
+    "categoryLabel": "インターネット・セキュリティ",
+    "title": "鍵ペア",
+    "summary": "鍵ペアとは、公開鍵とそれに対応する秘密鍵という、対になる2つの鍵の組である。一方は誰に知られてもよく、もう一方は保持者だけが秘密に保たなければならないという非対称な扱いを前提とし、非対称鍵アルゴリズムと組み合わせて用いられる。デジタル署名の検証、鍵の暗号化、鍵合意といった用途ごとに、対の2つの鍵にはそれぞれ異なる呼び名が与えられている。",
+    "bodyMarkdown": "## 対になる2つの鍵\n\n暗号で使う鍵には、同じ鍵を送り手と受け手が共有する方式と、2つの異なる鍵を組にして使う方式がある。鍵ペアは後者にあたり、公開鍵とそれに対応する秘密鍵から成る。この組の特徴は、2つの鍵の扱い方が対称でないことにある。一方は公開してよく、もう一方は秘密に保たなければならない。 [1][2]\n\n公開してよい側の鍵は[公開鍵](/hubpedia/public-key-cryptography)と呼ばれ、誰でも知り得るものとして扱われる。秘密に保つ側の鍵は、それと対応付けられた秘密鍵である。鍵ペアという語は、この2つが単独ではなく対応関係にある一組として意味を持つことを示している。 [1][5][10]\n\n## 非対称鍵アルゴリズムとの関係\n\n鍵ペアは、非対称鍵アルゴリズム（公開鍵アルゴリズム）と共に用いられる。公開鍵はこの種のアルゴリズムで使用され、常に特定の秘密鍵と対応付けられる。したがって鍵ペアは、それ単体で機能する道具ではなく、どのアルゴリズムの下でどの操作に使われるかによって役割が定まる。 [3][5]\n\n公開鍵は数学的な鍵であり、公開されていることを前提として、アプリケーションがデータの暗号化や署名の検証に用いる。公開されていても差し支えないという性質は、公開鍵から秘密鍵の側の働きを代替できないことに支えられている。 [9][10]\n\n## 用途による鍵の呼び分け\n\n同じ「鍵ペア」という語でも、どの機能のために作られた組かによって、2つの鍵には別々の名称が与えられる。鍵カプセル化機構（KEM）の鍵ペアでは、カプセル化鍵と解除鍵（encapsulation key、decapsulation key）の組を指すことがある。公開鍵暗号（PKE）の鍵ペアでは、暗号化鍵と復号鍵（encryption key、decryption key）の組を指すことがある。 [7][8]\n\nこの呼び分けは、公開鍵・秘密鍵という一般的な名称と矛盾するものではなく、対の各鍵が果たす具体的な操作を示している。読み手が仕様書を参照する際は、その文脈でどの語が使われているかを確かめる必要がある。 [7][8]\n\n## 公開鍵側の主な使われ方\n\n公開鍵は、非対称鍵ペアのうち公開される部分であり、一般に署名の検証やデータの暗号化に使われる。デジタル署名では、対応する秘密鍵で生成された署名を検証するために公開鍵が使われる。署名を作れるのは秘密鍵を持つ側だけで、検証は公開鍵を知る誰にでもできる、という非対称性がここに現れる。 [4][6][11]\n\n[暗号化](/hubpedia/encryption)の用途では、公開鍵は対応する秘密鍵で復号できる鍵を暗号化するために使われることがある。つまり公開鍵で守られるのは平文そのものとは限らず、別の鍵である場合がある。 [9][12]\n\n第三の使われ方として、鍵合意（key agreement）の取引において、共有シークレットを計算するための入力値の一つとして公開鍵が使われることがある。この場合、公開鍵は何かを直接守るのではなく、双方が同じ秘密の値に到達するための材料として働く。 [13]\n\n## 秘密鍵の管理という前提\n\n鍵ペアの有用性は、片方を秘密に保てるかどうかにかかっている。公開鍵は誰でも知り得るものとして設計されているが、対応する鍵が秘密でなくなれば、署名の検証も暗号化も本来の意味を失う。「一方を公開でき、もう一方を秘密に保たなければならない」という性質は、鍵ペアの定義であると同時に、運用上の要求でもある。 [2][10]\n\n## 関連記事\n\n- [暗号標準](/hubpedia/cryptographic-standards)\n- [電子証明書](/hubpedia/digital-certificate)\n- [デジタル上の身元](/hubpedia/digital-identity)\n- [ブロックチェーン](/hubpedia/blockchain)",
+    "sources": [
+      {
+        "url": "https://csrc.nist.gov/glossary/term/key_pair",
+        "title": "Key Pair — NIST CSRC Glossary",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The standards body's own definition of key-pair. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://csrc.nist.gov/glossary/term/public_key",
+        "title": "Public Key — NIST CSRC Glossary",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "One half of the pair. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Key pair",
+        "summary": "A key pair is a set of two paired keys: a public key and its corresponding private key. It presupposes an asymmetric treatment in which one key may be known to anyone while the other must be kept secret by its holder, and it is used in combination with asymmetric key algorithms. For each use — verifying digital signatures, encrypting keys, or key agreement — the two keys in the pair are given different names.",
+        "bodyMarkdown": "## Two keys that form a pair\n\nKeys used in cryptography fall into two categories: those where the sender and receiver share the same key, and those where two different keys are used as a set. A key pair belongs to the latter category, consisting of a public key and its corresponding private key. What characterizes this set is that the two keys are not treated symmetrically. One may be published, while the other must be kept secret. [1][2]\n\nThe key that may be published is called the [public key](/hubpedia/public-key-cryptography), and it is treated as something anyone may know. The key kept secret is the private key associated with it. The term \"key pair\" indicates that these two keys carry meaning not on their own but as a set standing in correspondence with each other. [1][5][10]\n\n## Relationship to asymmetric key algorithms\n\nA key pair is used together with an asymmetric key algorithm (public key algorithm). The public key is used with algorithms of this kind and is always associated with a specific private key. A key pair is therefore not a tool that functions on its own; its role is determined by which algorithm it operates under and which operation it is used for. [3][5]\n\nThe public key is a mathematical key that, on the premise that it is published, applications use to encrypt data or verify signatures. The fact that it can safely be made public rests on the impossibility of substituting the public key for the work done by the private key. [9][10]\n\n## Naming the keys by use\n\nEven under the single term \"key pair,\" the two keys are given separate names depending on the function the set was created for. For a key encapsulation mechanism (KEM) key pair, the term may refer to a set consisting of an encapsulation key and a decapsulation key. For a public key encryption (PKE) key pair, it may refer to a set consisting of an encryption key and a decryption key. [7][8]\n\nThis distinction in naming does not contradict the general terms \"public key\" and \"private key\"; it indicates the specific operation each key of the pair performs. When consulting a specification, the reader needs to confirm which term is being used in that context. [7][8]\n\n## Principal uses of the public key\n\nThe public key is the published part of an asymmetric key pair, and it is generally used to verify signatures or encrypt data. In digital signatures, the public key is used to verify a signature generated with the corresponding private key. The asymmetry appears here: only the party holding the private key can create a signature, while anyone who knows the public key can verify it. [4][6][11]\n\nFor [encryption](/hubpedia/encryption), the public key may be used to encrypt a key that can be decrypted with the corresponding private key. In other words, what the public key protects is not necessarily the plaintext itself but may be another key. [9][12]\n\nA third use is in key agreement transactions, where the public key may serve as one of the input values for computing a shared secret. In this case, the public key does not directly protect anything; it works as material by which both parties arrive at the same secret value. [13]\n\n## Managing the private key as a precondition\n\nThe usefulness of a key pair depends on whether one of the keys can be kept secret. The public key is designed so that anyone may know it, but if the corresponding key ceases to be secret, both signature verification and encryption lose their intended meaning. The property that \"one key may be published and the other must be kept secret\" is at once the definition of a key pair and an operational requirement. [2][10]\n\n## Related articles\n\n- [Cryptographic standards](/hubpedia/cryptographic-standards)\n- [Digital certificate](/hubpedia/digital-certificate)\n- [Digital identity](/hubpedia/digital-identity)\n- [Blockchain](/hubpedia/blockchain)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:33:32.417Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "鍵ペアは、公開鍵とそれに対応する秘密鍵から成る。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/key_pair",
+              "quote": "A public key and its corresponding private key."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "鍵ペアは、一方の鍵を公開でき、もう一方の鍵を秘密に保たなければならないという性質を持つ2つの鍵の組である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/key_pair",
+              "quote": "A set of two keys with the property that one key can be made public while the other key must be kept private."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "鍵ペアは、非対称鍵（公開鍵）アルゴリズムと共に用いられる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/key_pair",
+              "quote": "a key pair is used with an asymmetric-key (public-key) algorithm."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "公開鍵は、非対称鍵ペアのうち公開される部分であり、一般に署名の検証やデータの暗号化に使われる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/public_key",
+              "quote": "The public part of an asymmetric key pair that is typically used to verify signatures or encrypt data."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "公開鍵は非対称（公開鍵）暗号アルゴリズムで使用され、秘密鍵と対応付けられる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/public_key",
+              "quote": "A cryptographic key that is used with an asymmetric (public key) cryptographic algorithm and is associated with a private key."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "デジタル署名においては、公開鍵は対応する秘密鍵で生成された署名を検証するために使われる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/public_key",
+              "quote": "In the case of digital signatures, the public key is used to verify a digital signature that was generated using the corresponding private key."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "KEM（鍵カプセル化機構）の鍵ペアは、カプセル化鍵と解除鍵（encapsulation key, decapsulation key）の組を指すことがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/key_pair",
+              "quote": "the (encapsulation key, decapsulation key) key pair of a KEM"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "PKE（公開鍵暗号）の鍵ペアは、暗号化鍵と復号鍵（encryption key, decryption key）の組を指すことがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/key_pair",
+              "quote": "the (encryption key, decryption key) key pair of a PKE"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "公開鍵は公開されている数学的な鍵であり、データの暗号化や、対応する秘密鍵で作成された署名の検証にアプリケーションが用いる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/public_key",
+              "quote": "A mathematical key that has public availability and that applications use to encrypt data or to verify signatures created with its corresponding private key."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "公開鍵は誰でも知り得る。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/public_key",
+              "quote": "The public key may be known by anyone"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "公開鍵は、対応する秘密鍵で署名されたデジタル署名を検証するために使われることがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/public_key",
+              "quote": "To verify a digital signature that is signed by the corresponding private key"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "公開鍵は、対応する秘密鍵で復号できる鍵を暗号化するために使われることがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/public_key",
+              "quote": "To encrypt keys that can be decrypted using corresponsing private key"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "公開鍵は、鍵合意（key agreement）の取引において共有シークレットを計算するための入力値の一つとして使われることがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/public_key",
+              "quote": "As on of the input values to compute a shared secret during a key agreement transaction."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

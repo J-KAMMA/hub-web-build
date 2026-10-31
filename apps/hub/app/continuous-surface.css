@@ -1,0 +1,152 @@
+/*
+ * Hub continuous surface
+ *
+ * Persistent content is one surface. Entries are separated by rhythm and
+ * hairlines rather than floating as cards, which is what this file undoes:
+ * the underlying .tweet rule in globals.css is a rounded, shadowed card.
+ * Glass is opt-in through .hub-temporary-glass and reserved for temporary
+ * controls.
+ *
+ * Colours come from the shared semantic roles. There is no separate palette
+ * for this layer — a parallel --paper-* family used to shadow --bg, --panel,
+ * --text and --line with values a few steps apart, which read as drift rather
+ * than intent.
+ */
+
+html[data-theme] body,
+html[data-theme] .main-content {
+  background: var(--bg) !important;
+  color: var(--text) !important;
+}
+
+html[data-theme] :where(.shell__left, .sidebar, .shell__right) {
+  background: var(--panel) !important;
+  color: var(--text) !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+}
+
+/*
+ * The column boundaries belong to column-title-system.css, which already draws
+ * them on the rails themselves. Drawing them again on the wrappers put two
+ * hairlines side by side and read as one thick, uneven line.
+ */
+
+html[data-theme] :where(.sidebar__brand, .sidebar__footer, .shell__right-header) {
+  background: var(--panel) !important;
+  border-color: var(--line) !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+}
+
+html[data-theme] .sidebar__link {
+  border: 0 !important;
+  background: transparent !important;
+  color: var(--text-secondary) !important;
+  box-shadow: none !important;
+}
+
+html[data-theme] .sidebar__link:hover {
+  background: var(--interactive) !important;
+  color: var(--text) !important;
+}
+
+html[data-theme] .sidebar__link--active {
+  background: var(--selected) !important;
+  color: var(--text) !important;
+}
+
+html[data-theme] :where(.sidebar__label, .sidebar__wordmark, .shell__right-header h2) {
+  color: var(--text) !important;
+}
+
+html[data-theme] :where(.sidebar small, .sidebar__personal-site, .shell__right-body) {
+  color: var(--text-secondary);
+}
+
+/* Persistent feeds are one sheet. Individual entries do not float. */
+html[data-theme] :is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed,
+  .timeline-rail__list,
+  .post-detail
+) {
+  background: var(--panel) !important;
+}
+
+html[data-theme] :is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed,
+  .timeline-rail__list,
+  .post-detail
+) .tweet {
+  border: 0 !important;
+  border-bottom: 1px solid var(--line) !important;
+  border-radius: 0 !important;
+  background: var(--panel) !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+}
+
+html[data-theme] :is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed,
+  .timeline-rail__list,
+  .post-detail
+) .tweet:hover {
+  border-color: var(--line-strong) !important;
+  background: var(--panel) !important;
+}/* Persistent information in the right column follows the same paper flow. */
+html[data-theme] .shell__right-body :is(
+  .timeline-rail,
+  .catalog-right-rail,
+  .notifications-right-rail,
+  .music-right-rail,
+  .ai-right-rail,
+  .messages-right-rail
+) {
+  background: var(--panel) !important;
+  color: var(--text) !important;
+  box-shadow: none !important;
+  backdrop-filter: none !important;
+}
+
+html[data-theme] .shell__right-body :is(
+  .timeline-rail__list > .tweet,
+  .catalog-right-rail__list > a,
+  .notifications-right-rail__list > a,
+  .community-right-rail__posts > a
+) {
+  border-bottom-color: var(--line) !important;
+  background: var(--panel) !important;
+}
+
+/* Use this class only for temporary, dismissible interaction layers. */
+html[data-theme] .hub-temporary-glass {
+  border: 1px solid var(--ambient-border);
+  background: var(--ambient-panel);
+  box-shadow: var(--ambient-shadow);
+  backdrop-filter: blur(18px) saturate(1.08);
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  html[data-theme] .hub-temporary-glass {
+    background: var(--surface-raised);
+    backdrop-filter: none;
+  }
+}
+
+@media (max-width: 680px) {
+  html[data-theme] :is(
+    .main-content .home-feed__stream,
+    .main-content .search-post-results,
+    .main-content .profile-posts-feed,
+    .timeline-rail__list,
+    .post-detail
+  ) .tweet {
+    border-radius: 0 !important;
+  }
+}

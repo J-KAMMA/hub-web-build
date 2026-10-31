@@ -1,0 +1,301 @@
+/*
+ * 動画・音楽・フィード・記事の内側の列（Hub Desktop 2026-10-15 の形）。
+ * 色はすべて意味トークン。選択は --selected、焦点は --focus-ring。
+ * 行は 44px・角 12px。
+ */
+.v2 .v2__workspace .v2__frame > .v2__tabs-column > .v2-mc {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 0;
+  font-size: 14px;
+}
+
+.v2-mc__group {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.v2 .v2__workspace .v2__frame > .v2__tabs-column .v2-mc__group {
+  display: flex;
+}
+
+.v2 .v2__workspace .v2__frame > .v2__tabs-column .v2-mc__row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 44px;
+  padding: 0 12px;
+  border: 0;
+  border-radius: 12px;
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.v2 .v2__workspace .v2__frame > .v2__tabs-column .v2-mc__row:hover {
+  background: var(--interactive);
+}
+
+.v2 .v2__workspace .v2__frame > .v2__tabs-column .v2-mc__row[aria-current="page"] {
+  background: var(--selected);
+  font-weight: 600;
+}
+
+.v2 .v2__workspace .v2__frame > .v2__tabs-column .v2-mc__row:focus-visible,
+.v2 .v2__workspace .v2__frame > .v2__tabs-column .v2-mc__heading--link:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: -2px;
+}
+
+.v2 .v2__workspace .v2__frame > .v2__tabs-column .v2-mc__icon {
+  flex: none;
+  width: 24px;
+  height: 24px;
+  color: var(--text);
+}
+
+.v2 .v2__workspace .v2__frame > .v2__tabs-column .v2-mc__label {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.v2-mc__thumb {
+  flex: none;
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.v2-mc__avatar {
+  flex: none;
+  box-sizing: border-box;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.v2-mc__avatar--initial {
+  display: inline-grid;
+  place-items: center;
+  background: var(--interactive);
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.v2 .v2__workspace .v2__frame > .v2__tabs-column .v2-mc__heading {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  box-sizing: border-box;
+  min-height: 36px;
+  margin: 0;
+  padding: 0 12px;
+  border-radius: 12px;
+  color: var(--text);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  text-decoration: none;
+}
+
+.v2 .v2__workspace .v2__frame > .v2__tabs-column .v2-mc__heading--link:hover {
+  background: var(--interactive);
+}
+
+.v2 .v2__workspace .v2__frame > .v2__tabs-column .v2-mc__heading--link[aria-current="page"] {
+  background: var(--selected);
+}
+
+.v2-mc__chevron {
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.v2 .v2__workspace .v2__frame > .v2__tabs-column .v2-mc__note {
+  margin: 0;
+  padding: 4px 12px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+/*
+ * 子の行（フィード・リスト・コミュニティ）は上の段の直下に並ぶ。字下げはしない（狭い列で左が空くだけ、2026-10-27 所有者の指定）。
+ * 列の中は全体が縦に流れる（.v2__tabs-column の overflow-y）。
+ */
+.v2-mc__sub {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+
+.v2 .v2__workspace .v2__frame > .v2__tabs-column .v2-mc__row--edit { cursor: default; }
+.v2 .v2__workspace .v2__frame > .v2__tabs-column .v2-mc__step {
+  flex: none;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: var(--interactive);
+  color: var(--text);
+  font: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+.v2 .v2__workspace .v2__frame > .v2__tabs-column .v2-mc__step:disabled { color: var(--muted); cursor: default; }
+.v2 .v2__workspace .v2__frame > .v2__tabs-column .v2-mc__step:focus-visible,
+.v2 .v2__workspace .v2__frame > .v2__tabs-column .v2-mc__text-button:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+.v2 .v2__workspace .v2__frame > .v2__tabs-column .v2-mc__text-button {
+  flex: none;
+  align-self: flex-start;
+  min-height: 32px;
+  margin: 4px 0 0;
+  padding: 0 12px;
+  border: 0;
+  border-radius: 12px;
+  background: transparent;
+  color: var(--muted);
+  font: inherit;
+  font-size: 13px;
+  cursor: pointer;
+}
+.v2 .v2__workspace .v2__frame > .v2__tabs-column .v2-mc__text-button:hover { background: var(--interactive); color: var(--text); }
+
+.v2-mc__divider {
+  flex: none;
+  width: 100%;
+  height: 0;
+  margin: 8px 0;
+  border: 0;
+  border-top: 1px solid var(--line);
+}
+
+.v2-mc__more {
+  flex: none;
+  height: 1px;
+}
+
+/* 本文の上のチップの行（すべて・分類・フォロー中のタグ）。選択は反転。 */
+.v2-mc-chips {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin: 0 0 12px;
+  min-width: 0;
+}
+
+.v2-mc-chips .ui-chip-row {
+  flex: 1 1 auto;
+  min-width: 0;
+  margin: 0;
+  padding-inline: 0;
+  -webkit-mask-image: none;
+  mask-image: none;
+}
+
+.v2-mc-chips__step {
+  flex: none;
+  display: inline-grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: var(--interactive);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.v2-mc-chips__step[hidden] { display: none; }
+.v2-mc-chips__step:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+.v2-mc-chips__step .v2-icon { width: 18px; height: 18px; }
+
+/* ホームの縦長の棚（9:16）。 */
+.v2-short-shelf { margin: 0 0 20px; }
+.v2-short-shelf__title { margin: 0 0 var(--v2-space-2); font-size: var(--type-headline-size); font-weight: var(--type-headline-weight); line-height: var(--type-headline-leading); color: var(--text); }
+.v2-short-shelf__track {
+  display: flex;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  scrollbar-width: thin;
+}
+.v2-short-shelf__track > li { flex: none; width: 180px; scroll-snap-align: start; }
+.v2-short-shelf__track { -webkit-mask-image: linear-gradient(to right, var(--text) calc(100% - 24px), transparent); mask-image: linear-gradient(to right, var(--text) calc(100% - 24px), transparent); }
+
+/* 携帯幅では列が上の1行になる。上の段だけを横に並べる。 */
+@media (max-width: 759px) {
+  .v2 .v2__workspace .v2__frame > .v2__tabs-column > .v2-mc { flex-direction: row; align-items: center; }
+  .v2 .v2__workspace .v2__frame > .v2__tabs-column > .v2-mc > :not(.v2-mc__group:first-child) { display: none; }
+  .v2 .v2__workspace .v2__frame > .v2__tabs-column .v2-mc__sub { display: none; }
+  .v2 .v2__workspace .v2__frame > .v2__tabs-column > .v2-mc > .v2-mc__group:first-child { flex-direction: row; }
+  .v2 .v2__workspace .v2__frame > .v2__tabs-column .v2-mc__row { width: auto; padding: 0 12px; white-space: nowrap; }
+  .v2 .v2__workspace .v2__frame > .v2__tabs-column .v2-mc__icon { display: none; }
+}
+
+/* タイムラインの上の並びのタブ（おすすめ・フォロー中・人気）。X と同じく等幅で横に並び、選択中だけ下線。 */
+.v2-feed-tabs {
+  display: flex;
+  margin: 0 0 12px;
+  border-bottom: var(--divider);
+}
+.v2-feed-tabs__tab {
+  flex: 0 0 auto;
+  min-width: 0;
+  min-height: 44px;
+  padding: 0 var(--v2-space-4);
+  display: inline-flex;
+  align-items: center;
+  color: var(--muted);
+  font-size: var(--type-callout-size);
+  line-height: var(--type-callout-leading);
+  font-weight: var(--type-callout-weight);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background var(--dur-fast) var(--ease-out), color var(--dur-fast) var(--ease-out);
+}
+.v2-feed-tabs__tab:hover { background: var(--interactive); color: var(--text); }
+.v2-feed-tabs__tab[aria-current="page"] {
+  color: var(--text);
+  box-shadow: inset 0 -2px 0 var(--emphasis);
+}
+/* 左寄せの下線タブ（X・YouTube と同じ）。等分に引き伸ばさない。種類の多い並び（タグ頁）は、あふれたら横に送る。 */
+.v2-feed-tabs--many { overflow-x: auto; scrollbar-width: none; }
+.v2-feed-tabs__tab:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: -2px; }
+
+/* 携帯幅だけの、本人のリスト・登録したコミュニティの横一列。広い幅では左の列に同じ行がある。 */
+.v2-feed-subnav { display: none; }
+@media (max-width: 759px) {
+  .v2-feed-subnav { display: block; }
+}
+
+/* 他のハブの動画の棚。リンク先は相手のハブ（別タブ）。 */
+.v2-remote-videos__track > li { width: 296px; }
+.v2-remote-videos__link { color: inherit; text-decoration: none; }
+.v2-remote-videos__link::after { content: ""; position: absolute; inset: 0; }
+.v2-remote-videos__leave { display: block; color: var(--muted); font-size: var(--type-subhead-size); font-weight: 400; }

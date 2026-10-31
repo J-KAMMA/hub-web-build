@@ -1,0 +1,294 @@
+/*
+ * Interface surface contract
+ *
+ * Web and installed-app navigation are separate products over shared content
+ * and services. Viewport width controls content reflow and which web column is
+ * present; it does not decide whether app-only gestures, haptics, drawers, or
+ * the compose FAB are enabled.
+ */
+
+html[data-hub-surface="web"] {
+  --hub-surface-navigation: web;
+}
+
+html[data-hub-surface="app"] {
+  --hub-surface-navigation: app;
+}
+
+html[data-hub-surface="web"] :where(
+  .shell__mobile-drawer-backdrop,
+  .shell__page-left-backdrop,
+  .shell__mobile-hub-label,
+  .route-transition-indicator,
+  .mobile-connection-status
+) {
+  display: none !important;
+}
+
+/*
+ * The composer is a dialog on both surfaces. On the web the sidebar's compose
+ * button opens it, so the floating button is only needed below 760px, where
+ * the left column is withdrawn. compose-dialog.css reveals it there.
+ */
+@media (min-width: 760px) {
+  html[data-hub-surface="web"] .mobile-compose-fab {
+    display: none !important;
+  }
+}
+
+/*
+ * The compact bottom bar is the web surface's navigation below 760px, where
+ * the left column is withdrawn. Above that width the left column is present,
+ * so the bar stays out of the way. Gestures, haptics, drawers and the compose
+ * FAB remain app-only regardless of width.
+ */
+@media (min-width: 760px) {
+  html[data-hub-surface="web"] .shell__mobile-bottom-nav {
+    display: none !important;
+  }
+}
+
+html[data-hub-surface="web"] .shell__desktop-rail-label {
+  display: inline-flex !important;
+}
+
+html[data-hub-surface="web"] body:has(.shell__mobile-bottom-nav) #hub-main {
+  padding-bottom: 0 !important;
+}
+
+@media (max-width: 1023px) {
+  html[data-hub-surface="web"] .shell,
+  html[data-hub-surface="web"] .shell.shell--with-rail {
+    grid-template-columns: var(--left-width, 58px) minmax(0, 1fr) !important;
+    width: 100% !important;
+    min-height: 100dvh !important;
+    padding-bottom: 0 !important;
+  }
+
+  html[data-hub-surface="web"] .shell__left {
+    position: sticky !important;
+    z-index: 20 !important;
+    inset: 0 auto auto 0 !important;
+    display: block !important;
+    width: var(--left-width, 58px) !important;
+    height: 100dvh !important;
+    transform: none !important;
+  }
+
+  html[data-hub-surface="web"] .sidebar,
+  html[data-hub-surface="web"] .sidebar.sidebar--collapsed {
+    display: flex !important;
+    width: 100% !important;
+    min-height: 100dvh !important;
+    max-height: 100dvh !important;
+    flex-direction: column !important;
+    padding: 10px 7px !important;
+    overflow: hidden !important;
+    border-top: 0 !important;
+    border-right: var(--divider) !important;
+    border-radius: 0 !important;
+    background: var(--panel) !important;
+    backdrop-filter: none !important;
+  }
+
+  html[data-hub-surface="web"] .sidebar__brand {
+    display: none !important;
+  }
+
+  html[data-hub-surface="web"] .sidebar__footer {
+    display: grid !important;
+    flex: 0 0 auto !important;
+    gap: 6px !important;
+    margin-top: 6px !important;
+  }
+
+  html[data-hub-surface="web"] .sidebar__nav {
+    display: grid !important;
+    flex: 1 1 auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    grid-auto-rows: 44px !important;
+    align-content: start !important;
+    justify-content: stretch !important;
+    gap: 6px !important;
+    margin-top: 54px !important;
+    padding: 0 !important;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    overscroll-behavior: contain;
+    scrollbar-gutter: stable;
+    scrollbar-width: thin;
+    scrollbar-color: var(--line-strong) transparent;
+  }
+
+  html[data-hub-surface="web"] .sidebar__link {
+    position: relative !important;
+    z-index: 1 !important;
+    display: grid !important;
+    width: 44px !important;
+    min-width: 44px !important;
+    height: 44px !important;
+    min-height: 44px !important;
+    place-items: center !important;
+    padding: 0 !important;
+    border-radius: 12px !important;
+    touch-action: manipulation;
+  }
+
+  html[data-hub-surface="web"] .sidebar__link:focus-visible {
+    outline: 3px solid var(--focus-ring) !important;
+    outline-offset: 1px !important;
+  }
+
+  html[data-hub-surface="web"] .sidebar__link:is(:hover, .sidebar__link--active) {
+    background: var(--interactive) !important;
+    color: var(--text) !important;
+  }
+
+  html[data-hub-surface="web"] .sidebar__nav::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  html[data-hub-surface="web"] .sidebar__nav::-webkit-scrollbar-thumb {
+    border-radius: 999px;
+    background: var(--line-strong);
+  }
+
+  html[data-hub-surface="web"] .sidebar__link-copy,
+  html[data-hub-surface="web"] .sidebar__badge + .sidebar__link-copy {
+    display: none !important;
+  }
+
+  html[data-hub-surface="web"] .sidebar:not(.sidebar--collapsed) .sidebar__link {
+    width: 100% !important;
+    grid-template-columns: 44px minmax(0, 1fr) !important;
+    justify-items: start !important;
+    padding-right: 10px !important;
+  }
+
+  html[data-hub-surface="web"] .sidebar:not(.sidebar--collapsed) .sidebar__link-copy {
+    display: grid !important;
+    min-width: 0 !important;
+  }
+
+  html[data-hub-surface="web"] .sidebar:not(.sidebar--collapsed) :is(
+    .sidebar__compose-label,
+    .sidebar__theme-toggle > span
+  ) {
+    display: inline !important;
+  }
+
+  html[data-hub-surface="web"] .main-content {
+    grid-column: 2 !important;
+    width: 100% !important;
+    max-width: none !important;
+    min-width: 0 !important;
+  }
+
+  html[data-hub-surface="web"] :where(
+    .shell__right,
+    .shell__right-resizer,
+    .shell__rail-toggle--right,
+    .shell__rail-switcher
+  ) {
+    display: none !important;
+  }
+
+  html[data-hub-surface="web"] .shell__rail-toggle--left {
+    position: fixed !important;
+    z-index: 24 !important;
+    top: 10px !important;
+    left: 7px !important;
+    display: grid !important;
+    width: 44px !important;
+    min-width: 44px !important;
+    height: 44px !important;
+    place-items: center !important;
+    touch-action: manipulation;
+  }
+
+  html[data-hub-surface="web"] .shell__rail-toggle--left:focus-visible {
+    outline: 3px solid var(--focus-ring) !important;
+    outline-offset: 1px !important;
+  }
+}
+
+html[data-hub-surface="app"] .shell__desktop-rail-label,
+html[data-hub-surface="app"] :where(
+  .shell__right,
+  .shell__right-resizer,
+  .shell__rail-toggle--right,
+  .shell__rail-switcher
+) {
+  display: none !important;
+}
+
+/*
+ * Commerce theme contract
+ *
+ * Shopping used to force a fixed light retail palette, which made the page
+ * disagree with the selected Hub theme and caused a bright flash in automatic
+ * mode. Feature styles may keep their layout, but their visual roles must
+ * resolve through the shared semantic palette.
+ */
+:is(.market-page, .physical-commerce, .shopping-product-page) {
+  color-scheme: inherit !important;
+  --market-accent: var(--interactive);
+  --market-ink: var(--text);
+  --market-muted: var(--muted);
+  --market-canvas: var(--bg);
+  --market-surface: var(--content-surface);
+  --market-line: var(--line);
+  --market-shadow: var(--shadow);
+  background: var(--bg) !important;
+  color: var(--text) !important;
+}
+
+:is(.market-page, .shopping-product-page) :is(
+  input,
+  textarea,
+  select,
+  option,
+  .market-open-button,
+  .market-product-select-compare,
+  .market-ranking-select-compare
+) {
+  color-scheme: inherit !important;
+  border-color: var(--line) !important;
+  background: var(--control-bg) !important;
+  color: var(--text) !important;
+  -webkit-text-fill-color: var(--text) !important;
+}
+
+:is(.market-page, .shopping-product-page) :is(
+  .market-header,
+  .market-search,
+  .market-ranking-overview,
+  .market-product-card,
+  .market-product-compare-dock,
+  .shopping-product-toolbar,
+  .shopping-product-hero,
+  .shopping-product-price-box,
+  .shopping-product-offers,
+  .shopping-product-reviews,
+  .shopping-product-offer
+) {
+  border-color: var(--line) !important;
+  background: var(--content-surface) !important;
+  color: var(--text) !important;
+}
+
+@media (max-width: 1023px) {
+  html[data-hub-surface="app"] .shell,
+  html[data-hub-surface="app"] .shell.shell--with-rail {
+    grid-template-columns: minmax(0, 1fr) !important;
+    width: 100% !important;
+    min-height: 100dvh !important;
+  }
+
+  html[data-hub-surface="app"] .main-content {
+    grid-column: 1 !important;
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+}

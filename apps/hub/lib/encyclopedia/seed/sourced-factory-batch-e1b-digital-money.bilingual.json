@@ -1,0 +1,223 @@
+[
+  {
+    "slug": "blockchain-technology",
+    "topicType": "concept",
+    "categoryLabel": "コンピューター・ソフトウェア",
+    "title": "ブロックチェーン技術",
+    "summary": "ブロックチェーン技術は、参加者のコミュニティが共有する台帳を、改ざんを検出できかつ改ざんに耐える形で維持するための方法である。取引を暗号学的に署名してブロックにまとめ、各ブロックを直前のブロックと暗号学的に連結することで、過去の記録を書き換えると連結が変化し、後続のブロックからその変化を検出できる。暗号資産システムの基盤として知られるが、サプライチェーン、データレジストリ、デジタル上の身元、記録管理など他の用途にも実装されうる。",
+    "bodyMarkdown": "## 連結された台帳という仕組み\n\nブロックチェーンとは、暗号学的に署名された取引をブロックにまとめた分散型のデジタル台帳を指す。用語としては台帳そのものを指し、その台帳が利用されるネットワークはブロックチェーンネットワークと呼び分けられる。ブロックチェーン技術は、参加者のコミュニティが、改ざんを検知でき、かつ改ざんに耐える台帳を共有して維持するための方法を提供する。 [1][4][6][7][9]\n\nこの技術が扱う「改ざんへの強さ」は、二つの性質に分けて理解できる。一つは改ざん検知可能性であり、もう一つは改ざん耐性である。前者は書き換えが起きたことを気づける性質、後者は書き換えを実際に成立させにくくする性質であって、同じものではない。 [1][2][3]\n\n## ブロックの連結と検知\n\n検知可能性を生むのは、ブロック同士の暗号学的な連結である。各ブロックは前のブロックと暗号学的に結び付けられており、以前のブロックのデータが変更されると、そのブロックへの暗号学的なリンクが変化する。その変化は後続のブロックの側から検出できる。 [2][8]\n\n耐性のほうは時間の経過に伴って強まる。新しいブロックが追加されていくにつれて、古いブロックを改変することはより困難になる。つまり、記録の書き換えにくさは記録された瞬間に決まるのではなく、その後にどれだけブロックが積み上がったかに依存する。 [3]\n\n## ノードによる分散と合意\n\n台帳のコピーは単一の場所に置かれるのではなく、ネットワーク内のノードにまたがって維持される。新しいブロックは、確立された検証・合意のルールに従って追加される。各ブロックが前のブロックと暗号学的に連結されるのは、検証と合意による決定を経た後である。 [10][11]\n\n追加されたブロックはネットワーク内の台帳のコピーへ複製される。コピー同士のあいだで矛盾が生じた場合には、確立されたルールを用いて自動的に解決される。この分散した構造が暗号学的な仕組みと組み合わさることで、台帳は後からの改ざんの試みに対して耐性を持つとされる。 [12][13]\n\n## 適用される分野\n\nブロックチェーンは多くの暗号資産システムを支える基盤技術であるが、用途はそこに限られない。製造業のサプライチェーン、データレジストリ、[デジタル上の身元](/hubpedia/digital-identity)、記録管理など、性質の異なる多くのシステムに実装される可能性がある。 [5][14]\n\n## 削除と更新をめぐる制約\n\n改ざんに強い台帳という設計は、記録を後から動かせないという制約と表裏をなす。ほとんどのブロックチェーンシステムには、削除や更新を行う機能が備わっていない。誤った記録や、後から取り消す必要が生じた記録をどう扱うかは、この制約のもとで考えることになる。 [15]\n\n## 関連記事\n\n- [ブロックチェーン](/hubpedia/blockchain)\n- [公開鍵暗号](/hubpedia/public-key-cryptography)\n- [暗号化](/hubpedia/encryption)\n- [暗号標準](/hubpedia/cryptographic-standards)\n- [コンピュータネットワーク](/hubpedia/computer-network)\n- デジタル資産",
+    "sources": [
+      {
+        "url": "https://www.nist.gov/blockchain",
+        "title": "Blockchain — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The standards body's overview of the technology. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://csrc.nist.gov/glossary/term/blockchain",
+        "title": "Blockchain — NIST CSRC Glossary",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The glossary definition of the ledger itself. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Blockchain technology",
+        "summary": "Blockchain technology is a method for maintaining a ledger shared by a community of participants in a form that is both tamper-evident and tamper-resistant. Transactions are cryptographically signed and grouped into blocks, and each block is cryptographically linked to the one before it, so that rewriting a past record changes that link and the change can be detected from the blocks that follow. It is best known as the foundation of cryptocurrency systems, but it can also be implemented for other purposes such as supply chains, data registries, digital identity, and records management.",
+        "bodyMarkdown": "## A mechanism of linked ledgers\n\nA blockchain is a distributed digital ledger in which cryptographically signed transactions are grouped into blocks. As a term it refers to the ledger itself, while the network on which that ledger is used is distinguished as a blockchain network. Blockchain technology provides a way for a community of participants to share and maintain a ledger that is tamper-evident and tamper-resistant. [1][4][6][7][9]\n\nThe resistance to tampering that this technology addresses can be understood as two separate properties. One is tamper evidence, and the other is tamper resistance. The former is the property of being able to notice that a rewrite has occurred; the latter is the property of making a rewrite difficult to carry out in the first place. They are not the same thing. [1][2][3]\n\n## Linking and detecting blocks\n\nWhat produces evidence of tampering is the cryptographic linkage between blocks. Each block is cryptographically bound to the block before it, so that when the data in an earlier block is altered, the cryptographic link to that block changes. That change can be detected from the blocks that follow. [2][8]\n\nResistance, for its part, grows stronger with the passage of time. As new blocks are added, altering an older block becomes more difficult. In other words, how hard a record is to rewrite is not fixed at the moment it is recorded; it depends on how many blocks have accumulated on top of it since. [3]\n\n## Distribution and consensus across nodes\n\nCopies of the ledger are not held in a single location but maintained across the nodes in the network. New blocks are added according to established rules of verification and consensus. Each block is cryptographically linked to the previous one only after a decision has been reached through verification and consensus. [10][11]\n\nOnce added, a block is replicated to the copies of the ledger across the network. When inconsistencies arise between copies, they are resolved automatically using established rules. This distributed structure, combined with the cryptographic mechanisms, is what gives the ledger its resistance to later attempts at tampering. [12][13]\n\n## Fields of application\n\nBlockchain is the foundational technology behind many cryptocurrency systems, but its uses are not limited to them. It may be implemented in many systems of quite different character, including manufacturing supply chains, data registries, [digital identity](/hubpedia/digital-identity), and records management. [5][14]\n\n## Constraints on deletion and updating\n\nThe design of a tamper-resistant ledger is inseparable from the constraint that records cannot be moved after the fact. Most blockchain systems provide no capability for deletion or updating. How to handle erroneous records, or records that later need to be revoked, must be considered under this constraint. [15]\n\n## Related articles\n\n- [Blockchain](/hubpedia/blockchain)\n- [Public-key cryptography](/hubpedia/public-key-cryptography)\n- [Encryption](/hubpedia/encryption)\n- [Cryptographic standards](/hubpedia/cryptographic-standards)\n- [Computer network](/hubpedia/computer-network)\n- Digital asset"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:17:25.453Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "ブロックチェーン技術は、参加者コミュニティが共有される改ざん検知可能かつ改ざん耐性のあるデジタル台帳を維持する方法を提供する。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/blockchain",
+              "quote": "Blockchain technology provides a way for a community of participants to maintain a shared, tamper-evident, and tamper-resistant digital ledger."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "各ブロックは前のブロックと暗号学的に連結されており、これによって台帳が改ざん検知可能になっている。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/blockchain",
+              "quote": "Each block is cryptographically linked to the previous block, making the ledger tamper evident."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "新しいブロックが追加されるにつれて古いブロックの改変はより困難になり、これが改ざん耐性を生む。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/blockchain",
+              "quote": "As new blocks are added, older blocks become more difficult to modify, creating tamper resistance."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "ブロックチェーンとは、暗号学的に署名された取引をブロックにまとめた分散型のデジタル台帳である。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/blockchain",
+              "quote": "A distributed digital ledger of cryptographically-signed transactions that are grouped into blocks."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "ブロックチェーンは多くの暗号資産（暗号通貨）システムを支える基盤技術であるが、他の種類のアプリケーションにも利用できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/blockchain",
+              "quote": "It is the underlying technology for many cryptocurrency systems, but it can also be used in other types of applications."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "ブロックチェーンとは台帳そのものを指す。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/blockchain",
+              "quote": "A blockchain is the ledger itself."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "ブロックチェーンには、ブロックにまとめられた取引記録が含まれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/blockchain",
+              "quote": "It contains transactional records that are grouped into blocks."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "以前のブロックのデータが変更されると、そのブロックへの暗号学的なリンクが変化し、その変化は後続のブロックで検出できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/blockchain",
+              "quote": "If data in an earlier block is changed, the cryptographic link to that block changes, and the change can be detected in later blocks."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "ブロックチェーンネットワークとは、ブロックチェーンが利用されるネットワークのことである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/blockchain",
+              "quote": "A blockchain network is the network in which a blockchain is used."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "台帳のコピーはネットワーク内のノードにまたがって維持され、新しいブロックは確立された検証・合意ルールに従って追加される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/blockchain",
+              "quote": "Copies of the ledger are maintained across nodes in the network, and new blocks are added according to established validation and consensus rules."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "各ブロックは、検証と合意による決定を経た後に前のブロックと暗号学的に連結される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/blockchain",
+              "quote": "Each block is cryptographically linked to the previous one (making it tamper evident) after validation and undergoing a consensus decision."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "新しいブロックはネットワーク内の台帳のコピーに複製され、矛盾が生じた場合は確立されたルールを用いて自動的に解決される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/blockchain",
+              "quote": "New blocks are replicated across copies of the ledger within the network, and any conflicts are resolved automatically using established rules."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "この分散構造は暗号学的な仕組みと合わさって、台帳を後からの改ざんの試みに対して耐性のあるものにしている。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/blockchain",
+              "quote": "This distributed structure, together with cryptographic mechanisms, helps make the blockchain resilient to later attempts to alter the ledger."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "ブロックチェーン技術は、製造業のサプライチェーン、データレジストリ、デジタルID、記録管理など、多くの異なるシステムに実装される可能性がある。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/blockchain",
+              "quote": "Blockchain technology has the potential to be implemented in many different systems, including manufacturing supply chains, data registries, digital identification, and records management."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "ほとんどのブロックチェーンシステムには、削除や更新を行う機能が備わっていない。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/blockchain",
+              "quote": "enabling deletion or updating capabilities not currently found in most blockchain systems"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

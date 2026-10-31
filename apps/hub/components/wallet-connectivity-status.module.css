@@ -1,0 +1,13 @@
+.status {
+  display: grid;
+  gap: 3px;
+  padding: 11px 13px;
+  border: var(--divider);
+  border-radius: 10px;
+  background: var(--warning-bg);
+  color: var(--warning-text);
+}
+.status span {
+  font-size: .75rem;
+  line-height: 1.5;
+}

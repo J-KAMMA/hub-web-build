@@ -1,0 +1,102 @@
+.page {
+  min-height: 100%;
+}
+
+.header {
+  border-bottom: var(--divider);
+  padding: 18px 22px;
+}
+
+.header h1 {
+  font-size: 1.25rem;
+  margin: 0;
+}
+
+.header p {
+  color: var(--muted);
+  margin: 6px 0 0;
+}
+
+.list {
+  display: grid;
+}
+
+.card {
+  border-bottom: var(--divider);
+  padding: 16px 22px;
+}
+
+.identity {
+  align-items: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.identity span,
+.metadata {
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+.body {
+  line-height: 1.6;
+  margin: 8px 0 10px;
+  white-space: pre-wrap;
+}
+
+.metadata {
+  display: flex;
+  gap: 18px;
+}
+
+.card a {
+  color: var(--emphasis);
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+.empty {
+  color: var(--muted);
+  padding: 36px 22px;
+}
+
+.more {
+  background: var(--content-surface);
+  border: var(--divider);
+  border-radius: 999px;
+  color: var(--text);
+  cursor: pointer;
+  margin: 18px 22px;
+  min-height: 44px;
+  padding: 0 20px;
+}
+
+.recovery {
+  border-top: var(--divider);
+  color: var(--muted);
+  padding: 18px 22px;
+}
+
+.recovery p {
+  margin: 0;
+}
+
+.recoveryActions {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.recoveryActions .more {
+  margin: 0;
+}
+
+.recoveryActions a {
+  color: var(--emphasis);
+  min-height: 44px;
+  align-content: center;
+}

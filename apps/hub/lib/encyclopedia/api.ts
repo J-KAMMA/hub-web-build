@@ -1,0 +1,3 @@
+import { NextResponse } from "next/server";
+import { ZodError } from "zod";
+export function apiError(error: unknown) { if (error instanceof ZodError) return NextResponse.json({ error: "Invalid request.", issues: error.flatten() }, { status: 400 }); const code = typeof error === "object" && error && "code" in error ? String(error.code) : ""; if (code === "23505") return NextResponse.json({ error: "The resource already exists." }, { status: 409 }); console.error(JSON.stringify({ event: "encyclopedia_request_failed", status: "internal_error" })); return NextResponse.json({ error: "The request could not be completed." }, { status: 500 }); }

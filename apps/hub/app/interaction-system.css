@@ -1,0 +1,94 @@
+/*
+ * Cross-product interaction contract.
+ * This layer standardizes feedback and recovery without changing product semantics.
+ */
+
+.async-action-button {
+  position: relative;
+  display: inline-flex;
+  min-height: var(--ui-control-height);
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  isolation: isolate;
+}
+
+.async-action-button[data-pending="true"] {
+  cursor: wait;
+}
+
+.async-action-button__label {
+  min-width: 0;
+}
+
+.search-submit-button[data-pending="true"] .async-action-button__label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.async-action-button__spinner {
+  width: 15px;
+  height: 15px;
+  flex: 0 0 15px;
+  border: 2px solid currentColor;
+  border-inline-end-color: transparent;
+  border-radius: 999px;
+  animation: hub-action-spin .72s linear infinite;
+}
+
+:where(button, [role="button"])[aria-busy="true"] {
+  cursor: wait;
+  pointer-events: none;
+}
+
+:where(button, input, textarea, select):disabled,
+:where([role="button"])[aria-disabled="true"] {
+  cursor: not-allowed;
+  filter: saturate(.72);
+}
+
+:where(.main-content) :where(input, textarea, select)[aria-invalid="true"] {
+  border-color: var(--danger-text);
+  box-shadow: 0 0 0 3px var(--danger-bg);
+}
+
+:where(.main-content) :where([role="alert"], .inline-error) {
+  color: var(--danger-text);
+}
+
+:where(.main-content) :where([role="status"], [role="alert"]) {
+  overflow-wrap: anywhere;
+}
+
+:where(dialog, [role="dialog"]):focus-visible {
+  outline: 0;
+}
+
+:where(dialog, [role="dialog"]) :where(button, a, input, textarea, select):focus-visible {
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes hub-action-spin {
+  to { transform: rotate(1turn); }
+}
+
+@media (max-width: 760px), (pointer: coarse) {
+  :where(.main-content, .sidebar, .shell__right) :where(button, [role="button"], input, select) {
+    min-height: 44px;
+  }
+
+  :where(.main-content, .sidebar, .shell__right) :where(button, [role="button"], a) {
+    touch-action: manipulation;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .async-action-button__spinner {
+    animation-duration: 1.4s;
+  }
+}

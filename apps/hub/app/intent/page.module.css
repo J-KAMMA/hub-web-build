@@ -1,0 +1,28 @@
+.page {
+  min-height: 100%;
+  padding: clamp(16px, 3vw, 32px);
+  background: var(--bg);
+  color: var(--text);
+}
+
+.workspace {
+  width: min(100%, 980px);
+  margin: 0 auto;
+  padding: clamp(16px, 2.5vw, 28px);
+  border: var(--divider);
+  border-radius: 16px;
+  background: var(--content-surface);
+}
+
+@media (max-width: 640px) {
+  .page {
+    padding: 12px 10px 88px;
+  }
+
+  .workspace {
+    padding: 14px;
+    border-right: 0;
+    border-left: 0;
+    border-radius: 0;
+  }
+}

@@ -1,0 +1,286 @@
+-- Development-only, idempotent distribution of mock threads across every catalog board.
+INSERT OR IGNORE INTO boards(id,board_key,title,slug,description,created_at,updated_at) VALUES
+('board-cat01-board01','cat01-board01','Mock cat01-board01','/bbs/cat01-board01','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat01-board02','cat01-board02','Mock cat01-board02','/bbs/cat01-board02','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat01-board03','cat01-board03','Mock cat01-board03','/bbs/cat01-board03','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat01-board04','cat01-board04','Mock cat01-board04','/bbs/cat01-board04','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat01-board05','cat01-board05','Mock cat01-board05','/bbs/cat01-board05','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat16-board01','cat16-board01','Mock cat16-board01','/bbs/cat16-board01','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat16-board02','cat16-board02','Mock cat16-board02','/bbs/cat16-board02','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat16-board03','cat16-board03','Mock cat16-board03','/bbs/cat16-board03','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat16-board04','cat16-board04','Mock cat16-board04','/bbs/cat16-board04','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat16-board05','cat16-board05','Mock cat16-board05','/bbs/cat16-board05','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat16-board06','cat16-board06','Mock cat16-board06','/bbs/cat16-board06','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat12-board01','cat12-board01','Mock cat12-board01','/bbs/cat12-board01','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat12-board02','cat12-board02','Mock cat12-board02','/bbs/cat12-board02','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat12-board03','cat12-board03','Mock cat12-board03','/bbs/cat12-board03','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat12-board04','cat12-board04','Mock cat12-board04','/bbs/cat12-board04','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat12-board05','cat12-board05','Mock cat12-board05','/bbs/cat12-board05','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat05-board01','cat05-board01','Mock cat05-board01','/bbs/cat05-board01','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat05-board02','cat05-board02','Mock cat05-board02','/bbs/cat05-board02','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat05-board03','cat05-board03','Mock cat05-board03','/bbs/cat05-board03','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat05-board04','cat05-board04','Mock cat05-board04','/bbs/cat05-board04','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat05-board05','cat05-board05','Mock cat05-board05','/bbs/cat05-board05','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat05-board06','cat05-board06','Mock cat05-board06','/bbs/cat05-board06','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat17-board01','cat17-board01','Mock cat17-board01','/bbs/cat17-board01','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat17-board02','cat17-board02','Mock cat17-board02','/bbs/cat17-board02','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat17-board03','cat17-board03','Mock cat17-board03','/bbs/cat17-board03','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat17-board04','cat17-board04','Mock cat17-board04','/bbs/cat17-board04','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat17-board05','cat17-board05','Mock cat17-board05','/bbs/cat17-board05','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat02-board01','cat02-board01','Mock cat02-board01','/bbs/cat02-board01','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat02-board02','cat02-board02','Mock cat02-board02','/bbs/cat02-board02','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat02-board03','cat02-board03','Mock cat02-board03','/bbs/cat02-board03','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat02-board04','cat02-board04','Mock cat02-board04','/bbs/cat02-board04','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat02-board05','cat02-board05','Mock cat02-board05','/bbs/cat02-board05','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat13-board01','cat13-board01','Mock cat13-board01','/bbs/cat13-board01','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat13-board02','cat13-board02','Mock cat13-board02','/bbs/cat13-board02','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat13-board03','cat13-board03','Mock cat13-board03','/bbs/cat13-board03','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat13-board04','cat13-board04','Mock cat13-board04','/bbs/cat13-board04','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat13-board05','cat13-board05','Mock cat13-board05','/bbs/cat13-board05','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat03-board01','cat03-board01','Mock cat03-board01','/bbs/cat03-board01','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat03-board02','cat03-board02','Mock cat03-board02','/bbs/cat03-board02','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat03-board03','cat03-board03','Mock cat03-board03','/bbs/cat03-board03','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat03-board04','cat03-board04','Mock cat03-board04','/bbs/cat03-board04','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat03-board05','cat03-board05','Mock cat03-board05','/bbs/cat03-board05','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat03-board06','cat03-board06','Mock cat03-board06','/bbs/cat03-board06','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat03-board07','cat03-board07','Mock cat03-board07','/bbs/cat03-board07','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat24-board01','cat24-board01','Mock cat24-board01','/bbs/cat24-board01','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat24-board02','cat24-board02','Mock cat24-board02','/bbs/cat24-board02','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat24-board03','cat24-board03','Mock cat24-board03','/bbs/cat24-board03','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat24-board04','cat24-board04','Mock cat24-board04','/bbs/cat24-board04','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat24-board05','cat24-board05','Mock cat24-board05','/bbs/cat24-board05','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat08-board01','cat08-board01','Mock cat08-board01','/bbs/cat08-board01','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat08-board02','cat08-board02','Mock cat08-board02','/bbs/cat08-board02','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat08-board03','cat08-board03','Mock cat08-board03','/bbs/cat08-board03','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat08-board04','cat08-board04','Mock cat08-board04','/bbs/cat08-board04','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat08-board05','cat08-board05','Mock cat08-board05','/bbs/cat08-board05','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat08-board06','cat08-board06','Mock cat08-board06','/bbs/cat08-board06','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat08-board07','cat08-board07','Mock cat08-board07','/bbs/cat08-board07','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat15-board01','cat15-board01','Mock cat15-board01','/bbs/cat15-board01','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat15-board02','cat15-board02','Mock cat15-board02','/bbs/cat15-board02','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat15-board03','cat15-board03','Mock cat15-board03','/bbs/cat15-board03','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat15-board04','cat15-board04','Mock cat15-board04','/bbs/cat15-board04','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat15-board05','cat15-board05','Mock cat15-board05','/bbs/cat15-board05','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat10-board01','cat10-board01','Mock cat10-board01','/bbs/cat10-board01','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat10-board02','cat10-board02','Mock cat10-board02','/bbs/cat10-board02','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat10-board03','cat10-board03','Mock cat10-board03','/bbs/cat10-board03','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat10-board04','cat10-board04','Mock cat10-board04','/bbs/cat10-board04','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat10-board05','cat10-board05','Mock cat10-board05','/bbs/cat10-board05','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat06-board01','cat06-board01','Mock cat06-board01','/bbs/cat06-board01','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat06-board02','cat06-board02','Mock cat06-board02','/bbs/cat06-board02','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat06-board03','cat06-board03','Mock cat06-board03','/bbs/cat06-board03','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat06-board04','cat06-board04','Mock cat06-board04','/bbs/cat06-board04','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat06-board05','cat06-board05','Mock cat06-board05','/bbs/cat06-board05','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat18-board01','cat18-board01','Mock cat18-board01','/bbs/cat18-board01','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat18-board02','cat18-board02','Mock cat18-board02','/bbs/cat18-board02','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat18-board03','cat18-board03','Mock cat18-board03','/bbs/cat18-board03','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat18-board04','cat18-board04','Mock cat18-board04','/bbs/cat18-board04','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat18-board05','cat18-board05','Mock cat18-board05','/bbs/cat18-board05','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat18-board06','cat18-board06','Mock cat18-board06','/bbs/cat18-board06','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat18-board07','cat18-board07','Mock cat18-board07','/bbs/cat18-board07','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat18-board08','cat18-board08','Mock cat18-board08','/bbs/cat18-board08','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat18-board09','cat18-board09','Mock cat18-board09','/bbs/cat18-board09','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat18-board10','cat18-board10','Mock cat18-board10','/bbs/cat18-board10','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat18-board11','cat18-board11','Mock cat18-board11','/bbs/cat18-board11','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat18-board12','cat18-board12','Mock cat18-board12','/bbs/cat18-board12','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat18-board13','cat18-board13','Mock cat18-board13','/bbs/cat18-board13','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat14-board01','cat14-board01','Mock cat14-board01','/bbs/cat14-board01','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat14-board02','cat14-board02','Mock cat14-board02','/bbs/cat14-board02','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat14-board03','cat14-board03','Mock cat14-board03','/bbs/cat14-board03','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat14-board04','cat14-board04','Mock cat14-board04','/bbs/cat14-board04','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat14-board05','cat14-board05','Mock cat14-board05','/bbs/cat14-board05','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat11-board01','cat11-board01','Mock cat11-board01','/bbs/cat11-board01','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat11-board02','cat11-board02','Mock cat11-board02','/bbs/cat11-board02','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat11-board03','cat11-board03','Mock cat11-board03','/bbs/cat11-board03','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat11-board04','cat11-board04','Mock cat11-board04','/bbs/cat11-board04','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat11-board05','cat11-board05','Mock cat11-board05','/bbs/cat11-board05','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat09-board01','cat09-board01','Mock cat09-board01','/bbs/cat09-board01','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat09-board02','cat09-board02','Mock cat09-board02','/bbs/cat09-board02','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat09-board03','cat09-board03','Mock cat09-board03','/bbs/cat09-board03','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat09-board04','cat09-board04','Mock cat09-board04','/bbs/cat09-board04','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat09-board05','cat09-board05','Mock cat09-board05','/bbs/cat09-board05','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat04-board01','cat04-board01','Mock cat04-board01','/bbs/cat04-board01','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat04-board02','cat04-board02','Mock cat04-board02','/bbs/cat04-board02','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat04-board03','cat04-board03','Mock cat04-board03','/bbs/cat04-board03','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat04-board04','cat04-board04','Mock cat04-board04','/bbs/cat04-board04','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat04-board05','cat04-board05','Mock cat04-board05','/bbs/cat04-board05','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat04-board06','cat04-board06','Mock cat04-board06','/bbs/cat04-board06','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat04-board07','cat04-board07','Mock cat04-board07','/bbs/cat04-board07','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat04-board08','cat04-board08','Mock cat04-board08','/bbs/cat04-board08','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat20-board01','cat20-board01','Mock cat20-board01','/bbs/cat20-board01','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat20-board02','cat20-board02','Mock cat20-board02','/bbs/cat20-board02','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat20-board03','cat20-board03','Mock cat20-board03','/bbs/cat20-board03','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat20-board04','cat20-board04','Mock cat20-board04','/bbs/cat20-board04','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat20-board05','cat20-board05','Mock cat20-board05','/bbs/cat20-board05','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat23-board01','cat23-board01','Mock cat23-board01','/bbs/cat23-board01','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat23-board02','cat23-board02','Mock cat23-board02','/bbs/cat23-board02','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat23-board03','cat23-board03','Mock cat23-board03','/bbs/cat23-board03','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat23-board04','cat23-board04','Mock cat23-board04','/bbs/cat23-board04','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat23-board05','cat23-board05','Mock cat23-board05','/bbs/cat23-board05','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat19-board01','cat19-board01','Mock cat19-board01','/bbs/cat19-board01','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat19-board02','cat19-board02','Mock cat19-board02','/bbs/cat19-board02','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat19-board03','cat19-board03','Mock cat19-board03','/bbs/cat19-board03','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat19-board04','cat19-board04','Mock cat19-board04','/bbs/cat19-board04','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat19-board05','cat19-board05','Mock cat19-board05','/bbs/cat19-board05','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat19-board06','cat19-board06','Mock cat19-board06','/bbs/cat19-board06','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat19-board07','cat19-board07','Mock cat19-board07','/bbs/cat19-board07','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat22-board01','cat22-board01','Mock cat22-board01','/bbs/cat22-board01','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat22-board02','cat22-board02','Mock cat22-board02','/bbs/cat22-board02','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat22-board03','cat22-board03','Mock cat22-board03','/bbs/cat22-board03','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat22-board04','cat22-board04','Mock cat22-board04','/bbs/cat22-board04','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat22-board05','cat22-board05','Mock cat22-board05','/bbs/cat22-board05','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat21-board01','cat21-board01','Mock cat21-board01','/bbs/cat21-board01','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat21-board02','cat21-board02','Mock cat21-board02','/bbs/cat21-board02','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat21-board03','cat21-board03','Mock cat21-board03','/bbs/cat21-board03','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat21-board04','cat21-board04','Mock cat21-board04','/bbs/cat21-board04','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat21-board05','cat21-board05','Mock cat21-board05','/bbs/cat21-board05','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat25-board01','cat25-board01','Mock cat25-board01','/bbs/cat25-board01','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat25-board02','cat25-board02','Mock cat25-board02','/bbs/cat25-board02','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat25-board03','cat25-board03','Mock cat25-board03','/bbs/cat25-board03','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat25-board04','cat25-board04','Mock cat25-board04','/bbs/cat25-board04','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z'),
+('board-cat25-board05','cat25-board05','Mock cat25-board05','/bbs/cat25-board05','Development mock category','2026-07-23T00:00:00.000Z','2026-07-23T00:00:00.000Z');
+
+UPDATE threads
+SET board_id = CASE ((CAST(substr(id,-3) AS INTEGER)-1) % 139)
+    WHEN 0 THEN 'board-cat01-board01'
+    WHEN 1 THEN 'board-cat01-board02'
+    WHEN 2 THEN 'board-cat01-board03'
+    WHEN 3 THEN 'board-cat01-board04'
+    WHEN 4 THEN 'board-cat01-board05'
+    WHEN 5 THEN 'board-cat16-board01'
+    WHEN 6 THEN 'board-cat16-board02'
+    WHEN 7 THEN 'board-cat16-board03'
+    WHEN 8 THEN 'board-cat16-board04'
+    WHEN 9 THEN 'board-cat16-board05'
+    WHEN 10 THEN 'board-cat16-board06'
+    WHEN 11 THEN 'board-cat12-board01'
+    WHEN 12 THEN 'board-cat12-board02'
+    WHEN 13 THEN 'board-cat12-board03'
+    WHEN 14 THEN 'board-cat12-board04'
+    WHEN 15 THEN 'board-cat12-board05'
+    WHEN 16 THEN 'board-cat05-board01'
+    WHEN 17 THEN 'board-cat05-board02'
+    WHEN 18 THEN 'board-cat05-board03'
+    WHEN 19 THEN 'board-cat05-board04'
+    WHEN 20 THEN 'board-cat05-board05'
+    WHEN 21 THEN 'board-cat05-board06'
+    WHEN 22 THEN 'board-cat17-board01'
+    WHEN 23 THEN 'board-cat17-board02'
+    WHEN 24 THEN 'board-cat17-board03'
+    WHEN 25 THEN 'board-cat17-board04'
+    WHEN 26 THEN 'board-cat17-board05'
+    WHEN 27 THEN 'board-cat02-board01'
+    WHEN 28 THEN 'board-cat02-board02'
+    WHEN 29 THEN 'board-cat02-board03'
+    WHEN 30 THEN 'board-cat02-board04'
+    WHEN 31 THEN 'board-cat02-board05'
+    WHEN 32 THEN 'board-cat13-board01'
+    WHEN 33 THEN 'board-cat13-board02'
+    WHEN 34 THEN 'board-cat13-board03'
+    WHEN 35 THEN 'board-cat13-board04'
+    WHEN 36 THEN 'board-cat13-board05'
+    WHEN 37 THEN 'board-cat03-board01'
+    WHEN 38 THEN 'board-cat03-board02'
+    WHEN 39 THEN 'board-cat03-board03'
+    WHEN 40 THEN 'board-cat03-board04'
+    WHEN 41 THEN 'board-cat03-board05'
+    WHEN 42 THEN 'board-cat03-board06'
+    WHEN 43 THEN 'board-cat03-board07'
+    WHEN 44 THEN 'board-cat24-board01'
+    WHEN 45 THEN 'board-cat24-board02'
+    WHEN 46 THEN 'board-cat24-board03'
+    WHEN 47 THEN 'board-cat24-board04'
+    WHEN 48 THEN 'board-cat24-board05'
+    WHEN 49 THEN 'board-cat08-board01'
+    WHEN 50 THEN 'board-cat08-board02'
+    WHEN 51 THEN 'board-cat08-board03'
+    WHEN 52 THEN 'board-cat08-board04'
+    WHEN 53 THEN 'board-cat08-board05'
+    WHEN 54 THEN 'board-cat08-board06'
+    WHEN 55 THEN 'board-cat08-board07'
+    WHEN 56 THEN 'board-cat15-board01'
+    WHEN 57 THEN 'board-cat15-board02'
+    WHEN 58 THEN 'board-cat15-board03'
+    WHEN 59 THEN 'board-cat15-board04'
+    WHEN 60 THEN 'board-cat15-board05'
+    WHEN 61 THEN 'board-cat10-board01'
+    WHEN 62 THEN 'board-cat10-board02'
+    WHEN 63 THEN 'board-cat10-board03'
+    WHEN 64 THEN 'board-cat10-board04'
+    WHEN 65 THEN 'board-cat10-board05'
+    WHEN 66 THEN 'board-cat06-board01'
+    WHEN 67 THEN 'board-cat06-board02'
+    WHEN 68 THEN 'board-cat06-board03'
+    WHEN 69 THEN 'board-cat06-board04'
+    WHEN 70 THEN 'board-cat06-board05'
+    WHEN 71 THEN 'board-cat18-board01'
+    WHEN 72 THEN 'board-cat18-board02'
+    WHEN 73 THEN 'board-cat18-board03'
+    WHEN 74 THEN 'board-cat18-board04'
+    WHEN 75 THEN 'board-cat18-board05'
+    WHEN 76 THEN 'board-cat18-board06'
+    WHEN 77 THEN 'board-cat18-board07'
+    WHEN 78 THEN 'board-cat18-board08'
+    WHEN 79 THEN 'board-cat18-board09'
+    WHEN 80 THEN 'board-cat18-board10'
+    WHEN 81 THEN 'board-cat18-board11'
+    WHEN 82 THEN 'board-cat18-board12'
+    WHEN 83 THEN 'board-cat18-board13'
+    WHEN 84 THEN 'board-cat14-board01'
+    WHEN 85 THEN 'board-cat14-board02'
+    WHEN 86 THEN 'board-cat14-board03'
+    WHEN 87 THEN 'board-cat14-board04'
+    WHEN 88 THEN 'board-cat14-board05'
+    WHEN 89 THEN 'board-cat11-board01'
+    WHEN 90 THEN 'board-cat11-board02'
+    WHEN 91 THEN 'board-cat11-board03'
+    WHEN 92 THEN 'board-cat11-board04'
+    WHEN 93 THEN 'board-cat11-board05'
+    WHEN 94 THEN 'board-cat09-board01'
+    WHEN 95 THEN 'board-cat09-board02'
+    WHEN 96 THEN 'board-cat09-board03'
+    WHEN 97 THEN 'board-cat09-board04'
+    WHEN 98 THEN 'board-cat09-board05'
+    WHEN 99 THEN 'board-cat04-board01'
+    WHEN 100 THEN 'board-cat04-board02'
+    WHEN 101 THEN 'board-cat04-board03'
+    WHEN 102 THEN 'board-cat04-board04'
+    WHEN 103 THEN 'board-cat04-board05'
+    WHEN 104 THEN 'board-cat04-board06'
+    WHEN 105 THEN 'board-cat04-board07'
+    WHEN 106 THEN 'board-cat04-board08'
+    WHEN 107 THEN 'board-cat20-board01'
+    WHEN 108 THEN 'board-cat20-board02'
+    WHEN 109 THEN 'board-cat20-board03'
+    WHEN 110 THEN 'board-cat20-board04'
+    WHEN 111 THEN 'board-cat20-board05'
+    WHEN 112 THEN 'board-cat23-board01'
+    WHEN 113 THEN 'board-cat23-board02'
+    WHEN 114 THEN 'board-cat23-board03'
+    WHEN 115 THEN 'board-cat23-board04'
+    WHEN 116 THEN 'board-cat23-board05'
+    WHEN 117 THEN 'board-cat19-board01'
+    WHEN 118 THEN 'board-cat19-board02'
+    WHEN 119 THEN 'board-cat19-board03'
+    WHEN 120 THEN 'board-cat19-board04'
+    WHEN 121 THEN 'board-cat19-board05'
+    WHEN 122 THEN 'board-cat19-board06'
+    WHEN 123 THEN 'board-cat19-board07'
+    WHEN 124 THEN 'board-cat22-board01'
+    WHEN 125 THEN 'board-cat22-board02'
+    WHEN 126 THEN 'board-cat22-board03'
+    WHEN 127 THEN 'board-cat22-board04'
+    WHEN 128 THEN 'board-cat22-board05'
+    WHEN 129 THEN 'board-cat21-board01'
+    WHEN 130 THEN 'board-cat21-board02'
+    WHEN 131 THEN 'board-cat21-board03'
+    WHEN 132 THEN 'board-cat21-board04'
+    WHEN 133 THEN 'board-cat21-board05'
+    WHEN 134 THEN 'board-cat25-board01'
+    WHEN 135 THEN 'board-cat25-board02'
+    WHEN 136 THEN 'board-cat25-board03'
+    WHEN 137 THEN 'board-cat25-board04'
+    WHEN 138 THEN 'board-cat25-board05'
+  END
+WHERE id LIKE 'mock-thread-%';
+

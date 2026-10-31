@@ -1,0 +1,2115 @@
+[
+  {
+    "slug": "agricultural-productivity",
+    "topicType": "concept",
+    "categoryLabel": "経済・ビジネス",
+    "title": "農業生産性",
+    "summary": "農業生産性は、単位面積・単位投入あたりにどれだけの農産物が得られるかを表す概念である。過去60年で小麦の収量は1ヘクタール当たり約1トンから3.5トンへ増加し、一定量の作物を育てるのに必要な土地は3分の1以下になった。それでも世界の農業用地は48億ヘクタールに達し、その大半が食肉・乳製品の生産に充てられている。",
+    "bodyMarkdown": "## 収量で測る農業\n\n同じ量の小麦を得るのに、いま必要な畑は60年前の3分の1以下で足りる。世界の農家が1ヘクタール当たり生産する小麦は、当時の約1トンから3.5トンへと3.5倍になった。この「単位面積あたりどれだけ穫れるか」を収量と呼び、農業生産性の中心的な指標として扱われる。 [4][12]\n\n伸びたのは小麦だけではない。同じ60年間に、バナナ、トマト、コーヒーの収量も世界的に少なくとも2倍になっている。収量の改善は、食料生産の環境負荷を抑えながら増える人口を養う上で不可欠だったとされる。 [22][23]\n\n収量が上がると、同じ収穫量をより狭い土地で得られる。したがって作物収量を増やすことは、農業に使う土地の量を減らす手段になりうる。 [24]\n\n## 土地への影響\n\n生産性の議論が土地と結びつくのは、農地の広がりが生物多様性に及ぼす影響が大きいためである。農地としての土地利用は、長期にわたり世界の生物多様性破壊の主な要因となってきた。 [1]\n\n規模を確かめておくと、地球の陸地面積は約1億5000万平方キロメートルある。そのほぼ3分の1は岩石・砂漠・氷河に覆われて植生がなく、残りの71%はかつて森林・低木・草原などの原生自然だった。現在そのうち4800万平方キロメートルが農業に使われており、米国の面積のおよそ5倍にあたる。 [2][3][6][7]\n\n生産性の向上は、この面積を一人当たりで見ると効果がはっきりする。一人当たりの農地利用面積は半分以上減少し、同時に世界のすべての地域で一人当たりの食料供給量が増加した。 [8][9]\n\nただし総量としての農地は縮んでいない。世界全体の農業用地は今なお48億ヘクタールという巨大な規模であり、世界の耕作地はまだピークに達せず、依然として拡大している。一人当たりの節約と、絶対面積の推移は別の話である。 [10][11]\n\n## 食肉・乳製品が占める割合\n\n農地の用途は食用作物に偏っていない。世界の農業用地の77%が食肉・乳製品用の家畜飼育に使われており、大半は放牧地か家畜飼料用の耕作地である。耕作地に限っても、そのほぼ半分が家畜飼料の生産に充てられている。 [5][13][20]\n\n面積にすると合計約3800万平方キロメートルで、3815万平方キロメートルの南北アメリカ大陸全体の面積に匹敵する。そこから得られる食料は、世界のタンパク質のおよそ40%を供給する一方、カロリーでは18%にしかならない。 [14][15][21]\n\nこの不均衡は、動物を経由することで生じる。植物を食べる動物を食べるよりも、植物を直接食べる方が効率的であり、食肉生産は食料生産のための土地利用として特に非効率的な方法だとされる。世界の人々が植物性食生活に切り替えれば、農業のための世界の土地利用は75%削減できるという推計がある。 [16][17][18]\n\n## 収量ギャップと今後の需要\n\n収量は地域によって大きく異なる。世界とアフリカにおける収量ギャップは、主に使用されている技術の違いに起因するとされるが、この点は他の指摘に比べて確度が低い。 [25]\n\n需要の側も動いている。今世紀半ばまでに、世界の食料需要は35%から56%増加すると見込まれている。収量が伸びれば必要な土地は減るが、耕作地が現に拡大を続けている以上、生産性の向上がそのまま農地の縮小に結びつくとは限らない。 [11][19][24]\n\n## 関連記事\n\n- [土地利用](/hubpedia/land-use)\n- [食生活と土地利用](/hubpedia/diet-and-land)\n- [食肉生産](/hubpedia/meat-production)\n- [農地のピーク](/hubpedia/peak-farmland)\n- [収量と生息地](/hubpedia/yields-and-habitat)\n- [森林転換](/hubpedia/forest-transition)\n- [生物多様性](/hubpedia/biodiversity)\n- [食料供給](/hubpedia/food-supply)",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/agricultural-productivity-crucial",
+        "title": "農業生産性",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on agricultural-productivity. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/crop-yields",
+        "title": "crop-yields",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "The yields that productivity reflects. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Agricultural productivity",
+        "summary": "Agricultural productivity is the concept of how much agricultural output is obtained per unit of land and per unit of input. Over the past 60 years, wheat yields have risen from roughly 1 tonne per hectare to 3.5 tonnes, and the land needed to grow a given quantity of crops has fallen to less than a third. Even so, the world's agricultural land amounts to 4.8 billion hectares, most of it devoted to producing meat and dairy.",
+        "bodyMarkdown": "## Agriculture measured by yield\n\nTo obtain the same amount of wheat, the field needed today is less than a third of what it was 60 years ago. The wheat produced per hectare by the world's farmers has risen 3.5-fold, from about 1 tonne at that time to 3.5 tonnes. This measure of \"how much is harvested per unit of area\" is called yield, and it is treated as the central indicator of agricultural productivity. [4][12]\n\nWheat is not the only crop that has improved. Over the same 60 years, global yields of bananas, tomatoes, and coffee have also at least doubled. Improvements in yield are held to have been indispensable for feeding a growing population while limiting the environmental burden of food production. [22][23]\n\nWhen yields rise, the same harvest can be obtained from a smaller area of land. Increasing crop yields can therefore serve as a means of reducing the amount of land used for agriculture. [24]\n\n## Effects on land\n\nProductivity is tied to the question of land because the spread of farmland has a large impact on biodiversity. Land use for agriculture has long been the principal driver of the destruction of the world's biodiversity. [1]\n\nTo put the scale in perspective, the Earth's land area is about 150 million square kilometres. Nearly a third of that is covered by rock, desert, and glaciers and carries no vegetation, while the remaining 71% was once wilderness such as forest, shrubland, and grassland. Today 48 million square kilometres of it are used for agriculture, roughly five times the area of the United States. [2][3][6][7]\n\nThe effect of rising productivity becomes clear when this area is viewed on a per-person basis. Agricultural land use per person has fallen by more than half, and at the same time food supply per person has increased in every region of the world. [8][9]\n\nFarmland in total, however, has not shrunk. The world's agricultural land still stands at the enormous figure of 4.8 billion hectares, and global cropland has not yet peaked but continues to expand. Savings per person and the trajectory of the absolute area are two different stories. [10][11]\n\n## The share taken by meat and dairy\n\nThe uses of farmland are not weighted toward food crops. 77% of the world's agricultural land is used to raise livestock for meat and dairy, most of it as pasture or as cropland for animal feed. Even among cropland alone, nearly half is given over to producing feed for livestock. [5][13][20]\n\nIn area terms this comes to about 38 million square kilometres in total, comparable to the 38.15 million square kilometres of the Americas as a whole. The food obtained from it supplies roughly 40% of the world's protein, yet accounts for only 18% of its calories. [14][15][21]\n\nThis imbalance arises from routing food through animals. Eating plants directly is more efficient than eating animals that eat plants, and meat production is regarded as a particularly inefficient way of using land for food production. It has been estimated that if the world's population shifted to a plant-based diet, global land use for agriculture could be cut by 75%. [16][17][18]\n\n## Yield gaps and future demand\n\nYields differ greatly by region. The yield gap between the world and Africa is attributed mainly to differences in the technology in use, though this point is less certain than the other claims here. [25]\n\nDemand is shifting too. By the middle of this century, global food demand is projected to increase by 35% to 56%. Rising yields reduce the land required, but as long as cropland is in fact continuing to expand, gains in productivity do not necessarily translate into a shrinking area of farmland. [11][19][24]\n\n## Related articles\n\n- [Land use](/hubpedia/land-use)\n- [Diet and land use](/hubpedia/diet-and-land)\n- [Meat production](/hubpedia/meat-production)\n- [Peak farmland](/hubpedia/peak-farmland)\n- [Yields and habitat](/hubpedia/yields-and-habitat)\n- [Forest transition](/hubpedia/forest-transition)\n- [Biodiversity](/hubpedia/biodiversity)\n- [Food supply](/hubpedia/food-supply)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T12:19:26.043Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "農地としての土地利用は、長期にわたり世界の生物多様性破壊の主な要因となってきた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/agricultural-productivity-crucial",
+              "quote": "The use of land for agriculture has been the main driver of the destruction of the world's biodiversity for a very long time."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "地球の陸地面積は約1億5000万平方キロメートルである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/agricultural-productivity-crucial",
+              "quote": "Our planet has a land surface of about 150 million square kilometers."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "現在、世界の農業に使われている土地面積は4800万平方キロメートルであり、これは米国の面積のおよそ5倍にあたる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/agricultural-productivity-crucial",
+              "quote": "The global land area used for agriculture today measures 48 million square kilometers."
+            },
+            {
+              "sourceUrl": "https://ourworldindata.org/agricultural-productivity-crucial",
+              "quote": "that’s an area around five times the size of the United States"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "60年前、世界の農家は1ヘクタール当たり約1トンの小麦を生産していたが、その後3.5トンまで増加し、小麦の収量は3.5倍に増加した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/agricultural-productivity-crucial",
+              "quote": "Sixty years ago, the world’s farmers produced around one tonne of wheat per hectare of land. Since then it has increased to three and a half tonnes. This means that wheat yields have increased 3.5-fold."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "世界の農業用地の77%が食肉・乳製品用の家畜飼育に使われている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/agricultural-productivity-crucial",
+              "quote": "77% of all agricultural land is used to raise livestock for meat and dairy."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "地球の陸地面積のほぼ3分の1は植生がなく、岩石・砂漠・氷河に覆われている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/agricultural-productivity-crucial",
+              "quote": "Almost a third of it is free of vegetation. It is covered by rocks, deserts, and glaciers"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "地球の陸地面積の残り71%は、かつて森林・低木・草原などの原生自然に覆われていた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/agricultural-productivity-crucial",
+              "quote": "The remaining 71% of the planet’s land surface was once covered by wilderness: large forests, shrubs, and grasslands."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "一人当たりの農地利用面積は半分以上減少した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/agricultural-productivity-crucial",
+              "quote": "The chart shows that land use per person declined by more than half."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "世界のすべての地域で、一人当たりの食料供給量は増加した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/agricultural-productivity-crucial",
+              "quote": "food supply per person increased in every region of the world"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "世界全体の農業用地面積は今なお48億ヘクタールという巨大な規模である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/agricultural-productivity-crucial",
+              "quote": "it is still an enormous 4.8 billion hectares"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "世界の耕作地はまだピークに達しておらず、依然として拡大している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/agricultural-productivity-crucial",
+              "quote": "Global croplands have not yet peaked and are still expanding."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "生産性の向上により、一定量の作物を育てるのに必要な土地面積は過去60年で3倍以上減少した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/agricultural-productivity-crucial",
+              "quote": "the land area to grow a given quantity of crops has declined more than three-fold in the last sixty years"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "現在の世界の農地の大半は、放牧地または家畜飼料用の耕作地として、食肉と乳製品の生産に使われている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/agricultural-productivity-crucial",
+              "quote": "Most of the world’s farmland today is used for the production of meat and dairy, either as grazing land or cropland to grow animal feed."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "食肉・乳製品生産に使われる土地は合計約3800万平方キロメートルで、南北アメリカ大陸全体の面積に匹敵する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/agricultural-productivity-crucial",
+              "quote": "In total, this is an area of 38 million km²."
+            },
+            {
+              "sourceUrl": "https://ourworldindata.org/agricultural-productivity-crucial",
+              "quote": "that’s the size of the total land area of the Americas"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "食肉・乳製品生産に使われる土地から得られる食料は、世界のタンパク質のおよそ40%、カロリーのわずか18%にしか寄与していない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/agricultural-productivity-crucial",
+              "quote": "the food produced on this land only contributes about 40% of the world’s protein and just 18% of the world’s calories"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "食肉生産は、食料生産のための土地利用として特に非効率的な方法である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/agricultural-productivity-crucial",
+              "quote": "meat production is a particularly inefficient way of using land for food production"
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "植物を食べる動物を食べるよりも、植物を直接食べる方が効率的である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/agricultural-productivity-crucial",
+              "quote": "It is more efficient to eat plants rather than animals that eat plants."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "世界の人々が植物性食生活に切り替えれば、農業のための世界の土地利用は75%削減できる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/agricultural-productivity-crucial",
+              "quote": "If everyone shifted to a plant-based diet, we would reduce global land use for agriculture by 75%."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "今世紀半ばまでに、世界の食料需要は35%から56%増加すると見込まれている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/agricultural-productivity-crucial",
+              "quote": "global food demand is expected to increase by 35% to 56% by the middle of this century"
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "世界の耕作地のほぼ半分は家畜飼料の生産に使われている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/agricultural-productivity-crucial",
+              "quote": "almost half of the world’s cropland is used to produce animal feed"
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "南北アメリカ大陸の総面積は3815万平方キロメートルである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/agricultural-productivity-crucial",
+              "quote": "The total land area of the Americas is 38.15 million km²."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "過去60年間で、バナナ、トマト、コーヒーの収量も世界的に少なくとも2倍になった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/agricultural-productivity-crucial",
+              "quote": "Banana yields, tomato yields, and coffee yields have also all at least doubled globally in these 60 years."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "作物収量の改善は、食料生産の環境負荷を減らしながら増加する人口を養う上で不可欠であった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/crop-yields",
+              "quote": "Improvements in crop yields have been essential to feed a growing population while reducing the environmental impact of food production at the same time."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "作物収量を増やすことで、農業に使う土地の量を減らすことができる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/crop-yields",
+              "quote": "Increasing crop yields can reduce the amount of land we use for agriculture."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "世界とアフリカにおける収量ギャップは、主に使用されている技術の違いに起因する。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/agricultural-productivity-crucial",
+              "quote": "Yield gaps across the world and Africa are largely a consequence of the dramatically different technologies being used"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "peak-farmland",
+    "topicType": "concept",
+    "categoryLabel": "地球・環境",
+    "title": "農地のピーク",
+    "summary": "農地のピークとは、世界全体で農業に使われる土地の面積が頭打ちとなり、減少に転じたとされる観測を指す。食料生産量が過去最高を更新し続ける一方で面積が縮んでいる点に特徴があり、単収の向上によって同じ生産に必要な土地が大きく減ったことが背景にある。ただし牧草地と耕作地では動きが分かれ、拡大が続く地域も残るため、世界の合計値が転じたことは各地の農地拡大が終わったことを意味しない。",
+    "bodyMarkdown": "## 農地のピークという観測\n\n世界の食料生産量はかつてないほど多い。にもかかわらず、農業に使われる土地の面積は現在減少している。農地の拡大は終わりを迎え、近年は世界全体の[農地利用](/hubpedia/land-use)が縮小に転じたとされる。この転換点を指して農地のピークと呼ぶ。 [3][4]\n\nここでいう農地は、作物栽培に使われる耕作可能地と、家畜の飼育に使われる牧草地の合計である。両者の動きは同じではない。世界の牧草地はすでにピークを迎えたが、世界の耕作地はまだピークを迎えていない。合計としての頭打ちは、この二つの異なる推移が重なった結果である。 [5][6]\n\n面積の減少と生産の増加は同時に起きている。世界の農地面積がピークを迎えて減少に転じた一方で、農業生産量はピーク後も力強く増加し続けている。 [18]\n\n## 世界の農地の規模と構成\n\n世界の土地面積は130億ヘクタールである。国連食糧農業機関（FAO）の分類では、世界の農業用地は48億ヘクタールで、世界の土地面積の37%にあたる。氷雪や不毛地を除いた居住可能な土地で見れば、その半分が農業に使われている計算になる。 [9][10][24]\n\n内訳では耕地（cropland）が33%、永年採草地・放牧地が67%を占め、家畜のための土地が最大の割合となる。規模を実感しにくい数字だが、米国（9億6300万ヘクタール）、中国（9億3200万ヘクタール）、カナダ（9億900万ヘクタール）はいずれも国土面積が10億ヘクタールに満たない。48億ヘクタールという農業用地は、こうした大国の国土を何枚も重ねた広さにあたる。 [11][12]\n\n国ごとの偏りは大きい。農業に割り当てられる土地の割合はスカンジナビア地域では10%未満だが、英国、ウルグアイ、南アフリカ、ナイジェリア、サウジアラビアなどでは約80%に達する。多くの国では耕作地よりも放牧地としての土地利用が優勢で、耕作地に充てられる面積は総面積の20%未満、10%未満の国も多い。中央アジアのモンゴル、カザフスタン、トルクメニスタンなどでは牧草地が国土の70%近くに達する一方、欧州と南アジアでは家畜のための土地利用は通常20%未満にとどまる。耕作地の割合が大きい国としては、インド、バングラデシュ、ウクライナ、デンマークが挙げられる。 [25][26][42][43][44][45]\n\n## 単収の向上と土地の節約\n\n面積が減っても生産が増える理由は、同じ量の作物を作るのに必要な土地が縮んだことにある。2014年の世界全体における耕作地面積指数は0.3であり、1961年と同量の作物生産に必要な耕作地面積はわずか30%だった。言い換えれば、2014年には1961年より70%少ない面積で同じ量の作物を生産できたことになる。 [1][2]\n\nAusubel、Wernick、Waggoner（2013年）は、農業技術の組み合わせが[単収](/hubpedia/agricultural-productivity)を高め、それが耕作地拡大への下押し圧力となって、[自然のために土地を残す](/hubpedia/yields-and-habitat)結果をもたらしたと述べている。同論文は、1990年以降、作物生産指数に対する耕作地面積の顕著な縮小が見られ、これは農家が今後も土地を節約し続ける見込みを示すものだとしている。 [7][8]\n\nこの節約は人口の伸びと同時に進んだ。[世界人口](/hubpedia/population-growth)は20世紀半ば以降2倍以上に増加したが、1人当たりの耕作地利用は1961年以降すべての地域で減少している。世界全体では1人当たりの農地利用は現在1961年の値の半分未満であり、アフリカでは1960年代の水準の3分の1未満、南アジアでも1961年の約3分の1にとどまる。地域差は残っており、1人当たりの土地利用が最も高いのは北米で、他のどの地域よりも2倍以上高い。 [27][28][29][30][31][46]\n\n## 耕作地と牧草地の分岐\n\n合計の減少を牽引しているのは牧草地である。世界の牧草地はピークを迎えたのに対し、世界の耕作地は依然として拡大を続けている。牧草地の減少幅が最も大きいのは乾燥地域で、温帯地域でも近年減少しているが、熱帯諸国では牧草地の拡大が続いている。 [6][23][35]\n\n牧草地の縮小は畜産の縮小を意味しない。世界は50年前の3倍の量の[食肉](/hubpedia/meat-production)を生産している。豚肉と鶏肉の多くは牧草地で飼育された家畜に由来せず、牛肉生産の多くも開放的な放牧からより集約的な飼育方式へ移行している。その分の需要は飼料へ移り、世界の耕作地の約半分は家畜飼料の生産に使われている。 [19][20][32][33]\n\n耕作地の中身も一様ではない。大部分は穀物生産に使われており、その面積は1961年以降約7000万ヘクタール増加した。油糧作物に使われる土地面積は同じ期間に約3倍となっている。バイオ燃料の生産も、特に米国やブラジルで耕作地への圧力を強めている。 [34][47][48]\n\n土地の必要量は生産物によって大きく違う。タンパク質1グラムあたりで比較すると、[牛肉や羊肉の生産に必要な土地](/hubpedia/diet-and-land)は穀物の最大100倍に達する。鶏肉と豚肉の土地フットプリントは牛肉の8〜10分の1である。 [49][50]\n\n## 地域による違いと推計の食い違い\n\n世界の合計が減少していても、その内訳は方向が揃っていない。農地利用は一部の国では減少しているが、他の国では依然として増加している。欧州・中央アジア（特にEU圏内）と北米では減少が見られる一方、サハラ以南アフリカと南米では土地利用が依然として拡大している。 [21][39][41]\n\nピークの時期や水準は推計によって異なる。HYDE 3.2のデータ系列によれば、土地利用は2000年代前半に最高水準に達した後減少したが、近年は小幅な反発が見られる。また、農業に使われる土地の割合は過去数十年間で世界のほとんどの地域でゆるやかに増加してきたとする見方もあり、どの指標を見るかで印象は変わる。 [38][40]\n\nそれでも結論の方向は共通している。3つの分析は農地の使用量やピークの時期について見解が一致しないが、ピークを過ぎたことでは一致している。いずれもFAOが1961年以降提供する基礎データに依拠しており、差は主に土地の区分と推計方法から生じる。 [16][17]\n\n## 自然環境との関係\n\n農地の拡大は世界の野生地破壊の最大の要因である。人類は最後の氷期の終わり以降、[世界の森林](/hubpedia/forest-area)の3分の1と野生の草地の3分の2を切り開いてきた。過去5万年で[野生哺乳類](/hubpedia/wild-mammal-decline)のバイオマスは85%減少した。農地面積が頭打ちになったという観測が注目されるのは、この圧力が緩む可能性を示すためである。 [13][14][15]\n\nただし世界合計の減少は、被害の大きい場所での拡大が止まったことを意味しない。牛肉生産のための放牧地拡大は、依然として世界的および熱帯地域の森林破壊の主要因である。熱帯林には[世界の種](/hubpedia/biodiversity)の半分以上が生息し、単位面積あたり多くの炭素を蓄積できる大きな炭素吸収源でもある。熱帯諸国では牧草地の拡大が続いているため、合計が減るなかでも生物多様性と炭素の面で失われるものは大きくなりうる。 [22][35][36][37]",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/peak-agriculture-land",
+        "title": "農地のピーク",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on peak-farmland. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/land-use",
+        "title": "land-use",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Overall land allocation. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Peak farmland",
+        "summary": "Peak farmland refers to the observation that the total area of land used for agriculture worldwide has levelled off and begun to decline. Its distinguishing feature is that the area is shrinking even as food production keeps setting new records, driven by yield improvements that have sharply reduced the land needed for the same output. Pasture and cropland have moved in different directions, however, and expansion continues in some regions, so a turn in the global total does not mean that farmland expansion has ended everywhere.",
+        "bodyMarkdown": "## The observation called peak farmland\n\nThe world produces more food than ever before. Even so, the area of land used for agriculture is now shrinking. The expansion of farmland has come to an end, and in recent years global [land use](/hubpedia/land-use) for agriculture is held to have turned downward. This turning point is what is meant by peak farmland. [3][4]\n\nFarmland here means the sum of arable land used to grow crops and pasture used to raise livestock. The two do not move in step. Global pasture has already peaked, while global cropland has not. The levelling off of the total is the result of these two different trajectories overlapping. [5][6]\n\nThe decline in area and the increase in production are happening at the same time. While the world's farmland area has peaked and begun to fall, agricultural output has continued to grow strongly past that peak. [18]\n\n## The scale and composition of the world's farmland\n\nThe world's land area is 13 billion hectares. Under the classification used by the Food and Agriculture Organization of the United Nations (FAO), global agricultural land amounts to 4.8 billion hectares, or 37% of the world's land area. Measured against habitable land — excluding ice, snow, and barren ground — half of it is used for agriculture. [9][10][24]\n\nWithin that total, cropland accounts for 33% and permanent meadows and pastures for 67%, making land for livestock the largest share. The figures are hard to picture, but the United States (963 million hectares), China (932 million hectares), and Canada (909 million hectares) each have a national territory of less than 1 billion hectares. At 4.8 billion hectares, agricultural land is equivalent to the territory of several such large countries stacked together. [11][12]\n\nThe variation between countries is wide. The share of land allocated to agriculture is under 10% in the Scandinavian region, but reaches about 80% in countries such as the United Kingdom, Uruguay, South Africa, Nigeria, and Saudi Arabia. In many countries, land use for grazing dominates over land use for crops, with the area given over to cropland under 20% of total area and, in many cases, under 10%. In Central Asia, pasture reaches nearly 70% of national territory in countries such as Mongolia, Kazakhstan, and Turkmenistan, whereas in Europe and South Asia land use for livestock is usually below 20%. Countries with a large share of cropland include India, Bangladesh, Ukraine, and Denmark. [25][26][42][43][44][45]\n\n## Rising yields and land saved\n\nThe reason production can grow while area falls is that the land needed to grow the same quantity of crops has shrunk. In 2014, the global cropland area index stood at 0.3, meaning that only 30% of the cropland area was needed to produce the same volume of crops as in 1961. Put another way, in 2014 the same quantity of crops could be produced on 70% less land than in 1961. [1][2]\n\nAusubel, Wernick, and Waggoner (2013) state that a combination of agricultural technologies raised [yields](/hubpedia/agricultural-productivity), which in turn exerted downward pressure on cropland expansion and resulted in [land spared for nature](/hubpedia/yields-and-habitat). The paper finds that since 1990 there has been a marked contraction of cropland area relative to the crop production index, which it takes as an indication that farmers are likely to keep sparing land in the future. [7][8]\n\nThis saving has proceeded alongside population growth. The [world population](/hubpedia/population-growth) has more than doubled since the middle of the twentieth century, yet per capita cropland use has fallen in every region since 1961. Globally, per capita farmland use is now less than half its 1961 value; in Africa it is less than a third of the level of the 1960s, and in South Asia about a third of the 1961 figure. Regional differences remain: per capita land use is highest in North America, more than twice as high as in any other region. [27][28][29][30][31][46]\n\n## The divergence between cropland and pasture\n\nWhat drives the decline in the total is pasture. Global pasture has peaked, whereas global cropland continues to expand. The steepest declines in pasture are in arid regions, and temperate regions have also seen declines in recent years, but pasture continues to expand in tropical countries. [6][23][35]\n\nShrinking pasture does not mean shrinking livestock production. The world produces three times as much [meat](/hubpedia/meat-production) as it did 50 years ago. Much pork and poultry does not come from animals raised on pasture, and much beef production has shifted from open grazing to more intensive systems. That demand has moved to feed instead, and roughly half of the world's cropland is used to produce animal feed. [19][20][32][33]\n\nThe composition of cropland is not uniform either. Most of it is used for cereal production, an area that has grown by about 70 million hectares since 1961. The land area used for oil crops has roughly tripled over the same period. Biofuel production is also adding to the pressure on cropland, particularly in the United States and Brazil. [34][47][48]\n\nLand requirements differ greatly by product. Per gram of protein, [the land needed to produce beef and lamb](/hubpedia/diet-and-land) is up to 100 times that of cereals. The land footprint of poultry and pork is one-eighth to one-tenth that of beef. [49][50]\n\n## Regional differences and discrepancies between estimates\n\nEven as the global total falls, its components do not all move in the same direction. Farmland use is declining in some countries but still rising in others. Declines are seen in Europe and Central Asia (particularly within the EU) and in North America, while land use is still expanding in Sub-Saharan Africa and South America. [21][39][41]\n\nThe timing and level of the peak differ between estimates. According to the HYDE 3.2 data series, land use reached its highest level in the early 2000s and then declined, with a slight rebound in recent years. There is also the view that the share of land used for agriculture has increased gradually over the past several decades across most of the world's regions, so the impression depends on which indicator one looks at. [38][40]\n\nEven so, the direction of the conclusion is shared. Three analyses disagree on the amount of farmland in use and on the timing of the peak, but they agree that the peak has passed. All of them rest on the baseline data the FAO has provided since 1961, and the differences arise mainly from how land is categorized and how the estimates are made. [16][17]\n\n## The relationship with the natural environment\n\nThe expansion of farmland is the single largest driver of the destruction of the world's wild places. Since the end of the last ice age, humanity has cleared a third of the [world's forests](/hubpedia/forest-area) and two-thirds of its wild grasslands. Over the past 50,000 years, the biomass of [wild mammals](/hubpedia/wild-mammal-decline) has fallen by 85%. The observation that farmland area has levelled off draws attention because it points to the possibility that this pressure will ease. [13][14][15]\n\nA decline in the global total does not, however, mean that expansion has stopped in the places where the damage is greatest. The expansion of grazing land for beef production remains a leading driver of deforestation both globally and in the tropics. Tropical forests are home to more than half of [the world's species](/hubpedia/biodiversity) and are also major carbon sinks capable of storing a large amount of carbon per unit of area. Because pasture continues to expand in tropical countries, what is lost in terms of biodiversity and carbon can grow even as the total shrinks. [22][35][36][37]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T12:19:26.045Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "2014年の世界全体における耕作地面積指数は0.3であり、1961年と同量の作物生産に必要な耕作地面積はわずか30%だった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "globally, in 2014, the index value was 0.3; this means only 30% of the arable land area was needed to produce the same quantity of crops relative to 1961"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "1961年と比較して2014年には70%少ない耕作地面積で同量の作物を生産できた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "70% less land was needed."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "世界の食料生産量はかつてないほど多いが、農業に使われる土地面積は現在減少している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/peak-agriculture-land",
+              "quote": "The world produces more food than ever, but the amount of land we use is now falling."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "農地の拡大は終わりを迎え、近年、世界全体の農地利用は減少している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/peak-agriculture-land",
+              "quote": "After millennia, we have passed the peak, and in recent years global agricultural land use has declined."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "農地とは、作物栽培に使われる耕作可能地と、家畜飼育に使われる牧草地の合計である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/peak-agriculture-land",
+              "quote": "Agricultural land is the total of arable land that is used to grow crops, and pasture used to raise livestock."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "世界の牧草地はピークを迎えたが、世界の耕作地はまだピークを迎えていない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/peak-agriculture-land",
+              "quote": "Global pasture has peaked. Global cropland has not."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "Ausubel、Wernick、Waggoner（2013年）は、農業技術の組み合わせが単収を高め、耕作地拡大への下押し圧力となり、自然のために土地を残す結果をもたらしたと述べている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "A combination of agricultural technologies raised yields, keeping downward pressure on the extent of cropland and sparing land for nature."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "同論文は、1990年以降、作物生産指数に対する耕作地面積の顕著な縮小が見られ、農家が今後も土地を節約し続ける見込みを示していると述べている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "The noticeable shrinkage in the extent of cropland as a function of the Crop Production index since 1990 provides encouragement that farmers will continue sparing land."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "世界の土地面積は130億ヘクタールである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "The land area of the World is 13 billion hectares."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "FAOの分類では、世界の農業用地は48億ヘクタールで、これは世界の土地面積の37%にあたる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "4.8 billion are classified as 'agricultural area' by the FAO (this is 37% of the land area)."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "世界の農業用地のうち、耕地（cropland）が33%を占め、永年採草地・放牧地が67%を占めて最大の割合となっている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "cropland (33% of the global agricultural area and permanent meadows and pastures (67%) which account for the largest share of the world's agricultural area."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "米国、カナダ、中国の国土面積はいずれも10億ヘクタールに満たない（米国9億6300万ヘクタール、中国9億3200万ヘクタール、カナダ9億900万ヘクタール）。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "The area of the USA, Canada, and China are all short of 1,000 million ha (USA 963 million ha, China 932 million ha, Canada 909 million ha)."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "人類は最後の氷期の終わり以降、世界の森林の3分の1と野生の草地の3分の2を切り開いてきた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/peak-agriculture-land",
+              "quote": "humans have cleared one-third of the world’s forests and two-thirds of wild grasslands since the end of the last ice age"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "過去5万年で野生哺乳類のバイオマスは85%減少した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/peak-agriculture-land",
+              "quote": "wild mammal biomass has declined by 85%"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "農地の拡大は世界の野生地破壊の最大の要因である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/peak-agriculture-land",
+              "quote": "Expanding agriculture has been the biggest driver of the destruction of the world’s wildlands."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "国連食糧農業機関（FAO）は1961年以降の各分析の基礎データを提供している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/peak-agriculture-land",
+              "quote": "The UN FAO produces the bedrock data for each of these analyses from 1961 onwards"
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "3つの分析は農地の使用量やピークの時期について見解が一致しないが、ピークを過ぎたことでは一致している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/peak-agriculture-land",
+              "quote": "they disagree on how much land is used for agriculture, and the time at which land use peaked. But they do agree that we have passed the peak."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "世界の農地面積はピークを迎えて減少に転じた一方、農業生産量はピーク後も力強く増加し続けている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/peak-agriculture-land",
+              "quote": "global agricultural land – the green line – has peaked while agricultural production – the brown line – has continued to increase strongly, even after this peak."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "世界は50年前の3倍の量の食肉を生産している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/peak-agriculture-land",
+              "quote": "The world produces three times as much meat as it did 50 years ago."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "世界の耕作地の約半分は家畜飼料の生産に使われている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/peak-agriculture-land",
+              "quote": "almost half of the world’s cropland is used to produce animal feed"
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "農地利用は一部の国では減少しているが、他の国では依然として増加している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/peak-agriculture-land",
+              "quote": "Agricultural land use has decreased in some countries but continues to increase in others."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "牛肉生産のための放牧地拡大は、依然として世界的（および熱帯地域）の森林破壊の主要因である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/peak-agriculture-land",
+              "quote": "the expansion of grazing land for beef production is still the leading driver of global (and tropical) deforestation"
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "世界の耕作地は依然として拡大を続けている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/peak-agriculture-land",
+              "quote": "global croplands are still expanding"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "世界の居住可能な土地の半分は農業に使われている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "Half of the world’s habitable land is used for agriculture."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "農業に割り当てられる土地の割合は国によって大きく異なり、スカンジナビア地域では10%未満だが、英国、ウルグアイ、南アフリカ、ナイジェリア、サウジアラビアなどでは約80%に達する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "Allocation ranges from less than ten percent, for example the Scandinavian region, to close to 80 percent in some countries (including the UK, Uruguay, South Africa, Nigeria, and Saudi Arabia)."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "インド、バングラデシュ、ウクライナ、デンマークは、国土面積のうち大きな割合を耕作地に充てている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "India, Bangladesh, Ukraine, and Denmark all dedicate a large share of their total land area to cropland."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "世界人口は20世紀半ば以降、2倍以上に増加した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "The global population has more than doubled since the mid-twentieth century."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "1人当たりの耕作地利用は1961年以降、すべての地域で減少している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "the arable land use per capita has declined across all regions since 1961"
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "1人当たりの土地利用が最も高いのは北米で、他のどの地域よりも2倍以上高い。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "Per capita land use is highest in North America — more than double the land use of any other region."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "世界全体で見ると、1人当たりの農地利用は現在1961年の値の半分未満になっている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "At the global level, per capita agricultural land use is now less than half its value in 1961."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "アフリカでは特に1人当たりの農地面積が劇的に減少しており、現在は1960年代の水準の3分の1未満である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "Africa, in particular, has seen dramatic reductions in agricultural land per person – it is now less than one-third of the value it was in the 1960s."
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "豚肉と鶏肉の多くは牧草地で飼育された家畜由来ではない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/peak-agriculture-land",
+              "quote": "we produce a lot of pork and chicken which are not fed on pasture"
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "牛肉生産の多くは、開放的な放牧からより集約的な飼育方式へと移行している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/peak-agriculture-land",
+              "quote": "a lot of our beef production has moved from open pasture grazing towards more intensive farming methods"
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "バイオ燃料の生産も、特に米国やブラジルで耕作地への圧力を強めている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/peak-agriculture-land",
+              "quote": "Biofuels, too, have added additional pressure on croplands, especially in countries such as the US and Brazil."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "牧草地の減少幅が最も大きいのは乾燥地域で、温帯地域でも近年減少しているが、熱帯諸国では牧草地の拡大が続いている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/peak-agriculture-land",
+              "quote": "The largest reductions in pasture have been across arid regions; temperate regions have also seen a reduction in recent decades; meanwhile, pasture has continued to expand in many tropical countries."
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "世界の種の半分以上が熱帯林に生息している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/peak-agriculture-land",
+              "quote": "Over half of the world’s species reside in tropical forests."
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "熱帯林は大きな炭素吸収源でもあり、単位面積あたり多くの炭素を蓄積できる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/peak-agriculture-land",
+              "quote": "Tropical forests are also large carbon sinks, and can store a lot of carbon per unit area."
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "HYDE 3.2のデータ系列によれば、土地利用は2000年代前半に最高水準に達した後減少したが、近年は小幅な反発が見られる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/peak-agriculture-land",
+              "quote": "land use reached its highest levels in the early 2000s and has declined since then, but is seeing a small rebound in recent years"
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "サハラ以南アフリカと南米では、土地利用が依然として拡大している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/peak-agriculture-land",
+              "quote": "Land use is still expanding across Sub-Saharan Africa and South America."
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "農業に使われる土地の割合は、過去数十年間で世界のほとんどの地域でゆるやかに増加してきた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "The share of land used for agriculture has been slowly increasing across most of the world's regions over the past few decades."
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "欧州・中央アジア（特にEU圏内）と北米では農地利用が減少している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "land use across Europe and Central Asia- particularly within the European Union (EU) zone- and North America has been declining"
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "多くの国では耕作地よりも放牧地としての土地利用が優勢である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "land use for livestock grazing is dominant relative to arable farming"
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "多くの国で耕作地に割り当てられる土地は総面積の20%未満であり、10%未満の国も多い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "land dedicated to cropland is typically below 20 percent, with many countries dedicating less than 10 percent"
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "欧州と南アジアでは、家畜のための土地利用は通常20%未満である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "land use for livestock in Europe and South Asia, in particular, is typically less than 20 percent"
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "statement": "モンゴル、カザフスタン、トルクメニスタンなど中央アジアの一部の国では、牧草地が国土の70%近くに達することがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "In some countries (particularly in Central Asia, including Mongolia, Kazakhstan, and Turkmenistan), this can reach up to 70 percent."
+            }
+          ]
+        },
+        {
+          "index": 46,
+          "statement": "南アジアでは、1人当たりの土地利用の減少率が最も顕著で、近年の水準は1961年の値の約3分の1にとどまる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "Rates of reduction in South Asia have been the most dramatic; per capita land use in recent years is roughly one-third of its value in 1961."
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "statement": "耕作地の大部分は穀物生産に使われており、1961年以降その面積は約7000万ヘクタール増加した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "the majority of our arable land is used for cereal production; this has grown by around 70 million hectares"
+            }
+          ]
+        },
+        {
+          "index": 48,
+          "statement": "油糧作物生産に使われる土地面積は、1961年以降約3倍に増加した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "The total land area used for oil crop production has increased about threefold since 1961"
+            }
+          ]
+        },
+        {
+          "index": 49,
+          "statement": "タンパク質1グラムあたりで比較すると、牛肉や羊肉の生産に必要な土地は穀物の最大100倍に達する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "the land required for beef or mutton up to 100 times larger than cereals"
+            }
+          ]
+        },
+        {
+          "index": 50,
+          "statement": "鶏肉と豚肉の土地フットプリントは牛肉の8〜10分の1である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/land-use",
+              "quote": "poultry and pork have a land footprint 8-10 times lower than that of beef"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "yields-and-habitat",
+    "topicType": "concept",
+    "categoryLabel": "地球・環境",
+    "title": "収量と生息地",
+    "summary": "農業の単収（面積あたり収量）と野生生物の生息地面積の関係を扱う概念。食料需要の増加を農地拡大で満たすか単収向上で満たすかによって、2050年までに失われる生息地の量が大きく変わることが、陸生脊椎動物19,859種を対象とした地図化研究などで示されている。サブサハラ・アフリカとラテンアメリカに影響が集中する点、および豊かな国と貧しい国で有効な対策が異なる点が、この主題の中心にある。",
+    "bodyMarkdown": "## 問題の枠組み\n\n同じ量の食料を、広い土地で低い収量から得るか、狭い土地で高い収量から得るか。この違いが野生生物の生息地の量を左右する、という考え方が「収量と生息地」の主題である。生息地の喪失のほぼすべては[農地の拡大](/hubpedia/land-use)によって引き起こされており、農地の面積を決めるのは需要と単収の比である。 [17]\n\nこの関係が今後数十年で問われるのは、食料需要が確実に増えるためである。2050年までに世界人口は97億人に達すると予測され、対策を取らなければ世界は現在より26%多くの農地を必要とする。増加分は340万平方キロメートル、インドとドイツを合わせた面積に相当する。 [2][3][15]\n\n需要が増えるのは人数だけの問題ではない。人々は豊かになるにつれて[肉や乳製品](/hubpedia/meat-production)など、より多様な食品を食べる傾向がある。 [53]\n\n## 人類による生息地改変の履歴\n\n農地が野生の土地を置き換える過程は、農業以前にまで遡る前史を持つ。5万年前から1万年前の間に、世界最大級の哺乳類数百種が絶滅する「第四紀メガファウナ絶滅」が起きた。この絶滅の主な要因は人類であり、[乱獲](/hubpedia/overfishing)と生息地の改変によって種を絶滅に追いやったとされる。 [5][6]\n\n当時の世界人口は500万人未満だった。それ以降も野生哺乳類の減少は続いており、その多くは人間の農業が野生生息地へ拡大したことが要因とされる。最後の氷河期の終わり以降、人類は[世界の森林](/hubpedia/forest-area)の3分の1を失わせてきた。 [7][35][42]\n\n累積した結果は、生物量（バイオマス）の配分に表れている。人類の出現以降、[野生の陸生哺乳類](/hubpedia/wild-mammal-decline)のバイオマスは推定85%減少した。 [1]\n\n## 哺乳類バイオマスの現在の配分\n\n現在、野生哺乳類は世界の哺乳類バイオマスのうちわずか4%を占めるにすぎず、残りの96%は人間と家畜が占める。人間だけで約3分の1を占め、これは野生哺乳類の約10倍にあたる。家畜は約3分の2を占める。 [8][9][10][11]\n\n個々の家畜種と比較すると規模の差が具体的になる。牛の重量は、世界の野生哺乳類全体の重量の約10倍に相当する。世界の野生哺乳類全体のバイオマスは、人間が飼育する羊のバイオマスとほぼ同じである。鳥類でも同様の偏りがあり、家禽のバイオマスは野生の鳥類のバイオマスの2倍以上である。 [12][36][37]\n\n配分の数値には出典による幅がある。人間と家畜が95%を占め野生哺乳類は5%とする推定もあり、4%対96%という値と併存している。いずれの推定でも、野生哺乳類が全体のごく一部にとどまるという結論は変わらない。 [8][9][38]\n\n## 2050年までの生息地変化の予測\n\nWilliams et al.(2021)は、両生類4,003種、鳥類10,895種、哺乳類4,691種を含む陸生脊椎動物19,859種について生息地面積の変化を地図化した。この研究によれば、調査対象種のほぼすべて（88%）が2050年までに生息地の一部を失うと予測されている。 [4][18]\n\n損失の規模は種によって大きく異なる。世界全体では対象種は平均して生息地の6%を失うと予測されるが、1,280種は少なくとも25%、347種は少なくとも半分、96種は少なくとも75%、33種は少なくとも90%を失うと予測されている。 [20][22][23][24][25]\n\n生息地が増加すると予測された種も存在する。全体の6%にあたるそれらの種の94%の多くは、農地で暮らす鳥類だった。 [54]\n\n## 損失が集中する地域\n\n予測される損失は地理的に均等ではない。生息地の25%以上を失うと予測される種のうち93%は、サブサハラ・アフリカとラテンアメリカの2地域に生息している。サブサハラ・アフリカでの生息地喪失は世界平均の2倍以上、12%以上に達すると予測されている。 [21][26]\n\nこの集中には人口と農業の両面の理由がある。アフリカは今後30年間で[人口が11億人以上増加](/hubpedia/population-growth)し、世界で最大の人口増加地域になると見込まれている。同時に、サブサハラ・アフリカでは農業生産の増加の大部分が単収の向上ではなく、農地面積の拡大によってもたらされてきた。需要の伸びが最も大きい地域で、需要を土地で満たす方式が続いてきたことになる。 [16][19]\n\nサブサハラ・アフリカは、世界最大級の哺乳類の一部が残存する最後の生息地でもある。 [43]\n\n## 検討された4つの対策\n\nWilliams et al.(2021)は4種類の対策シナリオを検討した。「収量ギャップの解消」シナリオでは、2050年までに単収が現在の水準から推定最大潜在収量の80%まで直線的に増加すると想定されている。「食品廃棄の半減」シナリオでは、世界全体の食料廃棄とロスが半分になると想定されている。 [29][30]\n\n残る2つは需要側と配置の対策である。「[健康的な食生活](/hubpedia/diet-and-land)の採用」シナリオは、健康な栄養と環境持続可能性の両立を目指すEAT-Lancet食に基づいている。「貿易の最適化」シナリオでは、生息地損失が最も大きいと予測される25カ国から、絶滅危惧種の割合が10%未満の国々へ農業生産が移転する。 [44][45]\n\nどの対策が効くかは地域の状況で分かれる。サブサハラ・アフリカなど貧しい国々にとっては、単収の向上が突出して最も効果的な対策である。一方、北米・ヨーロッパ・東アジアなど豊かな国々では、健康的な食生活への転換と食品廃棄の削減という消費側の対策が最大の効果をもたらす。 [31][47]\n\n## 複合シナリオの予測結果\n\n4つの対策を組み合わせた「複合」シナリオでは、世界の[農地面積は2050年までに340万平方キロメートル減少](/hubpedia/peak-farmland)すると予測されている。通常シナリオとの比較では、複合シナリオによる農地の「節約」量は合計で約700万平方キロメートルに達する。 [27][46]\n\n生息地への効果は絶対量の差以上に大きい。通常シナリオでは1,280種が生息地の25%以上を失うと予測されるが、複合シナリオではこれが33種にまで減少する。4つの対策すべてを組み合わせれば、2050年までにすべての地域で平均生息地損失を1%以下に抑えられると予測されている。 [28][32]\n\n単独の対策でも地域によっては大きく効く。サブサハラ・アフリカで収量ギャップを解消できれば、同地域の平均生息地損失はわずか1%にとどまる。 [33]\n\n## 単収向上の生息地以外の効果\n\n単収の向上は生息地の保全だけを目的とする措置ではない。サブサハラ・アフリカでの単収向上は、同地域の10億人以上の暮らしにも大きな影響を及ぼす。単収向上によって農家の所得が向上し、[食料安全保障](/hubpedia/food-insecurity)が改善し、貧困から脱する家庭が増えると見込まれる。 [51][52]\n\n## ヨーロッパでの観測例\n\n農地面積の減少が野生生物の回復と同時に起きた例が、ヨーロッパで観測されている。[農業生産性の向上](/hubpedia/agricultural-productivity)によりヨーロッパ全体で農地面積が減少し、より多くの生息地が野生生物に戻された。1960年から2016年の間にヨーロッパのヒグマの個体群は平均44%増加し、1977年から2016年の間にユーラシアカワウソの個体群は平均300%増加した。 [13][14][39]\n\nただし回復要因は土地の変化だけではない。同じ期間にヨーロッパ各国は狩猟割当制を導入するか、狩猟を全面的に禁止した。ヨーロッパバイソンは、綿密に管理された再導入プログラムによって復活した。土地の返還、狩猟規制、再導入が並行して進んだため、個体群の回復をどれか一つの要因に帰することはできない。 [39][40][41]\n\n## 動物個体群の測定と指標の限界\n\n生息地面積の変化とは別に、動物個体群の規模そのものを追う指標がある。リビング・プラネット指数によれば、1970年以降、データが存在する動物個体群の規模は平均で73%減少している。2024年版は34,000の野生動物個体群のデータを含んでいる。 [34][48]\n\nこの平均値は、すべての個体群が減っていることを意味しない。調査対象の動物個体群のほぼ半数は、1970年以降安定しているか増加している。平均の大きな低下は、激減した一部の個体群の影響を強く受けている。 [34][49]\n\n指標の対象範囲にも限界がある。リビング・プラネット指数には哺乳類・鳥類・魚類・爬虫類・両生類の脊椎動物のみが含まれ、昆虫・サンゴ・菌類・植物は含まれない。同様に、Williams et al.(2021)の地図化も陸生脊椎動物を対象としており、いずれの数値も[生物多様性](/hubpedia/biodiversity)全体を代表するものではない。 [4][50]\n\n## 関連記事\n\n- [絶滅リスク](/hubpedia/extinction-risk)",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/yields-habitat-loss",
+        "title": "収量と生息地",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on yields-and-habitat. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/biodiversity",
+        "title": "biodiversity",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "The habitat at stake. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Yields and habitat",
+        "summary": "A concept concerning the relationship between agricultural yields (output per unit area) and the area of habitat available to wildlife. Whether rising food demand is met by expanding cropland or by raising yields makes a large difference to how much habitat is lost by 2050, as shown by mapping studies covering 19,859 terrestrial vertebrate species. Central to the subject are the concentration of impacts in Sub-Saharan Africa and Latin America, and the fact that different measures are effective in rich and poor countries.",
+        "bodyMarkdown": "## Framing the problem\n\nShould the same quantity of food come from low yields across a large area, or from high yields on a smaller one? The idea that this difference determines how much habitat remains for wildlife is the subject of \"yields and habitat\". Almost all habitat loss is driven by [the expansion of agricultural land](/hubpedia/land-use), and the area of farmland is set by the ratio of demand to yield. [17]\n\nThis relationship will be tested over the coming decades because food demand is certain to rise. The world population is projected to reach 9.7 billion by 2050, and without countermeasures the world would need 26% more agricultural land than it does today. That increase amounts to 3.4 million square kilometres, an area equivalent to India and Germany combined. [2][3][15]\n\nDemand rises for reasons beyond headcount. As people become richer they tend to eat a more varied diet, including more [meat and dairy](/hubpedia/meat-production). [53]\n\n## A history of habitat modification by humans\n\nThe process by which farmland replaces wild land has a prehistory reaching back before agriculture. Between 50,000 and 10,000 years ago, the \"Quaternary megafauna extinction\" wiped out hundreds of the world's largest mammal species. Humans are held to be the main driver of this extinction, driving species to extinction through [overhunting](/hubpedia/overfishing) and habitat modification. [5][6]\n\nThe world population at the time was under 5 million. Wild mammals have continued to decline since then, largely as a result of human agriculture expanding into wild habitat. Since the end of the last ice age, humans have caused the loss of one-third of [the world's forests](/hubpedia/forest-area). [7][35][42]\n\nThe cumulative result shows up in how biomass is distributed. Since the emergence of humans, the biomass of [wild land mammals](/hubpedia/wild-mammal-decline) is estimated to have fallen by 85%. [1]\n\n## The current distribution of mammal biomass\n\nToday, wild mammals account for just 4% of the world's mammal biomass; the remaining 96% is made up of humans and livestock. Humans alone account for around one-third, roughly ten times the mass of wild mammals. Livestock account for around two-thirds. [8][9][10][11]\n\nComparison with individual livestock species makes the difference in scale concrete. The mass of cattle is around ten times the mass of all the world's wild mammals combined. The total biomass of the world's wild mammals is about the same as the biomass of the sheep humans keep. Birds show a similar skew: the biomass of poultry is more than twice that of wild birds. [12][36][37]\n\nThe figures for this distribution vary between sources. Some estimates put humans and livestock at 95% and wild mammals at 5%, alongside the 4%-versus-96% figures. Under either estimate, the conclusion that wild mammals make up only a small fraction of the total is unchanged. [8][9][38]\n\n## Projected habitat change to 2050\n\nWilliams et al. (2021) mapped changes in habitat area for 19,859 terrestrial vertebrate species, including 4,003 amphibians, 10,895 birds and 4,691 mammals. According to that study, almost all of the species examined (88%) are projected to lose some of their habitat by 2050. [4][18]\n\nThe scale of the loss varies greatly by species. Globally, the species studied are projected to lose an average of 6% of their habitat, but 1,280 species are projected to lose at least 25%, 347 species at least half, 96 species at least 75%, and 33 species at least 90%. [20][22][23][24][25]\n\nSome species were projected to gain habitat. Many of that 6% of species — 94% of them — were birds that live on farmland. [54]\n\n## Where the losses are concentrated\n\nThe projected losses are not spread evenly across the globe. Of the species projected to lose more than 25% of their habitat, 93% live in just two regions: Sub-Saharan Africa and Latin America. Habitat loss in Sub-Saharan Africa is projected to exceed 12%, more than twice the global average. [21][26]\n\nThis concentration has both demographic and agricultural causes. Africa's [population is expected to grow by more than 1.1 billion](/hubpedia/population-growth) over the next 30 years, making it the region with the largest population growth in the world. At the same time, most of the increase in agricultural output in Sub-Saharan Africa has come from expanding the cropland area rather than from raising yields. In other words, the region with the fastest-growing demand has been the one meeting that demand with land.  [16][19]\n\nSub-Saharan Africa is also the last remaining habitat for some of the world's largest mammals. [43]\n\n## The four measures examined\n\nWilliams et al. (2021) examined four types of intervention scenario. In the \"closing yield gaps\" scenario, yields are assumed to rise linearly from present levels to 80% of estimated maximum potential yield by 2050. In the \"halving food waste\" scenario, global food waste and loss are assumed to be cut in half. [29][30]\n\nThe remaining two concern demand and location. The \"adopting [healthy diets](/hubpedia/diet-and-land)\" scenario is based on the EAT-Lancet diet, which aims to combine healthy nutrition with environmental sustainability. In the \"optimising trade\" scenario, agricultural production shifts from the 25 countries projected to suffer the greatest habitat loss to countries where fewer than 10% of species are threatened. [44][45]\n\nWhich measure works depends on local circumstances. For poorer countries such as those in Sub-Saharan Africa, raising yields is by far the most effective measure. In richer countries — North America, Europe and East Asia — the consumption-side measures of shifting to healthy diets and cutting food waste deliver the greatest effect. [31][47]\n\n## Results of the combined scenario\n\nUnder the \"combined\" scenario, which brings all four measures together, [global agricultural land is projected to shrink by 3.4 million square kilometres by 2050](/hubpedia/peak-farmland). Compared with the business-as-usual scenario, the farmland \"saved\" under the combined scenario totals around 7 million square kilometres. [27][46]\n\nThe effect on habitat is larger than the difference in absolute area suggests. Under business-as-usual, 1,280 species are projected to lose more than 25% of their habitat; under the combined scenario that figure falls to 33. Combining all four measures is projected to hold average habitat loss below 1% in every region by 2050. [28][32]\n\nEven a single measure can have a large effect in some regions. If yield gaps in Sub-Saharan Africa were closed, average habitat loss in the region would be held to just 1%. [33]\n\n## Effects of higher yields beyond habitat\n\nRaising yields is not a measure aimed solely at conserving habitat. Higher yields in Sub-Saharan Africa would also have a major effect on the lives of more than a billion people there. Higher yields are expected to raise farmers' incomes, improve [food security](/hubpedia/food-insecurity), and lift more households out of poverty. [51][52]\n\n## Observations from Europe\n\nEurope offers an observed case in which a shrinking agricultural area coincided with a recovery of wildlife. [Gains in agricultural productivity](/hubpedia/agricultural-productivity) reduced the area of farmland across Europe, returning more habitat to wildlife. Between 1960 and 2016, European brown bear populations increased by an average of 44%, and between 1977 and 2016 Eurasian otter populations increased by an average of 300%. [13][14][39]\n\nLand-use change was not the only factor in the recovery, however. Over the same period, European countries either introduced hunting quotas or banned hunting outright. The European bison was brought back through a carefully managed reintroduction programme. Because the return of land, hunting restrictions and reintroductions proceeded in parallel, the recovery of these populations cannot be attributed to any single factor. [39][40][41]\n\n## Measuring animal populations, and the limits of the indicators\n\nSeparately from changes in habitat area, there are indicators that track the size of animal populations themselves. According to the Living Planet Index, the average size of the animal populations for which data exist has fallen by 73% since 1970. The 2024 edition includes data on 34,000 wild animal populations. [34][48]\n\nThat average does not mean every population is declining. Almost half of the animal populations studied have been stable or increasing since 1970. The steep fall in the average is heavily influenced by a subset of populations that have collapsed. [34][49]\n\nThe indicators are also limited in what they cover. The Living Planet Index includes only vertebrates — mammals, birds, fish, reptiles and amphibians — and excludes insects, corals, fungi and plants. Likewise, the mapping in Williams et al. (2021) covers terrestrial vertebrates, so neither set of figures is representative of [biodiversity](/hubpedia/biodiversity) as a whole. [4][50]\n\n## Related articles\n\n- [Extinction risk](/hubpedia/extinction-risk)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T12:19:26.046Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "人類の出現以降、野生の陸生哺乳類のバイオマスは推定85%減少した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "wild terrestrial mammal biomass has declined by an estimated 85%"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "研究結果によれば、2050年までに世界は現在より26%多くの農地を必要とする。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/yields-habitat-loss",
+              "quote": "Their results project that by 2050, the world will need 26% more cropland."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "2050年までに世界人口は97億人に達すると予測されている。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/yields-habitat-loss",
+              "quote": "By 2050, the world’s population is projected to reach 9.7 billion."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "Williams et al.(2021)は、両生類4,003種、鳥類10,895種、哺乳類4,691種を含む陸生脊椎動物19,859種について生息地面積の変化を地図化した。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/yields-habitat-loss",
+              "quote": "Williams et al. (2021) mapped the changes in habitat area for 19,859 species of terrestrial vertebrates: 4,003 amphibian species, 10,895 bird species, and 4,691 mammal species."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "5万年前から1万年前の間に、世界最大級の哺乳類数百種が絶滅した「第四紀メガファウナ絶滅」が起きた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "hundreds of the world’s largest mammals were wiped out. This is called the Quaternary megafauna extinction event."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "この絶滅の主な要因は人類であり、乱獲と生息地の改変によって種を絶滅に追いやった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "Humans were the main driver of this, killing off species through overhunting and changes to their habitats."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "それ以降も野生哺乳類の減少は続いており、その多くは人間の農業が野生生息地へ拡大したことが要因である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "Since then, wild mammals have continued to decline. A lot of this has been driven by the expansion of human agriculture into wild habitats."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "野生哺乳類は世界の哺乳類バイオマスのうちわずか4%を占めるにすぎない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "Wild mammals make up just 4% of global mammal biomass."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "世界の哺乳類バイオマスの残り96%は人間と家畜が占める。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "The other 96% is humans and our livestock."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "人間だけで哺乳類バイオマスの約3分の1を占め、これは野生哺乳類の約10倍にあたる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "Alone, we account for around one-third of mammal biomass. Almost ten times greater than wild mammals."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "家畜は世界の哺乳類バイオマスの約3分の2を占める。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "Our livestock then accounts for almost two-thirds."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "牛の重量は、世界の野生哺乳類全体の重量の約10倍に相当する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "Cattle weigh almost ten times as much as all wild mammals combined."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "1960年から2016年の間に、ヨーロッパのヒグマの個体群は平均44%増加した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "between 1960 and 2016, populations of brown bears increased by an average of 44%"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "1977年から2016年の間に、ヨーロッパのユーラシアカワウソの個体群は平均300%増加した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "Between 1977 and 2016, populations of Eurasian otters increased by an average of 300%."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "何も対策をしなければ、2050年までに世界は追加で340万平方キロメートルの農地を必要とすると予測されている。これはインドとドイツを合わせた面積に相当する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/yields-habitat-loss",
+              "quote": "researchers project that we’d need an extra 3.4 million km2 of cropland by 2050: an area the size of India and Germany combined"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "アフリカは今後30年間で人口が11億人以上増加し、世界で最大の人口増加地域になると見込まれている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/yields-habitat-loss",
+              "quote": "Africa is expected to have the largest growth, adding over 1.1 billion in the next 30 years."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "生息地の喪失のほぼすべては農地の拡大によって引き起こされている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/yields-habitat-loss",
+              "quote": "Nearly all habitat loss is driven by the expansion of agriculture."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "調査対象種のほぼすべて(88%)が2050年までに生息地の一部を失うと予測されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/yields-habitat-loss",
+              "quote": "Nearly all (88%) of these species would lose at least some of their habitat by 2050."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "サブサハラ・アフリカでは、農業生産の増加の大部分が単収の向上ではなく、農地面積の拡大によってもたらされてきた。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/yields-habitat-loss",
+              "quote": "Unfortunately, Sub-Saharan Africa has lagged behind: most of the continent’s increases in agricultural production have come from using more land rather than increases in yields."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "世界全体では、対象種は生息地の6%を失うと予測されている。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/yields-habitat-loss",
+              "quote": "Globally, these species would lose 6% of their habitats."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "サブサハラ・アフリカでの生息地喪失は世界平均の2倍以上、12%以上に達すると予測されている。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/yields-habitat-loss",
+              "quote": "The losses in Sub-Saharan Africa would be more than double this figure, at upwards of 12%."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "世界全体で1,280種が生息地の少なくとも25%を失うと予測されている。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/yields-habitat-loss",
+              "quote": "Globally, 1,280 species were projected to lose at least 25% of their habitat; 347 species to lose at least half; 96 species at least 75%; and 33 at least 90%."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "347種が生息地の少なくとも半分を失うと予測されている。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/yields-habitat-loss",
+              "quote": "Globally, 1,280 species were projected to lose at least 25% of their habitat; 347 species to lose at least half; 96 species at least 75%; and 33 at least 90%."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "96種が生息地の少なくとも75%を失うと予測されている。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/yields-habitat-loss",
+              "quote": "Globally, 1,280 species were projected to lose at least 25% of their habitat; 347 species to lose at least half; 96 species at least 75%; and 33 at least 90%."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "33種が生息地の少なくとも90%を失うと予測されている。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/yields-habitat-loss",
+              "quote": "Globally, 1,280 species were projected to lose at least 25% of their habitat; 347 species to lose at least half; 96 species at least 75%; and 33 at least 90%."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "生息地の25%以上を失うと予測される種のうち93%は、サブサハラ・アフリカとラテンアメリカの2地域に生息している。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/yields-habitat-loss",
+              "quote": "These two regions account for 93% of the species that are projected to lose at least 25% of their remaining habitat."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "4つの対策を組み合わせた「複合」シナリオでは、世界の農地面積は340万平方キロメートル減少すると予測されている。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/yields-habitat-loss",
+              "quote": "Global cropland would decline by 3.4 million km2."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "通常シナリオでは1,280種が生息地の25%以上を失うと予測されるが、複合シナリオではこれが33種にまで減少する。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/yields-habitat-loss",
+              "quote": "Our business-as-usual scenario expects that 1,280 species would lose more than 25% of their habitat. Under the combined scenario, this would fall to just 33 species."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "「収量ギャップの解消」シナリオでは、2050年までに単収が現在の水準から推定最大潜在収量の80%まで直線的に増加すると想定されている。",
+          "confidence": 0.87,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/yields-habitat-loss",
+              "quote": "Close yield gaps. In this scenario, yields increase linearly from current yields to 80% of their estimated maximum potential by 2050."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "「食品廃棄の半減」シナリオでは、世界全体の食料廃棄とロスが半分になると想定されている。",
+          "confidence": 0.87,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/yields-habitat-loss",
+              "quote": "Halve food waste and losses. This scenario assumes that global food wastage and losses are halved."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "サブサハラ・アフリカなど貧しい国々にとっては、単収の向上が突出して最も効果的な対策である。",
+          "confidence": 0.87,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/yields-habitat-loss",
+              "quote": "By far the most effective intervention for poorer countries – particularly across Sub-Saharan Africa – is an increase in crop yields."
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "4つの対策すべてを組み合わせれば、2050年までにすべての地域で平均生息地損失を1%以下に抑えられる。",
+          "confidence": 0.87,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/yields-habitat-loss",
+              "quote": "if we combine these changes, all regions would see mean habitat losses of 1% or less by 2050."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "サブサハラ・アフリカで収量ギャップを解消できれば、同地域の平均生息地損失はわずか1%にとどまる。",
+          "confidence": 0.87,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/yields-habitat-loss",
+              "quote": "If we were able to close these gaps, mean habitat losses across the continent would be just 1%."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "1970年以降、データが存在する動物個体群の規模は平均で73%減少している。",
+          "confidence": 0.87,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "Since 1970, then, the size of animal populations for which data is available have declined by 73%, on average."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "この絶滅が起きた当時、世界の人口は500万人未満だった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "fewer than 5 million people across the world"
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "世界の野生哺乳類全体のバイオマスは、人間が飼育する羊のバイオマスとほぼ同じである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "The biomass of all of the world’s wild mammals is about the same as our sheep."
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "家禽のバイオマスは、野生の鳥類のバイオマスの2倍以上である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "poultry biomass is more than twice that of wild birds."
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "人間と家畜が世界の哺乳類バイオマスの95%を占め、野生哺乳類は5%にすぎない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "Humans and livestock make up 95% of the world’s mammal biomass; wild mammals are just 5%."
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "農業生産性の向上によりヨーロッパ全体で農地面積が減少し、より多くの生息地が野生生物に戻された。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "the rise in agricultural productivity made it possible that agricultural land has declined across Europe, giving more habitat back to wildlife"
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "ヨーロッパ各国は狩猟割当制を導入するか、狩猟を全面的に禁止した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "Countries brought in hunting quotas or even complete bans on hunting."
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "ヨーロッパバイソンは、綿密に管理された再導入プログラムによって復活した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "such as the European bison – were brought back through well-managed re-introduction programs"
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "最後の氷河期の終わり以降、人類は世界の森林の3分の1を失わせてきた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/yields-habitat-loss",
+              "quote": "Since the end of the last ice age, we’ve lost one-third of the world’s forests"
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "サブサハラ・アフリカは、世界最大級の哺乳類の一部が残存する最後の生息地である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/yields-habitat-loss",
+              "quote": "This is even more concerning because Sub-Saharan Africa is the last remaining home of some of the world's largest mammal species."
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "「健康的な食生活の採用」シナリオは、健康な栄養と環境持続可能性の両立を目指すEAT-Lancet食に基づいている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/yields-habitat-loss",
+              "quote": "It’s based on the EAT-Lancet diet, which aims to balance the goals of healthy nutrition and environmental sustainability for a global population."
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "statement": "「貿易の最適化」シナリオでは、生息地損失が最も大きいと予測される25カ国から、絶滅危惧種の割合が10%未満の国々へ農業生産が移転する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/yields-habitat-loss",
+              "quote": "Production moves from the 25 countries projected to have the largest habitat losses to countries where less than 10% of species are threatened with extinction."
+            }
+          ]
+        },
+        {
+          "index": 46,
+          "statement": "通常シナリオとの比較では、複合シナリオによる農地の「節約」量は合計で約700万平方キロメートルに達する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/yields-habitat-loss",
+              "quote": "So the total ‘saving’ would be nearly 7 million km2."
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "statement": "北米・ヨーロッパ・東アジアなど豊かな国々では、健康的な食生活への転換と食品廃棄の削減という消費側の対策が最大の効果をもたらす。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/yields-habitat-loss",
+              "quote": "The largest benefits in richer countries – across North America, Europe, and East Asia – come from consumer options: the adoption of healthy diets and reductions in food waste."
+            }
+          ]
+        },
+        {
+          "index": 48,
+          "statement": "リビング・プラネット指数の2024年版は、34,000の野生動物個体群のデータを含んでいる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "Its 2024 report included figures across 34,000 wildlife populations."
+            }
+          ]
+        },
+        {
+          "index": 49,
+          "statement": "調査対象の動物個体群のほぼ半数は、1970年以降安定しているか増加している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "Almost half of these animal populations have remained stable or increased."
+            }
+          ]
+        },
+        {
+          "index": 50,
+          "statement": "リビング・プラネット指数には哺乳類・鳥類・魚類・爬虫類・両生類の脊椎動物のみが含まれ、昆虫・サンゴ・菌類・植物は含まれない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "The Living Planet Index only includes figures on vertebrate species – mammals, birds, fish, reptiles, and amphibians. It does not include insects, corals, fungi, or plants."
+            }
+          ]
+        },
+        {
+          "index": 51,
+          "statement": "サブサハラ・アフリカでの単収向上は、同地域の10億人以上の暮らしにも大きな影響を及ぼす。",
+          "confidence": 0.83,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/yields-habitat-loss",
+              "quote": "Improvements in crop yields across Sub-Saharan Africa would not just be good for wildlife. It would also have profound impacts on the lives of more than a billion people across the continent."
+            }
+          ]
+        },
+        {
+          "index": 52,
+          "statement": "単収向上によって農家の所得が向上し、食料安全保障が改善し、貧困から脱する家庭が増えると見込まれる。",
+          "confidence": 0.82,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/yields-habitat-loss",
+              "quote": "Farmers would achieve a higher income. Food security would improve. Families would be lifted out of poverty."
+            }
+          ]
+        },
+        {
+          "index": 53,
+          "statement": "人々は豊かになるにつれて肉や乳製品など、より多様な食品を食べる傾向がある。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/yields-habitat-loss",
+              "quote": "As we get richer we tend to eat more diverse foods, particularly meat and dairy."
+            }
+          ]
+        },
+        {
+          "index": 54,
+          "statement": "生息地が増加すると予測された種の94%(全体の6%)の多くは、農地で暮らす鳥類だった。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/yields-habitat-loss",
+              "quote": "6% would see no change. The remaining 6% would see an increase. Most of the species projected to see an increase were birds that lived on agricultural lands."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "extinction-risk",
+    "topicType": "concept",
+    "categoryLabel": "動物・植物",
+    "title": "絶滅リスク",
+    "summary": "絶滅リスクとは、ある生物種が野生から失われる危険の大きさを指し、IUCNレッドリストでは9つのカテゴリーと定量的な基準によって段階的に分類される。個体数の規模と減少、生息域の広さと縮小といった指標に基づく評価は、数万種が絶滅のおそれに直面していることを示す一方、昆虫の大半が未評価であることや再評価の間隔といった構造的な限界も抱えている。",
+    "bodyMarkdown": "## 絶滅リスクという尺度\n\n「絶滅のおそれがある」という言葉は、しばしば漠然とした警告として使われる。しかし国際自然保護連合(IUCN)の枠組みでは、それは特定の意味を持つ用語である。深刻な危機・危機・危急の3つのカテゴリーに分類された種の合計が「絶滅のおそれのある種(threatened species)」であり、それより軽い準絶滅危惧や低懸念はこの語には含まれない。IUCNはこの枠組みのもとで、数万種が絶滅のおそれに直面していると報告している。 [1][23]\n\n絶滅リスクの評価は、種の状態を9つのカテゴリーのいずれかに割り当てる作業である。軽い側から順に、未評価、データ不足、低懸念、準絶滅危惧、危急、危機、深刻な危機、野生絶滅、絶滅が並ぶ。このうち低懸念は広く分布して個体数が豊富で脅威を受けていない種を指し、準絶滅危惧は現時点では危急以上の基準を満たさないものの、最近の傾向からみて近い将来それらの基準を満たすと見込まれる種を指す。IUCNレッドリストは絶滅リスクに関する決定的な情報源とみなされており、これまでに15万種を超える種が評価されてきた。 [2][11][21][22][28]\n\n## 評価の指標と定量基準\n\n評価は4つの主要な指標に基づく。個体数が非常に小さいこと、個体数が小さくかつ減少していること、総個体数の大小にかかわらず個体数が大幅に減少していること、そして生息域が狭くかつ縮小していることである。これらはいずれも、種が絶滅の危機にあることを示す信号として扱われる。 [35][36]\n\n個体数と生息域には具体的な数値の敷居がある。世界の成熟個体数が50頭を下回れば深刻な危機、250未満なら危機、1,000未満なら危急とみなされる。生息域の占有面積では、10平方キロメートル未満が深刻な危機、500km²未満が危機、2,000km²未満が危急にあたる。同じ「少ない」という状態でも、どの段階に落ちるかは桁の違いで決まる。 [24][25][26][27]\n\n数値の敷居とは別に、将来の絶滅確率を直接見積もる経路もある。定量分析によって10年以内に野生で絶滅する確率が50%を超えると示されれば深刻な危機、20年以内に20%を超えれば危機、100年以内に10%を超えれば危急に分類される。期間と確率の組み合わせが段階ごとに異なるため、3つの基準は互いに置き換えられない。深刻な危機の種は極めて高い、危機の種は非常に高い、危急の種は高い絶滅リスクに直面しているとされる。 [4][5][6][18][19][20]\n\n## 絶滅と野生絶滅の判定\n\n最も重い2つのカテゴリーは、リスクの推定ではなく事実の確認によって与えられる。絶滅(EX)は、最後の1個体が死んだことに合理的な疑いの余地がない種を指す。この判定は、既知または予想される生息地で長期間にわたり徹底的な調査を行っても個体が見つからない場合に下される。キンイロヒキガエルとニホンアシカがこの区分に置かれた種の例である。 [3][15][16]\n\n野生絶滅(EW)は、その中間にあたる状態を表す。予想される生息地での徹底的な調査で個体が見つからないが、飼育下の個体群として、あるいは本来の生息域外で野生化した個体群として存続している場合がこれにあたる。 [17]\n\n一方、データ不足(DD)は種の状態が悪いことを意味しない。個体群や生息状況について十分なデータがないため、リスクを評価できないという判定である。未評価(NE)はさらに手前の段階で、研究者がその種について評価に足る知識があるかをまず検討し、基準を満たさなければ評価対象から外される。 [14][34]\n\n## 評価体制と更新の周期\n\n評価を担うのは、160を超える専門家グループ・保全委員会・タスクフォースにまたがる1万500人のボランティア専門家のネットワークである。分類群ごとに担当が分かれており、たとえばIUCNアフリカゾウ専門家グループはアフリカゾウの個体群の監視に取り組んでいる。IUCNは毎年、評価対象種それぞれの最新の状況評価を公表している。 [12][37][38]\n\n再評価は査読を伴う手続きで行われ、全種を5年ごと、遅くとも10年ごとに見直すことが目標とされる。この周期は、カテゴリーの変化をどう読むかに直接関わる。ある種があるカテゴリーから別のカテゴリーへ移ったとき、それは必ずしもその種の健全性が劇的に改善または悪化したことを意味せず、より良いデータに基づく再評価にすぎない場合もある。 [13][40][41]\n\n## 評価対象の範囲と限界\n\n評価の網は、記載されている生物のごく一部にしかかかっていない。世界で記載されている種の数は200万種を超え、そのうち100万種以上が昆虫だが、IUCNは昆虫を評価対象としていない。15万種という評価済みの数は大きく見えるものの、生物全体に対する割合としては限られている。 [28][39]\n\n評価されていない領域があることは、集計された数字の読み方にも影響する。データに現れていない多くの種は、依然として減少しているか、個体数が横ばいである可能性がある。したがって、レッドリスト上で状況が改善した種があることは、全体の傾向が改善したことの証拠にはならない。 [42]\n\n## 欧州の哺乳類にみる回復の事例\n\n絶滅リスクは一方向にだけ動くものではない。欧州では狩猟と生息地の喪失により、多くの大型哺乳類が絶滅寸前まで追い込まれた。その後、ユーラシアビーバー、ヨーロッパバイソン、ヒグマといった代表的な哺乳類種の個体数は回復傾向に転じている。ヒグマは1960年から2016年にかけて平均44%増加し、ユーラシアカワウソは1977年から2016年にかけて平均300%増加した。 [7][8][9][10]\n\nこの回復には複数の要因が重なった。保全活動は個体数の回復に重要な役割を果たしたとされ、ヨーロッパバイソンについては適切に管理された再導入プログラムが回復をもたらした。制度面では、欧州の国々が狩猟割当を導入したり、狩猟を完全に禁止したりした。さらに、[農業生産性の向上](/hubpedia/agricultural-productivity)によって欧州全体で農地が減少し、野生生物により多くの生息地が戻された。 [29][30][31][32]\n\nただし、欧州のすべての種の個体数が増加しているわけではない。回復した種の事例は、圧力が取り除かれれば個体数が戻りうることを示すが、それを全体の傾向として一般化する根拠にはならない。 [33]\n\n## 関連記事\n\n- [生物多様性](/hubpedia/biodiversity)\n- [大量絶滅](/hubpedia/mass-extinction)\n- [野生哺乳類の減少](/hubpedia/wild-mammal-decline)\n- [地球の生命](/hubpedia/life-on-earth)\n- [土地利用](/hubpedia/land-use)",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/extinction-risk-definition",
+        "title": "絶滅リスク",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on extinction-risk. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/biodiversity",
+        "title": "biodiversity",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Biodiversity the risk describes. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Extinction risk",
+        "summary": "Extinction risk refers to the magnitude of danger that a species will be lost from the wild, and the IUCN Red List classifies it in stages through nine categories and quantitative criteria. Assessments based on indicators such as population size and decline, and the extent and contraction of range, show that tens of thousands of species face the threat of extinction, while also carrying structural limits such as the fact that most insects go unassessed and the intervals between reassessments.",
+        "bodyMarkdown": "## Extinction risk as a measure\n\nThe phrase \"threatened with extinction\" is often used as a vague warning. Within the framework of the International Union for Conservation of Nature (IUCN), however, it is a term with a specific meaning. The sum of species classified into the three categories of Critically Endangered, Endangered, and Vulnerable constitutes the \"threatened species,\" while the lighter categories of Near Threatened and Least Concern are not included in the term. Under this framework, the IUCN reports that tens of thousands of species face the threat of extinction. [1][23]\n\nAssessing extinction risk is the work of assigning a species' status to one of nine categories. In order from the lightest, they run: Not Evaluated, Data Deficient, Least Concern, Near Threatened, Vulnerable, Endangered, Critically Endangered, Extinct in the Wild, and Extinct. Of these, Least Concern refers to species that are widely distributed, abundant in numbers, and not under threat, while Near Threatened refers to species that do not currently meet the criteria for Vulnerable or above but are, judging from recent trends, expected to meet those criteria in the near future. The IUCN Red List is regarded as the definitive source of information on extinction risk, and more than 150,000 species have been assessed to date. [2][11][21][22][28]\n\n## Assessment indicators and quantitative criteria\n\nAssessment rests on four main indicators: that a population is very small; that a population is small and declining; that a population has declined substantially regardless of whether the total population is large or small; and that a range is small and contracting. Each of these is treated as a signal that a species is at risk of extinction. [35][36]\n\nPopulation size and range have specific numerical thresholds. A global mature population below 50 individuals is considered Critically Endangered, fewer than 250 Endangered, and fewer than 1,000 Vulnerable. For area of occupancy, less than 10 square kilometres corresponds to Critically Endangered, less than 500 km² to Endangered, and less than 2,000 km² to Vulnerable. Even for the same condition of being \"few,\" which stage a species falls into is determined by an order of magnitude. [24][25][26][27]\n\nApart from numerical thresholds, there is also a route that directly estimates the future probability of extinction. If quantitative analysis shows a probability of extinction in the wild of more than 50% within 10 years, the species is classified as Critically Endangered; more than 20% within 20 years, Endangered; and more than 10% within 100 years, Vulnerable. Because the combination of time period and probability differs at each stage, the three criteria are not interchangeable. Critically Endangered species are said to face an extremely high risk of extinction, Endangered species a very high risk, and Vulnerable species a high risk. [4][5][6][18][19][20]\n\n## Determining Extinct and Extinct in the Wild\n\nThe two heaviest categories are assigned not by estimating risk but by confirming fact. Extinct (EX) refers to a species for which there is no reasonable doubt that the last individual has died. This determination is made when exhaustive surveys over a long period in known or expected habitat fail to find any individuals. The golden toad and the Japanese sea lion are examples of species placed in this category. [3][15][16]\n\nExtinct in the Wild (EW) describes an intermediate state. It applies when exhaustive surveys in expected habitat fail to find individuals, but the species survives as a captive population or as a naturalised population outside its original range. [17]\n\nData Deficient (DD), by contrast, does not mean that a species' condition is poor. It is a determination that risk cannot be assessed because there are insufficient data on the population or its distribution. Not Evaluated (NE) is a stage further back still: researchers first consider whether there is enough knowledge about the species to assess it, and if the criteria are not met, it is excluded from assessment. [14][34]\n\n## The assessment system and the update cycle\n\nAssessment is carried out by a network of 10,500 volunteer experts spanning more than 160 specialist groups, conservation committees, and task forces. Responsibilities are divided by taxonomic group; for example, the IUCN African Elephant Specialist Group works on monitoring African elephant populations. Each year the IUCN publishes the latest status assessment for every species assessed. [12][37][38]\n\nReassessment is carried out through a peer-reviewed procedure, with the goal of reviewing all species every five years, or at least every ten. This cycle bears directly on how changes in category should be read. When a species moves from one category to another, it does not necessarily mean that the species' health has dramatically improved or deteriorated; in some cases it is merely a reassessment based on better data. [13][40][41]\n\n## The scope and limits of what is assessed\n\nThe net of assessment covers only a small fraction of described organisms. The number of described species worldwide exceeds 2 million, of which more than 1 million are insects, yet the IUCN does not treat insects as subjects of assessment. Although the figure of 150,000 assessed species looks large, as a proportion of all life it is limited. [28][39]\n\nThe existence of unassessed territory also affects how aggregate figures should be read. Many species that do not appear in the data may still be declining, or their populations may be flat. The fact that some species have improved in status on the Red List is therefore not evidence that the overall trend has improved. [42]\n\n## Recovery seen in European mammals\n\nExtinction risk does not move in only one direction. In Europe, hunting and habitat loss drove many large mammals to the brink of extinction. Since then, the populations of representative mammal species such as the Eurasian beaver, the European bison, and the brown bear have turned toward recovery. Brown bears increased by an average of 44% between 1960 and 2016, and the Eurasian otter by an average of 300% between 1977 and 2016. [7][8][9][10]\n\nSeveral factors combined to produce this recovery. Conservation activity is credited with playing an important role in the recovery of populations, and for the European bison, properly managed reintroduction programmes brought about the recovery. Institutionally, European countries introduced hunting quotas or banned hunting outright. In addition, [rising agricultural productivity](/hubpedia/agricultural-productivity) reduced farmland across Europe, returning more habitat to wildlife. [29][30][31][32]\n\nThat said, not every species' population in Europe is increasing. Cases of recovered species show that populations can return once pressures are removed, but they are not grounds for generalising this as an overall trend. [33]\n\n## Related articles\n\n- [Biodiversity](/hubpedia/biodiversity)\n- [Mass extinction](/hubpedia/mass-extinction)\n- [Wild mammal decline](/hubpedia/wild-mammal-decline)\n- [Life on Earth](/hubpedia/life-on-earth)\n- [Land use](/hubpedia/land-use)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T12:19:26.047Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "IUCN(国際自然保護連合)は数万種が絶滅のおそれに直面していると報告している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/extinction-risk-definition",
+              "quote": "The International Union for Conservation of Nature (IUCN) reports that tens of thousands of species are threatened with extinction."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "種の絶滅リスクは、未評価・データ不足・低懸念・準絶滅危惧・危急・危機・深刻な危機・野生絶滅・絶滅の9つのカテゴリーに分類される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/extinction-risk-definition",
+              "quote": "Not Evaluated (NE)Data Deficient (DD)Least Concern (LC)Near Threatened (NT)Vulnerable (VU)Endangered (EN)Critically Endangered (CR)Extinct in the Wild (EW)Extinct (EX)"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "絶滅(EX)種とは、最後の1個体が死んだことに合理的な疑いの余地がない種を指す。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/extinction-risk-definition",
+              "quote": "An Extinct (EX) species is one for which there is no reasonable doubt that the last individual has died."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "深刻な危機(CR)種は極めて高い絶滅リスクに直面している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/extinction-risk-definition",
+              "quote": "A Critically Endangered (CR) species faces an extremely high risk of extinction."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "危機(EN)種は非常に高い絶滅リスクに直面している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/extinction-risk-definition",
+              "quote": "An Endangered (EN) species faces a very high risk of extinction."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "危急(VU)種は高い絶滅リスクに直面している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/extinction-risk-definition",
+              "quote": "A Vulnerable (VU) species faces a high risk of extinction."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "欧州では狩猟と生息地の喪失により、多くの大型哺乳類が絶滅寸前まで追い込まれた。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "Hunting and habitat loss drove many large mammals in Europe close to extinction."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "1960年から2016年にかけて、ヒグマの個体数は平均44%増加した。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "between 1960 and 2016, populations of brown bears increased by an average of 44%"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "1977年から2016年にかけて、ユーラシアカワウソの個体数は平均300%増加した。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "Between 1977 and 2016, populations of Eurasian otters increased by an average of 300%"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "ユーラシアビーバー、ヨーロッパバイソン、ヒグマなど欧州の代表的な哺乳類種は個体数が回復傾向にある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "such as the Eurasian beaver, European bison, and brown bear – have been making a return"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "IUCNレッドリストは絶滅リスクに関する決定的な情報源とみなされている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/extinction-risk-definition",
+              "quote": "The IUCN Red List of Threatened Species is regarded as the definitive source of extinction risk."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "IUCNは毎年、評価対象種それぞれの最新の状況評価を公表している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/extinction-risk-definition",
+              "quote": "Every year, the IUCN publishes its latest assessment of the status of each evaluated species."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "IUCNは各種を5年から10年ごとに再評価する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/extinction-risk-definition",
+              "quote": "each species is re-evaluated every five to ten years"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "データ不足(DD)の種は、個体群や生息状況に関する十分なデータがないため絶滅リスクを評価できない種である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/extinction-risk-definition",
+              "quote": "without adequate data on their populations and occurrence, a species’ extinction risk can’t be evaluated"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "絶滅の判定は、既知または予想される生息地で長期間にわたり徹底的な調査を行っても個体が見つからない場合に下される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/extinction-risk-definition",
+              "quote": "Researchers declare this when no individuals are found in exhaustive studies of its known or expected habitats for a long period of time."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "絶滅種の例として、キンイロヒキガエルとニホンアシカが挙げられる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/extinction-risk-definition",
+              "quote": "This includes the golden toad and the Japanese sea lion."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "野生絶滅(EW)種は、予想される生息地での徹底的な調査で個体が見つからないが、飼育下または本来の生息域外で野生化した個体群として存在する種である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/extinction-risk-definition",
+              "quote": "An Extinct in the Wild (EW) species fits the criteria for ‘Extinct’ – exhaustive surveys have found no individuals in its expected habitats – but individuals still exist in captivity or as naturalized populations outside of its normal, historical range."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "深刻な危機(CR)種を分類する基準の一つは、10年以内に野生で絶滅する確率が50%を超えると定量分析で示されることである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/extinction-risk-definition",
+              "quote": "One of the metrics that categorizes a critically endangered species is if quantitative analysis shows that there is a greater than 50% chance that it goes extinct in the wild within 10 years."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "危機(EN)種を分類する基準の一つは、20年以内に野生で絶滅する確率が20%を超えると定量分析で示されることである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/extinction-risk-definition",
+              "quote": "One of the metrics that categorizes an endangered species is if quantitative analysis shows that there is a greater than 20% chance that it goes extinct in the wild within 20 years."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "危急(VU)種を分類する基準の一つは、100年以内に野生で絶滅する確率が10%を超えると定量分析で示されることである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/extinction-risk-definition",
+              "quote": "One of the metrics that categorizes a vulnerable species is if quantitative analysis shows that there is a greater than 10% chance that it goes extinct in the wild within 100 years."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "準絶滅危惧(NT)種は、現時点では深刻な危機・危機・危急のいずれの基準も満たさないが、最近の傾向から近い将来その基準を満たすと見られる種である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/extinction-risk-definition",
+              "quote": "A Near Threatened (NT) species does not qualify as Critically Endangered, Endangered, or Vulnerable now, but according to the researchers’ assessment, it is close to meeting this definition soon, based on recent trends."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "低懸念(LC)種は広く分布し個体数が豊富で、絶滅の脅威を受けていない種である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/extinction-risk-definition",
+              "quote": "A Least-Concern (LC) species is widespread, abundant, and not threatened with extinction."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "「絶滅のおそれのある種(threatened species)」とは、深刻な危機・危機・危急に分類された種の合計を指す。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/extinction-risk-definition",
+              "quote": "Threatened species are those classified as either critically endangered, endangered, or vulnerable. It is the sum of species in each of these three categories."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "世界の成熟個体数が50頭未満の場合、その種は「深刻な危機」とみなされる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/extinction-risk-definition",
+              "quote": "A species is considered ‘Critically Endangered’ if there are fewer than 50 mature individuals globally."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "個体数が250未満の場合は「危機」、1,000未満の場合は「危急」とみなされる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/extinction-risk-definition",
+              "quote": "It’s ‘Endangered’ if there are fewer than 250 individuals, and ‘Vulnerable’ if there are fewer than 1,000."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "生息域の占有面積が10平方キロメートル未満の場合、その種は「深刻な危機」とみなされる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/extinction-risk-definition",
+              "quote": "A species is considered ‘Critically Endangered’ if its area of occupancy is less than 10 square kilometers (km2)."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "生息域の面積が500km²未満の場合は「危機」、2,000km²未満の場合は「危急」とみなされる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/extinction-risk-definition",
+              "quote": "It’s ‘Endangered’ if this area is less than 500 km2, and ‘Vulnerable’ if it’s less than 2,000 km2."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "IUCNはこれまでに15万種を超える種の絶滅リスクを評価してきた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/extinction-risk-definition",
+              "quote": "The IUCN has assessed more than 150,000 species for their extinction risk."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "保全活動はこれらの哺乳類種の個体数回復に重要な役割を果たした。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "Conservation efforts have played an important role in the return of these mammals"
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "ヨーロッパバイソンは適切に管理された再導入プログラムによって個体数が回復した。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "the European bison – were brought back through well-managed re-introduction programs"
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "農業生産性の向上により欧州全体で農地が減少し、野生生物により多くの生息地が戻された。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "the rise in agricultural productivity made it possible that agricultural land has declined across Europe, giving more habitat back to wildlife"
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "欧州の国々は狩猟割当を導入したり、狩猟を完全に禁止したりした。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "Countries brought in hunting quotas or even complete bans on hunting"
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "欧州のすべての種の個体数が増加しているわけではない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "Not every species in Europe is increasing in numbers."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "未評価(NE)とは、研究者がその種について評価に十分な知識を持っているかどうかを最初に検討し、基準を満たさない場合は評価対象から外されることを指す。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/extinction-risk-definition",
+              "quote": "The first question researchers ask is whether we know enough about a species to evaluate their status. If a species doesn’t meet this criterion, they are not evaluated and removed from the assessment process."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "種の絶滅リスクは4つの主要な指標に基づいて評価される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/extinction-risk-definition",
+              "quote": "Species are evaluated across four key metrics."
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "個体数が非常に小さいこと、個体数が小さくかつ減少していること、総個体数にかかわらず個体数が大幅に減少していること、生息域が狭くかつ縮小していることは、いずれも種が絶滅の危機にあることを示す指標である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/extinction-risk-definition",
+              "quote": "If the population size is very small.If the population size is small and it’s declining.If there has been a large decline in population size (regardless of its total size).The geographic range of the species – the area or region it lives in – is small and declining."
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "IUCNの評価は、160を超える専門家グループ・保全委員会・タスクフォースにまたがる1万500人のボランティア専門家のネットワークによって行われる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/extinction-risk-definition",
+              "quote": "this includes 10,500 volunteer experts across more than 160 Specialist Groups, Conservation Committees, and Task Forces"
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "IUCNアフリカゾウ専門家グループは、アフリカゾウの個体群の監視に取り組んでいる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/extinction-risk-definition",
+              "quote": "There is, for example, an IUCN African Elephant Specialist Group that focuses on the monitoring of African elephant populations."
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "世界で記載されている種の数は200万種を超え、そのうち100万種以上が昆虫であり、IUCNは昆虫を評価対象としていない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/extinction-risk-definition",
+              "quote": "The number of described species in the world is now over 2 million (with more than 1 million being insects, which the IUCN does not assess)."
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "IUCNは査読を伴う手続きで全種を5年ごと、遅くとも10年ごとに再評価することを目標としている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/extinction-risk-definition",
+              "quote": "They aim to re-evaluate every species in a peer-reviewed process every five years – every ten years at most."
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "種があるカテゴリーから別のカテゴリーへ移ることは、必ずしもその種の健全性が劇的に改善または悪化したことを意味せず、より良いデータに基づく再評価にすぎない場合もある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/extinction-risk-definition",
+              "quote": "A species moving from one category to another does not always mean a dramatic improvement or regression in its health. It can simply be a re-evaluation with better data."
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "データに示されていない多くの種は依然として減少しているか、個体数が横ばいの可能性がある。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/biodiversity",
+              "quote": "Many of those that are not shown might still be in decline, or only have stable population numbers."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

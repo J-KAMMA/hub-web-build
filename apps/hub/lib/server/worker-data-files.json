@@ -1,0 +1,11 @@
+{
+  "prefix": "/_hub-data/",
+  "files": {
+    "hubpedia-public-seed": "lib/encyclopedia/seed/public-seed.generated.json",
+    "hubpedia-public-claims": "lib/encyclopedia/seed/public-claims.generated.json",
+    "book-kokoro": "content/books/kokoro.json",
+    "book-ginga-tetsudo-no-yoru": "content/books/ginga-tetsudo-no-yoru.json",
+    "book-hashire-melos": "content/books/hashire-melos.json",
+    "book-rashomon": "content/books/rashomon.json"
+  }
+}

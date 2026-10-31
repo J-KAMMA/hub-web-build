@@ -1,0 +1,12 @@
+export type Vec2 = { x: number; y: number };
+export declare function vec(x: number, y: number): Vec2;
+export declare function add(a: Vec2, b: Vec2): Vec2;
+export declare function sub(a: Vec2, b: Vec2): Vec2;
+export declare function scale(a: Vec2, k: number): Vec2;
+export declare function length(a: Vec2): number;
+export declare function distance(a: Vec2, b: Vec2): number;
+export declare function dot(a: Vec2, b: Vec2): number;
+export declare function normalise(a: Vec2): Vec2;
+export declare function clamp(value: number, low: number, high: number): number;
+export declare function lerp(low: number, high: number, t: number): number;
+export declare function distanceToSegment(p: Vec2, a: Vec2, b: Vec2): number;

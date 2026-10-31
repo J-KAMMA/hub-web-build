@@ -1,0 +1,111 @@
+.field {
+  position: relative;
+  display: grid;
+  gap: 7px;
+  min-width: 0;
+}
+.head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--text);
+  font-weight: 700;
+}
+.head small {
+  color: var(--muted);
+  font-size: var(--type-caption-size);
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.control {
+  display: flex;
+  min-height: 44px;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+  padding: 6px 8px;
+  border: var(--divider);
+  border-radius: 8px;
+  background: var(--surface-sunken);
+}
+.control:focus-within {
+  border-color: var(--focus-ring);
+  outline: 2px solid var(--selected);
+}
+.chips {
+  display: contents;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.control input {
+  min-width: 150px;
+  min-height: 30px;
+  flex: 1;
+  padding: 2px 4px;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--text);
+}
+.chip {
+  display: inline-flex;
+  min-height: 30px;
+  max-width: 100%;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 7px 4px 9px;
+  border: var(--divider);
+  border-radius: 999px;
+  background: var(--selected);
+  color: var(--text);
+  font-size: var(--type-caption-size);
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+.chip button {
+  display: grid;
+  width: 24px;
+  height: 24px;
+  place-items: center;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+}
+.chip button:hover {
+  background: var(--content-nested);
+  color: var(--text);
+}
+.error {
+  margin: 0;
+  color: var(--danger-text);
+  font-size: var(--type-caption-size);
+}
+.suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.suggestions[hidden] {
+  display: none;
+}
+.suggestions li {
+  padding: 5px 9px;
+  border: var(--divider);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: var(--type-caption-size);
+  cursor: pointer;
+}
+.suggestions li:hover,
+.suggestions li[data-active="true"] {
+  border-color: var(--emphasis);
+  color: var(--text);
+}

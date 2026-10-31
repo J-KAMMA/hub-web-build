@@ -1,0 +1,2046 @@
+[
+  {
+    "slug": "crispr",
+    "topicType": "concept",
+    "categoryLabel": "生命科学",
+    "title": "CRISPR",
+    "summary": "CRISPRは、生きた生物のDNAを選択的に改変するために研究で用いられるゲノム編集技術であり、「clustered regularly interspaced short palindromic repeats」の略称である。細菌が侵入ウイルスを排除する免疫システムを実験室用に転用したもので、ガイドRNAがCas9酵素を標的DNA配列へ導いて切断する。先行技術のZFNやTALENより組み立てが簡単で、速度・コスト・精度・効率を大きく改善した。",
+    "bodyMarkdown": "## 定義と由来\n\nCRISPRは「clustered regularly interspaced short palindromic repeats」の略称で、研究科学者が生きた生物の[DNA](/hubpedia/dna)を選択的に改変するために用いる技術である。細菌にもともと備わっていた自然発生のゲノム編集システムを、実験室で使える形へと適応させたものである。 [1][2][3]\n\n自然界では、細菌はCRISPRを侵入してくるウイルスを殺す免疫系として使っている。CRISPRに関連するDNA配列が細菌で初めて観察されたのは1990年代初頭で、特定のゲノム配列を認識してCas9タンパク質で切断する能力が科学コミュニティに理解されたのは2000年代に入ってからである。Cas9はCRISPRと協働するDNA切断能を持つタンパク質である。 [4][5][6]\n\n## 仕組み\n\nCRISPRによる編集では、研究者はまず[ゲノム](/hubpedia/genome)内の標的DNA配列に一致する短いRNA鋳型を作製する。ガイドRNAと呼ばれるこのRNA部分はCas9酵素を標的DNA配列へ導き、Cas9がその位置でゲノムを切断して編集が行われる。 [7][8][9]\n\n切断を起点に、CRISPRはゲノム内に欠失を作ることも、新しいDNA配列を挿入するよう設計することもできる。先行技術のZFNやTALENでは編集ごとに新しいタンパク質を構築する必要があったが、CRISPRは組み立てがほとんど要らない単純な技術である点が異なる。 [10][11][12]\n\n## ゲノム編集技術の発展\n\nゲノム内のDNAを改変する技術自体は数十年存在する。生きた細胞でゲノムを編集する最初期の方法は相同組換えで、ほとんどの細胞種では非常に非効率で、成功確率は100万分の1程度にまで下がることがあった。 [13][14][15]\n\n1990年代には特異性の改善とオフターゲット編集の低減を狙ってジンクフィンガーヌクレアーゼ（ZFN）が使われ始め、2009年にはTALENsが登場した。その後CRISPRは、ゲノム編集の速度・コスト・精度・効率に大きな改善をもたらし、ある研究グループは標的[変異](/hubpedia/mutation)の作成効率がZFNやTALENの6倍だったと報告している。 [16][17][18][19]\n\n## 研究と医療への応用\n\nゲノム編集技術の主な応用先は基礎研究である。酵母・細菌・マウス・ゼブラフィッシュなどよく研究される生物のゲノムを編集することで、眼の色のような形質や疾患とゲノムのつながりについて無数の発見が生まれてきた。現在、がん、メンタルヘルス、希少疾患をはじめ多くの疾患領域の研究に適用されているが、NHGRIや他のNIH研究所の支援による研究の大半はシャーレ内や非ヒト生物で行われている。 [20][21][22][23]\n\nCRISPRは診断にも応用され、COVIDのRNAをPCRのような遺伝子増幅なしに検出する簡便な方法を提供した。医療応用の文脈では、遺伝子治療は生殖系治療と体細胞治療の2つに分けられ、体細胞治療は非生殖細胞を標的とするため変化は治療を受けた本人にのみ影響し、将来の世代には伝わらない。 [24][25][26]\n\n## 限界と課題\n\nCRISPRは従来の技術よりはるかに精密だが、意図しない位置を編集するオフターゲット編集のリスクとその影響はまだ完全には分かっていない。治療として実用化するには、編集装置を体内の正しい細胞へ効果的に届ける方法も克服すべき課題である。 [28][29]\n\n倫理面では、将来の世代に影響を与えうる生殖系治療のほうが、より多くの倫理的ハードルを抱えるとされる。どの[遺伝子](/hubpedia/gene)が疾患に関わるか、遺伝子の変化が疾患リスクにどう影響するかの理解も発展途上であり、[遺伝的変異](/hubpedia/genetic-variation)の知識が進むまでは多くの遺伝子治療の開発は限られたものにとどまる。 [27][30]",
+    "sources": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/CRISPR",
+        "title": "CRISPR",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "Talking Glossary definition and narration for CRISPR. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-works",
+        "title": "How Does Genome Editing Work?",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "History and mechanism of genome editing methods, from homologous recombination through ZFNs and TALENs to CRISPR. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+        "title": "How is Genome Editing Used?",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "Research and clinical applications of genome editing, gene therapy categories, and ethical and technical barriers. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "CRISPR",
+        "summary": "CRISPR (short for 'clustered regularly interspaced short palindromic repeats') is a genome editing technology that research scientists use to selectively modify the DNA of living organisms. Adapted for laboratory use from a natural immune system that bacteria use to kill invading viruses, it uses a guide RNA to direct the Cas9 enzyme to a targeted DNA sequence for cutting. It is simpler to assemble than earlier ZFN and TALEN tools and has brought major improvements in speed, cost, accuracy and efficiency.",
+        "bodyMarkdown": "## Definition and origin\n\nCRISPR (short for 'clustered regularly interspaced short palindromic repeats') is a technology that research scientists use to selectively modify the [DNA](/hubpedia/dna) of living organisms. It was adapted for laboratory use from naturally occurring genome editing systems found in bacteria. [1][2][3]\n\nIn nature, bacteria use CRISPR as an immune system to kill invading viruses. CRISPR-associated DNA sequences were first observed in bacteria in the early 1990s, but it was not until the 2000s that the scientific community understood its ability to recognize specific genome sequences and cut them via Cas9, a protein that works with CRISPR and has DNA-cutting abilities. [4][5][6]\n\n## How it works\n\nFor CRISPR editing, researchers first create a short RNA template that matches a target DNA sequence in the [genome](/hubpedia/genome). This RNA portion, called a guide RNA, directs the Cas9 enzyme to the targeted DNA sequence, and Cas9 cuts the genome at that location to make the edit. [7][8][9]\n\nBuilding on the cut, CRISPR can make deletions in the genome or be engineered to insert new DNA sequences. Earlier technologies such as ZFNs and TALENs required constructing a new protein for each edit, whereas CRISPR is a simple technology that needs little assembly. [10][11][12]\n\n## Development of genome editing methods\n\nTechniques to modify DNA in the genome have existed for several decades. The earliest method used to edit genomes in living cells was homologous recombination, which is extremely inefficient in most cell types and can succeed with a probability as low as one in a million. [13][14][15]\n\nIn the 1990s researchers began using zinc-finger nucleases (ZFNs) to improve specificity and reduce off-target edits, and TALENs arrived on the scene in 2009. CRISPR then brought major improvements to the speed, cost, accuracy and efficiency of genome editing, and one group of scientists found it six times more efficient than ZFNs or TALENs at creating targeted [mutations](/hubpedia/mutation) in the genome. [16][17][18][19]\n\n## Research and medical applications\n\nThe main application of genome editing has been basic research. Editing the genomes of commonly studied organisms such as yeast, bacteria, mice and zebrafish has produced countless discoveries about how the genome is connected to traits like eye color and to disease. Genome editing is now applied to research on cancer, mental health, rare diseases and many other disease areas, though the vast majority of work funded by NHGRI and other NIH institutes takes place in the petri dish and in nonhuman organisms. [20][21][22][23]\n\nCRISPR has also been applied to diagnostics, providing a simple method for detecting COVID RNA without up-front amplification such as PCR. In the medical context, gene therapies fall into two categories, germline therapy and somatic therapy, and somatic therapies target non-reproductive cells, so the changes affect only the person treated and are not passed to future generations. [24][25][26]\n\n## Limitations and challenges\n\nAlthough CRISPR is many times more precise than previous techniques, the risk of off-target edits and their effects are still unknown. Delivering a genome editing therapy to the right cells in the body in an effective manner is another problem to overcome before clinical use. [28][29]\n\nEthically, germline therapies pose a greater number of hurdles because they can affect future generations. There is also still much to learn about which [genes](/hubpedia/gene) are involved in most diseases and how changes in those genes, including [genetic variation](/hubpedia/genetic-variation), affect disease risk, so many gene therapies remain out of reach for now. [27][30]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "CRISPRは「clustered regularly interspaced short palindromic repeats」の略称である。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/CRISPR",
+              "quote": "CRISPR (short for “clustered regularly interspaced short palindromic repeats”) is a technology that research scientists use to selectively modify the DNA of living organisms."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "CRISPRは研究科学者が生きた生物のDNAを選択的に改変するために用いる技術である。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/CRISPR",
+              "quote": "a technology that research scientists use to selectively modify the DNA of living organisms"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "CRISPRは細菌に見出される自然発生のゲノム編集システムを実験室での利用に適応させたものである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/CRISPR",
+              "quote": "CRISPR was adapted for use in the laboratory from naturally occurring genome editing systems found in bacteria."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "自然界では、細菌はCRISPRを侵入してくるウイルスを殺す免疫系として使っている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-works",
+              "quote": "In nature, CRISPR is used by bacteria as an immune system to kill invading viruses, but it has now been adapted for use in the lab."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "CRISPRに関連するDNA配列は1990年代初頭に細菌で初めて観察された。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-works",
+              "quote": "CRISPR associated DNA sequences were first observed in bacteria in the early 1990s"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "特定のゲノム配列を認識しCas9タンパク質で切断する能力が科学コミュニティに理解されたのは2000年代であり、Cas9はCRISPRと協働するDNA切断能を持つタンパク質である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-works",
+              "quote": "it was not until the 2000s that the scientific community understood its ability to recognize specific genome sequences and cut them via the Cas9 protein, a protein that works with CRISPR and that has DNA-cutting abilities"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "CRISPRでは、研究者はゲノム内の標的DNA配列に一致する短いRNA鋳型を作製する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-works",
+              "quote": "With CRISPR, researchers create a short RNA template that matches a target DNA sequence in the genome."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "ガイドRNAと呼ばれるCRISPRのRNA部分は、Cas9酵素を標的DNA配列へ導く。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-works",
+              "quote": "The RNA portion of the CRISPR, called a guide RNA, directs Cas9 enzyme to the targeted DNA sequence."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "Cas9はその位置でゲノムを切断して編集を行う。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-works",
+              "quote": "Cas9 cuts the genome at this location to make the edit."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "CRISPRはゲノム内に欠失を作ることも、新しいDNA配列を挿入するよう設計することもできる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-works",
+              "quote": "CRISPR can make deletions in the genome and/or be engineered to insert new DNA sequences."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "ZFNやTALENでは編集ごとに新しいタンパク質を構築する必要があった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-works",
+              "quote": "Each edit would require the construction of a new ZFN or TALEN protein, and engineering proteins can be a difficult process that is prone to error."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "先行技術と異なり、CRISPRは組み立てがほとんど要らない単純な技術である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-works",
+              "quote": "unlike its predecessors, CRISPR is a simple technology with little assembly required"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "ゲノム内のDNAを改変する技術は数十年存在している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-works",
+              "quote": "Techniques to modify DNA in the genome have existed for several decades"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "生きた細胞でゲノムを編集するために科学者が使った最初期の方法は相同組換えである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-works",
+              "quote": "The earliest method scientists used to edit genomes in living cells was homologous recombination."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "相同組換えはほとんどの細胞種で非常に非効率で、編集の成功確率は100万分の1程度にまで下がることがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-works",
+              "quote": "it is extremely inefficient in most cell types. This technique can have as low as a one-in-a-million probability of successful editing."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "1990年代には、ゲノム編集の特異性を高めオフターゲット編集を減らすためにジンクフィンガーヌクレアーゼ（ZFN）が使われ始めた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-works",
+              "quote": "In the 1990s researchers started using zinc-finger nucleases (ZFN) to improve the specificity of genome editing and reduce off-target edits."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "2009年にTALENsという新しい種類のタンパク質がゲノム編集に登場した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-works",
+              "quote": "In 2009, a new class of proteins called Transcription Activator-Like Effector Nucleases (TALENs) arrived to the genome editing scene."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "ある研究グループは、CRISPRがゲノムへの標的変異の作成においてZFNやTALENより6倍効率的だと見出した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-works",
+              "quote": "One group of scientists found that CRISPR is six times more efficient than ZFNs or TALENs in creating targeted mutations to the genome."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "CRISPR技術はゲノム編集の速度・コスト・精度・効率に大きな改善をもたらした。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-works",
+              "quote": "CRISPR technology has brought major improvements to the speed, cost, accuracy, and efficiency of genome editing."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "ゲノム編集技術の主な応用は基礎研究である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "the main application of this technology has been in basic research"
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "酵母・細菌・マウス・ゼブラフィッシュなどのゲノム編集は、眼の色のような形質や疾患とゲノムのつながりについて無数の発見をもたらした。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-works",
+              "quote": "Editing the genomes of yeast, bacteria, mice, zebrafish, and other organisms that scientists commonly study has led to countless discoveries about how the genome is connected to physical traits, like eye color, and disease."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "ゲノム編集は現在、がん・メンタルヘルス・希少疾患など多くの疾患領域の研究に適用されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "Genome editing is currently being applied to research on cancer, mental health, rare diseases, and many other disease areas."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "NHGRIや他のNIH研究所の支援を受けた研究の大半は、シャーレ内およびマウスやゼブラフィッシュなどの非ヒト生物で行われている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "the vast majority of work undertaken by scientists funded by NHGRI or other NIH Institutes takes place in the petri dish and in nonhuman organisms such as mice or zebrafish"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "CRISPRはPCRのような遺伝子増幅なしにCOVIDのRNAを検出する簡便な方法を提供した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/CRISPR",
+              "quote": "It provided the simple method for detection of COVID ribonucleic acid -- or RNA -- without making copies up front or performing gene amplification, or sometimes called PCR."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "遺伝子治療には生殖系治療と体細胞治療の2つの区分がある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "There are two different categories of gene therapies: germline therapy and somatic therapy."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "体細胞治療は非生殖細胞を標的とし、その変化は治療を受けた本人にのみ影響し将来の世代には伝わらない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "Somatic therapies, on the other hand, target non-reproductive cells. Changes made in these cells affect only the person who receives the gene therapy and do not pass on to future generations."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "生殖系治療は将来の世代に影響を与えうるため、より多くの倫理的ハードルを伴う。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "germline therapies pose a greater number of ethical hurdles because of their ability to affect future generations"
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "オフターゲット編集のリスクとその影響は、CRISPRのような従来よりはるかに精密な技術でもまだ分かっていない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "The risk of off-target edits, or unintended edits, and their effects are still unknown, even for a technology like CRISPR that is many times more precise than previous techniques."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "ゲノム編集治療を体内の正しい細胞へ効果的に届ける方法は、克服すべき課題である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "Another problem to overcome is how to deliver the genome editing therapy to the right cells in the body in an effective manner."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "どの遺伝子が大半の疾患に関わるか、遺伝子の変化が疾患リスクにどう影響するかについては、まだ学ぶべきことが多い。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "there is still much to learn about which genes are involved in most diseases and how different changes in these genes affect a person’s risk of getting a disease"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "genetic-variation",
+    "topicType": "concept",
+    "categoryLabel": "生命科学",
+    "title": "遺伝的変異",
+    "summary": "遺伝的変異とは、個人間や集団間のDNA配列の違いを指す概念である。人のゲノムの大部分は他人と同一だが、一塩基バリアントから構造バリアントまで多様な差が存在し、任意の2人のゲノムは平均で約99.6%同一である。ほとんどのバリアントは機能に影響しないが、一部は形質・健康・薬への反応に関わり、遺伝的変異は進化と自然選択の基盤でもある。",
+    "bodyMarkdown": "## ゲノムと遺伝的変異の基礎\n\n[ゲノム](/hubpedia/genome)とは、あらゆる細胞に見つかるDNAの指示の完全な集合を指す。[DNA](/hubpedia/dna)はアデニン（A）・チミン（T）・シトシン（C）・グアニン（G）の4種の塩基からなり、その順番が細胞への指示を符号化する。ヒトゲノムの1コピーには約30億塩基が含まれて23本の[染色体](/hubpedia/chromosome)に分配されており、ほとんどのヒト細胞は各親から1コピーずつ受け継いだ2コピーのゲノムを持つ。 [1][2][3][4]\n\n人のゲノムのDNA文字の大部分は他人と同一で、ごく一部だけが異なる。「任意の2人のゲノムは約99.9%同一」とよく言われるが、これは約1,300塩基に1つの一塩基差があるという知見に基づく概算である。一塩基差だけでなく複数塩基にまたがる差まで含めると、実際には任意の2人のゲノムは平均で約99.6%同一、約0.4%異なるとされる。 [5][6][7]\n\n個人間や集団間のDNA配列の違いは遺伝的（ゲノム）変異と呼ばれ、ヒトゲノム間の差はゲノムバリアントと呼ばれる。バリアントの一部は遺伝性疾患を引き起こす[変異](/hubpedia/mutation)のように生物学的機能に影響するが、多くは生物学的効果を持たない。影響を持つものの中には、眼の色や身長などの身体的特徴に関わるものや、健康状態・特定の薬への反応（[薬理ゲノミクス](/hubpedia/pharmacogenomics)の対象）に関わるものがある。 [8][9][10][11]\n\n## バリアントの種類\n\n最小のゲノムバリアントは一塩基バリアント（SNV）で、単一の塩基の差を反映し、ゲノム変異の最も一般的なタイプである。SNVの亜型に一塩基多型（SNP）があり、SNPと見なされるにはそのSNVがヒト集団の少なくとも1%に存在する必要がある。 [12][13]\n\n挿入・欠失バリアント（indel）は、ゲノム内の余分なまたは失われたDNA塩基を反映し、典型的には50塩基未満である。最も一般的なindelの一つがタンデムリピート（マイクロサテライト）で、短い塩基配列が複数回繰り返されたもので、繰り返し回数は人によって大きく異なる。タンデムリピートは歴史的に、ヒトゲノムの地図作りや法医学でのDNAプロファイリングに使われてきた。 [14][15]\n\nゲノム変異は小さな塩基の範囲を超えて、より大きな染色体領域にも及ぶ。50塩基以上、時に数千塩基に及ぶ挿入・欠失・逆位・ゲノム内移動を伴う大規模な差は構造バリアントと呼ばれる。構造バリアントのうち、関与する塩基の総数に差があるものはコピー数バリアント（CNV）と呼ばれる。50塩基を超えるタンデムリピートも構造バリアントに分類され、ヒトゲノムに存在する構造バリアントのほぼ半分を占める。 [16][17][18]\n\n## バリアントの検出と参照ゲノム\n\n検出方法は目的によって異なる。既知のバリアントを調べる場合、マイクロアレイと呼ばれる検査は一度に数十万のSNVを検出できる。未知のものを含めてより包括的に検出するにはゲノムシーケンシングを行い、今日ではヒトゲノムのシーケンシングは通常1,000ドル未満で、20数年前より百万倍以上安くなっている。 [19][20][21]\n\n個人のゲノムからバリアントを検出するには、通常、比較対象となる参照ゲノム配列が必要である。参照ヒトゲノム配列は実在の1人の配列ではなく、複数の人から継ぎ合わせて作られた確立された高品質な配列である。参照と比較した場合、典型的な人のゲノムは約500万のSNV、約60万の挿入・欠失バリアント、約2万5千の構造バリアントを持ち、その全バリアントは合計で約2,700万塩基に及んでゲノムの約0.4%を占める。 [22][23][24]\n\n## 進化と健康における意義\n\n遺伝的変異は進化を駆動し、生物多様性を拡大する。こうした多様性は集団を健全に保ち、生物が変化する環境に適応していく進化過程である自然選択の基盤となる。また、集団や家族の中の遺伝的変異を理解することは、特定の集団やその中の個人が他より高い疾患リスクを持つ理由の説明にも役立つ可能性がある。 [26][27]\n\nヒトの健康に影響するゲノムバリアントはごく一部である。嚢胞性線維症や鎌状赤血球症のように疾患を直接引き起こすバリアントもあれば、高血圧や糖尿病のように、その疾患になる全体的なリスクに寄与する程度のものもある。医療従事者は患者のゲノムバリアントの情報を医療管理に活用する方法を学びつつあり、これはゲノム医療と呼ばれる分野である。 [28][29]\n\n## 残る課題と展望\n\n各人のゲノムの構造バリアントに関わる塩基の総数の計算は複雑で、活発な研究領域のままである。また、現在の参照ヒトゲノム配列はヒト集団のゲノム多様性を正確に代表しておらず、その多様性の欠如は一部の人々のゲノム解析にバイアスを生じさせうる。この不足に対処するため、複数個人のゲノム配列を集めて種のゲノム多様性をよりよく代表する「パンゲノム」参照の構築が進められている。 [25][30]",
+    "sources": [
+      {
+        "url": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+        "title": "Human Genomic Variation",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "Fact sheet covering the types of human genomic variants, how they are detected, reference genome sequences and the pangenome. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Genomic-Variation",
+        "title": "Genomic Variation",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "Talking Glossary definition and narration for genomic variation. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Genetic variation",
+        "summary": "Genetic variation refers to differences in DNA sequence among individuals or populations. Most of a person's genome is identical to others', but many kinds of differences exist, from single-nucleotide variants to structural variants, and any two people's genomes are on average about 99.6% identical. Most variants have no functional effect, but some influence traits, health and medication response, and variation is also the substrate of evolution by natural selection.",
+        "bodyMarkdown": "## The genome and the basics of genetic variation\n\nA [genome](/hubpedia/genome) is the complete set of DNA instructions found in every cell. [DNA](/hubpedia/dna) is made of four different chemicals called bases — adenine (A), thymine (T), cytosine (C) and guanine (G) — whose order encodes the instructions for the cell. One copy of the human genome contains about 3 billion nucleotides distributed among 23 [chromosomes](/hubpedia/chromosome), and most human cells carry two copies of the genome, one inherited from each parent. [1][2][3][4]\n\nThe vast majority of the DNA letters in people's genomes is identical, and only a small fraction varies. It is frequently stated that any two people's genomes are about 99.9% identical, an estimate based on the finding that a single-nucleotide difference exists between two genomes once every 1,300 nucleotides or so. When differences spanning multiple nucleotides are included as well, any two people's genomes are in reality about 99.6% identical and about 0.4% different on average. [5][6][7]\n\nDNA sequence differences among individuals or populations are called genetic (genomic) variation, and the differences among human genomes are called genomic variants. Some variants influence biological function, such as a [mutation](/hubpedia/mutation) that causes a genetic disease, while many have no biological effects. Among those that do have an impact, some influence physical characteristics like eye color and height, while others influence health conditions or how a person responds to certain medications — the subject of [pharmacogenomics](/hubpedia/pharmacogenomics). [8][9][10][11]\n\n## Types of variants\n\nThe smallest genomic variants are single-nucleotide variants (SNVs), each reflecting a difference in a single nucleotide, and they are the most common type of genomic variation. A subtype of SNVs is the single-nucleotide polymorphism (SNP); to be considered a SNP, a SNV must be present in at least 1% of the human population. [12][13]\n\nInsertion/deletion variants (indels) reflect extra or missing DNA nucleotides in the genome and typically involve fewer than 50 nucleotides. One of the most common types of indels are tandem repeats, also known as microsatellites: short stretches of nucleotides repeated multiple times whose repeat count varies greatly among people. Tandem repeats have historically been used for building maps of the human genome and for DNA profiling in forensics. [14][15]\n\nGenomic variation also extends beyond small stretches of nucleotides to larger chromosomal regions. Large-scale differences involving at least 50 nucleotides — sometimes thousands — that have been inserted, deleted, inverted or moved within the genome are called structural variants. A structural variant that reflects a difference in the total number of nucleotides involved is called a copy-number variant (CNV). Tandem repeats larger than 50 nucleotides are also classified as structural variants and account for nearly half of the structural variants in human genomes. [16][17][18]\n\n## Detecting variants and the reference genome\n\nDetection methods differ by purpose. When known variants are the target, a type of test called a microarray can detect hundreds of thousands of SNVs at once. For a more comprehensive approach that also captures variants not yet known, researchers perform genome sequencing; today sequencing a human genome usually costs less than $1,000, over a million-fold cheaper than a couple of decades ago. [19][20][21]\n\nDetecting variants in a person's genome usually requires a reference genome sequence for comparison. A reference human genome sequence is not an actual sequence from one individual but is pieced together from multiple people as an established, high-quality sequence. Compared to a reference, a typical person's genome carries about 5 million SNVs, about 600,000 insertion/deletion variants and about 25,000 structural variants, and the complete set of those variants involves about 27 million nucleotides, about 0.4% of the genome. [22][23][24]\n\n## Significance for evolution and health\n\nGenomic variation drives evolution and expands biodiversity. Such diversity keeps populations healthy and is fundamental to natural selection, the evolutionary process by which organisms adapt to changing environments. Understanding genomic variation in families and populations can also help explain why some populations or persons within a population have a higher risk of certain diseases than others. [26][27]\n\nOnly a small fraction of genomic variants affects human health. Some variants directly cause diseases, as in cystic fibrosis and sickle cell disease, while in conditions such as hypertension and diabetes a variant may instead contribute to a person's overall risk. Healthcare professionals are increasingly learning how to use information about patients' genomic variants to manage their medical care, a field known as genomic medicine. [28][29]\n\n## Remaining challenges and outlook\n\nCalculating the total number of nucleotides involved in structural variants in each human genome is complicated and remains an active area of research. In addition, currently available reference human genome sequences do not accurately represent the genomic diversity of the human population, and that lack of diversity can introduce biases when analyzing some people's genomes. To address this, researchers are building a 'pangenome', the collective genome sequences of multiple individuals that better represents the genomic diversity of the species. [25][30]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "ゲノムとは、あらゆる細胞に見つかるDNAの指示の完全な集合である。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "A genome is the complete set of DNA instructions found in every cell."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "DNAはアデニン（A）・チミン（T）・シトシン（C）・グアニン（G）の4種の塩基からなる。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "DNA is made of four different chemicals (called nucleotides or bases), each represented by a different letter: adenine (A), thymine (T), cytosine (C) and guanine (G)."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "ヒトゲノムの1コピーには約30億塩基が含まれ、23本の染色体に分配されている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "One copy of the human genome contains about 3 billion nucleotides, which are distributed among 23 chromosomes."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "ほとんどのヒト細胞はゲノムを2コピー持ち、各親から1コピーずつ受け継ぐ。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "Most human cells have two copies of the human genome, with one copy inherited from each parent."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "人のゲノムのDNA文字の大部分は同一で、ごく一部が異なる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "The vast majority of the DNA letters in peoples’ genomes is identical, but a small fraction of those letters varies."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "任意の2人のゲノムは約99.9%同一とよく言われ、これは約1,300塩基に1つの一塩基差があるという知見に基づく。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "It is frequently stated that any two peoples’ genomes are ~99.9% identical to one another. This percentage is based on the finding that, on average, a single-nucleotide difference exists between two peoples’ genomes once every 1,300 nucleotides or so."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "実際には、任意の2人のゲノムは平均で約99.6%同一で約0.4%異なる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "In reality, any two peoples’ genomes are, on average, ~99.6% identical and ~0.4% different."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "ゲノム（遺伝的）変異は、個人間や集団間のDNA配列の違いを指す。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Genomic-Variation",
+              "quote": "Genomic variation refers to DNA sequence differences among individuals or populations."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "ヒトゲノム間の差はゲノムバリアントと呼ばれる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "The differences among human genomes are called genomic variants."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "バリアントの一部は遺伝性疾患を引き起こす変異のように生物学的機能に影響するが、他は生物学的効果を持たない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Genomic-Variation",
+              "quote": "Some variants influence biological function (such as a mutation that causes a genetic disease), while others have no biological effects."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "バリアントの中には眼の色や身長などの身体的特徴に影響するもの、健康状態や特定の薬への反応に影響するものがある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "some genomic variants influence physical characteristics, like eye color and height; others influence health conditions or how a person responds to certain medications."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "最小のゲノムバリアントは一塩基バリアント（SNV）であり、ゲノム変異の最も一般的なタイプである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "The smallest genomic variants are single-nucleotide variants (SNVs)."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "SNVs are the most common type of genomic variation."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "SNVが一塩基多型（SNP）と見なされるには、ヒト集団の少なくとも1%に存在する必要がある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "To be considered a SNP, a SNV must be present in at least 1% of the human population."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "挿入・欠失バリアントはゲノム内の余分なまたは失われたDNA塩基を反映し、典型的には50塩基未満で、最も一般的なものの一つがタンデムリピート（マイクロサテライト）である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "Insertion/deletion variants reflect extra or missing DNA nucleotides in the genome, respectively, and typically involve fewer than 50 nucleotides."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "One of the most common types of insertion/deletion variants are tandem repeats (also known as microsatellites)."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "タンデムリピートは短い塩基配列の繰り返しで人によって大きく異なり、歴史的にヒトゲノムの地図作りや法医学でのDNAプロファイリングに使われてきた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "Tandem repeats are short stretches of nucleotides that are repeated multiple times and are highly variable among people."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "Historically, tandem repeats have been used for building maps of the human genome and DNA profiling in forensics applications."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "構造バリアントは、50塩基以上から数千塩基に及ぶ挿入・欠失・逆位・ゲノム内移動を伴う大規模なゲノムの差である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "These large-scale genomic differences are called structural variants and involve at least 50 nucleotides and as many as thousands of nucleotides that have been inserted, deleted, inverted or moved from one part of the genome to another."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "関与する塩基の総数に差がある構造バリアントはコピー数バリアント（CNV）と呼ばれる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "When a structural variant reflects differences in the total number of nucleotides involved, it is called a copy-number variant (CNV)."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "50塩基を超えるタンデムリピートは構造バリアントに分類され、ヒトゲノムの構造バリアントのほぼ半分を占める。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "Tandem repeats that contain more than 50 nucleotides are considered structural variants; in fact, such large tandem repeats account for nearly half of the structural variants present in human genomes."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "マイクロアレイと呼ばれる検査は一度に数十万のSNVを検出できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "a type of test called a microarray can detect hundreds of thousands of SNVs at once."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "未知のものを含めてバリアントをより包括的に検出する方法はゲノムシーケンシングである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "A more comprehensive way to detect genomic variants, including those that might not yet be known, is to perform genome sequencing."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "今日、ヒトゲノムのシーケンシングは通常1,000ドル未満で、20数年前より百万倍以上安い。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "Today, sequencing a human genome usually costs less than $1,000, which is over a million-fold less expensive than a couple of decades ago."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "個人のゲノムのバリアント検出には比較用の参照配列が必要で、参照ヒトゲノム配列は実在の1人ではなく複数の人から継ぎ合わせて作られる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "Detecting variants in a person’s genome sequence usually requires an existing sequence for comparison — a “reference.”"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "A reference human genome sequence is not an actual sequence from one individual but pieced together from multiple people."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "参照ゲノムと比較した場合、典型的な人のゲノムは約500万のSNV、約60万の挿入・欠失バリアント、約2万5千の構造バリアントを持つ。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "~5,000,000 SNVs that involve ~5,000,000 nucleotides"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "~600,000 insertion/deletion variants that involve ~2,000,000 nucleotides"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "~25,000 structural variants that involve >20,000,000 nucleotides."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "各人のゲノムの全バリアントは合計で約2,700万塩基に及び、ゲノムの約0.4%を占める。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "the complete set of genomic variants in each person’s genome involves ~27,000,000 nucleotides (among the ~6,000,000,000 nucleotides in their genome). Those ~27,000,000 nucleotides reflect some type of difference at those positions in the DNA, together accounting for ~0.4% of the person’s complete genome."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "各人のゲノムの構造バリアントに関わる塩基の総数の計算は複雑で、活発な研究領域のままである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "calculating the total number of nucleotides involved in structural variants in each human genome is quite complicated and remains an active area of research."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "ゲノム変異は進化を駆動し生物多様性を拡大し、その多様性は生物が変化する環境に適応する進化過程である自然選択の基盤である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "Genomic variation drives evolution and serves to expand biodiversity. This is true of humans as well as for plants, animals and other organisms. Such diversity keeps populations healthy and is fundamental to natural selection, an evolutionary process by which organisms adapt to changing environments."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "集団や家族の中の遺伝的変異の理解は、特定の集団やその中の個人が他より高い疾患リスクを持つ理由の説明に役立つ可能性がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Genomic-Variation",
+              "quote": "Genomic variation may also be the reason why some populations or persons within a certain population may have higher risk of certain diseases compared to others."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "ヒトの健康に影響するゲノムバリアントはごく一部で、嚢胞性線維症や鎌状赤血球症のように疾患を直接引き起こすものもあれば、高血圧や糖尿病のようにリスクに寄与するものもある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "Only a small fraction of genomic variants affects human health. In some cases, genomic variants directly cause diseases (such as in cystic fibrosis and sickle cell disease)."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "in hypertension and diabetes, where a genomic variant might contribute to the overall risk that a person might have of the condition"
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "医療従事者は患者のゲノムバリアントの情報を医療管理に活用する方法を学びつつあり、これはゲノム医療と呼ばれる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "Healthcare professionals are increasingly learning how to use information about patients’ genomic variants to manage their medical care — something known as genomic medicine."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "現在の参照ヒトゲノム配列はヒト集団のゲノム多様性を正確に代表せず解析にバイアスを生じさせうるため、複数個人のゲノム配列の集合で種の多様性をよりよく代表するパンゲノムの構築が進められている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "the currently available reference human genome sequences do not accurately represent the genomic diversity of the human population, and that lack of diversity can introduce biases when analyzing some peoples’ genome sequences."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "A “pangenome” is the collective genome sequences of multiple individuals that better represents the genomic diversity of the species."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "stem-cell",
+    "topicType": "concept",
+    "categoryLabel": "生命科学",
+    "title": "幹細胞",
+    "summary": "幹細胞は、体内の多くの異なる細胞種を形成する潜在力を持つ細胞であり、分裂によって新たな幹細胞か特化した機能を持つ細胞を生み出す。胚性幹細胞は完全な個体を形成しうるのに対し、成体（体性）幹細胞は骨髄・肝臓・神経組織などに存在して特定の細胞種だけを形成する。成体細胞を多能性状態へ戻すiPSC技術や、胚性幹細胞を用いる治療的クローニングも研究されている。",
+    "bodyMarkdown": "## 定義と基本的性質\n\n幹細胞とは、体内に存在する多くの異なる細胞種を形成する潜在力を持つ細胞である。幹細胞が分裂すると、より多くの幹細胞になることも、特化した機能を果たす他の細胞になることもでき、個体が生きている限り分裂を続ける。幹細胞は一般に未分化であり、そこから生まれる細胞がより成熟した細胞になっていく。 [1][2][4][5]\n\n幹細胞は大きなピラミッドの頂点のレンガのようなもので、底辺にはそこから派生した複数種類の細胞が並ぶ。下へ行くほど細胞は成熟し数も増えるため、ごく少数の幹細胞が膨大な数の成熟した子孫を生み出すことができる。 [6]\n\n## 幹細胞の種類と分布\n\n胚性幹細胞は完全な個体を形成する潜在力を持つのに対し、成体幹細胞は特定の種類の特化細胞しか形成できない。成体の個体内に存在するものは体性幹細胞と呼ばれ、人の骨髄にはあらゆる種類の血液細胞を生み出す幹細胞、肝臓には肝細胞や分泌細胞を生み出す幹細胞、神経組織にはニューロンやアストログリア細胞を生み出す幹細胞があり、筋肉にも幹細胞がある。 [3][7][8][9]\n\n胚性幹細胞は、マウスでは受精後3.5日、人では6〜8日の胚から得られ、成体の細胞よりさらに大きな潜在力を持つ。適切な方法で得られた胚性幹細胞は、神経細胞、筋細胞、肝細胞を生み出すことができる。 [10][11]\n\n## 分裂の様式\n\n幹細胞は、成熟した子孫を生み出すだけでなく、自分たちの幹細胞プールが減らないよう維持する必要もある。そのために幹細胞には2種類の分裂がある。対称分裂では、幹細胞が分裂して両方の細胞が未分化の幹細胞のままとなる。非対称分裂では、一方の細胞が増殖して分化した子孫になり、もう一方は幹細胞のまま残る。 [12][13][14]\n\nどちらの分裂が多いかは状況によって変わる。骨髄移植後のように幹細胞の数を拡大しなければならない時期には対称分裂が非対称分裂より多くなり、通常時の骨髄では非対称分裂が主となって幹細胞の数をほぼ一定に保つ。これは[有糸分裂](/hubpedia/mitosis)による細胞分裂の制御が組織の恒常性を支える一例である。 [15]\n\n## 人工多能性幹細胞（iPSC）\n\n山中伸弥と大学院生の高橋和利は、あらゆる成体細胞を発生の最初期段階である多能性幹細胞に戻し、体内のさまざまな細胞種へ変える技術を開発した。人工多能性幹細胞（iPSC）と呼ばれるこの技術は、膝を修復する軟骨組織、加齢黄斑変性などの眼疾患の視力を改善する網膜細胞、損傷した心組織を回復する心臓細胞の生成といった医学的進歩への扉を開くとされる。 [16][17]\n\n一方で、iPSCは遺伝子[変異](/hubpedia/mutation)を増やしやすいのではないかという懸念が、生物医学研究と医療での採用を遅らせてきた。NHGRIの研究者らの研究では、iPSCは単一細胞を個別に培養して細胞株にする亜クローニングで複製された細胞より多くの変異を生じないことが示唆された。リプログラミングされた細胞と亜クローン化された細胞では変異が同じ割合で発生し、検出された遺伝子バリアントのほとんどは親の皮膚細胞から受け継いだ稀なバリアントだった。この知見は、iPSCのほとんどの変異がリプログラミングや製造段階で生じるものではないことを示し、基礎・臨床研究の両方で安定かつ安全に使えるという証拠を提供するとされる。成果は2017年2月6日にPNASで発表された。 [18][19][20][21][22][28]\n\n## 胚性幹細胞と治療的クローニング\n\n治療的[クローニング](/hubpedia/cloning)は、損傷した組織や疾患の組織を置き換える組織を作る実験を目的に胚性幹細胞を生み出す手法である。胚性幹細胞の最も豊富な供給源は、卵が分裂を始めてから最初の5日間に形成される組織で、胚盤胞と呼ばれるこの段階の胚はあらゆる細胞種になれる約100個の細胞の集まりである。幹細胞はこの段階のクローン胚から採取され、胚は試験管内にある間に破壊される。 [23][24][25]\n\n研究者は、胚性幹細胞が持つ生物のほぼすべての種類の細胞を生成する能力を利用して、実験室で損傷・疾患組織を置き換えうる健康な組織を育てることを目指している。また、疾患を持つ動物や人の細胞から作られたクローン胚由来の胚性幹細胞株を研究すれば、疾患の分子原因についてより多くを学べる可能性がある。 [26]\n\n## 課題と安全性\n\n幹細胞の利用を探る価値があると考える研究者は多い一方、幹細胞とがん細胞の著しい類似を懸念する専門家もいる。どちらの細胞種も無限に増殖する能力を持ち、一部の研究では60回の細胞分裂周期の後に幹細胞ががんにつながりうる変異を蓄積しうることが示されている。幹細胞を疾患治療に用いるなら、幹細胞とがん細胞の関係をより明確に理解する必要がある。 [27]",
+    "sources": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Stem-Cell",
+        "title": "Stem Cell",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "Talking Glossary definition and narration for stem cells, covering potency, distribution and division modes. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/news/news-release/Induced-pluripotent-stem-cells-dont-increase-genetic-mutations",
+        "title": "Findings: Induced pluripotent stem cells don't increase genetic mutations",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "News release describing the iPSC technique and an NHGRI study comparing mutation rates in reprogrammed and subcloned cells. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+        "title": "Cloning Fact Sheet",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "Sections on therapeutic cloning, the blastocyst as a source of embryonic stem cells, and stem-cell safety concerns. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Stem cell",
+        "summary": "A stem cell is a cell with the potential to form many of the different cell types found in the body, producing on division either new stem cells or cells that perform specialized functions. Embryonic stem cells can form a complete individual, whereas adult (somatic) stem cells reside in tissues such as bone marrow, liver and neural tissue and form only certain specialized cell types. Induced pluripotent stem cell (iPSC) techniques that return adult cells to a pluripotent state, and therapeutic cloning to produce embryonic stem cells, are also under study.",
+        "bodyMarkdown": "## Definition and basic properties\n\nA stem cell is a cell with the potential to form many of the different cell types found in the body. When stem cells divide, they can form more stem cells or other cells that perform specialized functions, and they continue to divide as long as the individual remains alive. Stem cells are generally undifferentiated, and the cells they make become the more mature cells of the body. [1][2][4][5]\n\nA stem cell is like the top brick in a big pyramid, with several kinds of derived cells at its base. Cells mature and increase in number toward the bottom, so a very small number of stem cells can give rise to an enormous number of mature progeny. [6]\n\n## Types and distribution of stem cells\n\nEmbryonic stem cells have the potential to form a complete individual, whereas adult stem cells can only form certain types of specialized cells. Those found in the adult organism are called somatic stem cells: people have stem cells in their bone marrow that give rise to all the different kinds of blood, stem cells in the liver that give rise to hepatocytes and secretory cells, and stem cells in neural tissue that give rise to neurons and astroglial cells; muscle has stem cells too. [3][7][8][9]\n\nEmbryonic stem cells are derived from three-and-a-half-day embryos in the mouse and about six- to eight-day embryos in people, and they carry even more potential than adult cells. An embryonic stem cell derived in the proper way can give rise to neural cells, muscle cells and liver cells. [10][11]\n\n## Modes of division\n\nStem cells must not only divide and proliferate to make many mature progeny cells; they also need to ensure that their own stem cell pool is not reduced. They therefore have two kinds of division. In symmetric division, a stem cell divides and both cells stay undifferentiated as stem cells. In asymmetric division, one cell goes on to proliferate and differentiate into progeny while the other stays a stem cell. [12][13][14]\n\nWhich mode predominates depends on the situation. In periods such as after a bone marrow transplant, when the stem cell number has to expand, the cells make many more symmetric than asymmetric divisions, while in the bone marrow at regular times they divide mostly asymmetrically, keeping the stem cell count fairly constant. This is one example of how controlled cell division through [mitosis](/hubpedia/mitosis) supports tissue homeostasis. [15]\n\n## Induced pluripotent stem cells (iPSCs)\n\nShinya Yamanaka and his graduate student Kazutoshi Takahashi developed the breakthrough technique to return any adult cell to its earliest stage of development, a pluripotent stem cell, and change it into different types of cells in the body. Called induced pluripotent stem cells (iPSCs), the technique is said to open doors to medical advances such as generating cartilage tissue to repair knees, retinal cells to improve vision in age-related macular degeneration and other eye diseases, and cardiac cells to restore damaged heart tissue. [16][17]\n\nAt the same time, concerns that iPSCs might be prone to increased numbers of genetic [mutations](/hubpedia/mutation) slowed their adoption in biomedical research and medicine. An NHGRI study suggested that iPSCs do not develop more mutations than cells duplicated by subcloning, a technique where single cells are cultured individually and grown into a cell line. Mutations occurred at the same rate in reprogrammed and subcloned cells, and most genetic variants detected were rare variants inherited from the parent skin cells. The finding suggests that most mutations in iPSCs are not generated during reprogramming or production, providing evidence that iPSCs are stable and safe to use for basic and clinical research. The results were published on February 6, 2017 in the Proceedings of the National Academy of Sciences. [18][19][20][21][22][28]\n\n## Embryonic stem cells and therapeutic cloning\n\nTherapeutic [cloning](/hubpedia/cloning) produces embryonic stem cells for experiments aimed at creating tissues to replace injured or diseased tissues. The richest source of embryonic stem cells is tissue formed during the first five days after the egg has started to divide; at this stage, called the blastocyst, the embryo consists of a cluster of about 100 cells that can become any cell type. Stem cells are harvested from cloned embryos at this stage, resulting in destruction of the embryo while it is still in the test tube. [23][24][25]\n\nResearchers hope to use embryonic stem cells, which can generate virtually all types of cells in an organism, to grow healthy tissues in the laboratory that could replace injured or diseased tissues. Studying embryonic stem cell lines from cloned embryos derived from the cells of animals or humans with different diseases may also reveal more about the molecular causes of disease. [26]\n\n## Challenges and safety\n\nMany researchers think it is worthwhile to explore stem cells as a path for treating human diseases, but some experts are concerned about the striking similarities between stem cells and cancer cells. Both cell types can proliferate indefinitely, and some studies show that after 60 cycles of cell division, stem cells can accumulate mutations that could lead to cancer. The relationship between stem cells and cancer cells therefore needs to be more clearly understood if stem cells are to be used to treat human disease. [27]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "幹細胞は、体内の多くの異なる細胞種を形成する潜在力を持つ細胞である。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Stem-Cell",
+              "quote": "A stem cell is a cell with the potential to form many of the different cell types found in the body."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "幹細胞が分裂すると、より多くの幹細胞か、特化した機能を果たす他の細胞を形成できる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Stem-Cell",
+              "quote": "When stem cells divide, they can form more stem cells or other cells that perform specialized functions."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "胚性幹細胞は完全な個体を形成する潜在力を持つのに対し、成体幹細胞は特定の種類の特化細胞しか形成できない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Stem-Cell",
+              "quote": "Embryonic stem cells have the potential to form a complete individual, whereas adult stem cells can only form certain types of specialized cells."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "幹細胞は個体が生きている限り分裂を続ける。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Stem-Cell",
+              "quote": "Stem cells continue to divide as long as the individual remains alive."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "幹細胞は一般に未分化であり、そこから生まれる細胞がより成熟した細胞になる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Stem-Cell",
+              "quote": "stem cells generally are undifferentiated, and then the kind of cells that they make would become the more mature cells that you're familiar with"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "ごく少数の幹細胞が膨大な数の成熟した子孫を生み出すことができる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Stem-Cell",
+              "quote": "a very small number of stem cells can give rise to an enormous number of mature progeny"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "体性幹細胞は成体の個体内に存在する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Stem-Cell",
+              "quote": "There are somatic stem cells. These are the ones that live in the adult organism."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "人の骨髄にはあらゆる種類の血液細胞を生み出す幹細胞がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Stem-Cell",
+              "quote": "people have stem cells in their bone marrow that give rise to all the different kinds of blood that they have"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "肝臓には肝細胞や分泌細胞を、神経組織にはニューロンやアストログリア細胞を生み出す幹細胞があり、筋肉にも幹細胞がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Stem-Cell",
+              "quote": "There are stem cells in the liver that give rise to hepatocytes and secretory cells. There are stem cells in neural tissue that give rise to neurons and astroglial cells and things like that. And muscle has stem cells."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "胚性幹細胞はマウスで3.5日、人で6〜8日の胚から得られ、成体の細胞よりさらに大きな潜在力を持つ。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Stem-Cell",
+              "quote": "these are derived from three and a half days in the mouse and about six- to eight-day embryos in people, and these are cells with even more potential than the adult cells"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "適切な方法で得られた胚性幹細胞は、神経細胞、筋細胞、肝細胞を生み出すことができる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Stem-Cell",
+              "quote": "an embryonic stem cell derived in the proper way can give rise to neural cells, muscle cells, and liver cells"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "幹細胞は成熟した子孫を生み出すだけでなく、自分たちの幹細胞プールが減らないよう維持する必要もある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Stem-Cell",
+              "quote": "they need not only divide and proliferate to make these many, many mature progeny cells, they also need to assure that their own stem cell pool is not reduced"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "対称分裂では、幹細胞が分裂して両方の細胞が未分化の幹細胞のままとなる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Stem-Cell",
+              "quote": "a symmetric division, where the stem cell divides and both cells stay undifferentiated in stem cells"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "非対称分裂では、一方の細胞が増殖して分化した子孫になり、もう一方は幹細胞のまま残る。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Stem-Cell",
+              "quote": "asymmetric division, in which one cell goes on to proliferate and differentiate into the progeny, and the other cell stays a stem cell"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "骨髄移植後のように幹細胞数を拡大する時期には対称分裂が多くなり、通常時の骨髄では非対称分裂が主で幹細胞数をほぼ一定に保つ。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Stem-Cell",
+              "quote": "in periods like after a bone marrow transplant, where the stem cell number has to expand, they make many more symmetric than asymmetric divisions. But in the regular time in your bone marrow, the stem cells make mostly asymmetric divisions, which keep the number of stem cells pretty standard."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "山中伸弥と高橋和利は、あらゆる成体細胞を発生の最初期段階（多能性幹細胞）に戻し、体内のさまざまな細胞種に変える技術を開発した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/news/news-release/Induced-pluripotent-stem-cells-dont-increase-genetic-mutations",
+              "quote": "Japanese researchers Shinya Yamanaka, M.D., Ph.D., and his graduate student Kazutoshi Takahashi, Ph.D., developed the breakthrough technique to return any adult cell to its earliest stage of development (a pluripotent stem cell) and change it into different types of cells in the body."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "iPSC技術は、膝を修復する軟骨組織、加齢黄斑変性などの眼疾患の視力を改善する網膜細胞、損傷した心組織を回復する心臓細胞の生成などの医学的進歩への扉を開くとされる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/news/news-release/Induced-pluripotent-stem-cells-dont-increase-genetic-mutations",
+              "quote": "this technique opens the doors to medical advances, including generating cartilage cell tissue to repair knees, retinal cells to improve the vision of those with age-related macular degeneration and other eye diseases, and cardiac cells to restore damaged heart tissues."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "iPSCは遺伝子変異を増やしやすいのではないかという懸念が、生物医学研究と医療での採用を遅らせてきた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/news/news-release/Induced-pluripotent-stem-cells-dont-increase-genetic-mutations",
+              "quote": "adoption of iPSCs in biomedical research and medicine has been slowed by concerns that these cells are prone to increased numbers of genetic mutations."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "NHGRIの研究は、iPSCが亜クローニングで複製された細胞より多くの変異を生じないことを示唆した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/news/news-release/Induced-pluripotent-stem-cells-dont-increase-genetic-mutations",
+              "quote": "A new study by scientists at the National Human Genome Research Institute (NHGRI), part of the National Institutes of Health, suggests that iPSCs do not develop more mutations than cells that are duplicated by subcloning."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "リプログラミングされた細胞と亜クローン化された細胞では、変異が同じ割合で発生した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/news/news-release/Induced-pluripotent-stem-cells-dont-increase-genetic-mutations",
+              "quote": "determined that mutations occurred at the same rate in cells that were reprogrammed and in cells that were subcloned."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "iPSCと亜クローンで検出された遺伝子バリアントのほとんどは、親の皮膚細胞から受け継いだ稀なバリアントだった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/news/news-release/Induced-pluripotent-stem-cells-dont-increase-genetic-mutations",
+              "quote": "Most genetic variants detected in the iPSCs and subclones were rare genetic variants inherited from the parent skin cells."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "この知見は、iPSCのほとんどの変異がリプログラミングや製造段階で生じるものではないことを示し、基礎・臨床研究で安定かつ安全に使える証拠を提供するとされる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/news/news-release/Induced-pluripotent-stem-cells-dont-increase-genetic-mutations",
+              "quote": "most mutations in iPSCs are not generated during the reprogramming or iPSC production phase and provides evidence that iPSCs are stable and safe to use for both basic and clinical research"
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "治療的クローニングは、損傷した組織や疾患の組織を置き換える組織を作る実験のために胚性幹細胞を生み出す。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "Therapeutic cloning produces embryonic stem cells for experiments aimed at creating tissues to replace injured or diseased tissues."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "胚性幹細胞の最も豊富な供給源は卵が分裂を始めてから最初の5日間に形成される組織で、胚盤胞と呼ばれる段階の胚はあらゆる細胞種になれる約100個の細胞の集まりである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "The richest source of embryonic stem cells is tissue formed during the first five days after the egg has started to divide. At this stage of development, called the blastocyst, the embryo consists of a cluster of about 100 cells that can become any cell type."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "幹細胞は胚盤胞段階のクローン胚から採取され、胚は試験管内にある間に破壊される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "Stem cells are harvested from cloned embryos at this stage of development, resulting in destruction of the embryo while it is still in the test tube."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "研究者は胚性幹細胞のほぼすべての種類の細胞を生成する能力を使い、実験室で損傷・疾患組織を置き換えうる健康な組織を育てることを目指している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "Researchers hope to use embryonic stem cells, which have the unique ability to generate virtually all types of cells in an organism, to grow healthy tissues in the laboratory that can be used replace injured or diseased tissues."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "幹細胞とがん細胞は無限に増殖する能力という著しい類似を持ち、一部の研究では60回の細胞分裂周期の後に幹細胞ががんにつながりうる変異を蓄積しうることが示されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "some experts are concerned about the striking similarities between stem cells and cancer cells. Both cell types have the ability to proliferate indefinitely and some studies show that after 60 cycles of cell division, stem cells can accumulate mutations that could lead to cancer."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "このiPSC研究の成果は2017年2月6日にProceedings of the National Academy of Sciencesで発表された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/news/news-release/Induced-pluripotent-stem-cells-dont-increase-genetic-mutations",
+              "quote": "The researchers published their findings on February 6, 2017, in the Proceedings of the National Academy of Sciences."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "cloning",
+    "topicType": "concept",
+    "categoryLabel": "生命科学",
+    "title": "クローニング",
+    "summary": "クローニングとは、遺伝子・細胞・組織から個体まで、生物学的実体の遺伝的に同一なコピーを作るために使われる多様なプロセスを指す用語である。人工クローニングには遺伝子クローニング・生殖クローニング・治療的クローニングの3種類があり、1996年には成体の体細胞から初の哺乳類クローンである羊ドリーが生まれた。遺伝子クローニングは日常的な実験技術として定着したが、生殖・治療的クローニングは効率・安全性・倫理の課題を伴う。",
+    "bodyMarkdown": "## 定義と自然発生のクローン\n\nクローニングとは、生物学的実体の遺伝的に同一なコピーを作り出すために使える、さまざまなプロセスを指す用語である。コピーされた材料は元と同じ遺伝子構成を持ち、クローンと呼ばれる。研究者は遺伝子、細胞、組織、そして羊のような個体全体まで、広範な生物学的材料をクローン化してきた。 [1][2][3]\n\nクローンは自然界でも発生する。一部の植物や細菌などの単細胞生物は、無性生殖によって遺伝的に同一の子孫を作る。人や他の哺乳類でも、受精卵が分裂してほぼ同一の[DNA](/hubpedia/dna)を持つ胚ができる一卵性双生児という自然のクローンが起こる。一卵性双生児は互いにほぼ同じ遺伝子構成を持つが、両親のどちらとも遺伝的に異なる。 [4][5]\n\n## 人工クローニングの種類と遺伝子クローニング\n\n人工クローニングには、遺伝子クローニング、生殖クローニング、治療的クローニングの3種類がある。遺伝子クローニングは遺伝子やDNA断片のコピーを作り、生殖クローニングは動物個体全体のコピーを作り、治療的クローニングは損傷・疾患組織を置き換える組織の作成を目指す実験用の胚性幹細胞を作る。分子クローニングという語は通常、さらなる研究のために特定のDNA断片を単離してコピーすることを指す。 [6][7][8]\n\n遺伝子クローニングの手順では、ある生物の遺伝子（しばしば外来DNAと呼ばれる）を、ベクターと呼ばれる運び屋の遺伝物質に挿入する。ベクターには、細菌、酵母細胞、ウイルス、あるいは細菌が持つ小さなDNA環であるプラスミドがある。遺伝子の挿入後、ベクターは増殖を促す実験条件下に置かれ、その結果として遺伝子が何度もコピーされる。 [9][10][11]\n\n遺伝子クローニングは、NHGRIの研究者が行う最も一般的な種類のクローニングである。NHGRIの研究者は哺乳類をクローン化したことがなく、NHGRIは人のクローン化を行わない。 [12]\n\n## 生殖クローニングの方法と動物の歴史\n\n生殖クローニングでは、コピーしたい動物から皮膚細胞のような成熟した体細胞を取り出し、そのDNAを、DNAを含む[細胞核](/hubpedia/cell-nucleus)を取り除いた卵細胞（卵母細胞）へ移す。体細胞のDNAを空の卵へ導入する方法は2つあり、針で体細胞の核を取り出して注入する方法と、電流で体細胞全体を空の卵と融合させる方法である。その後、卵は試験管内で初期胚まで発生させられ、成体の雌の子宮に移植される。生まれた動物は体細胞を提供した動物と同じ遺伝子構成を持ち、クローンと呼ばれる。 [13][14][15]\n\n動物のクローニングの歴史は長い。1979年には、試験管内でマウス胚を分割して成体雌の子宮に移植する方法で、最初の遺伝的に同一のマウスが作られた。成体動物から取った成熟体細胞による哺乳類のクローニングに初めて成功したのは1996年で、276回の試行の末、スコットランドの研究者が6歳の羊の乳腺細胞からドリーを生み出した。その2年後には日本の研究者が1頭の牛から8頭の子牛をクローン化したが生存したのは4頭だった。体細胞からクローン化された哺乳類には、猫、鹿、犬、馬、ラバ、ウシ、ウサギ、ネズミが含まれ、オナガザルは胚分割でクローン化されている。 [16][17][18][19]\n\n## ヒトのクローニングと技術的な難しさ\n\n大きく報じられた主張はいくつかあったが、ヒトのクローニングは依然として虚構のままであるようで、誰かがヒト胚をクローン化したという確かな科学的証拠は存在しない。2004年にはソウル国立大学の黄禹錫（ファン・ウソク）率いるグループが試験管内でクローン化ヒト胚を作ったとする論文をScience誌に発表したが、独立の科学委員会が裏付ける証拠を見つけられず、2006年1月に論文は撤回された。 [20][21]\n\n技術的にも、ヒトや他の霊長類のクローニングは他の哺乳類より難しい。理由の一つは、細胞分裂に必須の紡錘体タンパク質が霊長類の卵では[染色体](/hubpedia/chromosome)のすぐ近くに位置するため、ドナー核のための場所を作る核除去の操作が紡錘体タンパク質も取り除き、細胞分裂を妨げることにある。核除去に使う色素や紫外線も霊長類の細胞を損傷しうる。 [22]\n\n## クローンの性質と応用\n\nクローンは常に同じ見た目になるとは限らない。同じ遺伝物質を共有していても、環境も個体の成り行きに大きな役割を果たす。最初にクローン化された猫であるCcは、母猫とは非常に異なる見た目のメスの三毛猫だった。メス猫のすべての細胞で起こるX染色体の不活化という生物学的現象が、どの被毛色遺伝子がオフになりオンになるかを決め、この不活化の分布はランダムに起こるように見えるため、被毛の見た目が変わる。 [23][24]\n\n生殖クローニングは、医療や農業の分野で有益な可能性のある動物のコピーを作れるかもしれない。ドリーをクローン化したスコットランドの研究者らは、血液凝固に必須のヒトタンパク質を含む乳を産むよう遺伝子改変した羊をクローン化しており、遺伝的に同一のクローン動物は薬への反応が均一になるため新薬や治療戦略の試験にも有利とされる。また、米国食品医薬品局（FDA）は2008年1月に、牛・豚・山羊などのクローン動物の肉と乳は非クローン動物のものと同等に安全だと判断した。 [25][26]\n\n## 限界と倫理上の課題\n\n生殖クローニングは非常に非効率な技術で、クローン化された動物胚のほとんどは健康な個体へと発生しない。ドリーは277個のクローン胚から生まれた唯一のクローンだった。クローン化された羊や他の哺乳類では、出生時の体格増大、肝臓・脳・心臓などの重要臓器の障害、早期老化、免疫系の問題が観察されている。細胞分裂を重ねると[染色体](/hubpedia/chromosome)の末端の[テロメア](/hubpedia/telomere)が縮むため、成体細胞から作られたクローンはすでに染色体が短い可能性があり、実際にドリーの染色体は同年代の羊より短く、ドリーは羊の平均寿命12年の半分ほどの6歳で死亡した。 [27][28]\n\n治療的クローニングは、ドナー細胞と同じDNAを持つ胚性[幹細胞](/hubpedia/stem-cell)を作ることだけを目的にクローン胚を作成するもので、ヒト胚が治療的クローニングのために作られたという証拠は今のところない。遺伝子クローニングは慎重に規制され、今日では広く受け入れられ世界中の多くの研究室で日常的に使われているが、生殖クローニングと治療的クローニングは、特に人への適用可能性に関して重要な倫理的問題を提起する。 [29][30]",
+    "sources": [
+      {
+        "url": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+        "title": "Cloning Fact Sheet",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "Fact sheet covering natural and artificial cloning types, reproductive cloning methods and history, human cloning claims, applications, drawbacks and ethics. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Cloning",
+        "title": "Cloning",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "Talking Glossary definition of cloning and molecular cloning with narration. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Cloning",
+        "summary": "Cloning is a term describing a number of different processes used to produce genetically identical copies of a biological entity, from genes and cells to tissues and whole organisms. Artificial cloning falls into three types — gene cloning, reproductive cloning and therapeutic cloning — and in 1996 the first mammal cloned from an adult somatic cell, the sheep Dolly, was born. Gene cloning is a routine laboratory technique, while reproductive and therapeutic cloning carry efficiency, safety and ethical challenges.",
+        "bodyMarkdown": "## Definition and natural clones\n\nCloning describes a number of different processes that can be used to produce genetically identical copies of a biological entity. The copied material, which has the same genetic makeup as the original, is referred to as a clone. Researchers have cloned a wide range of biological materials, including genes, cells, tissues and even entire organisms such as a sheep. [1][2][3]\n\nClones also occur in nature. Some plants and single-celled organisms such as bacteria produce genetically identical offspring through asexual reproduction. In humans and other mammals, natural clones occur as identical twins, produced when a fertilized egg splits to create two or more embryos carrying almost identical [DNA](/hubpedia/dna). Identical twins have nearly the same genetic makeup as each other, but they are genetically different from either parent. [4][5]\n\n## Types of artificial cloning and gene cloning\n\nThere are three types of artificial cloning: gene cloning, reproductive cloning and therapeutic cloning. Gene cloning produces copies of genes or segments of DNA, reproductive cloning produces copies of whole animals, and therapeutic cloning produces embryonic stem cells for experiments aimed at creating tissues to replace injured or diseased tissues. The phrase 'molecular cloning' typically refers to isolating and copying a particular DNA segment of interest for further study. [6][7][8]\n\nIn gene cloning, a gene from one organism — often called 'foreign DNA' — is inserted into the genetic material of a carrier called a vector. Vectors include bacteria, yeast cells, viruses and plasmids, which are small DNA circles carried by bacteria. After the gene is inserted, the vector is placed in laboratory conditions that prompt it to multiply, so the gene is copied many times over. [9][10][11]\n\nGene cloning is the most common type of cloning done by researchers at NHGRI; NHGRI researchers have not cloned any mammals, and NHGRI does not clone humans. [12]\n\n## Reproductive cloning methods and animal history\n\nIn reproductive cloning, researchers remove a mature somatic cell, such as a skin cell, from the animal they wish to copy, and transfer its DNA into an egg cell (oocyte) that has had its own DNA-containing [nucleus](/hubpedia/cell-nucleus) removed. There are two ways to add the somatic cell's DNA to the empty egg: removing the cell's nucleus with a needle and injecting it into the egg, or using an electrical current to fuse the entire somatic cell with the egg. The egg is then allowed to develop into an early-stage embryo in the test tube before being implanted into the womb of an adult female. The animal born has the same genetic makeup as the animal that donated the somatic cell, and it is referred to as a clone. [13][14][15]\n\nAnimal cloning has a long history. In 1979, researchers produced the first genetically identical mice by splitting mouse embryos in the test tube and implanting them into the wombs of adult females. The first mammal cloned from a mature somatic cell taken from an adult animal came only in 1996, when, after 276 attempts, Scottish researchers produced Dolly, a lamb cloned from the udder cell of a six-year-old sheep. Two years later, researchers in Japan cloned eight calves from a single cow, but only four survived. Other mammals cloned from somatic cells include the cat, deer, dog, horse, mule, ox, rabbit and rat, and a rhesus monkey has been cloned by embryo splitting. [16][17][18][19]\n\n## Human cloning and its technical difficulty\n\nDespite several highly publicized claims, human cloning still appears to be fiction, and there is currently no solid scientific evidence that anyone has cloned human embryos. In 2004, a group led by Woo-Suk Hwang of Seoul National University published a paper in the journal Science claiming to have created a cloned human embryo in a test tube, but an independent scientific committee found no proof to support the claim, and the paper was retracted in January 2006. [20][21]\n\nCloning humans and other primates is also technically more difficult than cloning other mammals. One reason is that two proteins essential to cell division, known as spindle proteins, sit very close to the [chromosomes](/hubpedia/chromosome) in primate eggs, so removing the egg's nucleus to make room for the donor nucleus also removes the spindle proteins and interferes with cell division. The dyes and ultraviolet light used to remove the nucleus can also damage the primate cell. [22]\n\n## Properties and applications of clones\n\nClones do not always look identical: although clones share the same genetic material, the environment also plays a big role in how an organism turns out. The first cloned cat, Cc, is a female calico that looks very different from her mother. A biological phenomenon involving inactivation of the X chromosome in every cell of the female cat determines which coat color genes are switched off and which are switched on, and the distribution of X inactivation appears to occur randomly, changing the coat's appearance. [23][24]\n\nReproductive cloning may enable researchers to copy animals with potential benefits for medicine and agriculture. The same Scottish researchers who cloned Dolly have cloned other sheep genetically modified to produce milk containing a human protein essential for blood clotting, and because cloned animals are all genetically identical, their responses to drugs should be uniform, which is an advantage for testing new drugs and treatment strategies. In January 2008, the U.S. Food and Drug Administration (FDA) decided that meat and milk from cloned animals such as cattle, pigs and goats are as safe as those from non-cloned animals. [25][26]\n\n## Limitations and ethical challenges\n\nReproductive cloning is a very inefficient technique, and most cloned animal embryos cannot develop into healthy individuals; Dolly was the only clone born live out of 277 cloned embryos. Adverse health effects observed in cloned sheep and other mammals include increased birth size, defects in vital organs such as the liver, brain and heart, premature aging and problems with the immune system. Because the [telomeres](/hubpedia/telomere) at the tips of [chromosomes](/hubpedia/chromosome) shrink as cells divide, clones created from an adult cell may have chromosomes that are already shorter than normal; Dolly, cloned from the cell of a six-year-old sheep, had shorter chromosomes than other sheep her age and died at six years old, about half the average sheep's twelve-year lifespan. [27][28]\n\nTherapeutic cloning creates a cloned embryo for the sole purpose of producing embryonic [stem cells](/hubpedia/stem-cell) with the same DNA as the donor cell, and to date there is no evidence that human embryos have been produced for therapeutic cloning. Gene cloning is a carefully regulated technique that is largely accepted today and used routinely in labs worldwide, but both reproductive and therapeutic cloning raise important ethical issues, especially as related to their potential use in humans. [29][30]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "クローニングとは、生物学的実体の遺伝的に同一なコピーを作り出すために使える、さまざまなプロセスを指す用語である。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "The term cloning describes a number of different processes that can be used to produce genetically identical copies of a biological entity."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "コピーされた材料は元と同じ遺伝子構成を持ち、クローンと呼ばれる。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "The copied material, which has the same genetic makeup as the original, is referred to as a clone."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "研究者は遺伝子・細胞・組織、そして羊のような個体全体まで、広範な生物学的材料をクローン化してきた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "Researchers have cloned a wide range of biological materials, including genes, cells, tissues and even entire organisms, such as a sheep."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "自然界では、一部の植物や細菌などの単細胞生物が無性生殖で遺伝的に同一の子孫を作る。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "In nature, some plants and single-celled organisms, such as bacteria, produce genetically identical offspring through a process called asexual reproduction."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "人や他の哺乳類でも、受精卵が分裂してほぼ同一のDNAを持つ胚ができる一卵性双生児という自然のクローンが発生し、双生児は互いにほぼ同じ遺伝子構成だが両親のどちらとも遺伝的に異なる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "Natural clones, also known as identical twins, occur in humans and other mammals. These twins are produced when a fertilized egg splits, creating two or more embryos that carry almost identical DNA."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "Identical twins have nearly the same genetic makeup as each other, but they are genetically different from either parent."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "人工クローニングには、遺伝子クローニング、生殖クローニング、治療的クローニングの3種類がある。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "There are three different types of artificial cloning: gene cloning, reproductive cloning and therapeutic cloning."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "遺伝子クローニングは遺伝子やDNA断片のコピーを作り、生殖クローニングは動物個体全体のコピーを作り、治療的クローニングは組織置換を目指す実験用の胚性幹細胞を作る。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "Gene cloning produces copies of genes or segments of DNA. Reproductive cloning produces copies of whole animals. Therapeutic cloning produces embryonic stem cells for experiments aimed at creating tissues to replace injured or diseased tissues."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "分子クローニングという語は通常、さらなる研究のために特定のDNA断片を単離してコピーすることを指す。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Cloning",
+              "quote": "The phrase “molecular cloning” typically refers to isolating and copying a particular DNA segment of interest for further study."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "遺伝子クローニングの手順では、ある生物の遺伝子（外来DNA）をベクターと呼ばれる運び屋の遺伝物質に挿入する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "The procedure consists of inserting a gene from one organism, often referred to as \"foreign DNA,\" into the genetic material of a carrier called a vector."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "ベクターには、細菌、酵母細胞、ウイルス、あるいは細菌が持つ小さなDNA環であるプラスミドがある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "Examples of vectors include bacteria, yeast cells, viruses or plasmids, which are small DNA circles carried by bacteria."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "遺伝子の挿入後、ベクターは増殖を促す実験条件下に置かれ、遺伝子が何度もコピーされる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "After the gene is inserted, the vector is placed in laboratory conditions that prompt it to multiply, resulting in the gene being copied many times over."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "遺伝子クローニングはNHGRIの研究者が行う最も一般的なクローニングであり、NHGRIの研究者は哺乳類をクローン化したことがなく、人のクローン化も行わない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "Gene cloning is the most common type of cloning done by researchers at NHGRI. NHGRI researchers have not cloned any mammals and NHGRI does not clone humans."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "生殖クローニングでは、コピーしたい動物から成熟した体細胞を取り出し、そのDNAをDNAを含む核を取り除いた卵細胞（卵母細胞）へ移す。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "In reproductive cloning, researchers remove a mature somatic cell, such as a skin cell, from an animal that they wish to copy. They then transfer the DNA of the donor animal's somatic cell into an egg cell, or oocyte, that has had its own DNA-containing nucleus removed."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "体細胞のDNAを空の卵へ導入する方法は、針で核を取り出して注入する方法と、電流で体細胞全体を融合させる方法の2つがある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "In the first method, they remove the DNA-containing nucleus of the somatic cell with a needle and inject it into the empty egg. In the second approach, they use an electrical current to fuse the entire somatic cell with the empty egg."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "卵は試験管内で初期胚まで発生させた後に成体の雌の子宮に移植され、生まれた動物は体細胞ドナーと同じ遺伝子構成を持ちクローンと呼ばれる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "the egg is allowed to develop into an early-stage embryo in the test-tube and then is implanted into the womb of an adult female animal."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "the adult female gives birth to an animal that has the same genetic make up as the animal that donated the somatic cell. This young animal is referred to as a clone."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "1979年、試験管内でマウス胚を分割して成体雌の子宮に移植する方法で、最初の遺伝的に同一のマウスが作られた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "In 1979, researchers produced the first genetically identical mice by splitting mouse embryos in the test tube and then implanting the resulting embryos into the wombs of adult female mice."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "1996年に成体動物の成熟体細胞から初の哺乳類クローンが成功し、276回の試行の末にスコットランドの研究者が6歳の羊の乳腺細胞からドリーを生み出した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "It was not until 1996, however, that researchers succeeded in cloning the first mammal from a mature (somatic) cell taken from an adult animal. After 276 attempts, Scottish researchers finally produced Dolly, the lamb from the udder cell of a 6-year-old sheep."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "その2年後、日本の研究者が1頭の牛から8頭の子牛をクローン化したが、生存したのは4頭だった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "Two years later, researchers in Japan cloned eight calves from a single cow, but only four survived."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "体細胞からクローン化された哺乳類には猫・鹿・犬・馬・ラバ・ウシ・ウサギ・ネズミが含まれ、オナガザルは胚分割でクローン化された。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "other mammals that have been cloned from somatic cells include: cat, deer, dog, horse, mule, ox, rabbit and rat. In addition, a rhesus monkey has been cloned by embryo splitting."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "大きく報じられた主張はあったが、ヒトのクローニングは依然として虚構のようで、ヒト胚がクローン化されたという確かな科学的証拠はない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "Despite several highly publicized claims, human cloning still appears to be fiction. There currently is no solid scientific evidence that anyone has cloned human embryos."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "2004年に黄禹錫率いるグループが試験管内でクローン化ヒト胚を作ったとする論文をScience誌に発表したが、独立委員会が証拠を認めず2006年1月に論文は撤回された。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "In 2004, a group led by Woo-Suk Hwang of Seoul National University in South Korea published a paper in the journal Science in which it claimed to have created a cloned human embryo in a test tube. However, an independent scientific committee later found no proof to support the claim and, in January 2006, Science announced that Hwang's paper had been retracted."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "ヒトや他の霊長類のクローニングは技術的に難しく、理由の一つは細胞分裂に必須の紡錘体タンパク質が霊長類の卵で染色体のすぐ近くにあり、核除去でそれらも失われ細胞分裂が妨げられることである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "cloning humans and other primates is more difficult than in other mammals. One reason is that two proteins essential to cell division, known as spindle proteins, are located very close to the chromosomes in primate eggs. Consequently, removal of the egg's nucleus to make room for the donor nucleus also removes the spindle proteins, interfering with cell division."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "クローンは常に同じ見た目になるとは限らず、同じ遺伝物質を共有していても環境が個体の成り行きに大きな役割を果たす。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "Clones do not always look identical. Although clones share the same genetic material, the environment also plays a big role in how an organism turns out."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "最初にクローン化された猫Ccは母猫と非常に異なる見た目の三毛猫で、メス猫の各細胞のX染色体不活化のランダムな分布が被毛色を決めるためである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "the first cat to be cloned, named Cc, is a female calico cat that looks very different from her mother."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "The distribution of X inactivation, which seems to occur randomly, determines the appearance of the cat's coat."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "ドリーをクローン化した研究者らは血液凝固に必須のヒトタンパク質を含む乳を産む遺伝子改変羊をクローン化しており、遺伝的に同一のクローン動物は薬への反応が均一になるため薬物試験に有利である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "the same Scottish researchers who cloned Dolly have cloned other sheep that have been genetically modified to produce milk that contains a human protein essential for blood clotting."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "The great advantage of using cloned animals for drug testing is that they are all genetically identical, which means their responses to the drugs should be uniform rather than variable as seen in animals with different genetic make-ups."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "FDAは2008年1月に、牛・豚・山羊などのクローン動物の肉と乳は非クローン動物のものと同等に安全だと判断した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "the U.S. Food and Drug Administration (FDA) decided in January 2008 that meat and milk from cloned animals, such as cattle, pigs and goats, are as safe as those from non-cloned animals."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "生殖クローニングは非常に非効率な技術で、クローン化胚のほとんどは健康な個体に発生せず、ドリーは277個のクローン胚から生まれた唯一のクローンだった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "Reproductive cloning is a very inefficient technique and most cloned animal embryos cannot develop into healthy individuals. For instance, Dolly was the only clone to be born live out of a total of 277 cloned embryos."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "クローン化された哺乳類では体格増大や重要臓器の障害、早期老化、免疫系の問題が観察され、成体細胞から作られたクローンは染色体がすでに短い可能性があり、ドリーは同年代の羊より短い染色体を持ち平均寿命の半分ほどの6歳で死亡した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "These include an increase in birth size and a variety of defects in vital organs, such as the liver, brain and heart. Other consequences include premature aging and problems with the immune system."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "Dolly, who was cloned from the cell of a 6-year-old sheep, had chromosomes that were shorter than those of other sheep her age. Dolly died when she was six years old, about half the average sheep's 12-year lifespan."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "治療的クローニングはドナー細胞と同じDNAを持つ胚性幹細胞を作ることだけを目的にクローン胚を作成するもので、ヒト胚が治療的クローニングのために作られたという証拠は今のところない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "Therapeutic cloning involves creating a cloned embryo for the sole purpose of producing embryonic stem cells with the same DNA as the donor cell."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "To date, there is no evidence that human embryos have been produced for therapeutic cloning."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "遺伝子クローニングは慎重に規制され広く受け入れられているが、生殖クローニングと治療的クローニングは特に人への適用可能性に関して重要な倫理的問題を提起する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Cloning-Fact-Sheet",
+              "quote": "Gene cloning is a carefully regulated technique that is largely accepted today and used routinely in many labs worldwide. However, both reproductive and therapeutic cloning raise important ethical issues, especially as related to the potential use of these techniques in humans."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "pharmacogenomics",
+    "topicType": "concept",
+    "categoryLabel": "生命科学",
+    "title": "薬理ゲノミクス",
+    "summary": "薬理ゲノミクスは、患者のゲノム情報を用いて医療提供者が各患者に最適と予測される薬や用量を選ぶのを助ける、成長中のゲノム医療の分野である。チトクロムP450やTPMTなどの遺伝子バリアントが薬の分解・活性化・副作用に影響し、がん治療などではすでに日常的に使われる場面もあるが、すべての薬で利用できるわけではなく、多くの薬物反応の遺伝的基盤はまだ不明である。",
+    "bodyMarkdown": "## 概要と定義\n\n薬理ゲノミクスは、患者の[ゲノム](/hubpedia/genome)情報を用いて、医療提供者が各患者に最も効果的と予測される薬と用量を選ぶのを助ける、成長中のゲノム医療の分野である。薬理遺伝学（ファーマコジェネティクス）とも呼ばれ、要するに[遺伝子](/hubpedia/gene)が薬への反応にどう影響するかを扱う領域である。薬理ゲノミクス検査は、その人に効果的な可能性が高い薬や、有害な副作用を起こしうる薬の選択や用量決定を助けるために、個人のゲノム情報を使う。 [1][2][3]\n\n## 検査の仕組み\n\n[ヒトゲノムプロジェクト](/hubpedia/human-genome-project)が2003年4月に完了する以前から、生物医学研究コミュニティは特定のゲノムバリアントと特定の薬の効き方との関連を同定していた。薬理ゲノミクス検査は、実験室で特定のDNA配列を検出する方法を用いて患者が持つバリアントを同定する。ほとんどの検査は患者のゲノムのDNAを調べるが、遺伝子から発現したRNAやタンパク質を分析する新しいタイプの検査もあり、これらはがんや感染症でより一般的である。 [4][5][6]\n\n薬理ゲノミクス検査の一部は医療従事者が通常の診察で行うことができ、米国食品医薬品局（FDA）の承認を受けたこうした検査は、典型的には血液または頬粘膜の細胞を採取する。在宅で行える「消費者直接向け」の検査もあるが、それらの結果は必ずしも医療提供者に提供されず、多くはFDAの承認を受けていない。 [7][8]\n\n## 主要な遺伝子と薬の例\n\n多くの薬理ゲノミクス検査は「チトクロムP450遺伝子」（CYP450遺伝子）と呼ばれる遺伝子群のバリアントを同定するものである。これらの遺伝子は、多くは肝臓にある、薬を分解して吸収・利用・排出できるようにする酵素を制御する。例えば鎮痛薬のコデインはCYP2D6酵素による活性化が必要で、ゲノムバリアントによりCYP2D6活性が低い患者では適切に活性化されず痛みを治療できない一方、CYP2D6遺伝子のコピー数が多い患者では分解が速すぎて重い副作用につながることがある。酵素TPMTについても、活性がゼロの患者は急性リンパ芽球性白血病などに使うチオプリンの用量を大幅に下げる必要があり、高すぎる用量は致命的になりうる。 [9][10][11]\n\nCYP2C19は広く処方される抗血小板薬クロピドグレル（プラビックス）を代謝し、効率的に代謝できないCYP2C19タンパク質を作るバリアントを持つ人では、この薬は脳卒中や心臓発作のリスク低減に効果を発揮しない。抗凝固薬ワーファリンでは、CYP2C9またはVKORC1のバリアントを持つ人は重い出血のリスクが高まりうる。また、集団によってCYP450遺伝子のバリアント頻度が異なり、高いCYP2D6活性をもたらすバリアントはアジアや中東の集団でより一般的である。こうした頻度差は、集団間の一般化や個人・集団への適切な治療に関する重要な社会問題を提起する。 [12][13][14]\n\n## 利用状況と実装\n\n医療従事者は薬理ゲノミクス検査の結果を用いて、患者が特定の薬に反応するか、どの程度の量が必要かを推定し、場合によってはその薬をまったく使うべきでないと示されることもある。特定の腫瘍のゲノム特性を同定する検査もあり、その結果に基づいてゲノムバリアントを標的とする薬で腫瘍を治療することがある。 [15][16]\n\nFDAは300以上の薬について添付文書に薬理ゲノミクス情報を記載している。国際的な科学者・臨床家のグループである臨床薬理ゲノミクス実装コンソーシアム（CPIC）は、薬理ゲノミクス研究を検討して臨床適用のためのコンセンサスガイドラインを作っており、検査のある一部の薬について査読済みガイドラインが利用できる。患者の約10%は薬物反応に関わる遺伝子バリアントを少なくとも1つ持つ可能性が高いとされ、薬理ゲノミクス検査は、各人や集団に医療を合わせる精密医療の一例として、特にがんの薬で医療の日常的な一部となっている場面がある。 [17][18][19][20]\n\n## 限界と課題\n\n薬理ゲノミクス検査は副作用や有害な薬物反応を経験する可能性を減らすが、その可能性を排除するものではない。検査は患者にとって「完璧な」薬を特定できるわけではなく、最適な薬を決めるために使われる多くの因子の一つにすぎない。検査はまだすべての薬やすべての病状で利用できるわけではなく、一般に特定の薬に限られる。一方で、無効な薬や有害な副作用を起こす薬を避けることで医療費の削減にもつながるとされる。 [21][22][23][24]\n\nヒトゲノムには数百万のゲノムバリアントがあり、薬物反応を変える特定のバリアントの同定は難しい。ほとんどの検査は薬物反応との関連がすでに判明しているバリアントだけを調べるため、患者が未同定や稀なバリアントを持つ場合は見逃しうる。ほとんどの薬物反応の基盤となる遺伝子はまだ不明で、関連遺伝子を同定するためのさらなる研究が必要である。検査結果は時に「特定の薬が効かない、あるいはリスクが便益を上回る」という悪い知らせになり、望む薬を受けられない人もいる。倫理的な問題も残り、これらの問題は薬理ゲノミクスに固有ではなく多くの遺伝・ゲノム検査に当てはまるが、遺伝しうる病状を分析する検査は家族のゲノムに関する情報を明らかにしうる。 [25][26][27][28][29]",
+    "sources": [
+      {
+        "url": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/pharmacogenomics",
+        "title": "Pharmacogenomics Fact Sheet",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "Fact sheet covering what pharmacogenomics is, how testing works, key genes and drugs, availability, benefits, limitations and ethical considerations. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/dna-day/15-ways/pharmacogenomics",
+        "title": "Pharmacogenomics is changing how we get prescriptions",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "DNA Day essay describing CYP450 drug-metabolism examples (clopidogrel, warfarin), the clinical history of the field, and remaining challenges. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Pharmacogenomics",
+        "title": "Pharmacogenomics",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "Talking Glossary definition and narration for pharmacogenomics, including population-variant social issues. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Pharmacogenomics",
+        "summary": "Pharmacogenomics is a growing area of genomic medicine that uses a patient's genomic information to help healthcare providers select the medications and dosages predicted to work best in each patient. Variants in genes such as cytochrome P450 enzymes and TPMT affect drug breakdown, activation and side effects, and testing is already a routine part of care for some cancer medications — but it is not yet available for every drug, and the genetic basis of most drug responses remains unknown.",
+        "bodyMarkdown": "## Overview and definition\n\nPharmacogenomics is a growing area of genomic medicine that uses a patient's [genome](/hubpedia/genome) information to help healthcare providers select the medications and dosages that are predicted to work best in each patient. Also called pharmacogenetics, it is essentially about how your [genes](/hubpedia/gene) influence your response to medications. Pharmacogenomic testing uses a person's genomic information to help select medications or determine dosages that are likely to be effective for that person or that might cause harmful side effects. [1][2][3]\n\n## How testing works\n\nEven before completion of the [Human Genome Project](/hubpedia/human-genome-project) in April 2003, the biomedical research community had identified links between specific genomic variants and how well certain drugs work in different people. Pharmacogenomic testing is done in the lab using methods that detect specific DNA sequences to identify which variants a patient has. Most tests examine the DNA in the patient's genome, while an emerging class of tests analyzes the RNA or proteins expressed from genes; these are more common in cancer and infectious diseases. [4][5][6]\n\nSome pharmacogenomic tests can be performed by a healthcare professional during a normal office visit, and such FDA-approved tests typically involve collecting a blood sample or a cheek swab of cells. Other tests can be done at home and are sold 'direct to consumer'; their results are not always provided to healthcare providers, and many have not been approved by the FDA. [7][8]\n\n## Key genes and drug examples\n\nMany pharmacogenomic tests identify variants in a group of genes called the cytochrome P450 (CYP450) genes. These genes control enzymes, many of them in the liver, that break down drugs so they can be absorbed, used and removed from the body. For example, the medicine codeine must be activated by the enzyme CYP2D6; in patients whose genomic variants reduce CYP2D6 activity, codeine is not activated properly and cannot treat pain, while in patients who have more copies of the CYP2D6 gene, codeine may be broken down too quickly and lead to serious side effects. For the enzyme TPMT, patients with zero enzyme activity may require much lower doses of thiopurine, a drug used for acute lymphoblastic leukemia and other conditions, and too high a dose can be fatal. [9][10][11]\n\nCYP2C19 metabolizes clopidogrel, the widely prescribed blood thinner marketed as Plavix, and in people whose variants produce a CYP2C19 protein that cannot efficiently metabolize the drug, it is ineffective for reducing the risk of strokes and heart attacks. For the anticoagulant warfarin, people with variants in either CYP2C9 or VKORC1 may be at increased risk of severe bleeding. People from different populations also have different frequencies of genomic variants in CYP450 genes; variants producing high CYP2D6 activity are more common in Asian and Middle Eastern populations. Such frequency differences raise important social issues about generalizations between populations and about treating individuals and populations of patients appropriately. [12][13][14]\n\n## Availability and implementation\n\nHealthcare professionals use pharmacogenomic test results to estimate whether a patient would respond to specific medications or how much medication a patient needs, and in some cases a test could show that a medication should not be used at all. Some testing identifies the genomic characteristics of a specific tumor, which may then be treated with medications targeting those genomic variants. [15][16]\n\nThe FDA lists over 300 medications with pharmacogenomic information in their drug labeling. The Clinical Pharmacogenetics Implementation Consortium (CPIC), an international group of scientists and clinicians, examines pharmacogenomic research and creates consensus guidelines for applying testing in the clinic, with peer-reviewed guidelines available for some medications. About 10% of patients are likely to have at least one genetic variant with implications for their drug response, and as an example of precision medicine — tailoring medical treatment to each person or group — pharmacogenomic testing is in some cases a routine part of medical care, most commonly for cancer medications and a growing number of other diseases. [17][18][19][20]\n\n## Limitations and challenges\n\nPharmacogenomic testing reduces the likelihood that a person will experience side effects or adverse drug reactions, but it does not eliminate that possibility. Testing cannot identify the 'perfect' medication for a patient; it is only one factor among many used to determine the best medication. It is also not yet available for every medication or every medical condition, and tests are generally only available for certain medications. On the other hand, testing can reduce health care costs by helping patients avoid medications that are ineffective or would have harmful side effects. [21][22][23][24]\n\nThe human genome contains several million genomic variants, so identifying the specific variant that changes a drug response can be difficult. Most tests look only for variants previously associated with a medication response, so a patient with an unidentified or rare variant might be missed. The genes that underlie most drug responses are still unknown, and more research is needed to identify genes related to drug responses. Test results can also bring bad news — sometimes making clear that a specific drug would not work or that its risks outweigh its benefits — and some people may never receive a desired medication. Ethical questions remain; they are not unique to pharmacogenomics but apply to many kinds of genetic and genomic testing, and tests that analyze medical conditions that can be inherited could reveal information about the genomes of family members. [25][26][27][28][29]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "薬理ゲノミクスは、患者のゲノム情報を用いて医療提供者が各患者に最適と予測される薬と用量を選ぶのを助ける、成長中のゲノム医療の分野であり、薬理遺伝学とも呼ばれる。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/pharmacogenomics",
+              "quote": "Pharmacogenomics is a growing area of genomic medicine that uses a patient's genomic information to help healthcare providers select the medications and dosages that are predicted to work best in each patient."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Pharmacogenomics",
+              "quote": "Pharmacogenomics (also called pharmacogenetics) is a component of genomic medicine that involves using a patient's genomic information to tailor the selection of drugs used in their medical management."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "薬理ゲノミクスは、遺伝子が薬への反応にどう影響するかを扱う領域である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Pharmacogenomics",
+              "quote": "Pharmacogenomics is about how your genes influence your response to medications."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "薬理ゲノミクス検査は、その人に効果的な可能性が高い薬や有害な副作用を起こしうる薬の選択や用量決定を助けるために個人のゲノム情報を使う。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/pharmacogenomics",
+              "quote": "Pharmacogenomic testing uses a person's genomic information to help select or determine dosages of medications that are likely to be effective for that person or that might have harmful side effects."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "ヒトゲノムプロジェクトの完了（2003年4月）以前から、特定のゲノムバリアントと特定の薬の効き方との関連が同定されていた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/dna-day/15-ways/pharmacogenomics",
+              "quote": "even before completion of the Human Genome Project in April 2003, the biomedical research community had identified links between specific genomic variants and how well certain drugs work in different people."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "薬理ゲノミクス検査は実験室で特定のDNA配列を検出する方法で患者のバリアントを同定し、ほとんどの検査は患者のゲノムのDNAを調べる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/pharmacogenomics",
+              "quote": "pharmacogenomic testing is done in the lab using methods that detect specific DNA sequences to identify which variants the patient has."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/pharmacogenomics",
+              "quote": "Most pharmacogenomic tests look at the DNA in the patient's genome."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "遺伝子から発現したRNAやタンパク質を分析する新しいタイプの検査もあり、これらはがんや感染症でより一般的である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/pharmacogenomics",
+              "quote": "An emerging class of pharmacogenomic tests analyzes the RNA or proteins expressed from genes. These tests are more common in cancer and infectious diseases."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "一部の検査は医療従事者が通常の診察で行うことができ、FDA承認のこうした検査は典型的に血液または頬粘膜の細胞を採取する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/pharmacogenomics",
+              "quote": "Some pharmacogenomic tests can be performed by a healthcare professional during a normal office visit. Such tests, which have been approved by the U.S. Food and Drug Administration (FDA), typically involve collecting a blood sample or a cheek swab of cells."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "在宅で行える消費者直接向けの検査もあるが、結果は必ずしも医療提供者に提供されず、多くはFDAの承認を受けていない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/pharmacogenomics",
+              "quote": "Other pharmacogenomic tests can be done at home and are sold 'direct to consumer.' The results of these tests are not always provided to your healthcare providers. Many such tests have not been approved by FDA."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "多くの検査はチトクロムP450（CYP450）遺伝子群のバリアントを同定し、これらの遺伝子は多くは肝臓にある、薬を分解して吸収・利用・排出できるようにする酵素を制御する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/pharmacogenomics",
+              "quote": "Many pharmacogenomic tests are for identifying variants in a group of genes called the 'cytochrome P450 genes' or 'CYP450' genes."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/pharmacogenomics",
+              "quote": "The genes control enzymes, many of which are in the liver, that break down drugs so that they can be absorbed, used and removed from the body."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "コデインはCYP2D6酵素による活性化が必要で、CYP2D6活性が低い患者では適切に活性化されず痛みを治療できず、CYP2D6遺伝子のコピー数が多い患者では分解が速すぎて重い副作用につながることがある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/pharmacogenomics",
+              "quote": "For example, the medicine codeine needs to be activated by the enzyme CYP2D6. In patients with lower CYP2D6 activity due to genomic variants, codeine is not activated properly and cannot work to treat pain. In patients who have more copies of the CYP2D6 gene, codeine may be broken down too quickly and lead to serious side effects."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "TPMT酵素活性がゼロの患者はチオプリンの用量を大幅に下げる必要があり、高すぎる用量は致命的になりうる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/pharmacogenomics",
+              "quote": "Patients with zero TPMT enzyme activity may require much lower doses of thiopurine, and too high of a dose can be fatal."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "CYP2C19は広く処方される抗血小板薬クロピドグレル（プラビックス）を代謝し、効率的に代謝できないタンパク質を作るバリアントを持つ人では脳卒中や心臓発作のリスク低減に効果を発揮しない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/dna-day/15-ways/pharmacogenomics",
+              "quote": "CYP2C19 metabolizes clopidogrel, the widely prescribed blood thinner marketed as Plavix"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/dna-day/15-ways/pharmacogenomics",
+              "quote": "Some people have genomic variants that lead to the production of a CYP2C19 protein that is unable to efficiently metabolize clopidogrel, making it ineffective for reducing their risk of strokes and heart attacks."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "抗凝固薬ワーファリンでは、CYP2C9またはVKORC1のバリアントを持つ人は重い出血のリスクが高まりうる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/dna-day/15-ways/pharmacogenomics",
+              "quote": "Some people with variants in either CYP2C9 or VKORC1 may be at increased risk for severe bleeding when taking warfarin"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "集団によってCYP450遺伝子のバリアント頻度が異なり、高いCYP2D6活性をもたらすバリアントはアジアや中東の集団でより一般的で、こうした頻度差は集団間の一般化や適切な治療に関する重要な社会問題を提起する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/pharmacogenomics",
+              "quote": "genomic variants that result in high CYP2D6 activity are more common in Asian and Middle Eastern populations, so more individuals in these populations metabolize some drugs too fast for the drug to have an effect."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Pharmacogenomics",
+              "quote": "the frequencies of these genetic variants can be different for different populations. This raises some important social issues about generalizations between populations and for treating individuals and populations of patients appropriately."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "医療従事者は検査結果を用いて患者が特定の薬に反応するか、どの程度の量が必要かを推定し、場合によってはその薬をまったく使うべきでないと示されることがある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/pharmacogenomics",
+              "quote": "Healthcare professionals use the results of pharmacogenomic tests to estimate whether a patient would respond to specific medications or how much medication a patient needs. In some cases, a pharmacogenomic test could show that a medication should not be used at all."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "特定の腫瘍のゲノム特性を同定する検査もあり、その結果に基づいてゲノムバリアントを標的とする薬で腫瘍を治療することがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/pharmacogenomics",
+              "quote": "Some pharmacogenomic testing is done to identify the genomic characteristics of a specific tumor. Based on the result of this test, the tumor might be treated with certain medications to target the genomic variants."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "FDAは300以上の薬について添付文書に薬理ゲノミクス情報を記載している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/pharmacogenomics",
+              "quote": "The FDA lists over 300 medications with pharmacogenomic information in their drug labeling."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "CPICは薬理ゲノミクス研究を検討して臨床適用のためのコンセンサスガイドラインを作る国際的な科学者・臨床家のグループで、検査のある一部の薬について査読済みガイドラインが利用できる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/pharmacogenomics",
+              "quote": "CPIC is an international group of scientists and clinicians who examine pharmacogenomic research and create consensus guidelines for healthcare professionals to use to apply pharmacogenomic testing in the clinic."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/pharmacogenomics",
+              "quote": "The Clinical Pharmacogenetics Implementation Consortium (CPIC) has peer-reviewed guidelines available for some medications that have pharmacogenomic tests."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "患者の約10%は薬物反応に関わる遺伝子バリアントを少なくとも1つ持つ可能性が高い。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/dna-day/15-ways/pharmacogenomics",
+              "quote": "about 10% of patients are likely to have at least one genetic variant that has implications for their drug response"
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "薬理ゲノミクス検査は各人や集団に医療を合わせる精密医療の一例であり、特にがんの薬で医療の日常的な一部となっている場面がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/pharmacogenomics",
+              "quote": "Pharmacogenomic testing is an example of the growing field of precision medicine, which aims to tailor medical treatment to each person or to a group of people."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/pharmacogenomics",
+              "quote": "In some cases, pharmacogenomic testing is a routine part of medical care. This is most common for cancer medications and a growing number of other diseases."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "検査は副作用や有害な薬物反応を経験する可能性を減らすが、その可能性を排除するものではない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/pharmacogenomics",
+              "quote": "pharmacogenomic testing reduces the likelihood that a person will experience side effects or adverse drug reactions, but it does not eliminate this possibility."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "検査は患者にとって「完璧な」薬を特定できず、最適な薬を決めるために使われる多くの因子の一つにすぎない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/pharmacogenomics",
+              "quote": "Pharmacogenomic testing cannot identify the 'perfect' medication for a patient. Pharmacogenomic information can help improve how patients respond to medications, but it is only one factor among many that are used to determine the best medication."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "検査はまだすべての薬やすべての病状で利用できるわけではなく、一般に特定の薬に限られる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/pharmacogenomics",
+              "quote": "Pharmacogenomic testing is not yet available for every medication or every medical condition."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/pharmacogenomics",
+              "quote": "Pharmacogenomic tests are generally only available for certain medications."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "検査は無効な薬や有害な副作用を起こす薬を避けることで医療費の削減につながる可能性がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/pharmacogenomics",
+              "quote": "Pharmacogenomic testing can reduce health care costs by helping patients avoid medications that are ineffective or that would have harmful side effects."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "ヒトゲノムには数百万のゲノムバリアントがあり、薬物反応を変える特定のバリアントの同定は難しい。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/pharmacogenomics",
+              "quote": "the human genome contains several million genomic variants, so identifying the specific variant that changes a drug response can be difficult."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "ほとんどの検査は薬物反応との関連がすでに判明しているバリアントだけを調べるため、未同定や稀なバリアントを持つ患者は見逃されうる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/pharmacogenomics",
+              "quote": "Most pharmacogenomic tests only look for genomic variants that have been previously associated with a medication response. If a patient's genome has an unidentified or rare variant, pharmacogenomic testing might miss it."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "ほとんどの薬物反応の基盤となる遺伝子はまだ不明で、関連遺伝子を同定するためのさらなる研究が必要である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/pharmacogenomics",
+              "quote": "The genes that underlie most drug responses are still unknown."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/pharmacogenomics",
+              "quote": "Many aspects of pharmacogenomics remain unclear and more research is needed to identify genes that are related to drug responses."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "検査結果は時に特定の薬が効かない、あるいはリスクが便益を上回るという悪い知らせになり、望む薬を受けられない人もいる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/dna-day/15-ways/pharmacogenomics",
+              "quote": "pharmacogenomics can lead to bad news. Sometimes, the results make it clear that a specific drug would not work or would cause such severe side effects that its risk outweighs its benefits. Some people may never receive a desired medication."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "検査をめぐる倫理的問題は薬理ゲノミクスに固有ではなく多くの遺伝・ゲノム検査に当てはまり、遺伝しうる病状を分析する検査は家族のゲノムに関する情報を明らかにしうる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/pharmacogenomics",
+              "quote": "These ethical questions surrounding pharmacogenomic testing are not unique to pharmacogenomics. They apply to many different kinds of genetic and genomic testing."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/pharmacogenomics",
+              "quote": "Some pharmacogenomic tests analyze medical conditions that can be inherited, so the results could reveal information about the genomes of family members and result in familial issues that need to be worked through."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

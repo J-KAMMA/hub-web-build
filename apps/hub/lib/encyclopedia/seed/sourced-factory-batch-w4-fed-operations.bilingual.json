@@ -1,0 +1,2037 @@
+[
+  {
+    "slug": "payment-systems",
+    "topicType": "concept",
+    "categoryLabel": "経済・ビジネス",
+    "title": "決済システム",
+    "summary": "決済システムとは、個人・企業・金融機関の間で資金を移転し、財・サービスの対価支払いを完了させる仕組みの総称である。米国では連邦準備制度が連邦準備券の発行・流通のほか、ACH、Fedwire、FedNowといった決済サービスを運営し、政府の財務代理や「銀行の銀行」としての機能を通じて、決済・清算システムの安全性と効率性を支えている。",
+    "bodyMarkdown": "## 決済システムの構成\n\n決済システムとは、個人と機関、消費者と企業、投資家と証券発行者が行う金融取引や、財・サービスの購入を可能にする仕組みの総称である。 [1]\n\nその構成要素には、[連邦準備制度](/hubpedia/federal-reserve)が発行・流通させる[通貨](/hubpedia/currency)すなわち連邦準備券、銀行に預け入れられ連邦準備銀行が取り立てる小切手、定期的な電子支払いのような少額の電子クレジット・デビット振替を処理する[自動資金清算](/hubpedia/automated-clearing-house)（ACH）取引、そして企業・銀行・個人の間の大口金融取引を処理するFedwire資金サービスとFedwire証券サービスによるホールセール決済が含まれる。 [2]\n\n効率的で効果的かつ安全な米国および世界の決済・清算システムは経済にとって不可欠であり、連邦準備制度は国の通貨を供給し、このシステムの一部の要素を運営することで重要な役割を果たしている。あわせて議会、民間部門、国内外の公的機関と協力して決済・清算システムの安全性と効率性を高める触媒としても機能し、決済・清算・記録システムと金融市場インフラの設計や活動について定期的・特別な調査分析を行っている。 [3][4][5]\n\n## 銀行に対する銀行としての役割\n\n連邦準備銀行は硬貨を流通させ、「銀行の銀行」としても振る舞う。その役割では、銀行が預け入れた小切手を回収し、資金が引き出された銀行へ不渡り小切手を返却する。こうした[小切手の清算](/hubpedia/check-clearing)は、決済システムが担う古典的な機能のひとつである。さらに連邦準備制度は、食料品店での購入や定期的な請求支払いのような日常的なクレジット・デビット取引の処理を助ける金融サービスを銀行へ提供している。 [6][24]\n\nまた1915年以来、連邦準備制度は地区の連邦準備銀行を通じて、米国政府に対するサービスを政府の財務代理として提供してきた。 [7]\n\n## 小口決済を担う自動資金清算\n\n自動資金清算（ACH）は、預金取扱機関が電子クレジット・デビット振替のバッチを相互に送る全米規模のネットワークである。給与、社会保障給付、税還付の直接振込はACHクレジット振替の典型例であり、住宅ローンや公共料金の直接引落はACHデビット振替の典型例である。 [8][9]\n\nACHは当初おもに定期的な支払いの処理に使われていたが、今日では小切手支払いを電子化したものや電話・インターネット経由の支払いなど、一回限りのデビット振替の処理にも広く使われている。 [10]\n\n全米のACHオペレーターは連邦準備銀行とElectronic Payments Network（EPN）の2者である。オペレーターとして連邦準備銀行は、発信機関からACH支払いのファイルを受領・編集・仕分けし、受取機関へ配送し、預金機関の決済口座への貸借記入によって決済する。発信機関と受取機関が異なるオペレーターを利用するオペレーター間取引は、連邦準備銀行が決済する。 [11][12]\n\n## 大口決済を担うFedwire\n\nFedwire資金サービスは、連邦準備銀行が提供するリアルタイム・グロス決済システムであり、参加者は処理され次第、即時かつ最終的で取消不能な資金移転を起こせる。連邦準備銀行に口座を保有する預金取扱機関と特定の金融機関が参加でき、2008年には約7,300の参加者がFedwireの資金移転を行った。 [13][14]\n\nFedwire資金サービスは一般に大口で時間的制約の強い支払いに使われる。クレジット振替方式であり、参加者は連邦準備銀行に対し、自行の口座からの借記と他の参加者の口座への貸記を指示して資金移転を起こす。営業日は前暦日の東部時間午後9時に始まり、指定された祝日を除く月曜から金曜の午後7時に終わる。 [15][16][17]\n\n## 即時決済とFedNow\n\nFedNowサービスは2023年7月20日に稼働を開始した。米国の預金取扱機関が利用でき、個人と企業が預金機関の口座を通じて即時支払いを送ることを可能にし、あらゆる規模の銀行と信用組合が参加して消費者・企業の顧客へ即時決済サービスを提供できる。 [18][19]\n\nFedNowは最も基本的なレベルで銀行間の清算と決済を提供し、送金者の口座から受取者の口座へほぼリアルタイムに、年間を通していつでも資金を移転できるようにする。中断のない24x7x365の処理を維持し、支払いの完全性とデータセキュリティを支えるセキュリティ機能を備えるよう設計されている。 [20][21]\n\n初回リリースには、不正防止ツール、当初は受取専用として参加する選択肢、支払い請求機能、支払い照会への対応を支えるツールという任意機能が含まれた。また流動性管理振替の機能を備え、FedNow参加者間の資金移転や、準備銀行の共同口座に裏付けられた民間即時決済サービスの参加者との間での移転を可能にする。 [22][23]",
+    "sources": [
+      {
+        "url": "https://www.federalreserve.gov/aboutthefed/fedexplained/payment-systems.htm",
+        "title": "The Fed Explained: How We Foster Payment System Safety and Efficiency",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "Fed Explained chapter defining the payment system, listing its components (Federal Reserve notes, checks, ACH, Fedwire), and describing the Fed's bank-for-banks role, fiscal agency since 1915, FedNow launch, and catalyst research role. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.federalreserve.gov/paymentsystems/fedach_about.htm",
+        "title": "Automated Clearinghouse Services",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "Federal Reserve service page defining the ACH network, typical credit and debit transfers, the shift from recurring to one-time payments, and the two national ACH operators and settlement mechanics. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.federalreserve.gov/paymentsystems/fedfunds_about.htm",
+        "title": "Fedwire Funds Services",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "Federal Reserve service page describing Fedwire Funds as a real-time gross settlement system, its eligibility rules, 2008 participant count, credit-transfer mechanics, and business-day operating hours. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.federalreserve.gov/paymentsystems/fednow_about.htm",
+        "title": "FedNow Service",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "Federal Reserve service page on the FedNow Service: July 20, 2023 launch, near-real-time interbank clearing and settlement around the clock, 24x7x365 design, first-release optional features, and liquidity management transfers. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Payment Systems",
+        "summary": "A payment system is the set of arrangements that moves funds between individuals, businesses, and financial institutions and completes payment for goods and services. In the United States, the Federal Reserve issues and circulates Federal Reserve notes and operates payment services such as ACH, Fedwire, and FedNow, supporting the safety and efficiency of the payment and settlement system through its roles as fiscal agent to the government and as a bank for banks.",
+        "bodyMarkdown": "## What makes up the payment system\n\nThe payment system is the set of arrangements that enables financial transactions and purchases of goods and services by individuals and institutions, consumers and businesses, and investors and securities issuers. [1]\n\nIts components include [currency](/hubpedia/currency) — Federal Reserve notes issued and circulated by the [Federal Reserve](/hubpedia/federal-reserve) — checks deposited by banks and collected by Federal Reserve Banks, [automated clearinghouse](/hubpedia/automated-clearing-house) (ACH) transactions that process small-value electronic credit and debit transfers such as recurring electronic payments, and wholesale payments processed via the Fedwire Funds and Fedwire Securities services for large-value financial transactions among businesses, banks, and individuals. [2]\n\nAn efficient, effective, and safe U.S. and global payment and settlement system is vital to the economy, and the Federal Reserve plays an important role by providing the nation's currency and operating some elements of this system. It also acts as a catalyst to improve the safety and efficiency of the payment and settlement system in cooperation with Congress, the private sector, and other public-sector institutions at home and abroad, and it conducts periodic and special research and analysis on the design and activities of payment, clearing, and settlement systems and financial market infrastructures. [3][4][5]\n\n## The Reserve Banks as a bank for banks\n\nThe Reserve Banks distribute coins and also act as a \"bank for banks.\" In that role, they collect checks deposited by banks and return unpaid checks to the banks on which the funds are drawn; such [check clearing](/hubpedia/check-clearing) is one of the system's classical functions. The Fed also offers financial services to banks that help process everyday credit and debit transactions, like grocery store purchases or recurring bill payments. [6][24]\n\nIn addition, since 1915 the Federal Reserve has provided services to the U.S. government through its regional Reserve Banks, acting as the government's fiscal agent. [7]\n\n## ACH for small-value payments\n\nThe automated clearinghouse (ACH) is a nationwide network through which depository institutions send each other batches of electronic credit and debit transfers. The direct deposit of payroll, social security benefits, and tax refunds are typical ACH credit transfers, while the direct debiting of mortgages and utility bills are typical ACH debit transfers. [8][9]\n\nThe ACH network was originally used mostly to process recurring payments, but today it is used extensively for one-time debit transfers such as converted check payments and payments made over the telephone and the Internet. [10]\n\nThe two national ACH operators are the Reserve Banks and the Electronic Payments Network (EPN). As an operator, the Reserve Banks receive files of ACH payments from originating institutions, edit and sort them, deliver them to receiving institutions, and settle the payments by crediting and debiting the institutions' settlement accounts. Interoperator payments, where the originating and receiving institutions use different operators, are settled by the Reserve Banks. [11][12]\n\n## Fedwire for large-value payments\n\nThe Fedwire Funds Service, provided by the Federal Reserve Banks, is a real-time gross settlement system that enables participants to initiate funds transfers that are immediate, final, and irrevocable once processed. Depository institutions and certain other financial institutions holding an account with a Federal Reserve Bank are eligible to participate; in 2008, approximately 7,300 participants made Fedwire funds transfers. [13][14]\n\nThe service is generally used for large-value, time-critical payments. It is a credit transfer service in which participants originate transfers by instructing a Federal Reserve Bank to debit funds from their own account and credit the account of another participant. The Fedwire Funds Service business day begins at 9:00 p.m. eastern time on the preceding calendar day and ends at 7:00 p.m., Monday through Friday, excluding designated holidays. [15][16][17]\n\n## Instant payments and FedNow\n\nThe FedNow Service went live on July 20, 2023. It is available to depository institutions in the United States and enables individuals and businesses to send instant payments through their accounts, and banks and credit unions of all sizes can sign up and offer instant payment services to their consumer and business customers. [18][19]\n\nAt the most fundamental level, FedNow provides interbank clearing and settlement that moves funds from the sender's account to the receiver's account in near real time, at any time and on any day of the year, and it is designed for uninterrupted 24x7x365 processing with security features supporting payment integrity and data security. [20][21]\n\nThe first release included optional features — fraud prevention tools, the ability to join initially as a receive-only participant, request-for-payment capability, and tools for handling payment inquiries. It also provides liquidity management transfers, enabling participants to move funds to one another and supporting participants in a private-sector instant payment service backed by a joint account at a Reserve Bank. [22][23]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "決済システムは、個人と機関、消費者と企業、投資家と証券発行者が行う金融取引や財・サービスの購入を可能にする仕組みである。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/payment-systems.htm",
+              "quote": "The payment system facilitates financial transactions and purchases of goods and services by individuals and institutions, consumers and businesses, and investors and securities issuers."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "米国の決済システムには、連邦準備券、銀行が預け入れ連邦準備銀行が取り立てる小切手、少額電子振替を処理するACH取引、大口金融取引を処理するFedwire資金・証券サービスが含まれる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/payment-systems.htm",
+              "quote": "currency, or Federal Reserve notes, issued and circulated by the Federal Reserve;"
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/payment-systems.htm",
+              "quote": "checks deposited by banks and collected by Federal Reserve Banks;"
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/payment-systems.htm",
+              "quote": "automated clearinghouse transactions to process small-value electronic credit and debit transfers like recurring electronic payments; and"
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/payment-systems.htm",
+              "quote": "wholesale payments processed via Fedwire® Funds and Fedwire Securities for large-value financial transactions among businesses, banks, and individuals."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "連邦準備制度は国の通貨を供給し、決済・清算システムの一部の要素を運営することで重要な役割を果たしている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/payment-systems.htm",
+              "quote": "the Federal Reserve plays an important role by providing the nation's currency and operating some elements of this system."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "連邦準備制度は議会・民間部門・国内外の公的機関と協力し、決済・清算システムの安全性と効率性を改善する触媒として機能し続けている。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/payment-systems.htm",
+              "quote": "The Federal Reserve continues to act as a catalyst to improve the **safety and efficiency of the payment and settlement system,** working in cooperation with Congress, the private sector, and other public-sector institutions, both domestically and internationally."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "連邦準備制度は、決済・清算・記録システムと金融市場インフラの設計や活動、これらのシステムが消費者・企業・政府の商業活動で果たす役割について、定期的・特別な調査分析を行っている。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/payment-systems.htm",
+              "quote": "It conducts periodic and special research and analysis on a wide range of topics related to the design and activities of payment, clearing, and settlement (PCS) systems and financial market infrastructures, as well as the role of these systems in the commercial activities of consumers, businesses, and government."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "連邦準備銀行は硬貨を流通させ、「銀行の銀行」として、銀行が預け入れた小切手を回収し、資金が引き出された銀行へ不渡り小切手を返却する。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/payment-systems.htm",
+              "quote": "The Reserve Banks also distribute coins and act as a **“bank for banks.”** In that role, they collect checks deposited by banks, and return unpaid checks to banks on which the funds are drawn."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "1915年以来、連邦準備制度は地区連邦準備銀行を通じて、米国政府の財務代理として政府へのサービスを提供している。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/payment-systems.htm",
+              "quote": "Since 1915, through its regional Reserve Banks, the Fed has also **provided services to the U.S. government, acting as the government's fiscal agent.**"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "ACHは、預金取扱機関が電子クレジット・デビット振替のバッチを相互に送る全米規模のネットワークである。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fedach_about.htm",
+              "quote": "The automated clearinghouse (ACH) system is a nationwide network through which depository institutions send each other batches of electronic credit and debit transfers."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "給与・社会保障給付・税還付の直接振込はACHクレジット振替の、住宅ローンや公共料金の直接引落はACHデビット振替の典型例である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fedach_about.htm",
+              "quote": "The direct deposit of payroll, social security benefits, and tax refunds are typical examples of ACH credit transfers. The direct debiting of mortgages and utility bills are typical examples of ACH debit transfers."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "ACHは当初おもに定期的支払いの処理に使われたが、今日では小切手支払いの電子化や電話・インターネット経由の支払いなど一回限りのデビット振替にも広く使われている。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fedach_about.htm",
+              "quote": "While the ACH network was originally used to process mostly recurring payments, the network is today being used extensively to process one-time debit transfers, such as converted check payments and payments made over the telephone and Internet."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "全米のACHオペレーターは連邦準備銀行とElectronic Payments Network（EPN）の2者であり、異なるオペレーター間の取引は連邦準備銀行が決済する。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fedach_about.htm",
+              "quote": "The Reserve Banks and Electronic Payments Network (EPN) are the two national ACH operators."
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fedach_about.htm",
+              "quote": "These interoperator payments are settled by the Reserve Banks."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "ACHオペレーターとして、連邦準備銀行は発信機関から支払いファイルを受領・編集・仕分けして受取機関へ配送し、機関の決済口座への貸借記入で決済する。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fedach_about.htm",
+              "quote": "the Reserve Banks receive files of ACH payments from originating depository financial institutions, edit and sort the payments, deliver the payments to receiving depository financial institutions, and settle the payments by crediting and debiting the depository financial institutions' settlement accounts."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "Fedwire資金サービスはリアルタイム・グロス決済システムであり、参加者は処理され次第、即時・最終的かつ取消不能な資金移転を起こせる。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fedfunds_about.htm",
+              "quote": "a real-time gross settlement system that enables participants to initiate funds transfer that are immediate, final, and irrevocable once processed."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "連邦準備銀行に口座を保有する預金取扱機関と特定の金融機関がFedwireに参加でき、2008年には約7,300の参加者が資金移転を行った。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fedfunds_about.htm",
+              "quote": "Depository institutions and certain other financial institutions that hold an account with a Federal Reserve Bank are eligible to participate in the Fedwire Funds Services. In 2008, approximately 7,300 participants made Fedwire funds transfers."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "Fedwire資金サービスは一般に大口で時間的制約の強い支払いに使われる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fedfunds_about.htm",
+              "quote": "The Fedwire Funds Service is generally used to make large-value, time-critical payments."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "Fedwireはクレジット振替サービスであり、参加者は連邦準備銀行に自行口座からの借記と他参加者口座への貸記を指示して資金移転を起こす。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fedfunds_about.htm",
+              "quote": "The Fedwire Funds Service is a credit transfer service. Participants originate funds transfers by instructing a Federal Reserve Bank to debit funds from its own account and credit funds to the account of another participant."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "Fedwire資金サービスの営業日は前暦日の東部時間午後9時に始まり、指定祝日を除く月曜から金曜の午後7時に終わる。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fedfunds_about.htm",
+              "quote": "The Fedwire Funds Service business day begins at 9:00 p.m. eastern time (ET) on the preceding calendar day and ends at 7:00 p.m. ET, Monday through Friday, excluding designated holidays."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "FedNowサービスは2023年7月20日に稼働を開始し、米国の預金取扱機関が利用でき、個人と企業が預金機関の口座を通じて即時支払いを送れる。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fednow_about.htm",
+              "quote": "The FedNow Service went live on July 20, 2023. It is available to depository institutions in the United States and enables individuals and businesses to send instant payments through their depository institution accounts."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "あらゆる規模の銀行と信用組合がFedNowサービスに参加し、消費者・企業の顧客へ即時決済サービスを提供できる。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/payment-systems.htm",
+              "quote": "Banks and credit unions of all sizes can sign up for the FedNow Service and offer instant payment services to their consumer and business customers."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "FedNowは最も基本的なレベルで銀行間の清算と決済を提供し、送金者の口座から受取者の口座へほぼリアルタイムに、年中いつでも資金を移転できるようにする。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fednow_about.htm",
+              "quote": "the service provides interbank clearing and settlement that enables funds to be transferred from the account of a sender to the account of a receiver in near real-time and at any time, any day of the year."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "FedNowは中断のない24x7x365処理を維持し、支払いの完全性とデータセキュリティを支えるセキュリティ機能を備えるよう設計されている。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fednow_about.htm",
+              "quote": "The FedNow Service is designed to maintain uninterrupted 24x7x365 processing with security features to support payment integrity and data security."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "FedNowの初回リリースには、不正防止ツール、受取専用での参加、支払い請求機能、支払い照会への対応を支えるツールという任意機能が含まれた。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fednow_about.htm",
+              "quote": "The first release of the FedNow Service also includes optional features: fraud prevention tools, the ability to join initially as a receive-only participant, request for payment capability, and tools to support participants in their handling of payment inquiries."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "FedNowの流動性管理振替は、参加者間の資金移転と、準備銀行の共同口座に裏付けられた民間即時決済サービスの参加者との間での移転を可能にする。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fednow_about.htm",
+              "quote": "The FedNow Service provides liquidity management transfer capability to support instant payment services."
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/fednow_about.htm",
+              "quote": "The transfer also supports participants in a private-sector instant payment service backed by a joint account at a Reserve Bank by enabling transfers between the master accounts of participants and a joint account."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "連邦準備制度は、食料品店での購入や定期的な請求支払いのような日常的なクレジット・デビット取引の処理を助ける金融サービスを銀行へ提供している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/payment-systems.htm",
+              "quote": "In addition, the Fed offers financial services to banks that help process your everyday credit and debit transactions—like grocery store purchases or recurring bill payments."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "fomc",
+    "topicType": "concept",
+    "categoryLabel": "経済・ビジネス",
+    "title": "連邦公開市場委員会",
+    "summary": "連邦公開市場委員会（FOMC）は、連邦準備制度において連邦資金金利の目標を設定し、公開市場操作を担当することで米国の金融政策を決定する12名の委員会である。理事7名とニューヨーク連邦準備銀行総裁、輪番の準備銀行総裁4名で構成され、年8回の定期会合で経済・金融情勢を検討し、最大限の雇用と物価安定という議会指定の目標に向けた政策スタンスを決める。",
+    "bodyMarkdown": "## 連邦公開市場委員会の役割\n\n連邦公開市場委員会（Federal Open Market Committee、FOMC）は、[連邦準備制度](/hubpedia/federal-reserve)において[連邦資金金利](/hubpedia/federal-funds-rate)の目標を設定することで、適切な[金融政策](/hubpedia/monetary-policy)を決定する機関である。 [1]\n\n連邦資金金利とは、預金取扱機関が連邦準備銀行に保有する残高を、他の預金取扱機関へ翌日物で貸し付ける際の金利である。この金利の変化は、他の短期金利、為替レート、長期金利、貨幣と信用の量への連鎖を引き起こし、最終的には雇用、産出、財・サービスの価格という幅広い経済変数へ及ぶ。 [2][3]\n\n## 委員会の構成と会合\n\nFOMCは12名のメンバーで構成される。連邦準備理事会の理事7名全員とニューヨーク連邦準備銀行の総裁に加え、残り11行の準備銀行総裁のうち4名が1年任期の輪番で加わる。 [4]\n\n輪番議席は4つの銀行グループからそれぞれ1名の総裁が務める。第1グループはボストン・フィラデルフィア・リッチモンド、第2はクリーブランドとシカゴ、第3はアトランタ・セントルイス・ダラス、第4はミネアポリス・カンザスシティ・サンフランシスコである。投票権を持たない準備銀行総裁も委員会の会合に出席し、議論へ参加して経済と政策選択肢に関する委員会の評価へ貢献する。 [5][6]\n\nFOMCは年8回の定期会合を開く。会合では経済と金融の状況を検討し、適切な金融政策のスタンスを決定し、物価安定と持続的な経済成長という長期目標に対するリスクを評価する。委員会のメンバー構成はその年の最初の定期会合で変更される。 [7][8]\n\n## 金融政策の目標と政策手段\n\n金融政策とは、中央銀行が国民経済の目標達成を助けるために貨幣と信用の利用可能性とコストへ影響を与える行動を指し、1913年の連邦準備法が連邦準備に金融政策の設定責任を与えた。 [9][10]\n\n連邦準備が管理する政策手段は公開市場操作、割引率、準備要件の3つである。このうち割引率と準備要件は理事会が担当し、[公開市場操作](/hubpedia/open-market-operations)はFOMCが担当する。連邦準備はこれらの手段を用いて、預金取扱機関が連邦準備銀行に保有する残高の需要と供給に影響を与え、それによって連邦資金金利を変化させる。 [11][12]\n\n## 緩和と引き締めの判断\n\n連邦準備の金融政策は、米国議会が定めた2つの目標、すなわち最大限の雇用の促進と物価の安定を達成するためのものである。最大限の雇用とは、安定したインフレ率を維持しながら経済が持続できる最高の雇用水準、あるいは最低の失業水準を意味する。 [13][14]\n\n連邦準備は主に連邦資金金利の目標レンジを引き上げるか引き下げるかによって、金融政策のスタンスを変更する。目標レンジの引き下げは金融の「緩和」を意味し、金融市場の短期金利低下と金融環境全般の緩和を伴い、景気が低迷しているかインフレが低すぎる場合に必要となることがある。逆に引き上げは「引き締め」を意味し、景気の過熱やインフレが高すぎる場合に必要となることがある。 [15][16][17]\n\nFOMCの政策担当者は評価と審議に幅広い情報を用い、最新の経済データを分析し、消費者、企業、金融市場の連絡先からの報告と調査を検討する。 [18]\n\n## 決定の実施と公表\n\nFOMCが二重の責務の目標達成に適切な政策スタンスを決定した後、そのスタンスが効果的に実施されるよう確認しなければならない。短期金利を目標レンジの近くに誘導するため、連邦準備は準備残高への付利や翌日物リバースレポファシリティの金利といった政策手段を用いるほか、大規模資産購入（[量的緩和](/hubpedia/quantitative-easing)とも呼ばれる）やフォワードガイダンスなど、時折使用する手段も持つ。 [19][20]\n\n政策行動を公表するため、FOMCはすべての定期会合後に書面の声明を発表し、議長は各会合後に記者会見を行う。ワシントンの連邦準備理事会メンバーと地区連邦準備銀行の総裁が会合へ参加し、全米経済の状況と各地域に広がる経済状況を議論して、強い労働市場と物価安定を支える適切な政策方針を審議する。 [21][24]\n\n## 独立性と説明責任\n\n議会は金融政策の目標を規定する一方で、連邦準備に運営上の独立性を与えている。この柔軟性により、金融政策の決定を長期的な方向へ向け、データと客観的な分析に基づかせることができる。同時に連邦準備は議会と国民に対して行動の説明責任を負い、政策の審議と行動について一連の公式な情報発信を通じて透明性を確保する。例えば連邦準備理事会の議長は年2回、議会の委員会で現在の経済動向と連邦準備の対応について証言する。 [22][23]\n\n金融政策の実施は連邦準備制度が担う5つの主要機能のひとつであり、理事会、連邦準備銀行、FOMCが協力して米国経済の健全性と金融システムの安定を促進している。 [25]",
+    "sources": [
+      {
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+        "title": "Federal Open Market Committee",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "Federal Reserve 'About the FOMC' page defining monetary policy, assigning the three policy tools between the Board and the FOMC, defining the federal funds rate, detailing the twelve-member composition and rotating Bank-president groups, and stating the eight-meeting annual schedule. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm",
+        "title": "The Fed Explained: How We Conduct Monetary Policy",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "Fed Explained chapter on monetary policy: the congressional dual mandate, the FOMC's role setting the federal funds rate target, easing and tightening, implementation tools including interest on reserve balances and the overnight reverse repo facility, quantitative easing and forward guidance, statements and press conferences, and operational independence with accountability. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.federalreserve.gov/aboutthefed/fedexplained/who-we-are.htm",
+        "title": "The Fed Explained: Who We Are",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "Fed Explained chapter on Federal Reserve structure: the five key functions, the three key entities, the FOMC's twelve voting members and at-least-eight yearly meetings, and the participation of the remaining seven Reserve Bank presidents in deliberations. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Federal Open Market Committee",
+        "summary": "The Federal Open Market Committee (FOMC) is the twelve-member committee of the Federal Reserve System that determines U.S. monetary policy by setting the target for the federal funds rate and directing open market operations. Made up of the seven governors, the New York Reserve Bank president, and four rotating Reserve Bank presidents, it holds eight regularly scheduled meetings a year to review economic and financial conditions and set a policy stance aimed at the congressional goals of maximum employment and stable prices.",
+        "bodyMarkdown": "## What the FOMC does\n\nThe Federal Open Market Committee (FOMC) is the body within the [Federal Reserve](/hubpedia/federal-reserve) that decides on an appropriate [monetary policy](/hubpedia/monetary-policy) by setting the target for the [federal funds rate](/hubpedia/federal-funds-rate). [1]\n\nThe federal funds rate is the interest rate at which depository institutions lend balances they hold at Federal Reserve Banks to other depository institutions overnight. Changes in this rate set off a chain of events affecting other short-term interest rates, foreign exchange rates, long-term interest rates, and the amount of money and credit, ultimately reaching a range of economic variables including employment, output, and prices of goods and services. [2][3]\n\n## Composition and meetings\n\nThe FOMC consists of twelve members: all seven members of the Board of Governors, the president of the Federal Reserve Bank of New York, and four of the remaining eleven Reserve Bank presidents serving one-year terms on a rotating basis. [4]\n\nThe rotating seats are filled by one Bank president from each of four groups of Banks: Boston, Philadelphia, and Richmond; Cleveland and Chicago; Atlanta, St. Louis, and Dallas; and Minneapolis, Kansas City, and San Francisco. Nonvoting Reserve Bank presidents also attend the Committee's meetings, participate in the discussions, and contribute to the Committee's assessment of the economy and policy options. [5][6]\n\nThe FOMC holds eight regularly scheduled meetings per year, at which it reviews economic and financial conditions, determines the appropriate stance of monetary policy, and assesses the risks to its long-run goals of price stability and sustainable economic growth. Committee membership changes at the first regularly scheduled meeting of the year. [7][8]\n\n## Policy goals and tools\n\nMonetary policy refers to the actions a central bank undertakes to influence the availability and cost of money and credit in support of national economic goals; the Federal Reserve Act of 1913 gave the Federal Reserve responsibility for setting it. [9][10]\n\nThe Federal Reserve controls three tools of monetary policy: open market operations, the discount rate, and reserve requirements. The Board of Governors is responsible for the discount rate and reserve requirements, while the FOMC is responsible for [open market operations](/hubpedia/open-market-operations). Using the three tools, the Federal Reserve influences the demand for, and supply of, balances that depository institutions hold at Federal Reserve Banks, and in this way alters the federal funds rate. [11][12]\n\n## Easing and tightening decisions\n\nThe Fed's monetary policy aims to accomplish two goals mandated by the U.S. Congress: promoting maximum employment and promoting stable prices. Maximum employment is the highest level of employment, or lowest level of unemployment, that the economy can sustain while maintaining a stable inflation rate. [13][14]\n\nWhen necessary, the Fed changes the stance of monetary policy primarily by raising or lowering its target range for the federal funds rate. Lowering that range represents an \"easing\" of policy, accompanied by lower short-term interest rates in financial markets and a loosening in broader financial conditions, which may be needed if the economy is sluggish or inflation is too low. Raising the range is a \"tightening,\" which may be necessary if the economy is overheating or inflation is too high. [15][16][17]\n\nFOMC policymakers rely on a broad range of information in their assessments and deliberations: they analyze the most up-to-date economic data and review reports and surveys from consumer, business, and financial market contacts. [18]\n\n## Implementing and communicating decisions\n\nOnce the FOMC determines the stance of policy appropriate to its dual mandate objectives, it must ensure the stance is effectively implemented. To encourage short-term interest rates to move close to the target range, the Fed uses tools such as interest on reserve balances and the overnight reverse repurchase facility rate, and it also has tools it uses at times, such as large-scale asset purchases (sometimes called [quantitative easing](/hubpedia/quantitative-easing)) or forward guidance. [19][20]\n\nTo communicate its policy actions to the public, the FOMC releases written statements after every scheduled meeting, and the Chairman conducts a press conference after each meeting. Members of the Board of Governors in Washington and the presidents of the regional Federal Reserve Banks participate in the meetings, discussing the state of the national economy and conditions across the United States and deliberating on an appropriate policy course to support strong labor markets and price stability. [21][24]\n\n## Independence and accountability\n\nWhile Congress specifies the goals for monetary policy, it has also provided the Federal Reserve with operational independence. This flexibility lets monetary policy decisions be directed toward the longer term and based on data and objective analysis. At the same time, the Federal Reserve is accountable to Congress and the American people, achieving accountability by being transparent about its policy deliberations and actions through a range of official communications; the Fed Chairman, for example, testifies before congressional committees twice a year on economic developments and the Fed's actions. [22][23]\n\nConducting monetary policy is one of the five key functions of the Federal Reserve System, and the Board of Governors, the Federal Reserve Banks, and the FOMC work together to promote the health of the U.S. economy and the stability of the U.S. financial system. [25]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "FOMCは連邦資金金利の目標を設定することで、適切な金融政策を決定する機関である。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm",
+              "quote": "The Federal Open Market Committee, or FOMC, is the entity that **decides on an appropriate monetary policy** by setting the target for the federal funds rate."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "連邦資金金利は、預金取扱機関が連邦準備銀行に保有する残高を他の預金取扱機関へ翌日物で貸し付ける際の金利である。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+              "quote": "The federal funds rate is the interest rate at which depository institutions lend balances at the Federal Reserve to other depository institutions overnight."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "連邦資金金利の変化は、他の短期金利、為替レート、長期金利、貨幣と信用の量への連鎖を引き起こし、最終的に雇用、産出、財・サービスの価格へ及ぶ。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+              "quote": "Changes in the federal funds rate trigger a chain of events that affect other short-term interest rates, foreign exchange rates, long-term interest rates, the amount of money and credit, and, ultimately, a range of economic variables, including employment, output, and prices of goods and services."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "FOMCは理事7名、ニューヨーク連邦準備銀行総裁、残り11行の準備銀行総裁から1年任期の輪番で選ばれる4名の、計12名で構成される。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+              "quote": "The Federal Open Market Committee (FOMC) consists of twelve members--the seven members of the Board of Governors of the Federal Reserve System; the president of the Federal Reserve Bank of New York; and four of the remaining eleven Reserve Bank presidents, who serve one-year terms on a rotating basis."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "FOMCの輪番議席は4つの銀行グループから各1名の総裁が務め、グループはボストン・フィラデルフィア・リッチモンド、クリーブランドとシカゴ、アトランタ・セントルイス・ダラス、ミネアポリス・カンザスシティ・サンフランシスコである。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+              "quote": "The rotating seats are filled from the following four groups of Banks, one Bank president from each group: Boston, Philadelphia, and Richmond; Cleveland and Chicago; Atlanta, St. Louis, and Dallas; and Minneapolis, Kansas City, and San Francisco."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "投票権のない準備銀行総裁も委員会の会合に出席し、議論に参加して経済と政策選択肢に関する委員会の評価へ貢献する。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+              "quote": "Nonvoting Reserve Bank presidents attend the meetings of the Committee, participate in the discussions, and contribute to the Committee's assessment of the economy and policy options."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "FOMCは年8回の定期会合を開き、経済・金融情勢の検討、金融政策の適切なスタンスの決定、物価安定と持続的経済成長という長期目標へのリスク評価を行う。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+              "quote": "The FOMC holds eight regularly scheduled meetings per year. At these meetings, the Committee reviews economic and financial conditions, determines the appropriate stance of monetary policy, and assesses the risks to its long-run goals of price stability and sustainable economic growth."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "委員会のメンバー構成は、その年の最初の定期会合で変更される。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+              "quote": "Committee membership changes at the first regularly scheduled meeting of the year."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "金融政策とは、連邦準備のような中央銀行が国民経済の目標達成を助けるために貨幣と信用の利用可能性とコストへ影響を与える行動を指す。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+              "quote": "The term \"monetary policy\" refers to the actions undertaken by a central bank, such as the Federal Reserve, to influence the availability and cost of money and credit to help promote national economic goals."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "1913年の連邦準備法が、連邦準備に金融政策の設定責任を与えた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+              "quote": "The Federal Reserve Act of 1913 gave the Federal Reserve responsibility for setting monetary policy."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "連邦準備の政策手段は公開市場操作・割引率・準備要件の3つであり、理事会が割引率と準備要件を、FOMCが公開市場操作を担当する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+              "quote": "The Federal Reserve controls the three tools of monetary policy"
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+              "quote": "The Board of Governors of the Federal Reserve System is responsible for the discount rate and reserve requirements, and the Federal Open Market Committee is responsible for open market operations."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "連邦準備は3つの手段を用いて、預金取扱機関が連邦準備銀行に保有する残高の需要と供給に影響を与え、連邦資金金利を変化させる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+              "quote": "Using the three tools, the Federal Reserve influences the demand for, and supply of, balances that depository institutions hold at Federal Reserve Banks and in this way alters the federal funds rate."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "連邦準備の金融政策は、米国議会が定めた最大限の雇用の促進と物価の安定という2つの目標の達成を目的とする。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm",
+              "quote": "It's what the Fed does to accomplish two key goals mandated by the U.S. Congress:"
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm",
+              "quote": "The Fed **sets the stance of monetary policy** to influence short-term interest rates and overall financial conditions with the aim of moving the economy toward **maximum employment and stable prices**."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "最大限の雇用とは、安定したインフレ率を維持しながら経済が持続できる最高の雇用水準または最低の失業水準である。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm",
+              "quote": "which is the highest level of employment or lowest level of unemployment that the economy can sustain while maintaining a stable inflation rate"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "連邦準備は主に連邦資金金利（銀行の翌日物借入金利）の目標レンジを引き上げ・引き下げすることで金融政策のスタンスを変更する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm",
+              "quote": "When necessary, the Fed changes the stance of monetary policy primarily by **raising or lowering** its target range for **the federal funds rate**, an interest rate for overnight borrowing by banks."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "目標レンジの引き下げは金融の緩和を意味し、短期金利の低下と金融環境の緩和を伴い、景気低迷やインフレ過小の場合に必要となり得る。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm",
+              "quote": "Lowering that target range represents an \"easing\" of monetary policy because it is accompanied by lower short-term interest rates in financial markets and a loosening in broader financial conditions. This action may be needed if the economy is sluggish or inflation is too low."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "目標レンジの引き上げは金融の引き締めを意味し、金利を上げ、景気過熱やインフレ過大の場合に必要となり得る。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm",
+              "quote": "Raising the target range represents a \"tightening\" of monetary policy, which raises interest rates and may be necessary if the economy is overheating or inflation is too high."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "FOMCの政策担当者は幅広い情報に依拠し、最新の経済データを分析し、消費者・企業・金融市場の連絡先からの報告と調査を検討する。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm",
+              "quote": "FOMC policymakers rely on a broad range of information in their assessments and deliberations. They analyze the most up-to-date economic data and review reports and surveys from consumer, business, and financial market contacts."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "連邦準備は短期金利を目標レンジ近くに誘導するため、準備残高への付利や翌日物リバースレポファシリティ金利などの政策手段を用いる。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm",
+              "quote": "To encourage short-term interest rates to move close to the target range, the Fed uses various policy tools including:"
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm",
+              "quote": "interest on reserve balances, and"
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm",
+              "quote": "the overnight reverse repurchase facility rate."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "連邦準備は大規模資産購入（量的緩和とも呼ばれる）やフォワードガイダンスなど、時折使用する他の手段も持つ。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm",
+              "quote": "The Fed also has other tools that it sometimes uses, such as large-scale asset purchases (sometimes known as quantitative easing) or forward guidance (setting the public’s expectations for future actions by the Fed)."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "FOMCは政策行動を伝えるため、すべての定期会合後に書面の声明を発表し、議長が各会合後に記者会見を行う。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm",
+              "quote": "To communicate its policy actions to the public, the FOMC releases written statements after every scheduled meeting. In addition, the Chairman conducts a press conference after each meeting."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "議会は金融政策の目標を規定する一方で連邦準備に運営上の独立性を与え、連邦準備は政策審議と行動の透明化を通じて議会と国民への説明責任を果たす。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm",
+              "quote": "Though it specifies the goals for monetary policy, **Congress has also provided the Federal Reserve operational independence**."
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm",
+              "quote": "the Federal Reserve is accountable to Congress and the American people for its actions. It achieves accountability by being transparent about its policy deliberations and actions through a range of official communications."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "連邦準備理事会の議長は年2回、議会の委員会で現在の経済動向と連邦準備の対応について証言する。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm",
+              "quote": "Twice a year, for example, the Fed Chairman goes to Capitol Hill to testify before congressional committees on current economic developments as well as the Fed's actions to promote maximum employment and stable prices."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "FOMCの12名の投票メンバーは理事7名、ニューヨーク連邦準備銀行総裁、輪番1年任期の他行総裁4名であり、残り7名の準備銀行総裁も会合に出席して審議に参加する。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/who-we-are.htm",
+              "quote": "The FOMC's 12 voting members include"
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/who-we-are.htm",
+              "quote": "4 of the remaining 11 Reserve Bank presidents, who serve one-year terms on a rotating basis."
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/who-we-are.htm",
+              "quote": "In addition, all the remaining 7 Reserve Bank presidents attend FOMC meetings and participate in FOMC deliberations."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "金融政策の実施は連邦準備制度の5つの主要機能のひとつであり、理事会・連邦準備銀行・FOMCが協力して米国経済の健全性と金融システムの安定を促進する。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/who-we-are.htm",
+              "quote": "The Federal Reserve System performs five key functions that serve all Americans and promote the health and stability of the U.S. economy and financial system. It conducts the nation’s monetary policy"
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/who-we-are.htm",
+              "quote": "The Board of Governors, the Federal Reserve Banks, and the Federal Open Market Committee work together to promote the health of the U.S. economy and the stability of the U.S. financial system."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "bank-supervision",
+    "topicType": "concept",
+    "categoryLabel": "経済・ビジネス",
+    "title": "銀行監督",
+    "summary": "銀行監督とは、金融機関が法令と規則を遵守し安全かつ健全に運営されるよう、監視・検査・検証を行う規制当局の活動である。米国では連邦準備が、規則の制定とパブリックコメントを経た最終化、準備銀行の検査官による検査、大規模銀行への年次ストレステスト、違反への執行措置を通じて、小規模コミュニティ銀行から最大の複雑な金融機関までを監督する。",
+    "bodyMarkdown": "## 規制と監督の役割\n\n安全で健全かつ効率的な銀行・金融システムはすべての米国民にとって強い経済に寄与するため、[連邦準備制度](/hubpedia/federal-reserve)は特定の銀行と他の金融機関が適用される法律と規制に従うよう取り組んでいる。その任務は2つの側面に分かれる。規制は金融機関の設立と活動を律するルールを定めることを意味し、監督は規制対象の金融機関を監視・検査して法令と規則の遵守を確保する取り組みである。 [1][2][4]\n\n議会が金融業界に影響する新しい法律を可決すると、連邦準備は実施のための規則を提案し、パブリックコメントを求め、コメントを検討して最終化の前に規則を修正することがある。規則が確立されると、連邦準備理事会は準備銀行の検査官が機関の遵守を評価するために用いる手続きを発行し、準備銀行はそれに応じて検査官を訓練し、検査官は遵守状況を測るため機関の検査を実施する。 [3][5]\n\n## 監督と規制の対象\n\n連邦準備が監督する対象は、小規模なコミュニティ銀行から、米国と世界で最大規模かつ最も複雑な金融機関までに及ぶ。具体的には銀行持株会社、州立メンバー銀行、貯蓄・ローン持株会社、外国銀行の米国事務所、米国銀行の外国支店と業務が含まれる。 [6][7]\n\nまた連邦準備は、金融安定監督評議会がシステム上重要、すなわち破綻が米国金融の安定を脅かし得ると指定した金融市場ユーティリティなどの非銀行金融機関も監督・規制する。ただし責任は分担されており、銀行の活動や設立形態によっては、連邦預金保険公社や通貨監督庁など連邦準備以外の機関が監督・規制する場合がある。 [8][9]\n\n## 検査と是正の実施\n\n機関内部の動向を明確に把握するため、連邦準備は監督下の銀行へ検査官を派遣して業務と活動を確認する。例えば検査官は、銀行が行った貸出のリスクをカバーする十分な資本を持つか検証することがある。 [12]\n\n検査官は銀行の文書を読み、プロセスと活動を評価・検証し、行員と経営陣と面談して、検査所見の書面報告を銀行へ提供する。銀行は指摘された弱点を修正する計画で検査官へ応答し、検査官は後日、修正が意図通りに機能しているか追跡確認する。 [13]\n\n連邦準備が機関の法令・規則違反の証拠を発見した場合、問題の修正を要求し、制裁を課すこともある。逆に監督担当者やアナリストが金融システム全体の傾向や繰り返される活動に気づいた場合、連邦準備はより広く適用される規制や監督プログラムを変更または新設することがある。検査は機関の規模と金融システム・経済への影響を考慮して調整されるため、最大のグローバル銀行と最小のコミュニティ銀行では扱いが大きく異なる。 [14][15][16]\n\n## 金融システム全体の監視とストレステスト\n\n連邦準備は個別機関だけでなく、銀行と金融機関が米国経済全体へ与える影響も監視し、金融機関同士や公的機関を含む経済参加者との相互作用へ注目する。この「マクロプルーデンス的アプローチ」は、銀行、その他の金融機関、その顧客、その他の参加者を含む金融システム全体の健全性と耐性に焦点を当てる。金融機関が新しい商品やサービスを提供するなど自ら進化するため、連邦準備は監督・規制のアプローチも進化させなければならない。 [10][11]\n\n連邦準備は大規模銀行に対して年次ストレステストを実施し、深刻な景気後退の下でも家計と企業への貸出を続けられるだけの財務的耐性を持つか確認する。テストでは、経済で起こり得る不利な仮想条件のシナリオとモデルを連邦準備が作成し、銀行が詳細なデータを提出して、仮定条件下での各行の見込みパフォーマンスを予測する。この結果は参加銀行の資本要件を設定する際の要素にも使われる。 [17][18][19]\n\n## 体制と説明責任\n\n米国の[中央銀行](/hubpedia/central-bank)である連邦準備は、金融機関の活動の監督による安全性と健全性の促進、規制政策のルールメイキング、監督規制レター、政策声明とガイダンスの策定、銀行組織からの申請への対応、データの収集と分析による銀行部門動向の監視によって、監督・規制の責任と支援機能を主に遂行する。金融機関の監督は機関の規模と複雑さに基づいて調整される。 [23][24]\n\nこの責務は分業で運営される。理事会は12の準備銀行の業務を監督し、特定の金融機関と活動の監督・規制責任を準備銀行と共有し、準備銀行は銀行と他の金融機関の監督・検査を中核機能のひとつとして遂行する。連邦準備はまた、銀行組織が合併・買収や新規活動のために提出する取引承認申請を審査し、法令・規則違反、不安全・不健全な慣行、受託義務違反、最終命令違反に対して正式な執行措置を取る。 [28][29][25][26]\n\n連邦準備は監督・規制の活動と方針、銀行部門の健全性評価について定期的に国民と議会へ報告する。年2回の監督規制報告書は銀行システムの状況、最近の規制変更、監督の動向についての分析と最新情報を提供し、理事会の監督担当副議長による議会証言を伴うことが多い。 [20][21]\n\n年次ストレステスト結果の公表や、銀行合併・買収などの申請に関する執行措置と命令のウェブ掲載も透明性を高める取り組みである。あわせて連邦準備と他の連邦銀行監督機関は、銀行規制・監督の策定と実施、および国内銀行システム全体の健全性の継続評価に不可欠な金融・銀行構造データを収集・維持・分析・公開しており、これは[決済システム](/hubpedia/payment-systems)を含む金融インフラの監督とも隣接する領域である。 [22][27]",
+    "sources": [
+      {
+        "url": "https://www.federalreserve.gov/aboutthefed/fedexplained/supervision-regulation.htm",
+        "title": "The Fed Explained: How We Supervise and Regulate Financial Institutions",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "Fed Explained chapter defining regulation versus supervision, the supervised population, shared responsibility with the FDIC and OCC, the macroprudential approach, examiner practice, enforcement, tailoring, annual stress tests, and public reporting. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.federalreserve.gov/supervisionreg.htm",
+        "title": "Supervision & Regulation",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "Federal Reserve Supervision & Regulation landing page describing how supervisory and regulatory responsibilities are carried out, tailored supervision by size and complexity, applications review for mergers and new activities, formal enforcement grounds, and banking-structure data collection. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.federalreserve.gov/aboutthefed/fedexplained/who-we-are.htm",
+        "title": "The Fed Explained: Who We Are",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "Fed Explained chapter on Federal Reserve structure used for the division of labor: the Board oversees the 12 Reserve Banks and shares responsibility for supervising certain institutions, while the Reserve Banks carry out supervising and examining banks as a core function. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Bank Supervision",
+        "summary": "Bank supervision is the work regulators do to monitor, inspect, and examine financial institutions so that they comply with laws and rules and operate in a safe and sound manner. In the United States, the Federal Reserve supervises institutions ranging from small community banks to the largest and most complex financial firms, proposing rules, conducting examinations, running annual stress tests of large banks, and taking enforcement actions when necessary.",
+        "bodyMarkdown": "## The roles of regulation and supervision\n\nBecause a safe, sound, and efficient banking and financial system contributes to a strong economy for all Americans, the [Federal Reserve](/hubpedia/federal-reserve) works to ensure that certain banks and other financial institutions follow the laws and regulations that apply to them. The task has two sides. Regulation means setting the rules by which financial institutions operate, including their formation and activities; supervision means monitoring and examining regulated institutions to help ensure that they comply with laws and rules. [1][2][4]\n\nWhen Congress passes new laws affecting the financial industry, the Fed proposes rules to implement the laws and invites public comment on them; it considers the comments and may amend the rules before finalizing them. Once rules are established, the Federal Reserve Board issues the procedures Reserve Bank examiners will use to evaluate institutions' compliance, the Reserve Banks train examiners accordingly, and the examiners conduct inspections of institutions to gauge compliance. [3][5]\n\n## Who is supervised and regulated\n\nThe Fed oversees institutions ranging from very small community banks to some of the largest, most recognized, and most complex financial institutions in the nation and the world. These include bank holding companies, state member banks, savings and loan holding companies, foreign bank offices in the U.S., and foreign branches and operations of U.S. banks. [6][7]\n\nThe Fed also supervises and regulates other nonbank financial entities — such as financial market utilities — designated by the Financial Stability Oversight Council as systemically important, meaning their failure could pose a threat to U.S. financial stability. Responsibility is shared, though: depending on a bank's activities and how it is formed, it may be supervised and regulated by an agency other than the Federal Reserve, such as the Federal Deposit Insurance Corporation or the Office of the Comptroller of the Currency. [8][9]\n\n## Examination and corrective practice\n\nTo gain a clear view of developments within institutions, the Fed sends examiners into the banks it supervises to check their operations and activities; for example, examiners may test whether banks have enough capital to cover the risks from the loans they have made. [12]\n\nExaminers read bank documents, assess and test processes and activities, and meet with bank staff and management, then provide banks with a written report of examination findings. Banks respond to examiners with plans to fix any identified weaknesses, and examiners later follow up to confirm that the fixes are working as intended. [13]\n\nWhen the Fed finds evidence that an institution has not followed laws or regulations, it requires the problem to be fixed and may even issue a penalty. Conversely, if Fed supervisors and analysts notice trends and recurring activities across the financial system, the Federal Reserve may change or enact new regulations and supervisory programs that apply more broadly. Because bank exams are tailored to the size of the institution and the impact it may have on the financial system and economy, the very largest global bank and the smallest community bank are treated very differently. [14][15][16]\n\n## System-wide monitoring and stress tests\n\nBeyond individual institutions, the Fed monitors banks and financial institutions for their impact on the U.S. economy as a whole, paying close attention to how financial institutions interact with each other and even with public institutions, including governments, that participate in the economy. This \"macroprudential approach\" focuses on the soundness and resilience of the overall financial system, including banks and other financial institutions, their customers, and other participants in the system. Because financial institutions themselves evolve and innovate — including offering new products and services — the Fed must necessarily evolve its approach to supervising and regulating them. [10][11]\n\nThe Federal Reserve conducts annual stress testing of large banks to ensure they are financially resilient enough to continue lending to households and businesses even in a severe recession. As part of the testing, the Fed develops scenarios and models for different hypothetical, adverse conditions that could occur in the economy; banks submit detailed data in response, and the Fed evaluates the data to project how banks are likely to perform under the hypothetical conditions. The Fed also uses the stress test results, in part, to set capital requirements for participating banks. [17][18][19]\n\n## Organization and accountability\n\nThe Federal Reserve, the U.S. [central bank](/hubpedia/central-bank), carries out its supervisory and regulatory responsibilities and supporting functions primarily by supervising the activities of financial institutions to promote their safety and soundness, developing regulatory policy rulemakings, supervision and regulation letters, policy statements, and guidance, acting on applications filed by banking organizations, and monitoring trends in the banking sector by collecting and analyzing data. Supervision of financial institutions is tailored based on the size and complexity of the institution. [23][24]\n\nThis responsibility is run as a division of labor. The Board of Governors oversees the operations of the 12 Reserve Banks and shares with them the responsibility for supervising and regulating certain financial institutions and activities, while the Reserve Banks carry out supervising and examining banks and other financial institutions as one of their core functions. The Fed also reviews filings submitted by bank holding companies, state member banks, savings and loan holding companies, foreign banking organizations, and other entities and individuals for approval to undertake transactions including mergers and acquisitions and to engage in new activities, and it takes formal enforcement actions against regulated institutions for violations of laws, rules, or regulations, unsafe or unsound practices, breaches of fiduciary duty, and violations of final orders. [28][29][25][26]\n\nThe Federal Reserve regularly informs the public and Congress about its supervisory and regulatory activities and policies, including its assessment of the health of the banking sector. Its semiannual Supervision and Regulation Report provides analysis and updates on banking system conditions, recent regulatory changes, and supervision developments, and these reports are often accompanied by testimony to Congress by the Board's Vice Chair for Supervision. [20][21]\n\nReleasing the results of the Fed's annual stress testing of large banks and posting enforcement actions and orders on applications related to bank mergers, acquisitions, and other transactions on the website also promote accountability and transparency. In addition, the Federal Reserve and the other federal banking agencies collect, maintain, analyze, and make available to the public a wide range of financial and banking structure data that are essential to formulating and conducting bank regulation and supervision and to the ongoing assessment of the overall soundness of the nation's banking system — an area adjacent to the oversight of the [payment systems](/hubpedia/payment-systems) and other financial infrastructure. [22][27]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "安全で健全かつ効率的な銀行・金融システムはすべての米国民にとって強い経済に寄与し、連邦準備は特定の銀行と他の金融機関が適用される法令を遵守するよう取り組んでいる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/supervision-regulation.htm",
+              "quote": "A **safe, sound, and efficient** banking and financial system contributes to a **strong economy** for all Americans. That's why the Federal Reserve works to ensure that certain banks and other financial institutions follow the laws and regulations that apply to them."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "規制とは、金融機関の設立と活動を含め、その運営を律するルールを定めることを意味する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/supervision-regulation.htm",
+              "quote": "*Regulation* involves setting the rules by which financial institutions operate, including their formation and activities."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "議会が金融業界に影響する新法を可決すると、連邦準備は実施規則を提案してパブリックコメントを求め、コメントを検討し、最終化前に規則を修正することがある。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/supervision-regulation.htm",
+              "quote": "When Congress passes new laws affecting the financial industry, the Fed proposes rules to implement the laws and invites public comment on them. The Fed considers the comments and may amend rules before finalizing them."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "監督とは、規制対象の金融機関を監視・検査して法令と規則の遵守を確保する取り組みである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/supervision-regulation.htm",
+              "quote": "*Supervision* involves monitoring and examining regulated financial institutions to help ensure that they comply with laws and rules."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "規則確立後、連邦準備理事会は準備銀行の検査官が遵守を評価する手続きを発行し、準備銀行は検査官を訓練して機関の検査を実施する。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/supervision-regulation.htm",
+              "quote": "Once it establishes rules, the Federal Reserve Board issues the procedures Reserve Bank examiners will use to evaluate institutions' compliance. The Reserve Banks train examiners accordingly, and the examiners conduct inspections of institutions to gauge compliance."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "連邦準備は小規模コミュニティ銀行から、米国と世界で最大規模・最も複雑な金融機関までを監督する。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/supervision-regulation.htm",
+              "quote": "The Fed oversees very **small community banks** as well as some of the **largest, most recognized, and most complex financial institutions** in the nation and the world."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "連邦準備の監督対象には銀行持株会社、州立メンバー銀行、貯蓄・ローン持株会社、外国銀行の米国事務所、米国銀行の外国支店と業務が含まれる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/supervision-regulation.htm",
+              "quote": "These include bank holding companies, state member banks, savings and loan holding companies, foreign bank offices in the U.S., and foreign branches and operations of U.S. banks."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "連邦準備は、金融安定監督評議会がシステム上重要（破綻が米国金融の安定を脅かし得る）と指定した金融市場ユーティリティなどの非銀行金融機関も監督・規制する。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/supervision-regulation.htm",
+              "quote": "It also supervises and regulates other nonbank financial entities—such as financial market utilities—designated by the Financial Stability Oversight Council as systemically important—that is, their failure could pose a threat to U.S. financial stability."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "金融機関の安全・健全運営の責任は分担されており、銀行の活動と設立形態によっては連邦預金保険公社や通貨監督庁など他機関が監督・規制する場合がある。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/supervision-regulation.htm",
+              "quote": "The Federal Reserve shares responsibility for ensuring financial institutions operate safely and soundly. Based on a bank's activities and how it is formed, it may be supervised and regulated by an agency other than the Federal Reserve, such as the Federal Deposit Insurance Corporation or the Office of the Comptroller of the Currency."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "連邦準備は銀行と金融機関が米国経済全体へ与える影響を監視し、機関同士や公的機関との相互作用に注目するマクロプルーデンス的アプローチで、金融システム全体の健全性と耐性に焦点を当てる。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/supervision-regulation.htm",
+              "quote": "The Fed **monitors** banks and financial institutions for their **impact on the U.S. economy as a whole—**paying close attention to how financial institutions interact with each other and even with public institutions (including governments) that participate in our economy."
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/supervision-regulation.htm",
+              "quote": "This “macroprudential approach” focuses on the soundness and resilience of the overall financial system, including banks and other financial institutions, their customers, and other participants in the system."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "金融機関は新しい商品やサービスの提供など自ら進化するため、連邦準備は監督・規制のアプローチを進化させなければならない。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/supervision-regulation.htm",
+              "quote": "Because financial institutions themselves evolve and innovate—including offering new products and services—the Fed must necessarily evolve its approach to supervising and regulating them."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "連邦準備は監督下の銀行へ検査官を派遣して業務と活動を確認し、貸出リスクをカバーする十分な資本があるかを検証することがある。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/supervision-regulation.htm",
+              "quote": "the Fed sends examiners into the banks it supervises to check their operations and activities. For example, examiners may test whether banks have enough capital to cover the risks from the loans they have made."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "検査官は文書の閲覧、プロセスの評価・検証、行員・経営陣との面談を行い検査所見の書面報告を提供し、銀行は弱点の是正計画で応答し、検査官が是正の機能を追跡確認する。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/supervision-regulation.htm",
+              "quote": "Examiners read bank documents, assess and test processes and activities, and meet with bank staff and management. They then provide banks with a written report of examination findings. Banks respond to examiners with plans to fix any identified weaknesses, and examiners later follow up to confirm fixes are working as intended."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "連邦準備は機関の法令・規則違反の証拠を発見した場合、問題の修正を要求し、制裁を課すこともある。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/supervision-regulation.htm",
+              "quote": "When the Fed finds evidence that an institution hasn't followed laws or regulations, it requires the problem to be fixed and may even issue a penalty."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "監督担当者やアナリストが金融システム全体の傾向や繰り返される活動に気づいた場合、連邦準備はより広く適用される規制や監督プログラムを変更・新設することがある。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/supervision-regulation.htm",
+              "quote": "if Fed supervisors and analysts notice trends and recurring activities across the financial system, the Federal Reserve may change or enact new regulations and supervisory programs that apply more broadly."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "銀行検査は機関の規模と金融システム・経済への影響を考慮して調整され、最大のグローバル銀行と最小のコミュニティ銀行では扱いが大きく異なる。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/supervision-regulation.htm",
+              "quote": "The Fed tailors bank exams, taking into account the size of the institution and the impact it may have on the financial system and economy. So, the very largest global bank and the smallest community bank are treated very differently."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "連邦準備は大規模銀行に年次ストレステストを実施し、深刻な景気後退下でも家計と企業への貸出を続けられる財務的耐性を確認する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/supervision-regulation.htm",
+              "quote": "The Federal Reserve conducts annual **stress testing** of **large banks** to ensure they are financially resilient enough to continue lending to households and businesses even in a severe recession."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "ストレステストでは、連邦準備が不利な仮想経済条件のシナリオとモデルを作成し、銀行が詳細データを提出して、仮定条件下でのパフォーマンスが予測される。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/supervision-regulation.htm",
+              "quote": "the Fed develops scenarios and models for different hypothetical, adverse conditions that could occur in the economy. Banks submit detailed data in response to the scenarios and models, and the Fed evaluates the data to project how banks are likely to perform under the hypothetical conditions."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "ストレステストの結果は、参加銀行の資本要件を設定する際の要素のひとつとして使われる。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/supervision-regulation.htm",
+              "quote": "The Fed also uses the stress test results to, in part, set capital requirements for participating banks."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "連邦準備は監督・規制の活動と方針、および銀行部門の健全性評価について、定期的に国民と議会へ報告する。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/supervision-regulation.htm",
+              "quote": "The Federal Reserve **regularly informs the public and Congress** about its supervisory and regulatory activities and policies, including its assessment of the health of the banking sector."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "年2回の監督規制報告書は銀行システムの状況・最近の規制変更・監督動向の分析と最新情報を提供し、理事会の監督担当副議長による議会証言を伴うことが多い。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/supervision-regulation.htm",
+              "quote": "provides analysis and updates on banking system conditions, recent regulatory changes, and supervision developments."
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/supervision-regulation.htm",
+              "quote": "These reports are often accompanied by testimony to Congress by the Board’s Vice Chair for Supervision."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "年次ストレステスト結果の公表と、銀行合併・買収などの申請に関する執行措置と命令のウェブ掲載は、説明責任と透明性を高める取り組みである。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/supervision-regulation.htm",
+              "quote": "releasing the results of the Fed’s annual stress testing of large banks, and"
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/supervision-regulation.htm",
+              "quote": "website postings of its enforcement actions and orders on applications related to bank mergers, acquisitions, and other transactions."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "連邦準備は金融機関の活動の監督による安全性・健全性の促進、規制政策のルールメイキング・監督規制レター・政策声明・ガイダンスの策定、銀行組織の申請への対応、データ収集・分析による銀行部門動向の監視を通じて、監督・規制の責任と支援機能を主に遂行する。",
+          "confidence": 0.91,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/supervisionreg.htm",
+              "quote": "The Federal Reserve carries out its supervisory and regulatory responsibilities and supporting functions primarily by supervising the activities of financial institutions to promote their safety and soundness, developing regulatory policy rulemakings, supervision and regulation letters, policy statements, and guidance and acting on applications filed by banking organizations, and monitoring trends in the banking sector by collecting and analyzing data."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "金融機関の監督は、機関の規模と複雑さに基づいて調整される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/supervisionreg.htm",
+              "quote": "Supervision of financial institutions is tailored based on the size and complexity of the institution."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "連邦準備は銀行持株会社、州立メンバー銀行、貯蓄・ローン持株会社、外国銀行組織などが提出する、合併・買収や新規活動を行うための取引承認申請を審査する。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/supervisionreg.htm",
+              "quote": "The Federal Reserve reviews filings submitted by bank holding companies, state member banks, savings and loan holding companies, foreign banking organizations, and other entities and individuals for approval to undertake various transactions, including mergers and acquisitions, and to engage in new activities."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "連邦準備は法令・規則・規制違反、不安全・不健全な慣行、受託義務違反、最終命令違反に対し、規制対象機関に正式な執行措置を取る。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/supervisionreg.htm",
+              "quote": "The Federal Reserve takes formal enforcement actions against regulated institutions for violations of laws, rules, or regulations, unsafe or unsound practices, breaches of fiduciary duty, and violations of final orders."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "連邦準備と他の連邦銀行監督機関は、銀行規制・監督の策定と実施、および国内銀行システム全体の健全性の継続評価に不可欠な金融・銀行構造データを収集・維持・分析・公開する。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/supervisionreg.htm",
+              "quote": "The Federal Reserve and the other federal banking agencies collect, maintain, analyze, and make available to the public a wide range of financial and banking structure data. These data are essential to formulating and conducting bank regulation and supervision and for the ongoing assessment of the overall soundness of the nation's banking system."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "理事会は12の準備銀行の業務を監督し、特定の金融機関と活動の監督・規制責任を準備銀行と共有する。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/who-we-are.htm",
+              "quote": "oversees the operations of the 12 Reserve Banks and shares with them the responsibility for supervising and regulating certain financial institutions and activities;"
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "準備銀行は、銀行と他の金融機関の監督・検査を連邦準備の中核機能のひとつとして遂行する。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/who-we-are.htm",
+              "quote": "supervising and examining banks and other financial institutions;"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "central-bank",
+    "topicType": "concept",
+    "categoryLabel": "経済・ビジネス",
+    "title": "中央銀行",
+    "summary": "中央銀行とは、一国の金融制度の中枢を担い、通貨の発行・金融政策・金融安定の維持を担う公的機関である。米国では連邦準備が1913年の連邦準備法により中央銀行として創設され、理事会と12の連邦準備銀行からなる分散構造のもと、最大限の雇用と物価安定を目指して金融政策を運営し、金融システム全体の安定を監視している。",
+    "bodyMarkdown": "## 中央銀行とは\n\n中央銀行は一国の金融制度の中枢を担う公的機関であり、米国においては連邦準備がその役割を果たす。連邦準備は1913年の連邦準備法によって、銀行システムのストレスに効果的に対応できる金融制度を確立するために創設された。 [1]\n\n制度は2つの層から構成される。ワシントンD.C.に置かれた連邦機関である理事会と、全国に点在する12の連邦準備銀行である。[連邦準備制度](/hubpedia/federal-reserve)のこの分散構造は、中央へ権限を集中させず、各地の経済状況を政策へ反映させる設計になっている。 [2]\n\n設立の根拠法である連邦準備法は、制度の目的・構造・機能に加えて運営と説明責任の枠組みを定め、議会はその改正権を保持してこれまで何度も改正を重ねてきた。法が掲げた目的は、米国により安全で柔軟かつ安定した通貨・金融システムを提供することである。 [3][4]\n\n## 五つの主要機能\n\n連邦準備制度は5つの主要機能を果たす。金融政策の遂行、金融システムの安定促進、金融機関の監督・規制、決済・清算システムの安全性と効率性の促進、消費者保護と地域開発の促進である。 [5]\n\nこのうち現場の多くを担うのが準備銀行である。準備銀行は銀行と他の金融機関の監督・検査、連邦消費者保護・公正貸出法の遵守執行、預金取扱機関への貸出による金融システムの流動性確保を行う。さらに[通貨](/hubpedia/currency)と硬貨を銀行に配送し、電子決済システムを運営して小切手を清算し、財務省の取引口座の維持や米国政府証券の発行・償還を通じて政府の銀行としても機能する。 [6][7][8]\n\n政策決定の中枢は[連邦公開市場委員会](/hubpedia/fomc)である。連邦準備制度の役人12名で構成され、少なくとも年8回の会合で米国の重要な金融政策を定める。その決定は金利と信用条件に影響を与え、経済生産性や家計・地域社会・企業の支出と投資の決定にまで及び得る。 [9][10]\n\n## 金融政策とその目標\n\n[金融政策](/hubpedia/monetary-policy)とは、連邦準備が米国議会の定めた2つの目標、最大限の雇用の促進と物価の安定を達成するために行う活動である。最大限の雇用とは、安定したインフレ率を維持しながら経済が持続できる最高の雇用水準または最低の失業水準を指す。 [11][12]\n\n手段として連邦準備は、銀行の翌日物借入金利である[連邦資金金利](/hubpedia/federal-funds-rate)の目標レンジを引き上げ・引き下げして、金融政策のスタンスを主に変更する。その目標を設定して適切な金融政策を決定する主体がFOMCである。目標レンジの引き下げは金融の「緩和」、引き上げは金利を高める「引き締め」を意味し、景気低迷やインフレ過小、あるいは景気過熱やインフレ過大の局面で必要となり得る。 [13][14][15]\n\n## 独立性と説明責任\n\n議会は金融政策の目標を規定する一方で、連邦準備に運営上の独立性を与えている。この柔軟性により、政策決定は長期的な視点とデータ・客観的分析に基づくことができる。同時に連邦準備はその行動について議会と米国民に説明責任を負い、政策審議と行動に関する一連の公式コミュニケーションを通じた透明性によってそれを果たす。 [16][17]\n\n独立性は人事の設計にも表れている。理事会は大統領が指名し上院が承認する、交错14年任期の理事7名で運営され、議会に報告し直接説明責任を負う連邦政府機関である。理事会は12の準備銀行の業務を監督し、特定の金融機関と活動の監督・規制責任を準備銀行と共有する。 [18][19]\n\n一方で準備銀行は、理事会の監督を受けつつも多くの面で独立して運営され、12行と24の支店がそれぞれ固有の地区で業務を行う運営部門となっている。制度全体では経済学者・アナリスト・検査官のチームが米国内外からデータと情報を継続的に収集・分析し、政策形成を支えている。 [20][21][22]\n\n## 金融安定の監視と国際連携\n\n金融安定の促進は連邦準備の創設理由そのものである。議会は金融恐慌の防止と金融安定の促進によって経済を守るため、1913年に連邦準備を設立した。金融システムが安定しているとは、金融機関と金融市場が家計・地域社会・企業に、健全に機能する経済への投資・成長・参加に必要な資源・サービス・商品を提供できる状態を指す。健全なシステムは、資金を増やしたい貯蓄者・投資家と資金を必要とする借り手・企業を可能な限り低いコストで結びつける。 [23][24][25]\n\n連邦準備はマクロプルーデンス的金融安定レビューの一環として、資産評価とリスク選好、金融システムのレバレッジ、資金調達リスク、企業と家計による借入という標準的な脆弱性の組を定期的かつ体系的に評価し、半年ごとの金融安定報告書で米国金融システムの耐性に関する現在の評価を提示する。 [26][27]\n\nまた連邦準備は他の中央銀行や監督当局とも連携し、米国経済を第一としつつ、相互依存する世界経済の持続可能性と安定性を促進する金融システムの育成に取り組んでいる。 [28]",
+    "sources": [
+      {
+        "url": "https://www.federalreserve.gov/aboutthefed/fedexplained/who-we-are.htm",
+        "title": "The Fed Explained: Who We Are",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "Fed Explained chapter on Federal Reserve structure used for the U.S. central bank definition, the 1913 founding statute, the five key functions, Board governance and accountability, Reserve Bank operating roles, the FOMC, and System-wide data collection. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm",
+        "title": "The Fed Explained: How We Conduct Monetary Policy",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "Fed Explained chapter on monetary policy used for the congressional dual mandate, the definition of maximum employment, the federal funds rate target, easing and tightening, the FOMC as deciding entity, and the Fed's operational independence and accountability. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.federalreserve.gov/aboutthefed/fedexplained/financial-stability.htm",
+        "title": "The Fed Explained: How We Promote Financial Stability",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "Fed Explained chapter on financial stability used for the definition of a stable financial system, the 1913 panic-prevention mandate, the saver-borrower intermediation role, the macroprudential vulnerability review, the semiannual Financial Stability Report, and cooperation with other central banks. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.federalreserve.gov/aboutthefed/fract.htm",
+        "title": "Federal Reserve Act",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "Federal Reserve Act landing page used for the statutory establishment of the System as the U.S. central bank, the stated purpose of a safer, more flexible, and more stable monetary and financial system, and Congress's amendment power. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Central Bank",
+        "summary": "A central bank is the public institution at the core of a nation's monetary system, issuing currency, conducting monetary policy, and safeguarding financial stability. In the United States, the Federal Reserve serves as the central bank: created by the Federal Reserve Act of 1913 and built around the Board of Governors and twelve Reserve Banks, it steers policy toward maximum employment and stable prices while monitoring the resilience of the financial system.",
+        "bodyMarkdown": "## What a central bank is\n\nA central bank is the public institution at the heart of a nation's monetary system, and in the United States that role belongs to the Federal Reserve. The Fed was created by the Federal Reserve Act of 1913 to establish a monetary system that could respond effectively to stresses in the banking system. [1]\n\nThe System is built in two layers: the Board of Governors, a federal agency located in Washington, D.C., and twelve Federal Reserve Banks around the nation. This decentralized structure of the [Federal Reserve](/hubpedia/federal-reserve) is designed to keep authority from concentrating at the center and to let regional economic conditions inform policy. [2]\n\nThe Federal Reserve Act, its founding statute, sets out the purposes, structure, and functions of the System along with the framework for its operations and accountability, and Congress holds the power to amend it, which it has done several times over the years. The purpose the law states is to provide the nation with a safer, more flexible, and more stable monetary and financial system. [3][4]\n\n## The five key functions\n\nThe Federal Reserve System performs five key functions: conducting monetary policy, promoting financial system stability, supervising and regulating financial institutions, fostering payment and settlement system safety and efficiency, and promoting consumer protection and community development. [5]\n\nMuch of the operational work falls to the Reserve Banks. They supervise and examine banks and other financial institutions, enforce compliance with federal consumer protection and fair lending laws while promoting local community development, and lend to depository institutions to ensure liquidity in the financial system. They also distribute [currency](/hubpedia/currency) and coin to banks, operate electronic payment systems and clear checks, and act as the government's bank through services such as maintaining the Treasury Department's transaction account and issuing and redeeming U.S. government securities. [6][7][8]\n\nThe center of policy decisions is the [Federal Open Market Committee](/hubpedia/fomc), a group of twelve Federal Reserve System officials that sets crucial U.S. monetary policy at meetings held at least eight times each year. Its actions influence interest rates and credit conditions, and they can reach economic productivity and even the spending and investment decisions of households, communities, and businesses. [9][10]\n\n## Monetary policy and its goals\n\n[Monetary policy](/hubpedia/monetary-policy) is what the Fed does to accomplish two goals mandated by the U.S. Congress: promoting maximum employment and promoting stable prices. Maximum employment is the highest level of employment or lowest level of unemployment that the economy can sustain while maintaining a stable inflation rate. [11][12]\n\nTo act, the Fed primarily raises or lowers its target range for the [federal funds rate](/hubpedia/federal-funds-rate), an interest rate for overnight borrowing by banks, thereby changing the stance of monetary policy; the entity that sets that target is the FOMC. Lowering the target range represents an easing of policy, while raising it is a tightening that raises interest rates, and each action can be needed when the economy is sluggish or overheating, or when inflation is too low or too high. [13][14][15]\n\n## Independence and accountability\n\nWhile Congress specifies the goals of monetary policy, it has granted the Federal Reserve operational independence, a flexibility that lets policy decisions be directed toward the longer term and based on data and objective analysis. At the same time, the Fed is accountable to Congress and the American people for its actions, achieving that accountability by being transparent about its policy deliberations and actions through a range of official communications. [16][17]\n\nIndependence also shows in personnel design. The Board is run by seven governors serving staggered fourteen-year terms who are nominated by the President and confirmed by the Senate, and it is an agency of the federal government that reports to and is directly accountable to Congress. The Board oversees the operations of the twelve Reserve Banks and shares with them responsibility for supervising and regulating certain financial institutions and activities. [18][19]\n\nThe Reserve Banks, in turn, operate independently in many respects while supervised by the Board, serving as the operating arms of the System with twelve Banks and twenty-four Branches each working within its own district. Across the System, teams of economists, analysts, and examiners continuously gather and analyze data and information from around the U.S. and abroad to support policymaking. [20][21][22]\n\n## Monitoring stability and cooperating abroad\n\nPromoting financial stability is the very reason the Fed exists: Congress established the Federal Reserve in 1913 to safeguard the economy by preventing financial panics and promoting financial stability. A financial system is considered stable when institutions and markets can provide households, communities, and businesses with the resources, services, and products they need to invest, grow, and participate in a well-functioning economy, and a healthy system links savers and investors seeking to grow their money with borrowers and businesses in need of funds at the lowest possible cost. [23][24][25]\n\nAs part of its macroprudential financial stability review, the Fed regularly and systematically assesses a standard set of vulnerabilities — asset valuations and risk appetite, leverage in the financial system, funding risk, and borrowing by businesses and households — and it presents its current assessment of the resilience of the U.S. financial system in the semiannual Financial Stability Report. [26][27]\n\nThe Fed also engages with other central banks and supervisory authorities to foster a financial system that promotes the sustainability and stability of the U.S. economy first and of the interdependent global economy more generally. [28]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "連邦準備は1913年の連邦準備法によって創設された米国の中央銀行であり、銀行システムのストレスに効果的に対応できる金融制度を確立するために設けられた。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/who-we-are.htm",
+              "quote": "The Federal Reserve is the U.S. central bank, created by the **Federal Reserve Act** of 1913 to establish a monetary system that could respond effectively to stresses in the banking system."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "連邦準備制度には、ワシントンD.C.に置かれた連邦機関である理事会と、全国12の連邦準備銀行が含まれる。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/who-we-are.htm",
+              "quote": "The Board of Governors, a federal agency located in Washington, D.C., and"
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/who-we-are.htm",
+              "quote": "12 Federal Reserve Banks around the nation."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "連邦準備法は制度の目的・構造・機能と運営・説明責任の枠組みを定めており、議会はその改正権を持ち、これまでに何度も改正してきた。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fract.htm",
+              "quote": "The law sets out the purposes, structure, and functions of the System as well as outlines aspects of its operations and accountability. Congress has the power to amend the Federal Reserve Act, which it has done several times over the years."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "連邦準備法は、米国により安全で柔軟かつ安定した通貨・金融システムを提供するため、連邦準備制度を米国の中央銀行として設立した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fract.htm",
+              "quote": "The Federal Reserve Act of 1913 established the Federal Reserve System as the central bank of the United States to provide the nation with a safer, more flexible, and more stable monetary and financial system."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "連邦準備制度は、金融政策の遂行、金融システムの安定促進、金融機関の監督・規制、決済・清算システムの安全性・効率性の促進、消費者保護と地域開発の促進という5つの主要機能を果たす。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/who-we-are.htm",
+              "quote": "It conducts the nation’s monetary policy, promotes financial system stability, supervises and regulates financial institutions, fosters payment and settlement system safety and efficiency, and promotes consumer protection and community development."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "準備銀行は、銀行と他の金融機関の監督・検査、連邦消費者保護・公正貸出法の遵守執行と地域開発の促進、預金取扱機関への貸出による金融システムの流動性確保を担う。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/who-we-are.htm",
+              "quote": "supervising and examining banks and other financial institutions;"
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/who-we-are.htm",
+              "quote": "enforcing compliance with federal consumer protection and fair lending laws while promoting local community development; and"
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/who-we-are.htm",
+              "quote": "lending to depository institutions to ensure liquidity in the financial system."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "準備銀行は通貨と硬貨を銀行に配送し、電子決済システムを運営し、小切手を清算する。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/who-we-are.htm",
+              "quote": "distributing currency and coins to banks, operating electronic payment systems, and clearing our checks;"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "準備銀行は、財務省の取引口座の維持や米国政府証券の発行・償還といったサービスを通じて政府の銀行としても機能する。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/who-we-are.htm",
+              "quote": "by providing services such as maintaining the Treasury Department's transaction account and issuing and redeeming U.S. government securities."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "FOMCは連邦準備制度の役人12名からなる委員会で、少なくとも年8回開かれる会合で米国の重要な金融政策を定める。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/who-we-are.htm",
+              "quote": "The Federal Open Market Committee, or **FOMC**, is a 12-person group of Federal Reserve System officials that **sets crucial U.S. monetary policy at meetings held at least 8 times each year.**"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "FOMCの金融政策行動は金利と信用条件に影響を与え、経済生産性や家計・地域社会・企業の支出・投資決定にまで大きな影響を及ぼし得る。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/who-we-are.htm",
+              "quote": "The FOMC's monetary policy actions influence interest rates and credit conditions, which can significantly impact financial conditions, including economic productivity and even spending and investment decisions by households, communities, and businesses."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "連邦準備の金融政策は、米国議会が定めた最大限の雇用の促進と物価の安定という2つの目標を達成するためのものである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm",
+              "quote": "It's what the Fed does to accomplish two key goals mandated by the U.S. Congress:"
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm",
+              "quote": "promoting stable prices**—for the goods and services we all purchase"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "最大限の雇用とは、安定したインフレ率を維持しながら経済が持続できる最高の雇用水準または最低の失業水準を指す。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm",
+              "quote": "which is the highest level of employment or lowest level of unemployment that the economy can sustain while maintaining a stable inflation rate"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "連邦準備は、銀行の翌日物借入金利である連邦資金金利の目標レンジを引き上げ・引き下げすることで、主として金融政策のスタンスを変更する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm",
+              "quote": "When necessary, the Fed changes the stance of monetary policy primarily by **raising or lowering** its target range for **the federal funds rate**, an interest rate for overnight borrowing by banks."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "FOMCは連邦資金金利の目標を設定することにより、適切な金融政策を決定する主体である。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm",
+              "quote": "The Federal Open Market Committee, or FOMC, is the entity that **decides on an appropriate monetary policy** by setting the target for the federal funds rate."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "目標レンジの引き下げは金融の「緩和」を、引き上げは金利を高める「引き締め」を意味し、景気低迷・インフレ過小または景気過熱・インフレ過大の局面で必要となり得る。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm",
+              "quote": "Lowering that target range represents an \"easing\" of monetary policy because it is accompanied by lower short-term interest rates in financial markets and a loosening in broader financial conditions. This action may be needed if the economy is sluggish or inflation is too low."
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm",
+              "quote": "Raising the target range represents a \"tightening\" of monetary policy, which raises interest rates and may be necessary if the economy is overheating or inflation is too high."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "議会は金融政策の目標を規定しつつ連邦準備に運営上の独立性を与えており、これにより政策決定を長期的視点とデータ・客観的分析に基づかせている。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm",
+              "quote": "Though it specifies the goals for monetary policy, **Congress has also provided the Federal Reserve operational independence**. This flexibility ensures that monetary policy decisions can be directed toward the longer term, be based on data and objective analysis, and best serve the interests of all Americans."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "連邦準備はその行動について議会と米国民に説明責任を負い、政策審議と行動についての一連の公式コミュニケーションを通じた透明性によって説明責任を果たす。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/monetary-policy.htm",
+              "quote": "the Federal Reserve is accountable to Congress and the American people for its actions. It achieves accountability by being transparent about its policy deliberations and actions through a range of official communications."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "理事会は、米国大統領が指名し上院が承認する、交错14年任期の理事7名によって運営される。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/who-we-are.htm",
+              "quote": "is run by 7 members, or \"governors\" serving staggered 14-year terms, who are nominated by the President of the United States and confirmed in their positions by the U.S. Senate;"
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "理事会は議会に報告し直接説明責任を負う連邦政府機関であり、12の準備銀行の業務を監督するとともに、特定の金融機関と活動の監督・規制責任を準備銀行と共有する。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/who-we-are.htm",
+              "quote": "is an agency of the federal government that reports to and is directly accountable to Congress."
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/who-we-are.htm",
+              "quote": "oversees the operations of the 12 Reserve Banks and shares with them the responsibility for supervising and regulating certain financial institutions and activities;"
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "12の準備銀行と24の支店は連邦準備制度の運営部門であり、各準備銀行は米国内のそれぞれ固有の地区で業務を行う。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/who-we-are.htm",
+              "quote": "The **12 Reserve Banks**—and their 24 Branches—are **the operating arms of the Federal Reserve System**. Each Reserve Bank operates within its own particular geographic area, or district, of the United States."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "準備銀行は連邦準備理事会の監督を受けつつも、多くの面で独立して運営されている。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/who-we-are.htm",
+              "quote": "Although supervised by the Federal Reserve Board, the Reserve Banks operate independently in many respects."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "連邦準備制度の経済学者・アナリスト・検査官らのチームは、米国内外からデータと情報を継続的に収集・分析している。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/who-we-are.htm",
+              "quote": "Teams of economists, analysts, examiners, and other professionals from across the Federal Reserve System **continuously gather and analyze data and information** from around the U.S. and abroad."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "議会は金融恐慌の防止と金融安定の促進によって経済を守るため、1913年に連邦準備を設立した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/financial-stability.htm",
+              "quote": "Congress established the Federal Reserve in 1913 to safeguard the economy by preventing financial panics and promoting financial stability."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "金融システムが安定しているとは、金融機関と金融市場が家計・地域社会・企業に対し、健全に機能する経済への投資・成長・参加に必要な資源・サービス・商品を提供できる状態を指す。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/financial-stability.htm",
+              "quote": "A financial system is considered stable when financial institutions and financial markets are able to provide **households, communities, and businesses** with the resources, services, and products they need to **invest, grow, and participate** in a well-functioning economy."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "健全で安定した金融システムは、資金を増やそうとする貯蓄者・投資家と、資金を必要とする借り手・企業とを可能な限り低いコストで結びつける。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/financial-stability.htm",
+              "quote": "A healthy and stable financial system links, at the lowest possible cost, savers and investors seeking to grow their money with borrowers and businesses in need of funds."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "連邦準備はマクロプルーデンス的金融安定レビューの一環として、資産評価とリスク選好、金融システムのレバレッジ、資金調達リスク、企業と家計による借入という標準的な脆弱性の組を定期的かつ体系的に評価する。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/financial-stability.htm",
+              "quote": "The Fed regularly and systematically assesses a standard set of vulnerabilities as part of its macroprudential financial stability review:"
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/financial-stability.htm",
+              "quote": "asset valuations and risk appetite"
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/financial-stability.htm",
+              "quote": "leverage in the financial system"
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/financial-stability.htm",
+              "quote": "funding risk"
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/financial-stability.htm",
+              "quote": "borrowing by businesses and households"
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "連邦準備は半年ごとの金融安定報告書において、米国金融システムの耐性に関する現在の評価を提示する。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/financial-stability.htm",
+              "quote": "The Federal Reserve presents its current assessment of the resilience of the U.S. financial system in the semiannual *Financial Stability Report*."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "連邦準備は他の中央銀行や監督当局とも連携し、米国経済を第一に、より広く相互依存する世界経済の持続可能性と安定性を促進する金融システムの育成に取り組む。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/fedexplained/financial-stability.htm",
+              "quote": "The Fed also engages with other central banks and supervisory authorities, to foster a financial system that promotes the sustainability and stability of the U.S. economy first, and the interdependent global economy more generally."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "currency",
+    "topicType": "concept",
+    "categoryLabel": "経済・ビジネス",
+    "title": "通貨",
+    "summary": "通貨とは、財・サービスの対価支払いや価値の貯蔵に使われる法定の支払手段であり、米国では流通量の99%超が連邦準備券の形をとる。連邦準備理事会は連邦準備券の発行当局として、財務省彫刻印刷局への年次印刷発注、連邦準備銀行を通じた配布・回収・検証、偽造対策を担い、流通額面の半分から3分の2は国外に保有されると推定されている。",
+    "bodyMarkdown": "## 通貨と連邦準備券\n\n米国で流通する通貨の中核は連邦準備券であり、連邦準備理事会はその発行当局として、公衆の需要を満たす十分な現金が流通していることを保証する。紙幣に関する理事会の責任は広く、適切な供給の確保から、[連邦準備制度](/hubpedia/federal-reserve)が発行する通貨への信頼を保護し維持することまで及ぶ。 [1][2]\n\n流通する米国通貨の99%超は連邦準備券の形をとる。残りは合衆国紙幣、国立銀行券、銀貨証券であり、いずれも今日も法貨として有効である。こうした現金は、小切手や電子振替と並んで[決済システム](/hubpedia/payment-systems)を構成する支払手段のひとつに位置づけられる。 [3]\n\n## 流通量と需要\n\n流通する通貨の量は、公衆の通貨需要に依存する。国内の需要はおもに取引における通貨の使用に由来し、財・サービスの価格、所得水準、代替となる決済手段の利用可能性に左右される。価格水準の変化は[インフレ](/hubpedia/inflation)として測定され、現金需要を動かす主要な要因でもある。 [4][5]\n\n国外の需要は別の論理で動く。海外の需要はおもに政治的・経済的な不確実性に影響され、連邦準備は流通する米国通貨の額面の半分から3分の2が国外に保有されると推定している。外国の居住者の一部はドルを価値の貯蔵として保有し、他の居住者は交換手段として使用する。 [6][7]\n\n流通通貨は連邦準備券需要の直接的な指標であり、2025年5月から2026年5月の間に11億枚、736億ドル分増加した。前年同期の増加は8億枚、379億ドルであり、流通量は年々増え続けているものの、その増加率はパンデミック前の水準を下回っている。 [8]\n\n## 製造と印刷発注\n\n連邦準備理事会は毎年、公衆の需要を満たすのに必要な新規連邦準備券の量を決定し、財務省の彫刻印刷局（BEP）へ印刷発注を提出する。発注は流通への支払いと流通からの受け入れの予想成長率に対する評価を反映し、連邦準備はBEPに新券の印刷費を支払うほか、ワシントンD.C.とテキサス州フォートワースの施設から準備銀行現金オフィスへの輸送を手配しその費用を負担する。 [9]\n\n2027暦年の印刷発注は2026年7月13日に承認・提出され、48億枚から57億枚、額面で1,321億ドルから1,664億ドルの範囲である。発注量は国内外の顧客からの通貨純需要の推計を反映し、通貨在庫量の予測、不適格券の破棄率、純支払いの動向といった要因によって決定される。 [10][11]\n\nBEPは米国通貨を製造し、理事会へ生産費を請求する。2025年の通貨運営予算は10億4,000万ドルであり、紙、インク、人件費、直接間接費からなる変動印刷費（1・2ドル券は1枚あたり4.1セント、100ドル券は11.3セント）と、間接製造間接費、総務管理、研究開発、製版・彫刻を含む固定印刷費6億8,860万ドルが計上されている。 [12][13][14][15]\n\n## 流通・検証と偽造対策\n\n連邦準備銀行は、預金取扱機関を通じて連邦準備券の配布・受入・処理と硬貨の配布・受入を行う。28の連邦準備銀行現金オフィスが全米約8,400の銀行、貯蓄貸付組合、信用組合に現金サービスを提供し、残りの預金機関は連邦準備から直接ではなくコレスポンデント銀行経由で通貨と硬貨を得る。 [16][17]\n\n預金機関が紙幣を発注すると、準備銀行は出荷を準備して装甲輸送業者へ引き渡す。預金機関が紙幣を預け入れると、準備銀行は高度な処理機器による一枚ごとの検証が済むまで安全な金庫に保管し、検証では紙幣が計数され、偽造疑い券が識別され、再流通の品質基準を満たさない不適格券は破棄される。 [18][19]\n\n偽造疑い券はすべて米国シークレットサービスへ送られ、検査と最終判定を受ける。理事会は財務省、BEP、シークレットサービスと連携して券種ごとの偽造脅威を継続的に監視し、それらの脅威に基づいて券面刷新の決定を行う。 [20][21]\n\n## 硬貨\n\n硬貨の運営における連邦準備の役割は、紙幣よりも限定的である。硬貨の発行当局である米国造幣局が年間生産量を決定し、準備銀行は月次の硬貨発注と12か月のローリング発注予測を提供することでその過程に影響を与える。造幣局はフィラデルフィアとデンバーの生産施設から、すべての準備銀行とそのコインターミナルへ硬貨を輸送する。 [22][23]\n\n## 会計上の位置づけ\n\n連邦準備券は連邦準備の貸借対照表では負債として計上され、その対応資産は典型的に米国財務省証券、住宅ローン担保証券、その他の資産である。連邦準備は連邦準備券を担保する資産から利子収入を得て、費用を支払った残りを財務省へ納めており、1914年の業務開始以来、準備銀行の純収益の約95%が財務省に納付されてきた。発行済通貨を資産側の証券が裏付けるこの構造は、[中央銀行](/hubpedia/central-bank)が[金融政策](/hubpedia/monetary-policy)を遂行する上で保有する資産とも直接つながっている。 [24][25]\n\n準備銀行が保有する硬貨は貸借対照表上の資産であり、造幣局から額面価格で購入する。預金機関が所管の準備銀行から通貨や硬貨を発注し、あるいは預け入れると、その機関の口座残高がそれに応じて調整される。 [26][27]",
+    "sources": [
+      {
+        "url": "https://www.federalreserve.gov/paymentsystems/coin_about.htm",
+        "title": "Currency and Coin Services",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "Federal Reserve service page on currency and coin operations used for the Board's issuing authority, the drivers of domestic and foreign currency demand, distribution through 28 cash offices and depository institutions, note-by-note verification and counterfeit handling, U.S. Mint coin production, and the balance-sheet treatment of notes and coin. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.federalreserve.gov/paymentsystems/coin_currency_orders.htm",
+        "title": "Currency Print Orders",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "Federal Reserve currency print orders page used for the CY 2027 print order size and submission date, the demand-estimation factors behind the order, currency-in-circulation growth between May 2025 and May 2026, and the definition of unfit notes destroyed for failing recirculation quality criteria. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.federalreserve.gov/faqs/currency_12771.htm",
+        "title": "How much does it cost to produce currency and coin?",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "Federal Reserve FAQ used for the BEP production-charge arrangement, the 2025 currency operating budget total, per-denomination variable printing costs, the fixed-cost reimbursement component, and the Mint's role in annual coin production with Reserve Bank orders and face-value purchases. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.federalreserve.gov/aboutthefed/currency.htm",
+        "title": "Currency",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "Federal Reserve 'Currency' page used for the Board's range of responsibilities as issuing authority for all Federal Reserve notes and its continuous monitoring of counterfeiting threats per denomination with the Treasury, BEP, and Secret Service driving redesign decisions. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Currency",
+        "summary": "Currency is the legal-tender means of payment used to settle transactions and store value, and in the United States more than 99 percent of it circulates as Federal Reserve notes. The Board of Governors, as the issuing authority for Federal Reserve notes, submits an annual print order to the Bureau of Engraving and Printing, distributes and verifies notes through the Federal Reserve Banks, and guards against counterfeiting, while an estimated one-half to two-thirds of the value in circulation is held abroad.",
+        "bodyMarkdown": "## Currency and Federal Reserve notes\n\nThe core of the currency circulating in the United States is the Federal Reserve note, and the Board of Governors, as its issuing authority, ensures that enough cash is in circulation to meet the public's demand. The Board's responsibilities for paper money are wide-ranging, from ensuring an adequate supply to protecting and maintaining confidence in the currency issued by the [Federal Reserve](/hubpedia/federal-reserve). [1][2]\n\nMore than 99 percent of U.S. currency in circulation takes the form of Federal Reserve notes. The remainder consists of United States notes, national bank notes, and silver certificates, all of which remain legal tender today. Alongside checks and electronic transfers, this cash is one of the payment instruments that make up the [payment system](/hubpedia/payment-systems). [3]\n\n## Circulation and demand\n\nThe amount of currency in circulation depends on the public's demand for currency. Domestic demand largely results from the use of currency in transactions and is influenced primarily by prices for goods and services, income levels, and the availability of alternative payment methods. Changes in the price level are measured as [inflation](/hubpedia/inflation), which is also a principal driver of cash demand. [4][5]\n\nForeign demand follows a different logic. It is influenced primarily by political and economic uncertainties, and the Federal Reserve estimates that between one-half and two-thirds of the value of U.S. currency in circulation is held abroad. Some residents of foreign countries hold dollars as a store of value, while others use them as a medium of exchange. [6][7]\n\nCurrency in circulation is a direct measure of demand for Federal Reserve notes, and it increased by 1.1 billion notes, or $73.6 billion, between May 2025 and May 2026. Over the same period a year earlier it rose by 0.8 billion notes, or $37.9 billion: circulation keeps growing year over year, though the rate of increase has fallen below pre-pandemic levels. [8]\n\n## Production and the print order\n\nEach year the Federal Reserve Board determines the number of new Federal Reserve notes needed to meet the public's demand and submits a print order to the Treasury's Bureau of Engraving and Printing (BEP). The order reflects the Board's assessment of expected growth rates for payments of currency to, and receipts of currency from, circulation; the Federal Reserve pays the BEP the cost of printing new currency and arranges and pays for transporting it from the BEP facilities in Washington, D.C., and Fort Worth, Texas, to Reserve Bank cash offices. [9]\n\nThe calendar-year 2027 print order was approved and submitted to the BEP on July 13, 2026, and ranges from 4.8 billion to 5.7 billion notes, valued at $132.1 billion to $166.4 billion. The order reflects the Board's estimate of net demand for currency from domestic and international customers and is determined by factors including forecasted currency inventory volumes, destruction rates of unfit notes, and trends in net payments. [10][11]\n\nThe BEP produces U.S. currency and charges the Board for the cost of production. The 2025 currency operating budget is $1,040.0 million, comprising variable printing costs that cover paper, ink, labor, and direct overhead (4.1 cents per note for $1 and $2 notes, 11.3 cents per note for $100 notes) and $688.6 million in fixed printing costs covering indirect manufacturing overhead and support, general and administrative work, research and development, and prepress and engraving. [12][13][14][15]\n\n## Distribution, verification, and counterfeiting defenses\n\nThe Federal Reserve Banks distribute, receive, and process Federal Reserve notes and distribute and receive coin through depository institutions. Twenty-eight Reserve Bank cash offices provide cash services to approximately 8,400 banks, savings and loans, and credit unions across the United States, while the remaining depository institutions obtain currency and coin from correspondent banks rather than directly from the Federal Reserve. [16][17]\n\nWhen a depository institution orders currency, the Reserve Bank prepares the shipment and releases it to an armored carrier. When it deposits currency, the Reserve Bank stores it in secure vaults until it is verified note-by-note on sophisticated processing equipment: during verification the currency is counted, suspect counterfeit notes are identified, and unfit notes that fail the quality criteria for recirculation are destroyed. [18][19]\n\nAll suspect counterfeit notes are sent to the United States Secret Service for examination and final adjudication. Together with the Treasury Department, the BEP, and the Secret Service, the Board continuously monitors the counterfeiting threats for each denomination and makes redesign decisions based on those threats. [20][21]\n\n## Coin\n\nThe Federal Reserve's role in coin operations is more limited than its role with notes. The United States Mint, as the issuing authority for coins, determines annual coin production, and the Reserve Banks influence the process by providing the Mint with monthly coin orders and a 12-month rolling coin-order forecast. The Mint transports the coin from its production facilities in Philadelphia and Denver to all of the Reserve Banks and their coin terminal locations. [22][23]\n\n## Accounting treatment\n\nFederal Reserve notes are liabilities on the Federal Reserve's balance sheet, and the asset counterpart to these liabilities is typically U.S. Treasury securities, mortgage-backed securities, and other assets. The Federal Reserve receives interest earnings from the assets that collateralize Federal Reserve notes and, after paying its expenses, turns the rest of its earnings over to the Treasury; about 95 percent of the Reserve Banks' net earnings have been paid into the Treasury since the System began operations in 1914. This structure, in which outstanding currency is backed by securities on the asset side, connects directly to the assets a [central bank](/hubpedia/central-bank) holds in conducting [monetary policy](/hubpedia/monetary-policy). [24][25]\n\nCoin held by the Reserve Banks is an asset on the balance sheet, purchased from the Mint at face value. When a depository institution orders or deposits currency and coin with its servicing Reserve Bank, the institution's account balance is adjusted accordingly. [26][27]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "連邦準備理事会は連邦準備券の発行当局であり、公衆の需要を満たす十分な現金が流通していることを保証する。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/coin_about.htm",
+              "quote": "The Federal Reserve Board is the issuing authority for Federal Reserve notes and ensures that there is enough cash in circulation to meet the public's demand."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "発行当局として理事会は、紙幣の適切な供給の確保から通貨への信頼の保護・維持まで幅広い責任を負う。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/currency.htm",
+              "quote": "As the issuing authority for all Federal Reserve notes, the Board of Governors of the Federal Reserve System has a wide range of responsibilities related to paper money, from ensuring an adequate supply to protecting and maintaining confidence in our currency."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "流通する米国通貨の99%超は連邦準備券であり、残りは合衆国紙幣、国立銀行券、銀貨証券で、いずれも法貨として有効である。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/coin_about.htm",
+              "quote": "More than 99 percent of all U.S. currency in circulation is in the form of Federal Reserve notes; the remainder includes United States notes, national bank notes, and silver certificates, all of which remain legal tender."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "流通する通貨の量は公衆の通貨需要に依存する。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/coin_about.htm",
+              "quote": "The amount of currency in circulation depends on the public's demand for currency."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "国内の通貨需要はおもに取引での使用に由来し、財・サービスの価格、所得水準、代替決済手段の利用可能性に影響される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/coin_about.htm",
+              "quote": "Domestic demand largely results from the use of currency in transactions and is influenced primarily by prices for goods and services, income levels, and the availability of alternative payment methods."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "海外の通貨需要はおもに政治的・経済的な不確実性に影響され、連邦準備は流通する米国通貨の額面の半分から3分の2が国外に保有されると推定する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/coin_about.htm",
+              "quote": "Foreign demand is influenced primarily by political and economic uncertainties."
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/coin_about.htm",
+              "quote": "The Federal Reserve estimates that between one-half and two-thirds of the value of U.S. currency in circulation is held abroad."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "外国の居住者の一部はドルを価値の貯蔵として保有し、他の居住者は交換手段として使用する。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/coin_about.htm",
+              "quote": "Some residents of foreign countries hold dollars as a store of value, while others use it as a medium of exchange."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "流通通貨は連邦準備券需要の直接的な指標であり、2025年5月から2026年5月の間に11億枚、736億ドル分増加し、前年同期の増加は8億枚、379億ドルだった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/coin_currency_orders.htm",
+              "quote": "Currency in circulation, a direct measure of demand for Federal Reserve notes, increased by 1.1 billion notes, or $73.6 billion dollars, between May 2025 and May 2026."
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/coin_currency_orders.htm",
+              "quote": "In contrast, over the same period the previous year, currency in circulation increased by 0.8 billion notes, or $37.9 billion dollars."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "連邦準備理事会は毎年、公衆の需要を満たすのに必要な新規連邦準備券の量を決定してBEPへ印刷発注を提出し、印刷費とワシントンD.C.・フォートワースの施設から準備銀行現金オフィスへの輸送費を負担する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/coin_about.htm",
+              "quote": "Each year, the Federal Reserve Board determines the number of new Federal Reserve notes that are needed to meet the public's demand and submits a print order to the Treasury's Bureau of Engraving and Printing (BEP)."
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/coin_about.htm",
+              "quote": "The Federal Reserve pays the BEP the cost of printing new currency and arranges and pays the cost of transporting the currency from the BEP facilities in Washington, D.C., and Fort Worth, Texas, to Reserve Bank cash offices."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "2027暦年の印刷発注は2026年7月13日にBEPへ提出され、48億枚から57億枚、額面で1,321億ドルから1,664億ドルの範囲である。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/coin_currency_orders.htm",
+              "quote": "approved and submitted its calendar year (CY) 2027 print order to the U.S. Department of the Treasury's Bureau of Engraving and Printing (BEP) on July 13, 2026."
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/coin_currency_orders.htm",
+              "quote": "The CY 2027 print order ranges from 4.8 billion to 5.7 billion notes, valued at $132.1 billion to $166.4 billion."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "印刷発注は国内外の顧客からの通貨純需要の推計を反映し、通貨在庫量の予測、不適格券の破棄率、純支払いの動向などの要因で決定される。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/coin_currency_orders.htm",
+              "quote": "The print order reflects the Board's estimate of net demand for currency from domestic and international customers for CY 2027."
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/coin_currency_orders.htm",
+              "quote": "It was determined by several factors, including forecasted currency inventory volumes, destruction rates of unfit notes, and trends in net payments."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "理事会は年ごとに新券需要を見込んでBEPへ発注し、BEPは米国通貨を製造して理事会へ生産費を請求する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/faqs/currency_12771.htm",
+              "quote": "Each year, the Federal Reserve Board projects the likely demand for new currency and places an order with the Department of the Treasury's Bureau of Engraving and Printing, which produces U.S. currency and charges the Board for the cost of production."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "2025年の通貨運営予算は10億4,000万ドルで、変動印刷費は紙、インク、人件費、直接間接費からなる。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/faqs/currency_12771.htm",
+              "quote": "The 2025 currency operating budget is $1,040.0 million."
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/faqs/currency_12771.htm",
+              "quote": "The variable costs represent the paper, ink, labor, and direct overhead costs to print each note."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "変動印刷費は券種ごとに異なり、1・2ドル券は1枚あたり4.1セント、100ドル券は11.3セントである。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/faqs/currency_12771.htm",
+              "quote": "4.1 cents per note"
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/faqs/currency_12771.htm",
+              "quote": "11.3 cents per note"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "通貨予算には固定印刷費6億8,860万ドルが含まれ、間接製造間接費・支援、総務管理、研究開発、製版・彫刻をカバーする。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/faqs/currency_12771.htm",
+              "quote": "The currency budget also includes $688.6 million to reimburse for fixed printing costs, which includes indirect manufacturing overhead and support, general and administrative, research and development, and prepress and engraving."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "連邦準備銀行は、預金取扱機関を通じて連邦準備券の配布・受入・処理と硬貨の配布・受入を行う。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/coin_about.htm",
+              "quote": "The Federal Reserve Banks distribute, receive, and process Federal Reserve notes and distribute and receive coin through depository institutions."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "28の連邦準備銀行現金オフィスが全米約8,400の銀行・貯蓄貸付組合・信用組合に現金サービスを提供し、残りの預金機関はコレスポンデント銀行経由で通貨と硬貨を得る。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/coin_about.htm",
+              "quote": "The 28 Federal Reserve Bank cash offices provide cash services to approximately 8,400 banks, savings and loans, and credit unions in the United States."
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/coin_about.htm",
+              "quote": "The remaining depository institutions obtain currency and coin from correspondent banks rather than directly from the Federal Reserve."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "預金機関が紙幣を発注すると準備銀行は装甲輸送業者へ出荷を引き渡し、預け入れ時は一枚ごとの検証が済むまで安全な金庫に保管する。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/coin_about.htm",
+              "quote": "When a depository institution orders currency from a Reserve Bank, the Reserve Bank prepares and releases the shipment to an armored carrier."
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/coin_about.htm",
+              "quote": "the Reserve Bank stores the currency in secure vaults until it is verified, note-by-note, on sophisticated processing equipment."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "一枚ごとの検証で紙幣は計数され、偽造疑い券が識別され、不適格券は破棄される。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/coin_about.htm",
+              "quote": "During the piece-verification process, currency is counted, suspect counterfeit notes are identified, and unfit notes are destroyed."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "準備銀行は偽造疑い券をすべて米国シークレットサービスへ送り、検査と最終判定を受けさせる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/coin_about.htm",
+              "quote": "The Reserve Banks send all suspect counterfeit notes to the United States Secret Service for examination and final adjudication."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "理事会は財務省、BEP、シークレットサービスとともに券種ごとの偽造脅威を継続的に監視し、それらの脅威に基づいて券面刷新を決定する。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/aboutthefed/currency.htm",
+              "quote": "we continuously monitor the counterfeiting threats for each denomination and make redesign decisions based on these threats."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "硬貨運営における連邦準備の役割は紙幣より限定的であり、硬貨の発行当局である米国造幣局が年間生産量を決定する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/coin_about.htm",
+              "quote": "The Federal Reserve's role in coin operations is more limited than its role in currency operations."
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/coin_about.htm",
+              "quote": "As the issuing authority for coins, the United States Mint determines annual coin production."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "準備銀行は月次の硬貨発注と12か月のローリング発注予測で造幣局の生産過程に影響を与え、造幣局はフィラデルフィアとデンバーの生産施設から全準備銀行とコインターミナルへ硬貨を輸送する。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/coin_about.htm",
+              "quote": "The Reserve Banks, however, influence the process by providing the Mint with monthly coin orders and a 12-month rolling coin-order forecast."
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/coin_about.htm",
+              "quote": "The Mint transports the coin from its production facilities in Philadelphia and Denver to all of the Reserve Banks and the Reserve Banks' coin terminal locations."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "連邦準備券は連邦準備の貸借対照表上の負債であり、その対応資産は典型的に米国財務省証券、住宅ローン担保証券、その他の資産である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/coin_about.htm",
+              "quote": "Federal Reserve notes are liabilities on the Federal Reserve's balance sheet."
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/coin_about.htm",
+              "quote": "The asset counterpart to these liabilities is typically U.S. Treasury securities, mortgage-backed securities, and other assets."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "連邦準備は連邦準備券を担保する資産から利子収入を得て費用支払後の残りを財務省へ納め、1914年の業務開始以来、準備銀行の純収益の約95%が財務省に納付されてきた。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/coin_about.htm",
+              "quote": "The Federal Reserve receives interest earnings from the assets that collateralize Federal Reserve notes."
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/coin_about.htm",
+              "quote": "About 95 percent of the Reserve Banks' net earnings have been paid into the Treasury since the Federal Reserve System began operations in 1914."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "準備銀行が保有する硬貨は貸借対照表上の資産であり、造幣局から額面価格で購入する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/coin_about.htm",
+              "quote": "Coin held by the Reserve Banks is an asset on its balance sheet and the Reserve Banks buy coin from the Mint at face value."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "預金機関が所管の準備銀行から通貨を発注し、あるいは預け入れると、その機関の口座残高がそれに応じて調整される。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/paymentsystems/coin_about.htm",
+              "quote": "When a depository institution orders and deposits currency from its servicing Reserve Bank, the institution's account balance is adjusted accordingly."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

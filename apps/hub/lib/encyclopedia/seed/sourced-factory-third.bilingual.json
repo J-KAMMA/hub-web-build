@@ -1,0 +1,223 @@
+[
+  {
+    "slug": "comet",
+    "topicType": "astronomical-object",
+    "categoryLabel": "物理・化学・宇宙",
+    "title": "彗星",
+    "summary": "彗星は太陽を周回する氷・岩石・塵の塊で、太陽に近づくと加熱されて塵とガスを放ち、惑星より大きなコマと数百万マイルに及ぶ尾を作る。本体は凍結した状態では小さな町ほどの大きさにすぎず、見かけの巨大さは放出物によるものである。太陽系にはカイパーベルトとオールトの雲に数十億個が存在すると考えられ、2025年7月に発見された3I/ATLASのように太陽系外から来る恒星間彗星も確認されている。",
+    "bodyMarkdown": "## 天体としての彗星\n\n空に長く伸びた尾を引く彗星は巨大な天体に見えるが、光っているものの大半は本体ではない。彗星は[太陽を周回する](/hubpedia/sun)氷の塊であり、凍結したガス、岩石、塵からできている。凍結したままの状態では、その大きさは小さな町ほどでしかない。 [1][2]\n\n見かけの大きさを作るのは、太陽に近づいたときの変化である。軌道が太陽に接近すると彗星は熱せられ、塵とガスを放出する。この放出物が本体を包んで輝く頭部（コマ）となり、その大きさはほとんどの惑星を上回る。さらに塵とガスは太陽から数百万マイルにわたって伸びる尾を形成する。つまり、望遠鏡や肉眼で捉えられている広がりは、町ほどの核が失っていく物質そのものである。 [3][4]\n\n## 分布と数\n\n[太陽系](/hubpedia/solar-system)には数千個の小惑星と彗星が存在する。ただしこれは観測されている範囲での数であり、太陽を周回する彗星の総数はそれよりはるかに多いと考えられている。カイパーベルトと、そのさらに外側に広がるオールトの雲には、おそらく数十億個の彗星があると推定されている。 [6][15]\n\n数十億という値は推定であって、個々に確認された数ではない。遠方の小天体は暗く、直接の検出が困難なためである。地球に脅威となりうる小惑星と彗星を探索する計画としては、NEOサーベイヤーがある。 [6][11]\n\n## 恒星間天体と3I/ATLAS\n\n太陽系の外から飛来し、そのまま通り過ぎていく天体は恒星間天体と呼ばれる。最初に知られた恒星間天体オウムアムアは2017年に発見され、2例目の2I/Borisovは2019年に発見された。3例目として確認されたのが恒星間彗星3I/ATLASであり、2025年7月1日に発見された。 [8][9][10][12]\n\n3I/ATLASは地球に脅威を及ぼさない。最も近づいたときでも、[火星](/hubpedia/mars)の軌道程度の距離までしか接近しない。最接近は12月19日前後で、そのときの地球からの距離は約1億7000万マイル、地球から太陽までの距離のほぼ2倍にあたる。 [5][13]\n\n観測できる期間は連続していない。3I/ATLASは2025年9月まで地上望遠鏡から観測可能で、その後は太陽の裏側を通過するため見えなくなり、2025年12月初旬に太陽の反対側へ再び現れる見込みとされた。その先、2026年春には[木星](/hubpedia/jupiter)の軌道を通過すると見込まれている。 [7][14]\n\n## 関連記事\n\n- [恒星](/hubpedia/star)",
+    "sources": [
+      {
+        "url": "https://science.nasa.gov/solar-system/comets/",
+        "title": "Comets",
+        "publisher": "NASA",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+          },
+          "notes": "Nature and behavior of comets. Text only — no logos, images, or personnel likenesses are taken, which is what the agency policies restrict. Extraction confirmed through the pipeline's fetcher on 2026-08-28."
+        }
+      },
+      {
+        "url": "https://science.nasa.gov/solar-system/",
+        "title": "Solar System",
+        "publisher": "NASA",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+          },
+          "notes": "Comets within the solar system. Text only — no logos, images, or personnel likenesses are taken, which is what the agency policies restrict. Extraction confirmed through the pipeline's fetcher on 2026-08-28."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Comet",
+        "summary": "A comet is a mass of ice, rock, and dust orbiting the Sun that heats up as it approaches, releasing dust and gas to form a coma larger than a planet and a tail extending millions of miles. Frozen, the body itself is no bigger than a small town, and its apparent immensity comes from the material it sheds. The solar system is thought to hold billions of them in the Kuiper Belt and the Oort Cloud, and interstellar comets from beyond the solar system have also been confirmed, such as 3I/ATLAS, discovered in July 2025.",
+        "bodyMarkdown": "## The comet as a celestial body\n\nA comet trailing a long tail across the sky looks like an enormous object, but most of what shines is not the body itself. A comet is a mass of ice [orbiting the Sun](/hubpedia/sun), made of frozen gas, rock, and dust. While it remains frozen, it is no larger than a small town. [1][2]\n\nWhat creates its apparent size is the change it undergoes on approaching the Sun. As its orbit brings it close, the comet is heated and releases dust and gas. This released material envelops the body as a glowing head, the coma, which grows larger than most planets. The dust and gas further form a tail that stretches millions of miles away from the Sun. So the expanse captured by telescopes or the naked eye is the very material that the town-sized nucleus is losing. [3][4]\n\n## Distribution and numbers\n\nThe [solar system](/hubpedia/solar-system) contains thousands of asteroids and comets. This, however, is the count within the observed range; the total number of comets orbiting the Sun is thought to be far greater. The Kuiper Belt, and the Oort Cloud spreading still farther beyond it, are estimated to hold perhaps billions of comets. [6][15]\n\nThe figure of billions is an estimate, not a tally of individually confirmed objects. Distant small bodies are faint and difficult to detect directly. Among the programs searching for asteroids and comets that could pose a threat to Earth is NEO Surveyor. [6][11]\n\n## Interstellar objects and 3I/ATLAS\n\nObjects that arrive from outside the solar system and pass straight through are called interstellar objects. The first known interstellar object, ʻOumuamua, was discovered in 2017, and the second, 2I/Borisov, in 2019. The third to be confirmed was the interstellar comet 3I/ATLAS, discovered on July 1, 2025. [8][9][10][12]\n\n3I/ATLAS poses no threat to Earth. Even at its closest, it comes no nearer than roughly the orbit of [Mars](/hubpedia/mars). Closest approach falls around December 19, at a distance from Earth of about 170 million miles, nearly twice the distance from Earth to the Sun. [5][13]\n\nThe window for observing it is not continuous. 3I/ATLAS was observable from ground-based telescopes until September 2025, after which it passed behind the Sun and became invisible, and it was expected to reappear on the far side of the Sun in early December 2025. Beyond that, it is expected to pass the orbit of [Jupiter](/hubpedia/jupiter) in the spring of 2026. [7][14]\n\n## Related articles\n\n- [Star](/hubpedia/star)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-27T22:35:42.177Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "彗星は太陽を周回する、凍結したガス・岩石・塵からなる氷の塊である。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/solar-system/comets/",
+              "quote": "Comets are cosmic snowballs of frozen gases, rock, and dust that orbit the Sun."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "彗星は凍結している状態では小さな町ほどの大きさである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/solar-system/comets/",
+              "quote": "When frozen, they are the size of a small town."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "彗星の軌道が太陽に近づくと熱せられ、塵とガスを放出してほとんどの惑星より大きな輝く頭部（コマ）を形成する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/solar-system/comets/",
+              "quote": "When a comet's orbit brings it close to the Sun, it heats up and spews dust and gases into a giant glowing head larger than most planets."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "彗星から放出された塵とガスは太陽から数百万マイルにわたって伸びる尾を形成する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/solar-system/comets/",
+              "quote": "The dust and gases form a tail that stretches away from the Sun for millions of miles."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "彗星3I/ATLASは地球に脅威を及ぼさず、最も近づいても火星の軌道程度の距離までしか接近しない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/solar-system/comets/",
+              "quote": "Comet 3I/ATLAS poses no threat to Earth and will remain far away, coming only about as close as the orbit of Mars."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "太陽を周回する彗星はカイパーベルトとさらに遠いオールトの雲におそらく数十億個存在すると考えられている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/solar-system/comets/",
+              "quote": "There are likely billions of comets orbiting our Sun in the Kuiper Belt and even more distant Oort Cloud."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "彗星3I/ATLASは2025年9月まで地上望遠鏡から観測可能で、その後太陽の裏側を通過し、2025年12月初旬に太陽の反対側に再び現れる見込みである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/solar-system/comets/",
+              "quote": "It should remain visible to ground-based telescopes through September 2025, pass behind the Sun, then reappear on the other side of the Sun by early December 2025."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "3I/ATLASは、これまでに確認された恒星間天体としては3例目である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/solar-system/comets/",
+              "quote": "Interstellar Object Enters Solar System; Only Third Ever Confirmed"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "最初に知られた恒星間天体オウムアムアは2017年に発見された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/solar-system/comets/",
+              "quote": "The first known interstellar object — ‘Oumuamua — was discovered in 2017; the second was 2I/Borisov, which was discovered in 2019."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "2例目の恒星間天体2I/Borisovは2019年に発見された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/solar-system/comets/",
+              "quote": "the second was 2I/Borisov, which was discovered in 2019"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "NEOサーベイヤーは地球に脅威となりうる小惑星と彗星を探索する計画である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/solar-system/",
+              "quote": "NEO Surveyor will hunt asteroids and comets that are potential hazards to Earth."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "恒星間彗星3I/ATLASは2025年7月1日に発見された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/solar-system/",
+              "quote": "Since the interstellar comet was discovered July 1, a dozen NASA assets have captured and processed imagery of the icy interloper"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "彗星3I/ATLASは最接近時（12月19日前後）で地球から約1億7000万マイル、地球から太陽までの距離のほぼ2倍の距離になる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/solar-system/",
+              "quote": "at its closest — on or around Friday, Dec. 19 — comet 3I/ATLAS will be about 170 million miles away, or nearly twice the distance from Earth to the Sun"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "彗星3I/ATLASは2026年春に木星の軌道を通過する見込みである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/solar-system/",
+              "quote": "NASA spacecraft will continue to observe the comet as it makes its journey through the solar system, passing the orbit of Jupiter in spring 2026."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "太陽系には数千個の小惑星と彗星が存在する。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/solar-system/",
+              "quote": "Our solar system includes the Sun, eight planets, five officially named dwarf planets, hundreds of moons, and thousands of asteroids and comets."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

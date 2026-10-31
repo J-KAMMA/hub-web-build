@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    .surface { fill: #fff; }
+    .letter { fill: #171719; }
+  </style>
+  <rect class="surface" x="1" y="1" width="62" height="62" rx="14"/>
+  <path class="letter" d="M15 15h13v4h-3v10h14V19h-3v-4h13v4h-3v26h3v4H36v-4h3V34H25v11h3v4H15v-4h3V19h-3z"/>
+</svg>

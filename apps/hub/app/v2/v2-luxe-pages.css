@@ -1,0 +1,134 @@
+/*
+ * luxe の見た目を、タイムライン以外の本文の列へ広げる層（2026-10-31）。
+ * 記事・Hubpedia・研究・動画・音楽・ゲーム・掲示板。骨組みは変えず、v2-luxe.css と同じ
+ * --luxe-* だけを使う。面（角丸20・1px の罫線）は本文の列の中だけ。左のナビ・目録・右列は
+ * v2-luxe.css のとおり地の上に罫線。金は「いまの場所・主要な1つの操作・選んだ状態・タブの下線」だけ。
+ * v2-luxe.css の根より特異度を1つ多くして、読み込み順に頼らない。
+ */
+
+html body .v2[data-skin="luxe"][data-skin][data-skin][data-skin][data-skin][data-skin] {
+
+  /* ------------------------------------------------ 見出しと切り替えタブ（1枚の面） */
+  @media (min-width: 760px) {
+    & .v2__frame[data-layout="workspace"] > #hub-main.v2__main > :is(.v2-top-title, .v2-tabs, .v2-l5-tabs, .v2-mc-chips, .v2-articles-searchrow, .v2-hubpedia-toolbar, .v2-hubpedia-tabrow, .v2-note, .v2-alist, .v2-state) {
+      max-width: var(--v2-width-full);
+    }
+    /* 見出しだけのとき: 角丸20の1枚。直後にタブが続くときは上半分。 */
+    & .v2__frame:not([data-measure="narrow"]) > #hub-main.v2__main > .v2-top-title:not(:has(+ .v2-tabs, + .v2-l5-tabs)) {
+      margin-bottom: var(--lx-gap);
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--luxe-line);
+      border-radius: var(--lx-radius);
+    }
+    & #hub-main.v2__main > :is(.v2-tabs, .v2-l5-tabs) {
+      box-sizing: border-box;
+      width: 100%;
+      margin: 0 auto var(--lx-gap);
+      padding: 0 var(--lx-pad);
+      border: 1px solid var(--luxe-line);
+      border-top: 0;
+      border-radius: 0 0 var(--lx-radius) var(--lx-radius);
+      background: var(--luxe-panel);
+    }
+  }
+  & .v2__main :is(.v2-tabs, .v2-l5-tabs) { gap: 24px; justify-content: flex-start; }
+  & .v2__main :is(.v2-tabs, .v2-l5-tabs) > a {
+    min-height: 48px;
+    padding: 0;
+    border-radius: 0;
+    background: transparent;
+    color: var(--luxe-text-2);
+    font-size: var(--type-callout-size);
+    font-weight: 500;
+    box-shadow: none;
+    transition: color var(--lx-fast) var(--lx-ease), box-shadow var(--lx-fast) var(--lx-ease);
+  }
+  & .v2__main :is(.v2-tabs, .v2-l5-tabs) > a:hover { background: transparent; color: var(--luxe-text); box-shadow: inset 0 -2px 0 var(--luxe-line-strong); }
+  & .v2__main :is(.v2-tabs, .v2-l5-tabs) > a[aria-current="page"],
+  & .v2__main :is(.v2-tabs, .v2-l5-tabs) > a[aria-current="page"]:hover { color: var(--luxe-text); font-weight: 600; box-shadow: inset 0 -2px 0 var(--luxe-gold); }
+
+  /* 見出しの右の主要操作（書く・投稿・作る）だけが金。それ以外の操作は罫線の札。 */
+  & .v2-top-title__action :is(.v2-button--primary, .ui-button--primary) { background: var(--luxe-btn); color: var(--luxe-btn-text); box-shadow: var(--luxe-btn-edge); border: 1px solid var(--luxe-btn-line); font-weight: 600; }
+  & .v2-top-title__action .v2-button:not(.v2-button--primary) { border: 1px solid var(--luxe-line-strong); background: transparent; color: var(--luxe-text-2); }
+
+  /* ------------------------------------------------ 絞り込み・検索 */
+  & .v2-articles-search input[type="search"],
+  & .v2-hubpedia-search input[type="search"] {
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--lx-radius);
+    background: var(--luxe-panel);
+    color: var(--luxe-text);
+  }
+  & .v2-articles-search input[type="search"]:focus,
+  & .v2-hubpedia-search input[type="search"]:focus { border-color: var(--luxe-line-strong); outline: none; }
+  & .v2-search__submit { border: 1px solid var(--luxe-line-strong); background: transparent; color: var(--luxe-text-2); }
+  & .v2-filter-disclosure > summary { border-color: var(--luxe-line-strong); background: transparent; color: var(--luxe-text-2); }
+  & .v2-note { color: var(--luxe-text-3); }
+
+  /* ------------------------------------------------ 本文の列の札（記事・動画・音楽・ゲーム・掲示板） */
+  & .v2-alist .v2-agrid > li,
+  & .v2-gstore__card,
+  & .v2-glib__row,
+  & .v2-reader__author-card {
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--lx-radius);
+    background: var(--luxe-panel);
+    box-shadow: none;
+    transition: border-color var(--lx-fast) var(--lx-ease);
+  }
+  & .v2-alist .v2-agrid > li { gap: 8px; padding: 12px; }
+  & .v2-alist .v2-agrid > li:hover,
+  & .v2-gstore__card:hover { border-color: var(--luxe-line-strong); }
+  /* 表紙の無い札は面の中にもう1枚の面を作らず、題を置くだけ。 */
+  & .v2-alist .v2-acard__art--text,
+  & .v2-alist .v2-acard:hover .v2-acard__art--text { background: transparent; padding: 4px 4px 0; }
+  & .v2-alist .v2-acard__art { border-radius: 14px; }
+  & .v2-alist .v2-acard__title { color: var(--luxe-text); font-weight: 600; line-height: 1.5; }
+  & .v2-alist .v2-acard__summary { color: var(--luxe-text-2); line-height: 1.7; }
+  & .v2-alist .v2-acard__meta { color: var(--luxe-text-3); }
+  & .v2-alist .v2-acard__badge { background: var(--luxe-hover); color: var(--luxe-text-2); }
+
+  /* 動画・音楽・掲示板の札は絵そのものが面。角を20に寄せ、下の字は地の上に置く。 */
+  & .v2-vcard__thumb, & .v2-vcard__art, & .v2-mcard__art, & .v2-boards__cover, & .v2-imgs__tile { border-radius: 16px; }
+  & .v2-boards__cover { border-color: var(--luxe-line); background: var(--luxe-panel); }
+  & .v2-vcard__title, & .v2-mcard__title { color: var(--luxe-text); font-weight: 600; }
+  & .v2-vcard__meta, & .v2-vcard__channel, & .v2-mcard__artist, & .v2-mcard__meta { color: var(--luxe-text-3); }
+  & .v2-mcard--playing .v2-mcard__art { outline-color: var(--luxe-gold); }
+
+  /* ------------------------------------------------ 読む画面（記事・Hubpedia）: 本文 16px / 1.7 */
+  & .v2-reader__body, & .v2-reader__body p, & .v2-reader__body li { font-size: var(--type-post-size); line-height: var(--type-post-leading); color: var(--luxe-text); }
+  & .v2-reader__author-card { padding: 16px var(--lx-pad); }
+  & .v2-reader__author-card-bio { color: var(--luxe-text-2); }
+
+  /* Wikipedia 由来の記事の出典と帰属（CC BY-SA）。本文の下の小さな面。 */
+  & .hubpedia-wikipedia-attribution {
+    display: grid;
+    gap: 4px;
+    margin-block: 24px 0;
+    padding: 16px var(--lx-pad);
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--lx-radius);
+    background: var(--luxe-panel);
+    color: var(--luxe-text-2);
+    font-size: var(--type-subhead-size);
+    line-height: 1.7;
+  }
+  & .hubpedia-wikipedia-attribution p { margin: 0; }
+  & .hubpedia-wikipedia-attribution a { color: var(--luxe-text); text-decoration: underline; text-underline-offset: 3px; }
+  & .hubpedia-wikipedia-attribution__status { color: var(--luxe-text-3); }
+
+  /* ------------------------------------------------ 携帯 */
+  @media (max-width: 759px) {
+    & #hub-main.v2__main > :is(.v2-tabs, .v2-l5-tabs) {
+      box-sizing: border-box;
+      width: 100%;
+      margin: 4px 0 var(--lx-gap);
+      padding: 0 4px;
+      border: 0;
+      border-bottom: 1px solid var(--luxe-line);
+      border-radius: 0;
+      background: transparent;
+    }
+    & .v2-alist .v2-agrid > li { padding: 12px; }
+  }
+}

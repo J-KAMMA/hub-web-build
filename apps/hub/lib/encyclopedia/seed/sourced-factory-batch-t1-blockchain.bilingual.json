@@ -1,0 +1,603 @@
+[
+  {
+    "slug": "blockchain-block",
+    "topicType": "concept",
+    "categoryLabel": "インターネット・セキュリティ",
+    "title": "ブロック",
+    "summary": "ブロックは、ブロックチェーンにおいて取引などのデータをひとまとまりにし、暗号学的な手続きによって前後のブロックへ連結する基本単位である。個々のブロックはメタデータを持つヘッダーと実際のデータ本体からなり、直前のブロックへのハッシュによるリンクが記録内容の改ざんを検知可能にする。どの利用者がブロックを公開できるかは、ネットワークが採用する許可モデルや合意形成の方式によって異なる。",
+    "bodyMarkdown": "## ブロックの構成要素\n\n[ブロックチェーン](/hubpedia/blockchain)はブロックから構成される分散台帳であり、各ブロックはブロックヘッダーとブロックデータという二つの部分からなる。ブロックヘッダーにはそのブロックに関するメタデータが含まれ、ブロックデータには一連の取引など関連する情報が含まれる。 [2][3][7][8]\n\nブロックヘッダーには、タイムスタンプや直前のブロックヘッダーのハッシュ値といったメタデータのほか、ブロックデータのハッシュ表現も格納される。このハッシュ表現は、ブロックデータからマークル木を生成し、そのルートハッシュを保存する方法で作成できる。 [15][31][32][33]\n\nブロックデータには、ネットワークに提出され検証された[取引](/hubpedia/blockchain-transaction)のリストや、そのブロックに含まれる台帳イベントの一覧が含まれる。1つのブロックに含められる取引は0件以上であり、各取引には1人以上の利用者と発生した内容の記録が含まれ、取引を送信した利用者によって[デジタル署名](/hubpedia/digital-signature)される。 [1][10][11][28][36]\n\n## ブロックの連結と改ざん耐性\n\n最初のブロックを除き、すべてのブロックヘッダーは直前のブロックヘッダーへの暗号学的リンクを含む。現在のブロックヘッダーが持つ[ハッシュ値](/hubpedia/hash-value)は次のブロックのヘッダーに格納され、これによって現在のブロックヘッダーとその配下のブロックデータの両方が保護される。ブロックはこうして直前のブロックヘッダーのハッシュ値を含むことで連結され、全体として連鎖状の台帳を形成する。 [4][14][16][31][37]\n\n各ブロックは検証と合意形成の手続きを経て直前のブロックへ暗号学的にリンクされ、改ざんがあれば検知できる状態になる。以前に公開されたブロックの内容が変更されるとそのハッシュ値が変化し、それ以降のすべてのブロックが保持する直前ブロックのハッシュとの整合が崩れるため、改ざんされたブロックは連鎖的に異なるハッシュを持つことになり、容易に検出・拒否される。新しいブロックが積み重なるほど古いブロックの改変は難しくなり、この性質が耐改ざん性を生む。 [22][23][24][38]\n\n新しいブロックを構築するには直前のブロックへの参照が必要であり、公開されたブロックがこの参照を欠いていた場合、他のノードはそのブロックを拒否する。 [26][27]\n\n## 取引の記録と検証\n\n取引は、公開ノードが新しいブロックを公開した時点でブロックチェーンに追加される。他のフルノードは公開されたブロックに含まれる全取引の有効性と真正性を確認し、無効な取引を含むブロックは受け入れない。 [29][34]\n\n一部のブロックチェーン実装では、含まれる取引がない場合でも新しいブロックを継続的に供給し続けることが、ネットワークのセキュリティを維持するうえで重要とされる。 [12]\n\nブロックの通し番号は、一部のネットワークではブロック高さとも呼ばれる。 [30]\n\n## ブロックの公開とネットワークの許可モデル\n\nブロックチェーンネットワークは、誰がブロックを公開できるかという許可モデルに基づいて分類される。ブロックの公開を担うのは、ブロックチェーン全体を保持するフル[ノード](/hubpedia/blockchain-node)のうち、パブリッシングノードと呼ばれるノードである。 [17][18]\n\n誰でも新しいブロックを公開できるネットワークはパーミッションレス型に分類され、特定の利用者のみが公開できるネットワークはパーミッションド型に分類される。パーミッションド型では、ブロックを公開する利用者は中央集権的か分散的かを問わず、何らかの権威によって認可されていなければならない。 [5][6][20]\n\nパーミッションレス型ネットワークで用いられる合意モデルの例には、プルーフ・オブ・ワークとプルーフ・オブ・ステークがある。プルーフ・オブ・ワークを採用するネットワークでは、パブリッシュノードはパズル要件を満たすまで異なるノンス値でブロックヘッダーをハッシュ化し続ける必要がある。ノンス値はこのハッシュパズルを解くために発行ノードが操作する数値であり、パブリッシュノードはこうしてブロックヘッダーをハッシュ化することでその内容を保護する。 [9][13][19][35]\n\n## ブロックチェーンの用途とトークン\n\nブロックチェーンは、暗号学的に署名された取引をブロックにまとめて記録する分散型のデジタル台帳である。ビットコインでは、新しいブロックを公開して台帳の複製を維持する利用者はマイナーと呼ばれる。 [21][25]\n\nブロックチェーン技術は、部分的あるいは無信頼の環境においてデジタル所有権を管理する新しいソフトウェアパラダイムを可能にした。ブロックチェーンはトークンを用いて取引を行い、検証可能なデータを交換することで組織間やウェブ上での協調を実現するとともに、統合され完全性が保護された分散台帳において安全な取引の突合・連結・保存を提供する。 [39][40][41]\n\nブロックチェーンの実行環境は、所有権が暗号学的に検証可能なプログラマブルなデジタル資産、すなわちトークンの発行を可能にする。トークンには、ブロックチェーンプロトコルにネイティブなものと、既存のプロトコル上に[スマートコントラクト](/hubpedia/smart-contract)層のユーザー生成ロジックによって展開されるものがある。 [42][43]",
+    "sources": [
+      {
+        "url": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+        "title": "Blockchain Technology Overview (NISTIR 8202) — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The standards body account of blockchain and its parts. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+        "title": "Blockchain Networks: Token Design and Management Overview (NISTIR 8301) — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "Tokens, wallets and how value is held and moved on a ledger. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Block",
+        "summary": "A block is the basic unit in a blockchain that groups data such as transactions together and cryptographically links it to the preceding and following blocks. Each block consists of a header containing metadata and a body containing the actual data, and the hash link to the immediately preceding block makes it possible to detect tampering with the recorded content. Which users are permitted to publish a block depends on the permission model and consensus mechanism adopted by the network.",
+        "bodyMarkdown": "## Components of a Block\n\nA [blockchain](/hubpedia/blockchain) is a distributed ledger composed of blocks, and each block consists of two parts: a block header and block data. The block header contains metadata about the block, while the block data contains related information such as a set of transactions. [2][3][7][8]\n\nIn addition to metadata such as a timestamp and the hash value of the immediately preceding block header, the block header also stores a hash representation of the block data. This hash representation can be created by generating a Merkle tree from the block data and storing its root hash. [15][31][32][33]\n\nBlock data contains a list of [transactions](/hubpedia/blockchain-transaction) that have been submitted to the network and verified, that is, the set of ledger events included in that block. A block can contain zero or more transactions, each of which includes a record of one or more users and what occurred, and is [digitally signed](/hubpedia/digital-signature) by the user who submitted the transaction. [1][10][11][28][36]\n\n## Chaining Blocks and Tamper Resistance\n\nExcept for the first block, every block header contains a cryptographic link to the immediately preceding block header. The [hash value](/hubpedia/hash-value) of the current block header is stored in the header of the next block, which protects both the current block header and the block data beneath it. In this way, blocks are chained together by including the hash value of the immediately preceding block header, forming an overall chained ledger. [4][14][16][31][37]\n\nEach block is cryptographically linked to the preceding block through a process of verification and consensus, putting it in a state where tampering can be detected. If the content of a previously published block is changed, its hash value changes, breaking its consistency with the hash of the preceding block held by every subsequent block; a tampered block therefore ends up with a different hash all the way down the chain, making it easy to detect and reject. The more new blocks are stacked on top, the harder it becomes to alter an older block, and this property is what produces tamper resistance. [22][23][24][38]\n\nBuilding a new block requires a reference to the immediately preceding block, and if a published block lacks this reference, other nodes will reject it. [26][27]\n\n## Recording and Verifying Transactions\n\nA transaction is added to the blockchain once a publishing node publishes a new block. Other full nodes check the validity and authenticity of every transaction contained in a published block, and they will not accept a block that contains an invalid transaction. [29][34]\n\nIn some blockchain implementations, continuing to supply new blocks even when they contain no transactions is considered important for maintaining the security of the network. [12]\n\nA block's sequence number is also called its block height on some networks. [30]\n\n## Publishing Blocks and Network Permission Models\n\nBlockchain networks are classified based on the permission model that determines who may publish a block. The task of publishing a block falls to the publishing nodes, a category of full [nodes](/hubpedia/blockchain-node) that hold the entire blockchain. [17][18]\n\nNetworks in which anyone can publish a new block are classified as permissionless, while networks in which only specific users may publish are classified as permissioned. In a permissioned network, users who publish blocks must be authorized by some authority, whether centralized or distributed. [5][6][20]\n\nExamples of consensus models used in permissionless networks include proof of work and proof of stake. In networks that adopt proof of work, a publishing node must keep hashing the block header with different nonce values until it satisfies the puzzle requirement. The nonce is a number that the publishing node manipulates in order to solve this hash puzzle, and by hashing the block header in this way the publishing node protects its content. [9][13][19][35]\n\n## Blockchain Applications and Tokens\n\nA blockchain is a distributed digital ledger that records cryptographically signed transactions grouped into blocks. In Bitcoin, the users who publish new blocks and maintain copies of the ledger are called miners. [21][25]\n\nBlockchain technology has enabled a new software paradigm for managing digital ownership in partially or fully trustless environments. Blockchains use tokens to conduct transactions and exchange verifiable data, enabling cooperation across organizations and on the web, while providing secure transaction matching, chaining, and storage on a unified, integrity-protected distributed ledger. [39][40][41]\n\nBlockchain execution environments make it possible to issue tokens — programmable digital assets whose ownership is cryptographically verifiable. Some tokens are native to the blockchain protocol itself, while others are deployed via user-generated logic in a [smart contract](/hubpedia/smart-contract) layer built on top of an existing protocol. [42][43]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-30T00:02:30.722Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "ブロックチェーンの各ブロックは、0件以上のトランザクションを含むことができる。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "Each block in a blockchain can contain zero or more transactions."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "ブロックチェーンはブロックから構成される分散台帳である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "Blockchains are a distributed ledger comprised of blocks."
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "Blockchains are a distributed ledger comprised of blocks."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "各ブロックは、ブロックに関するメタデータを含むブロックヘッダーと、一連の取引などの関連データを含むブロックデータから構成される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "Each block is comprised of a block\r\n                                                                                         header containing metadata about the block, and block data containing a set of transactions and\r\n                                                                                         other related data."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "最初のブロックを除き、すべてのブロックヘッダーは直前のブロックのヘッダーへの暗号学的リンクを含む。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "Every block header (except for the very first block of the blockchain) contains\r\n                                                                                         a cryptographic link to the previous block’s header."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "誰でも新しいブロックを公開できる場合、そのブロックチェーンネットワークはパーミッションレス型に分類される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "If anyone can publish a new block, it is permissionless."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "特定のユーザーのみがブロックを公開できる場合、そのブロックチェーンネットワークはパーミッションド型に分類される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "If only particular users can publish blocks, it is permissioned."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "ブロックはブロックヘッダーとブロックデータから構成される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "contains a block header and block data."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "ブロックヘッダーには、そのブロックのメタデータが含まれる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "The block header contains metadata for this block."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "プルーフ・オブ・ワークのコンセンサスモデルを利用するブロックチェーンネットワークでは、パブリッシュノードはパズル要件が満たされるまで異なるナンス値でブロックヘッダーをハッシュ化する必要がある。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "blockchain network utilizes a proof of work consensus model"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "hash the block header with different nonce values"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "until the puzzle requirements have been fulfilled."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "1つのブロックには0個以上のトランザクションを含めることができる。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "Each block in a blockchain can contain zero or more transactions."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "各取引には1人以上のブロックチェーンネットワーク利用者と発生した内容の記録が含まれ、その取引を送信した利用者によってデジタル署名される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "Each transaction involves one or more\r\n                                                                                         blockchain network users and a recording of what happened, and it is digitally signed by the user\r\n                                                                                         who submitted the transaction."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "一部のブロックチェーン実装では、トランザクションがゼロ件の場合でも新しいブロックを継続的に供給し続けることが、ネットワークのセキュリティを維持する上で重要である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "a constant supply of new blocks (even with zero transactions) is critical to"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "パブリッシュノードはブロックヘッダーをハッシュ化することでブロックヘッダーを保護する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "a publishing node will hash the block header."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "現在のブロックヘッダーのハッシュダイジェストは次のブロックのヘッダーに含まれ、それによって現在のブロックヘッダーのデータが保護される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "header’s hash digest will be included within the next block’s header, where it will secure"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "the current block header data."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "ブロックヘッダーはブロックデータのハッシュ表現を含んでいる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "the block header includes a hash representation of the block data"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "ブロックヘッダーのダイジェストが次のブロックに格納されることで、ブロックデータ自体も保護される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "also secured when the block header digest is stored in the next block."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "パブリッシングノードとは、ブロックチェーン全体を保持するフルノードのうち、新しいブロックの公開も行うノードのことである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "Publishing node – a full node that also publishes new blocks"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "ブロックチェーンネットワークは、誰がブロックを公開できるかなど、その許可モデルに基づいて分類できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "Blockchain networks can be categorized based on their permission model, which determines who"
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "パーミッションレス型ブロックチェーンで用いられる合意モデルの例として、プルーフ・オブ・ワークとプルーフ・オブ・ステークがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "proof of work (see Section 4.1) and proof of stake (see Section 4.2) methods."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "パーミッションド型ブロックチェーンネットワークでは、ブロックを公開するユーザーは何らかの権威（中央集権的か分散的かを問わず）によって認可されていなければならない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "Permissioned blockchain networks are ones where users publishing blocks must be authorized by"
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "ブロックチェーンは、暗号学的に署名された取引をブロックにまとめて記録する分散型のデジタル台帳である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "Blockchains are distributed digital ledgers of cryptographically signed transactions that are"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "grouped into blocks."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "各ブロックは、検証とコンセンサスによる決定を経たうえで、暗号学的に直前のブロックへリンクされ、これにより改ざんが検知可能な状態になる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "Each block is cryptographically linked to the previous one"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "tamper evident"
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "新しいブロックが追加されるにつれて古いブロックほど改変が難しくなり、これが耐改ざん性を生む。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "As new blocks are"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "older blocks become more difficult to modify (creating tamper resistance)."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "暗号学的な仕組みにより、ブロックチェーンはブロックの改変や取引の偽造によって台帳を後から改ざんしようとする試みに対して耐性を持つ。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "mechanisms, makes the blockchain resilient to attempts to alter the ledger later (modifying"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "blocks or forging transactions)."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "ビットコインでは、新しいブロックを公開し台帳の複製を維持する利用者はマイナーと呼ばれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "manage to publish new blocks and"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "maintain copies of the ledger; such users are called miners in Bitcoin."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "新しいブロックを構築するには、直前のブロックへの参照が必要である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "a reference must be made to a previous block"
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "ブロックを公開するノードが最新のブロックへの参照を含めていなかった場合、他のノードはそのブロックを拒否する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "If a publishing node did not include a reference to the latest"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "block, other nodes would reject it."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "ブロックデータには、ブロックチェーンネットワークに提出された検証済みかつ正当な取引のリストが含まれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "block data contains a list of validated and authentic transactions which have been submitted to"
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "他のフルノードは、公開されたブロック内の全取引の有効性と真正性を確認し、無効な取引が含まれるブロックは受け入れない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "all transactions in a published block and will not accept a block if it contains invalid transactions."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "ブロック番号は、一部のブロックチェーンネットワークではブロック高さとも呼ばれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "The block number, also known as block height in some blockchain networks."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "ブロックヘッダーには、直前のブロックヘッダーのハッシュ値が含まれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "The previous block header’s hash value."
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "ブロックヘッダーに含めるブロックデータのハッシュ表現は、マークル木を生成してそのルートハッシュを保存する方法で作成できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "such as a generating a Merkle tree (defined in Appendix B), and"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "storing the root hash, or by utilizing a hash of all the combined block data)."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "ブロックヘッダーにはタイムスタンプが含まれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "A timestamp."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "取引は、公開ノードがブロックを公開したときにブロックチェーンへ追加される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "Transactions are added to the blockchain when a publishing node publishes a block."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "マイニングを用いるブロックチェーンネットワークでは、ノンス値はハッシュパズルを解くために発行ノードによって操作される数値である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "which is manipulated by the publishing node to solve the hash puzzle"
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "ブロックデータには、そのブロックに含まれるトランザクションと台帳イベントの一覧が含まれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "A list of transactions and ledger events included within the block."
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "ブロックは、各ブロックが直前のブロックヘッダーのハッシュダイジェストを含むことによって連結され、ブロックチェーンを形成する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "Blocks are chained together through each block containing the hash digest of the previous block’s header"
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "以前に公開されたブロックが変更されるとハッシュ値が変わり、それ以降のブロックも直前ブロックのハッシュを含むために連鎖的に異なるハッシュを持つことになり、これにより改ざんされたブロックを容易に検出・拒否できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "If a previously published block were changed, it would have a different hash."
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "blocks to also have different hashes since they include the hash of the previous block."
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "This makes it possible to easily detect and reject"
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "ブロックチェーン技術は、部分的または無信頼の環境においてデジタル所有権を管理するための新しいソフトウェアパラダイムを可能にした。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "Blockchain technology has enabled a new software paradigm for managing digital ownership in"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "partial- or zero-trust environments."
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "ブロックチェーンはトークンを用いて取引を行い、検証可能なデータを交換し、組織間やウェブ上での協調を実現する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "It uses tokens to conduct transactions, exchange verifiable data,"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "and achieve coordination across organizations and on the web."
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "ブロックチェーンネットワークは、統合され完全性が保護された分散台帳において、安全な取引の突合・連結・保存を提供する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "Blockchain networks provide"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "secure transaction reconciliation, linkage, and storage in consolidated, integrity-protected"
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "ブロックチェーンの実行環境により、所有権が暗号学的に検証可能なプログラマブルなデジタル資産、すなわちトークンを発行することが可能になる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "These environments make it possible to issue programmable digital assets or tokens, the ownership"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "of which is cryptographically verifiable, and to develop services to help manage them. Tokens are"
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "トークンは、ブロックチェーンプロトコルにネイティブなものと、既存のブロックチェーンプロトコル上にスマートコントラクト層のユーザー生成ロジックによって展開されるものがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "either native to a blockchain protocol or deployed on top of an existing blockchain protocol via"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2021/NIST.IR.8301.pdf",
+              "quote": "user-generated logic at the smart contract layer."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

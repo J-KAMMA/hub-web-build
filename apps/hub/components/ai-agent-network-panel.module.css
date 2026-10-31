@@ -1,0 +1,27 @@
+.layout { display: grid; gap: 18px; }
+.layout section { display: grid; gap: 12px; padding: 16px; border: var(--divider); border-radius: 14px; background: var(--content-surface); }
+.heading, .heading > div, .cards article, .cards article span, .negotiations, .negotiations article, .negotiations header, .negotiations article > div { display: flex; }
+.heading { align-items: center; justify-content: space-between; gap: 12px; }
+.heading > div, .cards article span, .negotiations, .negotiations article { flex-direction: column; }
+.heading h2, .heading p, .negotiations p { margin: 0; }
+.heading h2 { font-size: 1rem; }
+.heading p, .cards small, .negotiations small, .empty { color: var(--muted); font-size: .75rem; }
+.heading button { display: grid; place-items: center; width: 40px; height: 40px; border: var(--divider); border-radius: 10px; background: var(--interactive); color: var(--text); }
+.heading svg, .cards svg { width: 18px; height: 18px; }
+.cards { display: grid; gap: 7px; }
+.cards article { align-items: center; gap: 10px; padding: 10px; border: var(--divider); border-radius: 10px; background: var(--interactive); }
+.cards article span { flex: 1; gap: 3px; }
+.cards em { color: var(--emphasis); font-size: .7rem; font-style: normal; font-weight: 700; }
+.create, .form { display: grid; gap: 10px; }
+.create label, .form label { display: grid; gap: 5px; color: var(--muted); font-size: .75rem; font-weight: 700; }
+.create input, .form input, .form select, .form textarea { min-height: 40px; padding: 8px 10px; border: var(--divider); border-radius: 9px; background: var(--surface-raised); color: var(--text); font: inherit; }
+.form textarea { min-height: 84px; resize: vertical; }
+.create button, .form > button, .negotiations button { display: inline-flex; align-items: center; justify-content: center; gap: 6px; min-height: 40px; padding: 0 12px; border: var(--divider); border-radius: 9px; background: var(--interactive); color: var(--text); font: inherit; font-weight: 700; cursor: pointer; }
+.create button svg, .form button svg, .negotiations button svg { width: 16px; height: 16px; }
+.negotiations { gap: 8px; }
+.negotiations article { gap: 8px; padding: 12px; border: var(--divider); border-radius: 11px; }
+.negotiations header { align-items: center; justify-content: space-between; gap: 12px; }
+.negotiations header span { padding: 4px 7px; border-radius: 999px; background: var(--interactive); color: var(--muted); font-size: .68rem; }
+.negotiations article > div { flex-wrap: wrap; gap: 7px; }
+.notice { margin: 0; color: var(--muted); font-size: .76rem; }
+@media (min-width: 720px) { .form { grid-template-columns: 1fr 1fr; }.form label:nth-child(3), .form label:nth-child(4), .form > button { grid-column: 1 / -1; } }

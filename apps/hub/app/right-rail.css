@@ -1,0 +1,181 @@
+.rail-mode {
+  grid-template-columns: 1fr !important;
+  gap: 2px !important;
+  padding: 0 !important;
+  background: transparent !important;
+}
+.rail-mode button {
+  display: flex !important;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  height: 40px !important;
+  padding: 0 10px !important;
+  text-align: left;
+}
+.rail-mode button:hover,
+.rail-mode button.rail-mode__active {
+  background: var(--interactive) !important;
+  color: var(--text);
+  box-shadow: none !important;
+}
+.rail-mode svg {
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.rail-list-filter {
+  display: flex;
+  gap: 5px;
+  margin: 2px 0 9px;
+  padding-bottom: 8px;
+  overflow-x: auto;
+  border-bottom: 1px solid var(--line);
+}
+.rail-list-filter button {
+  flex: 0 0 auto;
+  height: 28px;
+  padding: 0 10px;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  font-size: .68rem;
+}
+.rail-list-filter button:hover,
+.rail-list-filter button.rail-list-filter__active {
+  background: var(--surface-raised);
+  color: var(--text);
+}
+
+.settings{width:min(760px,100%);padding:8px 24px 90px}.settings-summary{display:flex;align-items:center;justify-content:space-between;gap:20px;margin-bottom:18px;padding:20px 22px;border:1px solid var(--line);border-radius:16px;background:var(--panel)}.settings-summary>div{display:grid;gap:5px}.settings-summary span{color:var(--muted);font-size:.72rem}.settings-summary strong{font-size:1rem}.settings-saved{color:var(--muted);font-size:.72rem;font-style:normal;opacity:0;transform:translateY(3px);transition:.16s}.settings-saved--visible{opacity:1;transform:none}.settings-anchor-section{scroll-margin-top:calc(var(--column-title-height,58px) + 16px)}.settings section{margin-bottom:36px}.settings-section-title{display:grid;grid-template-columns:minmax(0,1fr);align-items: flex-start;margin:0 0 11px}.settings h2{margin:0;color:var(--text);font-size:.9rem;font-weight:700}.settings-section-title p{margin:3px 0 0;color:var(--muted);font-size:.7rem}.settings-card{overflow:hidden;border:1px solid var(--line);border-radius:14px;background:var(--panel)}.setting-row,.setting-select,.settings-card>a{position:relative;display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:72px;padding:13px 18px;border-bottom:1px solid var(--line)}.settings-card>*:last-child{border-bottom:0}.setting-row>span,.setting-select>span{display:grid;gap:4px}.setting-row strong,.setting-select strong{color:var(--text);font-size:.86rem}.setting-row small,.setting-select small{color:var(--muted);font-size:.72rem;line-height:1.5}.setting-row input{position:absolute;width:1px;height:1px;opacity:0}.setting-row i{position:relative;width:42px;height:24px;flex:0 0 42px;border:1px solid var(--line-strong);border-radius:999px;background:var(--panel-strong);transition:.16s}.setting-row i::after{content:"";position:absolute;top:3px;left:3px;width:16px;height:16px;border-radius:50%;background:var(--muted);transition:.16s}.setting-row input:focus-visible+i{outline:2px solid var(--text);outline-offset:3px}.setting-row input:checked+i{border-color:var(--text);background:var(--text)}.setting-row input:checked+i::after{background:var(--bg);transform:translateX(18px)}.setting-select select{min-width:112px;padding:9px 30px 9px 11px;border:1px solid var(--line-strong);border-radius:9px;background:var(--bg-soft);color:var(--text);font:600 .78rem/1 sans-serif}.settings-card>a{color:var(--text);font-size:.82rem;font-weight:650}.settings-card>a:hover{background:var(--panel-strong)}.settings-card>a span{color:var(--muted);font-size:1.25rem}.settings-note{padding:18px;border-bottom:1px solid var(--line)}.settings-note strong{font-size:.84rem}.settings-note p{margin:7px 0 0;color:var(--muted);font-size:.75rem;line-height:1.7}.settings-note--privacy{padding-top:16px}.settings-note--privacy strong{display:block;margin-top:10px}.settings-badge{display:inline-flex;padding:5px 8px;border-radius:999px;background:var(--panel-strong);color:var(--muted);font-size:.65rem}.settings-reset{width:100%;padding:17px 18px;border:0;background:transparent;color:var(--danger-text);font:650 .8rem/1 sans-serif;text-align:left;cursor:pointer}.settings-reset:hover{background:color-mix(in srgb, var(--danger-text) 8%, transparent)}html[data-compact="true"] .tweet{padding-block:10px}html[data-text-size="large"] .tweet__text,html[data-text-size="large"] .bbs-post__body,html[data-text-size="large"] .article-body{font-size:1.1rem!important}html[data-reduce-motion="true"] *,html[data-reduce-motion="true"] *::before,html[data-reduce-motion="true"] *::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}@media(max-width:600px){.settings{padding-inline:14px}.settings-summary{padding:16px}.setting-row,.setting-select,.settings-card>a{min-height:68px;padding-inline:14px}.setting-row,.setting-select{gap:14px}.setting-select select{min-width:96px}}
+
+.bbs-post{border-bottom:1px solid var(--line)!important}.bbs-post:last-child{border-bottom:0!important}.bbs-post__row{padding-bottom:10px}.profile-post-simple,.post-detail .tweet{border-bottom:1px solid var(--line)!important}
+
+/* Readability */
+body{font-size:16px;line-height:1.6;color:var(--text)}.sidebar__label{font-size:.94rem!important;font-weight:550}.sidebar__wordmark strong{font-size:.94rem!important}.feature-header h1,.bbs-hero--simple h1{font-size:1.8rem!important;font-weight:700}.tweet__text{font-size:1rem!important;line-height:1.75!important;color:var(--text)!important}.tweet__name{font-size:.9rem!important}.tweet__handle,.tweet__time,.tweet__permalink{font-size:.78rem!important;color:var(--muted)!important}.tweet__action{font-size:.86rem!important}.rail-mode button{font-size:.86rem!important}.rail-result__meta strong{font-size:.83rem!important}.rail-result__meta span,.rail-result small{font-size:.72rem!important;color:var(--muted)!important}.rail-result p{font-size:.82rem!important;line-height:1.6!important;color:var(--text)!important}.rank-row strong{font-size:.94rem!important}.rank-row small,.rank-row em{font-size:.74rem!important;color:var(--muted)!important}.feature-panel__heading h2{font-size:1.2rem!important}.collection-card>p,.person-card p{font-size:.84rem!important;color:var(--muted)!important}.bbs-thread-card__body strong{font-size:.92rem}.bbs-thread-card__body small,.bbs-board-row__desc{font-size:.76rem!important;color:var(--muted)!important}.bbs-post__body{font-size:1rem!important;line-height:1.8!important}.bbs-post__header{font-size:.82rem!important}.hubpedia__hero p,.hubpedia__articles p{font-size:.84rem!important;color:var(--muted)!important}.hubpedia__categories p{font-size:.76rem!important}.muted-copy,.section-heading__eyebrow{color:var(--muted)!important}
+.setting-select.language-selector{display:flex}.setting-select.language-selector select{width:auto}
+
+.profile-safety-settings__state,
+.profile-safety-settings__message {
+  margin: 0;
+  padding: 14px 18px;
+  border-bottom: var(--divider);
+  color: var(--muted);
+  font-size: .75rem;
+}
+.profile-safety-settings__state { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.profile-safety-settings__state button,
+.profile-safety-settings__row button {
+  min-height: 34px;
+  padding-inline: 11px;
+  border: var(--divider);
+  border-radius: 999px;
+  background: var(--interactive);
+  color: var(--text);
+  font: inherit;
+  font-size: .72rem;
+  font-weight: 700;
+}
+.profile-safety-settings__row {
+  display: flex;
+  min-height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding: 11px 18px;
+  border-bottom: var(--divider);
+}
+.profile-safety-settings__row > a,
+.profile-safety-settings__row > div { display: flex; align-items: center; gap: 9px; }
+.profile-safety-settings__row > a > span:last-child { display: grid; gap: 2px; }
+.profile-safety-settings__row small { color: var(--muted); }
+.profile-safety-settings__avatar {
+  display: grid;
+  width: 38px;
+  height: 38px;
+  flex: 0 0 38px;
+  place-items: center;
+  overflow: hidden;
+  border: var(--divider);
+  border-radius: 50%;
+  background: var(--surface-sunken);
+}
+.profile-safety-settings__avatar img { width: 100%; height: 100%; object-fit: cover; }
+@media(max-width:600px) {
+  .profile-safety-settings__row { align-items: flex-start; padding-inline: 14px; }
+  .profile-safety-settings__row > div { display: grid; }
+}
+
+.domain-alias-settings { display: grid; gap: 0; margin-top: 12px; }
+.domain-alias-settings__form { display: grid; gap: 8px; padding: 18px; }
+.domain-alias-settings__form label { color: var(--text); font-size: .78rem; font-weight: 700; }
+.domain-alias-settings__entry { display: flex; gap: 8px; }
+.domain-alias-settings__entry input { min-width: 0; flex: 1; padding: 10px 12px; border: 1px solid var(--line-strong); border-radius: 10px; background: var(--bg-soft); color: var(--text); font: inherit; }
+.domain-alias-settings__entry input:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+.domain-alias-settings__code { overflow: auto; margin: 12px 0; padding: 12px; border: 1px solid var(--line); border-radius: 10px; background: var(--bg-soft); color: var(--text); font-size: .7rem; white-space: pre-wrap; word-break: break-all; }
+.domain-alias-settings__handle { display: block; margin-top: 10px; }
+.domain-alias-settings .settings-actions { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+
+/*
+ * The settings directory's own content. The column itself — sticky width,
+ * the toggle below 1440px, the phone drawer — is inherited from the shared
+ * bbs-* classes the aside carries, so nothing about geometry is restated
+ * here; restating it is how the community workspace drifted.
+ *
+ * Every number below was settled against a live replica: the real rendered
+ * markup under the real shipped bundles, measured at 1700px and 1400px.
+ */
+.settings-directory__nav { display: block; padding: 4px 10px 20px; }
+.settings-directory__item { display: block; }
+.settings-directory__group { margin: 12px 8px 3px; color: var(--muted); font-size: .64rem; font-weight: 750; letter-spacing: .05em; }
+.settings-directory__nav a { display: grid; gap: 1px; padding: 6px 10px; border-radius: 10px; color: var(--text); text-decoration: none; }
+.settings-directory__nav a:hover { background: var(--content-surface-hover); }
+.settings-directory .settings-directory__nav a strong { font-size: .78rem; font-weight: 650; }
+/*
+ * !important, because the global type rule :is(small, time, …) otherwise
+ * hands every hint 13px — louder than the 12.5px label it explains.
+ * Measured before this was written, not guessed.
+ */
+.settings-directory .settings-directory__nav a small { overflow: hidden; color: var(--muted); font-size: .66rem !important; line-height: 1.4; text-overflow: ellipsis; white-space: nowrap; }
+/*
+ * Hints stay folded until a section is current. All thirteen entries then
+ * fit a 900px viewport without the directory scrolling inside itself —
+ * with every hint open it needed 874px against 754 and became a second
+ * scrollbar inside a table of contents.
+ */
+.settings-directory__nav a small { display: none; }
+.settings-directory__nav a[aria-current="true"] small { display: block; color: var(--text); opacity: .72; }
+/* The bar and the ground carry the accent; the label keeps its own colour.
+   Accent-coloured text on the soft ground measured 2.6:1 — unreadable. */
+.settings-directory__nav a[aria-current="true"] { background: var(--emphasis-soft); }
+.settings-directory__nav a[aria-current="true"] strong { color: var(--text); }
+.settings-directory__empty { margin: 14px 10px; color: var(--muted); font-size: .72rem; }
+/*
+ * The reading column sits centred in the content track. The platform pins
+ * .settings to margin-inline: 0 auto from 761px, which against a left
+ * directory left a 332px dead margin on the right at 1700px; centring
+ * splits it 166 and 166. !important because that pin also outranks any
+ * polite selector this file can write.
+ */
+.settings-directory-content .settings { width: min(100%, 920px); margin-inline: auto !important; }
+
+/*
+ * 設定の行の入力欄は縮む（2026-09-04）。
+ *
+ * この行は「見出し」と「入力」を横に並べる flex。select には min-width を
+ * 決めてあったが input には何も無く、入力欄が既定の幅（214px）のまま
+ * 縮まなかった。390px の画面では /v2/developers/services の2つの欄が
+ * 本体358pxに対し469pxと542pxまで出ていた（携帯幅の走査が拾った）。
+ *
+ * flex の子は min-width が auto だと中身の最小幅より小さくならない。0 にする。
+ */
+.setting-select input {
+  min-width: 0;
+  flex: 1 1 9rem;
+}

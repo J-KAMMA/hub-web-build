@@ -1,0 +1,57 @@
+name: Hub web build
+
+# Builds the Hub web app for Cloudflare (OpenNext) on a GitHub-hosted runner
+# because the developer PC (Windows) cannot run the OpenNext bundler.
+# Build only: no deploy step, no Cloudflare credentials, no secrets, no Git LFS.
+
+on:
+  push:
+    tags:
+      - "web-build-*"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      NODE_OPTIONS: --max-old-space-size=7168
+      HUB_BUILD_CPUS: "2"
+      NEXT_TELEMETRY_DISABLED: "1"
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          lfs: false
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 24.14.0
+      - name: Install dependencies
+        run: npm ci --no-audit --no-fund
+      - name: Next build (build:hub)
+        run: npm run build:hub
+      - name: OpenNext Cloudflare build (build:hub:cloudflare)
+        run: npm run build:hub:cloudflare
+      - name: Package and hash OpenNext output
+        run: |
+          set -euo pipefail
+          test -d apps/hub/.open-next
+          mkdir -p dist
+          tar --sort=name --mtime='@0' --owner=0 --group=0 --numeric-owner \
+            -C apps/hub -cf - .open-next | gzip -n > dist/hub-web-open-next.tar.gz
+          (cd dist && sha256sum hub-web-open-next.tar.gz | tee hub-web-open-next.tar.gz.sha256)
+          (cd apps/hub/.open-next && find . -type f -print0 | sort -z | xargs -0 sha256sum) > dist/hub-web-open-next.files.sha256
+          wc -l dist/hub-web-open-next.files.sha256
+          echo "SHORT_SHA=${GITHUB_SHA::7}" >> "$GITHUB_ENV"
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: hub-web-open-next-${{ env.SHORT_SHA }}
+          path: |
+            dist/hub-web-open-next.tar.gz
+            dist/hub-web-open-next.tar.gz.sha256
+            dist/hub-web-open-next.files.sha256
+          retention-days: 7
+          if-no-files-found: error

@@ -1,0 +1,15 @@
+.list{display:grid;gap:10px;margin:0;padding:0;list-style:none}
+.item{display:grid;gap:8px;padding:12px;border:var(--divider);border-radius:12px;background:var(--surface-sunken)}
+.itemHead{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.itemHead strong{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.meta{margin:0;color:var(--muted);font-size:.72rem;line-height:1.5;overflow-wrap:anywhere}
+.badge{flex:none;padding:3px 8px;border:var(--divider);border-radius:999px;color:var(--muted);font-size:.66rem;font-weight:750}
+.badgeOn{color:var(--action-text);background:var(--action);border-color:var(--action)}
+.row{display:flex;flex-wrap:wrap;gap:6px}
+.row button{padding:7px 10px;font-size:.72rem}
+.form{display:grid;gap:12px;padding:12px;border:var(--divider);border-radius:12px}
+.form label{display:grid;gap:6px;font-size:.78rem}
+.check{display:flex!important;grid-auto-flow:column;align-items:center;gap:8px!important}
+.check input{width:18px;height:18px;padding:0}
+.note{margin:0;color:var(--muted);font-size:.72rem;line-height:1.6}
+.ok{margin:0;color:var(--positive-text)}

@@ -1,0 +1,299 @@
+[
+  {
+    "slug": "consensus-mechanism",
+    "topicType": "concept",
+    "categoryLabel": "インターネット・セキュリティ",
+    "title": "合意形成の仕組み",
+    "summary": "合意形成の仕組みとは、複数の参加者が単一の記録や状態について一致した見解に至るための方式であり、分散システム全般で用いられる概念である。ブロックチェーンにおいては、参加者が取引の有効性について合意する具体的な手続きを指し、中央の管理者を置かずに台帳の正当性を保つための中核的な仕組みとなっている。",
+    "bodyMarkdown": "## 起源と一般的な合意形成\n\nレズリー・ランポートは1989年にPaxosと呼ばれる合意形成プロトコルを開発した。複数の参加者があるデータや取引について一致した見解に至る方法は一般に合意形成(reaching consensus)と呼ばれ、その実現方法には複数のモデルが存在する。 [1][2]\n\n## ブロックチェーンにおける合意形成\n\nブロックチェーンの参加者が取引の有効性について合意することも合意形成(コンセンサス)と呼ばれ、その実現方法には多くのモデルが存在する。分散台帳は中央の信頼機関を必要としない。取引が追加される際に、合意プロトコルと呼ばれる仕組みによって検証されるためである。 [3][9]\n\n[ブロックチェーン](/hubpedia/blockchain)と合意に基づく維持を組み合わせることで、有効な取引とブロックのみが追加されることを保証する自己統制的な仕組みが作られている。各取引をまとめた「ブロック」は前のブロックと暗号的に連結されており、変更が生じれば他の全利用者に知られる仕組みになっているため、台帳の正当性が保たれる。 [7][10]\n\n## 次のブロック公開者の決定\n\nパーミッションレスなブロックチェーンネットワークでは、多数のパブリッシングノードが同時に次のブロックを公開しようと競争するのが一般的である。どのユーザーが次のブロックを公開するかを決定する問題は、数ある合意形成モデルのいずれかを実装することによって解決される。こうしたパーミッションレス型ネットワークでは、ブロックを公開しようとする利用者に資源の消費または維持を求める合意システムが用いられることが多い。 [4][15][16]\n\n## 取引とブロックの検証\n\nブロックチェーンネットワークは、追加される全ての取引が有効であることを確認しなければならない。あるノードが新しいブロックを公開すると、他の完全ノードがそのブロックに含まれる全取引の有効性と真正性を検証する。無効な取引が含まれているブロックは受け入れられない。ブロックは、こうした検証と合意形成の決定を経た後に初めて連結される。 [5][12][13][14]\n\n## ジェネシスブロックと初期状態への合意\n\nユーザーがブロックチェーンネットワークに参加する際には、そのシステムの初期状態に同意することになる。全てのブロックチェーンネットワークには公開されたジェネシスブロックが存在し、それ以降の全てのブロックは参加者間で合意された合意形成モデルに基づいて追加されなければならない。 [17][18]\n\n## チェーンの競合解決\n\n台帳内で生じた競合は、あらかじめ確立された規則を用いて自動的に解決される。多くのブロックチェーンネットワークでは、あるフルノードに2つの有効なチェーンが提示された場合、既定では「より長い」チェーンが正しいものとみなされ採用される。 [6][19]\n\n## ノード数とセキュリティ\n\nブロックチェーンのノード数を増やすことは、悪意ある行為者が合意プロトコルに影響を与える能力を低下させるとされる。一方でネットワークのセキュリティは台帳を維持する合意プロトコルに依存しており、結託した利用者が台帳を自らの利益のために操作し、プロトコルを徐々に破壊するのに十分な影響力を得られる場合があることが研究で示されている。 [8][11]\n\n## 関連記事\n\n- [暗号資産](/hubpedia/cryptocurrency)\n- [ブロックチェーン技術](/hubpedia/blockchain-technology)",
+    "sources": [
+      {
+        "url": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+        "title": "Blockchain Technology Overview (NISTIR 8202) — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The standards body full technical account of blockchain and its parts. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.gao.gov/products/gao-19-704sp",
+        "title": "Science & Tech Spotlight: Blockchain & Distributed Ledger Technologies — GAO",
+        "publisher": "U.S. Government Accountability Office",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.gao.gov/copyright"
+          },
+          "notes": "A short official overview of distributed ledgers and their limits. Publisher policy read 2026-08-28: Products are not protected by copyright and may be copied and distributed in their entirety without permission. Embedded images and other third-party material may be copyrighted separately, and photographs of recognisable people carry privacy and publicity rights — neither of which the factory touches, since it takes body text only. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Consensus Mechanism",
+        "summary": "A consensus mechanism is a method by which multiple participants reach agreement on a single record or state, a concept used throughout distributed systems in general. In blockchain, it refers to the specific procedure by which participants agree on the validity of transactions, and it serves as the core mechanism for maintaining the legitimacy of the ledger without a central administrator.",
+        "bodyMarkdown": "## Origins and General Consensus Formation\n\nLeslie Lamport developed a consensus protocol called Paxos in 1989. The way in which multiple participants reach a shared view on a piece of data or a transaction is generally called reaching consensus, and there are multiple models for achieving it. [1][2]\n\n## Consensus in Blockchain\n\nThe process by which blockchain participants agree on the validity of transactions is also called consensus, and many models exist for achieving it. A distributed ledger does not require a central trusted authority, because transactions are verified through a mechanism called a consensus protocol when they are added. [3][9]\n\nCombining [blockchain](/hubpedia/blockchain) with consensus-based maintenance creates a self-governing mechanism that ensures only valid transactions and blocks are added. Each \"block,\" which bundles a set of transactions, is cryptographically linked to the previous block, and any change made is known to all other users, which keeps the ledger legitimate. [7][10]\n\n## Determining the Next Block Publisher\n\nIn permissionless blockchain networks, it is common for many publishing nodes to compete simultaneously to publish the next block. The problem of determining which user gets to publish the next block is solved by implementing one of a number of consensus models. In these permissionless networks, consensus systems that require users seeking to publish a block to expend or maintain resources are often used. [4][15][16]\n\n## Verification of Transactions and Blocks\n\nA blockchain network must confirm that every transaction being added is valid. When a node publishes a new block, other full nodes verify the validity and authenticity of all transactions included in that block. A block containing an invalid transaction is not accepted. Only after undergoing this verification and consensus decision is a block linked to the chain. [5][12][13][14]\n\n## The Genesis Block and Agreement on the Initial State\n\nWhen a user joins a blockchain network, they are agreeing to that system's initial state. Every blockchain network has a published genesis block, and every subsequent block must be added based on a consensus model agreed upon among the participants. [17][18]\n\n## Resolving Chain Conflicts\n\nConflicts that arise within the ledger are resolved automatically using pre-established rules. In many blockchain networks, when a full node is presented with two valid chains, the \"longer\" chain is, by default, considered correct and adopted. [6][19]\n\n## Node Count and Security\n\nIncreasing the number of nodes in a blockchain is said to reduce the ability of malicious actors to influence the consensus protocol. At the same time, network security depends on the consensus protocol that maintains the ledger, and research has shown that colluding users can, in some cases, gain enough influence to manipulate the ledger for their own benefit and gradually undermine the protocol. [8][11]\n\n## Related Articles\n\n- [Cryptocurrency](/hubpedia/cryptocurrency)\n- [Blockchain Technology](/hubpedia/blockchain-technology)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-29T21:49:13.660Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "レズリー・ランポートは1989年にPaxosプロトコルを開発した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "1989, Leslie Lamport developed the Paxos protocol"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "次にブロックを公開するユーザーを決定することは、ブロックチェーン技術の重要な要素である。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "A key aspect of blockchain technology is determining which user publishes the next block."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "ユーザーはブロックチェーンネットワークに参加する際、システムの初期状態に同意する。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "When a user joins a blockchain network, they agree to the initial state of the system."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "発行ノードは通常、暗号資産や取引手数料を得るために競合してブロックを公開する。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "They usually do this to win cryptocurrency and/or transaction fees."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "パーミッションレス型のブロックチェーンネットワークでは、一般に多数の発行ノードが同時に競合して次のブロックを公開しようとする。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "blockchain networks there are generally many publishing nodes competing at the same time to"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "publish the next block."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "パーミッションレス型ネットワークの発行ノードは概して互いに信用し合わず、公開アドレスによってのみ互いを知っている場合が多い。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "are generally mutually distrusting users that may only know each other by their public addresses."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "ブロックチェーン技術は合意形成モデルを用いることで、互いに信用し合わない利用者の集団が協働できるようにしている。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "blockchain technologies use consensus models to enable a group"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "of mutually distrusting users to work together."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "採用される合意形成モデルにかかわらず、各ブロックは有効でなければならず、そのためブロックチェーンネットワークの各利用者が独立してそれを検証できる。",
+          "confidence": 0.91,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "Regardless of the model, however, each block must be valid and"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "thus can be validated independently by each blockchain network user."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "新しいブロックをブロックチェーンに追加するには、すべてのノードが時間をかけて共通の合意に達しなければならないが、一時的な不一致は許容される。",
+          "confidence": 0.91,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "To add a new block to the blockchain, all nodes must come to a common agreement over time;"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "however, some temporary disagreement is permitted."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "パーミッションレス型のブロックチェーンネットワークでは、悪意あるユーザーがブロックチェーンを妨害または乗っ取ろうとする可能性があるため、合意形成モデルはそうした利用者が存在していても機能しなければならない。",
+          "confidence": 0.91,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "For permissionless blockchain networks,"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "the consensus model must work even in the presence of possibly malicious users since these"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "users might attempt to disrupt or take over the blockchain."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "参加者がある取引を有効だと合意する方法は「合意形成（reaching consensus）」と呼ばれ、そのためのモデルは複数存在する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "This is called “reaching consensus”, and there are many models for doing so,"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "ブロックチェーンの参加者が取引の有効性について合意することは「合意形成（コンセンサス）」と呼ばれ、その実現方法には多くのモデルが存在する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "This is called “reaching consensus”, and there are many models for doing so,"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "パーミッションレス型ブロックチェーンネットワークでは、ブロックを公開しようとする利用者に資源の消費または維持を求める合意システムが用いられることが多い。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "users to expend or maintain resources when attempting to publish blocks."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "ブロックは検証と合意形成の決定を経た後に連結される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "after validation and undergoing a consensus decision"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "台帳内で生じた競合は、確立された規則を用いて自動的に解決される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "resolved automatically using established rules."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "ブロックチェーンと合意に基づく維持を用いることで、有効な取引とブロックのみがブロックチェーンに追加されることを保証する自己統制的な仕組みが作られた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "using a blockchain and consensus-based maintenance, a self-policing mechanism was created"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "that ensured that only valid transactions and blocks were added to the blockchain."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "ブロックチェーンのノード数を増やすことで、悪意ある行為者が合意プロトコルに影響を与える能力が低下する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "increasing the number of nodes, the ability for a bad actor to impact the consensus"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "protocol used by the blockchain is reduced."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "分散台帳は中央の信頼機関を必要としない。取引が追加される際に、合意プロトコルと呼ばれる仕組みによって検証されるためである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-19-704sp",
+              "quote": "Distributed ledgers do not need a central, trusted authority because as transactions are added, they are verified using what is known as a consensus protocol."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "ブロックチェーンでは、各取引の「ブロック」が前のブロックと暗号的に連結されており、変更があれば他の全利用者に知られる仕組みになっているため、台帳の正当性が保たれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-19-704sp",
+              "quote": "Blockchain, for example, ensures the ledger is valid because each \"block\" of transactions is cryptographically linked to the previous block so that any change would alert all other users."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

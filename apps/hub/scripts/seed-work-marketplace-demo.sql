@@ -1,0 +1,67 @@
+-- Development-only content for the separated Jobs and Crowdsourcing surfaces.
+-- Idempotent: stable IDs keep repeated local runs from duplicating listings.
+
+INSERT OR IGNORE INTO work_listings
+  (id, owner_profile_id, kind, title, summary, category, location,
+   compensation_label, budget_amount, status, published_at, created_at, updated_at,
+   skills_json, work_style, engagement, workload, deadline)
+VALUES
+  ('demo-job-frontend', 'profile-rin', 'job', 'プロダクト開発のフロントエンドエンジニア',
+   'HubのWebプロダクトを設計・実装し、アクセシビリティと表示速度を継続的に改善するポジションです。',
+   'development', '東京都・リモート可', '月給45万〜70万円', 450000, 'published',
+   '2026-07-24T00:00:00.000Z', '2026-07-24T00:00:00.000Z', '2026-07-24T00:00:00.000Z',
+   '["TypeScript","React","Webアクセシビリティ"]', 'hybrid', 'employment', '週5日', '2026-12-31'),
+  ('demo-job-editor', 'profile-noa', 'job', 'Hubpedia編集・リサーチ担当',
+   '公開資料を調査し、出典を確認しながら中立的で読みやすい記事を編集します。',
+   'writing', '全国・フルリモート', '月給32万〜48万円', 320000, 'published',
+   '2026-07-23T00:00:00.000Z', '2026-07-23T00:00:00.000Z', '2026-07-23T00:00:00.000Z',
+   '["編集","リサーチ","出典確認"]', 'remote', 'employment', '週5日', '2026-12-31'),
+  ('demo-job-support', 'profile-yoru', 'job', 'コミュニティ運営・ユーザーサポート',
+   '利用者からの問い合わせ対応、コミュニティの安全確認、運営手順の改善を担当します。',
+   'operations', '大阪府・一部リモート', '時給1,600〜2,200円', 1600, 'published',
+   '2026-07-22T00:00:00.000Z', '2026-07-22T00:00:00.000Z', '2026-07-22T00:00:00.000Z',
+   '["カスタマーサポート","文章作成","コミュニティ運営"]', 'hybrid', 'employment', '週3日以上', '2026-11-30'),
+  ('demo-request-design', 'profile-noa', 'request', 'サービス紹介ページのUIデザインを依頼したい',
+   'PCとスマートフォンに対応する紹介ページ3画面のデザインを依頼します。既存の配色仕様とコンポーネントを共有します。',
+   'design', 'オンライン', '固定報酬 12万〜18万円', 120000, 'published',
+   '2026-07-24T00:00:00.000Z', '2026-07-24T00:00:00.000Z', '2026-07-24T00:00:00.000Z',
+   '["Figma","UIデザイン","レスポンシブ"]', 'remote', 'one_off', '3画面', '2026-09-15'),
+  ('demo-request-research', 'profile-rin', 'request', '競合サービスの料金調査と比較表の作成',
+   '国内外の主要サービス10社を調査し、料金、対象者、主要機能を出典付きの比較表にまとめる依頼です。',
+   'consulting', 'オンライン', '固定報酬 5万円', 50000, 'published',
+   '2026-07-23T00:00:00.000Z', '2026-07-23T00:00:00.000Z', '2026-07-23T00:00:00.000Z',
+   '["市場調査","表計算","出典確認"]', 'remote', 'one_off', '10社', '2026-08-31'),
+  ('demo-service-writing', 'profile-yoru', 'service', 'Web記事の構成作成と編集をします',
+   'テーマと読者像を確認し、記事構成、見出し、本文の編集、読みやすさの確認まで対応します。',
+   'writing', 'オンライン', '1記事 2万円から', 20000, 'published',
+   '2026-07-22T00:00:00.000Z', '2026-07-22T00:00:00.000Z', '2026-07-22T00:00:00.000Z',
+   '["構成作成","編集","校正"]', 'remote', 'service', '3,000字まで', '2026-12-31');
+
+INSERT OR IGNORE INTO job_listing_details
+  (listing_id, employment_type, occupation, salary_min, salary_max, salary_period,
+   hours, holidays, probation, location, transfer, remote, benefits, contract_period,
+   duties_change_scope, location_change_scope, renewal_criteria, openings,
+   company_name, business, company_size, company_site, recruiter_label,
+   verification, job_review_status, created_at, updated_at)
+VALUES
+  ('demo-job-frontend', 'full_time', 'フロントエンドエンジニア', 450000, 700000, 'monthly',
+   '9:00〜18:00（休憩1時間）', '完全週休2日、祝日', '3か月・条件変更なし',
+   '東京都、リモート勤務可', '当面なし', '週3日までリモート可',
+   '社会保険、交通費、機材支給', '期間の定めなし', 'プロダクト開発および関連業務',
+   '会社の定める事業所または自宅', '該当なし', 2, 'JKamma Labs',
+   'Webサービスの企画・開発', '10〜50名', '', '採用担当',
+   'self_reported', 'approved', '2026-07-24T00:00:00.000Z', '2026-07-24T00:00:00.000Z'),
+  ('demo-job-editor', 'contract', '編集・リサーチ', 320000, 480000, 'monthly',
+   'フレックスタイム、標準8時間', '完全週休2日', 'なし',
+   '全国・フルリモート', 'なし', 'フルリモート',
+   '機材補助、書籍購入補助', '1年', '記事編集および関連調査',
+   '自宅', '勤務実績と事業状況により更新、通算5年を上限', 3, 'Hubpedia編集部',
+   '百科事典記事の企画・編集', '10名未満', '', '編集採用担当',
+   'self_reported', 'approved', '2026-07-23T00:00:00.000Z', '2026-07-23T00:00:00.000Z'),
+  ('demo-job-support', 'part_time', 'コミュニティサポート', 1600, 2200, 'hourly',
+   '1日5時間以上、シフト制', 'シフトによる', '1か月・条件変更なし',
+   '大阪府、リモート併用', 'なし', '研修後は一部リモート可',
+   '交通費、社会保険（条件を満たす場合）', '6か月', '問い合わせ対応および運営補助',
+   '大阪事業所または自宅', '勤務実績により更新、更新上限なし', 4, 'Hub Community Operations',
+   'コミュニティ運営支援', '10〜50名', '', '運営採用担当',
+   'self_reported', 'approved', '2026-07-22T00:00:00.000Z', '2026-07-22T00:00:00.000Z');

@@ -1,0 +1,916 @@
+[
+  {
+    "slug": "digital-signature",
+    "topicType": "concept",
+    "categoryLabel": "インターネット・セキュリティ",
+    "title": "デジタル署名",
+    "summary": "デジタル署名は、公開鍵暗号を用いて電子データの作成者を検証し、作成後の改ざんを検出するための仕組みである。手書きの署名に相当する機能を電子的に提供するものであり、秘密鍵を持つ署名者だけが有効な署名を生成できる一方、対応する公開鍵を持つ誰もがその署名を検証できる。米国国立標準技術研究所(NIST)の連邦情報処理標準(FIPS)をはじめとする標準規格によって、RSA・ECDSA・EdDSAなど複数のアルゴリズムが規定されている。",
+    "bodyMarkdown": "## 仕組み\n\n鍵とは、暗号アルゴリズムと組み合わせて使用され、その動作を決定するパラメータである。デジタル署名は[公開鍵暗号](/hubpedia/public-key-cryptography)を用い、各署名者は公開鍵と秘密鍵からなる[鍵ペア](/hubpedia/key-pair)を持ち、その所有者となる。秘密鍵は非対称暗号アルゴリズムで使用される鍵であり、所有者に一意に関連付けられて公開されず、署名の生成にのみ使用して秘密に保たなければならない。公開鍵は秘密鍵と関連付けられた鍵であり、署名の検証にのみ使用され、公開してよいが、その完全性は維持されなければならない。 [3][13][17][31][33][35][37][38][98]\n\nデジタル署名アルゴリズムは、署名を生成するプロセスと、その署名を検証するプロセスから構成される。署名者は秘密鍵を用いて生成プロセスを実行し、データに対するデジタル署名を作成する。鍵ペアの所有者だけが、この生成のために秘密鍵を使用することを許されている。検証者は公開鍵を用いて検証プロセスを実行し、署名の真正性を確かめる。誰でも署名者の公開鍵を用いてその署名を検証できるため、検証には秘密鍵の共有を必要としない。 [2][12][14][15][16][34][40][41]\n\n承認されたデジタル署名アルゴリズムは、署名者の秘密鍵を知らない第三者が、その署名者になりすまして別のメッセージに有効な署名を生成することを防ぐように設計されている。この性質により、デジタル署名は情報の作成者を保証するだけでなく、署名後にその情報が改ざんされたかどうかを検出する手段としても用いられる。 [39][42]\n\n## ハッシュ関数の役割\n\nRSA、ECDSA、HashEdDSAでは、署名生成に先立って承認されたハッシュ関数を用い、署名対象のデータから固定長のメッセージダイジェスト([ハッシュ値](/hubpedia/hash-value))を生成する。ハッシュ関数は出力の長さが固定であるビット列上の関数であり、あらかじめ指定された出力に写る入力を見つけることが計算量的に不可能な一方向性と、同じ出力に写る二つの異なる入力を見つけることが計算量的に不可能な衝突耐性を満たすよう設計されている。検証者も署名生成時と同じハッシュ関数を用いて検証対象データのメッセージダイジェストを生成し、これを署名の検証に用いる。これに対しEdDSAでは、メッセージそのものは署名生成・検証プロセスに入力される前にハッシュ化されない。 [30][43][45][47][73][74][91]\n\n## アルゴリズム\n\nデジタル署名の生成には3つの技術が承認されている。RSAデジタル署名アルゴリズムはIETF RFC 8017で規定され、以前はPublic Key Cryptography Standard(PKCS)#1で規定されていた。楕円曲線デジタル署名アルゴリズム(ECDSA)はNISTのFIPS 186-5で規定され、エドワーズ曲線デジタル署名アルゴリズム(EdDSA)はIETF RFC 8032で規定されている。以前使用されていたデジタル署名アルゴリズム(DSA)の完全な仕様はFIPS 186-4に記載されていたが、FIPS 186-5ではもはや署名生成のために承認されておらず、実施日以前に生成された署名の検証にのみ使用できる。 [6][7][8][9][10][18][23][28][93]\n\nRSA公開鍵は、二つの正の素整数pとqの積である法nと、公開鍵指数eの組(n, e)から構成され、デジタル署名の検証に使用される。対応するRSA秘密鍵は、同じ法nと、nおよびeに依存する秘密鍵指数dの組(n, d)から構成され、署名の生成に使用される。RSA鍵ペアの大きさは、一般に法nのビット長(nlen)とみなされる。整数p、q、秘密鍵指数dは秘密にしなければならないが、法nと公開鍵指数eは誰にでも知られてよい。標準は、pとqが同じビット長を持ち、法nのビット長が偶数かつ2048ビット以上であることを規定している。RSAアルゴリズムはドメインパラメータを使用しない。 [19][46][49][50][51][52][53][54][94][95][96]\n\nECDSAの署名生成では、署名ごとに秘密の乱数kを新たに生成し、楕円曲線上の点R = \\[k\\]Gを計算する。署名生成アルゴリズムを呼び出すたびに新しい値のkを生成しなければならない。検証では、まず署名の値rとsが区間\\[1, n−1\\]の整数であることを確認し、満たさなければ「reject」を出力する。次に点R1 = \\[u\\]G + \\[v\\]Qを計算し、R1が無限遠点であれば「reject」を出力する。最後にr = 1 mod nかどうかを検証し、成功すれば「accept」、失敗すれば「reject」を出力する。ECDSAはもともとAmerican National Standards(ANS)X9.62で規定されていたが、この規格は撤回されている。決定論的な手順で乱数kを導出する変種は「決定論的ECDSA」と呼ばれ、IETF RFC 6979で規定されており、承認されている。連邦政府によるECDSAの利用に推奨される楕円曲線は、NIST SP 800-186に示されている。 [4][24][25][26][58][59][60][61][62][67]\n\nEdDSAは、ツイストエドワーズ曲線に基づくシュノア署名の一変種を用いるデジタル署名方式であり、edwards25519曲線を用いるEd25519とedwards448曲線を用いるEd448がある。Ed25519はハッシュ関数としてSHA-512を使用しなければならず、Ed448はFIPS 202で規定されるSHAKE256を使用しなければならない。EdDSA署名は決定的であり、署名生成過程では秘密鍵とメッセージのハッシュから計算された一意の値が用いられるため、ECDSAとは異なり署名ごとに新たな乱数を生成する必要がない。メッセージそのものではなくメッセージのハッシュに対して署名を生成する変種はPrehash EdDSA(HashEdDSA)と呼ばれる。 [20][21][22][27][63][64][65][88]\n\n## 検証と妥当性確認\n\n検証者がデジタル署名を検証するには、主張された署名者の公開鍵を取得しなければならず、ECDSAまたはEdDSA(HashEdDSAを含む)が使用された場合はドメインパラメータも取得する必要がある。検証済みの署名を有効と認める前に、検証者は署名者の主張された身元、ドメインパラメータの妥当性、公開鍵の妥当性、および署名生成時に主張された署名者が実際に秘密鍵を保持していたことについての保証を得ていなければならない。この数学的な検証と、こうした追加の保証を得ることを合わせて署名の妥当性確認(バリデーション)と呼び、鍵と署名アルゴリズムを用いてデータの署名を検証する処理そのものである検証(ベリフィケーション)とは区別される。検証と妥当性確認のプロセスが成功すれば署名は有効とみなされ、失敗すれば無効とみなされる。 [48][80][81][87][89][90][92]\n\n## 証明書と鍵の管理\n\n公開鍵を特定の所有者に結び付けるために[証明書](/hubpedia/digital-certificate)が用いられることがある。証明書は、公開鍵と、その鍵ペアの使用を認可された所有者とを一意に識別するデータの集合であり、認証局(CA)によってデジタル署名されることで、公開鍵が所有者に結び付けられる。証明書の発行を申請した主体は加入者と呼ばれる。鍵が破棄されると、その値に関する情報はもはや復元できない。 [29][69][70][82]\n\n## 応用\n\nデジタル署名は[ブロックチェーン](/hubpedia/blockchain)における取引の認証に用いられている。ビットコインのユーザーは電子現金を表す情報にデジタル署名し、その権利を他のユーザーへ移転できる。ブロックチェーンの各取引は、その取引を送信したユーザーによってデジタル署名される。 [84][85]\n\n## 限界\n\n現行の標準に含まれるアルゴリズムは、大規模な量子コンピュータからの攻撃に対する耐性を提供するとは想定されていない。 [68]\n\n## 関連記事\n\n- [公開鍵基盤](/hubpedia/public-key-infrastructure)\n- [暗号鍵のライフサイクル](/hubpedia/key-lifecycle)\n- [否認防止](/hubpedia/non-repudiation)",
+    "sources": [
+      {
+        "url": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+        "title": "Digital Signature Standard (FIPS 186-5) — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The federal standard for generating and verifying digital signatures. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+        "title": "Blockchain Technology Overview (NISTIR 8202) — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The standards body account of blockchain and the primitives it is built from. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Digital Signature",
+        "summary": "A digital signature is a mechanism that uses public-key cryptography to verify the creator of electronic data and to detect tampering after creation. It provides, in electronic form, a function equivalent to a handwritten signature: only a signer holding the private key can generate a valid signature, while anyone holding the corresponding public key can verify that signature. Standards such as the Federal Information Processing Standards (FIPS) issued by the U.S. National Institute of Standards and Technology (NIST) define multiple algorithms, including RSA, ECDSA, and EdDSA.",
+        "bodyMarkdown": "## Mechanism\n\nA key is a parameter used in conjunction with a cryptographic algorithm that determines its operation. Digital signatures use [public-key cryptography](/hubpedia/public-key-cryptography): each signer holds a [key pair](/hubpedia/key-pair) consisting of a public key and a private key, and is its owner. A private key is a key used in an asymmetric cryptographic algorithm that is uniquely associated with its owner, is not made public, and must be kept secret, being used only to generate signatures. A public key is a key associated with a private key that is used only to verify signatures; it may be made public, but its integrity must be maintained. [3][13][17][31][33][35][37][38][98]\n\nA digital signature algorithm consists of a process that generates a signature and a process that verifies that signature. The signer executes the generation process using the private key to create a digital signature over the data. Only the owner of the key pair is permitted to use the private key for this generation. The verifier executes the verification process using the public key to confirm the authenticity of the signature. Because anyone can verify the signature using the signer's public key, verification does not require sharing the private key. [2][12][14][15][16][34][40][41]\n\nAn approved digital signature algorithm is designed to prevent a third party who does not know the signer's private key from generating a valid signature on a different message while impersonating that signer. Because of this property, digital signatures are used not only to guarantee the creator of a piece of information but also as a means of detecting whether that information has been tampered with after it was signed. [39][42]\n\n## Role of Hash Functions\n\nIn RSA, ECDSA, and HashEdDSA, an approved hash function is used prior to signature generation to produce a fixed-length message digest (a [hash value](/hubpedia/hash-value)) from the data being signed. A hash function is a function on bit strings whose output has a fixed length, and it is designed to satisfy one-wayness — it is computationally infeasible to find an input that maps to a pre-specified output — and collision resistance — it is computationally infeasible to find two different inputs that map to the same output. The verifier likewise generates a message digest of the data being verified using the same hash function used at signature generation, and uses it to verify the signature. In EdDSA, by contrast, the message itself is not hashed before being input to the signature generation and verification processes. [30][43][45][47][73][74][91]\n\n## Algorithms\n\nThree techniques are approved for generating digital signatures. The RSA digital signature algorithm is specified in IETF RFC 8017 and was formerly specified in Public Key Cryptography Standard (PKCS) #1. The Elliptic Curve Digital Signature Algorithm (ECDSA) is specified in NIST's FIPS 186-5, and the Edwards-Curve Digital Signature Algorithm (EdDSA) is specified in IETF RFC 8032. The complete specification of the previously used Digital Signature Algorithm (DSA) appeared in FIPS 186-4, but FIPS 186-5 no longer approves it for signature generation; it may only be used to verify signatures generated before the effective date. [6][7][8][9][10][18][23][28][93]\n\nAn RSA public key consists of the pair (n, e) — the modulus n, which is the product of two positive prime integers p and q, and the public key exponent e — and is used to verify digital signatures. The corresponding RSA private key consists of the pair (n, d) — the same modulus n and the private key exponent d, which depends on n and e — and is used to generate signatures. The size of an RSA key pair is generally taken to be the bit length of the modulus n (nlen). The integers p, q, and the private key exponent d must be kept secret, but the modulus n and the public key exponent e may be known to anyone. The standard specifies that p and q must have the same bit length and that the bit length of the modulus n must be even and at least 2048 bits. The RSA algorithm does not use domain parameters. [19][46][49][50][51][52][53][54][94][95][96]\n\nIn ECDSA signature generation, a new secret random number k is generated for each signature, and the point R = \\[k\\]G on the elliptic curve is computed. A new value of k must be generated each time the signature generation algorithm is invoked. In verification, it is first confirmed that the signature values r and s are integers in the interval \\[1, n−1\\]; if not, \"reject\" is output. Next, the point R1 = \\[u\\]G + \\[v\\]Q is computed, and if R1 is the point at infinity, \"reject\" is output. Finally, it is verified whether r = 1 mod n; if this succeeds, \"accept\" is output, and if it fails, \"reject\" is output. ECDSA was originally specified in American National Standards (ANS) X9.62, but that standard has been withdrawn. A variant that derives the random number k by a deterministic procedure is called \"deterministic ECDSA,\" is specified in IETF RFC 6979, and is approved. The elliptic curves recommended for federal government use of ECDSA are given in NIST SP 800-186. [4][24][25][26][58][59][60][61][62][67]\n\nEdDSA is a digital signature scheme that uses a variant of Schnorr signatures based on twisted Edwards curves, and comprises Ed25519, which uses the edwards25519 curve, and Ed448, which uses the edwards448 curve. Ed25519 must use SHA-512 as its hash function, and Ed448 must use SHAKE256 as specified in FIPS 202. EdDSA signatures are deterministic: the signature generation process uses a unique value computed from the private key and the hash of the message, so unlike ECDSA, there is no need to generate a new random number for each signature. The variant that generates a signature over the hash of the message rather than the message itself is called Prehash EdDSA (HashEdDSA). [20][21][22][27][63][64][65][88]\n\n## Verification and Validation\n\nTo verify a digital signature, the verifier must obtain the public key of the claimed signer, and if ECDSA or EdDSA (including HashEdDSA) is used, must also obtain the domain parameters. Before accepting a verified signature as valid, the verifier must have obtained assurance of the claimed signer's identity, the validity of the domain parameters, the validity of the public key, and the fact that the claimed signer actually held the private key at the time of signature generation. This mathematical check, together with obtaining these additional assurances, is together called validation of the signature, and is distinguished from verification, which is the process itself of checking the signature on data using the key and signature algorithm. If the verification and validation process succeeds, the signature is considered valid; if it fails, it is considered invalid. [48][80][81][87][89][90][92]\n\n## Certificates and Key Management\n\nA [certificate](/hubpedia/digital-certificate) may be used to bind a public key to a specific owner. A certificate is a set of data that uniquely identifies a public key and the owner authorized to use that key pair, and it is digitally signed by a certificate authority (CA), thereby binding the public key to its owner. The entity that applies for the issuance of a certificate is called a subscriber. Once a key is destroyed, information about its value can no longer be recovered. [29][69][70][82]\n\n## Applications\n\nDigital signatures are used to authenticate transactions on a [blockchain](/hubpedia/blockchain). Bitcoin users can digitally sign information representing electronic cash and transfer the associated rights to other users. Each transaction on a blockchain is digitally signed by the user who submits it. [84][85]\n\n## Limitations\n\nThe algorithms included in current standards are not assumed to provide resistance against attacks from large-scale quantum computers. [68]\n\n## Related Articles\n\n- [Public Key Infrastructure](/hubpedia/public-key-infrastructure)\n- [Cryptographic Key Lifecycle](/hubpedia/key-lifecycle)\n- [Non-repudiation](/hubpedia/non-repudiation)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-29T23:06:03.062Z",
+      "claims": [
+        {
+          "index": 2,
+          "statement": "デジタル署名アルゴリズムは、署名生成プロセスと署名検証プロセスから構成される。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "A digital signature algorithm includes a signature generation process and a signature verification\r\nprocess."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "秘密鍵は秘密に保たれなければならない。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "the\r\nprivate key must remain secret."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "ECDSA署名生成では楕円曲線上の点R = [k]Gを計算する。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "Compute the elliptic curve point R = [k]G."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "デジタル署名の生成には3つの技術が承認されている。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "Three techniques are approved."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "RSAデジタル署名アルゴリズムはIETF RFC 8017で規定されている。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "The RSA digital signature algorithm is specified in the Internet Engineering Task Force\r\n         Request for Comments (IETF RFC) 8017 [1]"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "楕円曲線デジタル署名アルゴリズム(ECDSA)はFIPS 186-5で規定されている。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "The Elliptic Curve Digital Signature Algorithm (ECDSA) is specified in this standard."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "エドワーズ曲線デジタル署名アルゴリズム(EdDSA)はIETF RFC 8032で規定されている。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "The Edwards Curve Digital Signature Algorithm (EdDSA) is specified in IETF RFC\r\n         8032 [6]."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "デジタル署名アルゴリズム(DSA)は本標準ではもはや規定されておらず、以前に生成されたデジタル署名の検証にのみ使用できる。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "The Digital Signature Algorithm (DSA) is no longer specified in this standard and may only be\r\nused to verify previously generated digital signatures."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "誰でも署名者の公開鍵を用いてその署名を検証できる。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "Anyone can verify the signature by employing the signatory’s public key."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "各署名者は公開鍵と秘密鍵を持ち、その鍵ペアの所有者である。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "Each signatory has a\r\npublic and private key and is the owner of that key pair."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "秘密鍵は署名生成プロセスで使用される。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "the private key is\r\nused in the signature generation process."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "鍵ペアの所有者だけが、デジタル署名を生成するために秘密鍵を使用することを許可されている。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "The key pair owner is the only entity that is authorized\r\nto use the private key to generate digital signatures."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "公開鍵は署名検証プロセスで使用される。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "The public key is used in the signature verification process"
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "公開鍵は秘密にする必要はないが、その完全性は維持されなければならない。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "The public key need\r\nnot be kept secret, but its integrity must be maintained."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "本標準はもはやDSA(デジタル署名アルゴリズム)を署名生成のために承認していない。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "This standard no longer approves the DSA for\r\ndigital signature generation."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "RSA公開鍵は、2つの正の素整数pとqの積である法nと、公開鍵指数eから構成される。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "An RSA public key consists of a modulus n, which is the product of two positive prime integers\r\np and q (i.e., n = pq) and a public key exponent e."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "EdDSA(Edwards-curve Digital Signature Algorithm)は、ツイストエドワーズ曲線に基づくシュノア署名の一変種を用いるデジタル署名方式である。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "The Edwards-curve Digital Signature Algorithm (EdDSA) is a digital signature scheme using a\r\nvariant of a Schnorr signature based on twisted Edwards curves."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "Ed25519ではハッシュ関数としてSHA-512を使用しなければならない。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "For Ed25519, SHA-512 shall be used."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "Ed448ではFIPS 202で規定されるSHAKE256を使用しなければならない。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "For Ed448, SHAKE256 (as specified in FIPS 202) shall be used."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "RSAデジタル署名アルゴリズムは以前はPublic Key Cryptography Standard(PKCS)#1で規定されていた。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "and was previously specified in Public Key\r\n         Cryptography Standard (PKCS) #1 [2]"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "ECDSAはもともとAmerican National Standards(ANS)X9.62で規定されていたが、この規格は撤回されている。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "ECDSA was originally specified in American National Standards (ANS) X9.62 [3]\r\n         (withdrawn)."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "決定論的ECDSAはIETF RFC 6979で規定されている。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "specified in IETF RFC 6979 [4]"
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "連邦政府によるECDSA(決定論的ECDSAを含む)利用のための推奨楕円曲線は、NIST SP 800-186に示されている。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "Recommended elliptic curves for Federal Government use of ECDSA (including\r\n         deterministic ECDSA) are provided in NIST Special Publication (SP) 800-186 [5]."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "HashEdDSAは、メッセージそのものではなくメッセージのハッシュに対して署名を生成するEdDSAの一種である。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "Also included is HashEdDSA, a version of EdDSA where the EdDSA\r\n         signature is generated on the hash of the message rather than the message itself."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "DSAの完全な仕様はFIPS 186-4に記載されている。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "Complete specifications may be found in\r\nFederal Information Processing Standard (FIPS) 186-4 [7]."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "鍵や秘密データが破棄されると、その値に関する情報はもはや復元できない。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "After a key or a\r\n                     piece of secret data is destroyed, no information about its value can\r\n                     be recovered."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "ハッシュ関数とは、出力の長さが固定であるビット列上の関数である。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "A function on bit strings in which the length of the output is fixed."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "鍵ペア(key pair)とは、公開鍵とそれに対応する秘密鍵のことである。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "A public key and its corresponding private key."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "秘密鍵は非対称(公開鍵)暗号アルゴリズムで使用される暗号鍵であり、所有者に一意に関連付けられ、公開されない。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "A cryptographic key that is used with an asymmetric (public key)\r\n                      cryptographic algorithm. The private key is uniquely associated with\r\n                      the owner and is not made public."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "秘密鍵はデジタル署名の計算に用いられ、その署名は対応する公開鍵を用いて検証できる。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "The private key is used to\r\n                      compute a digital signature that may be verified using the\r\n                      corresponding public key."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "公開鍵は非対称(公開鍵)暗号アルゴリズムで使用される暗号鍵であり、秘密鍵と関連付けられる。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "A cryptographic key that is used with an asymmetric (public key)\r\n                      cryptographic algorithm and is associated with a private key."
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "秘密鍵は署名生成にのみ使用し、秘密に保たなければならない",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "The private key shall be used only for signature generation, as specified in this standard,\r\n         and shall be kept secret."
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "公開鍵は署名検証にのみ使用され、公開してもよい",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "The public key shall be used only for signature verification, as\r\n         specified in this standard, and may be made public."
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "デジタル署名は、署名後に情報が改ざんされたかどうかを検出するためにも使用できる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "a digital signature may\r\nbe used to detect whether or not the information was modified after it was signed"
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "署名者は生成プロセスを用いてデータに対するデジタル署名を生成する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "A signatory uses the generation process to generate a digital signature on data"
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "検証者は検証プロセスを用いて署名の真正性を検証する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "a verifier\r\nuses the verification process to verify the authenticity of the signature"
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "承認されたデジタル署名アルゴリズムは、署名者の秘密鍵を知らない攻撃者が別のメッセージに対して署名者としての有効な署名を生成することを防ぐように設計されている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "The approved digital signature algorithms are designed to\r\nprevent an adversary who does not know the signatory’s private key from generating a valid\r\nsignature as the signatory on a different message."
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "EdDSAでは、メッセージ/データは署名生成・検証プロセスに入力される前にハッシュ化されない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "For EdDSA, the message/data is not hashed before being input into the signature generation and verification\r\nprocesses."
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "statement": "RSA、ECDSA、HashEdDSAでは、署名生成・検証の両プロセスにおいて、メッセージは承認されたハッシュ関数によって固定長の表現に変換される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "For both the signature generation and verification processes of RSA, ECDSA, and HashEdDSA,\r\nthe message (i.e., the signed data) is converted to a fixed-length representation of the message by\r\nmeans of an approved hash function."
+            }
+          ]
+        },
+        {
+          "index": 46,
+          "statement": "RSAアルゴリズムはドメインパラメータを使用しない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "Note that the RSA algorithm does not use domain parameters."
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "statement": "RSA、ECDSA、HashEdDSAでは、デジタル署名の生成に先立ち、承認されたハッシュ関数を用いて署名対象の情報に対するメッセージダイジェストが生成されなければならない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "For RSA, ECDSA, and HashEdDSA, prior to the generation of a digital signature, a message\r\ndigest shall be generated on the information to be signed using an appropriate approved hash\r\nfunction."
+            }
+          ]
+        },
+        {
+          "index": 48,
+          "statement": "検証と保証のプロセスが成功すればデジタル署名は有効とみなされ、検証または保証のプロセスが失敗すれば無効とみなされる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "If\r\nthe verification and assurance processes are successful, the digital signature shall be considered\r\nvalid. However, if a verification or assurance process fails, the digital signature shall be\r\nconsidered invalid."
+            }
+          ]
+        },
+        {
+          "index": 49,
+          "statement": "RSAのデジタル署名鍵ペアは、デジタル署名を計算するために使われるRSA秘密鍵と、デジタル署名を検証するために使われるRSA公開鍵から構成される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "An RSA digital signature key pair consists of an RSA private key, which is used to compute a\r\ndigital signature, and an RSA public key, which is used to verify a digital signature."
+            }
+          ]
+        },
+        {
+          "index": 50,
+          "statement": "RSA鍵ペアの大きさは、一般に法nのビット長(nlen)とみなされる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "The size of an RSA key pair is commonly\r\nconsidered to be the length of the modulus n in bits (nlen)."
+            }
+          ]
+        },
+        {
+          "index": 51,
+          "statement": "対応するRSA秘密鍵は、同じ法nと、nおよび公開鍵指数eに依存する秘密鍵指数dから構成される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "The corresponding RSA private key consists of the same modulus n and a private key exponent d\r\nthat depends on n and the public key exponent e."
+            }
+          ]
+        },
+        {
+          "index": 52,
+          "statement": "整数pおよびqと秘密鍵指数dは秘密にしなければならない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "the two integers p and q and the\r\nprivate key exponent d shall be kept secret."
+            }
+          ]
+        },
+        {
+          "index": 53,
+          "statement": "法nと公開鍵指数eは誰にでも知られてよい。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "The modulus n and the public key exponent e may be made\r\nknown to anyone."
+            }
+          ]
+        },
+        {
+          "index": 54,
+          "statement": "本標準は、ビット長が偶数であり2048ビット以上である法の使用を規定している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "This standard specifies the use of a modulus whose bit length is an even integer and greater than\r\nor equal to 2048 bits."
+            }
+          ]
+        },
+        {
+          "index": 58,
+          "statement": "ECDSA署名生成では、メッセージごとの秘密数kを生成する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "Generate a per-message secret number k"
+            }
+          ]
+        },
+        {
+          "index": 59,
+          "statement": "ECDSAでは署名生成アルゴリズムを呼び出すたびに新しい値kを生成しなければならない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "A value k shall be generated at each invocation of the signature generation algorithm."
+            }
+          ]
+        },
+        {
+          "index": 60,
+          "statement": "ECDSA署名検証では、rとsが共に区間[1, n−1]の整数であることを確認し、満たさなければ「reject」を出力する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "1. Verify that both r and s are integers in the interval [1, n − 1]. Output “reject” if\r\n         verification fails."
+            }
+          ]
+        },
+        {
+          "index": 61,
+          "statement": "ECDSA署名検証ではR1 = [u]G + [v]Qを計算し、R1が無限遠点(単位元)であれば「reject」を出力する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "6. Compute R1 = [u]G + [v]Q. Output “reject” if R1 is the identity element (the point at\r\n         infinity)."
+            }
+          ]
+        },
+        {
+          "index": 62,
+          "statement": "ECDSA署名検証の最終ステップでは、r = 1 mod nの検証に失敗すれば「reject」を、成功すれば「accept」を出力する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "9. Verify that r = 1 mod n. Output “reject” if verification fails; output “accept” otherwise."
+            }
+          ]
+        },
+        {
+          "index": 63,
+          "statement": "Prehash EdDSA(HashEdDSA)は、メッセージそのものではなくメッセージのハッシュに対してEdDSA署名を生成する方式である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "Prehash EdDSA (HashEdDSA) is a version of EdDSA where the EdDSA signature is generated\r\non the hash of the message rather than the message itself."
+            }
+          ]
+        },
+        {
+          "index": 64,
+          "statement": "IETF RFC 8032は、楕円曲線を用いたEdDSAを記述し、edwards25519曲線とedwards448曲線のパラメータを規定している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "IETF RFC 8032 [6] describes the elliptic curve Edwards-curve Digital Signature Algorithm\r\n(EdDSA) and specifies parameters for the edwards25519 and edwards448 curves"
+            }
+          ]
+        },
+        {
+          "index": 65,
+          "statement": "EdDSA署名は決定的であり、署名生成過程では秘密鍵とメッセージのハッシュから計算された一意の値が用いられる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "EdDSA signatures are deterministic; a unique value\r\ncomputed from the hash of the private key and the message is used in the signature generation\r\nprocess."
+            }
+          ]
+        },
+        {
+          "index": 67,
+          "statement": "決定論的な署名生成手順を持つECDSAの変種は「決定論的ECDSA」と呼ばれ、承認されている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "A variant of ECDSA with a deterministic signature generation procedure\r\n         known as deterministic ECDSA is also approved"
+            }
+          ]
+        },
+        {
+          "index": 68,
+          "statement": "本標準に含まれるアルゴリズムは、大規模な量子コンピュータからの攻撃に対する耐性を提供するとは想定されていない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "the algorithms in this\r\nstandard are not expected to provide resistance to attacks from a large-scale quantum computer."
+            }
+          ]
+        },
+        {
+          "index": 69,
+          "statement": "証明書(certificate)は、公開鍵と、その鍵ペアの使用を認可された所有者とを一意に識別するデータの集合である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "A set of data that uniquely identifies a public key (which has a\r\n                     corresponding private key) and an owner that is authorized to use\r\n                     the key pair."
+            }
+          ]
+        },
+        {
+          "index": 70,
+          "statement": "証明書は認証局(CA)によってデジタル署名され、これにより公開鍵が所有者に結び付けられる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "is digitally signed by a Certification\r\n                     Authority (i.e., a trusted party), thereby binding the public key to the\r\n                     owner."
+            }
+          ]
+        },
+        {
+          "index": 73,
+          "statement": "承認されたハッシュ関数は、あらかじめ指定された任意の出力に写る入力を見つけることが計算量的に不可能であるという一方向性の性質を満たすよう設計されている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "It is computationally infeasible to find any input\r\n                           that maps to any new pre-specified output"
+            }
+          ]
+        },
+        {
+          "index": 74,
+          "statement": "承認されたハッシュ関数は、同じ出力に写る2つの異なる入力を見つけることが計算量的に不可能であるという衝突耐性の性質を満たすよう設計されている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "It is computationally infeasible to find any\r\n                           two distinct inputs that map to the same output."
+            }
+          ]
+        },
+        {
+          "index": 80,
+          "statement": "署名妥当性確認(signature validation)とは、デジタル署名の数学的検証と、公開鍵の妥当性や秘密鍵の保持といった適切な保証を得ることである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "The (mathematical) verification of the digital signature and\r\n                        obtaining the appropriate assurances (e.g., public key validity,\r\n                        private key possession, etc.)."
+            }
+          ]
+        },
+        {
+          "index": 81,
+          "statement": "署名検証(signature verification)とは、デジタル署名アルゴリズムと公開鍵を用いてデータのデジタル署名を検証する処理である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "The process of using a digital signature algorithm and a public key\r\n                        to verify a digital signature on data."
+            }
+          ]
+        },
+        {
+          "index": 82,
+          "statement": "加入者(subscriber)とは、認証局(Certificate Authority)に証明書を申請して発行された主体である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "An entity that has applied for and received a certificate from a\r\n                        Certificate Authority."
+            }
+          ]
+        },
+        {
+          "index": 84,
+          "statement": "ビットコインのユーザーは電子現金を表す情報にデジタル署名し、その権利を他のユーザーへ移転できる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "Bitcoin users can digitally sign and transfer rights to that information to another user"
+            }
+          ]
+        },
+        {
+          "index": 85,
+          "statement": "ブロックチェーンの各取引は、その取引を送信したユーザーによってデジタル署名される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "it is digitally signed by the user"
+            }
+          ]
+        },
+        {
+          "index": 87,
+          "statement": "デジタル署名の検証(バリデーション)には、署名を数学的に検証することと、適切な保証を得ることの両方が含まれる。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "Digital signature validation includes both (mathematically) verifying the digital signature and\r\nobtaining the appropriate assurances."
+            }
+          ]
+        },
+        {
+          "index": 88,
+          "statement": "ECDSAではメッセージごとのランダムな秘密数(乱数)を取得する必要があるが、EdDSAとRSAではその必要はない。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "a random per-message secret number shall be obtained for ECDSA but is\r\nnot required for EdDSA and RSA."
+            }
+          ]
+        },
+        {
+          "index": 89,
+          "statement": "デジタル署名を検証するために、検証者は主張された署名者の公開鍵を取得しなければならない。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "In order to verify a digital signature, the verifier shall obtain the public key of the claimed\r\nsignatory"
+            }
+          ]
+        },
+        {
+          "index": 90,
+          "statement": "ECDSAまたはEdDSA(HashEdDSAを含む)がデジタル署名の生成に使用された場合、検証者はドメインパラメータも取得しなければならない。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "If ECDSA or EdDSA (including\r\nHashEdDSA) have been used to generate the digital signature, the verifier shall also obtain the\r\ndomain parameters."
+            }
+          ]
+        },
+        {
+          "index": 91,
+          "statement": "RSA、ECDSA、HashEdDSAでは、署名生成時に使用したものと同じハッシュ関数を用いて、検証対象データに対するメッセージダイジェストが生成されなければならない。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "For\r\nRSA, ECDSA, and HashEdDSA, a message digest shall be generated on the data whose\r\nsignature is to be verified (i.e., not on the received digital signature) using the same hash\r\nfunction that was used during the digital signature generation process."
+            }
+          ]
+        },
+        {
+          "index": 92,
+          "statement": "検証済みのデジタル署名を有効と認める前に、検証者は、署名者の主張された身元、ドメインパラメータの妥当性、公開鍵の妥当性、および署名生成時に主張された署名者が実際に秘密鍵を保持していたことについての保証を得ていなければならない。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "Before accepting the verified digital signature as valid, the verifier shall have (1) assurance of\r\nthe signatory’s claimed identity, (2) assurance of the validity of the domain parameters (for\r\nECDSA and EdDSA, including HashEdDSA), (3) assurance of the validity of the public key, and\r\n(4) assurance that the claimed signatory actually possessed the private key that was used to\r\ngenerate the digital signature at the time that the signature was generated."
+            }
+          ]
+        },
+        {
+          "index": 93,
+          "statement": "DSAは、本標準の実施日以前に生成された署名を検証するために使用できる。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "the DSA may be used to verify signatures generated prior\r\nto the implementation date of this standard"
+            }
+          ]
+        },
+        {
+          "index": 94,
+          "statement": "RSA公開鍵は値の組(n, e)であり、デジタル署名を検証するために使用される。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "Thus, the RSA public key is the pair of values\r\n(n, e) and is used to verify digital signatures."
+            }
+          ]
+        },
+        {
+          "index": 95,
+          "statement": "RSA秘密鍵は値の組(n, d)であり、デジタル署名を生成するために使用される。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "the RSA private key is the pair of values\r\n(n, d) and is used to generate digital signatures."
+            }
+          ]
+        },
+        {
+          "index": 96,
+          "statement": "本標準は、pとqが同じビット長、すなわち法nのビット長の半分であることを規定している。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "this standard specifies that p and q be of the same bit length –\r\nnamely, half the bit length of n."
+            }
+          ]
+        },
+        {
+          "index": 98,
+          "statement": "鍵(key)とは、暗号アルゴリズムと組み合わせて使用され、その動作を決定するパラメータである。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "A parameter used in conjunction with a cryptographic algorithm that\r\n                    determines its operation."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

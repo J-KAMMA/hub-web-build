@@ -1,0 +1,1336 @@
+[
+  {
+    "slug": "dna",
+    "topicType": "concept",
+    "categoryLabel": "生命科学",
+    "title": "デオキシリボ核酸",
+    "summary": "デオキシリボ核酸(DNA)は、生物が発生し、生存し、生殖するための指示を担う分子である。アデニン、チミン、グアニン、シトシンという4種類の窒素塩基の並び順が情報を保持し、二重らせん構造の相補的な塩基対によって、複製と、mRNAを介したタンパク質合成という二つの働きが成り立っている。真核生物では核と、ごく少量がミトコンドリアに存在し、生殖を通じて親から子へ受け継がれる。",
+    "bodyMarkdown": "## 情報を担う分子としての位置づけ\n\nデオキシリボ核酸(DNA)は、各種の生物を独自のものにする生物学的な指示を含む分子である。その指示には、生物が発生し、生存し、生殖するために必要な内容が含まれる。指示の実体は、分子の中に化学的に書き込まれた並び順であって、分子そのものの量や大きさではない。 [1][15]\n\nDNAとそれが含む指示は、生殖の際に成体の生物から子孫へと受け継がれる。この受け渡しがあるために、DNAは一世代の生命活動を支える物質であると同時に、世代をまたいで情報を運ぶ媒体でもある。 [3]\n\n## 化学的な構成\n\nDNAはヌクレオチドと呼ばれる化学的な構成要素から作られている。ヌクレオチドは、リン酸基、糖基、そして4種類のうち1つの窒素塩基という3つの部分から構成される。4種類の窒素塩基はアデニン(A)、チミン(T)、グアニン(G)、シトシン(C)である。 [2][9][10]\n\n鎖を形成するとき、ヌクレオチドはリン酸基と糖基が交互に並ぶ形で連結される。つまり鎖の背骨にあたる部分はどこも同じ繰り返しであり、位置ごとに異なるのは側についた塩基だけである。この塩基の並び順(配列)が、その鎖に含まれる生物学的指示の内容を決定する。 [25][26]\n\n## 二重らせんと塩基対\n\n「二重らせん」という用語は、DNAの巻いた2本鎖の化学構造を表す。この構造をはしごに見立てると、はしごの「段」はそれぞれ2つの窒素塩基が水素結合によって対になったものでできている。 [20][31]\n\n対形成の組み合わせは自由ではない。化学的対形成の特異性が高いため、塩基Aは常に塩基Tと対をなし、同様にCはGと対をなす。この規則があることで、2本の鎖は互いに独立した情報ではなく、片方が決まればもう片方も決まる関係になる。 [13]\n\n## 複製\n\nDNAの独自の構造により、この分子は細胞分裂の際に自らを複製することができる。細胞が分裂の準備をすると、DNAらせんは中央で分かれて2本の一本鎖になる。複製の際、DNAはコピーできるようにほどける。 [21][32][33]\n\n分かれた一本鎖は、それぞれが新たな二本鎖DNA分子を作るための鋳型として働き、できあがった2本はいずれも元のDNA分子の複製となる。塩基対の規則が、鋳型から作られる相手側の配列を一意に決める役割を果たしている。 [13][37]\n\n## タンパク質合成への読み出し\n\nタンパク質を作る指示を含むそれぞれのDNA配列は遺伝子として知られている。タンパク質が作られる際には、二重らせんがほどけて一本鎖のDNAが鋳型として働けるようになる。 [12][34]\n\n読み出しは二段階に分かれる。まず、酵素がDNA分子中の情報を読み取り、メッセンジャーリボ核酸(mRNA)と呼ばれる中間分子へと転写する。この鋳型鎖から転写されたmRNAは、細胞のタンパク質合成装置に指示を伝える分子である。次に、mRNAに含まれる情報が、タンパク質の構成要素であるアミノ酸の「言語」へと翻訳される。 [17][28][35]\n\nアミノ酸には20種類があり、さまざまな順序で配置されて多様なタンパク質を形成しうる。4種類の塩基による配列が、20種類のアミノ酸の並びへと置き換えられる点が、この読み出し過程の中心にある。 [28][29]\n\n## 細胞内での所在と染色体\n\n真核生物では、DNAは細胞内の核と呼ばれる特別な領域に存在し、これは核DNAと呼ばれる。DNAが密に梱包された形態は[染色体](/hubpedia/chromosome)と呼ばれる。ある生物の核DNAの完全な一組は[ゲノム](/hubpedia/genome)と呼ばれる。 [4][5][6][22]\n\nヒトを含む複雑な生物は、ミトコンドリアと呼ばれる細胞構造の中にも少量のDNAを持つ。ミトコンドリアは、細胞が正常に機能するために必要なエネルギーを生成する構造である。 [14][23]\n\n## ヒトゲノムの規模\n\nヒトの完全なDNA説明書、すなわちゲノムは、約30億の塩基と約20,000個の遺伝子を23対の染色体上に含む。遺伝子の大きさは大きく異なり、ヒトでは約1,000塩基から100万塩基の範囲に及ぶ。 [11][16]\n\n遺伝子はDNA配列全体のおよそ1パーセントしか占めていない。したがって、ゲノムの塩基数と遺伝子数は直接には対応せず、タンパク質を作る指示に相当する部分は配列全体のごく一部である。 [12][27]\n\nまた、任意の2人のヒトのDNAは99.9%同一である。個体差はこの配列全体のごくわずかな部分に現れる。 [36]\n\n## 遺伝の経路\n\n有性生殖では、生物は核DNAの半分を父方から、半分を母方から受け継ぐ。一方、ミトコンドリアDNAはすべて母方から受け継ぐ。 [7][8]\n\nこの差は、由来する細胞構造の違いによる。受精の際に精子細胞ではなく卵細胞のみがミトコンドリアを保持するため、ミトコンドリアDNAは母方の経路のみをたどる。核DNAとミトコンドリアDNAは、同じ個体の中にありながら異なる遺伝経路を持つ。 [7][8][24]\n\n## 構造解明の経緯\n\nスイスの生化学者フリードリヒ・ミーシャーが1800年代後半に初めてDNAを観察した。ただしその重要性が明らかになったのは、それより後のことである。 [18][19]\n\nDNAの重要性は1953年、ジェームズ・ワトソン、フランシス・クリック、モーリス・ウィルキンス、ロザリンド・フランクリンの研究によって明らかになった。X線回折パターンの研究とモデル構築により、科学者たちはDNAの二重らせん構造を解明した。 [19][30]\n\n## 関連記事\n\n- [遺伝子](/hubpedia/gene)\n- リボ核酸",
+    "sources": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid",
+        "title": "Deoxyribonucleic Acid (DNA) — NHGRI Talking Glossary",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "The institute's short definition of the term. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+        "title": "Deoxyribonucleic Acid (DNA) Fact Sheet — NHGRI",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "Substantive coverage of DNA, genes and how they are read. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Deoxyribonucleic acid",
+        "summary": "Deoxyribonucleic acid (DNA) is the molecule that carries the instructions an organism needs to develop, survive, and reproduce. The order of four nitrogen bases — adenine, thymine, guanine, and cytosine — holds this information, and the complementary base pairs of the double helix structure make two functions possible: replication, and protein synthesis by way of mRNA. In eukaryotes it resides in the nucleus, with a very small amount in the mitochondria, and it is passed from parent to offspring through reproduction.",
+        "bodyMarkdown": "## Its place as an information-carrying molecule\n\nDeoxyribonucleic acid (DNA) is the molecule that contains the biological instructions that make each species unique. Those instructions include what an organism needs in order to develop, survive, and reproduce. The instructions themselves are an order written chemically into the molecule, not the quantity or size of the molecule itself. [1][15]\n\nDNA and the instructions it contains are passed from adult organisms to their offspring during reproduction. Because of this handing over, DNA is both the substance that supports the life activity of a single generation and the medium that carries information across generations. [3]\n\n## Chemical composition\n\nDNA is made of chemical building blocks called nucleotides. A nucleotide is composed of three parts: a phosphate group, a sugar group, and one of four types of nitrogen base. The four nitrogen bases are adenine (A), thymine (T), guanine (G), and cytosine (C). [2][9][10]\n\nWhen they form a strand, nucleotides are linked together with the phosphate groups and sugar groups alternating. That is, the backbone of the strand is the same repeating pattern throughout, and the only thing that differs from position to position is the base attached to the side. The order of these bases — the sequence — determines the content of the biological instructions contained in that strand. [25][26]\n\n## The double helix and base pairs\n\nThe term \"double helix\" describes the chemical structure of DNA's two coiled strands. If this structure is pictured as a ladder, each \"rung\" of the ladder is made of two nitrogen bases paired together by hydrogen bonds. [20][31]\n\nThe pairing combinations are not arbitrary. Because the specificity of the chemical pairing is high, base A always pairs with base T, and likewise C pairs with G. This rule means that the two strands do not hold information independently of each other; once one is fixed, the other is fixed as well. [13]\n\n## Replication\n\nDNA's distinctive structure allows the molecule to copy itself during cell division. When a cell prepares to divide, the DNA helix separates down the middle into two single strands. During replication, DNA unwinds so that it can be copied. [21][32][33]\n\nEach of the separated single strands serves as a template for building a new double-stranded DNA molecule, and both of the resulting strands are copies of the original DNA molecule. The base-pairing rule plays the role of uniquely determining the partner sequence built from the template. [13][37]\n\n## Reading out for protein synthesis\n\nEach DNA sequence that contains instructions for making a protein is known as a gene. When a protein is made, the double helix unwinds so that single-stranded DNA can serve as a template. [12][34]\n\nThe readout is divided into two stages. First, enzymes read the information in the DNA molecule and transcribe it into an intermediate molecule called messenger ribonucleic acid (mRNA). The mRNA transcribed from this template strand is the molecule that carries the instructions to the cell's protein-making machinery. Next, the information contained in the mRNA is translated into the \"language\" of amino acids, the building blocks of proteins. [17][28][35]\n\nThere are 20 types of amino acid, and they can be arranged in many different orders to form a wide variety of proteins. Central to this readout process is the point at which a sequence made of four bases is converted into an order of 20 types of amino acid. [28][29]\n\n## Location within the cell, and chromosomes\n\nIn eukaryotes, DNA resides in a special region of the cell called the nucleus, and this is known as nuclear DNA. The tightly packaged form of DNA is called a [chromosome](/hubpedia/chromosome). A complete set of an organism's nuclear DNA is called a [genome](/hubpedia/genome). [4][5][6][22]\n\nComplex organisms, humans among them, also carry a small amount of DNA inside cell structures called mitochondria. Mitochondria are the structures that generate the energy a cell needs to function properly. [14][23]\n\n## The scale of the human genome\n\nThe complete human DNA instruction manual, the genome, contains about 3 billion bases and about 20,000 genes on 23 pairs of chromosomes. Genes vary greatly in size, ranging in humans from about 1,000 bases to 1 million bases. [11][16]\n\nGenes make up only about 1 percent of the entire DNA sequence. Accordingly, the number of bases in the genome does not correspond directly to the number of genes, and the portion that amounts to instructions for making proteins is only a very small part of the whole sequence. [12][27]\n\nIn addition, the DNA of any two humans is 99.9% identical. Individual differences appear in only a tiny fraction of this entire sequence. [36]\n\n## Pathways of inheritance\n\nIn sexual reproduction, an organism inherits half of its nuclear DNA from its father and half from its mother. Mitochondrial DNA, on the other hand, is inherited entirely from the mother. [7][8]\n\nThis difference comes from the different cell structures they originate in. Because only the egg cell, not the sperm cell, retains mitochondria at fertilization, mitochondrial DNA follows the maternal pathway alone. Nuclear DNA and mitochondrial DNA exist within the same individual yet have different pathways of inheritance. [7][8][24]\n\n## How the structure came to be understood\n\nThe Swiss biochemist Friedrich Miescher first observed DNA in the late 1800s. Its significance, however, became clear only later. [18][19]\n\nThe importance of DNA became clear in 1953 through the work of James Watson, Francis Crick, Maurice Wilkins, and Rosalind Franklin. By studying X-ray diffraction patterns and building models, the scientists worked out the double helix structure of DNA. [19][30]\n\n## Related articles\n\n- [Gene](/hubpedia/gene)\n- Ribonucleic acid"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:24:34.621Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "デオキシリボ核酸(DNA)は、各種を独自のものにする生物学的指示を含む分子である。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "Deoxyribonucleic acid (DNA) is a molecule that contains the biological instructions that make each species unique."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "ヌクレオチドに見られる4種類の窒素塩基はアデニン(A)、チミン(T)、グアニン(G)、シトシン(C)である。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "The four types of nitrogen bases found in nucleotides are: adenine (A), thymine (T), guanine (G) and cytosine (C)."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "DNAとそれが含む指示は、生殖の際に成体の生物からその子孫へと受け継がれる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "DNA, along with the instructions it contains, is passed from adult organisms to their offspring during reproduction."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "真核生物では、DNAは細胞内の核と呼ばれる特別な領域に存在する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "In organisms called eukaryotes, DNA is found inside a special area of the cell called the nucleus."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "DNAが密に梱包された形態は染色体と呼ばれる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "This packaged form of the DNA is called a chromosome."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "ある生物の核DNAの完全な一組はゲノムと呼ばれる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "An organism's complete set of nuclear DNA is called its genome."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "有性生殖では、生物は核DNAの半分を父方から、半分を母方から受け継ぐ。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "In sexual reproduction, organisms inherit half of their nuclear DNA from the male parent and half from the female parent."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "生物はミトコンドリアDNAをすべて母方から受け継ぐ。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "organisms inherit all of their mitochondrial DNA from the female parent"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "DNAはヌクレオチドと呼ばれる化学的な構成要素から作られている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "DNA is made of chemical building blocks called nucleotides."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "ヌクレオチドはリン酸基、糖基、4種類のうちの1つの窒素塩基という3つの部分から構成される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "These building blocks are made of three parts: a phosphate group, a sugar group and one of four types of nitrogen bases."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "ヒトの完全なDNA説明書、すなわちゲノムは約30億の塩基と約20,000個の遺伝子を23対の染色体上に含む。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "The complete DNA instruction book, or genome, for a human contains about 3 billion bases and about 20,000 genes on 23 pairs of chromosomes."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "タンパク質を作る指示を含むそれぞれのDNA配列は遺伝子として知られている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "Each DNA sequence that contains instructions to make a protein is known as a gene."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "この化学的対形成の高い特異性のため、塩基Aは常に塩基Tと対をなし、同様にCはGと対をなす。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "Because of the highly specific nature of this type of chemical pairing, base A always pairs with base T, and likewise C with G."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "ヒトを含む複雑な生物は、ミトコンドリアと呼ばれる細胞構造の中にも少量のDNAを持つ。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "humans and other complex organisms also have a small amount of DNA in cell structures known as mitochondria"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "DNAは生物が発生し、生存し、生殖するために必要な指示を含んでいる。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "DNA contains the instructions needed for an organism to develop, survive and reproduce."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "遺伝子の大きさは大きく異なり、ヒトでは約1,000塩基から100万塩基の範囲に及ぶ。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "The size of a gene may vary greatly, ranging from about 1,000 bases to 1 million bases in humans."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "まず、酵素がDNA分子中の情報を読み取り、メッセンジャーリボ核酸(mRNA)と呼ばれる中間分子へと転写する。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "First, enzymes read the information in a DNA molecule and transcribe it into an intermediary molecule called messenger ribonucleic acid, or mRNA."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "スイスの生化学者フリードリヒ・ミーシャーが1800年代後半に初めてDNAを観察した。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "The Swiss biochemist Frederich Miescher first observed DNA in the late 1800s."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "DNAの重要性は1953年、ジェームズ・ワトソン、フランシス・クリック、モーリス・ウィルキンス、ロザリンド・フランクリンの研究によって明らかになった。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "The importance of DNA became clear in 1953 thanks to the work of James Watson*, Francis Crick, Maurice Wilkins and Rosalind Franklin."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "はしごの「段」はそれぞれ2つの窒素塩基が水素結合によって対になったものでできている。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "Each \"rung\" of the ladder is made up of two nitrogen bases, paired together by hydrogen bonds."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "DNA複製の際、DNAはコピーできるようにほどける。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "During DNA replication, DNA unwinds so it can be copied."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "細胞の核にあるDNAは核DNAと呼ばれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "Researchers refer to DNA found in the cell's nucleus as nuclear DNA."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "ミトコンドリアは細胞が正常に機能するために必要なエネルギーを生成する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "Mitochondria generate the energy the cell needs to function properly."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "これは受精の際に精子細胞ではなく卵細胞のみがミトコンドリアを保持するために起こる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "This occurs because only egg cells, and not sperm cells, keep their mitochondria during fertilization."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "DNAの鎖を形成するため、ヌクレオチドはリン酸基と糖基が交互に並ぶ形で鎖状に連結される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "To form a strand of DNA, nucleotides are linked into chains, with the phosphate and sugar groups alternating."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "これらの塩基の並び順(配列)が、DNAの鎖に含まれる生物学的指示の内容を決定する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "The order, or sequence, of these bases determines what biological instructions are contained in a strand of DNA."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "遺伝子はDNA配列全体のおよそ1パーセントしか占めていない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "Genes only make up about 1 percent of the DNA sequence."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "次に、mRNA分子に含まれる情報が、タンパク質の構成要素であるアミノ酸の「言語」へと翻訳される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "the information contained in the mRNA molecule is translated into the \"language\" of amino acids, which are the building blocks of proteins"
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "アミノ酸には20種類があり、さまざまな順序で配置されて多様なタンパク質を形成しうる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "there are 20 types of amino acids, which can be placed in many different orders to form a wide variety of proteins"
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "X線回折パターンの研究とモデル構築により、科学者たちはDNAの二重らせん構造を解明した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "By studying X-ray diffraction patterns and building models, the scientists figured out the double helix structure of DNA"
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "「二重らせん」という用語は、DNAの巻いた2本鎖の化学構造を表す。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "Scientist use the term \"double helix\" to describe DNA's winding, two-stranded chemical structure."
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "DNAの独自の構造により、この分子は細胞分裂の際に自らを複製することができる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "DNA's unique structure enables the molecule to copy itself during cell division."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "細胞が分裂の準備をすると、DNAらせんは中央で分かれて2本の一本鎖になる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "When a cell prepares to divide, the DNA helix splits down the middle and becomes two single strands."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "タンパク質が作られる際には、二重らせんがほどけて一本鎖のDNAが鋳型として働けるようになる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "when proteins are being made, the double helix unwinds to allow a single strand of DNA to serve as a template"
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "この鋳型鎖はmRNAへと転写され、mRNAは細胞のタンパク質合成装置に重要な指示を伝える分子である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "This template strand is then transcribed into mRNA, which is a molecule that conveys vital instructions to the cell's protein-making machinery."
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "任意の2人のヒトのDNAは99.9%同一である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Deoxyribonucleic-Acid",
+              "quote": "the DNA from any two people is 99.9% identical"
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "これらの一本鎖は、それぞれ元のDNA分子の複製である新たな2本の二本鎖DNA分子を作るための鋳型として働く。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "These single strands serve as templates for building two new, double-stranded DNA molecules - each a replica of the original DNA molecule."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "gene",
+    "topicType": "concept",
+    "categoryLabel": "生命科学",
+    "title": "遺伝子",
+    "summary": "遺伝子は親から子孫へ受け継がれる情報の単位であり、生物の形や働きといった形質を指定するのに必要な情報を担う。分子のレベルでは、タンパク質を作るための情報をコードするゲノムの区間を指し、より広い定義ではタンパク質以外の機能を持つRNAをコードする区間も含む。ヒトではおよそ2万個のタンパク質コード遺伝子が約30億塩基のDNAの中に置かれているが、遺伝子そのものが占める割合はゲノム全体のごく一部にとどまる。",
+    "bodyMarkdown": "## 遺伝の単位としての遺伝子\n\n遺伝子は遺伝の基本単位とみなされている。親から子孫へ受け継がれ、身体的・生物学的な形質を指定するために必要な情報を含む。つまり遺伝子は、世代をまたいで伝わる対象であると同時に、個体の中で何が作られるかを決める指示でもある。 [1][2]\n\nこの二つの側面は、分子のレベルでは一つの物として重なる。遺伝子はタンパク質を作るための情報をコードする[ゲノム](/hubpedia/genome)の部分であり、多くの遺伝子は特定のタンパク質、あるいはタンパク質の一部をコードしている。作られたタンパク質は体内でそれぞれ異なる機能を持つため、遺伝子の違いは最終的に働きの違いとして現れる。 [4][9]\n\n## タンパク質をコードしない遺伝子\n\nタンパク質をコードする区間だけを遺伝子と呼ぶ定義は、最も狭い取り方にあたる。より広い定義では、タンパク質を直接コードする以外の機能を持つRNA分子を作るための情報をコードするDNA区間も遺伝子に含まれ、これらはRNA遺伝子と呼ばれることがある。したがって「遺伝子はいくつあるか」という問いの答えは、どちらの定義を採るかによって変わる。 [9][10]\n\n## ヒトにおける数と大きさ\n\nヒトにはおよそ2万個のタンパク質コード遺伝子がある。ヒトの完全な[DNA](/hubpedia/dna)、すなわちゲノムは、約30億塩基と約2万個の遺伝子を23対の[染色体](/hubpedia/chromosome)の上に収めている。 [3][6]\n\n個々の遺伝子の大きさは一様ではない。ヒトにおける遺伝子の長さは約1,000塩基から100万塩基までと大きく異なり、千倍の開きがある。遺伝子を一定の大きさの区画のように思い描くと、この幅を見誤ることになる。 [7]\n\n## ゲノムに占める割合と、残りの配列の役割\n\n数の多さに比べて、遺伝子がゲノムに占める割合は小さい。ヒトの2万個のタンパク質コード遺伝子に関する情報は、ヒトゲノム全体のわずか1.5%によってコードされているとされ、遺伝子はDNA配列全体の約1パーセントしか占めないとも記述される。示されている値には約1パーセントと約1.5パーセントの幅があり、どこまでを遺伝子として数えるかによって割合が変わりうる点は確定した形では示されていない。 [5][8]\n\n残りの大部分は無意味な配列ではない。遺伝子以外のDNA配列、すなわち全体の約99パーセントは、タンパク質がいつ、どのように、どれだけ作られるかを調節することに関わっている。形質を指定する情報が遺伝子にあるとしても、その情報がどの細胞でどの程度使われるかは、遺伝子の外側にある配列によって左右される。 [2][11]",
+    "sources": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Gene",
+        "title": "Gene — NHGRI Talking Glossary",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "The institute's short definition of the term. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+        "title": "Deoxyribonucleic Acid (DNA) Fact Sheet — NHGRI",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "Substantive coverage of DNA, genes and how they are read. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Gene",
+        "summary": "A gene is a unit of information passed from parents to offspring, carrying the information needed to specify an organism's traits, such as its form and function. At the molecular level, it refers to a segment of the genome that encodes the information for making a protein; under broader definitions, it also includes segments encoding RNA that has functions other than serving as a protein blueprint. In humans, roughly 20,000 protein-coding genes are situated within about 3 billion bases of DNA, yet the genes themselves account for only a small fraction of the genome as a whole.",
+        "bodyMarkdown": "## The gene as a unit of heredity\n\nThe gene is regarded as the basic unit of heredity. It is passed from parents to offspring and contains the information needed to specify physical and biological traits. A gene is therefore both the thing that is transmitted across generations and the instruction that determines what is made within an individual. [1][2]\n\nAt the molecular level, these two aspects converge in a single physical entity. A gene is the portion of the [genome](/hubpedia/genome) that encodes the information for making a protein, and many genes encode a specific protein or part of a protein. Because the proteins produced each carry out different functions in the body, differences between genes ultimately manifest as differences in function. [4][9]\n\n## Genes that do not encode proteins\n\nDefining a gene solely as a protein-coding segment is the narrowest approach. Under a broader definition, a gene also includes any DNA segment encoding the information for making an RNA molecule that has a function other than directly encoding a protein; these are sometimes called RNA genes. The answer to the question \"how many genes are there?\" therefore changes depending on which definition is adopted. [9][10]\n\n## Number and size in humans\n\nHumans have roughly 20,000 protein-coding genes. The complete human [DNA](/hubpedia/dna) — that is, the genome — holds about 3 billion bases and about 20,000 genes across 23 pairs of [chromosomes](/hubpedia/chromosome). [3][6]\n\nIndividual genes are not uniform in size. Gene length in humans varies widely, from about 1,000 bases to 1 million bases, a thousandfold spread. Picturing genes as segments of some fixed size leads to a misreading of this range. [7]\n\n## Share of the genome, and the role of the remaining sequence\n\nRelative to their number, genes occupy only a small share of the genome. The information for the 20,000 human protein-coding genes is said to be encoded by just 1.5% of the entire human genome, and genes are also described as making up only about 1 percent of the total DNA sequence. The figures given range from about 1 percent to about 1.5 percent, and the point that the share can vary depending on how much is counted as a gene is not presented in settled form. [5][8]\n\nThe great majority of the remainder is not meaningless sequence. The non-gene DNA sequence — about 99 percent of the total — is involved in regulating when, how, and how much protein is made. Even if the information specifying traits resides in the genes, how much of that information is used, and in which cells, is governed by sequence lying outside the genes. [2][11]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:24:34.621Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "遺伝子は遺伝の基本単位とみなされている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Gene",
+              "quote": "The gene is considered the basic unit of inheritance."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "遺伝子は親から子孫へ受け継がれ、身体的・生物学的形質を指定するために必要な情報を含む。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Gene",
+              "quote": "Genes are passed from parents to offspring and contain the information needed to specify physical and biological traits."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "ヒトにはおよそ2万個のタンパク質コード遺伝子がある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Gene",
+              "quote": "Humans have approximately 20,000 protein-coding genes."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "多くの遺伝子は特定のタンパク質またはタンパク質の一部をコードしており、それらは体内で異なる機能を持つ。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Gene",
+              "quote": "Most genes code for specific proteins, or segments of proteins, which have differing functions within the body."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "ヒトの2万個のタンパク質コード遺伝子に関する情報は、ヒトゲノム全体のわずか1.5%によってコードされている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Gene",
+              "quote": "all of the information for those 20,000 protein-coding genes is encoded by only 1.5% of the entire human genome"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "ヒトの完全なDNA(ゲノム)は約30億塩基と約2万個の遺伝子を23対の染色体上に含む。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "The complete DNA instruction book, or genome, for a human contains about 3 billion bases and about 20,000 genes on 23 pairs of chromosomes."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "ヒトにおける遺伝子の大きさは、約1,000塩基から100万塩基までと大きく異なる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "The size of a gene may vary greatly, ranging from about 1,000 bases to 1 million bases in humans."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "遺伝子はDNA配列全体の約1パーセントしか占めない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "Genes only make up about 1 percent of the DNA sequence."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "遺伝子はタンパク質を作るための情報をコードするゲノムの部分である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Gene",
+              "quote": "genes are the part of our genome that encodes the information for making those proteins"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "より広い定義では、遺伝子にはタンパク質を直接コードする以外の機能を持つRNA分子を作るための情報をコードするDNA区間も含まれ、これらはRNA遺伝子と呼ばれることがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Gene",
+              "quote": "A more expansive definition of a gene includes those segments of DNA that encode information for making an RNA molecule that functions in some fashion other than directly coding for a protein; these are sometimes referred to as RNA genes."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "遺伝子以外のDNA配列(全体の約99パーセント)は、タンパク質がいつ、どのように、どれだけ作られるかを調節することに関わっている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Deoxyribonucleic-Acid-Fact-Sheet",
+              "quote": "DNA sequences outside this 1 percent are involved in regulating when, how and how much of a protein is made."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "chromosome",
+    "topicType": "concept",
+    "categoryLabel": "生命科学",
+    "title": "染色体",
+    "summary": "染色体は、動物や植物の細胞の核内にある糸状の構造体で、1分子のDNAとタンパク質からできている。DNAをヒストンというタンパク質に巻き付けて折りたたむことで、そのままでは細胞に収まらない長さの遺伝情報を核の中に納め、細胞分裂のたびにそれを正確に複製して分配する役割を担う。数と形は生物種ごとにほぼ決まっており、その過不足や構造の異常はダウン症候群や一部のがんと結びつけられている。",
+    "bodyMarkdown": "## 細胞核の中の構造\n\nヒトの細胞1個に含まれる[DNA](/hubpedia/dna)をすべてヒストンから解き、端から端まで並べると、長さはおよそ6フィート（約1.8メートル）になる。染色体は動物と植物の細胞の核内にある糸状の構造体で、1本の染色体はタンパク質と1分子のDNAからできている。DNAはヒストンと呼ばれる糸巻き状のタンパク質にきつく巻き付けられて保持されており、この梱包がなければDNA分子は細胞内に収まらないほど長くなる。 [7][8][9][18][19]\n\nDNAは親から子へ受け継がれ、それぞれの生物種を特徴づける固有の指示情報を含んでいる。染色体は、その情報を担うDNA分子をタンパク質とともに核内に収めた形にほかならない。 [9][45]\n\n## 染色体の数と形\n\n染色体の数と形は生物によって異なり、動植物の各種にはそれぞれ決まった数がある。ショウジョウバエは4対、イネは12対、イヌは39対を持つ。ヒトは23対、合計46本である。 [3][13][15][24]\n\n数だけでなく、環状か線状かという形の違いもある。ほとんどの細菌は1個か2個の環状染色体を持つのに対し、ヒトを含む動物や植物の染色体は線状である。ヒトのような複雑な生物では、核内の線状染色体とは別に、細菌のものに似た小型の環状染色体がミトコンドリア内にも存在する。 [1][2][28]\n\nヒトを含む動植物の線状染色体は、細胞核内で対をなして配置されている。対になっていない染色体を持つヒトの細胞は生殖細胞（配偶子）だけで、そこでは各染色体を1コピーしか持たない。2つの生殖細胞が結合すると、各染色体を2コピー持つ1つの細胞になる。ヒトをはじめとするほとんどの複雑な生物では、各染色体の一方は母親から、もう一方は父親から受け継がれ、子は形質の一部を母親から、また別の一部を父親から受け継ぐ。 [25][26][27][35][52]\n\n## 性染色体と常染色体\n\nヒトの23対のうち23対目は性染色体と呼ばれ、残る22対は常染色体と呼ばれる。生物学的に女性の個体は通常X染色体を2本持ち、生物学的に男性の個体は通常X染色体とY染色体を1本ずつ持つ。ただし性染色体の構成については例外も存在する。 [4][5][14][44]\n\n対をなすとはいえ、XとYは大きさも中身も等しくない。ヒトのX染色体はY染色体のおよそ3倍の大きさがあり、X染色体には約900個の[遺伝子](/hubpedia/gene)が、Y染色体には約55個が含まれる。 [6][16][17]\n\n## セントロメアとテロメア\n\n線状染色体には括れた領域があり、セントロメア（動原体）と呼ばれる。その両側の領域は染色体の「腕」と呼ばれる。セントロメアは通常は染色体の中央には位置せず、場合によっては端の近くにあることもある。セントロメアは細胞分裂の過程で染色体を正しく整列させるのを助けるとともに、複製された染色体の2つの半分、すなわち姉妹染色分体の結合部位として働く。 [11][29][30][31][48]\n\n線状染色体の末端にはテロメアと呼ばれる反復配列のDNAがある。テロメアは、靴紐の先端がほつれを防ぐのと似た仕方で染色体の末端を保護する。多くの種類の細胞では細胞分裂のたびにテロメアのDNAが少しずつ失われ、それが全て失われると、その細胞は複製できなくなって死滅する。 [12][32][33][49]\n\nすべての細胞がこの目減りに従うわけではない。白血球のように頻繁に分裂する能力を持つ一部の細胞は、染色体がテロメアを失うのを防ぐ特殊な酵素を持っており、テロメアを保持する細胞は他の細胞より一般に長く生きる。 [34][50]\n\n## 細胞分裂における役割\n\n細胞分裂の際には、DNAが損なわれずに細胞間へ均等に分配されることが不可欠である。染色体は、大多数の細胞分裂においてDNAが正確に複製・分配される過程の重要な要素であり、まれにその複製や分配の過程で誤りが起こることがある。 [21][22][47]\n\n## ミトコンドリアの染色体\n\nミトコンドリア内にある小さな環状染色体は、遺伝のしかたが核内の染色体とは異なる。受精の際にミトコンドリアを保持するのは卵細胞のみで、精子細胞は保持しない。そのためミトコンドリアDNAは常に母親から遺伝する。 [36][37][53]\n\nヒトでは、一部の難聴や糖尿病を含むいくつかの疾患がミトコンドリア内のDNAと関連付けられている。ミトコンドリアがこのように細菌に似た染色体を持つことについて、科学者は、ミトコンドリアはかつて酸素をエネルギーに変換する能力を持つ独立生活する細菌だったと考えている。 [54][58]\n\n## 数や構造の異常と疾患\n\n染色体の数や構造の変化は、しばしば特定の病態と結びついている。ダウン症候群の人は、他の人が持つ2コピーではなく21番染色体を3コピー持つ。ヒトの白血病の一種など一部のがんは、壊れた染色体の断片が結合してできた異常染色体によって引き起こされる。悪性細胞の染色体は通常テロメアを失わず、これが制御不能な増殖を助長し、がんを重篤にする一因になるとされる。 [10][23][51]\n\n性染色体の数の不均衡も症候群として知られている。X染色体を2本以上持つ男性はクラインフェルター症候群となり、高身長と、しばしば不妊を特徴とする。X染色体を余分に持つ女性は平均より背が高い傾向があり、一部には知的障害が見られる。もう一つのターナー症候群では、女性がX染色体を1本しか持たず、非常に低身長で、通常思春期を迎えず、一部は腎臓や心臓の問題を抱えることがある。 [38][39][40][55][56]\n\n## 観察と研究の歴史\n\n「chromosome（染色体）」という語は、ギリシャ語で色を表す語と体を表す語に由来する。研究で使われる色素によって強く染まる細胞構造であることから、この名が付けられた。科学者が顕微鏡下の細胞で染色体を初めて観察したのは1800年代後半で、当時はその性質も機能も不明であった。 [20][41][46][57]\n\n理解が大きく進んだのは1900年代初頭で、トマス・ハント・モーガンの先駆的研究による。モーガンはショウジョウバエにおいてX染色体が性別と目の色に関係することを示し、染色体と遺伝形質を結びつけた。 [42][43]\n\n## 関連記事\n\n- [ゲノム](/hubpedia/genome)\n- リボ核酸",
+    "sources": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Chromosome",
+        "title": "Chromosome — NHGRI Talking Glossary",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "The institute's short definition of the term. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+        "title": "Chromosomes Fact Sheet — NHGRI",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "Substantive coverage of chromosomes and the genes they carry. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Chromosome",
+        "summary": "A chromosome is a thread-like structure inside the nucleus of animal and plant cells, made up of a single molecule of DNA together with proteins. By winding DNA around proteins called histones and folding it up, a chromosome packs genetic information — far too long to fit into a cell as it is — inside the nucleus, and it is responsible for copying and distributing that information accurately each time a cell divides. The number and shape of chromosomes are all but fixed for each species, and having too many or too few, or structural abnormalities, has been linked to Down syndrome and to some cancers.",
+        "bodyMarkdown": "## A structure inside the cell nucleus\n\nIf all the [DNA](/hubpedia/dna) in a single human cell were unwound from its histones and laid end to end, it would measure about 6 feet (roughly 1.8 meters) long. Chromosomes are thread-like structures inside the nucleus of animal and plant cells, and a single chromosome is made up of proteins and one molecule of DNA. The DNA is held tightly wound around spool-like proteins called histones, and without this packaging the DNA molecule would be too long to fit inside the cell. [7][8][9][18][19]\n\nDNA is passed from parent to offspring and contains the specific instructions that make each species unique. A chromosome is nothing other than the form in which the DNA molecule carrying that information, together with proteins, is housed within the nucleus. [9][45]\n\n## The number and shape of chromosomes\n\nThe number and shape of chromosomes vary from organism to organism, and each species of animal and plant has its own set number. Fruit flies have 4 pairs, rice has 12 pairs, and dogs have 39 pairs. Humans have 23 pairs, 46 chromosomes in total. [3][13][15][24]\n\nBeyond number, there is also a difference in shape: circular or linear. Most bacteria have one or two circular chromosomes, whereas the chromosomes of animals and plants, humans included, are linear. In complex organisms such as humans, in addition to the linear chromosomes in the nucleus, small circular chromosomes resembling those of bacteria are also present inside the mitochondria. [1][2][28]\n\nThe linear chromosomes of animals and plants, humans included, are arranged in pairs within the cell nucleus. The only human cells with chromosomes that are not paired are the reproductive cells (gametes), which carry just one copy of each chromosome. When two reproductive cells join, they become a single cell holding two copies of each chromosome. In humans and most other complex organisms, one of each pair of chromosomes is inherited from the mother and the other from the father, so a child inherits some traits from the mother and others from the father. [25][26][27][35][52]\n\n## Sex chromosomes and autosomes\n\nOf the 23 pairs in humans, the 23rd pair is called the sex chromosomes, while the remaining 22 pairs are called autosomes. Biologically female individuals typically have two X chromosomes, and biologically male individuals typically have one X chromosome and one Y chromosome. There are, however, exceptions in sex chromosome makeup. [4][5][14][44]\n\nThough they form a pair, X and Y are not equal in size or in content. The human X chromosome is about three times as large as the Y chromosome, and the X chromosome contains roughly 900 [genes](/hubpedia/gene) while the Y chromosome contains about 55. [6][16][17]\n\n## Centromeres and telomeres\n\nLinear chromosomes have a constricted region called the centromere. The regions on either side of it are called the chromosome's \"arms.\" The centromere is not usually located at the center of the chromosome and may in some cases lie near one end. The centromere helps align chromosomes correctly during the process of cell division, and it also serves as the site where the two halves of a duplicated chromosome — the sister chromatids — are joined. [11][29][30][31][48]\n\nAt the ends of linear chromosomes lies repetitive DNA known as telomeres. Telomeres protect the ends of chromosomes in much the way the tips of shoelaces keep them from fraying. In many kinds of cells, a little telomere DNA is lost with each cell division, and once it is all gone, the cell can no longer replicate and dies. [12][32][33][49]\n\nNot every cell is subject to this attrition. Some cells with the ability to divide frequently, such as white blood cells, carry a special enzyme that keeps their chromosomes from losing their telomeres, and cells that retain their telomeres generally live longer than other cells. [34][50]\n\n## The role in cell division\n\nWhen cells divide, it is essential that the DNA be distributed evenly between them and remain intact. Chromosomes are a key element in the process by which DNA is accurately copied and distributed in the overwhelming majority of cell divisions, and on rare occasions errors can occur in that copying or distribution. [21][22][47]\n\n## Mitochondrial chromosomes\n\nThe small circular chromosomes inside mitochondria are inherited differently from the chromosomes in the nucleus. At fertilization, only the egg cell retains its mitochondria; the sperm cell does not. Mitochondrial DNA is therefore always inherited from the mother. [36][37][53]\n\nIn humans, several conditions, including some forms of hearing loss and diabetes, have been associated with the DNA inside mitochondria. As for why mitochondria carry chromosomes resembling those of bacteria in this way, scientists believe that mitochondria were once free-living bacteria with the ability to convert oxygen into energy. [54][58]\n\n## Abnormalities in number or structure, and disease\n\nChanges in the number or structure of chromosomes are often linked to particular conditions. People with Down syndrome have three copies of chromosome 21 rather than the two copies other people have. Some cancers, including one type of human leukemia, are caused by abnormal chromosomes formed when fragments of broken chromosomes join together. The chromosomes of malignant cells usually do not lose their telomeres, which is thought to encourage uncontrolled growth and to be one reason cancer becomes severe. [10][23][51]\n\nImbalances in the number of sex chromosomes are also known as syndromes. Males with two or more X chromosomes have Klinefelter syndrome, characterized by tall stature and, often, infertility. Females with an extra X chromosome tend to be taller than average, and some show intellectual disability. In another condition, Turner syndrome, a female has only one X chromosome, is very short in stature, usually does not go through puberty, and may in some cases have kidney or heart problems. [38][39][40][55][56]\n\n## The history of observation and research\n\nThe word \"chromosome\" comes from the Greek words for color and for body. It was given this name because it is a cell structure that stains strongly with the dyes used in research. Scientists first observed chromosomes in cells under the microscope in the late 1800s, when neither their nature nor their function was understood. [20][41][46][57]\n\nUnderstanding advanced considerably in the early 1900s through the pioneering work of Thomas Hunt Morgan. Morgan showed that in fruit flies the X chromosome is related to sex and to eye color, linking chromosomes to inherited traits. [42][43]\n\n## Related articles\n\n- [Genome](/hubpedia/genome)\n- Ribonucleic acid"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:24:34.622Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "ほとんどの細菌は1個か2個の環状染色体を持つ。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Chromosome",
+              "quote": "Most bacteria have one or two circular chromosomes."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "ヒトは他の動物や植物と同様、線状の染色体を持つ。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Chromosome",
+              "quote": "Humans, along with other animals and plants, have linear chromosomes"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "ショウジョウバエは4対、イネは12対、イヌは39対の染色体を持つ。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Chromosome",
+              "quote": "A fruit fly, for example, has four pairs of chromosomes, while a rice plant has 12 and a dog, 39."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "ヒトの23対目の染色体は性染色体で、残り22対は常染色体と呼ばれる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Chromosome",
+              "quote": "In humans, the twenty-third pair is the sex chromosomes, while the first 22 pairs are called autosomes."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "生物学的に女性の個体は通常X染色体を2本持ち、生物学的に男性の個体は通常X染色体とY染色体を1本ずつ持つ。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Chromosome",
+              "quote": "Typically, biologically female individuals have two X chromosomes (XX) while those who are biologically male have one X and one Y chromosome (XY)."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "ヒトのX染色体はY染色体よりおよそ3倍大きい。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Chromosome",
+              "quote": "The human X chromosome is about three times larger than the human Y chromosome"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "染色体の構造はDNAをヒストンと呼ばれる糸巻き状のタンパク質にきつく巻き付けて保持する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Chromosome",
+              "quote": "The unique structure of chromosomes keeps DNA tightly wound around spool-like proteins, called histones."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "染色体は動物と植物の細胞の核内にある糸状の構造体である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "Chromosomes are thread-like structures located inside the nucleus of animal and plant cells."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "各染色体はタンパク質と1分子のDNAでできている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "Each chromosome is made of protein and a single molecule of deoxyribonucleic acid (DNA)."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "ダウン症候群の人は、他の人が持つ2コピーではなく21番染色体を3コピー持つ。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "people with Down syndrome have three copies of chromosome 21, instead of the two copies found in other people."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "線状染色体の括れた領域はセントロメア（動原体）と呼ばれる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "The constricted region of linear chromosomes is known as the centromere."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "テロメアは線状染色体の末端に存在する反復配列のDNAである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "Telomeres are repetitive stretches of DNA located at the ends of linear chromosomes."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "ヒトは23対、合計46本の染色体を持つ。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "Humans have 23 pairs of chromosomes, for a total of 46 chromosomes."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "女性の細胞にはX染色体が2本あり、男性の細胞にはX染色体とY染色体が1本ずつある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "Females have two X chromosomes in their cells, while males have one X and one Y chromosome."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "動植物の各種には決まった数の染色体がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Chromosome",
+              "quote": "each species of plants and animals has a set number of chromosomes"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "ヒトのX染色体には約900個の遺伝子が含まれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Chromosome",
+              "quote": "containing about 900 genes"
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "ヒトのY染色体には約55個の遺伝子がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Chromosome",
+              "quote": "the Y chromosome has about 55 genes"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "このような梱包（ヒストンへの巻き付け）がなければDNA分子は細胞内に収まらないほど長くなる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Chromosome",
+              "quote": "Without such packaging, DNA molecules would be too long to fit inside cells!"
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "ヒトの1個の細胞内にある全DNA分子をヒストンから解いて端から端まで並べると6フィートの長さになる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Chromosome",
+              "quote": "if all of the DNA molecules in a single human cell were unwound from their histones and placed end-to-end, they would stretch 6 feet."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "「chromosome（染色体）」という語はギリシャ語の色を表す語（chroma）と体を表す語（soma）に由来する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "The term chromosome comes from the Greek words for color (chroma) and body (soma)."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "細胞分裂の際にはDNAが損なわれずに細胞間へ均等に分配されることが不可欠である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "During cell division, it is essential that DNA remains intact and evenly distributed among cells."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "染色体は、大多数の細胞分裂においてDNAが正確に複製・分配される過程の重要な要素である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "Chromosomes are a key part of the process that ensures DNA is accurately copied and distributed in the vast majority of cell divisions."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "ヒトの白血病の一種など一部のがんは、壊れた染色体の断片が結合してできた異常染色体によって引き起こされる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "in humans, one type of leukemia and some other cancers are caused by defective chromosomes made up of joined pieces of broken chromosomes."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "染色体の数と形は生物によって異なる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "Chromosomes vary in number and shape among living things."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "ヒトを含む動植物の線状染色体は、細胞核内で対をなして配置されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "Humans, along with other animals and plants, have linear chromosomes that are arranged in pairs within the nucleus of the cell."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "対になっていない染色体を持つヒトの細胞は生殖細胞（配偶子）のみであり、各染色体を1コピーだけ持つ。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "The only human cells that do not contain pairs of chromosomes are reproductive cells, or gametes, which carry just one copy of each chromosome."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "2つの生殖細胞が結合すると、各染色体を2コピー持つ1つの細胞になる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "When two reproductive cells unite, they become a single cell that contains two copies of each chromosome."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "ヒトなど複雑な生物の細胞は、核内の線状染色体とは別に、細菌に似た小型の環状染色体をミトコンドリア内に持つ。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "the cells of humans and other complex organisms carry a much smaller type of chromosome similar to those seen in bacteria. This circular chromosome is found in mitochondria"
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "セントロメアの両側の領域は染色体の「腕」と呼ばれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "The regions on either side of the centromere are referred to as the chromosome's arms."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "セントロメアは細胞分裂の過程で染色体を正しく整列させるのを助ける。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "Centromeres help to keep chromosomes properly aligned during the complex process of cell division."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "セントロメアは、複製された染色体の2つの半分（姉妹染色分体）の結合部位として働く。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "the centromere serves as an attachment site for the two halves of each replicated chromosome, known as sister chromatids."
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "多くの種類の細胞では、細胞分裂のたびにテロメアのDNAが少しずつ失われる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "In many types of cells, telomeres lose a bit of their DNA every time a cell divides."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "テロメアのDNAが全て失われると、その細胞は複製できなくなり死滅する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "Eventually, when all of the telomere DNA is gone, the cell cannot replicate and dies."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "白血球など頻繁に分裂する能力を持つ一部の細胞は、染色体がテロメアを失うのを防ぐ特殊な酵素を持つ。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "White blood cells and other cell types with the capacity to divide very frequently have a special enzyme that prevents their chromosomes from losing their telomeres."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "ヒトをはじめとするほとんどの複雑な生物では、各染色体の一方は母親から、もう一方は父親から受け継がれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "In humans and most other complex organisms, one copy of each chromosome is inherited from the female parent and the other from the male parent."
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "受精の際にミトコンドリアを保持するのは卵細胞のみであり、精子細胞は保持しない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "Only egg cells - and not sperm cells - keep their mitochondria during fertilization."
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "ミトコンドリアDNAは常に母親から遺伝する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "So, mitochondrial DNA is always inherited from the female parent."
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "X染色体を2本以上持つ男性はクラインフェルター症候群となり、高身長と、しばしば不妊を特徴とする。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "Males with more than one X chromosome have Klinefelter syndrome, which is a condition characterized by tall stature and, often, impaired fertility."
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "性染色体数の不均衡によって起こるもう一つの症候群にターナー症候群がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "Another syndrome caused by imbalance in the number of sex chromosomes is Turner syndrome."
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "ターナー症候群の女性はX染色体を1本しか持たない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "Women with Turner have one X chromosome only."
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "科学者が顕微鏡下の細胞で染色体を初めて観察したのは1800年代後半である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "Scientists looking at cells under the microscope first observed chromosomes in the late 1800s."
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "染色体についての理解が大きく進んだのは1900年代初頭で、トマス・ハント・モーガンの先駆的研究による。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "Researchers gained a much better understanding of chromosomes in the early 1900s through Thomas Hunt Morgan's pioneering studies."
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "モーガンはショウジョウバエにおいてX染色体が性別と目の色に関係することを示し、染色体と遺伝形質を結びつけた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "Morgan made the link between chromosomes and inherited traits by demonstrating that the X chromosome is related to gender and eye color in fruit flies."
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "性染色体の構成については例外も存在する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Chromosome",
+              "quote": "However, there are exceptions to these rules."
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "statement": "DNAは親から子へ受け継がれ、それぞれの生物種を特徴づける固有の指示情報を含む。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "Passed from parents to offspring, DNA contains the specific instructions that make each type of living creature unique."
+            }
+          ]
+        },
+        {
+          "index": 46,
+          "statement": "染色体は研究で使われる色素によって強く染まる細胞構造であることから、この名前が付けられた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "Scientists gave this name to chromosomes because they are cell structures, or bodies, that are strongly stained by some colorful dyes used in research."
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "statement": "まれに細胞分裂の過程で染色体の複製・分配に誤りが起こることがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "Still, mistakes do occur on rare occasions."
+            }
+          ]
+        },
+        {
+          "index": 48,
+          "statement": "セントロメアは通常染色体の中央には位置せず、場合によっては染色体の端近くに位置することもある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "it usually is not located exactly in the center of the chromosome and, in some cases, is located almost at the chromosome's end"
+            }
+          ]
+        },
+        {
+          "index": 49,
+          "statement": "テロメアは靴紐の先端がほつれを防ぐのと似た仕方で染色体の末端を保護する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "They protect the ends of chromosomes in a manner similar to the way the tips of shoelaces keep them from unraveling."
+            }
+          ]
+        },
+        {
+          "index": 50,
+          "statement": "テロメアを保持する細胞は、他の細胞より一般に長く生きる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "Because they retain their telomeres, such cells generally live longer than other cells."
+            }
+          ]
+        },
+        {
+          "index": 51,
+          "statement": "悪性細胞の染色体は通常テロメアを失わず、これが制御不能な増殖を助長しがんを重篤にする一因となる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "The chromosomes of malignant cells usually do not lose their telomeres, helping to fuel the uncontrolled growth that makes cancer so devastating."
+            }
+          ]
+        },
+        {
+          "index": 52,
+          "statement": "子は形質の一部を母親から、また別の一部を父親から受け継ぐ。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "This explains why children inherit some of their traits from their mother and others from their father."
+            }
+          ]
+        },
+        {
+          "index": 53,
+          "statement": "ミトコンドリアにある小さな環状染色体の遺伝パターンは、核内の染色体とは異なる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "The pattern of inheritance is different for the small circular chromosome found in mitochondria."
+            }
+          ]
+        },
+        {
+          "index": 54,
+          "statement": "ヒトでは一部の難聴や糖尿病を含むいくつかの疾患が、ミトコンドリア内のDNAと関連付けられている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "In humans, a few conditions, including some forms of hearing impairment and diabetes, have been associated with DNA found in the mitochondria."
+            }
+          ]
+        },
+        {
+          "index": 55,
+          "statement": "X染色体を余分に持つ女性は平均より背が高い傾向があり、一部には知的障害が見られる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "females who have extra copies of the X chromosome are usually taller than average and some have mental disability."
+            }
+          ]
+        },
+        {
+          "index": 56,
+          "statement": "ターナー症候群の女性は非常に低身長で、通常思春期を迎えず、一部は腎臓や心臓の問題を抱えることがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "They are very short, usually do not undergo puberty and some may have kidney or heart problems."
+            }
+          ]
+        },
+        {
+          "index": 57,
+          "statement": "染色体が初めて観察された当時、その性質と機能は不明であった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "However, at the time, the nature and function of these cell structures were unclear."
+            }
+          ]
+        },
+        {
+          "index": 58,
+          "statement": "科学者は、ミトコンドリアはかつて酸素をエネルギーに変換する能力を持つ独立生活する細菌だったと考えている。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "Scientists think that, in the past, mitochondria were free-living bacteria with the ability to convert oxygen into energy."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,549 @@
+/*
+ * ゲームの一覧と作品の頁（2026-10-18、Steam の格子と作品頁に寄せた）。
+ * 色は意味トークンだけ（color-system.css）。寸法は v2 の決めごと（v2-tokens.css）。
+ */
+
+/* 一覧: 横長の絵（460:215、Steam のヘッダー絵の比）の格子。列は幅で決まる（列の数を先に決めない）。 */
+.v2-gstore__grid {
+  list-style: none;
+  margin: var(--v2-space-3) 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(232px, 1fr));
+  gap: var(--v2-space-4);
+}
+
+.v2-gstore__card {
+  position: relative;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  min-width: 0;
+  border: var(--divider);
+  border-radius: var(--v2-radius-lg);
+  background: var(--surface-raised);
+  overflow: hidden;
+  transition: background-color 120ms ease, box-shadow 120ms ease;
+}
+
+.v2-gstore__card:hover {
+  background: var(--surface-hover);
+  box-shadow: var(--shadow-sm);
+}
+
+.v2-gstore__card:focus-within {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.v2-gstore__capsule {
+  display: block;
+  width: 100%;
+  aspect-ratio: 460 / 215;
+  object-fit: cover;
+  background: var(--surface-sunken);
+}
+
+.v2-gstore__capsule--empty {
+  display: grid;
+  place-items: center;
+  color: var(--text-muted);
+  font-size: 40px;
+  font-weight: 700;
+  background: var(--surface-sunken);
+}
+
+.v2-gstore__body {
+  display: grid;
+  align-content: start;
+  gap: var(--v2-space-2);
+  padding: var(--v2-space-3);
+  min-width: 0;
+}
+
+/* 題のリンクが札全体を覆う。 */
+.v2-gstore__title {
+  color: var(--text-primary);
+  font-weight: 600;
+  line-height: var(--v2-leading-tight);
+  text-decoration: none;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  overflow-wrap: anywhere;
+}
+
+.v2-gstore__title::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.v2-gstore__title:focus-visible {
+  outline: none;
+}
+
+.v2-gstore__badges {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--v2-space-1);
+}
+
+.v2-gstore__badge {
+  padding: 0 7px;
+  border: var(--divider);
+  border-radius: var(--v2-radius-pill);
+  background: var(--chip-bg);
+  color: var(--chip-text);
+  font-size: var(--v2-text-xs);
+  line-height: 1.6;
+  white-space: nowrap;
+}
+
+.v2-gstore__badge--note {
+  border-color: transparent;
+  background: var(--warning-soft);
+  color: var(--warning-text);
+}
+
+.v2-gstore__meta {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px var(--v2-space-3);
+  color: var(--text-muted);
+  font-size: var(--v2-text-sm);
+}
+
+/* 作品の頁: 左に大きな絵、右に要約・事実・購入の箱。幅が足りないときは縦に積む。 */
+/*
+ * 読み物の幅（v2-reading.css の 680px）より広く使う。絵と購入の箱を横に並べるため。
+ * 攻略目次とトークは読み物の幅のまま、左に揃える。
+ */
+.v2-article.v2-gstore {
+  max-width: 1120px;
+  margin-inline: 0;
+}
+
+.v2 .v2-article.v2-gstore > * {
+  max-width: none;
+  margin-inline: 0;
+}
+
+.v2 .v2-article.v2-gstore > .v2-msec {
+  max-width: 760px;
+}
+
+.v2-gstore__head {
+  display: grid;
+  gap: var(--v2-space-4);
+  margin-bottom: var(--v2-space-5);
+}
+
+.v2-gstore__media,
+.v2-gstore__info {
+  min-width: 0;
+}
+
+@media (min-width: 1000px) {
+  .v2-gstore__head {
+    grid-template-columns: minmax(0, 1.7fr) minmax(260px, 1fr);
+    align-items: start;
+  }
+}
+
+.v2-gstore__hero {
+  display: block;
+  width: 100%;
+  aspect-ratio: 460 / 215;
+  object-fit: cover;
+  border-radius: var(--v2-radius-lg);
+  background: var(--surface-sunken);
+}
+
+.v2-gstore__hero.v2-gstore__capsule--empty {
+  font-size: 64px;
+}
+
+.v2-gstore__info {
+  display: grid;
+  gap: var(--v2-space-3);
+  align-content: start;
+}
+
+.v2-gstore__summary {
+  margin: 0;
+  color: var(--text-secondary);
+  line-height: var(--v2-leading);
+  overflow-wrap: anywhere;
+}
+
+.v2-gstore__facts {
+  margin: 0;
+  display: grid;
+}
+
+.v2-gstore__facts > div {
+  display: grid;
+  grid-template-columns: 7em minmax(0, 1fr);
+  gap: var(--v2-space-3);
+  padding: var(--v2-space-2) 0;
+  border-top: var(--divider);
+}
+
+.v2-gstore__facts dt {
+  color: var(--text-muted);
+  font-size: var(--v2-text-sm);
+}
+
+.v2-gstore__facts dd {
+  margin: 0;
+  min-width: 0;
+}
+
+.v2-gstore__buy {
+  display: grid;
+  gap: var(--v2-space-2);
+  padding: var(--v2-space-4);
+  border: var(--divider);
+  border-radius: var(--v2-radius-lg);
+  background: var(--surface-raised);
+}
+
+.v2-gstore__buy-title {
+  margin: 0;
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.v2-gstore__buy-note {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: var(--v2-text-sm);
+  line-height: var(--v2-leading);
+}
+
+.v2-gstore__buy-links {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--v2-space-1) var(--v2-space-4);
+  font-size: var(--v2-text-sm);
+}
+
+.v2-gstore__buy-links a {
+  color: var(--link-color);
+}
+
+/* 注目の1作: 大きな絵と、題・要約・対応機種。札と同じく題のリンクが全体を覆う。 */
+.v2-gstore__feature {
+  position: relative;
+  display: grid;
+  gap: var(--v2-space-4);
+  margin-top: var(--v2-space-3);
+  padding: var(--v2-space-4);
+  border: var(--divider);
+  border-radius: var(--v2-radius-lg);
+  background: var(--surface-raised);
+}
+
+.v2-gstore__feature:hover {
+  background: var(--surface-hover);
+}
+
+.v2-gstore__feature:focus-within {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+@media (min-width: 1000px) {
+  .v2-gstore__feature {
+    grid-template-columns: minmax(0, 1.6fr) minmax(240px, 1fr);
+    align-items: start;
+  }
+}
+
+.v2-gstore__feature-image {
+  display: block;
+  width: 100%;
+  aspect-ratio: 460 / 215;
+  object-fit: cover;
+  border-radius: var(--v2-radius);
+  background: var(--surface-sunken);
+}
+
+.v2-gstore__feature-body {
+  display: grid;
+  align-content: start;
+  gap: var(--v2-space-2);
+  min-width: 0;
+}
+
+.v2-gstore__eyebrow {
+  margin: 0;
+  color: var(--text-muted);
+  font-size: var(--v2-text-xs);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.v2-gstore__title--feature {
+  font-size: var(--v2-text-xl);
+}
+
+.v2-gstore__feature-summary {
+  margin: 0;
+  color: var(--text-secondary);
+  line-height: var(--v2-leading);
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+@media (max-width: 560px) {
+  .v2-gstore__grid {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: var(--v2-space-3);
+  }
+}
+
+/* ストアの裏側（2026-10-18）: スクリーンショット、価格、購入の操作、動作環境、ライブラリ。 */
+.v2-gstore__shots {
+  list-style: none;
+  margin: var(--v2-space-3) 0 0;
+  padding: 0;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(140px, 1fr);
+  gap: var(--v2-space-2);
+  overflow-x: auto;
+}
+
+.v2-gstore__shots a {
+  display: block;
+  border-radius: var(--v2-radius);
+  overflow: hidden;
+}
+
+.v2-gstore__shots img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  background: var(--surface-sunken);
+}
+
+.v2-gstore__price {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--v2-space-1) var(--v2-space-2);
+}
+
+.v2-gstore__price strong {
+  font-size: var(--v2-text-xl);
+}
+
+.v2-gstore__price small {
+  flex-basis: 100%;
+  color: var(--text-muted);
+  font-size: var(--v2-text-sm);
+}
+
+.v2-gstore__action {
+  display: block;
+  padding: var(--v2-space-2) var(--v2-space-3);
+  border: 0;
+  border-radius: var(--v2-radius);
+  background: var(--action);
+  color: var(--action-text);
+  font: inherit;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.v2-gstore__action:hover {
+  background: var(--action-hover);
+}
+
+.v2-gstore__action:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.v2-gstore__action--quiet {
+  border: var(--divider);
+  background: var(--surface-raised);
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+
+.v2-gstore__action--quiet:hover {
+  background: var(--surface-hover);
+}
+
+.v2-gstore__owned {
+  margin: 0;
+  color: var(--positive-text);
+  font-weight: 600;
+}
+
+.v2-gstore__legal {
+  color: var(--link-color);
+  font-size: var(--v2-text-sm);
+  overflow-wrap: anywhere;
+}
+
+/* 年齢区分の札と18歳以上の申告（PLAN.md §9 Q5）。 */
+.v2-gstore__age {
+  justify-self: start;
+  margin: 0;
+  padding: 0 var(--v2-space-2);
+  border: var(--divider);
+  border-radius: var(--v2-radius-pill);
+  color: var(--text-secondary);
+  font-size: var(--v2-text-sm);
+  font-weight: 600;
+}
+
+.v2-gstore__age-check {
+  display: grid;
+  gap: var(--v2-space-2);
+}
+
+.v2-gstore__age-label {
+  display: flex;
+  gap: var(--v2-space-2);
+  align-items: center;
+  color: var(--text-primary);
+}
+
+/* 持っている人の版の一覧。SHA-256 は折り返して全桁を見せる。 */
+.v2-gstore__builds {
+  display: grid;
+  gap: var(--v2-space-3);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.v2-gstore__build {
+  display: grid;
+  gap: var(--v2-space-1);
+  min-width: 0;
+}
+
+.v2-gstore__build-name {
+  color: var(--text-primary);
+  font-size: var(--v2-text-sm);
+  font-weight: 600;
+}
+
+.v2-gstore__build-hash {
+  color: var(--text-secondary);
+  font-size: var(--v2-text-xs);
+  overflow-wrap: anywhere;
+}
+
+.v2-gstore__reqs-grid {
+  display: grid;
+  gap: var(--v2-space-4);
+}
+
+@media (min-width: 760px) {
+  .v2-gstore__reqs-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.v2-gstore__reqs-grid h3 {
+  margin: 0 0 var(--v2-space-1);
+  color: var(--text-muted);
+  font-size: var(--v2-text-sm);
+}
+
+.v2-gstore__reqs-grid p {
+  margin: 0;
+  white-space: pre-line;
+  line-height: var(--v2-leading);
+  overflow-wrap: anywhere;
+}
+
+.v2-glib__note {
+  margin: 0 0 var(--v2-space-3);
+  color: var(--text-muted);
+  font-size: var(--v2-text-sm);
+}
+
+.v2-glib__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+}
+
+.v2-glib__row {
+  display: grid;
+  grid-template-columns: 120px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: var(--v2-space-3);
+  padding: var(--v2-space-2) 0;
+  border-top: var(--divider);
+}
+
+.v2-glib__image {
+  display: block;
+  width: 120px;
+  aspect-ratio: 460 / 215;
+  object-fit: cover;
+  border-radius: var(--v2-radius);
+  background: var(--surface-sunken);
+}
+
+.v2-glib__body {
+  display: grid;
+  gap: var(--v2-space-1);
+  min-width: 0;
+}
+
+.v2-glib__title {
+  font-weight: 600;
+  overflow-wrap: anywhere;
+}
+
+.v2-glib__source {
+  color: var(--text-muted);
+  font-size: var(--v2-text-sm);
+}
+
+.v2-glib__more {
+  margin: var(--v2-space-3) 0 0;
+}
+
+@media (max-width: 560px) {
+  .v2-glib__row {
+    grid-template-columns: 88px minmax(0, 1fr);
+  }
+
+  .v2-glib__image {
+    width: 88px;
+  }
+
+  .v2-glib__source {
+    grid-column: 2;
+  }
+}
+
+/* 機種の絞り込みはチップの1行。作品数はその右の添え書き。検索は Enter で送り、送信ボタンは見た目から外す。 */
+.v2-gstore__filters { display: flex; align-items: center; gap: var(--v2-space-3); margin-bottom: var(--v2-space-4); }
+.v2-gstore__filters > .ui-chip-row { flex: 1 1 auto; min-width: 0; }
+.v2-gstore__count { flex: none; color: var(--muted); font-size: var(--type-caption-size); line-height: var(--type-caption-leading); font-variant-numeric: tabular-nums; }
+.v2 .v2-search__form .v2-gstore__submit { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+.v2-gstore__capsule--empty .v2-icon { width: 24px; height: 24px; }

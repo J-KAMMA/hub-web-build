@@ -1,0 +1,505 @@
+/*
+ * 2026-08-31、この画面を4列規格へ移した。以前は 72px のアバター列と本体を
+ * 自前のgridで並べ、`height:100%` + `overflow:hidden` の固定高2ペインの中で
+ * 本体だけを縦スクロールさせていた。ページ自体もスクロールするため
+ * スクロールバーが2本になり、866pxの窓に1845pxが入っていた。
+ * 目録は中左列（tab-left-column）が持ち、スクロールはページに一本化する。
+ * .community-discovery-shell と .community-discovery-rail は廃止した。
+ */
+
+
+.community-discovery__categories {
+  display: flex;
+  padding: 0 clamp(18px, 4vw, 54px);
+  gap: 24px;
+  overflow-x: auto;
+  border-bottom: var(--divider);
+  background: var(--surface-raised);
+}
+
+.community-discovery__categories a,
+.community-discovery__categories button {
+  position: relative;
+  padding: 14px 0 12px;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 720;
+  cursor: pointer;
+}
+
+.community-discovery__categories a:hover,
+.community-discovery__categories a[aria-current="page"],
+.community-discovery__categories button:hover,
+.community-discovery__categories button.is-active {
+  color: var(--text);
+}
+
+.community-discovery__categories a[aria-current="page"]::after {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  border-radius: 999px;
+  background: var(--emphasis);
+  content: "";
+}
+
+/*
+ * 4列規格では本体列の幅と視野の幅が一致しない（1440pxの視野でも本体は700px、
+ * 900pxの視野では632px）。8vw の内側余白と 100px 固定の数値枠を視野基準の
+ * メディアクエリで守ろうとすると、列の中では守れず右へ溢れる。実際
+ * 900pxで「カテゴリ 24」の枠が20pxはみ出していた。
+ * 折り返しと、列に追随する余白で、幅に依存しない形にする。
+ * 余白は % で取る。cqw は container-type を宣言した祖先が無いと視野基準へ
+ * 落ちるため、同じ罠を踏む。% は包含ブロック＝本体列の幅を直接参照する。
+ */
+.community-discovery__hero {
+  display: flex;
+  min-width: 0;
+  min-height: 280px;
+  padding: 52px clamp(20px, 5%, 110px);
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px 36px;
+  background: linear-gradient(135deg, var(--emphasis-soft), var(--surface-raised));
+}
+
+.community-discovery__hero > div {
+  max-width: 700px;
+}
+
+.community-discovery__hero small,
+.community-discovery__results header small {
+  color: var(--emphasis);
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.13em;
+}
+
+.community-discovery__hero :is(h1, h2) {
+  max-width: 650px;
+  margin: 10px 0 12px;
+  font-size: clamp(1.8rem, 4vw, 3.25rem);
+  line-height: 1.08;
+}
+
+.community-discovery__hero p {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.community-discovery__hero dl {
+  display: flex;
+  margin: 0;
+  gap: 10px;
+}
+
+.community-discovery__hero dl div {
+  min-width: 100px;
+  padding: 16px;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+  background: var(--surface-raised);
+}
+
+.community-discovery__hero dt {
+  color: var(--muted);
+  font-size: 0.68rem;
+}
+
+.community-discovery__hero dd {
+  margin: 4px 0 0;
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+.community-discovery__results {
+  width: min(1280px, calc(100% - 36px));
+  margin: 0 auto;
+  padding: 34px 0 64px;
+}
+
+.community-discovery__results > header {
+  display: flex;
+  margin-bottom: 16px;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.community-discovery__results h2 {
+  margin: 4px 0 0;
+  font-size: 1.25rem;
+}
+
+.community-discovery__results > header > span {
+  color: var(--muted);
+  font-size: 0.75rem;
+}
+
+/*
+ * 本体列は4列規格では 640px 前後まで狭くなる。4列固定だとカードが145pxまで
+ * 潰れるので、列数は幅に追随させる。
+ */
+.community-discovery__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(196px, 1fr));
+  gap: 16px;
+}
+
+.community-discovery-card {
+  display: flex;
+  min-width: 0;
+  min-height: 320px;
+  overflow: hidden;
+  flex-direction: column;
+  border: 1px solid var(--line);
+  border-radius: 15px;
+  background: var(--surface-raised);
+  color: var(--text);
+  transition: transform 0.16s ease, border-color 0.16s ease;
+}
+
+.community-discovery-card:hover {
+  border-color: var(--line-strong);
+  transform: translateY(-2px);
+}
+
+.community-discovery-card__cover {
+  display: grid;
+  height: 150px;
+  overflow: hidden;
+  place-items: center;
+  background: var(--interactive);
+  color: var(--emphasis);
+  font-size: 2rem;
+}
+
+.community-discovery-card__cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.community-discovery-card__body {
+  display: flex;
+  min-width: 0;
+  padding: 15px;
+  flex: 1;
+  flex-direction: column;
+}
+
+.community-discovery-card__title {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.community-discovery-card__title strong {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.community-discovery-card__title em {
+  padding: 3px 6px;
+  flex: none;
+  border-radius: 999px;
+  background: var(--positive-bg);
+  color: var(--positive-text);
+  font-size: 0.58rem;
+  font-style: normal;
+}
+
+.community-discovery-card__body > small {
+  margin-top: 5px;
+  color: var(--emphasis);
+  font-size: 0.65rem;
+  font-weight: 700;
+}
+
+.community-discovery-card__body p {
+  display: -webkit-box;
+  margin: 10px 0 18px;
+  overflow: hidden;
+  color: var(--muted);
+  font-size: 0.75rem;
+  line-height: 1.6;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.community-discovery-card__meta {
+  display: flex;
+  margin-top: auto;
+  flex-wrap: wrap;
+  gap: 7px 12px;
+  color: var(--muted);
+  font-size: 0.64rem;
+}
+
+.community-discovery__empty {
+  padding: 64px 20px;
+  border: 1px dashed var(--line-strong);
+  border-radius: 15px;
+  color: var(--muted);
+  text-align: center;
+}
+
+.community-discovery__empty p {
+  margin: 7px 0 0;
+}
+
+.community-search-shortcut svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+
+
+@media (max-width: 760px) {
+  .community-discovery__hero {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 520px) {
+  .community-discovery__hero dl {
+    width: 100%;
+  }
+
+  .community-discovery__hero dl div {
+    min-width: 0;
+    flex: 1;
+  }
+
+
+}
+.community-discovery__category-picker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 30px 12px;
+  padding: 10px 12px;
+  border: var(--divider);
+  border-radius: 12px;
+  background: var(--panel);
+}
+
+.community-discovery__category-picker > a {
+  padding: 6px 9px;
+  border-radius: 7px;
+  background: var(--interactive);
+  color: var(--text);
+  font-size: 0.72rem;
+  text-decoration: none;
+}
+
+.community-discovery__category-picker > a[aria-current="page"] {
+  background: var(--selected);
+  font-weight: 750;
+}
+
+.community-discovery__category-picker summary {
+  display: flex;
+  justify-content: space-between;
+  padding: 11px 13px;
+  color: var(--text);
+  font-size: 0.74rem;
+  font-weight: 750;
+  cursor: pointer;
+}
+
+.community-discovery__category-picker summary span {
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.community-discovery__category-picker > div {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  padding: 4px 13px 14px;
+  border-top: var(--divider);
+}
+
+.community-discovery__category-picker section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-content: flex-start;
+}
+
+.community-discovery__category-picker section strong {
+  width: 100%;
+  margin-top: 8px;
+  font-size: 0.68rem;
+}
+
+.community-discovery__category-picker section a {
+  padding: 5px 7px;
+  border-radius: 7px;
+  background: var(--interactive);
+  color: var(--text);
+  font-size: 0.66rem;
+  text-decoration: none;
+}
+
+.community-discovery__filters {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin: 0 30px 14px;
+  color: var(--muted);
+  font-size: 0.7rem;
+}
+
+.community-discovery__filters label {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.community-discovery__filters select,
+.community-discovery__filters button {
+  padding: 6px 8px;
+  border: var(--divider);
+  border-radius: 7px;
+  background: var(--panel);
+  color: var(--text);
+  font: inherit;
+}
+
+@media (max-width: 780px) {
+  .community-discovery__category-picker,
+  .community-discovery__filters { margin-inline: 14px; }
+  .community-discovery__category-picker > div { grid-template-columns: 1fr; }
+  .community-discovery__filters { flex-wrap: wrap; }
+}
+
+/*
+ * 中左列（4列規格）の目録。参加中の一覧・カテゴリ・絞り込みが入る。
+ * 見出しの区切りと、名前の前に置く小さなアイコンだけをここで決める。
+ * 行そのものの体裁は .bbs-thread-directory__nav が持っている。
+ */
+.community-discovery__directory-label {
+  padding: 14px 12px 4px;
+  color: var(--muted);
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+/* 行は横並び。block のままだと未読数が名前の下の行へ落ちる */
+.community-discovery__directory > a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.community-discovery__directory > a > span {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 8px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.community-discovery__directory > a > small {
+  flex: none;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: var(--emphasis-soft);
+  color: var(--emphasis);
+  font-size: 0.6rem;
+  font-weight: 800;
+}
+
+.community-discovery__directory > a > span > :is(img, b) {
+  display: grid;
+  width: 22px;
+  height: 22px;
+  flex: none;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 7px;
+  background: var(--interactive);
+  color: var(--text);
+  font-size: 0.62rem;
+  font-weight: 800;
+  object-fit: cover;
+}
+
+/*
+ * 親の nav は行を並べる grid なので、列を明示しないと中の form が
+ * 内容幅（99px）に留まり、「参加中のみ」が折り返して選択欄が63pxに潰れる。
+ */
+.community-discovery__directory .community-discovery__filters {
+  display: grid;
+  /*
+   * 親 nav は 183px の1列grid。justify-self:stretch では伸びなかったので
+   * 幅を明示する。box-sizing があるので padding を足しても列を越えない
+   * （border-box を外すと11pxはみ出す）。
+   */
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  /* 横並び時代の外余白（margin: 0 30px）を打ち消す。残すと右へ11px溢れる */
+  margin: 0;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 8px;
+  padding: 4px 12px 8px;
+  font-size: 0.72rem;
+}
+
+.community-discovery__directory .community-discovery__filters label {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 6px;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.community-discovery__directory .community-discovery__filters select {
+  min-width: 0;
+  flex: 1;
+  padding: 5px 7px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: var(--interactive);
+  color: var(--text);
+  font: inherit;
+  font-size: 0.72rem;
+}
+
+.community-discovery__directory .community-discovery__filters button {
+  padding: 7px 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--interactive);
+  color: var(--text);
+  font: inherit;
+  font-size: 0.72rem;
+  font-weight: 750;
+  cursor: pointer;
+}
+
+/* 中左列に入った小カテゴリは、横並びの名残の外余白を持たない */
+.community-discovery__directory .community-discovery__category-picker {
+  margin: 0 12px 8px;
+}

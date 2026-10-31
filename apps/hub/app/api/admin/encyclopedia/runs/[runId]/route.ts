@@ -1,0 +1,2 @@
+import { NextResponse } from "next/server"; import { apiError, requireAdmin } from "@/lib/encyclopedia/admin"; import { getRun } from "@/lib/encyclopedia/repository";
+export async function GET(request: Request, { params }: { params: Promise<{ runId: string }> }) { const denied = requireAdmin(request); if (denied) return denied; try { const run = await getRun((await params).runId); return run ? NextResponse.json({ run }) : NextResponse.json({ error: { code: "not_found", message: "Run not found." } }, { status: 404 }); } catch(e) { return apiError(e); } }

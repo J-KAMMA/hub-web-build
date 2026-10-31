@@ -1,0 +1,290 @@
+[
+  {
+    "slug": "password",
+    "topicType": "concept",
+    "categoryLabel": "インターネット・セキュリティ",
+    "title": "パスワード",
+    "summary": "パスワードは、身元の認証やアクセス権限の確認のために用いられる文字列であり、利用者が記憶していることを示すことで本人性を主張する認証手段である。文字の並びという単純な形式でありながら、暗号鍵の導出にも使われ、生体認証やワンタイムパスワードと並ぶ代表的な認証メカニズムの一つとして位置づけられている。",
+    "bodyMarkdown": "## 文字列としての定義\n\nパスワードは、英字・数字・その他の記号からなる文字の並びであり、身元を認証したり、アクセス権限を確認したりするために使われる。形式そのものは単なる文字列にすぎず、そこに秘密性が保たれているという前提が加わってはじめて認証の材料になる。この性質から、パスワードは通常、機密の認証情報として扱われる。 [1][6]\n\n用途は認証だけにとどまらない。パスワードは、[暗号鍵](/hubpedia/encryption)を導出するための入力としても使われることがある。この場合、パスワードは「照合されて一致すれば通す」ものではなく、そこから別の値を計算するための材料になる。同じ文字列が、照合の対象にも鍵の素材にもなりうるという二面性は、パスワードを扱う仕組みを設計するうえでの基本的な区別である。 [1][2]\n\nパスフレーズは、単語やその他のテキストの並びからなる、パスワードの特殊な一種である。別種の認証手段ではなく、あくまでパスワードの下位区分にあたる。 [3]\n\n## 認証における位置づけ\n\n認証の枠組みのなかで、パスワードは認証子（authenticator）の一種として整理される。具体的には、加入者（サブスクライバー）が記憶する、または記憶できるように意図された文字列であり、申請者（claimant）が認証プロセスの中で「本人が知っていること」を示すために用いられる。ここで重要なのは、記憶されることが偶然ではなく設計上の要件として組み込まれている点である。 [4]\n\nこの「本人が知っていること（something you know）」は、[認証要素](/hubpedia/multi-factor-authentication)の分類における一つの類型であり、パスワードはその代表例として挙げられる。要素の分類は、何を根拠に本人だと判断するかの違いに対応しており、パスワードは知識に依存する側に位置する。 [7]\n\n従来型のパスワード方式は、典型的な認証メカニズムのうちの一つとして位置づけられる。ほかには、生体認証装置、暗号学的手法、そして[トークン型カード](/hubpedia/security-token)で実装されることが多いワンタイムパスワードがある。パスワードはこれらと並置される選択肢であって、認証の唯一の形式ではない。 [8]\n\n## 呼称の変遷\n\n用語は固定されてきたわけではない。SP 800-63Bの初版では、パスワードは「記憶された秘密（memorized secrets）」と呼ばれていた。この呼称は、対象が何であるかよりも、それが利用者の記憶のなかに保持される秘密であるという性質を前面に出したものである。 [5]\n\n呼称が変わっても、記憶される文字列であるという中核の定義は、認証子としての整理と一致している。用語の違いは、同じ対象を記憶という側面から名指すか、慣用的な名称で呼ぶかの差にあたる。 [4][5]\n\n## 強度と管理をめぐる論点の範囲\n\nパスワードの強度や管理方法（長さ、複雑さ、変更頻度、保管の方式など）については、ここで参照した証拠は具体的な基準を示していない。したがって本記事では、どのようなパスワードが十分に強いかについての数値的な指針は扱わない。 [4][6]\n\nただし定義そのものから導かれる制約はある。パスワードは記憶されることを前提とした認証子であり、同時に秘密が保たれていることを前提とする機密の認証情報である。記憶しやすさと秘密性の維持という二つの要請が同じ一つの文字列にかかる点は、パスワードという手段に固有の性質である。 [4][6]\n\n## 関連記事\n\n- [アクセス制御](/hubpedia/access-control)\n- [デジタル上の身元](/hubpedia/digital-identity)\n- [公開鍵暗号](/hubpedia/public-key-cryptography)\n- [電子証明書](/hubpedia/digital-certificate)\n- [プライバシー](/hubpedia/privacy)",
+    "sources": [
+      {
+        "url": "https://csrc.nist.gov/glossary/term/password",
+        "title": "Password — NIST CSRC Glossary",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The standards body's own definition of password. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://csrc.nist.gov/glossary/term/authentication",
+        "title": "Authentication — NIST CSRC Glossary",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The process it serves. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Password",
+        "summary": "A password is a string of characters used to authenticate identity or verify access rights; by demonstrating that the user remembers it, it serves as an authentication method for asserting that one is who one claims to be. Despite the simplicity of its form as a sequence of characters, it is also used to derive cryptographic keys, and it is positioned as one of the representative authentication mechanisms alongside biometrics and one-time passwords.",
+        "bodyMarkdown": "## Definition as a string of characters\n\nA password is a sequence of characters made up of letters, numbers, and other symbols, used to authenticate identity or to verify access rights. The form itself is nothing more than a string; it becomes material for authentication only once the premise is added that its secrecy is maintained. Because of this property, passwords are normally treated as confidential authentication information. [1][6]\n\nIts uses are not limited to authentication. A password may also be used as input for deriving an [encryption key](/hubpedia/encryption). In that case, the password is not something that is \"compared and allowed through if it matches,\" but rather material from which another value is computed. This duality — that the same string can be both the object of comparison and the raw material for a key — is a fundamental distinction in designing any mechanism that handles passwords. [1][2]\n\nA passphrase is a special kind of password consisting of a sequence of words or other text. It is not a separate type of authentication method, but strictly a subcategory of the password. [3]\n\n## Position within authentication\n\nWithin the framework of authentication, a password is classified as a type of authenticator. Specifically, it is a string of characters memorized by the subscriber, or intended to be memorizable, and used by the claimant to demonstrate \"something the person knows\" during the authentication process. What matters here is that being memorized is built in not by accident but as a design requirement. [4]\n\nThis \"something you know\" is one category in the classification of [authentication factors](/hubpedia/multi-factor-authentication), and the password is cited as its representative example. The classification of factors corresponds to differences in the basis on which a person is judged to be who they claim to be, and the password sits on the side that relies on knowledge. [7]\n\nConventional password schemes are positioned as one among the typical authentication mechanisms. Others include biometric devices, cryptographic methods, and one-time passwords, which are often implemented in [token cards](/hubpedia/security-token). The password is an option placed alongside these; it is not the sole form of authentication. [8]\n\n## Changes in terminology\n\nThe terminology has not been fixed over time. In the first edition of SP 800-63B, passwords were called \"memorized secrets.\" This designation foregrounded not what the object is, but the property that it is a secret held in the user's memory. [5]\n\nEven with the change in designation, the core definition — a memorized string of characters — remains consistent with its classification as an authenticator. The difference in terminology amounts to whether the same object is named from the aspect of memorization or called by its conventional name. [4][5]\n\n## Scope of discussion on strength and management\n\nRegarding password strength and management methods (length, complexity, frequency of change, methods of storage, and so on), the evidence referenced here does not present specific criteria. This article therefore does not address numerical guidance on what makes a password sufficiently strong. [4][6]\n\nThere are, however, constraints that follow from the definition itself. A password is an authenticator premised on being memorized, and at the same time confidential authentication information premised on its secrecy being maintained. That these two demands — ease of memorization and maintenance of secrecy — fall on one and the same string is a property inherent to the password as a method. [4][6]\n\n## Related articles\n\n- [Access control](/hubpedia/access-control)\n- [Digital identity](/hubpedia/digital-identity)\n- [Public-key cryptography](/hubpedia/public-key-cryptography)\n- [Digital certificate](/hubpedia/digital-certificate)\n- [Privacy](/hubpedia/privacy)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:06:08.841Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "パスワードは、身元を認証したり、アクセス権限を確認したりするために使われる文字（英字・数字・その他の記号）の文字列である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/password",
+              "quote": "A string of characters (letters, numbers, and other symbols) used to authenticate an identity or to verify access authorization."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "パスワードは、身元の認証やアクセス権限の確認だけでなく、暗号鍵を導出するためにも使われることがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/password",
+              "quote": "A string of characters (letters, numbers and other symbols) that is used to authenticate an identity, to verify access authorization or to derive cryptographic keys."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "パスフレーズは、単語やその他のテキストの並びからなる、パスワードの特殊な一種である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/password",
+              "quote": "A passphrase is a special case of a password that is a sequence of words or other text."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "パスワードは、加入者（サブスクライバー）が記憶する、または記憶できるように意図された文字列からなる認証子（authenticator）の一種であり、申請者（claimant）が認証プロセスの中で「本人が知っていること」を示すために用いられる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/password",
+              "quote": "A type of authenticator consisting of a character string that is intended to be memorized or memorable by the subscriber to permit the claimant to demonstrate something they know as part of an authentication process."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "SP 800-63Bの初版では、パスワードは「記憶された秘密（memorized secrets）」と呼ばれていた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/password",
+              "quote": "Passwords were referred to as memorized secrets in the initial release of SP 800-63B."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "パスワードは、通常は文字列で構成される機密の認証情報である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/password",
+              "quote": "Confidential authentication information, usually composed of a string of characters."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "パスワードは、「本人が知っていること（something you know）」に基づく認証要素の一例として挙げられる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/authentication",
+              "quote": "something you know (e.g., password/personal identification number (PIN) )"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "従来型のパスワード方式は、生体認証装置、暗号学的手法、（トークン型カードで実装されることが多い）ワンタイムパスワードと並ぶ、典型的な認証メカニズムの一つである。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/authentication",
+              "quote": "Typical authentication mechanisms include conventional password schemes, biometrics devices, cryptographic methods, and onetime passwords (usually implemented with token based cards.)"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "privacy",
+    "topicType": "concept",
+    "categoryLabel": "インターネット・セキュリティ",
+    "title": "プライバシー",
+    "summary": "プライバシーは、自分に関する情報を誰にどこまで渡すかを自分で決められる状態を指す語である。用語集の定義は、情報の機密性とアクセスが守られているという保証、私生活へ踏み込まれない自由、自己に関する情報を管理する権利という三つの言い方に分かれるが、いずれも守るべき対象として個人を識別しうる情報を前提としている点は共通する。何がその情報にあたるかは単独の項目だけでは決まらず、他の情報と組み合わせられるかどうかで変わる。",
+    "bodyMarkdown": "## 保証・自由・権利という三つの言い方\n\n同じ語でありながら、プライバシーの定義は何を主語に置くかで形が変わる。情報セキュリティの用語集では、プライバシーは、ある主体に関する特定の情報について、機密性とアクセスが保護されていることの保証と定義されている。この言い方では、プライバシーは人が持つものというより、情報が置かれている状態を指す。 [1]\n\n別の定義は、個人の側から書かれている。そこではプライバシーは、個人に関するデータの不当または違法な収集・使用に起因して、私生活や個人的な事項へ侵入されることからの自由とされる。守られるのは情報そのものではなく、情報の扱われ方を通じて生活へ及ぶ干渉であり、収集や使用が不当か違法かという評価が定義の中に組み込まれている。 [2]\n\n三つ目の言い方は、プライバシーを当事者の権利として定める。すなわち、自己に関する情報について管理と機密性を維持する権利である。ここでは情報の状態でも干渉からの自由でもなく、本人が持ち続ける決定の力が中心に置かれる。 [3]\n\n三つの定義は互いに矛盾しないが、重心は異なる。保証としての定義は達成されている状態を、自由としての定義は避けるべき侵害を、権利としての定義は誰に決定権があるかを述べている。運用の場面では、達成すべき目標なのか、禁じるべき行為なのか、認めるべき権限なのかで求められる措置が変わるため、どの定義に立っているかが問題になる。 [1][2][3]\n\n## 個人を特定できる情報（PII）\n\nいずれの定義でも、保護の対象になるのは個人に結びつく情報である。個人を特定できる情報（PII）とは、氏名、社会保障番号、生体情報記録などのように、単独で、または生年月日、出生地、母親の旧姓といった他の個人識別情報と組み合わせて、特定の個人の身元を識別または追跡するために使用できる情報を指す。 [4]\n\n範囲は識別子だけにとどまらない。PIIには、身元を識別・追跡できる情報に加えて、医療、教育、金融、雇用に関する情報など、特定の個人に紐づく、あるいは紐づけ可能な他の情報も含まれるとされる。これらは単体では誰のものか分からないが、識別子と結びついた時点で個人に帰属する情報になる。 [7]\n\nより広い書き方では、PIIは、単独で、または特定の個人に紐づく・紐づけ可能な他の情報と組み合わせて、個人の身元を識別または追跡するために使用できるあらゆるデータと定義される。この定義は情報の種類を列挙せず、識別または追跡に使えるかどうかという用途で線を引いている。 [5][8]\n\n## 単独では特定できない情報の扱い\n\nPIIを、直接的または間接的な手段によって、当該情報が適用される個人の身元を合理的に推測できるあらゆる情報の表現とする定義もある。間接的手段を含めるという条件が、単独では誰も指し示さない項目を対象に引き入れる。 [6]\n\n生年月日や出生地、母親の旧姓は、それぞれ多数の人が共有する属性であり、一つだけでは個人にたどり着かない。しかし他の個人識別情報と組み合わされたとき、これらは特定の個人を識別または追跡する手段になる。したがって、ある項目がPIIかどうかは項目名だけでは決まらず、その項目が何と併せて保持されているかに依存する。 [4][5]\n\n## 定義の幅と境界のあいまいさ\n\n以上の定義は互いに近いが、対象の広さは一致しない。氏名や生体情報記録のような例示を挙げるものと、識別または追跡に使えるあらゆるデータとするものとでは、後者のほうが広く、境界も情報の組み合わせ方によって動く。 [4][5][8]\n\n境界を決めるのは、身元を合理的に推測できるかという判断である。どの程度の推測を合理的とみなすか、どこまでの間接的手段を想定するかについて、ここで用いた定義は基準を示していない。そのため、同じデータであっても、併せて利用できる情報が増えれば個人を特定できる情報として扱われる余地が広がる。 [5][6][8]\n\n## 関連記事\n\n- [アクセス制御](/hubpedia/access-control)\n- [デジタル上の身元](/hubpedia/digital-identity)\n- [暗号化](/hubpedia/encryption)",
+    "sources": [
+      {
+        "url": "https://csrc.nist.gov/glossary/term/privacy",
+        "title": "Privacy — NIST CSRC Glossary",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The standards body's own definition of privacy. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://csrc.nist.gov/glossary/term/personally_identifiable_information",
+        "title": "Personally Identifiable Information — NIST CSRC Glossary",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The information privacy concerns. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Privacy",
+        "summary": "Privacy is a term for the state in which a person can decide for themselves who receives information about them and how much of it. Glossary definitions divide into three phrasings—an assurance that the confidentiality of information and access to it are protected, freedom from intrusion into private life, and the right to control information about oneself—but all of them share the premise that what must be protected is information capable of identifying an individual. What counts as such information is not settled by any single item alone; it changes depending on whether that item can be combined with other information.",
+        "bodyMarkdown": "## Three ways of putting it: assurance, freedom, and right\n\nThough the word is the same, the definition of privacy takes a different shape depending on what is placed as its subject. In information security glossaries, privacy is defined as the assurance that the confidentiality of, and access to, certain information about an entity is protected. In this phrasing, privacy refers less to something a person possesses than to a state in which information is placed. [1]\n\nAnother definition is written from the individual's side. There, privacy is freedom from intrusion into the private life or affairs of an individual when that intrusion results from undue or illegal gathering and use of data about that individual. What is protected is not the information itself but the interference that reaches into a person's life through the way information is handled, and the assessment of whether the gathering or use is undue or illegal is built into the definition. [2]\n\nThe third phrasing establishes privacy as a right held by the party concerned: the right of a party to maintain control over, and confidentiality of, information about itself. Here the center is neither the state of the information nor freedom from interference, but the power of decision that the person continues to hold. [3]\n\nThe three definitions do not contradict one another, but their centers of gravity differ. The definition as assurance describes a state that has been achieved; the definition as freedom describes a violation to be avoided; the definition as a right states who holds the power of decision. In practice, the measures called for differ depending on whether the matter is a goal to be achieved, an act to be prohibited, or an authority to be recognized, so which definition one stands on becomes a question. [1][2][3]\n\n## Personally identifiable information (PII)\n\nUnder any of these definitions, what falls under protection is information tied to an individual. Personally identifiable information (PII) means information that can be used to distinguish or trace the identity of a specific individual, such as a name, a social security number, or biometric records, either alone or when combined with other personal identifying information such as date of birth, place of birth, or mother's maiden name. [4]\n\nIts scope does not stop at identifiers. PII is said to include, in addition to information that can distinguish or trace an identity, other information linked or linkable to a specific individual, such as medical, educational, financial, and employment information. On its own, such information does not reveal whose it is, but the moment it is joined to an identifier it becomes information attributable to a person. [7]\n\nIn a broader phrasing, PII is defined as any data that can be used to identify or trace the identity of an individual, either alone or when combined with other information that is linked or linkable to a specific individual. This definition does not enumerate kinds of information; it draws the line by use—whether the data can serve to identify or trace. [5][8]\n\n## Handling information that identifies no one on its own\n\nThere is also a definition that treats PII as any representation of information permitting the identity of the individual to whom the information applies to be reasonably inferred by either direct or indirect means. The condition of including indirect means draws into scope items that point to no one by themselves. [6]\n\nDate of birth, place of birth, and mother's maiden name are each attributes shared by large numbers of people, and no one of them alone leads to an individual. Yet when combined with other personal identifying information, they become a means of distinguishing or tracing a specific individual. Accordingly, whether a given item is PII is not settled by the name of the item; it depends on what that item is held together with. [4][5]\n\n## The breadth of the definitions and the blur at their boundaries\n\nThe definitions above are close to one another, but they do not agree on how wide the object is. Between those that give examples such as a name or biometric records and those that speak of any data usable to identify or trace, the latter is broader, and its boundary also moves according to how information is combined. [4][5][8]\n\nWhat decides the boundary is the judgment of whether an identity can be reasonably inferred. The definitions used here offer no criterion for how much inference counts as reasonable, or how far indirect means are to be assumed. For that reason, even the same data leaves more room to be treated as personally identifiable information as the information available to be combined with it increases. [5][6][8]\n\n## Related articles\n\n- [Access control](/hubpedia/access-control)\n- [Digital identity](/hubpedia/digital-identity)\n- [Encryption](/hubpedia/encryption)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:06:08.842Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "NISTの用語集では、プライバシーは、ある主体に関する特定の情報の機密性およびアクセスが保護されていることの保証と定義されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/privacy",
+              "quote": "Assurance that the confidentiality of, and access to, certain information about an entity is protected."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "プライバシーは、個人に関するデータの不当または違法な収集・使用に起因して個人の私生活や個人的事項へ侵入されることからの自由と定義される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/privacy",
+              "quote": "Freedom from intrusion into the private life or affairs of an individual when that intrusion results from undue or illegal gathering and use of data about that individual."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "プライバシーは、当事者が自己に関する情報について管理と機密性を維持する権利と定義される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/privacy",
+              "quote": "The right of a party to maintain control over and confidentiality of information about itself."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "個人を特定できる情報(PII)とは、氏名、社会保障番号、生体情報記録など、単独で、または生年月日・出生地・母親の旧姓等の他の個人識別情報と組み合わせて特定の個人の身元を識別または追跡するために使用できる情報を指す。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/personally_identifiable_information",
+              "quote": "Information that can be used to distinguish or trace an individual’s identity—such as name, social security number, biometric data records—either alone or when combined with other personal or identifying information that is linked or linkable to a specific individual (e.g., date and place of birth, mother’s maiden name, etc.)."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "PIIは、単独で、または特定の個人に紐づく・紐づけ可能な他の情報と組み合わせて、個人の身元を識別または追跡するために使用できる情報と定義される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/personally_identifiable_information",
+              "quote": "Information that can be used to distinguish or trace an individual’s identity, either alone or when combined with other information that is linked or linkable to a specific individual."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "PIIとは、直接的または間接的手段によって、当該情報が適用される個人の身元を合理的に推測できるあらゆる情報の表現を指す。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/personally_identifiable_information",
+              "quote": "Any representation of information that permits the identity of an individual to whom the information applies to be reasonably inferred by either direct or indirect means."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "PIIには、氏名・社会保障番号・生年月日と出生地・母親の旧姓・生体情報記録など個人の身元を識別・追跡できる情報に加え、医療・教育・金融・雇用情報など個人に紐づく・紐づけ可能な他の情報も含まれる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/personally_identifiable_information",
+              "quote": "Any information about an individual maintained by an agency, including (1) any information that can be used to distinguish or trace an individual‘s identity, such as name, social security number, date and place of birth, mother‘s maiden name, or biometric records; and (2) any other information that is linked or linkable to an individual, such as medical, educational, financial, and employment information."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "PIIとは、単独で、または他の情報と組み合わせて個人の身元を識別または追跡するために使用できるあらゆるデータを指す。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/personally_identifiable_information",
+              "quote": "Any data that can be used to distinguish or trace an individual's identity, either alone or in combination with other information."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

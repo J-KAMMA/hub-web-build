@@ -1,0 +1,1900 @@
+[
+  {
+    "slug": "nuclear-energy",
+    "topicType": "concept",
+    "categoryLabel": "気候・エネルギー",
+    "title": "原子力発電",
+    "summary": "原子力発電は核分裂で生じる熱を利用する発電方式で、1960年代から実用化され、1970年代から1990年代にかけて世界的に拡大した。2025年時点で世界の一次エネルギーの約5%、電力の約10%を占め、水力とならんで低炭素電源の中核をなす一方、1986年のチェルノブイリ事故と2011年の福島第一原発事故が安全性の認識を大きく左右してきた。発電量あたりの死者数の推計では化石燃料より桁違いに小さいとされるが、事故による死者数の見積もりには研究や算定方法によって幅がある。",
+    "bodyMarkdown": "## 世界のエネルギー供給に占める位置\n\n原子力発電は1960年代から存在し、1970年代・1980年代・1990年代に世界的に大きく成長した。2025年時点で世界の一次エネルギーのおよそ5%が原子力に由来し、電力に限れば約10%を占める。1965年から2021年までの累積発電量は96,876テラワット時にのぼる。規模の感覚をつかむための目安として、1テラワット時はEU市民約15万人の年間電力消費量にほぼ等しい。 [2][3][4][5][25][76]\n\n原子力と[再生可能エネルギー](/hubpedia/renewable-energy)はいずれも低炭素電源に分類され、総エネルギー消費に占める割合よりも、[電源構成](/hubpedia/electricity-mix)に占める割合の方が大きい。世界の電力の3分の1以上は低炭素電源によって作られており、残る約60%は石炭・石油・天然ガスの化石燃料が占める。低炭素電源の内訳では水力と原子力が最大の割合を占めるが、風力と太陽光が急速に伸びている。 [50][51][52][80][87]\n\n国別の偏りは大きい。フランス、米国、中国、ロシア、韓国は原子力の発電量が特に多く、電力に占める依存度ではベルギー、フランス、ウクライナが高い。フランスは電力の約4分の3を原子力から得ている。スウェーデン、ノルウェー、フランス、パラグアイ、アイスランド、ネパールなど電力の90%以上を低炭素電源でまかなう国はいくつかあるが、そのほぼすべてに共通するのは、水力発電と原子力発電のいずれか、または双方から多くの電力を得ている点である。 [13][23][24][54][55]\n\n## 発電量の推移\n\n原子力発電は数十年にわたり低炭素電力の供給で重要な役割を果たし、一部の国では最大、あるいはそれに次ぐ電源となってきた。2011年の福島第一原発事故の後、各国が安全上の懸念から原子力発電所を停止させたため、世界の原子力発電量は急減した。日本は、稼働停止に伴って電力に占める原子力の役割が劇的に減少した顕著な例である。 [21][22][56][57]\n\n近年は世界の原子力発電量が再び増加している。ただし国によっては原子力の減少が続いており、その減少幅は再生可能エネルギーの増加幅とほぼ同程度で、低炭素電源全体の伸びを相殺してきた。 [53][79]\n\n## 発電量あたりの死亡率の推計\n\nエネルギー源の比較でしばしば用いられるのが、発電量あたりの死者数という指標である。この算定によれば、原子力発電の死者数は褐炭に比べて99.9%、石炭に比べて99.8%、石油に比べて99.7%、天然ガスに比べて97.6%少ない。温室効果ガスについても、石炭は原子力に比べて発電単位あたり100倍以上を排出するとされる。 [6][38]\n\nこの数字は抽象的になりやすいため、電力をすべて一つの電源でまかなう15万人の町という形に置き換えて示されることがある。石炭のみの場合は毎年少なくとも25人、石油のみでは18人、天然ガスのみでは3人が早期死亡すると推定される。水力のみでは平均して年1人、風力では25年に1人、原子力では33年に1人、太陽光では50年に1人という計算になり、原子力と太陽光では平均的な年には死者が出ない。 [25][31][32][33][34][35][36][37]\n\n水力発電の死亡率は1965年以降で1テラワット時あたり1.3人だが、その大半は1975年に中国で起きた板橋ダム決壊事故によるもので、この事故ではおよそ17万1000人が死亡した。この一件を除くと水力の死亡率は1テラワット時あたり0.04人となり、原子力・太陽光・風力と同程度になる。原子力の死亡率は多くの再生可能エネルギー技術とほぼ同水準であり、太陽光・風力・水力・石炭・天然ガスのサプライチェーンにおける発がん性毒性は原子力より著しく高いとする分析もある。 [28][29][30][89][91]\n\nこうした比較は前提に依存する。上記の死亡率の算定では、チェルノブイリ事故の死者を433人、福島事故の死者を2,314人と仮定している。チェルノブイリの実際の死者数を300人から500人の範囲と見積もる推定もあり、後述するようにこの数値自体が研究によって異なる。 [27][88][90]\n\n## チェルノブイリ事故（1986年）\n\n1986年4月、チェルノブイリ原発の4基の原子炉のうち1基で炉心がメルトダウンし、爆発が起きた。この事故は人類史上最悪の原子力事故とされる。同炉が採用していたRBMK型には格納容器がなく、放射性物質が大気中に放出された。設計面では、冷却水が蒸気となって失われることが炉心の反応度を加速させ、致命的な爆発に至る正のフィードバックループを生んだ。ソ連が事故の発生を認めるまでには少なくとも3日を要し、それはスウェーデンの原発の放射線センサーが放射性物質を検知した後のことだった。 [7][19][40][72][75]\n\n直接の被害としては、爆発により発電所作業員2人がほぼ即死し、事故発生時またはその直後に合計30人が死亡した。緊急作業員・発電所職員・消防士134人が急性放射線症候群を発症するほどの放射線に被曝し、うち28人が事故後数週間のうちに死亡した。生存者のうちさらに19人が2006年までに死亡しており、2008年のUNSCEARの報告によれば、その内訳はがん以外の疾患（結核、肝疾患、脳卒中など）が7人、心臓発作が6人、外傷が1人、がんが5人である。確認済みの死者数の合計は100人未満とされる。 [8][9][10][11][41][42][65][83]\n\n事故後、一部の住民は牛乳の汚染を通じて短寿命核種のヨウ素131に被曝した。放射性降下物が牧草地に沈着し、牛乳や葉物野菜を汚染したためである。1991年から2015年の間に、事故当時18歳未満だった患者において、ウクライナ・ベラルーシ・ロシアの被曝地域で19,233件の甲状腺がん症例が確認された。UNSCEARは、このうちおよそ4分の1にあたる4,808件が放射線被曝に関連づけられるとした。小児の甲状腺がんの予後は良好で、大規模研究では20年生存率が92%、40年生存率を98%とする報告もある。2005年時点で、汚染された牛乳に起因する甲状腺がんによる死亡は15件が報告されており、放射線に起因する4,808件からの死亡者数は96人から385人の範囲と推定されている。 [12][14][15][43][44][45][46][58][59][60][81][86][93]\n\n総死者数の見積もりは機関によって大きく異なる。WHOは2005年の報告書で潜在的な死亡者数を4,000人と推定した一方、UNSCEARは2008年、一般住民への放射線被曝は非常に低く、影響を受けた国々や欧州の他地域で健康への悪影響は予想されないと結論している。IAEAとWHOの報告書は、ベラルーシ、ロシア連邦、ウクライナなど最も影響を受けた地域の住民の大部分が、年間の自然放射線バックグラウンドの数倍程度までの低い線量に曝露されたにすぎず、深刻な健康影響を恐れる必要はないとしている。一般住民について放射線被曝に起因すると説得力を持って言えるその他の健康影響の証拠は、これまでのところ見つかっていない。ウクライナでは、原発に近い地域ほどがん罹患率が高いという傾向も見られなかった。 [47][48][61][62][82][92]\n\n## 福島第一原発事故（2011年）\n\n2011年3月、日本の福島県大熊町にある福島第一原子力発電所で事故が発生した。原因は、日本の観測史上最大の[地震](/hubpedia/earthquake)である東北地方太平洋沖地震と、それに伴う津波である。同発電所の原子炉は鋼鉄とコンクリートの格納構造を備えていたが、少なくとも1つは破損した可能性が高いとされる。炉の特性はチェルノブイリと逆で、温度上昇に伴って反応度が低下し、事実上の自己停止機構として働いた。日本政府の対応も迅速で、避難範囲は3キロメートルから10キロメートル、さらに20キロメートル圏へと急速に拡大された。 [1][16][73][74][85]\n\n放射線による直接の健康被害は限定的だった。爆発による物理的負傷や放射線熱傷で40人から50人が負傷し、日本政府は2018年、放射線被ばくが原因で作業員1人が肺がんで死亡したと報告した。事故そのものおよびその後の放射線被ばくに直接起因する死者はこの1人のみとされている。WHOは2016年、日本における放射線起因のがん死亡増加のリスクは非常に低いと述べ、UNSCEARは、一般公衆が受けた線量は事故後1年間の線量・生涯線量ともに概して低いか非常に低く、被曝した公衆やその子孫に放射線関連の健康影響の増加は見込まれないとした。周辺住民について、がんリスクの増加やその他の放射線関連の健康影響は確認されていない。 [17][49][66][67][68][84]\n\n死者の大半は避難に伴うものである。事故後数週間以内に16万人以上が避難し、翌年、日本政府は避難による身体的・精神的ストレスにより573人が間接的に死亡したと推定した。この推定死者数は2020年9月に2,313人へ改定され、事故による確認済みの死亡者数の合計は2,314人とされている。 [18][69][70][71]\n\n## スリーマイル島事故と事故の評価尺度\n\n1979年には米国でスリーマイル島原発事故が発生した。7段階の国際原子力事象評価尺度でレベル5（「所外へのリスクを伴う事故」）と評価されたが、直接死亡した者はおらず、追跡疫学研究でも事故と長期的な健康影響との明確な関連は見出されていない。 [20][77][78]\n\n同尺度で最高評価のレベル7を受けたのは、1986年のチェルノブイリ事故と2011年の福島事故の2件のみである。原子力の安全性に対する人々の認識は、この2つの事故に強く影響されている。 [26][39]",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/nuclear-energy",
+        "title": "原子力発電",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on nuclear-energy. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/electricity-mix",
+        "title": "electricity-mix",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Nuclear's share of the electricity mix. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Nuclear power",
+        "summary": "Nuclear power is a method of generating electricity from the heat released by nuclear fission. It entered commercial use in the 1960s and expanded worldwide from the 1970s through the 1990s. As of 2025 it supplies roughly 5% of the world's primary energy and about 10% of its electricity, and alongside hydropower it forms the core of low-carbon generation. Public perception of its safety, however, has been shaped decisively by the 1986 Chernobyl accident and the 2011 Fukushima Daiichi accident. Estimates of deaths per unit of electricity generated place nuclear orders of magnitude below fossil fuels, though estimates of the death tolls from the accidents themselves vary considerably depending on the study and the method of calculation.",
+        "bodyMarkdown": "## Its place in world energy supply\n\nNuclear power has existed since the 1960s and grew substantially worldwide through the 1970s, 1980s, and 1990s. As of 2025, roughly 5% of the world's primary energy comes from nuclear power, and its share rises to about 10% when electricity alone is considered. Cumulative generation from 1965 to 2021 amounts to 96,876 terawatt-hours. As a rough guide to the scale involved, one terawatt-hour is approximately the annual electricity consumption of about 150,000 EU citizens. [2][3][4][5][25][76]\n\nNuclear power and [renewable energy](/hubpedia/renewable-energy) are both classified as low-carbon sources, and both account for a larger share of the [electricity mix](/hubpedia/electricity-mix) than they do of total energy consumption. More than a third of the world's electricity is produced by low-carbon sources, while the remaining roughly 60% comes from the fossil fuels coal, oil, and natural gas. Within the low-carbon category, hydropower and nuclear power make up the largest shares, though wind and solar are growing rapidly. [50][51][52][80][87]\n\nThe distribution across countries is highly uneven. France, the United States, China, Russia, and South Korea generate particularly large amounts of nuclear power, while Belgium, France, and Ukraine rank high in terms of dependence on it as a share of electricity. France obtains about three-quarters of its electricity from nuclear power. A number of countries — Sweden, Norway, France, Paraguay, Iceland, and Nepal among them — meet more than 90% of their electricity demand with low-carbon sources, and almost all of them have this in common: they draw much of their electricity from hydropower, nuclear power, or both. [13][23][24][54][55]\n\n## Trends in generation\n\nFor decades, nuclear power has played an important role in supplying low-carbon electricity, serving in some countries as the largest source of generation or the next largest. After the Fukushima Daiichi accident of 2011, countries shut down nuclear power plants over safety concerns, and world nuclear generation fell sharply. Japan is a striking example, where the role of nuclear power in the electricity supply declined dramatically as reactors were taken offline. [21][22][56][57]\n\nIn recent years, world nuclear generation has been rising again. In some countries, however, nuclear power has continued to decline, and the size of that decline has been roughly comparable to the growth in renewable energy, offsetting the overall increase in low-carbon generation. [53][79]\n\n## Estimated death rates per unit of electricity\n\nA measure often used to compare energy sources is the number of deaths per unit of electricity generated. By this calculation, deaths from nuclear power are 99.9% lower than those from brown coal, 99.8% lower than coal, 99.7% lower than oil, and 97.6% lower than natural gas. Greenhouse gases follow a similar pattern: coal is estimated to emit more than 100 times as much per unit of electricity as nuclear power. [6][38]\n\nBecause such figures can feel abstract, they are sometimes recast as a town of 150,000 people whose electricity comes entirely from a single source. If that source were coal alone, at least 25 people would be estimated to die prematurely each year; with oil alone, 18; with natural gas alone, 3. With hydropower alone the figure works out to an average of one person per year, with wind one person every 25 years, with nuclear one every 33 years, and with solar one every 50 years — meaning that for nuclear and solar, an average year would see no deaths at all. [25][31][32][33][34][35][36][37]\n\nThe death rate for hydropower since 1965 is 1.3 per terawatt-hour, but most of that comes from the failure of the Banqiao Dam in China in 1975, an accident in which roughly 171,000 people died. Excluding that single event, the death rate for hydropower falls to 0.04 per terawatt-hour, comparable to nuclear, solar, and wind. Nuclear power's death rate is on par with that of most renewable technologies, and some analyses find that the carcinogenic toxicity of the solar, wind, hydropower, coal, and natural gas supply chains is markedly higher than that of nuclear. [28][29][30][89][91]\n\nComparisons of this kind depend on their assumptions. The death rates given above assume 433 deaths from the Chernobyl accident and 2,314 deaths from the Fukushima accident. Some estimates put the actual Chernobyl death toll in the range of 300 to 500, and as discussed below, this figure itself varies from study to study. [27][88][90]\n\n## The Chernobyl accident (1986)\n\nIn April 1986, one of the four reactors at the Chernobyl nuclear power plant suffered a core meltdown and exploded. The accident is regarded as the worst nuclear accident in human history. The RBMK design used by the reactor had no containment structure, and radioactive material was released into the atmosphere. In design terms, the loss of cooling water as it turned to steam accelerated the reactivity of the core, creating a positive feedback loop that led to a catastrophic explosion. The Soviet Union took at least three days to acknowledge that the accident had occurred, and did so only after radiation sensors at a Swedish nuclear plant detected radioactive material. [7][19][40][72][75]\n\nAs for immediate harm, the explosion killed two plant workers almost instantly, and a total of 30 people died at the time of the accident or shortly afterward. Among emergency workers, plant staff, and firefighters, 134 were exposed to radiation at levels sufficient to cause acute radiation syndrome, and 28 of them died within weeks of the accident. A further 19 of the survivors had died by 2006; according to a 2008 UNSCEAR report, the causes were non-cancer illnesses (tuberculosis, liver disease, stroke, and others) in 7 cases, heart attack in 6, trauma in 1, and cancer in 5. The confirmed death toll is put at fewer than 100 in total. [8][9][10][11][41][42][65][83]\n\nAfter the accident, some residents were exposed to the short-lived isotope iodine-131 through contaminated milk, as radioactive fallout settled on pastureland and contaminated milk and leafy vegetables. Between 1991 and 2015, 19,233 cases of thyroid cancer were confirmed in the exposed regions of Ukraine, Belarus, and Russia among patients who had been under 18 at the time of the accident. UNSCEAR attributed roughly a quarter of these — 4,808 cases — to radiation exposure. The prognosis for childhood thyroid cancer is good; large studies report a 20-year survival rate of 92%, with some putting the 40-year rate at 98%. As of 2005, 15 deaths from thyroid cancer caused by contaminated milk had been reported, and the number of deaths arising from the 4,808 radiation-attributed cases is estimated to fall in the range of 96 to 385. [12][14][15][43][44][45][46][58][59][60][81][86][93]\n\nEstimates of the total death toll differ greatly between institutions. The WHO, in a 2005 report, estimated the number of potential deaths at 4,000, whereas UNSCEAR concluded in 2008 that radiation exposure among the general public was very low and that no adverse health effects were to be expected in the affected countries or elsewhere in Europe. Reports from the IAEA and the WHO state that the great majority of residents in the most affected areas — Belarus, the Russian Federation, and Ukraine — received only low doses, up to a few times the annual natural background level, and have no need to fear serious health effects. No other evidence of health effects among the general public that can be convincingly attributed to radiation exposure has been found to date. In Ukraine, no tendency was observed for cancer incidence to rise with proximity to the plant. [47][48][61][62][82][92]\n\n## The Fukushima Daiichi accident (2011)\n\nIn March 2011, an accident occurred at the Fukushima Daiichi Nuclear Power Plant in the town of Okuma, Fukushima Prefecture, Japan. The causes were the Tōhoku earthquake — the largest [earthquake](/hubpedia/earthquake) in Japan's recorded history — and the tsunami that followed it. The plant's reactors had containment structures of steel and concrete, though at least one is thought likely to have been breached. The reactors' characteristics were the opposite of Chernobyl's: reactivity fell as temperature rose, acting in effect as a self-shutdown mechanism. The Japanese government also responded quickly, expanding the evacuation zone rapidly from 3 kilometers to 10 kilometers and then to a 20-kilometer radius. [1][16][73][74][85]\n\nDirect health damage from radiation was limited. Between 40 and 50 people were injured by physical trauma from the explosions or by radiation burns, and in 2018 the Japanese government reported that one worker had died of lung cancer caused by radiation exposure. This is the only death attributed directly to the accident itself or to the radiation exposure that followed. The WHO stated in 2016 that the risk of an increase in radiation-induced cancer deaths in Japan was very low, and UNSCEAR found that the doses received by the general public were generally low or very low, both in the first year after the accident and over a lifetime, and that no increase in radiation-related health effects was expected among the exposed public or their descendants. No increase in cancer risk or other radiation-related health effects has been confirmed among nearby residents. [17][49][66][67][68][84]\n\nMost of the deaths were associated with the evacuation. More than 160,000 people were evacuated within weeks of the accident, and the following year the Japanese government estimated that 573 people had died indirectly from the physical and psychological stress of evacuation. That estimate was revised upward to 2,313 in September 2020, bringing the total confirmed death toll from the accident to 2,314. [18][69][70][71]\n\n## Three Mile Island and the accident rating scale\n\nIn 1979, the Three Mile Island accident occurred in the United States. It was rated Level 5 (\"accident with wider consequences\") on the seven-level International Nuclear and Radiological Event Scale, but no one died as a direct result, and follow-up epidemiological studies have found no clear link between the accident and long-term health effects. [20][77][78]\n\nOnly two events have received the scale's highest rating, Level 7: the Chernobyl accident of 1986 and the Fukushima accident of 2011. Public perception of nuclear safety has been strongly shaped by these two accidents. [26][39]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T07:37:18.017Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "2011年3月、日本の福島県大熊町にある福島第一原子力発電所で事故が発生した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "In March 2011, an accident occurred at the Fukushima Daiichi Nuclear Power Plant in Ōkuma, Fukushima, Japan."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "原子力発電は1960年代から存在する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Nuclear power generation has existed since the 1960s"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "原子力発電は1970年代・1980年代・1990年代に世界的に大きく成長した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "but saw massive growth globally in the 1970s, 1980s, and 1990s"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "2025年時点で、世界の一次エネルギーの約5%が原子力発電に由来する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "In 2025, around 5% of global primary energy came from nuclear power."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "世界全体の電力の約10%は原子力発電に由来する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Globally, around 10% of our electricity comes from nuclear power."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "原子力発電は褐炭に比べて発電単位あたりの死者数が99.9%少なく、石炭に比べて99.8%、石油に比べて99.7%、天然ガスに比べて97.6%少ない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Nuclear energy, for example, results in 99.9% fewer deaths than brown coal, 99.8% fewer than coal, 99.7% fewer than oil, and 97.6% fewer than gas."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "1986年4月、チェルノブイリ原発の4基の原子炉のうち1基の炉心がメルトダウンし爆発した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "In April 1986, the core of one of the four reactors at the Chernobyl nuclear plant in Ukraine melted down and exploded."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "チェルノブイリ事故では、事故発生時またはその直後に30人が死亡した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "30 people died during or very soon after the incident."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "チェルノブイリ事故では、原子炉の爆発により2人の発電所作業員がほぼ即死した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Two plant workers died almost immediately in the explosion from the reactor."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "チェルノブイリ事故では、134人の緊急作業員・発電所職員・消防士が急性放射線症候群を発症するほどの放射線に被曝した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Overall, 134 emergency workers, plant operators, and firemen were exposed to levels of radiation high enough to suffer from acute radiation syndrome (ARS)."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "急性放射線症候群を発症した134人のうち28人が事故後数週間のうちに死亡した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "28 of these 134 workers died in the weeks that followed, which takes the total to 30."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "1991年から2015年の間に、事故当時18歳未満だった患者において、ウクライナ・ベラルーシ・ロシアの被曝地域で19,233件の甲状腺がん症例が確認された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Over the period from 1991 to 2015, there were 19,233 cases of thyroid cancer in patients who were younger than 18 at the time of the disaster across Ukraine, Belarus, and exposed regions of Russia."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "フランスは電力の約4分の3という大きな割合を原子力発電から得ている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/electricity-mix",
+              "quote": "For example, France obtains a significant portion, around three-quarters, of its electricity from nuclear power."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "大規模研究によれば甲状腺がんの20年生存率は92%である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "a 20-year survival rate of 92% for thyroid cancer"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "牛乳の放射性汚染に起因する甲状腺がんにより15人が死亡した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "15 people died from thyroid cancer due to milk contamination."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "福島第一原発事故は、日本の観測史上最大の地震である2011年の東北地方太平洋沖地震とそれに伴う津波によって引き起こされた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "This accident was caused by the 2011 Tōhoku earthquake and tsunami – the most powerful earthquake recorded in Japan’s history."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "日本政府は2018年、福島の事故による放射線被ばくが原因で作業員1人が肺がんで死亡したと報告した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "In 2018, the Japanese government reported that one worker has since died from lung cancer as a result of radiation exposure from the event."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "福島の事故による確認済みの死亡者数の合計は2,314人である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "the confirmed death toll from Fukushima is therefore 2,314"
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "チェルノブイリのRBMK炉には格納容器がなく、放射性物質が大気中に放出された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Its fatal RBMK reactor had no containment structure, allowing radioactive material to spill into the atmosphere."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "1979年、米国でスリーマイル島原発事故が発生した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "The third incident that often comes to mind was the Three Mile Island accident in the US in 1979."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "2011年の福島事故後、世界の原子力発電量は急減した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "we see a sharp dip in nuclear output following the Fukushima tsunami in Japan in 2011"
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "福島の事故後、各国は安全上の懸念から原子力発電所を停止させた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "as countries took plants offline due to safety concerns"
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "フランス、米国、中国、ロシア、韓国は原子力発電量が特に多い国である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "France, the USA, China, Russia, and South Korea all produce relatively large amounts of nuclear power."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "ベルギー、フランス、ウクライナは電力の多くを原子力に依存している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "some countries, such as Belgium, France, and Ukraine, rely heavily on it"
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "1テラワット時は、EU市民15万人の年間電力消費量にほぼ等しい。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "One terawatt-hour is about the same as the annual electricity consumption of 150,000 citizens in the European Union."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "原子力の安全性に対する人々の認識は、1986年のチェルノブイリ事故と2011年の福島事故という2つの事故に強く影響されている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Our perceptions of the safety of nuclear energy are strongly influenced by two accidents: Chernobyl in Ukraine in 1986 and Fukushima in Japan in 2011."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "死亡率の算定では、チェルノブイリ事故の死者数を433人、福島事故の死者数を2,314人と仮定している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "I assume a death toll of 433 from Chernobyl and 2,314 from Fukushima"
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "水力発電の1965年以降の死亡率は1TWhあたり1.3人で、その大半は1975年に中国で起きた板橋ダム決壊事故によるものである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Its death rate since 1965 is 1.3 deaths per TWh. This rate is almost completely dominated by one event: the Banqiao Dam Failure in China in 1975"
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "板橋ダム決壊事故ではおよそ17万1000人が死亡した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "which killed approximately 171,000 people"
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "板橋ダム決壊事故を除くと、水力発電の死亡率は1TWhあたり0.04人で、原子力・太陽光・風力と同程度である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "hydropower was very safe, with a death rate of just 0.04 deaths per TWh — comparable to nuclear, solar, and wind"
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "石炭のみで電力を賄う15万人の町では、毎年少なくとも25人が早期死亡すると推定される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Coal: 25 people would die prematurely every year;"
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "石油のみで電力を賄う場合、毎年18人が早期死亡すると推定される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Oil: 18 people would die prematurely every year;"
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "天然ガスのみで電力を賄う場合、毎年3人が早期死亡すると推定される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Gas: 3 people would die prematurely every year;"
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "水力発電のみで電力を賄う場合、平均して年間1人が死亡すると推定される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Hydropower: In an average year, 1 person would die;"
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "風力発電の死亡率は1TWhあたり0.04人で、平均すると25年に1人が死亡する計算になる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Wind: In an average year, nobody would die. A death rate of 0.04 deaths per terawatt-hour means every 25 years, a single person would die;"
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "原子力発電では平均的な年には死者は出ず、33年に1人が死亡する計算になる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Nuclear: In an average year, nobody would die – only every 33 years would someone die."
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "太陽光発電では平均的な年には死者は出ず、50年に1人が死亡する計算になる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Solar: In an average year, nobody would die – only every 50 years would someone die."
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "石炭は原子力に比べて発電単位あたり100倍以上の温室効果ガスを排出する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "It emits much more greenhouse gases than other sources – more than a hundred times more than nuclear."
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "1986年のチェルノブイリ事故と2011年の福島事故は、国際原子力事象評価尺度で最高評価のレベル7を受けた唯一の事故である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "the only disasters to receive a level 7 (the maximum classification) on the International Nuclear Event Scale"
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "チェルノブイリ事故は人類史上最悪の原子力事故だった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "It was the worst nuclear disaster in human history."
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "2008年のUNSCEARの報告によれば、急性放射線症候群の生存者のうちさらに19人が2006年までに死亡した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "It reported that a further 19 ARS survivors had died by 2006."
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "この19人のうち7人はがん以外の疾患（結核、肝疾患、脳卒中など）、6人は心臓発作、1人は外傷、5人はがんによる死亡だった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Seven were related to diseases not related to cancers, including tuberculosis, liver disease, and stroke; six were from heart attacks, one from a trauma incident, and five died from cancers."
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "チェルノブイリ事故後、一部の住民は牛乳の汚染を通じて短寿命核種ヨウ素131に被曝した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "some individuals were exposed to the short-lived radionuclide Iodine-131 (131I) through milk contamination"
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "放射性降下物が牧草地に沈着し、牛乳や葉物野菜を汚染した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Radioactive fallout settled on pasture grass across the region; this contaminated milk supplies and leafy vegetables that were consumed in the days immediately after the incident."
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "statement": "UNSCEARは、甲状腺がん症例のおよそ4分の1にあたる4,808件が放射線被曝に関連づけられるとした。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "UNSCEAR concluded that around one-quarter of these cases could be linked to radiation exposure. That would mean 4,808 thyroid cancer cases."
+            }
+          ]
+        },
+        {
+          "index": 46,
+          "statement": "2005年時点で、チェルノブイリ事故後の甲状腺がん症例のうち15件が死亡に至ったと報告された。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "By 2005, it was reported that 15 of these thyroid cancer cases had been fatal."
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "statement": "IAEA・WHOの報告書によれば、チェルノブイリ原発事故の影響を最も強く受けたベラルーシ、ロシア連邦、ウクライナなどの住民の大部分は、年間の自然放射線バックグラウンドの数倍程度までの低い放射線量に曝露されたにすぎず、深刻な健康影響を恐れる必要はない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "The vast majority of the population were exposed to low levels of radiation comparable, at most, to a few times the annual natural background radiation levels and need not live in fear of serious health consequences."
+            }
+          ]
+        },
+        {
+          "index": 48,
+          "statement": "チェルノブイリ原発事故について、一般住民において放射線被曝に起因すると説得力を持って言えるようなその他の健康影響の証拠は、これまでのところ見つかっていない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "To date, there has been no persuasive evidence of any other health effect in the general population that can be attributed to radiation exposure"
+            }
+          ]
+        },
+        {
+          "index": 49,
+          "statement": "UNSCEARによれば、福島第一原発事故後に一般公衆が受けた線量は、事故後1年間の線量・生涯線量ともに概して低いか非常に低く、被曝した公衆やその子孫に放射線に関連する健康影響の増加は見込まれない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "The doses to the general public, both those incurred during the first year and estimated for their lifetimes, are generally low or very low. No discernible increased incidence of radiation-related health effects are expected among exposed members of the public or their descendants."
+            }
+          ]
+        },
+        {
+          "index": 50,
+          "statement": "低炭素電源である原子力と再生可能エネルギーは、総エネルギー消費全体に占める割合よりも、電力に占める割合の方が大きい。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/electricity-mix",
+              "quote": "low-carbon sources (nuclear and renewables) account for a larger share of our electricity than our total energy mix"
+            }
+          ]
+        },
+        {
+          "index": 51,
+          "statement": "低炭素電源の中では水力発電と原子力発電が最大の割合を占めているが、風力発電と太陽光発電は急速に伸びている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/electricity-mix",
+              "quote": "Of the low-carbon sources, hydropower and nuclear make the largest contribution; although wind and solar are growing quickly."
+            }
+          ]
+        },
+        {
+          "index": 52,
+          "statement": "世界の電力の3分の1以上は、原子力や再生可能エネルギーなどの低炭素電源によって作られている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/electricity-mix",
+              "quote": "Globally, more than a third of our electricity comes from low-carbon sources."
+            }
+          ]
+        },
+        {
+          "index": 53,
+          "statement": "近年、原子力発電の減少が再生可能エネルギーの伸びを相殺しており、原子力の減少幅は再生可能エネルギーの増加幅とほぼ同程度である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/electricity-mix",
+              "quote": "A decline in nuclear energy has offset the progress made in renewables; nuclear declined almost as much as renewables gained."
+            }
+          ]
+        },
+        {
+          "index": 54,
+          "statement": "スウェーデン、ノルウェー、フランス、パラグアイ、アイスランド、ネパールなどの一部の国は、電力の90%以上を原子力または再生可能エネルギーから得ている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/electricity-mix",
+              "quote": "Some countries get over 90% of their electricity from nuclear or renewables — Sweden, Norway, France, Paraguay, Iceland, and Nepal, among others."
+            }
+          ]
+        },
+        {
+          "index": 55,
+          "statement": "電力の90%以上を低炭素電源から得ている国々のほぼすべてに共通するのは、水力発電および・または原子力発電から多くの電力を得ていることである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/electricity-mix",
+              "quote": "Nearly all these countries have one thing in common: they get a lot of electricity from hydropower and/or nuclear energy."
+            }
+          ]
+        },
+        {
+          "index": 56,
+          "statement": "原子力発電は数十年にわたり低炭素電力生産において重要な役割を果たしており、一部の国では電力の最大、あるいはそれに次ぐ供給源となっている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/electricity-mix",
+              "quote": "For decades, nuclear power has played a key role in low-carbon electricity production. In some countries, it is one of — if not the single — largest sources of electricity."
+            }
+          ]
+        },
+        {
+          "index": 57,
+          "statement": "一部の国では原子力発電所の稼働停止に伴い、電力に占める原子力の役割が劇的に減少しており、日本はその顕著な例である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/electricity-mix",
+              "quote": "In some countries, we see a dramatic decline in nuclear's role as plants have been taken offline. Japan is an obvious example of this."
+            }
+          ]
+        },
+        {
+          "index": 58,
+          "statement": "チェルノブイリ事故による甲状腺がん症例のうち15件が死亡に至ったと報告された。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "15 of these thyroid cancer cases had been fatal"
+            }
+          ]
+        },
+        {
+          "index": 59,
+          "statement": "小児の甲状腺がんの予後は非常に良好である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "the prognosis for thyroid cancer in children is very good"
+            }
+          ]
+        },
+        {
+          "index": 60,
+          "statement": "甲状腺がんの40年生存率は98%とする報告もある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "a survival rate of 98% after 40 years"
+            }
+          ]
+        },
+        {
+          "index": 61,
+          "statement": "WHOは2005年の報告書で、チェルノブイリ事故による潜在的な死亡者数を4,000人と推定した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "In its 2005 report, the WHO estimated a potential death toll of 4,000"
+            }
+          ]
+        },
+        {
+          "index": 62,
+          "statement": "UNSCEARは2008年、一般住民への放射線被ばくは非常に低く、チェルノブイリの影響を受けた国々や欧州の他地域で健康への悪影響は予想されないと結論した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "In 2008, the UNSCEAR concluded that radioactive exposure to the general public was very low and that it does not expect adverse health impacts in the countries affected by Chernobyl or the rest of Europe"
+            }
+          ]
+        },
+        {
+          "index": 65,
+          "statement": "チェルノブイリ事故による確認済みの死亡者数の合計は100人未満である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "the confirmed death toll from Chernobyl is less than 100"
+            }
+          ]
+        },
+        {
+          "index": 66,
+          "statement": "福島の事故そのものおよびその後の放射線被ばくに直接起因する死者は1人のみとされている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "only one death has been attributed to the disaster"
+            }
+          ]
+        },
+        {
+          "index": 67,
+          "statement": "福島第一原発事故では、爆発による物理的負傷や放射線熱傷により40人から50人が負傷した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "40 to 50 people were injured as a result of physical injury from the blast or radiation burns."
+            }
+          ]
+        },
+        {
+          "index": 68,
+          "statement": "WHOは2016年、日本における放射線起因のがん死亡増加のリスクは非常に低いと述べた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "In 2016, the World Health Organization noted that there was a very low risk of increased cancer deaths in Japan."
+            }
+          ]
+        },
+        {
+          "index": 69,
+          "statement": "福島の事故後、数週間以内に16万人以上が避難した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "more than 160,000 people had moved away"
+            }
+          ]
+        },
+        {
+          "index": 70,
+          "statement": "事故翌年、日本政府は避難による身体的・精神的ストレスにより573人が間接的に死亡したと推定した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "the Japanese government estimated that 573 people had died indirectly as a result of the physical and mental stress of evacuation"
+            }
+          ]
+        },
+        {
+          "index": 71,
+          "statement": "この推定死者数は2020年9月に2,313人へ改定された。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "this figure was revised to 2,313 deaths in September 2020"
+            }
+          ]
+        },
+        {
+          "index": 72,
+          "statement": "チェルノブイリでは、冷却水が蒸気となって失われることが炉心の反応度を加速させ、致命的な爆発に至る正のフィードバックループを生み出した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "at Chernobyl, the loss of cooling water as steam actually served to accelerate reactivity levels in the reactor core, creating a positive feedback loop toward the fatal explosion"
+            }
+          ]
+        },
+        {
+          "index": 73,
+          "statement": "福島では逆に、温度上昇に伴い反応度が低下し、事実上の自己停止機構として働いた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "The opposite is true of Fukushima, where the reactivity reduced as temperatures rose, effectively operating as a self-shutdown measure."
+            }
+          ]
+        },
+        {
+          "index": 74,
+          "statement": "福島の事故で日本政府は迅速に対応し、避難範囲を3キロメートルから10キロメートル、さらに20キロメートル圏へと急速に拡大した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "the Japanese government responded quickly to the crisis, with evacuation efforts extending rapidly from a 3-kilometer (km) to a 10-km to a 20-km radius while the incident at the site continued to unfold"
+            }
+          ]
+        },
+        {
+          "index": 75,
+          "statement": "ソ連がチェルノブイリ事故の発生を認めるまで少なくとも3日を要し、それはスウェーデンの原発の放射線センサーが検知した後のことだった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "it took at least three days for the Soviet Union to admit an accident had taken place, and did so after radioactive sensors at a Swedish plant were triggered by dispersing radionuclides"
+            }
+          ]
+        },
+        {
+          "index": 76,
+          "statement": "1965年から2021年までの世界の原子力発電による累積電力生産量は96,876テラワット時である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "cumulative global electricity production from nuclear from 1965 to 2021, which is 96,876 TWh"
+            }
+          ]
+        },
+        {
+          "index": 77,
+          "statement": "スリーマイル島原発事故は、7段階の国際原子力事象評価尺度でレベル5(「所外へのリスクを伴う事故」)と評価された。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "On the seven-point International Nuclear Event Scale, this was rated as a level five event (“Accident with Wider Consequences”)."
+            }
+          ]
+        },
+        {
+          "index": 78,
+          "statement": "スリーマイル島原発事故により直接死亡した者はおらず、追跡疫学研究でも事故と長期的な健康影響との明確な関連は見出されていない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "No one died directly from this incident, and follow-up epidemiological studies have not found a clear link between the incident and long-term health impacts."
+            }
+          ]
+        },
+        {
+          "index": 79,
+          "statement": "近年、世界の原子力発電量は再び増加している。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "production has once again increased in recent years"
+            }
+          ]
+        },
+        {
+          "index": 80,
+          "statement": "世界の電力供給の約60%は石炭・石油・天然ガスの化石燃料によって占められている。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "the global electricity mix is still dominated by fossil fuels: coal, oil, and gas account for around 60%"
+            }
+          ]
+        },
+        {
+          "index": 81,
+          "statement": "チェルノブイリ事故当時に子供・青年だった集団では、その後甲状腺がんの発生率が増加したことが複数の研究で示されている。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "several studies have shown an increased incidence of thyroid cancer in those who were children and adolescents around this time"
+            }
+          ]
+        },
+        {
+          "index": 82,
+          "statement": "ウクライナでは、チェルノブイリ原発に近い地域ほどがん罹患率が高いという傾向は見られなかった。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Cancer rates in Ukraine, for example, were not higher in locations closer to the site"
+            }
+          ]
+        },
+        {
+          "index": 83,
+          "statement": "急性放射線症候群の生存者のうち19人が2006年までに死亡した。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "19 ARS survivors had died later by 2006"
+            }
+          ]
+        },
+        {
+          "index": 84,
+          "statement": "福島第一原発事故の周辺住民について、がんリスクの増加やその他の放射線関連の健康影響は確認されていない。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "There appears to be no increased cancer risk or other radiation-related health impacts."
+            }
+          ]
+        },
+        {
+          "index": 85,
+          "statement": "福島第一原発の原子炉には鋼鉄とコンクリートの格納構造があったが、少なくとも1つは破損した可能性が高い。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Fukushima’s reactors did have steel-and-concrete containment structures, although it’s likely that at least one of these was also breached."
+            }
+          ]
+        },
+        {
+          "index": 86,
+          "statement": "汚染された牛乳や食品からの放射線被ばくにより、小児・青年における甲状腺がん症例約4,808件が発生したと推定される。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "approximately 4,808 thyroid cancer cases in children and adolescents could be linked to radiation exposure from contaminated milk and foods"
+            }
+          ]
+        },
+        {
+          "index": 87,
+          "statement": "原子力は低炭素エネルギーの主要な供給源の一つでもある。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "nuclear is also a key source of low-carbon energy"
+            }
+          ]
+        },
+        {
+          "index": 88,
+          "statement": "原子力の死亡率の算出では、チェルノブイリで433人、福島で2,314人の死者という仮定が用いられている。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "the assumption of 433 deaths from Chernobyl and 2314 from Fukushima"
+            }
+          ]
+        },
+        {
+          "index": 89,
+          "statement": "太陽光・風力・水力・石炭・天然ガスなどのサプライチェーンにおける発がん性毒性は、原子力よりも著しく高いとされる分析がある。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "analyses suggest that the carcinogenic toxicity of other sources – including solar, wind, hydropower, coal, and gas are all significantly higher across their supply chains"
+            }
+          ]
+        },
+        {
+          "index": 90,
+          "statement": "著者の推定では、チェルノブイリ事故の実際の死亡者数は300人から500人の範囲である。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "My best approximation is that the true death toll is in the range of 300 to 500"
+            }
+          ]
+        },
+        {
+          "index": 91,
+          "statement": "原子力発電の死亡率は、多くの再生可能エネルギー技術とほぼ同程度である。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "the death rate from nuclear power is roughly comparable to that of most renewable energy technologies"
+            }
+          ]
+        },
+        {
+          "index": 92,
+          "statement": "チェルノブイリ事故後、大多数の住民が被ばくした放射線量は、多くとも年間の自然放射線バックグラウンドレベルの数倍程度に留まり、深刻な健康影響を恐れる必要はないとされる。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "The vast majority of the population were exposed to low levels of radiation comparable, at most, to a few times the annual natural background radiation levels and need not live in fear of serious health consequences."
+            }
+          ]
+        },
+        {
+          "index": 93,
+          "statement": "放射線に起因する甲状腺がん症例4,808件から、死亡者数は96人から385人の範囲と推定される。",
+          "confidence": 0.7,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "we might estimate that the number of deaths could be in the range of 96 to 385"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "electricity-mix",
+    "topicType": "concept",
+    "categoryLabel": "気候・エネルギー",
+    "title": "電源構成",
+    "summary": "電源構成とは、電力を生み出すために用いられる資源の内訳を指す。世界全体では石炭とガスを中心とする化石燃料が依然として過半を占める一方、水力・原子力・風力・太陽光といった低炭素電源が3分の1以上を供給している。国ごとの差は極端で、電力の9割以上を原子力または再生可能エネルギーから得ている国がある一方、石炭が支配的な国も多い。",
+    "bodyMarkdown": "## 電源構成という指標\n\n同じ1キロワット時の電気でも、それを生んだ資源は国によって大きく異なる。電源構成とは、電力を生み出すために用いられる資源の内訳を指す言葉であり、石炭・石油・ガスといった化石燃料と、水力・原子力・風力・太陽光などの低炭素電源の割合として表される。電力そのものは、総エネルギー生産を構成する3つの要素のうちの1つにすぎず、残る2つは輸送と熱利用である。したがって電源構成は、その国のエネルギー全体ではなく、電気という一部分の姿を示している。 [1]\n\n内訳が問われるのは、資源ごとに排出と健康影響が大きく違うためである。電力の炭素強度は、電力単位あたりに生じる二酸化炭素の量で測られ、通常は1キロワット時あたりのグラム数として表される。同じ電力量を供給しても、構成が変われば炭素強度は変わる。化石燃料は石炭・石油・ガスの合計を指し、世界の二酸化炭素排出量の最大の発生源となっている。 [8][10]\n\n## 世界全体の内訳\n\n世界の電力供給源として現在最大なのは石炭であり、多くの国で依然として支配的な電源となっている。次いで大きいのがガスである。石油が電力生産に占める割合は小さく、電力の大半は石炭とガスから生産されている。発電量で見ると、石炭が10,042テラワット時、天然ガスが6,098テラワット時であるのに対し、石油は852テラワット時にとどまる。ただしこの3つの数値は、他の記述に比べて確実性が低い部類に属する。 [2][9][11][12][69][70][71]\n\n合計すると、石炭・石油・ガスを合わせた化石燃料が世界の電力構成の約60%を占め、過半は依然として化石燃料、主に石炭とガスから生産されている。裏を返せば、電力の3分の1以上は低炭素電源から供給されている。低炭素電源の内訳では水力と原子力が最大の割合を占めるが、風力と太陽光が急速に伸びている。低炭素電源全体のなかでは、再生可能エネルギーが原子力よりも大きな割合を占める。 [3][5][6][31][37]\n\n「[再生可能エネルギー](/hubpedia/renewable-energy)」という言葉は単一の技術を指すものではない。水力、太陽光、風力、地熱、バイオマス、波力・潮力など、性質の異なる複数の電源を束ねた総称である。このうち水力は世界の低炭素電力に大きく貢献しており、単独で世界の電力生産の約6分の1を占めている。原子力が世界の電力に占める割合は約10%である。なお、電力だけでなく一次エネルギー全体で見た場合、2025年時点で原子力が供給しているのは約5%にとどまる。 [14][15][18][19]\n\n注意を要するのは、この化石燃料と低炭素電源の割合が、ここ数十年ほとんど動いていないという点である。再生可能エネルギーは増えてきたが、その増加分は原子力の減少とほぼ相殺されてきた。低炭素電源の内部で主役が入れ替わっただけで、化石燃料との境界線はさほど移動していない。 [32]\n\n## 国による差\n\n世界平均は、個々の国の姿をほとんど説明しない。スウェーデン、ノルウェー、フランス、パラグアイ、アイスランド、ネパールなど一部の国は、電力の90%以上を原子力または再生可能エネルギーから得ている。原子力への依存が大きい国としてはベルギー、フランス、ウクライナが挙げられ、なかでもフランスは電力の約4分の3を原子力から得ている。発電量そのものが大きい国としては、フランスのほか米国、中国、ロシア、韓国がある。 [7][13][17][36]\n\n構成は固定されたものではなく、数十年の単位で入れ替わる。英国では、1980年代後半に電力の半分以上を占めていた石炭の割合が、現在は数パーセント程度にまで減少した。逆方向の変化もある。一部の国では原子炉が停止されたことで原子力の役割が急激に低下しており、日本はその典型例である。 [4][34]\n\n[原子力発電](/hubpedia/nuclear-energy)は1960年代から存在し、1970年代・1980年代・1990年代に世界的に急成長した。しかし2011年の福島第一原発事故を招いた津波の後、安全上の懸念から各国が原子炉を停止させ、世界の原子力発電量は急減した。累積で見ると、1965年から2021年までの世界の発電量は、原子力が96,876テラワット時、水力が138,175テラワット時である。 [16][35][38][39]\n\n## 排出以外の比較軸\n\n電源の選択は炭素強度だけで比較されるわけではない。ガスは石炭に比べ、エネルギー単位あたりの二酸化炭素排出量が少ない。ただし化石燃料の影響は排出にとどまらず、大気汚染を通じた健康被害としても現れる。化石燃料による年間死者数の推計には幅があり、Leliveld et al.（2018）は毎年360万人、Vohra et al.（2021）は870万人としている。これらは化石燃料全体の数値であり、大気汚染による死者のうち電力生産に由来するのは12%と推計されている。 [20][21][33][40]\n\n発電量あたりで揃えると、電源間の差は明瞭になる。石炭による世界平均の死亡率は1テラワット時あたり93人から224人と推計される。この幅は推計手法の違いを反映しており、単一の確定値ではない。再生可能エネルギーと原子力は、化石燃料と比べて一貫して死亡率が大幅に低く、原子力発電の死亡率はほとんどの再生可能エネルギー技術と同程度である。健康影響は大気汚染に限られず、化石燃料、特に石炭は、原子力や再生可能エネルギーよりも供給網全体での発がん性毒性が高い。 [41][42][61][68]\n\n## 重大事故と死者数の推計\n\n原子力をめぐる議論では、平常運転時の死亡率とは別に、重大事故が論点となる。1986年にウクライナで発生したチェルノブイリ原発事故と、2011年に日本で発生した福島第一原発事故は、国際原子力事象評価尺度（INES）で最高評価のレベル7に達した唯一の事故である。 [22][23]\n\nチェルノブイリでは、1986年4月に4基ある原子炉のうち1基の炉心が溶融し爆発した。爆発により発電所の作業員2人がほぼ即死し、緊急作業員・運転員・消防士134人が急性放射線症候群（ARS）を発症するほどの放射線に被曝した。このうち28人が数週間のうちに死亡し、事故直後またはその後まもなくの死者は合計30人である。UNSCEARの2008年報告書によれば、ARS生存者のうちさらに19人が2006年までに死亡したが、その死因の内訳は結核・肝疾患・脳卒中など癌以外の疾患が7人、心臓発作が6人、外傷が1人、癌が5人であり、すべてが被曝に帰せられるわけではない。 [24][25][26][27][28][43][44]\n\n長期の影響として最も明確に現れたのは甲状腺癌である。1991年から2015年の間に、事故当時18歳未満だった患者について、ウクライナ・ベラルーシ・ロシアの被曝地域で19,233件の甲状腺癌が報告された。UNSCEARは、このうちおよそ4分の1にあたる4,808件が放射線被曝に関連しうると結論している。ただし甲状腺癌は予後が比較的良好で、大規模研究では小児の20年生存率が92%、別の研究では40年後の生存率が98%とされる。2005年までに死亡が報告されたのは15件であり、放射線誘発甲状腺癌による死者数は96人から385人の範囲と推計されている。 [45][46][47][62][63][64]\n\n死者総数の推計は出典によって大きく開く。2000年代初頭の一部報告は1万6千人から6万人と推計し、WHOは2005年の報告書で4,000人という推計を示した。一方で確認済みの死者総数は100人未満であり、入手可能な証拠に基づく最良の推計では真の死者数は300人から500人の範囲とされる。この開きは、確認された個別の死亡と、統計的に見積もられた将来の超過死亡とが同じ「死者数」という語で語られることに起因する。 [48][49][65][66]\n\n福島の事故は、2011年3月、福島県大熊町にある福島第一原子力発電所で発生した。原因は、日本の観測史上最大の[地震](/hubpedia/earthquake)である2011年東北地方太平洋沖地震とそれに伴う津波である。放射線または爆発によって直接死亡が認定されたのは1人のみで、ほかに爆発や放射線熱傷による物理的負傷者が40人から50人出た。2018年には日本政府が、放射線被曝が原因で作業員1人が肺癌により死亡したと報告している。 [29][30][50][51][52]\n\n福島の死者数の大半は、放射線そのものではなく避難に由来する。事故後数週間で16万人以上が避難のため移動し、翌年に日本政府は避難による身体的・精神的ストレスが原因で573人が間接的に死亡したと推計した。この推計は2020年9月に2,313人へと改訂され、確認済みの死者総数は2,314人とされている。避難によるストレスや混乱で間接的に数千人が死亡したという推計は、直接死1人という数字と同じ事故の別の側面を示している。 [53][54][55][56][67]\n\n2つの事故は規模も経過も異なる。チェルノブイリのRBMK炉には格納容器構造がなく、放射性物質が大気中に放出された。福島の原子炉は鋼鉄とコンクリート製の格納容器構造を備えていた。避難の運用も対照的で、福島では事故進行中に避難範囲が3キロメートルから10キロメートル、さらに20キロメートル圏へと急速に拡大されたのに対し、ソ連が事故発生を認めるまでには少なくとも3日を要した。 [57][58][59][60]",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/electricity-mix",
+        "title": "電源構成",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on electricity-mix. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/nuclear-energy",
+        "title": "nuclear-energy",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Nuclear generation within the mix. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Electricity Mix",
+        "summary": "The electricity mix refers to the breakdown of resources used to generate electricity. Worldwide, fossil fuels — mainly coal and gas — still account for more than half of the total, while low-carbon sources such as hydropower, nuclear, wind, and solar supply more than one-third. Differences between countries are extreme: some obtain over 90% of their electricity from nuclear or renewable energy, while coal remains dominant in many others.",
+        "bodyMarkdown": "## The electricity mix as an indicator\n\nThe same kilowatt-hour of electricity can be produced from very different resources depending on the country. The electricity mix is the term for the breakdown of resources used to generate electricity, expressed as the shares of fossil fuels — coal, oil, and gas — and of low-carbon sources such as hydropower, nuclear, wind, and solar. Electricity itself is only one of the three components that make up total energy production; the other two are transport and heat. The electricity mix therefore describes only a portion of a country's picture — the electrical part — rather than its energy as a whole. [1]\n\nThe breakdown matters because emissions and health impacts differ greatly between resources. The carbon intensity of electricity is measured by the amount of carbon dioxide produced per unit of electricity, usually expressed as grams per kilowatt-hour. The same quantity of electricity can have a different carbon intensity if the mix changes. Fossil fuels — the combined total of coal, oil, and gas — are the single largest source of carbon dioxide emissions worldwide. [8][10]\n\n## The global breakdown\n\nCoal is currently the largest source of the world's electricity supply and remains the dominant source in many countries. Gas is the next largest. Oil accounts for only a small share of electricity production, and most electricity is produced from coal and gas. In terms of generation, coal supplies 10,042 terawatt-hours and natural gas 6,098 terawatt-hours, while oil contributes only 852 terawatt-hours. These three figures, however, belong to the less certain category compared with other statements here. [2][9][11][12][69][70][71]\n\nTaken together, fossil fuels — coal, oil, and gas combined — make up roughly 60% of the global electricity mix, so the majority is still produced from fossil fuels, mainly coal and gas. Conversely, more than one-third of electricity comes from low-carbon sources. Within the low-carbon category, hydropower and nuclear hold the largest shares, but wind and solar are growing rapidly. Across low-carbon sources as a whole, renewable energy accounts for a larger share than nuclear. [3][5][6][31][37]\n\nThe term \"[renewable energy](/hubpedia/renewable-energy)\" does not refer to a single technology. It is a collective label bundling several sources with different characteristics: hydropower, solar, wind, geothermal, biomass, and wave and tidal power. Among these, hydropower contributes substantially to the world's low-carbon electricity, accounting on its own for roughly one-sixth of global electricity production. Nuclear accounts for about 10% of the world's electricity. Note that when measured across primary energy as a whole rather than electricity alone, nuclear supplied only around 5% as of 2025. [14][15][18][19]\n\nWhat deserves attention is that this split between fossil fuels and low-carbon sources has barely moved over the past several decades. Renewable energy has grown, but that growth has been largely offset by the decline of nuclear. The leading role has simply changed hands within the low-carbon category, while the boundary with fossil fuels has shifted little. [32]\n\n## Differences between countries\n\nThe global average explains almost nothing about individual countries. Some countries — including Sweden, Norway, France, Paraguay, Iceland, and Nepal — obtain more than 90% of their electricity from nuclear or renewable energy. Countries with heavy reliance on nuclear include Belgium, France, and Ukraine; France in particular obtains roughly three-quarters of its electricity from nuclear. Countries with large generation volumes in absolute terms include France as well as the United States, China, Russia, and South Korea. [7][13][17][36]\n\nThe mix is not fixed; it turns over on the scale of decades. In the United Kingdom, coal accounted for more than half of electricity in the late 1980s but has since fallen to only a few percent. Change also runs in the opposite direction. In some countries the role of nuclear has fallen sharply as reactors were shut down, and Japan is the classic example. [4][34]\n\n[Nuclear energy](/hubpedia/nuclear-energy) has existed since the 1960s and grew rapidly worldwide through the 1970s, 1980s, and 1990s. But after the tsunami that caused the Fukushima Daiichi accident in 2011, safety concerns led countries to shut down reactors, and global nuclear generation fell sharply. Cumulatively, world generation from 1965 to 2021 amounts to 96,876 terawatt-hours from nuclear and 138,175 terawatt-hours from hydropower. [16][35][38][39]\n\n## Comparisons beyond emissions\n\nEnergy sources are not compared on carbon intensity alone. Gas emits less carbon dioxide per unit of energy than coal. But the impacts of fossil fuels are not limited to emissions; they also appear as health damage through air pollution. Estimates of annual deaths from fossil fuels vary in range: Leliveld et al. (2018) put the figure at 3.6 million per year, and Vohra et al. (2021) at 8.7 million. These are figures for fossil fuels as a whole, and 12% of deaths from air pollution are estimated to originate from electricity production. [20][21][33][40]\n\nWhen normalized per unit of generation, the differences between sources become clear. The global average death rate from coal is estimated at 93 to 224 deaths per terawatt-hour. This range reflects differences in estimation methods rather than a single settled value. Renewable energy and nuclear consistently have far lower death rates than fossil fuels, and the death rate for nuclear power is comparable to that of most renewable energy technologies. Health impacts are not limited to air pollution: fossil fuels, coal in particular, carry higher carcinogenic toxicity across the whole supply chain than nuclear or renewable energy. [41][42][61][68]\n\n## Major accidents and death toll estimates\n\nIn debates over nuclear energy, major accidents are a point of contention separate from death rates during normal operation. The Chernobyl accident, which occurred in Ukraine in 1986, and the Fukushima Daiichi accident, which occurred in Japan in 2011, are the only accidents to have reached Level 7, the highest rating on the International Nuclear Event Scale (INES). [22][23]\n\nAt Chernobyl, the core of one of the plant's four reactors melted down and exploded in April 1986. The explosion killed two plant workers almost immediately, and 134 emergency workers, operators, and firefighters were exposed to radiation levels high enough to cause acute radiation syndrome (ARS). Of these, 28 died within weeks, bringing the total to 30 deaths during or shortly after the accident. According to the UNSCEAR 2008 report, a further 19 of the ARS survivors had died by 2006, but the breakdown of causes — 7 from non-cancer conditions such as tuberculosis, liver disease, and stroke; 6 from heart attacks; 1 from trauma; and 5 from cancer — means not all can be attributed to radiation exposure. [24][25][26][27][28][43][44]\n\nThe long-term effect that emerged most clearly was thyroid cancer. Between 1991 and 2015, 19,233 cases of thyroid cancer were reported in exposed regions of Ukraine, Belarus, and Russia among patients who were under 18 at the time of the accident. UNSCEAR concluded that roughly a quarter of these — 4,808 cases — could be linked to radiation exposure. However, thyroid cancer has a relatively good prognosis: large studies put the 20-year survival rate for children at 92%, and another study put survival at 98% after 40 years. Fifteen deaths were reported by 2005, and the death toll from radiation-induced thyroid cancer is estimated in the range of 96 to 385. [45][46][47][62][63][64]\n\nEstimates of the total death toll differ widely between sources. Some reports in the early 2000s estimated 16,000 to 60,000, and the WHO presented an estimate of 4,000 in a 2005 report. On the other hand, the confirmed total death toll is fewer than 100, and the best estimate based on available evidence puts the true toll in the range of 300 to 500. This gap arises because individually confirmed deaths and statistically projected future excess deaths are both discussed using the same word: \"deaths.\" [48][49][65][66]\n\nThe Fukushima accident occurred in March 2011 at the Fukushima Daiichi Nuclear Power Plant in Okuma, Fukushima Prefecture. The cause was the 2011 Tōhoku [earthquake](/hubpedia/earthquake) — the largest in Japan's recorded history — and the tsunami that accompanied it. Only one death has been formally attributed directly to radiation or the explosion, along with 40 to 50 people physically injured by the explosion or radiation burns. In 2018, the Japanese government reported that one worker had died of lung cancer caused by radiation exposure. [29][30][50][51][52]\n\nMost of the deaths at Fukushima stem not from radiation itself but from the evacuation. More than 160,000 people were displaced in the weeks after the accident, and the following year the Japanese government estimated that 573 people had died indirectly from the physical and mental stress of evacuation. That estimate was revised to 2,313 in September 2020, putting the confirmed total death toll at 2,314. The estimate that several thousand died indirectly from the stress and disruption of evacuation represents a different facet of the same accident as the figure of one direct death. [53][54][55][56][67]\n\nThe two accidents differ in scale and in how they unfolded. Chernobyl's RBMK reactor had no containment structure, and radioactive material was released into the atmosphere. The Fukushima reactors had containment structures of steel and concrete. Evacuation practice contrasted as well: at Fukushima the evacuation zone was expanded rapidly during the accident from 3 kilometers to 10 kilometers and then to a 20-kilometer radius, whereas the Soviet Union took at least three days to acknowledge that an accident had occurred. [57][58][59][60]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T07:37:18.017Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "電力は総エネルギー生産を構成する3要素の1つであり、残る2つは輸送と熱利用である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/electricity-mix",
+              "quote": "Electricity is one of three components that make up total energy production. The other two are transport and heating."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "世界全体では、石炭に次いでガスが電力生産の最大の供給源である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/electricity-mix",
+              "quote": "Globally, coal, followed by gas, is the largest source of electricity production."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "低炭素電源のうち水力と原子力が最大の割合を占めているが、風力と太陽光は急速に伸びている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/electricity-mix",
+              "quote": "Of the low-carbon sources, hydropower and nuclear make the largest contribution; although wind and solar are growing quickly."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "英国では1980年代後半に電力の半分以上を占めていた石炭の割合が、現在は数パーセント程度にまで減少した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/electricity-mix",
+              "quote": "From being the source of more than half of the electricity in the late 1980s, coal's contribution has now dwindled to just a mere couple of percent"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "世界全体で見ると、電力の3分の1以上が低炭素電源から供給されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/electricity-mix",
+              "quote": "Globally, more than a third of our electricity comes from low-carbon sources."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "電力の過半は依然として化石燃料、主に石炭とガスから生産されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/electricity-mix",
+              "quote": "the majority is still generated from fossil fuels, predominantly coal and gas."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "スウェーデン、ノルウェー、フランス、パラグアイ、アイスランド、ネパールなど一部の国は、電力の90%以上を原子力または再生可能エネルギーから得ている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/electricity-mix",
+              "quote": "Some countries get over 90% of their electricity from nuclear or renewables — Sweden, Norway, France, Paraguay, Iceland, and Nepal, among others."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "電力の炭素強度は電力単位あたりに生じるCO2量で測られ、1キロワット時あたりのグラム数のCO2として表される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/electricity-mix",
+              "quote": "Carbon intensity of electricity measures the amount of CO2 produced per unit of electricity. It is measured as the grams of CO2 produced per kilowatt-hour (kWh)."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "石油が電力生産に占める割合は小さく、電力の大半は石炭とガスから生産されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/electricity-mix",
+              "quote": "Oil accounts for only a small share of electricity production — most come from coal and gas."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "化石燃料は石炭、石油、ガスの合計であり、世界のCO2排出量の最大の発生源である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/electricity-mix",
+              "quote": "Fossil fuels are the sum of coal, oil, and gas. Combined, they are the largest source of global carbon dioxide (CO2) emissions."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "石炭は現在、世界の電力供給源として最大であり、多くの国で依然として支配的な電源である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/electricity-mix",
+              "quote": "Coal is currently the largest source of electricity globally and remains the dominant source for many countries."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "ガスは現在、世界の電力生産において2番目に大きな供給源である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/electricity-mix",
+              "quote": "Gas is now the second largest source of electricity production globally."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "フランスは電力の約4分の3という大きな割合を原子力から得ている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/electricity-mix",
+              "quote": "France obtains a significant portion, around three-quarters, of its electricity from nuclear power."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "「再生可能エネルギー」には水力、太陽光、風力、地熱、バイオマス、波力・潮力など複数の電源が含まれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/electricity-mix",
+              "quote": "'Renewables' combine multiple electricity sources, including hydropower, solar, wind, geothermal, biomass, and wave & tidal."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "水力は世界の低炭素電力に大きく貢献しており、世界全体で電力生産の約6分の1を占めている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/electricity-mix",
+              "quote": "Hydropower makes a large contribution to low-carbon electricity across the world: globally, it accounts for around one-sixth of production."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "原子力発電は1960年代から存在しており、1970年代・1980年代・1990年代に世界的に急成長した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Nuclear power generation has existed since the 1960s but saw massive growth globally in the 1970s, 1980s, and 1990s."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "フランス、米国、中国、ロシア、韓国は比較的大量の原子力発電を行っている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "France, the USA, China, Russia, and South Korea all produce relatively large amounts of nuclear power."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "2025年時点で、世界の一次エネルギーの約5%が原子力から供給されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "In 2025, around 5% of global primary energy came from nuclear power."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "世界全体では、電力の約10%が原子力から供給されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Globally, around 10% of our electricity comes from nuclear power."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "Leliveld et al.(2018)の推計では、化石燃料により毎年360万人が死亡している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Leliveld et al. (2018) estimate that 3.6 million die from fossil fuels yearly."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "Vohra et al.(2021)の推計では、化石燃料による年間死者数は870万人とされる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Vohra et al. (2021) even estimate more than double this figure: 8.7 million."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "チェルノブイリ原発事故は1986年にウクライナで、福島第一原発事故は2011年に日本で発生した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "the Chernobyl disaster in Ukraine in 1986 and Fukushima in Japan in 2011"
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "チェルノブイリと福島の事故は、国際原子力事象評価尺度（INES）で最高評価のレベル7に達した唯一の事故である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "the only disasters to receive a level 7 (the maximum classification) on the International Nuclear Event Scale"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "1986年4月、チェルノブイリ原発の4基のうち1基の炉心が溶融し爆発した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "In April 1986, the core of one of the four reactors at the Chernobyl nuclear plant in Ukraine melted down and exploded."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "チェルノブイリ事故では、事故直後またはその後まもなく30人が死亡した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "30 people died during or very soon after the incident."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "チェルノブイリ事故の爆発により、発電所の作業員2人がほぼ即死した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Two plant workers died almost immediately in the explosion from the reactor."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "チェルノブイリ事故では、緊急作業員・運転員・消防士134人が急性放射線症候群（ARS）を発症するほどの放射線に被曝した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "134 emergency workers, plant operators, and firemen were exposed to levels of radiation high enough to suffer from acute radiation syndrome (ARS)"
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "ARSを発症した134人のうち28人が、その後数週間のうちに死亡した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "28 of these 134 workers died in the weeks that followed"
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "2011年3月、日本の福島県大熊町にある福島第一原子力発電所で事故が発生した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "In March 2011, an accident occurred at the Fukushima Daiichi Nuclear Power Plant in Ōkuma, Fukushima, Japan."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "福島の事故は、日本の観測史上最大の地震である2011年東北地方太平洋沖地震とそれに伴う津波によって引き起こされた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "This accident was caused by the 2011 Tōhoku earthquake and tsunami – the most powerful earthquake recorded in Japan’s history."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "低炭素電源のうち、再生可能エネルギーは原子力よりも大きな割合を占めている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/electricity-mix",
+              "quote": "with renewables making up a larger portion than nuclear energy"
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "ここ数十年、化石燃料と低炭素電源の割合のバランスはほぼ変わっておらず、原子力の減少が再生可能エネルギーの増加とほぼ相殺してきた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/electricity-mix",
+              "quote": "the balance between fossil fuels and low-carbon electricity sources has remained relatively unchanged. A decline in nuclear energy has offset the progress made in renewables; nuclear declined almost as much as renewables gained."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "ガスは石炭に比べてエネルギー単位あたりのCO2排出量が少ない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/electricity-mix",
+              "quote": "gas typically emits less CO2 per unit of energy"
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "一部の国では原発が停止されたことで原子力の役割が急激に低下しており、日本はその典型例である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/electricity-mix",
+              "quote": "In some countries, we see a dramatic decline in nuclear's role as plants have been taken offline. Japan is an obvious example of this."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "2011年の福島第一原発事故を招いた津波の後、安全上の懸念から各国が原発を停止させ、世界の原子力発電量は急減した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "we see a sharp dip in nuclear output following the Fukushima tsunami in Japan in 2011"
+            },
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "as countries took plants offline due to safety concerns"
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "ベルギー、フランス、ウクライナなど一部の国は原子力に大きく依存している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "some countries, such as Belgium, France, and Ukraine, rely heavily on it"
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "世界の電力構成は依然として化石燃料が支配的であり、石炭・石油・ガスを合わせて約60%を占める。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "the global electricity mix is still dominated by fossil fuels: coal, oil, and gas account for around 60%"
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "原子力発電による世界の累積発電量は、1965年から2021年までで96,876TWhである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "cumulative global electricity production from nuclear from 1965 to 2021, which is 96,876 TWh"
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "水力発電による世界の累積発電量は、1965年から2021年までで138,175TWhである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "cumulative global electricity production from hydropower from 1965 to 2021, which is 138,175 TWh"
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "大気汚染による死者のうち12%は電力生産に由来すると推計されている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "They estimate that 12% of all air pollution deaths (from fossil fuel and other sources) come from electricity production.11"
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "石炭による世界平均の死亡率は1TWhあたり93人から224人と推計される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "That would give a global average death rate from coal of 93 to 224 deaths per TWh."
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "化石燃料、特に石炭は、原子力や再生可能エネルギーよりも供給網全体での発がん性毒性が高い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Fossil fuels – coal, in particular – have a higher carcinogenic toxicity than both nuclear and renewables."
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "UNSCEARの2008年報告書によれば、ARS生存者のうちさらに19人が2006年までに死亡した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "It reported that a further 19 ARS survivors had died by 2006."
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "その19人の死因の内訳は、結核・肝疾患・脳卒中など癌以外の疾患が7人、心臓発作が6人、外傷が1人、癌が5人であった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Seven were related to diseases not related to cancers, including tuberculosis, liver disease, and stroke; six were from heart attacks, one from a trauma incident, and five died from cancers."
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "statement": "1991年から2015年の間に、事故当時18歳未満だった患者のウクライナ・ベラルーシ・ロシアの被曝地域における甲状腺癌の症例は19,233件であった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Over the period from 1991 to 2015, there were 19,233 cases of thyroid cancer in patients who were younger than 18 at the time of the disaster across Ukraine, Belarus, and exposed regions of Russia."
+            }
+          ]
+        },
+        {
+          "index": 46,
+          "statement": "UNSCEARは、これら甲状腺癌症例のおよそ4分の1にあたる4,808件が放射線被曝に関連しうると結論した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "UNSCEAR concluded that around one-quarter of these cases could be linked to radiation exposure. That would mean 4,808 thyroid cancer cases."
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "statement": "2005年までに、これらの甲状腺癌症例のうち15件が死亡に至ったと報告された。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "By 2005, it was reported that 15 of these thyroid cancer cases had been fatal."
+            }
+          ]
+        },
+        {
+          "index": 48,
+          "statement": "WHOは2005年の報告書で、チェルノブイリによる死者総数を4,000人と推計した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "In its 2005 report, the WHO estimated a potential death toll of 4,000."
+            }
+          ]
+        },
+        {
+          "index": 49,
+          "statement": "チェルノブイリ事故による確認済みの死者総数は100人未満である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Combined, the confirmed death toll from Chernobyl is less than 100."
+            }
+          ]
+        },
+        {
+          "index": 50,
+          "statement": "福島の事故で直接死亡が認定されたのは1人のみである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "only one death has been attributed to the disaster"
+            }
+          ]
+        },
+        {
+          "index": 51,
+          "statement": "福島事故では、爆発や放射線熱傷による物理的負傷者が40人から50人出た。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "However, 40 to 50 people were injured as a result of physical injury from the blast or radiation burns."
+            }
+          ]
+        },
+        {
+          "index": 52,
+          "statement": "2018年に日本政府は、福島事故の放射線被曝が原因で作業員1人が肺癌により死亡したと報告した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "In 2018, the Japanese government reported that one worker has since died from lung cancer as a result of radiation exposure from the event."
+            }
+          ]
+        },
+        {
+          "index": 53,
+          "statement": "福島事故後数週間で、16万人以上が避難のため移動した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Within a few weeks of the accident, more than 160,000 people had moved away, either from official evacuation efforts or voluntarily from fear of further radioactive releases."
+            }
+          ]
+        },
+        {
+          "index": 54,
+          "statement": "福島事故翌年、日本政府は避難による身体的・精神的ストレスが原因で573人が間接的に死亡したと推計した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "The year after the 2011 disaster, the Japanese government estimated that 573 people had died indirectly as a result of the physical and mental stress of evacuation."
+            }
+          ]
+        },
+        {
+          "index": 55,
+          "statement": "避難関連の間接死者数の推計は、2020年9月に2,313人へと改訂された。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Since then, more rigorous assessments of increased mortality have been done, and this figure was revised to 2,313 deaths in September 2020."
+            }
+          ]
+        },
+        {
+          "index": 56,
+          "statement": "福島事故による確認済みの死者総数は2,314人である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Combined, the confirmed death toll from Fukushima is therefore 2,314."
+            }
+          ]
+        },
+        {
+          "index": 57,
+          "statement": "チェルノブイリの致命的な欠陥を持つRBMK炉には格納容器構造がなく、放射性物質が大気中に放出された。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Its fatal RBMK reactor had no containment structure, allowing radioactive material to spill into the atmosphere."
+            }
+          ]
+        },
+        {
+          "index": 58,
+          "statement": "福島の原子炉は鋼鉄とコンクリート製の格納容器構造を備えていた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Fukushima’s reactors did have steel-and-concrete containment structures, although it’s likely that at least one of these was also breached."
+            }
+          ]
+        },
+        {
+          "index": 59,
+          "statement": "福島事故では、事故進行中に避難範囲が3キロメートルから10キロメートル、さらに20キロメートル圏へと急速に拡大された。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "evacuation efforts extending rapidly from a 3-kilometer (km) to a 10-km to a 20-km radius while the incident at the site continued to unfold"
+            }
+          ]
+        },
+        {
+          "index": 60,
+          "statement": "ソ連が事故発生を認めるまでに少なくとも3日を要した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "In fact, it took at least three days for the Soviet Union to admit an accident had taken place, and did so after radioactive sensors at a Swedish plant were triggered by dispersing radionuclides."
+            }
+          ]
+        },
+        {
+          "index": 61,
+          "statement": "再生可能エネルギーと原子力は、化石燃料と比べて一貫して死亡率が大幅に低い。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "renewable and nuclear technologies would consistently come out with a much lower death rate than fossil fuels"
+            }
+          ]
+        },
+        {
+          "index": 62,
+          "statement": "大規模研究によれば、小児の甲状腺癌の20年生存率は92%とされる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Large-scale studies report a 20-year survival rate of 92% for thyroid cancer."
+            }
+          ]
+        },
+        {
+          "index": 63,
+          "statement": "別の研究では、40年後の生存率が98%とさらに良好な予後が示されている。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Others show an even better prognosis, with a survival rate of 98% after 40 years."
+            }
+          ]
+        },
+        {
+          "index": 64,
+          "statement": "放射線誘発甲状腺癌による死者数は96人から385人の範囲と推計される。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "we might estimate that the number of deaths could be in the range of 96 to 385"
+            }
+          ]
+        },
+        {
+          "index": 65,
+          "statement": "2000年代初頭の一部報告では、チェルノブイリ事故による死者総数を1万6千人から6万人と推計していた。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Some reports in the early 2000s estimated much higher death tolls, ranging from 16,000 to 60,000."
+            }
+          ]
+        },
+        {
+          "index": 66,
+          "statement": "入手可能な証拠に基づく最良の推計では、チェルノブイリ事故による真の死者数は300人から500人の範囲とされる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "My best approximation is that the true death toll is in the range of 300 to 500, based on the available evidence."
+            }
+          ]
+        },
+        {
+          "index": 67,
+          "statement": "福島事故では、避難によるストレスや混乱で間接的に数千人が死亡したと推計されている。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "However, it’s estimated that several thousand died indirectly from the stress and disruption of evacuation."
+            }
+          ]
+        },
+        {
+          "index": 68,
+          "statement": "原子力発電の死亡率は、ほとんどの再生可能エネルギー技術と同程度である。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "As the linked post shows, the death rate from nuclear power is roughly comparable to that of most renewable energy technologies."
+            }
+          ]
+        },
+        {
+          "index": 69,
+          "statement": "石炭による世界の発電量は10,042TWhである。",
+          "confidence": 0.6,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Coal: 24.62 deaths per TWh * 10,042 TWh = 247,000 deaths"
+            }
+          ]
+        },
+        {
+          "index": 70,
+          "statement": "石油による世界の発電量は852TWhである。",
+          "confidence": 0.6,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Oil: 18.43 deaths per TWh * 852 TWh = 16,000 deaths"
+            }
+          ]
+        },
+        {
+          "index": 71,
+          "statement": "天然ガスによる世界の発電量は6,098TWhである。",
+          "confidence": 0.6,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/nuclear-energy",
+              "quote": "Gas: 2.82 deaths per TWh * 6,098 TWh = 17,000 deaths"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

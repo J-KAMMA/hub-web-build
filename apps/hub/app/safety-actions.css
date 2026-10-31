@@ -1,0 +1,45 @@
+/* Reporting stays available, but its entry point should read as a secondary action. */
+.thread-post-actions__report-trigger {
+  padding-inline: 5px !important;
+  color: var(--muted) !important;
+  font-size: .62rem !important;
+  opacity: .46;
+}
+
+.thread-post-actions__report-trigger:hover,
+.thread-post-actions__report-trigger:focus-visible {
+  background: transparent !important;
+  color: var(--text) !important;
+  opacity: .9;
+}
+
+.community-message__actions > .community-message__report-trigger {
+  order: 98;
+  min-height: 22px;
+  margin-left: auto;
+  padding: 2px 4px;
+  border-color: transparent !important;
+  background: transparent !important;
+  color: var(--muted) !important;
+  font-size: .56rem;
+  opacity: .42;
+}
+
+.community-message__actions > .community-message__report-trigger:hover,
+.community-message__actions > .community-message__report-trigger:focus-visible {
+  border-color: transparent !important;
+  background: transparent !important;
+  color: var(--text) !important;
+  opacity: .9;
+}
+
+.community-message__actions > .community-message__report-trigger:disabled {
+  opacity: .34;
+}
+
+@media (hover: none) {
+  .thread-post-actions__report-trigger,
+  .community-message__actions > .community-message__report-trigger {
+    opacity: .62;
+  }
+}

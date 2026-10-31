@@ -1,0 +1,241 @@
+/*
+ * ツール系の画面（意図・著作権の通報・異議申し立て・広告の入口）の骨組み。
+ * 色は役割トークンだけを使う。他の領域のファイルには触れない。
+ */
+
+.v2 .v2-tools-intent {
+  display: grid;
+  gap: var(--v2-space-3);
+  width: min(100%, 720px);
+  padding: var(--v2-space-3) var(--v2-space-4) var(--v2-space-6);
+  color: var(--text);
+}
+
+/* 通報・申立てのフォーム。外の枠の中にもう1枚の板を作らず、列の幅に揃える。 */
+.v2 .moderation-appeal-list {
+  display: grid;
+  gap: var(--v2-space-4);
+  width: min(100%, 720px);
+  padding: var(--v2-space-3) var(--v2-space-4) var(--v2-space-6);
+}
+
+.v2 .moderation-appeal {
+  display: grid;
+  gap: var(--v2-space-3);
+  width: 100%;
+  margin: 0;
+  padding: var(--v2-space-4);
+  border: var(--divider);
+  border-radius: 12px;
+  background: var(--content-surface);
+  color: var(--text);
+  font-size: 14px;
+  line-height: 1.7;
+  box-sizing: border-box;
+}
+
+.v2 form.moderation-appeal {
+  width: min(100%, 720px);
+  margin: var(--v2-space-3) var(--v2-space-4) var(--v2-space-6);
+  width: calc(100% - 2 * var(--v2-space-4));
+  max-width: 720px;
+}
+
+.v2 .moderation-appeal h2 {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.v2 .moderation-appeal p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.v2 .moderation-appeal p[role="status"] {
+  color: var(--text);
+}
+
+.v2 .moderation-appeal label {
+  display: grid;
+  gap: 6px;
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.v2 .moderation-appeal label:has(> input[type="checkbox"]) {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--v2-space-2);
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.v2 .moderation-appeal input[type="checkbox"] {
+  flex: none;
+  width: 18px;
+  height: 18px;
+  margin: 3px 0 0;
+  accent-color: var(--emphasis);
+}
+
+.v2 .moderation-appeal :is(input:not([type="checkbox"]), select, textarea) {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 42px;
+  margin: 0;
+  padding: 9px 12px;
+  border: var(--divider);
+  border-radius: 8px;
+  background: var(--interactive);
+  color: var(--text);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.v2 .moderation-appeal textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.v2 .moderation-appeal :is(input, select, textarea):focus-visible,
+.v2 .moderation-appeal button:focus-visible {
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.v2 .moderation-appeal button {
+  justify-self: start;
+  min-width: 120px;
+  padding: 0 var(--v2-space-4);
+}
+
+/* 広告の入口。行全体が1つのリンク。左に記号、右に矢印。 */
+.v2 .v2-ads-areas { display: grid; margin: 0; padding: 0; list-style: none; }
+.v2 .v2-ads-area {
+  display: flex;
+  align-items: center;
+  gap: var(--v2-space-3);
+  padding: var(--v2-space-3) var(--v2-space-4);
+  border-bottom: 1px solid var(--line);
+  color: var(--text);
+  text-decoration: none;
+  transition: background var(--dur-fast) var(--ease-out);
+}
+.v2 .v2-ads-area:hover { background: var(--content-surface-hover); }
+.v2 .v2-ads-area:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: -2px; }
+.v2 .v2-ads-area__icon {
+  display: grid;
+  flex: none;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--content-nested);
+  color: var(--muted);
+}
+.v2 .v2-ads-area__body { display: grid; gap: 2px; min-width: 0; flex: 1 1 auto; }
+.v2 .v2-ads-area__title { font-size: var(--type-headline-size); line-height: var(--type-headline-leading); font-weight: 600; }
+.v2 .v2-ads-area__note { color: var(--muted); font-size: var(--type-subhead-size); line-height: var(--type-subhead-leading); }
+.v2 .v2-ads-area__chevron { flex: none; color: var(--muted); }
+
+@media (max-width: 640px) {
+  .v2 .v2-tools-intent,
+  .v2 .moderation-appeal-list {
+    padding-inline: var(--v2-space-3);
+  }
+  .v2 form.moderation-appeal {
+    width: calc(100% - 2 * var(--v2-space-3));
+    margin-inline: var(--v2-space-3);
+  }
+}
+
+/* サービス条件。枠の見出しと同じ20pxに揃え、英字用の字間をやめる。 */
+.v2 .hub-legal {
+  width: min(100%, 760px);
+  margin: 0;
+  padding: var(--v2-space-4) var(--v2-space-4) var(--v2-space-7);
+}
+.v2 .hub-legal header {
+  margin-bottom: var(--v2-space-5);
+  padding-bottom: var(--v2-space-4);
+}
+.v2 .hub-legal header p {
+  margin: 0 0 var(--v2-space-1);
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: var(--muted);
+}
+.v2 .hub-legal :is(h1) { font-size: 20px; line-height: 1.4; }
+.v2 .hub-legal h2 { font-size: 16px; }
+.v2 .hub-legal p,
+.v2 .hub-legal li { font-size: 14px; line-height: 1.8; }
+.v2 .hub-legal section { margin-top: var(--v2-space-5); }
+
+/* 収益。列の左端に揃え、履歴の見出しを16pxにする。 */
+.v2 .monetization-page {
+  width: min(100%, 760px);
+  margin: 0;
+  padding: 0 0 var(--v2-space-6);
+}
+.v2 .wallet-tip-history > header { display: grid; gap: var(--v2-space-1); }
+.v2 .wallet-tip-history > header > small { color: var(--muted); font-weight: 400; font-size: 12px; }
+.v2 .wallet-tip-history > header > small:is(small, [class]) { font-weight: 400 !important; }
+.v2 .wallet-tip-history > header { align-items: baseline; }
+.v2 .wallet-tip-history > header span { font-size: 12px; font-weight: 400; letter-spacing: 0; }
+.v2 .wallet-tip-history > header h2 { font-size: 16px; }
+.v2 .wallet-tip-history > header small,
+.v2 .wallet-tip-history > p { font-size: 12px; }
+.v2 .wallet-tip-history > p:not([role]) { font-size: 14px; }
+
+/*
+ * サービス一覧。カードの形は1つ（枠線で区切った格子）に揃える。
+ * 目的の絞り込みは札ではなく丸い絞り込み札、表示の切り替えは左寄せの下線タブ。
+ */
+.v2 .services-directory__purposes { display: flex; flex-wrap: wrap; gap: var(--v2-space-2); max-width: none; margin-inline: 0; }
+.v2 .services-directory__purposes button {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--v2-space-2) var(--v2-space-3);
+  border: var(--divider);
+  border-radius: var(--radius-pill);
+  background: transparent;
+  font-size: var(--type-subhead-size);
+  line-height: var(--type-subhead-leading);
+}
+.v2 .services-directory__purposes button small { display: none; }
+.v2 .services-directory__purposes button:hover { background: var(--interactive); border-color: var(--line-strong); }
+.v2 .services-directory__purposes button[aria-pressed="true"] { background: var(--text); border-color: var(--text); color: var(--bg); }
+.v2 .services-directory__tabs { display: flex; gap: var(--v2-space-5); max-width: none; margin-inline: 0; }
+.v2 .services-directory__tabs button { flex: 0 0 auto; padding: 0 var(--v2-space-1); font-size: var(--type-callout-size); font-weight: 600; }
+.v2 .services-directory__frequent, .v2 .services-directory__groups, .v2 .services-directory__mine { max-width: none; margin-inline: 0; }
+.v2 .services-directory__empty { border: 0; min-height: 0; padding: var(--v2-space-6) var(--v2-space-4); }
+.v2 .services-directory__frequent > header span { font-size: var(--type-caption-size); }
+@media (max-width: 1050px) {
+  .v2 .services-directory__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 640px) {
+  .v2 .services-directory__purposes { flex-wrap: nowrap; overflow-x: auto; }
+  .v2 .services-directory__purposes button { flex: none; }
+  .v2 .services-directory__grid { grid-template-columns: 1fr; }
+}
+
+/* 音楽の下位画面の見出しの下: 戻る矢印と下線タブ。 */
+.v2 .music-section-nav { display: grid; gap: var(--v2-space-1); padding-inline: var(--v2-space-4); border-bottom: 1px solid var(--line); }
+.v2 .music-section-nav__back {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--v2-space-1);
+  width: fit-content;
+  padding-top: var(--v2-space-2);
+  color: var(--muted);
+  font-size: var(--type-subhead-size);
+  line-height: var(--type-subhead-leading);
+  text-decoration: none;
+}
+.v2 .music-section-nav__back:hover { color: var(--text); }
+.v2 .music-section-nav .ui-tabs { border-bottom: 0; }

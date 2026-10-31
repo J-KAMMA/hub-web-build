@@ -1,0 +1,85 @@
+/*
+ * Canonical search geometry. The input is the only field surface; its label
+ * and form are structural so nested borders can never produce a double box.
+ */
+html[data-theme] body .search-page > header > form {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: var(--ui-space-2);
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+html[data-theme] body .search-page > header > form > .search-primary-field {
+  display: block;
+  height: auto;
+  min-width: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+html[data-theme] body .search-page > header > form .search-primary-field > .ui-control {
+  min-height: var(--ui-target-large);
+  padding-inline: var(--ui-space-4);
+  border: var(--divider-strong);
+  border-radius: 12px;
+  background: var(--content-surface);
+  font-size: 1rem;
+}
+
+html[data-theme] body .search-page > header > form .search-submit-button {
+  width: var(--ui-target-large);
+  min-width: var(--ui-target-large);
+  min-height: var(--ui-target-large);
+  padding: 0;
+  border-radius: 12px;
+}
+
+html[data-theme] body .search-page .search-discovery,
+html[data-theme] body .search-page .search-mixed-results {
+  border: 0;
+  background: transparent;
+}
+
+html[data-theme] body .search-page .search-source-warning {
+  align-items: center;
+  background: var(--surface-sunken);
+  border-bottom: var(--divider);
+  color: var(--muted);
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  padding: 10px 18px;
+}
+
+html[data-theme] body .search-page .search-source-warning button {
+  flex: 0 0 auto;
+}
+
+html[data-theme] body .search-page .search-discovery > :is(.search-discovery__block, .home-feed__stream, .search-items),
+html[data-theme] body .search-page .search-mixed-results {
+  overflow: hidden;
+  border: var(--divider);
+  border-radius: var(--ui-radius-card);
+  background: var(--surface-raised);
+}
+
+@media (max-width: 520px) {
+  html[data-theme] body .search-page > header > form {
+    grid-template-columns: minmax(0, 1fr) var(--ui-target-standard);
+  }
+  html[data-theme] body .search-page > header > form .search-submit-button {
+    width: var(--ui-target-standard);
+    min-width: var(--ui-target-standard);
+    min-height: var(--ui-target-standard);
+  }
+  html[data-theme] body .search-page > header > form .search-primary-field > .ui-control {
+    min-height: var(--ui-target-standard);
+  }
+}

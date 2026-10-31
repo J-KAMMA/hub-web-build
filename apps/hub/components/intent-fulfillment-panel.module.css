@@ -1,0 +1,90 @@
+.panel {
+  display: grid;
+  gap: 16px;
+  max-width: 840px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.context {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.context a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.context a:hover {
+  text-decoration: underline;
+}
+
+.summary {
+  display: grid;
+  gap: 10px;
+  padding: 16px;
+  background: var(--surface);
+  border: var(--divider);
+  border-radius: 14px;
+}
+
+.summary h1,
+.summary p {
+  margin: 0;
+}
+
+.summary dl {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+}
+
+.summary dl div {
+  display: grid;
+  grid-template-columns: minmax(110px, .35fr) minmax(0, 1fr);
+  gap: 10px;
+}
+
+.summary dt {
+  color: var(--muted);
+}
+
+.summary dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.notice {
+  margin: 0;
+  padding: 12px;
+  color: var(--warning-text);
+  background: var(--warning-bg);
+  border-radius: 10px;
+}
+
+.link {
+  display: inline-flex;
+  justify-content: center;
+  min-height: 44px;
+  padding: 11px 14px;
+  color: var(--action-text);
+  text-decoration: none;
+  background: var(--action);
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+@media (max-width: 640px) {
+  .panel {
+    padding: 12px;
+  }
+
+  .summary dl div {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+}

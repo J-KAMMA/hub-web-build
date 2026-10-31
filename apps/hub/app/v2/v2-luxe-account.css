@@ -1,0 +1,286 @@
+/*
+ * luxe の見た目を、設定・アカウント・ウォレット・ログイン・初期設定・AI の画面へ広げる層（2026-10-31）。
+ * 骨組み（列の並びと幅）は変えない。v2-luxe.css の語彙（--luxe-*, --lx-*）だけを使い、第二の体系は置かない。
+ *
+ *   面    本文の列だけ。見出し・節・フォーム・カードが角丸20の --luxe-panel。面の中に面を重ねない
+ *         （節の中の行は罫線で区切る）。ナビ・目録・右列は v2-luxe.css のとおり地の上に罫線だけ。
+ *   金    いまの場所・主要な1つの操作・選んだ状態・タブの下線の4つだけ。ほかの操作は罫線の札。
+ *   字    本文 16px / 1.7（--type-post-*）。数は等幅。
+ *   空    空・要ログインの状態は短い1行。記号の丸や入れ子の箱を重ねない。
+ *
+ * 既存の層（v2-account.css 等）は !important で板を平らにしているので、面にする所だけ !important で上書きする。
+ */
+
+html body .v2[data-skin="luxe"][data-skin][data-skin][data-skin][data-skin][data-skin][data-skin] {
+
+  /* 本文の列の面を同じ幅・同じ縁にそろえる */
+  & .v2__workspace .v2__frame > #hub-main.v2__main > :is(.v2-top-title, .v2__tabs-column--top:not(.v2__tabs-column--mobile), .v2-note, .v2-state, .v2-settings, .v2-wallet, .v2-account__panels, .hub-account, .v2-msec) {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: var(--v2-width-reading);
+    margin-inline: auto;
+  }
+
+  /* 見出しだけの画面は、見出しが1枚の面 */
+  @media (min-width: 760px) {
+    & .v2__workspace .v2__frame > #hub-main.v2__main > .v2-top-title:not(:has(+ .v2-feed-tabs, + .v2-subtabs, + .v2-tabs, + .v2-l5-tabs)) {
+      margin-bottom: var(--lx-gap);
+      padding: 16px var(--lx-pad);
+      border-bottom: 1px solid var(--luxe-line);
+      border-radius: var(--lx-radius);
+    }
+  }
+  /* 見出しの直下の目録（ウォレットなど）は、見出しの下半分の下線タブ */
+  @media (min-width: 760px) {
+    & .v2__workspace .v2__frame > #hub-main.v2__main > .v2__tabs-column--top:not(.v2__tabs-column--mobile) ~ .v2-top-title {
+      margin-bottom: 0;
+      padding-bottom: 4px;
+      border-bottom: 0;
+      border-radius: var(--lx-radius) var(--lx-radius) 0 0;
+    }
+    & .v2__workspace .v2__frame > #hub-main.v2__main > .v2__tabs-column--top:not(.v2__tabs-column--mobile) {
+      position: static;
+      margin-block: 0 var(--lx-gap);
+      padding: 0 var(--lx-pad);
+      border: 1px solid var(--luxe-line);
+      border-top: 0;
+      border-radius: 0 0 var(--lx-radius) var(--lx-radius);
+      background: var(--luxe-panel);
+      backdrop-filter: none;
+      box-shadow: none;
+    }
+    & .v2__main > .v2__tabs-column--top:not(.v2__tabs-column--mobile) > :is(nav, ul, ol) { padding: 0; }
+    & .v2__main > .v2__tabs-column--top:not(.v2__tabs-column--mobile) :is(ul, ol) { gap: 24px; }
+    & .v2__main > .v2__tabs-column--top:not(.v2__tabs-column--mobile) .v2-nav__item {
+      min-height: 48px;
+      padding: 0;
+      border-radius: 0;
+      background: transparent;
+      color: var(--luxe-text-2);
+      font-size: var(--type-callout-size);
+      font-weight: 500;
+      box-shadow: none;
+      transition: color var(--lx-fast) var(--lx-ease), box-shadow var(--lx-fast) var(--lx-ease);
+    }
+    & .v2__main > .v2__tabs-column--top:not(.v2__tabs-column--mobile) .v2-nav__item:hover { background: transparent; color: var(--luxe-text); box-shadow: inset 0 -2px 0 var(--luxe-line-strong); }
+    & .v2__main > .v2__tabs-column--top:not(.v2__tabs-column--mobile) .v2-nav__item[aria-current="page"] { color: var(--luxe-text); font-weight: 600; box-shadow: inset 0 -2px 0 var(--luxe-gold); }
+  }
+  /* 設定の携帯の目録は何段にも折れる。貼り付けると本文に重なるので、流れの中に置く。 */
+  & .v2__main:has(> .v2-settings) > .v2__tabs-column--mobile { position: static; }
+
+  & .v2-heading__note { color: var(--luxe-text-3); font-size: var(--type-subhead-size); }
+
+  & #hub-main.v2__main > .v2-note {
+    margin-block: 0 var(--lx-gap);
+    padding: 0 4px;
+    color: var(--luxe-text-3);
+    font-size: var(--type-subhead-size);
+    line-height: 20px;
+  }
+
+  /* 要ログイン・空・失敗は面の中の短い1行。記号の丸は置かない。 */
+  & #hub-main.v2__main .v2-state {
+    margin-bottom: var(--lx-gap);
+    padding: 16px var(--lx-pad);
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--lx-radius);
+    background: var(--luxe-panel);
+    text-align: left;
+  }
+  & #hub-main.v2__main .v2-state .v2-state__body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px 16px;
+    max-width: none;
+    min-height: 0;
+    text-align: left;
+  }
+  & #hub-main.v2__main .v2-state .v2-state__disc { display: none; }
+  & #hub-main.v2__main .v2-state .v2-state__title { flex: 0 0 auto; margin: 0; font-size: var(--type-callout-size); line-height: 24px; font-weight: 600; }
+  & #hub-main.v2__main .v2-state .v2-state__note { flex: 1 1 14em; max-width: none; margin: 0; color: var(--luxe-text-2); font-size: var(--type-subhead-size); }
+  & #hub-main.v2__main .v2-state .v2-state__actions { justify-content: flex-end; margin: 0 0 0 auto; }
+
+  /* ------------------------------------------------ 設定: 節が1枚の面、中の行は罫線 */
+  & .v2-settings { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--lx-gap); }
+  & .v2-settings > * { min-width: 0; }
+  & .v2-settings .v2-msec {
+    margin: 0;
+    padding: 16px var(--lx-pad) 8px;
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--lx-radius);
+    background: var(--luxe-panel);
+    scroll-margin-top: 72px;
+  }
+  & .v2-settings .v2-msec__head { margin: 0 0 4px; padding: 0 0 12px; border-bottom: 1px solid var(--luxe-line); }
+  & .v2-settings .v2-msec__head .v2-column__title { color: var(--luxe-text); font-size: var(--type-headline-size); line-height: 24px; font-weight: 600; }
+  & .v2-msec__note { color: var(--luxe-text-3); font-size: var(--type-caption-size); }
+  & .v2-settings .v2-sgroup { margin: 0; padding: 0; border-radius: 0; background: transparent; box-shadow: none; }
+  & .v2-settings .v2-sgroup + .v2-sgroup { border-top: 1px solid var(--luxe-line); }
+  & .v2-settings :is(.setting-row, .ui-switch-row, .settings-note) { border-color: var(--luxe-line); }
+  & .v2-settings :is(.settings-note, .setting-row) { font-size: var(--type-callout-size); line-height: 1.6; }
+  & .v2-settings :is(.settings-note, .setting-row) :is(small, p) { color: var(--luxe-text-2); font-size: var(--type-subhead-size); line-height: 1.6; }
+  & .v2-settings :is(select, input:not([type="checkbox"], [type="radio"]), textarea) {
+    border: 1px solid var(--luxe-line-strong);
+    background: var(--luxe-raised);
+    color: var(--luxe-text);
+  }
+  & .v2-settings .ui-segmented { background: var(--luxe-hover); }
+
+  /* ------------------------------------------------ アカウント: 節が1枚の面 */
+  & .hub-account.v2-account__panels {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--lx-gap) !important;
+    margin-top: 0 !important;
+  }
+  & .hub-account.v2-account__panels > :is(.hub-account__section, section, .account-recovery-panel) {
+    padding: 16px var(--lx-pad) !important;
+    border: 1px solid var(--luxe-line) !important;
+    border-radius: var(--lx-radius) !important;
+    background: var(--luxe-panel) !important;
+  }
+  & .hub-account.v2-account__panels :is(h2, h3) { color: var(--luxe-text); font-size: var(--type-headline-size); line-height: 24px; }
+  & .hub-account.v2-account__panels :is(.hub-account__lead, header p, .settings-note :is(small, p)) { color: var(--luxe-text-2); font-size: var(--type-subhead-size); line-height: 1.6; }
+  & .hub-account.v2-account__panels .settings-note { color: var(--luxe-text); font-size: var(--type-callout-size); }
+  & .hub-account.v2-account__panels .hub-account__link-rows { border-top-color: var(--luxe-line); }
+  & .hub-account.v2-account__panels .hub-account__link-rows li { border-bottom-color: var(--luxe-line); }
+  & .hub-account.v2-account__panels .hub-account__link-rows a:hover { background: var(--luxe-hover); }
+  & .hub-account.v2-account__panels :is(button, a.button, .settings-reset) {
+    border: 1px solid var(--luxe-line-strong);
+    background: transparent;
+    color: var(--luxe-text);
+  }
+  & .hub-account.v2-account__panels :is(button, a.button, .settings-reset):hover:not(:disabled) { background: var(--luxe-hover); }
+  & .hub-account.v2-account__panels :is(button, .settings-reset):disabled { color: var(--luxe-text-3); }
+  & .hub-account.v2-account__panels .settings-note > button.settings-reset:last-child,
+  & .hub-account.v2-account__panels .settings-note > button.settings-reset:nth-last-child(2) { border-color: var(--danger-text); color: var(--danger-text); }
+
+  /* 入口の行（本人確認・支払いと売上） */
+  & .v2-account__areas { border-top: 1px solid var(--luxe-line); }
+  & .v2-account__areas a:hover { background: var(--luxe-hover); }
+  & #hub-main.v2__main > .v2-msec {
+    margin-bottom: var(--lx-gap);
+    padding: 16px var(--lx-pad);
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--lx-radius);
+    background: var(--luxe-panel);
+  }
+  & #hub-main.v2__main > .v2-msec .v2-msec__head { margin: 0 0 8px; padding: 0; border: 0; }
+  & #hub-main.v2__main > .v2-msec .v2-column__title { color: var(--luxe-text); font-size: var(--type-headline-size); line-height: 24px; font-weight: 600; }
+  & #hub-main.v2__main > .v2-msec > .v2-note { margin: 0; padding: 0; color: var(--luxe-text-2); font-size: var(--type-subhead-size); line-height: 1.7; }
+
+  /* ------------------------------------------------ ウォレット: カードは角丸20の面、金は主要な1つの操作だけ */
+  & .v2-wallet { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--lx-gap); }
+  & .v2-wallet > * { min-width: 0; }
+  & .v2-wallet__card {
+    margin: 0;
+    padding: 16px var(--lx-pad);
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--lx-radius);
+    background: var(--luxe-panel);
+    box-shadow: none;
+  }
+  & .v2-wallet__card-head h2,
+  & .v2-wallet__hero-title { color: var(--luxe-text); font-size: var(--type-headline-size); line-height: 24px; font-weight: 600; }
+  & .v2-wallet__hero-balance { color: var(--luxe-text); font-size: var(--type-title1-size); line-height: var(--type-title1-leading); font-variant-numeric: tabular-nums; }
+  & .v2-wallet__hero-label,
+  & .v2-wallet__hero-symbol,
+  & .v2-wallet__hero-address code,
+  & .v2-wallet__field-label,
+  & .v2-wallet__form-note { color: var(--luxe-text-2); }
+  & .v2-wallet__net-badge { background: var(--luxe-hover); color: var(--luxe-text-2); font-size: var(--type-caption-size); }
+  & .v2-wallet__status { background: var(--luxe-hover); color: var(--luxe-text-2); }
+  & .v2-wallet__status--on { color: var(--luxe-text); }
+  & .v2-wallet__mini { background: transparent; border: 1px solid var(--luxe-line-strong); color: var(--luxe-text-2); }
+  & .v2-wallet__mini:hover { background: var(--luxe-hover); color: var(--luxe-text); }
+  & .v2-wallet__input { border: 1px solid var(--luxe-line-strong); border-radius: 12px; background: var(--luxe-raised); color: var(--luxe-text); }
+  & .v2-wallet__asset { border-color: var(--luxe-line); }
+  & .v2-wallet__cta { border: 1px solid var(--luxe-btn-line); border-radius: var(--radius-pill); background: var(--luxe-btn); color: var(--luxe-btn-text); box-shadow: var(--luxe-btn-edge); font-weight: 600; }
+  & .v2-wallet__cta:hover:not(:disabled) { background: var(--action-hover); }
+  & .v2-wallet__cta:disabled { background: color-mix(in srgb, var(--luxe-btn) 45%, var(--luxe-panel)); color: color-mix(in srgb, var(--luxe-btn-text) 80%, transparent); opacity: 1; }
+  & .v2-wallet__notice { margin: 0; padding: 12px var(--lx-pad); border: 1px solid var(--luxe-line); border-radius: var(--lx-radius); background: var(--luxe-panel); color: var(--luxe-text-2); font-size: var(--type-subhead-size); }
+  & .v2-wallet__danger-zone { border-color: var(--luxe-line); }
+  /* ハードウェアウォレット（CSS Modules の部品。見出しの id で掴む） */
+  & section[aria-labelledby="hardware-wallet-title"] {
+    padding: 16px var(--lx-pad);
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--lx-radius);
+    background: var(--luxe-panel);
+  }
+  & section[aria-labelledby="hardware-wallet-title"] h2 { font-size: var(--type-headline-size); line-height: 24px; font-weight: 600; }
+  & section[aria-labelledby="hardware-wallet-title"] p { color: var(--luxe-text-2); font-size: var(--type-subhead-size); line-height: 1.7; }
+  & section[aria-labelledby="hardware-wallet-title"] button {
+    border: 1px solid var(--luxe-line-strong);
+    border-radius: var(--radius-pill);
+    background: transparent;
+    color: var(--luxe-text);
+  }
+  & section[aria-labelledby="hardware-wallet-title"] button:hover:not(:disabled) { background: var(--luxe-hover); }
+
+  /* ------------------------------------------------ ログイン・初期設定・AI */
+  & .hub-auth-page { min-height: 0; padding: 24px 0; background: transparent; }
+  & .hub-auth-card {
+    width: 100%;
+    max-width: var(--v2-width-reading);
+    margin-inline: auto;
+    padding: 24px var(--lx-pad);
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--lx-radius);
+    background: var(--luxe-panel);
+  }
+  & .hub-auth-heading h1,
+  & .hub-auth-heading h2 { font-size: var(--type-title2-size); line-height: var(--type-title2-leading); }
+  & .hub-auth-heading > span { color: var(--luxe-text-2); }
+  & .hub-auth-origin { max-width: var(--v2-width-reading); margin: 0 auto var(--lx-gap); color: var(--luxe-text-3); font-size: var(--type-subhead-size); }
+  /* ログイン／新規登録の切り替えは下線タブ。選んだほうだけ金の下線。 */
+  & .hub-auth-tabs { display: flex; gap: 24px; padding: 0; border: 0; border-bottom: 1px solid var(--luxe-line); border-radius: 0; background: transparent; }
+  & .hub-auth-tabs button { flex: 0 0 auto; min-height: 48px; padding: 0; border: 0; border-radius: 0; background: transparent; color: var(--luxe-text-2); font-size: var(--type-callout-size); font-weight: 500; box-shadow: none; }
+  & .hub-auth-tabs button:hover:not(:disabled) { color: var(--luxe-text); box-shadow: inset 0 -2px 0 var(--luxe-line-strong); }
+  & .hub-auth-tabs button[role="tab"].is-active,
+  & .hub-auth-tabs button[role="tab"].is-active:hover { background: transparent; color: var(--luxe-text); font-weight: 600; box-shadow: inset 0 -2px 0 var(--luxe-gold); }
+  & .hub-auth-card :is(button, a):disabled { border-style: solid; }
+  & .hub-auth-submit { border: 1px solid var(--luxe-btn-line); background: var(--luxe-btn); color: var(--luxe-btn-text); box-shadow: var(--luxe-btn-edge); font-weight: 600; }
+  & .hub-auth-submit:hover:not(:disabled) { background: var(--action-hover); }
+  & .hub-auth-oauth :is(button, a) { border: 1px solid var(--luxe-line-strong); background: transparent; color: var(--luxe-text); }
+  & .hub-auth-form :is(input, select, textarea) { border: 1px solid var(--luxe-line-strong); background: var(--luxe-raised); color: var(--luxe-text); }
+  & .hub-auth-note,
+  & .hub-auth-passkey-help,
+  & .hub-auth-terms,
+  & .hub-auth-more { color: var(--luxe-text-2); }
+
+  /* ------------------------------------------------ 初期設定（CSS Modules の部品。クラス名の中身で掴む） */
+  & .v2-account__panels [class*="_page__"] { width: 100%; max-width: none; margin: 0; padding: 0; }
+  & .v2-account__panels [class*="_hero__"] { margin-bottom: var(--lx-gap); padding: 16px var(--lx-pad) 20px; border: 1px solid var(--luxe-line); border-radius: var(--lx-radius); background: var(--luxe-panel); }
+  & .v2-account__panels [class*="_hero__"] p { color: var(--luxe-text-2); font-size: var(--type-post-size); line-height: var(--type-post-leading); }
+  & .v2-account__panels [class*="_section__"] { margin-bottom: var(--lx-gap); padding: 16px var(--lx-pad); border: 1px solid var(--luxe-line); border-radius: var(--lx-radius); background: var(--luxe-panel); }
+  & .v2-account__panels [class*="_sectionHeading__"] h2 { color: var(--luxe-text); font-size: var(--type-headline-size); letter-spacing: 0; }
+  & .v2-account__panels [class*="_sectionHeading__"] :is(span, small) { color: var(--luxe-text-3); }
+  /* 選ぶ札は面の中の罫線の札。選んだものだけ金の縁。 */
+  & .v2-account__panels :is([class*="_interest__"], [class*="_optionCard__"]) { border: 1px solid var(--luxe-line-strong); border-radius: 16px; background: transparent; transform: none; }
+  & .v2-account__panels :is([class*="_interest__"], [class*="_optionCard__"]):hover { border-color: var(--luxe-text-3); background: var(--luxe-hover); transform: none; }
+  & .v2-account__panels :is([class*="_interest__"], [class*="_optionCard__"])[class*="_selected__"] { border-color: var(--luxe-gold); background: var(--luxe-hover); box-shadow: inset 0 0 0 1px var(--luxe-gold); }
+  & .v2-account__panels [class*="_selected__"] i { border: 1px solid var(--luxe-btn-line); background: var(--luxe-btn); color: var(--luxe-btn-text); box-shadow: var(--luxe-btn-edge); }
+  & .v2-account__panels [class*="_footer__"] { border-top: 1px solid var(--luxe-line); background: var(--luxe-canvas); }
+  & .v2-account__panels [class*="_footer__"] button { border-radius: var(--radius-pill); border: 1px solid var(--luxe-btn-line); background: var(--luxe-btn); color: var(--luxe-btn-text); box-shadow: var(--luxe-btn-edge); font-weight: 600; }
+
+  /* ------------------------------------------------ AI ワークベンチ（本文の列いっぱいの作業面） */
+  & .ai-chat:not(.ai-chat--rail) { overflow: hidden; border: 1px solid var(--luxe-line); border-radius: var(--lx-radius); background: var(--luxe-panel); }
+  & .ai-chat:not(.ai-chat--rail) .ai-chat__sidebar { border-right: 1px solid var(--luxe-line); background: var(--luxe-canvas); }
+  & .ai-chat:not(.ai-chat--rail) .ai-chat__main { background: var(--luxe-panel); }
+  & .ai-chat:not(.ai-chat--rail) .ai-chat__header { border-bottom: 1px solid var(--luxe-line); background: var(--luxe-panel); backdrop-filter: none; }
+  & .ai-chat:not(.ai-chat--rail) .ai-chat__composer { border: 1px solid var(--luxe-line-strong); background: var(--luxe-raised); box-shadow: none; }
+  & .ai-chat:not(.ai-chat--rail) .ai-chat__new { border-color: var(--luxe-line-strong); background: transparent; }
+  & .ai-chat:not(.ai-chat--rail) .ai-chat__tools button.is-selected { background: var(--luxe-hover); color: var(--luxe-text); }
+
+  /* ------------------------------------------------ 携帯 */
+  @media (max-width: 759px) {
+    & .v2-settings .v2-msec,
+    & .hub-account.v2-account__panels > :is(.hub-account__section, section, .account-recovery-panel),
+    & .v2-wallet__card,
+    & #hub-main.v2__main > .v2-msec { padding: 14px 16px; }
+    & .hub-auth-card { padding: 20px 16px; }
+  }
+}

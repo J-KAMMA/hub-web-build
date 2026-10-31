@@ -1,0 +1,84 @@
+.card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 12px;
+  width: 100%;
+  min-width: 0;
+  padding: 16px;
+  border: var(--divider);
+  border-radius: var(--apple-control-radius);
+  background: var(--surface-raised);
+  color: var(--text);
+  font: inherit;
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.card:hover {
+  border-color: var(--emphasis);
+  background: var(--interactive-hover);
+}
+
+.copy {
+  display: grid;
+  gap: 7px;
+  min-width: 0;
+}
+
+.copy h3,
+.copy p {
+  margin: 0;
+}
+
+.copy h3 {
+  font-size: .94rem;
+  line-height: 1.45;
+}
+
+.copy p {
+  display: -webkit-box;
+  overflow: hidden;
+  color: var(--muted);
+  font-size: .76rem;
+  line-height: 1.55;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.meta,
+.badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+
+.meta {
+  color: var(--muted);
+  font-size: .68rem;
+}
+
+.badges {
+  align-content: start;
+  justify-content: flex-end;
+}
+
+.badges span {
+  padding: 3px 7px;
+  border: var(--divider);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: .66rem;
+  white-space: nowrap;
+}
+
+@media (max-width: 560px) {
+  .card {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .badges {
+    justify-content: flex-start;
+  }
+}

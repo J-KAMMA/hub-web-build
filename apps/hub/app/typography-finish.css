@@ -1,0 +1,226 @@
+/*
+ * Hub typography contract
+ *
+ * Readable social typography:
+ * 500 body/metadata, 600 controls/navigation, 700 section emphasis,
+ * 800 names and titles.
+ */
+
+:root {
+  /* Body is 400 (SPEC 2.2, 2.3). Names, controls and titles carry weight; running text does not. */
+  --type-reading-weight: 400;
+  --type-control-weight: 600;
+  --type-emphasis-weight: 700;
+  /* The canvas titles its cards at 600; 800 read as shouting next to them. */
+  --type-title-weight: 600;
+  --type-reading-line: 1.75;
+  --type-post-size: 1rem;
+  --type-meta-size: .8125rem;
+  --type-nav-size: .9375rem;
+  --type-ui-line: 1.3;
+}
+
+html {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-ui);
+  font-weight: var(--type-reading-weight);
+  line-height: var(--type-reading-line);
+  letter-spacing: 0;
+}
+
+:is(p, li, dd, blockquote, figcaption) {
+  font-weight: var(--type-reading-weight);
+}
+
+:is(strong, b) {
+  font-weight: var(--type-emphasis-weight);
+}
+
+:is(h1, .feature-header h1, .page-header h1) {
+  font-weight: var(--type-title-weight);
+  line-height: 1.2;
+  letter-spacing: -.02em;
+  text-wrap: balance;
+}
+
+:is(h2, h3, h4, h5, h6) {
+  font-weight: var(--type-emphasis-weight);
+  line-height: 1.3;
+  letter-spacing: -.01em;
+  text-wrap: pretty;
+}
+
+:is(button, input, select, textarea) {
+  font-family: inherit;
+  letter-spacing: 0;
+}
+
+:is(button, select, [role="button"], .button) {
+  font-weight: var(--type-control-weight);
+  line-height: var(--type-ui-line);
+}
+
+:is(input, textarea) {
+  font-size: 1rem;
+  font-weight: var(--type-reading-weight);
+  line-height: 1.5;
+}
+
+:is(input, textarea)::placeholder {
+  font-size: 1rem !important;
+  font-weight: var(--type-reading-weight) !important;
+}
+
+:is(select, button, [role="button"]) {
+  font-size: .9375rem;
+}
+
+.main-content :is(label, legend) {
+  font-size: .9375rem;
+  font-weight: var(--type-control-weight);
+}
+
+:is(
+  .shell__left nav a,
+  .shell__left nav button,
+  .shell__right nav a,
+  .shell__right nav button,
+  .mobile-bottom-nav a,
+  .mobile-bottom-nav button,
+  .tl-tab,
+  .search-tabs button,
+  .profile-activity-tabs button
+) {
+  font-size: var(--type-nav-size) !important;
+  font-weight: var(--type-control-weight) !important;
+  line-height: var(--type-ui-line);
+}
+
+.shell__right .rail-search-tabs button {
+  font-size: var(--type-meta-size) !important;
+  font-weight: 700 !important;
+}
+
+:is(
+  .shell__left nav [aria-current="page"],
+  .shell__right nav [aria-current="page"],
+  .tl-tab--active,
+  .search-tabs button.active,
+  .profile-activity-tabs button.is-active
+) {
+  font-weight: var(--type-emphasis-weight) !important;
+}
+
+:is(
+  small,
+  time,
+  .tweet__handle,
+  .tweet__time,
+  .tweet__recommendation-reason,
+  .feature-panel__heading > small,
+  .profile-card-simple__meta,
+  .search-hit > small
+) {
+  font-size: var(--type-meta-size) !important;
+  font-weight: var(--type-control-weight) !important;
+  line-height: 1.5;
+  letter-spacing: .005em;
+}
+
+:is(
+  .tweet__name,
+  .profile-card-simple__identity h1,
+  .notification-row__meta strong,
+  .search-hit > strong,
+  .profile-thread-item strong,
+  .thread-post-card__header strong,
+  .service-directory__item strong,
+  .market-card h2,
+  .music-card h3,
+  .video-card h3
+) {
+  font-weight: var(--type-title-weight) !important;
+}
+
+:is(
+  .tweet__text,
+  .thread-post-card__text,
+  .notification-row__content p,
+  .search-hit p,
+  .profile-card-simple__bio,
+  .hubpedia-article__body
+) {
+  font-size: var(--type-post-size) !important;
+  font-weight: var(--type-reading-weight) !important;
+  line-height: var(--type-reading-line);
+  letter-spacing: 0;
+}
+
+.community-trends .trend-tabs__description {
+  font-size: .875rem !important;
+  font-weight: var(--type-reading-weight) !important;
+  line-height: 1.55;
+}
+
+.community-trends .rank-row strong {
+  font-size: 1rem !important;
+  font-weight: var(--type-emphasis-weight) !important;
+  line-height: 1.4;
+}
+
+.community-trends :is(.rank-row small, .rank-row em, .rank-row > i) {
+  font-size: var(--type-meta-size) !important;
+  font-weight: var(--type-control-weight) !important;
+  line-height: 1.5;
+}
+
+.community-trends .rank-row__post-body {
+  font-size: var(--type-post-size) !important;
+  font-weight: var(--type-reading-weight) !important;
+  line-height: var(--type-reading-line) !important;
+}
+
+:is(
+  .feature-header > p,
+  .page-header > p,
+  .settings-note p,
+  .empty-state p,
+  .notification-empty p
+) {
+  color: var(--muted);
+  font-weight: var(--type-reading-weight);
+  line-height: 1.5;
+}
+
+code,
+kbd,
+pre,
+samp {
+  letter-spacing: 0;
+}
+
+@media (max-width: 760px) {
+  body {
+    line-height: 1.48;
+  }
+
+  :is(h1, .feature-header h1, .page-header h1) {
+    letter-spacing: -.02em;
+  }
+}
+
+@media (prefers-contrast: more) {
+  body {
+    font-weight: var(--type-control-weight);
+  }
+
+  :is(strong, b, h2, h3, h4, h5, h6) {
+    font-weight: var(--type-title-weight);
+  }
+}

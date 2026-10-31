@@ -1,0 +1,12 @@
+{
+  "format": "jkamma-hub-d1-production-time-travel-v1",
+  "createdAt": "2026-08-01T00:00:00.000Z",
+  "sourceRevision": "e7d834b9cdd0ec7fbbe446949f0d9f1f40939c45",
+  "schemaMigration": "0151_distributed_video_manifests.sql",
+  "schemaMigrationSha256": "73eaf7030386daa173c654fbbed837cbd521cfdf39135cc39a639ae4a8ea3fcc",
+  "exportUnavailableReason": "cloudflare-d1-export-does-not-support-fts5",
+  "recovery": {
+    "provider": "cloudflare-d1-time-travel",
+    "bookmark": "00000005-00000000-000050c0-14835c9e8f504f5b5ea96712d2f0a896"
+  }
+}

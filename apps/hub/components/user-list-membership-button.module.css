@@ -1,0 +1,84 @@
+.root {
+  position: relative;
+}
+
+.trigger {
+  align-items: center;
+  background: var(--panel);
+  border: var(--divider);
+  border-radius: 999px;
+  color: var(--text);
+  display: inline-flex;
+  font: inherit;
+  gap: 0.4rem;
+  min-height: 2.25rem;
+  padding: 0.4rem 0.8rem;
+}
+
+.panel {
+  background: var(--panel);
+  border: var(--divider);
+  border-radius: 1rem;
+  display: grid;
+  gap: 0.75rem;
+  inset-inline-end: 0;
+  min-width: min(19rem, calc(100vw - 2rem));
+  padding: 1rem;
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  z-index: 20;
+}
+
+.panel ul {
+  display: grid;
+  gap: 0.25rem;
+  list-style: none;
+  margin: 0;
+  max-height: 15rem;
+  overflow: auto;
+  padding: 0;
+}
+
+.panel label {
+  align-items: center;
+  display: flex;
+  gap: 0.65rem;
+  min-height: 2.5rem;
+}
+
+.panel p {
+  color: var(--muted);
+  margin: 0;
+}
+
+.create {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.create input {
+  background: var(--panel);
+  border: var(--divider);
+  border-radius: 0.7rem;
+  color: var(--text);
+  flex: 1;
+  min-width: 0;
+  padding: 0.6rem 0.7rem;
+}
+
+.create button {
+  background: var(--emphasis);
+  border: 0;
+  border-radius: 0.7rem;
+  color: var(--action-text);
+  font: inherit;
+  padding: 0.6rem 0.8rem;
+}
+
+.create button:disabled {
+  opacity: 0.5;
+}
+
+.status {
+  font-size: 0.85rem;
+}

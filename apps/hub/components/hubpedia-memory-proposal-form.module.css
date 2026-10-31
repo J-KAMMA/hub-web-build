@@ -1,0 +1,80 @@
+.panel {
+  margin-top: 24px;
+  padding: 18px;
+  border: var(--divider);
+  border-radius: 12px;
+  background: var(--surface-raised);
+}
+
+.panel summary {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.intro,
+.notice,
+.result {
+  color: var(--text-secondary);
+  font-size: .78rem;
+  line-height: 1.6;
+}
+
+.form {
+  display: grid;
+  gap: 14px;
+  margin-top: 16px;
+}
+
+.form label {
+  display: grid;
+  gap: 6px;
+  font-size: .78rem;
+  font-weight: 600;
+}
+
+.form input,
+.form select,
+.form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: var(--divider);
+  border-radius: 9px;
+  background: var(--surface);
+  color: var(--text-primary);
+  font: inherit;
+}
+
+.form textarea {
+  min-height: 130px;
+  resize: vertical;
+}
+
+.form button {
+  justify-self: start;
+  padding: 9px 15px;
+  border: var(--divider);
+  border-radius: 9px;
+  background: var(--interactive);
+  color: var(--text-primary);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background: var(--interactive-hover);
+}
+
+.form button:disabled {
+  color: var(--text-disabled);
+  cursor: wait;
+}
+
+.result {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: var(--divider);
+}
+
+.error {
+  color: var(--danger-text);
+}

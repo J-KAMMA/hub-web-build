@@ -1,0 +1,103 @@
+/* 記事執筆のMarkdown読み込み。色は意味トークンだけ。 */
+
+.hub-composer__toolbar .hub-composer__import {
+  width: auto;
+  height: auto;
+  margin-left: 8px;
+  white-space: nowrap;
+  min-height: 32px;
+  padding: 0 12px;
+  border: var(--divider);
+  border-radius: var(--apple-control-radius);
+  background: var(--interactive);
+  color: var(--text);
+  font: inherit;
+  font-size: .75rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.hub-composer__toolbar .hub-composer__import:hover:not(:disabled) {
+  background: var(--interactive-hover);
+}
+
+.hub-composer__toolbar .hub-composer__import:disabled {
+  color: var(--muted);
+  cursor: not-allowed;
+}
+
+.hub-composer__import-review,
+.hub-composer__import-report {
+  display: grid;
+  gap: 8px;
+  margin: 8px 0;
+  padding: 12px 14px;
+  border: var(--divider);
+  border-radius: var(--apple-control-radius);
+  background: var(--surface-sunken);
+  color: var(--text);
+  font-size: .8125rem;
+  line-height: 1.6;
+}
+
+.hub-composer__import-review p,
+.hub-composer__import-review dl,
+.hub-composer__import-report ul {
+  margin: 0;
+}
+
+.hub-composer__import-review dl {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2px 12px;
+}
+
+.hub-composer__import-review dt {
+  color: var(--muted);
+}
+
+.hub-composer__import-review dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.hub-composer__import-preview {
+  max-height: 180px;
+  margin: 0;
+  padding: 10px 12px;
+  overflow: auto;
+  border: var(--divider);
+  border-radius: var(--apple-control-radius);
+  background: var(--surface-raised);
+  color: var(--text);
+  font: inherit;
+  font-size: .75rem;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.hub-composer__import-note {
+  color: var(--muted);
+  font-size: .75rem;
+}
+
+.hub-composer__import-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.hub-composer__import-report {
+  grid-template-columns: 1fr auto;
+  align-items: start;
+}
+
+.hub-composer__import-report ul {
+  padding-left: 1.2em;
+}
+
+@media (max-width: 520px) {
+  .hub-composer__import-report {
+    grid-template-columns: 1fr;
+  }
+}

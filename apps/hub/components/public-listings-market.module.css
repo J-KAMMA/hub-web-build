@@ -1,0 +1,183 @@
+.page {
+  display: grid;
+  gap: 20px;
+  padding: 24px;
+}
+
+.filters,
+.form {
+  border-bottom: var(--divider);
+}
+
+.header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.header h1,
+.header p,
+.form h2,
+.notice {
+  margin: 0;
+}
+
+.header p,
+.result footer {
+  color: var(--text-secondary);
+}
+
+.header button,
+.form button {
+  min-height: 44px;
+  border: 0;
+  border-radius: 12px;
+  background: var(--emphasis);
+  color: var(--text-on-emphasis);
+  padding: 0 18px;
+  font: inherit;
+  font-weight: 700;
+}
+
+.form {
+  display: grid;
+  gap: 14px;
+  padding-bottom: 22px;
+}
+
+.form label,
+.filters label {
+  display: grid;
+  gap: 6px;
+  font-weight: 650;
+}
+
+.form input,
+.form textarea,
+.form select,
+.filters input,
+.filters select {
+  min-height: 44px;
+  border: var(--divider);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--text-primary);
+  padding: 10px 12px;
+  font: inherit;
+}
+
+.form textarea {
+  resize: vertical;
+}
+
+.formRow,
+.filters {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.filters {
+  padding-bottom: 18px;
+}
+
+.results {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.result {
+  min-width: 0;
+  background: var(--surface);
+}
+
+.result footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 0 14px 14px;
+  font-size: 0.8125rem;
+}
+
+.notice {
+  color: var(--text-primary);
+}
+
+.cancelled,
+.owned {
+  display: grid;
+  gap: 8px;
+  border: var(--divider);
+  border-radius: 12px;
+  padding: 16px;
+  background: var(--surface);
+}
+
+.cancelled {
+  color: var(--text-primary);
+}
+
+.cancelled p,
+.cancelled small,
+.owned h2,
+.owned p,
+.owned small {
+  margin: 0;
+}
+
+.cancelled small,
+.owned p,
+.owned small {
+  color: var(--text-secondary);
+}
+
+.cancelled a {
+  width: fit-content;
+  color: var(--link-color);
+}
+
+.detailLink {
+  color: var(--link-color);
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.detailLink:hover {
+  text-decoration: underline;
+}
+
+.owned > article {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  border-top: var(--divider);
+  padding-top: 12px;
+}
+
+.owned > article > div {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+@media (max-width: 760px) {
+  .page {
+    padding: 18px 14px;
+  }
+
+  .header,
+  .result footer,
+  .owned > article {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .formRow,
+  .filters,
+  .results {
+    grid-template-columns: 1fr;
+  }
+}

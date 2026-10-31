@@ -1,0 +1,743 @@
+[
+  {
+    "slug": "cell-nucleus",
+    "topicType": "concept",
+    "categoryLabel": "生命科学",
+    "title": "細胞核",
+    "summary": "細胞核は、真核細胞において染色体を包み込む膜結合性の細胞小器官である。核膜が染色体を核内にとどめると同時に、核内の染色体と核外の他の細胞小器官とを区別しており、真核生物の細胞に共通して見られる基本的な区画である。",
+    "bodyMarkdown": "## 構造\n\n細胞核は、染色体を膜で包み込んだ細胞小器官である。この膜は染色体を核内にとどめる一方で、核内の染色体と核外に存在する他の細胞小器官や細胞質の構成要素とを隔てている。 [1][5]\n\n## 染色体と遺伝情報\n\n核内に収められた[染色体](/hubpedia/chromosome)は、動物および植物の細胞に共通して見られる糸状の構造体であり、細胞の遺伝情報を符号化している。核はこの染色体をすべて含んでおり、核内の染色体の総体は細胞の[ゲノム](/hubpedia/genome)を構成する。ヒトの細胞も他の動物や植物と同様に、対になった線状の染色体を核内に持つ。 [3][4][8]\n\n## 核膜の孔と物質輸送\n\n核を包む膜には多数の孔があり、タンパク質や核酸といった特定の分子が核の内外を選択的に通過することを可能にしている。RNAなどの物質は核と細胞質の間を行き来する必要があり、核膜孔はこの移動の経路となっている。核膜孔の働きについては、かつては分子を核外へ排出する機能のみが想定されていたが、現在では分子を核内へ取り込む能動的な過程が存在することも分かっている。 [2][6][7]\n\n## 細胞内での位置\n\n核は細胞の中央に位置する。 [10]\n\n## 核外の遺伝物質\n\n染色体を持つのは核だけではない。ミトコンドリアは核の外側に存在する細胞小器官であり、その内部には環状の染色体が存在する。このため、細胞の遺伝情報の大部分は核内の染色体が担う一方、ミトコンドリアも独自の遺伝物質を核の外に保持している。 [9]\n\n## 関連記事\n\n- [デオキシリボ核酸](/hubpedia/dna)\n- [遺伝子](/hubpedia/gene)",
+    "sources": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Nucleus",
+        "title": "Nucleus — NHGRI Talking Glossary",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "The institute short definition of the term. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+        "title": "Chromosomes Fact Sheet — NHGRI",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "Substantive coverage of chromosomes, genes and cell division. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Cell nucleus",
+        "summary": "The cell nucleus is a membrane-bound organelle that encloses the chromosomes in eukaryotic cells. Its nuclear membrane keeps the chromosomes contained within the nucleus while distinguishing them from the other organelles that lie outside it, making the nucleus a basic compartment common to eukaryotic cells.",
+        "bodyMarkdown": "## Structure\n\nThe cell nucleus is an organelle that encloses the chromosomes within a membrane. This membrane keeps the chromosomes inside the nucleus while separating them from the other organelles and cytoplasmic components that lie outside it. [1][5]\n\n## Chromosomes and genetic information\n\nThe [chromosomes](/hubpedia/chromosome) contained within the nucleus are thread-like structures found in both animal and plant cells, and they encode the cell's genetic information. The nucleus contains all of these chromosomes, and together they make up the cell's [genome](/hubpedia/genome). Like other animals and plants, human cells carry paired, linear chromosomes within the nucleus. [3][4][8]\n\n## Nuclear pores and molecular transport\n\nThe membrane enclosing the nucleus contains numerous pores that allow specific molecules, such as proteins and nucleic acids, to selectively pass between the inside and outside of the nucleus. Substances such as RNA must move back and forth between the nucleus and the cytoplasm, and the nuclear pores provide the route for this movement. Nuclear pores were once thought to function only in exporting molecules out of the nucleus, but it is now known that an active process also exists for importing molecules into the nucleus. [2][6][7]\n\n## Position within the cell\n\nThe nucleus is located at the center of the cell. [10]\n\n## Genetic material outside the nucleus\n\nThe nucleus is not the only place where chromosomes are found. Mitochondria are organelles located outside the nucleus, and they contain circular chromosomes of their own. Thus, while the chromosomes within the nucleus carry the majority of a cell's genetic information, mitochondria also hold their own genetic material outside the nucleus. [9]\n\n## Related articles\n\n- [Deoxyribonucleic acid](/hubpedia/dna)\n- [Gene](/hubpedia/gene)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T15:28:47.359Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "核は、染色体を含む膜で囲まれた細胞小器官である。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Nucleus",
+              "quote": "A nucleus, as related to genomics, is the membrane-enclosed organelle within a cell that contains the chromosomes."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "核膜には多数の孔があり、タンパク質や核酸などの特定の分子が核の内外を選択的に通過できる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Nucleus",
+              "quote": "An array of holes, or pores, in the nuclear membrane allows for the selective passage of certain molecules (such as proteins and nucleic acids) into and out of the nucleus."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "核は細胞のすべての染色体を含んでおり、染色体は遺伝情報を符号化している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Nucleus",
+              "quote": "the nucleus contains all of the cell's chromosomes, which encode the genetic material"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "染色体は動物および植物の細胞内の核の中にある糸状の構造体である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "Chromosomes are thread-like structures located inside the nucleus of animal and plant cells."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "核は膜に囲まれており、その膜が染色体を核内に留めるとともに、核内の染色体と核外の他の細胞小器官・構成要素とを区別している。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Nucleus",
+              "quote": "The nucleus has a membrane around it that keeps all the chromosomes inside and makes the distinction between the chromosomes being inside the nucleus and the other organelles and components of the cell staying outside."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "RNAなどの物質は核と細胞質の間を移動する必要があり、核膜の孔がその移動を可能にしている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Nucleus",
+              "quote": "Sometimes things like RNA need to traffic between the nucleus and the cytoplasm, and so there are pores in this nuclear membrane that allow molecules to go in and out of the nucleus."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "かつて核膜は分子を核外へ出す働きのみを持つと考えられていたが、現在では分子を核内へ取り込む能動的な過程も存在することが分かっている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Nucleus",
+              "quote": "It used to be thought that the nuclear membrane only allowed molecules to go out, but now it's realized that there is an active process also for bringing molecules into the nucleus."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "ヒトは他の動物や植物と同様に、細胞の核内に対になって配置された線状の染色体を持つ。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "Humans, along with other animals and plants, have linear chromosomes that are arranged in pairs within the nucleus of the cell."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "ミトコンドリアに存在する環状の染色体は、核の外側に位置する構造体であるミトコンドリアの中にある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "This circular chromosome is found in mitochondria, which are structures located outside the nucleus that serve as the cell's powerhouses."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "核は細胞の中央に位置する。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Nucleus",
+              "quote": "It's in the middle of the cell"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "mitosis",
+    "topicType": "concept",
+    "categoryLabel": "生命科学",
+    "title": "有糸分裂",
+    "summary": "有糸分裂は、一つの細胞が分裂に先立って各染色体を複製し、そのコピーを二つの娘細胞にそれぞれ一部ずつ受け渡す過程である。染色体の複製と分配を高い精度で行う仕組みによって、新しくできる細胞は元の細胞と同じ染色体構成を保持する。生物が古くなった細胞を置き換えながら正常に成長し機能を維持できるのは、この過程が絶えず繰り返されているためである。",
+    "bodyMarkdown": "## 染色体の複製と分配\n\n有糸分裂では、細胞がまず自身の持つ各[染色体](/hubpedia/chromosome)を複製し、その一方のコピーを二つの娘細胞のそれぞれに渡す。この過程が正しく完了するためには、それぞれの娘細胞が各染色体のコピーをちょうど1部ずつ受け取る必要がある。細胞には、染色体をほぼ完璧に複製し、1部ずつを確実に各娘細胞へ渡すための仕組みが備わっている。 [1][2][3]\n\n## セントロメアの役割\n\nセントロメアは、複雑な細胞分裂の過程を通じて染色体を正しく整列させておく役割を持つ。染色体が新しい細胞の産生に備えて複製される際、セントロメアは複製された染色体の二つの半分である姉妹染色分体の結合部位として働く。 [9][10]\n\n## 細胞分裂の生物学的意義\n\n生物が正常に成長し、機能を維持するためには、古くなった細胞を新しい細胞に置き換えるための細胞分裂が絶えず起こる必要がある。細胞分裂の際には、[DNA](/hubpedia/dna)が損なわれることなく細胞間へ均等に分配されることが不可欠である。 [7][8]\n\n## 分裂の誤りとその影響\n\n染色体の複製や分配においては、ごくまれに誤りが生じることがある。こうした誤りは、細胞や個体に悪影響を及ぼす場合がある。各染色体のコピーに誤りがあると、細胞が遺伝情報の指示に従えなくなる可能性がある。新しくできる細胞の染色体の数や構造に変化が生じた場合には、深刻な問題につながることがある。 [4][5][6][11]\n\n## 関連記事\n\n- [遺伝子](/hubpedia/gene)\n- [ゲノム](/hubpedia/genome)\n- [変異](/hubpedia/mutation)",
+    "sources": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Mitosis",
+        "title": "Mitosis — NHGRI Talking Glossary",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "The institute short definition of the term. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+        "title": "Chromosomes Fact Sheet — NHGRI",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "Substantive coverage of chromosomes, genes and cell division. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Mitosis",
+        "summary": "Mitosis is the process by which a cell replicates each of its chromosomes prior to division and passes one copy of each to every one of two daughter cells. Mechanisms that carry out this replication and distribution of chromosomes with high accuracy allow the newly formed cells to retain the same chromosomal makeup as the original cell. Organisms are able to grow normally and maintain their functions while replacing aging cells precisely because this process repeats continuously.",
+        "bodyMarkdown": "## Chromosome Replication and Distribution\n\nIn mitosis, a cell first replicates each of its [chromosomes](/hubpedia/chromosome) and passes one of the resulting copies to each of two daughter cells. For this process to complete correctly, each daughter cell must receive exactly one copy of every chromosome. Cells are equipped with mechanisms that replicate chromosomes with near-perfect accuracy and reliably deliver one copy to each daughter cell. [1][2][3]\n\n## The Role of the Centromere\n\nThe centromere is responsible for keeping chromosomes correctly aligned throughout the complex process of cell division. When a chromosome is replicated in preparation for producing new cells, the centromere serves as the site joining the sister chromatids, the two halves of the replicated chromosome. [9][10]\n\n## The Biological Significance of Cell Division\n\nFor an organism to grow normally and maintain its functions, cell division must occur continually to replace aging cells with new ones. During cell division, it is essential that [DNA](/hubpedia/dna) be distributed evenly between cells without being damaged. [7][8]\n\n## Errors in Division and Their Effects\n\nErrors can occur, though rarely, in the replication or distribution of chromosomes. Such errors can have adverse effects on cells or on the organism as a whole. If a copy of a chromosome contains an error, the cell may become unable to follow the instructions encoded in its genetic information. Changes in the number or structure of chromosomes in newly formed cells can lead to serious problems. [4][5][6][11]\n\n## Related Articles\n\n- [Gene](/hubpedia/gene)\n- [Genome](/hubpedia/genome)\n- [Mutation](/hubpedia/mutation)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T15:28:47.359Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "有糸分裂では、細胞が各染色体を複製し、その一方のコピーを2つの娘細胞それぞれに渡す。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Mitosis",
+              "quote": "In mitosis, a cell copies each chromosome, then gives one copy to each of two daughter cells."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "それぞれの細胞は各染色体のコピーをちょうど1部ずつ受け取る必要がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Mitosis",
+              "quote": "We need each of our cells to receive exactly one copy of each chromosome"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "細胞には染色体をほぼ完璧に複製し、1部ずつを各娘細胞に確実に渡す仕組みが備わっている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Mitosis",
+              "quote": "our cells have amazing systems to copy chromosomes almost perfectly and to make sure that one copy goes to each daughter cell"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "染色体の複製や分配において、ごくまれに誤りが生じることがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Mitosis",
+              "quote": "very rarely mistakes in copying or dividing chromosomes are made"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "染色体の複製や分配の誤りは、細胞や人に悪影響を及ぼすことがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Mitosis",
+              "quote": "these mistakes can have negative consequences for cells and for people"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "各染色体のコピーに誤りがあると、細胞が遺伝情報の指示に従えなくなる可能性がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Mitosis",
+              "quote": "each copy needs to be perfect, no mistakes, or the cells may have trouble following the genetic instructions"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "生物が正常に成長し機能するためには、古くなった細胞を新しい細胞に置き換えるために細胞分裂が絶えず起こる必要がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "For an organism to grow and function properly, cells must constantly divide to produce new cells to replace old, worn-out cells."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "細胞分裂の際には、DNAが損なわれずに細胞間へ均等に分配されることが不可欠である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "During cell division, it is essential that DNA remains intact and evenly distributed among cells."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "セントロメアは、複雑な細胞分裂の過程で染色体を正しく整列させておく役割を持つ。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "Centromeres help to keep chromosomes properly aligned during the complex process of cell division."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "染色体が新しい細胞の産生に備えて複製される際、セントロメアは複製された染色体の二つの半分（姉妹染色分体）の結合部位として働く。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "As chromosomes are copied in preparation for production of a new cell, the centromere serves as an attachment site for the two halves of each replicated chromosome, known as sister chromatids."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "新しくできる細胞の染色体の数や構造に変化が生じると、深刻な問題につながることがある。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "Changes in the number or structure of chromosomes in new cells may lead to serious problems."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "meiosis",
+    "topicType": "concept",
+    "categoryLabel": "生命科学",
+    "title": "減数分裂",
+    "summary": "減数分裂は、有性生殖を行う生物が卵子や精子などの配偶子を作る際に、染色体の数を半分に減らす特別な細胞分裂である。二倍体の細胞1個が2回の分裂を経て4個の半数体の娘細胞を生じ、受精によって元の染色体数が回復する仕組みを担う。",
+    "bodyMarkdown": "## 定義と役割\n\n減数分裂は、有性生殖を行う生物において、卵子や精子などの配偶子を作る際に[染色体](/hubpedia/chromosome)の数を半分に減らす特別な細胞分裂である。受精によってできる細胞が元の細胞と同じ染色体数を保つには、結合する卵子と精子がそれぞれ半分の染色体数しか持たない半数体でなければならない。 [1][4]\n\nヒトの体細胞は二倍体であり、父親由来と母親由来の2組の染色体を持つ。これに対して生殖細胞は対をなす染色体を持たず、各染色体を1コピーずつしか持たない半数体である。二つの生殖細胞が受精によって結合すると、それぞれの染色体を2コピーずつ持つ単一の細胞となり、二倍体の状態が回復する。 [2][10][11]\n\n## 分裂の過程\n\n減数分裂では、二倍体の細胞1個が2回の分裂を経て、4個の半数体の娘細胞を生じる。これらの娘細胞が配偶子となる。 [3]\n\n## ヒトにおける染色体数の受け渡し\n\nヒトはほぼすべての細胞に46本の染色体を持ち、そのうち23本は父親に、残りの23本は母親に由来する。減数分裂は、卵子と精子のそれぞれが正確に23本の染色体を持つよう、細胞が染色体を数えて分配する仕組みとみなせる。23本の染色体を持つ卵子が23本の染色体を持つ精子によって受精すると、できた受精卵は正確に46本の染色体を持ち、そこから成長する新しいヒトのすべての細胞も46本の染色体を持つことになる。 [5][6][7][8][9]\n\n## 染色体数の異常と発生への影響\n\n卵子や精子といった生殖細胞が正しい数と構造の染色体を持つことは重要であり、そうでなければ生まれてくる子が正常に発生しない可能性がある。 [12]\n\n## 関連記事\n\n- [デオキシリボ核酸](/hubpedia/dna)\n- [遺伝子](/hubpedia/gene)\n- [ゲノム](/hubpedia/genome)",
+    "sources": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Meiosis",
+        "title": "Meiosis — NHGRI Talking Glossary",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "The institute short definition of the term. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+        "title": "Chromosomes Fact Sheet — NHGRI",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "Substantive coverage of chromosomes, genes and cell division. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Meiosis",
+        "summary": "Meiosis is a specialized type of cell division in sexually reproducing organisms that halves the number of chromosomes when producing gametes such as eggs and sperm. One diploid cell undergoes two rounds of division to produce four haploid daughter cells, and fertilization restores the original chromosome number.",
+        "bodyMarkdown": "## Definition and Role\n\nMeiosis is a specialized type of cell division in sexually reproducing organisms that halves the number of [chromosomes](/hubpedia/chromosome) when producing gametes such as eggs and sperm. For the cell formed by fertilization to retain the same chromosome number as the original cell, the egg and sperm that combine must each be haploid, carrying only half the chromosome number. [1][4]\n\nHuman somatic cells are diploid, carrying two sets of chromosomes, one inherited from the father and one from the mother. Germ cells, by contrast, do not carry paired chromosomes; they are haploid, holding only one copy of each chromosome. When two germ cells combine through fertilization, they form a single cell that carries two copies of each chromosome, restoring the diploid state. [2][10][11]\n\n## The Process of Division\n\nIn meiosis, one diploid cell undergoes two rounds of division to produce four haploid daughter cells. These daughter cells become gametes. [3]\n\n## Chromosome Transmission in Humans\n\nHumans carry 46 chromosomes in nearly all their cells, of which 23 are inherited from the father and the remaining 23 from the mother. Meiosis can be regarded as the mechanism by which a cell counts and distributes chromosomes so that each egg and each sperm ends up with exactly 23 chromosomes. When an egg carrying 23 chromosomes is fertilized by a sperm carrying 23 chromosomes, the resulting fertilized egg has exactly 46 chromosomes, and every cell of the new human that grows from it will likewise carry 46 chromosomes. [5][6][7][8][9]\n\n## Chromosome Number Abnormalities and Effects on Development\n\nIt is important for germ cells such as eggs and sperm to carry chromosomes of the correct number and structure; otherwise, the resulting child may not develop normally. [12]\n\n## Related Articles\n\n- [Deoxyribonucleic acid](/hubpedia/dna)\n- [Gene](/hubpedia/gene)\n- [Genome](/hubpedia/genome)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T15:28:47.359Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "減数分裂は、有性生殖を行う生物において配偶子（卵子や精子などの性細胞）の染色体数を減らす細胞分裂の一種である。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Meiosis",
+              "quote": "Meiosis is a type of cell division in sexually reproducing organisms that reduces the number of chromosomes in gametes (the sex cells, or egg and sperm)."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "ヒトの体細胞は二倍体であり、両親それぞれに由来する2組の染色体を持つ。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Meiosis",
+              "quote": "In humans, body (or somatic) cells are diploid, containing two sets of chromosomes (one from each parent)."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "減数分裂では、二倍体の細胞1個が2回の分裂を経て、4個の半数体の娘細胞（配偶子）を生じる。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Meiosis",
+              "quote": "During meiosis, each diploid cell undergoes two rounds of division to yield four haploid daughter cells — the gametes."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "受精の際に結合する卵子と精子は、この二倍体の状態を維持するために単一の染色体セットを持つ半数体でなければならない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Meiosis",
+              "quote": "To maintain this state, the egg and sperm that unite during fertilization must be haploid, with a single set of chromosomes."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "ヒトはほぼすべての細胞に46本の染色体を持つ。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Meiosis",
+              "quote": "Humans have 46 chromosomes in almost every cell, 23 that came from one of our parents and 23 very similar chromosomes that came from the other one of our parents."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "そのうち23本は片方の親に由来し、残りの23本はもう一方の親に由来する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Meiosis",
+              "quote": "Humans have 46 chromosomes in almost every cell, 23 that came from one of our parents and 23 very similar chromosomes that came from the other one of our parents."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "23本の染色体を持つ卵子が23本の染色体を持つ精子によって受精すると、できた受精卵は正確に46本の染色体を持つ。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Meiosis",
+              "quote": "Then when an egg with its 23 chromosomes is fertilized by a sperm with its 23 chromosomes, the resulting fertilized egg has exactly 46 chromosomes."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "その受精卵から成長する新しいヒトは、すべての細胞に46本の染色体を持つことになる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Meiosis",
+              "quote": "And a new human that grows from that fertilized egg will have 46 chromosomes in all of its cells."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "減数分裂は、それぞれの配偶子（卵子または精子）が正確に23本の染色体を持つように、細胞が染色体を注意深く数えて分配する仕組みとみなせる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Meiosis",
+              "quote": "We can think of meiosis as a way cells very carefully count and divide their chromosomes so that each gamete, each egg or sperm, has exactly 23 chromosomes."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "ヒトの細胞のうち、対になった染色体を持たないのは生殖細胞（配偶子）だけであり、各染色体を1コピーずつしか持たない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "The only human cells that do not contain pairs of chromosomes are reproductive cells, or gametes, which carry just one copy of each chromosome."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "二つの生殖細胞が結合すると、それぞれの染色体を2コピーずつ持つ単一の細胞になる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "When two reproductive cells unite, they become a single cell that contains two copies of each chromosome."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "卵子や精子などの生殖細胞は正しい数と構造の染色体を持つことが重要であり、そうでなければ生まれてくる子が正常に発生しない可能性がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "It is also crucial that reproductive cells, such as eggs and sperm, contain the right number of chromosomes and that those chromosomes have the correct structure. If not, the resulting offspring may fail to develop properly."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "telomere",
+    "topicType": "concept",
+    "categoryLabel": "生命科学",
+    "title": "テロメア",
+    "summary": "テロメアは、線状染色体の末端にある反復配列のDNAで、細胞分裂のたびに短くなりながら染色体末端を保護する構造である。",
+    "bodyMarkdown": "## テロメア\n\nテロメアは、線状[染色体](/hubpedia/chromosome)の末端に存在する反復配列のDNA構造であり、特定の短い配列が数百回にわたって繰り返されることで、細胞が染色体の末端を保護する仕組みとして機能する。細胞分裂のたびにこの反復配列の一部が失われていくため、テロメアの長さは細胞の複製能力と関わっている。 [1][2][3][4]\n\n## 構造\n\nテロメアは特定の短い[DNA](/hubpedia/dna)配列が数百回繰り返された長い構造であり、線状染色体の末端に位置する反復配列のDNAである。末端部分には「T-loop」と呼ばれる結び目状の構造が形成されており、これによって染色体の末端同士が互いに結合することを防いでいる。 [2][4][10]\n\n## 末端の保護\n\n染色体の末端が保護されていない場合、末端が切断されたり、他の緩んだDNA末端と結合したりする可能性がある。テロメアはこうした損傷を防ぐことで、染色体の末端を保護する仕組みとして働いている。この保護作用は、靴ひもの先端がほつれるのを防ぐキャップにしばしば例えられる。 [1][6][11]\n\n## 細胞分裂による短縮とテロメラーゼ\n\n多くの種類の細胞では、細胞が分裂するたびにテロメアの繰り返し配列の一部が失われていく。テロメアのDNAがすべて失われると、その細胞は複製できなくなり死滅する。一方、白血球など頻繁に分裂を行う細胞種は、テロメアの喪失を防ぐ特殊な酵素を持つ。テロメラーゼと呼ばれるこの酵素は、頻繁に分裂する特定の細胞種においてテロメアの繰り返し配列を付加し直し、テロメアが短くなりすぎるのを防いでいる。テロメアを保持する細胞は、そうでない細胞に比べて一般に長く生存する。 [3][5][7][8][9][12]\n\n## がんとの関連\n\nテロメアはがんにも関与している。悪性細胞の染色体は通常テロメアを失わず、この特徴が制御されない細胞増殖を助長していると考えられている。 [13][14]\n\n## 関連記事\n\n- [ゲノム](/hubpedia/genome)\n- [変異](/hubpedia/mutation)",
+    "sources": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Telomere",
+        "title": "Telomere — NHGRI Talking Glossary",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "The institute short definition of the term. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+        "title": "Chromosomes Fact Sheet — NHGRI",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "Substantive coverage of chromosomes, genes and cell division. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Telomere",
+        "summary": "A telomere is a repetitive DNA sequence located at the end of a linear chromosome that protects the chromosome's end while shortening with each cell division.",
+        "bodyMarkdown": "## Telomere\n\nA telomere is a repetitive DNA structure located at the end of a linear [chromosome](/hubpedia/chromosome), formed by a specific short sequence repeated hundreds of times, functioning as a mechanism by which the cell protects the chromosome's end. Because part of this repeated sequence is lost with each cell division, telomere length is linked to a cell's replicative capacity. [1][2][3][4]\n\n## Structure\n\nA telomere is a long structure formed by a specific short [DNA](/hubpedia/dna) sequence repeated hundreds of times, and it is repetitive DNA located at the end of a linear chromosome. At the terminal end, a knot-like structure called a \"T-loop\" is formed, which prevents the ends of chromosomes from binding to one another. [2][4][10]\n\n## Protection of the Chromosome End\n\nIf the end of a chromosome is left unprotected, it may become broken or fuse with other loose DNA ends. Telomeres work as a mechanism that protects the chromosome's end by preventing this kind of damage. This protective action is often compared to the cap that keeps the tip of a shoelace from fraying. [1][6][11]\n\n## Shortening Through Cell Division and Telomerase\n\nIn many types of cells, part of the telomere's repeat sequence is lost each time the cell divides. Once all of a cell's telomeric DNA has been lost, the cell can no longer replicate and dies. On the other hand, cell types that divide frequently, such as white blood cells, possess a specialized enzyme that prevents the loss of telomeres. This enzyme, called telomerase, re-adds the telomere's repeat sequence in certain frequently dividing cell types, preventing telomeres from becoming too short. Cells that retain their telomeres generally survive longer than those that do not. [3][5][7][8][9][12]\n\n## Association with Cancer\n\nTelomeres are also implicated in cancer. The chromosomes of malignant cells typically do not lose their telomeres, and this trait is thought to contribute to uncontrolled cell proliferation. [13][14]\n\n## Related Articles\n\n- [Genome](/hubpedia/genome)\n- [Mutation](/hubpedia/mutation)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T15:28:47.360Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "テロメアは細胞が染色体の末端を保護する仕組みである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Telomere",
+              "quote": "Telomeres are how cells protect chromosome ends."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "テロメアは特定の短いDNA配列が数百回繰り返された長い構造である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Telomere",
+              "quote": "The telomere itself is a long stretch of a specific short DNA sequence repeated over and over hundreds of times."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "細胞が分裂するたびに、テロメアの繰り返し配列の一部が失われる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Telomere",
+              "quote": "Every time a cell divides, some of those telomere repeats get cut off."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "テロメアは線状染色体の末端にある反復配列のDNAである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "Telomeres are repetitive stretches of DNA located at the ends of linear chromosomes."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "テロメラーゼと呼ばれる酵素は、頻繁に分裂する特定の細胞種においてテロメアの繰り返し配列を付加し直し、テロメアが短くなりすぎるのを防ぐ。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Telomere",
+              "quote": "an enzyme called \"telomerase\" adds those repeats back so the telomere doesn't get too short"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "テロメアは、靴ひもの先端がほつれるのを防ぐのと同じような仕方で染色体の末端を保護している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "They protect the ends of chromosomes in a manner similar to the way the tips of shoelaces keep them from unraveling."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "多くの種類の細胞では、細胞分裂のたびにテロメアのDNAが少しずつ失われる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "In many types of cells, telomeres lose a bit of their DNA every time a cell divides."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "テロメアのDNAがすべて失われると、その細胞は複製できなくなり死滅する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "Eventually, when all of the telomere DNA is gone, the cell cannot replicate and dies."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "白血球など頻繁に分裂できる細胞種は、染色体のテロメアが失われるのを防ぐ特殊な酵素を持つ。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "White blood cells and other cell types with the capacity to divide very frequently have a special enzyme that prevents their chromosomes from losing their telomeres."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "テロメアの末端には「T-loop」と呼ばれる結び目状の構造があり、染色体の末端同士が互いに結合するのを防いでいる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Telomere",
+              "quote": "At the very end of the telomere is a sort of knot not called the \"T-loop,\" which keeps the chromosome ends from all sticking together."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "染色体の末端が保護されていない場合、末端が切断されたり、他の緩んだDNA末端と結合したりする可能性がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Telomere",
+              "quote": "They could get cut off, or they could join onto other loose DNA ends, which would be a problem for the cell."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "テロメアを保持することで、そうした細胞は他の細胞よりも一般に長く生存する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "Because they retain their telomeres, such cells generally live longer than other cells."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "テロメアはがんにも関与している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "Telomeres also play a role in cancer."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "悪性細胞の染色体は通常テロメアを失わず、それががんの制御されない増殖を助長している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Chromosomes-Fact-Sheet",
+              "quote": "The chromosomes of malignant cells usually do not lose their telomeres, helping to fuel the uncontrolled growth that makes cancer so devastating."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

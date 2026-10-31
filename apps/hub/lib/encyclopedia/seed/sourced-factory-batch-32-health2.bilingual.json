@@ -1,0 +1,1577 @@
+[
+  {
+    "slug": "pandemic",
+    "topicType": "concept",
+    "categoryLabel": "医学・健康",
+    "title": "パンデミック",
+    "summary": "パンデミックは、感染症が国境を越えて世界規模で広がる流行を指す。同じ病原体であっても、毎年の季節性の流行と世界的な流行とでは被害の規模が大きく異なり、記録上最も甚大とされる1918年のインフルエンザ・パンデミックでは推計に幅があるものの数千万人規模の死者が生じ、COVID-19のパンデミックでは2700万人以上が死亡したとされる。ウイルスの型や亜型の変化、感染の広がりを表す指標、症例定義と監視体制の限界が、流行の把握と評価を左右する。",
+    "bodyMarkdown": "## 季節性の流行とパンデミックの規模\n\n季節性のインフルエンザは、毎年平均して70万人を呼吸器疾患または心血管疾患で死亡させている。これに対し、記録上最も甚大なインフルエンザ・パンデミックとされる1918年から1920年の流行については、世界の死者を1740万人とする研究がある一方、5000万人から1億人とするはるかに高い推計を示す研究もある。同じ病原体を原因としていても、平時の流行と世界的な流行とでは被害の桁が異なる。 [11][44][45]\n\n近年の例であるCOVID-19のパンデミックでは、2700万人以上が死亡したとされる。同じ時期、多くの国ではインフルエンザの流行がかえってはるかに少なくなった。 [10][28]\n\n## インフルエンザウイルスの型・亜型・系統\n\nインフルエンザウイルスにはA型、B型、C型、D型の4種類が存在する。このうちA型とB型は毎年世界中で人から人へ広がる傾向があり、C型とD型は主に鳥類やその他の動物に感染する。 [1][5][6]\n\nA型の亜型は、ウイルス表面にあるヘマグルチニン（H）とノイラミニダーゼ（N）という2種類のタンパク質にちなんで命名される。ヘマグルチニンには18種類、ノイラミニダーゼには11種類の亜型が知られているが、実際に観察されているのはその一部の組み合わせにとどまる。たとえばH3N2は、ヘマグルチニン亜型3とノイラミニダーゼ亜型2を持つA型であり、H1N1と並んでA型に含まれる多数の亜型の一つである。 [7][8][9][14]\n\nB型にはビクトリア系統とヤマガタ系統という2つの系統がある。新型インフルエンザ（豚インフルエンザ）の流行を経て、このうち山形系統は絶滅した可能性が指摘されている。 [15][16]\n\nインフルエンザウイルスは徐々に進化し、人がすでに獲得した免疫を回避して再感染を引き起こすことがある。この性質が、毎年の流行が繰り返される背景にある。 [41]\n\n## 1918年のインフルエンザ・パンデミック\n\nスペイン風邪と呼ばれるこのパンデミックは、ヒトのインフルエンザと別の動物由来のインフルエンザが組み合わさり、新型のH1N1ウイルスが形成されて発生したと説明されている。結果として、記録上最も甚大なインフルエンザ・パンデミックとなった。 [43][44]\n\n被害の年齢分布は、通常の流行と異なっていた。最も重症化したのは子どもと若年成人であり、高齢者には大きな影響を与えなかった。出生時および若年時の[平均寿命](/hubpedia/life-expectancy)は10年以上低下した。 [46][47][53]\n\n高齢世代が比較的守られていた理由については、パンデミックの数十年前に類似したH1型のインフルエンザウイルスに曝露しており、そのために当時の流行株に対してある程度の防御を持っていたと考えられている。 [55]\n\n## ワクチンによる対応\n\nインフルエンザワクチンの接種は1930年代から1940年代にかけて始まった。ただし毎年異なるウイルスが流行するため、ワクチンは更新される必要がある。ウイルスが免疫を回避する方向へ進化することが、この更新を必要にしている。 [35][40][41]\n\nワクチンに含まれる株と実際に流行する株が一致しない場合、ワクチンの有効性は低下し、その年の流行期はより深刻になる傾向がある。 [42]\n\n接種の効果は呼吸器の症状にとどまらない。高齢者を対象とした臨床試験のメタ分析では、[インフルエンザワクチン接種](/hubpedia/vaccination)により心臓発作や脳卒中などの主要な心血管イベントのリスクが約34%減少したと報告されている。 [54]\n\n## COVID-19パンデミック期における流行の抑制\n\nインフルエンザウイルスは、飛沫と人との接触を通じて人から人へ広がる。COVID-19のパンデミック期に取られた社会的距離の確保は人々の接触を大きく減らし、ウイルスの拡散を抑えた。 [30][31]\n\nその結果、2020年と2021年にはインフルエンザの流行が大きく減少し、検査の陽性率も低い水準にとどまった。ある感染症への対策が、別の感染症の流行規模を左右した例である。 [29]\n\n## 感染の広がりを表す指標\n\n実効再生産数（R値）は、感染者一人が平均して何人を感染させるかを示す。R値が1を超えると感染者数は指数関数的に増加して流行につながり、1を下回ると流行には至らず症例数は指数関数的に減少する。 [32][33][34]\n\n季節性のインフルエンザウイルスでは、流行の開始時点でR値が1をわずかに上回る傾向がある。1をまたぐわずかな差が、流行の拡大と収束を分けることになる。 [48]\n\n## 季節性と地理的な分布\n\nインフルエンザを含む複数の呼吸器感染症は冬に多く発生する。気温と湿度が低く、屋内での人との接触が多いときに、これらの感染症はより効率的に伝播する。 [36][50]\n\n北半球では流行は11月から5月の間に起こる傾向があり、南半球では概ね6月から10月の間に起こる。一方、赤道に近い国々では年に複数回の流行の山があるか、一年を通じてインフルエンザが存在する傾向がある。 [37][38][51]\n\n## 被害の分布と長期的な傾向\n\n研究者の推計によれば、インフルエンザは毎年40万人の呼吸器疾患死と30万人の[心血管疾患](/hubpedia/cardiovascular-disease)死を引き起こしている。欧州では65歳以上において、インフルエンザにより毎年10万人あたり約31人が呼吸器疾患で死亡している。 [12][13]\n\n重症化しやすいのは乳幼児と高齢者である。死亡率は地域によっても異なり、貧困や医療アクセスの低さなどにより、欧州や北米より南米・アフリカ・南アジアの国々で高い。 [26][27]\n\n死亡者の総数は、人口が増加し高齢化していることを背景に、ほぼ横ばいで推移している。 [49]\n\n## 症例定義と監視体制\n\n流行の規模を測るには、どの患者を数えるかを決める必要がある。急性呼吸器感染症（ARI）は最も広い分類基準であり、咳・喉の痛み・呼吸困難・鼻炎のうち少なくとも1つの急性発症症状があり、医師により感染が原因と判断された人を含む。より狭い基準である重症急性呼吸器感染症（SARI）は、38度を超える発熱と咳があり入院を要した患者のみを含む。 [39][52]\n\nインフルエンザ様疾患（ILI）の臨床定義は、豚インフルエンザ・パンデミックを受けて2011年以降用いられている。この定義は大半の国で採用されているが、すべての国が採用しているわけではない。 [2][17]\n\n米国はインフルエンザ監視システムとして「ILINet」を用いており、国内の多くの診療所と連携している。ただし米国を含む多くの国では診療所の参加が任意であるため、すべての診療所が監視システムに含まれているわけではない。特定の州や属性の診療所は、参加する可能性が他より低い。 [3][4][18]\n\n## 統計に残る不確実性\n\n監視網の外から集められる「非センチネル」データは、国内の症例を代表していない可能性があり、質の高い検査を欠いていることもある。参加している診療所であっても、インフルエンザ様疾患の患者全員についてデータ収集様式が記入されWHOへ報告されるとは限らず、データが欠落することがある。特に医療従事者や物資が不足する地域では、検体が適切に梱包・保管・輸送・検査されないことがある。 [19][24][25]\n\nウイルスの亜型や系統も、検査の際に常に判定されるわけではない。一部の診療所は検査資源の不足のためすべての亜型を検査せず、A型については検査機関がH1株かH3株かのみを調べる傾向がある。 [20][21][22]\n\nその結果、不明な亜型・系統として分類されるものの中に、大きく進化した新型のインフルエンザ株が含まれることがある。パンデミックの起点となりうる変化が、当初は分類できない検体としてしか現れない可能性を意味する。 [23]\n\n## 関連記事\n\n- [国際保健](/hubpedia/global-health)\n- [死因](/hubpedia/cause-of-death)",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/pandemics",
+        "title": "パンデミック",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on pandemic. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/influenza",
+        "title": "influenza",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Influenza as a recurring pandemic disease. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Pandemic",
+        "summary": "A pandemic is an outbreak of an infectious disease that crosses borders and spreads on a global scale. Even for the same pathogen, the scale of harm differs greatly between an annual seasonal epidemic and a global one: the 1918 influenza pandemic, regarded as the deadliest on record, caused deaths on the order of tens of millions, though estimates vary widely, while the COVID-19 pandemic is reported to have killed more than 27 million people. Changes in viral types and subtypes, indicators of how far infection spreads, and the limits of case definitions and surveillance systems all shape how outbreaks are understood and assessed.",
+        "bodyMarkdown": "## The scale of seasonal epidemics and pandemics\n\nSeasonal influenza kills an average of 700,000 people each year from respiratory or cardiovascular disease. By contrast, for the 1918–1920 outbreak, regarded as the deadliest influenza pandemic on record, one study puts the global death toll at 17.4 million, while others give far higher estimates of 50 million to 100 million. Even when the cause is the same pathogen, the harm from an ordinary outbreak and from a global one differs by orders of magnitude. [11][44][45]\n\nIn a more recent case, the COVID-19 pandemic is reported to have killed more than 27 million people. Over the same period, influenza outbreaks in many countries were instead far less frequent. [10][28]\n\n## Influenza virus types, subtypes, and lineages\n\nThere are four kinds of influenza virus: types A, B, C, and D. Of these, types A and B tend to spread from person to person around the world each year, while types C and D mainly infect birds and other animals. [1][5][6]\n\nSubtypes of type A are named after two proteins on the virus surface: hemagglutinin (H) and neuraminidase (N). Eighteen hemagglutinin subtypes and eleven neuraminidase subtypes are known, but only some of the possible combinations have actually been observed. H3N2, for example, is a type A virus carrying hemagglutinin subtype 3 and neuraminidase subtype 2, and alongside H1N1 it is one of many subtypes within type A. [7][8][9][14]\n\nType B has two lineages, Victoria and Yamagata. Following the outbreak of the new influenza (swine flu), it has been suggested that the Yamagata lineage may have become extinct. [15][16]\n\nInfluenza viruses evolve gradually and can evade immunity people have already acquired, causing reinfection. This property lies behind the repetition of outbreaks year after year. [41]\n\n## The 1918 influenza pandemic\n\nThis pandemic, known as the Spanish flu, is explained as having arisen when human influenza combined with another influenza of animal origin to form a new H1N1 virus. The result was the deadliest influenza pandemic on record. [43][44]\n\nThe age distribution of the harm differed from that of ordinary outbreaks. Those who became most severely ill were children and young adults, while older people were not greatly affected. [Life expectancy](/hubpedia/life-expectancy) at birth and in early life fell by more than ten years. [46][47][53]\n\nAs for why older generations were comparatively protected, it is thought that they had been exposed to a similar H1 influenza virus decades before the pandemic, and therefore had some degree of protection against the strain then circulating. [55]\n\n## Response through vaccines\n\nInfluenza vaccination began in the 1930s and 1940s. Because a different virus circulates each year, however, the vaccine must be updated. It is the evolution of the virus toward evading immunity that makes this updating necessary. [35][40][41]\n\nWhen the strains contained in the vaccine do not match the strains that actually circulate, vaccine effectiveness declines and that year's season tends to be more severe. [42]\n\nThe benefits of vaccination are not limited to respiratory symptoms. A meta-analysis of clinical trials in older adults reported that [influenza vaccination](/hubpedia/vaccination) reduced the risk of major cardiovascular events such as heart attack and stroke by about 34%. [54]\n\n## Suppression of outbreaks during the COVID-19 pandemic\n\nInfluenza viruses spread from person to person through droplets and human contact. The social distancing adopted during the COVID-19 pandemic sharply reduced contact between people and curbed the spread of the virus. [30][31]\n\nAs a result, influenza outbreaks fell sharply in 2020 and 2021, and test positivity rates remained at low levels. This is an example of measures against one infectious disease determining the scale of another's spread. [29]\n\n## Indicators of how far infection spreads\n\nThe effective reproduction number (R value) indicates how many people, on average, one infected person infects. When the R value exceeds 1, the number of infections grows exponentially and leads to an outbreak; when it falls below 1, no outbreak occurs and case counts decline exponentially. [32][33][34]\n\nFor seasonal influenza viruses, the R value tends to sit slightly above 1 at the start of a season. A small difference on either side of 1 is what separates an expanding outbreak from a subsiding one. [48]\n\n## Seasonality and geographic distribution\n\nSeveral respiratory infections, including influenza, occur more often in winter. These infections transmit more efficiently when temperature and humidity are low and people have more indoor contact with one another. [36][50]\n\nIn the Northern Hemisphere, outbreaks tend to occur between November and May, and in the Southern Hemisphere roughly between June and October. In countries near the equator, by contrast, there tend to be multiple peaks per year, or influenza is present throughout the year. [37][38][51]\n\n## The distribution of harm and long-term trends\n\nBy researchers' estimates, influenza causes 400,000 respiratory deaths and 300,000 [cardiovascular disease](/hubpedia/cardiovascular-disease) deaths each year. In Europe, among people aged 65 and over, influenza causes about 31 respiratory deaths per 100,000 people each year. [12][13]\n\nInfants and older adults are the most likely to become severely ill. Mortality also varies by region, being higher in countries of South America, Africa, and South Asia than in Europe or North America, owing to factors such as poverty and poor access to health care. [26][27]\n\nThe total number of deaths has remained roughly flat, against a background of a growing and aging population. [49]\n\n## Case definitions and surveillance systems\n\nMeasuring the scale of an outbreak requires deciding which patients to count. Acute respiratory infection (ARI) is the broadest classification criterion, covering people with the acute onset of at least one of the following—cough, sore throat, shortness of breath, or rhinitis—that a physician judges to be caused by an infection. The narrower criterion of severe acute respiratory infection (SARI) includes only patients with a fever above 38 degrees and a cough who required hospitalization. [39][52]\n\nThe clinical definition of influenza-like illness (ILI) has been in use since 2011, following the swine flu pandemic. This definition has been adopted in most countries, though not in all of them. [2][17]\n\nThe United States uses \"ILINet\" as its influenza surveillance system, working with many clinics across the country. However, in many countries including the United States, clinic participation is voluntary, so not all clinics are included in the surveillance system. Clinics in particular states or with particular characteristics are less likely to participate than others. [3][4][18]\n\n## The uncertainty that remains in the statistics\n\n\"Non-sentinel\" data gathered from outside the surveillance network may not be representative of cases within a country, and it sometimes lacks high-quality testing. Even at participating clinics, data collection forms are not necessarily completed and reported to WHO for every patient with influenza-like illness, so data can be missing. Especially in areas short of health workers or supplies, specimens may not be properly packaged, stored, transported, or tested. [19][24][25]\n\nViral subtypes and lineages are also not always determined during testing. Some clinics do not test for all subtypes because of a shortage of testing resources, and for type A, laboratories tend to check only whether it is an H1 or an H3 strain. [20][21][22]\n\nAs a result, what is classified as an unknown subtype or lineage can include substantially evolved new influenza strains. This means that a change capable of starting a pandemic may at first appear only as a specimen that cannot be classified. [23]\n\n## Related articles\n\n- [Global health](/hubpedia/global-health)\n- [Cause of death](/hubpedia/cause-of-death)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T10:45:59.657Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "インフルエンザウイルスにはA型、B型、C型、D型の4種類が存在する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "There are four types of influenza viruses: A, B, C, and D."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "インフルエンザ様疾患の臨床定義は、2011年の豚インフルエンザ・パンデミック以降用いられている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "This definition has been used since 2011, after the Swine flu pandemic."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "米国はインフルエンザ監視システムとして「ILINet」を用いており、国内の多くの診療所と連携している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "the United States uses the 'ILINet' system, which is connected to many clinics across the country"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "米国を含む多くの国では診療所の参加が任意であるため、すべての診療所が監視システムに含まれているわけではない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "in many countries including the US, clinics participate on a voluntary basis, so not all clinics are included"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "インフルエンザA型とB型は毎年世界中で人から人へ広がる傾向がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "Influenza A and B tend to spread between people around the world each year."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "インフルエンザC型とD型は主に鳥類やその他の動物に感染する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "influenza C and D mainly infect birds and other animals."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "インフルエンザのサブタイプは、ウイルス表面のヘマグルチニン（H）とノイラミニダーゼ（N）という2種類のタンパク質にちなんで命名される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "The subtypes are named according to two proteins the virus has on its surface: hemagglutinin (H) and neuraminidase (N)."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "ヘマグルチニンには18種類、ノイラミニダーゼには11種類のサブタイプが存在するが、観察されているのはその一部の組み合わせのみである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "There are many subtypes of each of these two proteins (18 hemagglutinin subtypes and 11 neuraminidase subtypes), but only some of the combinations have been observed."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "H3N2は、ヘマグルチニンサブタイプ3とノイラミニダーゼサブタイプ2を持つインフルエンザA型の一種である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "H3N2 is a type of influenza A virus which has hemagglutinin subtype 3 and neuraminidase subtype 2."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "COVID-19パンデミックにより2700万人以上が死亡した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/pandemics",
+              "quote": "the COVID-19 pandemic killed more than 27 million people"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "季節性インフルエンザは毎年平均70万人を呼吸器疾患または心血管疾患で死亡させる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "It kills an average of 700,000 people each year from respiratory disease or cardiovascular disease"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "研究者の推計では、インフルエンザは毎年40万人の呼吸器疾患死と30万人の心血管疾患死を引き起こしている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "researchers estimate that the flu causes 400,000 respiratory deaths and 300,000 cardiovascular deaths each year"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "欧州では65歳以上において、インフルエンザにより毎年10万人あたり約31人が呼吸器疾患で死亡している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "Among those over 65, the flu kills around 31 people per 100,000 each year from respiratory disease in Europe."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "インフルエンザAには、H1N1やH3N2など多くの亜型がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "There are many subtypes of influenza A, including H1N1 and H3N2 among others."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "インフルエンザBにはビクトリア系統とヤマガタ系統という2つの系統がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "there are two lineages of influenza B, which are called Victoria and Yamagata"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "新型インフルエンザ（豚インフルエンザ）の流行により、インフルエンザB型の系統の一つ（山形系統）が絶滅した可能性がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "This effect was so large that it may have led to the extinction of a lineage of flu called influenza B Yamagata."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "この定義は2011年以降、大半の国で採用されているが、すべての国が採用しているわけではない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "Since then, most countries, but not all, have adopted it."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "特定の州や属性の診療所は、監視システムに参加する可能性が他より低い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "Clinics in some states and demographics are less likely to be part of the system."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "「非センチネル」データは国内の症例を代表していない可能性があり、質の高い検査を欠いていることもある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "This means 'non-sentinel' data may not be representative of the cases across the country. They may also lack high-quality testing."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "インフルエンザウイルスのサブタイプや系統は、検査の際に常に判定されるわけではない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "The subtype or lineage of a flu virus is not always determined during testing."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "一部の診療所は検査資源の不足のため、インフルエンザのすべてのサブタイプを検査しない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "This tends to be because some clinics do not test for all subtypes of influenza, due to a lack of testing resources."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "インフルエンザA型については、検査機関はH1株かH3株かのみを検査する傾向がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "with influenza A, labs tend to test only whether they are the H1 or H3 strain."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "不明なサブタイプ・系統として分類されるものの中には、大きく進化した新型インフルエンザ株が含まれることがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "unknown subtypes/lineages can also include novel influenza strains, which have gone through significant evolution."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "参加している診療所でも、インフルエンザ様疾患の患者全員についてデータ収集様式が記入・WHOへ報告されない場合があり、データが欠落することがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "Even in participating clinics, some data can be missing. For example, data collection forms may not be filled in or reported to the WHO for all patients with influenza-like illnesses who visit the clinics."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "特に医療従事者や物資が不足する地域では、検体が適切に梱包・保管・輸送・検査されないことがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "Samples may not be packaged, stored, transported, or tested correctly, especially in regions with a lack of healthcare staff and supplies."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "インフルエンザは乳幼児と高齢者で最も重症化しやすい。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "The flu is most severe in infants and the elderly."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "インフルエンザによる死亡率は、貧困や医療アクセスの低さなどにより、欧州や北米より南米・アフリカ・南アジアの国々で高い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "Death rates from the flu are higher in countries in South America, Africa, and South Asia than in Europe and North America"
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "多くの国で、社会的距離の確保の影響によりCOVID-19パンデミック期にインフルエンザの流行がはるかに少なくなった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "In many countries, flu became much rarer during the COVID-19 pandemic, due to the impact of social distancing."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "2020年と2021年には、インフルエンザの流行が大きく減少し、検査陽性率も低かった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "In 2020 and 2021, there was a large decline in flu and the rates of positive tests were low."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "インフルエンザウイルスは、飛沫と人との接触を通じて人から人へ広がる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "the influenza virus is spread between people, through respiratory droplets and human contact"
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "社会的距離の確保は人々の接触を大きく減らし、ウイルスの拡散を抑えた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "social distancing led to a large reduction in contact between people and limited the virus from spreading"
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "実効再生産数（R値）とは、感染者一人が平均して感染させる人数を指す。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "The reproductive number (also called the R number) can help to understand why. This refers to the average number of people who will be infected by someone with the virus."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "R値が1を超えると、感染者数は指数関数的に増加し流行につながる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "When the R number is greater than 1, the average person who is infected will spread the virus to more than one person, who spread it to more and more people; the number of cases rises exponentially and leads to an epidemic."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "R値が1未満になると流行には至らず、症例数は指数関数的に減少する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "when the R number is lower than 1, the virus does not lead to an epidemic, and the number of cases falls exponentially"
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "インフルエンザワクチン接種は1930年代から1940年代にかけて始まった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "flu vaccination, which began in the 1930s and 1940s"
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "インフルエンザを含む複数の呼吸器感染症は冬に多く発生する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "Several respiratory infections, including the flu, are more common in the winter."
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "北半球では、インフルエンザの流行は11月から5月の間に起こる傾向がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "flu epidemics tend to occur between November and May in the Northern Hemisphere"
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "南半球では、インフルエンザの流行は概ね6月から10月の間に起こる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "in the Southern Hemisphere, they generally occur between June and October"
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "重症急性呼吸器感染症（SARI）はILIの重症例であり、38度を超える発熱と咳があり入院を要した患者のみを含む。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "Severe acute respiratory infections (SARIs) are severe cases of ILIs: they include only people with a sudden respiratory infection who had a fever above 38ºC, a cough, and required hospitalization."
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "毎年異なるウイルスが流行するため、インフルエンザワクチンは更新される必要がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "Each year, flu vaccines need to be updated because different viruses circulate in the population."
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "インフルエンザウイルスは徐々に進化し、人の免疫を回避して再感染を引き起こすことがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "flu viruses gradually evolve, and can evade people’s immunity and cause reinfections"
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "ワクチンの株と流行株が一致しない場合、ワクチンの有効性は低下し、インフルエンザ流行期がより深刻になる傾向がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "When there is a mismatch between the strains in the vaccine and the viruses circulating in the population, vaccines tend to have lower efficacy and the flu season tends to be more severe."
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "スペイン風邪パンデミックは、ヒトのインフルエンザと別の動物由来インフルエンザが組み合わさって発生し、新型のH1N1ウイルスを形成した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "the Spanish flu pandemic was caused by a combination of human influenza and another animal influenza. Together, they formed the new H1N1 virus."
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "スペイン風邪は記録上最も甚大なインフルエンザパンデミックとなった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "it led to the most devastating influenza pandemic in recorded history"
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "statement": "一部の研究は1918年から1920年の間にスペイン風邪により世界で1740万人が死亡したと推計する一方、他の研究では5000万人から1億人というはるかに高い死者数を推計している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "some studies estimate that 17.4 million people died globally from the Spanish flu between 1918 and 1920, while others estimate a much higher death toll of 50 to 100 million deaths"
+            }
+          ]
+        },
+        {
+          "index": 46,
+          "statement": "スペイン風邪パンデミックは子どもと若年成人で最も重症化した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "The Spanish flu pandemic was most severe among children and young adults."
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "statement": "スペイン風邪により、出生時および若年時の平均寿命は10年以上低下した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "Life expectancy at birth and at young ages declined by more than ten years."
+            }
+          ]
+        },
+        {
+          "index": 48,
+          "statement": "季節性インフルエンザウイルスは、流行開始時にR値が1をわずかに上回る傾向がある。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "Seasonal flu viruses tend to have an R number that is slightly above 1 at the start of an epidemic."
+            }
+          ]
+        },
+        {
+          "index": 49,
+          "statement": "人口が増加し高齢化しているため、インフルエンザによる死亡者の総数はほぼ横ばいで推移している。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "But, because the population is getting larger and older, the total number of flu deaths has remained stable."
+            }
+          ]
+        },
+        {
+          "index": 50,
+          "statement": "気温と湿度が低く、屋内での人との接触が多いときに、これらの感染症はより効率的に伝播する。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "they transmit more efficiently at lower temperatures and humidity, and when there is more social contact between people indoors"
+            }
+          ]
+        },
+        {
+          "index": 51,
+          "statement": "赤道に近い国々では、年に複数回の流行の山があるか、一年を通じてインフルエンザが存在する傾向がある。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "in countries closer to the equator, there tend to be multiple peaks each year, or flu is present throughout the year"
+            }
+          ]
+        },
+        {
+          "index": 52,
+          "statement": "急性呼吸器感染症（ARI）は最も広い分類基準であり、咳・喉の痛み・呼吸困難・鼻炎のうち少なくとも1つの急性発症症状を持ち、医師により感染が原因と判断された人を含む。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "Acute respiratory infections (ARIs) are the broadest type of metric. They can include anyone with sudden onset of at least one of the following symptoms: cough, sore throat, shortness of breath or rhinitis (inflammation of the mucous lining of the nose), but only if they were judged by a doctor to be caused by an infection."
+            }
+          ]
+        },
+        {
+          "index": 53,
+          "statement": "スペイン風邪は高齢者には大きな影響を与えなかった。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "it did not have a significant impact on older people"
+            }
+          ]
+        },
+        {
+          "index": 54,
+          "statement": "高齢者を対象とした臨床試験のメタ分析では、インフルエンザワクチン接種により心臓発作や脳卒中などの主要な心血管イベントのリスクが約34%減少することが示されている。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "influenza vaccination reduces the chances of major cardiovascular events (such as heart attacks and strokes) by around 34%, in clinical trials of the elderly"
+            }
+          ]
+        },
+        {
+          "index": 55,
+          "statement": "高齢世代はパンデミック発生の数十年前に類似したH1インフルエンザウイルスに曝露していたため、スペイン風邪株に対してある程度の防御を持っていたと考えられている。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/influenza",
+              "quote": "older generations had been exposed to similar H1 influenza viruses decades before the pandemic began, which gave them some protection against the Spanish flu strain"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "global-health",
+    "topicType": "concept",
+    "categoryLabel": "医学・健康",
+    "title": "国際保健",
+    "summary": "国際保健は、世界規模で見た人々の健康状態と、その改善の歩みを扱う分野である。1900年に32歳だった新生児の平均寿命は2021年に71歳へ倍以上に伸びた一方、同じ2021年にナイジェリアの平均寿命は日本より30年短く、低所得国の子どもの死亡率は高所得国の10倍以上に達している。国家間のこうした差は、小児・妊産婦の死亡率、感染症対策や予防接種の普及、医療支出と医薬品への到達しやすさといった要素に分解して測られる。",
+    "bodyMarkdown": "## 国家間で開く健康水準の差\n\n2021年、ナイジェリアの[平均寿命](/hubpedia/life-expectancy)は日本より30年短かった。同じ年、サハラ以南アフリカの複数の国では60歳未満にとどまる一方、欧州の複数国や日本では80歳を超えていた。世界全体では70年をわずかに上回る水準だが、その平均値の内側に国ごとの大きな開きがある。 [1][3][8][21]\n\n差は死亡率の指標にも現れる。2021年時点で、低所得国の子どもの死亡率は高所得国の10倍以上だった。病気や障害による健康損失まで含めて測る障害調整生命年（DALY）でも、1DALYは早期死亡や病気によって失われた健康な1年分に相当するが、2019年には健康状態が最も良い地域で人口10万人当たり2万未満だったのに対し、状況が最も悪い地域ではアフリカの複数国で6万を超えた。 [5][9][56][57]\n\n## 平均寿命の歴史的推移\n\n1800年の時点では、平均寿命が40歳を超える地域は一つもなく、当時最も長かったベルギーでも40歳だった。1840年に世界最高だったスウェーデンでも46歳である。世界の新生児の平均寿命は1900年に32歳、2021年には71歳と、およそ1世紀で倍以上に伸びた。 [2][22][27][43]\n\n国ごとの伸び方は一様ではない。英国では1800年以前の平均寿命は非常に低かったが、それ以降劇的に上昇し、2世紀足らずで倍になった。1900年代初頭のインドと韓国はともに25歳未満だったが、その約1世紀後にはインドで2倍以上、韓国で3倍以上に達した。 [6][7]\n\n1950年までにすべての国が1800年より長い平均寿命を得たが、国家間の格差はむしろ大幅に拡大していた。欧州や北米などの豊かな国で健康の改善がより顕著だった一方、インドや中国のような国では進展が限られたためである。2012年のデータでは、すべての国で平均寿命が上昇し、国家間の格差は縮小し始めていた。 [44][45][46]\n\nこの長期的な上昇曲線には、いくつもの中断が刻まれている。両世界大戦、1918年のスペイン風邪の[世界的流行](/hubpedia/pandemic)、HIV/AIDSの流行、そして新型コロナウイルス感染症の流行は死亡率に大きな影響を与え、平均寿命の推移に明瞭な痕跡を残した。 [41]\n\n## 小児死亡率の低下とその寄与\n\n[子どもの死亡率](/hubpedia/child-mortality)は、新生児が5歳の誕生日を迎える前に死亡する割合として測られる。近代以前の社会では30%から50%の範囲にあったが、豊かな国では2021年までに約0.5%まで低下した。 [47][48][49]\n\nかつての短い平均寿命には、この高い小児死亡率が大きく寄与していた。したがって世界的な平均寿命の向上には、子どもと母親の死亡率の大幅な低下が中心的な役割を果たしてきた。ただし近年では小児死亡率の低下が平均寿命の上昇に寄与する度合いは小さくなっており、代わりにすべての年齢層で死亡率の低下が見られる。 [4][20][23][65][66]\n\n高齢期の余命も実際に伸びている。フランスでは1816年時点で15歳の人の平均余命は58年だったが、2021年には83年になった。65歳の人の平均余命も、同じ期間に76年から86年へ伸びている。平均寿命の上昇は乳幼児期の改善だけによるものではない。 [24][25][37]\n\n## 妊産婦死亡率\n\n妊産婦死亡率とは、妊娠中または妊娠終了後42日以内に女性が死亡することを指し、出生10万人当たりの割合で示されることが多い。約100年前には出生10万人当たり500人から1000人の範囲にあったが、高所得国では現在およそ10人まで低下している。 [10][52][53]\n\n低下は世界に均等には及んでいない。2017年のサハラ以南アフリカの妊産婦死亡率は出生10万人当たり500人を超え、これは欧州連合の60倍以上に相当した。 [11]\n\n改善の手段そのものは19世紀に見つかっている。イグナーツ・ゼンメルワイスは、衛生管理によって妊産婦の生存率を大きく改善できることを発見した。ただし普及の速さは国によって違う。フィンランドは19世紀半ばに妊産婦死亡率の低下を始めたが、今日の低水準に達するまでに1世紀以上を要した。マレーシアはより後の時期に、数十年という短期間で同様の改善を達成している。 [54][55][75]\n\n一方、妊婦健診（antenatal care）の普及は他の保健サービスより進みが遅く、多くの国で依然として低い水準にとどまっている。 [30]\n\n## 感染症対策と保健サービスの普及\n\n必須保健サービスの世界的な普及率は2000年以降上昇している。HIV、結核、マラリアへの対策は、世界基金や米国大統領エイズ救済緊急計画（PEPFAR）などのプログラムを通じて大幅に強化された。HIV感染者のうち、救命的介入である抗レトロウイルス療法を受けている人の割合も上昇してきた。 [15][16][29]\n\n死者数の推移はこの経過を裏づける。マラリアとHIV/AIDSによる死者数は1990年代に増加したが、2005年以降は減少傾向にある。それでもHIV/AIDSは世界的な流行病であり続け、一部の国では最も多い[死因](/hubpedia/cause-of-death)となっている。結核も今なお世界で最も一般的な死因の一つである。 [19][50][51][63]\n\n予防の側でも、[ワクチン接種率](/hubpedia/vaccination)は2000年以降大幅に上昇した。多くのアフリカ諸国では特に速く上昇しており、これはワクチンアライアンス（Gavi）、国連、その他の援助資金からの資金増加を反映している。 [17][18]\n\n生活環境の側の指標は動きが緩やかである。安全に管理された[衛生施設](/hubpedia/sanitation)を利用する人の割合は時間とともに上昇してきたが、その歩みはゆるやかで、現在も多くの国で接続や利用ができない人が多く残っている。 [31][32]\n\n## 医薬品の入手可能性\n\n貧しい国の公共部門では医薬品の入手可能性がかなり低い。民間部門のほうが入手可能性は高いものの、そこでも一貫したアクセスは確保されていない。公共部門の医療施設は大半が医薬品を低価格または無料で提供しており、貧困層への医療提供に不可欠な役割を担っている。 [33][34]\n\n公共部門で医薬品が入手できない場合、人々は民間部門で入手しようとするが、そこでは通常より高価であり、多くの人にとって手が届かない。貧しい国の人々は医薬品の価格に対する感応度が高く、わずかな費用でも必須医療用品の利用を大きく減少させうる。 [35][36]\n\n## 医療支出と医療保障制度\n\n支出の規模の差は寿命の差より大きい。2019年、中央アフリカ共和国の1人当たり医療支出は国際ドル換算で100未満だったのに対し、米国では10,000国際ドルを上回った。米国民が3日間で使う医療費が、中央アフリカ共和国の人が1年間で使う医療費を上回る計算になる。 [12][59]\n\n一国の医療支出を最も強く予測する要因は、その国の国民所得である。1人当たりの医療支出が多い国ほど平均寿命が長い傾向があり、特に支出が少ない水準では、支出の増加が健康アウトカムに好影響を与えることが分かっている。 [42][58][60]\n\n費用を誰が負担するかも国によって異なる。家計から医療提供者への直接支払いである自己負担支出は世界各国で大きく異なり、フランスのような富裕国では医療費総額のごく一部にとどまる一方、アフガニスタンやナイジェリアのような貧しい国では医療費の大半を占めることがある。 [13][14]\n\n医療保障の拡大には二つの時間尺度が見られる。フランス、オーストリア、ドイツなどの欧州諸国は1920年から1960年の間に適用範囲を拡大し、スペイン、ポルトガル、ギリシャがこれに続いて1960年から1980年の間に拡大した。これに対し中国、ルワンダ、ベトナムは21世紀に入ってからほぼゼロの状態で始め、わずか10年でほぼ皆保険を達成している。 [61][62]\n\n制度の細部と支出水準の関係については、確からしさの低い観察もある。プライマリケアの「ゲートキーパー」制度を用いる医療制度や、患者がまず医療提供者に支払い後から払い戻しを受ける制度は、他の制度と比べて医療費支出が低くなる傾向があると指摘されているが、これらの関連は上記の所得との関係ほど確かなものとしては示されていない。 [77][78]\n\n## 平均寿命の男女差\n\n世界的に見て、女性は男性より長生きする傾向がある。ただしその差の大きさは国によって異なり、時代とともに一定でもない。年齢によって理由も異なり、新生児では男児が病気に対して脆弱であるため死亡率が高く、青年期では暴力や事故を主な原因として男子の死亡率が高く、高齢期では喫煙・飲酒・薬物使用の割合が高いことなどにより男性の慢性疾患による死亡率が高い。 [26][38][68][69][70]\n\n20世紀を通じて男女差は徐々に拡大したが、その主因は男性における喫煙の増加とされる。一部の国では両世界大戦の間に差が急拡大した。その後、多くの国で差は再び縮小してきているが、すべての国がそうなっているわけではない。 [67][71][72]\n\n## 寿命の上限をめぐる予測と統計の限界\n\n1928年、米国の統計学者ルイス・ダブリンは死亡率データを用いて達成可能な最長平均寿命を予測した。当時の米国の平均寿命は57歳で、ダブリンは上限を64.8歳と算出した。しかし彼はニュージーランドのデータを持っていなかったため、その上限がすでに同国で破られていたことに気づいていなかった。 [39][40][73]\n\n実際には、記録上の最高平均寿命はおよそ4年ごとに1年のペースで着実に上昇してきた。2021年時点の世界最高は香港の88歳である。 [28][74]\n\nこうした比較の土台となる数値自体にも限界がある。貧しい国では死亡登録データが不足していることが多く、平均寿命や死亡率の推定には全国世帯調査のデータが用いられることが多い。また平均寿命が低い国ほど寿命のばらつきが大きい傾向があり、平均値だけでは集団内の経験の幅を表しきれない。 [64][76]\n\n## 関連記事\n\n- [下痢性疾患](/hubpedia/diarrheal-disease)\n- [疾病の根絶](/hubpedia/disease-eradication)",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/global-health",
+        "title": "国際保健",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on global-health. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/life-expectancy",
+        "title": "life-expectancy",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Life expectancy as the summary measure. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Global Health",
+        "summary": "Global health is the field concerned with the state of people's health worldwide and the progress made in improving it. While life expectancy at birth more than doubled from 32 years in 1900 to 71 years in 2021, in that same year of 2021 life expectancy in Nigeria was 30 years shorter than in Japan, and child mortality in low-income countries was more than ten times that of high-income countries. Such differences between countries are measured by breaking them down into components such as child and maternal mortality, infectious disease control and the spread of vaccination, and health expenditure and access to medicines.",
+        "bodyMarkdown": "## The widening gap in health between countries\n\nIn 2021, [life expectancy](/hubpedia/life-expectancy) in Nigeria was 30 years shorter than in Japan. In that same year, it remained below 60 years in several countries in sub-Saharan Africa, while it exceeded 80 years in several European countries and in Japan. Worldwide it stands slightly above 70 years, but within that average lies a wide spread between countries. [1][3][8][21]\n\nThe gap also appears in mortality indicators. As of 2021, child mortality in low-income countries was more than ten times that of high-income countries. The same holds for disability-adjusted life years (DALYs), which also capture health losses from illness and disability: one DALY corresponds to one healthy year lost to premature death or illness, and in 2019 the figure was below 20,000 per 100,000 people in the regions in the best health, whereas in the worst-off regions it exceeded 60,000 in several African countries. [5][9][56][57]\n\n## The historical course of life expectancy\n\nIn 1800, there was not a single region where life expectancy exceeded 40 years; even in Belgium, then the highest, it was 40 years. Even in Sweden, the world's highest in 1840, it was 46 years. Global life expectancy at birth was 32 years in 1900 and 71 years in 2021 — more than doubling in roughly a century. [2][22][27][43]\n\nThe pace of improvement has not been uniform across countries. In the United Kingdom, life expectancy was very low before 1800, but it rose dramatically thereafter, doubling in less than two centuries. India and South Korea were both below 25 years in the early 1900s; about a century later, India had more than doubled and South Korea more than tripled. [6][7]\n\nBy 1950, every country had attained a longer life expectancy than in 1800, yet the gap between countries had in fact widened substantially. This was because health improved more markedly in rich countries such as those in Europe and North America, while progress was limited in countries such as India and China. By the 2012 data, life expectancy had risen in every country and the gap between countries had begun to narrow. [44][45][46]\n\nThis long upward curve is marked by numerous interruptions. The two World Wars, the 1918 Spanish flu [pandemic](/hubpedia/pandemic), the HIV/AIDS epidemic, and the COVID-19 pandemic all had major effects on mortality and left clear traces in the course of life expectancy. [41]\n\n## The decline in child mortality and its contribution\n\n[Child mortality](/hubpedia/child-mortality) is measured as the share of newborns who die before their fifth birthday. In pre-modern societies it ranged from 30% to 50%, but in rich countries it had fallen to about 0.5% by 2021. [47][48][49]\n\nThis high child mortality was a major contributor to the short life expectancies of the past. Sharp declines in child and maternal mortality have therefore played a central role in the global rise in life expectancy. In recent years, however, declining child mortality has contributed less to rising life expectancy, and instead mortality has been falling across all age groups. [4][20][23][65][66]\n\nRemaining life expectancy in old age has genuinely risen as well. In France in 1816, a 15-year-old could expect a further 58 years of life; by 2021 that figure was 83 years. Remaining life expectancy at age 65 also rose over the same period, from 76 years to 86 years. The rise in life expectancy is not due to improvements in infancy and early childhood alone. [24][25][37]\n\n## Maternal mortality\n\nMaternal mortality refers to the death of a woman during pregnancy or within 42 days of its end, and is often expressed as a rate per 100,000 births. About a century ago it ranged from 500 to 1,000 per 100,000 births; in high-income countries it has now fallen to roughly 10. [10][52][53]\n\nThe decline has not reached the world evenly. In 2017, maternal mortality in sub-Saharan Africa exceeded 500 per 100,000 births — more than 60 times the rate in the European Union. [11]\n\nThe means of improvement were themselves discovered in the 19th century. Ignaz Semmelweis found that hygiene management could greatly improve maternal survival. The speed of adoption, however, has differed by country. Finland began reducing maternal mortality in the mid-19th century but took more than a century to reach today's low levels. Malaysia achieved a comparable improvement at a later date, over just a few decades. [54][55][75]\n\nMeanwhile, the spread of antenatal care has lagged behind other health services and remains at low levels in many countries. [30]\n\n## Infectious disease control and the spread of health services\n\nGlobal coverage of essential health services has risen since 2000. Efforts against HIV, tuberculosis, and malaria have been greatly strengthened through programs such as the Global Fund and the U.S. President's Emergency Plan for AIDS Relief (PEPFAR). The share of people living with HIV who receive antiretroviral therapy — a life-saving intervention — has also risen. [15][16][29]\n\nTrends in death counts bear this out. Deaths from malaria and HIV/AIDS rose during the 1990s but have been declining since 2005. Even so, HIV/AIDS remains a global epidemic and is the leading [cause of death](/hubpedia/cause-of-death) in some countries. Tuberculosis, too, is still among the most common causes of death worldwide. [19][50][51][63]\n\nOn the prevention side, [vaccination](/hubpedia/vaccination) rates have risen substantially since 2000. The rise has been especially rapid in many African countries, reflecting increased funding from the Vaccine Alliance (Gavi), the United Nations, and other aid sources. [17][18]\n\nIndicators of living conditions have moved more slowly. The share of people using safely managed [sanitation](/hubpedia/sanitation) facilities has risen over time, but the pace has been gradual, and many people in many countries still lack connection or access. [31][32]\n\n## Availability of medicines\n\nIn the public sector of poor countries, the availability of medicines is quite low. Availability is higher in the private sector, but even there consistent access is not assured. Most public-sector health facilities provide medicines at low cost or free of charge, and they play an indispensable role in delivering health care to people in poverty. [33][34]\n\nWhen medicines are unavailable in the public sector, people try to obtain them in the private sector, where they are usually more expensive and out of reach for many. People in poor countries are highly sensitive to the price of medicines, and even a small charge can substantially reduce the use of essential medical supplies. [35][36]\n\n## Health expenditure and health coverage systems\n\nThe gap in spending is larger than the gap in lifespan. In 2019, health expenditure per person in the Central African Republic was below 100 international dollars, while in the United States it exceeded 10,000 international dollars. By this calculation, what an American spends on health care in three days exceeds what a person in the Central African Republic spends in a year. [12][59]\n\nThe strongest predictor of a country's health expenditure is its national income. Countries with higher health spending per person tend to have longer life expectancy, and at low levels of spending in particular, increases in spending have been found to have a favorable effect on health outcomes. [42][58][60]\n\nWho bears the cost also differs by country. Out-of-pocket spending — direct payments from households to health providers — varies widely across the world: in rich countries such as France it accounts for only a small share of total health spending, whereas in poor countries such as Afghanistan and Nigeria it can make up the majority of health spending. [13][14]\n\nTwo time scales are visible in the expansion of health coverage. European countries such as France, Austria, and Germany expanded coverage between 1920 and 1960, followed by Spain, Portugal, and Greece between 1960 and 1980. By contrast, China, Rwanda, and Vietnam started from close to zero after the turn of the 21st century and achieved near-universal coverage in just ten years. [61][62]\n\nOn the relationship between the details of a system and the level of spending, there are observations of lower certainty. It has been noted that health systems using primary care \"gatekeeper\" arrangements, and systems in which patients first pay the provider and are reimbursed afterward, tend to have lower health expenditure than other systems — but these associations have not been demonstrated as firmly as the relationship with income described above. [77][78]\n\n## The sex gap in life expectancy\n\nWorldwide, women tend to live longer than men. The size of the gap, however, differs by country and is not constant over time. The reasons also differ by age: among newborns, boys have higher mortality because they are more vulnerable to illness; in adolescence, boys have higher mortality mainly from violence and accidents; and in old age, men have higher mortality from chronic disease, owing in part to higher rates of smoking, drinking, and drug use. [26][38][68][69][70]\n\nThe gap widened gradually over the course of the 20th century, chiefly because of the rise in smoking among men. In some countries the gap widened sharply between the two World Wars. It has since narrowed again in many countries, though not in all of them. [67][71][72]\n\n## Forecasts of the limit to lifespan, and the limits of the statistics\n\nIn 1928, the American statistician Louis Dublin used mortality data to forecast the maximum attainable life expectancy. Life expectancy in the United States was then 57 years, and Dublin calculated an upper limit of 64.8 years. But because he did not have data from New Zealand, he was unaware that this limit had already been surpassed in that country. [39][40][73]\n\nIn reality, the highest recorded life expectancy has risen steadily at a pace of one year every four years or so. As of 2021, the world's highest is Hong Kong's 88 years. [28][74]\n\nThe very figures on which such comparisons rest also have their limits. Poor countries often lack death registration data, and estimates of life expectancy and mortality frequently rely on data from national household surveys. Moreover, countries with lower life expectancy tend to have greater variation in lifespan, and an average alone cannot capture the range of experience within a population. [64][76]\n\n## Related articles\n\n- [Diarrheal disease](/hubpedia/diarrheal-disease)\n- [Disease eradication](/hubpedia/disease-eradication)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T10:45:59.658Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "サハラ以南アフリカの一部の国では平均寿命が60歳未満である一方、欧州の複数国や日本では80歳を超える。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "life expectancies in some sub-Saharan African countries below 60 years, in contrast to over 80 years in several European countries and Japan"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "1900年の新生児の平均寿命は32歳だったが、2021年には71歳へと倍以上に伸びた。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/life-expectancy",
+              "quote": "In 1900, the average life expectancy of a newborn was 32 years. By 2021 this had more than doubled to 71 years."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "2021年、ナイジェリアの平均寿命は日本より30年短かった。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/life-expectancy",
+              "quote": "In 2021, Nigeria's life expectancy was thirty years lower than Japan’s."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "世界的な平均寿命の向上には、子どもと母親の死亡率の大幅な低下が中心的な役割を果たしてきた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "Large reductions in child and maternal mortality have been central to the improvement in life expectancy worldwide."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "低所得国の子どもの死亡率は高所得国に比べて著しく高い。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "child mortality rates in low-income countries are substantially higher than those in high-income countries"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "英国では1800年以前の平均寿命は非常に低かったが、それ以降劇的に上昇し、2世紀足らずで平均寿命が倍になった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "In the United Kingdom, a country for which we have the longest time series of data, the chart shows that life expectancy before 1800 was very low, but since then it has increased drastically.In less than two centuries, life expectancy in the UK has doubled."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "1900年代初頭、インドと韓国の平均寿命はともに25歳未満だったが、その約1世紀後にはインドで2倍以上、韓国で3倍以上になった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "In the early 1900s, life expectancy in both India and South Korea was less than 25 years. A century later, life expectancy in India had more than doubled, and in South Korea, it had more than tripled."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "2021年時点で、サハラ以南アフリカの複数国の平均寿命は60歳未満である一方、日本などの国では80歳を超える。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "In 2021, the life expectancy in several sub-Saharan African countries is less than 60 years, compared to more than 80 years in countries such as Japan."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "2021年時点で、低所得国の子どもの死亡率は高所得国の10倍以上である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "On average, in 2021, low-income countries face child mortality rates that are more than ten times higher than those in high-income countries."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "妊産婦死亡率とは、妊娠中または妊娠終了後42日以内に女性が死亡することを指し、出生10万人当たりの割合で示されることが多い。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "It refers to the deaths of women during pregnancy, or within 42 days of ending the pregnancy, with the rate often presented per 100,000 live births."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "2017年、サハラ以南アフリカの妊産婦死亡率は出生10万人当たり500人を超え、これは欧州連合の60倍以上に相当する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "the challenges remain substantial, particularly in sub-Saharan Africa — where the rate in 2017 exceeded 500 maternal deaths per 100,000 live births, more than 60 times the rate in the European Union"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "2019年、中央アフリカ共和国の1人当たり医療支出は国際ドル換算で100未満だったのに対し、米国では10,000国際ドルを上回った。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "such as the extreme difference between countries like the Central African Republic, where healthcare spending per capita was less than 100 international dollars in 2019, and the United States, where it was higher than 10,000 international dollars"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "自己負担支出（家計から医療提供者への直接支払い）は世界各国で大きく異なる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "Out-of-pocket spending — direct payments to healthcare providers by households — varies significantly around the world."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "フランスのような富裕国では自己負担支出は医療費総額のごく一部だが、アフガニスタンやナイジェリアのような貧しい国では医療費の大半を占めることがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "In richer countries like France, it represents a small fraction of total healthcare expenditure. But in poorer countries, such as Afghanistan and Nigeria, it can be the majority of healthcare spending."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "必須保健サービスの世界的な普及率は2000年以降上昇している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "there has been a rise in global coverage of essential health services since 2000"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "HIV、結核、マラリアへの対策は、世界基金や米国大統領エイズ救済緊急計画（PEPFAR）などのプログラムを通じて大幅に強化された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "efforts against against HIV, TB, and malaria have risen substantially, through programs such as The Global Fund and the President’s Emergency Plan for AIDS Relief (PEPFAR)."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "ワクチン接種率も2000年以降大幅に上昇した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "Vaccination coverage has also seen a considerable increase since 2000."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "多くのアフリカ諸国では、ワクチンアライアンス（Gavi）、国連、その他の援助資金からの資金増加を反映して、2000年以降ワクチン接種率が急速に上昇した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "In many African countries, for example, vaccination coverage has increased rapidly since 2000 — this is a strong reflection of increased funding from Gavi, the vaccine alliance, the United Nations, and additional donor funds."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "結核は今なお世界で最も一般的な死因の一つである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "Tuberculosis is still among the most common causes of death globally."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "小児死亡率の大幅な低下は平均寿命の上昇に重要な役割を果たした。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/life-expectancy",
+              "quote": "The large reduction in child mortality has played an important role in increasing life expectancy."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "2021年の世界の平均寿命は70年をわずかに上回った。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/life-expectancy",
+              "quote": "In 2021, the global average life expectancy was just over 70 years."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "1800年時点では、平均寿命が40歳を超える地域は一つもなかった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/life-expectancy",
+              "quote": "in 1800, no region had a life expectancy higher than 40 years."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "小児死亡率はかつて高く、過去の短い寿命に大きく寄与していたが、時間とともに大幅に低下した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/life-expectancy",
+              "quote": "Child mortality used to be high and contributed significantly to short lifespans in the past, and it has declined greatly over time."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "フランスでは1816年時点で15歳の平均余命は58年だったが、2021年には83年に伸びた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/life-expectancy",
+              "quote": "15-year-olds in 1816 in France had a life expectancy of 58 years. By 2021, the life expectancy of 15-year-olds increased to 83."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "1816年時点で65歳だった人の平均余命は76年だったが、2021年には86年になった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/life-expectancy",
+              "quote": "someone who was 65 years old in 1816 would have a life expectancy of 76 years. By 2021, their life expectancy would be 86 years."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "世界的に見て、女性は男性より長生きする傾向がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/life-expectancy",
+              "quote": "Across the world, women tend to live longer than men."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "1840年、スウェーデンの平均寿命は46歳で、その年に世界で最も高かった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/life-expectancy",
+              "quote": "The first dot shows Sweden’s life expectancy of 46 in 1840, the highest of any country that year."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "2021年時点で、香港が88歳で世界最高の平均寿命を記録した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/life-expectancy",
+              "quote": "By 2021, Hong Kong had the highest life expectancy of 88 years."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "HIV感染者のうち抗レトロウイルス療法（HIV/AIDSに対する救命的介入）を受けている人の割合は上昇してきた。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "In the chart below, you can see the rise in the share of people with HIV who receive antiretroviral therapy, a lifesaving intervention against HIV/AIDS."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "妊婦健診（antenatal care）の普及は他の保健サービスより進みが遅く、多くの国で依然低水準にとどまっている。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "coverage for antenatal care, which have been slower and remain at low levels in many countries."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "安全に管理された衛生施設を利用する人の割合は時間とともに緩やかに上昇してきた。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "share who use safely-managed sanitation, which has risen gradually over time."
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "現在も、多くの国で安全に管理された衛生施設への接続や利用ができない人が多く残っている。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "Even now, large disparities remain. A large share of people in many countries still don’t have access to, or use, safely-managed sanitation."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "貧しい国の公共部門では医薬品の入手可能性がかなり低く、入手可能性がより高い民間部門でも一貫したアクセスは確保されていない。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "the availability of medicines is much lower in the public sector of poorer countries. Even in the private sector, where availability is higher, there is still a lack of consistent access."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "公共部門の医療施設の大半は医薬品を低価格または無料で提供しており、貧困層への医療提供に不可欠である。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "Most health facilities in the public sector offer medicines at low cost or free of charge, so are essential in healthcare provision for the poor."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "公共部門で医薬品が入手できない場合、人々は民間部門で入手しようとするが、それは通常より高価であり多くの人にとって手が届かない。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "When medicines are not available in the public sector, people try to access them privately, which is typically more expensive and unaffordable for many."
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "貧しい国の人々は医薬品の価格に対する感応度が高く、わずかな費用でも必須医療用品の利用を大きく減少させうる。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "people in poorer countries have higher price sensitivity to medicines, and even minimal costs can significantly reduce people’s use of essential healthcare products."
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "平均寿命はすべての年齢層で上昇してきた。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/life-expectancy",
+              "quote": "life expectancy has increased at all ages"
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "平均寿命における男女差は国によって異なり、時代とともに一定ではない。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/life-expectancy",
+              "quote": "the gender gap varies between countries and is not constant over time"
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "1928年、米国の統計学者ルイス・ダブリンは死亡率データを用いて達成可能な最長平均寿命を予測した。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/life-expectancy",
+              "quote": "In 1928, an American statistician, Louis Dublin, used mortality data to predict the longest possible life expectancy that could be achieved."
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "当時の米国の平均寿命は57歳であり、ダブリンは達成可能な平均寿命の上限を64.8歳と算出した。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/life-expectancy",
+              "quote": "Life expectancy in the US was 57 years at the time, and his answer for the maximum was 64.8 years."
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "両世界大戦、1918年のスペイン風邪の世界的流行、HIV/AIDSの流行、新型コロナウイルス感染症の世界的流行は死亡率に大きな影響を与え、平均寿命に明瞭な痕跡を残した。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/life-expectancy",
+              "quote": "the World Wars, the 1918 Spanish flu pandemic, the HIV/AIDS epidemic, and the COVID-19 pandemic – have had a major impact on mortality rates and left a visible mark on life expectancy."
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "医療支出が少ない水準では特に、医療支出の増加が健康アウトカムに好影響を与えることが分かっている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "Evidence shows that health outcomes respond positively to increased healthcare spending, particularly at lower levels of expenditure."
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "1800年時点でどの国も平均寿命が40歳を超えておらず、当時最も平均寿命が長かったのはベルギーの40歳だった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "no country in 1800 had a life expectancy over 40 years; Belgium had the highest life expectancy, at 40 years"
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "1950年までにすべての国で1800年と比べて平均寿命が伸びたが、国家間の格差は大幅に拡大した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "By 1950, every country's life expectancy had increased compared to 1800. However, the gap between countries widened significantly."
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "statement": "1950年に国家間の平均寿命格差が拡大した主な理由は、欧州や北米などの豊かな国での健康改善がより顕著だった一方、インドや中国のような国では進展が限られていたためである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "This was mainly because health improvements were more substantial in wealthier countries, particularly in Europe and North America, while countries like India and China saw limited progress."
+            }
+          ]
+        },
+        {
+          "index": 46,
+          "statement": "2012年のデータでは、すべての国で平均寿命が上昇し、国家間の格差は縮小し始めた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "The 2012 data, shown with a green line, shows further improvement: life expectancy rose across all countries, and the gap between them began to close."
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "statement": "子どもの死亡率は、ある集団における若年層の死亡率をもとに、新生児が5歳の誕生日を迎える前に死亡する割合として測定される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "Child mortality measures the share of newborns who would not survive to their fifth birthday, given death rates at young ages in a population."
+            }
+          ]
+        },
+        {
+          "index": 48,
+          "statement": "豊かな国では2021年までに子どもの死亡率が約0.5%まで低下した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "We can see significant improvements, especially in richer countries today, where child mortality rates have dropped to around 0.5% by 2021."
+            }
+          ]
+        },
+        {
+          "index": 49,
+          "statement": "近代以前の社会では、子どもの死亡率は30%から50%の範囲だった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "Historically, in pre-modern societies, child mortality rates ranged between 30% and 50%."
+            }
+          ]
+        },
+        {
+          "index": 50,
+          "statement": "マラリアとHIV/AIDSによる死者数は1990年代に増加した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "deaths caused by malaria and HIV/AIDS rose over the 1990s"
+            }
+          ]
+        },
+        {
+          "index": 51,
+          "statement": "マラリアとHIV/AIDSによる死者数は2005年以降減少傾向にある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "From 2005 onwards, the number of deaths from these diseases has been declining."
+            }
+          ]
+        },
+        {
+          "index": 52,
+          "statement": "約100年前、妊産婦死亡率は出生10万人当たり500人から1000人の範囲だった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "A century ago, maternal mortality rates ranged between 500 and 1,000 deaths per 100,000 live births."
+            }
+          ]
+        },
+        {
+          "index": 53,
+          "statement": "高所得国では現在、妊産婦死亡率は出生10万人当たり約10人まで低下している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "Today, however, these rates have decreased to around 10 per 100,000 live births in those same countries."
+            }
+          ]
+        },
+        {
+          "index": 54,
+          "statement": "19世紀にイグナーツ・ゼンメルワイスが、衛生管理によって妊産婦の生存率を大きく改善できることを発見した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "The discovery by Ignaz Semmelweis in the 19th century that hygiene could dramatically improve maternal survival was a turning point"
+            }
+          ]
+        },
+        {
+          "index": 55,
+          "statement": "フィンランドは19世紀半ばに妊産婦死亡率の低下を始めたが、今日の低水準に達するまでに1世紀以上を要した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "Finland began reducing its maternal mortality rates in the mid-19th century, but it took over a century to achieve today's low levels."
+            }
+          ]
+        },
+        {
+          "index": 56,
+          "statement": "1DALY（障害調整生命年）は、早期死亡や病気・障害によって失われた健康な1年分に相当する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "Conceptually, one DALY represents one lost year of healthy life — it is the equivalent of losing one year in good health because of either premature death or disease or disability."
+            }
+          ]
+        },
+        {
+          "index": 57,
+          "statement": "2019年、健康状態が最も良い地域では人口10万人当たりのDALY率が2万未満だったのに対し、最も状況が悪い地域ではアフリカの複数国で6万を超えた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "In some regions with the best health, the rate of DALYs was under 20,000 per 100,000 people in 2019. In contrast, in the worst-off regions, the rate was several times higher than that — over 60,000 in several countries in Africa."
+            }
+          ]
+        },
+        {
+          "index": 58,
+          "statement": "1人当たりの医療支出が多い国ほど、平均寿命が長い傾向がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "The data reveals a clear trend — countries with higher healthcare spending per capita generally exhibit longer life expectancy."
+            }
+          ]
+        },
+        {
+          "index": 59,
+          "statement": "米国民は3日間で使う医療費が、中央アフリカ共和国の人が1年間で使う医療費を上回る。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "the enormous gap in healthcare expenditure, where Americans spend more on health within three days than a person in the Central African Republic does in a year"
+            }
+          ]
+        },
+        {
+          "index": 60,
+          "statement": "一国の医療支出を最も強く予測する要因はその国の国民所得である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "The strongest predictor of a country's healthcare spending is its national income."
+            }
+          ]
+        },
+        {
+          "index": 61,
+          "statement": "フランス、オーストリア、ドイツなどの欧州諸国は1920年から1960年の間に医療保障の適用範囲を拡大し、続いてスペイン、ポルトガル、ギリシャが1960年から1980年の間に拡大した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "countries like France, Austria, and Germany expanded healthcare coverage between 1920 and 1960 — followed by Spain, Portugal, and Greece between 1960 and 1980"
+            }
+          ]
+        },
+        {
+          "index": 62,
+          "statement": "中国、ルワンダ、ベトナムは21世紀にほぼゼロの状態から急速に医療制度を発展させ、わずか10年でほぼ皆保険を達成した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "China, Rwanda, and Vietnam rapidly developed their healthcare systems in the 21st century, almost from scratch, achieving near-universal coverage within just a decade."
+            }
+          ]
+        },
+        {
+          "index": 63,
+          "statement": "HIV/AIDSは世界的な流行病であり、一部の国では最も多い死因となっている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "A global epidemic and the leading cause of death in some countries."
+            }
+          ]
+        },
+        {
+          "index": 64,
+          "statement": "平均寿命が低い国ほど、寿命のばらつきが大きい傾向がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/life-expectancy",
+              "quote": "Countries with a lower average life expectancy also tend to have wider variations in lifespans."
+            }
+          ]
+        },
+        {
+          "index": 65,
+          "statement": "近年では小児死亡率の低下が平均寿命の上昇に寄与する度合いは小さくなっている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/life-expectancy",
+              "quote": "especially in recent decades, child mortality declines have contributed much less to increasing life expectancy"
+            }
+          ]
+        },
+        {
+          "index": 66,
+          "statement": "すべての年齢層で死亡率の大幅な低下が見られる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/life-expectancy",
+              "quote": "large declines in mortality are seen across all age groups."
+            }
+          ]
+        },
+        {
+          "index": 67,
+          "statement": "一部の国では、両世界大戦の間に平均寿命の男女差が急拡大した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/life-expectancy",
+              "quote": "the gap spiked in some countries during the World Wars."
+            }
+          ]
+        },
+        {
+          "index": 68,
+          "statement": "新生児の男児は女児より病気に対して脆弱であるため死亡率が高い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/life-expectancy",
+              "quote": "newborn boys have a higher death rate than newborn girls, as they’re more vulnerable to diseases."
+            }
+          ]
+        },
+        {
+          "index": 69,
+          "statement": "青年期では、暴力や事故を主な原因として男子は女子より死亡率が高い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/life-expectancy",
+              "quote": "boys have a higher death rate than girls, typically due to violence and accidents"
+            }
+          ]
+        },
+        {
+          "index": 70,
+          "statement": "高齢期では、喫煙・飲酒・薬物使用の割合が高いことなどにより、男性は慢性的な健康状態に起因する死亡率が女性より高い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/life-expectancy",
+              "quote": "men have higher death rates than women from chronic health conditions, which are partly due to higher rates of smoking, alcohol, and drug use."
+            }
+          ]
+        },
+        {
+          "index": 71,
+          "statement": "平均寿命における男女差は、主に男性における喫煙の増加により20世紀を通じて徐々に拡大した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/life-expectancy",
+              "quote": "the sex gap in life expectancy widened gradually over the twentieth century, largely because of the rise in smoking, especially among men."
+            }
+          ]
+        },
+        {
+          "index": 72,
+          "statement": "その後、多くの（ただし全てではない）国で平均寿命の男女差は再び縮小してきている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/life-expectancy",
+              "quote": "Since then, it has been narrowing again in many but not all countries."
+            }
+          ]
+        },
+        {
+          "index": 73,
+          "statement": "ダブリンはニュージーランドのデータを持っていなかったため、その上限がすでに同国で破られていたことに気づいていなかった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/life-expectancy",
+              "quote": "Because he lacked data from New Zealand, he was unaware that the limit had already been broken there."
+            }
+          ]
+        },
+        {
+          "index": 74,
+          "statement": "記録上の最高平均寿命は、およそ4年ごとに1年のペースで着実に上昇してきた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/life-expectancy",
+              "quote": "record life expectancy has risen steadily over time, by around one year every four years."
+            }
+          ]
+        },
+        {
+          "index": 75,
+          "statement": "マレーシアは、フィンランドより後の時期に、数十年という短期間で同様の妊産婦死亡率の改善を達成した。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "Malaysia, on the other hand, saw similar improvements within just a few decades, which occurred much later."
+            }
+          ]
+        },
+        {
+          "index": 76,
+          "statement": "貧しい国では死亡登録データが不足していることが多く、そのため平均寿命や死亡率の推定には全国世帯調査のデータが用いられることが多い。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/life-expectancy",
+              "quote": "In poorer countries, where death registration data is often lacking, the underlying data often comes from national household surveys, which are then used to estimate mortality rates and life expectancy."
+            }
+          ]
+        },
+        {
+          "index": 77,
+          "statement": "プライマリケアの「ゲートキーパー」制度を用いる医療制度は、医療費支出が低くなる傾向がある。",
+          "confidence": 0.65,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "the use of primary care “gatekeepers” seems to result in lower health expenditure."
+            }
+          ]
+        },
+        {
+          "index": 78,
+          "statement": "患者がまず医療提供者に支払い、その後に払い戻しを受ける制度は、他の制度と比べて医療費支出の水準が低くなる傾向がある。",
+          "confidence": 0.65,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-health",
+              "quote": "lower levels of health expenditure also appear to occur in systems where the patient first pays the provider and then seeks reimbursement, compared to other systems."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

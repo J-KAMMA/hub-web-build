@@ -1,0 +1,809 @@
+[
+  {
+    "slug": "blockchain",
+    "topicType": "concept",
+    "categoryLabel": "インターネット・セキュリティ",
+    "title": "ブロックチェーン",
+    "summary": "ブロックチェーンは、暗号学的に署名された取引をブロックにまとめ、各ブロックを前のブロックへ暗号学的に連結した分散型のデジタル台帳である。台帳の複製がネットワーク上の各ノードに保持され、検証と合意のルールに従って新しいブロックが追加されるため、後からの改変は検知しやすく、また困難になる。暗号資産の基盤技術として知られるが、サプライチェーンや記録管理など他の用途にも適用されうる。",
+    "bodyMarkdown": "## 台帳としての構造\n\nブロックチェーンという語が指すのは、まず台帳そのものである。この台帳には取引の記録が含まれ、記録は個別に散らばっているのではなく、ブロックと呼ばれる単位にまとめて格納される。ブロックに入る取引はあらかじめ暗号学的に署名されており、台帳全体はネットワーク上に分散して保持される。この二点、すなわち署名された取引をブロック単位で扱うことと、台帳を一箇所に置かないことが、ブロックチェーンを従来の集中管理された記録簿から分けている。 [4][6][7]\n\nブロックチェーンが使われるネットワークは、ブロックチェーンネットワークと呼ばれる。台帳のコピーはネットワーク内の各ノードで維持され、新しいブロックは、あらかじめ確立された検証および合意（コンセンサス）のルールに従って追加される。ブロックは検証と合意の決定を経たうえで前のブロックに暗号学的にリンクされ、その後、ネットワーク内の各コピーへ複製される。 [9][10][11][13]\n\n複製が各所にある以上、コピーどうしが食い違う場面は避けられない。ブロックチェーンはこの競合を、確立されたルールを用いて自動的に解決する。 [12]\n\n## 改ざん検知と改ざん耐性\n\nブロックチェーンをめぐる説明では、改ざん検知（tamper-evident）と改ざん耐性（tamper-resistant）が区別される。前者は、変更が起きたときにそれが分かるという性質であり、後者は、変更そのものが難しいという性質である。ブロックチェーン技術は、参加者のコミュニティが、共有され、かつこの二つの性質を備えたデジタル台帳を維持する手段を提供するものとされる。 [1]\n\n改ざん検知は、ブロックどうしの連結の仕方から生じる。各ブロックは暗号学的に前のブロックへリンクされている。したがって、過去のブロックのデータが書き換えられると、そのブロックに対する暗号学的リンクの値が変化し、その変化は後続のブロックの側から検知できる。記録を静かに差し替えても、連鎖の下流に痕跡が出るという仕組みである。 [2][8]\n\n改ざん耐性は、時間の経過とともに強まる性質である。新しいブロックが積み重なるにつれて、古いブロックを改変することはより困難になる。連鎖の分散構造と暗号学的な機構が組み合わさることで、台帳は事後の改ざんの試みに対して耐性を持つ。逆に言えば、追加されたばかりのブロックは、後から多くのブロックに覆われたブロックほどの耐性をまだ得ていない。 [3][14]\n\n## 用途\n\nブロックチェーンは多くの暗号資産（暗号通貨）システムの基盤技術として用いられているが、その用途は暗号資産に限られない。実装が想定されている領域には、製造業のサプライチェーン、各種のデータレジストリ、デジタル識別、記録管理などがある。いずれも、共有された記録の一貫性と、後からの書き換えの検知が問題になる分野である。 [5][15]\n\n## 設計上の制約\n\n追記によって強度が増すという構造は、そのまま制約にもなる。従来のブロックチェーンのデータ構造の多くは、削除や更新の機能を備えていない。記録を後から消したり書き換えたりする操作を前提とするシステムに適用する場合、この点は設計段階で考慮を要する。 [16]\n\n## 関連記事\n\n- [公開鍵暗号](/hubpedia/public-key-cryptography)\n- 暗号鍵\n- [暗号化](/hubpedia/encryption)\n- [暗号標準](/hubpedia/cryptographic-standards)",
+    "sources": [
+      {
+        "url": "https://www.nist.gov/blockchain",
+        "title": "Blockchain at NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "NIST's overview of blockchain technology and its work on it. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://csrc.nist.gov/glossary/term/blockchain",
+        "title": "Blockchain — CSRC Glossary",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "Formal definition with its source publications. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Blockchain",
+        "summary": "A blockchain is a distributed digital ledger that groups cryptographically signed transactions into blocks, each block cryptographically linked to the one before it. Copies of the ledger are held by each node on the network, and new blocks are added according to rules of verification and consensus, which makes later alteration both easier to detect and harder to carry out. Although known as the underlying technology of crypto-assets, it can also be applied to other uses such as supply chains and records management.",
+        "bodyMarkdown": "## Structure as a ledger\n\nThe word blockchain refers first of all to the ledger itself. This ledger contains records of transactions, and those records are not scattered individually but stored together in units called blocks. The transactions that go into a block have been cryptographically signed in advance, and the ledger as a whole is held in distributed form across a network. These two points — handling signed transactions in blocks, and not keeping the ledger in one place — are what separate a blockchain from a conventional, centrally managed record book. [4][6][7]\n\nA network on which a blockchain is used is called a blockchain network. A copy of the ledger is maintained at each node in the network, and new blocks are added according to previously established rules of verification and consensus. A block is cryptographically linked to the previous block after passing through verification and a consensus decision, and is then replicated to each copy within the network. [9][10][11][13]\n\nSo long as copies exist in many places, situations in which those copies disagree are unavoidable. A blockchain resolves such conflicts automatically, using established rules. [12]\n\n## Tamper-evidence and tamper-resistance\n\nDiscussions of blockchains distinguish between being tamper-evident and being tamper-resistant. The former is the property that a change can be recognized when it occurs; the latter is the property that making the change is itself difficult. Blockchain technology is described as providing a way for a community of participants to maintain a shared digital ledger that has both of these properties. [1]\n\nTamper-evidence arises from the way blocks are linked to one another. Each block is cryptographically linked to the previous block. Consequently, if the data in a past block is rewritten, the value of the cryptographic link for that block changes, and that change can be detected from the blocks that follow. The mechanism is such that quietly substituting a record leaves traces downstream in the chain. [2][8]\n\nTamper-resistance is a property that strengthens with the passage of time. As new blocks pile up, altering an older block becomes more difficult. The distributed structure of the chain combined with cryptographic mechanisms gives the ledger resistance against later attempts at tampering. Conversely, a block that has only just been added has not yet acquired the degree of resistance held by a block later covered by many others. [3][14]\n\n## Uses\n\nBlockchains are used as the underlying technology of many crypto-asset (cryptocurrency) systems, but their uses are not limited to crypto-assets. Areas envisioned for implementation include manufacturing supply chains, various data registries, digital identity, and records management. In each of these, the consistency of shared records and the detection of later rewriting are at issue. [5][15]\n\n## Design constraints\n\nThe structure by which strength increases through appending is itself also a constraint. Many conventional blockchain data structures provide no functionality for deletion or updating. When applying them to a system that presupposes operations for erasing or rewriting records afterwards, this point requires consideration at the design stage. [16]\n\n## Related articles\n\n- [Public-key cryptography](/hubpedia/public-key-cryptography)\n- Cryptographic key\n- [Encryption](/hubpedia/encryption)\n- [Cryptographic standards](/hubpedia/cryptographic-standards)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T12:34:10.203Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "ブロックチェーン技術は、参加者コミュニティが共有され改ざん検知可能かつ改ざん耐性のあるデジタル台帳を維持する手段を提供する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/blockchain",
+              "quote": "Blockchain technology provides a way for a community of participants to maintain a shared, tamper-evident, and tamper-resistant digital ledger."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "各ブロックは暗号学的に前のブロックにリンクされており、これにより台帳は改ざん検知可能になる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/blockchain",
+              "quote": "Each block is cryptographically linked to the previous block, making the ledger tamper evident."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "新しいブロックが追加されるにつれて、古いブロックの改変はより困難になり、これが改ざん耐性を生む。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/blockchain",
+              "quote": "As new blocks are added, older blocks become more difficult to modify, creating tamper resistance."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "ブロックチェーンは、暗号学的に署名された取引がブロックにグループ化された分散型デジタル台帳である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/blockchain",
+              "quote": "A distributed digital ledger of cryptographically-signed transactions that are grouped into blocks."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "ブロックチェーンは多くの暗号資産（暗号通貨）システムの基盤技術であるが、それ以外の種類のアプリケーションにも利用できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/blockchain",
+              "quote": "It is the underlying technology for many cryptocurrency systems, but it can also be used in other types of applications."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "ブロックチェーンとは台帳そのものを指す。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/blockchain",
+              "quote": "A blockchain is the ledger itself."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "ブロックチェーンにはブロックにグループ化された取引記録が含まれている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/blockchain",
+              "quote": "It contains transactional records that are grouped into blocks."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "以前のブロックのデータが変更されると、そのブロックへの暗号学的リンクが変化し、その変化は後続のブロックで検知できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/blockchain",
+              "quote": "If data in an earlier block is changed, the cryptographic link to that block changes, and the change can be detected in later blocks."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "台帳のコピーはネットワーク内の各ノードで維持され、確立された検証および合意（コンセンサス）ルールに従って新しいブロックが追加される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/blockchain",
+              "quote": "Copies of the ledger are maintained across nodes in the network, and new blocks are added according to established validation and consensus rules."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "各ブロックは検証と合意（コンセンサス）決定を経た後、前のブロックに暗号学的にリンクされる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/blockchain",
+              "quote": "Each block is cryptographically linked to the previous one (making it tamper evident) after validation and undergoing a consensus decision."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "新しいブロックはネットワーク内の台帳のコピー間で複製される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/blockchain",
+              "quote": "New blocks are replicated across copies of the ledger within the network"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "台帳のコピー間で生じた競合は、確立されたルールを用いて自動的に解決される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/blockchain",
+              "quote": "any conflicts are resolved automatically using established rules."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "ブロックチェーンネットワークとは、ブロックチェーンが使用されるネットワークのことである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/blockchain",
+              "quote": "A blockchain network is the network in which a blockchain is used."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "この分散構造は暗号学的機構とともに、台帳を後から改ざんしようとする試みに対してブロックチェーンを耐性のあるものにする。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/blockchain",
+              "quote": "This distributed structure, together with cryptographic mechanisms, helps make the blockchain resilient to later attempts to alter the ledger."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "ブロックチェーン技術は、製造業のサプライチェーン、データレジストリ、デジタル識別、記録管理など、多くの異なるシステムに実装される可能性を持つ。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/blockchain",
+              "quote": "Blockchain technology has the potential to be implemented in many different systems, including manufacturing supply chains, data registries, digital identification, and records management."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "従来のブロックチェーンのデータ構造の多くは、削除や更新の機能を備えていない。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/blockchain",
+              "quote": "enabling deletion or updating capabilities not currently found in most blockchain systems"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "public-key-cryptography",
+    "topicType": "concept",
+    "categoryLabel": "インターネット・セキュリティ",
+    "title": "公開鍵暗号",
+    "summary": "公開鍵暗号は、暗号化・署名に使う鍵と、復号・検証に使う鍵を別々にした暗号方式である。秘密鍵は本人が保持し、そこから生成した公開鍵は誰に渡してもよい。公開鍵から秘密鍵を求めることが計算量的に困難であるという性質により、事前に秘密を共有していない相手との安全な通信と、第三者が検証できるデジタル署名が可能になる。",
+    "bodyMarkdown": "## 二つの鍵という設計\n\n一つの鍵で施錠と解錠の両方を行う錠前とは違い、公開鍵暗号では役割の異なる二つの鍵を使う。データの暗号化またはデジタル署名の生成に使う鍵と、データの復号またはデジタル署名の検証に使う鍵が別々に存在する暗号方式である。暗号化と復号に別々の鍵を用いるこの性質から、非対称暗号とも呼ばれる。 [1][4]\n\n二つの鍵は無関係に選ばれるのではなく、公開鍵と秘密鍵という互いに関連した一対をなす。利用者は自分だけが秘密に保持する秘密鍵を持ち、そこから公開鍵を生成する。生成された公開鍵は自由に配布してよい。英語では public-key cryptography と呼ばれる。 [2][3][5][8]\n\nこの配布が成り立つのは、方式が一つの計算上の性質に支えられているからである。公開鍵から対応する秘密鍵を導出することは[計算量的に困難](/hubpedia/abstraction)であり、公開鍵を全世界に見せても秘密鍵は守られる。困難であるという表現は、不可能であるという意味ではなく、現実的な計算資源では割に合わないという意味で用いられる。 [6]\n\n## 鍵確立\n\n共通鍵だけを使う暗号では、通信を始める前に双方が同じ秘密鍵を何らかの安全な経路で共有していなければならない。公開鍵暗号はこの前提を外す。鍵確立において、事前に共有された秘密鍵を持たない当事者同士が、[安全に通信](/hubpedia/encryption)することを可能にする。 [7]\n\n## デジタル署名と認証\n\n鍵の役割を入れ替えると、用途は秘匿から証明に変わる。利用者は自分の秘密鍵でデータに署名でき、生成された署名は対応する公開鍵を用いて誰でも検証できる。検証に必要なのは公開されている鍵だけなので、署名者と何の関係もない第三者が真正性を確かめられる。 [9]\n\nこの仕組みは人だけでなく機械にも適用される。公開鍵暗号における鍵は、一般にデジタル署名を用いたユーザーやマシンの認証のための鍵ペアを指す。 [10]\n\n## 関連記事\n\n- ハッシュ関数\n- [暗号標準](/hubpedia/cryptographic-standards)\n- [ブロックチェーン](/hubpedia/blockchain)",
+    "sources": [
+      {
+        "url": "https://csrc.nist.gov/glossary/term/public_key_cryptography",
+        "title": "Public Key Cryptography — CSRC Glossary",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "Definition of the key-pair scheme. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://csrc.nist.gov/glossary/term/cryptographic_key",
+        "title": "Cryptographic Key — CSRC Glossary",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "What a key is and how it is managed. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Public-key cryptography",
+        "summary": "Public-key cryptography is a cryptographic scheme in which the key used for encryption and signing is separate from the key used for decryption and verification. The private key is held by its owner, while the public key generated from it may be given to anyone. Because deriving the private key from the public key is computationally infeasible, the scheme enables secure communication with parties who have not previously shared a secret, as well as digital signatures that third parties can verify.",
+        "bodyMarkdown": "## A design built on two keys\n\nUnlike a lock that uses a single key for both locking and unlocking, public-key cryptography uses two keys with different roles. It is a cryptographic scheme in which the key used to encrypt data or to generate a digital signature exists separately from the key used to decrypt data or to verify a digital signature. Because encryption and decryption use different keys, it is also called asymmetric cryptography. [1][4]\n\nThe two keys are not chosen independently of each other; they form a related pair, the public key and the private key. A user holds a private key kept secret to themselves and generates a public key from it. The resulting public key may be distributed freely. In English, this is called public-key cryptography. [2][3][5][8]\n\nThis distribution works because the scheme rests on one computational property. Deriving the corresponding private key from the public key is [computationally infeasible](/hubpedia/abstraction), so the private key remains protected even when the public key is shown to the entire world. The word infeasible does not mean impossible; it means not worth the cost given realistic computing resources. [6]\n\n## Key establishment\n\nWith cryptography that uses only shared keys, both parties must share the same secret key over some secure channel before communication can begin. Public-key cryptography removes this prerequisite. In key establishment, it allows parties who hold no previously shared secret key to [communicate securely](/hubpedia/encryption). [7]\n\n## Digital signatures and authentication\n\nWhen the roles of the keys are swapped, the purpose changes from concealment to proof. A user can sign data with their own private key, and the resulting signature can be verified by anyone using the corresponding public key. Since verification requires only the key that has been made public, a third party with no relationship to the signer can confirm authenticity. [9]\n\nThis mechanism applies not only to people but also to machines. In public-key cryptography, a key generally refers to a key pair used to authenticate users and machines by means of digital signatures. [10]\n\n## Related articles\n\n- Hash function\n- [Cryptographic standards](/hubpedia/cryptographic-standards)\n- [Blockchain](/hubpedia/blockchain)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T12:34:10.204Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "公開鍵暗号は、データの暗号化またはデジタル署名に使う鍵と、データの復号またはデジタル署名の検証に使う鍵という、2つの別々の鍵を使用する暗号方式である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/public_key_cryptography",
+              "quote": "Cryptography that uses two separate keys to exchange data — one to encrypt or digitally sign the data and one to decrypt the data or verify the digital signature."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "公開鍵暗号は「public-key cryptography」とも呼ばれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/public_key_cryptography",
+              "quote": "Also known as public-key cryptography."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "公開鍵暗号は、公開鍵と秘密鍵のペアを暗号化やデジタル署名に用いる暗号システムである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/public_key_cryptography",
+              "quote": "Encryption system that uses a public-private key pair for encryption and/or digital signature."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "公開鍵暗号は暗号化と復号に別々の鍵を用いる暗号方式であり、非対称暗号とも呼ばれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/public_key_cryptography",
+              "quote": "Cryptography that uses separate keys for encryption and decryption; also known as asymmetric cryptography."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "公開鍵暗号は、公開鍵と秘密鍵という2つの関連した鍵を用いる暗号形式である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/public_key_cryptography",
+              "quote": "A form of cryptography that uses two related keys, a public key and a private key"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "公開鍵暗号では、公開鍵から秘密鍵を導出することは計算量的に困難であるという性質を持つ。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/public_key_cryptography",
+              "quote": "the two keys have the property that, given the public key, it is computationally infeasible to derive the private key."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "鍵確立において、公開鍵暗号は、事前に共有秘密鍵を持たない異なる当事者同士が安全に通信することを可能にする。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/public_key_cryptography",
+              "quote": "For key establishment, public-key cryptography allows different parties to communicate securely without havng prior access to a secret key that is shared, by using one or more pairs (public key and private key) of cryptographic keys."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "公開鍵暗号システムでは、利用者は秘密に保持する秘密鍵を持ち、それを用いて自由に提供される公開鍵を生成する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/public_key_cryptography",
+              "quote": "A cryptographic system where users have a private key that is kept secret and used to generate a public key (which is freely provided to others)."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "公開鍵暗号システムにおいて、利用者は自分の秘密鍵でデータにデジタル署名でき、生成された署名は対応する公開鍵を用いて誰でも検証できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/public_key_cryptography",
+              "quote": "Users can digitally sign data with their private key and the resulting signature can be verified by anyone using the corresponding public key."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "公開鍵暗号における鍵は、一般にユーザーやマシンの認証（デジタル署名を用いた）のための鍵ペアを指す。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/cryptographic_key",
+              "quote": "In this document, keys generally refer to public key cryptography key pairs used for authentication of users and/or machines (using digital signatures)."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "encryption",
+    "topicType": "concept",
+    "categoryLabel": "インターネット・セキュリティ",
+    "title": "暗号化",
+    "summary": "暗号化は、平文と呼ばれる読める形のデータを、鍵を持たない者には意味を取り出せない暗号文へ変換する暗号学的処理である。多くの方式では変換は可逆で、逆向きの処理は復号と呼ばれる。ブロック単位で処理する方式や、量子コンピュータを想定した耐量子暗号の標準化など、方式と標準の両面で技術が積み重ねられている。",
+    "bodyMarkdown": "## 定義と基本の仕組み\n\n同じファイルが、ある人には文章として読め、別の人には無意味なバイト列にしか見えない。この差を作る処理が暗号化である。暗号化は、平文（plaintext）と呼ばれるデータを暗号文（ciphertext）へ変換する暗号学的な処理であり、変換後のデータからは本来の意味が知られたり利用されたりしないようにすることを目的とする。 [1][2]\n\n変換を決めるのは、暗号アルゴリズムと鍵の組み合わせである。アルゴリズムが変換の手順を定め、鍵がその手順の中で実際にどう置き換えが起きるかを決める。したがって、同じアルゴリズムを使っていても鍵が違えば得られる暗号文は異なる。意図した受信者だけがデータを読めるようにするという目的は、この鍵の管理を通じて達成される。 [4][5]\n\n暗号化の変換が可逆である場合、その逆向きの処理は復号（decryption）と呼ばれ、暗号化されたデータを元の状態に戻す。可逆性はすべての暗号学的処理に共通する性質ではなく、暗号化の変換が可逆であるときに復号という対の処理が定義される、という関係にある。 [3]\n\n## 目的と位置づけ\n\n暗号化は機密性を守るための処理として位置づけられ、利用可能な状態にあるデータを判読不能な形式へ変える。言い換えれば、暗号化が直接扱うのは「誰が中身を読めるか」であって、データが改ざんされていないかや、送り手が名乗った通りの相手かといった別の性質は、それ自体では保証されない。 [6]\n\n実務上の動機は、セキュリティとプライバシーの確保である。暗号アルゴリズムを用いて平文を暗号文に変えるという操作は、この二つの目的のために行われる手続きとして説明される。 [7]\n\n## ブロック暗号\n\n暗号化の方式は、データをどの単位で処理するかによって分けられる。ブロック暗号は、データを1ビットずつではなく一定の大きさのブロック単位で暗号化する方式である。この方式は、大量のデータを暗号化する場面で有用とされる。 [8]\n\n## 耐量子暗号への移行\n\n量子コンピュータの実用化を見据えた暗号方式は、耐量子暗号（post-quantum cryptography）と呼ばれる。この分野には、量子コンピュータと従来型コンピュータの双方に対する安全性を確保しつつ、既存の通信プロトコルやネットワークを大きく変えることなく今すぐ実装できる[標準](/hubpedia/cryptographic-standards)が含まれる、と説明されている。既存の設備を作り替えずに導入できるという点が、移行を進める上での主要な論点になっている。 [9]\n\n標準化の作業は段階的に進んでいる。NISTは最初の3つの耐量子暗号化標準を最終確定して公開し、その後5番目のアルゴリズムとしてHQCを選定した。ただしこれら選定・公開の時期や各アルゴリズムの詳細な仕様については、ここで用いた資料からは確認できない。 [10][11]\n\n## 関連記事\n\n- [公開鍵暗号](/hubpedia/public-key-cryptography)\n- ハッシュ関数\n- デジタル署名\n- [ブロックチェーン](/hubpedia/blockchain)",
+    "sources": [
+      {
+        "url": "https://csrc.nist.gov/glossary/term/encryption",
+        "title": "Encryption — CSRC Glossary",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "Definition of the transformation. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.nist.gov/cryptography",
+        "title": "Cryptography at NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "Encryption within the standards programme. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Encryption",
+        "summary": "Encryption is a cryptographic process that converts readable data, known as plaintext, into ciphertext from which no meaning can be extracted by anyone lacking the key. In most schemes the transformation is reversible, and the reverse process is called decryption. Technology has accumulated on both the scheme and standards fronts, including methods that process data in blocks and the standardization of post-quantum cryptography designed with quantum computers in mind.",
+        "bodyMarkdown": "## Definition and basic mechanism\n\nThe same file can read as text to one person and appear as nothing but a meaningless sequence of bytes to another. The process that creates this difference is encryption. Encryption is a cryptographic process that converts data known as plaintext into ciphertext, with the aim of preventing the original meaning from being learned or used from the converted data. [1][2]\n\nWhat determines the transformation is the combination of a cryptographic algorithm and a key. The algorithm defines the procedure of the transformation, and the key determines how substitutions actually occur within that procedure. Consequently, even when the same algorithm is used, a different key yields different ciphertext. The goal of allowing only the intended recipient to read the data is achieved through the management of this key. [4][5]\n\nWhen the encryption transformation is reversible, the reverse process is called decryption, which restores encrypted data to its original state. Reversibility is not a property common to all cryptographic processes; rather, the relationship is that when the encryption transformation is reversible, decryption is defined as its paired process. [3]\n\n## Purpose and positioning\n\nEncryption is positioned as a process for protecting confidentiality, changing data that is in a usable state into an unreadable format. In other words, what encryption directly addresses is \"who can read the contents,\" and other properties—such as whether the data has been tampered with, or whether the sender is who they claim to be—are not guaranteed by encryption itself. [6]\n\nIn practice, the motivation is to ensure security and privacy. The operation of converting plaintext into ciphertext using a cryptographic algorithm is described as a procedure carried out for these two purposes. [7]\n\n## Block ciphers\n\nEncryption schemes are distinguished by the unit in which they process data. A block cipher is a scheme that encrypts data in blocks of a fixed size rather than one bit at a time. This approach is considered useful in situations where large volumes of data are encrypted. [8]\n\n## Migration to post-quantum cryptography\n\nCryptographic schemes designed in anticipation of practical quantum computers are called post-quantum cryptography. This field is described as including [standards](/hubpedia/cryptographic-standards) that can be implemented immediately without significantly changing existing communication protocols and networks, while ensuring security against both quantum computers and conventional computers. The fact that they can be introduced without rebuilding existing infrastructure is the main point of discussion in advancing the migration. [9]\n\nStandardization work is proceeding in stages. NIST finalized and published the first three post-quantum encryption standards, and subsequently selected HQC as a fifth algorithm. However, the timing of these selections and publications, as well as the detailed specifications of each algorithm, cannot be confirmed from the sources used here. [10][11]\n\n## Related articles\n\n- [Public-key cryptography](/hubpedia/public-key-cryptography)\n- Hash function\n- Digital signature\n- [Blockchain](/hubpedia/blockchain)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T12:34:10.205Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "暗号化とは、データを暗号文（ciphertext）に変換する暗号学的な処理である。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/encryption",
+              "quote": "The cryptographic transformation of data to produce ciphertext."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "暗号化とは、平文（plaintext）と呼ばれるデータを、その本来の意味が知られたり利用されたりしないよう隠す形式（暗号文）に変換する暗号学的処理である。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/encryption",
+              "quote": "Cryptographic transformation of data (called “plaintext”) into a form (called “ciphertext”) that conceals the data’s original meaning to prevent it from being known or used."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "暗号化の変換が可逆である場合、その逆の処理は「復号（decryption）」と呼ばれ、暗号化されたデータを元の状態に戻す変換である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/encryption",
+              "quote": "If the transformation is reversible, the corresponding reversal process is called “decryption,” which is a transformation that restores encrypted data to its original state."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "暗号化とは、暗号アルゴリズムと鍵を用いて平文を暗号文に変える処理である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/encryption",
+              "quote": "The process of changing plaintext into ciphertext using a cryptographic algorithm and key."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "暗号化とは、意図した受信者以外がデータを読めないようにするために、平文を暗号文に変換する、暗号技術で用いられる手続きである。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/encryption",
+              "quote": "Any procedure used in cryptography to convert plain text into cipher text to prevent anyone but the intended recipient from reading that data."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "暗号化とは、機密性モードの処理であり、利用可能な状態のデータを判読不能な形式に変換するものである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/encryption",
+              "quote": "The process of a confidentiality mode that transforms usable data into an unreadable form."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "暗号化とは、セキュリティやプライバシーを目的として、暗号アルゴリズムを用いて平文を暗号文に変える処理である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/encryption",
+              "quote": "The process of changing plaintext into ciphertext using a cryptographic algorithm for the purpose of security or privacy."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "ブロック暗号は、データを1ビットずつではなくブロック単位で暗号化する方式であり、大量のデータを暗号化する際に有用である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cryptography",
+              "quote": "Block ciphers, which encrypt data in block-sized chunks (rather than one bit at a time) and are useful in encrypting large amounts of data."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "耐量子暗号（post-quantum cryptography）には、既存の通信プロトコルやネットワークを大きく変えることなく、量子コンピュータと従来型コンピュータの双方に対する安全性を確保するために、今すぐ実装できる標準が含まれる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cryptography",
+              "quote": "Post-quantum cryptography, including standards that can be implemented now to secure against both quantum and classical computers without drastic changes to existing communication protocols and networks."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "NISTは、耐量子暗号化の5番目のアルゴリズムとしてHQCを選定した。",
+          "confidence": 0.65,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cryptography",
+              "quote": "NIST Selects HQC as Fifth Algorithm for Post-Quantum Encryption"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "NISTは、最初の3つの耐量子暗号化標準を最終確定して公開した。",
+          "confidence": 0.65,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cryptography",
+              "quote": "NIST Releases First 3 Finalized Post-Quantum Encryption Standards"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "cryptographic-standards",
+    "topicType": "concept",
+    "categoryLabel": "インターネット・セキュリティ",
+    "title": "暗号標準",
+    "summary": "暗号標準は、数学的手法で情報を保護する暗号技術について、実装すべきプリミティブやアルゴリズム、方式を公的な文書として定めたものである。米国国立標準技術研究所（NIST）の場合、それらはFIPS、SP、NISTIRといった刊行物に記載され、産業界・政府・学界の意見を取り入れる公開の過程を経て確定してきた。標準として定まった暗号は電子商取引や政府情報の保護に用いられ、携帯電話からATMに至る機器に組み込まれている。",
+    "bodyMarkdown": "## 公的文書として定められる暗号技術\n\n暗号技術は、数学的手法を用いて情報のセキュリティを保護する技術である。暗号標準は、そのうち実際に実装される暗号プリミティブ、アルゴリズム、方式を選び、仕様として公的な文書に固定したものを指す。米国国立標準技術研究所（NIST）の場合、対象となる技術はFIPS（連邦情報処理標準）、SP（特別刊行物）、およびNISTIR（内部／省庁間報告書）の一部に記載されている。 [1][2]\n\n文書の種類が分かれている点は、標準がひとつの形式で出されるわけではないことを示している。仕様の位置づけによって収録先が異なり、同じ「NISTの暗号技術」であっても、連邦標準として定められたものと刊行物で示されたものが混在する。 [2]\n\n## 標準がまとまるまでの過程\n\nNISTは50年以上にわたり、産業界・政府・学界の意見や専門知識を取り入れた公開的で協調的なプロセスを通じて暗号技術の開発を進めてきた。NIST自身はこの過程を、信頼できる暗号技術を生み出すための方法として位置づけている。策定が一機関の内部作業ではなく外部の参加を前提とする点は、暗号標準の性格を左右する要素であり、後述する耐量子暗号のように複数の候補から段階的に選定が行われる分野でも同じ方式がとられている。 [3][14][15]\n\n## 標準化の対象となる技術\n\nブロック暗号は、データを1ビットずつではなくブロック単位で[暗号化](/hubpedia/encryption)する方式であり、大量のデータを扱う場合に有用とされる。処理の単位が異なることが用途の違いにつながっており、標準はこうした方式ごとに仕様を定めている。 [6]\n\n暗号学的ハッシュアルゴリズムは、保護対象の情報から短いダイジェスト（ハッシュ）を作成する。このダイジェストはデジタル署名を含む多くのセキュリティ用途で使われている。デジタル署名は手書き署名の電子的な類似物であり、主張された署名者本人が署名したこと、および署名の生成後に情報が改変されていないことを保証する。NISTはデジタル署名の開発も主導している。 [7][10][12][13]\n\n乱数ビット生成は、統計的に独立していて偏りがないように見えるビット列を生成できる装置またはアルゴリズムに依存する。ここで求められているのは「そう見える」水準であり、生成源の性質が結果を左右する。 [11]\n\n適用先の制約から生まれた分野もある。軽量暗号は、IoTデバイスのように従来の暗号アルゴリズムでは負荷が大きすぎる小型・資源制約のあるプラットフォームで使用され得る技術として扱われる。プライバシー強化暗号は、データ所有者を特定し得る側面を明らかにすることなく非公開データに対する研究を可能にすることを目的としている。前者は計算資源の限界に、後者はデータの取り扱いに関する要請に対応している。 [8][9]\n\n## 耐量子暗号への対応\n\nNISTは、量子コンピュータによる攻撃に耐えられる暗号化アルゴリズムの標準化を進めている。耐量子暗号には、既存の通信プロトコルやネットワークを大きく変えることなく、量子コンピュータと古典コンピュータの両方に対する安全性を確保するために今すぐ実装できる標準が含まれる。既存インフラを組み替えずに導入できることが要件に含まれている点は、この分野の設計上の制約である。 [5][16]\n\nNISTは最初の3つの耐量子暗号化標準を確定させて公開しており、その後にHQCを耐量子暗号化の5番目のアルゴリズムとして選定した。選定が一度で終わらず段階的に続いている点は、この分野の標準がまだ追加されうる状態にあることを示している。 [14][15]\n\n## 利用されている場面\n\nNISTの暗号標準とガイドラインは、世界的な電子商取引の安全確保や、米国連邦政府の情報および最高機密データの保護に役立っている。またタブレットや携帯電話からATMに至る商用アプリケーションでも使用されている。標準の適用範囲が政府用途にとどまらず一般の機器にまで及んでいることが、暗号標準が個々の製品仕様と異なる位置を占める理由になっている。 [4]\n\n## 関連記事\n\n- [公開鍵暗号](/hubpedia/public-key-cryptography)\n- 暗号鍵",
+    "sources": [
+      {
+        "url": "https://csrc.nist.gov/projects/cryptographic-standards-and-guidelines",
+        "title": "Cryptographic Standards and Guidelines",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "How NIST develops cryptographic standards. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.nist.gov/cryptography",
+        "title": "Cryptography at NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The programme's scope. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Cryptographic standards",
+        "summary": "Cryptographic standards are public documents that specify the primitives, algorithms, and schemes to be implemented for cryptography, the technology that protects information through mathematical techniques. In the case of the U.S. National Institute of Standards and Technology (NIST), they are set out in publications such as FIPS, SP, and NISTIR, and have been finalized through an open process that incorporates input from industry, government, and academia. Cryptography established as a standard is used to protect electronic commerce and government information, and is built into devices ranging from mobile phones to ATMs.",
+        "bodyMarkdown": "## Cryptography set out in public documents\n\nCryptography is the technology that uses mathematical techniques to protect the security of information. Cryptographic standards refer to the cryptographic primitives, algorithms, and schemes that have been selected for actual implementation and fixed as specifications in public documents. In the case of the U.S. National Institute of Standards and Technology (NIST), the technologies covered are set out in FIPS (Federal Information Processing Standards), SP (Special Publications), and some NISTIR (Internal/Interagency Reports). [1][2]\n\nThe fact that the documents are divided into types shows that standards are not issued in a single format. Where a specification is published depends on its status, so even within \"NIST cryptography\" there is a mix of technologies established as federal standards and technologies presented in publications. [2]\n\n## The process by which a standard comes together\n\nFor more than 50 years, NIST has advanced the development of cryptography through an open, collaborative process that incorporates input and expertise from industry, government, and academia. NIST itself positions this process as the method for producing cryptography that can be trusted. That the work of establishing standards is not internal to a single agency but presupposes outside participation is a factor that shapes the character of cryptographic standards, and the same approach is used in fields such as post-quantum cryptography, discussed below, where selection proceeds in stages from among multiple candidates. [3][14][15]\n\n## Technologies subject to standardization\n\nBlock ciphers are a method of [encrypting](/hubpedia/encryption) data in blocks rather than one bit at a time, which is considered useful when handling large volumes of data. The differing unit of processing leads to differing uses, and standards define specifications for each such method. [6]\n\nCryptographic hash algorithms create a short digest (hash) from the information to be protected. This digest is used in many security applications, including digital signatures. A digital signature is the electronic analogue of a handwritten signature, and it assures that the claimed signer is the one who signed and that the information has not been altered since the signature was generated. NIST also leads the development of digital signatures. [7][10][12][13]\n\nRandom bit generation relies on a device or algorithm that can produce a sequence of bits that appears to be statistically independent and unbiased. What is required here is the level of \"appearing\" so, and the nature of the source governs the result. [11]\n\nSome fields have arisen from the constraints of where the technology is applied. Lightweight cryptography is treated as technology that may be used on small, resource-constrained platforms, such as IoT devices, where conventional cryptographic algorithms impose too great a burden. Privacy-enhancing cryptography aims to enable research on private data without revealing aspects that could identify the data owners. The former addresses the limits of computational resources, the latter requirements concerning the handling of data. [8][9]\n\n## Addressing post-quantum cryptography\n\nNIST is advancing the standardization of encryption algorithms that can withstand attacks by quantum computers. Post-quantum cryptography includes standards that can be implemented right now to secure safety against both quantum and classical computers, without major changes to existing communication protocols and networks. That the requirements include being deployable without reworking existing infrastructure is a design constraint in this field. [5][16]\n\nNIST has finalized and published its first three post-quantum encryption standards, and subsequently selected HQC as the fifth algorithm for post-quantum encryption. That selection did not end in a single round but continues in stages shows that standards in this field remain open to further additions. [14][15]\n\n## Where they are used\n\nNIST's cryptographic standards and guidelines help secure global electronic commerce and protect U.S. federal government information and top secret data. They are also used in commercial applications ranging from tablets and mobile phones to ATMs. That the scope of the standards extends beyond government use to ordinary devices is why cryptographic standards occupy a different position from the specifications of individual products. [4]\n\n## Related articles\n\n- [Public-key cryptography](/hubpedia/public-key-cryptography)\n- Cryptographic key"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T12:34:10.205Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "暗号技術(cryptography)は数学的手法を用いて情報のセキュリティを保護する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cryptography",
+              "quote": "Cryptography uses mathematical techniques to protect the security of information."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "NISTの暗号プリミティブ・アルゴリズム・方式は、FIPS(連邦情報処理標準)、SP(特別刊行物)、NISTIR(内部/省庁間報告書)の一部に記載されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/projects/cryptographic-standards-and-guidelines",
+              "quote": "cryptographic primitives, algorithms and schemes are described in some of NIST's Federal Information Processing Standards (FIPS), Special Publications (SPs) and NIST Internal/Interagency Reports (NISTIRs)"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "NISTは50年以上にわたり、産業界・政府・学界の意見や専門知識を取り入れた公開的で協調的なプロセスを通じて、信頼できる暗号技術の開発を推進してきた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cryptography",
+              "quote": "NIST has fostered the development of trustworthy cryptographic techniques and technology for more than 50 years through an open, collaborative process that includes input and expertise from industry, government and academia."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "NISTの暗号標準とガイドラインは、世界的な電子商取引の安全確保や米国連邦政府情報・最高機密データの保護に役立ち、タブレットや携帯電話からATMに至る商用アプリケーションで使用されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cryptography",
+              "quote": "Our cryptographic standards and guidelines help secure global e-commerce, protect U.S. federal information and top-secret data, and are used in commercial applications from tablets and cellphones to ATMs."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "耐量子暗号(post-quantum cryptography)には、既存の通信プロトコルやネットワークを大きく変えることなく、量子コンピュータと古典コンピュータの両方に対する安全性を確保するために今すぐ実装できる標準が含まれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cryptography",
+              "quote": "Post-quantum cryptography, including standards that can be implemented now to secure against both quantum and classical computers without drastic changes to existing communication protocols and networks."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "ブロック暗号(block cipher)は、1ビットずつではなくブロック単位でデータを暗号化し、大量のデータの暗号化に有用である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cryptography",
+              "quote": "Block ciphers, which encrypt data in block-sized chunks (rather than one bit at a time) and are useful in encrypting large amounts of data."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "暗号学的ハッシュアルゴリズムは、保護対象の情報から短いダイジェスト(ハッシュ)を作成する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cryptography",
+              "quote": "Cryptographic hash algorithms, which create short digests, or hashes, of the information being protected."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "軽量暗号(lightweight cryptography)は、IoTデバイスなど、従来の暗号アルゴリズムでは負荷が大きすぎる小型・資源制約のあるプラットフォームで使用され得る。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cryptography",
+              "quote": "Lightweight cryptography, which could be used in small devices such as Internet of Things (IoT) devices and other resource-limited platforms that would be overtaxed by current cryptographic algorithms."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "プライバシー強化暗号(privacy-enhancing cryptography)は、データ所有者を特定し得る側面を明らかにすることなく、非公開データに対する研究を可能にすることを目的としている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cryptography",
+              "quote": "Privacy-enhancing cryptography, intended to allow research on private data without revealing aspects of the data that could be used to identify its owner."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "デジタル署名は手書き署名の電子的な類似物であり、主張された署名者本人が署名したこと、および署名生成後に情報が改変されていないことを保証する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cryptography",
+              "quote": "Digital signatures, which are electronic analogues of written signatures that provide assurance that the claimed signatory signed, and the information was not modified after signature generation."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "乱数ビット生成(random bit generation)は、統計的に独立していて偏りがないように見えるビット列を生成できる装置またはアルゴリズムに依存する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cryptography",
+              "quote": "Random bit generation, which relies on a device or algorithm that can produce a sequence of bits that appear to be both statistically independent and unbiased."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "ハッシュのダイジェストはデジタル署名を含む多くのセキュリティ用途で使われている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cryptography",
+              "quote": "These digests find use in many security applications including digital signatures"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "NISTはデジタル署名の開発も主導している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cryptography",
+              "quote": "the development of which NIST also leads"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "NISTはHQCを耐量子暗号化の5番目のアルゴリズムとして選定した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cryptography",
+              "quote": "NIST Selects HQC as Fifth Algorithm for Post-Quantum Encryption"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "NISTは最初の3つの耐量子暗号化標準を確定させ公開した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cryptography",
+              "quote": "NIST Releases First 3 Finalized Post-Quantum Encryption Standards"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "NISTは量子コンピュータによる攻撃に耐えられる暗号化アルゴリズムを標準化する。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/cryptography",
+              "quote": "NIST to Standardize Encryption Algorithms That Can Resist Attack by Quantum Computers"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

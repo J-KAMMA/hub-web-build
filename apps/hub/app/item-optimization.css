@@ -1,0 +1,281 @@
+/*
+ * Cross-surface item optimization.
+ * Shared content keeps one semantic contract while Web and installed-app
+ * controls receive interaction rules suited to their input model.
+ */
+
+:where(#hub-main, #hub-main *, .shell, .shell *) {
+  box-sizing: border-box;
+}
+
+:where(
+  .main-content,
+  .main-content > *,
+  .main-content :is(section, article, aside, header, footer, nav, form),
+  .main-content :is(ul, ol, dl),
+  .main-content :is(.grid, [class*="grid"], [class*="row"], [class*="toolbar"], [class*="actions"])
+) {
+  min-width: 0;
+}
+
+:where(.main-content) :is(h1, h2, h3, h4, p, li, dd, dt, label, legend, button, a, small, strong) {
+  overflow-wrap: anywhere;
+}
+
+:where(.main-content) :is(img, video, canvas, iframe, svg:not([class*="icon"])) {
+  max-width: 100%;
+}
+
+:where(.main-content) :is(table) {
+  max-width: 100%;
+}
+
+:where(.main-content) :is([class*="table-wrap"], [role="region"][aria-label*="表"]) {
+  max-width: 100%;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+}
+
+:where(
+  .sidebar__link,
+  .sidebar__collapse,
+  .sidebar__compose,
+  .sidebar__theme-toggle,
+  .shell__rail-toggle,
+  .shell__mobile-bottom-nav > a,
+  .main-content button,
+  .main-content [role="button"],
+  .main-content input,
+  .main-content select,
+  .main-content textarea
+) {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+:where(
+  .sidebar__link,
+  .sidebar__collapse,
+  .sidebar__compose,
+  .sidebar__theme-toggle,
+  .shell__rail-toggle,
+  .shell__mobile-bottom-nav > a,
+  .main-content button,
+  .main-content [role="button"],
+  .main-content a
+):focus-visible {
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+:where(.main-content button, .main-content [role="button"], .main-content a[class*="button"]) {
+  max-width: 100%;
+  white-space: normal;
+  text-align: center;
+}
+
+:where(.main-content button, .main-content [role="button"])[aria-busy="true"],
+:where(.main-content button, .main-content [role="button"]):disabled {
+  cursor: wait;
+  opacity: .68;
+}
+
+:where(.main-content dialog, .main-content [role="dialog"]) {
+  width: min(calc(100% - 32px), 680px);
+  max-width: calc(100% - 32px);
+  max-height: min(88dvh, 820px);
+  overflow: auto;
+  overscroll-behavior: contain;
+}
+
+:where(.sidebar__label, .sidebar__link-copy) {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+html[data-hub-surface="web"] :where(
+  .sidebar__link,
+  .sidebar__collapse,
+  .sidebar__compose,
+  .sidebar__theme-toggle,
+  .shell__rail-toggle
+) {
+  min-height: 40px;
+}
+
+html[data-hub-surface="app"] :where(
+  .sidebar__link,
+  .sidebar__collapse,
+  .sidebar__compose,
+  .sidebar__theme-toggle,
+  .shell__rail-toggle,
+  .main-content button,
+  .main-content [role="button"],
+  .main-content a[class*="button"],
+  .main-content input:not([type="checkbox"]):not([type="radio"]),
+  .main-content select
+) {
+  min-height: 44px;
+}
+
+html[data-hub-surface="app"] :where(
+  .main-content input:not([type="checkbox"]):not([type="radio"]),
+  .main-content textarea,
+  .main-content select
+) {
+  font-size: max(1rem, 16px);
+}
+
+html[data-hub-surface="app"] .main-content {
+  padding-inline: max(0px, env(safe-area-inset-left)) max(0px, env(safe-area-inset-right));
+}
+
+html[data-hub-surface="app"] .shell__mobile-bottom-nav {
+  padding-right: max(8px, env(safe-area-inset-right));
+  padding-bottom: max(6px, env(safe-area-inset-bottom));
+  padding-left: max(8px, env(safe-area-inset-left));
+  transition:
+    opacity 140ms ease,
+    visibility 140ms ease,
+    transform 180ms cubic-bezier(.2, .8, .2, 1);
+}
+
+html[data-hub-surface="app"][data-hub-drawer-open="true"] .shell__mobile-bottom-nav {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(100%);
+}
+
+html[data-hub-surface="app"][data-hub-drawer-open="true"] body {
+  overflow: hidden;
+}
+
+html[data-hub-surface="app"] .shell:not(.shell--immersive) .sidebar__brand {
+  display: none !important;
+}
+
+html[data-hub-surface="app"] .shell:not(.shell--immersive) :where(.sidebar, .sidebar--collapsed) {
+  padding-top: 68px !important;
+}
+
+@media (hover: none), (pointer: coarse) {
+  html[data-hub-surface="app"] .sidebar__link:not(.sidebar__link--active):hover {
+    background: transparent !important;
+    color: color-mix(in srgb, var(--text) 82%, var(--muted)) !important;
+  }
+}
+
+html[data-hub-surface="app"] .shell__mobile-bottom-nav > a {
+  min-width: 0;
+  min-height: 52px;
+  gap: 3px;
+}
+
+html[data-hub-surface="app"] .shell__mobile-bottom-nav > a > span:not(.shell__mobile-nav-status) {
+  max-width: 100%;
+  overflow: hidden;
+  font-size: clamp(.64rem, 2.5vw, .75rem);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (max-width: 760px) {
+  html[data-hub-surface="app"] :where(.main-content) {
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: clip;
+  }
+
+  html[data-hub-surface="app"] :where(
+    .main-content > main,
+    .main-content > section,
+    .main-content > article
+  ) {
+    min-width: 0;
+    max-width: 100%;
+  }
+
+  html[data-hub-surface="app"] :where(
+    .main-content table,
+    .main-content pre,
+    .main-content code
+  ) {
+    max-width: 100%;
+  }
+
+  html[data-hub-surface="app"] :where(.main-content pre) {
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+  }
+
+  html[data-hub-surface="app"] :where(.ai-chat) {
+    height: calc(100dvh - var(--app-fixed-header-height, 64px));
+    min-height: 0;
+  }
+
+  html[data-hub-surface="app"] :where(.ai-chat__main) {
+    min-height: 0;
+    height: 100%;
+  }
+
+  html[data-hub-surface="app"] :where(.ai-chat__messages) {
+    min-height: 0;
+  }
+
+  html[data-hub-surface="app"] :where(.ai-chat__welcome) {
+    width: min(100% - 28px, 680px);
+    margin-block: auto;
+    padding-block: 24px;
+  }
+
+  html[data-hub-surface="app"] :where(.ai-chat__dock) {
+    width: calc(100% - 24px);
+    padding-bottom: max(12px, env(safe-area-inset-bottom));
+  }
+
+  html[data-hub-surface="app"] :where(
+    .ai-chat:not(.ai-chat--rail) .ai-chat__main--empty .ai-chat__messages
+  ) {
+    flex: 0 1 auto;
+    min-height: 0;
+    overflow-y: auto;
+  }
+
+  html[data-hub-surface="app"] :where(
+    .ai-chat:not(.ai-chat--rail) .ai-chat__main--empty .ai-chat__welcome
+  ) {
+    margin: 0 auto;
+    padding-block: 18px 12px;
+  }
+
+  html[data-hub-surface="app"] :where(
+    .ai-chat:not(.ai-chat--rail) .ai-chat__composer textarea
+  ) {
+    field-sizing: fixed;
+    height: 48px;
+    min-height: 48px;
+    max-height: 96px;
+  }
+}
+
+@media (max-width: 359px) {
+  html[data-hub-surface="app"] .shell__mobile-bottom-nav > a > span:not(.shell__mobile-nav-status) {
+    display: none;
+  }
+
+  html[data-hub-surface="app"] .shell__mobile-bottom-nav > a {
+    min-height: 48px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :where(.sidebar__link, .shell__mobile-bottom-nav > a, .main-content button, .main-content [role="button"]) {
+    scroll-behavior: auto;
+    transition-duration: .01ms !important;
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+  }
+}

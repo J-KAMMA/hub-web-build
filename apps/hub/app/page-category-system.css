@@ -1,0 +1,321 @@
+/*
+ * Page-category finish layer.
+ * Routes are inventoried in docs/page-ui-inventory.md. These selectors target
+ * stable page roots so each category shares spacing and hierarchy without
+ * changing feature behavior.
+ */
+
+:root {
+  --page-content-gutter: clamp(16px, 2.2vw, 28px);
+  --page-section-gap: clamp(18px, 2.4vw, 30px);
+}
+
+html[data-page-kind] .main-content {
+  min-width: 0;
+}
+
+html[data-page-kind] .main-content > :where(main, section, article, div) {
+  box-sizing: border-box;
+  width: 100%;
+  min-width: 0;
+}
+
+html[data-page-kind="listing"] .main-content > :where(main, section),
+html[data-page-kind="search"] .main-content > :where(main, section),
+html[data-page-kind="dashboard"] .main-content > :where(main, section),
+html[data-page-kind="admin"] .main-content > :where(main, section) {
+  max-width: none;
+}
+
+html[data-page-kind="listing"] .main-content > :where(main, section) > :where(section, article) + :where(section, article),
+html[data-page-kind="search"] .main-content > :where(main, section) > :where(section, article) + :where(section, article),
+html[data-page-kind="dashboard"] .main-content > :where(main, section) > :where(section, article) + :where(section, article) {
+  margin-top: var(--page-section-gap);
+}
+
+html[data-page-kind="detail"] .main-content > :where(main, article),
+html[data-page-kind="long-form"] .main-content > :where(main, article) {
+  min-width: 0;
+}
+
+html[data-page-kind="form"] .main-content :where(.form-actions, [data-form-actions]),
+html[data-page-kind="payment"] .main-content :where(.form-actions, [data-form-actions]) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+html[data-page-kind="admin"] .main-content :where(table, [role="grid"]) {
+  width: 100%;
+  font-variant-numeric: tabular-nums;
+}
+
+html[data-page-kind] .main-content :where(
+  input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="color"]),
+  textarea
+) {
+  font-size: 1rem !important;
+  line-height: 1.5;
+}
+
+html[data-page-kind] .main-content select {
+  font-size: .9375rem !important;
+  line-height: 1.4;
+}
+
+/* Retire legacy ultra-dense text on commerce, video and operations pages. */
+:where(
+  .marketplace,
+  .storefront,
+  .shopping-product-page,
+  .commerce-seller-page,
+  .commerce-order-page
+) :where(
+  small,
+  time,
+  dt,
+  em,
+  [class*="meta"],
+  [class*="label"],
+  [class*="count"]
+) {
+  font-size: var(--type-meta-size) !important;
+  font-weight: var(--type-control-weight);
+  line-height: 1.45;
+}
+
+:where(
+  .marketplace,
+  .storefront,
+  .shopping-product-page,
+  .commerce-seller-page,
+  .commerce-order-page
+) :where(button, [role="button"], a[class*="action"], a[class*="button"]) {
+  min-height: 44px;
+  font-size: .875rem !important;
+}
+
+:where(.video-hub, .video-detail, .hub-video-app) :where(
+  .video-card__meta h3,
+  .video-card__meta p,
+  .video-card__meta p span,
+  small,
+  time
+) {
+  font-size: var(--type-meta-size) !important;
+  font-weight: var(--type-control-weight);
+  line-height: 1.45;
+}
+
+:where(.video-hub, .video-detail, .hub-video-app) :where(
+  .video-card__meta h3,
+  .video-detail__title
+) {
+  font-size: .9375rem !important;
+  font-weight: var(--type-emphasis-weight) !important;
+}
+
+:where(
+  .community-permission-matrix,
+  .ad-inventory-page,
+  .thread-category-admin,
+  .community-review-page
+) :where(th, td, label, small, button, select) {
+  font-size: var(--type-meta-size) !important;
+  line-height: 1.45;
+}
+
+:where(.community-permission-matrix) :where(label, button, select) {
+  min-height: 44px;
+}
+
+/* Listing and discovery pages use the available center canvas. */
+:where(
+  .storefront,
+  .games-catalog,
+  .service-directory,
+  .community-trends,
+  .search-page,
+  .hubpedia:not(.hubpedia-article):not(.hubpedia-paper),
+  .bookmarks-page,
+  .lists-page,
+  .requests-page,
+  .notifications-page
+) {
+  width: 100%;
+  max-width: none;
+}
+
+:where(
+  .storefront,
+  .games-catalog,
+  .service-directory,
+  .community-trends,
+  .search-page,
+  .bookmarks-page,
+  .lists-page,
+  .requests-page,
+  .notifications-page
+) > :where(section, article, form) + :where(section, article, form) {
+  margin-top: var(--page-section-gap);
+}
+
+/* Detail pages retain a clear reading path while media can use full width. */
+:where(
+  .post-detail,
+  .shopping-product-page,
+  .market-seller,
+  .vehicle-listing-detail,
+  .real-estate-listing-detail,
+  .game-guide-public,
+  .hubpedia-article,
+  .hubpedia-paper
+) {
+  width: 100%;
+  min-width: 0;
+}
+
+:where(
+  .post-detail,
+  .shopping-product-page,
+  .market-seller,
+  .vehicle-listing-detail,
+  .real-estate-listing-detail,
+  .game-guide-public,
+  .hubpedia-article,
+  .hubpedia-paper
+) :where(p, li, dd) {
+  line-height: 1.72;
+}
+
+/* Forms expose one obvious flow and keep action rows operable. */
+:where(
+  .game-submission-page,
+  .hub-auth-card,
+  .profile-edit-form,
+  .settings,
+  .bbs-new-thread
+) :where(fieldset, .form-section) {
+  min-width: 0;
+  border-color: var(--line);
+}
+
+:where(
+  .game-submission-page,
+  .hub-auth-card,
+  .profile-edit-form,
+  .settings,
+  .bbs-new-thread
+) :where(label, legend) {
+  color: var(--text);
+  font-weight: var(--type-control-weight);
+}
+
+:where(
+  .game-submission-page,
+  .hub-auth-card,
+  .profile-edit-form,
+  .settings,
+  .bbs-new-thread
+) :where(.form-actions, footer) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+/* Operational pages favor scanability and explicit state over decoration. */
+:where(
+  .ad-inventory-page,
+  .thread-category-admin,
+  .community-review-page,
+  .merchant-operations-panel,
+  .classified-review-console
+) :where(section, article) {
+  border-color: var(--line);
+  box-shadow: none;
+}
+
+:where(
+  .ad-inventory-page,
+  .thread-category-admin,
+  .community-review-page,
+  .merchant-operations-panel,
+  .classified-review-console
+) :where(th, dt) {
+  color: var(--muted);
+  font-size: .8125rem;
+  font-weight: var(--type-emphasis-weight);
+  letter-spacing: .01em;
+}
+
+/* Legal and encyclopedia reading pages keep a stable, readable measure. */
+:where(.hub-legal, .hub-about) :where(p, li),
+:where(.hubpedia-article, .hubpedia-paper) :where(p, li) {
+  max-width: 76ch;
+}
+
+:where(.hub-legal, .hub-about, .hubpedia-article, .hubpedia-paper) :where(h2, h3) {
+  scroll-margin-top: calc(var(--column-title-height) + 16px);
+  text-wrap: balance;
+}
+
+@media (max-width: 760px) {
+  :root {
+    --page-content-gutter: 14px;
+    --page-section-gap: 18px;
+  }
+
+  :where(
+    .storefront,
+    .games-catalog,
+    .service-directory,
+    .community-trends,
+    .search-page,
+    .bookmarks-page,
+    .lists-page,
+    .requests-page,
+    .notifications-page
+  ) {
+    padding-inline: var(--page-content-gutter);
+  }
+
+  html[data-page-kind="form"] .main-content :where(.form-actions, [data-form-actions]),
+  html[data-page-kind="payment"] .main-content :where(.form-actions, [data-form-actions]) {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  html[data-page-kind="form"] .main-content :where(.form-actions, [data-form-actions]) > :where(button, a, [role="button"]),
+  html[data-page-kind="payment"] .main-content :where(.form-actions, [data-form-actions]) > :where(button, a, [role="button"]) {
+    width: 100%;
+  }
+
+  :where(
+    .game-submission-page,
+    .hub-auth-card,
+    .profile-edit-form,
+    .settings,
+    .bbs-new-thread
+  ) :where(.form-actions, footer) {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  :where(
+    .game-submission-page,
+    .hub-auth-card,
+    .profile-edit-form,
+    .settings,
+    .bbs-new-thread
+  ) :where(.form-actions, footer) > :where(button, a, [role="button"]) {
+    width: 100%;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :where(.hub-legal, .hub-about, .hubpedia-article, .hubpedia-paper) {
+    scroll-behavior: auto;
+  }
+}

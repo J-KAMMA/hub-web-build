@@ -1,0 +1,17 @@
+{
+  "name": "@jkamma/game-kit",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "ゲームの作り方を揃えるための共通部品。核は描画を読まない、という規則をテストで守らせる。",
+  "exports": {
+    ".": { "types": "./src/index.d.ts", "default": "./src/index.js" },
+    "./random": { "types": "./src/random.d.ts", "default": "./src/random.js" },
+    "./loop": { "types": "./src/loop.d.ts", "default": "./src/loop.js" },
+    "./vec": { "types": "./src/vec.d.ts", "default": "./src/vec.js" },
+    "./purity": { "types": "./src/purity.d.ts", "default": "./src/purity.js" }
+  },
+  "scripts": {
+    "test": "node --test --test-isolation=none test/*.test.js"
+  }
+}

@@ -1,0 +1,5 @@
+"use client";
+import React from "react";
+import { useHubWallet } from "@/components/hub-wallet-provider";
+import { shortWalletAddress } from "@/lib/hub-wallet";
+export function HubWalletButton({compact=false}:{compact?:boolean}){const wallet=useHubWallet();const connected=wallet.status==="connected"&&Boolean(wallet.address);const checking=wallet.status==="connecting"||wallet.status==="checking";const label=connected?`外部ウォレット接続中 ${wallet.address}`:"外部ウォレットを接続";return <button type="button" className={`hub-wallet-button${connected?" hub-wallet-button--connected":""}`} onClick={()=>void wallet.connect()} disabled={checking} title={label} aria-label={label}><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5h14a2 2 0 0 1 2 2v10H4a2 2 0 0 1-2-2v-12a2 2 0 0 1 2-2h13v4"/><path d="M15 11h7v5h-7a2.5 2.5 0 0 1 0-5Z"/><circle cx="16" cy="13.5" r=".7"/></svg>{!compact?<span>{checking?"確認中…":connected?shortWalletAddress(wallet.address!):"ウォレットを接続"}</span>:null}{connected?<i aria-hidden="true"/>:null}</button>}

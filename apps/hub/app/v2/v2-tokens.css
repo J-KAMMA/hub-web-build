@@ -1,0 +1,133 @@
+/* Hub v2 / 寸法・字・角・動きのトークン。色は app/color-system.css。 */
+:root {
+  /* 寸法。既存は 210/210/本体/320。v2は 240/264/本文/320 で、幅が足りたときだけ増やす。 */
+  --v2-nav: 240px;
+  /* 内側左列は216px。264pxは広すぎた（旦那様 2026-09-03）。参考にした索引サイトの帯は240pxで、字は同じ大きさ。 */
+  --v2-directory: 216px;
+  --v2-aside: 320px;
+  --v2-strip: 52px;
+  --v2-gutter: 24px;
+  --v2-edge: 20px;
+  --v2-measure: 46em;
+  /* 本文の幅は2つだけ。読む幅（フォーム・設定・記事・タイムライン）と全幅（カードの格子）。 */
+  --v2-width-reading: 720px;
+  --v2-width-full: 1280px;
+  --v2-content-max: var(--v2-width-reading);
+  /* 列の頭の行の高さ。全部の列で同じ。 */
+  --v2-top-height: 56px;
+
+  /* 余白は4pxの倍数だけ。既存は 5/7/13/14px が混在していた。 */
+  --v2-space-1: 4px;
+  --v2-space-2: 8px;
+  --v2-space-3: 12px;
+  --v2-space-4: 16px;
+  --v2-space-5: 24px;
+  --v2-space-6: 32px;
+  --v2-space-7: 48px;
+
+  --v2-radius: 12px;
+  --v2-radius-lg: 18px;
+  --v2-radius-pill: 999px;
+
+  /* 字。本文16px・行間1.75を基準に、上下へ1段ずつ。 */
+  --v2-text-xs: .75rem;
+  --v2-text-sm: .875rem;
+  --v2-text: 1rem;
+  --v2-text-lg: 1.25rem;
+  --v2-text-xl: 1.75rem;
+  --v2-leading: 1.75;
+  --v2-leading-tight: 1.35;
+
+  /* 余白は 4px 刻みを続け、追加は 64px だけ（SPEC 2.4）。 */
+  --v2-space-8: 64px;
+
+  /*
+   * 字の段（SPEC 2.3）。大きさ／行高／太さ／字間。太さは 400・600・700 の3つ。
+   * 大きな見出しほど字間を詰める。数字は font-variant-numeric: tabular-nums を足す。
+   */
+  --type-display-size: 34px;
+  --type-display-leading: 40px;
+  --type-display-weight: 700;
+  --type-display-tracking: -0.022em;
+  --type-title1-size: 28px;
+  --type-title1-leading: 34px;
+  --type-title1-weight: 700;
+  --type-title1-tracking: -0.02em;
+  --type-title2-size: 22px;
+  --type-title2-leading: 28px;
+  --type-title2-weight: 700;
+  --type-title2-tracking: -0.012em;
+  --type-title3-size: 20px;
+  --type-title3-leading: 26px;
+  --type-title3-weight: 600;
+  --type-title3-tracking: -0.008em;
+  --type-headline-size: 17px;
+  --type-headline-leading: 24px;
+  --type-headline-weight: 600;
+  --type-headline-tracking: 0;
+  --type-body-size: 15px;
+  --type-body-leading: 24px;
+  --type-body-weight: 400;
+  --type-body-tracking: 0;
+  /* 投稿の本文（luxe の見た目、2026-10-30）。16px / 1.7。 */
+  --type-post-size: 16px;
+  --type-post-leading: 27px;
+  --type-reading-size: 17px;
+  --type-reading-leading: 31px;
+  --type-reading-tracking: 0;
+  --type-callout-size: 15px;
+  --type-callout-leading: 20px;
+  --type-callout-weight: 600;
+  --type-callout-tracking: 0;
+  --type-subhead-size: 13px;
+  --type-subhead-leading: 18px;
+  --type-subhead-weight: 400;
+  --type-subhead-tracking: 0;
+  --type-caption-size: 12px;
+  --type-caption-leading: 16px;
+  --type-caption-weight: 500;
+  --type-caption-tracking: .01em;
+
+  /* 角（SPEC 2.4）。既存の --v2-radius* は触れない。 */
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-pill: 999px;
+
+  /* 動き（SPEC 2.5）。200〜350ms、減速する曲線。動きを減らす設定では v2-foundation.css が止める。 */
+  --ease-out: cubic-bezier(.22, 1, .36, 1);
+  --ease-spring: cubic-bezier(.32, .72, 0, 1);
+  --ease-in-out: cubic-bezier(.65, 0, .35, 1);
+  --dur-press: 100ms;
+  --dur-fast: 200ms;
+  --dur-base: 280ms;
+  --dur-slow: 350ms;
+
+  /* 重なり。既存の最上段（モバイルの下タブ 2000、2020）より上に置く。 */
+  --z-sheet: 2100;
+  --z-toast: 2200;
+
+  /*
+   * 太さ（2026-10-29）。400・500・600・700 の4つだけ。750/800/850/900 は使わない。
+   * 500 は caption と小さな札だけ。見出しは 600/700。
+   * デスクトップ（apps/hub-desktop/ui）は同じ名前と値を写す。
+   */
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  /* 押せる物の高さと焦点の輪。細かい指は 44px。デスクトップへもそのまま写す。 */
+  --tap-height: 36px;
+  --tap-height-coarse: 44px;
+  --focus-ring-width: 2px;
+  --focus-ring-offset: 2px;
+  /* 端のぼかし（タブ列・横の棚）。 */
+  --edge-fade: 24px;
+  /* 状態表示（V2State）の寸法。 */
+  --state-max: 400px;
+  --state-icon: 40px;
+  --state-icon-disc: 64px;
+}

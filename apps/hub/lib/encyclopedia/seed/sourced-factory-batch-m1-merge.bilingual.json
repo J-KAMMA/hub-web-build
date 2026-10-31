@@ -1,0 +1,315 @@
+[
+  {
+    "slug": "international-system-of-units",
+    "topicType": "concept",
+    "categoryLabel": "物理・化学・宇宙",
+    "title": "国際単位系",
+    "summary": "国際単位系(SI)は測定に関する国際標準で、一般にメートル法として知られる。長さから質量までの七つの基本単位と、それらを固定する七つの定義定数から成る。2018年11月に承認され2019年5月20日に発効した改訂により、単位の定義は自然の物理定数の値に基づくものとなった。",
+    "bodyMarkdown": "## 単位と測定値\n\n単位とは、慣習によって定義され採用された特定の物理量であり、同じ種類の他の量は、それと比較することで値が表される。したがって物理量の値は数値と単位の積として書かれ、数値だけを取り出しても量は定まらない。国際単位系(SI)は、この比較の基準を国際的に共有するための標準であり、一般にメートル法として知られている。 [6][22][23]\n\n## 基本単位と組立単位\n\nSIの基本単位は七つある。長さの[メートル](/hubpedia/metre)(m)、時間の[秒](/hubpedia/second-unit)(s)、物質量のモル(mol)、電流のアンペア(A)、温度のケルビン(K)、光度のカンデラ(cd)、質量のキログラム(kg)である。 [1]\n\nこれら七つの基本単位から、固有の名称と記号を持つ22の組立単位が定義される。基本単位と、固有名称を与えられた組立単位を合わせた29の単位が、SI単位の中核を成す。 [15][16]\n\n## メートル条約と2019年の改訂\n\nSIの制度的な出発点はメートル条約である。条約は1875年5月20日にパリで、米国を含む17か国によって署名された。この日付は現在、世界計量記念日として世界各地で記念されている。 [9]\n\n単位の定義そのものが大きく変わったのは、それから1世紀以上を経てからである。プランク定数の値は2017年に確定し、これが[キログラム](/hubpedia/kilogram)の再定義の鍵となった。2018年11月、世界の計量専門家は投票により、自然の物理定数のみに完全に基づく測定系を確立するSIの改訂を全会一致で承認し、改訂は2019年5月20日の世界計量記念日に発効した。 [10][11][17]\n\n## 七つの定義定数\n\n改訂後のSIは、七つの定義定数を基盤とする。セシウムの超微細遷移周波数、真空中の光速、プランク定数、電気素量、ボルツマン定数、アボガドロ定数、そして指定された単色光源の視感効果度である。これら七つの定数が、秒から[カンデラ](/hubpedia/candela)までの七つの基本単位を完全に定義する。 [5][13]\n\nセシウム133の超微細遷移周波数ΔνCsは9,192,631,770ヘルツである。セシウム133はセシウムの最も一般的な同位体で、陽子と中性子を合わせて133個を含む。真空中の光速cは秒速299,792,458メートルとされる。 [2][4][20]\n\nプランク定数hは正確に6.626 070 15×10^-34ジュール秒、電気素量eは1.602176634×10^-19クーロンである。電気素量は[アンペア](/hubpedia/ampere)の定義に用いられる。 [3][7][18]\n\nボルツマン定数kは[ケルビン](/hubpedia/kelvin)の定義に用いられ、アボガドロ定数は、物質量を表すSI単位である[モル](/hubpedia/mole)中の粒子数を定義する。 [14][19]\n\n光度の定義には、単色放射の視感効果度Kcdが683ルーメン毎ワットであることが用いられる。基準となる周波数540×10^12ヘルツの単色放射は緑色光で、明るい室内で人の目が最も敏感に感知できる色合いにあたる。定義定数の一つだけが、人の視覚という特定の受容器を経由している。 [8][21]\n\n## 定数に基づく体系の性質\n\n2018年の改訂を承認した投票では、測定系を自然の物理定数のみに完全に基づかせることが目的とされた。改訂SIが基盤とする七つの値は、宇宙のどこでも同じ値をとるものとして扱われる。定数の値が固定され、そこから単位が導かれるという順序が、改訂前後を分ける点である。 [10][12][13]\n\nただし、定数の値が固定されていることと、その値に沿って各単位を実際に実現する手順とは別の事柄であり、後者はここで用いた根拠の範囲を超える。質量の単位についていえば、プランク定数の値が2017年に確定して初めて再定義が可能になったという経緯が、定数の確定作業と定義の切り替えが不可分であることを示している。 [17]",
+    "sources": [
+      {
+        "url": "https://www.nist.gov/pml/owm/metric-si/si-units",
+        "title": "SI Units — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The measurement institute account of the system and its seven base units. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.nist.gov/si-redefinition/meet-constants",
+        "title": "Meet the Constants — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The defining constants that fix the size of every base unit. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "International System of Units",
+        "summary": "The International System of Units (SI) is the international standard for measurement, commonly known as the metric system. It consists of seven base units, from length to mass, and seven defining constants that fix them. Under the revision approved in November 2018 and effective on 20 May 2019, the definitions of the units are based on the values of physical constants of nature.",
+        "bodyMarkdown": "## Units and measured values\n\nA unit is a particular physical quantity, defined and adopted by convention, with which other quantities of the same kind are compared to express their values. A physical quantity is therefore written as the product of a numerical value and a unit, and the numerical value alone does not determine the quantity. The International System of Units (SI) is the standard that makes this basis of comparison internationally shared, and it is commonly known as the metric system. [6][22][23]\n\n## Base units and derived units\n\nThe SI has seven base units: the [metre](/hubpedia/metre) (m) for length, the [second](/hubpedia/second-unit) (s) for time, the mole (mol) for amount of substance, the ampere (A) for electric current, the kelvin (K) for temperature, the candela (cd) for luminous intensity, and the kilogram (kg) for mass. [1]\n\nFrom these seven base units, 22 derived units with special names and symbols are defined. Together, the base units and the derived units given special names make up 29 units that form the core of the SI units. [15][16]\n\n## The Metre Convention and the 2019 revision\n\nThe institutional starting point of the SI is the Metre Convention. The treaty was signed in Paris on 20 May 1875 by 17 nations, including the United States. That date is now commemorated around the world as World Metrology Day. [9]\n\nThe definitions of the units themselves changed substantially only more than a century later. The value of the Planck constant was fixed in 2017, and this was the key to the redefinition of the [kilogram](/hubpedia/kilogram). In November 2018, the world's metrology experts voted unanimously to approve a revision of the SI establishing a system of measurement based entirely on physical constants of nature alone, and the revision took effect on World Metrology Day, 20 May 2019. [10][11][17]\n\n## The seven defining constants\n\nThe revised SI is founded on seven defining constants: the hyperfine transition frequency of caesium, the speed of light in vacuum, the Planck constant, the elementary charge, the Boltzmann constant, the Avogadro constant, and the luminous efficacy of a specified monochromatic light source. These seven constants completely define the seven base units, from the second to the [candela](/hubpedia/candela). [5][13]\n\nThe hyperfine transition frequency of caesium-133, ΔνCs, is 9,192,631,770 hertz. Caesium-133 is the most common isotope of caesium, containing 133 protons and neutrons combined. The speed of light in vacuum, c, is taken to be 299,792,458 metres per second. [2][4][20]\n\nThe Planck constant h is exactly 6.626 070 15×10^-34 joule seconds, and the elementary charge e is 1.602176634×10^-19 coulombs. The elementary charge is used in the definition of the [ampere](/hubpedia/ampere). [3][7][18]\n\nThe Boltzmann constant k is used in the definition of the [kelvin](/hubpedia/kelvin), and the Avogadro constant defines the number of particles in the [mole](/hubpedia/mole), the SI unit of amount of substance. [14][19]\n\nThe definition of luminous intensity uses the luminous efficacy of monochromatic radiation, Kcd, which is 683 lumens per watt. The reference monochromatic radiation at a frequency of 540×10^12 hertz is green light, the shade to which the human eye is most sensitive in a brightly lit room. Only one of the defining constants passes through a particular receptor, human vision. [8][21]\n\n## The nature of a system based on constants\n\nThe vote that approved the 2018 revision had as its aim a system of measurement based entirely on physical constants of nature alone. The seven values on which the revised SI is founded are treated as taking the same values everywhere in the universe. The ordering — the values of the constants are fixed, and the units are derived from them — is what separates the system before the revision from the one after it. [10][12][13]\n\nThat said, the fixing of the values of the constants and the procedures for actually realising each unit in accordance with those values are separate matters, and the latter falls outside the scope of the sources used here. As for the unit of mass, the fact that redefinition became possible only once the value of the Planck constant was fixed in 2017 shows that determining the constant and switching over the definition are inseparable. [17]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T14:49:17.382Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "SIの7つの基本単位は、長さ(メートル、m)、時間(秒、s)、物質量(モル、mol)、電流(アンペア、A)、温度(ケルビン、K)、光度(カンデラ、cd)、質量(キログラム、kg)である。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "The seven SI base units, which are comprised of:Length - meter (m)Time - second (s)Amount of substance - mole (mol)Electric current - ampere (A)Temperature - kelvin (K)Luminous intensity - candela (cd)Mass - kilogram (kg)"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "真空中の光速cは秒速299,792,458メートルである。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "c is equal to 299,792,458 meters per second."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "改訂SIにおいて電気素量eは1.602176634×10^-19クーロンである。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "In the revised SI, e is equal to 1.602176634 × 10-19 coulombs."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "セシウム133の超微細遷移周波数ΔνCsは9,192,631,770ヘルツである。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "The hyperfine transition frequency ∆νCs is equal to 9,192,631,770 hertz."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "SIは7つの定義定数(セシウムの超微細遷移周波数、真空中の光速、プランク定数、電気素量、ボルツマン定数、アボガドロ定数、指定された単色光源の視感効果度)を基盤とする。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "The SI rests on a foundation of seven (7) defining constants: the cesium hyperfine splitting frequency, the speed of light in vacuum, the Planck constant, the elementary charge (i.e. the charge on a proton), the Boltzmann constant, the Avogadro constant, and the luminous efficacy of a specified monochromatic source."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "国際単位系(SI)は一般にメートル法として知られ、測定に関する国際標準である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "The International System of Units (SI), commonly known as the metric system, is the international standard for measurement."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "改訂SIにおいて、プランク定数hは正確に6.626 070 15×10^-34ジュール秒である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "In the revised SI, the Planck constant h is equal to exactly 6.626 070 15 × 10-34 Joule seconds."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "単色放射の視感効果度Kcdは683ルーメン毎ワットであり、カンデラの定義に用いられる。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "Kcd is equal to 683 lumens per watt and helps to define the candela."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "メートル条約は1875年5月20日にパリで米国を含む17か国により署名され、その日は現在世界計量記念日として世界中で祝われている。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "The International Treaty of the Meter was signed in Paris on May 20, 1875 by seventeen countries, including the United States and is now celebrated around the globe as World Metrology Day."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "2018年11月、世界の計量専門家たちは投票により、自然の物理定数のみに完全に基づく測定系を確立するSIの改訂を全会一致で承認した。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "In November 2018, the world’s measurement experts voted and unanimously approved a revision of the SI that establishes a measurement system entirely based on physical constants of nature."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "このSI改訂は2019年5月20日の世界計量記念日に発効した。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "The changes became effective on World Metrology Day, May 20, 2019."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "改訂されたSIは7つの値(定数)を基盤としており、それらの値は宇宙のどこでも同じである。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "The revised SI rests on a foundation of seven values, known as the constants."
+            },
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "The values of the constants are the same everywhere in the universe."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "改訂SIでは、これら7つの定数が秒からカンデラまでの7つの基本単位を完全に定義する。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "In the revised SI, these constants completely define the seven base SI units, from the second to the candela."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "アボガドロ定数は、物質量を表すSI単位であるモル中の粒子数を定義する。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "The Avogadro constant defines the number of particles in a mole, the SI unit that expresses the amount of substance."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "SIは7つの基本単位から成り、それらが固有の名称と記号を持つ22の組立単位を定義する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "The SI is made up of 7 base units that define the 22 derived units with special names and symbols"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "基本単位と固有名称を持つ組立単位を合わせた29の単位がSI単位の中核を成す。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "Together the base units and derived units with special names (twenty-nine units) form the core set of SI units."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "プランク定数の値は2017年に確定し、その値がキログラムの再定義の鍵となった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "This value for the Planck constant was only finalized in 2017, and that value is key to redefining the kilogram."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "電気素量eはアンペアの定義に用いられる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "It helps to define the ampere."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "ボルツマン定数kはケルビンの定義に用いられる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "k will help to define the kelvin."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "セシウム133はセシウムの最も一般的な同位体であり、陽子と中性子を合計133個含む。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "Cesium-133 is its most common form, or isotope, containing a total of 133 protons and neutrons."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "周波数540×10^12ヘルツの単色放射は緑色光であり、明るい室内で人の目が最も敏感に感知できる色合いの緑色光である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "“Monochromatic radiation of frequency 540 × 1012 hertz” is simply green light, specifically the shade of green light that the human eye can pick up most sensitively in a well-lit room."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "単位とは、慣習によって定義・採用された特定の物理量であり、それと比較することで同種の他の量の値を表す。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "A unit is a particular physical quantity, defined and adopted by convention, with which other particular quantities of the same kind are compared to express their value."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "物理量の値は、数値と単位の積として表される特定の物理量の量的表現であり、その数値が数値部分となる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/pml/owm/metric-si/si-units",
+              "quote": "The value of a physical quantity is the quantitative expression of a particular physical quantity as the product of a number and a unit, the number being its numerical value."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

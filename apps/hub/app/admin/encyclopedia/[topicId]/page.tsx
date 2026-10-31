@@ -1,0 +1,1 @@
+import{TopicDetail}from"@/components/encyclopedia/topic-detail";export default async function Page({params}:{params:Promise<{topicId:string}>}){const{topicId}=await params;return <TopicDetail id={topicId}/>}

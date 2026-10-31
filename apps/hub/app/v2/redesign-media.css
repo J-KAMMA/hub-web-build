@@ -1,0 +1,123 @@
+/*
+ * 動画・音楽・記事・本・Hubpedia・研究の整理（2026-10-11）。
+ * 主題は1つ、タブは1行、二次的な絞り込みは「絞り込み」の1つの開閉に入れる。
+ * 色は意味のあるトークンだけ（color-system.css）。
+ */
+.v2 .v2__main .v2-filter-disclosure {
+  flex: none;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: 0 0 var(--v2-space-3);
+  font-size: var(--v2-text-sm);
+}
+
+.v2 .v2__main .v2-filter-disclosure > summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 32px;
+  padding: 4px 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius-pill);
+  background: transparent;
+  color: var(--text);
+  list-style: none;
+  cursor: pointer;
+}
+
+.v2 .v2__main .v2-filter-disclosure > summary::-webkit-details-marker {
+  display: none;
+}
+
+.v2 .v2__main .v2-filter-disclosure > summary::after {
+  content: "▾";
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+}
+
+.v2 .v2__main .v2-filter-disclosure[open] > summary::after {
+  content: "▴";
+}
+
+.v2 .v2__main .v2-filter-disclosure > summary:hover {
+  background: var(--interactive);
+}
+
+.v2 .v2__main .v2-filter-disclosure > summary:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.v2 .v2__main .v2-filter-disclosure[open] > summary {
+  margin-bottom: var(--v2-space-3);
+}
+
+.v2 .v2__main .v2-filter-disclosure__body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--v2-space-3);
+  padding: var(--v2-space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius);
+  background: var(--panel);
+}
+
+.v2 .v2__main .v2-filter-disclosure__body .v2-facets {
+  margin: 0;
+}
+
+.v2 .v2__main .v2-filter-disclosure__label {
+  margin: 0 0 var(--v2-space-1);
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+}
+
+/* 絞り込みの選択欄は1行に小さく並べる。 */
+.v2 .v2__main .v2-filter-disclosure .v2-filter {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--v2-space-2) var(--v2-space-3);
+  padding: 0;
+}
+
+.v2 .v2__main .v2-filter-disclosure .v2-filter__row {
+  flex: 0 0 auto;
+  gap: 6px;
+}
+
+.v2 .v2__main .v2-filter-disclosure .v2-filter__row select {
+  flex: 0 0 auto;
+  width: auto;
+  max-width: 10rem;
+  height: 32px;
+  padding: 0 var(--v2-space-2);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius-pill);
+  background: var(--panel);
+  color: var(--text);
+  font: inherit;
+}
+
+.v2 .v2__main .v2-filter-disclosure .v2-filter .v2-toggle--text {
+  align-self: center;
+}
+
+/* 目次などの長い一覧は開閉の中で縦に並べる。 */
+.v2 .v2__main .v2-filter-disclosure--list ol,
+.v2 .v2__main .v2-filter-disclosure--list ul {
+  margin: 0;
+  padding-left: var(--v2-space-4);
+}
+
+.v2 .v2__main .v2-filter-disclosure--list ul.v2-nav__list {
+  padding-left: 0;
+  list-style: none;
+}
+
+/* 目録の中の開閉は、タブの行の最後へ回す。 */
+.v2 .v2__tabs-column > .v2-filter-disclosure {
+  flex: 0 0 auto;
+  order: 9;
+  margin: 0;
+}

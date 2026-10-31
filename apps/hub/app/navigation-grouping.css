@@ -1,0 +1,32 @@
+/*
+ * Separate the sidebar's navigation groups with a rule instead of a heading.
+ * Groups remain ordering metadata; nothing here introduces a group label.
+ */
+.sidebar__nav-rule {
+  display: block;
+  width: auto;
+  height: 1px;
+  margin-block: var(--ui-space-2);
+  margin-inline: var(--ui-space-2);
+  background: var(--line);
+}
+
+.sidebar--collapsed .sidebar__nav-rule {
+  margin-inline: var(--ui-space-1);
+}
+
+/*
+ * The compact bottom bar lays the same links out horizontally, where a
+ * horizontal rule would only steal target width.
+ */
+@media (max-width: 1080px) {
+  .sidebar__nav-rule {
+    display: none;
+  }
+}
+
+@media (forced-colors: active) {
+  .sidebar__nav-rule {
+    background: CanvasText;
+  }
+}

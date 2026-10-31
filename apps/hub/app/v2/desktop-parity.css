@@ -1,0 +1,346 @@
+/*
+ * Web v2 は Hub Desktop と同じ骨組みにする（所有者決定 2026-10-16/17）。
+ * 上端に 44px の帯（☰・列の開閉・左寄せの検索）、その下に左のアイコン列（56px）、
+ * 内側の列、本文、右列、右端の記号の帯（48px）。列は画面の縁と帯に貼り付き、
+ * 境目は 1px の罫線だけ。右列は浮いたカードにしない。
+ * 机上幅（760px 以上）だけに効かせる。携帯の骨組みは変えない。
+ * 色は意味のトークンだけ（app/color-system.css）。読み込みは v2-shell.tsx の最後。
+ */
+
+.v2 .v2-titlebar { display: none; }
+
+/* 右列の戻る・進む（2026-10-18）と、右列の中の詳細。幅に関係なく効く。 */
+.v2 .v2-aside__history { display: flex; flex: none; align-items: center; gap: 2px; }
+.v2 .v2-aside__history-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: var(--v2-radius);
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+}
+.v2 .v2-aside__history-button svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.v2 .v2-aside__history-button:hover:not(:disabled) { background: var(--interactive); color: var(--text); }
+.v2 .v2-aside__history-button:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: -2px; }
+.v2 .v2-aside__history-button:disabled { opacity: .4; cursor: default; }
+.v2 .v2-aside__head .v2-top-title__label { flex: 1 1 auto; }
+.v2 .v2-aside__lists:not([hidden]) { display: contents; }
+.v2 .v2-aside__detail { display: grid; gap: 8px; padding: 12px; }
+.v2 .v2-aside__detail-title { margin: 0; color: var(--text); font-size: 15px; font-weight: 700; overflow-wrap: anywhere; }
+.v2 .v2-aside__detail-body { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.6; white-space: pre-wrap; overflow-wrap: anywhere; }
+.v2 .v2-aside__detail-open { justify-self: start; color: var(--emphasis); font-size: 13px; font-weight: 600; }
+
+@media (min-width: 760px) {
+  html body .v2 .v2__workspace {
+    --v2-titlebar-h: 44px;
+    --v2-column-h: calc(100dvh - var(--v2-titlebar-h));
+  }
+
+  /* 上端の帯 ---------------------------------------------------------- */
+  html body .v2 .v2__workspace > .v2-titlebar {
+    position: sticky;
+    top: 0;
+    z-index: 40;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    box-sizing: border-box;
+    height: var(--v2-titlebar-h);
+    padding: 0 10px;
+    border-bottom: 1px solid var(--line);
+    background: var(--bg);
+  }
+  html body .v2 .v2-titlebar .v2-titlebar__button {
+    flex: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: var(--v2-radius);
+    background: transparent;
+    color: var(--muted);
+    cursor: pointer;
+  }
+  html body .v2 .v2-titlebar .v2-titlebar__button:hover:not(:disabled) {
+    background: var(--interactive);
+    color: var(--text);
+  }
+  html body .v2 .v2-titlebar .v2-titlebar__button:focus-visible {
+    outline: 2px solid var(--focus-ring);
+    outline-offset: -2px;
+  }
+  html body .v2 .v2-titlebar .v2-titlebar__button[aria-pressed="true"] { color: var(--text); }
+  html body .v2 .v2-titlebar .v2-titlebar__mark { width: 20px; height: 20px; color: inherit; }
+  html body .v2 .v2-titlebar .v2-titlebar__search {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    box-sizing: border-box;
+    /* 検索欄は左の押し手の直後から、右列の操作の手前（16px あけて）まで伸ばす。右列を閉じているときは 900px で止める（2026-10-18 所有者）。 */
+    flex: 1 1 auto;
+    width: auto;
+    max-width: 900px;
+    height: 34px;
+    margin: 0 0 0 6px;
+    padding: 0 12px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--interactive);
+    color: var(--muted);
+  }
+  html body .v2 .v2__workspace:has(.v2__aside:not([hidden])) > .v2-titlebar {
+    padding-right: calc(var(--v2p-aside-w, 372px) + var(--v2p-strip-w, 48px) + 16px);
+  }
+  html body .v2 .v2__workspace:has(.v2__aside:not([hidden])) > .v2-titlebar .v2-titlebar__search { max-width: none; }
+  html body .v2 .v2-titlebar .v2-titlebar__search:focus-within {
+    border-color: var(--focus-ring);
+    background: var(--panel);
+  }
+  html body .v2 .v2-titlebar .v2-titlebar__search .v2-titlebar__mark { width: 16px; height: 16px; }
+  html body .v2 .v2-titlebar .v2-titlebar__search input {
+    flex: 1;
+    min-width: 0;
+    height: 100%;
+    /* 共有の検索欄の規則（!important の地の色と枠）が帯の中の欄にも当たるので、ここで打ち消す。 */
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    color: var(--text);
+    font: inherit;
+    font-size: 13px;
+    outline: none;
+    box-shadow: none !important;
+    appearance: none;
+  }
+
+  /* 枠: 列の間に隙間を作らない。 */
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav] {
+    --v2p-nav-w: 56px;
+    --v2p-strip-w: 48px;
+    gap: 0;
+    padding: 0;
+  }
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav][data-nav="open"] { --v2p-nav-w: 208px; }
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav]:has(> .v2__tabs-column) { --v2p-tabs-w: 210px; }
+
+  /* 左のアイコン列 ------------------------------------------------------ */
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav] > .v2__nav,
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav][data-nav] > .v2__nav {
+    flex: 0 0 var(--v2p-nav-w);
+    top: var(--v2-titlebar-h);
+    width: var(--v2p-nav-w);
+    min-width: var(--v2p-nav-w);
+    max-width: none;
+    height: var(--v2-column-h);
+    padding: 8px 6px;
+    border-right: 1px solid var(--line);
+  }
+  /* ☰ は上端の帯へ移した。列の中には出さない。 */
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav] > .v2__nav .v2-nav__burger { display: none; }
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav] > .v2__nav .v2-nav__flat ul { gap: 2px; }
+  /* 群の間に空白を入れない（Desktop と同じ等間隔）。 */
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav] > .v2__nav .v2-nav__flat li[data-gap="true"] { margin-top: 0; }
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav] > .v2__nav .v2-nav__flat-bottom {
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid var(--line);
+  }
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav] > .v2__nav .v2-nav__post-slot { margin-top: 8px; }
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav] > .v2__nav .v2-nav__item,
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav] > .v2__nav .v2-nav__post {
+    justify-content: flex-start;
+    gap: 14px;
+    width: 100%;
+    height: 40px;
+    min-height: 40px;
+    margin: 0;
+    padding: 0 12px;
+    border-radius: var(--v2-radius);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav] > .v2__nav :is(.v2-nav__icon, .v2-nav__post-icon) {
+    flex: 0 0 20px;
+    width: 20px;
+    height: 20px;
+    fill: none;
+  }
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav] > .v2__nav .v2-nav__avatar { flex: 0 0 20px; width: 20px; height: 20px; }
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav] > .v2__nav .v2-nav__item[aria-current="page"],
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav] > .v2__nav .v2-nav__item[aria-current="page"]:hover {
+    background: var(--selected);
+    color: var(--text);
+    font-weight: 600;
+  }
+  /* 畳んでいる間は字を隠す（読み上げには残す）。広げたときだけ出す。 */
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav][data-nav="collapsed"] > .v2__nav .v2-nav__label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav][data-nav="open"] > .v2__nav .v2-nav__label {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    clip-path: none;
+    text-overflow: ellipsis;
+  }
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav][data-nav="collapsed"] > .v2__nav .v2-nav__count {
+    position: absolute;
+    top: 2px;
+    right: 0;
+    margin: 0;
+  }
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav][data-nav="open"] > .v2__nav .v2-nav__count {
+    position: static;
+    margin-left: auto;
+  }
+
+  /* 内側の列 ---------------------------------------------------------- */
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav] > .v2__tabs-column {
+    flex: 0 0 var(--v2p-tabs-w);
+    top: var(--v2-titlebar-h);
+    width: var(--v2p-tabs-w);
+    height: var(--v2-column-h);
+    padding: 12px 8px;
+  }
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav][data-tabs="hidden"] > .v2__tabs-column { display: none; }
+
+  /* 本文: 残りの幅を全部取り、左右の余白は等しく狭い。 */
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav] > #hub-main.v2__main,
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav][data-measure] > #hub-main.v2__main {
+    flex: 1 1 0;
+    width: auto;
+    min-width: 0;
+    max-width: none;
+    margin: 0;
+    padding-inline: 14px;
+    border: 0;
+  }
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav][data-measure="narrow"] > #hub-main.v2__main > * {
+    max-width: var(--v2-width-reading);
+    margin-inline: auto;
+  }
+  /* 読む幅の画面（フォーム・設定）: 左に寄らず中央の 720px。全幅の画面は枠いっぱい（最大 --v2-width-full）。 */
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav][data-layout="reading"][data-measure="wide"] > #hub-main.v2__main > * {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: var(--v2-width-reading);
+    margin-inline: auto;
+  }
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav][data-layout="workspace"] > #hub-main.v2__main > * {
+    max-width: var(--v2-width-full);
+  }
+  /* 頭の帯とタブは本文の左右へ16pxずつ張り出す。上限に達したとき片側だけ詰まらないよう、張り出しの分を足す。 */
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav][data-layout="workspace"] > #hub-main.v2__main > :is(.v2-top-title, .v2__tabs-column--top) {
+    max-width: calc(var(--v2-width-full) + 2 * var(--v2-space-4));
+  }
+  /* 狭い測りでは頭の帯も本文と同じ縁から始める（上の > * が帯の左右の張り出しを消すため、内側の余白も外す）。 */
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav][data-measure="narrow"] > #hub-main.v2__main > .v2-top-title {
+    padding-inline: 0;
+  }
+
+  /* スレッド一覧: 中央に縮まず、本文の縁いっぱいに広げる。 */
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav][data-measure="narrow"] > #hub-main.v2__main > :is(.v2-top-title, .v2__tabs-column--top, .v2-search__form, .v2-note, .v2-tlist, .v2-pager, .v2-bbs-tools) {
+    box-sizing: border-box;
+    width: 100%;
+  }
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav][data-measure="narrow"] > #hub-main.v2__main > :is(.v2-tnew, .v2-filter-disclosure) {
+    margin-inline: 0;
+    align-self: flex-start;
+  }
+
+  /* 右列: 縁と帯に貼り付き、境目は罫線だけ。 */
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav] .v2__aside,
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav][data-measure] .v2__aside {
+    position: sticky;
+    top: var(--v2-titlebar-h);
+    flex: 0 0 372px;
+    width: 372px !important;
+    max-width: none;
+    height: var(--v2-column-h);
+    margin: 0;
+    border: 0;
+    border-left: 1px solid var(--line);
+    border-radius: 0;
+    background: var(--bg);
+    box-shadow: none;
+  }
+
+  /* 右端の記号の帯: 開閉が上、AI・ウォレットが下。 */
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav] .v2__aside-strip,
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav][data-measure] .v2__aside-strip {
+    position: sticky;
+    top: var(--v2-titlebar-h);
+    right: auto;
+    z-index: 1;
+    flex: 0 0 var(--v2p-strip-w);
+    width: var(--v2p-strip-w);
+    height: var(--v2-column-h);
+    max-height: none;
+    margin: 0;
+    padding: 8px 0;
+    gap: 4px;
+    border: 0;
+    border-left: 1px solid var(--line);
+    border-radius: 0;
+    background: var(--bg);
+    box-shadow: none;
+  }
+
+  /* 右列の見出し行（戻る・進む・表示名）は上端の帯の、右列の真上へ上げる（2026-10-18 所有者。Hub Desktop と同じ）。
+     要素は右列の中のまま（読み上げ順・Tab順は変えない）。幅は右列と同じ 372px、右端の帯 48px の左。 */
+  /* 右列は sticky なので重なりの層を作る。見出し行を上端の帯（z-index 40）より上に描くため、右列ごと一段上げる（右列は帯の下から始まるので本文とは重ならない）。 */
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav] .v2__aside { z-index: 41; }
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav] .v2__aside > .v2-top-title.v2-aside__head {
+    position: fixed;
+    top: 0;
+    right: var(--v2p-strip-w, 48px);
+    z-index: 41;
+    width: var(--v2p-aside-w, 372px);
+    height: var(--v2-titlebar-h);
+    min-height: 0;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    gap: 6px;
+    margin: 0;
+    /* 左の余白は、戻るの記号の左端が右列の本文の左端（右列の余白16px＋罫線1px）にそろう値。 */
+    padding: 0 8px 0 10px;
+    border: 0;
+    background: transparent;
+  }
+  html body .v2 .v2__workspace .v2__frame[data-nav][data-nav] .v2__aside > .v2-aside__head .v2-top-title__label { font-size: var(--type-callout-size); font-weight: var(--type-control-weight); }
+}
+
+/*
+ * 携帯の上端タブ: nav に包まれない ul/ol（マーケット・ゲーム・設定）は width:max-content で
+ * 画面の右へ抜けたまま切れず、右のタブへ届かなかった。nav と同じく横に送れる帯にする。
+ */
+@media (max-width: 759px) {
+  html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top > :is(ul, ol) {
+    max-width: 100%;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none;
+  }
+  html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top > :is(ul, ol)::-webkit-scrollbar {
+    display: none;
+  }
+}

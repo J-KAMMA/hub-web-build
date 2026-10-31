@@ -1,0 +1,182 @@
+/*
+ * 右列のワークスペース（2026-10-15）。≥1280 の1列型（タイムライン・通知・プロフィール・検索など）では、
+ * 既存の「並べて見る」列を既定で開き、本文の右の空きを埋める。タブは 音楽 / 探す / AI / 通知 / メッセージ。
+ * 色はすべて意味トークン。フォーカスは中立（--focus-ring）。
+ */
+
+.v2-aside__heading {
+  margin: var(--v2-space-4) 0 var(--v2-space-1);
+  color: var(--text);
+  font-size: var(--v2-text);
+  font-weight: 700;
+  line-height: var(--v2-leading-tight);
+}
+.v2-aside__heading:first-child { margin-top: 0; }
+
+.v2-aside__item--button {
+  width: 100%;
+  box-sizing: border-box;
+  border-top: 0;
+  border-inline: 0;
+  background: none;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.v2-aside__item--button:hover .v2-aside__item-name { text-decoration: underline; }
+
+.v2-aside__more,
+.v2-aside__footer {
+  margin: var(--v2-space-3) 0 0;
+  font-size: 13px;
+  line-height: var(--v2-leading-tight);
+}
+.v2-aside__more a { color: var(--muted); text-decoration: none; }
+.v2-aside__more a:hover { color: var(--text); text-decoration: underline; }
+
+.v2-aside__footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--v2-space-1) var(--v2-space-3);
+  margin-top: var(--v2-space-5);
+  padding-top: var(--v2-space-3);
+  border-top: 1px solid var(--line);
+}
+.v2-aside__footer a { color: var(--muted); text-decoration: none; }
+.v2-aside__footer a:hover { color: var(--text); text-decoration: underline; }
+
+.v2-aside__search input:focus-visible,
+.v2-aside__item:focus-visible,
+.v2-aside__more a:focus-visible,
+.v2-aside__footer a:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.v2-aside__person {
+  grid-template-columns: 40px minmax(0, 1fr);
+  align-items: center;
+  gap: var(--v2-space-3);
+}
+.v2-aside__person-text { display: grid; gap: 2px; min-width: 0; }
+
+/* 再生中のカード。高さは曲の有無で変えない（CLS 0）。 */
+.v2-now {
+  display: grid;
+  grid-template-columns: 64px minmax(0, 1fr);
+  grid-template-areas:
+    "art body"
+    "ctl ctl"
+    "bar bar"
+    "time time";
+  gap: var(--v2-space-2) var(--v2-space-3);
+  min-height: 168px;
+  box-sizing: border-box;
+  padding: var(--v2-space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius-lg);
+  background: var(--bg-soft);
+}
+.v2-now__art {
+  grid-area: art;
+  display: grid;
+  place-items: center;
+  width: 64px;
+  height: 64px;
+  overflow: hidden;
+  border-radius: var(--v2-radius);
+  background: var(--interactive);
+  color: var(--muted);
+}
+.v2-now__art img { width: 64px; height: 64px; object-fit: cover; display: block; }
+.v2-now__art .v2-icon { width: 24px; height: 24px; }
+.v2-now__body { grid-area: body; min-width: 0; align-self: center; }
+.v2-now__title,
+.v2-now__artist {
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.v2-now__title { font-size: var(--v2-text); font-weight: 700; color: var(--text); }
+.v2-now__artist { font-size: var(--v2-text-sm); color: var(--muted); }
+.v2-now__controls { grid-area: ctl; display: flex; justify-content: center; gap: var(--v2-space-2); }
+.v2-now__progress {
+  grid-area: bar;
+  height: 4px;
+  overflow: hidden;
+  border-radius: var(--radius-pill);
+  background: var(--interactive);
+  align-self: center;
+}
+.v2-now__progress > span { display: block; height: 100%; background: var(--emphasis); }
+.v2-now__time {
+  grid-area: time;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  font-variant-numeric: tabular-nums;
+}
+.v2-now__empty { grid-column: 1 / -1; grid-row: 1 / -1; align-self: center; margin: 0; }
+/* 空のときは箱にしない（右列のカードの中にもう1枚カードを重ねない）。一言だけ。 */
+.v2-now:has(.v2-now__empty) { grid-template-areas: none; min-height: 0; padding: 0; border: 0; background: none; }
+.v2-now__empty { padding: var(--v2-space-2) 0; }
+/* 盤が右列の底に出ている間は、盤が曲名も操作も持つので、ここには二重に出さない。 */
+html[data-v2-dock="aside"] .v2-now { display: none; }
+
+/* 探すタブ。中身のある節だけが上から積まれる。空の節の高さは確保しない（2026-10-31）。 */
+.v2-discover__skeleton { display: grid; gap: 0; }
+.v2-discover__skeleton-row {
+  display: block;
+  height: 52px;
+  border-bottom: 1px solid var(--line);
+  background: linear-gradient(90deg, var(--interactive) 0 40%, transparent 40% 100%) no-repeat 0 22px / 100% 8px;
+}
+.v2-discover .v2-aside__heading {
+  margin: var(--v2-space-4) 0 var(--v2-space-1);
+  font-size: var(--type-callout-size);
+  font-weight: var(--type-control-weight);
+  line-height: var(--v2-leading-tight);
+}
+.v2-discover .v2-discover__section:first-child .v2-aside__heading { margin-top: 0; }
+.v2-discover .v2-aside__item { min-height: 52px; box-sizing: border-box; align-content: center; padding-block: var(--v2-space-2); }
+/* 検索は上端の帯にある。右列の中の検索欄は、帯の検索があるあいだ出さない。 */
+.v2__workspace:has(> .v2-titlebar .v2-titlebar__search) .v2-aside__search { display: none; }
+/* 節は上から積み、リンクの列だけが底に寄る。 */
+.v2-aside__body div:has(> .v2-discover):not([hidden]) { display: flex; flex-direction: column; min-height: 100%; }
+.v2-discover { display: flex; flex: 1 1 auto; flex-direction: column; }
+.v2-discover .v2-aside__footer { margin-top: auto; }
+.v2-discover > :not(.v2-aside__footer) { margin-bottom: var(--v2-space-5); }
+
+@media (min-width: 1280px) {
+  /* 1列型: 本文＋右列(350)＋記号の帯(52) を1つの群として中央に置く。開いているとき、および水和前の骨組みのとき。 */
+  html body .v2 .v2__workspace .v2__frame[data-measure="narrow"]:has(.v2__aside:not([hidden])),
+  html body .v2 .v2__workspace .v2__frame[data-measure="narrow"]:has(.v2__aside-strip[data-pending]) {
+    --v2-strip-w: 402px;
+  }
+  /* 幅は 350 に固定（取っ手は出さない）。 */
+  html body .v2 .v2__workspace .v2__frame[data-measure="narrow"] .v2__aside { width: 350px !important; }
+  html body .v2 .v2__workspace .v2__frame[data-measure="narrow"] .v2__aside .v2-aside__resizer { display: none; }
+
+  /* 水和前: 完成形と同じ寸法の骨組みを置いて、群の位置が動かないようにする。 */
+  html body .v2 .v2__workspace .v2__workspace .v2__frame[data-measure="narrow"] .v2__aside-slot > .v2__aside-strip[data-pending],
+  html body .v2 .v2__workspace .v2__frame[data-measure="narrow"] .v2__aside-slot > .v2__aside-strip[data-pending] {
+    position: sticky;
+    top: var(--v2-space-5);
+    right: auto;
+    z-index: auto;
+    display: block;
+    flex: none;
+    width: 350px;
+    height: calc(100dvh - var(--v2-space-5) * 2);
+    margin-right: 52px;
+    box-sizing: border-box;
+    border: 1px solid var(--line);
+    border-radius: var(--v2-radius-lg);
+    background: var(--panel);
+  }
+}
+
+.v2-aside-music > section + section { margin-top: var(--v2-space-4); }

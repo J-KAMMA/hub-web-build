@@ -1,0 +1,244 @@
+/*
+ * luxe の見た目を、マーケット・依頼・サービス・タグ・クリエイターへ広げる層（2026-10-31）。
+ * 骨組み（列の並びと幅）は変えず、v2-luxe.css の --luxe-* と --lx-* だけを使う。第二の体系は置かない。
+ *
+ *   面    本文の列だけ。見出しとタブで1枚、節・札・一覧の項目・空の状態が角丸20の --luxe-panel。
+ *         左のナビ・目録・右列・右端の帯は v2-luxe.css のとおり地の上に罫線。
+ *   金    いまの場所・主要な1つの操作（出品する・ランチャー）・選んだタブの下線の3つだけ。
+ *   字    本文は 16px / 1.7。価格は等幅。
+ *   空    空の状態は短い1行。箱を重ねない。
+ */
+
+html body .v2[data-skin="luxe"][data-skin][data-skin][data-skin][data-skin][data-skin][data-skin] {
+
+  /* ------------------------------------------------ 見出しとタブ（1枚の面） */
+  @media (min-width: 760px) {
+    & .v2__frame[data-layout="workspace"] > #hub-main.v2__main > :is(.v2-top-title, .v2__tabs-column--top, .v2-msec, .v2-market-body, .v2-account__panels, .v2-state, .v2-note, .v2-feed-tabs, .v2-feed-subnav) {
+      box-sizing: border-box;
+      width: 100%;
+      max-width: var(--v2-width-full);
+      margin-inline: auto;
+    }
+    /* 目録のタブは見出しの下半分。上のタブの帯（貼り付き・ぼかし）は面に置き換える。 */
+    & #hub-main.v2__main > .v2__tabs-column--top {
+      position: static;
+      margin-top: 0;
+      margin-bottom: var(--lx-gap);
+      border: 1px solid var(--luxe-line);
+      border-top: 0;
+      border-radius: 0 0 var(--lx-radius) var(--lx-radius);
+      background: var(--luxe-panel);
+      backdrop-filter: none;
+      -webkit-backdrop-filter: none;
+    }
+    & #hub-main.v2__main > .v2__tabs-column--top > :is(nav, ul, ol, .v2-main-directory__tools) { padding-inline: var(--lx-pad); }
+    /* 見出しだけ（タブが無い）の画面は、見出しが角丸20の1枚。 */
+    & #hub-main.v2__main:not(:has(> .v2__tabs-column--top, > .v2-feed-tabs)) > .v2-top-title {
+      margin-bottom: var(--lx-gap);
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--luxe-line);
+      border-radius: var(--lx-radius);
+    }
+  }
+  & .v2__main > .v2__tabs-column--top .v2-nav__item { color: var(--luxe-text-2); font-weight: 500; font-feature-settings: "palt"; }
+  & .v2__main > .v2__tabs-column--top .v2-nav__item:hover { background: transparent; color: var(--luxe-text); }
+  & .v2__main > .v2__tabs-column--top .v2-nav__item[aria-current="page"],
+  & .v2__main > .v2__tabs-column--top .v2-nav__item[aria-current="true"] { color: var(--luxe-text); font-weight: 600; background: transparent; }
+  & .v2__main > .v2__tabs-column--top .v2-nav__item::after { background: var(--luxe-gold); }
+
+  /* 見出しの右: 「出品する」だけが金。カートと注文は記号のボタン（罫線）。 */
+  & .v2-market-actions .ui-button--primary { background: var(--luxe-btn); color: var(--luxe-btn-text); box-shadow: var(--luxe-btn-edge); border: 1px solid var(--luxe-btn-line); font-weight: 600; }
+  & .v2-market-actions .ui-button--icon,
+  & .v2-top-title__action .v2-button:not(.v2-button--primary) { border: 1px solid var(--luxe-line-strong); background: transparent; color: var(--luxe-text-2); }
+  & .v2-market-actions .ui-button--icon:hover { background: var(--luxe-hover); color: var(--luxe-text); }
+  & .v2-top-title__action .v2-button--primary { background: var(--luxe-btn); color: var(--luxe-btn-text); box-shadow: var(--luxe-btn-edge); border: 1px solid var(--luxe-btn-line); font-weight: 600; }
+
+  /* 未ログインの「ログインすると…」の枠は、タブの面の中に積まない（ログインは左のナビと上の帯にある）。 */
+  & .v2__tabs-column--top .v2-lib:has(.v2-state--signedOut) { display: none; }
+
+  /* ------------------------------------------------ マーケットTOPの節・空の状態 */
+  & #hub-main.v2__main > .v2-msec {
+    margin: 0 0 var(--lx-gap);
+    padding: 16px var(--lx-pad);
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--lx-radius);
+    background: var(--luxe-panel);
+  }
+  & #hub-main.v2__main > .v2-msec .v2-msec__head { margin: 0 0 12px; padding: 0; border: 0; }
+  & #hub-main.v2__main > .v2-msec .v2-column__title { color: var(--luxe-text); font-size: var(--type-headline-size); line-height: 24px; font-weight: 600; }
+  & #hub-main.v2__main > .v2-msec > .v2-note { margin: 0; padding: 0; color: var(--luxe-text-2); font-size: var(--type-subhead-size); line-height: 1.7; }
+  & .v2-msec .v2-card__link { color: var(--luxe-text-2); }
+  & .v2-msec .v2-card__link:hover { color: var(--luxe-text); }
+  & .v2-msec > .v2-empty { max-width: none; padding: 0; border: 0; background: transparent; }
+  /* 空の節は1行だけ。面の高さを詰める。 */
+  & #hub-main.v2__main > .v2-msec--rest { padding-block: 12px; }
+  & #hub-main.v2__main > .v2-msec--rest .v2-msec__head { margin-bottom: 4px; }
+
+  /* 空の状態（共通）: 面の中の短い塊。 */
+  & #hub-main.v2__main > .v2-state {
+    margin-bottom: var(--lx-gap);
+    padding: 24px;
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--lx-radius);
+    background: var(--luxe-panel);
+  }
+  /* 空・未ログインは「題＋操作」の1組だけ。丸い記号と説明文は出さない（失敗の説明は残す）。 */
+  & #hub-main.v2__main > .v2-state:not(.v2-state--error) :is(.v2-state__disc, .v2-state__note) { display: none; }
+
+  /* ------------------------------------------------ 札（商品・デジタル） */
+  & :is(.physical-product-card, .digital-commerce__card) {
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--lx-radius);
+    background: var(--luxe-panel);
+    box-shadow: none;
+    transition: border-color var(--lx-fast) var(--lx-ease);
+  }
+  & :is(.physical-product-card, .digital-commerce__card):hover { border-color: var(--luxe-line-strong); }
+  & .v2-pgrid .physical-product-card h3 a:hover { color: var(--luxe-text); }
+
+  /* 検索欄は罫線の丸。絞り込みの札は罫線、選んだ札は反転（金にしない）。 */
+  & .physical-catalog__tools input,
+  & .digital-commerce input[type="search"],
+  & .services-directory__search {
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--radius-pill);
+    background: var(--luxe-panel);
+    color: var(--luxe-text);
+  }
+  & .physical-catalog__tools input:focus,
+  & .services-directory__search:focus-within { border-color: var(--luxe-line-strong); outline: none; }
+  & .physical-catalog__filters { border-bottom-color: var(--luxe-line); }
+  & .physical-catalog__filters :is(button, label) { border-color: var(--luxe-line-strong); background: transparent; color: var(--luxe-text-2); }
+
+  /* 本文の本体が面を持たないページ（購入済み・チケット）は、本文を1枚の面にまとめる。 */
+  & #hub-main.v2__main > [class*="market-ticket-system"][class*="__page"] {
+    box-sizing: border-box;
+    margin: 0 0 var(--lx-gap);
+    padding: 12px var(--lx-pad);
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--lx-radius);
+    background: var(--luxe-panel);
+  }
+  & :is([class*="purchased-library"][class*="__library"], [class*="purchased-library"][class*="__unlocks"]) {
+    box-sizing: border-box;
+    margin: 0 0 var(--lx-gap);
+    padding: 20px var(--lx-pad);
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--lx-radius);
+    background: var(--luxe-panel);
+  }
+  /* 購入済み: 面の中に面を作らず、ゲームの行は罫線だけ。ランチャーが金（このページの主操作）。 */
+  & [class*="purchased-library"][class*="__library"] { gap: 12px; }
+  & [class*="purchased-library"][class*="__gameCard"] { padding: 16px 0 0; border: 0; border-top: 1px solid var(--luxe-line); border-radius: 0; background: transparent; }
+  & [class*="purchased-library"][class*="__gameIcon"] { background: var(--luxe-hover); color: var(--luxe-text); }
+  & [class*="purchased-library"][class*="__launchButton"] { border: 1px solid var(--luxe-btn-line); border-radius: var(--radius-pill); background: var(--luxe-btn); color: var(--luxe-btn-text); box-shadow: var(--luxe-btn-edge); }
+  & [class*="purchased-library"][class*="__launchButton"]:hover:not(:disabled) { background: var(--action-hover); }
+  & [class*="purchased-library"][class*="__backLink"] { color: var(--luxe-text-2); font-weight: 500; }
+  & [class*="purchased-library"][class*="__intro"] { color: var(--luxe-text-2); line-height: 1.7; }
+  & [class*="purchased-library"][class*="__boundary"] { border-top-color: var(--luxe-line); color: var(--luxe-text-3); }
+  & [class*="purchased-library"][class*="__helper"] { color: var(--luxe-text-3); }
+  /* 主操作は1つ。ページの中に金のボタンがあるときは、見出しの「出品する」を罫線に戻す。 */
+  & #hub-main.v2__main:has([class*="__launchButton"], [class*="market-ticket-system"][class*="__empty"] .ui-button--primary) .v2-market-actions .ui-button--primary {
+    background: transparent;
+    border: 1px solid var(--luxe-line-strong);
+    color: var(--luxe-text-2);
+    font-weight: 500;
+  }
+  /* チケット: 空のときは「題＋ボタン」の1組だけ。導入文と説明は出さない。 */
+  & [class*="market-ticket-system"][class*="__page"]:has([class*="__empty"]) [class*="__hero"],
+  & [class*="market-ticket-system"][class*="__empty"] > p { display: none; }
+  & [class*="market-ticket-system"][class*="__empty"] {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    min-height: 0;
+    padding: 4px 0;
+    border: 0;
+    background: transparent;
+    text-align: left;
+  }
+  & [class*="market-ticket-system"][class*="__empty"] > strong { color: var(--luxe-text-2); font-weight: 500; }
+  & [class*="market-ticket-system"][class*="__empty"] .ui-button--primary { background: var(--luxe-btn); color: var(--luxe-btn-text); box-shadow: var(--luxe-btn-edge); border: 1px solid var(--luxe-btn-line); }
+  & [class*="market-ticket-system"][class*="__list"] { margin: 0; padding: 0; border: 0; background: transparent; }
+
+  /* ------------------------------------------------ すべての機能（サービス） */
+  & .services-directory { padding: 0; background: transparent; }
+  & .services-directory__header { margin: 0 0 var(--lx-gap); padding: 0 4px; }
+  & .services-directory__header p { color: var(--luxe-text-2); line-height: 1.7; }
+  /* 共通の検索欄の規則は --search-* を !important で読むので、値のほうを luxe に向ける。 */
+  & :is(.services-directory__search, .physical-catalog__tools .market-search, .digital-commerce .market-search) {
+    --search-surface: var(--luxe-panel);
+    --search-border-color: var(--luxe-line);
+    --search-radius: var(--radius-pill);
+  }
+  & .services-directory__search { min-height: 44px; padding: 0 16px; border-radius: var(--radius-pill); }
+  & .services-directory__search svg { color: var(--luxe-text-3); }
+  & .services-directory__search input { color: var(--luxe-text); }
+  & .services-directory__search input::placeholder { color: var(--luxe-text-3); }
+  /* 目的の札は罫線の丸。選んだものだけ反転。 */
+  & .services-directory__purposes { display: flex; flex-wrap: wrap; gap: 8px; max-width: none; margin: 0 0 var(--lx-gap); }
+  & .services-directory__purposes button {
+    display: inline-flex;
+    align-items: center;
+    min-height: 36px;
+    padding: 0 14px;
+    border: 1px solid var(--luxe-line-strong);
+    border-radius: var(--radius-pill);
+    background: transparent;
+    color: var(--luxe-text-2);
+    transition: background var(--lx-fast) var(--lx-ease), color var(--lx-fast) var(--lx-ease);
+  }
+  & .services-directory__purposes button small { display: none; }
+  & .services-directory__purposes button strong { font-size: var(--type-subhead-size); font-weight: 500; }
+  & .services-directory__purposes button:hover { background: var(--luxe-hover); color: var(--luxe-text); }
+  & .services-directory__purposes button[aria-pressed="true"] { border-color: var(--luxe-text); background: var(--luxe-text); color: var(--luxe-canvas); }
+  /* 札は間を空けた角丸20。 */
+  & .services-directory :is(.services-directory__frequent, .services-directory__groups, .services-directory__mine) { max-width: none; margin: 0; gap: var(--lx-gap); }
+  & .services-directory :is(.services-directory__frequent, .services-directory__group) h2 { color: var(--luxe-text); font-size: var(--type-headline-size); line-height: 24px; font-weight: 600; }
+  & .services-directory__grid { gap: var(--lx-gap); border: 0; }
+  & .services-directory__card {
+    min-height: 0;
+    overflow: hidden;
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--lx-radius);
+    background: var(--luxe-panel);
+    transition: border-color var(--lx-fast) var(--lx-ease);
+  }
+  & .services-directory__card:hover { border-color: var(--luxe-line-strong); }
+  & .services-directory__card > a:hover { background: transparent; }
+  & .services-directory__icon { background: var(--luxe-hover); }
+  & .services-directory__card-copy strong { color: var(--luxe-text); font-size: var(--type-callout-size); font-weight: 600; }
+  & .services-directory__card-copy small { color: var(--luxe-text-2); line-height: 1.7; }
+  & .services-directory__pin[aria-pressed="true"] { color: var(--luxe-gold); }
+  /* 切り替えは下線の見出し。選んだ側だけ金の下線。 */
+  & .services-directory__tabs { display: flex; gap: 24px; max-width: none; margin: var(--lx-gap) 0; padding: 0; border: 0; border-bottom: 1px solid var(--luxe-line); border-radius: 0; background: transparent; }
+  & .services-directory__tabs button { flex: 0 0 auto; min-height: 48px; padding: 0; color: var(--luxe-text-2); font-weight: 500; }
+  & .services-directory__tabs button:hover { color: var(--luxe-text); }
+  & .services-directory__tabs button[aria-selected="true"] { border-bottom-color: var(--luxe-gold); color: var(--luxe-text); font-weight: 600; }
+  /* 空の状態は短い1行。 */
+  & .services-directory__empty { min-height: 0; padding: 20px 0; border: 0; background: transparent; }
+  & .services-directory .ui-state { padding: 20px 0; border: 0; background: transparent; }
+  & .services-directory .ui-state__mark { display: none; }
+
+  /* ------------------------------------------------ 目録の無い画面でも右列は地の上に罫線 */
+  @media (min-width: 760px) {
+    & .v2__workspace .v2__frame:not([data-nav]) :is(.v2__aside, .v2__aside-strip) {
+      border: 0;
+      border-left: 1px solid var(--luxe-line);
+      border-radius: 0;
+      background: var(--luxe-canvas);
+      box-shadow: none;
+    }
+  }
+
+  /* ------------------------------------------------ 携帯 */
+  @media (max-width: 759px) {
+    & .v2__workspace .v2__main > .v2__tabs-column--top.v2__tabs-column--mobile { border-bottom: 1px solid var(--luxe-line); background: transparent; }
+    & #hub-main.v2__main > .v2-msec,
+    & #hub-main.v2__main > [class*="market-ticket-system"][class*="__page"],
+    & :is([class*="purchased-library"][class*="__library"], [class*="purchased-library"][class*="__unlocks"]) { padding: 14px 16px; }
+    & .services-directory__purposes { flex-wrap: nowrap; overflow-x: auto; }
+    & .services-directory__purposes button { flex: none; }
+  }
+}

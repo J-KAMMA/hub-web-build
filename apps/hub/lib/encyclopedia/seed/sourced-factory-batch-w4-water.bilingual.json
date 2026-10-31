@@ -1,0 +1,1901 @@
+[
+  {
+    "slug": "streamflow",
+    "topicType": "concept",
+    "categoryLabel": "地球・環境",
+    "title": "河川流量",
+    "summary": "河川流量は、河川のある地点を単位時間あたりに通過する水の量で、立方フィート毎秒やガロン毎日で表され、「discharge（流量）」も同義語として使われる。米国地質調査所（USGS）は水位の連続観測と定期的な流量測定から水位流量関係曲線を作り、全国の量水標網で流量を推定している。流域に降る降水由来の流出が流量の最大の支配因子であり、その情報は洪水予測や水管理に使われる。",
+    "bodyMarkdown": "## 定義と水循環での位置づけ\n\n河川流量（streamflow）は、河川を流れる水の量を指す言葉であり、「discharge（流量）」も同じ意味で使われる。より厳密には、流量は河川や流れを単位時間あたりに流下する水の体積であり、一般に立方フィート毎秒やガロン毎日で表される。流量は横断面内の水の面積にその断面の平均流速を掛けて求められ、「流量＝面積×流速」と表せる。 [1][2]\n\n地表に降った[降水](/hubpedia/precipitation)は、地下へ浸透するか表面流出となって下流へ向かい、その多くは小川や河川に集まって海へ流下するため、河川流量は[水循環](/hubpedia/water-cycle)において水を海へ戻す経路の一つである。流量を支配する最大の因子は[流域](/hubpedia/watershed)内の降水由来の流出であり、流域のはるか上流だけに雨が降った場合でも河川は増水しうる。 [3][4]\n\n地球上の淡水のうち河川の流水が占める割合は約0.006パーセントにすぎない。それでも河川水は飲料水供給、灌漑、発電、輸送などに利用され、河床を通じて下向きに水を排出し、地下の[帯水層](/hubpedia/aquifer)を満たす川もある。 [5][6]\n\n## 水位と流量の測定\n\n流量を連続的に直接測ることは現実的でないため、量水標ではまず水位（ステージ、ゲージハイトとも呼ばれる）を連続的に観測する。水位とは、ステージがゼロと定められた基準標高から測った水面の高さであり、ゼロ点は河床の近くに置かれることが多い。 [7]\n\n水位の測定には、河岸や橋脚に設ける静水井、バブルシステム、ワイヤー重錘量水標が主に使われる。静水井は水中パイプで川とつながり、井内の水面が川の水面と同じ高さになる構造である。井戸の設置が不可能な地点では、加圧した窒素や空気を水中の孔口から気泡として放出させるのに必要な圧力から水深を求めるバブルシステムが使われる。 [8][9]\n\n流量そのものは現地で定期的に実測する。河道断面を多数の縦の小区間に分け、各小区間の幅と水深から面積を求め、流速計で流速を測って区間流量を計算し、それらを合算して全流量を得る。通常、河川を横断する25〜30の等間隔の地点で測定が行われる。 [10] 近年は音響ドップラー流速プロファイラー（ADCP）も使われる。ドップラー効果の原理で流速を測り、舟や小型船に載せて河川表面を横断しながら、断面全体の流速・水深・幅から流量を計算する。 [11]\n\n## 水位流量関係と連続記録\n\n連続記録の水位を流量へ変換する道具が水位流量関係（レーティング曲線）である。機械式流速計やADCPで広い水位範囲にわたり流量を実測し、各流量測定と対応する水位の組から関係を定める。USGSは多くの量水標で6〜8週間ごとに流量測定を行い、頻度の低い極端な高水位・低水位の測定にも特に努める。 [12]\n\n水位流量関係は量水標地点の河道の形状・大きさ・勾配・粗度に依存し、量水標ごとに異なる。河床材料の侵食や堆積、季節的な植生の成長、漂着物、氷によって河道は絶えず変化するため、関係は継続的な流量測定に照らして検証・修正される。 [13]\n\n多くのUSGS量水標は水位データを衛星経由でUSGSのコンピューターに送信し、そこで水位流量関係を使って流量が推定される。得られた水位と流量の情報は「Water Data for the Nation」を通じてほぼリアルタイムでオンライン公開されている。 [14]\n\n## 量水標網の歴史と運用\n\nUSGSは1889年にニューメキシコ州のリオグランデ川に最初の量水標を設置した。目的は、新たな開発と西部開拓を支えるのに十分な灌漑用水があるかを調べることだった。 [15] 現在、USGSは8,200を超える連続記録量水標を運用し、[洪水](/hubpedia/flood)予測、水の管理と配分、工学設計、研究、水門とダムの運用、レクリエーションの安全と利用のために流量情報を提供している。 [16]\n\nUSGSの量水標の水位測定は、最も近い0.01フィートまたは水位の0.2パーセントのいずれか大きい方の精度で行われる。量水標構造物は洪水で損傷したり経年で沈下したりすることがあるため、構造物と水位測定の標高は近くの永久水準標に対して定期的に測量され、一定の基準標高を維持している。 [17]\n\n## 流量の変動と河川の意義\n\n流量は日単位でも分単位でも変動する。ジョージア州アトランタのピーチツリー・クリークでは、2002年12月24日の約2インチの降雨で、基流時の約50立方フィート毎秒だった流量が数時間後には6,000立方フィート毎秒を超え、基流時の約150倍の水が流れた。 [18] 2003年5月6日の洪水では水位が17.77フィートに達し、対応する瞬間流量は6,960立方フィート毎秒に相当した。 [19]\n\n河川の応答の速さは流域の大きさに左右される。小さな流域では嵐一つで基流時の約100倍の水が毎分流れ、河川は数分から数時間で増減するが、大河は増減に数日かかり、洪水が数日続くこともある。 [20]",
+    "sources": [
+      {
+        "url": "https://www.usgs.gov/water-science-school/science/streamflow-and-water-cycle",
+        "title": "Streamflow and the Water Cycle",
+        "publisher": "U.S. Geological Survey",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits"
+          },
+          "notes": "Streamflow definition and synonym discharge, runoff path to oceans, watershed influence, river uses and share of freshwater, and storm streamflow examples. Publisher policy read 2026-08-28: USGS-authored material is public domain and usable commercially; credit is requested. The USGS identifier is trademarked. Non-USGS photographs and graphics on the site are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.usgs.gov/water-science-school/science/how-streamflow-measured",
+        "title": "How Streamflow is Measured",
+        "publisher": "U.S. Geological Survey",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits"
+          },
+          "notes": "Stage and discharge definitions, stilling wells, current-meter and ADCP measurements, stage-discharge relation, streamgage network history and accuracy. Publisher policy read 2026-08-28: USGS-authored material is public domain and usable commercially; credit is requested. The USGS identifier is trademarked. Non-USGS photographs and graphics on the site are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.usgs.gov/water-science-school/science/how-does-usgs-collect-streamflow-data",
+        "title": "How Does the USGS Collect Streamflow Data?",
+        "publisher": "U.S. Geological Survey",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits"
+          },
+          "notes": "Four-step streamflow data collection: gage site, water-level measurement by stilling well, bubble system or wire-weight gage, discharge measurement, and rating curve. Publisher policy read 2026-08-28: USGS-authored material is public domain and usable commercially; credit is requested. The USGS identifier is trademarked. Non-USGS photographs and graphics on the site are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Streamflow",
+        "summary": "Streamflow is the amount of water flowing in a river, also called discharge, commonly expressed in cubic feet per second or gallons per day. The U.S. Geological Survey (USGS) estimates streamflow by recording stage continuously and converting it through a stage-discharge relation developed from periodic discharge measurements. Precipitation runoff in the watershed is the dominant control on streamflow, and the resulting data support flood prediction and water management.",
+        "bodyMarkdown": "## Definition and place in the water cycle\n\nStreamflow refers to the amount of water flowing in a river, and the word \"discharge\" is used to mean the same thing. More precisely, discharge is the volume of water moving down a stream or river per unit of time, commonly expressed in cubic feet per second or gallons per day. It is generally computed by multiplying the area of water in a channel cross section by the average velocity of the water in that cross section — discharge equals area times velocity. [1][2]\n\nWhen [precipitation](/hubpedia/precipitation) reaches the land, it either soaks into the ground or runs downhill as surface runoff, and much of that runoff collects in creeks, streams, and rivers that flow toward the oceans, so streamflow is one path by which the [water cycle](/hubpedia/water-cycle) returns water to the sea. By far the greatest influence on streamflow is precipitation runoff in the [watershed](/hubpedia/watershed), and a river can rise even when rain falls only far up in the watershed. [3][4]\n\nRivers hold only about 0.006 percent of Earth's freshwater. Even so, people use river water for drinking-water supply, irrigation, electricity generation, and transport, and some streams even recharge the underground [aquifers](/hubpedia/aquifer) by discharging water downward through their streambeds. [5][6]\n\n## Measuring stage and discharge\n\nBecause continuously measuring discharge directly is impractical, a streamgage first records stage — also called gage height — continuously. Stage is the height of the water surface above an established altitude where the stage is zero, and that zero level is often close to the streambed. [7]\n\nStage is most commonly measured with a stilling well set into the river bank or attached to a bridge pier, a bubble system, or a wire-weight gage. A stilling well is connected to the stream by underwater pipes so the water surface in the well matches the river's surface. Where a well is not feasible, a bubble system derives water depth from the pressure needed to push pressurized nitrogen or air out of a submerged orifice. [8][9]\n\nDischarge itself is measured periodically in the field. The stream channel cross section is divided into numerous vertical subsections; the area of each subsection is obtained from width and depth, velocity is measured with a current meter, and the subsection discharges are summed for the total. A river is usually measured at 25 to 30 regularly spaced locations across it. [10] In recent years an Acoustic Doppler Current Profiler (ADCP) has also been used: it applies the Doppler effect to measure water velocity and is guided across the river surface on a boat, computing discharge from velocity, depth, and width across the channel. [11]\n\n## The stage-discharge relation\n\nConverting a continuous stage record to discharge relies on the stage-discharge relation, or rating curve. It is developed by physically measuring river flow with a mechanical current meter or ADCP over a wide range of stages, pairing each discharge measurement with its stage. The USGS makes discharge measurements at most streamgages every 6 to 8 weeks, with special effort at the rarely occurring extremely high and low stages. [12]\n\nThe relation depends on the shape, size, slope, and roughness of the channel at the streamgage and differs for every site. Because stream channels constantly change through erosion or deposition of streambed materials, seasonal vegetation growth, debris, or ice, the relation must be continually checked against ongoing discharge measurements and adjusted. [13]\n\nMost USGS streamgages transmit stage data by satellite to USGS computers, where the stage-discharge relation is used to estimate streamflow. The resulting stage and streamflow information is available online in near real time through Water Data for the Nation. [14]\n\n## History and operation of the streamgage network\n\nThe USGS started its first streamgage in 1889 on the Rio Grande River in New Mexico to help determine whether adequate water existed for irrigation to encourage new development and western expansion. [15] It now operates over 8,200 continuous-record streamgages providing streamflow information for [flood](/hubpedia/flood) prediction, water management and allocation, engineering design, research, operation of locks and dams, and recreational safety and enjoyment. [16]\n\nUSGS streamgages measure stage to the nearest 0.01 foot or 0.2 percent of stage, whichever is greater. Because streamgage structures can be damaged by floods or settle over time, their elevations are routinely surveyed relative to permanent benchmarks near the streamgage so that stage is measured above a constant reference elevation. [17]\n\n## Streamflow variability and why rivers matter\n\nStreamflow changes from day to day and even minute to minute. At Peachtree Creek in Atlanta, Georgia, about two inches of rainfall on December 24, 2002 raised streamflow from a baseflow of about 50 cubic feet per second to over 6,000 cubic feet per second within a few hours — about 150 times the baseflow amount. [18] In the flood of May 6, 2003, the creek reached a stage of 17.77 feet with a corresponding instantaneous streamflow of 6,960 cubic feet per second. [19]\n\nHow fast a river responds depends on watershed size. In a small watershed a storm can send about 100 times the base-period flow past each minute and the river rises and falls within minutes to hours, while large rivers may take days to rise and fall and flooding can last for days. [20]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "河川流量（streamflow）は河川を流れる水の量を指し、「discharge（流量）」も同じ意味で使われる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/streamflow-and-water-cycle",
+              "quote": "We use the term \"streamflow\" to refer to the amount of water flowing in a river. Sometimes you'll also see the word \"discharge\" used to mean the same thing."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "流量は河川を単位時間あたりに流下する水の体積で、一般に立方フィート毎秒やガロン毎日で表され、横断面の水の面積に平均流速を掛けて求められる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/how-streamflow-measured",
+              "quote": "Discharge is the volume of water moving down a stream or river per unit of time, commonly expressed in cubic feet per second or gallons per day."
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/how-streamflow-measured",
+              "quote": "river discharge is computed by multiplying the area of water in a channel cross section by the average velocity of the water in that cross section"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "流出水の多くは小川や河川に集まり、下流へ向かって海へ流下する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/streamflow-and-water-cycle",
+              "quote": "A lot of runoff ends up in creeks, streams, and rivers, flowing downhill towards the oceans."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "流量を支配する最大の因子は流域内の降水由来の流出であり、流域のはるか上流だけに雨が降った場合でも河川は増水しうる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/streamflow-and-water-cycle",
+              "quote": "the main influence on streamflow is precipitation runoff in the watershed. Rainfall causes rivers to rise, and a river can even rise if it only rains very far up in the watershed"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "地球上の淡水のうち河川の流水が占める割合は約0.006パーセントにすぎない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/streamflow-and-water-cycle",
+              "quote": "about 0.002 percent of all Earth's water is contained in rivers, and only 0.006 percent of the world's freshwater is in rivers"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "河川水は飲料水供給・灌漑・発電・輸送などに利用され、河床を通じて下向きに水を排出して地下の帯水層を満たす川もある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/streamflow-and-water-cycle",
+              "quote": "people use river water to supply drinking-water, irrigate crops, produce electricity"
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/streamflow-and-water-cycle",
+              "quote": "Some streams even help keep the aquifers underground full of water by discharging water downward through their streambeds."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "水位（ステージまたはゲージハイト）は、ステージがゼロと定められた基準標高から測った水面の高さであり、ゼロ点は河床の近くに置かれることが多い。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/how-streamflow-measured",
+              "quote": "Stream stage (also called stage or gage height) is the height of the water surface, in feet, above an established altitude where the stage is zero. The zero level is arbitrary but is often close to the streambed."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "静水井は水中パイプで川とつながり、井内の水面が川の水面と同じ高さになる構造である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/how-streamflow-measured",
+              "quote": "a stilling well dug into the river bank or attached to a bridge pier. Water from the river enters and leaves the stilling well through underwater pipes allowing the water surface in the stilling well to be at the same elevation as the water surface in the river."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "水位は静水井・バブルシステム・ワイヤー重錘量水標で測られ、バブルシステムは加圧ガスを水中の孔口から放出させるのに必要な圧力から水深を求める。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/how-does-usgs-collect-streamflow-data",
+              "quote": "The gage height (or stage) of a river most commonly is measured through the use of a stilling well, a bubble system, or a wire-weight gage."
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/how-does-usgs-collect-streamflow-data",
+              "quote": "pressurized gas (usually nitrogen or air) is forced through the pipe from inside the gage house and out a submerged opening called an orifice. The pressure in the pipe is determined by how deep the water is over the orifice."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "流量の実測では河道断面を多数の縦の小区間に分けて各区間流量を合算し、通常25〜30の等間隔の地点で測定が行われる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/how-streamflow-measured",
+              "quote": "a river or stream will be measured at 25 to 30 regularly spaced locations across the river or stream"
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/how-streamflow-measured",
+              "quote": "the stream channel cross section is divided into numerous vertical subsections"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "音響ドップラー流速プロファイラー（ADCP）はドップラー効果の原理で流速を測り、河川表面を横断しながら断面の流速・水深・幅から流量を計算する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/how-streamflow-measured",
+              "quote": "An ADCP uses the principles of the Doppler Effect to measure the velocity of water."
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/how-streamflow-measured",
+              "quote": "The ADCP is then guided across the surface of the river to obtain measurements of velocity and depth across the channel."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "水位流量関係は広い水位範囲の流量実測と対応する水位の組から定められ、USGSは多くの量水標で6〜8週間ごとに流量測定を行う。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/how-streamflow-measured",
+              "quote": "Stage-discharge relations are developed for streamgages by physically measuring the flow of the river with a mechanical current meter or ADCP at a wide range of stages"
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/how-streamflow-measured",
+              "quote": "The USGS makes discharge measurements at most streamgages every 6 to 8 weeks"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "水位流量関係は河道の形状・大きさ・勾配・粗度に依存し地点ごとに異なり、河床材料の侵食・堆積や季節的植生、漂着物、氷による河道変化のため継続的に検証される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/how-streamflow-measured",
+              "quote": "The stage-discharge relation depends upon the shape, size, slope, and roughness of the channel at the streamgage and is different for every streamgage."
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/how-streamflow-measured",
+              "quote": "Changes in stream channels are often caused by erosion or deposition of streambed materials, seasonal vegetation growth, debris, or ice."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "多くのUSGS量水標は水位データを衛星経由で送信し、水位流量関係から推定された流量がほぼリアルタイムでオンライン公開される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/how-streamflow-measured",
+              "quote": "Most USGS streamgages transmit stage data by satellite to USGS computers where the stage data are used to estimate streamflow using the developed stage-discharge relation"
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/how-streamflow-measured",
+              "quote": "available online in near real time through Water Data for the Nation"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "USGSは1889年にニューメキシコ州のリオグランデ川に最初の量水標を設置し、灌漑用水が十分かを調べて新たな開発と西部開拓を支えることを目的とした。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/how-streamflow-measured",
+              "quote": "started its first streamgage in 1889 on the Rio Grande River in New Mexico to help determine if there was adequate water for irrigation purposes to encourage new development and western expansion"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "USGSは8,200を超える連続記録量水標を運用し、洪水予測、水の管理と配分、工学設計、研究、水門とダムの運用、レクリエーションの安全に流量情報を提供している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/how-streamflow-measured",
+              "quote": "The USGS operates over 8,200 continuous-record streamgages that provide streamflow information for a wide variety of uses including flood prediction, water management and allocation, engineering design, research, operation of locks and dams, and recreational safety and enjoyment."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "USGS量水標の水位測定は最も近い0.01フィートまたは水位の0.2パーセントのいずれか大きい方の精度で行われ、構造物の標高は永久水準標に対して定期的に測量される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/how-streamflow-measured",
+              "quote": "Streamgages operated by the USGS provide stage measurements that are accurate to the nearest 0.01 foot or 0.2 percent of stage, whichever is greater."
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/how-streamflow-measured",
+              "quote": "the elevations of streamgage structures, and the associated stage measurement, are routinely surveyed relative to permanent elevation benchmarks near the streamgage"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "ピーチツリー・クリークでは2002年12月24日の降雨で基流時の約50立方フィート毎秒から数時間後に6,000立方フィート毎秒を超え、約150倍の水が流れた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/streamflow-and-water-cycle",
+              "quote": "the baseflow was about 50 ft3/s before the river started to rise, but that just a few hours later, at 9:00 AM streamflow was over 6, 000 ft3/s - that is about 150 times the amount of water flowing by as during baseflow conditions"
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "2003年5月6日の洪水ではピーチツリー・クリークの水位が17.77フィートに達し、対応する瞬間流量は6,960立方フィート毎秒だった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/streamflow-and-water-cycle",
+              "quote": "The flood peaked that day at 7:30 PM Eastern Time in the evening, when the stream stage reached 17.77 feet with a corresponding instantaneous streamflow of 6,960 cfs."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "小さな流域では嵐一つで基流時の約100倍の水が毎分流れ河川は数分から数時間で増減するが、大河は増減に数日かかることがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/streamflow-and-water-cycle",
+              "quote": "In a small watershed, a storm can cause 100 times as much water to flow by each minute as during base-periods, but the river will rise and fall possibly in a matter of minutes and hours. Large rivers may take days to rise and fall"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "water-quality",
+    "topicType": "concept",
+    "categoryLabel": "地球・環境",
+    "title": "水質",
+    "summary": "水質は、選択された物理的・化学的・生物学的特性に基づいて、特定の用途への水の適合性を測る指標である。米国地質調査所（USGS）や各機関は水温・pH・溶存酸素・電気伝導度・濁度などを現場と研究室で測定し、数値基準やガイドラインと比較して用途ごとの適否を判断する。自然のプロセスに加え、都市化・農業・鉱業などの人間活動が水質を変化させる。",
+    "bodyMarkdown": "## 定義と評価の手順\n\n水質（water quality）は、選択された物理的・化学的・生物学的な特性に基づいて、特定の用途への水の適合性を測るものと考えられる。泥や汚れを含む水でもトマトの苗には構わなくても、飲料には適さないというように、水質は用途との関係で評価される概念である。 [1]\n\n水質を判定するには、まず水温・溶存鉱物量・細菌数などの特性を測定・分析し、選んだ特性を数値基準やガイドラインと比較して、その水が特定の用途に適するかを判断する。測定の一部、水温・酸性度（pH）・溶存酸素・電気伝導度（水中の溶存鉱物の間接指標）は河川や井戸の現場で行え、個別の化学物質の分析は一般に研究室で行われる。 [2][3]\n\n## 主な測定項目\n\npHは水の酸性・塩基性の度合いを表す指標で、0から14の範囲を取り、7が中性、7未満が酸性、7超が塩基性である。対数目盛で表され、pH5の水はpH6の水の10倍の酸性を持つ。水中の化学物質に左右されるため、化学的に変化しつつある水の重要な指標となる。 [4][5]\n\n溶存酸素（DO）は、水に溶けた酸素の量、すなわち水生生物が利用できる酸素量の尺度である。水に実際に溶けている酸素は、水100万分子あたり最大約10分子とごくわずかで、主に大気から河川に入り、魚類や浮遊動物が生存に必要とする。冷水は温水より多くの溶存酸素を保持できるため、水温の低い冬から初春に濃度が高くなる季節変動を持つ。 [6][7][8]\n\n濁度は液体の相対的な透明度の尺度で、試料に光を通したときに水中の物質が散乱させる光の量を測る光学特性である。粘土・シルト・微細な有機無機物・藻類・プランクトンなどが濁りの原因となり、比濁計濃度単位（NTU）で報告され、基流時の多くの河川は10NTU未満と澄んでいる。 [9][10]\n\n## 自然プロセスによる変化\n\n天然水の水質は、場所・季節・気候・水が通過する土壌や岩石の種類によって変わる。[降水](/hubpedia/precipitation)が陸上を流れ地中を通る間、水は岩石や土壌の鉱物を溶かし、根や葉などの有機物の中を浸透し、藻類や細菌などの微生物と反応する。また植物の残骸や砂・シルト・粘土などの[堆積物](/hubpedia/sediment)を河川へ運んで水を濁らせ、湖や河川から水が[蒸発](/hubpedia/evaporation)すると残った水の溶存鉱物が濃縮される。 [11]\n\n水中で最も一般的な溶存物質は、総称して溶存固形物と呼ばれる鉱物や塩類で、カルシウム・ナトリウム・炭酸水素塩・塩化物、窒素やリンなどの植物栄養素、セレン・クロム・ヒ素などの微量元素を含む。一般的な成分は健康に有害とはみなされないが、植物栄養素と微量元素は基準を超えると人の健康や水生生物に有害となりうる。 [12][13]\n\n## 人間活動による変化\n\n都市・産業開発、農業、鉱業、化石燃料の燃焼、河道改変、家畜飼育などの人間活動は、天然水の水質を変化させる。作物や芝生に施された窒素・リン肥料は雨水や雪解け水に容易に溶け、[表面流出](/hubpedia/surface-runoff)で河川や湖へ運ばれた過剰な栄養素は藻類の繁茂を招き、水中の酸素低下と魚の大量死の可能性につながる。ミシシッピ川とアチャファラヤ川の栄養素に富む放流水は藻類ブルームを刺激し、死んだ藻を食べる細菌が深層水の酸素を枯渇させるため、メキシコ湾北部では季節的にほとんどの生物を支えられない「デッドゾーン」が形成され、溶存酸素が2mg/L未満の水は低酸素（hypoxic）と定義される。 [14][15][22]\n\n医薬品・ドライクリーニング溶剤・ガソリンなど都市・産業活動で使われる化学物質が河川や[地下水](/hubpedia/groundwater)で検出されており、数十年使われた農薬も河川と地下水に広く存在するが、健康保護のための基準を超えることは稀である。使用停止から20〜30年経った農薬も魚や河床堆積物から検出され、水中では化学物質が通常混合物として見つかるが、混合物に対する健康基準はまだ定められていない。 [16][17]\n\n## 病原体と基準・情報公開\n\n飲料水の安全性は化学分析だけでは保証できず、人や動物の腸管に通常存在する細菌の存在は、病原性の病原体がいる可能性を示す。病原体は漏れた浄化槽・下水処理場の放流・動物の排泄物から水に入り、ジアルジアやクリプトスポリジウムは公共給水で見つかり、一部地域で多数の人々の病気を引き起こしたことがある。 [18][19]\n\n基準とガイドラインは、飲用・レクリエーション・農業灌漑・水生生物の保護維持といった指定用途の水を守るために設けられ、米国環境保護庁（USEPA）と州が、健康リスクが示された物質の基準を定める責任を持つ。USEPAは公共給水事業者に、水質データを年次で分かりやすい形式で公開するよう義務づけている。 [20][21]",
+    "sources": [
+      {
+        "url": "https://pubs.usgs.gov/fs/fs-027-01/",
+        "title": "A Primer on Water Quality",
+        "publisher": "U.S. Geological Survey",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits"
+          },
+          "notes": "USGS Fact Sheet 027-01 defining water quality, measurement procedure, standards and guidelines, natural and human influences, dissolved solids, pesticides, and pathogens. Publisher policy read 2026-08-28: USGS-authored material is public domain and usable commercially; credit is requested. The USGS identifier is trademarked. Non-USGS photographs and graphics on the site are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.usgs.gov/water-science-school/science/ph-and-water",
+        "title": "pH and Water",
+        "publisher": "U.S. Geological Survey",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits"
+          },
+          "notes": "pH definition, the 0-14 logarithmic scale, effects on solubility and toxicity, and pH as an indicator of chemically changing water. Publisher policy read 2026-08-28: USGS-authored material is public domain and usable commercially; credit is requested. The USGS identifier is trademarked. Non-USGS photographs and graphics on the site are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.usgs.gov/water-science-school/science/dissolved-oxygen-and-water",
+        "title": "Dissolved Oxygen and Water",
+        "publisher": "U.S. Geological Survey",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits"
+          },
+          "notes": "Dissolved oxygen definition, atmospheric and groundwater sources, temperature dependence, eutrophication, hypoxia and the Gulf dead zone. Publisher policy read 2026-08-28: USGS-authored material is public domain and usable commercially; credit is requested. The USGS identifier is trademarked. Non-USGS photographs and graphics on the site are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.usgs.gov/water-science-school/science/turbidity-and-water",
+        "title": "Turbidity and Water",
+        "publisher": "U.S. Geological Survey",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits"
+          },
+          "notes": "Turbidity definition as scattered light, causative materials, NTU reporting, storm effects, and pollution-indicator and health roles. Publisher policy read 2026-08-28: USGS-authored material is public domain and usable commercially; credit is requested. The USGS identifier is trademarked. Non-USGS photographs and graphics on the site are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Water Quality",
+        "summary": "Water quality is a measure of the suitability of water for a particular use based on selected physical, chemical, and biological characteristics. Scientists at the U.S. Geological Survey (USGS) and partner agencies measure temperature, pH, dissolved oxygen, electrical conductance, and turbidity in the field and laboratory, then compare the results with numeric standards and guidelines. Natural processes and human activities such as urbanization, farming, and mining all change water quality.",
+        "bodyMarkdown": "## Definition and how suitability is judged\n\nWater quality can be thought of as a measure of the suitability of water for a particular use based on selected physical, chemical, and biological characteristics. Water full of dirt and grime might work fine for a tomato plant yet be unfit to drink, so quality is judged in relation to the intended use. [1]\n\nTo determine water quality, scientists first measure and analyze characteristics such as temperature, dissolved mineral content, and number of bacteria, then compare the selected characteristics to numeric standards and guidelines to decide whether the water suits a use. Some measurements — temperature, acidity (pH), dissolved oxygen, and electrical conductance, an indirect indicator of dissolved minerals — can be made right at the stream or well, while analyses of individual chemicals are generally done at a laboratory. [2][3]\n\n## Principal measurements\n\npH measures how acidic or basic water is on a range from 0 to 14, with 7 neutral; below 7 indicates acidity and above 7 a base. It is reported in logarithmic units, so water at pH 5 is ten times as acidic as water at pH 6, and because chemicals in the water can shift it, pH is an important indicator of water that is changing chemically. [4][5]\n\nDissolved oxygen (DO) measures how much oxygen is dissolved in the water — the amount available to living aquatic organisms. Only a small amount, up to about ten oxygen molecules per million of water, is actually dissolved; it enters a stream mainly from the atmosphere and is needed by fish and zooplankton to survive. Because cold water holds more dissolved oxygen than warm water, concentrations are high in winter and early spring when temperatures are low. [6][7][8]\n\nTurbidity is the measure of relative clarity of a liquid — an optical characteristic quantifying the light scattered by material in the water when a light is shined through the sample. Clay, silt, tiny inorganic and organic matter, algae, and plankton cause turbidity, which is reported in nephelometric turbidity units (NTU); during base flow many rivers are clear, usually less than 10 NTU. [9][10]\n\n## Change by natural processes\n\nNatural water quality varies from place to place, with the seasons, with climate, and with the soils and rocks through which water moves. As [precipitation](/hubpedia/precipitation) travels over land and through the ground, water dissolves minerals in rocks and soil, percolates through organic material such as roots and leaves, and reacts with algae, bacteria, and other microscopic organisms. It also carries plant debris and [sediment](/hubpedia/sediment) such as sand, silt, and clay to rivers, making the water appear muddy or turbid, and when water [evaporates](/hubpedia/evaporation) from lakes and streams the dissolved minerals left behind become more concentrated. [11]\n\nThe most common dissolved substances in water are minerals and salts grouped as dissolved solids, including calcium, sodium, bicarbonate, and chloride; plant nutrients such as nitrogen and phosphorus; and trace elements such as selenium, chromium, and arsenic. Common constituents are not generally considered harmful to health, but plant nutrients and trace elements can harm human health and aquatic life if they exceed standards or guidelines. [12][13]\n\n## Change by human activities\n\nUrban and industrial development, farming, mining, combustion of fossil fuels, stream-channel alteration, and animal-feeding operations can change the quality of natural waters. Nitrogen and phosphorus fertilizers applied to crops and lawns dissolve easily in rainwater or snowmelt, and excess nutrients carried to streams and lakes by [surface runoff](/hubpedia/surface-runoff) encourage abundant algal growth that leads to low oxygen and possible fish kills. The nutrient-rich discharge of the Mississippi and Atchafalaya Rivers stimulates algal blooms whose dead algae feed bacteria that deplete subsurface oxygen, forming a seasonal \"dead zone\" in the northern Gulf of America; water with less than 2 mg/L of oxygen is defined as hypoxic. [14][15][22]\n\nChemicals such as pharmaceutical drugs, dry-cleaning solvents, and gasoline used in urban and industrial activities have been found in streams and [groundwater](/hubpedia/groundwater), and pesticides are now widespread in streams and groundwater though they rarely exceed health-protective standards. Some pesticides unused for 20 to 30 years are still detected in fish and streambed sediment, and while chemicals typically occur in water as mixtures, no health-based standards exist for mixtures. [16][17]\n\n## Pathogens, standards, and public information\n\nThe safety of drinking water cannot be assured by chemical analyses alone, and bacteria normally found in human and animal intestinal tracts signal that disease-causing pathogens may be present. Pathogens enter water from leaking septic tanks, wastewater-treatment discharge, and animal wastes; Giardia and cryptosporidium have been found occasionally in public-water supplies and have caused illness in large numbers of people in a few locations. [18][19]\n\nStandards and guidelines are established to protect water for designated uses such as drinking, recreation, agricultural irrigation, and the protection and maintenance of aquatic life, with the U.S. Environmental Protection Agency (USEPA) and the states responsible for setting standards for constituents shown to pose a human-health risk. The USEPA requires public-water suppliers to provide water-quality data to the public annually in an understandable format. [20][21]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "水質は、選択された物理的・化学的・生物学的特性に基づいて、特定の用途への水の適合性を測るものと考えられる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://pubs.usgs.gov/fs/fs-027-01/",
+              "quote": "a particular use based on selected physical, chemical, and biological characteristics."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "水質の判定では水温・溶存鉱物量・細菌数などの特性を測定・分析し、選択した特性を数値基準やガイドラインと比較して用途への適否を決める。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://pubs.usgs.gov/fs/fs-027-01/",
+              "quote": "of the water such as temperature, dissolved mineral content, and number of bacteria."
+            },
+            {
+              "sourceUrl": "https://pubs.usgs.gov/fs/fs-027-01/",
+              "quote": "to decide if the water is suitable for a particular use."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "水温・pH・溶存酸素・電気伝導度は河川や井戸の現場で測定でき、個別の化学物質の分析は一般に研究室で行われる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://pubs.usgs.gov/fs/fs-027-01/",
+              "quote": "at the well. These include temperature, acidity (pH), dissolved oxygen,"
+            },
+            {
+              "sourceUrl": "https://pubs.usgs.gov/fs/fs-027-01/",
+              "quote": "Analyses of individual chemicals generally are done at"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "pHは水の酸性・塩基性の度合いを表す指標で、0から14の範囲を取り、7が中性、7未満が酸性、7超が塩基性である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/ph-and-water",
+              "quote": "pH is a measure of how acidic/basic water is. The range goes from 0 to 14, with 7 being neutral."
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/ph-and-water",
+              "quote": "pHs of less than 7 indicate acidity, whereas a pH of greater than 7 indicates a base."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "pHは対数目盛で1単位が10倍の差を表し、pH5の水はpH6の水の10倍酸性であり、水中の化学物質に左右されるため化学変化の指標となる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/ph-and-water",
+              "quote": "pH is reported in \"logarithmic units\". Each number represents a 10-fold change in the acidity/basicness of the water."
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/ph-and-water",
+              "quote": "Water with a pH of five is ten times more acidic than water having a pH of six."
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/ph-and-water",
+              "quote": "Since pH can be affected by chemicals in the water, pH is an important indicator of water that is changing chemically."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "溶存酸素（DO）は、水に溶けた酸素の量、すなわち水生生物が利用できる酸素量の尺度である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/dissolved-oxygen-and-water",
+              "quote": "Dissolved oxygen (DO) is a measure of how much oxygen is dissolved in the water - the amount of oxygen available to living aquatic organisms."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "水に溶けている酸素は水100万分子あたり最大約10分子とごくわずかで、主に大気から河川に入り、魚類や浮遊動物が生存に必要とする。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/dissolved-oxygen-and-water",
+              "quote": "A small amount of oxygen, up to about ten molecules of oxygen per million of water, is actually dissolved in water."
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/dissolved-oxygen-and-water",
+              "quote": "Oxygen enters a stream mainly from the atmosphere"
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/dissolved-oxygen-and-water",
+              "quote": "This dissolved oxygen is breathed by fish and zooplankton and is needed by them to survive."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "冷水は温水より多くの溶存酸素を保持できるため、水温の低い冬から初春に濃度が高くなる季節変動を持つ。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/dissolved-oxygen-and-water",
+              "quote": "Cold water can hold more dissolved oxygen than warm water."
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/dissolved-oxygen-and-water",
+              "quote": "In winter and early spring, when the water temperature is low, the dissolved oxygen concentration is high."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "濁度は液体の相対的な透明度の尺度で、水中の物質が散乱させる光の量を測る光学特性である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/turbidity-and-water",
+              "quote": "Turbidity is the measure of relative clarity of a liquid."
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/turbidity-and-water",
+              "quote": "It is an optical characteristic of water and is a measurement of the amount of light that is scattered by material in the water when a light is shined through the water sample."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "濁りの原因は粘土・シルト・微細な有機無機物・藻類・プランクトンなどで、比濁計濃度単位（NTU）で報告され、基流時の多くの河川は10NTU未満である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/turbidity-and-water",
+              "quote": "Materials that cause water to be turbid include clay, silt,"
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/turbidity-and-water",
+              "quote": "is measured by shining a light through the water and is reported in nephelometric turbidity units (NTU)"
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/turbidity-and-water",
+              "quote": "During periods of low flow (base flow), many rivers are a clear green color, and turbidities are low, usually less than 10 NTU."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "天然水の水質は場所・季節・気候・土壌や岩石の種類で変わり、水は鉱物を溶かし有機物を浸透し微生物と反応し、砂泥を運んで濁らせ、蒸発で溶存鉱物が濃縮される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://pubs.usgs.gov/fs/fs-027-01/",
+              "quote": "Natural water quality varies from place to place, with the seasons,"
+            },
+            {
+              "sourceUrl": "https://pubs.usgs.gov/fs/fs-027-01/",
+              "quote": "soil, percolate through organic material such as roots and leaves,"
+            },
+            {
+              "sourceUrl": "https://pubs.usgs.gov/fs/fs-027-01/",
+              "quote": "dissolved minerals are more concentrated in the water that"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "水中で最も一般的な溶存物質は溶存固形物で、カルシウム・ナトリウム・炭酸水素塩・塩化物、窒素・リンなどの植物栄養素、セレン・クロム・ヒ素などの微量元素を含む。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://pubs.usgs.gov/fs/fs-027-01/",
+              "quote": "such as calcium, sodium, bicarbonate, and chloride;"
+            },
+            {
+              "sourceUrl": "https://pubs.usgs.gov/fs/fs-027-01/",
+              "quote": "such as nitrogen and phosphorus; and "
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "一般的な成分は健康に有害とはみなされないが、植物栄養素と微量元素は基準を超えると人の健康や水生生物に有害となりうる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://pubs.usgs.gov/fs/fs-027-01/",
+              "quote": "human health and aquatic life if they exceed standards or guidelines."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "都市・産業開発、農業、鉱業、化石燃料の燃焼、河道改変、家畜飼育などの人間活動は天然水の水質を変化させる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://pubs.usgs.gov/fs/fs-027-01/",
+              "quote": "and industrial development, farming, mining, combustion of fossil fuels, stream-channel"
+            },
+            {
+              "sourceUrl": "https://pubs.usgs.gov/fs/fs-027-01/",
+              "quote": "the quality of natural waters."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "河川や湖に運ばれた過剰な栄養素は藻類の繁茂を招き、水中の酸素低下と魚の大量死の可能性につながる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://pubs.usgs.gov/fs/fs-027-01/",
+              "quote": "abundant growth of algae, which leads to low oxygen in the water and the possibility"
+            },
+            {
+              "sourceUrl": "https://pubs.usgs.gov/fs/fs-027-01/",
+              "quote": "of fish kills."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "医薬品・ドライクリーニング溶剤・ガソリンなどの化学物質が河川や地下水で検出され、農薬も広く存在するが健康保護の基準を超えることは稀である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://pubs.usgs.gov/fs/fs-027-01/",
+              "quote": "that are used in urban and industrial activities have been found in streams"
+            },
+            {
+              "sourceUrl": "https://pubs.usgs.gov/fs/fs-027-01/",
+              "quote": "and ground water, though they rarely exceed the existing standards and guidelines"
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "使用停止から20〜30年経った農薬も魚や河床堆積物から検出され、化学物質は通常混合物として見つかるが混合物への健康基準はまだ定められていない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://pubs.usgs.gov/fs/fs-027-01/",
+              "quote": "pesticides have not been used for 20 to 30 years, but they are still detected"
+            },
+            {
+              "sourceUrl": "https://pubs.usgs.gov/fs/fs-027-01/",
+              "quote": "in fish and streambed sediment at levels that pose a potential risk to human"
+            },
+            {
+              "sourceUrl": "https://pubs.usgs.gov/fs/fs-027-01/",
+              "quote": "but health-based standards and guidelines have not been established for chemical"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "人や動物の腸管に通常存在する細菌の存在は病原性病原体の可能性を示し、化学分析だけでは飲料水の安全性を保証できない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://pubs.usgs.gov/fs/fs-027-01/",
+              "quote": "tracts of humans and animals, signal that disease-causing pathogens may be present."
+            },
+            {
+              "sourceUrl": "https://pubs.usgs.gov/fs/fs-027-01/",
+              "quote": "The quality of water for drinking cannot be assured by chemical analyses alone."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "病原体は浄化槽の漏れ・下水処理放流・動物の排泄物から水に入り、ジアルジアやクリプトスポリジウムは公共給水で見つかり多数の人々に病気を起こしたことがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://pubs.usgs.gov/fs/fs-027-01/",
+              "quote": "Pathogens can enter our water from leaking septic tanks,"
+            },
+            {
+              "sourceUrl": "https://pubs.usgs.gov/fs/fs-027-01/",
+              "quote": "wastewater-treatment discharge, and animal wastes."
+            },
+            {
+              "sourceUrl": "https://pubs.usgs.gov/fs/fs-027-01/",
+              "quote": "in public-water supplies and have caused illness in a large number of people"
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "基準とガイドラインは飲用・レクリエーション・農業灌漑・水生生物の保護維持の指定用途を守るため設けられ、USEPAと州が健康リスク物質の基準を定める。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://pubs.usgs.gov/fs/fs-027-01/",
+              "quote": "drinking, recreation, agricultural irrigation, or protection and maintenance"
+            },
+            {
+              "sourceUrl": "https://pubs.usgs.gov/fs/fs-027-01/",
+              "quote": "in water that have been shown to pose a risk to human health."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "USEPAは公共給水事業者に、水質データを年次で分かりやすい形式で公開するよう義務づけている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://pubs.usgs.gov/fs/fs-027-01/",
+              "quote": "data to the public on an annual basis in an understandable format."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "ミシシッピ川とアチャファラヤ川の栄養素に富む放流水が藻類ブルームを刺激し、死んだ藻を食べる細菌が深層水の酸素を枯渇させてメキシコ湾北部に季節的なデッドゾーンを形成し、溶存酸素2mg/L未満が低酸素と定義される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/dissolved-oxygen-and-water",
+              "quote": "A dead zone forms seasonally in the northern Gulf of America when subsurface waters become depleted in dissolved oxygen and cannot support most life."
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/dissolved-oxygen-and-water",
+              "quote": "Bio-available nutrients in the discharge can stimulate algal blooms, which die and are eaten by bacteria, depleting the oxygen in the subsurface water."
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/dissolved-oxygen-and-water",
+              "quote": "when oxygen concentrations are less than 2 mg/L, the water is defined as hypoxic"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "snowpack",
+    "topicType": "concept",
+    "categoryLabel": "地球・環境",
+    "title": "積雪",
+    "summary": "積雪（snowpack）は、冬季に降った雪が山地や寒冷地の地表に層状に蓄積したもので、暖季に融けて河川へ水を供給する天然の貯水池として機能する。米国西部では給水の最大75%が雪解け由来とされ、年々の積雪量は下流の貯水池・灌漑・都市給水を左右する。融雪は洪水や土砂災害の要因にもなり、残存する積雪はやがて氷河・氷床へと変わる。",
+    "bodyMarkdown": "## 定義と水循環における位置づけ\n\n積雪（snowpack）は、冬季の[降水](/hubpedia/precipitation)のうち雪として山地や寒冷地の地表に層状に蓄積したもので、暖季に融けて液体の水となる過程は雪解け（snowmelt）と呼ばれる。雪解けは固形の雪が液体の水へ融ける結果生じるもので、雪解け由来の流出は地球規模の水の移動における主要な構成要素であり、雪が降らない地域に住んでいても[水循環](/hubpedia/water-cycle)全体の中で重要な役割を持つ。 [1][2]\n\n水循環では、ある時点で「貯留」されている水の量は、年間を通じて循環内を実際に移動している水よりもはるかに多い。湖の水では数日から数週間、深い[地下水](/hubpedia/groundwater)では数千年、グリーンランドや南極の氷床の底の水ではそれ以上の期間、水は同じ状態にとどまり、こうした貯留場所は水循環内の「プール」と呼ばれる。積雪は季節単位で水を蓄える短期の貯留プールに位置づけられる。 [24]\n\n## 積雪から氷河・氷床へ\n\n標高や緯度が高く積雪が一年中残る場所では、堆積した雪の重みが雪を氷へと圧縮する。その氷が急峻な山地環境で形成されるとゆっくりと斜面を下って流れ[氷河](/hubpedia/glacier)となり、氷河が広がって5万平方キロメートルを超える領域を覆うものは氷床（ice sheet）と呼ばれ、氷床も氷河も水循環のプールの一部である。 [3][4][5]\n\n地球の氷質量の大部分、ほぼ90%は南極にあり、グリーンランドの氷床が全球の氷質量の約10%を占める。グリーンランド氷床は平均でほぼ1マイル（約1.6km）の厚さを持つ。氷と雪に閉じ込められた水は地球の全水量の約1.7%にすぎないが、世界の淡水総量の約68.7%は氷床と氷河に保持されている。 [20][21][19]\n\n## 天然の貯水池と流量への寄与\n\n米国西部やカナダなどの地域では、山地の雪原や氷河が天然の貯水池として機能し、多くの降水が降る冷涼な季節に水を蓄え、暖季にその一部または全部を放出する。冬が春・夏へ移ると積雪が融けて[河川](/hubpedia/streamflow)へ水を放ち、西部の一部の州では給水の最大75%が雪解け由来であり、寒冷気候では春の流出と河川流量の多くが雪や氷の融解に由来する。年の特定の時期には、雪解けが河川[流量](/hubpedia/streamflow)の大半を占めることもある。 [6][8][7][9][10]\n\nコロラド州とネブラスカ州を流れるサウスプラット川では、かつて春の終わりに融雪由来の水が尽きると流量が事実上「止まっていた」が、現在は用水路や農地からの灌漑水の浸透が春夏に河岸沿いの砂礫層（沖積[帯水層](/hubpedia/aquifer)）を涵養し、帯水層が秋冬にゆっくり河川へ排水することで年中流量が維持されている。 [14]\n\n雪解け流出は季節だけでなく年によっても変動し、2001年にカリフォルニアを襲った大[干ばつ](/hubpedia/drought)では冬季の降雪が減り、積雪として蓄えられた水の不足がその年の残りの期間の水の利用可能性に影響した。これは下流の貯水池の水量にも影響し、灌漑用水や都市・町の給水に波及する。 [11][12][13]\n\n## 融雪洪水と降雨オン雪イベント\n\n主に春に起こる雪解けがもたらす[洪水](/hubpedia/flood)の可能性は、世界中の多くの人々にとって懸念事項であり、急速な融雪は地滑りや土石流を誘発することもある。スイスのようなアルプス地域では融雪が流出の主要要素であり、融雪予報は融雪流出と洪水の可能性を予測する洪水警報ツールとして使われている。 [15][16]\n\n米国太平洋岸北西部などでは、既存の積雪に雨が降る「rain-on-snowイベント」で毎年春の洪水が発生し、斜面のマス・ウェイスティング（土砂崩壊）、河岸帯の被害、下流の洪水と人命の損失と関連づけられてきた。1996年1月には、大雪の後の急激な解凍と大雨が重なり、ニューヨークからペンシルベニア、バージニアに至る河川で洪水が発生し、1972年6月のハリケーン・アグネス以来の水位を記録した。 [17][18]\n\n## 気候変動との関係\n\n山地氷河は気候変化の優れたモニターであり、氷量の増減は気温と降水という、人間活動の影響を受けうる気候要素に左右される。世界規模の山地氷河の縮小は、19世紀後半に終わった小氷期以降の気温上昇と温室効果ガス排出増加の組み合わせが原因と考えられている。また氷は非常に白く、太陽光（ひいては熱）を反射するため、大規模な氷原は気象パターンを左右しうる。 [22][25][23]",
+    "sources": [
+      {
+        "url": "https://www.usgs.gov/water-science-school/science/snowmelt-runoff-and-water-cycle",
+        "title": "Snowmelt Runoff and the Water Cycle",
+        "publisher": "U.S. Geological Survey",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits"
+          },
+          "notes": "USGS Water Science School page on snowmelt: natural reservoirs, share of western water supplies, contribution to streamflow, interannual variability, rain-on-snow flooding, and snowmelt forecasting. Publisher policy read 2026-08-28: USGS-authored material is public domain and usable commercially; credit is requested. The USGS identifier is trademarked. Non-USGS photographs and graphics on the site are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.usgs.gov/water-science-school/science/ice-snow-and-glaciers-and-water-cycle",
+        "title": "Ice, Snow, and Glaciers and the Water Cycle",
+        "publisher": "U.S. Geological Survey",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits"
+          },
+          "notes": "USGS Water Science School page on ice, snow, and glaciers: storage pools, snowpack compression into ice, ice sheets, global ice and freshwater distribution, and glaciers as climate monitors. Publisher policy read 2026-08-28: USGS-authored material is public domain and usable commercially; credit is requested. The USGS identifier is trademarked. Non-USGS photographs and graphics on the site are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Snowpack",
+        "summary": "A snowpack is the layered accumulation of snow that stays on the ground in mountains and cold regions after winter precipitation, acting as a natural reservoir that releases water to rivers in the warm season. As much as 75 percent of water supplies in some western U.S. states are derived from snowmelt, and each year's snowpack affects downstream reservoirs, irrigation, and municipal supplies. Snowmelt can also drive flooding and slope failures, while year-round snowpack is gradually compressed into glaciers and ice sheets.",
+        "bodyMarkdown": "## Definition and place in the water cycle\n\nA snowpack is the layered accumulation of snow that remains on the ground in mountainous and cold regions after winter [precipitation](/hubpedia/precipitation); the process by which it melts into liquid water in the warm season is called snowmelt. Snowmelt is the result of solid snow melting into liquid water, and runoff from snowmelt is a major component of the global movement of water — important to the [water cycle](/hubpedia/water-cycle) even where it never snows. [1][2]\n\nIn the water cycle, much more water is \"in storage\" at any one time than is actually moving through the cycle on an annual basis. Storage may last days or weeks in a lake, thousands of years for deep [groundwater](/hubpedia/groundwater), or even longer for water at the bottom of ice sheets such as in Greenland or Antarctica; these storage places are called pools within the water cycle, and a snowpack is a short-term, seasonal storage pool. [24]\n\n## From snowpack to glaciers and ice sheets\n\nAt high elevations or latitudes where snowpack persists year-round, the weight of the accumulated snow compresses it into ice. When that ice forms in a steep mountain environment it slowly flows downhill, forming a [glacier](/hubpedia/glacier); glaciers that spread outward to cover an area larger than 50,000 square kilometers are called ice sheets, and both are part of the water-cycle pool. [3][4][5]\n\nThe vast majority — almost 90 percent — of Earth's ice mass is in Antarctica, while the Greenland ice cap contains 10 percent of the total global ice mass; the Greenland ice sheet averages almost a mile (about 1.6 km) in thickness. The water locked up in ice and snow is only about 1.7 percent of all water on Earth, yet about 68.7 percent of the world's total freshwater is held in ice caps and glaciers. [20][21][19]\n\n## Natural reservoirs and contributions to streamflow\n\nIn regions such as the western United States and Canada, mountain snow fields and glaciers act as natural reservoirs, storing precipitation from the cool season and releasing some or all of it during the warm season. When winter turns to spring and summer, snowpacks melt and release water into [rivers](/hubpedia/streamflow); as much as 75 percent of water supplies in some western states are derived from snowmelt, and in cold climates much of the springtime runoff and [streamflow](/hubpedia/streamflow) is attributable to melting snow and ice. At certain times of year, snowmelt can be responsible for the majority of the streamflow in a river. [6][8][7][9][10]\n\nIn the South Platte River of Colorado and Nebraska, flow was once essentially \"turned off\" after the late-spring supply of melting snow was exhausted; today seepage of irrigation water from ditches and fields replenishes the alluvial [aquifers](/hubpedia/aquifer) — water-bearing deposits of sand and gravel along the riverbanks — in spring and summer, and the aquifer drains slowly into the river in fall and winter, maintaining streamflow all year long. [14]\n\nSnowmelt runoff varies not only by season but by year: when a major [drought](/hubpedia/drought) hit California in 2001, winter snowfall was reduced, and the lack of water stored as snowpack affected water availability for the rest of the year. That also affects the amount of water in downstream reservoirs, which in turn can affect water available for irrigation and the water supply for cities and towns. [11][12][13]\n\n## Snowmelt flooding and rain-on-snow events\n\nThe potential for [flooding](/hubpedia/flood) from snowmelt, mainly in spring, is a concern for many people worldwide, and rapid snowmelt can also trigger landslides and debris flows. In alpine regions like Switzerland, snowmelt is a major component of runoff, and snowmelt forecasting is used there as a flood-warning tool to predict snowmelt runoff and potential flooding. [15][16]\n\nIn places such as the Pacific Northwest of the United States, annual springtime flood events occur when rain falls on existing snowpacks — \"rain-on-snow events\" — which have been associated with mass-wasting of hill slopes, damage to riparian zones, downstream flooding, and loss of life. In January 1996, heavy snowfall followed by a sudden thaw and heavy rain caused floods along rivers from New York through Pennsylvania to Virginia, producing water levels not seen since Hurricane Agnes in June 1972. [17][18]\n\n## Relation to climate change\n\nMountain glaciers are excellent monitors of climate change because ice mass gain or loss depends on temperature and precipitation, elements of climate that can be impacted by human actions. The worldwide shrinkage of mountain glaciers is thought to be caused by a combination of warming since the Little Ice Age, which ended in the latter half of the 19th century, and increased greenhouse-gas emissions. Ice is also very white, and because white reflects sunlight — and thus heat — large ice fields can determine weather patterns. [22][25][23]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "雪解け（snowmelt）は、固形の雪が液体の水へと融ける結果生じるものである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/snowmelt-runoff-and-water-cycle",
+              "quote": "Snowmelt is the result of solid snow melting into liquid water."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "雪解け由来の流出は、地球規模の水の移動における主要な構成要素である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/snowmelt-runoff-and-water-cycle",
+              "quote": "runoff from snowmelt is a major component of the global movement of water"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "標高や緯度が高く積雪が一年中残る場所では、堆積した雪の重みが雪を氷へと圧縮する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/ice-snow-and-glaciers-and-water-cycle",
+              "quote": "At high elevations or latitudes where snowpack persists year-round, the weight of the accumulated snow compresses it into"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "急峻な山地環境で形成された氷は、ゆっくりと斜面を下って流れて氷河となる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/ice-snow-and-glaciers-and-water-cycle",
+              "quote": "When the ice forms in a steep mountain environment, it slowly flows downhill, forming a"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "氷床とは、広がって5万平方キロメートルを超える領域を覆う氷河であり、氷床も氷河も水循環のプールの一部である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/ice-snow-and-glaciers-and-water-cycle",
+              "quote": "are glaciers that have spread outward to cover an area larger than 50,000 square kilometers."
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/ice-snow-and-glaciers-and-water-cycle",
+              "quote": "Ice sheets and glaciers are all a part of the water cycle pool."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "米国西部やカナダなどの地域では、山地の雪原や氷河が天然の貯水池として機能する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/snowmelt-runoff-and-water-cycle",
+              "quote": "Mountain snow fields and glaciers act as natural reservoirs for water in some areas, such as the western United States and Canada."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "米国西部の一部の州では、給水の最大75%が雪解けに由来する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/snowmelt-runoff-and-water-cycle",
+              "quote": "As much as 75 percent of water supplies in some western states are derived from snowmelt."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "冬が春・夏へ移ると積雪が融け、河川へ水を放出する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/snowmelt-runoff-and-water-cycle",
+              "quote": "When winter transitions to spring and summer, snowpacks melt, releasing water into rivers."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "年の特定の時期には、雪解けが河川流量の大半を占めることがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/snowmelt-runoff-and-water-cycle",
+              "quote": "During certain times of the year, snowmelt can be responsible for the majority of the streamflow in a river."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "寒冷気候では、春の流出と河川流量の多くが雪や氷の融解に由来する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/snowmelt-runoff-and-water-cycle",
+              "quote": "much of the springtime runoff and streamflow in rivers is attributable to melting snow and ice"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "雪解け由来の流出は、季節だけでなく年によっても変動する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/snowmelt-runoff-and-water-cycle",
+              "quote": "runoff from snowmelt varies not only by season but also by year"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "2001年の大干ばつではカリフォルニアの冬季降雪が減り、積雪として蓄えられた水の不足がその年の残りの期間の水の利用可能性に影響した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/snowmelt-runoff-and-water-cycle",
+              "quote": "A major drought hit that area of California in 2001, reducing snowfall during the winter months."
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/snowmelt-runoff-and-water-cycle",
+              "quote": "The lack of water stored as snowpack affected the availability of water for the rest of the year."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "積雪の不足は下流の貯水池の水量にも影響し、灌漑用水や都市・町の給水に波及する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/snowmelt-runoff-and-water-cycle",
+              "quote": "This also affects the amount of water in reservoirs located downstream"
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/snowmelt-runoff-and-water-cycle",
+              "quote": "which in turn can affect water available for irrigation and the water supply for cities and towns"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "サウスプラット川では、灌漑水の浸透が春夏に沖積帯水層を涵養し、帯水層が秋冬にゆっくり河川へ排水することで年中流量が維持されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/snowmelt-runoff-and-water-cycle",
+              "quote": "seepage of irrigation water from ditches and fields replenishes the alluvial aquifers"
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/snowmelt-runoff-and-water-cycle",
+              "quote": "the aquifer slowly drains into the river during fall and winter"
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/snowmelt-runoff-and-water-cycle",
+              "quote": "This provides water that maintains streamflow in the South Platte River all year long."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "主に春に起こる雪解けによる洪水の可能性は世界中の多くの人々の懸念事項であり、急速な融雪は地滑りや土石流を誘発することもある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/snowmelt-runoff-and-water-cycle",
+              "quote": "The effect of snowmelt on potential flooding, mainly during the spring, is something that causes concern for many people around the world."
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/snowmelt-runoff-and-water-cycle",
+              "quote": "Besides flooding, rapid snowmelt can trigger landslides and debris flows."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "スイスのようなアルプス地域では融雪が流出の主要要素であり、融雪予報は融雪流出と洪水の可能性を予測する洪水警報ツールとして使われている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/snowmelt-runoff-and-water-cycle",
+              "quote": "In alpine regions like Switzerland, snowmelt is a major component of runoff."
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/snowmelt-runoff-and-water-cycle",
+              "quote": "In Switzerland, snowmelt forecasting is being used as a flood-warning tool to predict snowmelt runoff and potential flooding."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "米国太平洋岸北西部などでは、既存の積雪に雨が降る「rain-on-snowイベント」で毎年春の洪水が発生し、斜面の土砂崩壊や河岸帯の被害と関連づけられてきた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/snowmelt-runoff-and-water-cycle",
+              "quote": "annual springtime flood events occur when rain falls on existing snowpacks, known as a \"rain-on-snow event.\""
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/snowmelt-runoff-and-water-cycle",
+              "quote": "Runoff during rain-on-snow events has been associated with mass-wasting of hill slopes"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "1996年1月、大雪の後の急激な解凍と大雨が重なり、ニューヨークからペンシルベニア、バージニアに至る河川で洪水が発生した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/snowmelt-runoff-and-water-cycle",
+              "quote": "Heavy snowfall followed by a sudden thaw and heavy rain caused floods along rivers from New York through Pennsylvania to Virginia"
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "氷と雪に閉じ込められた水は地球の全水量の約1.7%にすぎないが、世界の淡水総量の約68.7%は氷床と氷河に保持されている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/ice-snow-and-glaciers-and-water-cycle",
+              "quote": "the amount of water locked up in ice and snow is only about 1.7 percent of all water on Earth, but the majority of total freshwater on Earth, about 68.7 percent, is held in ice caps and glaciers."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "地球の氷質量のほぼ90%は南極にあり、グリーンランドの氷床が全球の氷質量の10%を占める。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/ice-snow-and-glaciers-and-water-cycle",
+              "quote": "The vast majority, almost 90 percent, of Earth's ice mass is in Antarctica, while the Greenland ice cap contains 10 percent of the total global ice mass."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "グリーンランド氷床は平均でほぼ1マイルの厚さを持ち、全球の氷質量の約10%を含む。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/ice-snow-and-glaciers-and-water-cycle",
+              "quote": "The Greenland ice sheet averages almost a mile in thickness and contains about 10 percent of the total ice mass on the globe."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "山地氷河は気候変化の優れたモニターであり、氷量の増減は気温と降水という気候要素に左右される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/ice-snow-and-glaciers-and-water-cycle",
+              "quote": "Mountain glaciers are excellent monitors of climate change as they are intrinsically linked to climate because ice mass gain or loss depends on temperature and precipitation"
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "氷は非常に白く太陽光（ひいては熱）を反射するため、大規模な氷原は気象パターンを左右しうる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/ice-snow-and-glaciers-and-water-cycle",
+              "quote": "Ice is very white, and since white reflects sunlight (and thus, heat), large ice fields can determine weather patterns."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "貯留期間は湖の水で数日から数週間、深い地下水で数千年、氷床の底の水ではそれ以上に及び、こうした貯留場所は水循環内のプールと呼ばれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/ice-snow-and-glaciers-and-water-cycle",
+              "quote": "at any one time than is actually moving through the cycle on an annual basis"
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/ice-snow-and-glaciers-and-water-cycle",
+              "quote": "Short-term storage might be days or weeks for water in a lake, but it could be thousands of years for"
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/ice-snow-and-glaciers-and-water-cycle",
+              "quote": "or even longer for water at the bottom of an ice sheets, such as in Greenland or Antarctica."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "世界規模の山地氷河の縮小は、19世紀後半に終わった小氷期以降の気温上昇と温室効果ガス排出増加の組み合わせが原因と考えられている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/ice-snow-and-glaciers-and-water-cycle",
+              "quote": "the worldwide shrinkage of mountain glaciers is thought to be caused by a combination of a temperature increase since the Little Ice Age"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "groundwater-depletion",
+    "topicType": "concept",
+    "categoryLabel": "地球・環境",
+    "title": "地下水枯渇",
+    "summary": "地下水枯渇は、継続的な揚水によって引き起こされる長期的な地下水位低下として定義される問題で、単一の井戸から複数州にまたがる帯水層まで様々な規模で発生する。井戸の枯渇・揚水コスト増・河川や湖の水量減少・河岸植生の喪失・地盤沈下・塩水遡上などの影響をもたらし、米国では1900〜2008年に約1,000立方キロメートルの枯渇が推定されている。",
+    "bodyMarkdown": "## 定義と地下水資源の重要性\n\n[地下水](/hubpedia/groundwater)枯渇（groundwater depletion）は、継続的な地下水揚水によって引き起こされる長期的な地下水位低下としてしばしば定義される語で、地下水利用に伴う重要な問題であり、主に継続的な揚水が原因となって、米国の多くの地域で発生している。 [1][2]\n\n地下水は貴重な資源であり、米国では総人口の約半数、農村部ではほぼ全人口の飲料水源であり、農業用途に1日あたり500億ガロン超を供給している。地中に蓄えられた水は銀行口座の預金に例えられ、入金より速いペースで引き出せば口座の問題が生じるように、補給されるより速く長期的に揚水を続ければ同様の問題が起こり、貯留量は米国の多くの地域で揚水に応じて減少している。 [5][3][4]\n\n枯渇は単一の井戸から複数の州にまたがる帯水層システムまで、様々な規模で発生し、その影響の広がりは揚水量・自然放流量・[帯水層](/hubpedia/aquifer)の物理的性質・自然および人為的な涵養量などの要因に左右される。 [6]\n\n## 地下水位低下と井戸への影響\n\n過剰揚水の最も深刻な結果は、地下が水で飽和している面である地下水位が低下することである。水位が下がりすぎれば井戸の所有者は井戸の掘り下げ・新規掘削・ポンプ位置の引き下げを迫られ、水位低下に伴い井戸が得られる水量も減少する。涵養より速い揚水は、特に[干ばつ](/hubpedia/drought)時に井戸の枯渇を招く。 [7][8][10]\n\n水位までの深さが増すほど水を地表まで高く揚げなければならず、ポンプの駆動に多くのエネルギーが必要となり、井戸の利用が法外に高額になることがある。 [9]\n\n## 河川・湖沼・沿岸植生への影響\n\n[河川](/hubpedia/streamflow)を流れる水の一部、しばしば大部分は、河床への地下水の浸透に由来し、地下水はほとんどの地形・気候条件で河川に寄与している。河川水に占める地下水流入の割合は季節や地域の地理・地質・気候によって変わる。 [11][12]\n\n揚水は、自然条件下で表層水に放流されるはずの地下水流を遮断するか、表層水から帯水層への水の移動速度を上げるかによって、帯水層と[河川](/hubpedia/streamflow)・湖・湿地の間の水のやり取りを変化させうる。地下水位が河畔や湿地の植生の生存に必要な深さを下回ると、河岸植生と野生生物の生息地の喪失という全体的な影響が生じる。アリゾナ州ツーソン南方のサンタクルズ川では、揚水により地下水位が100フィート超低下し、これが河岸樹木減少の主因とみられている。 [13][14][15]\n\n## 地盤沈下と塩水遡上\n\n地盤沈下の基本的な原因は地下の支持の喪失であり、土壌から水が抜けると土壌が崩れ、締め固まり、沈下する。地盤沈下は多くの場合、主に地下の水の除去という人間活動によって引き起こされる。 [16][17]\n\n淡水の地下水供給への[水質](/hubpedia/water-quality)上の脅威の一つが塩水遡上による汚染である。深層地下水や海洋下の水の多くは塩水であり、自然条件下では淡水と塩水の境界は比較的安定しているが、揚水によって塩水が内陸や上方へ移動し、給水源の塩水汚染を招くことがある。 [18]\n\n## 全米の枯渇量と地域事例\n\n地下水の取水は地下の貯留から水を取り除く自然な結果をもたらすが、米国全体の枯渇の速度と規模は十分に把握されていなかった。USGSの研究は、40の帯水層・地域と1つの土地利用区分について長期累積枯渇量を評価し、較正済み地下水流モデル・解析的手法・体積収支分析で枯渇量を直接算定した。 [19][20]\n\n推定では1900〜2008年の米国の地下水枯渇量は合計約1,000立方キロメートルに達し、1950年頃以降に枯渇速度が著しく増大し、直近期間（2000〜2008年）には年間ほぼ25立方キロメートルに達した。これは1900〜2008年全体の平均年9.2立方キロメートルを大きく上回る。 [21][22]\n\n地域例では、ニューヨーク州ロングアイランドでは生活給水の揚水が地下水位を低下させ河川の基底流量を減少・消失させ塩水地下水を内陸へ移動させ、ヒューストンでは約400フィートの水位低下と最大10フィートの地盤沈下を生じ、8州にまたがるハイプレーンズ帯水層（オガララを含む）では一部で水位が100フィート超低下し飽和層の厚さが半減、アリゾナ州中南部では300〜500フィートの水位低下と最大12.5フィートの地盤沈下、シカゴ・ミルウォーキー地域では最大900フィートの低下、地下水のみに依存するメンフィスでは最大70フィートの低下が記録されている。 [23]",
+    "sources": [
+      {
+        "url": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+        "title": "Groundwater Decline and Depletion",
+        "publisher": "U.S. Geological Survey",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits"
+          },
+          "notes": "USGS Water Science School page defining groundwater depletion, the bank-account analogy, effects (well failure, stream and lake losses, subsidence, pumping costs, saltwater intrusion), and regional case studies across the United States. Publisher policy read 2026-08-28: USGS-authored material is public domain and usable commercially; credit is requested. The USGS identifier is trademarked. Non-USGS photographs and graphics on the site are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://pubs.usgs.gov/sir/2013/5079/",
+        "title": "Groundwater Depletion in the United States (1900–2008)",
+        "publisher": "U.S. Geological Survey",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits"
+          },
+          "notes": "USGS Scientific Investigations Report 2013-5079 (Konikow, 2013): cumulative groundwater depletion volumes for 40 aquifers or areas, total depletion of about 1,000 cubic kilometers during 1900-2008, and accelerating depletion rates since about 1950. Publisher policy read 2026-08-28: USGS-authored material is public domain and usable commercially; credit is requested. The USGS identifier is trademarked. Non-USGS photographs and graphics on the site are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Groundwater Depletion",
+        "summary": "Groundwater depletion, often defined as long-term water-level declines caused by sustained pumping, occurs at scales ranging from a single well to aquifer systems underlying several states. It can dry wells, raise pumping costs, reduce water in streams and lakes, destroy riparian habitat, cause land subsidence, and draw saltwater into freshwater supplies; an estimated 1,000 cubic kilometers was depleted in the United States during 1900–2008.",
+        "bodyMarkdown": "## Definition and the importance of groundwater\n\n[Groundwater](/hubpedia/groundwater) depletion is a term often defined as long-term water-level declines caused by sustained groundwater pumping; it is a key issue associated with groundwater use, is primarily caused by sustained pumping, and is occurring in many areas of the United States. [1][2]\n\nGroundwater is a valuable resource: in the United States it is the source of drinking water for about half the total population and nearly all of the rural population, and it provides over 50 billion gallons per day for agricultural needs. The water stored in the ground can be compared to money in a bank account — withdrawing faster than you deposit eventually causes problems — and pumping water out of the ground faster than it is replenished over the long term causes similar problems; the volume in storage is decreasing in many areas of the United States in response to pumping. [5][3][4]\n\nDepletion occurs at scales ranging from a single well to [aquifer](/hubpedia/aquifer) systems underlying several states, and the extent of the resulting effects depends on pumpage, natural discharge rates, the physical properties of the aquifer, and natural and human-induced recharge rates. [6]\n\n## Falling water levels and effects on wells\n\nThe most severe consequence of excessive pumping is that the water table — below which the ground is saturated with water — can be lowered. If groundwater levels decline too far, the well owner might have to deepen the well, drill a new well, or at least attempt to lower the pump, and the rate of water the well can yield may decline. Pumping faster than recharge can lead to dry wells, especially during [droughts](/hubpedia/drought). [7][8][10]\n\nAs the depth to water increases, the water must be lifted higher to reach the land surface, more energy is required to drive the pump, and using the well can become prohibitively expensive. [9]\n\n## Effects on streams, lakes, and riparian vegetation\n\nSome, and often a great deal, of the water flowing in [rivers](/hubpedia/streamflow) comes from seepage of groundwater into the streambed, and groundwater contributes to streams in most physiographic and climatic settings. The proportion of stream water that comes from groundwater inflow varies seasonally and with a region's geography, geology, and climate. [11][12]\n\nPumping can alter how water moves between an aquifer and a [stream](/hubpedia/streamflow), lake, or wetland — either by intercepting groundwater flow that would discharge into the surface-water body, or by increasing the rate of water movement from the surface-water body into the aquifer. When groundwater levels fall below the depth that streamside or wetland vegetation needs to survive, the overall effect is a loss of riparian vegetation and wildlife habitat. On the Santa Cruz River south of Tucson, Arizona, the water table has declined more than 100 feet due to pumping, which appears to be the principal reason for the decrease in riparian trees. [13][14][15]\n\n## Land subsidence and saltwater intrusion\n\nThe basic cause of land subsidence is a loss of support below ground: when water is taken out of the soil, the soil collapses, compacts, and drops. Land subsidence is most often caused by human activities, mainly from the removal of subsurface water. [16][17]\n\nOne [water-quality](/hubpedia/water-quality) threat to fresh groundwater supplies is contamination from saltwater intrusion. Much of the very deep groundwater and water below oceans is saline; under natural conditions the boundary between freshwater and saltwater tends to be relatively stable, but pumping can cause saltwater to migrate inland and upward, resulting in saltwater contamination of the water supply. [18]\n\n## National depletion volumes and regional examples\n\nGroundwater withdrawals naturally remove water from subsurface storage, yet the overall rates and magnitude of groundwater depletion in the United States were not well characterized. A USGS study evaluated long-term cumulative depletion volumes in 40 separate aquifers or areas and one land use category, calculating depletion directly with calibrated groundwater models, analytical approaches, or volumetric budget analyses. [19][20]\n\nEstimated groundwater depletion in the United States during 1900–2008 totals approximately 1,000 cubic kilometers. The rate of depletion has increased markedly since about 1950, reaching its maximum during the most recent period (2000–2008), when it averaged almost 25 cubic kilometers per year — compared to 9.2 cubic kilometers per year averaged over the 1900–2008 timeframe. [21][22]\n\nRegional examples include Long Island, New York, where pumping for domestic supply lowered the water table, reduced or eliminated the base flow of streams, and moved saline groundwater inland; Houston, Texas, with water-level declines of approximately 400 feet and land-surface subsidence of up to 10 feet; the High Plains aquifer (including the Ogallala) beneath eight states, where water levels have declined more than 100 feet in some areas and saturated thickness has been reduced by more than half in others; south-central Arizona, with declines of 300–500 feet and up to 12.5 feet of subsidence; the Chicago–Milwaukee area, with declines of as much as 900 feet; and Memphis, Tennessee — one of the largest metropolitan areas in the world relying exclusively on groundwater — with declines of up to 70 feet. [23]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "地下水枯渇は、継続的な地下水揚水によって引き起こされる長期的な地下水位低下としてしばしば定義される語である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "Groundwater depletion, a term often defined as long-term water-level declines caused by sustained groundwater pumping"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "地下水枯渇は主に継続的な揚水が原因で、米国の多くの地域で発生している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "Groundwater depletion is primarily caused by sustained groundwater pumping."
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "Many areas of the United States are experiencing groundwater depletion."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "地中の貯水は銀行口座に例えられ、補給より速く長期的に揚水を続けると口座問題と同様の問題が生じる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "If you withdraw money at a faster rate than you deposit new money you will eventually start having account-supply problems."
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "Pumping water out of the ground faster than it is replenished over the long-term causes similar problems."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "地下水の貯留量は、米国の多くの地域で揚水に応じて減少している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "is decreasing in many areas of the United States in response to pumping."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "米国では地下水は総人口の約半数・農村部ほぼ全人口の飲料水源で、農業用途に1日500億ガロン超を供給する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "it is the source of drinking water for about half the total population and nearly all of the rural population"
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "provides over 50 billion gallons per day for agricultural needs"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "地下水枯渇は単一の井戸から複数州にまたがる帯水層システムまで様々な規模で発生し、影響の広がりは揚水量・自然放流量・帯水層の性質・涵養量に左右される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "groundwater depletion occurs at scales ranging from a single well to aquifer systems underlying several states"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "過剰揚水の最も深刻な結果は、地下が水で飽和している面である地下水位の低下である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "excessive groundwater pumping is that the"
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "below which the ground is saturated with water, can be lowered"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "水位が下がりすぎると井戸の掘り下げ・新規掘削・ポンプ位置引き下げを迫られ、井戸が得られる水量も減少する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "If groundwater levels decline too far, then the well owner might have to deepen the well, drill a new well, or, at least, attempt to lower the pump."
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "as water levels decline, the rate of water the well can yield may decline"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "水位までの深さが増すほど水を高く揚げる必要があり、ポンプ駆動に多くのエネルギーを要し、利用が法外に高額になることがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "As the depth to water increases, the water must be lifted higher to reach the land surface."
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "more energy is required to drive the pump"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "涵養より速い揚水は、特に干ばつ時に井戸の枯渇を招く。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "Pumping groundwater faster than it can recharge can lead to dry wells, especially during droughts."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "河川を流れる水の一部、しばしば大部分は河床への地下水浸透に由来し、地下水はほとんどの地形・気候条件で河川に寄与する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "Some, and often a great deal, of the water flowing in rivers comes from seepage of groundwater into the streambed."
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "in most physiographic and climatic settings."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "河川水に占める地下水流入の割合は季節や地域の地理・地質・気候によって変わる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "The proportion of stream water that comes from groundwater inflow varies seasonally"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "揚水は表層水への地下水放流を遮断するか表層水から帯水層への移動を速めるかによって、帯水層と河川・湖・湿地の間の水のやり取りを変化させうる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "Groundwater pumping can alter how water moves between an aquifer"
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "increasing the rate of water movement from the surface-water body into an aquifer"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "地下水位が河畔や湿地の植生の生存に必要な深さを下回ると、河岸植生と野生生物の生息地の喪失が生じる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "the lowering of groundwater levels below the depth that streamside or wetland vegetation needs to survive"
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "The overall effect is a loss of riparian vegetation and wildlife habitat."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "サンタクルズ川では揚水により地下水位が100フィート超低下し、これが河岸植生減少の主因とみられている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "the water table has declined more than 100 feet due to pumping, and this pumping appears to be the principal reason for the decrease in vegetation"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "地盤沈下の基本的な原因は地下の支持の喪失であり、土壌から水が抜けると土壌が崩れ、締め固まり、沈下する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "is a loss of support below ground."
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "the soil collapses, compacts, and drops"
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "地盤沈下は多くの場合、主に地下の水の除去という人間活動によって引き起こされる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "Land subsidence is most often caused by human activities, mainly from the removal of subsurface water."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "塩水遡上は淡水の地下水供給への水質上の脅威であり、自然条件下で比較的安定な淡塩水境界は揚水によって塩水が内陸・上方へ移動して給水源を汚染しうる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "One water-quality threat to fresh groundwater supplies is contamination from saltwater intrusion."
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "the boundary between the freshwater and saltwater tends to be relatively stable"
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "pumping can cause saltwater to migrate inland and upward, resulting in saltwater contamination of the water supply."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "地下水の取水は地下の貯留から水を取り除く自然な結果をもたらすが、米国全体の枯渇の速度と規模は十分に把握されていなかった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://pubs.usgs.gov/sir/2013/5079/",
+              "quote": "A natural consequence of groundwater withdrawals is the removal of water from subsurface storage, but the overall rates and magnitude of groundwater depletion in the United States are not well characterized."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "USGSの研究は40の帯水層・地域と1つの土地利用区分の長期累積枯渇量を評価し、較正済みモデル・解析的手法・体積収支分析で直接算定した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://pubs.usgs.gov/sir/2013/5079/",
+              "quote": "This study evaluates long-term cumulative depletion volumes in 40 separate aquifers or areas and one land use category in the United States"
+            },
+            {
+              "sourceUrl": "https://pubs.usgs.gov/sir/2013/5079/",
+              "quote": "Depletion is directly calculated using calibrated groundwater models, analytical approaches, or volumetric budget analyses for multiple aquifer systems."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "1900〜2008年の米国の地下水枯渇量は合計約1,000立方キロメートルと推定される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://pubs.usgs.gov/sir/2013/5079/",
+              "quote": "Estimated groundwater depletion in the United States during 1900"
+            },
+            {
+              "sourceUrl": "https://pubs.usgs.gov/sir/2013/5079/",
+              "quote": "totals approximately 1,000 cubic kilometers"
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "枯渇速度は1950年頃以降に著しく増大し、直近期間（2000〜2008年）には年間ほぼ25立方キロメートル、全期間平均の年9.2立方キロメートルを大きく上回った。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://pubs.usgs.gov/sir/2013/5079/",
+              "quote": "the rate of groundwater depletion has increased markedly since about 1950"
+            },
+            {
+              "sourceUrl": "https://pubs.usgs.gov/sir/2013/5079/",
+              "quote": "when the depletion rate averaged almost 25 km"
+            },
+            {
+              "sourceUrl": "https://pubs.usgs.gov/sir/2013/5079/",
+              "quote": "compared to 9.2 km"
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "ロングアイランド・ヒューストン・ハイプレーンズ・アリゾナ中南部・シカゴ・メンフィスなど各地で、大幅な水位低下・地盤沈下・塩水移動・基底流量減少が記録されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "pumping water for domestic supply has lowered the water table, reduced or eliminated the base flow of streams, and has caused"
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "water-level declines of approximately 400 feet, resulting in extensive land-surface subsidence of up to 10 feet"
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "water levels have declined more than 100 feet in some areas and the saturated thickness has been reduced by more than half in others"
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "water-level declines of between 300 and 500 feet in much of the area"
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "This long-term pumping has lowered groundwater levels by as much as 900 feet."
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/groundwater-decline-and-depletion",
+              "quote": "water-level declines of up to 70 feet"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "watershed",
+    "topicType": "concept",
+    "categoryLabel": "地球・環境",
+    "title": "流域",
+    "summary": "流域（watershed）は、すべての河川と降雨を共通の流出点へ排水する土地の区域で、分水界で囲まれる。足跡ほどの小ささからチェサピーク湾へ注ぐ広大な区域まで規模は様々で、大きな流域は小さな流域を内包する。流出点の「上流」側で起きることが河川の流量と水質を左右し、降水・浸透・蒸発・土地被覆・人間の利用が流域の水収支を決める。",
+    "bodyMarkdown": "## 定義と構造\n\n流域（watershed）は、貯水池の放流口・湾の河口・[河川](/hubpedia/streamflow)水路の任意の地点など、共通の流出点へすべての河川と降雨を排水する土地の区域である。規模は足跡ほどの小さなものから、チェサピーク湾へ注ぐ河川に水を集める全土地を含むほど大きなものまであり、「watershed」という語は排水盆地（drainage basin）や集水域（catchment）と同義に使われることもある。 [1][2][3]\n\n2つの流域を隔てる尾根や丘陵は分水界（drainage divide）と呼ばれる。流域は湖・河川・貯水池・湿地などの表層水と、その下にあるすべての[地下水](/hubpedia/groundwater)から構成され、大きな流域は多くの小さな流域を内包する。どこまでが流域かは流出点で決まり、その流出点へ水を排水する全土地がその地点の流域となる。 [3][4][5]\n\n米国地質調査所（USGS）は「今地面に立っているなら足元を見ればよい。あなたは、そして誰もが、流域の中に立っている」と説明しており、流域は陸上のあらゆる場所を覆う概念である。 [6]\n\n## 降水の収集器としての流域\n\nUSGSの測流地点の排水区域に降った[降水](/hubpedia/precipitation)の大部分は河川に集まり、やがて測流地点を通過するため、流域は「降水の収集器」と表現される。仮に流域全体を丈夫なプラスチックシートで覆い、1平方マイルの例示流域に1インチの雨が降れば、蒸発などの損失を無視すれば約1,738万ガロンの雨水がすべて流域の流出点を通過することになる。 [8][9]\n\nただし現実では、流域に降った降水のすべてが流出するわけではなく、直接の流出がなくても河川は流れ続けることが多い。流域が重要なのは、河川の[流量](/hubpedia/streamflow)と[水質](/hubpedia/water-quality)が、流出点の「上流」側の土地で起きる人為的・自然的な事象の影響を受けるためである。 [10][7]\n\n## 流出を決める要因と水収支\n\n水収支（water budget）は、降水として流域に入ってくる水量と、蒸発・帯水層への涵養・流域末端から出ていく河川流量として出ていく水量との関係を分析するもので、河川流量を支配する最大の要因は流域に雨や雪として降る降水量である。 [11][12]\n\n乾いた地に雨が降ると水の一部は[土壌](/hubpedia/soil)に染み込み（浸透し）、浅い土壌層に留まって重力で徐々に下がるか植物に吸い上げられるか、河川へ向かって堤岸への浸透で川に入るか、さらに深く浸透して[帯水層](/hubpedia/aquifer)を涵養する。水は地表へ戻るまで長距離を移動したり長期間貯留されたりすることがある。砂や礫を多く含む土壌は大量の水を急速に吸収し、粘土質の土壌は吸収が遅く、吸収量の少ない土壌では地表を越えて河川への流出が増える。また前の降雨で飽和した土壌は濡れたスポンジのように多くを吸収できず、[表面流出](/hubpedia/surface-runoff)が増える。 [13][14][15]\n\n## 土地被覆・地形・貯留・人間の利用\n\n駐車場・道路・歩道・屋根などの不浸透面は降雨を水路へ直接導く「ファストレーン」として働き、不浸透面が増えている流域では[洪水](/hubpedia/flood)が大きくなる。急斜面の土地に降った水は平坦地より速く流出する。降雨由来の水は主に蒸発で大気へ戻り、その量は気温・日射・風・気圧などに左右され、植物は根で土壌水を吸収し大部分を葉から大気へ逃がす（蒸散）。植生は流出を遅らせ、水が地中へ染み込むのを助ける。 [16][17][18][19]\n\n貯水池は水を蓄え、蒸発と浸透する水量を増やし、その貯留と放流はダム下流の河川の流量パターンに大きな影響を与えうる。灌漑・産業・鉱業・飲料供給などの人間の取水は河川の流量を減らすが、利用された水のかなりの部分は結局河川へ戻る。灌漑で河川へ戻る水は灌漑還流水（irrigation return flow）と呼ばれ、家庭・事業所の水は衛生下水路を経て下水処理場で一部汚染物質が除かれた後に河川へ戻る。 [20][21]\n\n## 例示：プールカバーの流域\n\nUSGSは冬のプールカバーを流域の例として挙げる。青いカバーが流域を表し、降った雨は盆地の最も低い部分であるカバー中央へ「勾配を下って」流れ込み、自然界で水が谷・河川・湖へ向かうのと同じである。中央に湖ができるのは、流入する水が出ていく水より速い最も低い場所だからで、実際の流域との違いは、この「流域」には水が出ていく流出点がないことである。 [22]",
+    "sources": [
+      {
+        "url": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+        "title": "Watersheds and Drainage Basins",
+        "publisher": "U.S. Geological Survey",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits"
+          },
+          "notes": "USGS Water Science School page defining watersheds, drainage divides, nested watersheds, the water budget, factors controlling streamflow (precipitation, infiltration, soils, saturation, impervious surfaces, slope, evaporation, evapotranspiration, reservoirs, water use), and the pool-cover analogy. Publisher policy read 2026-08-28: USGS-authored material is public domain and usable commercially; credit is requested. The USGS identifier is trademarked. Non-USGS photographs and graphics on the site are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.usgs.gov/water-science-school/science/surface-runoff-and-water-cycle",
+        "title": "Surface Runoff and the Water Cycle",
+        "publisher": "U.S. Geological Survey",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits"
+          },
+          "notes": "USGS Water Science School page on surface runoff: the fraction of land precipitation that runs off, impervious-surface effects on flood peaks, infiltration, and urban stormwater management. Publisher policy read 2026-08-28: USGS-authored material is public domain and usable commercially; credit is requested. The USGS identifier is trademarked. Non-USGS photographs and graphics on the site are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Watershed",
+        "summary": "A watershed is an area of land that drains all streams and rainfall to a common outlet, bounded by drainage divides. Watersheds range from footprint-sized to the vast area draining into Chesapeake Bay, and larger watersheds contain many smaller ones. What happens on the land 'above' the outflow point affects a river's streamflow and water quality, while precipitation, infiltration, evaporation, land cover, and human water use shape the watershed's water budget.",
+        "bodyMarkdown": "## Definition and structure\n\nA watershed is an area of land that drains all the streams and rainfall to a common outlet, such as the outflow of a reservoir, the mouth of a bay, or any point along a [stream](/hubpedia/streamflow) channel. Watersheds can be as small as a footprint or large enough to encompass all the land draining into rivers that drain into Chesapeake Bay, and the word is sometimes used interchangeably with drainage basin or catchment. [1][2][3]\n\nRidges and hills that separate two watersheds are called the drainage divide. The watershed consists of surface water — lakes, streams, reservoirs, and wetlands — and all the underlying [groundwater](/hubpedia/groundwater), and larger watersheds contain many smaller ones. It all depends on the outflow point: all of the land that drains water to the outflow point is the watershed for that outflow location. [3][4][5]\n\nAs the U.S. Geological Survey puts it, if you are standing on ground, just look down — you are standing, and everyone is standing, in a watershed; the concept covers land everywhere. [6]\n\n## The watershed as a precipitation collector\n\nMost of the [precipitation](/hubpedia/precipitation) that falls within the drainage area of a stream's USGS monitoring site collects in the stream and eventually flows by the monitoring site, so a watershed can be pictured as a precipitation collector. If the whole basin were covered with a strong plastic sheet, one inch of rain on a 1-square-mile watershed would — ignoring evaporation and other losses — send all of the approximately 17,378,560 gallons of rainfall past the watershed outflow point. [8][9]\n\nIn reality, not all precipitation that falls in a watershed flows out, and a stream will often continue to flow where there is no direct runoff from recent precipitation. Watersheds matter because the [streamflow](/hubpedia/streamflow) and [water quality](/hubpedia/water-quality) of a river are affected by things — human-induced or not — happening in the land area \"above\" the river-outflow point. [10][7]\n\n## Factors controlling outflow and the water budget\n\nA water budget is an analysis of the relationship between the amount of water coming into the watershed from precipitation and the amount leaving it as evaporation, recharge to aquifers, and streamflow at the bottom of the watershed; by far the greatest factor controlling streamflow is the amount of precipitation that falls in the watershed as rain or snow. [11][12]\n\nWhen rain falls on dry ground, some water soaks into — infiltrates — the [soil](/hubpedia/soil). Some stays in the shallow soil layer moving slowly downward, some is taken up by plants, some moves toward the stream and enters by seepage into the stream bank, and some infiltrates much deeper, recharging [groundwater aquifers](/hubpedia/aquifer); water may travel long distances or remain in storage for long periods before returning to the surface. Soils containing sand or gravel can absorb large amounts of water rapidly, clay-rich soils absorb slowly, and soils absorbing less water produce more runoff overland into streams. A soil already saturated from previous rainfall cannot absorb much more, so more rainfall becomes [surface runoff](/hubpedia/surface-runoff). [13][14][15]\n\n## Land cover, terrain, storage, and human use\n\nImpervious surfaces such as parking lots, roads, sidewalks, and rooftops act as a \"fast lane\" for rainfall into storm drains that lead directly into streams, and [floods](/hubpedia/flood) become larger in watersheds where the amount of impervious surfaces is increasing. Water falling on steeply-sloped land runs off more quickly than water falling on flat land. Rainfall returns to the atmosphere largely through evaporation — governed by temperature, solar radiation, wind, and atmospheric pressure — while plants take up soil water through roots and release most of it through leaves (transpiration). Vegetation slows runoff and allows water to seep into the ground. [16][17][18][19]\n\nReservoirs store water and increase the amount that evaporates and infiltrates, and their storage and release can significantly affect the streamflow patterns of the river below the dam. Human withdrawals for irrigation, industry, mining, and drinking-water supply decrease the flow of water in streams, yet a significant part of the water people use eventually returns to the streams; irrigation water flowing back is called irrigation return flow, and household and business water passes through sanitary sewers to wastewater treatment plants — where some pollutants are removed — before the remaining water is returned to a river. [20][21]\n\n## Example: the swimming-pool-cover watershed\n\nThe USGS illustrates a watershed with a covered swimming pool in winter: the blue cover is the watershed, within which precipitation flows \"down-gradient\" toward the lowest part of the basin — the center of the cover — just as water in nature flows toward a valley, river, or lake. A lake forms at the center for the same reason one forms on the landscape: it is the lowest area and water arrives faster than it can leave. The difference from a real drainage basin is that this \"watershed\" has no outlet for water to exit, as almost all watersheds do. [22]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "流域は、貯水池の放流口・湾の河口・河川水路の任意の地点など、共通の流出点へすべての河川と降雨を排水する土地の区域である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "A watershed is an area of land that drains all the streams and rainfall to a common outlet"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "流域の規模は足跡ほどの小ささから、チェサピーク湾へ注ぐ河川に水を集める全土地を含むほど大きなものまである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "Watersheds can be as small as a footprint"
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "all the land that drains water into rivers that drain into Chesapeake Bay"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "「watershed」は排水盆地（drainage basin）や集水域（catchment）と同義に使われ、2つの流域を隔てる尾根や丘陵は分水界と呼ばれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "is sometimes used interchangeably with"
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "Ridges and hills that separate two watersheds are called the drainage divide."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "流域は湖・河川・貯水池・湿地などの表層水と、その下にあるすべての地下水から構成される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "The watershed consists of "
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "--and all the underlying "
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "大きな流域は多くの小さな流域を内包し、流出点へ水を排水する全土地がその地点の流域となる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "Larger watersheds contain many smaller watersheds."
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "all of the land that drains water to the outflow point is the watershed for that outflow location"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "USGSは、地面に立っていれば誰もが流域の中に立っていると説明している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "everyone is standing, in a watershed"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "流域が重要なのは、河川の流量と水質が流出点の「上流」側の土地で起きる人為的・自然的な事象の影響を受けるためである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "Watersheds are important because the streamflow and the "
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "\"above\" the river-outflow point"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "USGSの測流地点の排水区域に降った降水の大部分は河川に集まり、やがて測流地点を通過する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "that falls within the drainage area of a stream's USGS monitoring site"
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "collects in the stream and eventually flows by the monitoring site"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "1平方マイルの流域に1インチの雨が降れば、損失を無視すれば約1,738万ガロンの雨水が流域の流出点を通過する計算になる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "17,378,560 gallons"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "流域に降った降水のすべてが流出するわけではなく、直接の流出がなくても河川は流れ続けることが多い。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "a stream will often continue to flow where there is no direct runoff from recent precipitation"
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/surface-runoff-and-water-cycle",
+              "quote": "Only about a third of the precipitation that falls over land runs off into streams and rivers and is returned to the oceans."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "水収支は、降水として流域に入る水量と、蒸発・帯水層涵養・流域末端の河川流量として出ていく水量との関係を分析するものである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "A water budget is an analysis of the relationship between the amount of water coming into the watershed"
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "streamflow coming out at the bottom of the watershed"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "河川流量を支配する最大の要因は、流域に雨や雪として降る降水量である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "The greatest factor controlling streamflow, by far, is the amount of precipitation that falls in the watershed as rain or snow."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "乾いた地に降った雨の一部は土壌に浸透し、一部はさらに深く浸透して地下水帯水層を涵養し、水は地表へ戻るまで長距離を移動したり長期間貯留されたりする。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "When rain falls on dry ground, some of the water soaks in, or infiltrates the soil."
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "Some of the water may infiltrate much deeper, recharging "
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "Water may travel long distances or remain in "
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "for long periods before returning to the surface."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "砂や礫を多く含む土壌は大量の水を急速に吸収し、粘土質の土壌は吸収が遅く、吸収量の少ない土壌では河川への地表流出が増える。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "some soils can absorb large amounts of water very rapidly"
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "Other soils absorb water very slowly"
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "runoff overland into streams"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "前の降雨で飽和した土壌は濡れたスポンジのように多くを吸収できず、より多くの降雨が表面流出となる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "soil already saturated from previous rainfall can"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "不浸透面は降雨を水路へ直接導く「ファストレーン」として働き、不浸透面が増えている流域では洪水が大きくなる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "Impervious surfaces, such as parking lots, roads, sidewalks, and rooftops"
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "Floods become larger in watersheds where the amount of "
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/surface-runoff-and-water-cycle",
+              "quote": "the peak discharge, volume, and frequency of floods increase in nearby streams."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "急斜面の土地に降った水は平坦地より速く流出する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "Water falling on steeply-sloped land runs off more quickly than water falling on flat land."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "降雨由来の水は主に蒸発で大気へ戻り、植物は根で土壌水を吸収し大部分を葉から大気へ逃がす。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "Water from rainfall returns to the atmosphere largely through evaporation."
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "Most of this water moves through the plant and escapes into the atmosphere through the leaves."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "植生は流出を遅らせ、水が地中へ染み込むのを助ける。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "Vegetation slows runoff and allows water to seep into the ground."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "貯水池は水を蓄え蒸発と浸透を増やし、その貯留と放流はダム下流の河川の流量パターンに大きな影響を与えうる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "Reservoirs store water and increase the amount of water that evaporates and infiltrates."
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "The storage and release of water in reservoirs can have a significant effect on the streamflow patterns of the river below the dam."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "人間の取水は河川流量を減らすが利用水のかなりの部分は河川へ戻り、灌漑で戻る水は灌漑還流水と呼ばれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "These uses decrease the flow of water in streams"
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "the water flowing back to the stream is called irrigation return flow"
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "USGSはプールカバーを流域の例として挙げ、降った雨が盆地の最も低い部分へ勾配を下って流れ、実際の流域との違いは流出点がないことだと説明する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "the area in which precipitation that falls flows"
+            },
+            {
+              "sourceUrl": "https://www.usgs.gov/water-science-school/science/watersheds-and-drainage-basins",
+              "quote": "towards the lowest part of the basin"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

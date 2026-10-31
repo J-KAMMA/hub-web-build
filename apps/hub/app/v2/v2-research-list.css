@@ -1,0 +1,89 @@
+/* /v2/research の一覧。頭・検索1行・カード・空の状態。色は意味トークンだけ。 */
+.v2 .v2-rl { display: grid; gap: var(--v2-space-3); min-width: 0; align-content: start; }
+.v2 .v2-rl-list { display: grid; gap: var(--v2-space-3); min-width: 0; padding: 0 var(--v2-space-4) var(--v2-space-6); }
+.v2 .v2-rl-create, .v2 .v2-rl-github {
+  margin: 0 var(--v2-space-4);
+  padding: var(--v2-space-4);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius-lg);
+  background: var(--panel);
+}
+.v2 .v2-rl-create form { display: grid; gap: var(--v2-space-3); max-width: 640px; }
+.v2 .v2-rl-create__pair { display: grid; grid-template-columns: 1fr 1fr; gap: var(--v2-space-3); }
+.v2 .v2-rl-create__actions { display: flex; flex-wrap: wrap; gap: var(--v2-space-2); }
+.v2 .v2-rl-github .research-github { padding-block: 0; border-top: 0; }
+
+.v2 .v2-rl-search { margin: 0; align-items: center; }
+.v2 .v2-rl-search > input { flex: 1 1 240px; }
+.v2 .v2-rl-source {
+  flex: 0 1 220px;
+  min-width: 0;
+  height: 40px;
+  padding: 0 var(--v2-space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius-pill);
+  background: var(--panel);
+  color: var(--text);
+  font: inherit;
+  font-size: var(--v2-text-sm);
+}
+.v2 .v2-rl-count, .v2 .v2-rl-note { margin: 0; color: var(--muted); font-size: var(--v2-text-sm); }
+.v2 .v2-rl-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: var(--v2-space-3); }
+.v2 .v2-rl-card {
+  align-content: start;
+  gap: var(--v2-space-2);
+  padding: var(--v2-space-4);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius-lg);
+  background: var(--panel);
+}
+.v2 .v2-rl-card:hover { border-color: var(--line-strong); background: var(--action-hover); }
+.v2 .v2-rl-card h3 { font-size: var(--type-headline-size); line-height: var(--type-headline-leading); font-weight: var(--type-headline-weight); }
+.v2 .v2-rl-card p { font-size: var(--type-subhead-size); line-height: var(--type-subhead-leading); }
+
+/* 状態のチップ（公開・準備中など）は caption。globals.css の 11px を上書きする。 */
+.v2 .research-project-card span,
+.v2 .research-project-header span {
+  padding: 2px var(--v2-space-2);
+  font-size: var(--type-caption-size);
+  line-height: var(--type-caption-leading);
+  font-weight: var(--type-caption-weight);
+}
+.v2 .research-project-card footer { font-size: var(--type-caption-size); }
+.v2 .research-project-header h1 { font-size: var(--type-title2-size); line-height: var(--type-title2-leading); font-weight: var(--type-title2-weight); letter-spacing: 0; }
+
+/* 研究の頁: 区画は縦に積む。「文書」の見出しと一覧は説明の下に1列で並べる。 */
+.v2 .research-page { gap: var(--v2-space-5); }
+.v2 .research-document-layout { grid-template-columns: minmax(0, 1fr); }
+.v2 .research-document-layout > div:first-child { flex-direction: row; flex-wrap: wrap; align-items: center; }
+.v2 .research-document-layout > div:first-child > h3 { flex: 0 0 100%; margin: 0; }
+
+/* fork は見出しの下の副ボタン。開くと説明と確認が出る。 */
+.v2 .research-editor > details > summary {
+  display: inline-flex;
+  align-items: center;
+  min-height: 36px;
+  padding: 0 var(--v2-space-4);
+  border: var(--divider);
+  border-radius: var(--v2-radius-pill);
+  background: var(--panel);
+  color: var(--text);
+  font-size: var(--type-subhead-size);
+  font-weight: var(--type-headline-weight);
+  list-style: none;
+  cursor: pointer;
+}
+.v2 .research-editor > details > summary::-webkit-details-marker { display: none; }
+.v2 .research-editor > details > summary:hover { background: var(--content-surface-hover); }
+.v2 .research-editor > details[open] > summary { margin-bottom: var(--v2-space-3); }
+.v2 .v2-rl-list .v2-empty { max-width: none; }
+
+@media (max-width: 640px) {
+  .v2 .v2-rl-create__pair { grid-template-columns: 1fr; }
+  .v2 .v2-rl-search > input, .v2 .v2-rl-source, .v2 .v2-rl-search .v2-search__submit { min-height: 44px; }
+  .v2 .v2-rl-source { flex: 1 1 100%; }
+}
+.v2 .v2-rl-list { box-sizing: border-box; width: 100%; }
+.v2 .v2-rl-search { max-width: 100%; box-sizing: border-box; }
+.v2 .v2-rl-search > input { flex: 1 1 200px; }
+.v2 .v2-rl-search [aria-expanded="true"] { border-color: var(--line-strong); }

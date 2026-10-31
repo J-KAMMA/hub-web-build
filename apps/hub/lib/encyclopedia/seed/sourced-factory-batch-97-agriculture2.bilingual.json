@@ -1,0 +1,1041 @@
+[
+  {
+    "slug": "excess-fertilizer",
+    "topicType": "concept",
+    "categoryLabel": "地球・環境",
+    "title": "過剰施肥",
+    "summary": "過剰施肥は、作物が吸収できる量を超えて窒素やリンの肥料を農地に投入し、余った養分が水系や生態系へ流出する状態を指す。世界で施肥される窒素の約3分の2、リンの半分以上が作物に使われず汚染物質になる一方、肥料が足りずに土壌の養分を消耗させている地域も存在し、過剰と不足は地理的に偏って同時に起きている。",
+    "bodyMarkdown": "## 養分の行方\n\n畑に撒かれた肥料のうち、収穫される作物になる分は思いのほか少ない。世界の農家は年間で約1億1500万トンの窒素を作物に施肥しているが、そのうち作物に利用されるのは約35%にとどまり、残る7500万トンが河川や湖沼、周囲の自然環境へ流出している。施肥された窒素のおよそ3分の2が、農業の投入物ではなく環境中の汚染物質として振る舞っていることになる。 [1][2][3]\n\nリンでも構図は変わらない。年間の施肥量は約2500万トンで、このうち1400万トンは作物に利用されず汚染物質となる。割合にすると施肥されたリンの半分以上が作物の外へ出ていく計算であり、窒素ほどではないにせよ、投入の過半が目的を果たしていない点は共通している。 [8][9][11]\n\nここでいう「過剰」は、肥料を撒く行為そのものではなく、作物が吸収できる量と投入量の差を指す。多くの国が作物の吸収量を超えて施肥しており、その差分が養分として水系や生態系へ流れ込む。 [21]\n\n## 国ごとの偏り\n\n過剰分は世界に均等に分布していない。単位面積あたりで見ると、クウェート、シンガポール、韓国、エジプト、ニュージーランド、中国、台湾は1ヘクタール当たり100キログラムを超える過剰窒素を生み出している。面積あたりの強度が高い国には、耕地が狭く集約度の高い国と、農業が大きな比重を占める国の双方が含まれる。 [4]\n\n総量で見ると順位は変わる。窒素汚染では中国が世界の3分の1を占めて最大の排出国であり、インドが約18%、米国が11%と続く。これにパキスタンとブラジルが加わり、上位数か国で世界の排出の大半を構成する。リンでも中国が世界の過剰分の3分の1を生産して首位に立ち、インドが5分の1、ブラジルが7%、米国が6%、パキスタンが3%となっている。 [5][6][7][10][14][22]\n\n窒素を過剰に施肥する国はリンでも過剰になりやすく、上位にはシンガポール、ニュージーランド、日本、韓国、ベルギーが入る。二つの養分の過剰は独立した問題としてではなく、同じ施肥慣行から並行して生じている。 [13]\n\n## 窒素マイニング（養分の持ち出し）\n\n過剰の反対側には、肥料が足りない状態がある。一部の国は窒素肥料の供給が不足しており、収支がマイナスになる「窒素マイニング」を生じている。これは、国が十分な窒素肥料を供給しないまま作物の増産を続けることで、作物が土壌中にもともとある窒素を消費していく現象である。 [12][15]\n\n短期的には収穫が得られるため問題が見えにくいが、持ち出しが続けば土壌の養分は枯渇し、長期的に土壌生産性と作物生産に悪影響が及ぶ。過剰施肥が水を汚すのに対し、窒素マイニングは土そのものの生産力を削るという形で現れる。 [16]\n\n## 不足がもたらす土地への圧力\n\nサハラ以南アフリカをはじめ、貧しい国の多くは肥料を十分に使用していない。肥料使用が不足している国では作物収量が低下し、同じ量の食料を得るためにより広い農地が必要になる。 [17][19]\n\nこの収量と面積の関係は、生物多様性への影響として現れる。農地の拡大により数千種の哺乳類、鳥類、両生類が絶滅の危機にさらされており、サハラ以南アフリカは農地拡大によって今後数十年で生息地損失のホットスポットになると予測されている。予測である以上、確定した将来ではないが、肥料の不足を単なる農業生産上の問題として扱えないことは示している。 [18][20]\n\nつまり肥料をめぐる問題は、量の多寡ではなく分布の問題として立ち現れる。過剰な地域では養分が水系へ漏れ出し、不足する地域では土壌が痩せ、農地が自然の生息地へ広がっていく。 [16][18][21]\n\n## 関連記事\n\n- 肥料の削減\n- [農業生産性](/hubpedia/agricultural-productivity)\n- [収量と生息地](/hubpedia/yields-and-habitat)\n- [土地利用](/hubpedia/land-use)\n- [生物多様性](/hubpedia/biodiversity)\n- [小規模農業](/hubpedia/smallholder-farming)\n- [絶滅リスク](/hubpedia/extinction-risk)\n- [食料供給](/hubpedia/food-supply)",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/excess-fertilizer",
+        "title": "過剰施肥",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on excess-fertilizer. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/fertilizers",
+        "title": "fertilizers",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Fertiliser application overall. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Overfertilization",
+        "summary": "Overfertilization refers to a state in which nitrogen and phosphorus fertilizers are applied to farmland beyond what crops can absorb, and the surplus nutrients run off into waterways and ecosystems. Roughly two-thirds of the nitrogen and more than half of the phosphorus applied worldwide never reaches crops and instead becomes a pollutant, while other regions do not have enough fertilizer and are depleting the nutrients in their soils; excess and deficiency occur at the same time, distributed unevenly across geography.",
+        "bodyMarkdown": "## Where the nutrients go\n\nOf the fertilizer spread on fields, the share that ends up as harvested crops is smaller than one might expect. Farmers worldwide apply about 115 million tonnes of nitrogen to crops each year, but only about 35% of it is taken up by those crops; the remaining 75 million tonnes runs off into rivers, lakes, and the surrounding natural environment. In other words, roughly two-thirds of the nitrogen applied behaves not as an agricultural input but as a pollutant in the environment. [1][2][3]\n\nThe picture is no different for phosphorus. About 25 million tonnes are applied annually, of which 14 million tonnes are not used by crops and become pollutants. As a proportion, that means more than half of the phosphorus applied leaves without reaching the crop — not as extreme as nitrogen, but sharing the same feature that the majority of the input fails to serve its purpose. [8][9][11]\n\n\"Excess\" here does not refer to the act of applying fertilizer itself, but to the gap between how much crops can absorb and how much is applied. Many countries fertilize beyond the amount their crops take up, and that difference flows as nutrients into waterways and ecosystems. [21]\n\n## Imbalance between countries\n\nThe surplus is not evenly distributed around the world. Measured per unit of area, Kuwait, Singapore, South Korea, Egypt, New Zealand, China, and Taiwan each generate more than 100 kilograms of excess nitrogen per hectare. Countries with high intensity per unit of area include both those with small, intensively worked croplands and those where agriculture accounts for a large share of activity. [4]\n\nMeasured by total volume, the ranking changes. For nitrogen pollution, China is the largest emitter, accounting for a third of the world total, followed by India at about 18% and the United States at 11%. With Pakistan and Brazil added, these few leading countries make up the bulk of global emissions. For phosphorus, China again leads, producing a third of the world's surplus, with India at a fifth, Brazil at 7%, the United States at 6%, and Pakistan at 3%. [5][6][7][10][14][22]\n\nCountries that over-apply nitrogen tend to over-apply phosphorus as well, and the leading group includes Singapore, New Zealand, Japan, South Korea, and Belgium. The two nutrient surpluses do not arise as independent problems but emerge in parallel from the same fertilization practices. [13]\n\n## Nitrogen mining (drawing nutrients out)\n\nOn the other side of excess lies the condition of not having enough fertilizer. Some countries have an insufficient supply of nitrogen fertilizer, producing a negative balance known as \"nitrogen mining.\" This is the phenomenon in which crops consume the nitrogen naturally present in the soil, because a country keeps increasing crop production without supplying enough nitrogen fertilizer. [12][15]\n\nBecause harvests are still obtained in the short term, the problem is hard to see; but if the extraction continues, soil nutrients are exhausted, with long-term harm to soil productivity and crop production. Where overfertilization pollutes water, nitrogen mining shows up as an erosion of the productive capacity of the soil itself. [16]\n\n## The pressure that scarcity puts on land\n\nMany poor countries, notably in sub-Saharan Africa, do not use enough fertilizer. In countries where fertilizer use is insufficient, crop yields fall, and more farmland is needed to obtain the same quantity of food. [17][19]\n\nThis relationship between yield and area shows up as an impact on biodiversity. Thousands of species of mammals, birds, and amphibians are threatened with extinction by the expansion of farmland, and sub-Saharan Africa is projected to become a hotspot of habitat loss from agricultural expansion in the coming decades. Being a projection, it is not a settled future, but it does show that a shortage of fertilizer cannot be treated as a problem of agricultural production alone. [18][20]\n\nThe issue surrounding fertilizer, then, presents itself as a problem of distribution rather than of quantity. In regions with excess, nutrients leak into waterways; in regions with too little, soils grow thin and farmland spreads into natural habitat. [16][18][21]\n\n## Related articles\n\n- Fertilizer reduction\n- [Agricultural productivity](/hubpedia/agricultural-productivity)\n- [Yields and habitat](/hubpedia/yields-and-habitat)\n- [Land use](/hubpedia/land-use)\n- [Biodiversity](/hubpedia/biodiversity)\n- [Smallholder farming](/hubpedia/smallholder-farming)\n- [Extinction risk](/hubpedia/extinction-risk)\n- [Food supply](/hubpedia/food-supply)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T12:55:37.843Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "世界の農家は年間で約1億1500万トンの窒素を作物に施肥している。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/excess-fertilizer",
+              "quote": "farmers apply around 115 million tonnes of nitrogen to our crops every year"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "施肥された窒素のうち作物に利用されるのは約35%に過ぎず、7500万トンが河川・湖沼・自然環境に流出する。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/excess-fertilizer",
+              "quote": "Only around 35% of this is used by them, meaning 75 million tonnes of nitrogen runs off into our rivers, lakes and natural environments"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "施肥された窒素の約3分の2が環境汚染物質になっている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/excess-fertilizer",
+              "quote": "It is quite staggering that almost two-thirds of our applied nitrogen becomes an environmental pollutant"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "クウェート、シンガポール、韓国、エジプト、ニュージーランド、中国、台湾は1ヘクタール当たり100キログラムを超える過剰窒素を生み出している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/excess-fertilizer",
+              "quote": "Countries such as Kuwait, Singapore, South Korea, Egypt, New Zealand, China, and Taiwan create more than 100 kilograms of excess nitrogen per hectare."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "中国は世界の窒素汚染の3分の1を占め、最大の排出国となっている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/excess-fertilizer",
+              "quote": "China generates the most nitrogen pollution, accounting for one-third of the global total."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "インドは世界の窒素汚染の約18%を占める。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/excess-fertilizer",
+              "quote": "India produces almost one-fifth (18%)"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "米国は世界の窒素汚染の11%を占める。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/excess-fertilizer",
+              "quote": "the USA produces 11%"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "世界の農家は年間約2500万トンのリンを施肥している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/excess-fertilizer",
+              "quote": "Globally farmers apply around 25 million tonnes every year"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "施肥されたリンのうち1400万トンは作物に利用されず汚染物質となる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/excess-fertilizer",
+              "quote": "14 million tonnes are not used by the crops and become a pollutant"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "中国は世界の過剰リンの3分の1を生産し首位である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/excess-fertilizer",
+              "quote": "China tops the list, producing one-third of the world’s excess phosphorus."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "施肥されたリンの半分以上が作物に利用されず汚染物質となる。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/excess-fertilizer",
+              "quote": "more than half of applied phosphorus does"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "一部の国は窒素肥料の供給不足によりマイナスの窒素収支（窒素マイニング）を生じている。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/excess-fertilizer",
+              "quote": "Some countries actually produce ‘negative’ nitrogen pollution, they are shown in blue. This is known as nitrogen mining."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "窒素を過剰施肥する国の多くはリンも過剰施肥しており、シンガポール、ニュージーランド、日本、韓国、ベルギーが上位に入る。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/excess-fertilizer",
+              "quote": "Most of the countries that overapply nitrogen are the same ones that also overapply phosphorus. Singapore, New Zealand, Japan, South Korea, and Belgium, are all near the top of the list."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "リンの過剰排出は中国に次いでインドが5分の1、ブラジルが7%、米国が6%、パキスタンが3%となっている。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/excess-fertilizer",
+              "quote": "This is followed by India at one-fifth; Brazil at 7%; United States at 6%; and Pakistan at 3%."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "窒素マイニングは、国が窒素肥料を十分に供給しないまま作物増産を続けることで生じ、作物が土壌中の窒素を消費する。",
+          "confidence": 0.87,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/excess-fertilizer",
+              "quote": "This happens when countries undersupply nitrogen fertilizers, but continue to try to grow more and more crops. Crops then have to take nitrogen from the soil."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "窒素マイニングが続くと土壌の養分が枯渇し、長期的に土壌生産性と作物生産に悪影響を及ぼす。",
+          "confidence": 0.87,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/excess-fertilizer",
+              "quote": "Over time this depletes soils of their nutrients which will be bad for the productivity of these soils and crop production in the long-run."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "サハラ以南アフリカなど貧しい国の多くは肥料を十分に使用していない。",
+          "confidence": 0.87,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/excess-fertilizer",
+              "quote": "Many countries – particularly poorer countries across Sub-Saharan Africa – do not use enough fertilizer."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "サハラ以南アフリカは、農地拡大により今後数十年で生息地損失のホットスポットになると予測されている。",
+          "confidence": 0.87,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/excess-fertilizer",
+              "quote": "Sub-Saharan Africa is projected to be the hotspot of habitat loss in the coming decades as a result of expanding croplands."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "肥料使用が不足している国では作物収量が低下する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/excess-fertilizer",
+              "quote": "Their crop yields suffer as a result."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "農地拡大により数千種の哺乳類、鳥類、両生類が絶滅の危機にさらされている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/excess-fertilizer",
+              "quote": "Thousands of mammals, birds and amphibian species are at risk."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "多くの国が肥料を過剰施肥しており、養分が水系や生態系に流出している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/fertilizers",
+              "quote": "Many countries overapply fertilizers, leading to the runoff of nutrients into water systems and ecosystems."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "窒素汚染の排出量では中国・インド・米国に続きパキスタンとブラジルが多い。",
+          "confidence": 0.82,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/excess-fertilizer",
+              "quote": "followed by Pakistan and Brazil"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "smallholder-farming",
+    "topicType": "concept",
+    "categoryLabel": "経済・ビジネス",
+    "title": "小規模農業",
+    "summary": "小規模農業とは、一般に2ヘクタール未満の農場による農業を指し、世界の農場の84%を占める一方で、供給される食料に占める割合は約3分の1にとどまる。「世界の食料の70〜80%を小規模農家が生産している」という広く流布した主張は、農場規模ではなく家族農場という別の区分や、より大きな農場までを含めた集計に由来するとされ、定義の取り違えが数字の食い違いを生んでいる。この区別は、農村の貧困対策や食料政策の前提として重要になる。",
+    "bodyMarkdown": "## 定義と世界の農場の分布\n\n小規模農場（スモールホルダー）は、通常2ヘクタール未満の農場と定義される。世界にはおよそ5億7000万の農場があると推定されており、そのうち84%がこの2ヘクタール未満の区分に入る。つまり数の上では、世界の農場の大多数が小規模農場である。 [5][6][10]\n\nこれとよく混同されるのが「家族農場」という区分である。家族農場は、個人または複数の個人によって経営され、労働の大部分を家族が担う農場と定義され、規模の大小は問わない。したがって数百ヘクタールを耕す農場でも、経営と労働の形態が条件を満たせば家族農場に数えられる。家族農場は規模を問わず世界の食料の約80%を生産しているとされる。 [4][17][18]\n\n## 生産量に占める割合\n\n小規模農家はキロカロリー換算で世界の作物生産の29%を生産しており、そのために使っている[農地](/hubpedia/land-use)は世界の約4分の1（24%）にあたる。作付面積の割合と生産量の割合はおおむね釣り合っている。 [7][8]\n\n一方、世界の[食料供給](/hubpedia/food-supply)に占める割合は32%と、作物生産に占める割合よりわずかに大きい。これは、小規模農場ほど収穫した作物のより大きな割合を、家畜飼料や[バイオ燃料](/hubpedia/bioenergy)ではなく人間の食用に振り向ける傾向があるためと説明されている。 [9][24]\n\nこの推計の基礎となったのは、Vincent Ricciardiらが作成した、農場規模別に世界の食料生産を示した初のオープンデータセットで、55か国にわたる154種類の作物を対象としている。Sarah Lowder、Marco Sanchez、Raffaele Bertiniによる研究も、小規模農場が世界の食料の3分の1を生産しているという結論に一致している。これらの結果によれば、小規模農家が生産するのは世界の食料の約3分の1にすぎず、広く流布した通説の半分以下にあたる。 [1][14][16]\n\n## 「70〜80%」という主張の出所\n\n小規模農家が世界の食料の70%、あるいは80%を生産しているという主張は繰り返し行われてきた。この主張は国連食糧農業機関（FAO）自身によってもなされており、ある報告書は「小規模農家は世界の食料需要の70%以上を生産している」と述べ、別の報告書では小規模農家と家族農場が世界の食料の70〜80%を生産しているとしている。2009年の環境保護団体ETCグループの報告書も、「小農」が世界の食料の少なくとも70%を栽培していると主張した。 [2][3][13][23][30]\n\nこれらの主張で用いられる定義は一貫していない。あるときは小規模農場を、あるときは家族農場を指し、対象も食料であったり作物生産であったり、農地面積であったりする。農場規模を基準として70〜80%という数字に到達するには、100ヘクタール、あるいは200ヘクタールに及ぶ農場までを含める必要がある。ただし家族農場を基準にとるなら、世界の食料の70〜80%という水準はおそらく正しい。取り違えられているのは数字そのものというより、その数字が数えている対象である。 [4][15][25][31]\n\n## 労働生産性と貧困\n\n小規模農場は良い収量を達成できるが、そのためには多くの人手と投入資材を必要とし、労働生産性は低い。単位面積あたりの成果と、働き手一人あたりの成果とは別物であり、小規模農業の弱点は後者に現れる。 [12]\n\n多くの小規模農家は世界で最も貧しい人々に含まれ、逆説的なことに、食料を生産しながら彼ら自身がしばしば飢えにも苦しんでいる。農場規模の小ささと労働生産性の低さが重なることで、所得を増やして貧困から脱却することが難しくなっていると説明されている。 [11][21]\n\n国が豊かになるにつれて、平均的な農場の規模は大きくなる傾向がある。[農業生産性](/hubpedia/agricultural-productivity)を高めることは、国が貧困から中所得へ移行する上で重要な一歩とされ、労働年齢人口が多い国では、小規模農業への移行そのものが経済発展の一段階となり得るという見方もある。他方で、人口の大半が小規模農家として働いている限りその国は深刻な貧困から抜け出せない、という指摘もなされている。 [22][27][28][29]\n\n## 国際的な政策上の位置づけ\n\nFAOは2014年を「家族農業年」と定め、その後2019年から2028年までを対象とする「家族農業の10年」を開始した。持続可能な開発目標（SDGs）のターゲット2.3は、2030年までに小規模食料生産者の生産性と所得を倍増させることを掲げている。パリ気候協定にも、小規模農家への緩和策・適応支援に関する条項が含まれている。政策文書が対象とするのが小規模農場なのか家族農場なのかは、生産量の割合をめぐる議論と同じ区別を必要とする。 [19][20][26][31]\n\n## 関連記事\n\n- [食料不安](/hubpedia/food-insecurity)\n- [国際貧困ライン](/hubpedia/international-poverty-line)",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/smallholder-food-production",
+        "title": "小規模農業",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on smallholder-farming. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/farm-size",
+        "title": "farm-size",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "The size distribution of farms. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Smallholder agriculture",
+        "summary": "Smallholder agriculture generally refers to farming on farms smaller than two hectares, which make up 84% of the world's farms while supplying only about one third of the food produced. The widely circulated claim that \"smallholders produce 70–80% of the world's food\" is said to derive from a different category — family farms rather than farm size — and from aggregates that include much larger farms, so that a confusion of definitions produces the discrepancy in the figures. This distinction matters as a premise for rural poverty measures and food policy.",
+        "bodyMarkdown": "## Definition and the distribution of the world's farms\n\nSmallholder farms are usually defined as farms of less than two hectares. There are an estimated 570 million farms in the world, and 84% of them fall into this sub-two-hectare category. In terms of sheer numbers, then, the great majority of the world's farms are smallholdings. [5][6][10]\n\nA category frequently confused with this is the \"family farm\". A family farm is defined as a farm managed by an individual or several individuals in which the bulk of the labour is provided by the family, regardless of size. A farm cultivating several hundred hectares therefore still counts as a family farm if its management and labour arrangements meet the conditions. Family farms of all sizes are said to produce about 80% of the world's food. [4][17][18]\n\n## Share of production\n\nSmallholders produce 29% of the world's crop production in kilocalorie terms, and the [farmland](/hubpedia/land-use) they use for it amounts to about a quarter of the world's total (24%). The share of cultivated area and the share of production are broadly in balance. [7][8]\n\nTheir share of the world's [food supply](/hubpedia/food-supply), at 32%, is slightly larger than their share of crop production. This is explained by the tendency of smaller farms to direct a larger proportion of their harvest to human consumption rather than to livestock feed or [biofuels](/hubpedia/bioenergy). [9][24]\n\nThe basis for these estimates was the first open dataset showing global food production by farm size, compiled by Vincent Ricciardi and colleagues and covering 154 crops across 55 countries. Research by Sarah Lowder, Marco Sanchez and Raffaele Bertini agrees with the conclusion that smallholder farms produce one third of the world's food. By these results, smallholders produce only about a third of the world's food — less than half the widely circulated conventional figure. [1][14][16]\n\n## Where the \"70–80%\" claim comes from\n\nThe claim that smallholders produce 70%, or 80%, of the world's food has been made repeatedly. It has been made by the Food and Agriculture Organization of the United Nations (FAO) itself: one report states that \"smallholders produce more than 70% of the world's food needs\", while another puts smallholders and family farms at 70–80% of the world's food. A 2009 report by the environmental organisation ETC Group likewise asserted that \"peasants\" grow at least 70% of the world's food. [2][3][13][23][30]\n\nThe definitions used in these claims are not consistent. Sometimes they refer to smallholder farms, sometimes to family farms; the subject may be food, or crop production, or farmland area. To reach a figure of 70–80% on the basis of farm size, one has to include farms of up to 100, or even 200, hectares. If family farms are taken as the basis, however, a level of 70–80% of the world's food is probably correct. What is being confused is less the figure itself than what the figure is counting. [4][15][25][31]\n\n## Labour productivity and poverty\n\nSmallholder farms can achieve good yields, but doing so requires a great deal of labour and inputs, and labour productivity is low. Output per unit of area and output per worker are different things, and the weakness of smallholder agriculture appears in the latter. [12]\n\nMany smallholders are among the world's poorest people and, paradoxically, those who produce food often go hungry themselves. Small farm size combined with low labour productivity is said to make it difficult for them to raise their incomes and escape poverty. [11][21]\n\nAs countries grow richer, the average farm tends to become larger. Raising [agricultural productivity](/hubpedia/agricultural-productivity) is regarded as an important step in a country's transition from poverty to middle income, and one view holds that in countries with large working-age populations the shift to smallholder farming can itself be a stage of economic development. Others point out that as long as the majority of the population works as smallholders, a country cannot escape severe poverty. [22][27][28][29]\n\n## Position in international policy\n\nThe FAO designated 2014 the International Year of Family Farming, and subsequently launched the Decade of Family Farming covering 2019 to 2028. Target 2.3 of the Sustainable Development Goals (SDGs) calls for doubling the productivity and incomes of small-scale food producers by 2030. The Paris climate agreement also includes provisions on mitigation and adaptation support for smallholders. Whether such policy documents address smallholder farms or family farms requires the same distinction as the debate over shares of production. [19][20][26][31]\n\n## Related articles\n\n- [Food insecurity](/hubpedia/food-insecurity)\n- [International poverty line](/hubpedia/international-poverty-line)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T12:55:37.845Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "実際には小規模農家が生産するのは世界の食料の約3分の1にすぎず、これは通説の半分以下である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "smallholder farmers produce around one-third of the world’s food, less than half of what these headlines claim"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "小規模農家が世界の食料の70%、あるいは80%を生産しているとよく主張されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "smallholder farmers produce 70% or even 80% of the world’s food"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "この主張は国連食糧農業機関（UN FAO）自身によっても行われてきた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "This claim has even been made by the United Nations Food and Agriculture Organization (UN FAO)."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "家族農場（規模を問わない）は世界の食料の約80%を生産している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "Family farms do produce around 80% of the world’s food"
+            },
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "They find that family farms produce around 80% of the world’s food."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "世界の農場の84%は2ヘクタール未満の小規模農場（スモールホルダー）である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "Most (84%) of the world’s 570 million farms are smallholdings; that is, farms less than two hectares in size."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "小規模農場（スモールホルダー）は2ヘクタール未満の農場と定義される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "Smallholder farms are those that are less than two hectares."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "小規模農家はキロカロリー換算で世界の作物生産の29%を生産している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "Smallholder farmers produce 29% of the world’s crops, measured in kilocalories."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "小規模農家は世界の農地の約4分の1（24%）を使ってその生産を行っている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "They do so using around one-quarter (24%) of the world’s agricultural land."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "小規模農場は世界の食料供給の3分の1（32%）を占め、作物生産に占める割合よりも大きい。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "These farms account for an even greater share of the world’s food supply – one-third (32%) of it."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "世界には約5億7000万の農場があると推定されている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "the world’s 570 million farms"
+            },
+            {
+              "sourceUrl": "https://ourworldindata.org/farm-size",
+              "quote": "It's estimated that there are around 570 million farms in the world."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "多くの小規模農家は世界で最も貧しい人々に含まれ、逆説的なことに彼らはしばしば飢えにも苦しんでいる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "Many smallholder farmers are some of the poorest people in the world. Tragically, and somewhat paradoxically, they are also those who often go hungry."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "小規模農場は良い収量を達成できるが、多くの人手と投入資材を必要とし、労働生産性は低い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "small farms can achieve good yields but need lots of human labor and input"
+            },
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "Labor productivity is low."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "FAOの報告書の一つは「小規模農家は世界の食料需要の70%以上を生産している」と述べている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "small-scale farmers produce over 70% of the world’s food needs."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "Vincent Ricciardiらは、農場規模別に世界の食料生産を示した初のオープンデータセットを作成し、55か国にわたる154種類の作物を対象としている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "They produced the first open dataset on global food production, mapped by farm size."
+            },
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "It covers 154 crop types across 55 countries."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "これまで報告されてきた70〜80%という数字に到達するには、100ヘクタール、あるいは200ヘクタールに及ぶ農場までを含める必要がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "To get to the 70-80% figure that was previously reported, we would need to include farms all the way up to 100, or even 200 hectares."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "Sarah Lowder、Marco Sanchez、Raffaele Bertiniによる研究も、小規模農場が世界の食料の3分の1を生産しているという結論に一致している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "A recent study by Sarah Lowder, Marco Sanchez, and Raffaele Bertini agrees with the conclusion that small farms produce one-third of the world’s food."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "家族農場とは、個人または複数の個人によって経営され、労働の大部分を家族が担う農場と定義される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "it’s one that is operated by an individual or group of individuals, where most labor is supplied by the family"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "小規模農場は世界の食料の3分の1を生産する一方、家族農場は規模を問わず世界の食料の80%を生産している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "small farms produce one-third of the world’s food. Family farms – of any size – produce 80%."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "FAOは2014年を「家族農業年」と定め、その後2019年から2028年までを対象とする「家族農業の10年」を開始した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "The UN FAO declared 2014 the ‘Year of Family Farming’ with a focus on developing agricultural policies and support mechanisms for smallholder farmers."
+            },
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "It later launched the UN decade of family farming, which runs from 2019 to 2028."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "持続可能な開発目標（SDGs）のターゲット2.3は、2030年までに小規模食料生産者の生産性と所得を倍増させることを掲げている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "Target 2.3 is to “Double the productivity and incomes of small-scale food producers” by 2030."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "小規模農家は世界で最も貧しい層に属することが多く、農場規模の小ささと労働生産性の低さが、彼らが所得を増やして貧困から脱却することを難しくしている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/farm-size",
+              "quote": "Yet these farmers are some of the poorest."
+            },
+            {
+              "sourceUrl": "https://ourworldindata.org/farm-size",
+              "quote": "The size and low labor productivity on these farms can make it difficult for smallholders to increase their incomes, and escape poverty."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "人口の大半が小規模農家として働いている限り、その国は深刻な貧困から抜け出せない。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "A country cannot leave deep poverty behind when most of the population work as smallholder farmers."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "FAOの別の報告書では、小規模農家と家族農場が世界の食料の70〜80%を生産していると述べられている。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "In other reports it has said that smallholder and family farms (which raises issues of how these terms are defined) produce 70-80% of the world’s food."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "これは小規模農場ほど収穫した作物のより大きな割合を、家畜飼料やバイオ燃料ではなく食用に振り向ける傾向があるためである。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "This is because smaller farms tend to allocate a larger share of their crops towards food, rather than animal feed or biofuels."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "家族農場が世界の食料の70〜80%を生産しているという主張はおそらく正しい。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "The claim that family farms produce 70-80% of the world’s food is likely to be true."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "パリ気候協定には、小規模農家への緩和策・適応支援に関する重要な条項が含まれている。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "The Paris climate agreement includes important clauses on mitigation and adaptation support for small-scale farmers."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "小規模農業の生産性を高めることは、国が貧困から中所得へ移行する上で重要な一歩である。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "Increasing the productivity of smallholder farming is a crucial step in countries transitioning from poverty to middle-incomes."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "労働年齢人口が多い国では、小規模農業への移行が経済発展の重要な段階となり得る。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "A shift towards small-scale farming can be an important stage of a country’s development, especially if it has a large working age population."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "国が豊かになるにつれて、平均的な農場の規模は大きくなる傾向がある。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "As countries get richer, the average farm size tends to increase."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "2009年の環境保護団体ETCグループの報告書は、「小農」が世界の食料の少なくとも70%を栽培していると主張した。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "It made the claim that ‘peasants’ grow at least 70% of the world's food."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "70〜80%という主張における定義は一貫しておらず、あるときは小規模農場、あるときは家族農場、あるときは食料や作物生産、またあるときは農地面積を指している。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/smallholder-food-production",
+              "quote": "Sometimes it’s defined as smallholder farms; other times as ‘family farms’; sometimes as food or crop production; and other times as agricultural land."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "diet-affordability",
+    "topicType": "concept",
+    "categoryLabel": "社会問題・人権",
+    "title": "健康な食事の負担",
+    "summary": "健康な食事の負担とは、栄養面で健康的とされる食事を人々が実際に購入できるかどうかを、その費用と所得の関係で捉えた指標上の問題を指す。必要なカロリーを満たすだけの食事が1日1ドル未満で済むのに対し、健康的な食事の世界平均費用は1日4.46ドルと算出されており、この差の大きさが、世界で26億人が健康的な食事を購入できないという推計の背景にある。所得に占める割合は国によって5%程度から中央値所得を超える水準まで開いており、飢餓の有無とは別の尺度として扱われている。",
+    "bodyMarkdown": "## カロリー充足食との費用差\n\n同じ1日分の食事でも、必要なカロリーを満たすだけの内容と、栄養面で健康的とされる内容とでは価格が大きく異なる。調査対象となったすべての国について、カロリーを満たすだけの食事の平均価格は1日あたり0.95ドルであり、1日1ドル未満で摂取できる水準にある。これに対して、研究者らが算出した健康的な食事の世界全体の平均費用は1日あたり4.46ドルだった。 [3][4][7]\n\n両者の開きは4倍以上に相当する。つまり、費用が跳ね上がるのは食事の量を増やす段階ではなく、必要なカロリーを確保したうえで食事の質を整えようとする段階である。この倍率の大きさが、以下で述べる購入可能性の議論の出発点になっている。 [1][16]\n\n## 購入できない人口の規模\n\n健康的な食事を購入できない人は世界で26億人にのぼると推計されている。さらに、収入の大半を食費に充てたと仮定しても、30億人が健康的な食事を購入できない水準にある。前者が現実的な支出配分を前提とした人数であるのに対し、後者は所得のほとんどを食費に回すという極端な仮定を置いてもなお届かない人数であり、費用と所得の差が支出のやりくりだけでは埋まらないことを示している。 [2][5]\n\n健康的な食事より手前の水準でも購入できない層がいる。2021年時点では、最も基本的なカロリー充足食すら購入できなかった人が8億6000万人と推計されており、これは当時の世界人口の11%にあたる。 [8][9]\n\n健康的な食事を購入できない人数は、国連食糧農業機関（FAO）が定義する[栄養不足](/hubpedia/food-insecurity)人口の数を上回る。両者は同じ現象を指しておらず、摂取カロリーが不足しているかどうかと、質を伴う食事を買えるかどうかは別の基準で数えられている。 [24]\n\n## 国ごとの所得比\n\n高所得国では、健康的な食事の費用は所得のごく一部で賄える。デンマークでは中央値所得に対する健康的な食事の費用の割合はわずか5%であり、フランスでも中央値所得の人は所得の6%を食費に充てるだけで健康的な食事を賄える。 [11][12]\n\n一方、インドをはじめとする一部の国では、健康的な食事の費用がほぼ中央値所得と等しい水準にある。最貧国ではこの費用が中央値所得を上回り、中央値の所得を得ている人でも、所得の全額を食費に充てて届かない計算になる。 [13][14]\n\nその結果、多くの国では人口の80%を超える層にとって健康的な食事が手の届かないものになっている。 [10]\n\n## 購入可能性の算出方法\n\n購入可能性は、健康的な食事の費用とその国の所得分布を突き合わせて算出される。この所得指標には、自給自足農業による自家生産の価値も含めて計上されている。市場で現金を受け取らない形の食料生産を除くと、農村部の所得が実態より低く見積もられるためである。 [15]\n\nどれだけの所得があれば健康的な食事を購入できるとみなすかは、食費に充てる割合の仮定によって変わる。所得の10%、20%、3分の1を食費に充てると仮定した場合、必要となる中央値所得は1人1日あたり11ドルから37ドルの範囲になる。 [17]\n\nこの基準は固定されたものではない。同じデータセットの従来版では、研究者は購入可能性の基準を所得の52%という固定水準に設定していた。基準が変われば購入できないとされる人数も変わるため、異なる版の数値を直接比べることはできない。 [18]\n\n費用は国際ドルで表される。国際ドルは、米国内で1米ドルが持つのと同じ購買力を持つと定義される仮想的な通貨単位であり、物価水準の違う国どうしの費用を比較するために用いられる。 [19]\n\n## 解釈上の留意点\n\n健康的な食事の費用は、世界の数十億人の所得と比べれば、どの国においても高額である。この点で例外となる国は挙げられておらず、購入できない層の存在は低所得国に限られた現象としては説明されていない。 [6][20]\n\n食料価格の変化は、立場によって逆向きに働く。生産者は一般に価格の上昇から利益を得て、消費者は価格の下落から利益を得る。低・中所得国では人口の多くが[農業に従事](/hubpedia/smallholder-farming)しているため、食費の負担を下げる方向の価格変化が、同じ国の生産者の所得を押し下げる場合がある。 [21][22]\n\n歴史的な比較では、およそ200年前には世界のおよそ4分の3の人々が、最低限の住居、栄養失調を招かない食料、最低限の暖房を賄うことができなかったとされる。現在の推計は、その水準からの変化を踏まえたうえで、なお相当数の人が質を伴う食事に届いていないことを示している。 [23]\n\n## 関連記事\n\n- [微量栄養素欠乏](/hubpedia/micronutrient-deficiency)\n- [発育阻害](/hubpedia/childhood-stunting)\n- [食事の構成](/hubpedia/diet-composition)\n- [食料供給](/hubpedia/food-supply)\n- [国際貧困ライン](/hubpedia/international-poverty-line)\n- [経済的不平等](/hubpedia/economic-inequality)",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/diet-affordability",
+        "title": "健康な食事の負担",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on diet-affordability. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/food-prices",
+        "title": "food-prices",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "The prices that determine it. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "The Burden of a Healthy Diet",
+        "summary": "The burden of a healthy diet refers to the measurement problem of whether people can actually afford a diet considered nutritionally healthy, framed in terms of the relationship between its cost and income. While a diet that merely meets caloric needs can be had for less than one dollar a day, the global average cost of a healthy diet has been calculated at $4.46 a day, and the size of this gap lies behind the estimate that 2.6 billion people worldwide cannot afford a healthy diet. The share of income it consumes ranges from about 5% in some countries to more than median income in others, and it is treated as a measure distinct from the presence or absence of hunger.",
+        "bodyMarkdown": "## The cost gap with a calorie-sufficient diet\n\nFor the same single day of eating, the price differs greatly between a diet that merely meets caloric needs and one considered nutritionally healthy. Across all countries surveyed, the average price of a diet that only meets caloric needs is $0.95 per day, a level at which it can be obtained for less than one dollar a day. By contrast, the global average cost of a healthy diet as calculated by researchers was $4.46 per day. [3][4][7]\n\nThe gap between the two amounts to more than fourfold. In other words, costs do not surge at the stage of increasing the quantity of food, but at the stage of improving the quality of the diet once caloric needs have been secured. The size of this multiple is the starting point for the discussion of affordability set out below. [1][16]\n\n## The scale of the population that cannot afford it\n\nAn estimated 2.6 billion people worldwide cannot afford a healthy diet. Furthermore, even assuming that most of their income were devoted to food, 3 billion people remain at a level where a healthy diet is out of reach. The former figure assumes a realistic allocation of spending, while the latter is the number who still fall short even under the extreme assumption that nearly all income goes to food — showing that the gap between cost and income cannot be closed by juggling expenditures alone. [2][5]\n\nThere are also people who cannot afford even a level below a healthy diet. As of 2021, an estimated 860 million people could not afford even the most basic calorie-sufficient diet, equivalent to 11% of the world population at the time. [8][9]\n\nThe number of people who cannot afford a healthy diet exceeds the number classified as [undernourished](/hubpedia/food-insecurity) under the definition of the Food and Agriculture Organization of the United Nations (FAO). The two do not refer to the same phenomenon: whether caloric intake is insufficient and whether a diet with adequate quality can be purchased are counted by different criteria. [24]\n\n## Income ratios by country\n\nIn high-income countries, the cost of a healthy diet can be covered by a small fraction of income. In Denmark, the cost of a healthy diet amounts to just 5% of median income, and in France a person at the median income can cover a healthy diet by devoting only 6% of income to food. [11][12]\n\nIn some countries, including India, meanwhile, the cost of a healthy diet is roughly equal to median income. In the poorest countries this cost exceeds median income, meaning that even a person earning the median income would not reach it by putting their entire income toward food. [13][14]\n\nAs a result, in many countries a healthy diet is out of reach for more than 80% of the population. [10]\n\n## How affordability is calculated\n\nAffordability is calculated by matching the cost of a healthy diet against a country's income distribution. This income measure also counts the value of home production from subsistence farming. Excluding food production that yields no cash in the market would make rural incomes appear lower than they actually are. [15]\n\nHow much income is taken as sufficient to afford a healthy diet varies with the assumption about the share devoted to food. Assuming that 10%, 20%, or one third of income goes to food, the required median income falls in a range of $11 to $37 per person per day. [17]\n\nThis benchmark is not fixed. In an earlier edition of the same dataset, researchers set the affordability benchmark at a fixed level of 52% of income. Because a change in the benchmark changes the number of people deemed unable to afford a healthy diet, figures from different editions cannot be compared directly. [18]\n\nCosts are expressed in international dollars. The international dollar is a hypothetical currency unit defined as having the same purchasing power that one U.S. dollar has within the United States, and it is used to compare costs across countries with differing price levels. [19]\n\n## Points to note in interpretation\n\nCompared with the incomes of billions of people worldwide, the cost of a healthy diet is high in every country. No country is cited as an exception in this respect, and the existence of people who cannot afford one is not explained as a phenomenon confined to low-income countries. [6][20]\n\nChanges in food prices work in opposite directions depending on one's position. Producers generally benefit from rising prices, and consumers from falling prices. Because much of the population in low- and middle-income countries [works in agriculture](/hubpedia/smallholder-farming), a price change that lowers the burden of food costs can depress the incomes of producers in the same country. [21][22]\n\nBy way of historical comparison, roughly 200 years ago about three quarters of the world's people were unable to afford minimal housing, food sufficient to avoid malnutrition, and minimal heating. Current estimates, set against that starting point, show that a considerable number of people still fall short of a diet with adequate quality. [23]\n\n## Related articles\n\n- [Micronutrient deficiency](/hubpedia/micronutrient-deficiency)\n- [Childhood stunting](/hubpedia/childhood-stunting)\n- [Diet composition](/hubpedia/diet-composition)\n- [Food supply](/hubpedia/food-supply)\n- [International poverty line](/hubpedia/international-poverty-line)\n- [Economic inequality](/hubpedia/economic-inequality)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T12:55:37.846Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "健康的な食事は、カロリーだけを満たす食事より4倍以上費用がかかる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diet-affordability",
+              "quote": "Healthy diets are expensive; more than four times the cost of a basic, calorie-sufficient one."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "収入の大半を食費に充てたとしても、30億人が健康的な食事を購入できない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diet-affordability",
+              "quote": "As a result, three billion people cannot afford a healthy diet, even if they spend most of their income on food."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "調査対象となった全ての国における、カロリー充足食の平均価格は1日0.95ドルだった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diet-affordability",
+              "quote": "The global average price for this diet across all countries in the study was $0.95 per day."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "研究者らが算出した、世界全体における健康的な食事の平均費用は1日4.46ドルだった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diet-affordability",
+              "quote": "The researchers found that the average cost across the world was $4.46 per day."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "健康的な食事を購入できない人は世界で26億人にのぼる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diet-affordability",
+              "quote": "we find that 2.6 billion people cannot afford a healthy diet"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "これは世界のすべての国で当てはまる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diet-affordability",
+              "quote": "This is true in every country in the world."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "カロリーを満たすだけの食事であれば、1日1ドル未満で摂取できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diet-affordability",
+              "quote": "A person can eat an energy sufficient diet on less than $1 a day."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "2021年時点で、8億6000万人が最も基本的なカロリー充足食すら購入できなかったと推計されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diet-affordability",
+              "quote": "researchers estimated that 860 million people could not afford the most basic energy-sufficient diet in 2021"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "この8億6000万人は世界人口の11%に相当した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diet-affordability",
+              "quote": "That was 11% of the global population."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "多くの国では、人口の80%超にとって健康的な食事が手の届かないものになっている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diet-affordability",
+              "quote": "In many countries, a healthy diet is out-of-reach for more than 80%."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "フランスの中央値所得の人は、所得のわずか6%を食費に充てるだけで健康的な食事を賄える。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diet-affordability",
+              "quote": "The average person in France could spend just 6% of their income on food."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "デンマークでは、健康的な食事にかかる所得の割合はわずか5%である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diet-affordability",
+              "quote": "In Denmark, just 5%."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "インドをはじめとする一部の国では、健康的な食事の費用がほぼ中央値所得と等しい。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diet-affordability",
+              "quote": "In some countries – India is the largest among them – dietary costs would be roughly equal to the median income."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "最貧国では、健康的な食事の費用が中央値所得を上回っている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diet-affordability",
+              "quote": "In the poorest countries, the cost of a healthy diet is higher than the median income."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "食事の購入可能性を算出する所得指標には、自給自足農業（自家生産）の価値が考慮されている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diet-affordability",
+              "quote": "the income measure used to calculate the affordability of diets does take the value of subsistence farming (i.e. home production) into account"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "健康的な食事の費用はカロリー充足食の4倍以上に相当する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diet-affordability",
+              "quote": "That’s more than four times higher."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "所得の10%・20%・3分の1を食費に充てると仮定した場合、必要な中央値所得は1人1日あたり11ドルから37ドルの範囲になる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diet-affordability",
+              "quote": "Median incomes would need to be anywhere in the range of $11 to $37 per person per day."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "このデータセットの従来版では、研究者は「購入可能性」の基準を所得の52%という固定水準に設定していた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diet-affordability",
+              "quote": "In the previous release of this dataset, researchers set “affordability” at a fixed level of 52% of incomes."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "国際ドルは、米国内で1米ドルが持つのと同じ購買力を持つと定義される仮想通貨である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diet-affordability",
+              "quote": "An international dollar is defined as having the same purchasing power as one US-$ in the US."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "健康的な食事はどの国でも世界の数十億人の所得と比べて高額であり、例外となる国はない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diet-affordability",
+              "quote": "healthy diets are expensive everywhere compared to the incomes of billions of people across the world. No country is an exception."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "生産者は一般に食料価格の上昇から利益を得て、消費者は価格の下落から利益を得る。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/food-prices",
+              "quote": "Producers typically benefit from higher food prices; consumers from lower prices."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "低・中所得国では、人口の多くが農業に従事している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/food-prices",
+              "quote": "In low-to-middle-income countries, a large share of the population is employed in agriculture."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "約200年前には、世界のおよそ4分の3の人々が、最低限の住居・栄養失調を招かない食料・最低限の暖房を賄うことができなかったとされる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diet-affordability",
+              "quote": "just two centuries ago around three-quarters of the world “could not afford a tiny space to live, food that would not induce malnutrition, and some minimum heating capacity.”"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "健康的な食事を購入できない人数は、国連食糧農業機関（FAO）が定義する栄養不足人口の数よりも多い。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/diet-affordability",
+              "quote": "This figure is higher than the number of people defined as undernourished by the UN FAO."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

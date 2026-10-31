@@ -1,0 +1,45 @@
+/* 記事のマガジン。色は意味トークンだけ。公開ページ、管理画面、読む画面の追加ボタンで共有する。 */
+.v2-magazine-page { display: grid; gap: var(--v2-space-4); max-width: var(--v2-article-measure, 42rem); }
+.v2-magazine-page__desc { color: var(--muted); line-height: 1.8; overflow-wrap: anywhere; margin: 0; }
+.v2-magazine-list { display: grid; gap: var(--v2-space-2); margin: 0; padding: 0; list-style: none; }
+.v2-magazine-list li { display: grid; gap: var(--v2-space-1); padding: var(--v2-space-3) var(--v2-space-4); border: 1px solid var(--line); border-radius: var(--v2-radius); }
+.v2-magazine-list a { color: var(--text); text-decoration: none; overflow-wrap: anywhere; }
+.v2-magazine-list a:hover, .v2-magazine-list a:focus-visible { background: var(--interactive); }
+.v2-magazine-list strong { line-height: 1.5; }
+.v2-magazine-list__meta { display: flex; flex-wrap: wrap; align-items: center; gap: var(--v2-space-2); color: var(--muted); font-size: 0.875rem; }
+.v2-magazine-list__tag { padding: 0 var(--v2-space-2); border: 1px solid var(--line); border-radius: var(--v2-radius); }
+
+.v2-magazine-manager { display: grid; gap: var(--v2-space-4); }
+.v2-magazine-manager form, .v2-magazine-manager__card { display: grid; gap: var(--v2-space-2); }
+.v2-magazine-manager__card { padding: var(--v2-space-4); border: 1px solid var(--line); border-radius: var(--v2-radius); }
+.v2-magazine-manager input[type="text"], .v2-magazine-manager input:not([type]), .v2-magazine-manager textarea {
+  width: 100%;
+  padding: var(--v2-space-2) var(--v2-space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius);
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+}
+.v2-magazine-manager__row { display: flex; flex-wrap: wrap; align-items: center; gap: var(--v2-space-2); }
+.v2-magazine-manager__items { display: grid; gap: var(--v2-space-2); margin: 0; padding: 0; list-style: none; }
+.v2-magazine-manager__items li { display: flex; flex-wrap: wrap; align-items: center; gap: var(--v2-space-2); justify-content: space-between; }
+.v2-magazine-manager__items span { min-width: 0; overflow-wrap: anywhere; }
+.v2-magazine-manager__note, .v2-magazine-manager__error { margin: 0; }
+.v2-magazine-manager__note { color: var(--muted); }
+.v2-magazine-manager__error { color: var(--danger-text); }
+.v2-magazine-manager__setting { display: flex; align-items: center; gap: var(--v2-space-2); }
+
+.v2-magazine-add { display: grid; gap: var(--v2-space-2); padding: var(--v2-space-3) var(--v2-space-4); border: 1px solid var(--line); border-radius: var(--v2-radius); color: var(--text); }
+.v2-magazine-add__row { display: flex; flex-wrap: wrap; align-items: center; gap: var(--v2-space-2); }
+.v2-magazine-add select {
+  max-width: 100%;
+  padding: var(--v2-space-2) var(--v2-space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius);
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+}
+.v2-magazine-add__note { margin: 0; color: var(--muted); font-size: 0.875rem; }
+.v2-magazine-add__error { margin: 0; color: var(--danger-text); font-size: 0.875rem; }

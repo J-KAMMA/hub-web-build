@@ -1,0 +1,2 @@
+import{NextResponse}from"next/server";import{getHubD1}from"@/lib/server/hub-d1";import{requireHubSessionProfile}from"@/lib/server/hub-session";import{applications}from"@/lib/server/d1-work-marketplace-phase2";
+export async function GET(r:Request){try{const db=getHubD1(),u=await requireHubSessionProfile(r,db),scope=new URL(r.url).searchParams.get("scope")==="sent"?"sent":"received";return NextResponse.json({inquiries:await applications(db,u.id,scope)},{headers:{"cache-control":"no-store"}})}catch{return NextResponse.json({error:"authentication_required"},{status:401})}}

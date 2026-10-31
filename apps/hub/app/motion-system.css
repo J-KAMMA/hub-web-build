@@ -1,0 +1,173 @@
+/*
+ * Hub motion contract
+ * Fast feedback for direct manipulation, short spatial continuity for
+ * navigation, and a single reduced-motion escape hatch.
+ */
+html {
+  --motion-instant: 90ms;
+  --motion-fast: 120ms;
+  --motion-standard: 180ms;
+  --motion-emphasis: 320ms;
+  --motion-exit: cubic-bezier(.4, 0, 1, 1);
+  --motion-enter: cubic-bezier(.16, 1, .3, 1);
+  --motion-move: cubic-bezier(.2, .8, .2, 1);
+}
+
+@keyframes hub-page-enter {
+  from {
+    opacity: .84;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html:not([data-reduce-motion="true"]) #hub-main > :where(.shell, main, .wallet-light-surface) {
+    animation: hub-page-enter var(--motion-standard) var(--motion-enter) both;
+  }
+}
+
+:where(
+  button,
+  [role="button"],
+  input[type="button"],
+  input[type="submit"],
+  input[type="reset"],
+  a[class*="button"],
+  a[class*="action"],
+  .sidebar__link,
+  .shell__mobile-bottom-nav a,
+  .tl-tab
+) {
+  -webkit-tap-highlight-color: transparent;
+  transition-property:
+    transform,
+    opacity,
+    color,
+    background-color,
+    border-color,
+    box-shadow;
+  transition-duration: var(--motion-fast);
+  transition-timing-function: var(--motion-move);
+}
+
+:where(
+  button,
+  [role="button"],
+  input[type="button"],
+  input[type="submit"],
+  input[type="reset"],
+  a[class*="button"],
+  a[class*="action"],
+  .sidebar__link,
+  .shell__mobile-bottom-nav a,
+  .tl-tab
+):not(:disabled):not([aria-disabled="true"]):active {
+  transform: scale(.97);
+  transition-duration: var(--motion-instant);
+}
+
+:where(button, [role="button"], a):focus-visible {
+  outline: 0;
+  box-shadow: 0 0 0 3px var(--focus-ring);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  :where(
+    button,
+    [role="button"],
+    input[type="button"],
+    input[type="submit"],
+    input[type="reset"],
+    a[class*="button"],
+    a[class*="action"]
+  ):not(:disabled):not([aria-disabled="true"]):hover {
+    transform: translateY(-1px);
+  }
+}
+
+.shell__left,
+.page-left-drawer {
+  transition-duration: var(--motion-standard) !important;
+  transition-timing-function: var(--motion-move) !important;
+  will-change: transform;
+}
+
+.shell__mobile-drawer-backdrop,
+.mobile-compose-backdrop {
+  animation-duration: var(--motion-standard) !important;
+  animation-timing-function: var(--motion-exit) !important;
+}
+
+.home-compose--mobile-open {
+  animation-duration: var(--motion-standard) !important;
+  animation-timing-function: var(--motion-enter) !important;
+}
+
+.home-feed__stream[class*="home-feed__stream--swipe-"] {
+  animation-duration: var(--motion-standard) !important;
+  animation-timing-function: var(--motion-move) !important;
+}
+
+.tweet__action--active,
+.tweet__action--push {
+  animation-duration: var(--motion-emphasis) !important;
+}
+
+.tweet__action--active::before,
+.tweet__action--push::before {
+  animation-duration: 420ms !important;
+}
+
+.tweet__action--active .tweet__action-count,
+.tweet__action--push .tweet__push-count--changed {
+  animation-duration: 280ms !important;
+}
+
+.mobile-route-loading__bar {
+  animation-duration: 900ms;
+}
+
+.mobile-route-skeleton :where(
+  .mobile-route-skeleton__title,
+  .mobile-route-skeleton__avatar,
+  .mobile-route-skeleton__line,
+  .mobile-route-skeleton__media
+) {
+  animation-duration: 1.15s;
+}
+
+@media (hover: none), (pointer: coarse) {
+  .tweet:hover,
+.sidebar__link:hover,
+.bbs-thread-card:hover,
+.video-card:hover {
+    transform: none;
+  }
+}
+
+html[data-reduce-motion="true"] *,
+html[data-reduce-motion="true"] *::before,
+html[data-reduce-motion="true"] *::after {
+  scroll-behavior: auto !important;
+  animation: none !important;
+  transition: none !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation: none !important;
+    transition: none !important;
+  }
+
+  .shell__left,
+  .page-left-drawer {
+    will-change: auto;
+  }
+}

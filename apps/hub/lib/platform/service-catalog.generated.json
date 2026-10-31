@@ -1,0 +1,397 @@
+{
+  "apiVersion": "hub.jkamma.com/catalog/v1",
+  "services": [
+    {
+      "name": "platform-catalog",
+      "displayName": "Hub Platform Catalog",
+      "owner": "hub-platform",
+      "domain": "platform",
+      "type": "library",
+      "lifecycle": "beta",
+      "tier": "tier-2",
+      "repositoryPath": "platform/catalog/hub.service.yaml",
+      "entrypoint": "platform/src/foundation.mjs",
+      "contracts": {
+        "openapi": [],
+        "asyncapi": []
+      },
+      "dependencies": [],
+      "dependents": [],
+      "produces": [],
+      "consumes": [],
+      "slo": {
+        "availabilityPercent": 99,
+        "latencyP95Ms": 5000
+      },
+      "runbook": "docs/platform/runbooks/catalog.md",
+      "security": {
+        "publicIngress": false,
+        "authentication": "none",
+        "authorization": "none",
+        "rateLimit": "none",
+        "secrets": "none"
+      },
+      "scorecard": {
+        "status": "warning",
+        "checks": {
+          "validManifest": {
+            "status": "pass",
+            "detail": "manifest loaded"
+          },
+          "ownerDefined": {
+            "status": "pass",
+            "detail": "hub-platform"
+          },
+          "runbookDefined": {
+            "status": "pass",
+            "detail": "docs/platform/runbooks/catalog.md"
+          },
+          "sloDefined": {
+            "status": "pass",
+            "detail": "defined"
+          },
+          "apiContractDefined": {
+            "status": "warning",
+            "detail": "0 contract(s)"
+          },
+          "eventContractDefined": {
+            "status": "warning",
+            "detail": "0 contract(s)"
+          },
+          "healthCheckImplemented": {
+            "status": "pass",
+            "detail": "tools/platform-check.mjs"
+          },
+          "structuredLoggingImplemented": {
+            "status": "pass",
+            "detail": "logger used by implementation"
+          },
+          "requestIdImplemented": {
+            "status": "pass",
+            "detail": "request context used by implementation"
+          },
+          "featureFlagsRegistered": {
+            "status": "warning",
+            "detail": "implementation evidence missing"
+          },
+          "unitTestsPresent": {
+            "status": "pass",
+            "detail": "found"
+          },
+          "integrationTestsPresent": {
+            "status": "warning",
+            "detail": "missing"
+          },
+          "securityClassificationDefined": {
+            "status": "pass",
+            "detail": "2 classification(s)"
+          },
+          "dependenciesDeclared": {
+            "status": "pass",
+            "detail": "0 dependency(s)"
+          }
+        }
+      },
+      "validationWarnings": []
+    },
+    {
+      "name": "profiles",
+      "displayName": "Hub Profiles",
+      "owner": "hub-social",
+      "domain": "profile",
+      "type": "domain-module",
+      "lifecycle": "beta",
+      "tier": "tier-1",
+      "repositoryPath": "apps/hub/domains/profiles/hub.service.yaml",
+      "entrypoint": "apps/hub/lib/server/profile-route-data.ts",
+      "contracts": {
+        "openapi": [],
+        "asyncapi": []
+      },
+      "dependencies": [],
+      "dependents": [
+        "social-posts",
+        "trust-safety"
+      ],
+      "produces": [],
+      "consumes": [],
+      "slo": {
+        "availabilityPercent": 99.9,
+        "latencyP95Ms": 300
+      },
+      "runbook": "docs/runbooks/profiles.md",
+      "security": {
+        "publicIngress": true,
+        "authentication": "required",
+        "authorization": "required",
+        "rateLimit": "required",
+        "secrets": "managed"
+      },
+      "scorecard": {
+        "status": "warning",
+        "checks": {
+          "validManifest": {
+            "status": "pass",
+            "detail": "manifest loaded"
+          },
+          "ownerDefined": {
+            "status": "pass",
+            "detail": "hub-social"
+          },
+          "runbookDefined": {
+            "status": "pass",
+            "detail": "docs/runbooks/profiles.md"
+          },
+          "sloDefined": {
+            "status": "pass",
+            "detail": "defined"
+          },
+          "apiContractDefined": {
+            "status": "warning",
+            "detail": "0 contract(s)"
+          },
+          "eventContractDefined": {
+            "status": "warning",
+            "detail": "0 contract(s)"
+          },
+          "healthCheckImplemented": {
+            "status": "pass",
+            "detail": "apps/hub/app/api/health/route.ts"
+          },
+          "structuredLoggingImplemented": {
+            "status": "pass",
+            "detail": "logger used by implementation"
+          },
+          "requestIdImplemented": {
+            "status": "pass",
+            "detail": "request context used by implementation"
+          },
+          "featureFlagsRegistered": {
+            "status": "warning",
+            "detail": "implementation evidence missing"
+          },
+          "unitTestsPresent": {
+            "status": "pass",
+            "detail": "found"
+          },
+          "integrationTestsPresent": {
+            "status": "warning",
+            "detail": "missing"
+          },
+          "securityClassificationDefined": {
+            "status": "pass",
+            "detail": "2 classification(s)"
+          },
+          "dependenciesDeclared": {
+            "status": "pass",
+            "detail": "0 dependency(s)"
+          }
+        }
+      },
+      "validationWarnings": []
+    },
+    {
+      "name": "social-posts",
+      "displayName": "Social Posts",
+      "owner": "hub-social",
+      "domain": "social",
+      "type": "domain-module",
+      "lifecycle": "beta",
+      "tier": "tier-1",
+      "repositoryPath": "apps/hub/domains/social-posts/hub.service.yaml",
+      "entrypoint": "apps/hub/lib/server/social-posts-route-data.ts",
+      "contracts": {
+        "openapi": [
+          "contracts/openapi/social-posts.v1.yaml"
+        ],
+        "asyncapi": [
+          "contracts/asyncapi/social-posts.v1.yaml"
+        ]
+      },
+      "dependencies": [
+        "profiles",
+        "trust-safety"
+      ],
+      "dependents": [],
+      "produces": [
+        "hub.social.post.created.v1",
+        "hub.social.post.updated.v1",
+        "hub.social.post.deleted.v1"
+      ],
+      "consumes": [
+        "hub.identity.profile.suspended.v1"
+      ],
+      "slo": {
+        "availabilityPercent": 99.9,
+        "latencyP95Ms": 300
+      },
+      "runbook": "docs/runbooks/social-posts.md",
+      "security": {
+        "publicIngress": true,
+        "authentication": "required",
+        "authorization": "required",
+        "rateLimit": "required",
+        "secrets": "managed"
+      },
+      "scorecard": {
+        "status": "pass",
+        "checks": {
+          "validManifest": {
+            "status": "pass",
+            "detail": "manifest loaded"
+          },
+          "ownerDefined": {
+            "status": "pass",
+            "detail": "hub-social"
+          },
+          "runbookDefined": {
+            "status": "pass",
+            "detail": "docs/runbooks/social-posts.md"
+          },
+          "sloDefined": {
+            "status": "pass",
+            "detail": "defined"
+          },
+          "apiContractDefined": {
+            "status": "pass",
+            "detail": "1 contract(s)"
+          },
+          "eventContractDefined": {
+            "status": "pass",
+            "detail": "1 contract(s)"
+          },
+          "healthCheckImplemented": {
+            "status": "pass",
+            "detail": "apps/hub/app/api/health/route.ts"
+          },
+          "structuredLoggingImplemented": {
+            "status": "pass",
+            "detail": "logger used by implementation"
+          },
+          "requestIdImplemented": {
+            "status": "pass",
+            "detail": "request context used by implementation"
+          },
+          "featureFlagsRegistered": {
+            "status": "pass",
+            "detail": "1 implemented flag(s)"
+          },
+          "unitTestsPresent": {
+            "status": "pass",
+            "detail": "found"
+          },
+          "integrationTestsPresent": {
+            "status": "pass",
+            "detail": "found"
+          },
+          "securityClassificationDefined": {
+            "status": "pass",
+            "detail": "2 classification(s)"
+          },
+          "dependenciesDeclared": {
+            "status": "pass",
+            "detail": "2 dependency(s)"
+          }
+        }
+      },
+      "validationWarnings": []
+    },
+    {
+      "name": "trust-safety",
+      "displayName": "Trust and Safety",
+      "owner": "hub-safety",
+      "domain": "trust-safety",
+      "type": "domain-module",
+      "lifecycle": "beta",
+      "tier": "tier-1",
+      "repositoryPath": "apps/hub/domains/trust-safety/hub.service.yaml",
+      "entrypoint": "apps/hub/lib/server/social-post-moderation.ts",
+      "contracts": {
+        "openapi": [],
+        "asyncapi": []
+      },
+      "dependencies": [
+        "profiles"
+      ],
+      "dependents": [
+        "social-posts"
+      ],
+      "produces": [],
+      "consumes": [],
+      "slo": {
+        "availabilityPercent": 99.9,
+        "latencyP95Ms": 400
+      },
+      "runbook": "docs/runbooks/trust-safety.md",
+      "security": {
+        "publicIngress": false,
+        "authentication": "required",
+        "authorization": "required",
+        "rateLimit": "required",
+        "secrets": "managed"
+      },
+      "scorecard": {
+        "status": "warning",
+        "checks": {
+          "validManifest": {
+            "status": "pass",
+            "detail": "manifest loaded"
+          },
+          "ownerDefined": {
+            "status": "pass",
+            "detail": "hub-safety"
+          },
+          "runbookDefined": {
+            "status": "pass",
+            "detail": "docs/runbooks/trust-safety.md"
+          },
+          "sloDefined": {
+            "status": "pass",
+            "detail": "defined"
+          },
+          "apiContractDefined": {
+            "status": "warning",
+            "detail": "0 contract(s)"
+          },
+          "eventContractDefined": {
+            "status": "warning",
+            "detail": "0 contract(s)"
+          },
+          "healthCheckImplemented": {
+            "status": "pass",
+            "detail": "apps/hub/app/api/health/route.ts"
+          },
+          "structuredLoggingImplemented": {
+            "status": "pass",
+            "detail": "logger used by implementation"
+          },
+          "requestIdImplemented": {
+            "status": "pass",
+            "detail": "request context used by implementation"
+          },
+          "featureFlagsRegistered": {
+            "status": "warning",
+            "detail": "implementation evidence missing"
+          },
+          "unitTestsPresent": {
+            "status": "pass",
+            "detail": "found"
+          },
+          "integrationTestsPresent": {
+            "status": "warning",
+            "detail": "missing"
+          },
+          "securityClassificationDefined": {
+            "status": "pass",
+            "detail": "3 classification(s)"
+          },
+          "dependenciesDeclared": {
+            "status": "pass",
+            "detail": "1 dependency(s)"
+          }
+        }
+      },
+      "validationWarnings": []
+    }
+  ]
+}

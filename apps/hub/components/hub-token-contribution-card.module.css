@@ -1,0 +1,20 @@
+.card { background: var(--surface); border: var(--divider); border-radius: 20px; color: var(--text); margin-top: 24px; padding: 24px; }
+.heading { align-items: center; display: flex; justify-content: space-between; gap: 16px; }
+.heading span { color: var(--text-muted); font-size: 12px; letter-spacing: .12em; }
+.heading h2 { margin: 4px 0 0; }
+.heading strong { color: var(--emphasis); }
+.definition,.notice { color: var(--text-muted); line-height: 1.7; }
+.onboarding { background: var(--surface-subtle); border: var(--divider); border-radius: 14px; margin-top: 20px; padding: 16px; }
+.onboarding p { color: var(--text-muted); margin: 6px 0 12px; }
+.onboarding a { color: var(--emphasis); font-weight: 700; }
+.total { border-block: var(--divider); display: grid; gap: 6px; margin: 20px 0; padding: 20px 0; }
+.total b { color: var(--emphasis); font-size: clamp(28px,5vw,44px); }
+.total small { color: var(--text-muted); }
+.metrics { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit,minmax(130px,1fr)); margin: 0; }
+.metrics div { background: var(--surface-subtle); border-radius: 12px; padding: 12px; }
+.metrics dt { color: var(--text-muted); font-size: 12px; }.metrics dd { font-weight: 700; margin: 6px 0 0; }
+.services { margin-top: 20px; }.services div { border-top: var(--divider); display: flex; justify-content: space-between; padding: 10px 0; }
+.history { margin-top: 20px; }.history > div { align-items: center; border-top: var(--divider); display: flex; gap: 16px; justify-content: space-between; padding: 10px 0; }.history span { display: grid; gap: 3px; }.history small { color: var(--text-muted); }.history strong { white-space: nowrap; }
+.history a { color: var(--emphasis); font-size: 12px; }
+.benefits { border-top: var(--divider); margin-top: 20px; padding-top: 12px; }.benefits ul { line-height: 1.8; padding-left: 20px; }.benefits p { color: var(--text-muted); }
+.notice { font-size: 12px; margin: 20px 0 0; }

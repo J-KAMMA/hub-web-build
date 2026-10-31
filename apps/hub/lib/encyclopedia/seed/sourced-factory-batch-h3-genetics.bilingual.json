@@ -1,0 +1,1809 @@
+[
+  {
+    "slug": "genomics",
+    "topicType": "concept",
+    "categoryLabel": "生命科学",
+    "title": "ゲノミクス",
+    "summary": "ゲノミクスは、生物が持つ全てのDNAであるゲノムを、個々の遺伝子ではなく全体として扱う学問である。ヒトのDNA配列は他のどのヒトとも99.9%以上が同一でありながら、残るわずかな違いが体の特徴や疾患のかかりやすさに関わるため、ゲノミクスは診断・投薬・身元特定といった実務と直接つながっている。ただし遺伝要因は健康を決める複数の要因の一つに過ぎず、食事や生活習慣、環境曝露も同時に働く。",
+    "bodyMarkdown": "## ゲノムとDNAの構造\n\n[ゲノムとは、生物が持つ全てのDNAのことである](/hubpedia/genome)。あらゆる生物はそれぞれ固有のゲノムを持ち、ゲノミクスはその全体を対象とする。ゲノムを構成する[DNAは、ねじれた梯子のような形をした非常に大きな分子](/hubpedia/dna)であり、アデニン、チミン、シトシン、グアニンという4種類の化学的構成要素からなるコードとして読まれる。 [1][5][6][7]\n\n量としてみると、ヒトの1つの細胞に収まっているDNAを端から端まで伸ばすと約6フィートの鎖になり、その鎖は60億文字のコードから成る。この長い分子は細胞の中でたたまれており、細胞周期のある時点でDNAの断片は[染色体と呼ばれる密に凝縮された束](/hubpedia/chromosome)になる。染色体はある段階でX字型に見える。 [11][12][13][14]\n\n染色体の本数は生物によって異なる。ヒトは46本、すなわち23対を持つ。イネは24本、イヌは78本である。本数の多寡がそのまま生物の複雑さを表すわけではない。 [2][3][4]\n\n## ヒトの個人差\n\nヒトのDNA配列は、99.9%以上が他のどのヒトとも同一である。個人のゲノムは、半分が生物学的な母親から、半分が生物学的な父親から受け継がれる。 [8][9]\n\n残る差は小さい。[ヒトの遺伝子は平均して1~3文字が人によって異なる](/hubpedia/gene)にすぎない。しかしその程度の違いでも、作られるタンパク質の形や機能を変え、さらに作られる量、時期、場所を変えるのに十分である。目・髪・肌の色の違いは、こうした遺伝子の違いの影響を受ける形質の例である。 [15][16][17]\n\n一部の形質は単一の遺伝子によって主に制御されるが、大半の形質は複数の遺伝子の影響を受ける。加えて、生活習慣や環境要因も発達や健康に重要な役割を果たし、生き方の選択がゲノムのはたらき方に影響を与える。したがって、ある形質や状態を単一の遺伝子に還元して説明できる場面は限られる。 [18][19][38]\n\n## 遺伝的変異と疾患\n\n[遺伝的変異のほとんどは、何の影響も及ぼさない](/hubpedia/mutation)。一方で、わずか1文字の欠失や変化であっても、タンパク質の損傷、過剰産生、あるいは非産生を招き、健康に深刻な影響を与えることがある。遺伝性疾患は、こうしたDNA配列の変化によって引き起こされる。 [10][22][23]\n\n変異の生じ方には二通りある。一部の疾患は親から受け継がれた変異によって引き起こされ、出生時からその個体に存在する。他の疾患は、生涯のうちに生じる後天的な遺伝子変異によって引き起こされる。前者のように変異が世代を超えて受け継がれることは、鎌状赤血球症、嚢胞性線維症、テイ=サックス病などの病気が家系内で多発する理由の一つである。ある病気が家系内で見られる場合、医師はその人にその疾患の家族の健康歴があると言う。 [20][21][24][39]\n\n個々の疾患の現れ方は大きく異なる。嚢胞性線維症は、体に粘り気の強い粘液を作らせ、肺を詰まらせて感染を招き、膵臓を塞ぐ遺伝性疾患である。ウィルソン病は体内に銅が過剰に蓄積する稀な遺伝性疾患であり、臓器障害を招いて死に至ることがある。パーキンソン病は通常、震えや動作のこわばりを引き起こす神経疾患である。自閉症は、社会的相互作用の障害、言語・非言語コミュニケーションの問題、反復行動を特徴とする。 [25][26][27][28]\n\n## 単一遺伝子疾患と複雑な疾患\n\n遺伝の見えやすさは疾患によって大きく違う。鎌状赤血球貧血症は単一の遺伝子の変化によって引き起こされ、非常に単純で予測可能な遺伝パターンを持つ。もっとも、こうした明快な例は例外的であり、ほぼ全てのヒトの疾患には何らかの遺伝的な基盤があるとされる。 [33][34]\n\nがん、糖尿病、心血管疾患などは、複数の遺伝的要因と環境が共に作用する複雑な疾患であり、米国における健康問題の大部分を占める。こうした一般的な疾患において、遺伝要因は発症リスクに寄与する複数の要因の一つに過ぎず、食事、生活習慣、環境曝露も関与する。単純な遺伝パターンを持つ疾患と同じ枠組みで予測することはできない。 [36][37]\n\n## 遺伝子検査の種類\n\n遺伝子検査とは、DNAに関する詳細を明らかにするための一連の処理・技術のことである。目的によって用途が分かれる。診断検査は、疑われる遺伝性疾患を確定または除外するために用いられる。薬理ゲノム検査は、特定の薬剤にどう反応するかを教えてくれる。法医学的検査は法的目的のために行われ、家族・容疑者・事件や災害の被害者の身元特定に用いられる。 [29][30][31][32]\n\n## 医療への応用と実用化までの期間\n\n薬理ゲノミクスは、患者の遺伝的特徴に関する情報を用いて薬物治療を個々人に最適化しようとする新興分野である。個人のゲノムの特徴は、特定の薬剤への反応を予測するのに役立つ。 [40][44]\n\n応用の土台となったのはデータの蓄積である。[ヒトゲノム計画](/hubpedia/human-genome-project)などのゲノム研究によって、ヒトのDNAに関する膨大なデータが生み出された。ゲノミクスは現在、医療上の意思決定、食品安全、祖先調査など様々な分野で活用されている。 [35][41]\n\nただし、研究の成果が治療として手元に届くまでには時間がかかる。ゲノムに基づく研究に由来する新薬の多くは、実用化まで少なくとも10年から15年かかると見積もられている。企業が米国食品医薬品局(FDA)の承認を得るために必要な臨床試験を行うだけでも、通常10年以上を要する。 [42][43]\n\n## 関連記事\n\n- [DNAシーケンシング](/hubpedia/dna-sequencing)\n- [エピゲノミクス](/hubpedia/epigenomics)",
+    "sources": [
+      {
+        "url": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+        "title": "Introduction to Genomics — NHGRI",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "The field-level overview covering genomes, genes and variation. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/about-genomics/fact-sheets/A-Brief-Guide-to-Genomics",
+        "title": "A Brief Guide to Genomics — NHGRI",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "A short overview of genomes and what is done with them. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Genomics",
+        "summary": "Genomics is the study of the genome — all of an organism's DNA — treated as a whole rather than as individual genes. A person's DNA sequence is more than 99.9% identical to that of every other human, yet the small remaining differences bear on physical traits and susceptibility to disease, which ties genomics directly to practical work such as diagnosis, prescribing, and identification. Genetic factors are only one of several influences on health, however; diet, lifestyle, and environmental exposures act at the same time.",
+        "bodyMarkdown": "## The genome and the structure of DNA\n\n[A genome is all of the DNA an organism possesses](/hubpedia/genome). Every organism has its own distinct genome, and genomics addresses that genome in its entirety. The [DNA that makes up a genome is an extremely large molecule shaped like a twisted ladder](/hubpedia/dna), read as a code built from four chemical building blocks: adenine, thymine, cytosine, and guanine. [1][5][6][7]\n\nIn terms of sheer quantity, the DNA packed into a single human cell would, stretched end to end, form a strand about six feet long, and that strand consists of six billion letters of code. This long molecule is folded up inside the cell, and at certain points in the cell cycle segments of DNA form [tightly condensed bundles called chromosomes](/hubpedia/chromosome). At one stage chromosomes take on an X shape. [11][12][13][14]\n\nThe number of chromosomes varies among organisms. Humans have 46, that is, 23 pairs. Rice has 24 and dogs have 78. A larger number does not by itself indicate a more complex organism. [2][3][4]\n\n## Differences between individuals\n\nA human DNA sequence is more than 99.9% identical to that of any other human. An individual's genome is inherited half from the biological mother and half from the biological father. [8][9]\n\nThe remaining differences are small. [A human gene differs from person to person by an average of only one to three letters](/hubpedia/gene). Even a difference of that size, however, is enough to alter the shape and function of the protein produced, and further to alter how much of it is made, when, and where. Differences in eye, hair, and skin color are examples of traits shaped by such genetic differences. [15][16][17]\n\nSome traits are controlled largely by a single gene, but most are influenced by multiple genes. In addition, lifestyle and environmental factors play an important part in development and health, and the choices a person makes affect how the genome operates. There are therefore only limited circumstances in which a trait or condition can be explained by reducing it to a single gene. [18][19][38]\n\n## Genetic variation and disease\n\n[Most genetic variants have no effect at all](/hubpedia/mutation). On the other hand, the deletion or alteration of even a single letter can leave a protein damaged, overproduced, or not produced at all, and can seriously affect health. Genetic disorders are caused by such changes in the DNA sequence. [10][22][23]\n\nVariants arise in two ways. Some disorders are caused by variants inherited from a parent and are present in the individual from birth. Others are caused by gene variants acquired during a person's lifetime. Variants of the first kind being passed down across generations is one reason why conditions such as sickle cell disease, cystic fibrosis, and Tay-Sachs disease occur frequently within families. When a condition is seen within a family, doctors say the person has a family health history of that disorder. [20][21][24][39]\n\nIndividual disorders present in widely differing ways. Cystic fibrosis is a genetic disorder that causes the body to produce thick, sticky mucus that clogs the lungs and invites infection and that obstructs the pancreas. Wilson disease is a rare inherited disorder in which excess copper accumulates in the body, causing organ damage that can be fatal. Parkinson's disease is a neurological disorder that typically causes tremors and stiffness of movement. Autism is characterized by impaired social interaction, problems with verbal and nonverbal communication, and repetitive behaviors. [25][26][27][28]\n\n## Single-gene disorders and complex diseases\n\nHow visible heredity is differs greatly from one disorder to another. Sickle cell anemia is caused by a change in a single gene and has a very simple, predictable pattern of inheritance. Such clear-cut examples are exceptional, though, and nearly all human diseases are held to have some genetic basis. [33][34]\n\nCancer, diabetes, and cardiovascular disease are complex diseases in which multiple genetic factors act together with the environment, and they account for the majority of health problems in the United States. In such common diseases, genetic factors are only one of several contributors to the risk of developing the condition, alongside diet, lifestyle, and environmental exposures. They cannot be predicted within the same framework used for diseases with simple inheritance patterns. [36][37]\n\n## Types of genetic testing\n\nGenetic testing refers to a set of procedures and techniques used to reveal details about DNA. Its uses divide according to purpose. Diagnostic testing is used to confirm or rule out a suspected genetic disorder. Pharmacogenomic testing tells a person how they will respond to a particular drug. Forensic testing is carried out for legal purposes and is used to identify family members, suspects, and the victims of crimes or disasters. [29][30][31][32]\n\n## Medical applications and the time to practical use\n\nPharmacogenomics is an emerging field that seeks to tailor drug treatment to the individual using information about a patient's genetic characteristics. Features of a person's genome help predict their response to specific drugs. [40][44]\n\nThe foundation for these applications was the accumulation of data. Genomic research such as the [Human Genome Project](/hubpedia/human-genome-project) generated an enormous body of data about human DNA. Genomics is now applied in a range of areas, including medical decision-making, food safety, and ancestry research. [35][41]\n\nResearch findings take time to reach people as treatments, however. Many new drugs derived from genome-based research are estimated to take at least 10 to 15 years to reach practical use. Simply conducting the clinical trials a company needs in order to obtain approval from the U.S. Food and Drug Administration (FDA) usually takes more than 10 years. [42][43]\n\n## Related articles\n\n- [DNA Sequencing](/hubpedia/dna-sequencing)\n- [Epigenomics](/hubpedia/epigenomics)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:35:21.601Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "ゲノムとは生物が持つ全てのDNAのことである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "Genome is a fancy word for all your DNA."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "ヒトは46本(23対)の染色体を持つ。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "humans have 46 chromosomes (23 pairs)"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "イネは24本の染色体を持つ。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "rice plants have 24 chromosomes"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "イヌは78本の染色体を持つ。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "dogs have 78 chromosomes"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "あらゆる生物はそれぞれ固有のゲノムを持つ。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "all living organisms have their own genome"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "ゲノムはDNAでできており、DNAはねじれた梯子のような形をした非常に大きな分子である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "Genomes are made of DNA, an extremely large molecule that looks like a long, twisted ladder."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "DNAはアデニン、チミン、シトシン、グアニンという4種類の化学的構成要素からなるコードとして読まれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "This code is made up of four types of chemical building blocks, adenine, thymine, cytosine, and guanine, abbreviated with the letters A, T, C, and G."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "ヒトのDNA配列の99.9%以上は他のどのヒトとも同一である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "more than 99.9% of your DNA sequence is identical to any other human"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "個人のゲノムの半分は生物学的な母親から、半分は生物学的な父親から受け継がれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "Half of your genome comes from your biological mother and half from your biological father, making you related to each, but identical to neither."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "遺伝性疾患はDNA配列の変化によって引き起こされる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "A genetic disease is caused by a change in the DNA sequence."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "ヒトの1つの細胞のDNAを端から端まで伸ばすと、約6フィートの長さの鎖になる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "If all the DNA from a single human cell was stretched out end-to-end, it would make a six-foot-long strand comprised of a six billion letter code."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "そのDNAの鎖は60億文字のコードから成る。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "a six-foot-long strand comprised of a six billion letter code"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "細胞周期のある時点で、DNAの断片は染色体と呼ばれる密に凝縮された束になる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "At certain points in the life cycle of a cell, those segments can be tightly packed bundles known as chromosomes."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "染色体はある段階でX字型に見える。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "During one stage, the chromosomes appear to be X-shaped."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "ヒトの遺伝子は平均して1~3文字が人によって異なる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "On average, a human gene will have 1-3 letters that differ from person to person."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "遺伝子の個人差はタンパク質の形や機能、作られる量、時期、場所を変えるのに十分な違いである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "These differences are enough to change the shape and function of a protein, how much protein is made, when it's made, or where it's made."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "遺伝子の違いは目・髪・肌の色に影響する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "They affect the color of your eyes, hair, and skin."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "一部の形質は単一の遺伝子によって主に制御されるが、大半の形質は複数の遺伝子の影響を受ける。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "while a small number of your traits are mainly controlled by one gene, most traits are influenced by multiple genes"
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "生活習慣や環境要因も発達や健康に重要な役割を果たす。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "lifestyle and environmental factors play a critical role in your development and health"
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "一部の疾患は親から受け継がれた変異によって引き起こされ、出生時から個体に存在する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "Some diseases are caused by mutations that are inherited from the parents and are present in an individual at birth."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "他の疾患は生涯のうちに生じる後天的な遺伝子変異によって引き起こされる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "Other diseases are caused by acquired mutations in a gene or group of genes that occur during a person's life."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "遺伝的変異のほとんどは何の影響も及ぼさない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "The majority of the time genetic variants have no effect at all."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "わずか1文字の欠失や変化でも、タンパク質の損傷・過剰産生・非産生を招き、健康に深刻な影響を与えることがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "just one letter missing or changed may result in a damaged protein, extra protein, or no protein at all, with serious consequences for our health"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "遺伝的変異が世代を超えて受け継がれることは、鎌状赤血球症、嚢胞性線維症、テイ=サックス病などの病気が家系内で多発する理由の一つである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "the passing of genetic variants from one generation to the next helps to explain why many diseases run in families, such as in sickle cell disease, cystic fibrosis, and Tay-Sachs disease"
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "自閉症は社会的相互作用の障害、言語・非言語コミュニケーションの問題、反復行動を特徴とする。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "Autism is characterized by impaired social interactions, problems with verbal and nonverbal communication and repetitive behaviors."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "嚢胞性線維症は体に粘り気の強い粘液を作らせ、肺を詰まらせて感染を招き、膵臓を塞ぐ遺伝性疾患である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "Cystic fibrosis is a genetic disease that causes the body to produce thick, sticky mucus that clogs the lungs, leads to infection, and blocks the pancreas."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "パーキンソン病は通常、震えや動作のこわばりを引き起こす神経疾患である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "Parkinson's disease is a neurological condition that typically causes tremor and/or stiffness in movement"
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "ウィルソン病は体内に銅が過剰に蓄積する稀な遺伝性疾患であり、臓器障害を招いて死に至ることがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "Wilson disease is a rare genetic condition that causes a person's body to store too much of the mineral copper, leading to organ damage that may cause death."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "遺伝子検査とは、DNAに関する詳細を明らかにするための一連の処理・技術のことである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "Genetic testing consists of the processes and techniques used to determine details about your DNA."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "診断検査は、疑われる遺伝性疾患を確定または除外するために用いられる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "Diagnostic testing is used to confirm or rule out a suspected genetic disorder."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "薬理ゲノム検査は、特定の薬剤にどう反応するかを教えてくれる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "Pharmacogenomic testing tells you about how you will react to certain medications."
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "法医学的検査は法的目的のために行われ、家族・容疑者・事件や災害の被害者の身元特定に用いられる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "Forensic testing is carried out for legal purposes and can be used to identify biological family members, suspects, and victims of crimes and disasters."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "ほぼ全てのヒトの疾患には、何らかの遺伝的な基盤がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/A-Brief-Guide-to-Genomics",
+              "quote": "Virtually every human ailment has some basis in our genes."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "鎌状赤血球貧血症は単一の遺伝子の変化によって引き起こされ、非常に単純で予測可能な遺伝パターンを持つ。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/A-Brief-Guide-to-Genomics",
+              "quote": "These were conditions, such as sickle cell anemia, which have very simple, predictable inheritance patterns because each is caused by a change in a single gene."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "ヒトゲノム計画などのゲノム研究によって、ヒトのDNAに関する膨大なデータが生み出された。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/A-Brief-Guide-to-Genomics",
+              "quote": "With the vast trove of data about human DNA generated by the Human Genome Project and other genomic research"
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "がん・糖尿病・心血管疾患などは、複数の遺伝的要因と環境が共に作用する複雑な疾患であり、米国における健康問題の大部分を占める。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/A-Brief-Guide-to-Genomics",
+              "quote": "These diseases, such as cancer, diabetes, and cardiovascular disease constitute the majority of health problems in the United States."
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "遺伝要因は一般的な疾患の発症リスクに寄与する複数の要因の一つに過ぎず、食事・生活習慣・環境曝露も関与する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/A-Brief-Guide-to-Genomics",
+              "quote": "Clearly, genetics remains just one of several factors that contribute to people's risk of developing most common diseases. Diet, lifestyle, and environmental exposures also come into play for many conditions, including many types of cancer."
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "生き方の選択が、ゲノムがどう働くかに影響を与える。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "The way you live influences how your genome works."
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "ある病気が家系内で見られる場合、医師はその人にその疾患の家族の健康歴があると言う。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "If a certain disease runs in your family, doctors say you have a family health history for that condition."
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "個人のゲノムの特徴は、特定の薬剤への反応を予測するのに役立つ。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "characteristics of your genome can help predict how you will react to certain medications"
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "ゲノミクスは医療上の意思決定、食品安全、祖先調査など様々な分野で活用されている。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "Genomics now provides a powerful lens for use in various areas, including medical decisions, food safety, ancestry and more."
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "ゲノムに基づく研究由来の新薬の多くは、実用化まで少なくとも10年から15年かかると見積もられている。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/A-Brief-Guide-to-Genomics",
+              "quote": "Most new drugs based on genome-based research are estimated to be at least 10 to 15 years away"
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "企業が米国食品医薬品局(FDA)の承認を得るために必要な臨床試験を行うには、通常10年以上かかる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/A-Brief-Guide-to-Genomics",
+              "quote": "it usually takes more than a decade for a company to conduct the kinds of clinical studies needed to receive approval from the Food and Drug Administration"
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "薬理ゲノミクスは、患者の遺伝的特徴に関する情報を用いて薬物治療を個々人に最適化しようとする新興分野である。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/A-Brief-Guide-to-Genomics",
+              "quote": "Rapid progress is also being made in the emerging field of pharmacogenomics, which involves using information about a patient's genetic make-up to better tailor drug therapy to their individual needs."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "epigenomics",
+    "topicType": "concept",
+    "categoryLabel": "生命科学",
+    "title": "エピゲノミクス",
+    "summary": "エピゲノミクスは、DNAの塩基配列を変えずに遺伝子の働き方を変える化学的な印を対象とする研究分野である。DNAメチル化とヒストン修飾という二種類の印が、同一のゲノムを持つ細胞から筋肉や神経といった異なる細胞を生み出す仕組みを支えており、その乱れはインプリンティング異常症やがんと結び付けられている。",
+    "bodyMarkdown": "## 研究の対象\n\nヒトの体は筋肉、骨、脳など異なる機能に特化した数兆個の細胞からできているが、それぞれの細胞核が持つゲノムは基本的に同一である。目の特殊化した細胞は光を検知するタンパク質を作る遺伝子をオンにし、赤血球の特殊化した細胞は空気中の酸素を運ぶタンパク質を作る。同じ設計図を持ちながら細胞がこれほど違う理由は、どの遺伝子群がいつオンになりオフになるかにある。 [15][16][27]\n\nエピゲノミクスは、この切り替えを担う化学的タグが[ゲノム](/hubpedia/genome)上のどこに付いているかを特定し、その機能を解明する研究分野である。対象となるエピゲノムとは、細胞内のDNAおよびDNA関連タンパク質への化学的修飾の総体を指し、遺伝子発現を変化させながら減数分裂と体細胞分裂を通じて受け継がれる。ゲノムに何をすべきかを指示する多数の化学化合物、と表現されることもある。 [1][4][10]\n\n重要なのは、これらの印がDNAの配列そのものを変えない点である。エピゲノムはDNAに付着し、遺伝子のオン・オフの切り替えや特定の細胞でのタンパク質産生の制御などを指示する化学化合物とタンパク質から構成される。配列を書き換える代わりに、細胞がDNAの指示をどのように使うかを変える。 [3][12][13]\n\n## 前提となるゲノムとDNA\n\nゲノムとは、その生物が持つすべての[DNA](/hubpedia/dna)を指す言葉であり、ジャガイモから子犬まですべての生物がそれぞれ固有のゲノムを持つ。ゲノムを構成するDNAは、長く捻れたはしごのような形をした非常に大きな分子で、細胞内で様々な機能を果たすタンパク質を作るための指示を保持している。DNAのコードはアデニン、チミン、シトシン、グアニンという4種類の化学的構成要素からなり、それぞれA、T、C、Gの文字で略記される。文字の並び順によって、DNAは異なる機能を果たすことができる。 [11][25][41][55][60][61]\n\nヒトゲノムは約30億塩基対からなるDNAの完全な集合体である。1つの細胞に含まれるDNAをすべて端から端まで伸ばすと、60億文字のコードからなる約6フィートの長さの鎖になる。細胞の生活環の特定の時期には、DNAの断片は[染色体](/hubpedia/chromosome)として知られる密に詰まった束になり、ある段階ではX字型に見える。ヒトは46本（23対）の染色体を持ち、イネは24本、イヌは78本である。 [2][26][54][62][63]\n\nゲノムは親から子へ、また細胞分裂の際には次世代の細胞へと受け継がれる。半分は生物学的な母親から、半分は生物学的な父親から受け継がれるため、両親それぞれと類縁関係を持つが、どちらとも同一ではない。ほぼすべてのヒトは同じ遺伝子をほぼ同じ順序で持ち、DNA配列の99.9%以上は他のどのヒトとも同一で、平均すると遺伝子は人によって1〜3文字が異なる。 [20][42][43][56]\n\nわずかな差でも、タンパク質の形や機能、産生量、産生される時期や場所を変えるには十分である。[遺伝子](/hubpedia/gene)の違いは目や髪、皮膚の色に影響する。ただし遺伝的バリアントの大部分はまったく影響を及ぼさず、ごく少数の形質が主に単一の遺伝子によって制御される一方、大多数の形質は複数の遺伝子の影響を受ける。 [64][65][69][70]\n\n## 二種類の化学的な印\n\nエピゲノムの印には大きく二つのタイプがある。第一のDNAメチル化は、ゲノム中のDNAに直接影響を与える。タンパク質がDNA分子の特定の場所の塩基にメチル基と呼ばれる化学的タグを付加し、そのメチル基がDNAと他のタンパク質との相互作用に影響を与えることで、遺伝子のオン・オフが切り替わる。 [5][6][18]\n\n第二のヒストン修飾は、DNAに間接的に影響を与える。細胞内のDNAはヒストンタンパク質に巻き付いており、ヒストンは糸巻き状の構造を形成することで、非常に長いDNA分子が細胞核内で染色体としてきちんと巻き取られることを可能にしている。タンパク質はこのヒストンに様々な化学的タグを付加することができ、細胞内の他のタンパク質がそのタグを検知して、該当するDNA領域を使用するか無視するかを決定する。 [7][19][29][30]\n\nこのメカニズムにより、細胞はどの遺伝子がオンでどれがオフかを記憶できる。 [45]\n\n## 細胞の特殊化と継承\n\n体内のすべての細胞は基本的に同一のゲノムを持つが、細胞が特殊化する際に、DNAやヒストン上の化学的タグによる印は再編成される。エピゲノムの印は細胞分裂の際に細胞から細胞へ受け継がれることがあり、細胞分裂の際にはエピゲノムの多くが次世代の細胞に受け継がれて、細胞が特殊化した状態を維持するのに役立つ。エピゲノムは、ゲノムに起こるこうした変化の多くを制御している。 [14][28][33][46]\n\n世代を超えた継承については話が異なる。親から子にゲノムが受け継がれる際、エピゲノムの多くはリセットされる。ただし状況によっては、卵子や精子のDNAおよびヒストン上の化学的タグの一部が次世代に受け継がれることがあり、エピゲノムの印が世代から世代へ受け継がれることもある。 [44][58]\n\n## ゲノム刷り込み\n\nヒトゲノムはすべての遺伝子について2つのコピーを持ち、1つは母親から、もう1つは父親から受け継がれる。ところがごく一部の遺伝子では母親由来のコピーのみがオンになり、別の遺伝子では父親由来のコピーのみがオンになる。このパターンはインプリンティング（ゲノム刷り込み）と呼ばれ、エピゲノムがインプリンティング遺伝子の2つのコピーを区別して、どちらをオンにするかを決定している。 [8][9][21][22]\n\n一部の疾患は異常なインプリンティングによって引き起こされる。身体の過成長とがんリスクの増加を伴うベックウィズ・ヴィーデマン症候群、筋緊張低下と絶え間ない空腹感を伴い肥満につながるプラダー・ウィリー症候群、知的障害および運動障害を引き起こすアンジェルマン症候群がその例である。また、エピゲノムの印を「読み書き」するタンパク質の機能不全によって引き起こされるヒトの疾患もある。 [23][31][32][36][47]\n\n## 環境・生活習慣との関係\n\nエピゲノムの修飾は発生や組織分化の自然な過程として生じるが、環境曝露や疾患に応じて変化することもあり、人の生涯を通じて変化しうる。喫煙、食生活、感染症といった生活習慣・環境要因は、化学的応答を促す圧力に人をさらすことがある。こうした化学的応答はしばしばエピゲノムの変化を引き起こし、その一部は有害となりうる。 [17][34][35][48]\n\n一方で、生活上の圧力に適応するエピゲノムの能力は、正常なヒトの健康に必要であると考えられている。生活習慣や環境要因は発達や健康において重要な役割を果たす。この意味で、DNAは運命を決定づけるものではないと説明される。 [66][72][73]\n\n## 疾患との関わり\n\n遺伝性疾患はDNA配列の変化によって引き起こされる。一部の疾患は親から受け継がれ、生まれつき個体に存在する[突然変異](/hubpedia/mutation)によるものであり、他の疾患は人の生涯の間に生じる遺伝子または遺伝子群の後天的な突然変異による。遺伝的バリアントが世代を超えて受け継がれることは、鎌状赤血球症、嚢胞性線維症、テイ・サックス病など多くの疾患が家系内で見られる理由の説明になる。 [57][67][68][71]\n\nがんは配列の側だけの問題ではなく、ゲノムの変化、エピゲノムの変化、またはその両方によって引き起こされる。エピゲノムの変化は細胞増殖や免疫応答に関わる遺伝子のオン・オフを切り替えることがあり、がんの特徴である制御されない増殖や、免疫系が腫瘍を破壊できなくなる事態につながりうる。 [24][37][49]\n\n具体的な現れ方は двух方向ある。胃がん、大腸がん、および最も一般的なタイプの腎がんでは、エピゲノムの変化が増殖促進遺伝子を活性化することがある。他の一部のがんでは逆に、通常は細胞増殖を抑制する役割を持つ遺伝子が沈黙させられる。 [51][52]\n\n## 治療への応用と研究プロジェクト\n\n脳腫瘍の一種である膠芽腫では、DNAにメチル基を付加してがん細胞を殺す薬剤テモゾロミドによる治療である程度の成功が得られている。該当する遺伝子がメチル化された患者は、メチル化されていない患者に比べてテモゾロミドに反応する可能性がはるかに高い。一部の症例ではメチル化に望ましい副次効果があり、テモゾロミドの効果を打ち消す遺伝子を阻害する。 [38][50][59]\n\nエピゲノムの地図作りも進んでいる。米国国立衛生研究所（NIH）が支援するThe Cancer Genome Atlas（TCGA）ネットワークの研究者は、正常細胞とがん細胞のゲノムおよびエピゲノムを比較している。ゲノムの機能部分を目録化することを目指すENCODEプロジェクトの一環として、米国立ヒトゲノム研究所は様々な細胞種のエピゲノムマップを作成する研究者に資金提供しており、NIHの支援を受けた他の研究者たちも、いくつかのヒトの臓器・組織から多数のエピゲノムマップを作成している。 [39][40][53]\n\n## 関連記事\n\n- [ゲノミクス](/hubpedia/genomics)\n- [DNAシーケンシング](/hubpedia/dna-sequencing)",
+    "sources": [
+      {
+        "url": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+        "title": "Epigenomics Fact Sheet — NHGRI",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "How gene expression is regulated beyond the sequence itself. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+        "title": "Introduction to Genomics — NHGRI",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "The field-level overview covering genomes, genes and variation. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Epigenomics",
+        "summary": "Epigenomics is the field of study concerned with the chemical marks that change how genes work without altering the DNA base sequence. Two kinds of marks, DNA methylation and histone modification, underpin how cells carrying an identical genome give rise to different cell types such as muscle and nerve, and disruptions to these marks have been linked to imprinting disorders and cancer.",
+        "bodyMarkdown": "## What the field studies\n\nThe human body is made of trillions of cells specialized for different functions—muscle, bone, brain, and more—yet the genome held in each cell nucleus is essentially identical. Specialized cells in the eye switch on genes that make proteins for detecting light, while specialized cells in red blood cells make proteins that carry oxygen from the air. The reason cells can differ so much while carrying the same blueprint lies in which sets of genes are switched on and off, and when. [15][16][27]\n\nEpigenomics is the field that identifies where on the [genome](/hubpedia/genome) the chemical tags responsible for this switching are attached, and works out what they do. The epigenome it studies refers to the totality of chemical modifications to the DNA and DNA-associated proteins in a cell, which alter gene expression and are passed on through meiosis and mitosis. It is sometimes described as the many chemical compounds that tell the genome what to do. [1][4][10]\n\nImportantly, these marks do not change the DNA sequence itself. The epigenome consists of chemical compounds and proteins that attach to DNA and direct such actions as turning genes on or off and controlling the production of proteins in particular cells. Instead of rewriting the sequence, they change how the cell uses the instructions in the DNA. [3][12][13]\n\n## Background: the genome and DNA\n\nThe genome is the term for all of an organism's [DNA](/hubpedia/dna), and every organism, from a potato to a puppy, has its own genome. The DNA that makes up the genome is a very large molecule shaped like a long, twisted ladder, and it holds the instructions for making the proteins that perform various functions in a cell. The DNA code is made of four chemical building blocks—adenine, thymine, cytosine, and guanine—abbreviated with the letters A, T, C, and G. Depending on the order in which the letters are arranged, DNA can perform different functions. [11][25][41][55][60][61]\n\nThe human genome is the complete set of DNA, made up of about 3 billion base pairs. If all the DNA in a single cell were stretched out end to end, it would form a strand about 6 feet long consisting of 6 billion letters of code. At certain points in a cell's life cycle, segments of DNA form tightly packed bundles known as [chromosomes](/hubpedia/chromosome), which at one stage look like the letter X. Humans have 46 chromosomes (23 pairs), rice has 24, and dogs have 78. [2][26][54][62][63]\n\nThe genome is passed from parent to child, and, when cells divide, on to the next generation of cells. Half comes from the biological mother and half from the biological father, which is why a person is related to each parent yet identical to neither. Nearly all humans have the same genes in roughly the same order, more than 99.9% of the DNA sequence is identical to that of any other person, and on average genes differ from person to person by one to three letters. [20][42][43][56]\n\nEven a small difference is enough to change a protein's shape or function, how much of it is produced, or when and where it is produced. Differences in [genes](/hubpedia/gene) influence eye, hair, and skin color. That said, the great majority of genetic variants have no effect at all, and while a very small number of traits are controlled mainly by a single gene, most traits are influenced by multiple genes. [64][65][69][70]\n\n## Two types of chemical marks\n\nThere are two broad types of epigenomic mark. The first, DNA methylation, affects the DNA in the genome directly. Proteins attach chemical tags called methyl groups to bases at particular places on the DNA molecule, and those methyl groups affect how the DNA interacts with other proteins, thereby switching genes on or off. [5][6][18]\n\nThe second, histone modification, affects DNA indirectly. DNA in the cell is wound around histone proteins, which form spool-like structures that allow the very long DNA molecule to be neatly wound into chromosomes inside the cell nucleus. Proteins can attach a variety of chemical tags to these histones, and other proteins in the cell detect those tags and decide whether to use or ignore the corresponding region of DNA. [7][19][29][30]\n\nThis mechanism lets a cell remember which genes are on and which are off. [45]\n\n## Cell specialization and inheritance\n\nEvery cell in the body carries essentially the same genome, but as cells specialize, the pattern of chemical tags on the DNA and histones is rearranged. Epigenomic marks can be passed from cell to cell during cell division, and much of the epigenome is inherited by the next generation of cells, helping them maintain their specialized state. The epigenome controls many of these changes that occur to the genome. [14][28][33][46]\n\nInheritance across generations is a different story. When the genome is passed from parent to child, much of the epigenome is reset. Under some circumstances, however, some of the chemical tags on the DNA and histones of egg and sperm cells can be passed to the next generation, so epigenomic marks are sometimes inherited from generation to generation. [44][58]\n\n## Genomic imprinting\n\nThe human genome carries two copies of every gene, one inherited from the mother and one from the father. For a small number of genes, however, only the maternal copy is switched on, and for others only the paternal copy is. This pattern is called imprinting, and the epigenome distinguishes between the two copies of an imprinted gene and determines which one is turned on. [8][9][21][22]\n\nSome diseases are caused by abnormal imprinting. Examples include Beckwith-Wiedemann syndrome, which involves body overgrowth and an increased risk of cancer; Prader-Willi syndrome, which involves low muscle tone and constant hunger leading to obesity; and Angelman syndrome, which causes intellectual disability and problems with movement. There are also human diseases caused by malfunction of the proteins that \"read\" and \"write\" epigenomic marks. [23][31][32][36][47]\n\n## Relationship to environment and lifestyle\n\nEpigenomic modifications arise as a natural part of development and tissue differentiation, but they can also change in response to environmental exposures and disease, and can change over the course of a person's lifetime. Lifestyle and environmental factors such as smoking, diet, and infectious disease can expose a person to pressures that prompt chemical responses. Those chemical responses often lead to changes in the epigenome, some of which can be harmful. [17][34][35][48]\n\nAt the same time, the epigenome's ability to adapt to the pressures of life is thought to be necessary for normal human health. Lifestyle and environmental factors play an important role in development and health. In this sense, DNA is described as not being destiny. [66][72][73]\n\n## Connection to disease\n\nGenetic diseases are caused by changes in the DNA sequence. Some are caused by [mutations](/hubpedia/mutation) inherited from a parent and present in an individual at birth, while others are caused by acquired mutations in a gene or group of genes that occur during a person's life. The fact that genetic variants are passed down through generations helps explain why many conditions, including sickle cell disease, cystic fibrosis, and Tay-Sachs disease, run in families. [57][67][68][71]\n\nCancer is not solely a matter of the sequence: it can be caused by genomic changes, epigenomic changes, or both. Epigenomic changes can switch on or off genes involved in cell growth and the immune response, which can lead to the uncontrolled growth that is a hallmark of cancer and to the immune system's failure to destroy tumors. [24][37][49]\n\nThis shows up in two directions. In stomach cancer, colon cancer, and the most common type of kidney cancer, epigenomic changes can activate growth-promoting genes. In certain other cancers, the reverse happens: genes that normally act to suppress cell growth are silenced. [51][52]\n\n## Therapeutic applications and research projects\n\nIn glioblastoma, a type of brain tumor, some success has been achieved with treatment using temozolomide, a drug that attaches methyl groups to DNA and kills cancer cells. Patients whose relevant gene is methylated are far more likely to respond to temozolomide than patients whose gene is not methylated. In some cases the methylation has a desirable side effect, blocking a gene that counteracts temozolomide. [38][50][59]\n\nMapping the epigenome is also underway. Researchers in The Cancer Genome Atlas (TCGA) network, supported by the U.S. National Institutes of Health (NIH), are comparing the genomes and epigenomes of normal cells and cancer cells. As part of the ENCODE project, which aims to catalog the functional parts of the genome, the National Human Genome Research Institute funds researchers creating epigenome maps of various cell types, and other NIH-supported researchers have produced numerous epigenome maps from several human organs and tissues. [39][40][53]\n\n## Related articles\n\n- [Genomics](/hubpedia/genomics)\n- [DNA sequencing](/hubpedia/dna-sequencing)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:35:21.601Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "エピゲノミクスは、ゲノムに印を付ける化学的タグの位置を特定し、その機能を解明する研究分野である。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "Epigenomics is a field in which researchers chart the locations and understand the functions of all the chemical tags that mark the genome."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "ヒトゲノムは約30億塩基対からなるDNAの完全な集合体であり、各個人を独自の存在にしている。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "The human genome is the complete assembly of DNA (deoxyribonucleic acid)-about 3 billion base pairs - that makes each individual unique."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "エピゲノムの印はDNAの配列そのものを変えない。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "These marks do not change the sequence of the DNA."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "エピゲノムは細胞内のDNAおよびDNA関連タンパク質への化学的修飾の総体であり、遺伝子発現を変化させ、減数分裂と体細胞分裂を通じて継承される。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "The epigenome is the set of chemical modifications to the DNA and DNA-associated proteins in the cell, which alter gene expression, and are heritable (via meiosis and mitosis)."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "第一のタイプの印であるDNAメチル化は、ゲノム中のDNAに直接影響を与える。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "The first type of mark, called DNA methylation, directly affects the DNA in a genome."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "DNAメチル化では、タンパク質がDNA分子の特定の場所の塩基にメチル基と呼ばれる化学的タグを付加する。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "In this process, proteins attach chemical tags called methyl groups to the bases of the DNA molecule in specific places."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "第二のタイプの印であるヒストン修飾は、DNAに間接的に影響を与える。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "The second kind of mark, called histone modification, affects DNA indirectly."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "ヒトゲノムはすべての遺伝子について2つのコピーを持ち、1つは母親から、もう1つは父親から受け継がれる。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "The human genome contains two copies of every gene-one copy inherited from the mother and one from the father."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "このパターンはインプリンティング（ゲノム刷り込み）と呼ばれる。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "This pattern is called imprinting."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "エピゲノムは、ゲノムに何をすべきかを指示する多数の化学化合物である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "The epigenome is a multitude of chemical compounds that can tell the genome what to do."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "DNAは細胞内で様々な機能を果たすタンパク質を作るための指示を保持している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "DNA holds the instructions for building the proteins that carry out a variety of functions in a cell."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "エピゲノムはDNAに付着し、遺伝子のオン・オフの切り替えや特定の細胞でのタンパク質産生の制御などを指示する化学化合物とタンパク質から構成される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "The epigenome is made up of chemical compounds and proteins that can attach to DNA and direct such actions as turning genes on or off, controlling the production of proteins in particular cells."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "エピゲノムの印は、DNAの配列を変える代わりに細胞がDNAの指示をどのように使うかを変える。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "Rather, they change the way cells use the DNA's instructions."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "エピゲノムの印は細胞分裂の際に細胞から細胞へ受け継がれることがある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "The marks are sometimes passed on from cell to cell as cells divide."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "ヒトは筋肉・骨・脳など異なる機能に特化した数兆個の細胞を持ち、それぞれの細胞核は基本的に同一のゲノムを持つ。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "A human being has trillions of cells, specialized for different functions in muscles, bones and the brain, and each of these cells carries essentially the same genome in its nucleus."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "細胞間の違いは、様々な種類の細胞でどの遺伝子群がいつオン・オフになるかによって決まる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "The differences among cells are determined by how and when different sets of genes are turned on or off in various kinds of cells."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "エピゲノムの修飾は発生や組織分化の自然な過程として生じ、環境曝露や疾患に応じて変化しうる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "The modifications occur as a natural process of development and tissue differentiation, and can be altered in response to environmental exposures or disease."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "メチル基はDNAと他のタンパク質との相互作用に影響を与えることで遺伝子のオン・オフを切り替える。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "The methyl groups turn genes on or off by affecting interactions between the DNA and other proteins."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "細胞内のDNAはヒストンタンパク質に巻き付いており、ヒストンは糸巻き状の構造を形成し、非常に長いDNA分子が細胞核内で染色体としてきちんと巻き取られることを可能にする。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "DNA in cells is wrapped around histone proteins, which form spool-like structures that enable DNA's very long molecules to be wound up neatly into chromosomes inside the cell nucleus."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "ゲノムは親から子へ、また細胞分裂の際には次世代の細胞へと受け継がれる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "The genome is passed from parents to their offspring and from cells, when they divide, to their next generation."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "ごく一部の遺伝子では母親由来のコピーのみがオンになり、別の遺伝子では父親由来のコピーのみがオンになる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "For a small number of genes, only the copy from the mother gets switched on; for others, only the copy from the father is turned on."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "エピゲノムはインプリンティング遺伝子の2つのコピーを区別し、どちらをオンにするかを決定する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "The epigenome distinguishes between the two copies of an imprinted gene and determines which is switched on."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "一部の疾患は異常なインプリンティングによって引き起こされる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "Some diseases are caused by abnormal imprinting."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "がんはゲノムの変化、エピゲノムの変化、またはその両方によって引き起こされる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "Cancers are caused by changes in the genome, the epigenome, or both."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "DNAのコードはアデニン、チミン、シトシン、グアニンという4種類の化学的構成要素からなり、それぞれA、T、C、Gの文字で略記される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "This code is made up of four types of chemical building blocks, adenine, thymine, cytosine, and guanine, abbreviated with the letters A, T, C, and G."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "ヒトは46本（23対）の染色体を持ち、イネは24本、イヌは78本の染色体を持つ。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "humans have 46 chromosomes (23 pairs), rice plants have 24 chromosomes, and dogs have 78 chromosomes."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "目の特殊化した細胞は光を検知するタンパク質を作る遺伝子をオンにし、赤血球の特殊化した細胞は空気中の酸素を体内に運ぶタンパク質を作る。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "Specialized cells in the eye turn on genes that make proteins that can detect light, while specialized cells in red blood cells make proteins that carry oxygen from the air to the rest of the body."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "エピゲノムはゲノムのこうした変化の多くを制御している。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "The epigenome controls many of these changes to the genome."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "タンパク質はヒストンに様々な化学的タグを付加することができる。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "Proteins can attach a variety of chemical tags to histones."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "細胞内の他のタンパク質はヒストンのタグを検知し、その細胞内で該当DNA領域を使用するか無視するかを決定する。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "Other proteins in cells can detect these tags and determine whether that region of DNA should be used or ignored in that cell."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "異常なインプリンティングによる疾患には、身体の過成長とがんリスクの増加を伴うベックウィズ・ヴィーデマン症候群が含まれる。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "They include Beckwith-Wiedemann syndrome, a disorder associated with body overgrowth and increased risk of cancer"
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "プラダー・ウィリー症候群は筋緊張低下と絶え間ない空腹感を伴い、肥満につながる。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "Prader-Willi syndrome, associated with poor muscle tone and constant hunger, leading to obesity"
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "体内のすべての細胞は基本的に同一のゲノムを持つが、細胞が特殊化する際にDNAやヒストン上の化学的タグによる印は再編成される。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "Although all cells in the body contain essentially the same genome, the DNA marked by chemical tags on the DNA and histones gets rearranged when cells become specialized."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "エピゲノムは人の生涯を通じて変化することもある。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "The epigenome can also change throughout a person's lifetime."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "喫煙、食生活、感染症といった生活習慣・環境要因は、化学的応答を促す圧力に人をさらすことがある。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "Lifestyle and environmental factors (such as smoking, diet and infectious disease) can expose a person to pressures that prompt chemical responses."
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "一部のヒトの疾患は、エピゲノムの印を「読み書き」するタンパク質の機能不全によって引き起こされる。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "Some human diseases are caused by malfunctions in the proteins that \"read\" and \"write\" epigenomic marks."
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "エピゲノムの変化は細胞増殖や免疫応答に関わる遺伝子のオン・オフを切り替えることがある。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "Changes in the epigenome can switch on or off genes involved in cell growth or the immune response."
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "脳腫瘍の一種である膠芽腫では、DNAにメチル基を付加してがん細胞を殺す薬剤テモゾロミドによる治療である程度の成功が得られている。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "In a type of brain tumor called glioblastoma, doctors have had some success in treating patients with the drug temozolomide, which kills cancer cells by adding methyl groups to DNA."
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "米国国立衛生研究所（NIH）が支援するThe Cancer Genome Atlas（TCGA）ネットワークの研究者は、正常細胞とがん細胞のゲノムおよびエピゲノムを比較している。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "researchers in The Cancer Genome Atlas (TCGA) Network, which is supported by the National Institutes of Health (NIH), are comparing the genomes and epigenomes of normal cells with those of cancer cells."
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "ゲノムの機能部分を目録化することを目指すENCODEプロジェクトの一環として、米国立ヒトゲノム研究所は様々な細胞種のエピゲノムマップを作成する研究者に資金提供している。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "As part of the ENCODE (ENCyclopedia Of DNA Elements) project-which aims to catalog the working parts of the genome-the National Human Genome Research Institute is funding researchers to make epigenomic maps of various cell types."
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "ゲノムとは、その生物が持つすべてのDNAを指す言葉である。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "Genome is a fancy word for all your DNA."
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "ほぼすべてのヒトは同じ遺伝子をほぼ同じ順序で持ち、DNA配列の99.9%以上は他のどのヒトとも同一である。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "Nearly all humans have the same genes arranged in roughly the same order and more than 99.9% of your DNA sequence is identical to any other human."
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "ゲノムの半分は生物学的な母親から、半分は生物学的な父親から受け継がれ、両親それぞれと類縁関係を持つが、どちらとも同一ではない。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "Half of your genome comes from your biological mother and half from your biological father, making you related to each, but identical to neither."
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "エピゲノムの印は世代から世代へ受け継がれることもある。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "They also can be passed down from one generation to the next."
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "statement": "このメカニズムにより、細胞はどの遺伝子がオンかオフかを記憶できる。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "In this way, cells can remember which genes are on or off."
+            }
+          ]
+        },
+        {
+          "index": 46,
+          "statement": "細胞分裂の際にはエピゲノムの多くが次世代の細胞に受け継がれ、細胞が特殊化した状態を維持するのに役立つ。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "When cells divide, often much of the epigenome is passed on to the next generation of cells, helping the cells remain specialized."
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "statement": "アンジェルマン症候群は知的障害および運動障害を引き起こす。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "Angelman syndrome, which leads to intellectual disability, as well motion difficulties."
+            }
+          ]
+        },
+        {
+          "index": 48,
+          "statement": "こうした化学的応答はしばしばエピゲノムの変化を引き起こし、その一部は有害となりうる。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "These responses, in turn, often lead to changes in the epigenome, some of which can be damaging."
+            }
+          ]
+        },
+        {
+          "index": 49,
+          "statement": "エピゲノムの変化はがんの特徴である制御されない増殖や、免疫系が腫瘍を破壊できなくなる事態につながりうる。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "These changes can lead to uncontrolled growth, a hallmark of cancer, or to a failure of the immune system to destroy tumors."
+            }
+          ]
+        },
+        {
+          "index": 50,
+          "statement": "該当遺伝子がメチル化された膠芽腫患者は、メチル化されていない患者に比べてテモゾロミドに反応する可能性がはるかに高い。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "Glioblastoma patients whose tumors have such methylated genes are far more likely to respond to temozolomide than those with unmethylated genes."
+            }
+          ]
+        },
+        {
+          "index": 51,
+          "statement": "エピゲノムの変化は胃がん、大腸がん、および最も一般的なタイプの腎がんにおいて増殖促進遺伝子を活性化することもある。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "Changes in the epigenome also can activate growth-promoting genes in stomach cancer, colon cancer and the most common type of kidney cancer."
+            }
+          ]
+        },
+        {
+          "index": 52,
+          "statement": "他の一部のがんでは、エピゲノムの変化が通常は細胞増殖を抑制する役割を持つ遺伝子を沈黙させる。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "In some other cancers, changes in the epigenome silence genes that normally serve to keep cell growth in check."
+            }
+          ]
+        },
+        {
+          "index": 53,
+          "statement": "NIHの支援を受けた他の研究者たちも、いくつかのヒトの臓器・組織から多数のエピゲノムマップを作成している。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "Other NIH-supported investigators have developed a number of epigenomic maps from several human organs and tissues."
+            }
+          ]
+        },
+        {
+          "index": 54,
+          "statement": "ヒトの1つの細胞に含まれるDNAをすべて端から端まで伸ばすと、60億文字のコードからなる約6フィートの長さの鎖になる。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "If all the DNA from a single human cell was stretched out end-to-end, it would make a six-foot-long strand comprised of a six billion letter code."
+            }
+          ]
+        },
+        {
+          "index": 55,
+          "statement": "ゲノムは、長く捻れたはしごのような形をした非常に大きな分子であるDNAでできている。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "Genomes are made of DNA, an extremely large molecule that looks like a long, twisted ladder."
+            }
+          ]
+        },
+        {
+          "index": 56,
+          "statement": "平均すると、ヒトの遺伝子は人によって1〜3文字が異なる。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "On average, a human gene will have 1-3 letters that differ from person to person."
+            }
+          ]
+        },
+        {
+          "index": 57,
+          "statement": "遺伝性疾患はDNA配列の変化によって引き起こされる。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "A genetic disease is caused by a change in the DNA sequence."
+            }
+          ]
+        },
+        {
+          "index": 58,
+          "statement": "親から子にゲノムが受け継がれる際にエピゲノムの多くはリセットされるが、状況によっては卵子や精子のDNAおよびヒストン上の化学的タグの一部が次世代に受け継がれることがある。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "Much of the epigenome is reset when parents pass their genomes to their offspring; however, under some circumstances, some of the chemical tags on the DNA and histones of eggs and sperm may be passed on to the next generation."
+            }
+          ]
+        },
+        {
+          "index": 59,
+          "statement": "一部の症例ではメチル化に望ましい副次効果があり、テモゾロミドの効果を打ち消す遺伝子を阻害する。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "In some cases, methylation has a welcome secondary effect: it blocks a gene that counteracts temozolomide."
+            }
+          ]
+        },
+        {
+          "index": 60,
+          "statement": "ジャガイモから子犬まで、すべての生物はそれぞれ固有のゲノムを持つ。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "From potatoes to puppies, all living organisms have their own genome."
+            }
+          ]
+        },
+        {
+          "index": 61,
+          "statement": "DNAコードにおける文字の並び順によって、DNAは異なる機能を果たすことができる。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "The order of the letters in this code allows DNA to function in different ways."
+            }
+          ]
+        },
+        {
+          "index": 62,
+          "statement": "細胞の生活環の特定の時期には、DNAの断片は染色体として知られる密に詰まった束になることがある。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "At certain points in the life cycle of a cell, those segments can be tightly packed bundles known as chromosomes."
+            }
+          ]
+        },
+        {
+          "index": 63,
+          "statement": "染色体はある段階でX字型に見える。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "During one stage, the chromosomes appear to be X-shaped."
+            }
+          ]
+        },
+        {
+          "index": 64,
+          "statement": "こうした遺伝子の違いはタンパク質の形や機能、産生量、産生される時期や場所を変えるのに十分である。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "These differences are enough to change the shape and function of a protein, how much protein is made, when it's made, or where it's made."
+            }
+          ]
+        },
+        {
+          "index": 65,
+          "statement": "ごく少数の形質は主に単一の遺伝子によって制御されるが、大多数の形質は複数の遺伝子の影響を受ける。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "while a small number of your traits are mainly controlled by one gene, most traits are influenced by multiple genes."
+            }
+          ]
+        },
+        {
+          "index": 66,
+          "statement": "生活習慣や環境要因は発達や健康において重要な役割を果たす。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "lifestyle and environmental factors play a critical role in your development and health."
+            }
+          ]
+        },
+        {
+          "index": 67,
+          "statement": "一部の疾患は親から受け継がれ、生まれつき個体に存在する突然変異によって引き起こされる。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "Some diseases are caused by mutations that are inherited from the parents and are present in an individual at birth."
+            }
+          ]
+        },
+        {
+          "index": 68,
+          "statement": "他の疾患は、人の生涯の間に生じる遺伝子または遺伝子群の後天的な突然変異によって引き起こされる。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "Other diseases are caused by acquired mutations in a gene or group of genes that occur during a person's life."
+            }
+          ]
+        },
+        {
+          "index": 69,
+          "statement": "遺伝的バリアントの大部分はまったく影響を及ぼさない。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "The majority of the time genetic variants have no effect at all."
+            }
+          ]
+        },
+        {
+          "index": 70,
+          "statement": "遺伝子の違いは目や髪、皮膚の色に影響する。",
+          "confidence": 0.91,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "They affect the color of your eyes, hair, and skin."
+            }
+          ]
+        },
+        {
+          "index": 71,
+          "statement": "遺伝的バリアントが世代を超えて受け継がれることは、鎌状赤血球症、嚢胞性線維症、テイ・サックス病など多くの疾患が家系内で見られる理由の説明になる。",
+          "confidence": 0.91,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "the passing of genetic variants from one generation to the next helps to explain why many diseases run in families, such as in sickle cell disease, cystic fibrosis, and Tay-Sachs disease."
+            }
+          ]
+        },
+        {
+          "index": 72,
+          "statement": "生活上の圧力に適応するエピゲノムの能力は、正常なヒトの健康に必要であると考えられている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "However, the ability of the epigenome to adjust to the pressures of life appears to be required for normal human health."
+            }
+          ]
+        },
+        {
+          "index": 73,
+          "statement": "DNAは運命を決定づけるものではない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "DNA is not your destiny."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "dna-sequencing",
+    "topicType": "concept",
+    "categoryLabel": "生命科学",
+    "title": "DNAシーケンシング",
+    "summary": "DNAシーケンシングは、DNAを構成する塩基の並び順を読み取る技術である。1990年から2003年にかけて実施されたヒトゲノム計画では、15年と30億ドルを見込む国際事業としてヒトゲノムの最初の配列が作られたが、現在では100万塩基を超える広い範囲の配列を異なる個体のあいだで迅速かつ安価に比較できる。医療では、がんの種類の特定やまれな疾患の遺伝的原因の探索に用いられ始めている。",
+    "bodyMarkdown": "## 配列を読む技術と現在の水準\n\n一つのヒトゲノムを読み終えるには、15年の期間と30億ドルの費用が要ると見積もられていた時期がある。[ヒトゲノム計画](/hubpedia/human-genome-project)が構想された当時の想定であり、実際の計画は1990年から2003年にかけて行われた。現在では、100万塩基以上に及ぶ広範な[DNA配列](/hubpedia/dna)を、異なる個体のあいだで迅速かつ安価に比較できる。読み取りそのものが大規模な国際事業を要する作業から、日常的な比較の道具へと変わったことになる。 [1][6][23]\n\n読み取りの対象はヒトに限らない。1988年に米国科学アカデミーの特別委員会が示した計画の当初目標には、ヒト以外の選ばれた複数の生物の[ゲノム](/hubpedia/genome)配列決定も含まれていた。対象生物には最終的に、大腸菌、パン酵母、ショウジョウバエ、線虫、マウスが加わっている。 [7][16]\n\n## ヒトゲノム計画の目標と体制\n\nヒトゲノム計画は、ヒトゲノムの最初の配列を作成することを主目標とした世界的な科学的取り組みであった。完了は当初2005年と見込まれていたが、実際には2年前倒しの2003年に、当初の目標を上回る形で終えている。読み取りの手法としては、最終的にサンガー法と呼ばれる特定のDNAシーケンシング手法が用いられた。 [4][8][17]\n\n米国では、計画の研究者はエネルギー省と国立衛生研究所（NIH）から資金提供を受けた。NIHは1988年にヒトゲノム研究局を設立し、1990年に国立ヒトゲノム研究センター、1997年に国立ヒトゲノム研究所（NHGRI）へと改称している。組織の名称の変遷は、計画の進行と並行して研究体制が常設化していった経緯を示す。 [20][21]\n\nシーケンシングには、米国・英国・フランス・ドイツ・日本・中国にまたがる20の大学・研究機関の研究者が参加し、これらの研究グループは国際ヒトゲノムシーケンシングコンソーシアムと呼ばれるようになった。技術的課題の大きさから、工学・生物学・計算機科学などの専門家からなる学際的なグループを世界中から集める必要があったとされる。一方で、規模の経済を最大化するため、作業自体は少数の主要拠点に集中させる必要があった。参加国を広げることと作業を集約することは、この計画では同時に求められた条件だった。 [10][22][30][31]\n\n## 参照配列に使われたDNAの由来\n\n元となったヒト参照ゲノム配列は、人類全体の平均から作られたものではない。その70%は、混血系統を持つ1人の個人のDNAから生成された。残る30%は、主に欧州系の19人の別の個人のDNAを組み合わせたものである。 [9][18]\n\n配列の大部分は、ニューヨーク州バッファローに住むボランティアから採取された。同市のロズウェルパークがん研究所の研究者らは、ヒトゲノムのシーケンシングに使用できる形にDNAを調製する専門家であった。 [19][27]\n\n## ドラフトから完全配列まで\n\n最初に作られたドラフト配列は、全体を隙間なく読み通したものではなかった。そこには、正確に決定できなかった15万か所以上のギャップ（未知領域）が含まれていた。2003年に計画が作成した配列は、ヒトゲノムの90%以上を占めるものだった。 [5][24]\n\n2003年4月、コンソーシアムはドラフト配列から大幅に改善された、ほぼ完全なヒトゲノム配列を作成したと発表した。この配列はヒトゲノムの92%を占め、ギャップは400か所未満に減り、精度も向上していた。 [11][12]\n\n残っていたギャップが埋まったのはさらに後年である。2022年3月31日、Telomere-to-Telomere（T2T）コンソーシアムは、初めて真に完全なヒトゲノム配列を作成したと発表した。「ヒトゲノムの解読完了」と呼ばれる出来事が複数あるのは、2003年の発表と2022年の発表が指す到達点が異なるためである。 [2][11][12]\n\n## 配列データの即時公開\n\nヒトゲノム計画の科学者は、ドラフトのヒトゲノム配列のあらゆる部分を、作成後速やかに公開した。この慣行は、配列データの迅速な公開に関する規則を定めた「バミューダ原則」に研究者らが合意した、バミューダでの2回の会合に由来する。 [25][28]\n\n## 医療と疾患研究での利用\n\nNHGRIと米国国立がん研究所が支援するThe Cancer Genome Atlasプロジェクトは、DNAシーケンシングを用いて約30種類のがんのゲノムの詳細を解明している。 [3]\n\n臨床側での利用も進みつつある。がん治療では、医師がシーケンスデータを用いて患者のがんの種類を特定できるようになりつつある。またNHGRIが支援する未診断疾患プログラムの研究者は、まれな疾患の遺伝的原因を特定するためにDNAシーケンシングを利用している。 [13][14]\n\nただし、診療所での日常的なDNAシーケンシングの実用化にはまだ長い年月がかかるとされる。一部の大規模医療センターでは既に疾患の検出・治療にシーケンシングを利用し始めているが、それは限られた施設での先行例であり、一般の診療現場に行き渡った状態を意味しない。 [15]\n\n## 倫理的・法的・社会的課題（ELSI）\n\n配列を読む能力が広がることに伴う課題は、計画の初期から制度として扱われた。NHGRIは1990年に倫理的・法的・社会的課題（ELSI）研究プログラムを設立している。米国議会はNHGRIに対し、研究予算の少なくとも5%をゲノム研究の倫理的・法的・社会的影響の研究に充てるよう義務付けた。予算配分の下限を法で定めた点で、この措置は付随的な検討にとどまらない位置づけを与えられている。 [26][29]\n\n## 研究のかたちへの影響\n\n計画に対する評価として、ヒトゲノム計画は、特定の仮説の検証を伴わない生産志向・発見駆動型の科学的探究が、広範な科学コミュニティにとって非常に価値があり得ることを示したとされる。この見方は、少数の主要拠点への作業集中と、作成後速やかな配列データの公開という運営上の選択と結びついている。 [25][31][32]\n\n## 関連記事\n\n- [遺伝子](/hubpedia/gene)\n- [染色体](/hubpedia/chromosome)\n- [ゲノミクス](/hubpedia/genomics)\n- [エピゲノミクス](/hubpedia/epigenomics)\n- [変異](/hubpedia/mutation)",
+    "sources": [
+      {
+        "url": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+        "title": "DNA Sequencing Fact Sheet — NHGRI",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "How the order of bases is determined. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/human-genome-project/What",
+        "title": "What is the Human Genome Project? — NHGRI",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "The project that read the human genome, and what a genome is. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "DNA Sequencing",
+        "summary": "DNA sequencing is the technology for reading the order of the bases that make up DNA. The Human Genome Project, carried out from 1990 to 2003, produced the first sequence of the human genome as an international undertaking projected to take 15 years and cost 3 billion dollars, but today stretches of more than a million bases can be compared quickly and cheaply between different individuals. In medicine, it is beginning to be used to identify types of cancer and to search for the genetic causes of rare diseases.",
+        "bodyMarkdown": "## The technology for reading sequences and where it stands today\n\nThere was a time when finishing the reading of a single human genome was estimated to require 15 years and 3 billion dollars. That was the assumption when the [Human Genome Project](/hubpedia/human-genome-project) was conceived; the project itself ran from 1990 to 2003. Today, broad stretches of [DNA sequence](/hubpedia/dna) spanning more than a million bases can be compared quickly and cheaply between different individuals. Reading a sequence has gone from work requiring a large-scale international undertaking to being an everyday tool for comparison. [1][6][23]\n\nThe targets of sequencing are not limited to humans. The initial goals of the plan laid out in 1988 by a special committee of the U.S. National Academy of Sciences included determining the [genome](/hubpedia/genome) sequences of several selected non-human organisms. The organisms eventually added were E. coli, baker's yeast, the fruit fly, the roundworm, and the mouse. [7][16]\n\n## The goals and organization of the Human Genome Project\n\nThe Human Genome Project was a worldwide scientific effort whose primary goal was to produce the first sequence of the human genome. Completion was initially expected in 2005, but the project actually finished two years early, in 2003, exceeding its original goals. The method ultimately used for reading was a particular DNA sequencing technique known as the Sanger method. [4][8][17]\n\nIn the United States, researchers on the project were funded by the Department of Energy and the National Institutes of Health (NIH). The NIH established the Office of Human Genome Research in 1988, which was renamed the National Center for Human Genome Research in 1990 and the National Human Genome Research Institute (NHGRI) in 1997. The succession of organizational names reflects how the research structure became a permanent institution alongside the project's progress. [20][21]\n\nSequencing involved researchers at 20 universities and research centers across the United States, the United Kingdom, France, Germany, Japan, and China, and these research groups came to be known as the International Human Genome Sequencing Consortium. Because of the magnitude of the technical challenges, it was said to be necessary to assemble interdisciplinary groups of specialists from around the world in fields such as engineering, biology, and computer science. At the same time, to maximize economies of scale, the work itself had to be concentrated at a small number of major centers. Broadening the range of participating countries and concentrating the work were conditions this project had to satisfy simultaneously. [10][22][30][31]\n\n## The origin of the DNA used for the reference sequence\n\nThe underlying human reference genome sequence was not created from an average of all humanity. Seventy percent of it was generated from the DNA of a single individual of mixed ancestry. The remaining 30 percent was a combination of DNA from 19 other individuals, mainly of European descent. [9][18]\n\nMost of the sequence was collected from volunteers living in Buffalo, New York. Researchers at the city's Roswell Park Cancer Institute were experts at preparing DNA into a form that could be used for sequencing the human genome. [19][27]\n\n## From draft to complete sequence\n\nThe first draft sequence produced was not a gap-free reading of the whole. It contained more than 150,000 gaps — regions that could not be determined accurately. The sequence the project produced in 2003 accounted for more than 90 percent of the human genome. [5][24]\n\nIn April 2003, the consortium announced that it had produced a nearly complete human genome sequence, substantially improved over the draft. This sequence accounted for 92 percent of the human genome, reduced the gaps to fewer than 400, and improved accuracy. [11][12]\n\nThe remaining gaps were not filled until years later. On March 31, 2022, the Telomere-to-Telomere (T2T) Consortium announced that it had produced the first truly complete human genome sequence. There are multiple events described as \"completing the reading of the human genome\" because the 2003 announcement and the 2022 announcement refer to different milestones. [2][11][12]\n\n## Immediate release of sequence data\n\nScientists on the Human Genome Project released every portion of the draft human genome sequence promptly after it was produced. This practice originated in two meetings held in Bermuda, where the researchers agreed to the \"Bermuda Principles,\" which set out rules for the rapid release of sequence data. [25][28]\n\n## Use in medicine and disease research\n\nThe Cancer Genome Atlas project, supported by the NHGRI and the U.S. National Cancer Institute, is using DNA sequencing to elucidate the genomic details of roughly 30 types of cancer. [3]\n\nClinical use is also advancing. In cancer treatment, physicians are increasingly able to use sequence data to identify the type of a patient's cancer. Researchers in the NHGRI-supported Undiagnosed Diseases Program also use DNA sequencing to identify the genetic causes of rare diseases. [13][14]\n\nEven so, routine DNA sequencing in the clinic is said to be many years away from practical reality. Some large medical centers have already begun using sequencing to detect and treat disease, but these are early cases at a limited number of facilities and do not mean the practice has spread throughout ordinary clinical settings. [15]\n\n## Ethical, Legal and Social Implications (ELSI)\n\nThe issues that accompany a broadening ability to read sequences were treated institutionally from the project's early days. The NHGRI established the Ethical, Legal and Social Implications (ELSI) Research Program in 1990. The U.S. Congress required the NHGRI to devote at least 5 percent of its research budget to studying the ethical, legal, and social implications of genomic research. By setting a legal floor for budget allocation, this measure gave the issue a standing beyond that of an incidental consideration. [26][29]\n\n## Effects on the shape of research\n\nOne assessment of the project holds that the Human Genome Project demonstrated that production-oriented, discovery-driven scientific inquiry, without the testing of a specific hypothesis, can be extremely valuable to the broader scientific community. This view is bound up with the operational choices of concentrating work at a small number of major centers and releasing sequence data promptly after it was produced. [25][31][32]\n\n## Related articles\n\n- [Gene](/hubpedia/gene)\n- [Chromosome](/hubpedia/chromosome)\n- [Genomics](/hubpedia/genomics)\n- [Epigenomics](/hubpedia/epigenomics)\n- [Mutation](/hubpedia/mutation)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:35:21.602Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "研究者は現在、100万塩基以上に及ぶ広範なDNA配列を、異なる個体間で迅速かつ安価に比較できるようになっている。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+              "quote": "Researchers now are able to compare large stretches of DNA - 1 million bases or more - from different individuals quickly and cheaply."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "2022年3月31日、Telomere-to-Telomere（T2T）コンソーシアムは残っていたギャップを埋め、初めて真に完全なヒトゲノム配列を作成したと発表した。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "On March 31, 2022, the Telomere-to-Telomere (T2T) consortium announced that had filled in the remaining gaps and produced the first truly complete human genome sequence."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "NHGRIと米国国立がん研究所が支援するThe Cancer Genome Atlasプロジェクトは、DNAシーケンシングを用いて約30種類のがんのゲノムの詳細を解明している。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+              "quote": "The Cancer Genome Atlas project, which is supported by NHGRI and the National Cancer Institute, is using DNA sequencing to unravel the genomic details of some 30 cancer types."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "ヒトゲノム計画は、ヒトゲノムの最初の配列を作成することを主目標とした世界的な科学的取り組みであった。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "The Human Genome Project was a landmark global scientific effort whose signature goal was to generate the first sequence of the human genome."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "2003年、ヒトゲノム計画はヒトゲノムの90%以上を占めるゲノム配列を作成した。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "In 2003, the Human Genome Project produced a genome sequence that accounted for over 90% of the human genome."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "ヒトゲノム計画は1990年から2003年にかけて実施された。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "Carried out from 1990–2003, it was one of the most ambitious and important scientific endeavors in human history."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "1988年、米国科学アカデミーの特別委員会がヒトゲノム計画の当初の目標を示し、その中にはヒト以外の選ばれた複数の生物のゲノム配列決定も含まれていた。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "A special committee of the U.S. National Academy of Sciences outlined the original goals for the Human Genome Project in 1988, which included sequencing the entire human genome in addition to the genomes of several carefully selected non-human organisms."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "ヒトゲノム計画では、サンガー法と呼ばれる特定のDNAシーケンシング手法が最終的に用いられた。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "the project used one particular method for DNA sequencing, called Sanger DNA sequencing"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "元となったヒト参照ゲノム配列の70%は、混血系統を持つ1人の個人のDNAから生成された。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "70 percent of the original reference human genome sequence was generated from that individual’s DNA"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "ヒトゲノムのシーケンシングには、米国・英国・フランス・ドイツ・日本・中国にまたがる20の大学・研究機関の研究者が参加した。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "The sequencing of the human genome involved researchers from 20 separate universities and research centers across the United States, United Kingdom, France, Germany, Japan and China."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "2003年4月、コンソーシアムはドラフト配列から大幅に改善された、ほぼ完全なヒトゲノム配列を作成したと発表した。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "In April 2003, the consortium announced that it had generated an essentially complete human genome sequence, which was significantly improved from the draft sequence."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "2003年4月発表のヒトゲノム配列はヒトゲノムの92%を占め、ギャップは400か所未満で、精度も向上していた。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "it accounted for 92% of the human genome and less than 400 gaps; it was also more accurate."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "がん治療において、医師はシーケンスデータを用いて患者のがんの種類を特定できるようになりつつある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+              "quote": "physicians are increasingly able to use sequence data to identify the particular type of cancer a patient has"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "NHGRIが支援する未診断疾患プログラムの研究者は、まれな疾患の遺伝的原因を特定するためにDNAシーケンシングを利用している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+              "quote": "Researchers in the NHGRI-supported Undiagnosed Diseases Program use DNA sequencing to try to identify the genetic causes of rare diseases."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "診療所での日常的なDNAシーケンシングの実用化にはまだ長い年月がかかるが、一部の大規模医療センターでは既に疾患の検出・治療にシーケンシングを利用し始めている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+              "quote": "Although routine DNA sequencing in the doctor's office is still many years away, some large medical centers have begun to use sequencing to detect and treat some diseases."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "配列決定の対象生物には最終的に大腸菌、パン酵母、ショウジョウバエ、線虫、マウスが含まれるようになった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "Eventually the list of organisms came to include the bacterium E. coli, baker’s yeast, fruit fly, nematode and mouse."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "ヒトゲノム計画は当初2005年完了予定だったが、2年前倒しの2003年に当初の目標を上回る形で完了した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "the Human Genome Project ultimately exceeded its initial set of goals, doing so by 2003, two years ahead of its originally projected 2005 completion"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "残り30%は、主に欧州系の19人の別の個人のDNAを組み合わせたものであった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "the remaining 30 percent coming from a combination of 19 other individuals of mostly European ancestry"
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "元となったヒトゲノム配列の大部分は、ニューヨーク州バッファローに住むボランティアから採取された。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "Most of the original human genome sequence came from volunteers living in Buffalo, New York."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "米国では、ヒトゲノム計画の研究者はエネルギー省と国立衛生研究所（NIH）から資金提供を受けた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "In the United States, the researchers were funded by the Department of Energy and the National Institutes of Health"
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "NIHは1988年にヒトゲノム研究局を設立し、1990年に国立ヒトゲノム研究センターに、1997年に国立ヒトゲノム研究所（NHGRI）に改称した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "which created the Office for Human Genome Research in 1988 (later renamed the National Center for Human Genome Research in 1990 and then the National Human Genome Research Institute in 1997)"
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "これらの国々の研究グループは国際ヒトゲノムシーケンシングコンソーシアムと呼ばれるようになった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "The groups in these countries became known as the International Human Genome Sequencing Consortium."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "ヒトゲノム計画の当初想定された費用は、計画期間15年を前提に30億ドルとされていた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "The initially projected cost for the Human Genome Project was $3 billion, based on its envisioned length of 15 years."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "このドラフト配列には、正確に決定できなかった15万か所以上のギャップ（未知領域）が含まれていた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "The draft sequence contained more than 150,000 areas where the DNA sequence was unknown because it could not be determined accurately (known as gaps)."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "ヒトゲノム計画の科学者は、ドラフトのヒトゲノム配列のあらゆる部分を作成後速やかに公開した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "Human Genome Project scientists made every part of the draft human genome sequence publicly available shortly after production."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "NHGRIは1990年に倫理的・法的・社会的課題（ELSI）研究プログラムを設立した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "NHGRI established the Ethical, Legal, and Social Implications (ELSI) Research Program in 1990."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "バッファローにあるロズウェルパークがん研究所の研究者らは、ヒトゲノムのシーケンシングに使用できる形にDNAを調製する専門家であった。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "Researchers at the Roswell Park Cancer Institute, located in Buffalo, were experts at preparing the DNA in a form that could be used for sequencing the human genome"
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "この公開の慣行は、配列データの迅速な公開に関する規則を定めた「バミューダ原則」に研究者らが合意した、バミューダでの2回の会合に由来する。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "This routine came from two meetings in Bermuda in which project researchers agreed to the “Bermuda Principles,” which set out the rules for the rapid release of sequence data."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "米国議会は、NHGRIに研究予算の少なくとも5%をゲノム研究の倫理的・法的・社会的影響の研究に充てるよう義務付けた。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "the U.S. Congress to mandate that NHGRI dedicate at least 5% of its research budget to studying the ethical, legal and social implications of genomic advances"
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "技術的課題の大きさから、ヒトゲノム計画は工学・生物学・計算機科学などの専門家からなる学際的なグループを世界中から集める必要があった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "The magnitude of the technological challenges prompted the Human Genome Project to assemble interdisciplinary groups from across the world, involving experts in engineering, biology, and computer science, among other areas."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "規模の経済を最大化するため、ヒトゲノム計画の作業は少数の主要拠点に集中させる必要があった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "It also required the work to be concentrated in a modest number of major centers to maximize economies of scale."
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "ヒトゲノム計画は、特定の仮説の検証を伴わない生産志向・発見駆動型の科学的探究が、広範な科学コミュニティにとって非常に価値があり得ることを示した。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "The Human Genome Project demonstrated that production-oriented, discovery-driven scientific inquiry—which did not involve the investigation of a specific hypothesis or the direct answering of preformed questions—could be remarkably valuable and beneficial to the broader scientific community."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

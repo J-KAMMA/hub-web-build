@@ -1,0 +1,1971 @@
+[
+  {
+    "slug": "cryptocurrency",
+    "topicType": "concept",
+    "categoryLabel": "経済・ビジネス",
+    "title": "暗号資産",
+    "summary": "暗号資産は、ブロックチェーンネットワークの利用者間で暗号技術を用いて送信されるデジタル資産である。中央の帳簿管理者ではなく、共有され改ざん耐性のある分散型台帳と非対称鍵ペアによる署名が移転を成立させる点に特徴があり、価格変動の大きさや、米国で証券に当たらない現物市場を包括的に監督する連邦当局が存在しないという規制上の空白が繰り返し論点となってきた。ステーブルコインなど、法定通貨に対する価値の安定をうたう種類も含む。",
+    "bodyMarkdown": "## 暗号技術による移転と発行\n\n暗号資産は、ブロックチェーンネットワークの利用者間で[暗号技術](/hubpedia/encryption)を用いて送信されるデジタル資産、クレジット、あるいは単位を指す。その基盤となる[ブロックチェーン技術](/hubpedia/blockchain)は、データや取引を、共有され改ざん耐性のある分散型のデジタル台帳に記録する。誰か一人が保管する帳簿ではなく、参加者のあいだで共有される台帳が記録の正しさを支える点が、従来の口座残高との違いにあたる。 [1][5]\n\n利用者から利用者への移転は、[非対称鍵ペア](/hubpedia/public-key-cryptography)によるデジタル署名を用いて行われる。署名が移転の指示を有効なものとして示すため、送り手の本人確認を担うのは中央の管理者ではなく鍵そのものになる。 [13]\n\n新たな単位が生まれる場面でも、同じ台帳上の取引という形式が使われる。マイニング報酬などによって暗号資産が生成される際には、発行ノードが新たに生成された暗号資産を1人以上のブロックチェーンネットワーク利用者に送るトランザクションを含める。発行と送金は別々の仕組みではなく、記録の上では連続している。 [6]\n\n## ステーブルコインと準備資産\n\nステーブルコインは暗号資産の一種であり、米ドルなどの法定通貨に対して安定した価値を保つとされるものを指す。価値の安定は暗号技術そのものから自動的に生じるわけではなく、発行者は自社のステーブルコインが準備資産によって裏付けられていると表明することが多い。したがって、その安定性は準備資産が実際にどう保有されているかに依存する。 [2][4][14]\n\nこの依存関係は早い段階から監督上の関心を集めた。米規制当局は2019年に、ステーブルコインが[金融安定性](/hubpedia/crypto-financial-risk)に及ぼすリスクを特定している。当時は、準備資産の水準やリスク、開示に関する統一基準が存在しなかった。 [15][16]\n\n## 価格変動と市場規模\n\n暗号資産は価格変動、すなわちボラティリティを経験している。市場全体の時価総額は2021年11月に約3兆ドルのピークに達した。 [8][10]\n\n## 取引プラットフォームの破綻\n\n価格の変動とは別に、資産を預かる事業者の側でも損失が生じうる。FTX Trading Ltd.は著名な暗号資産取引プラットフォームであり、破産した。破産に関する文書により、同プラットフォームの資産の相当部分が失われたか盗まれた可能性があることが判明したとされる。 [3][7]\n\n## 米国における規制上の位置づけ\n\n米国では、証券に該当しない暗号資産の現物市場を包括的に規制する権限を持つ連邦金融規制当局は存在しない。個々の行為や事業者が既存の法令に触れることはあっても、現物市場そのものを一括して所管する当局が置かれていないという意味である。 [9]\n\nステーブルコインについては、2025年7月に米議会がその監督枠組みを定める法律を可決した。同法律により、ステーブルコイン発行者は準備資産の構成について毎月公開の開示を行い、登録公認会計事務所による審査を受けることが義務付けられる。さらに、準備資産の使途は償還や、レポ取引・逆レポ取引の担保など特定の用途に限定される。裏付けの表明を、確認可能な開示と使途の制限に置き換える構造といえる。 [11][12][17]\n\n発行者はまた、銀行秘密法および金融犯罪取締ネットワーク(FinCEN)のマネーロンダリング防止規則の対象となる。 [18]\n\nステーブルコイン以外の領域は、より広い立法の検討段階にとどまっている。2026年2月時点で、デジタル資産市場明確化法(H.R.3633)およびデジタル商品仲介業者法(S.3755)が議会に提出されていた。 [19]\n\n## 規制当局間の調整\n\n包括的な所管当局が定まらない状態を補うものとして、金融安定監督評議会(FSOC)はデジタル資産作業部会(Digital Asset Working Group)を設置し、デジタル資産分野の潜在的リスクの特定に関する情報共有と省庁間の調整を促している。 [20]\n\n同作業部会は定期的に会合し、ブロックチェーン関連の製品・サービスに関するリスクおよび規制上の課題を特定するためのプロセスを構築・実施しているとされる。米国の関係機関は、こうした場を通じてデジタル資産に関する問題の調整を継続している。 [21][22]\n\n## 関連記事\n\n- トークン\n- 合意形成方式\n- [仮想通貨の課税](/hubpedia/virtual-currency-taxation)",
+    "sources": [
+      {
+        "url": "https://www.gao.gov/products/gao-23-105346",
+        "title": "Blockchain in Finance",
+        "publisher": "U.S. Government Accountability Office",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.gao.gov/copyright"
+          },
+          "notes": "Government review of how crypto assets work and what risks they carry. Publisher policy read 2026-08-28: Products are not protected by copyright and may be copied and distributed in their entirety without permission. Embedded images and other third-party material may be copyrighted separately, and photographs of recognisable people carry privacy and publicity rights — neither of which the factory touches, since it takes body text only. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://csrc.nist.gov/glossary/term/cryptocurrency",
+        "title": "Cryptocurrency — CSRC Glossary",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "Formal definition in security standards. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Cryptocurrency",
+        "summary": "Cryptocurrency is a digital asset transmitted between users of a blockchain network using cryptography. Its distinguishing feature is that transfers are effected by a shared, tamper-resistant distributed ledger and by signatures from asymmetric key pairs rather than by a central bookkeeper, and recurring points of debate have been the scale of its price swings and the regulatory gap in the United States, where no federal authority comprehensively oversees spot markets for crypto assets that are not securities. The category also includes types such as stablecoins, which claim to hold a stable value against fiat currency.",
+        "bodyMarkdown": "## Cryptographic transfer and issuance\n\nCryptocurrency refers to a digital asset, credit, or unit transmitted between users of a blockchain network using [encryption](/hubpedia/encryption). The underlying [blockchain technology](/hubpedia/blockchain) records data and transactions in a shared, tamper-resistant, distributed digital ledger. What distinguishes it from a conventional account balance is that the correctness of the record rests on a ledger shared among participants rather than on a book kept by any single party. [1][5]\n\nTransfers from user to user are made using digital signatures produced with [asymmetric key pairs](/hubpedia/public-key-cryptography). Because the signature is what establishes a transfer instruction as valid, it is the key itself, not a central administrator, that vouches for the sender's identity. [13]\n\nThe same form — a transaction on the ledger — is used when new units come into existence. When cryptocurrency is created, such as through mining rewards, the issuing node includes a transaction sending the newly created cryptocurrency to one or more users of the blockchain network. Issuance and transfer are not separate mechanisms; in the record they are continuous with each other. [6]\n\n## Stablecoins and reserve assets\n\nA stablecoin is a type of cryptocurrency said to maintain a stable value against a fiat currency such as the U.S. dollar. That stability does not arise automatically from cryptography itself; issuers commonly state that their stablecoin is backed by reserve assets. The stability therefore depends on how those reserve assets are actually held. [2][4][14]\n\nThis dependency drew supervisory attention early on. U.S. regulators identified the risks stablecoins pose to [financial stability](/hubpedia/crypto-financial-risk) in 2019. At the time, there were no uniform standards for the level, risk, or disclosure of reserve assets. [15][16]\n\n## Price swings and market size\n\nCryptocurrency has experienced price fluctuation, that is, volatility. The total market capitalization peaked at roughly $3 trillion in November 2021. [8][10]\n\n## Failures of trading platforms\n\nApart from price movements, losses can also arise on the side of the businesses that hold the assets. FTX Trading Ltd. was a prominent cryptocurrency trading platform, and it went bankrupt. Bankruptcy filings reportedly revealed that a substantial portion of the platform's assets may have been lost or stolen. [3][7]\n\n## Regulatory standing in the United States\n\nIn the United States, no federal financial regulator has the authority to comprehensively regulate spot markets for crypto assets that are not securities. Individual conduct or firms may fall afoul of existing law, but this means that no single authority has jurisdiction over the spot market itself as a whole. [9]\n\nAs for stablecoins, in July 2025 the U.S. Congress passed legislation establishing a framework for their oversight. Under the law, stablecoin issuers are required to make monthly public disclosures of the composition of their reserve assets and to have them examined by a registered public accounting firm. In addition, the reserve assets may be used only for specified purposes, such as redemptions and collateral for repurchase and reverse repurchase agreements. The structure, in effect, replaces claims of backing with verifiable disclosure and restrictions on use. [11][12][17]\n\nIssuers are also subject to the Bank Secrecy Act and to the anti-money laundering rules of the Financial Crimes Enforcement Network (FinCEN). [18]\n\nAreas beyond stablecoins remain at the stage of broader legislative deliberation. As of February 2026, the Digital Asset Market Clarity Act (H.R.3633) and the Digital Commodity Intermediary Act (S.3755) had been introduced in Congress. [19]\n\n## Coordination among regulators\n\nTo compensate for the absence of a settled comprehensive authority, the Financial Stability Oversight Council (FSOC) established a Digital Asset Working Group to promote information sharing and interagency coordination on identifying potential risks in the digital asset sector. [20]\n\nThe working group reportedly meets regularly and has built and implemented a process for identifying risks and regulatory issues relating to blockchain-related products and services. U.S. agencies continue to coordinate on digital asset matters through such forums. [21][22]\n\n## Related articles\n\n- Token\n- Consensus mechanism\n- [Taxation of virtual currency](/hubpedia/virtual-currency-taxation)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:15:12.163Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "ブロックチェーン技術は、データや取引を共有され改ざん耐性のある分散型デジタル台帳に記録する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "Blockchain technology records data and transactions in a shared, tamper-resistant, decentralized digital ledger"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "ステーブルコインは暗号資産の一種である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "stablecoins—a kind of crypto asset"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "FTX Trading Ltd.は著名な暗号資産取引プラットフォームであり、破産した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "the bankruptcy of FTX Trading Ltd., a prominent crypto asset trading platform"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "ステーブルコインは、米ドルなどの法定通貨に対して安定した価値を保つとされる暗号資産である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "stablecoins (a crypto asset purported to hold a stable value relative to a fiat currency, such as the U.S. dollar)"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "暗号資産（cryptocurrency）は、ブロックチェーンネットワークの利用者間で暗号技術を用いて送信されるデジタル資産／クレジット／単位である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/cryptocurrency",
+              "quote": "A digital asset/credit/unit within the system, which is cryptographically sent from one blockchain network user to another."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "暗号資産の生成（マイニング報酬など）の際には、発行ノードが新たに生成された暗号資産を1人以上のブロックチェーンネットワーク利用者に送るトランザクションを含める。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/cryptocurrency",
+              "quote": "In the case of cryptocurrency creation (such as the reward for mining), the publishing node includes a transaction sending the newly created cryptocurrency to one or more blockchain network users."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "FTXの破産に関する文書により、同プラットフォームの資産の相当部分が失われたか盗まれた可能性があることが判明した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "led to the discovery that a substantial portion of the platform's assets might be missing or stolen, according to bankruptcy-related documents"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "暗号資産は価格変動(ボラティリティ)を経験している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "crypto assets have experienced price volatility"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "証券に該当しない暗号資産の現物市場を包括的に規制する権限を持つ連邦金融規制当局は存在しない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "No federal financial regulator has comprehensive authority to regulate the spot market for crypto assets that are not securities."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "暗号資産の時価総額は2021年11月に約3兆ドルのピークに達した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "crypto assets reached a peak market capitalization of nearly $3 trillion in November 2021"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "2025年7月、米議会はステーブルコインの監督枠組みを定める法律を可決した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "In July 2025, Congress passed legislation that establishes an oversight framework for stablecoins."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "同法律により、ステーブルコイン発行者は準備資産の構成について毎月公開の開示を行い、登録公認会計事務所による審査を受けることが義務付けられる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "stablecoin issuers are required to make monthly, public disclosures of the composition of reserves and have them examined by a registered public accounting firm"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "暗号資産は、非対称鍵ペアによるデジタル署名を用いて利用者間で移転される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/cryptocurrency",
+              "quote": "These assets are transferred from one user to another by using digital signatures with asymmetric-key pairs."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "ステーブルコインの発行者は、自社のステーブルコインが準備資産によって裏付けられていると表明することが多い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "issuers often state their stablecoins are backed by reserve assets"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "当時、ステーブルコインの準備資産の水準やリスク、開示に関する統一基準は存在しなかった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "no uniform standards exist for reserve levels and risks or for public disclosure of reserves"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "米規制当局は2019年にステーブルコインが金融安定性に及ぼすリスクを特定した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "regulators identified financial stability risks posed by stablecoins in 2019"
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "同法律は、ステーブルコイン発行者が準備資産を償還やレポ取引・逆レポ取引の担保など特定の用途にのみ使用するよう制限している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "restricts stablecoin issuers to using reserve assets for certain activities, such as to redeem stablecoins and serve as collateral for repurchase agreements and reverse repurchase agreements"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "ステーブルコイン発行者は銀行秘密法および金融犯罪取締ネットワーク(FinCEN)のマネーロンダリング防止規則の対象となる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "stablecoin issuers are to be subject to the Bank Secrecy Act and the Financial Crimes Enforcement Network (FinCEN) anti-money-laundering rules"
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "2026年2月時点で、デジタル資産市場明確化法(H.R.3633)およびデジタル商品仲介業者法(S.3755)が議会に提出されていた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "As of February 2026, H.R 3633, the Digital Asset Market Clarity Act of 2025 and S. 3755, the Digital Commodity Intermediaries Act were introduced."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "金融安定監督評議会(FSOC)はデジタル資産作業部会(Digital Asset Working Group)を設置し、デジタル資産分野の潜在的リスク特定に関する情報共有と省庁間調整を促進している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "the Financial Stability Oversight Council (of which CFPB, CFTC, FDIC, the Federal Reserve, NCUA, OCC, and SEC are members) established a formal coordination mechanism through the creation of the Digital Asset Working Group to promote information sharing and enhance interagency coordination in identifying potential risks in the digital asset space"
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "米国の関係機関は、デジタル資産作業部会（Digital Asset Working Group）などを通じてデジタル資産に関する問題を継続的に調整している。",
+          "confidence": 0.7,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "the agencies stated that they continue coordinate on digital asset issues through the Digital Asset Working Group and other groups"
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "デジタル資産作業部会は定期的に会合し、ブロックチェーン関連の製品・サービスに関するリスクおよび規制上の課題を特定するためのプロセスを構築・実施している。",
+          "confidence": 0.7,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "the working group meets regularly and has developed and implemented processes for identifying risks and regulatory challenges concerning blockchain-related products and services"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "virtual-currency-taxation",
+    "topicType": "concept",
+    "categoryLabel": "経済・ビジネス",
+    "title": "仮想通貨の課税",
+    "summary": "仮想通貨の課税とは、仮想通貨をはじめとするデジタル資産の取得・売却・交換・受領に所得税をどう適用するかという取り扱いを指す。米国連邦所得税では仮想通貨は通貨ではなく財産として扱われ、財産取引の一般原則に従って、処分のたびに米ドル建てで損益を計算し申告することが求められる。そのため、通貨どうしの両替や少額の支払いに見える行為でも課税事象になりうる点が、現金決済との大きな違いとなる。",
+    "bodyMarkdown": "## 財産として課税されるという原則\n\n[仮想通貨](/hubpedia/cryptocurrency)の取引には、財産取引に適用される一般的な税務原則がそのまま及ぶ。米国の内国歳入庁は2014年にNotice 2014-21を発行し、仮想通貨は連邦所得税上「財産」として扱われると説明した。米国税制上、デジタル資産は通貨ではなく財産とみなされる。2023年のNotice 2023-34は、Notice 2014-21の背景説明部分を修正し、仮想通貨が法定通貨としての地位を持たないとする記述を削除した。以下に述べる取り扱いは、いずれも米国連邦所得税上のものである。 [1][2][21][98]\n\nここでいう仮想通貨とは、米ドルや外国通貨（「リアル通貨」）以外の価値のデジタル表現であって、価値尺度・価値保存・交換手段として機能するものをいう。そのうち、リアル通貨と同等の価値を持つか、リアル通貨の代替として機能するものは「兌換可能な仮想通貨」と呼ばれる。兌換可能な仮想通貨は財貨や役務の支払いに利用でき、他の通貨や他のデジタル資産と交換・転換することもできる。 [3][51][86][87]\n\nより広い区分であるデジタル資産は、税務上、暗号技術で保護された[分散型台帳](/hubpedia/blockchain)（ブロックチェーン）またはそれに類する技術に記録された価値のデジタル表現と定義され、この定義はインフラ投資雇用法に基づく。デジタル資産は電子的に保存され、売買・所有・移転・取引が可能である。例としては、ビットコインなどの兌換可能な仮想通貨・暗号通貨のほか、ステーブルコイン、NFT（非代替性トークン）が挙げられる。デジタル資産から生じる所得は課税対象であり、暗号通貨やNFTに関わる取引は税務申告の対象となる場合がある。 [20][49][50][58][59][84][85]\n\n## 課税される取引と課税されない取引\n\n仮想通貨を売却した場合には、キャピタルロスの控除制限に従いつつ、売却によるキャピタルゲインまたはロスを認識しなければならない。資本資産として保有する仮想通貨を、財貨や別の仮想通貨を含む他の財産と交換した場合も同様にキャピタルゲインまたはロスが生じる。資本資産として保有する仮想通貨で役務の対価を支払った場合も、資本資産をその役務と交換したことになるため損益が生じる。すなわち、通貨どうしの両替や日常の支払いに見える行為であっても、処分として扱われる。 [5][10][11]\n\n一方で、課税事象にならない移動もある。自分が所有するウォレット・アドレス・口座のあいだで仮想通貨を移転する行為は、取引所などから情報申告書を受け取った場合であっても非課税取引である。真正な贈与として仮想通貨を受け取った場合は、それを売却・交換・処分するまで所得を認識しない。内国歳入法170(c)に規定される慈善団体へ仮想通貨を寄付した場合も、その寄付から所得・利益・損失は認識しない。 [15][16][17]\n\n## 所得の区分と保有期間\n\n同じ資産でも、保有の目的と受け取り方によって所得の性質が変わる。個人的または投資目的で保有・使用したデジタル資産を売却・処分した場合、その所得は売却・処分の時点でキャピタルゲインまたはキャピタルロスとして課税される。これに対し、事業の文脈で商品やサービスの対価としてデジタル資産を受け取った場合は、経常所得または損失として課税される。従業員として行うか否かにかかわらず、役務提供の対価として仮想通貨を含む財産を受け取った場合は経常所得を認識する。 [9][66][67]\n\n賃金として支払われた仮想通貨の受領日時点の米ドル建て公正市場価値は、連邦所得税の源泉徴収、FICA税およびFUTA税の対象となり、Form W-2に報告しなければならない。独立請負人として提供した役務の対価として受け取った仮想通貨については、受領日時点の米ドル建て公正市場価値が自営業所得を構成し、自営業税の対象となる。 [22][23]\n\nキャピタルゲインの区分を決めるのは保有期間である。仮想通貨の保有期間は取得した日の翌日から開始し、売却または交換した日に終了する。資本資産として1年以下保有してから売却・交換・処分した場合は短期キャピタルゲイン、1年を超えて保有していた場合は長期キャピタルゲインとなる。 [6][68][69]\n\n## 基準額と公正市場価値の算定\n\n損益は、仮想通貨の調整後基準額と交換で受け取った金額との差額であり、米ドル建てで連邦所得税申告書に報告する必要がある。基準額（コストベース）とは、仮想通貨の取得に費やした米ドル建ての金額であり、手数料・仲介料その他の取得コストを含む。デジタル資産の基準額は、通常はこの米ドル建ての取得コストである。 [7][8][70]\n\n取得の経路が売買でない場合、基準額は受領時の価値から導かれる。認識すべき所得額は受領時点における仮想通貨の米ドル建て公正市場価値であり、独立当事者間取引として役務提供の対価に仮想通貨を受け取った場合、その基準額も受領時点の米ドル建て公正市場価値となる。仮想通貨で役務の対価を支払った場合の損益は、受け取った役務の公正市場価値と交換した仮想通貨の調整後基準額との差額である。仮想通貨を他の財産と交換した場合の損益は受け取った財産の公正市場価値との差額であり、独立当事者間取引であればその財産の基準額は交換時点の公正市場価値となる。逆に財産を渡して仮想通貨を受け取った場合、損益は受け取った仮想通貨の受領時公正市場価値と渡した財産の調整後基準額との差額であり、その仮想通貨の基準額は受領時点の米ドル建て公正市場価値となる。 [25][26][27][28][29][30][31]\n\n公正市場価値をいつの時点で測るかは、取引が台帳に記録されるかどうかで分かれる。分散型台帳に記録される暗号通貨取引は「オンチェーン取引」、記録されない取引は「オフチェーン取引」と呼ばれ、オンチェーン取引では取引が台帳に記録された日時に仮想通貨を受領したものとされる。暗号通貨取引所を介した取引で暗号通貨を受け取った場合、その価値は当該取引所がその取引について記録した米ドル建て金額である。取引所を介さないピアツーピア取引などでは、公正市場価値は取引が台帳に記録された日時時点で決定される。 [4][24][35][36]\n\n価格の裏づけについて、内国歳入庁は、世界的な指標を分析して特定の日時における暗号通貨の価値を算出する暗号通貨・ブロックチェーンエクスプローラーによる評価額を、公正市場価値の証拠として受け入れる。取引所で取引されず公表価値もない暗号通貨を財産や役務の対価として受け取った場合には、その公正市場価値は交換された財産や役務の公正市場価値と等しいとされる。 [37][38]\n\n## ハードフォークとソフトフォークの扱い\n\nハードフォークとは、暗号通貨がプロトコル変更を経て既存の分散型台帳から恒久的に分岐することをいう。ハードフォークが発生しただけで、エアドロップなどを通じて新しい暗号通貨を受け取らなかった場合には課税所得は生じない。これに対し、ハードフォーク後にエアドロップが行われて新しい暗号通貨を受け取った場合は、その受領年に課税所得が生じる。受け取った暗号通貨に対する支配権を有していれば、受領時の公正市場価値に等しい経常所得が生じ、その暗号通貨の基準額は連邦所得税申告書で所得に算入した金額と等しくなる。 [12][13][32][33][34]\n\nソフトフォークとは、分散型台帳のプロトコル変更のうち、台帳の分岐や新規暗号通貨の生成を伴わないものをいう。新しい暗号通貨を受け取らないため、ソフトフォーク自体からは所得が生じない。 [14][39]\n\n## 贈与と慈善寄付\n\n贈与で受け取った仮想通貨は、受領時には所得を認識しないが、後の処分時に用いる基準額が二通りに分かれる。利益判定を行う場合の基準額は、贈与者の基準額に贈与者が支払った贈与税を加えた額となる。損失判定を行う場合の基準額は、贈与者の基準額または受贈時の公正市場価値のいずれか低い方となる。贈与者の基準額を裏付ける記録がない場合、受贈者の基準額はゼロとなる。保有期間には贈与者が保有していた期間が算入されるが、それを裏付ける記録がない場合は受贈日の翌日から起算される。 [15][40][41][42][43][44]\n\n慈善寄付では、寄付そのものから所得・利益・損失を認識しない一方、控除額は保有期間で決まる。1年を超えて保有していた仮想通貨を寄付した場合、慈善寄付控除額は寄付時の公正市場価値と等しい。1年以下しか保有していなかった場合の控除額は、基準額と寄付時の公正市場価値のいずれか低い方となる。 [16][45][46]\n\n手続面では、250ドル以上の控除を主張する寄付者は、慈善団体から同時期の書面による受領証明を取得できる。5,000ドルを超える控除を主張する寄付者がForm 8283を提出する場合、慈善団体はその署名を行うことが求められる。受領した団体の側は、仮想通貨の寄付を非現金寄付として扱うべきものとされ、控除対象財産を受領から3年以内に売却・交換・処分する場合にはForm 8282を提出しなければならない。 [54][55][56][57]\n\n## 処分単位の特定と記録の保持\n\n同じ銘柄を複数回に分けて取得していると、どの単位を処分したかによって損益が変わる。取引に関わる単位を特定でき、その基準額を裏付けられる場合、納税者はどの単位が売却・交換・処分されたとみなすかを選択できる。特定の単位を識別しない場合には、最も早く取得した単位から順に処分されたとみなす先入先出法（FIFO）が適用される。Revenue Procedure 2024-28は、2025年1月1日時点でデジタル資産のウォレットまたは口座内に残る資産単位に、未使用の基準額を配分することを納税者に認めている。 [18][47][94]\n\nこうした選択が成り立つ前提は記録である。内国歳入法および規則は、納税者に対し、申告書上の立場を裏付けるのに十分な記録の保持を求めている。仮想通貨に関わる全ての課税取引の所得・利益・損失は、金額の多寡や支払調書の受領の有無にかかわらず、当該取引年の連邦所得税申告書に報告しなければならない。デジタル資産の取引は、課税対象となる利益や損失が生じるかどうかにかかわらず報告の対象となる。 [19][48][71]\n\n## 申告書上のデジタル資産に関する質問\n\n連邦所得税申告書には、課税年度中にデジタル資産を報酬・対価として受領したか、またはデジタル資産を売却・交換・処分したかを問う質問が置かれている。この質問はForm 709、Form 1040、Form 1040-NR、Form 1041、Form 1065、Form 1120、Form 1120-Sなど複数の申告書に記載されている。 [52][60]\n\n「はい」と回答するのは、マイニングやステーキングなどの活動によりデジタル資産を受け取った場合、ハードフォークに関連するエアドロップにより受け取った場合、そしてデジタル資産を処分・売却・交換・譲渡した場合である。逆に、米ドルなどのリアル通貨でデジタル資産を購入しただけで売却していない場合は「いいえ」と回答する。自己が所有・管理するウォレットや口座のあいだで移転しただけの場合も、デジタル資産で手数料を支払った場合を除き「いいえ」となる。2020年中の仮想通貨取引がリアル通貨での購入のみだった場合にForm 1040の質問へ「はい」と答える必要がないとされたのも、同じ考え方による。 [53][61][62][63][64][65]\n\n報告に用いる様式は所得の性質で分かれる。資本資産として保有していたデジタル資産を売却・交換・処分した場合はForm 8949（Sales and Other Dispositions of Capital Assets）を使用する。フォーク、ステーキング、マイニングなどによる経常所得はForm 1040のSchedule 1で報告する。独立契約者としてデジタル資産で報酬を受け取った場合や、顧客にデジタル資産を売却・交換・処分した場合はSchedule C（Form 1040）で報告し、従業員として賃金を受け取った場合の所得はForm 1040で報告する。デジタル資産による贈与を行った場合はForm 709を使用する。 [72][73][74][75][76][88]\n\n## ブローカーによる情報報告\n\n納税者側の記録だけに頼らない仕組みとして、ブローカーによる報告が導入された。これは2021年後半に署名されたインフラ投資雇用法（IIJA）による内国歳入法第6045条の改正の結果であり、報告はForm 1099-DAで行われ、2025年1月1日以降の取引から義務付けられる。最終規則は、顧客が売却するデジタル資産を占有するブローカーに適用され、カストディアル型デジタル資産取引プラットフォームの運営者、特定のデジタル資産ホストウォレット提供者、デジタル資産キオスク、特定のデジタル資産支払い処理業者（PDAP）が含まれる。一方、売却・交換されるデジタル資産を占有しない、いわゆる分散型・非カストディアル型ブローカーに対する報告義務は最終規則に含まれていない。 [77][78][79][83]\n\n報告される項目は段階的に増える。ブローカーは2025年1月1日以降に執行された取引について総収入（gross proceeds）を報告しなければならず、2026年1月1日以降に執行された特定の取引については基準額（basis）も報告しなければならない。ブローカーとして扱われる不動産専門家は、2026年1月1日以降に決済日を迎える不動産取引において、買主が支払い売主が受け取ったデジタル資産の公正市場価値を報告しなければならない。 [80][81][82]\n\n少額取引と移行期については緩和がある。ステーブルコインおよびNFTの特定の売却については、それぞれの僅少基準額（de minimis threshold）を超える範囲でブローカーが集計ベースでの報告を選択でき、PDAPによる売却にも別途の僅少基準額が適用される。2025暦年に発生し2026年に報告される取引について、ブローカーがForm 1099-DAの提出と支払人向け明細書の交付に誠実な努力を行った場合、内国歳入庁は提出・交付の不履行に対して罰則を科さない。 [89][90][96]\n\nNotice 2024-57は、財務省と内国歳入庁がさらなる指針を発行するまで、ブローカーがForm 1099-DAの提出や支払人向け明細書の交付を義務付けられない取引を特定している。同通達が挙げる取引には、ラッピング・アンラッピング取引、流動性提供者取引、ステーキング取引、デジタル資産の貸付とされる取引、デジタル資産の空売りとされる取引、想定元本契約が含まれる。この報告免除はブローカーの手続的義務に関するものであり、当該取引の参加者が得た報酬やその他の対価には適用されない。 [91][92][93]\n\n## 個別の取引類型について示された取扱い\n\n個別の論点は、通達や裁判例で順次示されてきた。CCA 202124008によれば、内国歳入法第1031条の同種資産交換の特例は、ビットコインとイーサ、ビットコインとライトコイン、イーサとライトコインの交換には適用されない。Notice 2023-27によれば、特定のNFTは収集品（collectibles）として扱われる。TC Memo 2026-46によれば、暗号資産のステーキング報酬は所得である。Rev. Proc. 2025-31は、デジタル資産をステーキングする信託向けのセーフハーバーを定めている。 [95][97][99][100]\n\n## 関連記事\n\n- [暗号資産の金融リスク](/hubpedia/crypto-financial-risk)",
+    "sources": [
+      {
+        "url": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+        "title": "Virtual Currency Transactions FAQ",
+        "publisher": "Internal Revenue Service",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.irs.gov/about-irs/use-of-content-from-irsgov"
+          },
+          "notes": "How transactions are treated for tax purposes. Publisher policy read 2026-08-28: Content created by federal employees in the course of their duties is not subject to copyright and may be freely copied; credit is requested. Copyrighted material appearing on or linked from the site needs the holder's permission, and the IRS seal and logo have their own rules. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+        "title": "Digital Assets",
+        "publisher": "Internal Revenue Service",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.irs.gov/about-irs/use-of-content-from-irsgov"
+          },
+          "notes": "The asset category the rules apply to. Publisher policy read 2026-08-28: Content created by federal employees in the course of their duties is not subject to copyright and may be freely copied; credit is requested. Copyrighted material appearing on or linked from the site needs the holder's permission, and the IRS seal and logo have their own rules. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Taxation of virtual currency",
+        "summary": "Taxation of virtual currency refers to how income tax applies to the acquisition, sale, exchange, and receipt of virtual currency and other digital assets. For U.S. federal income tax purposes, virtual currency is treated as property rather than currency, so under the general principles governing property transactions, gain or loss must be computed in U.S. dollars and reported on each disposition. As a result, even acts that look like an exchange of one currency for another or a small payment can be taxable events — a major difference from paying in cash.",
+        "bodyMarkdown": "## The principle of taxation as property\n\nThe general tax principles that apply to property transactions apply directly to transactions in [cryptocurrency](/hubpedia/cryptocurrency). In 2014, the U.S. Internal Revenue Service issued Notice 2014-21, explaining that virtual currency is treated as \"property\" for federal income tax purposes. Under U.S. tax law, digital assets are regarded as property rather than currency. Notice 2023-34 modified the background discussion in Notice 2014-21 and removed the statement that virtual currency does not have legal tender status. All of the treatment described below is for U.S. federal income tax purposes. [1][2][21][98]\n\nVirtual currency here means a digital representation of value, other than a representation of the U.S. dollar or a foreign currency (\"real currency\"), that functions as a unit of account, a store of value, and a medium of exchange. Virtual currency that has an equivalent value to real currency, or that acts as a substitute for real currency, is referred to as \"convertible virtual currency.\" Convertible virtual currency can be used to pay for goods or services, and it can also be exchanged for or converted into other currencies or other digital assets. [3][51][86][87]\n\nDigital asset, a broader category, is defined for tax purposes as a digital representation of value recorded on a cryptographically secured [distributed ledger](/hubpedia/blockchain) (blockchain) or similar technology, a definition grounded in the Infrastructure Investment and Jobs Act. Digital assets are stored electronically and can be bought, sold, owned, transferred, and traded. Examples include convertible virtual currencies and cryptocurrencies such as bitcoin, as well as stablecoins and NFTs (non-fungible tokens). Income from digital assets is taxable, and transactions involving cryptocurrency or NFTs may be reportable on a tax return. [20][49][50][58][59][84][85]\n\n## Taxable and non-taxable transactions\n\nIf you sell virtual currency, you must recognize any capital gain or loss on the sale, subject to the limitations on the deductibility of capital losses. Exchanging virtual currency held as a capital asset for other property, including goods or another virtual currency, likewise produces a capital gain or loss. Using virtual currency held as a capital asset to pay for services also produces gain or loss, because you have exchanged a capital asset for those services. In other words, even acts that look like an exchange of one currency for another or an everyday payment are treated as dispositions. [5][10][11]\n\nSome transfers, on the other hand, are not taxable events. Moving virtual currency between wallets, addresses, or accounts that you own is a non-taxable transaction, even if you receive an information return from an exchange or other party. If you receive virtual currency as a bona fide gift, you do not recognize income until you sell, exchange, or otherwise dispose of it. If you donate virtual currency to a charitable organization described in Internal Revenue Code section 170(c), you do not recognize income, gain, or loss from the donation. [15][16][17]\n\n## Character of income and holding period\n\nEven for the same asset, the character of the income varies with the purpose for which it is held and the way it is received. If you sell or dispose of a digital asset you held and used for personal or investment purposes, the income is taxed as a capital gain or capital loss at the time of the sale or disposition. By contrast, if you receive digital assets as payment for goods or services in a business context, the income is taxed as ordinary income or loss. If you receive property, including virtual currency, in exchange for performing services, whether or not you perform them as an employee, you recognize ordinary income. [9][66][67]\n\nThe fair market value in U.S. dollars, as of the date of receipt, of virtual currency paid as wages is subject to federal income tax withholding, FICA tax, and FUTA tax, and must be reported on Form W-2. For virtual currency received as payment for services performed as an independent contractor, the fair market value in U.S. dollars as of the date of receipt constitutes self-employment income and is subject to self-employment tax. [22][23]\n\nThe holding period determines the character of a capital gain. Your holding period in virtual currency begins on the day after you acquire it and ends on the day you sell or exchange it. If you held it as a capital asset for one year or less before selling, exchanging, or disposing of it, you have a short-term capital gain; if you held it for more than one year, you have a long-term capital gain. [6][68][69]\n\n## Determining basis and fair market value\n\nGain or loss is the difference between the adjusted basis in the virtual currency and the amount received in exchange, and must be reported in U.S. dollars on your federal income tax return. Basis (cost basis) is the amount you spent in U.S. dollars to acquire the virtual currency, including fees, commissions, and other acquisition costs. The basis of a digital asset is ordinarily this acquisition cost in U.S. dollars. [7][8][70]\n\nWhere the asset was acquired other than by purchase, basis derives from its value at the time of receipt. The amount of income to recognize is the fair market value of the virtual currency in U.S. dollars at the time of receipt, and if you receive virtual currency in exchange for performing services in an arm's length transaction, its basis is likewise the fair market value in U.S. dollars at the time of receipt. If you pay for services with virtual currency, your gain or loss is the difference between the fair market value of the services you received and the adjusted basis of the virtual currency you exchanged. If you exchange virtual currency for other property, your gain or loss is the difference measured against the fair market value of the property you received, and in an arm's length transaction the basis of that property is its fair market value at the time of the exchange. Conversely, if you transfer property and receive virtual currency, your gain or loss is the difference between the fair market value of the virtual currency at the time of receipt and the adjusted basis of the property you transferred, and the basis of that virtual currency is its fair market value in U.S. dollars at the time of receipt. [25][26][27][28][29][30][31]\n\nThe point at which fair market value is measured depends on whether the transaction is recorded on the ledger. Cryptocurrency transactions recorded on a distributed ledger are called \"on-chain transactions,\" and transactions that are not so recorded are called \"off-chain transactions\"; in an on-chain transaction, you are treated as receiving the virtual currency on the date and at the time the transaction is recorded on the ledger. If you receive cryptocurrency in a transaction facilitated by a cryptocurrency exchange, its value is the amount in U.S. dollars that the exchange recorded for that transaction. In peer-to-peer and other transactions not facilitated by an exchange, fair market value is determined as of the date and time the transaction is recorded on the ledger. [4][24][35][36]\n\nAs for substantiating price, the Internal Revenue Service accepts as evidence of fair market value a valuation from a cryptocurrency or blockchain explorer that analyzes worldwide indices to calculate the value of a cryptocurrency at an exact date and time. If you receive cryptocurrency that is not traded on any exchange and has no published value in exchange for property or services, its fair market value is equal to the fair market value of the property or services exchanged. [37][38]\n\n## Treatment of hard forks and soft forks\n\nA hard fork occurs when a cryptocurrency undergoes a protocol change resulting in a permanent diversion from the existing distributed ledger. If a hard fork occurs but you do not receive any new cryptocurrency, whether through an airdrop or otherwise, you do not have taxable income. By contrast, if a hard fork is followed by an airdrop and you receive new cryptocurrency, you have taxable income in the year you receive it. If you have dominion and control over the cryptocurrency received, you have ordinary income equal to its fair market value at the time of receipt, and your basis in that cryptocurrency equals the amount of income you included on your federal income tax return. [12][13][32][33][34]\n\nA soft fork is a protocol change to a distributed ledger that does not result in a diversion of the ledger or the creation of a new cryptocurrency. Because you do not receive any new cryptocurrency, you do not have income from a soft fork itself. [14][39]\n\n## Gifts and charitable contributions\n\nYou do not recognize income when you receive virtual currency as a gift, but the basis you use on a later disposition splits into two rules. For purposes of determining gain, your basis is the donor's basis plus any gift tax the donor paid. For purposes of determining loss, your basis is the lesser of the donor's basis or the fair market value at the time you received the gift. If you do not have records substantiating the donor's basis, your basis is zero. Your holding period includes the donor's holding period, but if you do not have records substantiating it, your holding period begins the day after you received the gift. [15][40][41][42][43][44]\n\nFor charitable contributions, you recognize no income, gain, or loss from the donation itself, while the amount of the deduction depends on the holding period. If you donate virtual currency you held for more than one year, your charitable contribution deduction equals the fair market value of the virtual currency at the time of the donation. If you held it for one year or less, your deduction is the lesser of your basis in the virtual currency or its fair market value at the time of the donation. [16][45][46]\n\nProcedurally, a donor who claims a deduction of $250 or more can obtain a contemporaneous written acknowledgment from the charitable organization. If a donor claiming a deduction of more than $5,000 files Form 8283, the charitable organization is required to sign it. The receiving organization, for its part, should treat the donation of virtual currency as a non-cash contribution and must file Form 8282 if it sells, exchanges, or otherwise disposes of the charitable deduction property within three years of receiving it. [54][55][56][57]\n\n## Identifying the units disposed of and keeping records\n\nWhen you have acquired the same asset in multiple lots, your gain or loss varies with which units you dispose of. If you can identify the units involved in a transaction and substantiate their basis, you may choose which units are deemed sold, exchanged, or otherwise disposed of. If you do not identify specific units, the first in, first out (FIFO) method applies, under which the units acquired earliest are deemed disposed of first. Revenue Procedure 2024-28 permits taxpayers to allocate unused basis to units of digital assets remaining in a wallet or account as of January 1, 2025. [18][47][94]\n\nWhat makes such choices possible is recordkeeping. The Internal Revenue Code and regulations require taxpayers to maintain records sufficient to substantiate the positions taken on tax returns. Income, gain, or loss from all taxable transactions involving virtual currency must be reported on your federal income tax return for the year of the transaction, regardless of the amount and regardless of whether you receive a payee statement or information return. Digital asset transactions are reportable whether or not they result in a taxable gain or loss. [19][48][71]\n\n## The digital asset question on tax returns\n\nFederal income tax returns include a question asking whether, during the tax year, you received digital assets as a reward or compensation, or sold, exchanged, or otherwise disposed of digital assets. This question appears on several returns, including Form 709, Form 1040, Form 1040-NR, Form 1041, Form 1065, Form 1120, and Form 1120-S. [52][60]\n\nYou answer \"Yes\" if you received digital assets through activities such as mining or staking, if you received them through an airdrop related to a hard fork, or if you disposed of, sold, exchanged, or transferred digital assets. Conversely, you answer \"No\" if you merely purchased digital assets with real currency such as U.S. dollars and did not sell them. Merely transferring assets between wallets or accounts you own or control is also a \"No,\" except where you paid fees in digital assets. The same reasoning underlies the guidance that a taxpayer whose only virtual currency transactions in 2020 were purchases with real currency did not need to answer \"Yes\" to the question on Form 1040. [53][61][62][63][64][65]\n\nThe form used for reporting depends on the character of the income. If you sold, exchanged, or disposed of digital assets held as capital assets, use Form 8949 (Sales and Other Dispositions of Capital Assets). Ordinary income from forks, staking, mining, and the like is reported on Schedule 1 of Form 1040. If you received digital assets as compensation as an independent contractor, or sold, exchanged, or disposed of digital assets to customers, report on Schedule C (Form 1040); income from wages received as an employee is reported on Form 1040. If you made a gift of digital assets, use Form 709. [72][73][74][75][76][88]\n\n## Information reporting by brokers\n\nAs a mechanism that does not rely on taxpayer records alone, information reporting by brokers has been introduced. It results from amendments to Internal Revenue Code section 6045 made by the Infrastructure Investment and Jobs Act (IIJA), signed in late 2021; reporting is done on Form 1099-DA and is required for transactions on or after January 1, 2025. The final regulations apply to brokers that take possession of the digital assets being sold by their customers, including operators of custodial digital asset trading platforms, certain digital asset hosted wallet providers, digital asset kiosks, and certain processors of digital asset payments (PDAPs). The final regulations do not include reporting requirements for so-called decentralized or non-custodial brokers that do not take possession of the digital assets being sold or exchanged. [77][78][79][83]\n\nThe items reported are phased in. Brokers must report gross proceeds for transactions effected on or after January 1, 2025, and must also report basis for certain transactions effected on or after January 1, 2026. Real estate professionals treated as brokers must report the fair market value of digital assets paid by buyers and received by sellers in real estate transactions with closing dates on or after January 1, 2026. [80][81][82]\n\nThere is relief for small transactions and for the transition period. For certain sales of stablecoins and NFTs, brokers may elect to report on an aggregate basis to the extent the sales exceed the respective de minimis thresholds, and a separate de minimis threshold applies to sales by PDAPs. For transactions occurring in calendar year 2025 and reported in 2026, the Internal Revenue Service will not impose penalties for failure to file or furnish where a broker made a good faith effort to file Forms 1099-DA and furnish payee statements. [89][90][96]\n\nNotice 2024-57 identifies transactions for which brokers are not required to file Forms 1099-DA or furnish payee statements until the Department of the Treasury and the Internal Revenue Service issue further guidance. The transactions listed in the notice include wrapping and unwrapping transactions, liquidity provider transactions, staking transactions, transactions described as lending of digital assets, transactions described as short sales of digital assets, and notional principal contracts. This reporting exemption concerns brokers' procedural obligations and does not apply to any rewards or other consideration received by participants in those transactions. [91][92][93]\n\n## Treatment set out for specific transaction types\n\nSpecific issues have been addressed over time in guidance and case law. Per CCA 202124008, the like-kind exchange provisions of Internal Revenue Code section 1031 do not apply to exchanges of bitcoin for ether, bitcoin for litecoin, or ether for litecoin. Per Notice 2023-27, certain NFTs are treated as collectibles. Per TC Memo 2026-46, crypto staking rewards are income. Rev. Proc. 2025-31 provides a safe harbor for trusts that stake digital assets. [95][97][99][100]\n\n## Related articles\n\n- [Financial risks of crypto assets](/hubpedia/crypto-financial-risk)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:15:12.166Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "仮想通貨は財産として扱われ、財産取引に適用される一般的な税務原則が仮想通貨を用いた取引にも適用される。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "Virtual currency is treated as property and general tax principles applicable to property transactions apply to transactions using virtual currency."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "2014年にIRSはNotice 2014-21を発行し、仮想通貨は連邦所得税上「財産」として扱われると説明した。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "In 2014, the IRS issued Notice 2014-21, 2014-16 I.R.B. 938, explaining that virtual currency is treated as property for federal income tax purposes"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "仮想通貨とは、米ドルや外国通貨（「リアル通貨」）以外の価値のデジタル表現であり、価値尺度・価値保存・交換手段として機能するものである。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "Virtual currency is a digital representation of value, other than a representation of the U.S. dollar or a foreign currency (“real currency”), that functions as a unit of account, a store of value, and a medium of exchange."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "分散型台帳に記録される暗号通貨取引は「オンチェーン取引」、記録されない取引は「オフチェーン取引」と呼ばれる。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "A transaction involving cryptocurrency that is recorded on a distributed ledger is referred to as an “on-chain” transaction; a transaction that is not recorded on the distributed ledger is referred to as an “off-chain” transaction."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "仮想通貨を売却した場合、キャピタルロスの控除制限に従いつつ、売却によるキャピタルゲインまたはロスを認識しなければならない。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "When you sell virtual currency, you must recognize any capital gain or loss on the sale, subject to any limitations on the deductibility of capital losses."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "仮想通貨の保有期間は、取得した日の翌日から開始し、売却または交換した日に終了する。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "The period during which you held the virtual currency (known as the “holding period”) begins on the day after you acquired the virtual currency and ends on the day you sell or exchange the virtual currency."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "損益は、仮想通貨の調整後基準額と交換で受け取った金額との差額であり、米ドル建てで連邦所得税申告書に報告する必要がある。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "Your gain or loss will be the difference between your adjusted basis in the virtual currency and the amount you received in exchange for the virtual currency, which you should report on your federal income tax return in U.S. dollars."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "基準額（コストベース）とは、手数料・仲介料その他の取得コストを含め、仮想通貨の取得に費やした米ドル建ての金額である。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "Your basis (also known as your “cost basis”) is the amount you spent to acquire the virtual currency, including fees, commissions and other acquisition costs in U.S. dollars."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "従業員として行うか否かにかかわらず、役務提供の対価として仮想通貨を含む財産を受け取った場合、経常所得として認識する。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "When you receive property, including virtual currency, in exchange for performing services, whether or not you perform the services as an employee, you recognize ordinary income."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "資本資産として保有する仮想通貨で役務の対価を支払った場合、資本資産をその役務と交換したことになりキャピタルゲインまたはロスが生じる。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "If you pay for a service using virtual currency that you hold as a capital asset, then you have exchanged a capital asset for that service and will have a capital gain or loss."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "資本資産として保有する仮想通貨を、財貨や別の仮想通貨を含む他の財産と交換した場合、キャピタルゲインまたはロスを認識する。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "If you exchange virtual currency held as a capital asset for other property, including for goods or for another virtual currency, you will recognize a capital gain or loss."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "ハードフォークとは、暗号通貨がプロトコル変更を経て既存の分散型台帳から恒久的に分岐することをいう。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "A hard fork occurs when a cryptocurrency undergoes a protocol change resulting in a permanent diversion from the legacy distributed ledger."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "ハードフォーク後にエアドロップが行われ新しい暗号通貨を受け取った場合、その受領年に課税所得が生じる。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "If a hard fork is followed by an airdrop and you receive new cryptocurrency, you will have taxable income in the taxable year you receive that cryptocurrency."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "ソフトフォークとは、分散型台帳のプロトコル変更のうち台帳の分岐や新規暗号通貨の生成を伴わないものをいう。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "A soft fork occurs when a distributed ledger undergoes a protocol change that does not result in a diversion of the ledger and thus does not result in the creation of a new cryptocurrency."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "真正な贈与として仮想通貨を受け取った場合、それを売却・交換・処分するまで所得を認識しない。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "If you receive virtual currency as a bona fide gift, you will not recognize income until you sell, exchange, or otherwise dispose of that virtual currency."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "内国歳入法170(c)に規定される慈善団体へ仮想通貨を寄付した場合、その寄付から所得・利益・損失を認識しない。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "If you donate virtual currency to a charitable organization described in Internal Revenue Code Section 170(c), you will not recognize income, gain, or loss from the donation."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "自分が所有するウォレット・アドレス・口座間で仮想通貨を移転する行為は、取引所等から情報申告書を受け取った場合でも非課税取引である。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "If you transfer virtual currency from a wallet, address, or account belonging to you, to another wallet, address, or account that also belongs to you, then the transfer is a non-taxable event, even if you receive an information return from an exchange or platform as a result of the transfer."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "特定の単位を識別しない場合、最も早く取得した単位から順に売却・処分されたとみなす先入先出法（FIFO）が適用される。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "If you do not identify specific units of virtual currency, the units are deemed to have been sold, exchanged, or otherwise disposed of in chronological order beginning with the earliest unit of the virtual currency you purchased or acquired; that is, on a first in, first out (FIFO) basis."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "仮想通貨に関わる全ての課税取引の所得・利益・損失は、金額の多寡や支払調書の受領の有無にかかわらず、当該取引年の連邦所得税申告書に報告しなければならない。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "You must report income, gain, or loss from all taxable transactions involving virtual currency on your federal income tax return for the taxable year of the transaction, regardless of the amount or whether you receive a payee statement or information return."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "デジタル資産からの所得は課税対象である。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Income from digital assets is taxable."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "米国税制上、デジタル資産は通貨ではなく財産とみなされる。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "For U.S. tax purposes, digital assets are considered property, not currency."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "独立請負人として提供した役務の対価として受け取った仮想通貨の受領日時点の米ドル建て公正市場価値は、自営業所得を構成し自営業税の対象となる。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "the fair market value of virtual currency received for services performed as an independent contractor, measured in U.S. dollars as of the date of receipt, constitutes self-employment income and is subject to the self-employment tax."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "賃金として支払われた仮想通貨の受領日時点の米ドル建て公正市場価値は、連邦所得税源泉徴収・FICA税・FUTA税の対象となり、Form W-2に報告しなければならない。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "the fair market value of virtual currency paid as wages, measured in U.S. dollars at the date of receipt, is subject to federal income tax withholding, Federal Insurance Contributions Act (FICA) tax, and Federal Unemployment Tax Act (FUTA) tax and must be reported on Form W-2"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "オンチェーン取引では、取引が分散型台帳に記録された日時に仮想通貨を受領したものとされる。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "In an on-chain transaction you receive the virtual currency on the date and at the time the transaction is recorded on the distributed ledger."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "認識すべき所得額は、受領時点における仮想通貨の米ドル建て公正市場価値である。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "The amount of income you must recognize is the fair market value of the virtual currency, in U.S. dollars, when received."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "独立当事者間取引として役務提供の対価に仮想通貨を受け取った場合、その基準額は受領時点の米ドル建て公正市場価値である。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "If, as part of an arm’s length transaction, you provided someone with services and received virtual currency in exchange, your basis in that virtual currency is the fair market value of the virtual currency, in U.S. dollars, when the virtual currency is received."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "仮想通貨で役務の対価を支払った場合の損益は、受け取った役務の公正市場価値と交換した仮想通貨の調整後基準額との差額である。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "Your gain or loss is the difference between the fair market value of the services you received and your adjusted basis in the virtual currency exchanged."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "仮想通貨を他の財産と交換した場合の損益は、受け取った財産の公正市場価値と交換した仮想通貨の調整後基準額との差額である。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "Your gain or loss is the difference between the fair market value of the property you received and your adjusted basis in the virtual currency exchanged."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "独立当事者間取引で仮想通貨を渡し他の財産を受け取った場合、その財産の基準額は交換時点の公正市場価値である。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "If, as part of an arm’s length transaction, you transferred virtual currency to someone and received other property in exchange, your basis in that property is its fair market value at the time of the exchange."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "財産と仮想通貨を交換した場合の損益は、受け取った仮想通貨の受領時公正市場価値と交換した財産の調整後基準額との差額である。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "Your gain or loss is the difference between the fair market value of the virtual currency when received (in general, when the transaction is recorded on the distributed ledger) and your adjusted basis in the property exchanged."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "独立当事者間取引で財産を渡し仮想通貨を受け取った場合、その仮想通貨の基準額は受領時点の米ドル建て公正市場価値である。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "If, as part of an arm’s length transaction, you transferred property to someone and received virtual currency in exchange, your basis in that virtual currency is the fair market value of the virtual currency, in U.S. dollars, when the virtual currency is received."
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "ハードフォークが発生しても、エアドロップ等を通じて新しい暗号通貨を受け取らなかった場合、課税所得は生じない。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "If your cryptocurrency went through a hard fork, but you did not receive any new cryptocurrency, whether through an airdrop (a distribution of cryptocurrency to multiple taxpayers’ distributed ledger addresses) or some other kind of transfer, you don’t have taxable income."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "ハードフォーク後のエアドロップで暗号通貨を受け取った場合、その暗号通貨に対する支配権を有していれば、受領時の公正市場価値に等しい経常所得が生じる。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "When you receive cryptocurrency from an airdrop following a hard fork, you will have ordinary income equal to the fair market value of the new cryptocurrency when it is received, which is when the transaction is recorded on the distributed ledger, provided you have dominion and control over the cryptocurrency so that you can transfer, sell, exchange, or otherwise dispose of the cryptocurrency."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "ハードフォーク後のエアドロップで受け取った暗号通貨の基準額は、連邦所得税申告書で所得に算入した金額に等しい。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "If you receive cryptocurrency from an airdrop following a hard fork, your basis in that cryptocurrency is equal to the amount you included in income on your federal income tax return."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "暗号通貨取引所を介した取引で暗号通貨を受け取った場合、その価値は当該取引所がその取引について記録した米ドル建て金額である。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "If you receive cryptocurrency in a transaction facilitated by a cryptocurrency exchange, the value of the cryptocurrency is the amount that is recorded by the cryptocurrency exchange for that transaction in U.S. dollars."
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "暗号通貨取引所を介さないピアツーピア取引等で暗号通貨を受け取った場合、公正市場価値は取引が分散型台帳に記録された日時時点で決定される。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "If you receive cryptocurrency in a peer-to-peer transaction or some other transaction not facilitated by a cryptocurrency exchange, the fair market value of the cryptocurrency is determined as of the date and time the transaction is recorded on the distributed ledger"
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "IRSは、世界的な指標を分析し特定の日時における暗号通貨の価値を算出する暗号通貨・ブロックチェーンエクスプローラーによる評価額を、公正市場価値の証拠として受け入れる。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "The IRS will accept as evidence of fair market value the value as determined by a cryptocurrency or blockchain explorer that analyzes worldwide indices of a cryptocurrency and calculates the value of the cryptocurrency at an exact date and time."
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "取引所で取引されず公表価値もない暗号通貨を財産や役務の対価として受け取った場合、その公正市場価値は交換された財産や役務の公正市場価値と等しいとされる。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "When you receive cryptocurrency in exchange for property or services, and that cryptocurrency is not traded on any cryptocurrency exchange and does not have a published value, then the fair market value of the cryptocurrency received is equal to the fair market value of the property or services exchanged for the cryptocurrency when the transaction occurs."
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "ソフトフォークでは新しい暗号通貨を受け取らないため、ソフトフォーク自体からは所得が生じない。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "Because soft forks do not result in you receiving new cryptocurrency, you will be in the same position you were in prior to the soft fork, meaning that the soft fork will not result in any income to you."
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "贈与された仮想通貨で利益判定を行う場合、基準額は贈与者の基準額に贈与者が支払った贈与税を加えた額となる。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "For purposes of determining whether you have a gain, your basis is equal to the donor’s basis, plus any gift tax the donor paid on the gift."
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "贈与された仮想通貨で損失判定を行う場合、基準額は贈与者の基準額または受贈時の公正市場価値のいずれか低い方となる。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "For purposes of determining whether you have a loss, your basis is equal to the lesser of the donor’s basis or the fair market value of the virtual currency at the time you received the gift."
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "贈与者の基準額を裏付ける記録がない場合、受贈者の基準額はゼロとなる。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "If you do not have any documentation to substantiate the donor’s basis, then your basis is zero."
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "贈与として受け取った仮想通貨の保有期間には、贈与者が保有していた期間が算入される。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "Your holding period in virtual currency received as a gift includes the time that the virtual currency was held by the person from whom you received the gift."
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "贈与者の保有期間を裏付ける記録がない場合、受贈者の保有期間は受贈日の翌日から起算される。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "if you do not have documentation substantiating that person’s holding period, then your holding period begins the day after you receive the gift."
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "statement": "1年超保有していた仮想通貨を寄付した場合、慈善寄付控除額は寄付時の公正市場価値と等しい。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "Your charitable contribution deduction is generally equal to the fair market value of the virtual currency at the time of the donation if you have held the virtual currency for more than one year."
+            }
+          ]
+        },
+        {
+          "index": 46,
+          "statement": "1年以下保有していた仮想通貨を寄付した場合、控除額は基準額と寄付時の公正市場価値のいずれか低い方となる。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "If you have held the virtual currency for one year or less at the time of the donation, your deduction is the lesser of your basis in the virtual currency or the virtual currency’s fair market value at the time of the contribution."
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "statement": "取引に関わる単位を特定でき、その基準額を裏付けられる場合、納税者はどの仮想通貨単位が売却・交換・処分されたとみなすかを選択できる。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "You may choose which units of virtual currency are deemed to be sold, exchanged, or otherwise disposed of if you can specifically identify which unit or units of virtual currency are involved in the transaction and substantiate your basis in those units."
+            }
+          ]
+        },
+        {
+          "index": 48,
+          "statement": "内国歳入法および規則は、納税者に対し申告書上の立場を裏付けるのに十分な記録の保持を求めている。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "The Internal Revenue Code and regulations require taxpayers to maintain records that are sufficient to establish the positions taken on tax returns."
+            }
+          ]
+        },
+        {
+          "index": 49,
+          "statement": "暗号通貨やNFTなどのデジタル資産に関わる取引は税務申告の対象となる場合がある。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "You may have to report transactions with digital assets such as cryptocurrency and non fungible tokens (NFTs) on your tax return."
+            }
+          ]
+        },
+        {
+          "index": 50,
+          "statement": "税務上のデジタル資産の定義は、暗号技術で保護された分散型台帳（ブロックチェーン）またはそれに類する技術に記録された価値のデジタル表現であり、インフラ投資雇用法に基づく。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "The tax definition of a digital asset is any digital representation of value recorded on a cryptographically secured, distributed ledger (blockchain) or similar technology (Infrastructure Investment and Jobs Act)."
+            }
+          ]
+        },
+        {
+          "index": 51,
+          "statement": "リアル通貨と同等の価値を持つ、またはリアル通貨の代替として機能するデジタル資産は「兌換可能な仮想通貨」と呼ばれる。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "A digital asset that has an equivalent value in real currency, or acts as a substitute for real currency, is referred to as convertible virtual currency, for example, a cryptocurrency."
+            }
+          ]
+        },
+        {
+          "index": 52,
+          "statement": "連邦所得税申告書には、課税年度中にデジタル資産を報酬・対価として受領したか、またはデジタル資産を売却・交換・処分したかを問う質問がある。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "At any time during the tax year, did you: (a) receive (as a reward, award or payment for property or services); or (b) sell, exchange, or otherwise dispose of a digital asset (or a financial interest in a digital asset)?"
+            }
+          ]
+        },
+        {
+          "index": 53,
+          "statement": "2020年中の仮想通貨取引がリアル通貨での購入のみだった場合、Form 1040のデジタル資産質問に「はい」と回答する必要はない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "If your only transactions involving virtual currency during 2020 were purchases of virtual currency with real currency, you are not required to answer yes to the Form 1040 question."
+            }
+          ]
+        },
+        {
+          "index": 54,
+          "statement": "仮想通貨の寄付について250ドル以上の控除を主張する場合、寄付者は慈善団体から同時期の書面による受領証明を取得できる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "A charitable organization can assist a donor by providing the contemporaneous written acknowledgment that the donor must obtain if claiming a deduction of $250 or more for the virtual currency donation."
+            }
+          ]
+        },
+        {
+          "index": 55,
+          "statement": "5,000ドルを超える控除を主張する寄付者がForm 8283を提出する場合、慈善団体はその署名を行うことが求められる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "A charitable organization is generally required to sign the donor’s Form 8283, Noncash Charitable Contributions, acknowledging receipt of charitable deduction property if the donor is claiming a deduction of more than $5,000"
+            }
+          ]
+        },
+        {
+          "index": 56,
+          "statement": "仮想通貨を受け取った慈善団体は、その寄付を非現金寄付として扱うべきである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "Charitable organization that receives virtual currency should treat the donation as a noncash contribution."
+            }
+          ]
+        },
+        {
+          "index": 57,
+          "statement": "慈善団体は、受領した仮想通貨などの控除対象財産を受領から3年以内に売却・交換・処分する場合、Form 8282を提出しなければならない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/individuals/international-taxpayers/frequently-asked-questions-on-virtual-currency-transactions",
+              "quote": "Charities must file Form 8282, Donee Information Return, if they sell, exchange or otherwise dispose of charitable deduction property (or any portion thereof) - such as the sale of virtual currency for real currency as described in FAQ 4 - within three years after the date they originally received the property"
+            }
+          ]
+        },
+        {
+          "index": 58,
+          "statement": "デジタル資産は電子的に保存され、売買・所有・移転・取引が可能である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "A digital asset is stored electronically and can be bought, sold, owned, transferred or traded."
+            }
+          ]
+        },
+        {
+          "index": 59,
+          "statement": "デジタル資産の例には、ビットコインなどの兌換可能な仮想通貨・暗号通貨が含まれる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Convertible virtual currencies and cryptocurrencies such as Bitcoin"
+            }
+          ]
+        },
+        {
+          "index": 60,
+          "statement": "デジタル資産に関する質問は、Form 709、Form 1040、Form 1040-NR、Form 1041、Form 1065、Form 1120、Form 1120-Sなど複数の税務申告書に記載されている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "A version of the question appears on these tax returns:Form 709, United States Gift (and Generation-Skipping Transfer) Tax ReturnForm 1040, Individual Income Tax Return and Form 1040-SR, U.S. Tax Return for SeniorsForm 1040-NR, U.S. Nonresident Alien Income Tax ReturnForm 1041, U.S. Income Tax Return for Estates and TrustsForm 1065, U.S. Return of Partnership IncomeForm 1120, U.S. Corporation Income Tax ReturnForm 1120-S, U.S. Income Tax Return for an S Corporation"
+            }
+          ]
+        },
+        {
+          "index": 61,
+          "statement": "米ドル等のリアル通貨でデジタル資産を購入しただけで売却していない場合は、デジタル資産質問に「いいえ」と回答する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Purchased, but did not sell, digital assets using U.S. or other real currency, including through electronic platforms"
+            }
+          ]
+        },
+        {
+          "index": 62,
+          "statement": "自己が所有・管理するウォレットや口座間でデジタル資産を移転しただけの場合（デジタル資産で手数料を支払った場合を除く）は、デジタル資産質問に「いいえ」と回答する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Transferred digital assets from one wallet or account you own or control to another wallet or account you own or control (unless you paid a transaction fee with digital assets. This would be a digital asset transaction.)"
+            }
+          ]
+        },
+        {
+          "index": 63,
+          "statement": "マイニングやステーキングなどの活動によりデジタル資産を受け取った場合、デジタル資産質問に「はい」と回答する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Mining, staking and similar activities"
+            }
+          ]
+        },
+        {
+          "index": 64,
+          "statement": "ハードフォークに関連するエアドロップによりデジタル資産を受け取った場合、デジタル資産質問に「はい」と回答する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "An airdrop as it relates to a hard fork"
+            }
+          ]
+        },
+        {
+          "index": 65,
+          "statement": "デジタル資産を処分・売却・交換・譲渡した場合、デジタル資産質問に「はい」と回答する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Disposed, sold, exchanged or transferred ownership of digital assets"
+            }
+          ]
+        },
+        {
+          "index": 66,
+          "statement": "個人的または投資目的で保有・使用したデジタル資産を売却・処分した場合、その所得は売却・処分時にキャピタルゲインまたはキャピタルロスとして課税される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "If you own and use a digital asset for personal or investment purposesThe income would be taxed as a capital gain or loss when you sell or dispose it."
+            }
+          ]
+        },
+        {
+          "index": 67,
+          "statement": "事業の文脈で商品やサービスの対価としてデジタル資産を受け取った場合、その所得は経常所得（ordinary income）または損失として課税される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "If you receive a digital asset in exchange for goods or services in a business contextThe income would be taxed as ordinary income or a loss."
+            }
+          ]
+        },
+        {
+          "index": 68,
+          "statement": "デジタル資産を資本資産として1年以下保有してから売却・交換・処分した場合は短期キャピタルゲインとなる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Short-term capital gain: If you held the digital asset as a capital asset for one year or less before selling, exchanging, or otherwise disposing of the digital asset."
+            }
+          ]
+        },
+        {
+          "index": 69,
+          "statement": "デジタル資産を資本資産として1年を超えて保有してから売却・交換・処分した場合は長期キャピタルゲインとなる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Long-term capital gain: If you held the digital asset as a capital asset for more than one year before selling, exchanging, or otherwise disposing of it."
+            }
+          ]
+        },
+        {
+          "index": 70,
+          "statement": "デジタル資産の基準額（basis）は、通常は米ドル建ての取得コストである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "The basis of property is its cost. Generally, the basis of a digital asset is the cost in U.S. dollars."
+            }
+          ]
+        },
+        {
+          "index": 71,
+          "statement": "デジタル資産の取引は、課税対象となる利益や損失が生じるかどうかにかかわらず報告しなければならない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "If you have digital asset transactions, you must report them whether or not they result in a taxable gain or loss."
+            }
+          ]
+        },
+        {
+          "index": 72,
+          "statement": "資本資産として保有していたデジタル資産を売却・交換・処分した場合はForm 8949（Sales and Other Dispositions of Capital Assets）を使用する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Use Form 8949, Sales and Other Dispositions of Capital Assets."
+            }
+          ]
+        },
+        {
+          "index": 73,
+          "statement": "フォーク、ステーキング、マイニングなどによるデジタル資産関連の経常所得は、Form 1040（Schedule 1）で報告する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "To report income from forks, staking, mining, etc., use Form 1040 (Schedule 1), Additional Income and Adjustments to Income PDF."
+            }
+          ]
+        },
+        {
+          "index": 74,
+          "statement": "デジタル資産による贈与を行った場合はForm 709（United States Gift (and Generation-Skipping Transfer) Tax Return）を使用する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Use Form 709, United States Gift (and Generation-Skipping Transfer) Tax Return."
+            }
+          ]
+        },
+        {
+          "index": 75,
+          "statement": "独立契約者としてデジタル資産で報酬を受け取った場合、その所得はSchedule C（Form 1040）で報告する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "For payments you receive as an independent contractor, report the digital asset income on Schedule C (Form 1040), Profit or Loss from Business (Sole Proprietorship)."
+            }
+          ]
+        },
+        {
+          "index": 76,
+          "statement": "顧客にデジタル資産を売却・交換・処分した場合は、Form 1040（Schedule C）で報告する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Report these transactions on Form 1040 (Schedule C), Profit or Loss from Business (Sole Proprietorship) PDF."
+            }
+          ]
+        },
+        {
+          "index": 77,
+          "statement": "ブローカーによるデジタル資産取引の報告義務は、インフラ投資雇用法（IIJA、2021年後半に署名）による内国歳入法第6045条の改正の結果である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "The requirement for brokers to report digital asset transactions is a result of changes to Internal Revenue Code §6045 made by the Infrastructure Investment and Jobs Act (IIJA) (signed in late 2021)."
+            }
+          ]
+        },
+        {
+          "index": 78,
+          "statement": "ブローカーによるデジタル資産取引の報告はForm 1099-DAで行われ、2025年1月1日以降の取引から義務付けられる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "This reporting is required to be made on Form 1099-DA beginning with transactions on or after Jan. 1, 2025."
+            }
+          ]
+        },
+        {
+          "index": 79,
+          "statement": "最終規則は、顧客が売却するデジタル資産を占有するブローカー（カストディアル型デジタル資産取引プラットフォームの運営者、特定のデジタル資産ホストウォレット提供者、デジタル資産キオスク、特定のデジタル資産支払い処理業者(PDAP)を含む）に適用される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "The final regulations apply to brokers that take possession of the digital assets being sold by their customers, including operators of custodial digital asset trading platforms, certain digital asset hosted wallet providers, digital asset kiosks and certain processors of digital asset payments (PDAPs)."
+            }
+          ]
+        },
+        {
+          "index": 80,
+          "statement": "ブローカーは2025年1月1日以降に執行された取引について総収入(gross proceeds)を報告しなければならない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Brokers must report gross proceeds for transactions effected on or after Jan. 1, 2025."
+            }
+          ]
+        },
+        {
+          "index": 81,
+          "statement": "ブローカーは2026年1月1日以降に執行された特定の取引について基準額(basis)を報告しなければならない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Brokers must report basis on certain transactions effected on or after Jan. 1, 2026."
+            }
+          ]
+        },
+        {
+          "index": 82,
+          "statement": "ブローカーとして扱われる不動産専門家は、2026年1月1日以降に決済日を迎える不動産取引において、買主が支払い売主が受け取ったデジタル資産の公正市場価値を報告しなければならない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Real estate professionals that are treated as brokers must report the fair market value of digital assets paid by buyers and received by sellers in real estate transactions with closing dates on or after Jan. 1, 2026."
+            }
+          ]
+        },
+        {
+          "index": 83,
+          "statement": "最終規則には、売却・交換されるデジタル資産を占有しない、いわゆる分散型・非カストディアル型ブローカーに対する報告義務は含まれていない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "The final regulations do not include reporting requirements for brokers commonly known as decentralized or non-custodial brokers that do not take possession of the digital assets being sold or exchanged."
+            }
+          ]
+        },
+        {
+          "index": 84,
+          "statement": "デジタル資産の例にはステーブルコインが含まれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Stablecoins"
+            }
+          ]
+        },
+        {
+          "index": 85,
+          "statement": "デジタル資産の例にはNFT（非代替性トークン）が含まれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Non fungible tokens (NFTs)"
+            }
+          ]
+        },
+        {
+          "index": 86,
+          "statement": "兌換可能な仮想通貨は財貨・役務の支払いに利用できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Used to pay for goods and services"
+            }
+          ]
+        },
+        {
+          "index": 87,
+          "statement": "兌換可能な仮想通貨は他の通貨や他のデジタル資産と交換・転換できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Exchanged for or converted into currencies or other digital assets"
+            }
+          ]
+        },
+        {
+          "index": 88,
+          "statement": "従業員としてデジタル資産で賃金を受け取った場合、その所得はForm 1040（U.S. Individual Income Tax Return）で報告する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "For wages you receive as an employee, report the digital asset income on Form 1040, U.S. Individual Income Tax Return."
+            }
+          ]
+        },
+        {
+          "index": 89,
+          "statement": "ステーブルコインおよび非代替性トークン(NFT)の特定の売却については、それぞれの僅少基準額(de minimis threshold)を超える範囲でブローカーが集計ベースでの報告を選択できる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "For certain sales of stablecoins and non-fungible tokens (NFTs), brokers may choose to report the transactions on an aggregate basis to the extent the sales exceed respective de minimis thresholds."
+            }
+          ]
+        },
+        {
+          "index": 90,
+          "statement": "2025暦年に発生し2026年に報告される取引について、ブローカーがForm 1099-DAの提出と支払人向け明細書の交付に誠実な努力を行った場合、IRSは提出・交付の不履行に対して罰則を科さない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "For transactions occurring in calendar year 2025 (and reported in 2026), the IRS will not impose penalties for failure to file and to furnish Forms 1099-DA if the broker makes a good faith effort to file the Forms 1099-DA and furnish associated payee statements correctly and on time."
+            }
+          ]
+        },
+        {
+          "index": 91,
+          "statement": "Notice 2024-57は、財務省とIRSがさらなる指針を発行するまでブローカーがForm 1099-DAの提出や支払人向け明細書の交付を義務付けられない取引を特定している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Notice 2024-57 identifies transactions for which brokers are not required to file Forms 1099-DA or furnish associated payee statements until the Treasury Department and IRS issue further guidance."
+            }
+          ]
+        },
+        {
+          "index": 92,
+          "statement": "Notice 2024-57によるブローカーの報告免除は、当該取引の参加者が得た報酬やその他の対価には適用されない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "This reporting exception does not apply to rewards or other compensation earned by or otherwise derived by participants in these transactions."
+            }
+          ]
+        },
+        {
+          "index": 93,
+          "statement": "Notice 2024-57で報告免除の対象として特定された取引には、ラッピング・アンラッピング取引、流動性提供者取引、ステーキング取引、デジタル資産の貸付とされる取引、デジタル資産の空売りとされる取引、想定元本契約が含まれる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Wrapping and unwrapping transactions,Liquidity provider transactions,Staking transactions,Transactions described by digital asset market participants as the lending of digital assets,Transactions described by digital asset market participants as short sales of digital assets, andNotional principal contracts."
+            }
+          ]
+        },
+        {
+          "index": 94,
+          "statement": "Revenue Procedure 2024-28は、納税者が2025年1月1日時点でデジタル資産のウォレットまたは口座内に残る資産単位に未使用の基準額を配分することを認めている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Revenue Procedure 2024-28 PDF allows taxpayers to allocate units of unused basis to remaining digital asset units in digital asset wallets or accounts as of Jan. 1, 2025"
+            }
+          ]
+        },
+        {
+          "index": 95,
+          "statement": "CCA 202124008によれば、内国歳入法第1031条（同種資産交換の特例）はビットコインとイーサ、ビットコインとライトコイン、イーサとライトコインの交換には適用されない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Chief Counsel Advice (CCA) 202124008 PDF – IRC Section 1031 doesn't apply to exchanges of Bitcoin for Ether, Bitcoin for Litecoin, or Ether for Litecoin"
+            }
+          ]
+        },
+        {
+          "index": 96,
+          "statement": "PDAP（デジタル資産支払い処理業者）による売却にも別途の僅少基準額(de minimis threshold)が適用される。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "A separate de minimis threshold also applies for PDAP sales."
+            }
+          ]
+        },
+        {
+          "index": 97,
+          "statement": "TC Memo 2026-46によれば、暗号資産のステーキング報酬は所得である。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "TC Memo 2026-46 PDF – Cryptocurrency staking rewards are income"
+            }
+          ]
+        },
+        {
+          "index": 98,
+          "statement": "Notice 2023-34は、Notice 2014-21の背景説明部分を修正し、仮想通貨が法定通貨としての地位を持たないとする記述を削除した。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Notice 2023-34 – Modifies Notice 2014-21 background section to remove the statement that virtual currency doesn’t have legal tender status and to make other changes"
+            }
+          ]
+        },
+        {
+          "index": 99,
+          "statement": "Notice 2023-27によれば、特定のNFTは収集品(collectibles)として扱われる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Notice 2023-27 – Treatment of certain NFT as collectibles"
+            }
+          ]
+        },
+        {
+          "index": 100,
+          "statement": "Rev. Proc. 2025-31は、デジタル資産をステーキングする信託(trust)向けのセーフハーバーを定めている。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Rev. Proc. 2025-31 PDF – Safe harbor for trusts staking digital assets"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "crypto-financial-risk",
+    "topicType": "concept",
+    "categoryLabel": "経済・ビジネス",
+    "title": "暗号資産の金融リスク",
+    "summary": "暗号資産の金融リスクとは、価格の急変動、取引プラットフォームの破綻や詐欺、ステーブルコインの償還不能といった経路を通じて、利用者と金融システムに損失が及びうる状態を指す。米国の監査機関GAOは、証券に該当しない暗号資産の現物市場を包括的に規制する権限を持つ連邦金融規制当局が存在しないことを、この危険を大きくする要因として挙げてきた。2025年7月にはステーブルコインの監督枠組みを定める法律が可決された一方、GAOは現物市場についても法制化の検討を勧告している。",
+    "bodyMarkdown": "## デジタル資産の定義と種類\n\nデジタル資産は電子的に保存され、売買・保有・移転・取引ができる価値の表現である。米国の税務上の定義では、暗号技術によって保護された分散型台帳（[ブロックチェーン](/hubpedia/blockchain)）などに記録された価値のデジタル表現とされ、この定義は2021年末に成立したインフラ投資雇用法に基づく。具体例としては、ビットコインのような兌換可能な仮想通貨・暗号資産、ステーブルコイン、NFT（非代替性トークン）が挙げられる。 [20][21][22][31]\n\n米国の税務上、デジタル資産は通貨ではなく財産として扱われる。デジタル資産から得た所得は[課税対象](/hubpedia/virtual-currency-taxation)である。以下で扱う制度や監督体制の記述は、いずれも米国の連邦制度に関するものである。 [1][23]\n\n## 価格変動と過去の破綻\n\n[暗号資産](/hubpedia/cryptocurrency)は価格変動性を経験してきた。市場全体の時価総額は2021年11月に約3兆ドルというピークに達している。暗号資産に関連する製品・サービスでは、価格の急落、事業者の破綻、詐欺が近年発生した。 [2][6][8]\n\n大手取引プラットフォームであったFTX Trading Ltd.の破綻では、破産関連文書から、同社資産の相当部分が消失または盗難された可能性があることが判明した。これは単発の事例にとどまらず、連邦の監督を受けていない複数の取引プラットフォームで詐欺や取引操作が発生しているとされる。 [4][9]\n\n## 連邦規制の隙間\n\nステーブルコインや暗号資産取引プラットフォームに対する連邦規制には隙間があり、消費者や投資家が被害を受けやすい状態にあるとされる。隙間の中心にあるのは権限の空白である。証券に該当しない暗号資産の現物市場を包括的に規制する権限を持つ連邦金融規制当局は存在しない。 [3][5]\n\n一部の事業者が包括的な規制の対象になっていないことなどから、金融規制制度の近代化はGAOのハイリスクリストに挙げられている。GAOは議会に対し、証券に該当しない暗号資産の現物市場とステーブルコインへの連邦監督について、法制化を検討するよう勧告した。 [14][26]\n\n## ステーブルコインの準備資産と償還\n\nステーブルコインの準備資産の水準やリスク、およびその公開開示について、統一的な基準は存在しない。この欠如により、ステーブルコインが価値を維持できず、利用者の償還請求に応じられなくなるリスクが高まっているとされる。 [10][11]\n\n影響の範囲は利用者にとどまらない。ステーブルコインが金融システムへの組み込みを強めるほど、その破綻が金融システムの安定性にリスクをもたらしうる。規制当局はこの金融安定リスクを2019年の時点で特定していたが、議会による対応の必要性を認識したのは2021年11月だった。 [12][13]\n\n## 規制当局間の調整体制\n\n規制当局は、ブロックチェーン関連のリスクに適時対応するための継続的な調整の仕組みを欠いている。他方で、複数の当局から成るワーキンググループが定期的に会合し、ブロックチェーン関連の製品・サービスに関するリスクと規制上の課題を特定するプロセスを策定・実施しているとされる。 [24][41]\n\n金融安定監督評議会（FSOC）は、デジタル資産分野の潜在的リスクを特定するための情報共有と省庁間連携を促すため、デジタル資産ワーキンググループを設置した。 [25]\n\n## 2025年のステーブルコイン監督法\n\n2025年7月、米議会はステーブルコインの監督枠組みを定める法律を可決した。この法律は、銀行・信用組合・ノンバンクを含むどの機関がステーブルコインを発行できるかを定めるとともに、準備資産の構成に関する最低要件を置いている。 [7][15]\n\n開示と資産の使途にも制約がかかる。発行者は準備資産の構成について毎月公開で開示し、登録公認会計事務所による監査を受けることが義務付けられる。準備資産を使える用途は、償還や、レポ取引・リバースレポ取引の担保提供などに制限される。発行者は銀行秘密法および金融犯罪取締ネットワーク（FinCEN）のマネーロンダリング防止規則の対象にもなる。 [16][17][18]\n\nさらにこの法律は、連邦および州の規制当局に対し、ステーブルコイン発行者向けの資本・流動性・リスク管理に関する規則を定めることを求めている。 [19]\n\n## 課税上の取扱いと申告\n\nデジタル資産の取引を行った場合、課税上の利益または損失が生じるか否かにかかわらず、その取引を申告しなければならない。資本資産として保有していたデジタル資産を売却・交換・処分した場合、保有期間が1年以下であれば短期キャピタルゲイン、1年を超えていれば長期キャピタルゲインとなる。取得原価（基準額）は、原則として米ドル建てのコストである。 [27][28][29][30]\n\n## ブローカーによる情報報告\n\nブローカーにデジタル資産取引の報告を義務付ける規定は、2021年末に成立したインフラ投資雇用法（IIJA）による内国歳入法第6045条の改正に由来する。報告はフォーム1099-DAで行われ、2025年1月1日以降の取引から義務化される。適用されるのは、顧客が売却するデジタル資産を実際に占有するブローカーであり、受託型デジタル資産取引プラットフォームの運営者、一部のホステッドウォレット提供者、デジタル資産キオスク、一部の決済処理業者が含まれる。 [31][32][33]\n\n報告項目は段階的に増える。総収入額は2025年1月1日以降に実行された取引について報告され、取得原価は2026年1月1日以降の一部の取引について報告される。最終規則は、デジタル資産を占有しない分散型・非受託型のブローカーには報告義務を課していない。ブローカー扱いとなる不動産専門家は、2026年1月1日以降に決済日を迎える不動産取引について、買主が支払い売主が受け取ったデジタル資産の公正市場価値を報告しなければならない。 [34][35][36][37]\n\n一部の取引類型は当面、報告の枠外に置かれている。通知2024-57により、ラッピング・アンラッピング取引、流動性提供取引、ステーキング取引、デジタル資産の貸付とされる取引、デジタル資産の空売りとされる取引、想定元本契約は、追加のガイダンスが出るまでフォーム1099-DAの提出義務の対象外とされる。ただしこの免除は、これらの取引の参加者が得た報酬その他の対価には適用されない。 [38][39]\n\n移行措置として、収入手続2024-28は、納税者が2025年1月1日時点でウォレットや口座に保有するデジタル資産の未使用の取得原価を、残りのデジタル資産単位に配分することを認めている。 [40]\n\n## 関連記事\n\n- 合意形成方式",
+    "sources": [
+      {
+        "url": "https://www.gao.gov/products/gao-23-105346",
+        "title": "Blockchain in Finance",
+        "publisher": "U.S. Government Accountability Office",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.gao.gov/copyright"
+          },
+          "notes": "Government assessment of risks and oversight gaps. Publisher policy read 2026-08-28: Products are not protected by copyright and may be copied and distributed in their entirety without permission. Embedded images and other third-party material may be copyrighted separately, and photographs of recognisable people carry privacy and publicity rights — neither of which the factory touches, since it takes body text only. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+        "title": "Digital Assets",
+        "publisher": "Internal Revenue Service",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.irs.gov/about-irs/use-of-content-from-irsgov"
+          },
+          "notes": "How the assets are defined for reporting. Publisher policy read 2026-08-28: Content created by federal employees in the course of their duties is not subject to copyright and may be freely copied; credit is requested. Copyrighted material appearing on or linked from the site needs the holder's permission, and the IRS seal and logo have their own rules. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Financial Risks of Crypto Assets",
+        "summary": "The financial risks of crypto assets refer to the potential for losses to users and the financial system through channels such as sharp price swings, the collapse or fraud of trading platforms, and the inability to redeem stablecoins. GAO, the U.S. audit agency, has cited the absence of any federal financial regulator with the authority to comprehensively regulate the spot market for crypto assets that are not securities as a factor that magnifies this danger. While a law establishing a supervisory framework for stablecoins was passed in July 2025, GAO has recommended that legislation also be considered for the spot market.",
+        "bodyMarkdown": "## Definition and types of digital assets\n\nA digital asset is a representation of value that is stored electronically and can be bought, sold, held, transferred, and traded. Under the U.S. tax definition, it is a digital representation of value recorded on a cryptographically secured distributed ledger ([blockchain](/hubpedia/blockchain)) or similar technology, a definition that derives from the Infrastructure Investment and Jobs Act enacted at the end of 2021. Specific examples include convertible virtual currencies and crypto assets such as bitcoin, stablecoins, and NFTs (non-fungible tokens). [20][21][22][31]\n\nFor U.S. tax purposes, digital assets are treated as property rather than currency. Income derived from digital assets is [taxable](/hubpedia/virtual-currency-taxation). The descriptions of the systems and supervisory arrangements that follow all concern the U.S. federal framework. [1][23]\n\n## Price volatility and past collapses\n\n[Crypto assets](/hubpedia/cryptocurrency) have experienced price volatility. The total market capitalization reached a peak of roughly 3 trillion dollars in November 2021. Sharp price declines, business failures, and fraud have occurred in recent years among crypto asset–related products and services. [2][6][8]\n\nIn the collapse of FTX Trading Ltd., which had been a major trading platform, bankruptcy filings revealed that a substantial portion of the company's assets may have been lost or stolen. This was not an isolated case: fraud and trading manipulation are said to have occurred at multiple trading platforms that were not subject to federal supervision. [4][9]\n\n## Gaps in federal regulation\n\nThere are gaps in federal regulation of stablecoins and crypto asset trading platforms, leaving consumers and investors vulnerable to harm. At the center of these gaps is a vacuum of authority: no federal financial regulator has the authority to comprehensively regulate the spot market for crypto assets that are not securities. [3][5]\n\nBecause some businesses are not subject to comprehensive regulation, among other reasons, modernizing the financial regulatory system appears on GAO's High-Risk List. GAO has recommended that Congress consider legislation on federal oversight of both stablecoins and the spot market for crypto assets that are not securities. [14][26]\n\n## Stablecoin reserves and redemption\n\nThere are no uniform standards for the level and risk of stablecoin reserves or for their public disclosure. This absence is said to increase the risk that a stablecoin fails to maintain its value and becomes unable to meet users' redemption requests. [10][11]\n\nThe scope of the impact extends beyond users. The more deeply stablecoins become embedded in the financial system, the more their failure could pose a risk to financial stability. Regulators had identified this financial stability risk as early as 2019, but only recognized the need for action by Congress in November 2021. [12][13]\n\n## Coordination among regulators\n\nRegulators lack an ongoing coordination mechanism for responding in a timely way to blockchain-related risks. On the other hand, a working group made up of multiple agencies is said to meet regularly and to have developed and implemented a process for identifying risks and regulatory challenges relating to blockchain-related products and services. [24][41]\n\nThe Financial Stability Oversight Council (FSOC) established a Digital Asset Working Group to encourage information sharing and interagency coordination for identifying potential risks in the digital asset space. [25]\n\n## The 2025 stablecoin oversight law\n\nIn July 2025, the U.S. Congress passed a law establishing a supervisory framework for stablecoins. The law specifies which institutions — including banks, credit unions, and nonbanks — may issue stablecoins, and sets minimum requirements for the composition of reserves. [7][15]\n\nDisclosure and the use of assets are also constrained. Issuers are required to disclose the composition of their reserves publicly each month and to be audited by a registered public accounting firm. The permitted uses of reserve assets are limited to redemptions and to purposes such as posting collateral in repurchase and reverse repurchase transactions. Issuers are also subject to the Bank Secrecy Act and to the anti–money laundering rules of the Financial Crimes Enforcement Network (FinCEN). [16][17][18]\n\nThe law further requires federal and state regulators to issue rules on capital, liquidity, and risk management for stablecoin issuers. [19]\n\n## Tax treatment and reporting\n\nIf you engage in a digital asset transaction, you must report that transaction whether or not it produces a taxable gain or loss. When a digital asset held as a capital asset is sold, exchanged, or otherwise disposed of, the result is a short-term capital gain if the holding period was one year or less, and a long-term capital gain if it exceeded one year. The basis is generally the cost in U.S. dollars. [27][28][29][30]\n\n## Information reporting by brokers\n\nThe provisions requiring brokers to report digital asset transactions stem from amendments to Section 6045 of the Internal Revenue Code made by the Infrastructure Investment and Jobs Act (IIJA) enacted at the end of 2021. Reporting is done on Form 1099-DA and becomes mandatory for transactions on or after January 1, 2025. It applies to brokers that take actual possession of the digital assets their customers sell, including operators of custodial digital asset trading platforms, certain hosted wallet providers, digital asset kiosks, and certain payment processors. [31][32][33]\n\nThe items to be reported expand in stages. Gross proceeds are reported for transactions effected on or after January 1, 2025, and basis is reported for certain transactions on or after January 1, 2026. The final regulations do not impose reporting obligations on decentralized, non-custodial brokers that do not take possession of digital assets. Real estate professionals treated as brokers must report the fair market value of digital assets paid by buyers and received by sellers in real estate transactions with closing dates on or after January 1, 2026. [34][35][36][37]\n\nCertain transaction types are, for the time being, placed outside the scope of reporting. Under Notice 2024-57, wrapping and unwrapping transactions, liquidity provision transactions, staking transactions, transactions treated as loans of digital assets, transactions treated as short sales of digital assets, and notional principal contracts are not subject to the Form 1099-DA filing requirement until further guidance is issued. This relief does not, however, apply to any compensation or other consideration received by participants in these transactions. [38][39]\n\nAs a transition measure, Revenue Procedure 2024-28 allows taxpayers to allocate the unused basis of digital assets held in a wallet or account as of January 1, 2025 to the remaining units of digital assets. [40]\n\n## Related articles\n\n- Consensus mechanism"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:15:12.167Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "米国の税務上、デジタル資産は通貨ではなく財産として扱われる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "For U.S. tax purposes, digital assets are considered property, not currency."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "暗号資産に関連する製品・サービスでは、価格急落・破綻・詐欺が最近発生した。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "Recent price crashes, bankruptcies, and fraud involving blockchain-related products and services, such as crypto assets, raised concerns about how much regulation exists now and the risks consumers face."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "ステーブルコインや暗号資産取引プラットフォームに対する連邦規制には隙間があり、消費者や投資家が被害を受けやすい状態にある。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "there are gaps in federal regulation of stablecoins—a kind of crypto asset—and trading platforms for crypto assets, leaving consumers and investors subject to harm."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "大手暗号資産取引プラットフォームであるFTX Trading Ltd.の破綻により、同社資産の相当部分が消失または盗難された可能性があることが破産関連文書から判明した。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "the bankruptcy of FTX Trading Ltd., a prominent crypto asset trading platform, led to the discovery that a substantial portion of the platform's assets might be missing or stolen, according to bankruptcy-related documents."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "証券に該当しない暗号資産の現物市場を包括的に規制する権限を持つ連邦金融規制当局は存在しない。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "No federal financial regulator has comprehensive authority to regulate the spot market for crypto assets that are not securities."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "暗号資産の時価総額は2021年11月に約3兆ドルというピークに達した。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "crypto assets reached a peak market capitalization of nearly $3 trillion in November 2021."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "2025年7月、米議会はステーブルコインの監督枠組みを定める法律を可決した。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "In July 2025, Congress passed legislation that establishes an oversight framework for stablecoins."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "暗号資産は価格変動性(ボラティリティ)を経験してきた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "crypto assets have experienced price volatility."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "連邦の監督を受けていない複数の暗号資産取引プラットフォームで、詐欺や取引操作が発生している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "Several platforms without federal oversight have experienced fraud and trading manipulation."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "ステーブルコインの準備資産の水準・リスクや、その公開開示について統一的な基準は存在しない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "no uniform standards exist for reserve levels and risks or for public disclosure of reserves"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "統一基準の欠如により、ステーブルコインが価値を維持し利用者の償還請求に応じられなくなるリスクが高まっている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "This increases the risk that a stablecoin may not be able to hold its value and honor user redemption requests."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "ステーブルコインが金融システムへの組み込みを強めるほど、その破綻が金融システムの安定性にリスクをもたらしうる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "To the extent these stablecoins become more integrated into the financial system, their failures could pose risks to financial stability."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "規制当局は2019年にステーブルコインがもたらす金融安定リスクを特定していたが、議会による対応の必要性を認識したのは2021年11月だった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "regulators identified financial stability risks posed by stablecoins in 2019, but they did not identify the need for Congressional action to address the risks until November 2021"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "GAOは議会に対し、証券に該当しない暗号資産の現物市場とステーブルコインへの連邦監督について法制化を検討するよう勧告した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "GAO recommends Congress consider legislation for federal oversight of nonsecurity crypto asset spot markets and stablecoins."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "この法律は、銀行・信用組合・ノンバンクを含むどの機関がステーブルコインを発行できるかを定め、準備資産の構成に関する最低要件を定めている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "The legislation includes provisions for which institutions [banks, credit unions, and nonbanks] can issue stablecoins and establishes minimum requirements for the composition of reserve assets."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "ステーブルコイン発行者は準備資産の構成について毎月公開で開示し、登録公認会計事務所による監査を受けることが義務付けられている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "stablecoin issuers are required to make monthly, public disclosures of the composition of reserves and have them examined by a registered public accounting firm."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "この法律はステーブルコイン発行者が準備資産を使える用途を、償還やレポ取引・リバースレポ取引の担保提供などに制限している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "The legislation also restricts stablecoin issuers to using reserve assets for certain activities, such as to redeem stablecoins and serve as collateral for repurchase agreements and reverse repurchase agreements."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "ステーブルコイン発行者は銀行秘密法および金融犯罪取締ネットワーク(FinCEN)のマネーロンダリング防止規則の対象となる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "stablecoin issuers are to be subject to the Bank Secrecy Act and the Financial Crimes Enforcement Network (FinCEN) anti-money-laundering rules."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "この法律は連邦・州の規制当局に対し、ステーブルコイン発行者向けに資本・流動性・リスク管理に関する規則を定めることを求めている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "The legislation also requires federal and state regulators to issue tailored capital, liquidity, and risk management rules for federal and state stablecoin issuers."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "デジタル資産は電子的に保存され、売買・保有・移転・取引が可能である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "A digital asset is stored electronically and can be bought, sold, owned, transferred or traded."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "デジタル資産の税務上の定義は、暗号技術で保護された分散型台帳（ブロックチェーン）等に記録された価値のデジタル表現であり、インフラ投資雇用法に基づく。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "The tax definition of a digital asset is any digital representation of value recorded on a cryptographically secured, distributed ledger (blockchain) or similar technology (Infrastructure Investment and Jobs Act)."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "デジタル資産の例には、ビットコインのような兌換可能な仮想通貨・暗号資産、ステーブルコイン、NFT（非代替性トークン）が含まれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Convertible virtual currencies and cryptocurrencies such as Bitcoin"
+            },
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Stablecoins"
+            },
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Non fungible tokens (NFTs)"
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "デジタル資産から得た所得は課税対象である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Income from digital assets is taxable."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "規制当局はブロックチェーン関連のリスクに適時対応するための継続的な調整の仕組みを欠いている。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "Regulators lack an ongoing coordination mechanism for addressing blockchain risks in a timely manner."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "金融安定監督評議会(FSOC)は、デジタル資産分野の潜在的リスクを特定するための情報共有と省庁間連携を促進するため、デジタル資産ワーキンググループを設置した。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "the Financial Stability Oversight Council (of which CFPB, CFTC, FDIC, the Federal Reserve, NCUA, OCC, and SEC are members) established a formal coordination mechanism through the creation of the Digital Asset Working Group to promote information sharing and enhance interagency coordination in identifying potential risks in the digital asset space"
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "一部の事業者が包括的な規制の対象になっていないことなどから、金融規制制度の近代化はGAOのハイリスクリストに挙げられている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "Modernizing the financial regulatory system is on GAO's high-risk list, partly because some entities are not subject to comprehensive regulation."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "デジタル資産の取引を行った場合、課税上の利益・損失が生じるか否かにかかわらず、その取引を申告しなければならない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "If you have digital asset transactions, you must report them whether or not they result in a taxable gain or loss."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "デジタル資産を資本資産として1年以下保有してから売却・交換・処分した場合は短期キャピタルゲインとなる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Short-term capital gain: If you held the digital asset as a capital asset for one year or less before selling, exchanging, or otherwise disposing of the digital asset."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "デジタル資産を資本資産として1年超保有してから売却・交換・処分した場合は長期キャピタルゲインとなる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Long-term capital gain: If you held the digital asset as a capital asset for more than one year before selling, exchanging, or otherwise disposing of it."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "デジタル資産の取得原価（基準額）は、原則として米ドル建てのコストである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "The basis of property is its cost. Generally, the basis of a digital asset is the cost in U.S. dollars."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "ブローカーにデジタル資産取引の報告を義務付ける規定は、2021年末に成立したインフラ投資雇用法（IIJA）による内国歳入法第6045条の改正に由来する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "The requirement for brokers to report digital asset transactions is a result of changes to Internal Revenue Code §6045 made by the Infrastructure Investment and Jobs Act (IIJA) (signed in late 2021)."
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "ブローカーによるデジタル資産取引の報告はフォーム1099-DAで行われ、2025年1月1日以降の取引から義務化される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "This reporting is required to be made on Form 1099-DA beginning with transactions on or after Jan. 1, 2025."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "この規則は、顧客が売却するデジタル資産を実際に占有するブローカー（受託型デジタル資産取引プラットフォームの運営者、一部のデジタル資産ホステッドウォレット提供者、デジタル資産キオスク、一部のデジタル資産決済処理業者を含む）に適用される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "The final regulations apply to brokers that take possession of the digital assets being sold by their customers, including operators of custodial digital asset trading platforms, certain digital asset hosted wallet providers, digital asset kiosks and certain processors of digital asset payments (PDAPs)."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "ブローカーは2025年1月1日以降に実行された取引について総収入額を報告しなければならない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Brokers must report gross proceeds for transactions effected on or after Jan. 1, 2025."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "ブローカーは2026年1月1日以降の一部の取引について取得原価（基準額）を報告しなければならない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Brokers must report basis on certain transactions effected on or after Jan. 1, 2026."
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "最終規則は、デジタル資産を占有しない分散型・非受託型ブローカーには報告義務を課していない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "The final regulations do not include reporting requirements for brokers commonly known as decentralized or non-custodial brokers that do not take possession of the digital assets being sold or exchanged."
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "ブローカー扱いとなる不動産専門家は、2026年1月1日以降に決済日を迎える不動産取引において、買主が支払い売主が受け取ったデジタル資産の公正市場価値を報告しなければならない。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Real estate professionals that are treated as brokers must report the fair market value of digital assets paid by buyers and received by sellers in real estate transactions with closing dates on or after Jan. 1, 2026."
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "通知2024-57により、ラッピング・アンラッピング取引、流動性提供取引、ステーキング取引、デジタル資産の貸付とされる取引、デジタル資産の空売りとされる取引、想定元本契約は、追加のガイダンスが出るまでフォーム1099-DAの提出義務対象外とされている。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "The identified transactions are:Wrapping and unwrapping transactions,Liquidity provider transactions,Staking transactions,Transactions described by digital asset market participants as the lending of digital assets,Transactions described by digital asset market participants as short sales of digital assets, andNotional principal contracts."
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "上記の報告免除は、これらの取引の参加者が得た報酬その他の対価には適用されない。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "This reporting exception does not apply to rewards or other compensation earned by or otherwise derived by participants in these transactions."
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "収入手続2024-28は、納税者が2025年1月1日時点でウォレットや口座に保有するデジタル資産の未使用の取得原価を、残りのデジタル資産単位に配分することを認めている。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.irs.gov/businesses/small-businesses-self-employed/digital-assets",
+              "quote": "Revenue Procedure 2024-28 PDF allows taxpayers to allocate units of unused basis to remaining digital asset units in digital asset wallets or accounts as of Jan. 1, 2025"
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "複数の当局から成るワーキンググループは定期的に会合し、ブロックチェーン関連の製品・サービスに関するリスクと規制上の課題を特定するプロセスを策定・実施している。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.gao.gov/products/gao-23-105346",
+              "quote": "the working group meets regularly and has developed and implemented processes for identifying risks and regulatory challenges concerning blockchain-related products and services"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,295 @@
+/* Hubpedia の共同編集の画面。色は意味のあるトークンだけ（color-system.css）。 */
+
+.hubpedia-wiki__subnav {
+  display: flex;
+  gap: var(--v2-space-3, 12px);
+  margin: 0 0 var(--v2-space-2, 8px);
+  font-size: var(--v2-text-sm, 14px);
+}
+
+.hubpedia-wiki__authorship {
+  margin: var(--v2-space-3, 12px) 0;
+  padding: var(--v2-space-3, 12px);
+  background: var(--surface-sunken);
+  border-radius: 8px;
+}
+
+.hubpedia-wiki__authorship dl {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: var(--v2-space-2, 8px) var(--v2-space-3, 12px);
+  margin: 0;
+}
+
+.hubpedia-wiki__authorship dt {
+  color: var(--muted);
+  font-size: var(--v2-text-sm, 13px);
+}
+
+.hubpedia-wiki__authorship dd {
+  margin: 0;
+  color: var(--text);
+}
+
+.hubpedia-wiki__layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--v2-space-3, 12px);
+}
+
+.hubpedia-wiki__layout[data-open="true"] {
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 380px);
+  align-items: start;
+}
+
+@media (max-width: 800px) {
+  .hubpedia-wiki__layout[data-open="true"] {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.hubpedia-wiki__paragraphs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hubpedia-wiki__paragraph {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: var(--v2-space-2, 8px);
+  padding: var(--v2-space-2, 8px) 0;
+  border-bottom: var(--divider);
+}
+
+.hubpedia-wiki__paragraph[data-active="true"] {
+  background: var(--emphasis-soft);
+}
+
+.hubpedia-wiki__text {
+  margin: 0;
+  line-height: var(--v2-leading, 1.8);
+  overflow-wrap: anywhere;
+}
+
+.hubpedia-wiki__marker {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.hubpedia-wiki__author-tag {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.hubpedia-wiki__panel {
+  position: sticky;
+  top: var(--v2-space-3, 12px);
+  max-height: calc(100vh - 24px);
+  overflow-y: auto;
+  padding: var(--v2-space-3, 12px);
+  background: var(--panel);
+  border: var(--divider);
+  border-radius: 8px;
+}
+
+.hubpedia-wiki__panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--v2-space-2, 8px);
+}
+
+.hubpedia-wiki__panel-head h3 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.hubpedia-wiki__panel-head h3:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.hubpedia-wiki__panel h4 {
+  margin: var(--v2-space-3, 12px) 0 var(--v2-space-1, 4px);
+  font-size: 0.9rem;
+}
+
+.hubpedia-wiki__author {
+  margin: 0;
+  color: var(--muted);
+  font-size: var(--v2-text-sm, 13px);
+}
+
+.hubpedia-wiki__excerpt {
+  margin: var(--v2-space-2, 8px) 0;
+  padding-left: var(--v2-space-2, 8px);
+  border-left: 3px solid var(--line);
+  color: var(--text);
+  font-size: var(--v2-text-sm, 14px);
+}
+
+.hubpedia-wiki__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--v2-space-2, 8px);
+  margin: var(--v2-space-2, 8px) 0;
+}
+
+.hubpedia-wiki__claims,
+.hubpedia-wiki__evidence,
+.hubpedia-wiki__comments {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.hubpedia-wiki__claim {
+  padding: var(--v2-space-2, 8px) 0;
+  border-bottom: var(--divider);
+}
+
+.hubpedia-wiki__claim-statement {
+  margin: 0 0 var(--v2-space-1, 4px);
+}
+
+.hubpedia-wiki__badge {
+  display: inline-block;
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: var(--surface-sunken);
+  color: var(--text);
+  font-size: 12px;
+}
+
+.hubpedia-wiki__badge[data-status="established"],
+.hubpedia-wiki__badge[data-status="strong-evidence"] {
+  background: var(--positive-bg);
+  color: var(--positive-text);
+}
+
+.hubpedia-wiki__badge[data-status="provisional"],
+.hubpedia-wiki__badge[data-status="unverified"],
+.hubpedia-wiki__badge[data-status="partially-unresolved"],
+.hubpedia-wiki__badge[data-status="disputed"] {
+  background: var(--warning-bg);
+  color: var(--warning-text);
+}
+
+.hubpedia-wiki__badge[data-status="refuted"] {
+  background: var(--danger-bg);
+  color: var(--danger-text);
+}
+
+.hubpedia-wiki__stance {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.hubpedia-wiki__quote {
+  display: block;
+  color: var(--muted);
+  font-size: var(--v2-text-sm, 13px);
+}
+
+.hubpedia-wiki__comment-meta {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.hubpedia-wiki__form {
+  display: grid;
+  gap: var(--v2-space-1, 4px);
+  margin-top: var(--v2-space-2, 8px);
+}
+
+.hubpedia-wiki__form label {
+  font-size: var(--v2-text-sm, 13px);
+  color: var(--muted);
+}
+
+.hubpedia-wiki__form input,
+.hubpedia-wiki__form textarea,
+.hubpedia-wiki__form select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 6px 8px;
+  background: var(--panel);
+  color: var(--text);
+  border: var(--divider);
+  border-radius: 6px;
+  font: inherit;
+}
+
+.hubpedia-wiki__form input:focus-visible,
+.hubpedia-wiki__form textarea:focus-visible,
+.hubpedia-wiki__form select:focus-visible {
+  outline: none;
+  border-color: var(--line-strong);
+  box-shadow: none;
+}
+
+/* 履歴・差分・最近の変更・見回りの一覧 */
+.hubpedia-wiki__table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--v2-text-sm, 14px);
+}
+
+.hubpedia-wiki__table th,
+.hubpedia-wiki__table td {
+  padding: 6px 8px;
+  text-align: left;
+  border-bottom: var(--divider);
+  vertical-align: top;
+}
+
+.hubpedia-wiki__table th {
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.hubpedia-wiki__filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--v2-space-2, 8px);
+  margin: var(--v2-space-2, 8px) 0;
+}
+
+.hubpedia-wiki__diff {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 13px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.hubpedia-wiki__diff [data-kind="added"] {
+  background: var(--positive-bg);
+  color: var(--positive-text);
+}
+
+.hubpedia-wiki__diff [data-kind="removed"] {
+  background: var(--danger-bg);
+  color: var(--danger-text);
+}
+
+.hubpedia-wiki__diff [data-kind] {
+  display: block;
+  padding: 0 6px;
+}
+
+.hubpedia-wiki__card {
+  padding: var(--v2-space-3, 12px);
+  margin-bottom: var(--v2-space-3, 12px);
+  background: var(--panel);
+  border: var(--divider);
+  border-radius: 8px;
+}
+
+.hubpedia-wiki__card h3 {
+  margin: 0 0 var(--v2-space-1, 4px);
+  font-size: 1rem;
+}

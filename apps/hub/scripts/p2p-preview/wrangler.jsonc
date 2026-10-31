@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../node_modules/wrangler/config-schema.json",
+  "name": "hub-p2p-test",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-08-18",
+  "workers_dev": true,
+  "preview_urls": false,
+  "observability": {"enabled": false},
+  "durable_objects": {"bindings": [{"name": "PAIRS", "class_name": "PairingRoom"}]},
+  "migrations": [{"tag": "pairing-v1", "new_sqlite_classes": ["PairingRoom"]}],
+  "ratelimits": [{"name": "PAIRING_LIMIT", "namespace_id": "930202601", "simple": {"limit": 60, "period": 60}}],
+  "assets": {
+    "directory": "../../dist/p2p-preview",
+    "run_worker_first": ["/pair/*"],
+    "not_found_handling": "single-page-application"
+  }
+}

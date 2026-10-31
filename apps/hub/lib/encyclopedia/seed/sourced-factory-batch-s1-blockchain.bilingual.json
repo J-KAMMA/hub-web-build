@@ -1,0 +1,205 @@
+[
+  {
+    "slug": "smart-contract",
+    "topicType": "concept",
+    "categoryLabel": "インターネット・セキュリティ",
+    "title": "スマートコントラクト",
+    "summary": "スマートコントラクトは、ブロックチェーン上に配置され、そのブロックチェーンを実行するコンピュータによって実行されるソフトウェアである。トランザクションを介してデータを送受信し、処理結果をブロックチェーン上に記録する点が特徴で、信頼できる第三者を介さずに合意した処理を自動的に実行する手段として用いられる。",
+    "bodyMarkdown": "## 仕組み\n\nスマートコントラクトは、[ブロックチェーン](/hubpedia/blockchain)上に配置され、そのブロックチェーンを実行するコンピュータによって実行されるソフトウェアである。利用者はトランザクションを通じてスマートコントラクトにデータを送信し、コントラクトはそのデータを処理して、結果をブロックチェーン上に保存する。 [1][3][4]\n\nスマートコントラクトは計算を実行し、データをストレージ領域に保存できるほか、呼び出し可能な関数を通じて環境条件を公開し、現在のシステム状態を反映することができる。ブロックにスマートコントラクトの処理が組み込まれると、それ以前のアクセス許可や環境条件、システム状態を含む状態全体が更新される。 [9][10]\n\n個々のトランザクションが有効と認められるかどうかは、そのトランザクションがプロトコル要件を満たしているか、および対象のブロックチェーン実装に固有の、正規化されたデータ形式やスマートコントラクトの要件を満たしているかによって判断される。 [13]\n\n## Ethereumにおけるコントラクトアカウント\n\nEthereumでは、デプロイされたスマートコントラクトは、コントラクトアカウントと呼ばれる専用のアドレスを通じてアクセスされる。このアドレスはスマートコントラクトがデプロイされた時点で作成され、そのスマートコントラクトを作成した人物のアドレスから決定論的に計算される。 [5][6][7]\n\n## アクセス制御への応用\n\nスマートコントラクトは、信頼できる第三者を介さずに[アクセス制御](/hubpedia/access-control)(AC)プロセス間の連携と実施を行うために、ACノードに配布・実行されるイベント駆動型のコンピュータプログラムとしても用いられる。この用途では、任意のプログラムを実行することによって、分散されたアクセス制御データおよび認可プロセスの制御が可能になる。 [2][8]\n\nアクセス特権は、スマートコントラクトの関数を通じて、あるACノードから他のACノードへ移転または伝播させることができる。 [12]\n\n## 改ざんへの耐性\n\nスマートコントラクトのコードは、改ざん検知性(tamper-evident)と改ざん耐性(tamper-resistant)という特性を持つ。 [11]",
+    "sources": [
+      {
+        "url": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+        "title": "Blockchain Technology Overview (NISTIR 8202) — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The standards body account of blockchain and its parts. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+        "title": "Blockchain for Access Control Systems (NISTIR 8403) — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "Permissioning and access control on ledgers. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Smart Contract",
+        "summary": "A smart contract is software deployed on a blockchain and executed by the computers running that blockchain. It is characterized by sending and receiving data via transactions and recording the results of processing on the blockchain, and it is used as a means of automatically executing agreed-upon processes without going through a trusted third party.",
+        "bodyMarkdown": "## Mechanism\n\nA smart contract is software deployed on a [blockchain](/hubpedia/blockchain) and executed by the computers running that blockchain. Users send data to the smart contract through transactions, and the contract processes that data and stores the results on the blockchain. [1][3][4]\n\nSmart contracts can perform computations and store data in storage areas, and can also expose environmental conditions through callable functions to reflect the current system state. When a smart contract's processing is incorporated into a block, the entire state is updated, including prior access permissions, environmental conditions, and system state. [9][10]\n\nWhether an individual transaction is recognized as valid is determined by whether the transaction satisfies protocol requirements and the normalized data formats and smart contract requirements specific to the target blockchain implementation. [13]\n\n## Contract Accounts in Ethereum\n\nIn Ethereum, a deployed smart contract is accessed through a dedicated address called a contract account. This address is created at the time the smart contract is deployed and is calculated deterministically from the address of the person who created the smart contract. [5][6][7]\n\n## Application to Access Control\n\nSmart contracts are also used as event-driven computer programs distributed to and executed on AC nodes in order to coordinate and enforce [access control](/hubpedia/access-control) (AC) processes without going through a trusted third party. In this application, executing arbitrary programs makes it possible to control distributed access control data and authorization processes. [2][8]\n\nAccess privileges can be transferred or propagated from one AC node to another through smart contract functions. [12]\n\n## Resistance to Tampering\n\nThe code of a smart contract has the properties of being tamper-evident and tamper-resistant. [11]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-29T23:13:26.582Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "スマートコントラクトとは、ブロックチェーン上に配置され、そのブロックチェーンを実行するコンピュータによって実行されるソフトウェアである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "smart contracts (software deployed on the blockchain and\r\n                                                                                         executed by computers running that blockchain)"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "スマートコントラクトは、信頼できる第三者を介さずにAC(アクセス制御)プロセス間の連携と実施を行うために、ACノードに配布・実行されるイベント駆動型のコンピュータプログラムである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "A smart contract is an event-driven computer program distributed to and executed by AC\r\n                                                                                                  nodes to facilitate and enforce AC processes (i.e., authorization processes and AC data\r\n                                                                                                  transitions) between them without going through a trusted third party."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "スマートコントラクトを用いる仕組みでは、トランザクションはデータを送信するために使われる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "In the case of smart contract systems, transactions can be used to send data,"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "スマートコントラクトシステムでは、トランザクションによって送られたデータが処理され、その結果がブロックチェーン上に保存される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "and store some result on the blockchain."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "Ethereumでは、デプロイされたスマートコントラクトには専用のアドレス（コントラクトアカウントと呼ばれる）を通じてアクセスする。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "For Ethereum, smart contracts are accessible via a special address"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "called a contract account."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "コントラクトアカウントのアドレスは、そのスマートコントラクトを作成した人物のアドレスから決定論的に計算される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "address for a contract account is deterministically computed from the smart contract creator’s"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "コントラクトアカウントのアドレスは、スマートコントラクトがデプロイされたときに作成される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "This account address is created when a smart contract is deployed"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "スマートコントラクトにおける任意のプログラムの実行によって、分散されたアクセス制御データおよび認可プロセスの制御が可能になる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "The execution of arbitrary programs in smart contracts allows for controls on distributed"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "スマートコントラクトは計算を実行し、データをストレージ領域に保存し、呼び出し可能な関数を介して環境条件を公開して現在のシステム状態を反映することができる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "A smart contract can\r\n                                                                                                  perform calculations, store data in storage spaces, expose environment conditions to reflect\r\n                                                                                                  the current system state via callable functions"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "ブロックにスマートコントラクトを追加することは、コードを実行し、以前のアクセス許可・環境条件・システム状態を含むACステートを更新することを意味する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "Adding a smart contract to a block\r\n                                                                                                  means executing code and updating the AC state (i.e., previous access permissions,\r\n                                                                                                  environment conditions, and system status) accordingly"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "スマートコントラクトのコードは改ざん検知性(tamper-evident)と改ざん耐性(tamper-resistant)を持つ。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "The smart contract code\r\n                                                                                                  is also tamper-evident and tamper-resistant."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "アクセス特権は、スマートコントラクトの関数を通じて、あるACノードから他のACノードへ移転または伝播させることができる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2022/NIST.IR.8403.pdf",
+              "quote": "Allows for the enforcement of flexible, fine-grained, and responsive policy by transferring\r\n                                                                                                  or propagating access privileges from one AC node to others through smart contract\r\n                                                                                                  functions"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "トランザクションの妥当性は、そのトランザクションがプロトコル要件、および当該ブロックチェーン実装に固有の正規化されたデータ形式やスマートコントラクト要件を満たしているかによって判断される。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/ir/2018/NIST.IR.8202.pdf",
+              "quote": "protocol requirements and any formalized data formats or smart contract requirements specific to"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

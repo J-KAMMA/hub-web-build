@@ -1,0 +1,2036 @@
+[
+  {
+    "slug": "gene-therapy",
+    "topicType": "concept",
+    "categoryLabel": "生命科学",
+    "title": "遺伝子治療",
+    "summary": "遺伝子治療は、疾患を治療・予防・治癒するために遺伝子を用いる技術であり、多くの場合、壊れた遺伝子の新しいコピーの追加や、欠陥・欠損した遺伝子の健康な版への置換によって機能する。対象細胞によって生殖系治療と体細胞治療に分かれ、HIVやがんを対象とする臨床試験が進む一方で、オフターゲット編集や送達、将来の世代への影響をめぐる技術的・倫理的課題が残る。",
+    "bodyMarkdown": "## 定義と基本原理\n\n遺伝子治療とは、疾患を治療・予防・治癒するために[遺伝子](/hubpedia/gene)を用いる技術である。多くの場合、壊れた遺伝子の新しいコピーを追加するか、患者の細胞にある欠陥または欠損した遺伝子を健康な版へ置き換えることで機能する。 [1][2]\n\n対象となる疾患は遺伝性のものに限らない。血友病や鎌状赤血球症のような遺伝性疾患と、白血病のような後天性疾患の双方が治療されてきた。関連する手法としてゲノム編集があり、その技術ははさみのように特定の位置で[DNA](/hubpedia/dna)を切断し、切断した部位でDNAを除去・追加・置換できる。遺伝子治療と遺伝子編集には、多くの異なる版とアプローチが存在する。 [3][4][5]\n\n## 体細胞治療と生殖系治療\n\n遺伝子治療は、対象とする細胞の種類によって生殖系治療と体細胞治療の2つに分けられる。生殖系治療は精子や卵のような生殖細胞の遺伝子を変化させ、その変化は世代を超えて受け継がれる。対して体細胞治療は非生殖細胞を標的とし、そこで行われた変化は治療を受けた本人にのみ影響し、将来の世代には伝わらない。 [6][7][8]\n\n用途の方向性も異なる。生殖系治療は疾患の遺伝そのものを予防できる可能性があり、体細胞治療は疾患の進行を遅らせたり逆行させたりするために使える可能性がある。 [9][10]\n\n## 研究から臨床応用へ\n\n実際の研究の多くは、患者ではなく実験系で進められる。NHGRIや他のNIH研究所の支援を受けた研究の大半は、シャーレ内およびマウスやゼブラフィッシュなどの非ヒト生物で行われており、典型的な研究では疾患に寄与すると考えられる遺伝子をマウスの[ゲノム](/hubpedia/genome)で欠失・編集してヒト疾患をモデル化する。 [11][12]\n\n臨床への応用も試みられている。2015年には、英国で1歳のLaylaが白血病に対する遺伝子編集治療を受け、体細胞遺伝子治療が用いられた。その治療では[CRISPR](/hubpedia/crispr)ではなくTALENsという別のゲノム編集技術が使われた。この治療はLaylaの命を救ったが、同様の治療は依然として実験的である。 [13][14][15]\n\n体細胞アプローチによる治療は世界中の研究・商業ラボで開発が進み、HIVやがんを対象とする治療が臨床試験で試されている。将来的には、医師がゲノム編集技術を用いた標的遺伝子治療を処方し、患者のゲノムを修正して疾患を予防・停止・逆行させられるようになる可能性が提案されている。 [16][17]\n\n## 技術的・倫理的課題\n\n実現には技術的な壁が残る。意図しないオフターゲット編集のリスクとその影響は、従来より精密なCRISPRのような技術でもまだ分かっていない。また、治療を体内の正しい細胞へ効果的に届ける方法も克服すべき課題であり、多くの遺伝子は複数の機能を持つため、ある疾患を治すための編集が別の疾患を生みうる。 [18][19][20]\n\n倫理面では、生殖系治療は将来の世代に影響しうるため、より多くの倫理的ハードルを伴う。批評家は、生殖系治療が運動能力や身長のような非医療的形質を変える遺伝的増強への道を開く可能性を指摘する。多くの国と組織は生殖系編集を防ぐ厳しい規制を設けており、例えばNIHはヒト胚を編集する研究に資金を出していない。 [21][22][23]",
+    "sources": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Gene-Therapy",
+        "title": "Gene Therapy",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-genome-nhgri-policies-guidance/copyright"
+          },
+          "notes": "Talking Glossary definition and narration for gene therapy. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/about-genomics/policy-issues/what-is-Genome-Editing",
+        "title": "What is genome editing?",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-genome-nhgri-policies-guidance/copyright"
+          },
+          "notes": "NHGRI policy explainer on genome editing, covering the scissors analogy, somatic and germline categories, the Layla TALENs treatment case, technical barriers and germline rules. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+        "title": "How is Genome Editing Used?",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-genome-nhgri-policies-guidance/copyright"
+          },
+          "notes": "NHGRI policy explainer on uses of genome editing, including basic research practice, gene therapy categories, clinical trials and remaining technical and ethical barriers. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Gene therapy",
+        "summary": "Gene therapy is a technique that uses genes to treat, prevent or cure disease, often by adding new copies of a broken gene or replacing a defective or missing gene in a patient's cells with a healthy version. It divides into germline therapy, which alters reproductive cells, and somatic therapy, which targets non-reproductive cells; clinical trials are underway while technical and ethical challenges remain.",
+        "bodyMarkdown": "## Definition and basic principle\n\nGene therapy is a technique that uses a [gene](/hubpedia/gene) or genes to treat, prevent or cure disease. It often works by adding new copies of a gene that is broken, or by replacing a defective or missing gene in a patient's cells with a healthy version of that gene. [1][2]\n\nThe diseases addressed are not limited to inherited ones. Both inherited genetic diseases such as hemophilia and sickle cell disease and acquired disorders such as leukemia have been treated with gene therapy. A related approach is genome editing, whose technologies act like scissors that cut the [DNA](/hubpedia/dna) at a specific spot so that DNA can be removed, added or replaced where it was cut. Many different versions and approaches to gene therapy and gene editing exist. [3][4][5]\n\n## Somatic therapy and germline therapy\n\nGene therapies are divided into two categories by the cells they target. Germline therapies change genes in reproductive cells such as sperm and eggs, and those changes are passed down from generation to generation. Somatic therapies, in contrast, target non-reproductive cells, and changes made in them affect only the person who receives the gene therapy and do not pass on to future generations. [6][7][8]\n\nTheir potential uses differ as well. Germline therapy could potentially prevent the inheritance of diseases, while somatic therapies could be used to slow or reverse the disease process. [9][10]\n\n## From research to clinical application\n\nMuch of the actual research proceeds in experimental systems rather than in patients. The vast majority of work undertaken by scientists funded by NHGRI or other NIH Institutes takes place in the petri dish and in nonhuman organisms such as mice or zebrafish, and a typical study models human disease in mice by deleting or editing genes in the mouse [genome](/hubpedia/genome) thought to contribute to the disease. [11][12]\n\nClinical application has also been attempted. In 2015, a one-year-old in the United Kingdom named Layla received a gene editing treatment for leukemia using somatic gene therapy. The treatment used not [CRISPR](/hubpedia/crispr) but another genome editing technology called TALENs. It saved Layla's life, but treatments like hers remain experimental. [13][14][15]\n\nTherapies using the somatic approach are under development in research and commercial labs around the world, and treatments for HIV and cancer are being tested in clinical trials in patients. It has been proposed that physicians might eventually be able to prescribe targeted gene therapy using genome editing technologies to make corrections to patient genomes and prevent, stop or reverse disease. [16][17]\n\n## Technical and ethical challenges\n\nTechnical barriers remain. The risk of unintended off-target edits and their effects are still unknown even for technologies like CRISPR that are far more precise than earlier ones, delivering the therapy to the right cells in the body is another problem to overcome, and because many genes have more than one function, editing a gene to cure one disease could create another. [18][19][20]\n\nOn the ethical side, germline therapies pose a greater number of ethical hurdles because they can affect future generations. Critics have highlighted the possibility that germline therapies would pave the way for genetic enhancement — the use of genome editing to change non-medically relevant characteristics such as athletic ability or height. Many countries and organizations have strict regulations to prevent germline editing, and the NIH, for example, does not fund research to edit human embryos. [21][22][23]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "遺伝子治療は、疾患を治療・予防・治癒するために遺伝子を用いる技術である。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Gene-Therapy",
+              "quote": "Gene therapy is a technique that uses a gene(s) to treat, prevent or cure a disease or medical"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Gene-Therapy",
+              "quote": "disorder."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "遺伝子治療は多くの場合、壊れた遺伝子の新しいコピーを追加するか、患者の細胞にある欠陥または欠損した遺伝子を健康な版へ置き換えることで機能する。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Gene-Therapy",
+              "quote": "Often, gene therapy works by adding new copies of a gene that is broken, or by replacing a"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Gene-Therapy",
+              "quote": "defective or missing gene in a patient’s cells with a healthy version of that gene."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "血友病や鎌状赤血球症のような遺伝性疾患と、白血病のような後天性疾患の双方が遺伝子治療で治療されてきた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Gene-Therapy",
+              "quote": "Both inherited"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Gene-Therapy",
+              "quote": "genetic diseases (e.g., hemophilia and sickle cell disease) and acquired disorders (e.g., leukemia)"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Gene-Therapy",
+              "quote": "have been treated with gene therapy."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "ゲノム編集技術ははさみのように機能し、DNAを特定の位置で切断した後、切断部位でDNAを除去・追加・置換できる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/what-is-Genome-Editing",
+              "quote": "technologies act like scissors, cutting the DNA at a specific spot."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/what-is-Genome-Editing",
+              "quote": "Then scientists can remove, add,"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/what-is-Genome-Editing",
+              "quote": "or replace the DNA where it was cut."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "遺伝子治療と遺伝子編集には、多くの異なる版とアプローチが存在する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Gene-Therapy",
+              "quote": "There are many different versions and"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Gene-Therapy",
+              "quote": "approaches to gene therapy and gene editing."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "遺伝子治療には、生殖系治療と体細胞治療の2つの区分がある。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/what-is-Genome-Editing",
+              "quote": "There are two different categories of gene"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/what-is-Genome-Editing",
+              "quote": "therapies: germline therapy and somatic therapy."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "生殖系治療は精子や卵のような生殖細胞の遺伝子を変化させ、その変化は世代を超えて受け継がれる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "Germline therapies can alter many cell types but by definition they also"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "change genes in reproductive cells (like sperm and eggs). These changes would then be passed down"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "from generation to generation."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "体細胞治療は非生殖細胞を標的とし、そこで行われた変化は治療を受けた本人にのみ影響し、将来の世代には伝わらない。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "Somatic therapies, on the other hand, target non-reproductive cells. Changes made in these cells"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "affect only the person who receives the gene therapy and do not pass on to future generations."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "体細胞治療は疾患の進行を遅らせたり逆行させたりするために使える可能性がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "Somatic therapies could be used to slow or reverse the disease process."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "生殖系治療は疾患の遺伝を予防できる可能性がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "Germline therapy could potentially prevent inheritance of diseases."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "NHGRIや他のNIH研究所の支援を受けた研究の大半は、シャーレ内およびマウスやゼブラフィッシュなどの非ヒト生物で行われている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "the vast majority of work undertaken by scientists funded by NHGRI or other NIH Institutes"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "takes place in the petri dish and in nonhuman organisms such as mice or zebrafish."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "典型的な研究では、疾患に寄与すると考えられる遺伝子をマウスで欠失・編集してヒト疾患をモデル化する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "A typical study might be to model"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "human disease in mice by deleting or editing certain genes that are thought to contribute to the"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "2015年、英国の1歳児Laylaが白血病に対する遺伝子編集治療を受け、体細胞遺伝子治療が用いられた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/what-is-Genome-Editing",
+              "quote": "In 2015, scientists"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/what-is-Genome-Editing",
+              "quote": "somatic gene therapy when a one-year old in the United"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/what-is-Genome-Editing",
+              "quote": "Kingdom named Layla received a gene editing treatment to help her fight leukemia, a type of cancer."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "その治療ではCRISPRではなく、TALENsという別のゲノム編集技術が使われた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/what-is-Genome-Editing",
+              "quote": "These scientists did not use CRISPR to treat Layla, and instead used another genome editing"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/what-is-Genome-Editing",
+              "quote": "technology called TALENs."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "この治療はLaylaの命を救ったが、同様の治療は依然として実験的である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/what-is-Genome-Editing",
+              "quote": "saved Layla's life. However, treatments like the one that Layla received are still experimental"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "体細胞アプローチによる治療は世界中の研究・商業ラボで開発が進み、HIVやがんを対象とする治療が臨床試験で試されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "Of the two types of gene therapy, somatic therapies are the less controversial, and therapies using"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "this approach are under development in research and commercial labs around the world."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "HIV and cancer are being tested in clinical trials in patients."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "将来的には、医師がゲノム編集技術を用いた標的遺伝子治療を処方し、患者のゲノムを修正して疾患を予防・停止・逆行させられるようになる可能性が提案されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "physicians might eventually be able to prescribe targeted gene therapy to make corrections to"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "patient genomes and prevent, stop, or reverse disease."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "意図しないオフターゲット編集のリスクとその影響は、従来より精密なCRISPRのような技術でもまだ分かっていない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "The risk of off-target edits, or unintended edits,"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "and their effects are still unknown, even for a technology like CRISPR that is many times more"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "precise than previous techniques."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "治療を体内の正しい細胞へ効果的に届ける方法は、克服すべき課題である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "Another problem to overcome is how to deliver the genome editing"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "therapy to the right cells in the body in an effective manner."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "多くの遺伝子は複数の機能を持ち、ある疾患を治すための編集が別の疾患を生みうる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "Many genes have more than one function, and in some cases editing a gene to \"cure\" one"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "disease could create another."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "生殖系治療は将来の世代に影響しうるため、より多くの倫理的ハードルを伴う。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "In contrast, germline therapies pose"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "a greater number of ethical hurdles because of their ability to affect future generations."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "批評家は、生殖系治療が運動能力や身長のような非医療的形質を変える遺伝的増強への道を開く可能性を指摘する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "Critics have highlighted the possibility that germline therapies would pave"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "the way for genetic enhancement, the use of genome editing to change non-medically relevant"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Genome-Editing/How-genome-editing-is-used",
+              "quote": "characteristics, such as athletic ability or height."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "多くの国と組織は生殖系編集を防ぐ厳しい規制を設けており、NIHはヒト胚を編集する研究に資金を出していない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/what-is-Genome-Editing",
+              "quote": "countries and organizations have strict regulations to prevent germline editing for this reason."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/what-is-Genome-Editing",
+              "quote": "NIH, for example, does not fund research to edit human embryos."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "genetic-testing",
+    "topicType": "concept",
+    "categoryLabel": "生命科学",
+    "title": "遺伝子検査",
+    "summary": "遺伝子検査は、個人のDNAの変異を調べる実験室検査の利用を指し、医療・系譜研究・法医学の文脈で行われる。疾患の診断や発症リスクの予測、キャリア検査、出生前検査、新生児スクリーニング、薬理ゲノミクス検査など多くの種類があり、結果は受検者本人だけでなく血縁者にも影響しうる。費用や限界、差別への懸念があり、規制はFDA・CMS・FTCなど複数の連邦機関にまたがる。",
+    "bodyMarkdown": "## 定義と用途\n\n遺伝子検査とは、個人の[DNA](/hubpedia/dna)の変異を調べる実験室検査の利用を指し、通常は医療、系譜研究、法医学の文脈で行われる。医療の場では、検査結果は疑われる遺伝性疾患の確認または除外に使えるほか、親が[遺伝子](/hubpedia/gene)の変異を子へ伝える可能性の判定にも使われ、出生前または出生後に実施できる。がんの症例では腫瘍のゲノムを調べるためにも用いられる。 [1][2][3][4]\n\n検査の用途は診断にとどまらない。健康問題のリスク上昇の特定、治療の選択、治療への反応の評価にも使われうる。種類も多く、疾患の診断、すでに診断された疾患を引き起こす遺伝子変化の特定、疾患の重症度の判定、特定の個人への最適な薬や治療の選択の助け、発症リスクを高める遺伝子変化や子へ伝わりうる遺伝子変化の特定、治療可能な疾患の新生児スクリーニングなどが挙げられる。DNAの情報を明かす検査であるため、結果は受検者本人だけでなく血縁者にも影響を及ぼしうる。 [5][6][7]\n\n## 検査の種類\n\n目的別にいくつかの型がある。診断検査は、人を病にしている疾患を正確に特定するために用いられる。予測的・症候前検査は、疾患を発症する可能性を高める遺伝子変化を見つけるために用いられる。 [8][9]\n\n[キャリアスクリーニング](/hubpedia/carrier-screening)（キャリア検査）は、疾患に結びつく遺伝子の変化を保有する人を見つける。出生前検査は妊娠中に、特定の疾患を持つ胎児を特定する助けとして提供される。新生児スクリーニングは出生1〜2日後の乳児を対象に、健康や発達に問題を起こすことが知られる疾患を調べる。 [10][11][12]\n\n[薬理ゲノミクス](/hubpedia/pharmacogenomics)検査は、個人の体が特定の薬をどう処理するかの情報を与え、医療提供者がその遺伝的構成に合う薬を選ぶ助けになる。研究遺伝子検査は、遺伝子が健康や疾患に与える寄与をより深く学ぶために用いられ、結果が参加者本人に直接役立たなくても、人体・健康・疾患への理解を広げる形で他者に益することがある。 [13][14]\n\n## 利点と限界\n\n遺伝子検査は[変異](/hubpedia/mutation)を特定してもしなくても有益でありうる。結果が健康をめぐる不確実性を和らげる場合もあり、治療や監視の推奨や、本人と家族の健康に関する判断材料を与える。一方で、身体的健康への悪影響リスクは一般に低いものの、経済的・感情的に結果を知ることが困難な場合がある。費用は100ドル未満から2,000ドル超まで幅があり、健康保険が一部または全部をカバーすることがある。 [15][16][17]\n\n検査結果に基づく差別を懸念する人は多い。2008年に米議会は遺伝情報差別禁止法（GINA）を制定し、健康保険者や雇用主による差別から人々を保護したが、長期介護・障害・生命保険の提供者には適用されない。限界として、遺伝子検査は遺伝性疾患のすべてを教えてくれるわけではなく、陽性結果は必ずしも発症を意味せず、症状の重さの予測も難しい。検査は任意であり、受けるかどうかの決定は複雑である。 [18][19][20]\n\n## 規制の枠組み\n\n今日、ほとんどの遺伝子検査は規制されておらず、販売者の主張を検証する独立した分析なしに市場へ出ている。複数の連邦機関――食品医薬品局（FDA）、メディケア・メディケイドサービスセンター（CMS）、連邦取引委員会（FTC）――が遺伝子検査を規制する。検査は、分析的妥当性（特定の遺伝子や遺伝的変化の有無をどれだけ正確に予測するか）、臨床的妥当性（分析される遺伝子バリアントが特定疾患の有無やリスクとどれだけ関連するか）、臨床的有用性（診断・治療・管理・予防に有用な情報を提供できるか）という3つの基準で評価・規制されうる。 [21][22][23]\n\nCMSは1988年の臨床検査室改善法（CLIA）に基づくプログラムを通じて、臨床遺伝子検査を実施するラボを含む臨床検査室を規制し、臨床検査の分析的妥当性を管理する規制を実施しているが、ほとんどの遺伝子検査の臨床的妥当性には連邦の監督がない。FDAは遺伝子検査を医療機器の一種と見なして規制権を持つが、単一のラボで開発・実施されるラボ開発検査（LDT）にはこれまでエンフォースメント・ディスクリーションを適用してきた。つまりLDTは、分析的・臨床的妥当性についてFDAの評価を受けずに臨床で使われている。 [24][25]",
+    "sources": [
+      {
+        "url": "https://www.genome.gov/FAQ/Genetic-Testing",
+        "title": "Genetic Testing FAQ",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-genome-nhgri-policies-guidance/copyright"
+          },
+          "notes": "NHGRI health FAQ covering uses, types, benefits, drawbacks, cost, GINA and limitations of genetic testing. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Genetic-Testing",
+        "title": "Genetic Testing",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-genome-nhgri-policies-guidance/copyright"
+          },
+          "notes": "Talking Glossary definition and narration for genetic testing. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/about-genomics/policy-issues/Regulation-of-Genetic-Tests",
+        "title": "Regulation of Genetic Tests",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-genome-nhgri-policies-guidance/copyright"
+          },
+          "notes": "NHGRI policy explainer on the regulation of genetic tests, covering the validity criteria, the roles of FDA, CMS and FTC, CLIA and laboratory-developed tests. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Genetic testing",
+        "summary": "Genetic testing is the use of laboratory tests to examine an individual's DNA for variations, typically performed in the context of medical care, ancestry studies or forensics. Types include diagnostic, predictive, carrier, prenatal, newborn and pharmacogenomic testing, and results can affect blood relatives as well as the person tested. Costs and limitations exist, and regulation spans several federal agencies including the FDA, CMS and FTC.",
+        "bodyMarkdown": "## Definition and uses\n\nGenetic testing is the use of a laboratory test to examine an individual's [DNA](/hubpedia/dna) for variations, typically performed in the context of medical care, ancestry studies or forensics. In a medical setting, results can be used to confirm or rule out a suspected genetic disease, to determine the likelihood of parents passing a [gene](/hubpedia/gene) mutation on to their offspring, and testing may be performed prenatally or after birth. It is also used to study the genomes of tumors in cancer cases. [1][2][3][4]\n\nThe uses go beyond diagnosis. Genetic tests may be used to identify increased risks of health problems, to choose treatments, or to assess responses to treatments. There are many different types, helping to diagnose disease, identify gene changes responsible for an already diagnosed disease, determine severity, guide doctors in choosing the best medicine or treatment for certain individuals, identify gene changes that may increase disease risk or could be passed on to children, and screen newborn babies for certain treatable conditions. Because genetic testing reveals information about DNA shared with other family members, a result may have implications for blood relatives of the person who had testing. [5][6][7]\n\n## Types of tests\n\nSeveral types are distinguished by purpose. Diagnostic testing is used to precisely identify the disease that is making a person ill. Predictive and pre-symptomatic tests are used to find gene changes that increase a person's likelihood of developing diseases. [8][9]\n\n[Carrier screening](/hubpedia/carrier-screening), or carrier testing, finds people who carry a change in a gene that is linked to disease. Prenatal testing is offered during pregnancy to help identify fetuses that have certain diseases. Newborn screening tests babies one or two days after birth to find out if they have certain diseases known to cause problems with health and development. [10][11][12]\n\n[Pharmacogenomic](/hubpedia/pharmacogenomics) testing gives information about how certain medicines are processed by an individual's body, helping a healthcare provider choose medicines that work best with a person's genetic makeup. Research genetic testing is used to learn more about the contributions of genes to health and disease, and even when results are not directly helpful to participants, they may benefit others by expanding understanding of the human body, health and disease. [13][14]\n\n## Benefits and limitations\n\nGenetic testing may be beneficial whether the test identifies a [mutation](/hubpedia/mutation) or not. Results can relieve some of the uncertainty surrounding health and can help doctors make recommendations for treatment or monitoring. On the other hand, while the risk of negatively impacting physical health is generally low, it can be difficult financially or emotionally to find out results. Testing can cost anywhere from less than $100 to more than $2,000, and health insurance companies may cover part or all of the cost. [15][16][17]\n\nMany people worry about discrimination based on genetic test results. In 2008 the U.S. Congress enacted the Genetic Information Nondiscrimination Act (GINA) to protect people from discrimination by health insurance providers or employers, but GINA does not apply to long-term care, disability or life insurance providers. As for limitations, genetic testing cannot tell everything about inherited diseases: a positive result does not always mean a person will develop a disease, and it is hard to predict how severe symptoms may be. Testing is voluntary, and the decision about whether to have it is complex. [18][19][20]\n\n## Regulatory framework\n\nMost genetic tests today are not regulated, meaning that they go to market without any independent analysis to verify the claims of the seller. Several federal agencies regulate genetic tests: the Food and Drug Administration (FDA), the Centers for Medicare and Medicaid Services (CMS), and the Federal Trade Commission (FTC). Tests can be evaluated and regulated on three criteria: analytical validity — how well the test predicts the presence or absence of a particular gene or genetic change; clinical validity — how well the genetic variants being analyzed are related to the presence, absence or risk of a specific disease; and clinical utility — whether the test can provide information about diagnosis, treatment, management or prevention of a disease that will be helpful to patients and providers. [21][22][23]\n\nCMS regulates clinical laboratories, including laboratories conducting clinical genetic testing, through its CLIA program under the Clinical Laboratory Improvement Amendments of 1988, and implements regulations to control the analytical validity of clinical genetic tests, but there is no federal oversight of the clinical validity of most genetic tests. The FDA considers genetic tests to be a special type of medical device within its regulatory purview, but to date has practiced enforcement discretion for laboratory-developed tests (LDTs) — tests developed and performed by a single laboratory. This means that LDTs are being used in the clinic without the FDA's assessment of their analytical and clinical validity. [24][25]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "遺伝子検査は、個人のDNAの変異を調べる実験室検査の利用であり、通常は医療、系譜研究、法医学の文脈で行われる。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Genetic-Testing",
+              "quote": "Genetic testing is the use of a laboratory test to examine an individual’s DNA for variations,"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Genetic-Testing",
+              "quote": "typically performed in the context of medical care, ancestry studies or forensics."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "医療の場では、遺伝子検査の結果は疑われる遺伝性疾患の確認または除外に使える。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Genetic-Testing",
+              "quote": "the results of a genetic test can be used to confirm or rule out a suspected genetic"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Genetic-Testing",
+              "quote": "disease. Results may also be used to determine the likelihood of parents passing on a genetic"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "検査結果は親が遺伝子変異を子へ伝える可能性の判定にも使われ、検査は出生前または出生後に実施できる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Genetic-Testing",
+              "quote": "disease. Results may also be used to determine the likelihood of parents passing on a genetic"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Genetic-Testing",
+              "quote": "mutation to their offspring. Genetic testing may be performed prenatally or after birth."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "遺伝子検査は、がんの症例で腫瘍のゲノムを調べるためにも用いられる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Genetic-Testing",
+              "quote": "testing is also used to study the genomes of tumors in cancer cases."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "遺伝子検査は、健康問題のリスク上昇の特定、治療の選択、治療への反応の評価に使われうる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "Genetic tests may be used to identify increased risks of health problems, to choose treatments, or"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "to assess responses to treatments."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "遺伝子検査には、疾患の診断、重症度の判定、最適な薬や治療の選択の助け、発症リスクや子への伝達の特定、新生児スクリーニングなど多くの種類がある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "There are many different types of genetic tests."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "Determine the severity of a disease"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "Guide doctors in deciding on the best medicine or treatment to use for certain individuals"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "Screen newborn babies for certain treatable conditions"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "遺伝子検査はDNAの情報を明かすため、結果は受検者本人だけでなく血縁者にも影響を及ぼしうる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "tells you information about your DNA, which is shared with other family members, sometimes a genetic"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "test result may have implications for blood relatives of the person who had testing."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "診断検査は、人を病にしている疾患を正確に特定するために用いられる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "Diagnostic testing is used to precisely identify the disease that is making a person ill."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "予測的・症候前検査は、疾患を発症する可能性を高める遺伝子変化を見つけるために用いられる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "Predictive and pre-symptomatic genetic tests are used to find gene changes that increase a person's"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "likelihood of developing diseases."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "キャリア検査は、疾患に結びつく遺伝子の変化を保有する人を見つけるために用いられる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "Carrier testing is used to find people who \"carry\" a change in a gene that is linked to disease."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "出生前検査は妊娠中に、特定の疾患を持つ胎児を特定する助けとして提供される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "Prenatal testing is offered during pregnancy to help identify fetuses that have certain diseases."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "新生児スクリーニングは出生1〜2日後の乳児を対象に、健康や発達に問題を起こすことが知られる疾患を調べる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "Newborn screening is used to test babies one or two days after birth to find out if they have"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "certain diseases known to cause problems with health and development."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "薬理ゲノミクス検査は、個人の体が特定の薬をどう処理するかの情報を与え、遺伝的構成に合う薬の選択を助ける。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "Pharmacogenomic testing gives information about how certain medicines are processed by an"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "individual's body. This type of testing can help your healthcare provider choose the medicines that"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "work best with your genetic makeup."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "研究遺伝子検査は遺伝子が健康や疾患に与える寄与を深く学ぶために用いられ、結果が参加者に直接役立たなくても他者に益することがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "Research genetic testing is used to learn more about the contributions of genes to health and to"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "disease. Sometimes the results may not be directly helpful to participants, but they may benefit"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "others by helping researchers expand their understanding of the human body, health, and disease."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "遺伝子検査は変異を特定してもしなくても有益でありうる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "Genetic testing may be beneficial whether the test identifies a mutation or not."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "遺伝子検査が身体的健康に悪影響を与えるリスクは一般に低いが、経済的・感情的に結果を知ることが困難な場合がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "Genetic testing has a generally low risk of negatively impacting your physical health."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "However, it can be difficult financially or emotionally to find out your results."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "遺伝子検査の費用は100ドル未満から2,000ドル超まで幅があり、健康保険が一部または全部をカバーすることがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "Genetic testing can cost anywhere from less than $100 to more than $2,000."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "insurance companies may cover part or all of the cost of testing."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "2008年に米議会は遺伝情報差別禁止法（GINA）を制定し、健康保険者や雇用主による差別から人々を保護したが、長期介護・障害・生命保険には適用されない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "In 2008, Congress"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "enacted the Genetic Information Nondiscrimination Act (GINA) to protect people from discrimination"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "by their health insurance provider or employer. GINA does not apply to long-term care, disability,"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "or life insurance providers."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "遺伝子検査は遺伝性疾患のすべてを教えてくれるわけではなく、陽性結果は必ずしも発症を意味せず、症状の重さの予測も難しい。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "Genetic testing cannot tell you everything about inherited diseases."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "example, a positive result does not always mean you will develop a disease, and it is hard to"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "predict how severe symptoms may be."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "遺伝子検査は任意であり、受けるかどうかの決定は複雑である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "Genetic testing is voluntary and"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "decision about whether to have genetic testing is complex."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "今日、ほとんどの遺伝子検査は規制されておらず、販売者の主張を検証する独立した分析なしに市場へ出ている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Regulation-of-Genetic-Tests",
+              "quote": "Yet most genetic tests today are not regulated, meaning that they go to market"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Regulation-of-Genetic-Tests",
+              "quote": "without any independent analysis to verify the claims of the seller."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "食品医薬品局（FDA）、メディケア・メディケイドサービスセンター（CMS）、連邦取引委員会（FTC）という複数の連邦機関が遺伝子検査を規制する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Regulation-of-Genetic-Tests",
+              "quote": "Several federal agencies regulate genetic tests: the Food and Drug Administration (FDA), the Centers"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Regulation-of-Genetic-Tests",
+              "quote": "for Medicare and Medicaid Services (CMS), and the Federal Trade Commission (FTC)."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "遺伝子検査は、分析的妥当性・臨床的妥当性・臨床的有用性という3つの基準で評価・規制されうる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Regulation-of-Genetic-Tests",
+              "quote": "Refers to how well the test predicts the presence or absence of a"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Regulation-of-Genetic-Tests",
+              "quote": "Refers to how well the genetic variant(s) being analyzed is related to the"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Regulation-of-Genetic-Tests",
+              "quote": "Refers to whether the test can provide information about diagnosis, treatment,"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "CMSはCLIAプログラムを通じて臨床遺伝子検査を実施するラボを含む臨床検査室を規制し、分析的妥当性を管理する規制を実施するが、ほとんどの遺伝子検査の臨床的妥当性には連邦の監督がない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Regulation-of-Genetic-Tests",
+              "quote": "CMS regulates clinical laboratories, including laboratories conducting clinical genetic testing,"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Regulation-of-Genetic-Tests",
+              "quote": "through its CLIA program."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Regulation-of-Genetic-Tests",
+              "quote": "CMS implements regulations to control the analytical validity of clinical genetic tests, but there"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Regulation-of-Genetic-Tests",
+              "quote": "is no federal oversight of the clinical validity of most genetic tests."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "FDAは遺伝子検査を医療機器の一種と見なすが、単一のラボで開発・実施されるラボ開発検査（LDT）にはこれまでエンフォースメント・ディスクリーションを適用し、分析的・臨床的妥当性の評価なしに臨床で使われてきた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Regulation-of-Genetic-Tests",
+              "quote": "special type of medical device, and therefore these diagnostic tools fall within FDA's regulatory"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Regulation-of-Genetic-Tests",
+              "quote": "purview. Until recent years, FDA chose to apply \"enforcement discretion\" to the vast majority of"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Regulation-of-Genetic-Tests",
+              "quote": "and performed by a single laboratory, and where specimen samples are sent to that laboratory to be"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/policy-issues/Regulation-of-Genetic-Tests",
+              "quote": "used in the clinic without the FDA's assessment of their analytical and clinical validity."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "genome-sequencing",
+    "topicType": "concept",
+    "categoryLabel": "生命科学",
+    "title": "ゲノムシークエンシング",
+    "summary": "ゲノムシークエンシングは、DNA分子中の塩基（ヌクレオチド）の正確な配列を決定する実験室技術の総称で、遺伝子やゲノムの他の部分の機能を理解する基盤となる。ゲノムは小さな断片に分解して個別に読み取られ、得られたシークエンスリード群を計算機で再組み立てする。ヒトゲノム計画時に数億ドル規模だった費用は技術改良と自動化で数千ドルまで低下し、ナノポア法などの新技術も開発されている。医療ではがんの種類特定や希少疾患の原因解明、新生児スクリーニングの研究に利用が広がる。",
+    "bodyMarkdown": "## 定義と原理\n\nDNAシークエンシングとは、[DNA](/hubpedia/dna)分子中の塩基（ヌクレオチド）の正確な配列を決定する実験室技術の総称である。塩基の配列は化学名の頭文字A、T、C、Gで表され、細胞が発育し機能するために使う生物学的情報を符号化する。配列を確定することは、[遺伝子](/hubpedia/gene)や[ゲノム](/hubpedia/genome)の他の部分の機能を理解する鍵となる。 [1][2][3]\n\n配列は、特定のDNA断片にどのような遺伝情報が載っているかを研究者に示す。例えば、どの領域が遺伝子を含み、どの領域が遺伝子をオン・オフする調節指令を持つかを配列情報から判別でき、疾患の原因となりうる遺伝子の変化も浮き彫りにできる。 [4][5]\n\nDNAの二重らせんでは、4つの塩基は常に同じ相手と結合して「塩基対」を作る。アデニン（A）はチミン（T）と、シトシン（C）はグアニン（G）と対になる。この対合は細胞分裂でDNA分子が複製される仕組みの基礎であり、ほとんどのシークエンシング実験の原理にもなっている。ヒトのゲノムは約30億塩基対からなり、人間を作り維持する指示を綴っている。 [6][7]\n\n## 読み取りの手順\n\nゲノムの大きさは生物によって異なる。腸内に棲む細菌の大腸菌のゲノムは約500万塩基、ショウジョウバエは約1億2,300万塩基、ヒトは約30億塩基で、ロブロリーパインのゲノムは約230億塩基とヒトの7倍を超える。ゲノムのシークエンシングにかかる費用はその大きさに依存する。 [8][9]\n\nゲノムは大きく、現在の方法では塩基を端から端まで一度に読み取ることはできない。配列決定のためには、まずDNAを小さな断片に分解し、各断片に化学反応を施して塩基の種類と順序を推定する。各断片から得られた塩基順序は「シークエンスリード」と呼ばれ、数十億に及ぶリード群を計算機で再び組み立てて、元のゲノムの配列を推定する。この分解・個別配列決定・再組み立ての工程はかつて「ショットガンシークエンシング」と呼ばれ、ゲノム全体を対象にするときは「全ゲノムシークエンシング」と呼ばれる。 [10][11]\n\n代替として、ゲノムの一部だけを狙う標的シークエンシングがある。多くの場合、タンパク質をコードする領域である「エクソン」に限定して配列決定を行う。ヒトゲノムの全エクソン、すなわちヒト「エクソーム」はゲノム全体の約1.5%に相当し、全エクソームシークエンシングは少なくとも現時点では全ゲノムシークエンシングより安価である。 [12]\n\n配列の品質は、各塩基が実際に読まれた平均回数に大きく依存する。ヒトゲノム計画では、ゲノムの約90%を約99.9%の精度でカバーする「ドラフト配列」と、95%超を約99.99%の精度でカバーする「完成配列」という品質水準が使われた。真に高品質な完成配列の生成は労働集約的で高額であり、今日生成されるヒトゲノム配列のほとんどはドラフト配列である。 [13]\n\n## 技術の進展と費用\n\nヒトゲノム計画では、最初のドラフト配列が1999年4月から2000年6月の15か月で生成され、その推定費用は世界全体で約3億ドル、うちNIHがおよそ50〜60%を負担した。2003年までにドラフトは完成配列へ磨き上げられ、その段階の推定費用は約1億5,000万ドルで、最初の配列の総費用は5億〜10億ドルの間と見積もられている。2003年時点で、当時の技術による2つ目の参照配列は約5,000万ドルと試算された。 [14][15]\n\nその後も費用の低下は続いた。2006年には高品質ドラフトの生成費用は約1,400万ドルまで下がり、2015年半ばには4,000ドル強、同年末には1,500ドルを切った。全エクソーム配列の生成費用は一般に1,000ドル未満だった。 [16]\n\n[ヒトゲノム計画](/hubpedia/human-genome-project)完了後、技術改良と自動化により個々の遺伝子は日常的にシークエンスできるようになり、一部のラボは年間100兆塩基をはるかに超える量を処理し、ゲノム全体も数千ドルで読めるようになった。こうした新技術の多くはNHGRIのゲノム技術プログラムと先進DNAシークエンシング技術アワードの支援で開発され、現在より高品質なヒトゲノムを1,000ドル未満で読む技術の育成が目標の一つとされる。 [17][18]\n\n開発中の技術もある。一つは、細胞内でDNAの新しいコピーを作るDNAポリメラーゼ分子がDNAを写す様子を高速カメラと顕微鏡で観察し、A・T・C・Gのそれぞれに異なる色の染料を組み込ませる方法である。もう一つはナノポアを使う方法で、一本鎖DNAを膜上の極小の孔に通し、孔を流れるイオンと電流への影響の違いから塩基を一つずつ識別する。現行の方法と異なり、ナノポア法では同じ分子を繰り返し調べられる。 [19][20]\n\n## 利用と展望\n\n手法は複数存在し、それぞれ固有の特性を持つ。さらなる方法の開発はゲノミクス研究の活発な領域であり、研究者は異なる個人の100万塩基以上の領域を迅速かつ安価に比較できるようになった。 [21][22]\n\n医療への応用も広がっている。一部の大規模医療センターは疾患の検出・治療にシークエンシングを使い始め、がんでは配列データから患者のがんの種類を特定して治療選択に活かす。NHGRI支援の未診断疾患プログラムは希少疾患の遺伝的原因の特定に用い、新生児の疾患スクリーニングへの利用も研究されている。がんゲノムアトラスは約30種のがんの解析に使われ、チンパンジーや酵母など他生物とのゲノム配列の比較は発生と進化の理解を深める。 [23]\n\n情報の面でDNAは印刷された文字に似ており、DNAシークエンシングは「読む」過程である。この技術はゲノムの情報へのアクセスを広げたが、その情報が健康にとって何を意味するかの理解を広げることが今後の課題とされる。この問いは[遺伝子検査](/hubpedia/genetic-testing)の文脈でも中心にある。 [24]",
+    "sources": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/DNA-Sequencing",
+        "title": "DNA Sequencing",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-genome-nhgri-policies-guidance/copyright"
+          },
+          "notes": "Talking Glossary definition and narration for DNA sequencing, including the reading metaphor and the multiplicity of methods. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+        "title": "DNA Sequencing Fact Sheet",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-genome-nhgri-policies-guidance/copyright"
+          },
+          "notes": "NHGRI fact sheet on DNA sequencing, covering base pairing, post-Human-Genome-Project speed and cost, polymerase-observation and nanopore methods, and health applications. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost",
+        "title": "The Cost of Sequencing a Human Genome",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-genome-nhgri-policies-guidance/copyright"
+          },
+          "notes": "NHGRI fact sheet on the cost of sequencing a human genome, covering genome size, sequence reads and assembly, exome versus whole genome, quality levels, and the Human Genome Project to 2015 cost timeline. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Genome sequencing",
+        "summary": "Genome sequencing is the set of laboratory techniques for determining the order of bases in a DNA molecule, the foundation for understanding genes and the rest of the genome. A genome is broken into pieces, each piece is read, and the resulting sequence reads are computationally reassembled. Costs fell from hundreds of millions of dollars during the Human Genome Project to a few thousand dollars, and newer methods such as nanopore sequencing are in development. Medical uses include cancer classification and the study of rare diseases and newborn screening.",
+        "bodyMarkdown": "## Definition and principle\n\nDNA sequencing is the general laboratory technique for determining the exact sequence of nucleotides, or bases, in a [DNA](/hubpedia/dna) molecule. The sequence of the bases, referred to by the first letters of their chemical names A, T, C and G, encodes the biological information that cells use to develop and operate. Establishing the sequence is key to understanding the function of [genes](/hubpedia/gene) and other parts of the [genome](/hubpedia/genome). [1][2][3]\n\nThe sequence tells scientists what kind of genetic information a particular DNA segment carries. Sequence information can show which stretches of DNA contain genes and which carry regulatory instructions that turn genes on or off, and it can highlight changes in a gene that may cause disease. [4][5]\n\nIn the DNA double helix, the four chemical bases always bond with the same partner to form base pairs: adenine (A) pairs with thymine (T) and cytosine (C) pairs with guanine (G). This pairing underlies both the copying of DNA molecules when cells divide and the methods used in most sequencing experiments. The human genome contains about 3 billion base pairs that spell out the instructions for making and maintaining a human being. [6][7]\n\n## How a genome is read\n\nGenome size differs among organisms. The genome of E. coli, a bacterium that lives in the gut, is about 5 million bases; that of a fruit fly is about 123 million; and that of a human is about 3 billion, while the loblolly pine genome is about 23 billion bases, more than seven times larger than ours. The cost of sequencing a genome depends on its size. [8][9]\n\nGenomes are large and, with current methods, their bases cannot be read out in order end-to-end in a single step. To sequence a genome, its DNA is first broken into smaller pieces, and each piece is subjected to chemical reactions that let the identity and order of its bases be deduced. The established base order from each piece is called a sequence read, and the resulting set of reads, often numbering in the billions, is computationally assembled back together to deduce the sequence of the starting genome. This process of breaking down a genome, sequencing the pieces and reassembling the reads was historically called shotgun sequencing; when an entire genome is sequenced it is called whole-genome sequencing. [10][11]\n\nAn alternative is targeted sequencing of part of a genome, most often just the protein-coding regions residing in segments called exons. All of the exons in the human genome, the human exome, correspond to about 1.5 percent of the total genome, and whole-exome sequencing is, at least currently, cheaper than whole-genome sequencing. [12]\n\nSequence quality depends heavily on the average number of times each base is actually read. During the Human Genome Project the typical levels were a draft sequence covering about 90 percent of the genome at about 99.9 percent accuracy and a finished sequence covering more than 95 percent at about 99.99 percent accuracy. Producing truly high-quality finished sequence is labor-intensive and expensive, and most human genome sequences produced today are draft sequences. [13]\n\n## Falling costs and new technologies\n\nThe Human Genome Project produced a draft human genome sequence over a 15-month period from April 1999 to June 2000; the estimated cost was about $300 million worldwide, of which NIH provided roughly 50 to 60 percent. The draft was refined to a finished sequence by 2003 for an estimated $150 million more, and the total cost of that first genome sequence is estimated to be between $500 million and $1 billion. In 2003, generating a second reference sequence with the approaches then available was estimated at about $50 million. [14][15]\n\nThe decline continued. By 2006 the cost of generating a high-quality draft had fallen to about $14 million; in mid-2015 it was just above $4,000 and by late 2015 it had fallen below $1,500. Generating a whole-exome sequence generally cost less than $1,000. [16]\n\nSince the completion of the [Human Genome Project](/hubpedia/human-genome-project), technological improvements and automation have increased speed and lowered costs to the point that individual genes can be sequenced routinely; some labs can sequence well over 100,000 billion bases per year, and an entire genome can be sequenced for just a few thousand dollars. Many of these technologies were developed with support from the NHGRI Genome Technology Program and its Advanced DNA Sequencing Technology awards, and one NHGRI goal is to promote technologies that could sequence a higher-quality human genome for less than $1,000. [17][18]\n\nNewer technologies are also under development. One involves watching DNA polymerase molecules, the same molecules that copy DNA in our cells, as they work, using a very fast movie camera and microscope while incorporating bright dyes of different colors for each of the letters A, T, C and G. Another uses nanopores: single DNA strands are threaded through extremely tiny pores in a membrane, and bases are identified one at a time by their differing effects on ions and electrical current flowing through the pore. Unlike methods currently in use, nanopore sequencing lets researchers study the same molecule over and over again. [19][20]\n\n## Uses and outlook\n\nSeveral different sequencing methods now exist, each with its own characteristics, and developing additional methods is an active area of genomics research. Researchers can now compare stretches of DNA of a million bases or more from different individuals quickly and cheaply, yielding enormous information about the role of inheritance in disease susceptibility and response to environmental influences, and creating vast potential for diagnostics and therapies. [21][22]\n\nMedical applications are expanding. Some large medical centers have begun to use sequencing to detect and treat diseases; in cancer, physicians can increasingly use sequence data to identify the particular type of cancer a patient has and make better treatment choices. The NHGRI-supported Undiagnosed Diseases Program uses sequencing to try to identify the genetic causes of rare diseases, its use in newborn screening is under study, and The Cancer Genome Atlas has used it to unravel the genomic details of some 30 cancer types. Comparing the genome sequences of different organisms, such as chimpanzees and yeast, also gives insight into the biology of development and evolution. [23]\n\nIn terms of information, DNA is like printed text and sequencing is a process of reading. The technology has expanded access to the information in our genomes; the ongoing challenge is to expand understanding of what that information means for health, a question that also sits at the center of [genetic testing](/hubpedia/genetic-testing). [24]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "DNAシークエンシングは、DNA分子中のヌクレオチド（塩基）の正確な配列を決定する一般的な実験室技術である。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/DNA-Sequencing",
+              "quote": "DNA sequencing refers to the general laboratory technique for determining the exact sequence of nucleotides, or bases, in a DNA molecule."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "塩基の配列は化学名の頭文字A、T、C、Gで表され、細胞が発育し機能するために使う生物学的情報を符号化する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/DNA-Sequencing",
+              "quote": "The sequence of the bases (often referred to by the first letters of their chemical names: A, T, C, and G) encodes the biological information that cells use to develop and operate."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "DNAの配列を確定することは、遺伝子およびゲノムの他の部分の機能を理解する鍵である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/DNA-Sequencing",
+              "quote": "Establishing the sequence of DNA is key to understanding the function of genes and other parts of the genome."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "配列情報は特定のDNA断片に載る遺伝情報の種類を示し、遺伝子を含む領域と遺伝子をオン・オフする調節指令を持つ領域を判別できる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+              "quote": "The sequence tells scientists the kind of genetic information that is carried in a particular DNA segment."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+              "quote": "scientists can use sequence information to determine which stretches of DNA contain genes and which stretches carry regulatory instructions, turning genes on or off."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "配列データは、疾患を引き起こしうる遺伝子の変化を浮き彫りにできる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+              "quote": "sequence data can highlight changes in a gene that may cause disease."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "DNAの二重らせんでは4つの塩基が常に同じ相手と結合して塩基対を作り、アデニンはチミンと、シトシンはグアニンと対になる。この対合は細胞分裂時のDNA複製とほとんどのシークエンシング実験の原理の基礎である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+              "quote": "the four chemical bases always bond with the same partner to form \"base pairs.\""
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+              "quote": "Adenine (A) always pairs with thymine (T); cytosine (C) always pairs with guanine (G)."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+              "quote": "This pairing is the basis for the mechanism by which DNA molecules are copied when cells divide, and the pairing also underlies the methods by which most DNA sequencing experiments are done."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "ヒトゲノムは約30億塩基対からなり、人間を作り維持するための指示を綴っている。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+              "quote": "The human genome contains about 3 billion base pairs that spell out the instructions for making and maintaining a human being."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "ゲノムの大きさは生物によって異なり、大腸菌は約500万塩基、ショウジョウバエは約1億2,300万塩基、ヒトは約30億塩基、ロブロリーパインは約230億塩基である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost",
+              "quote": "(a bacterium that lives in your gut) is ~5 million bases (also called megabases), that of a fruit fly is ~123 million bases, and that of a human is ~3,000 million bases (or ~3 billion bases)."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost",
+              "quote": "its genome is ~23 billion bases in size, over seven times larger than ours."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "ゲノムのシークエンシング費用はその大きさに依存する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost",
+              "quote": "the cost to sequence a genome depends on its size."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "ゲノムの塩基は一端から他端まで一度の工程では読み取れず、DNAを小さな断片に分解し各断片に化学反応を施して塩基の種類と順序を推定する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost",
+              "quote": "their bases cannot be 'read out' in order"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost",
+              "quote": "to sequence a genome, its DNA must first be broken down into smaller pieces, with each resulting piece then subjected to chemical reactions that allow the identity and order of its bases to be deduced."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "各断片から得られた塩基順序はシークエンスリードと呼ばれ、数十億に及ぶリード群を計算機で再組み立てして元のゲノム配列を推定する。この工程はかつてショットガンシークエンシングと呼ばれ、ゲノム全体の場合は全ゲノムシークエンシングと呼ばれる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost",
+              "quote": "The established base order derived from each piece of DNA is often called a 'sequence read,'"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost",
+              "quote": "is then computationally assembled back together to deduce the sequence of the starting genome."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost",
+              "quote": "was called 'shotgun sequencing'"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost",
+              "quote": "When an entire genome is being sequenced, the process is called 'whole-genome sequencing.'"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "標的シークエンシングは多くの場合エクソンと呼ばれるタンパク質コード領域のみを配列決定し、ヒトエクソームはゲノム全体の約1.5%を占め、全エクソームシークエンシングは少なくとも現在は全ゲノムシークエンシングより安価である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost",
+              "quote": "Most often, this involves just sequencing the protein-coding regions of a genome, which reside within DNA segments called 'exons'"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost",
+              "quote": "all of the exons in the human genome (the human 'exome') correspond to ~1.5% of the total human genome."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost",
+              "quote": "whole-exome sequencing is (at least currently) cheaper than whole-genome sequencing."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "配列の品質は各塩基が読まれた平均回数に依存し、ヒトゲノム計画ではゲノムの約90%を約99.9%の精度でカバーするドラフト配列と95%超を約99.99%の精度でカバーする完成配列という水準が使われた。完成配列の生成は労働集約的で高額であり、今日のヒトゲノム配列のほとんどはドラフトである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost",
+              "quote": "That quality is heavily dependent upon the average number of times each base in the genome is actually 'read' during the sequencing process."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost",
+              "quote": "'draft sequence' (covering ~90% of the genome at ~99.9% accuracy); and (2) 'finished sequence' (covering >95% of the genome at ~99.99% accuracy)"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost",
+              "quote": "the process of 'sequence finishing' is very labor-intensive and is thus associated with high costs."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost",
+              "quote": "most human genome sequences produced today are 'draft sequences'"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "ヒトゲノム計画の最初のドラフト配列は1999年4月から2000年6月の15か月で生成され、推定費用は世界で約3億ドル、うちNIHが約50〜60%を負担した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost",
+              "quote": "was produced over a 15-month period (from April 1999 to June 2000)."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost",
+              "quote": "$300 million"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost",
+              "quote": "worldwide, of which NIH provided roughly 50-60%."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "2003年までにドラフトは完成配列へ磨き上げられ、その推定費用は約1億5,000万ドルで、最初の配列の総費用は少なくとも5億ドルから最大10億ドルと見積もられ、2003年時点で2つ目の参照配列は約5,000万ドルと試算された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost",
+              "quote": "which was achieved by 2003."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost",
+              "quote": "$150 million"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost",
+              "quote": "it would seem that this cost figure is at least $500 million; at the upper bound, this cost figure could be as high as $1 billion."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost",
+              "quote": "was in the neighborhood of $50 million."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "2006年には高品質ドラフトの生成費用は約1,400万ドルまで低下し、2015年半ばには4,000ドル強、同年末には1,500ドル未満となり、全エクソーム配列は一般に1,000ドル未満だった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost",
+              "quote": "the cost to generate a high-quality 'draft' human genome sequence had dropped to ~$14 million by 2006."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost",
+              "quote": "the cost to generate a high-quality 'draft' whole human genome sequence in mid-2015 was just above $4,000; by late in 2015, that figure had fallen below $1,500."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Sequencing-Human-Genome-cost",
+              "quote": "The cost to generate a whole-exome sequence was generally below $1,000."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "ヒトゲノム計画完了後、技術改良と自動化により個々の遺伝子は日常的にシークエンス可能となり、一部のラボは年間100兆塩基を超える量を処理し、ゲノム全体も数千ドルで読めるようになった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+              "quote": "Since the completion of the Human Genome Project, technological improvements and automation have increased speed and lowered costs to the point where individual genes can be sequenced routinely, and some labs can sequence well over 100,000 billion bases per year, and an entire genome can be sequenced for just a few thousand dollars."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "新技術の多くはNHGRIのゲノム技術プログラムと先進DNAシークエンシング技術アワードの支援で開発され、NHGRIの目標の一つは現在より高品質なヒトゲノムを1,000ドル未満で読む技術の促進である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+              "quote": "Many of these new technologies were developed with support from the National Human Genome Research Institute (NHGRI) Genome Technology Program and its Advanced DNA Sequencing Technology awards."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+              "quote": "One of NHGRI's goals is to promote new technologies that could eventually reduce the cost of sequencing a human genome of even higher quality than is possible today and for less than $1,000."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "開発中の一技術は、DNAを複写するDNAポリメラーゼ分子を高速カメラと顕微鏡で観察し、A・T・C・Gに異なる色の染料を組み込ませる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+              "quote": "One new sequencing technology involves watching DNA polymerase molecules as they copy DNA"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+              "quote": "with a very fast movie camera and microscope, and incorporating different colors of bright dyes, one each for the letters A, T, C and G."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "ナノポア法は一本鎖DNAを膜上の極小の孔に通し、孔を流れるイオンと電流への影響の違いから塩基を一つずつ識別し、同じ分子を繰り返し調べられる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+              "quote": "Nanopore-based DNA sequencing involves threading single DNA strands through extremely tiny pores in a membrane."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+              "quote": "DNA bases are read one at a time as they squeeze through the nanopore. The bases are identified by measuring differences in their effect on ions and electrical current flowing through the pore."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+              "quote": "nanopore DNA sequencing means researchers can study the same molecule over and over again."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "現在、複数のシークエンシング方法が存在しそれぞれ固有の特性を持ち、追加手法の開発はゲノミクス研究の活発な領域である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/DNA-Sequencing",
+              "quote": "There are now several different methods available for DNA sequencing, each with its own characteristics, and the development of additional methods represents an active area of genomics research."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "研究者は異なる個人の100万塩基以上の領域を迅速かつ安価に比較でき、疾患感受性における遺伝の役割や環境要因への反応について膨大な情報が得られ、診断・治療への大きな可能性を生む。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+              "quote": "Researchers now are able to compare large stretches of DNA - 1 million bases or more - from different individuals quickly and cheaply."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+              "quote": "Such comparisons can yield an enormous amount of information about the role of inheritance in susceptibility to disease and in response to environmental influences."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+              "quote": "the ability to sequence the genome more rapidly and cost-effectively creates vast potential for diagnostics and therapies."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "一部の大規模医療センターは疾患の検出・治療にシークエンシングを使い始め、がんでは配列データでがんの種類を特定して治療選択に活かす。NHGRI支援の未診断疾患プログラムは希少疾患の遺伝的原因の特定に用い、新生児スクリーニングへの利用も研究され、がんゲノムアトラスは約30種のがんの解析に使われている。他生物とのゲノム配列比較は発生と進化の理解を深める。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+              "quote": "some large medical centers have begun to use sequencing to detect and treat some diseases."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+              "quote": "physicians are increasingly able to use sequence data to identify the particular type of cancer a patient has."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+              "quote": "Researchers in the NHGRI-supported Undiagnosed Diseases Program use DNA sequencing to try to identify the genetic causes of rare diseases."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+              "quote": "is using DNA sequencing to unravel the genomic details of some 30 cancer types."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Fact-Sheet",
+              "quote": "Comparing the genome sequences of different types of animals and organisms, such as chimpanzees and yeast, can also provide insights into the biology of development and evolution."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "情報の面でDNAは印刷テキストに似ており、DNAシークエンシングは読む過程である。この技術はゲノム情報へのアクセスを広げ、今後の課題はその情報が健康に何を意味するかの理解を広げることである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/DNA-Sequencing",
+              "quote": "DNA sequencing is a process of reading."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/DNA-Sequencing",
+              "quote": "Reading DNA through DNA sequencing has expanded access to the information in our genomes."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/DNA-Sequencing",
+              "quote": "The ongoing challenge going forward will be to expand understanding about what this information means for our health."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "epigenetics",
+    "topicType": "concept",
+    "categoryLabel": "生命科学",
+    "title": "エピジェネティクス",
+    "summary": "エピジェネティクス（エピゲノミクスとも呼ばれる）は、基礎となる配列の変化を伴わないDNAの変化を研究する分野で、ゲノム中のすべてのエピジェネティクス変化の集合はエピゲノムと呼ばれる。DNAメチル化とヒストン修飾という2種類の化学標識が遺伝子のオン・オフを制御し、細胞の特化やインプリンティングに関わる。標識の一部は細胞分裂や世代を超えて伝わり、環境要因で変化しうる。がんやインプリンティング疾患との関連が示され、疾患研究の重要な一部となっている。",
+    "bodyMarkdown": "## 定義とエピゲノム\n\nエピジェネティクス（エピゲノミクスとも呼ばれる）は、基礎となる配列の変化を伴わない[DNA](/hubpedia/dna)の変化に焦点を当てた研究分野である。DNAの文字とそれと相互作用するタンパク質は化学修飾を持ちうり、[遺伝子](/hubpedia/gene)がどの程度オン・オフされるかを変える。[ゲノム](/hubpedia/genome)中のすべてのエピジェネティクス変化の集合は「エピゲノム」と呼ばれる。 [1][2]\n\n[エピゲノミクス](/hubpedia/epigenomics)という研究分野では、ゲノムを標識するすべての化学タグの位置を図示し、その機能を理解しようとする。ヒトゲノムは各個人を一意にする約30億塩基対のDNAの完全な集合であり、DNAは細胞の多様な機能を担うタンパク質を作る指示を保持する。対してエピゲノムは、ゲノムに何をすべきかを伝える多数の化学化合物である。 [3][4]\n\n## 働きと2種類の標識\n\nエピゲノムはDNAに付着し、遺伝子をオン・オフしたり特定の細胞でのタンパク質産生を制御したりする化合物とタンパク質からなる。エピゲノムの化合物がDNAに付着してその機能を修飾するとき、ゲノムは「標識された」と言う。これらの標識はDNAの配列を変えるのではなく、細胞がDNAの指示を使う方法を変える。 [5]\n\n人体には筋肉・骨・脳などで異なる機能に特化した数兆の細胞があり、それぞれの核内には本質的に同じゲノムが入っている。細胞間の差は、どの遺伝子群がいつどの種類の細胞でオン・オフされるかで決まる。眼の特殊な細胞は光を検出するタンパク質を作る遺伝子をオンにし、赤血球の特殊な細胞は酸素を全身へ運ぶタンパク質を作る。エピゲノムはゲノムへのこれらの変化の多くを制御する。 [6]\n\nエピゲノムは、細胞内のDNAおよびDNA結合タンパク質への化学修飾の集合であり、遺伝子発現を変え、減数分裂と有糸分裂を通じて遺伝可能である。修飾は発生と組織分化の自然な過程として生じ、環境曝露や疾患に応答して変化しうる。 [7]\n\n標識の1つ目はDNAメチル化で、ゲノムのDNAに直接作用する。この過程では、タンパク質がDNA分子の塩基の特定の位置にメチル基という化学タグを付ける。メチル基はDNAと他のタンパク質との相互作用に影響して遺伝子をオン・オフし、これにより細胞はどの遺伝子がオンになっているかを記憶できる。 [8]\n\n2つ目の標識はヒストン修飾で、DNAに間接的に作用する。細胞内のDNAはヒストンタンパク質に巻き付き、この糸巻き状の構造が長いDNA分子を核内の[染色体](/hubpedia/chromosome)へ整然と収めることを可能にする。タンパク質はヒストンに様々な化学タグを付け、細胞内の他のタンパク質がそれらのタグを検出して、その領域のDNAを使うべきか無視すべきかを決める。 [9]\n\n## 継承とインプリンティング\n\nある種のエピジェネティクス修飾は、細胞分裂で親細胞から娘細胞へ、あるいは一世代から次の世代へ伝わることがある。親がゲノムを子へ渡すときエピゲノムの多くはリセットされるが、状況によっては卵子や精子のDNAとヒストン上の化学タグの一部が次世代へ伝わる。細胞が分裂するときもエピゲノムの多くは次世代の細胞へ伝わり、細胞が特化した状態を保つのを助ける。 [10][11]\n\nヒトゲノムはすべての遺伝子を母親由来と父親由来の1コピーずつ2つ持つ。少数の遺伝子では母親由来のコピーのみがオンになり、別の遺伝子では父親由来のコピーのみがオンになる。このパターンはインプリンティングと呼ばれ、エピゲノムがインプリンティングされた遺伝子の2つのコピーを区別してどちらをオンにするかを決める。 [12]\n\n異常なインプリンティングが原因となる疾患がある。身体の過成長とがんリスク上昇を伴うベックウィッド・ヴィーデマン症候群、筋緊張の低下と絶え間ない空腹から肥満に至るプラダー・ヴィリ症候群、知的障害と運動困難をもたらすアンジェルマン症候群が含まれる。 [13]\n\n## 変化と疾患\n\n体内のすべての細胞は本質的に同じゲノムを持つが、細胞が特化するとき、DNAとヒストン上の化学タグで標識されたDNAは再配置される。エピゲノムは生涯を通じて変わりうる。喫煙・食事・感染症のような生活習慣や環境要因は化学反応を促す圧力を与え、その反応はエピゲノムの変化（損害的なものも含む）につながることがある。ただし、エピゲノムが生活の圧力に適応する能力は正常なヒトの健康に必要とされる。エピゲノム標識を「読み」「書き」するタンパク質の機能不全が原因のヒト疾患もある。 [14][15]\n\nがんはゲノム、エピゲノム、またはその両方の変化によって引き起こされる。エピゲノムの変化は細胞増殖や免疫応答に関わる遺伝子をオン・オフしうり、胃がん・結腸がん・最も一般的な腎がんでは増殖促進遺伝子を活性化し、別のがんでは増殖を抑える遺伝子を沈黙させる。グリオブラストーマという脳腫瘍では、DNAにメチル基を加えてがん細胞を殺す薬テモゾロミドでの治療に一定の成功があり、その薬を打ち消す遺伝子がメチル化でブロックされている腫瘍を持つ患者は応答しやすい。 [16][17]\n\nかつてヒト疾患は主にDNA配列の変化、細菌やウイルスのような感染因子、環境因子で起きると考えられていたが、現在はエピゲノムの変化も疾患の原因にも結果にもなりうることが示されている。DNAエレメント百科事典（ENCODE）プロジェクトの一環としてNHGRIは様々な細胞型のエピゲノム地図の作成に資金を出し、他のNIH支援研究者も複数のヒト器官・組織の地図を作った。がんゲノムアトラス（TCGA）の研究者は正常細胞とがん細胞のゲノムとエピゲノムを比較しており、エピゲノム地図はいつか個人の健康状態の判定や治療への反応の調整を可能にするかもしれない。 [18][19][20]",
+    "sources": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Epigenetics",
+        "title": "Epigenetics",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-genome-nhgri-policies-guidance/copyright"
+          },
+          "notes": "Talking Glossary definition and narration for epigenetics, including chemical modifications and the epigenome concept. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+        "title": "Epigenomics Fact Sheet",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-genome-nhgri-policies-guidance/copyright"
+          },
+          "notes": "NHGRI fact sheet on epigenomics, covering epigenome composition, DNA methylation and histone modification, inheritance and imprinting, environmental change, cancer links and mapping projects. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Epigenetics",
+        "summary": "Epigenetics, also called epigenomics, is a field of study focused on changes in DNA that do not involve alterations to the underlying sequence; the collection of all epigenetic changes in a genome is called the epigenome. Two kinds of chemical marks, DNA methylation and histone modification, regulate whether genes are turned on or off and are involved in cell specialization and imprinting. Some marks pass between cells or generations and can change with environmental exposures. Links to cancer and imprinting disorders have made the field a vital part of disease research.",
+        "bodyMarkdown": "## Definition and the epigenome\n\nEpigenetics, also sometimes called epigenomics, is a field of study focused on changes in [DNA](/hubpedia/dna) that do not involve alterations to the underlying sequence. The DNA letters and the proteins that interact with DNA can carry chemical modifications that change the degree to which [genes](/hubpedia/gene) are turned on and off. The collection of all epigenetic changes in a [genome](/hubpedia/genome) is called an epigenome. [1][2]\n\nIn the field known as [epigenomics](/hubpedia/epigenomics), researchers chart the locations and work to understand the functions of all the chemical tags that mark the genome. The human genome is the complete assembly of DNA, about 3 billion base pairs, that makes each individual unique, and DNA holds the instructions for building the proteins that carry out a variety of functions in a cell. The epigenome, by contrast, is a multitude of chemical compounds that can tell the genome what to do. [3][4]\n\n## How marks work\n\nThe epigenome is made up of chemical compounds and proteins that can attach to DNA and direct such actions as turning genes on or off and controlling the production of proteins in particular cells. When epigenomic compounds attach to DNA and modify its function, the genome is said to have been marked. These marks do not change the sequence of the DNA; rather, they change the way cells use the DNA's instructions. [5]\n\nA human being has trillions of cells specialized for different functions in muscles, bones and the brain, and each carries essentially the same genome in its nucleus. The differences among cells are determined by how and when different sets of genes are turned on or off in various kinds of cells. Specialized cells in the eye switch on genes that make proteins able to detect light, while specialized red blood cells make proteins that carry oxygen to the rest of the body. The epigenome controls many of these changes to the genome. [6]\n\nThe epigenome is the set of chemical modifications to the DNA and DNA-associated proteins in the cell; these modifications alter gene expression and are heritable via meiosis and mitosis. They occur as a natural process of development and tissue differentiation, and they can be altered in response to environmental exposures or disease. [7]\n\nThe first type of mark, called DNA methylation, directly affects the DNA in a genome. In this process, proteins attach chemical tags called methyl groups to the bases of the DNA molecule at specific places. The methyl groups turn genes on or off by affecting interactions between the DNA and other proteins, and in this way cells can remember which genes are on or off. [8]\n\nThe second kind of mark, called histone modification, affects DNA indirectly. DNA in cells is wrapped around histone proteins, which form spool-like structures that allow DNA's very long molecules to be wound up neatly into [chromosomes](/hubpedia/chromosome) inside the cell nucleus. Proteins can attach a variety of chemical tags to histones, and other proteins in the cell can detect these tags and determine whether that region of DNA should be used or ignored in that cell. [9]\n\n## Inheritance and imprinting\n\nCertain epigenetic modifications may be passed on from parent cell to daughter cell during cell division or from one generation to the next. Much of the epigenome is reset when parents pass their genomes to their offspring, but under some circumstances some of the chemical tags on the DNA and histones of eggs and sperm may be passed on to the next generation. When cells divide, much of the epigenome is often passed on to the next generation of cells, helping the cells remain specialized. [10][11]\n\nThe human genome contains two copies of every gene, one inherited from the mother and one from the father. For a small number of genes, only the copy from the mother is switched on; for others, only the copy from the father is turned on. This pattern is called imprinting, and the epigenome distinguishes between the two copies of an imprinted gene and determines which is switched on. [12]\n\nSome diseases are caused by abnormal imprinting. They include Beckwith-Wiedemann syndrome, a disorder associated with body overgrowth and increased risk of cancer; Prader-Willi syndrome, associated with poor muscle tone and constant hunger leading to obesity; and Angelman syndrome, which leads to intellectual disability and motion difficulties. [13]\n\n## Change and disease\n\nAlthough all cells in the body contain essentially the same genome, the DNA marked by chemical tags on the DNA and histones gets rearranged when cells become specialized, and the epigenome can also change throughout a person's lifetime. Lifestyle and environmental factors such as smoking, diet and infectious disease can expose a person to pressures that prompt chemical responses, which in turn often lead to changes in the epigenome, some of which can be damaging. Yet the ability of the epigenome to adjust to the pressures of life appears to be required for normal human health, and some human diseases are caused by malfunctions in the proteins that read and write epigenomic marks. [14][15]\n\nCancers are caused by changes in the genome, the epigenome, or both. Changes in the epigenome can switch on or off genes involved in cell growth or the immune response; they can activate growth-promoting genes in stomach cancer, colon cancer and the most common type of kidney cancer, and in some other cancers they silence genes that normally keep cell growth in check. In a type of brain tumor called glioblastoma, doctors have had some success treating patients with the drug temozolomide, which kills cancer cells by adding methyl groups to DNA; patients whose tumors have a counteracting gene blocked by methylation are far more likely to respond. [16][17]\n\nScientists once thought that human diseases were caused mainly by changes in DNA sequence, infectious agents such as bacteria and viruses, or environmental agents, but researchers have now demonstrated that changes in the epigenome can also cause, or result from, disease. As part of the ENCODE (ENCyclopedia Of DNA Elements) project, NHGRI is funding researchers to make epigenomic maps of various cell types, and other NIH-supported investigators have produced maps from several human organs and tissues. Researchers in The Cancer Genome Atlas network are comparing the genomes and epigenomes of normal cells with those of cancer cells, and epigenomic maps may someday enable doctors to determine an individual's health status and tailor a patient's response to therapies. [18][19][20]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "エピジェネティクス（エピゲノミクスとも呼ばれる）は、基礎となる配列の変化を伴わないDNAの変化に焦点を当てた研究分野である。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Epigenetics",
+              "quote": "Epigenetics (also sometimes called epigenomics) is a field of study focused on changes in DNA that do not involve alterations to the underlying sequence."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "DNAの文字とそれと相互作用するタンパク質は化学修飾を持ちうり、遺伝子がオン・オフされる度合いを変える。ゲノム中のすべてのエピジェネティクス変化の集合はエピゲノムと呼ばれる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Epigenetics",
+              "quote": "The DNA letters and the proteins that interact with DNA can have chemical modifications that change the degrees to which genes are turned on and off."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Epigenetics",
+              "quote": "The collection of all epigenetic changes in a genome is called an epigenome."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "エピゲノミクスは、ゲノムを標識するすべての化学タグの位置を図示しその機能を理解する研究分野である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "Epigenomics is a field in which researchers chart the locations and understand the functions of all the chemical tags that mark the genome."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "ヒトゲノムは各個人を一意にする約30億塩基対のDNAの完全な集合であり、DNAは細胞の多様な機能を担うタンパク質を作る指示を保持する。エピゲノムはゲノムに何をすべきかを伝える多数の化学化合物である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "The human genome is the complete assembly of DNA (deoxyribonucleic acid)-about 3 billion base pairs - that makes each individual unique."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "DNA holds the instructions for building the proteins that carry out a variety of functions in a cell."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "a multitude of chemical compounds that can tell the"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "エピゲノムはDNAに付着して遺伝子のオン・オフや特定細胞でのタンパク質産生を指示する化合物とタンパク質からなる。化合物がDNAに付着し機能を修飾するときゲノムは「標識された」と言い、標識はDNAの配列を変えず細胞がDNAの指示を使う方法を変える。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "The epigenome is made up of chemical compounds and proteins that can attach to DNA and direct such actions as turning genes on or off, controlling the production of proteins in particular cells."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "When epigenomic compounds attach to DNA and modify its function, they are said to have \"marked\" the genome."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "These marks do not change the sequence of the DNA. Rather, they change the way cells use the DNA's instructions."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "人体には筋肉・骨・脳で異なる機能に特化した数兆の細胞があり、各細胞は核内に本質的に同じゲノムを持つ。細胞間の差はどの遺伝子群がいつどの種類の細胞でオン・オフされるかで決まり、眼の特殊な細胞は光を検出するタンパク質を作る遺伝子をオンにし赤血球は酸素を運ぶタンパク質を作る。エピゲノムはこれらの変化の多くを制御する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "A human being has trillions of cells, specialized for different functions in muscles, bones and the brain, and each of these cells carries essentially the same genome in its nucleus."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "The differences among cells are determined by how and when different sets of genes are turned on or off in various kinds of cells."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "Specialized cells in the eye turn on genes that make proteins that can detect light, while specialized cells in red blood cells make proteins that carry oxygen from the air to the rest of the body."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "The epigenome controls many of these changes to the genome."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "エピゲノムは細胞内のDNAおよびDNA結合タンパク質への化学修飾の集合で、遺伝子発現を変え、減数分裂と有糸分裂を通じて遺伝可能である。修飾は発生と組織分化の自然な過程として生じ、環境曝露や疾患に応答して変わりうる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "The epigenome is the set of chemical modifications to the DNA and DNA-associated proteins in the cell, which alter gene expression, and are heritable (via meiosis and mitosis)."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "The modifications occur as a natural process of development and tissue differentiation, and can be altered in response to environmental exposures or disease."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "1つ目の標識であるDNAメチル化はゲノムのDNAに直接作用し、タンパク質がDNA分子の塩基の特定位置にメチル基という化学タグを付ける。メチル基はDNAと他のタンパク質との相互作用に影響して遺伝子をオン・オフし、これにより細胞はどの遺伝子がオンかを記憶できる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "The first type of mark, called DNA methylation, directly affects the DNA in a genome."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "proteins attach chemical tags called methyl groups to the bases of the DNA molecule in specific places."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "The methyl groups turn genes on or off by affecting interactions between the DNA and other proteins. In this way, cells can remember which genes are on or off."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "2つ目の標識であるヒストン修飾はDNAに間接的に作用する。細胞内のDNAはヒストンタンパク質に巻き付き、糸巻き状の構造が長いDNA分子を核内の染色体に整然と収める。タンパク質はヒストンに様々な化学タグを付け、他のタンパク質がそれを検出してその領域のDNAを使うべきか無視すべきかを決める。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "The second kind of mark, called histone modification, affects DNA indirectly."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "DNA in cells is wrapped around histone proteins, which form spool-like structures that enable DNA's very long molecules to be wound up neatly into chromosomes inside the cell nucleus."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "Proteins can attach a variety of chemical tags to histones. Other proteins in cells can detect these tags and determine whether that region of DNA should be used or ignored in that cell."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "ある種のエピジェネティクス修飾は、細胞分裂で親細胞から娘細胞へ、あるいは一世代から次の世代へ伝わることがある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Epigenetics",
+              "quote": "Certain epigenetic modifications may be passed on from parent cell to daughter cell during cell division or from one generation to the next."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "The marks are sometimes passed on from cell to cell as cells divide. They also can be passed down from one generation to the next."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "親がゲノムを子へ渡すときエピゲノムの多くはリセットされるが、状況によっては卵子や精子のDNAとヒストン上の化学タグの一部が次世代へ伝わることがある。細胞分裂時にはエピゲノムの多くが次世代細胞へ伝わり、細胞の特化状態の維持を助ける。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "Much of the epigenome is reset when parents pass their genomes to their offspring; however, under some circumstances, some of the chemical tags on the DNA and histones of eggs and sperm may be passed on to the next generation."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "When cells divide, often much of the epigenome is passed on to the next generation of cells, helping the cells remain specialized."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "ヒトゲノムはすべての遺伝子を母親由来と父親由来の1コピーずつ2つ持つ。少数の遺伝子では母親由来のコピーのみがオンになり、別の遺伝子では父親由来のみがオンになる。このパターンはインプリンティングと呼ばれ、エピゲノムが2つのコピーを区別してどちらをオンにするかを決める。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "The human genome contains two copies of every gene-one copy inherited from the mother and one from the father."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "For a small number of genes, only the copy from the mother gets switched on; for others, only the copy from the father is turned on. This pattern is called imprinting."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "The epigenome distinguishes between the two copies of an imprinted gene and determines which is switched on."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "異常なインプリンティングが原因の疾患があり、身体の過成長とがんリスク上昇を伴うベックウィッド・ヴィーデマン症候群、筋緊張低下と絶え間ない空腹から肥満に至るプラダー・ヴィリ症候群、知的障害と運動困難をもたらすアンジェルマン症候群が含まれる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "Some diseases are caused by abnormal imprinting."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "Beckwith-Wiedemann syndrome, a disorder associated with body overgrowth and increased risk of cancer; Prader-Willi syndrome, associated with poor muscle tone and constant hunger, leading to obesity; and Angelman syndrome, which leads to intellectual disability, as well motion difficulties."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "体内のすべての細胞は本質的に同じゲノムを持つが、細胞が特化するときDNAとヒストン上の化学タグで標識されたDNAは再配置され、エピゲノムは生涯を通じて変わりうる。喫煙・食事・感染症のような生活習慣・環境要因は化学反応を促す圧力を与え、エピゲノムの変化につながることがあるが、生活の圧力に適応する能力は正常な健康に必要とされる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "Although all cells in the body contain essentially the same genome, the DNA marked by chemical tags on the DNA and histones gets rearranged when cells become specialized. The epigenome can also change throughout a person's lifetime."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "Lifestyle and environmental factors (such as smoking, diet and infectious disease) can expose a person to pressures that prompt chemical responses."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "the ability of the epigenome to adjust to the pressures of life appears to be required for normal human health."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "エピゲノム標識を「読み」「書き」するタンパク質の機能不全が原因のヒト疾患がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "Some human diseases are caused by malfunctions in the proteins that \"read\" and \"write\" epigenomic marks."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "がんはゲノム、エピゲノム、またはその両方の変化によって引き起こされ、エピゲノムの変化は細胞増殖や免疫応答に関わる遺伝子をオン・オフしうる。胃がん・結腸がん・最も一般的な腎がんでは増殖促進遺伝子を活性化し、別のがんでは増殖を抑える遺伝子を沈黙させる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "Cancers are caused by changes in the genome, the epigenome, or both. Changes in the epigenome can switch on or off genes involved in cell growth or the immune response."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "Changes in the epigenome also can activate growth-promoting genes in stomach cancer, colon cancer and the most common type of kidney cancer. In some other cancers, changes in the epigenome silence genes that normally serve to keep cell growth in check."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "グリオブラストーマという脳腫瘍では、DNAにメチル基を加えてがん細胞を殺す薬テモゾロミドでの治療に一定の成功があり、その薬を打ち消す遺伝子がメチル化でブロックされている腫瘍を持つ患者は応答しやすい。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "In a type of brain tumor called glioblastoma, doctors have had some success in treating patients with the drug temozolomide, which kills cancer cells by adding methyl groups to DNA."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "it blocks a gene that counteracts temozolomide. Glioblastoma patients whose tumors have such methylated genes are far more likely to respond to temozolomide than those with unmethylated genes."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "かつてヒト疾患は主にDNA配列の変化、細菌やウイルスのような感染因子、環境因子で起きると考えられていたが、現在はエピゲノムの変化も疾患の原因にも結果にもなりうることが示されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "Until recently, scientists thought that human diseases were caused mainly by changes in DNA sequence, infectious agents such as bacteria and viruses, or environmental agents."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "researchers have demonstrated that changes in the epigenome also can cause, or result from, disease."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "DNAエレメント百科事典（ENCODE）プロジェクトの一環としてNHGRIは様々な細胞型のエピゲノム地図の作成に資金を出し、他のNIH支援研究者も複数のヒト器官・組織の地図を作った。エピゲノム地図はいつか個人の健康状態の判定や治療への反応の調整を可能にするかもしれない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "As part of the ENCODE (ENCyclopedia Of DNA Elements) project-which aims to catalog the working parts of the genome-the National Human Genome Research Institute is funding researchers to make epigenomic maps of various cell types."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "Epigenomic maps may someday enable doctors to determine an individual's health status and tailor a patient's response to therapies."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "がんゲノムアトラス（TCGA）ネットワークの研究者は正常細胞とがん細胞のゲノムとエピゲノムを比較しており、正常細胞をがん細胞に変えるすべての変化の理解は診断・治療・予防の改善を速める。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "researchers in The Cancer Genome Atlas (TCGA) Network, which is supported by the National Institutes of Health (NIH), are comparing the genomes and epigenomes of normal cells with those of cancer cells."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/Epigenomics-Fact-Sheet",
+              "quote": "Understanding all the changes that turn a normal cell into a cancer cell will speed efforts to develop new and better ways of diagnosing, treating and preventing cancer."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "carrier-screening",
+    "topicType": "concept",
+    "categoryLabel": "生命科学",
+    "title": "キャリアスクリーニング",
+    "summary": "キャリアスクリーニング（キャリア検査）は、特定の疾患や形質に関連する遺伝的変異（アレル）を人が保有しているかを調べる遺伝子検査で、主に常染色体潜性または性連鎖で遺伝する疾患を対象とする。キャリアは症状を示さないが変異を子へ伝えうり、両親が同じ遺伝子のキャリアの場合、子は妊娠ごとに25%の確率で両方の働かないコピーを受け継ぐ。多くの人は自分がキャリアだと知らず、検査は家族歴やリスクの高い民族集団を対象に提供されることが多い。",
+    "bodyMarkdown": "## 定義と目的\n\nキャリアスクリーニング（キャリア検査）は、特定の疾患や形質に関連する[遺伝的変異](/hubpedia/genetic-variation)（アレル）を人が「保有」しているかを調べる検査である。[遺伝子検査](/hubpedia/genetic-testing)の一種として、疾患に結びつく[遺伝子](/hubpedia/gene)の変化を保有する人を見つけるために用いられる。 [1][3]\n\n遺伝学でキャリアとは、常染色体潜性または性連鎖の様式で遺伝する疾患（または形質）に関連するゲノム変異（アレル）を保有し子へ伝えうるが、その疾患の症状（または形質の特徴）を示さない個人を指す。キャリアは片方の親から変異アレルを、もう片方の親から正常アレルを受け継いでいる。キャリアスクリーニングは最も典型的には、疑われるキャリアに疾患の症状がなく、もう片方の親が同じ遺伝子の有害変異のキャリアであれば子が発症しうる潜性遺伝疾患を調べるために行われる。 [2][4]\n\n## 遺伝様式と発症リスク\n\nキャリアは疾患の兆候を示さないことがあるが、遺伝子変化を子へ伝えることができ、子は発症するか自身もキャリアになることがある。一部の疾患では、発症するために両親双方から遺伝子変化を受け継ぐ必要がある。 [5][6]\n\nヒトは各遺伝子を2コピーずつ持つが、一部の遺伝子では1つの働くコピーだけで大きな医学的問題はほぼ生じない。問題が生じるのは、同じ常染色体潜性疾患のキャリアである相手との間に子をもうけ、子が両親から働かないコピーを両方とも受け継いだときで、その確率は妊娠ごとに25%である。キャリアの子は親から変異アレルを受け継ぐリスクがあり、それはその子が疾患（または形質）を持つことにつながる。 [7][8][9]\n\nほとんどの場合、人は自分がキャリアだとは知らない。 [10]\n\n## 実施の時期と対象\n\nキャリアスクリーニングは、妊娠を考える時期など子を持つ頃に考えられることが多く、本人がときにパートナーとともに、子が遺伝性疾患を持つ可能性があるかを見るために受ける。実施される時期は他にもある。 [11][12]\n\nこの検査は通常、特定の遺伝性疾患の家族歴を持つ人や、特定の遺伝性疾患のリスクが高い特定の民族集団に属する人に提供される。現在では、将来の親がより一般的な常染色体潜性疾患のキャリアかどうかを遺伝学的に調べることが可能である。 [13][14]\n\n## 結果と家族への影響\n\nキャリアスクリーニングは、遺伝的変化が親族間で共有され、世代を超えて伝わりうることを示す。遺伝子検査は家族と共有される[DNA](/hubpedia/dna)の情報を明かすため、結果は受検者本人の血縁者にも影響しうる。 [15][16]\n\n遺伝子検査の結果は理解しにくいことがあり、遺伝学者や遺伝カウンセラーのような専門家が結果の意味の説明を助けられる。検査自体は、母と父から受け継ぐDNAの指示である遺伝子を調べる実験室的手法を用いる。[ゲノムシークエンシング](/hubpedia/genome-sequencing)の進展はこうした検査の基盤にもなっている。 [17][18]",
+    "sources": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Carrier-Screening",
+        "title": "Carrier Screening",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-genome-nhgri-policies-guidance/copyright"
+          },
+          "notes": "Talking Glossary definition and narration for carrier screening, covering the carrier concept, recessive-disease purpose and screening timing. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Carrier",
+        "title": "Carrier",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-genome-nhgri-policies-guidance/copyright"
+          },
+          "notes": "Talking Glossary definition and narration for the genetic carrier concept, covering autosomal recessive and sex-linked inheritance, the 25 percent risk, and screening of prospective parents. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/FAQ/Genetic-Testing",
+        "title": "Genetic Testing FAQ",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-genome-nhgri-policies-guidance/copyright"
+          },
+          "notes": "NHGRI health FAQ on genetic testing, covering the carrier testing type, who it is offered to, and the family implications of results. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Carrier screening",
+        "summary": "Carrier screening, also called carrier testing, is a genetic test that finds whether a person carries a genetic variation (allele) associated with a specific disease or trait, chiefly diseases inherited in an autosomal recessive or sex-linked manner. Carriers show no symptoms but can pass the variant to offspring; when both parents carry a variant in the same gene, each pregnancy carries a 25 percent chance the child inherits both nonworking copies. Most people do not know they are carriers, and testing is often offered to people with a family history or membership in higher-risk ethnic groups.",
+        "bodyMarkdown": "## Definition and purpose\n\nCarrier screening, also called carrier testing, is testing to find out whether a person carries a [genetic variation](/hubpedia/genetic-variation), or allele, associated with a specific disease or trait. As one type of [genetic testing](/hubpedia/genetic-testing), it is used to find people who carry a change in a [gene](/hubpedia/gene) that is linked to disease. [1][3]\n\nIn genetics, a carrier is an individual who carries and can pass on to offspring a genomic variant associated with a disease or trait inherited in an autosomal recessive or sex-linked manner, while not showing symptoms of that disease or features of that trait. A carrier has inherited a variant allele from one parent and a normal allele from the other. Most typically, carrier screening is performed to look for recessively inherited diseases when the suspected carrier has no symptoms, but that person's offspring could have the disease if the other parent is a carrier of a harmful variant in the same gene. [2][4]\n\n## Inheritance pattern and disease risk\n\nCarriers may show no signs of the disease, yet they can pass the gene change on to their children, who may develop the disease or become carriers themselves. Some diseases require a gene change to be inherited from both parents for the disease to occur. [5][6]\n\nHumans carry two copies of each gene, and for some genes having only one working copy causes essentially no major medical issues. The difficulty arises when a child is conceived with another person who is also a carrier for the same autosomal recessive disorder and the child inherits both nonworking copies, one from each parent; there is a 25 percent chance of this happening with every pregnancy. Any offspring of carriers is at risk of inheriting a variant allele from their parents, which would result in the child having the disease or trait. [7][8][9]\n\nMost often, people do not know that they are carriers. [10]\n\n## Timing and candidates\n\nCarrier screening is often considered around the time a person may have a child, such as when a person is considering becoming pregnant; the person, sometimes together with their partner, undergoes screening to see whether their child could be affected by a genetic condition. There are also other times when carrier screening may be done. [11][12]\n\nThis type of testing is usually offered to people who have a family history of a specific inherited disease or who belong to certain ethnic groups that have a higher risk of specific inherited diseases. It is now possible to genetically screen prospective parents to determine whether they are carriers for any of the more commonly seen autosomal recessive disorders. [13][14]\n\n## Results and family implications\n\nCarrier screening shows how genetic changes can be shared among relatives and passed from one generation to the next. Because genetic testing reveals information about [DNA](/hubpedia/dna) shared with other family members, a result may have implications for the blood relatives of the person tested. [15][16]\n\nGenetic test results can be hard to understand, and specialists such as geneticists and genetic counselors can help explain what results might mean. The testing itself uses laboratory methods to look at genes, the DNA instructions inherited from the mother and the father, and progress in [genome sequencing](/hubpedia/genome-sequencing) underpins such tests. [17][18]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "キャリアスクリーニングは、特定の疾患や形質に関連する遺伝的変異（アレル）を人が「保有」しているかを調べる検査である。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Carrier-Screening",
+              "quote": "Carrier screening involves testing to see if a person “carries” a genetic variation (allele) associated with a specific disease or trait."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "遺伝学でキャリアとは、常染色体潜性または性連鎖の様式で遺伝する疾患（形質）に関連するゲノム変異（アレル）を保有し子へ伝えうるが、その疾患の症状（形質の特徴）を示さない個人を指す。キャリアは片方の親から変異アレルを、もう片方から正常アレルを受け継いでいる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Carrier",
+              "quote": "A carrier, as related to genetics, is an individual who “carries” and can pass on to its offspring a genomic variant (allele) associated with a disease (or trait) that is inherited in an autosomal recessive or sex-linked manner, and who does not show symptoms of that disease (or features of that trait)."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Carrier",
+              "quote": "The carrier has inherited the variant allele from one parent and a normal allele from the other parent."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "遺伝子検査の一種として、キャリア検査は疾患に結びつく遺伝子の変化を保有する人を見つけるために用いられる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "Carrier testing is used to find people who \"carry\" a change in a gene that is linked to disease."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "キャリアスクリーニングは最も典型的には、疑われるキャリアに疾患の症状がなく、もう片方の親が同じ遺伝子の有害変異のキャリアであれば子が発症しうる潜性遺伝疾患を調べるために行われる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Carrier-Screening",
+              "quote": "Most typically, carrier screening is performed to look for recessively inherited diseases when the suspected carrier has no symptoms of the disease, but that person’s offspring could have the disease if the other parent is a carrier of a harmful variant in the same gene."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "キャリアは疾患の兆候を示さないことがあるが、遺伝子変化を子へ伝えることができ、子は発症するか自身もキャリアになることがある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "Carriers may show no signs of the disease; however, they have the ability to pass on the gene change to their children, who may develop the disease or become carriers themselves."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "一部の疾患では、発症するために両親双方から遺伝子変化を受け継ぐ必要がある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "Some diseases require a gene change to be inherited from both parents for the disease to occur."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "ヒトは各遺伝子を2コピーずつ持つが、一部の遺伝子では1つの働くコピーだけで大きな医学的問題はほぼ生じない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Carrier",
+              "quote": "even though we all have two copies of each gene, for some genes you can have only one working copy and essentially have no major medical issues."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "同じ常染色体潜性疾患のキャリアである相手との間に子をもうけ、子が両親から働かないコピーを両方とも受け継ぐと問題が生じ、その確率は妊娠ごとに25%である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Carrier",
+              "quote": "The challenge arises when you have a child with another person who is also a carrier for the same autosomal recessive disorder, and the child inherits both nonworking copies from each parent."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Carrier",
+              "quote": "There's a 25% chance of this happening with every pregnancy."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "キャリアの子は親から変異アレルを受け継ぐリスクがあり、それはその子が疾患（形質）を持つことにつながる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Carrier",
+              "quote": "Any offspring of carriers is at risk of inheriting a variant allele from their parents, which would result in that child having the disease (or trait)."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "ほとんどの場合、人は自分がキャリアだとは知らない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Carrier",
+              "quote": "Most often, people don't know that they are carriers."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "キャリアスクリーニングは、妊娠を考える時期など子を持つ頃に考えられることが多く、本人がときにパートナーとともに、子が遺伝性疾患を持つ可能性があるかを見るために受ける。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Carrier-Screening",
+              "quote": "Carrier screening is often thought about around the time a person may have a child, such as when a person is considering becoming pregnant."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Carrier-Screening",
+              "quote": "The person, sometimes with their partner, undergoes carrier screening to see if there's a chance that their child could be affected by a genetic condition."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "キャリアスクリーニングが行われる時期は他にもある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Carrier-Screening",
+              "quote": "There are also other times that carrier screening may be done."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "この検査は通常、特定の遺伝性疾患の家族歴を持つ人や、特定の遺伝性疾患のリスクが高い特定の民族集団に属する人に提供される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "This type of testing usually is offered to people who have a family history of a specific inherited disease or who belong to certain ethnic groups that have a higher risk of specific inherited diseases."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "現在では、将来の親がより一般的な常染色体潜性疾患のキャリアかどうかを遺伝学的に調べることが可能である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Carrier",
+              "quote": "it's now possible to genetically screen prospective parents to determine whether they are carriers for any of the more commonly seen autosomal recessive disorders."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "キャリアスクリーニングは、遺伝的変化が親族間で共有され世代を超えて伝わりうることを示す。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Carrier-Screening",
+              "quote": "it shows how genetic changes can be shared among relatives and can be passed from one generation to the next."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "遺伝子検査は家族と共有されるDNAの情報を明かすため、結果は受検者本人の血縁者にも影響しうる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "Because genetic testing tells you information about your DNA, which is shared with other family members, sometimes a genetic test result may have implications for blood relatives of the person who had testing."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "遺伝子検査の結果は理解しにくいことがあり、遺伝学者や遺伝カウンセラーのような専門家が結果の意味の説明を助けられる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "Genetic test results can be hard to understand, however specialists like geneticists and genetic counselors can help explain what results might mean to you and your family."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "遺伝子検査は、母と父から受け継ぐDNAの指示である遺伝子を調べる実験室的手法を用いる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Genetic-Testing",
+              "quote": "Genetic testing uses laboratory methods to look at your genes, which are the DNA instructions you inherit from your mother and your father."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

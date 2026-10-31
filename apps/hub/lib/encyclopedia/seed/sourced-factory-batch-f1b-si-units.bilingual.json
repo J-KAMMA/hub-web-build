@@ -1,0 +1,742 @@
+[
+  {
+    "slug": "kilogram",
+    "topicType": "concept",
+    "categoryLabel": "物理・化学・宇宙",
+    "title": "キログラム",
+    "summary": "キログラムは質量のSI基本単位である。1世紀以上にわたり、1879年に鋳造された白金イリジウム製の円柱「国際キログラム原器」の質量と正確に等しいと定義されていたが、その定義は2017年に確定したプランク定数の値へと置き換えられた。人工物に依存する定義から物理定数による定義への移行は、質量標準が経年でわずかに変化するという問題への応答であった。",
+    "bodyMarkdown": "## 人工物としての定義\n\n1キログラムがどれだけの質量かという問いに、かつては一つの具体的な物体を指し示すことで答えていた。1879年に鋳造された白金イリジウム製の円柱がそれであり、キログラムはこの円柱の質量と正確に等しいと定義されていた。この定義は1世紀以上にわたって用いられた。 [1]\n\nこの円柱は正式には「国際キログラム原器」（IPK）と呼ばれ、国際度量衡局(BIPM)によってフランスのセーヴルで保管されていた。保管場所はパリ郊外にあり、三重の鍵がかかった保管庫が用いられていた。 [2][3][5]\n\n1960年以降、キログラムは単一の人工物によって定義される唯一の[SI単位](/hubpedia/international-system-of-units)となった。他の基本単位が現象や定数に基づく定義へ移る中で、質量だけが特定の物体に結びついたまま残されていたことになる。 [4]\n\n## 標準器の階層と各国への普及\n\nセーヴルの円柱そのものを日々の計量に使うことはできない。多くの国は自国の主要な計量研究所（国立計量標準機関）に1キログラムの主要標準器を保管し、その値をIPKと照合して定期的に校正していた。定義は一点に集中しつつ、実用上の質量の値は複製の連鎖を通じて各国へ配られていた。 [12]\n\nアメリカでは国立標準技術研究所(NIST)が、質量を含む全7つのSI基本単位の国内への普及を担っていた。K20はアメリカの主要な国家標準原器として使われ、NISTはK20やK4を含む、2019年まではアメリカの公式質量標準であったものを保管・維持している。 [6][7][8]\n\n1キログラムから離れた質量を測るには、さらに別の標準器が要る。27,200キログラムから1ミリグラムまでの質量を校正するために、追加の作業標準器セットが使われる。 [13]\n\n## 不確かさとドリフト\n\n標準器は不変ではなかった。各標準器の測定質量は時間とともにわずかに変化（ドリフト）した。定義そのものを担う物体が変化しうるという事情は、人工物による定義の構造的な弱点にあたる。 [14]\n\n測定の精度は、対象の質量が標準器の質量に近いほど高い。1キログラムの人工物は1キログラム標準器に対して10億分の数の不確かさで測定できるのに対し、同じ1キログラム標準器に対して測定した1ミリグラムは1万分の数の相対不確かさを持つ。両者の差は5桁におよび、質量の目盛りを標準器から遠くまで延ばすことの代償を示している。 [15][16]\n\n## プランク定数による再定義\n\n改訂されたSIにおいて、キログラムは物体ではなく[定数](/hubpedia/defining-constants)に結びつけられた。プランク定数hは正確に6.626 070 15×10⁻³⁴ジュール秒に等しいと定められている。この値は2017年に確定し、キログラムの再定義の鍵となった。 [10][11]\n\nプランク定数の単位ジュール秒は質量・長さ・時間の組み合わせを含むため、hの値を固定するだけではキログラムは決まらない。長さと時間の側もそれぞれ定数で固定されている。真空中の光速cは秒速299,792,458[メートル](/hubpedia/metre)であり、セシウム133の超微細遷移周波数ΔνCsは9,192,631,770ヘルツに等しい。これら三つの定数を確定値として置くことで、質量の単位が導かれる。 [9][17]\n\nこの移行によって、キログラムの定義はセーヴルの保管庫から独立した。ただし実務上の質量標準器そのものが消えたわけではなく、NISTはK20やK4といった、2019年まで公式標準であった原器を引き続き保管・維持している。 [8]\n\n## 関連記事\n\n- [秒](/hubpedia/second-unit)\n- [アンペア](/hubpedia/ampere)\n- [ケルビン](/hubpedia/kelvin)\n- [モル](/hubpedia/mole)\n- [カンデラ](/hubpedia/candela)",
+    "sources": [
+      {
+        "url": "https://www.nist.gov/si-redefinition/kilogram",
+        "title": "The Kilogram — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The measurement institute's own account of kilogram. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.nist.gov/si-redefinition/meet-constants",
+        "title": "Meet the Constants — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The defining constants every base unit is now fixed against. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Kilogram",
+        "summary": "The kilogram is the SI base unit of mass. For more than a century it was defined as exactly equal to the mass of the International Prototype of the Kilogram, a platinum-iridium cylinder cast in 1879, but that definition was replaced by a fixed value of the Planck constant settled in 2017. The shift from a definition resting on an artefact to one resting on a physical constant was a response to the problem that mass standards change slightly over time.",
+        "bodyMarkdown": "## Definition by artefact\n\nThe question of how much mass one kilogram is was once answered by pointing to a single physical object. That object was a platinum-iridium cylinder cast in 1879, and the kilogram was defined as exactly equal to the mass of this cylinder. The definition was in use for more than a century. [1]\n\nThe cylinder is formally known as the International Prototype of the Kilogram (IPK), and it was kept at Sèvres in France by the International Bureau of Weights and Measures (BIPM). The site lies on the outskirts of Paris, where a vault under three separate locks was used. [2][3][5]\n\nFrom 1960 onward, the kilogram was the only [SI unit](/hubpedia/international-system-of-units) defined by a single artefact. As the other base units moved to definitions based on phenomena or constants, mass alone remained tied to a particular object. [4]\n\n## The hierarchy of standards and their spread to individual countries\n\nThe cylinder at Sèvres itself cannot be used for everyday weighing. Many countries kept a one-kilogram primary standard at their principal metrology laboratory, the national metrology institute, and calibrated its value periodically against the IPK. The definition remained concentrated at a single point, while practical values of mass were distributed to individual countries through a chain of copies. [12]\n\nIn the United States, the National Institute of Standards and Technology (NIST) was responsible for disseminating all seven SI base units, mass included, throughout the country. K20 served as the primary national prototype for the United States, and NIST stores and maintains prototypes including K20 and K4, which were the official mass standards of the United States until 2019. [6][7][8]\n\nMeasuring masses far from one kilogram requires still other standards. Additional sets of working standards are used to calibrate masses ranging from 27,200 kilograms down to 1 milligram. [13]\n\n## Uncertainty and drift\n\nThe standards were not immutable. The measured mass of each standard changed slightly over time, that is, it drifted. That the very object carrying the definition could itself change is a structural weakness of a definition by artefact. [14]\n\nMeasurement is more precise the closer the mass being measured lies to the mass of the standard. A one-kilogram artefact can be measured against a one-kilogram standard to within a few parts per billion, whereas one milligram measured against that same one-kilogram standard carries a relative uncertainty of a few parts in ten thousand. The difference between the two spans five orders of magnitude and shows the price of extending the mass scale far away from the standard. [15][16]\n\n## Redefinition by the Planck constant\n\nIn the revised SI, the kilogram was tied not to an object but to a [constant](/hubpedia/defining-constants). The Planck constant h is fixed as exactly equal to 6.626 070 15×10⁻³⁴ joule seconds. This value was settled in 2017 and was the key to the redefinition of the kilogram. [10][11]\n\nBecause the joule second, the unit of the Planck constant, involves a combination of mass, length and time, fixing the value of h alone does not determine the kilogram. The length and time sides are each fixed by a constant of their own. The speed of light in vacuum c is 299,792,458 [metres](/hubpedia/metre) per second, and the hyperfine transition frequency of caesium-133, ΔνCs, is equal to 9,192,631,770 hertz. Setting these three constants as fixed values yields the unit of mass. [9][17]\n\nThis transition made the definition of the kilogram independent of the vault at Sèvres. The practical mass standards themselves have not disappeared, however: NIST continues to store and maintain prototypes such as K20 and K4, which were the official standards until 2019. [8]\n\n## Related articles\n\n- [Second](/hubpedia/second-unit)\n- [Ampere](/hubpedia/ampere)\n- [Kelvin](/hubpedia/kelvin)\n- [Mole](/hubpedia/mole)\n- [Candela](/hubpedia/candela)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:20:20.151Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "キログラムは1世紀以上にわたり、1879年に鋳造された白金イリジウム製の円柱の質量と正確に等しいと定義されていた。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kilogram",
+              "quote": "For more than a century, the kilogram (kg) — the fundamental unit of mass in the International System of Units (SI) — was defined as exactly equal to the mass of a small polished cylinder, cast in 1879 of platinum and iridium."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "その円柱は正式には「国際キログラム原器」（IPK）と呼ばれた。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kilogram",
+              "quote": "the platinum-iridium cylinder was officially called the International Prototype of the Kilogram (IPK)"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "その白金イリジウム製円柱はパリ郊外の三重の鍵がかかった保管庫に保管されていた。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kilogram",
+              "quote": "Kept in a triple-locked vault on the outskirts of Paris, the platinum-iridium cylinder was officially called the International Prototype of the Kilogram (IPK)."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "1960年以降、キログラムは単一の人工物によって定義される唯一のSI単位だった。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kilogram",
+              "quote": "After 1960, the kilogram was the only SI unit still defined in terms of a single manufactured object."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "IPKは国際度量衡局(BIPM)によってフランスのセーヴルで保管されていた。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kilogram",
+              "quote": "which was kept by the International Bureau of Weights and Measures (BIPM) in Sèvres, France"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "アメリカ国立標準技術研究所(NIST)は質量を含む全7つのSI基本単位の国内への普及を担っていた。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kilogram",
+              "quote": "In the United States, the dissemination of mass — indeed, of all seven SI base units — is the responsibility of the National Institute of Standards and Technology (NIST), part of the U.S. Department of Commerce."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "K20はアメリカの主要な国家標準原器（プロトタイプ）として使われていた。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kilogram",
+              "quote": "The K20 mass served as the primary prototype national standard."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "NISTはK20やK4を含む、2019年まではアメリカの公式質量標準であったものを保管・維持している。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kilogram",
+              "quote": "NIST houses and maintains what were America's official mass standards until 2019."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "cは真空中の光速であり、秒速299,792,458メートルに等しい。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "c is equal to 299,792,458 meters per second."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "改訂されたSIにおいてプランク定数hは正確に6.626 070 15×10⁻³⁴ジュール秒に等しい。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "In the revised SI, the Planck constant h is equal to exactly 6.626 070 15 × 10-34 Joule seconds."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "このプランク定数の値は2017年に確定し、キログラムの再定義の鍵となった。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "This value for the Planck constant was only finalized in 2017, and that value is key to redefining the kilogram."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "多くの国が自国の主要な計量研究所（国立計量標準機関）に1kgの主要標準器を保管し、その値をIPKと照合して定期的に校正していた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kilogram",
+              "quote": "It was those masses whose values were periodically adjusted — or “calibrated” — against the IPK."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "追加の作業標準器セットは27,200kgから1mgまでの質量を校正するために使われる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kilogram",
+              "quote": "Additional sets of working standards are then used to calibrate masses up to 27,200 kg and down to 1 milligram (mg, a thousandth of a gram)."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "各標準器の測定質量は時間とともにわずかに変化（ドリフト）した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kilogram",
+              "quote": "the measured mass of each individual standard changed, or \"drifted,\" a bit over time"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "1kgの人工物は1kg標準器に対して10億分の数の不確かさで測定できる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kilogram",
+              "quote": "a 1 kg artifact can be measured against a 1 kg standard to an uncertainty of a few parts in a billion"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "同じ1kg標準器に対して測定した1ミリグラムは1万分の数の相対不確かさを持つ。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/kilogram",
+              "quote": "a milligram measured against the same 1 kg has relative uncertainties of a few parts in ten thousand"
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "セシウム133の超微細遷移周波数ΔνCsは9,192,631,770ヘルツに等しい。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "The hyperfine transition frequency ∆νCs is equal to 9,192,631,770 hertz."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "second-unit",
+    "topicType": "concept",
+    "categoryLabel": "物理・化学・宇宙",
+    "title": "秒",
+    "summary": "秒は時間の基本単位であり、現在はセシウム133原子の超微細遷移周波数を9,192,631,770ヘルツと定めることで定義されている。60分の1という分割の考え方は古代の天文学に由来し、時刻の計測ではなく角度の細分から生まれた。",
+    "bodyMarkdown": "## 60分の1という分割の由来\n\n秒は今日では時計の単位として意識されるが、分と秒という区分そのものは時刻を測るために考え出されたものではない。この概念は古代に起源を持ち、生まれた場所は天文学の分野だった。 [1]\n\n紀元150年ごろ、ギリシャの天文学者プトレマイオスは著書『アルマゲスト』の中で、1度を60分に、1分をさらに60秒に分割することを提案した。つまり秒は、角度を細かく刻むための単位として登場し、円の分割から時間の分割へと用途が移っていった名残が、現在の「分」「秒」という呼び名に残っている。 [2]\n\n## セシウム133による現在の定義\n\n現在の秒は、特定の周波数のマイクロ波放射を吸収し、また放出するセシウム原子を用いて定義されている。定義に使われるのはセシウム133で、これはセシウムの同位体のうち最も一般的なものであり、陽子と中性子を合計133個含む。 [3][6]\n\nこの定義の中心にあるのは、原子の中の電子のふるまいである。セシウム原子の最外殻電子が持つエネルギーは、マイクロ波放射によって制御できる。この電子が、互いに近接した2つの低いエネルギー状態のあいだを遷移するとき、そこに対応するマイクロ波の周波数が定まる。これが超微細遷移周波数と呼ばれるもので、セシウム133の超微細遷移周波数（∆νCs）は9,192,631,770ヘルツに等しいとされる。 [7][9][10]\n\nしたがって秒は、[数え上げによって決まる量](/hubpedia/defining-constants)になる。原子時計は当該マイクロ波振動を9,192,631,770回数え、その経過時間を1秒と呼ぶ。長さや質量のように基準となる物体を保管するのではなく、どの場所でも同じ原子から同じ周波数が得られるという前提の上に成り立っている。 [4]\n\n## 精度と、それを超える実験用時計\n\n実用面での精度は、機器の等級によって異なる。市販されているセシウム時計は、年間で1秒の300万分の1（1/3,000,000）の精度を保つ。 [5]\n\n一方、セシウムを使わない原子を用いた新しい実験用時計は、セシウム時計よりさらに1万倍精度が高い。定義に採用されている原子が、到達可能な最高精度を与える原子と一致していないという状態が生じており、秒の定義そのものの位置づけに関わる論点となっている。ここで挙げた数値は精度の比較にとどまり、供給された記述からは、定義を別の原子へ移す具体的な計画の有無までは判断できない。 [3][8]\n\n## 関連記事\n\n- [国際単位系](/hubpedia/international-system-of-units)\n- [メートル](/hubpedia/metre)\n- [キログラム](/hubpedia/kilogram)\n- [アンペア](/hubpedia/ampere)\n- [ケルビン](/hubpedia/kelvin)\n- [モル](/hubpedia/mole)\n- [カンデラ](/hubpedia/candela)",
+    "sources": [
+      {
+        "url": "https://www.nist.gov/si-redefinition/second",
+        "title": "The Second — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The measurement institute's own account of second-unit. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.nist.gov/si-redefinition/meet-constants",
+        "title": "Meet the Constants — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The defining constants every base unit is now fixed against. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Second",
+        "summary": "The second is the base unit of time, currently defined by fixing the hyperfine transition frequency of the caesium-133 atom at 9,192,631,770 hertz. The idea of dividing by sixtieths comes from ancient astronomy, and arose from subdividing angles rather than from measuring time.",
+        "bodyMarkdown": "## The origin of division into sixtieths\n\nToday the second is thought of as a unit on a clock, but the divisions of minutes and seconds were not themselves devised for measuring time. The concept has ancient origins, and the field in which it was born was astronomy. [1]\n\nAround 150 CE, the Greek astronomer Ptolemy proposed in his work the *Almagest* that a degree be divided into 60 minutes, and a minute further into 60 seconds. In other words, the second appeared as a unit for finely subdividing angles, and the present-day names \"minute\" and \"second\" preserve the trace of a use that shifted from dividing the circle to dividing time. [2]\n\n## The present definition based on caesium-133\n\nThe second is currently defined using caesium atoms, which absorb and also emit microwave radiation at a specific frequency. The isotope used in the definition is caesium-133, the most common isotope of caesium, containing 133 protons and neutrons in total. [3][6]\n\nAt the heart of this definition is the behaviour of the electrons within the atom. The energy of the outermost electron of a caesium atom can be controlled by microwave radiation. When this electron makes a transition between two closely spaced lower energy states, a corresponding microwave frequency is determined. This is what is called the hyperfine transition frequency, and the hyperfine transition frequency of caesium-133 (∆νCs) is taken to be equal to 9,192,631,770 hertz. [7][9][10]\n\nThe second is therefore [a quantity determined by counting](/hubpedia/defining-constants). An atomic clock counts 9,192,631,770 of those microwave oscillations and calls the elapsed time one second. Rather than keeping a reference object in storage, as with length or mass, it rests on the premise that the same atom yields the same frequency anywhere. [4]\n\n## Accuracy, and the experimental clocks that surpass it\n\nAccuracy in practical terms varies with the grade of the instrument. Commercially available caesium clocks maintain an accuracy of one three-millionth of a second (1/3,000,000) per year. [5]\n\nMeanwhile, newer experimental clocks using atoms other than caesium are a further ten thousand times more accurate than caesium clocks. This has produced a situation in which the atom adopted for the definition is not the same as the atom that delivers the highest attainable accuracy, an issue that bears on the standing of the definition of the second itself. The figures given here amount only to a comparison of accuracy; from the material supplied it cannot be determined whether there are concrete plans to move the definition to another atom. [3][8]\n\n## Related articles\n\n- [International System of Units](/hubpedia/international-system-of-units)\n- [Metre](/hubpedia/metre)\n- [Kilogram](/hubpedia/kilogram)\n- [Ampere](/hubpedia/ampere)\n- [Kelvin](/hubpedia/kelvin)\n- [Mole](/hubpedia/mole)\n- [Candela](/hubpedia/candela)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:20:20.152Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "分と秒の概念は古代に起源を持つが、それは天文学の分野から生まれたものであり、時刻計測のためではなかった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/second",
+              "quote": "The concepts of the minute and the second also date back to ancient times — but they originated in the realm of astronomy, not timekeeping."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "紀元150年ごろ、ギリシャの天文学者プトレマイオスは著書『アルマゲスト』の中で、1度を60分に、1分を60秒に分割することを提案した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/second",
+              "quote": "Around 150 C.E., the Greek astronomer Ptolemy went a step further. In a treatise known as the Almagest, he proposed splitting each degree into 60 minutes, and each minute into 60 seconds."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "秒は現在、特定の周波数のマイクロ波放射を吸収・放出するセシウム原子を用いて定義されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/second",
+              "quote": "The second is currently defined using cesium atoms, which absorb and emit microwave radiation with a specific frequency."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "原子時計は当該マイクロ波振動を9,192,631,770回数え、その経過時間を1秒と呼ぶ。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/second",
+              "quote": "Atomic clocks count 9,192,631,770 of those microwave oscillations, and we call the elapsed time interval a second."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "市販されているセシウム時計は、年間で1秒の300万分の1(1/3,000,000)の精度を保つ。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/second",
+              "quote": "Today, commercially available cesium clocks keep time to within 1/3,000,000 of a second per year."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "秒の定義に用いられるセシウム133は、セシウムの最も一般的な同位体であり、陽子と中性子を合計133個含む。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "Cesium-133 is its most common form, or isotope, containing a total of 133 protons and neutrons."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "セシウム133の超微細遷移周波数(∆νCs)は9,192,631,770ヘルツに等しい。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "The hyperfine transition frequency ∆νCs is equal to 9,192,631,770 hertz."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "セシウム以外の原子を用いた新しい実験用時計は、セシウム時計よりさらに1万倍精度が高い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/second",
+              "quote": "New experimental clocks based on other atoms are ten thousand times more precise still."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "セシウム原子の最外殻電子のエネルギーは、マイクロ波放射によって制御できる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "The energy of cesium’s outermost electron can be controlled with microwave radiation."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "セシウム原子の最外殻電子が2つの近接した低エネルギー状態の間を遷移する際のマイクロ波放射の周波数は、超微細遷移周波数と呼ばれる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "The frequency of microwave radiation that causes this electron to jump between two closely spaced low-energy states is known as the hyperfine transition frequency."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "metre",
+    "topicType": "concept",
+    "categoryLabel": "物理・化学・宇宙",
+    "title": "メートル",
+    "summary": "メートルは長さの単位であり、現在は真空中を光が1/299,792,458秒間に進む距離として定義されている。地球の子午線に基づく18世紀末の定義から、白金イリジウム製の原器、クリプトン86の放射波長を経て、1983年に光速を固定値とする定義へ移行した。",
+    "bodyMarkdown": "## 定義と語源\n\nメートルは長さの単位であり、[1983年の国際協定](/hubpedia/defining-constants)によって、光が真空中を1/299,792,458秒間に進む距離と定義された。この定義は長さを時間と光速に結びつけるものであり、その結果として真空中の光速は299,792,458メートル毎秒という固定値になった。つまり光速はもはや測定される量ではなく、メートルを定める側の定数として扱われる。 [1][6][7]\n\nメートルという語は、「測定」を意味するギリシャ語の metron に由来する。日常の目安としては、左右一歩ずつの歩幅がおよそ1メートル、あるいは1ヤードに相当するとされる。 [8][25]\n\n## 子午線に基づく最初の定義\n\nメートルは当初、パリを通る子午線に沿った北極から赤道までの距離の1000万分の1として定義された。地球そのものを基準に選んだこの発想は、特定の国の王や身体に依存しない単位を作ろうとするものだったが、実現には地球の実測が必要だった。1792年、天文学者ピエール・メシャンとジャン=バティスト・ドランブルは、フランスのダンケルクとスペインのバルセロナの間を測量し、この値を確定しようとした。 [2][3]\n\n測量の結果は完全ではなかった。地球の曲率計算に誤りがあったため、最初のメートル原器は北極から赤道までの実際の距離の1000万分の1より0.2ミリメートル短くなった。単位の基準は地球にあると宣言されていたにもかかわらず、実際に運用されたのは、その基準からわずかにずれた1本の金属棒だった。 [9][10]\n\n最初のメートル原器は白金製の棒として作られた。 [10]\n\n## メートル条約と国際原器\n\n1875年、米国を含む17か国が署名したメートル条約により、国際度量衡総会（CGPM）が設立された。条約に基づく国際的な度量衡の中枢である国際度量衡局（BIPM）は、パリ郊外のセーヴルに置かれている。 [4][11]\n\n条約後に作られた新しいメートル原器は、白金とイリジウムの合金製で、断面はX字形とされた。この形状は、比較測定の際に生じる歪みへの耐性を高めるために設計されたものである。原器上のメートルは棒の両端の間隔ではなく、表面に刻まれた2本の線の間の距離として定義され、公式の測定は標準大気圧下、氷の融点で行われた。長さが温度と圧力に左右される以上、条件を固定しなければ定義そのものが揺らぐためである。 [12][18][20][21]\n\nこの新しい原器は複製30個が作られ、加盟国に配布された。 [19]\n\n## 光の波長による標準化\n\n金属棒は一点物であり、失われれば代わりがない。これに対し、特定の原子が出す光の波長は、同じ元素と同じ遷移を用意できればどこでも再現できる。1927年、NIST（当時の国立標準局）は、励起カドミウム原子の干渉パターンを長さの実用標準とすることを提唱した。 [13]\n\n波長標準は実務にも波及した。カドミウムおよびクリプトンの波長を用いることで、ゲージブロックは1インチあたり0.000001インチ、すなわち100万分の1の精度で校正できるようになった。また、メガーズは水銀198から出る緑色光の波長を546.1ナノメートルと測定し、1951年、NISTは科学機関や産業研究所に13個の「メガーズランプ」を配布した。 [14][15][23]\n\n国際的な定義が波長に移ったのは1960年である。第11回CGPMは、メートルをクリプトン86原子の準位2p10と5d5の間の遷移に対応する放射の、真空中における1,650,763.73波長分の長さと定義した。この遷移が放つのは波長605.8ナノメートルの赤橙色の光である。クリプトン86は、ドイツの国立計量機関である物理工学研究所（PTB）によって最初に候補原子として提案された。 [5][22][24]\n\n## 光速の測定から光速の固定へ\n\n波長標準の次の段階は、光の周波数を直接測ることだった。1969年から1979年にかけて、NISTのボルダー研究所の科学者はレーザー光周波数の世界記録測定を9回達成した。1972年の記録測定からは、光速がc=299,792,456.2 ± 1.1メートル毎秒と算出された。 [16][17]\n\nこの値には測定の不確かさが伴っていた。1983年の再定義はその不確かさを消す方向ではなく、量の役割を入れ替える方向で決着した。光速を299,792,458メートル毎秒という定義値として固定し、メートルの側をそこから導く。以後、光速をより精密に測ろうとする試みは、光速の値ではなくメートルの実現精度を高める作業になる。 [1][6][7]\n\n## 関連記事\n\n- [国際単位系](/hubpedia/international-system-of-units)\n- [秒](/hubpedia/second-unit)\n- [キログラム](/hubpedia/kilogram)\n- [カンデラ](/hubpedia/candela)\n- [アンペア](/hubpedia/ampere)\n- [ケルビン](/hubpedia/kelvin)\n- [モル](/hubpedia/mole)",
+    "sources": [
+      {
+        "url": "https://www.nist.gov/si-redefinition/meter",
+        "title": "The Meter — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The measurement institute's own account of metre. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.nist.gov/si-redefinition/meet-constants",
+        "title": "Meet the Constants — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The defining constants every base unit is now fixed against. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Metre",
+        "summary": "The metre is the unit of length, currently defined as the distance light travels in a vacuum in 1/299,792,458 of a second. From a late-18th-century definition based on the Earth's meridian, it passed through a platinum-iridium prototype bar and the wavelength of krypton-86 radiation before moving in 1983 to a definition that fixes the speed of light.",
+        "bodyMarkdown": "## Definition and etymology\n\nThe metre is the unit of length, defined by [the 1983 international agreement](/hubpedia/defining-constants) as the distance light travels in a vacuum in 1/299,792,458 of a second. This definition ties length to time and to the speed of light, and as a result the speed of light in a vacuum became the fixed value 299,792,458 metres per second. In other words, the speed of light is no longer a measured quantity; it is treated as the constant that defines the metre. [1][6][7]\n\nThe word metre derives from the Greek metron, meaning \"measure.\" As an everyday rule of thumb, a single stride of one foot past the other is said to be about one metre, or one yard. [8][25]\n\n## The first definition, based on the meridian\n\nThe metre was originally defined as one ten-millionth of the distance from the North Pole to the equator along the meridian passing through Paris. Choosing the Earth itself as the reference was an attempt to create a unit that depended on no particular nation's king or body, but realising it required actually measuring the Earth. In 1792, the astronomers Pierre Méchain and Jean-Baptiste Delambre surveyed the stretch between Dunkirk in France and Barcelona in Spain in order to fix this value. [2][3]\n\nThe survey's results were not perfect. Because of an error in calculating the Earth's curvature, the first prototype metre came out 0.2 millimetres shorter than one ten-millionth of the actual distance from the North Pole to the equator. Although the unit's reference was declared to lie in the Earth, what was actually used in practice was a single metal bar that departed slightly from that reference. [9][10]\n\nThe first prototype metre was made as a platinum bar. [10]\n\n## The Metre Convention and the international prototype\n\nIn 1875, the Metre Convention, signed by 17 countries including the United States, established the General Conference on Weights and Measures (CGPM). The International Bureau of Weights and Measures (BIPM), the international hub of weights and measures under the convention, is located at Sèvres on the outskirts of Paris. [4][11]\n\nThe new prototype metre made after the convention was an alloy of platinum and iridium, with an X-shaped cross section. This shape was designed to increase resistance to the distortion that arises during comparison measurements. The metre on the prototype was defined not as the distance between the ends of the bar but as the distance between two lines engraved on its surface, and official measurements were made at standard atmospheric pressure and at the melting point of ice. Since length depends on temperature and pressure, the definition itself would waver unless these conditions were fixed. [12][18][20][21]\n\nThirty copies of this new prototype were made and distributed to member countries. [19]\n\n## Standardisation by the wavelength of light\n\nA metal bar is one of a kind; if it is lost, there is no replacement. The wavelength of light emitted by a particular atom, by contrast, can be reproduced anywhere, provided the same element and the same transition can be prepared. In 1927, NIST (then the National Bureau of Standards) proposed using the interference pattern of excited cadmium atoms as a practical standard of length. [13]\n\nWavelength standards also carried over into practical work. Using the wavelengths of cadmium and krypton, gauge blocks could be calibrated to an accuracy of 0.000001 inch per inch, that is, one part in a million. Meggers also measured the wavelength of the green light emitted by mercury-198 as 546.1 nanometres, and in 1951 NIST distributed 13 \"Meggers lamps\" to scientific institutions and industrial laboratories. [14][15][23]\n\nThe international definition shifted to wavelength in 1960. The 11th CGPM defined the metre as the length equal to 1,650,763.73 wavelengths in a vacuum of the radiation corresponding to the transition between the levels 2p10 and 5d5 of the krypton-86 atom. This transition emits red-orange light with a wavelength of 605.8 nanometres. Krypton-86 was first proposed as the candidate atom by the Physikalisch-Technische Bundesanstalt (PTB), Germany's national metrology institute. [5][22][24]\n\n## From measuring the speed of light to fixing it\n\nThe next step beyond wavelength standards was to measure the frequency of light directly. Between 1969 and 1979, scientists at NIST's Boulder laboratories achieved nine world-record measurements of laser light frequencies. From the record measurement of 1972, the speed of light was calculated as c = 299,792,456.2 ± 1.1 metres per second. [16][17]\n\nThis value came with measurement uncertainty. The 1983 redefinition settled the matter not by eliminating that uncertainty but by swapping the roles of the quantities. The speed of light was fixed as the defined value 299,792,458 metres per second, and the metre was derived from it. From then on, any attempt to measure the speed of light more precisely became work that improves the accuracy with which the metre is realised, not the value of the speed of light. [1][6][7]\n\n## Related articles\n\n- [International System of Units](/hubpedia/international-system-of-units)\n- [Second](/hubpedia/second-unit)\n- [Kilogram](/hubpedia/kilogram)\n- [Candela](/hubpedia/candela)\n- [Ampere](/hubpedia/ampere)\n- [Kelvin](/hubpedia/kelvin)\n- [Mole](/hubpedia/mole)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:20:20.152Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "1983年、国際協定によりメートルは光が真空中を1/299,792,458秒間に進む距離として再定義された。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meter",
+              "quote": "the meter was redefined by international agreement in 1983 as the length of the path traveled by light in a vacuum in 1/299,792,458 of a second"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "当初メートルは、パリを通る子午線に沿った北極から赤道までの距離の1000万分の1として定義された。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meter",
+              "quote": "would be 1/10,000,000 of the distance between the North Pole and the equator, with that line passing through Paris"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "1792年、天文学者ピエール・メシャンとジャン=バティスト・ドランブルは、フランスのダンケルクとスペインのバルセロナ間の距離を測量してメートルを確定しようとした。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meter",
+              "quote": "In 1792, astronomers Pierre Méchain and Jean-Baptiste Delambre set out to measure the meter by surveying the distance between Dunkirk, France, and Barcelona, Spain."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "1875年、米国を含む17か国が署名したメートル条約により、国際度量衡総会（CGPM）が設立された。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meter",
+              "quote": "In 1875, the Treaty of the Meter, signed by 17 countries including the U.S., established the General Conference on Weights and Measures"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "1960年、第11回CGPMはメートルを、クリプトン86原子の準位2p10と5d5の間の遷移に対応する放射の真空中における1,650,763.73波長分の長さと定義した。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meter",
+              "quote": "the 11th CGPM agreed to a new definition of the meter as the “length equal to 1,650,763.73 wavelengths in vacuum of the radiation corresponding to the transition between the levels 2p10 and 5d5 of the krypton-86 atom.”"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "1983年のこの定義により、真空中の光速は299,792,458メートル毎秒に固定された。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meter",
+              "quote": "This definition also locked the speed of light at 299,792,458 meters per second in a vacuum."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "真空中の光速cは299,792,458メートル毎秒である。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meet-constants",
+              "quote": "c is equal to 299,792,458 meters per second."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "メートル(meter)という語は、「測定」を意味するギリシャ語のmetronに由来する。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meter",
+              "quote": "the meter (derived from the Greek word metron, meaning “a measure”)"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "地球の曲率計算の誤りにより、最初のメートル原器は北極から赤道までの実際の距離より0.2ミリメートル短かった。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meter",
+              "quote": "the original prototype meter was 0.2 millimeters shorter than the actual distance between the North Pole and the equator"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "最初のメートル原器は白金製の棒として具現化された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meter",
+              "quote": "which embodied the prototype meter as a bar of platinum"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "国際度量衡局（BIPM）はパリ郊外のセーヴルに置かれている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meter",
+              "quote": "Located just outside of Paris in Sèvres, France, the BIPM serves as the focal point"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "この原器では、メートルは棒の端ではなく表面に刻まれた2本の線の間の距離として定義された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meter",
+              "quote": "Instead, the bar would be over a meter long and the meter would be defined as the distance between two lines inscribed on its surface."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "1927年、NIST（当時の国立標準局）は励起カドミウム原子の干渉パターンを長さの実用標準とすることを提唱した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meter",
+              "quote": "It was in 1927 that NIST (then known as the National Bureau of Standards) advocated for the interference patterns of energized cadmium atoms to be made a practical standard of length."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "メガーズは水銀198から出る緑色光の波長を546.1ナノメートルと測定した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meter",
+              "quote": "Meggers measured the wavelength of the green light from mercury: 546.1 nanometers"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "1951年、NISTは科学機関や産業研究所に13個の「メガーズランプ」を配布した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meter",
+              "quote": "In 1951, NIST distributed 13 “Meggers lamps” to scientific institutions and industry labs."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "1969年から1979年にかけて、NISTのボルダー研究所の科学者はレーザー光周波数の世界記録測定を9回達成した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meter",
+              "quote": "Between the years 1969 and 1979, scientists at NIST’s laboratory in Boulder, Colorado, achieved nine world-record measurements of laser light frequency."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "1972年の記録測定により、光速はc=299,792,456.2 ± 1.1メートル毎秒と算出された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meter",
+              "quote": "it resulted in the value c=299,792,456.2 ± 1.1 meters per second, a hundredfold improvement in the accuracy of the accepted value for the speed of light"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "メートル条約後、新しいメートル原器は白金とイリジウムの合金で作られた。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meter",
+              "quote": "This new prototype would be made of platinum and iridium, which was significantly more durable than platinum alone."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "新しいメートル原器の複製30個が加盟国に配布された。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meter",
+              "quote": "the BIPM ordered a new prototype and 30 copies were given to the member states"
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "新しいメートル原器の断面はX字形で、比較測定時の歪みに対する耐性を高めるよう設計された。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meter",
+              "quote": "The bar would also no longer be flat but have an X-shaped cross section to better resist distortions that could be introduced by flexing during comparisons with other meter bars."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "メートル原器の公式測定は標準大気圧下、氷の融点で行われた。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meter",
+              "quote": "Official measurements of the prototype meter would occur at standard atmospheric pressure at the melting point of ice."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "クリプトン86は、ドイツの国立計量機関である物理工学研究所（PTB）によって最初に候補原子として提案された。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meter",
+              "quote": "Originally proposed as the atom of choice by Physikalisch-Technische Bundesanstalt (PTB), the national metrology institute of Germany, the krypton-86 isotope was more widely available in Europe"
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "カドミウムおよびクリプトンの波長を用いることで、ゲージブロックは1インチあたり0.000001インチ（100万分の1）の精度で校正できた。",
+          "confidence": 0.87,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meter",
+              "quote": "gage blocks could be certified to being accurate to within 0.000001 inch per every inch (1 part per million)"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "このクリプトン86の遷移で放出される光は波長605.8ナノメートルの赤橙色の光である。",
+          "confidence": 0.87,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meter",
+              "quote": "they release that energy in the form of reddish-orange light with a wavelength of 605.8 nanometers"
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "歩幅（左右一歩ずつ）はおよそ1メートルまたは1ヤードに相当する。",
+          "confidence": 0.7,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nist.gov/si-redefinition/meter",
+              "quote": "the pace—one left step plus one right step—is approximately a meter or yard"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

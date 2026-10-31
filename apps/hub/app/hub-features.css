@@ -1,0 +1,704 @@
+.sidebar__personal-site {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  padding: 8px 11px;
+  color: var(--muted);
+  font-size: 0.72rem;
+}
+
+.sidebar__personal-site:hover { color: var(--text); }
+.sidebar__brand-top .sidebar__wordmark { flex: 1; }
+
+.token-lookup {
+  max-width: 760px;
+  margin: 0 auto 18px;
+  padding: 18px 20px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--surface-raised);
+}
+
+.token-lookup form > label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--muted);
+  font-size: 0.72rem;
+}
+
+.token-lookup__heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 24px; }
+.token-lookup__heading small { color: var(--muted); font-size: 0.68rem; text-transform: uppercase; }
+.token-lookup__heading h2 { margin: 5px 0 7px; font-size: 1.15rem; }
+.token-lookup__heading p { margin: 0; color: var(--muted); font-size: 0.78rem; }
+.token-lookup__heading code { max-width: 260px; padding: 7px 9px; overflow: hidden; border-radius: 7px; background: var(--surface-raised); color: var(--muted); font-size: 0.66rem; text-overflow: ellipsis; white-space: nowrap; }
+
+.token-lookup form > div { display: flex; gap: 8px; }
+
+.token-lookup input {
+  min-width: 0;
+  flex: 1;
+  height: 44px;
+  padding: 0 13px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: var(--surface-raised);
+  text-transform: uppercase;
+}
+
+.token-lookup button {
+  height: 44px;
+  padding: 0 18px;
+  border: 0;
+  border-radius: 9px;
+  background: var(--surface-raised);
+  color: var(--text);
+}
+
+.token-lookup nav { display: flex; flex-wrap: wrap; gap: 7px; margin-top: 13px; }
+.token-lookup nav a { padding: 6px 11px; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); font-size: 0.72rem; }
+.token-lookup nav a.active { border-color: var(--line); background: var(--surface-raised); color: var(--text); }
+.token-ranking-summary { grid-template-columns: repeat(3, 1fr); }
+.token-ranking-note { max-width: 720px; margin: 18px auto 50px; padding: 14px 16px; border-left: 3px solid var(--line); background: var(--surface-raised); color: var(--muted); font-size: 0.76rem; line-height: 1.7; }
+.token-ranking-create { max-width: 760px; margin: 0 auto 20px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface-raised); }
+.token-ranking-create summary { padding: 15px 18px; cursor: pointer; font-size: 0.82rem; font-weight: 600; }
+.token-ranking-create form { display: grid; gap: 14px; padding: 4px 18px 20px; border-top: 1px solid var(--line); }
+.token-ranking-create label { display: grid; gap: 7px; color: var(--muted); font-size: 0.72rem; }
+.token-ranking-create input,.token-ranking-create textarea { width: 100%; padding: 11px 12px; border: 1px solid var(--line); border-radius: 9px; background: var(--surface-raised); color: var(--text); font: inherit; }
+.token-ranking-create textarea { min-height: 76px; resize: vertical; }
+.token-ranking-create__row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.token-ranking-create button { justify-self: start; min-height: 40px; padding: 0 16px; border: 0; border-radius: 999px; background: var(--surface-raised); color: var(--text); }
+.token-ranking-create button:disabled { opacity: 0.5; }
+
+.hub-about { max-width: 800px; margin: auto; padding: 48px 24px 70px; }
+.hub-about > header { padding-bottom: 40px; border-bottom: 1px solid var(--line); }
+.hub-about > header > p { margin: 0 0 16px; color: var(--muted); font-size: 0.7rem; letter-spacing: 0.16em; }
+.hub-about > header h1 { margin: 0 0 18px; font-size: clamp(2.4rem, 6vw, 5.2rem); line-height: 1.08; letter-spacing: -0.06em; }
+.hub-about > header span { color: var(--muted); font-size: 0.78rem; }
+.hub-about__principles { display: grid; grid-template-columns: 1fr 1fr; }
+.hub-about__principles article { min-height: 230px; padding: 28px; border-bottom: 1px solid var(--line); }
+.hub-about__principles article:nth-child(odd) { border-right: 1px solid var(--line); }
+.hub-about__principles b { color: var(--muted); font-size: 0.68rem; }
+.hub-about__principles h2 { margin: 34px 0 10px; font-size: 1.2rem; }
+.hub-about__principles p { margin: 0; color: var(--muted); font-size: 0.82rem; line-height: 1.8; }
+.hub-about__separation { display: flex; align-items: flex-end; justify-content: space-between; gap: 30px; margin-top: 48px; padding: 28px; border-radius: 14px; background: var(--surface-raised); color: var(--text); }
+.hub-about__separation small { color: var(--muted); font-size: 0.65rem; letter-spacing: 0.14em; }
+.hub-about__separation h2 { margin: 10px 0; font-size: 1.35rem; }
+.hub-about__separation p { max-width: 520px; margin: 0; color: var(--text); font-size: 0.78rem; line-height: 1.7; }
+.hub-about__separation > a { flex-shrink: 0; padding: 10px 14px; border: 1px solid var(--line); border-radius: 999px; font-size: 0.75rem; }
+
+/* The current Hub identity replaces retired research-project chrome. */
+.main-content::before { display: none !important; content: none !important; }
+.feature-header > span,
+.feature-header > p { display: block !important; }
+
+/* Functional tabs and contextual empty states */
+.search-tabs button,
+.notifications-page nav button {
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+  font: inherit;
+}
+
+.search-tabs button.active,
+.notifications-page nav button.active {
+  color: var(--text);
+  font-weight: 700;
+}
+
+.search-tabs button span,
+.notifications-page nav button span,
+.tl-tab__count {
+  display: inline-grid;
+  min-width: 20px;
+  margin-left: 4px;
+  padding: 1px 5px;
+  place-items: center;
+  border-radius: 999px;
+  background: var(--surface-raised);
+  color: var(--muted);
+  font-size: 0.64rem;
+}
+
+.search-discovery { margin-top: 24px; }
+.search-discovery__intro { padding: 20px 0 16px; border-bottom: 1px solid var(--line); }
+.search-discovery__intro > span { color: var(--muted); font-size: .66rem; font-weight: 700; letter-spacing: .16em; }
+.search-discovery__intro h2 { margin: 5px 0 4px; font-size: 1.2rem; }
+.search-discovery__intro p { margin: 0; color: var(--muted); font-size: .8rem; }
+.search-discovery__threads { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-bottom: 1px solid var(--line); }
+.search-discovery__threads > a { display: grid; gap: 5px; min-height: 112px; padding: 16px 14px; border-bottom: 1px solid var(--line); }
+.search-discovery__threads > a:nth-child(odd) { border-right: 1px solid var(--line); }
+.search-discovery__threads small,.search-discovery__threads span { color: var(--muted); font-size: .7rem; }
+.search-discovery__threads strong { line-height: 1.55; }
+.search-discovery__block { margin-top: 28px; }
+.search-discovery__block > h2 { margin-bottom: 8px; font-size: 1rem; }
+.search-discovery__empty { padding: 26px 4px; color: var(--muted); }
+.search-discovery__empty p { margin: 5px 0 0; font-size: .8rem; }
+.search-discovery__trends .community-trends { width: 100%; max-width: none; padding-inline: 0; }
+.search-discovery__trends .trend-panels--split { grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); }
+.search-discovery__trends .feature-panel { height: 100%; }
+.community-trends__summary { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 10px; padding: 14px 16px; border: var(--divider); border-radius: 12px; background: var(--surface-sunken); }
+.community-trends__summary > div { display: grid; gap: 3px; }
+.community-trends__summary span,
+.community-trends__summary small { color: var(--muted); font-size: .72rem; }
+.community-trends__order { display: inline-flex; gap: 3px; padding: 3px; border: var(--divider); border-radius: 999px; background: var(--surface); }
+.community-trends__order button { min-height: 32px; padding: 0 11px; border: 0; border-radius: 999px; background: transparent; color: var(--muted); font: inherit; font-size: .72rem; font-weight: 750; cursor: pointer; }
+.community-trends__order button[aria-pressed="true"] { background: var(--emphasis); color: var(--action-text); }
+.community-trends__order button:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+@media (max-width: 620px) { .community-trends__summary { align-items: stretch; flex-wrap: wrap; } .community-trends__order { order: 3; width: 100%; } .community-trends__order button { flex: 1; } }
+
+.main-content .search-page {
+  width: min(100%, 920px);
+  max-width: 920px;
+}
+
+.shell--wide-content .main-content .search-page {
+  width: 100%;
+  max-width: none;
+  min-height: 100vh;
+  margin: 0;
+  padding-inline: clamp(12px, 1.5vw, 24px);
+}
+
+.search-results-summary {
+  display: flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 18px;
+  padding-bottom: 10px;
+  border-bottom: var(--divider);
+}
+
+.search-results-summary p {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin: 0;
+}
+
+.search-results-summary p span {
+  color: var(--muted);
+  font-size: .78rem;
+}
+
+.search-results-summary button {
+  flex: 0 0 auto;
+  padding: 7px 10px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--interactive);
+  color: var(--text);
+  cursor: pointer;
+}
+
+.search-results-summary button:hover {
+  background: var(--interactive-hover);
+}
+
+.search-results-summary__actions,
+.search-results-summary__actions label { display: flex; align-items: center; gap: 8px; }
+.search-results-summary__actions label { color: var(--muted); font-size: .78rem; }
+.search-results-summary__actions select {
+  min-height: 32px;
+  padding: 4px 28px 4px 10px;
+  border: var(--divider);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+}
+
+.search-page .search-tabs {
+  overflow-x: auto;
+  gap: 6px;
+  margin-top: 0;
+  padding: 8px 0;
+  scrollbar-width: none;
+}
+
+.search-page .search-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.search-page .search-tabs button {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+.search-loading {
+  display: grid;
+  min-height: 180px;
+  place-items: center;
+  align-content: center;
+  gap: 12px;
+  color: var(--muted);
+}
+
+.search-loading span {
+  width: 28px;
+  height: 28px;
+  border: 3px solid var(--line);
+  border-top-color: var(--emphasis);
+  border-radius: 50%;
+  animation: search-loading-spin 700ms linear infinite;
+}
+
+.search-loading p {
+  margin: 0;
+  font-size: .82rem;
+}
+
+/* Search results use normal document flow; the home masonry rows collapse here. */
+.main-content .search-post-results {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-auto-rows: auto;
+  gap: 0;
+}
+
+.main-content .search-post-results > .tweet {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  grid-column: auto;
+  grid-row: auto !important;
+}
+
+@keyframes search-loading-spin {
+  to { transform: rotate(360deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .search-loading span { animation: none; }
+}
+
+@media (max-width: 700px) {
+  .search-results-summary { align-items: flex-start; }
+  .search-results-summary p { display: grid; gap: 3px; }
+  .search-results-summary { flex-direction: column; }
+  .search-results-summary__actions { width: 100%; justify-content: space-between; }
+}
+@media (max-width: 620px) { .search-discovery__threads { grid-template-columns: 1fr; } .search-discovery__threads > a:nth-child(odd) { border-right: 0; } }
+
+/* Search is one surface: discovery before a query, focused results after it. */
+.search-experience > header { position: relative; }
+.search-suggestions {
+  position: absolute;
+  z-index: 8;
+  top: 100%;
+  right: 0;
+  left: 0;
+  overflow: hidden;
+  border: var(--divider);
+  border-radius: 12px;
+  background: var(--surface);
+  box-shadow: var(--shadow-raised);
+}
+.search-suggestions button { display: grid; width: 100%; grid-template-columns: 100px 1fr; gap: 2px 12px; padding: 10px 14px; border: 0; border-bottom: var(--divider); background: transparent; color: var(--text); text-align: left; cursor: pointer; }
+.search-suggestions button:hover { background: var(--interactive-hover); }
+.search-suggestions span,.search-suggestions small { color: var(--muted); font-size: .72rem; }
+.search-suggestions small { grid-column: 2; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.search-discovery-tabs,.search-result-tabs { width: 100%; justify-content: stretch; }
+.search-discovery-tabs button { flex: 1 1 0; }
+.search-result-tabs button { flex: 0 0 auto; }
+.search-group-tabs { overflow-x: auto; scrollbar-width: thin; }
+.search-subfilters { display: flex; gap: 6px; overflow-x: auto; padding: 10px 0; border-bottom: var(--divider); }
+.search-subfilters button,
+.search-related button,
+.search-empty--recovery button {
+  flex: 0 0 auto;
+  padding: 7px 10px;
+  border: var(--divider);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+}
+.search-subfilters button.active { border-color: var(--emphasis); background: var(--interactive); font-weight: 700; }
+.search-subfilters button span { margin-left: 5px; color: var(--muted); font-size: .72rem; }
+.search-memory { padding: 12px 0; border-bottom: var(--divider); }
+.search-memory > div { display: flex; align-items: center; justify-content: space-between; }
+.search-memory > div button,.search-memory > span button { border: 0; background: transparent; color: var(--muted); cursor: pointer; }
+.search-memory > span { display: inline-flex; align-items: center; gap: 6px; margin: 6px 8px 0 0; padding: 6px 8px; border: var(--divider); border-radius: 999px; }
+.search-saved > span > button:last-child { color: var(--muted); }
+.search-save-button { min-height: 36px; padding: 0 12px; border: var(--divider); border-radius: 999px; background: var(--surface-raised); color: var(--muted); font: inherit; font-weight: 700; cursor: pointer; }
+.search-save-button[aria-pressed="true"] { background: var(--interactive); color: var(--text); }
+.search-saved { display: grid; gap: 6px; margin-top: 14px; padding-top: 12px; border-top: var(--divider); }
+.search-saved > span { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.search-saved label { display: flex; align-items: center; gap: 6px; color: var(--muted); font-size: .72rem; }
+.search-tools { display: flex; align-items: center; justify-content: flex-end; gap: 12px; padding: 10px 0; border-bottom: var(--divider); }
+.search-tools > p { display: flex; gap: 8px; margin: 0 auto 0 0; }
+.search-tools > p span { color: var(--muted); }
+.search-tools label { display: flex; align-items: center; gap: 6px; color: var(--muted); font-size: .78rem; }
+.search-tools button,.search-tools select,.search-filter-panel select,.search-filter-panel input:not([type="checkbox"]),.search-filter-panel button { min-height: 34px; padding: 6px 10px; border: var(--divider); border-radius: 999px; background: var(--surface); color: var(--text); }
+.search-tools button { cursor: pointer; }
+.search-filter-panel { display: grid; grid-template-columns: repeat(auto-fit,minmax(132px,1fr)); align-items: flex-end; gap: 10px; padding: 12px 0; border-bottom: var(--divider); }
+.search-filter-panel label { display: grid; gap: 5px; color: var(--muted); font-size: .72rem; }
+.search-filter-panel button { cursor: pointer; }
+.search-filter-panel button:disabled { cursor: default; opacity: .5; }
+.search-results > section { margin-top: 0; border-bottom: var(--divider); }
+.search-results > section > h2 { margin: 0; padding: 14px 4px 8px; }
+.search-results .search-items > a { color: var(--text); }
+.search-user-avatar { overflow: hidden; }
+.search-user-avatar img { width: 100%; height: 100%; object-fit: cover; }
+.search-related > div { display: flex; flex-wrap: wrap; gap: 8px; padding: 0 4px 14px; }
+.search-related a { padding: 7px 10px; border: var(--divider); border-radius: 999px; color: var(--text); }
+.search-mixed-results { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 380px), 1fr)); align-items: stretch; }
+.search-hit { display: grid; align-content: start; gap: 6px; min-width: 0; padding: 18px 16px; border-right: var(--divider); border-bottom: var(--divider); color: var(--text); }
+.search-hit:hover { background: var(--interactive-hover); }
+.search-hit > div { display: flex; align-items: center; gap: 8px; }
+.search-hit > div span { padding: 3px 7px; border-radius: 999px; background: var(--interactive); color: var(--muted); font-size: .72rem; }
+.search-hit > div small,
+.search-hit > small { color: var(--muted); }
+.search-hit p { margin: 0; color: var(--muted); }
+.search-hit mark { border-radius: 3px; background: var(--emphasis-soft); color: inherit; }
+.search-empty--recovery > div { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px; margin: 16px 0; }
+.search-empty--recovery > a { display: inline-block; margin-top: 14px; color: var(--emphasis); }
+.search-image-grid { columns: 3; column-gap: 8px; }
+.search-image-grid a { display: block; margin-bottom: 8px; break-inside: avoid; }
+.search-image-grid img { display: block; width: 100%; height: auto; border-radius: 10px; }
+@media (max-width: 700px) {
+  .search-filter-panel { grid-template-columns: repeat(2,minmax(0,1fr)); }
+  .search-image-grid { columns: 2; }
+  .search-tools { align-items: flex-start; flex-wrap: wrap; }
+  .search-tools > p { width: 100%; }
+  .search-mixed-results { grid-template-columns: 1fr; }
+  .search-hit { padding-inline: 4px; border-right: 0; }
+}
+
+.search-empty,
+.notification-empty,
+.timeline-empty {
+  padding: 48px 24px;
+  text-align: center;
+}
+
+.search-empty p,
+.notification-empty p,
+.timeline-empty p { margin: 8px 0 0; color: var(--muted); font-size: 0.78rem; }
+.search-load-more { display: grid; justify-items: center; gap: 7px; margin: 28px 0 8px; }
+.search-load-more button { padding: 9px 22px; border: var(--divider); border-radius: 999px; background: var(--interactive); color: var(--text); cursor: pointer; font-weight: 700; }
+.search-load-more button:hover { background: var(--interactive-hover); }
+.search-load-more small { color: var(--muted); font-size: .72rem; }
+.timeline-empty a { display: inline-block; margin-top: 15px; font-size: 0.76rem; font-weight: 700; }
+
+/* Clearly mark the current message implementation as a prototype. */
+.message-prototype-notice {
+  margin: 10px 14px 0;
+  padding: 9px 11px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--warning-bg);
+  color: var(--warning-text);
+  font-size: 0.7rem;
+  line-height: 1.55;
+}
+
+.feature-note {
+  margin: 14px 0 0;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.7rem;
+}
+
+.ranking-token-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 18px 24px 48px;
+  padding: 18px 20px;
+  border-radius: 12px;
+  background: var(--surface-raised);
+  color: var(--text);
+}
+.ranking-token-link div { display: grid; gap: 5px; }
+.ranking-token-link small { color: var(--muted); font-size: 0.62rem; letter-spacing: 0.12em; }
+.ranking-token-link strong { font-size: 0.84rem; }
+.ranking-token-link a { flex-shrink: 0; color: var(--text); font-size: 0.75rem; }
+
+/* Hubpedia currently exposes only an honest preview of the planned content. */
+.preview-badge { display: inline-block; margin-bottom: 8px; padding: 4px 8px; border-radius: 999px; background: var(--surface-raised); color: var(--muted); font-size: 0.62rem; }
+.hubpedia__search--disabled { opacity: 0.68; }
+.hubpedia__articles article:target { border-color: var(--line); box-shadow: 0 0 0 3px var(--focus-ring); }
+.search-hubpedia a > span { color: var(--muted); font-size: 0.68rem; }
+.hubpedia-article { max-width: 1040px; }
+.hubpedia-article__topbar { display: flex; align-items: center; justify-content: space-between; gap: 24px; margin-bottom: 28px; }
+.hubpedia-article__crumb { display: flex; min-width: 0; gap: 8px; color: var(--muted); font-size: .75rem; }
+.hubpedia-article__crumb span:last-child { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.hubpedia-article__header { padding-bottom: 22px; border-bottom: 1px solid var(--line); }
+.hubpedia-article__header > span { color: var(--muted); font-size: .72rem; }
+.hubpedia-article__header h1 { margin: 8px 0; font-size: 2rem; }
+.hubpedia-article__header p { max-width: 760px; margin: 0; color: var(--muted); line-height: 1.8; }
+.hubpedia-article__meta { display: flex; flex-wrap: wrap; gap: 6px 15px; margin-top: 14px; color: var(--muted); font-size: .7rem; }
+.hubpedia-article__meta span + span::before { margin-right: 15px; color: var(--text); content: "·"; }
+.hubpedia-article__languages { display: flex; gap: 6px; margin-top: 16px; }
+.hubpedia-article__languages a { padding: 4px 8px; border: 1px solid var(--line); border-radius: 6px; font-size: .72rem; text-transform: uppercase; }
+.hubpedia-article__languages a[aria-current="page"] { border-color: var(--line); background: var(--surface-raised); color: var(--text); }
+.hubpedia-article__layout { display: grid; grid-template-columns: minmax(0, 1fr) minmax(190px, 240px); gap: clamp(28px, 4vw, 54px); align-items: flex-start; width: 100%; margin-top: 24px; }
+.hubpedia-article__content { grid-column: 1; grid-row: 1; min-width: 0; }
+.hubpedia-article__rail { position: sticky; top: 20px; grid-column: 2; grid-row: 1; min-width: 0; }
+.hubpedia-article__rail details { border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.hubpedia-article__rail summary { padding: 11px 0; font-size: .78rem; font-weight: 700; cursor: pointer; }
+.hubpedia-article__rail ol { max-height: calc(100vh - 230px); margin: 0; padding: 0 0 12px; overflow-y: auto; list-style: none; }
+.hubpedia-article__rail li { margin: 0; }
+.hubpedia-article__rail li a { display: block; padding: 5px 0; color: var(--muted); font-size: .72rem; line-height: 1.45; }
+.hubpedia-article__rail li a:hover { color: var(--link-color); text-decoration: underline; text-underline-offset: 3px; }
+.hubpedia-article__rail .hubpedia-article__toc-subitem a { padding-left: 14px; color: var(--muted); }
+.hubpedia-infobox { width: 100%; margin: 0 0 18px; border: 1px solid var(--line); border-collapse: collapse; background: var(--surface-sunken); font-size: .76rem; line-height: 1.55; }
+.hubpedia-infobox caption { padding: 9px 10px; border-bottom: 1px solid var(--line); background: var(--surface-raised); font-weight: 700; text-align: center; }
+.hubpedia-infobox th { width: 38%; padding: 7px 8px 7px 10px; border-bottom: 1px solid var(--line); color: var(--muted); font-weight: 600; text-align: left; vertical-align: top; }
+.hubpedia-infobox td { padding: 7px 10px 7px 8px; border-bottom: 1px solid var(--line); vertical-align: top; overflow-wrap: anywhere; }
+.hubpedia-infobox tr:last-child th, .hubpedia-infobox tr:last-child td { border-bottom: 0; }
+.hubpedia-article__search { display: flex; flex: 0 1 300px; min-width: 210px; }
+.hubpedia-article__search input { width: 100%; min-width: 0; height: 36px; padding: 0 10px; border: 1px solid var(--line); border-right: 0; border-radius: 6px 0 0 6px; background: var(--surface-raised); font: inherit; font-size: .75rem; }
+.hubpedia-article__search button { height: 36px; padding: 0 10px; border: 1px solid var(--line); border-radius: 0 6px 6px 0; background: var(--surface-raised); color: var(--text); font-size: .7rem; }
+.article-markdown { color: var(--text); font-size: .94rem; line-height: 1.95; }
+.article-markdown h2 { margin: 36px 0 12px; padding-bottom: 7px; border-bottom: 1px solid var(--line); font-size: 1.25rem; scroll-margin-top: 20px; }
+.article-markdown h3 { margin: 26px 0 9px; font-size: 1rem; scroll-margin-top: 20px; }
+.article-markdown p { margin: 0 0 16px; }
+.article-markdown ul { margin: 0 0 18px; padding-left: 22px; }
+.article-markdown a { color: var(--link-color); text-decoration: underline; text-underline-offset: 3px; }
+.article-markdown__citation { margin-left: 2px; font-size: .72em; line-height: 0; vertical-align: super; }
+.article-markdown__citation + .article-markdown__citation { margin-left: 1px; }
+.article-markdown__toc { display: inline-block; min-width: 220px; margin: 4px 0 20px; padding: 12px 18px 12px 14px; border: 1px solid var(--line); border-radius: 6px; background: var(--surface-sunken); font-size: .88rem; line-height: 1.7; }
+.article-markdown__toc-title { margin: 0 0 6px; font-weight: 600; font-size: .9rem; }
+.article-markdown__toc ol { margin: 0; padding: 0; list-style: none; }
+.article-markdown__toc-item--level-3 { padding-left: 18px; }
+.article-markdown__toc a { text-decoration: none; }
+.article-markdown__toc a:hover { text-decoration: underline; }
+.article-markdown__toc-number { color: var(--text-muted); margin-right: 4px; font-variant-numeric: tabular-nums; }
+.article-markdown__citation a { text-decoration: none; }
+.article-markdown li[id^="source-"] { scroll-margin-top: 20px; }
+.hubpedia-sources { margin-top: 40px; scroll-margin-top: 20px; }
+.hubpedia-sources > h2 { margin: 0 0 12px; padding-bottom: 7px; border-bottom: var(--divider); color: var(--text); font-size: 1.25rem; }
+.hubpedia-sources__notice { margin: 0 0 16px; color: var(--muted); font-size: .8rem; line-height: 1.7; }
+.hubpedia-sources__list { display: grid; gap: 0; margin: 0; padding: 0; list-style: none; border-top: var(--divider); }
+.hubpedia-sources__list > li { display: grid; gap: 10px; padding: 16px 0; border-bottom: var(--divider); scroll-margin-top: 20px; }
+.hubpedia-sources__heading { display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: 10px; }
+.hubpedia-sources__number { display: grid; width: 24px; height: 24px; place-items: center; border-radius: 50%; background: var(--interaction-subtle); color: var(--text); font-size: .72rem; font-weight: 750; }
+.hubpedia-sources__heading a { color: var(--action); font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+.hubpedia-sources__heading p { margin: 3px 0 0; color: var(--muted); font-size: .72rem; overflow-wrap: anywhere; }
+.hubpedia-sources__heading p span { margin: 0 5px; }
+.hubpedia-sources dl { display: flex; flex-wrap: wrap; gap: 6px 16px; margin: 0 0 0 36px; }
+.hubpedia-sources dl > div { display: flex; gap: 6px; align-items: baseline; }
+.hubpedia-sources dt { color: var(--muted); font-size: .7rem; }
+.hubpedia-sources dd { margin: 0; color: var(--text); font-size: .72rem; font-weight: 650; }
+.hubpedia-sources dd[data-status="allowed"] { color: var(--positive); }
+.hubpedia-sources dd[data-status="review"] { color: var(--warning); }
+.hubpedia-sources dd a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.hubpedia-sources__list small { margin-left: 36px; color: var(--muted); font-size: .7rem; line-height: 1.6; }
+.hubpedia-article__related { margin-top: 30px; padding-top: 20px; border-top: 1px solid var(--line); }
+.hubpedia-article__related h2 { margin: 0 0 12px; font-size: 1rem; }
+.hubpedia-article__related ul { display: grid; grid-template-columns: 1fr 1fr; gap: 0 24px; margin: 0; padding: 0; list-style: none; }
+.hubpedia-article__related li { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; min-width: 0; padding: 8px 0; border-bottom: 1px solid var(--line); }
+.hubpedia-article__related li a { min-width: 0; color: var(--link-color); font-size: .8rem; font-weight: 600; overflow-wrap: anywhere; }
+.hubpedia-article__related li span { flex: 0 0 auto; color: var(--muted); font-size: .65rem; }
+.hubpedia-knowledge-card { margin-top: 22px; padding: 14px 0; border-top: var(--divider); border-bottom: var(--divider); }
+.hubpedia-knowledge-card h2 { margin: 0 0 10px; font-size: .86rem; }
+.hubpedia-knowledge-card dl { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 12px 18px; margin: 0; }
+.hubpedia-knowledge-card dl > div { min-width: 0; }
+.hubpedia-knowledge-card dt { color: var(--text-secondary); font-size: .66rem; }
+.hubpedia-knowledge-card dd { margin: 3px 0 0; color: var(--text-primary); font-size: .75rem; font-weight: 600; overflow-wrap: anywhere; }
+.hubpedia-key-points { margin: 24px 0; padding: 16px 0; border-bottom: var(--divider); }
+.hubpedia-key-points h2 { margin: 0 0 10px; font-size: 1rem; }
+.hubpedia-key-points ul { margin: 0; padding-left: 20px; }
+.hubpedia-key-points li { margin: 6px 0; line-height: 1.65; }
+.hubpedia-evidence { margin-top: 34px; padding-top: 22px; border-top: var(--divider); }
+.hubpedia-evidence > h2 { margin: 0 0 8px; font-size: 1.15rem; }
+.hubpedia-evidence > h3 { margin: 26px 0 10px; font-size: .95rem; }
+.hubpedia-evidence > p { color: var(--text-secondary); line-height: 1.65; }
+.hubpedia-evidence__claims { border-top: var(--divider); }
+.hubpedia-evidence__claims details { border-bottom: var(--divider); }
+.hubpedia-evidence__claims summary { display: flex; align-items: baseline; justify-content: space-between; gap: 14px; padding: 11px 0; cursor: pointer; }
+.hubpedia-evidence__claims summary span { line-height: 1.55; }
+.hubpedia-evidence__claims summary b { flex: 0 0 auto; color: var(--text-secondary); font-size: .68rem; }
+.hubpedia-evidence__claims dl { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px 18px; margin: 0 0 14px; padding-left: 18px; }
+.hubpedia-evidence__claims dl > div { display: grid; grid-template-columns: 72px minmax(0, 1fr); gap: 8px; }
+.hubpedia-evidence__claims dt { color: var(--text-secondary); font-size: .68rem; }
+.hubpedia-evidence__claims dd { margin: 0; font-size: .72rem; }
+.hubpedia-evidence__works { margin: 0; padding-left: 22px; }
+.hubpedia-evidence__works li { padding: 8px 0; }
+.hubpedia-evidence__works a { color: var(--link); font-weight: 600; }
+.hubpedia-evidence__works span,.hubpedia-evidence__works small { display: block; margin-top: 3px; color: var(--text-secondary); font-size: .68rem; }
+.hubpedia-evidence__works p { margin: 5px 0 0; font-size: .72rem; line-height: 1.55; }
+.hubpedia-evidence__empty { padding: 10px 0; }
+.hubpedia-paper { max-width: 820px; }
+.hubpedia-paper__header { margin-top: 24px; padding-bottom: 24px; border-bottom: var(--divider); }
+.hubpedia-paper__header > span { color: var(--text-secondary); font-size: .7rem; }
+.hubpedia-paper__header h1 { margin: 8px 0; font-size: 1.8rem; line-height: 1.35; overflow-wrap: anywhere; }
+.hubpedia-paper__header > p { color: var(--text-secondary); }
+.hubpedia-paper__header dl { display: flex; flex-wrap: wrap; gap: 12px 24px; margin: 18px 0; }
+.hubpedia-paper__header dl > div { display: grid; gap: 3px; }
+.hubpedia-paper__header dt { color: var(--text-secondary); font-size: .66rem; }
+.hubpedia-paper__header dd { margin: 0; font-size: .74rem; }
+.hubpedia-paper__original { color: var(--link); font-size: .78rem; font-weight: 700; }
+.hubpedia-paper > section { padding: 22px 0; border-bottom: var(--divider); }
+.hubpedia-paper > section h2 { margin: 0 0 10px; font-size: 1.1rem; }
+.hubpedia-paper > section p { margin: 0; line-height: 1.85; }
+.hubpedia-paper > section li { display: flex; justify-content: space-between; gap: 18px; padding: 8px 0; }
+.hubpedia-paper > section li a { color: var(--link); }
+.hubpedia-paper > section li span { color: var(--text-secondary); font-size: .68rem; }
+.hubpedia-article__neighbors { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; margin-top: 28px; padding-top: 18px; border-top: 1px solid var(--line); }
+.hubpedia-article__neighbors a { display: grid; gap: 4px; min-width: 0; color: var(--link-color); }
+.hubpedia-article__neighbors a:last-child { text-align: right; }
+.hubpedia-article__neighbors a span { color: var(--muted); font-size: .68rem; }
+.hubpedia-article__neighbors a strong { overflow-wrap: anywhere; font-size: .8rem; line-height: 1.45; }
+@media (max-width: 800px) {
+  .hubpedia-article__layout { display: flex; flex-direction: column; gap: 20px; }
+  .hubpedia-article__rail { position: static; order: 0; width: 100%; }
+  .hubpedia-article__content { order: 1; width: 100%; }
+  .hubpedia-article__rail ol { max-height: 260px; }
+}
+@media (max-width: 560px) {
+  .hubpedia-article__topbar { align-items: stretch; flex-direction: column; gap: 12px; margin-bottom: 20px; }
+  .hubpedia-article__search { flex-basis: auto; min-width: 0; width: 100%; }
+  .hubpedia-article__header h1 { font-size: 1.65rem; overflow-wrap: anywhere; }
+  .article-markdown { font-size: .9rem; }
+  .hubpedia-article__related ul { grid-template-columns: 1fr; }
+  .hubpedia-article__neighbors { gap: 12px; }
+  .hubpedia-knowledge-card dl { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .hubpedia-evidence__claims dl { grid-template-columns: 1fr; }
+}
+.hubpedia__categories article { padding: 18px; border: 1px solid var(--line); border-radius: 10px; background: var(--panel); }
+.hubpedia__categories article strong { display: block; }
+.hubpedia__categories article p { color: var(--muted); font-size: 0.75rem; }
+.hubpedia__categories article > span,
+.article-status { color: var(--muted); font-size: 0.68rem; }
+
+/* Right rail: compact controls, persistent context, and clear results. */
+.timeline-rail__title-row > div { display: flex; align-items: baseline; justify-content: space-between; min-width: 0; flex: 1; gap: 10px; }
+.timeline-rail__title-row > div h2 { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.timeline-rail__title-row > div > span { flex-shrink: 0; color: var(--muted); font-size: 0.68rem; }
+.rail-controls { flex: 0 0 auto; padding-bottom: 2px; background: var(--surface-raised); }
+.rail-mode { grid-template-columns: repeat(3, minmax(0, 1fr)) !important; gap: 3px !important; }
+.rail-mode button { justify-content: center; gap: 6px; min-width: 0; padding: 0 6px !important; }
+.rail-mode button span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 0.75rem; }
+.rail-mode button[aria-pressed="true"] { font-weight: 700 !important; }
+.rail-list-filter { flex-direction: column; align-items: stretch; gap: 7px; }
+.rail-list-filter__primary { display: flex; gap: 5px; overflow-x: auto; scrollbar-width: none; }
+.rail-list-filter__primary::-webkit-scrollbar { display: none; }
+.rail-list-filter__manage { flex: 0 0 auto; margin-left: auto; padding: 4px 7px; color: var(--muted); font-size: 0.66rem; text-decoration: underline; text-underline-offset: 3px; }
+.rail-search svg { flex: 0 0 17px; width: 17px; height: 17px; fill: none; stroke: var(--muted); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.rail-search input[type="search"]::-webkit-search-cancel-button { display: none; }
+.timeline-rail__list { overscroll-behavior: contain; }
+.rail-result:focus-visible,
+.rail-result--article:focus-visible,
+.rail-mode button:focus-visible,
+.rail-list-filter button:focus-visible,
+.rail-hub-link:focus-visible { position: relative; z-index: 2; outline: 2px solid var(--focus-ring); outline-offset: -2px; }
+.rail-empty { display: grid; gap: 7px; }
+.rail-empty strong { color: var(--text); font-size: 0.78rem; }
+.rail-empty p { margin: 0; color: var(--muted); font-size: 0.7rem; line-height: 1.6; }
+.rail-empty a { margin-top: 5px; font-size: 0.7rem; font-weight: 700; }
+.shell__right-resize-handle:focus-visible::after { width: 3px; background: var(--surface-raised); }
+
+@media (max-width: 1250px) and (min-width: 1081px) {
+  .rail-mode button { gap: 0; }
+  .rail-mode button svg { display: none; }
+  .rail-mode button span { font-size: 0.7rem; }
+}
+
+@media (max-width: 700px) {
+  .token-ranking-summary { grid-template-columns: 1fr; }
+  .token-lookup__heading { flex-direction: column; }
+  .token-ranking-create__row { grid-template-columns: 1fr; }
+  .hub-about { padding: 30px 16px 90px; }
+  .hub-about__principles { grid-template-columns: 1fr; }
+  .hub-about__principles article:nth-child(odd) { border-right: 0; }
+  .hub-about__separation { align-items: flex-start; flex-direction: column; }
+  .ranking-token-link { align-items: flex-start; flex-direction: column; margin: 16px 14px 80px; }
+}
+.hubpedia-spoiler-aware-article { display: grid; gap: 0; }
+.hubpedia-spoiler-section { border-block: var(--divider); }
+.hubpedia-spoiler-section > summary { display: grid; gap: 4px; padding: 14px 0; cursor: pointer; color: var(--encyclopedia-text); }
+.hubpedia-spoiler-section > summary span,
+.hubpedia-spoiler-section > summary small { color: var(--encyclopedia-muted); }
+
+.engagement-bar__composer {
+  display: grid;
+  gap: 10px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: var(--divider);
+}
+
+.engagement-bar__textarea {
+  min-height: 80px;
+}
+
+.engagement-bar__composer-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.engagement-bar__quote-preview {
+  margin: 0;
+  color: var(--text-secondary);
+}
+
+/*
+ * The search tools fold. Google shows a field, a tab row and results, and
+ * keeps sort, period, language and the rest behind one "ツール" control; X
+ * does the same with its tab row. This page used to stack saved views, group
+ * tabs, sort and safe search, and a five-control filter panel before the
+ * first result — 323px of chrome. Only the summary shows now.
+ */
+.search-tools-disclosure {
+  margin: 0 0 4px;
+  border-bottom: var(--divider);
+}
+
+.search-tools-disclosure > summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: var(--ui-target-sm, 36px);
+  padding: 0 12px;
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: .82rem;
+  font-weight: 700;
+  list-style: none;
+  cursor: pointer;
+}
+
+.search-tools-disclosure > summary::-webkit-details-marker { display: none; }
+
+.search-tools-disclosure > summary::after {
+  content: "▾";
+  font-size: .72rem;
+}
+
+.search-tools-disclosure[open] > summary::after { content: "▴"; }
+
+.search-tools-disclosure > summary:hover {
+  background: var(--interactive);
+  color: var(--text);
+}
+
+.search-tools-disclosure > summary:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+/* Inside the fold the rows stop competing with the results for the top. */
+.search-tools-disclosure .search-tools { justify-content: flex-start; }
+.search-tools-disclosure .saved-query-tabs { padding-inline: 0; }
+
+/*
+ * The related-search buttons measured 43px. Nobody chose 43: the min-height
+ * says 32, the padding says 8, the line-height says 24.5, and the sum is what
+ * the browser drew. Forty-two is what every other control on the screen
+ * stands at, so it is the height, stated rather than accumulated.
+ */
+.search-related button,
+.search-related a,
+.search-empty--recovery button {
+  min-height: var(--ui-control-height);
+  line-height: 1.4;
+}

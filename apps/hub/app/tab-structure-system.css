@@ -1,0 +1,233 @@
+/*
+ * Hub tab hierarchy.
+ * Level 2 moves between pages in one product area.
+ * Level 3 changes the view, order or filter without leaving the page.
+ */
+
+:root {
+  --tab-structure-height: 44px;
+  --tab-structure-gap: 4px;
+}
+
+/* Level 2: section navigation. Link-shaped, calm, and URL-oriented. */
+:where(
+  .storefront__primary,
+  .market-view-tabs,
+  .music-section-tabs
+) {
+  display: flex;
+  min-width: 0;
+  align-items: stretch;
+  gap: var(--tab-structure-gap);
+  overflow-x: auto;
+  border-bottom: var(--divider);
+  background: var(--surface-raised);
+  scrollbar-width: thin;
+}
+
+:where(
+  .storefront__primary,
+  .market-view-tabs,
+  .music-section-tabs
+) :where(a, button) {
+  position: relative;
+  min-height: var(--tab-structure-height);
+  flex: 0 0 auto;
+  padding: 0 13px;
+  border: 0;
+  border-radius: 0;
+  color: var(--muted);
+  background: transparent;
+  font: inherit;
+  font-size: .875rem;
+  font-weight: var(--type-control-weight);
+  text-decoration: none;
+  text-wrap: nowrap;
+}
+
+:where(
+  .storefront__primary,
+  .market-view-tabs,
+  .music-section-tabs
+) :where(a, button):hover {
+  color: var(--text);
+  background: var(--interactive-hover);
+}
+
+:where(
+  .storefront__primary,
+  .market-view-tabs,
+  .music-section-tabs
+) :where(
+  .is-active,
+  [aria-current="page"],
+  [aria-selected="true"],
+  [aria-pressed="true"]
+) {
+  color: var(--text);
+  font-weight: 750;
+  box-shadow: inset 0 -3px 0 var(--emphasis);
+}
+
+/* Level 3: local view, ordering and filtering controls. */
+:where(
+  .content-discovery-tabs,
+  .search-result-tabs,
+  .bbs-view-tabs,
+  .thread-view-tabs,
+  .trend-tabs,
+  .video-discovery-tabs,
+  .rail-search-tabs,
+  .services-directory__tabs,
+  .hub-auth-tabs,
+  [role="tablist"]
+) {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: var(--tab-structure-gap);
+  overflow-x: auto;
+  padding: 4px;
+  border: var(--divider);
+  border-radius: 12px;
+  background: var(--interactive);
+  scrollbar-width: thin;
+}
+
+:where(
+  .content-discovery-tabs,
+  .search-result-tabs,
+  .bbs-view-tabs,
+  .thread-view-tabs,
+  .trend-tabs,
+  .video-discovery-tabs,
+  .rail-search-tabs,
+  .services-directory__tabs,
+  .hub-auth-tabs,
+  [role="tablist"]
+) :where(a, button, [role="tab"]) {
+  min-height: 36px;
+  flex: 0 0 auto;
+  padding: 7px 11px;
+  border: 0;
+  border-radius: 8px;
+  color: var(--muted);
+  background: transparent;
+  font: inherit;
+  font-size: .8125rem;
+  font-weight: var(--type-control-weight);
+  text-decoration: none;
+  text-wrap: nowrap;
+}
+
+:where(
+  .content-discovery-tabs,
+  .search-result-tabs,
+  .bbs-view-tabs,
+  .thread-view-tabs,
+  .trend-tabs,
+  .video-discovery-tabs,
+  .rail-search-tabs,
+  .services-directory__tabs,
+  .hub-auth-tabs,
+  [role="tablist"]
+) :where(a, button, [role="tab"]):hover {
+  color: var(--text);
+  background: var(--interactive-hover);
+}
+
+:where(
+  .content-discovery-tabs,
+  .search-result-tabs,
+  .bbs-view-tabs,
+  .thread-view-tabs,
+  .trend-tabs,
+  .video-discovery-tabs,
+  .rail-search-tabs,
+  .services-directory__tabs,
+  .hub-auth-tabs,
+  [role="tablist"]
+) :where(
+  .active,
+  .is-active,
+  [class$="__active"],
+  [aria-current="page"],
+  [aria-selected="true"],
+  [aria-pressed="true"]
+) {
+  color: var(--text);
+  background: var(--surface-raised);
+  font-weight: 750;
+  box-shadow: var(--shadow-subtle);
+}
+
+:where(
+  .storefront__primary,
+  .market-view-tabs,
+  .music-section-tabs,
+  .content-discovery-tabs,
+  .search-result-tabs,
+  .bbs-view-tabs,
+  .thread-view-tabs,
+  .trend-tabs,
+  .video-discovery-tabs,
+  .rail-search-tabs,
+  .services-directory__tabs,
+  .hub-auth-tabs,
+  [role="tablist"]
+) :where(a, button, [role="tab"]):focus-visible {
+  z-index: 1;
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 1px;
+}
+
+@media (max-width: 760px) {
+  :where(
+    .storefront__primary,
+    .market-view-tabs,
+    .music-section-tabs
+  ) {
+    padding-inline: 8px;
+    scroll-padding-inline: 8px;
+  }
+
+  :where(
+    .content-discovery-tabs,
+    .search-result-tabs,
+    .bbs-view-tabs,
+    .thread-view-tabs,
+    .trend-tabs,
+    .video-discovery-tabs,
+    [role="tablist"]
+  ) {
+    max-width: 100%;
+    scroll-padding-inline: 4px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :where(
+    .storefront__primary,
+    .market-view-tabs,
+    .content-discovery-tabs,
+    [role="tablist"]
+  ) {
+    scroll-behavior: auto;
+  }
+}
+
+@media (forced-colors: active) {
+  :where(
+    .storefront__primary,
+    .market-view-tabs,
+    .content-discovery-tabs,
+    [role="tablist"]
+  ) :where(
+    [aria-current="page"],
+    [aria-selected="true"],
+    [aria-pressed="true"]
+  ) {
+    outline: 2px solid Highlight;
+    outline-offset: -2px;
+  }
+}

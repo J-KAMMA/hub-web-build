@@ -1,0 +1,1011 @@
+/*
+ * Final GUI contract.
+ * Keep this layer semantic and deliberately low-specificity so product
+ * surfaces retain their identity while sharing legibility and interaction.
+ */
+
+:root {
+  --gui-reading-measure: 76ch;
+  --gui-control-height: 44px;
+  --gui-compact-control-height: 40px;
+}
+
+html[data-hub-surface="web"] .account-profile-switcher__trigger {
+  width: 100%;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 8px;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+  color: var(--text);
+  text-align: left;
+  cursor: pointer;
+}
+
+html[data-hub-surface="web"] .account-profile-switcher__trigger:hover {
+  background: var(--interactive-hover);
+}
+
+.account-profile-switcher__identity,
+.account-profile-switcher__list button > span:nth-child(2),
+.account-profile-switcher header > div {
+  min-width: 0;
+  display: grid;
+  gap: 2px;
+}
+
+.account-profile-switcher__identity small,
+.account-profile-switcher__list small,
+.account-profile-switcher header small {
+  color: var(--muted);
+}
+
+.account-profile-switcher {
+  width: min(440px, calc(100vw - 24px));
+  padding: 0;
+  border: var(--divider);
+  border-radius: 16px;
+  background: var(--panel);
+  color: var(--text);
+}
+
+.account-profile-switcher::backdrop {
+  background: color-mix(in srgb, var(--text) 28%, transparent);
+}
+
+.account-profile-switcher header,
+.account-profile-switcher__list button,
+.account-profile-switcher form,
+.account-profile-switcher__create {
+  padding: 14px 16px;
+}
+
+.account-profile-switcher header {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  border-bottom: var(--divider);
+}
+
+.account-profile-switcher__list {
+  display: grid;
+}
+
+.account-profile-switcher__list button,
+.account-profile-switcher__create {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 40px 1fr auto;
+  align-items: center;
+  gap: 10px;
+  border: 0;
+  border-bottom: var(--divider);
+  background: transparent;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.account-profile-switcher__list button:hover,
+.account-profile-switcher__create:hover {
+  background: var(--interactive-hover);
+}
+
+.account-profile-switcher__list .sidebar__profile-avatar {
+  width: 40px;
+  height: 40px;
+}
+
+.account-profile-switcher__error {
+  margin: 12px 16px 0;
+  color: var(--danger-text);
+}
+
+.account-profile-switcher form {
+  display: grid;
+  gap: 12px;
+}
+
+.account-profile-switcher form label {
+  display: grid;
+  gap: 5px;
+  color: var(--muted);
+}
+
+.account-profile-switcher form input,
+.account-profile-switcher form select {
+  min-height: 42px;
+  padding: 8px 10px;
+  border: var(--divider);
+  border-radius: 9px;
+  background: var(--interactive);
+  color: var(--text);
+}
+
+.account-profile-switcher form > div {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.account-profile-switcher form button,
+.account-profile-switcher__create {
+  min-height: 40px;
+  border: var(--divider);
+  border-radius: 9px;
+  background: var(--interactive);
+  color: var(--text);
+}
+
+.account-profile-switcher__create {
+  grid-template-columns: 22px 1fr;
+}
+
+:where(.main-content, .timeline-rail) {
+  text-rendering: optimizeLegibility;
+}
+
+:where(.main-content, .timeline-rail) :where(
+  p,
+  li,
+  dd,
+  figcaption,
+  blockquote
+) {
+  overflow-wrap: anywhere;
+}
+
+:where(.main-content) :where(
+  .page-description,
+  .feature-header p,
+  .settings-page-header p,
+  .empty-state p,
+  [role="status"] p,
+  [role="alert"] p
+) {
+  max-width: var(--gui-reading-measure);
+}
+
+:where(.main-content, .timeline-rail, .shell__left) :where(
+  button,
+  [role="button"],
+  input:not([type="checkbox"]):not([type="radio"]),
+  select
+) {
+  min-height: var(--gui-compact-control-height);
+}
+
+:where(.main-content) :where(
+  form button[type="submit"],
+  .primary-action,
+  .tl-compose__submit
+) {
+  min-height: var(--gui-control-height);
+  font-weight: var(--type-emphasis-weight);
+}
+
+:where(.main-content, .timeline-rail, .shell__left) :where(
+  a[href],
+  button,
+  input,
+  select,
+  textarea,
+  summary,
+  [tabindex]:not([tabindex="-1"])
+):focus-visible {
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+
+:where(.main-content, .timeline-rail) :where(
+  button,
+  input,
+  select,
+  textarea
+):disabled {
+  cursor: not-allowed;
+  opacity: .58;
+}
+
+:where(.main-content) :where(
+  input:not([type="checkbox"]):not([type="radio"]),
+  textarea,
+  select
+) {
+  max-width: 100%;
+  color: var(--text);
+  background: var(--surface-raised);
+}
+
+:where(.main-content) textarea {
+  line-height: 1.55;
+  resize: vertical;
+}
+
+:where(.main-content) :where(
+  img,
+  video,
+  iframe,
+  canvas,
+  svg
+) {
+  max-width: 100%;
+}
+
+:where(.main-content) :where(
+  section,
+  article,
+  form,
+  [role="dialog"]
+) {
+  min-width: 0;
+}
+
+:where(.main-content) :where(
+  h1,
+  h2,
+  h3,
+  [role="heading"]
+) {
+  scroll-margin-top: 88px;
+}
+
+@media (max-width: 760px) {
+  :where(.main-content) :where(
+    input:not([type="checkbox"]):not([type="radio"]),
+    textarea,
+    select
+  ) {
+    font-size: 1rem;
+  }
+
+  :where(.main-content) :where(
+    .page-actions,
+    .feature-header__actions,
+    .settings-page-header__actions
+  ) {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  :where(.main-content) :where(
+    .page-actions,
+    .feature-header__actions,
+    .settings-page-header__actions
+  ) > :where(button, a) {
+    flex: 1 1 auto;
+  }
+}
+
+@media (prefers-contrast: more) {
+  :where(.main-content, .timeline-rail) :where(
+    button,
+    input,
+    select,
+    textarea,
+    article,
+    [role="dialog"]
+  ) {
+    border-color: var(--line-strong);
+  }
+}
+
+@media (forced-colors: active) {
+  :where(.main-content, .timeline-rail, .shell__left) :focus-visible {
+    outline-color: Highlight;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :where(.main-content, .timeline-rail, .shell__left) {
+    scroll-behavior: auto;
+  }
+}
+
+/* Open menus: visually connect the trigger, choices and destructive actions. */
+:where(.main-content, .timeline-rail) .tweet__more-trigger {
+  width: var(--gui-compact-control-height);
+  height: var(--gui-compact-control-height);
+  border: var(--divider);
+  background: var(--surface-raised);
+  letter-spacing: 2px;
+}
+
+:where(.main-content, .timeline-rail) .tweet__more-trigger[aria-expanded="true"] {
+  border-color: var(--line-strong);
+  background: var(--interactive-hover);
+}
+
+:where(.main-content, .timeline-rail) .tweet__more-menu {
+  top: calc(var(--gui-compact-control-height) + 6px);
+  width: min(268px, calc(100vw - 32px));
+  padding: 6px;
+  overflow: visible;
+  border: var(--divider);
+  border-radius: 14px;
+  background: var(--surface-raised);
+  box-shadow: var(--shadow-subtle) !important;
+  transform-origin: top right;
+}
+
+:where(.main-content, .timeline-rail) .tweet__more-menu::before {
+  position: absolute;
+  top: -5px;
+  right: 15px;
+  width: 8px;
+  height: 8px;
+  border-top: var(--divider);
+  border-left: var(--divider);
+  background: var(--surface-raised);
+  content: "";
+  transform: rotate(45deg);
+}
+
+:where(.main-content, .timeline-rail) .tweet__more-menu button {
+  position: relative;
+  display: flex;
+  min-height: var(--gui-control-height);
+  align-items: center;
+  gap: 11px;
+  padding: 10px 12px;
+  border-radius: 9px;
+  font-family: inherit;
+  font-size: .875rem;
+  font-weight: var(--type-control-weight);
+  line-height: 1.35;
+}
+
+:where(.main-content, .timeline-rail) .tweet__more-menu button svg {
+  width: 17px;
+  height: 17px;
+  flex: 0 0 auto;
+  stroke-width: 1.9;
+}
+
+:where(.main-content, .timeline-rail) .tweet__more-menu button:hover:not(:disabled),
+:where(.main-content, .timeline-rail) .tweet__more-menu button:focus-visible {
+  background: var(--interactive-hover);
+}
+
+:where(.main-content, .timeline-rail) .tweet__more-menu button:not(.tweet__more-danger) + .tweet__more-danger {
+  margin-top: 5px;
+  border-top: var(--divider);
+  border-radius: 0 0 9px 9px;
+}
+
+:where(.main-content, .timeline-rail) .tweet__more-menu .tweet__more-danger {
+  color: var(--danger-text);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :where(.main-content, .timeline-rail) .tweet__more-menu {
+    animation: gui-menu-enter 130ms ease-out;
+  }
+}
+
+@keyframes gui-menu-enter {
+  from {
+    opacity: 0;
+    transform: translateY(-4px) scale(.98);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Left navigation: make location, grouping and primary action scan at a glance. */
+@media (min-width: 1081px) {
+  html[data-hub-surface="web"] .shell__left > .sidebar {
+    background: var(--surface-sunken);
+  }
+
+  html[data-hub-surface="web"] .sidebar__brand {
+    margin-bottom: 8px;
+    padding-bottom: 10px;
+    border-bottom: var(--divider);
+  }
+
+  html[data-hub-surface="web"] .sidebar__wordmark {
+    color: var(--text);
+  }
+
+  html[data-hub-surface="web"] .sidebar__wordmark strong {
+    font-size: 1.25rem;
+    font-weight: 800;
+    letter-spacing: -.03em;
+  }
+
+  html[data-hub-surface="web"] .sidebar__collapse {
+    border: var(--divider);
+    background: var(--surface-raised);
+  }
+
+  html[data-hub-surface="web"] .sidebar__collapse:hover {
+    border-color: var(--line-strong);
+    background: var(--interactive-hover);
+  }
+
+  html[data-hub-surface="web"] .sidebar__nav--desktop {
+    padding: 2px 4px 10px;
+    scrollbar-color: var(--line-strong) transparent;
+    scrollbar-width: thin;
+  }
+
+  html[data-hub-surface="web"] .sidebar:not(.sidebar--collapsed) .sidebar__link {
+    position: relative;
+    display: grid;
+    grid-template-columns: 30px minmax(0, 1fr) auto;
+    min-height: 44px;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 8px;
+    border: 0;
+    border-radius: 11px;
+    color: var(--text);
+    transition:
+      background-color 140ms ease,
+      color 140ms ease;
+  }
+
+  html[data-hub-surface="web"] .sidebar:not(.sidebar--collapsed) .sidebar__link:hover {
+    background: var(--interactive-hover) !important;
+  }
+
+  /*
+   * The current place, marked on the ground and an inset bar — never on the
+   * text colour. Measured on staging before this: the active link rendered
+   * byte-identical to its neighbours except a 750 weight, and the row could
+   * not be found at a glance.
+   */
+  html[data-hub-surface="web"] .sidebar:not(.sidebar--collapsed) .sidebar__link--active {
+    color: var(--text) !important;
+    background: var(--selected) !important;
+    box-shadow: none !important;
+  }
+
+  html[data-hub-surface="web"] .sidebar:not(.sidebar--collapsed) .sidebar__link--active::after {
+    display: none;
+  }
+
+  html[data-hub-surface="web"] .sidebar__nav-icon {
+    width: 30px;
+    height: 30px;
+    display: grid;
+    flex: 0 0 30px;
+    place-items: center;
+    border-radius: 9px;
+    color: var(--muted);
+  }
+
+  html[data-hub-surface="web"] .sidebar__link:hover .sidebar__nav-icon,
+  html[data-hub-surface="web"] .sidebar__link--active .sidebar__nav-icon {
+    color: var(--text);
+    background: transparent !important;
+  }
+
+  html[data-hub-surface="web"] .sidebar__link--active .sidebar__nav-icon {
+    color: var(--text);
+  }
+
+  html[data-hub-surface="web"] .sidebar__link-copy {
+    min-width: 0;
+    line-height: 1.25;
+  }
+
+  html[data-hub-surface="web"] .sidebar__label {
+    display: block;
+    overflow: hidden;
+    font-size: .9375rem;
+    font-weight: var(--type-control-weight);
+    letter-spacing: -.01em;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+  }
+
+  html[data-hub-surface="web"] .sidebar__link--active .sidebar__label {
+    font-weight: 750;
+  }
+
+  html[data-hub-surface="web"] .sidebar__link-copy small {
+    display: block;
+    margin-top: 2px;
+    color: var(--muted);
+    font-size: .75rem;
+  }
+
+  html[data-hub-surface="web"] .sidebar__group-label {
+    margin: 10px 0 2px;
+    padding: 0 8px;
+    color: var(--muted);
+    font-size: .6875rem;
+    font-weight: 750;
+    letter-spacing: .08em;
+  }
+
+  html[data-hub-surface="web"] .sidebar__profile-nav-item {
+    margin-top: 2px;
+  }
+
+  html[data-hub-surface="web"] .sidebar__profile-avatar {
+    border: var(--divider);
+    background: var(--surface-raised) !important;
+  }
+
+  html[data-hub-surface="web"] .sidebar__nav-footer {
+    margin-top: 10px;
+    padding: 14px 9px 4px;
+    border-top: var(--divider);
+    color: var(--muted);
+    font-size: .75rem;
+    line-height: 1.55;
+  }
+
+  html[data-hub-surface="web"] .sidebar__nav-footer a:hover {
+    color: var(--text);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+
+  html[data-hub-surface="web"] .sidebar__footer {
+    gap: 8px;
+    padding-top: 10px;
+    border-top: var(--divider);
+  }
+
+  html[data-hub-surface="web"] .sidebar__profile-pinned {
+    display: grid;
+    margin: 0;
+  }
+
+  html[data-hub-surface="web"] .sidebar__profile-pinned .sidebar__profile-nav-item {
+    margin: 0;
+  }
+
+  html[data-hub-surface="web"] .sidebar__compose {
+    min-height: 46px;
+    border: 1px solid var(--action);
+    border-radius: 12px;
+    color: var(--action-text);
+    background: var(--action);
+    font-weight: 750;
+    box-shadow: none !important;
+  }
+
+  html[data-hub-surface="web"] .sidebar__compose:hover {
+    border-color: var(--action-hover);
+    background: var(--action-hover);
+  }
+
+  html[data-hub-surface="web"] .sidebar__theme-toggle {
+    min-height: 46px;
+    border: var(--divider);
+    border-radius: 12px;
+    color: var(--muted);
+    background: var(--surface-raised);
+  }
+
+  html[data-hub-surface="web"] .sidebar__theme-toggle:hover {
+    border-color: var(--line-strong);
+    color: var(--text);
+    background: var(--interactive-hover);
+  }
+
+  html[data-hub-surface="web"] .sidebar--collapsed .sidebar__link {
+    position: relative;
+    border-radius: 11px;
+  }
+
+  html[data-hub-surface="web"] .sidebar--collapsed .sidebar__link--active {
+    color: var(--text);
+    background: var(--selected) !important;
+    box-shadow: none !important;
+  }
+}
+
+/* Right rail: one calm tool surface with clear selection and content density. */
+@media (min-width: 1081px) {
+  html[data-hub-surface="web"] .shell__right {
+    border-left: var(--divider);
+    background: var(--surface-sunken);
+  }
+
+  html[data-hub-surface="web"] .shell__right-header {
+    border-bottom: var(--divider);
+    background: var(--surface-raised) !important;
+  }
+
+  html[data-hub-surface="web"] .shell__right-header-icon {
+    border-radius: 9px;
+    color: var(--text);
+    background: var(--interactive);
+  }
+
+  html[data-hub-surface="web"] .shell__right-header h2 {
+    font-weight: 750 !important;
+    letter-spacing: -.015em;
+  }
+
+  html[data-hub-surface="web"] .shell__right-body {
+    background: var(--surface-sunken);
+  }
+
+  html[data-hub-surface="web"] .shell__right-body .rail-controls {
+    display: grid;
+    gap: 8px;
+    padding: 10px 12px 12px;
+    border-bottom: var(--divider);
+    background: var(--surface-raised);
+  }
+
+  html[data-hub-surface="web"] .shell__right-body .rail-mode {
+    margin: 0 !important;
+    padding: 3px !important;
+    border: var(--divider) !important;
+    border-radius: 11px !important;
+    background: var(--interactive) !important;
+  }
+
+  html[data-hub-surface="web"] .shell__right-body .rail-mode button {
+    min-height: 38px;
+    border-radius: 8px !important;
+    color: var(--muted);
+    font-weight: var(--type-control-weight);
+  }
+
+  html[data-hub-surface="web"] .shell__right-body .rail-mode button:hover {
+    color: var(--text);
+    background: var(--interactive-hover) !important;
+  }
+
+  html[data-hub-surface="web"] .shell__right-body .rail-mode button.rail-mode__active {
+    color: var(--text);
+    background: var(--surface-raised) !important;
+    box-shadow: var(--shadow-subtle) !important;
+  }
+
+  html[data-hub-surface="web"] .shell__right-body :is(
+    .rail-list-filter,
+    .rail-search,
+    .rail-search-tabs,
+    .rail-hubpedia-filter
+  ) {
+    margin: 0 !important;
+  }
+
+  html[data-hub-surface="web"] .shell__right-body .rail-search {
+    height: 42px !important;
+    border: var(--divider) !important;
+    border-radius: 11px !important;
+    background: var(--surface-raised) !important;
+    box-shadow: none !important;
+  }
+
+  html[data-hub-surface="web"] .shell__right-body .rail-search:focus-within {
+    border-color: var(--focus-ring);
+    outline: none;
+    outline-offset: 1px;
+  }
+
+  html[data-hub-surface="web"] .shell__right-body :is(
+    .rail-list-filter button,
+    .rail-search-tabs button,
+    .rail-hubpedia-filter button,
+    .notifications-right-rail__filters button
+  ) {
+    min-height: 36px;
+    font-weight: var(--type-control-weight);
+  }
+
+  html[data-hub-surface="web"] .shell__right-body :is(
+    .rail-list-filter__active,
+    .rail-search-tabs .is-active,
+    .rail-hubpedia-filter .is-active,
+    .notifications-right-rail__filters .is-selected
+  ) {
+    color: var(--text) !important;
+    font-weight: 750;
+  }
+
+  html[data-hub-surface="web"] .shell__right-body .timeline-rail__list {
+    padding: 8px 10px 18px;
+  }
+
+  html[data-hub-surface="web"] .shell__right-body .timeline-rail__list > .tweet {
+    margin: 0;
+    border-bottom: var(--divider);
+    background: var(--surface-raised);
+  }
+
+  html[data-hub-surface="web"] .shell__right-body .timeline-rail__list > .tweet:hover {
+    background: var(--content-surface-hover);
+  }
+
+  html[data-hub-surface="web"] .shell__right-body .rail-result {
+    margin: 0;
+    padding: 13px 11px !important;
+    border-bottom: var(--divider);
+    border-radius: 0 !important;
+    color: var(--text);
+  }
+
+  html[data-hub-surface="web"] .shell__right-body .rail-result:hover {
+    border-radius: 10px !important;
+    background: var(--interactive-hover) !important;
+  }
+
+  html[data-hub-surface="web"] .shell__right-body .rail-empty {
+    min-height: 180px;
+    margin: 10px;
+    padding: 24px !important;
+    border: var(--divider);
+    border-radius: 13px;
+    background: var(--surface-raised);
+  }
+
+  html[data-hub-surface="web"] .shell__right-body .rail-empty strong {
+    color: var(--text);
+    font-size: .875rem;
+  }
+
+  html[data-hub-surface="web"] .shell__right-body .rail-empty p {
+    color: var(--muted);
+    font-size: .75rem;
+    line-height: 1.6;
+  }
+
+  html[data-hub-surface="web"] .shell__right-body .notifications-right-rail > header {
+    min-height: 52px !important;
+    padding: 6px 12px !important;
+    background: var(--surface-raised) !important;
+  }
+
+  html[data-hub-surface="web"] .notifications-right-rail__actions button {
+    width: 38px;
+    height: 38px;
+    border: var(--divider);
+    border-radius: 10px;
+    color: var(--muted);
+    background: var(--surface-raised);
+  }
+
+  html[data-hub-surface="web"] .notifications-right-rail__actions button:hover:not(:disabled) {
+    border-color: var(--line-strong);
+    color: var(--text);
+  }
+
+  html[data-hub-surface="web"] .notifications-right-rail__filters {
+    gap: 6px;
+    padding: 9px 12px;
+    background: var(--surface-raised);
+  }
+
+  html[data-hub-surface="web"] .notifications-right-rail__list > a {
+    min-height: 66px;
+    padding: 11px 12px;
+    background: var(--surface-raised);
+  }
+
+  html[data-hub-surface="web"] .notifications-right-rail__list > a:hover {
+    background: var(--content-surface-hover);
+  }
+
+  html[data-hub-surface="web"] .notifications-right-rail__list > a.is-unread {
+    background: var(--emphasis-soft);
+  }
+
+  html[data-hub-surface="web"] .notifications-right-rail__all,
+  html[data-hub-surface="web"] .rail-hub-link {
+    margin: 10px 12px 14px !important;
+    min-height: 42px;
+    border: var(--divider);
+    border-radius: 11px !important;
+    color: var(--text);
+    background: var(--surface-raised);
+    font-weight: var(--type-control-weight);
+  }
+
+  html[data-hub-surface="web"] .shell__rail-switcher {
+    border-left: var(--divider);
+    background: var(--surface-raised);
+  }
+
+  html[data-hub-surface="web"] .shell__rail-shortcut {
+    position: relative;
+    border-radius: 10px;
+    color: var(--muted);
+  }
+
+  html[data-hub-surface="web"] .shell__rail-shortcut:hover {
+    color: var(--text);
+    background: var(--interactive-hover) !important;
+  }
+
+  html[data-hub-surface="web"] .shell__rail-shortcut[aria-pressed="true"] {
+    width: 38px;
+    height: 38px !important;
+    min-height: 38px !important;
+    max-height: 38px !important;
+    align-self: center;
+    color: var(--text);
+    background: transparent !important;
+    border-radius: 50%;
+    box-shadow: none !important;
+  }
+}
+
+/*
+ * The search field follows the canonical search geometry declared on html
+ * (--search-height/-radius/-surface/-border-color). Measured on staging the
+ * page's field had drifted to 40px, a full pill, and the page ground itself as
+ * its fill — the boundary problem those tokens were introduced to end.
+ */
+.search-page input[type="search"] {
+  height: var(--search-height) !important;
+  border-color: var(--search-border-color) !important;
+  border-radius: var(--search-radius) !important;
+  background: var(--search-surface) !important;
+}
+
+/*
+ * Encyclopedia reading rhythm, as the design canvas draws it: 16px body on a
+ * 1.9 leading. Measured before this, layers had bid the article down to
+ * 15px/1.72 — denser than the posts it sits beside, backwards for the one
+ * surface that is only for reading.
+ */
+.article-markdown {
+  font-size: 1rem !important;
+  line-height: 1.9 !important;
+}
+
+/*
+ * The feed's page-left column: the query switcher as a vertical directory.
+ * Every page's own switcher lives in this column now; the horizontal strip's
+ * underline treatment does not survive rotation, so the current query takes
+ * the ground and an inset bar like every other current-place marker.
+ */
+.feed-directory__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 4px 8px 12px;
+}
+
+.feed-directory__nav .tl-tab {
+  justify-content: flex-start;
+  min-height: 40px;
+  padding: 8px 10px;
+  border: 0 !important;
+  border-radius: 4px;
+  background: transparent !important;
+  box-shadow: none !important;
+  color: var(--muted) !important;
+  font-weight: 600;
+  text-align: left;
+}
+
+.feed-directory__nav .tl-tab:hover {
+  background: var(--interactive) !important;
+  color: var(--text) !important;
+}
+
+/*
+ * html[data-theme] lifts this over the dark-theme strip rule
+ * (html[data-theme="dark"] .tl-tab--active, 0-2-1) that flattens the
+ * marker to surface-raised with no bar.
+ */
+html[data-theme] .feed-directory__nav .tl-tab--active {
+  background: var(--emphasis-soft) !important;
+  box-shadow: none !important;
+  color: var(--text) !important;
+}
+
+.feed-directory__nav .tl-tab--active::after {
+  display: none;
+}
+
+.feed-directory__nav .home-feed__query-trigger {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 40px;
+  margin-top: 8px;
+  padding: 8px 10px;
+  border: var(--divider);
+  border-radius: 10px;
+  background: var(--interactive);
+  color: var(--text);
+  cursor: pointer;
+  font: inherit;
+  font-size: .8rem;
+  font-weight: 600;
+}
+
+.feed-directory__nav .home-feed__query-trigger:hover {
+  background: var(--interactive-hover);
+}
+
+/* The count beside a directory filter stays quiet next to its label. */
+.feed-directory__nav .feed-directory__count {
+  margin-left: auto;
+  color: var(--muted);
+  font-size: .72rem;
+  font-weight: 600;
+}
+
+/*
+ * Four-region layout: the body column sits flush against the page-left
+ * column, bounded by dividers — not floating in leftover space. Measured
+ * before this: the 700px feed floated inside a 962px area with a dead
+ * 131px gutter on each side.
+ */
+html[data-theme] body .feed-directory-content .home-feed {
+  margin-inline: 0 !important;
+  border-right: var(--divider);
+}
+
+/*
+ * Inside the rectangular page-left column, nothing is a rounded chip: a
+ * round shape floating in a square panel reads as a foreign object. Current
+ * place stays marked by the ground and the inset bar; the corners go.
+ */
+.tab-left-column .bbs-thread-directory__nav :is(a, button),
+.feed-directory__nav .tl-tab,
+.feed-directory__nav .home-feed__query-trigger,
+.settings-directory__nav a {
+  border-radius: 0 !important;
+}
+
+/*
+ * The global left navigation squares off with the page-left column: the
+ * two columns stand side by side, so a rounded item in one and a right
+ * angle in the other reads as two different systems.
+ */
+html[data-theme] .sidebar :is(
+  .sidebar__link,
+  .sidebar__compose,
+  .sidebar__nav-icon,
+  .sidebar__collapse,
+  .sidebar__profile-avatar
+) {
+  border-radius: 0 !important;
+}
+
+/*
+ * The page-left column is a list, not a tab strip.
+ *
+ * Measured on staging: the horizontal-strip rule set matched this nav too
+ * and gave it the raised ground, a border on both edges and centred items
+ * of 63px inside a 217px column — a panel floating inside a panel, with
+ * the labels stranded in the middle of it. The column owns the ground;
+ * the list runs the full width of it.
+ */
+html[data-theme] .feed-directory__nav,
+html[data-theme] .settings-directory__nav,
+html[data-theme] .bbs-thread-directory__nav {
+  align-items: stretch !important;
+  border: 0 !important;
+  background: transparent !important;
+}
+
+html[data-theme] .feed-directory__nav > :is(a, button) {
+  width: 100% !important;
+  min-width: 0 !important;
+  flex: 0 0 auto !important;
+  justify-content: flex-start !important;
+  padding-inline: 12px !important;
+  text-align: left !important;
+}
+
+/*
+ * And the body fills the region between the two columns. Capping it at a
+ * reading width left 262px of dead ground beside it — the four regions are
+ * the layout, so each one takes the width it is given.
+ */
+html[data-theme] body .feed-directory-content .home-feed {
+  max-width: none !important;
+}

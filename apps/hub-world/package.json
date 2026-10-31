@@ -1,0 +1,38 @@
+{
+  "name": "@jkamma/hub-world",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@babylonjs/core": "^7.54.3",
+    "@babylonjs/loaders": "^7.54.3",
+    "@colyseus/schema": "^4.0.31",
+    "@jkamma/game-kit": "*",
+    "ws": "^8.21.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "test": "vitest run",
+    "server": "tsx src/server/main.ts"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.18.1",
+    "typescript": "^5.8.3",
+    "vite": "^5.4.21",
+    "vitest": "^2.1.9"
+  },
+  "exports": {
+    "./world": "./src/world/index.ts",
+    "./client": "./src/client/main.ts",
+    "./rules": "./src/world/rules.ts",
+    "./session": "./src/world/session.ts",
+    "./zones": "./src/world/zones.ts",
+    "./items": "./src/world/items.ts",
+    "./collide": "./src/world/collide.ts",
+    "./entry": "./src/world/entry.ts",
+    "./owned": "./src/world/owned.ts",
+    "./carved": "./src/world/carved.ts",
+    "./registry": "./src/world/registry.ts"
+  }
+}

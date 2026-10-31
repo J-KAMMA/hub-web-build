@@ -1,0 +1,2045 @@
+[
+  {
+    "slug": "polygenic-risk-score",
+    "topicType": "concept",
+    "categoryLabel": "生命科学",
+    "title": "ポリジェニックリスクスコア",
+    "summary": "ポリジェニックリスクスコア（PRS）は、ゲノム情報だけを用いて、個人が特定の医学的状態を持つ、あるいは将来発症する可能性を統計的に評価する指標である。複数のゲノムバリアントの有無に基づいて計算され、環境要因は考慮しない。相対リスクのみを示し因果は示さないこと、研究対象が欧州系祖先に偏っていることなどの限界があり、医療現場での日常的利用はまだ始まっていない。",
+    "bodyMarkdown": "## ポリジェニックリスクスコアとは\n\nポリジェニックリスクスコア（PRS）は、ゲノム情報だけを用いて、人が特定の医学的状態を持つ、または将来発症する可能性を評価する指標である。個人のPRSは複数のゲノムバリアントの有無に基づく統計的な計算であり、環境など他の要因は考慮に入れない。疾患に関連する変化の総数に基づいて、人が疾患を発症するリスクを知る一つの方法として説明される。 [1][2][3]\n\n前提として、ヒトは推定60億文字の[ゲノム](/hubpedia/genome)コードにわたってほぼ同一の[DNA](/hubpedia/dna)配列を持つ一方、個人のゲノムにはおよそ400万〜500万のゲノムバリアントが存在する。バリアントの一部は疾患リスクを高め、別の一部はリスクを低下させ、その他はリスクに影響を与えない。 [4][5][6]\n\n## 単一遺伝子疾患と複合疾患\n\n遺伝性疾患は、単一の[遺伝子](/hubpedia/gene)に関連するものと、複数の遺伝子と環境要因に影響されるものの2つのクラスに分けられることが多く、多くの疾患はこの両極の間のスペクトラム上にある。単一遺伝子疾患の例として、長期の肺感染と呼吸能力の低下を起こす進行性の遺伝性疾患である嚢胞性線維症は、CFTR遺伝子のバリアントによって引き起こされる。 [7][8]\n\n対して複合疾患は、多数のゲノムバリアントと食事・睡眠・ストレス・喫煙などの環境影響が組み合わさって生じ、「多くの」を意味するpolyと「遺伝子に関わる」を意味するgenicから、ポリジェニック疾患とも呼ばれる。冠動脈疾患は複合疾患の一つで、患者に頻度の高い約60個のバリアントが見つかっているが、その多くは特定の[染色体](/hubpedia/chromosome)に集まらずゲノム全体に散在する。 [9][10]\n\n## スコアの計算\n\n研究者は、疾患のある人とない人のゲノムを比較して複合疾患に関連するバリアントを特定し、一つの疾患につき数百から数千のバリアントが使われることがある。その情報をコンピュータに入れて統計を用い、個人のバリアントの集合が特定の疾患のリスクにどう影響するかを推定する。こうした計算は、その疾患に関わる具体的な遺伝子を知らなくても行うことができる。 [11][12][13][14]\n\n背後にある研究手法はゲノムワイド関連解析（GWAS）で、疾患や形質のリスクと統計的に関連するゲノムバリアントを同定するため、多数の人のゲノムを調べて、疾患や形質を持つ群でより頻繁に現れるバリアントを探す。GWASの結果はNHGRI-EBI GWASカタログに集約され、その手法と成果はポリジェニックリスクスコアのアプローチにも応用されている。 [15][16]\n\n## スコアの解釈\n\nPRSは相対リスクのみを説明し、異なる遺伝的構成を持つ他者と比べた位置を示すが、疾患進行の基準や時間枠は与えない。同じ高スコアでも、22歳の人と98歳の人では生涯リスクが異なり、スコアは因果ではなく相関のみを示す。 [17][18][19]\n\n対照的に絶対リスクは疾患の発生する尤度を示し、BRCA1変異を持つ女性の乳がんの60〜80パーセントのような値がこれにあたる。各スコアはベルカーブ分布に置け、多くの人は平均リスクを示す中央に、一部は低リスクまたは高リスクの裾に位置する。有害バリアントを多数持つ人は、偶然によりリスク分布の上位1パーセント、さらには1,000分の1や10,000分の1に入ることがある。高リスク側の領域に位置する人は、このリスクについて医師や遺伝カウンセラーと議論し、さらなる健康評価を受けることで恩恵を受けうるとされる。 [20][21][22][29]\n\n## 適用範囲と限界\n\nこれまでのゲノム研究の大半は欧州系祖先の個人を対象としており、他の集団のバリアントについてスコアを計算する十分なデータがない可能性がある。現時点ではスコアの精度は欧州系集団でのみ有効かつ有用とされ、他の集団で有用なものにするにはさらなる研究が必要とされる。 [23][24]\n\nPRSは診療指針がなく生成方法も改良途中のため、医療専門家による日常的利用はまだ始まっていないが、民間医療や消費者直販の企業はすでに消費者向けにスコアを生成している。スコアは常に確実ではなく確率として残る。疾患予測の一因子にすぎない一方で、高リスクの個人が早期兆候のより頻繁な検査や予防的な生活様式の変更から恩恵を受けうると研究者は見ており、PRSの利用法への理解が進めば、より広い利用が見込まれるとされる。 [25][26][27][28]",
+    "sources": [
+      {
+        "url": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+        "title": "Polygenic risk scores",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-genome-nhgri-policies-guidance/copyright"
+          },
+          "notes": "NHGRI explainer on polygenic risk scores, covering genomic variants, single-gene versus complex diseases, score calculation and interpretation, ancestry bias and remaining limitations. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Polygenic-Risk-Score-PRS",
+        "title": "Polygenic Risk Score (PRS)",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-genome-nhgri-policies-guidance/copyright"
+          },
+          "notes": "Talking Glossary definition and narration for polygenic risk score, including the top-percentile risk discussion. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Genome-Wide-Association-Studies",
+        "title": "Genome-Wide Association Studies (GWAS)",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-genome-nhgri-policies-guidance/copyright"
+          },
+          "notes": "Talking Glossary definition and narration for genome-wide association studies, including the GWAS catalog and applications to polygenic risk scores. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Polygenic risk score",
+        "summary": "A polygenic risk score (PRS) is a measure that uses genomic information alone to assess a person's chances of having or developing a particular medical condition, calculated statistically from the presence or absence of multiple genomic variants without taking environmental factors into account. It shows only relative rather than absolute risk, its accuracy may currently be limited to European ancestry populations, and health professionals do not yet use it routinely.",
+        "bodyMarkdown": "## What is a polygenic risk score?\n\nA polygenic risk score (PRS) is a measure that uses genomic information alone to assess a person's chances of having or developing a particular medical condition. An individual's PRS is a statistical calculation based on the presence or absence of multiple genomic variants, without taking environmental or other factors into account. It is described as one way for people to learn about their risk of developing a disease, based on the total number of changes related to the disease. [1][2][3]\n\nAs background, all humans have near-identical [DNA](/hubpedia/dna) sequences across the estimated 6 billion-letter code of their [genome](/hubpedia/genome), yet roughly 4 to 5 million genomic variants exist in an individual's genome. Some variants increase the risk of developing diseases, others may reduce such risk, and still others have no effect on disease risk. [4][5][6]\n\n## Single-gene and complex diseases\n\nResearchers often divide genetic diseases into two classes: those associated with a single [gene](/hubpedia/gene) and those influenced by multiple genes and environmental factors, and many diseases fall on a spectrum between these two extremes. As an example of a single-gene disease, cystic fibrosis, a progressive genetic disease that causes long-term lung infections and limits the ability to breathe over time, is caused by variants in the CFTR gene. [7][8]\n\nComplex diseases, by contrast, occur as a result of many genomic variants paired with environmental influences such as diet, sleep, stress and smoking, and are also called polygenic diseases, with \"poly\" meaning many and \"genic\" involving genes. Coronary artery disease is a complex disease: researchers have found about 60 genomic variants that are present more frequently in people with the disease, most of them dispersed across the genome rather than clustered on one specific [chromosome](/hubpedia/chromosome). [9][10]\n\n## Calculating the score\n\nResearchers identify genomic variants associated with complex diseases by comparing the genomes of individuals with and without those diseases, and there can be hundreds or even thousands of variants per disease. The information is put into a computer and statistics are used to estimate how the collection of a person's variants affects their risk for a certain disease. All of this can be done without knowing the specific genes involved in the complex disease. [11][12][13][14]\n\nThe underlying research approach is the genome-wide association study (GWAS), which surveys the genomes of many people to identify genomic variants statistically associated with a risk for a disease or a particular trait, looking for variants that occur more frequently in those with a specific disease or trait than in those without it. Results from GWAS have been curated in the NHGRI-EBI GWAS catalog, and its methods and results have informed polygenic risk score approaches. [15][16]\n\n## Interpreting the score\n\nA polygenic risk score can only explain the relative risk for a disease: it shows how a person's risk compares to others with a different genetic constitution, but provides no baseline or timeframe for the progression of a disease. Two people with the same high score for coronary heart disease, one 22 years old and the other 98, will have different lifetime risks of the disease, and polygenic risk scores only show correlations, not causations. [17][18][19]\n\nAbsolute risk is different: it shows the likelihood of a disease occurring, as in the 60-80% absolute risk of breast cancer for women who carry a BRCA1 mutation. Each polygenic risk score can be put on a bell curve distribution, where most people find their scores in the middle indicating average risk, while others find themselves on the tail ends at either low or high risk. Just by the play of chance, some people carry a large number of harmful variants that can put them in the top 1% or even the top 1/1,000 or 1/10,000 of risk. People with scores on the high-risk portion of the spectrum may benefit from discussions about this risk with their physicians and genetic counselors for further health assessments. [20][21][22][29]\n\n## Scope and limitations\n\nThe majority of genomic studies to date have examined individuals of European ancestry, so there may not be adequate data about genomic variants from other populations for calculating a polygenic risk score in those populations. At this point in time, the accuracy of polygenic risk scores may only be valid and useful for European ancestry populations, and more research is needed to derive the data for making the scores useful for other populations. [23][24]\n\nPolygenic risk scores are not yet routinely used by health professionals because there are no guidelines for practice and researchers are still improving how the scores are generated, though private healthcare and direct-to-consumer companies have already begun generating them for consumers. The scores will always be probabilities, not certainties. They are only one factor in predicting disease, but researchers see that high-risk individuals may do better if tested more frequently for early signs of disease or if they adopt lifestyle changes early on, and as scientists learn more about using PRS, such scores may come into wider use. [25][26][27][28]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "ポリジェニックリスクスコアは、ゲノム情報だけを用いて、人が特定の医学的状態を持つ、または発症する可能性を評価する指標である。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Polygenic-Risk-Score-PRS",
+              "quote": "A polygenic risk score (abbreviated PRS) uses genomic information alone to assess a person’s chances of having or developing a particular medical condition."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "個人のPRSは複数のゲノムバリアントの有無に基づく統計的な計算であり、環境など他の要因は考慮に入れない。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Polygenic-Risk-Score-PRS",
+              "quote": "A person’s PRS is a statistical calculation based on the presence or absence of multiple genomic variants, without taking environmental or other factors into account."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "PRSは疾患に関連する変化の総数に基づいて、人が疾患を発症するリスクを知る一つの方法である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "is one way by which people can learn about their risk of developing a disease, based on the total number of changes related to the disease."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "ヒトは推定60億文字のゲノムコードにわたってほぼ同一のDNA配列を持つ。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "All humans have near-identical DNA sequences across the estimated 6 billion-letter code for their genome."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "個人のゲノムにはおよそ400万〜500万のゲノムバリアントが存在する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "There are roughly 4 to 5 million such genomic variants in an individual’s genome."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "バリアントの一部は疾患リスクを高め、別の一部はリスクを低下させ、その他はリスクに影響を与えない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "Some variants increase the risk of developing diseases, while others may reduce such risk; others have no effect on disease risk."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "研究者は遺伝性疾患を単一遺伝子に関連するものと、複数の遺伝子と環境要因に影響されるものに分け、多くの疾患はその間のスペクトラム上にある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "Researchers often divide genetic diseases into two classes: those that are associated with a single gene and those that are influenced by multiple genes and environmental factors."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "Many diseases fall on a spectrum between these two extremes."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "嚢胞性線維症は、長期の肺感染と呼吸能力の低下を起こす進行性の遺伝性疾患で、CFTR遺伝子のバリアントによって引き起こされる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "Cystic fibrosis, a progressive genetic disease that causes long-term lung infections and limits the ability to breathe over time,"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "is caused by variants in the cystic fibrosis transmembrane conductance regulator"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "複合疾患は多数のゲノムバリアントと食事・睡眠・ストレス・喫煙などの環境影響が組み合わさって生じ、ポリジェニック疾患とも呼ばれる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "Complex diseases occur as a result of many genomic variants, paired with environmental influences (such a diet, sleep, stress and smoking)."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "diseases - with “poly” meaning many and “genic” involving genes."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "冠動脈疾患では患者に頻度の高い約60個のバリアントが見つかっており、その多くは特定の染色体に集まらずゲノム全体に散在する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "Researchers have found about 60 genomic variants that are present more frequently in people with coronary artery disease."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "Most of these variants are dispersed across the genome and do not cluster on one specific chromosome."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "研究者は疾患のある人とない人のゲノムを比較して、複合疾患に関連するゲノムバリアントを特定する。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "Researchers identify genomic variants associated with complex diseases by comparing the genomes of individuals with and without those diseases."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "一つの疾患につき数百から数千のバリアントが使われることがある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "There can be hundreds or even thousands of variants per disease."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "研究者はその情報をコンピュータに入れて統計を用い、個人のバリアントの集合が特定の疾患のリスクにどう影響するかを推定する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "Researchers put this information into a computer and use statistics to estimate how the collection of a person’s variants affect their risk for a certain disease."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "PRSの計算は、その疾患に関わる具体的な遺伝子を知らなくても行うことができる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "All of this can be done without knowing the specific genes involved in the complex disease."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "GWASは疾患や形質のリスクと統計的に関連するゲノムバリアントを同定する研究手法で、多数の人のゲノムを調べて疾患や形質を持つ群でより頻繁に現れるバリアントを探す。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Genome-Wide-Association-Studies",
+              "quote": "A genome-wide association study (abbreviated GWAS) is a research approach used to identify genomic variants that are statistically associated with a risk for a disease or a particular trait."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Genome-Wide-Association-Studies",
+              "quote": "The method involves surveying the genomes of many people, looking for genomic variants that occur more frequently in those with a specific disease or trait compared to those without the disease or trait."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "GWASの結果はNHGRI-EBI GWASカタログに集約され、その手法と成果はポリジェニックリスクスコアのアプローチにも応用されている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Genome-Wide-Association-Studies",
+              "quote": "Results from GWAS have been curated in the NHGRI-EBI GWAS catalog."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Genome-Wide-Association-Studies",
+              "quote": "informed other applications in applied epidemiologic research such as gene environment studies, Mendelian randomization studies, and polygenic risk score approaches."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "PRSは相対リスクのみを説明し、異なる遺伝的構成を持つ他者と比べた位置を示す。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "A polygenic risk score can only explain the"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "risk for a disease."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "A polygenic risk score tells you how a person’s risk compares to others with a different genetic constitution."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "PRSは疾患進行の基準や時間枠を与えず、同じ高スコアでも22歳と98歳では生涯リスクが異なる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "polygenic scores do not provide a baseline or timeframe for the progression of a disease."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "The first person is 22 years old, while the latter is 98. Although they have the same polygenic risk score, they will have different lifetime risks of the disease."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "ポリジェニックリスクスコアは因果ではなく相関のみを示す。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "Polygenic risk scores only show correlations, not causations."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "絶対リスクは疾患の発生する尤度を示し、BRCA1変異を持つ女性の乳がんの60〜80パーセントのような値がこれにあたる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "Absolute risk shows the likelihood of a disease occurring."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "a 60-80% absolute risk of breast cancer"
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "各スコアはベルカーブ分布に置くことができ、多くの人は平均リスクを示す中央に、一部は低リスクまたは高リスクの裾に位置する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "Each polygenic risk score can be put on a bell curve distribution. Most people will find their scores to be in the middle, indicating average risk for developing a disease."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "Others may find themselves on the tail ends, putting them at either low or high risk."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "有害バリアントを多数持つ人は、偶然によりリスク分布の上位1パーセント、さらには1,000分の1や10,000分の1に入ることがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Polygenic-Risk-Score-PRS",
+              "quote": "there are some people who happen to have a large number of harmful variants that can put them at the top 1% or even the top 1/1,000 or 1/10,000 of risk."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "これまでのゲノム研究の大半は欧州系祖先の個人を対象としており、他の集団でスコアを計算する十分なバリアントデータがない可能性がある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "The majority of genomic studies to date have examined individuals of European ancestry."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "there may not be adequate data about genomic variants from other populations for calculating a polygenic risk score in those populations."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "現時点ではスコアの精度は欧州系集団でのみ有効かつ有用とされ、他の集団で有用にするにはさらなる研究が必要とされる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "the accuracy of polygenic risk scores may only be valid and useful for European ancestry populations."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "More research is needed to derive the data for making polygenic risk scores useful for other populations."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "PRSは診療指針がなく生成方法も改良途中のため、医療専門家による日常的利用はまだ始まっていない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "Polygenic risk scores are not yet routinely used by health professionals because there are no guidelines for practice and researchers are still improving how these scores are generated."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "民間医療や消費者直販の企業はすでに消費者向けにスコアを生成しており、スコアは常に確実ではなく確率として残る。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "private healthcare and direct-to-consumer companies have already begun generating polygenic risk scores for their consumers"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "Polygenic risk scores will always be probabilities, not certainties."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "ポリジェニックリスクスコアは疾患予測の一因子にすぎない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Polygenic-Risk-Score-PRS",
+              "quote": "polygenic risk scores, or PRS, are only one factor in predicting disease."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "高リスクの個人が早期兆候のより頻繁な検査や予防的な生活様式の変更から恩恵を受けうると研究者は見ており、PRSの利用法への理解が進めばより広い利用が見込まれるとされる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Polygenic-Risk-Score-PRS",
+              "quote": "Such individuals may do better if they are tested more frequently for early signs of disease as with mammograms, for example, or if they adopt lifestyle changes early on to help prevent the disease entirely."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Polygenic-Risk-Score-PRS",
+              "quote": "As scientists learn more about using PRS, we may see such scores coming into wider use."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "高リスク側の領域に位置する人は、このリスクについて医師や遺伝カウンセラーと議論し、さらなる健康評価を受けることで恩恵を受けうる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Genomics-and-Medicine/Polygenic-risk-scores",
+              "quote": "People with scores on the high-risk portion of the spectrum may benefit from discussions about this risk with their physicians and genetic counselors for further health assessments."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "snp",
+    "topicType": "concept",
+    "categoryLabel": "生命科学",
+    "title": "一塩基多型",
+    "summary": "一塩基多型（SNP、スニップと発音される）は、DNAの単一塩基位置におけるゲノムバリアントであり、ヒト集団の少なくとも1%に存在する一塩基差を指す。ゲノム全体に数百万か所存在し、疾患や形質との関連を調べる目印として大規模な比較研究に使われる。多くは健康に影響しないが、一部は身体的特徴や疾患リスク、薬への反応に関わる。",
+    "bodyMarkdown": "## 一塩基多型の定義\n\n一塩基多型（SNP、「スニップ」と発音される）は、[DNA](/hubpedia/dna)の単一塩基位置におけるゲノムバリアントであり、ある人の[ゲノム](/hubpedia/genome)が別のゲノム配列と1文字だけ異なる場所を指す。より広い枠組みとして、ゲノム学では特定のDNA配列について2つ以上のバリアント型が異なる個人や集団の間に存在する状態をポリモーフィズム（多型）と呼び、その最も一般的な型が一塩基での変異、すなわちSNPである。他の多型は、より長いDNAの範囲に及ぶこともある。 [1][2][3][4]\n\n最小のゲノムバリアントは一塩基バリアント（SNV）であり、各SNVは1ヌクレオチドの差を反映する。例えば、あるSNVについて、そのゲノム位置のDNA文字がある人ではCだが別の人ではTという違いになりうる。SNVは最も一般的な[遺伝的変異](/hubpedia/genetic-variation)の型であり、SNPはそのサブタイプにあたる。SNPとみなされるにはSNVがヒト集団の少なくとも1%に存在する必要があり、SNVはSNPのような比較的頻度の高いものと稀な一塩基差の両方を含む、より一般的な用語である。 [5][6][7]\n\n## ゲノム内での分布と頻度\n\n[ヒトゲノムプロジェクト](/hubpedia/human-genome-project)によって、遺伝コードにおける1文字の変化がゲノム全体に散らばっていることが分かった。こうした変化のパターンは、個人の間でも集団の間でも異なることが観察されている。 [8][9]\n\n頻度で見ると、2人のゲノムの間には平均して約1,300塩基ごとに1つの一塩基差が存在する。任意の2人のゲノムは「99.9%同一」とよく言われるが、これは一塩基差だけを数えた単純化であり、実際には平均して99.6%が同一で0.4%が異なる。典型的なゲノムは参照配列と比較して約500万のSNVを持つと推定され、これらは約500万ヌクレオチドに関わる。 [10][11][12]\n\n## 研究における役割\n\n科学者はSNPが健康、疾患、薬物応答、その他の形質に影響するかどうか、またどのように影響するかを研究している。ただし大半のゲノムバリアントはゲノムの機能に影響を与えず、影響を持つのは小さな一部である。影響を持つバリアントには、眼の色や身長のような身体的特徴に関わるものや、健康状態、特定の薬への反応の仕方に関わるものがある。 [13][14]\n\n複合疾患を対象とした研究では、例えば糖尿病を持つ数千人と持たない数千人を集めてSNPパターンを比較する。十分な人数が集まれば、患者で同じに見えるゲノム領域をSNPを目印として見つけ出し、遺伝的な原因を詳しく探るべき場所を特定できる。 [15][16]\n\n## バリアントの検出と参照配列\n\n既知のバリアントを多数調べる場合、マイクロアレイと呼ばれる検査は一度に数十万のSNVを検出できる。まだ知られていない可能性のあるバリアントを含めて検出する、より包括的な方法としては[ゲノムシークエンシング](/hubpedia/genome-sequencing)が行われる。 [17][18]\n\n個人のゲノム配列でバリアントを検出するには通常、比較対象となる既存の参照配列が必要であり、新たに生成された配列は参照ゲノム配列と直接比較されて、両者の全差異がバリアントとして目録化される。単一の参照配列に伴う偏りを減らすため、集団間のゲノム変異をより網羅的に扱うヒトパンゲノムという枠組みも作られている。 [19][20][21]\n\n## 健康との関係と用語の境界\n\nヒトの健康に影響するゲノムバリアントはごく一部にすぎない。嚢胞性線維症や鎌状赤血球症のように疾患を直接引き起こす場合もあれば、高血圧や糖尿病のように、その状態への全体的なリスクに寄与する程度にとどまる場合もある。 [22]\n\nSNPという用語は頻度によって区切られるため、集団内の存在割合が1%に満たない一塩基差はSNPとは呼ばれず、SNVというより広い用語に含められる。こうした頻度に基づく区別により、一般的な差異と稀な差異が用語上で分けて扱われる。 [7][5]",
+    "sources": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Single-Nucleotide-Polymorphisms-SNPs",
+        "title": "Single Nucleotide Polymorphisms (SNPs)",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-genome-nhgri-policies-guidance/copyright"
+          },
+          "notes": "Talking Glossary definition and narration for single nucleotide polymorphisms, including the diabetes marker example and person- and population-level pattern differences. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+        "title": "Human Genomic Variation",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-genome-nhgri-policies-guidance/copyright"
+          },
+          "notes": "NHGRI fact sheet on human genomic variation, covering SNV and SNP definitions, the 1 percent frequency threshold, variant counts per genome, detection methods, reference sequences and the pangenome. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Polymorphism",
+        "title": "Polymorphism",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-genome-nhgri-policies-guidance/copyright"
+          },
+          "notes": "Talking Glossary definition and narration for polymorphism, situating the SNP as the most common type of polymorphism alongside larger DNA stretches. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Single-nucleotide polymorphism",
+        "summary": "A single-nucleotide polymorphism (SNP, pronounced \"snip\") is a genomic variant at a single base position in the DNA, defined as a single-nucleotide difference present in at least 1% of the human population. Millions of them exist across the genome and serve as markers in large comparison studies of disease and traits. Most have no health impact, but some relate to physical characteristics, disease risk or drug response.",
+        "bodyMarkdown": "## Definition of a single-nucleotide polymorphism\n\nA single-nucleotide polymorphism (SNP, pronounced \"snip\") is a genomic variant at a single base position in the [DNA](/hubpedia/dna), a one-letter place where a person's [genome](/hubpedia/genome) varies from another genome sequence. In the wider framework, genomics uses the term polymorphism for the presence of two or more variant forms of a specific DNA sequence among different individuals or populations, and the most common type of polymorphism is variation at a single nucleotide — the SNP. Other polymorphisms can involve much longer stretches of DNA. [1][2][3][4]\n\nThe smallest genomic variants are single-nucleotide variants (SNVs), each reflecting a difference of one nucleotide. For a given SNV, the DNA letter at that genomic position might be a C in one person but a T in another. SNVs are the most common type of [genomic variation](/hubpedia/genetic-variation), and a SNP is a subtype of them: to be considered a SNP, a SNV must be present in at least 1% of the human population, so SNV is the more general term covering both relatively common variants such as SNPs and rare single-nucleotide differences. [5][6][7]\n\n## Distribution and frequency across the genome\n\nThanks to the [Human Genome Project](/hubpedia/human-genome-project), these single-letter changes in the genetic code are known to be placed all across our genomes. The patterns are observed to vary between people and even between populations. [8][9]\n\nOn average, a single-nucleotide difference exists between two people's genomes once every 1,300 nucleotides or so. It is often stated that any two people's genomes are 99.9% identical, but this is an over-simplification that only counts single-nucleotide differences; in reality the two are on average 99.6% identical and 0.4% different. A typical genome is estimated to carry about 5 million SNVs compared with a reference sequence, involving about 5 million nucleotides. [10][11][12]\n\n## Role in research\n\nScientists study if and how SNPs in a genome influence health, disease, drug response and other traits. Most genomic variants, however, have no influence on the functioning of a person's genome; only a small subset has an impact, influencing physical characteristics such as eye color and height, health conditions, or how a person responds to certain medications. [13][14]\n\nIn studies of complex diseases, for example, researchers group together thousands of people who have diabetes and compare their SNP patterns to those of thousands who do not. With enough people, the SNPs can be used as markers to find areas of the genome that appear to be the same in people with the disease, indicating where to look in more detail for a genetic cause. [15][16]\n\n## Detecting variants and reference sequences\n\nWhen many known variants need to be examined, a test called a microarray can detect hundreds of thousands of SNVs at once. A more comprehensive way to detect genomic variants, including those that might not yet be known, is to perform [genome sequencing](/hubpedia/genome-sequencing). [17][18]\n\nDetecting variants in a person's genome sequence usually requires an existing sequence for comparison: each newly generated sequence is directly compared to a reference human genome sequence, cataloguing all differences between the two as variants. To reduce biases that can come with a single reference, the human pangenome is a framework that aims to account for genomic variation across human populations more completely. [19][20][21]\n\n## Health relevance and the boundaries of the term\n\nOnly a small fraction of genomic variants affects human health. In some cases variants directly cause diseases, as in cystic fibrosis and sickle cell disease; in others their effects are more subtle, as in hypertension and diabetes, where a variant might contribute to the overall risk a person has of the condition. [22]\n\nBecause the term SNP is bounded by frequency, a single-nucleotide difference present in less than 1% of the population is not called a SNP but is included under the broader term SNV. This frequency-based distinction separates common differences from rare ones in the terminology. [7][5]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "一塩基多型（SNP、スニップと発音される）は、DNAの単一塩基位置におけるゲノムバリアントである。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Single-Nucleotide-Polymorphisms-SNPs",
+              "quote": "A single nucleotide polymorphism (abbreviated SNP, pronounced snip) is a genomic variant at a single base position in the DNA."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "SNPは、ある人のゲノムが別のゲノム配列と1文字だけ異なる場所である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Single-Nucleotide-Polymorphisms-SNPs",
+              "quote": "A SNP is a one-letter place where your genome varies from another genome sequence."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "ゲノム学におけるポリモーフィズム（多型）は、特定のDNA配列について2つ以上のバリアント型が異なる個人や集団の間に存在する状態を指す。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Polymorphism",
+              "quote": "Polymorphism, as related to genomics, refers to the presence of two or more variant forms of a specific DNA sequence that can occur among different individuals or populations."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "最も一般的な多型は一塩基での変異（SNP）であり、他の多型はより長いDNA領域に及ぶことがある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Polymorphism",
+              "quote": "The most common type of polymorphism involves variation at a single nucleotide (also called a single-nucleotide polymorphism, or SNP)."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Polymorphism",
+              "quote": "Other polymorphisms can be much larger, involving longer stretches of DNA."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "最小のゲノムバリアントは一塩基バリアント（SNV）であり、各SNVは1ヌクレオチドの差を反映し、SNVは最も一般的なゲノムバリエーションの型である。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "The smallest genomic variants are single-nucleotide variants (SNVs). Each SNV reflects a difference in a single nucleotide (or letter)."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "SNVs are the most common type of genomic variation."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "あるSNVについて、そのゲノム位置のDNA文字がある人ではCだが別の人ではTという違いになりうる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "For a given SNV, the DNA letter at that genomic position might be a C in one person but a T in another person."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "SNPとみなされるにはSNVがヒト集団の少なくとも1%に存在する必要があり、SNVはSNPと稀な一塩基差の両方を含むより一般的な用語である。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "To be considered a SNP, a SNV must be present in at least 1% of the human population."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "As such, SNV is a more general term that includes both relatively common (such as SNPs) and rare single-nucleotide differences."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "ヒトゲノムプロジェクトによって、遺伝コードにおける1文字の変化がゲノム全体に散らばっていることが分かった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Single-Nucleotide-Polymorphisms-SNPs",
+              "quote": "Thanks to the Human Genome Project, we have found that these single letter changes in our genetic code are placed all across our genomes."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "SNPのパターンは個人の間でも集団の間でも異なる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Single-Nucleotide-Polymorphisms-SNPs",
+              "quote": "We can see that the patterns vary between people and even between populations."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "2人のゲノムの間には平均して約1,300塩基ごとに1つの一塩基差が存在する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "on average, a single-nucleotide difference exists between two peoples’ genomes once every 1,300 nucleotides or so."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "「99.9%同一」は一塩基差だけを数えた単純化であり、実際には任意の2人のゲノムは平均99.6%が同一で0.4%が異なる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "It is frequently stated that any two peoples’ genomes are ~99.9% identical to one another."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "In reality, any two peoples’ genomes are, on average, ~99.6% identical and ~0.4% different."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "典型的なゲノムは参照配列と比較して約500万のSNVを持ち、これらは約500万ヌクレオチドに関わる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "~5,000,000 SNVs that involve ~5,000,000 nucleotides"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "科学者はSNPが健康、疾患、薬物応答、その他の形質に影響するかどうか、またどのように影響するかを研究している。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Single-Nucleotide-Polymorphisms-SNPs",
+              "quote": "Scientists study if and how SNPs in a genome influence health, disease, drug response and other traits."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "大半のゲノムバリアントはゲノムの機能に影響を与えず、影響を持つのは小さな一部で、身体的特徴や健康状態、薬への反応に関わる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "Most genomic variants have no influence on the functioning of a person’s genome, but a small subset of variants do have an impact."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "some genomic variants influence physical characteristics, like eye color and height; others influence health conditions or how a person responds to certain medications."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "複合疾患の研究では、例えば糖尿病を持つ数千人と持たない数千人を集めてSNPパターンを比較する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Single-Nucleotide-Polymorphisms-SNPs",
+              "quote": "we can group together thousands of people who have diabetes and compare their SNP patterns to thousands of people who do not have diabetes."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "SNPを目印として、患者で同じに見えるゲノム領域を見つけ、遺伝的な原因を詳しく探るべき場所を特定する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Single-Nucleotide-Polymorphisms-SNPs",
+              "quote": "we can use the SNPs as markers to see that certain areas of the genome appear to be the same in people who have diabetes"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Single-Nucleotide-Polymorphisms-SNPs",
+              "quote": "that tells us where we should look in more detail for a genetic cause."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "マイクロアレイと呼ばれる検査は一度に数十万のSNVを検出できる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "a type of test called a microarray can detect hundreds of thousands of SNVs at once."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "まだ知られていない可能性のあるバリアントを含めて検出する、より包括的な方法としてゲノムシークエンシングが行われる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "A more comprehensive way to detect genomic variants, including those that might not yet be known, is to perform genome sequencing."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "個人のゲノム配列でバリアントを検出するには通常、比較対象となる既存の参照配列が必要である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "Detecting variants in a person’s genome sequence usually requires an existing sequence for comparison"
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "新たに生成された個人の配列は参照ゲノム配列と直接比較され、両者の全差異がバリアントとして目録化される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "each newly generated genome sequence from a person is directly compared to a given reference human genome sequence, allowing for the detection of all differences (variants) between the person’s genome and the reference genome."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "ヒトパンゲノムは、集団間のゲノム変異をより網羅的に扱い、単一の参照配列に伴う偏りを減らすことを目指す枠組みである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "The human pangenome is a more comprehensive framework that aims to account for genomic variation across human populations, thereby reducing biases that can come with the use of a single reference human genome sequence."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "ヒトの健康に影響するゲノムバリアントはごく一部で、疾患を直接引き起こす場合とリスクに寄与する程度の場合がある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "Only a small fraction of genomic variants affects human health."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/educational-resources/fact-sheets/human-genomic-variation",
+              "quote": "In some cases, genomic variants directly cause diseases (such as in cystic fibrosis and sickle cell disease). In other cases, the effects of genomic variants are more subtle (such as in hypertension and diabetes, where a genomic variant might contribute to the overall risk that a person might have of the condition)."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "rare-disease",
+    "topicType": "concept",
+    "categoryLabel": "生命科学",
+    "title": "希少疾患",
+    "summary": "希少疾患は、一般に米国内のある時点で20万人未満の人々に影響する疾患を指し、6,800種以上が知られ、合計で推定2,500万〜3,000万人の米国人に影響する。原因は不明のものも多いが、相当な部分は単一遺伝子の変異に起因し、環境要因も関わる。大半に治療法がなく、法制上の動機づけや研究基盤、ゲノム解析を使う診断プログラムが対応を支える。",
+    "bodyMarkdown": "## 希少疾患とは\n\n希少疾患とは、一般に、米国内のある時点で20万人未満の人々に影響する疾患を指す。個別には珍しくても、その種類は6,800を超え、合計すると推定2,500万〜3,000万人の米国人が希少疾患の影響を受けている。 [1][2][3]\n\n## 原因\n\n多くの希少疾患について、正確な原因はまだ分かっていない。それでも相当な部分は、単一の[遺伝子](/hubpedia/gene)の変異（変化）にたどることができ、こうした疾患は希少遺伝性疾患と呼ばれる。こうした[遺伝的変異](/hubpedia/genetic-variation)の多くは親から子へ世代を超えて伝わりうるため、特定の希少疾患が家族内で繰り返し現れる理由が説明される。 [4][5][6]\n\nただし遺伝はパズルの一片にすぎず、食事、喫煙、化学物質への曝露のような環境要因も希少疾患で役割を果たしうる。環境要因は直接疾患を引き起こす場合もあれば、遺伝要因と相互作用して疾患を起こしたり重症度を高めたりする場合もある。 [7][8]\n\n## 単一遺伝子に起因する例\n\n単一遺伝子の変異が原因となる希少疾患の例として、嚢胞性線維症は呼吸器系と消化器系に、ハンチントン病は脳と神経系に、筋ジストロフィーは筋肉に影響する。 [9][10][11]\n\n単一遺伝子は、一部の稀な遺伝性のがんタイプの原因でもある。BRCA1遺伝子とBRCA2遺伝子では特定の変異が遺伝性の乳がんと卵巣がんのリスクを高め、FAP遺伝子の変異は遺伝性の結腸がんのリスクを高める。 [12][13][14]\n\n## 環境要因に関係する例\n\n環境要因に関係する希少疾患には、ビタミンが不足した食事や特定の薬によって起こる稀なタイプの貧血がある。環境要因による希少がんの例では、胸郭の内側を覆う細胞に影響する中皮腫があり、その症例の90%超は、かつて耐火・断熱材に広く使われた繊維状の鉱物であるアスベストへの曝露が原因とされる。 [15][16]\n\n## 治療開発と研究\n\n研究者は近年、様々な希少疾患を診断・治療し予防する方法の解明でかなりの進展を遂げたが、大半の希少疾患には治療法がないため、なすべきことはまだ多く残る。1983年の孤児薬法は製薬企業に希少疾患向け治療開発の動機を与え、連邦法として署名されてから25年間で米国食品医薬品局は340を超える希少疾患向け治療を承認した。 [17][18][19]\n\nNIHはさらに、希少・顧みられない疾患治療プログラムで新たな治療開発を加速する統合的研究パイプラインを作り、希少疾患の研究を推進するため希少疾患研究イノベーション部門を設置した。診断の側面では、長年診断を逃れてきた病状を対象に、NHGRI、NIH希少疾患研究局、NIH臨床センターが2008年に組織した未診断疾患プログラムが、謎の病気を持つ患者への回答と、希少・一般的疾患の医学知識の前進という2つの目標を追っている。 [20][21][22][23]\n\nこのプログラムは複数の[ゲノムシークエンシング](/hubpedia/genome-sequencing)技術を使って希少・新規の遺伝的原因を特定しており、これまでに30を超える新たな疾患が発見され、症例の25〜50%が臨床・分子・生化学的いずれかの診断に至っている。患者の診断には、既知疾患の稀な表現型、多系統の複合疾患、これまで同定されたことのない新規疾患が含まれる。 [24][25][26]\n\n## 情報と支援\n\n患者と家族にタイムリーで信頼できる情報を届けるため、ORDRとNHGRIは遺伝・希少疾患情報センター（GARD）をオンラインに設置した。GARDは2002年にNHGRIとDRDRIによって創設され、英語とスペイン語の両方で遺伝・希少疾患について最新かつ正確な情報を提供できる経験豊富な情報専門家への、ほぼ24時間のアクセスを提供している。 [27][28]\n\n加えて、様々な希少疾患に関する情報と支援の提供、研究の促進、政策課題の提言を行う非営利団体が多くある。 [29]",
+    "sources": [
+      {
+        "url": "https://www.genome.gov/FAQ/Rare-Diseases",
+        "title": "Rare Diseases FAQ",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-genome-nhgri-policies-guidance/copyright"
+          },
+          "notes": "NHGRI FAQ on rare diseases, covering the fewer-than-200,000 definition, disease counts, genetic and environmental causes, examples, treatment development and the Orphan Drug Act. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/Current-NHGRI-Clinical-Studies/NIH-Undiagnosed-Diseases-Program",
+        "title": "NIH Undiagnosed Diseases Program (UDP)",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-genome-nhgri-policies-guidance/copyright"
+          },
+          "notes": "NHGRI clinical study page for the Undiagnosed Diseases Program, covering its 2008 organization, goals, genomic sequencing approach and published program statistics. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/For-Patients-and-Families/Genetic-and-Rare-Diseases-Information-Center",
+        "title": "Genetic and Rare Diseases Information Center",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-genome-nhgri-policies-guidance/copyright"
+          },
+          "notes": "NHGRI overview of the Genetic and Rare Diseases Information Center, covering its 2002 creation and round-the-clock access to information specialists in English and Spanish. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Rare disease",
+        "summary": "A rare disease is generally considered to be a disease that affects fewer than 200,000 people in the United States at any given time; more than 6,800 are known, together affecting an estimated 25 to 30 million Americans. The exact cause of many remains unknown, though a significant portion can be traced to mutations in a single gene, and environmental factors also play a role. Most have no treatment, and statutory incentives, research infrastructure and genome-sequencing diagnostic programs support the response.",
+        "bodyMarkdown": "## What is a rare disease?\n\nA rare disease is generally considered to be a disease that affects fewer than 200,000 people in the United States at any given time. Individually uncommon, they number more than 6,800 kinds, and altogether rare diseases affect an estimated 25 million to 30 million Americans. [1][2][3]\n\n## Causes\n\nThe exact cause of many rare diseases remains unknown. Still, for a significant portion the problem can be traced to mutations (changes) in a single [gene](/hubpedia/gene), and such diseases are referred to as rare, genetic diseases. Many of these [genetic variants](/hubpedia/genetic-variation) can be passed on from one generation to the next, which explains why certain rare diseases run in families. [4][5][6]\n\nGenetics, however, is just one piece of the puzzle: environmental factors such as diet, smoking, or exposure to chemicals can also play a role in rare diseases. Such factors may directly cause disease, or interact with genetic factors to cause or increase the severity of disease. [7][8]\n\n## Examples caused by single genes\n\nExamples of rare diseases caused by mutations in single genes include cystic fibrosis, which affects the respiratory and digestive systems; Huntington's disease, which affects the brain and nervous system; and muscular dystrophies, which affect the muscles. [9][10][11]\n\nSingle genes are also responsible for some rare, inherited types of cancer. In the BRCA1 and BRCA2 genes, certain mutations increase the risk for hereditary breast and ovarian cancers, and mutations in the FAP gene increase the risk for hereditary colon cancer. [12][13][14]\n\n## Examples related to environmental factors\n\nRare diseases related to environmental factors include uncommon types of anemia caused by vitamin-deficient diets or certain medications. As an example of an environmentally caused rare cancer, mesothelioma affects the cells lining the chest cavity, and more than 90 percent of its cases are caused by exposure to asbestos, a fibrous mineral once widely used in fireproofing and insulation materials. [15][16]\n\n## Treatment development and research\n\nResearchers have made considerable progress in recent years in figuring out ways to diagnose, treat and even prevent a variety of rare diseases, yet much more remains to be done because there are no treatments for the vast majority of rare diseases. The Orphan Drug Act of 1983 provides incentives for drug companies to develop treatments for rare diseases, and in the 25 years since the Act was signed into federal law the U.S. Food and Drug Administration has approved more than 340 treatments for rare diseases. [17][18][19]\n\nThe NIH further created an integrated research pipeline to jump start the development of new treatments through the Therapeutics for Rare and Neglected Diseases program, and established the Division of Rare Diseases Research Innovation to help advance research focused on rare diseases. On the diagnostic side, the Undiagnosed Diseases Program — organized initially in 2008 by NHGRI, the NIH Office of Rare Diseases Research and the NIH Clinical Center for longstanding conditions that elude diagnosis — pursues two goals: providing answers to patients with mysterious conditions and advancing medical knowledge about rare and common diseases. [20][21][22][23]\n\nThe program uses multiple [genome sequencing](/hubpedia/genome-sequencing) technologies to identify rare and new genetic causes of disease; so far more than 30 new diseases have been discovered, and 25-50% of cases have been resolved with a clinical, molecular or biochemical diagnosis. Patient diagnoses include uncommon presentations of known disorders, multi-systemic complex disorders, and new disorders that have never been identified. [24][25][26]\n\n## Information and support\n\nTo provide patients and their families with timely and reliable information, ORDR and NHGRI created the online Genetic and Rare Diseases Information Center (GARD). GARD was created in 2002 by NHGRI and DRDRI, and provides immediate, virtually round-the-clock access to experienced information specialists who can furnish current and accurate information — in both English and Spanish — about genetic and rare diseases. [27][28]\n\nIn addition, there are many non-profit groups that provide information and support, promote research and advocate for policy issues related to various rare diseases. [29]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "希少疾患は一般に、米国内のある時点で20万人未満の人々に影響する疾患と考えられる。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Rare-Diseases",
+              "quote": "A rare disease is generally considered to be a disease that affects fewer than 200,000 people in the United States at any given time."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "希少疾患は6,800種を超える。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Rare-Diseases",
+              "quote": "There are more than 6,800 rare diseases."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "希少疾患は合計で推定2,500万〜3,000万人の米国人に影響する。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Rare-Diseases",
+              "quote": "Altogether, rare diseases affect an estimated 25 million to 30 million Americans."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "多くの希少疾患の正確な原因はまだ分かっていない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Rare-Diseases",
+              "quote": "The exact cause for many rare diseases remains unknown."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "相当な部分の希少疾患は単一遺伝子の変異（変化）にたどることができ、希少遺伝性疾患と呼ばれる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Rare-Diseases",
+              "quote": "for a significant portion, the problem can be traced to mutations (changes) in a single gene. Such diseases are referred to as rare, genetic diseases."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "これらの遺伝子変異の多くは世代を超えて伝わりうるため、特定の希少疾患が家族内で繰り返し現れる理由が説明される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Rare-Diseases",
+              "quote": "Many of these genetic mutations can be passed on from one generation to the next, explaining why certain rare diseases run in families."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "遺伝はパズルの一片にすぎず、食事、喫煙、化学物質への曝露のような環境要因も希少疾患で役割を果たしうる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Rare-Diseases",
+              "quote": "It is important to keep in mind that genetics are just one piece of the puzzle. Environmental factors, such as diet, smoking, or exposure to chemicals, also can play a role in rare diseases."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "環境要因は直接疾患を引き起こす場合もあれば、遺伝要因と相互作用して疾患を起こしたり重症度を高めたりする場合もある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Rare-Diseases",
+              "quote": "Such factors may directly cause disease, or interact with genetic factors to cause or increase the severity of disease."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "単一遺伝子の変異が原因となる希少疾患の例として、嚢胞性線維症は呼吸器系と消化器系に影響する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Rare-Diseases",
+              "quote": "Examples of rare diseases caused by mutations in single genes include cystic fibrosis, which affects the respiratory and digestive systems"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "ハンチントン病は脳と神経系に影響する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Rare-Diseases",
+              "quote": "Huntington's disease, which affects the brain and nervous system"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "筋ジストロフィーは筋肉に影響する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Rare-Diseases",
+              "quote": "muscular dystrophies, which affect the muscles"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "単一遺伝子は、一部の稀な遺伝性のがんタイプの原因でもある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Rare-Diseases",
+              "quote": "Single genes are also responsible for some rare, inherited types of cancer."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "BRCA1遺伝子とBRCA2遺伝子の特定の変異は遺伝性の乳がんと卵巣がんのリスクを高める。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Rare-Diseases",
+              "quote": "certain mutations increase the risk for hereditary breast and ovarian cancers"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "FAP遺伝子の変異は遺伝性の結腸がんのリスクを高める。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Rare-Diseases",
+              "quote": "in which mutations increase the risk for hereditary colon cancer"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "環境要因に関係する希少疾患には、ビタミンが不足した食事や特定の薬によって起こる稀なタイプの貧血がある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Rare-Diseases",
+              "quote": "Rare diseases related to environmental factors include uncommon types of anemia caused by vitamin-deficient diets or certain medications."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "中皮腫の症例の90%超は、かつて耐火・断熱材に広く使われた繊維状の鉱物アスベストへの曝露が原因とされる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Rare-Diseases",
+              "quote": "More than 90 percent of mesothelioma cases are caused by exposure to asbestos, a fibrous mineral once widely used in fireproofing and insulation materials."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "希少疾患の診断・治療・予防法の解明は進展したが、大半の希少疾患には治療法がないため、なすべきことは多く残る。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Rare-Diseases",
+              "quote": "Researchers have made considerable progress in recent years in figuring out ways to diagnose, treat and even prevent a variety of rare diseases."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Rare-Diseases",
+              "quote": "there are no treatments for the vast majority of rare diseases."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "1983年の孤児薬法は製薬企業に希少疾患向け治療開発の動機を与えた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Rare-Diseases",
+              "quote": "The Orphan Drug Act of 1983 provides incentives for drug companies to develop treatments for rare diseases."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "孤児薬法が連邦法として署名されてから25年間で、米国食品医薬品局は340を超える希少疾患向け治療を承認した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Rare-Diseases",
+              "quote": "In the 25 years since the Act was signed into federal law, the U.S. Food and Drug Administration (FDA) has approved more than 340 treatments for rare diseases."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "NIHは希少・顧みられない疾患治療プログラムで、新たな治療開発を加速する統合的研究パイプラインを作った。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Rare-Diseases",
+              "quote": "to create an integrated research pipeline to jump start the development of new treatments for rare and neglected disorders."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "NIHは希少疾患の研究を推進するため、希少疾患研究イノベーション部門（DRDRI）を設置した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Rare-Diseases",
+              "quote": "established the Division of Rare Diseases Research Innovation (DRDRI) to help advance research focused on rare diseases."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "未診断疾患プログラムは、NHGRI、NIH希少疾患研究局、NIH臨床センターにより2008年に組織され、長年診断を逃れてきた病状を対象とする。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/Current-NHGRI-Clinical-Studies/NIH-Undiagnosed-Diseases-Program",
+              "quote": "The UDP was organized by the National Human Genome Research Institute (NHGRI), the NIH Office of Rare Diseases Research (ORDR) and the NIH Clinical Center initially in 2008."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/Current-NHGRI-Clinical-Studies/NIH-Undiagnosed-Diseases-Program",
+              "quote": "Longstanding medical conditions that elude diagnosis are considered undiagnosed and are of interest to this clinical research program."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "未診断疾患プログラムは、謎の病気を持つ患者への回答と、希少・一般的疾患の医学知識の前進という2つの目標を追う。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/Current-NHGRI-Clinical-Studies/NIH-Undiagnosed-Diseases-Program",
+              "quote": "To provide answers to patients with mysterious conditions that have long eluded diagnosis"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/Current-NHGRI-Clinical-Studies/NIH-Undiagnosed-Diseases-Program",
+              "quote": "To advance medical knowledge about rare and common diseases"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "未診断疾患プログラムは複数のゲノムシークエンシング技術を使って、希少・新規の遺伝的原因を特定している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/Current-NHGRI-Clinical-Studies/NIH-Undiagnosed-Diseases-Program",
+              "quote": "The UDP uses multiple genomic sequencing technologies to identify rare and new genetic causes of disease."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "患者の診断には、既知疾患の稀な表現型、多系統の複合疾患、これまで同定されたことのない新規疾患が含まれる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/Current-NHGRI-Clinical-Studies/NIH-Undiagnosed-Diseases-Program",
+              "quote": "Patient diagnoses include uncommon presentations of known disorders, multi-systemic complex disorders, and new disorders that have never been identified."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "未診断疾患プログラムではこれまでに30を超える新たな疾患が発見され、症例の25〜50%が臨床・分子・生化学的いずれかの診断に至っている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/Current-NHGRI-Clinical-Studies/NIH-Undiagnosed-Diseases-Program",
+              "quote": "New diseases discovered: >30"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/Current-NHGRI-Clinical-Studies/NIH-Undiagnosed-Diseases-Program",
+              "quote": "Percentage of cases resolved with a either a clinical, molecular or biochemical diagnosis: 25-50%"
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "遺伝・希少疾患情報センター（GARD）は、患者と家族にタイムリーで信頼できる情報を届けるためにORDRとNHGRIが作ったオンラインの情報センターで、2002年にNHGRIとDRDRIによって創設された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Rare-Diseases",
+              "quote": "To provide patients and their families with timely and reliable information, ORDR and NHGRI have created the online"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/For-Patients-and-Families/Genetic-and-Rare-Diseases-Information-Center",
+              "quote": "was created in 2002 by the National Human Genome Research Institute (NHGRI) and the Division of Rare Diseases Research Innovation (DRDRI)"
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "GARDは、英語とスペイン語の両方で遺伝・希少疾患の最新かつ正確な情報を提供できる経験豊富な情報専門家への、ほぼ24時間のアクセスを提供する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/For-Patients-and-Families/Genetic-and-Rare-Diseases-Information-Center",
+              "quote": "GARD provides immediate, virtually round-the-clock access to experienced information specialists who can furnish current and accurate information - in both English and Spanish - about genetic and rare diseases."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "様々な希少疾患に関する情報と支援の提供、研究の促進、政策課題の提言を行う非営利団体が多くある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/FAQ/Rare-Diseases",
+              "quote": "there are many non-profit groups that provide information and support, promote research and advocate for policy issues related to various rare diseases."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "ancestry",
+    "topicType": "concept",
+    "categoryLabel": "生命科学",
+    "title": "祖先解析",
+    "summary": "祖先解析とは、個人が生物学的にその子孫である人々に関する情報、すなわち遺伝的祖先を調べることである。祖先情報マーカーや参照ゲノムとの比較を通じて、大陸単位の地理的起源や人類の移動史を推定でき、古代DNA解析はネアンデルタールとの関係も明らかにする。消費者向け検査は広く提供されるが、家族の認識を変える繊細な結果をもたらすことがある。",
+    "bodyMarkdown": "## 祖先解析とは\n\n遺伝的祖先とは、ある個人が生物学的にその子孫である人々に関する情報を指し、彼らとの遺伝的関係を含む。遺伝情報は歴史情報と組み合わせて、その個人の遠い祖先がどこに住んでいたかを推測するのに使える。個人の[ゲノム](/hubpedia/genome)は、近い祖先も遠い祖先も含めて、祖先の歴史を明らかにする助けとなる。 [1][2][3]\n\n[ヒトゲノムプロジェクト](/hubpedia/human-genome-project)以降の進歩により、生きている人と長く亡くなった人のゲノム配列を比較し、私たちの集団の祖先史をたどることが可能になった。ヒトゲノムプロジェクトが作り出した参照ヒトゲノム配列は、現在、新たに生成されたゲノム配列と日常的に比較されており、異なる集団で時を経て起きたゲノムの変化を明らかにし、人類の起源と祖先の様々な物語を解読するより強力な方法を提供している。 [4][5]\n\n## 祖先情報マーカーによる推定\n\n祖先情報マーカー（AIM）は、世界の異なる地理的地域の集団の間で、出現頻度が大きく異なる特定のDNA配列のポリモーフィズムの組である。AIMは個人の祖先の地理的起源を推定するのに使え、通常はアフリカ、アジア、ヨーロッパの大陸単位の起源に整理される。 [6][7]\n\nAIMはゲノム内で配列が変化している位置であり、それらのマーカーの相対的な多さは、個人が祖先をたどれる大陸によって異なる。20〜30、あるいはそれ以上の一連のマーカーを使って個人をジェノタイピングすれば、それらの頻度から祖先がどこから来たかを推定できる。AIMは、人々が同じ背景を持つかを見る疫学研究や、法医学研究にも使われる。 [8][9][10]\n\n## ゲノムが明らかにする人類史\n\n約20年前、骨や毛皮、さらには土壌のような古代試料から微量の[DNA](/hubpedia/dna)を抽出し、高感度な方法で配列を決定する技術が開発された。こうしたゲノム研究により、私たちの祖先であるホモ・サピエンスがネアンデルタールのような類似種と分岐しつつあった約50万年前の人類ゲノムまで調べられるようになった。 [11][12]\n\nネアンデルタールは人類とは異なる移動経路をたどったが、そのDNA配列の痕跡は今日の私たちのゲノムに残っている。2017年の研究では、一部の欧州人が概日リズムに影響するネアンデルタール様の配列を今も持ち、朝型か夜型かに関わることが分かった。一方、赤毛につながるMC1R遺伝子の変異はネアンデルタールでは極めて稀か存在しなかったため、その形質はヒト固有と見られる。 [13][14][15]\n\n6,000年前から現在までのアフリカ人のゲノム配列決定により、人類が異なる集団に分かれ、複数の時期に世界各地へ移動したことが明らかになった。南部アフリカでは、先住の狩猟採集民、次いで牧畜民が、約2,000年前にバントゥー系の農耕民に置き換わったと見られる。また欧州では、2008年の研究が欧州人の集団で約20万か所のゲノム上の相違位置を調べ、集団間のゲノムバリアントのパターンからヨーロッパの地図を90%の精度で再現できた。さらに新たな欧州人のゲノムを解析すると、その人の出身地を数百km以内で予測でき、米国での最近の研究でも、[遺伝的変異](/hubpedia/genetic-variation)と系譜記録を組み合わせて出生地をかなり正確に推測できることが示されている。 [16][17][18][19][20][21]\n\n## 消費者向け祖先検査\n\n特定の集団やグループにおけるゲノム変異の理解が進むにつれ、祖先の出自を解読するためのより頑健な検査が開発されており、ゲノムに基づく祖先検査や家系の系譜歴史を調べられる[遺伝子検査](/hubpedia/genetic-testing)の商業サービスは多くある。ただし、こうした検査の結果は、家族史や自分自身についての認識を変える可能性がある。 [22][23]\n\n## 祖先検査がもたらす影響と限界\n\n祖先検査では、祖先の出自が思っていたものと違うと判明する人や、近い親族が思っていた人と違ったと分かる人がいる。養子となった子どもがDNA検査で実の親や、それまで知らなかった兄弟姉妹を探すこともある。国によっては、研究により1〜10%の子どもが、実は生物学上の父でない人を実父と思って育てられていると報告されている。祖先検査は繊細で複雑な状況をもたらしうるため、こうした検査を使う前に起こりうる結果を考えておくことが重要とされる。 [24][25][26][27]",
+    "sources": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Genetic-Ancestry",
+        "title": "Genetic Ancestry",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-genome-nhgri-policies-guidance/copyright"
+          },
+          "notes": "Talking Glossary definition of genetic ancestry, covering descent information and inference of where distant ancestors lived. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Ancestry-informative-Markers",
+        "title": "Ancestry-informative Markers",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-genome-nhgri-policies-guidance/copyright"
+          },
+          "notes": "Talking Glossary definition and narration for ancestry-informative markers, covering population frequency differences, continental resolution and epidemiological and forensic uses. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/dna-day/15-ways/human-origins-ancestry",
+        "title": "Human Origins and Ancestry",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-genome-nhgri-policies-guidance/copyright"
+          },
+          "notes": "NHGRI explainer on human origins and ancestry, covering ancient DNA, Neanderthal sequences, human migrations, ancestry-informative variant studies and the personal consequences of consumer ancestry testing. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Ancestry analysis",
+        "summary": "Ancestry analysis is the study of genetic ancestry — information about the people an individual is biologically descended from. Through ancestry-informative markers and comparison with reference genomes it can estimate geographical origins by continent and reconstruct human migration history, while ancient DNA analysis reveals our relationship with Neanderthals. Consumer testing is widely available, but it can produce delicate results that alter perceptions of family.",
+        "bodyMarkdown": "## What is genetic ancestry?\n\nGenetic ancestry refers to information about the people that an individual is biologically descended from, including their genetic relationships. Genetic information can be combined with historical information to infer where an individual's distant ancestors lived. Your [genome](/hubpedia/genome) helps uncover the history of your ancestors, both near and distant. [1][2][3]\n\nAdvances since the [Human Genome Project](/hubpedia/human-genome-project) allow us to compare genome sequences among humans, living and long-deceased, and to trace our collective ancestral history. The reference human genome sequence the project produced is now regularly used for comparison with newly generated genome sequences, revealing genomic changes that have occurred in different populations over time and providing a more powerful way to decipher the various stories of human origins and ancestry. [4][5]\n\n## Estimation with ancestry-informative markers\n\nAncestry-informative markers (AIMs) are sets of polymorphisms for a particular DNA sequence that appear in substantially different frequencies between populations from different geographical regions of the world. They can be used to estimate the geographical origins of an individual's ancestors, typically by continent of origin: Africa, Asia, or Europe. [6][7]\n\nAIMs are locations in the genome that have varied sequences, and the relative abundance of those markers differs based on the continent from which individuals can trace their ancestry. Using a series of these markers — sometimes 20 or 30 or more — and genotyping an individual, the frequency of the markers can indicate where their ancestors may have come from. AIMs are used in epidemiological studies to see whether people have the same background, and sometimes in forensic studies as well. [8][9][10]\n\n## Human history revealed by the genome\n\nAbout 20 years ago, scientists developed techniques for extracting small amounts of [DNA](/hubpedia/dna) from ancient samples, like bones or fur or even soil, and used very sensitive methods for sequencing it. Studies like these have allowed us to examine human genomes from around 500,000 years ago, when our ancestors — the species Homo sapiens — were diverging from other similar species such as the Neanderthals. [11][12]\n\nNeanderthals took a different path than humans in their migrations around the world, but traces of Neanderthal DNA sequences remain in our genomes today. A 2017 study found that some Europeans still carry Neanderthal-like sequences that influence their circadian rhythms, making them more likely to be a morning person or a night owl. In contrast, variations in the MC1R gene that lead to red hair were extremely rare or nonexistent in Neanderthals, so that trait seems to be human-specific. [13][14][15]\n\nGenome sequencing of Africans living in different times — from as long as 6,000 years ago to today — has revealed that humans divided into different groups and moved around the world at multiple times. In Southern Africa, local hunter-gatherers and then herders appear to have been replaced by Bantu farmers around 2,000 years ago. In Europe, a 2008 study looked at about 200,000 specific places in the human genome where people differ from each other among a collection of Europeans, and the patterns of genomic variants among groups could be used to reproduce the map of Europe with 90 percent accuracy. When a new European person's genome was analyzed, researchers could predict where that person was from within a few hundred kilometers, and more recent studies in the United States show that [genomic variation](/hubpedia/genetic-variation) coupled with genealogical records can be used to infer birth location quite accurately. [16][17][18][19][20][21]\n\n## Consumer ancestry testing\n\nAs we learn more about genomic variation in specific populations and groups, more robust tests are being developed to help decipher ancestral origins, and there are many commercial [genetic testing](/hubpedia/genetic-testing) services that allow you to purchase a genomics-based ancestry test or explore your family's genealogical history. But the results of these tests may alter your perception of your family history and even of yourself. [22][23]\n\n## Consequences and limits of ancestry testing\n\nWith such testing, some people have discovered that their ancestral origin is not what they thought, while others have found that close relatives are not who they thought. Some adopted children have used DNA tests to track down their birth parents, or to find previously unknown siblings. Some studies report that, depending on the country, anywhere between 1 percent and 10 percent of children are raised thinking that someone is their biological father when, in fact, that person is not. Ancestry testing can lead to delicate and complex situations, so it is important to think about the potential consequences before using such tests. [24][25][26][27]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "遺伝的祖先とは、ある個人が生物学的にその子孫である人々に関する情報を指し、彼らとの遺伝的関係を含む。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Genetic-Ancestry",
+              "quote": "Genetic ancestry refers to information about the people that an individual is biologically descended from, including their genetic relationships."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "遺伝情報は歴史情報と組み合わせて、個人の遠い祖先がどこに住んでいたかを推測するのに使える。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Genetic-Ancestry",
+              "quote": "Genetic information can be combined with historical information to infer where an individual’s distant ancestors lived."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "個人のゲノムは、近い祖先も遠い祖先も含めて、祖先の歴史を明らかにする助けとなる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/dna-day/15-ways/human-origins-ancestry",
+              "quote": "your genome helps uncover the history of your ancestors, both near and distant"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "ヒトゲノムプロジェクト以降の進歩により、生きている人と長く亡くなった人のゲノム配列を比較し、集団の祖先史をたどることが可能になった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/dna-day/15-ways/human-origins-ancestry",
+              "quote": "Advances since the Human Genome Project allow us to compare genome sequences among humans, living and long-deceased, and to trace our collective ancestral history."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "ヒトゲノムプロジェクトが作った参照ゲノム配列は新たな配列との比較に使われ、異なる集団で時を経て起きたゲノムの変化を明らかにする。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/dna-day/15-ways/human-origins-ancestry",
+              "quote": "The Human Genome Project produced a reference human genome sequence that scientists now regularly use to compare with newly generated genome sequences. This reveals genomic changes that have occurred in different populations over time"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "祖先情報マーカー（AIM）は、世界の異なる地理的地域の集団の間で出現頻度が大きく異なる、特定のDNA配列のポリモーフィズムの組である。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Ancestry-informative-Markers",
+              "quote": "Ancestry-informative markers are sets of polymorphisms for a particular DNA sequence that appear in substantially different frequencies between populations from different geographical regions of the world."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "AIMは個人の祖先の地理的起源を、主にアフリカ、アジア、ヨーロッパの大陸単位で推定するのに使える。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Ancestry-informative-Markers",
+              "quote": "Ancestry-informative markers can be used to estimate the geographical origins of the ancestors of an individual typically by continent of origin (Africa, Asia, or Europe)."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "AIMはゲノム内で配列が変化している位置であり、それらの相対的な多さは個人が祖先をたどれる大陸によって異なる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Ancestry-informative-Markers",
+              "quote": "Ancestry informative markers refers to locations in the genome that have varied sequences at that location and the relative abundance of those markers differs based on the continent from which individuals can trace their ancestry."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "20〜30、あるいはそれ以上の一連のマーカーで個人をジェノタイピングすれば、その頻度から祖先がどこから来たかを推定できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Ancestry-informative-Markers",
+              "quote": "So by using a series of these ancestry informative markers, sometimes 20 or 30 or more, and genotyping an individual you can determine from the frequency of those markers where their great, great, great, great ancestors may have come from."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "AIMは、人々が同じ背景を持つかを見る疫学研究や、法医学研究にも使われる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Ancestry-informative-Markers",
+              "quote": "Ancestry informative markers are used in epidemiological studies to see whether or not people have the same background, and sometimes they are used in forensic studies as well."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "約20年前、骨や毛皮、さらには土壌のような古代試料から微量のDNAを抽出し、高感度な方法で配列を決定する技術が開発された。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/dna-day/15-ways/human-origins-ancestry",
+              "quote": "Nearly 20 years ago, scientists developed techniques for extracting small amounts of DNA from ancient samples, like bones or fur or even soil, and used very sensitive methods for sequencing the extracted DNA"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "こうしたゲノム研究により、ホモ・サピエンスがネアンデルタールのような類似種と分岐しつつあった約50万年前の人類ゲノムまで調べられる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/dna-day/15-ways/human-origins-ancestry",
+              "quote": "Genomic studies like these have allowed us to examine human genomes from around 500,000 years ago when our ancestors"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "ネアンデルタールは人類とは異なる移動経路をたどったが、そのDNA配列の痕跡は今日の私たちのゲノムに残っている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/dna-day/15-ways/human-origins-ancestry",
+              "quote": "Neanderthals took a different path than humans in their migrations around the world, but there are still traces of"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/dna-day/15-ways/human-origins-ancestry",
+              "quote": "in our genomes today."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "2017年の研究では、一部の欧州人が概日リズムに影響するネアンデルタール様の配列を今も持ち、朝型か夜型かに関わることが分かった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/dna-day/15-ways/human-origins-ancestry",
+              "quote": "found that some Europeans still carry Neanderthal-like sequences that influence their circadian rhythms, making them more likely to be a morning person or a \"night owl.\""
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "赤毛につながるMC1R遺伝子の変異はネアンデルタールでは極めて稀か存在しなかったため、その形質はヒト固有と見られる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/dna-day/15-ways/human-origins-ancestry",
+              "quote": "that lead to red hair were extremely rare or nonexistent in Neanderthals, so that trait seems to be human-specific"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "6,000年前から現在までのアフリカ人のゲノム配列決定により、人類が異なる集団に分かれ複数の時期に世界各地へ移動したことが明らかになった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/dna-day/15-ways/human-origins-ancestry",
+              "quote": "Genome sequencing of Africans living in different times - from as long as 6000 years ago to today - has revealed that humans divided into different groups and moved around the world at multiple times."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "南部アフリカでは、先住の狩猟採集民、次いで牧畜民が、約2,000年前にバントゥー系の農耕民に置き換わったと見られる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/dna-day/15-ways/human-origins-ancestry",
+              "quote": "In Southern Africa, local hunter-gatherers and then herders appear to have been replaced by Bantu farmers around"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/dna-day/15-ways/human-origins-ancestry",
+              "quote": "2000 years ago"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "2008年の研究は、欧州人の集団で約20万か所のゲノム上の相違位置を調べた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/dna-day/15-ways/human-origins-ancestry",
+              "quote": "looked at about 200,000 specific places in the human genome where people are different from each other"
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "集団間のゲノムバリアントのパターンから、ヨーロッパの地図を90%の精度で再現できた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/dna-day/15-ways/human-origins-ancestry",
+              "quote": "The patterns of genomic variants among different groups could be used to reproduce the map of Europe with 90 percent accuracy."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "新たな欧州人のゲノムを解析すると、その人の出身地を数百km以内で予測できた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/dna-day/15-ways/human-origins-ancestry",
+              "quote": "when a new European person's genome was analyzed, the researchers could predict where that person was from within a few hundred kilometers."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "米国での最近の研究でも、ゲノム変異と系譜記録を組み合わせて出生地をかなり正確に推測できることが示されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/dna-day/15-ways/human-origins-ancestry",
+              "quote": "genomic variation coupled with genealogical records can be used to infer birth location quite accurately."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "祖先検査の結果は、家族史や自分自身についての認識を変える可能性がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/dna-day/15-ways/human-origins-ancestry",
+              "quote": "the results of these tests may alter your perception of your family history and even of yourself."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "祖先の出自を解読するためのより頑健な検査が開発されており、ゲノムに基づく祖先検査や系譜歴史を調べられる商業サービスは多くある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/dna-day/15-ways/human-origins-ancestry",
+              "quote": "more robust tests"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/dna-day/15-ways/human-origins-ancestry",
+              "quote": "are being developed to help you decipher your ancestral origins"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/dna-day/15-ways/human-origins-ancestry",
+              "quote": "There are many commercial services that allow you to purchase a genomics-based ancestry test or to explore your family's genealogical history."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "祖先検査では、祖先の出自が思っていたものと違うと判明する人や、近い親族が思っていた人と違ったと分かる人がいる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/dna-day/15-ways/human-origins-ancestry",
+              "quote": "some people have discovered that their ancestral origin is not what they thought, while others have found that close relatives are not who they thought."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "養子となった子どもがDNA検査で実の親や、それまで知らなかった兄弟姉妹を探すことがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/dna-day/15-ways/human-origins-ancestry",
+              "quote": "have used DNA tests to track down their birth parents, or to find previously unknown siblings."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "国によっては、研究により1〜10%の子どもが、実は生物学上の父でない人を実父と思って育てられていると報告されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/dna-day/15-ways/human-origins-ancestry",
+              "quote": "depending on the country, anywhere between 1 percent and 10 percent of children are raised thinking that someone is their biological father when, in fact, that person is not."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "祖先検査は繊細で複雑な状況をもたらしうるため、検査を使う前に起こりうる結果を考えておくことが重要とされる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/dna-day/15-ways/human-origins-ancestry",
+              "quote": "Ancestry testing can lead to delicate and complex situations, so it is important to think about the potential consequences before using such tests."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "pedigree",
+    "topicType": "concept",
+    "categoryLabel": "生命科学",
+    "title": "家系図",
+    "summary": "家系図（ペディグリー）とは、遺伝学において、形質や健康状態が家族の世代を通じてどう受け継がれるかを図式化する表であり、家族成員間の関係と、情報が得られる場合には関心のある形質を持つ個人を示す。優性・潜性・多因子といった遺伝パターンの判別に使われ、医療では3世代の家族歴として危険信号を探る。家族が自ら作るためのツールも提供されている。",
+    "bodyMarkdown": "## 家系図とは\n\n家系図（ペディグリー）とは、遺伝学において、形質や健康状態が家族の世代を通じてどう受け継がれるかを図式化する表である。家系図は特に家族成員間の関係を示し、情報が得られる場合には、関心のある形質を持つ個人を示す。 [1][2]\n\n家系図は、家族の異なる成員とそのつながりを描く地図であり、グラフである。親、兄弟姉妹、いとこといった、誰がどうつながっているかという関係を目視で把握できるようにする。家系図はまた、形質や状態が世代を通じてどう伝わりうるか、何がそれに伴いうるかを判断する助けにもなる。 [3][4][5]\n\n## 家族歴と家系図\n\n医学における家族歴とは、個人と、その人の生存・死去を問わない生物学上の家族成員の疾患と健康状態の記録である。家族歴は、ある人が特定の疾患、障害、状態を持つ、あるいは発症する遺伝的リスクが高まっているかを判断する助けになる。そして家族歴はしばしば、個人間の関係を示す家系図（家族の木）を描いて記録される。 [6][7][8]\n\n## 遺伝形式の読み取り\n\n家系図を通じて記録された家族歴は、医療チームが遺伝とリスクを理解する助けとなる。例えば、ある疾患がすべての世代に現れる場合、その疾患は優性遺伝されるとみなされる。別の家族では、疾患が毎世代には存在せず、潜性（劣性）遺伝として現れたり、多因子のパターンをたどったりすることがある。正確で詳細な家族歴を記録すれば、家族における疾患の性質だけでなく、記録されたパターンに基づく重症度や誰が影響を受けるかのリスクについても、医療チームが洞察を得られる可能性がある。 [9][10][11][12]\n\n## 医療現場での使われ方\n\n医療現場では、遺伝的に近い家族成員について3世代の家族歴を取る。その第一の目標は生物学上の家族内の疾患をスクリーニングすることであり、第二の目標は、潜在する問題を示しうる健康状態の遺伝パターン、すなわち優性形質、性連鎖パターン、潜性[遺伝子](/hubpedia/gene)を特定することである。 [13][14][15]\n\n家族歴における危険信号としては、同じ問題を持つ複数の家族成員、予想より早い時期の発症、あまり罹患しない性別での疾患（男性の乳がんなど）、突然死、民族性、近親婚（近い血縁者同士の子どもにおける[潜性疾患リスク](/hubpedia/carrier-screening)の判断など）、早期または反復性の妊娠喪失が挙げられる。こうした評価は、さらなるゲノム解析の対象となる人の優先順位づけや、一次・二次予防の必要性が高い人を特定するのに使われる。 [16][17][18][19]\n\n## 検査と専門家への接続\n\n危険信号が見つかった後の[遺伝子検査](/hubpedia/genetic-testing)は、目的と型によって分類される。検査の理由には、疑わしい疾患のための診断検査、個人が疾患を発症するリスクにあるかを調べる予測検査、予防的治療の必要性を見極めるスクリーニングという3つの広い区分があり、検査には遺伝子、[染色体](/hubpedia/chromosome)、タンパク質の解析が含まれる。 [20][21]\n\nまた、遺伝カウンセラーや臨床遺伝医のような遺伝の専門家への相談依頼や紹介も行われ、そこでは家族歴と遺伝リスクについての議論や、検査前後の情報提供を含む追加の評価と管理が行われる。 [22]\n\n## 家族が作る家系図\n\nNHGRIと米国衛生総監の家族史イニシアティブが作ったMy Family Health Portraitは、自分自身の家族健康歴を作成するのを助けるウェブサイトである。利用者は健康情報を入力して、家族の木の図と家族健康歴の表を作り、その表と図は印刷して家族成員や医師と共有できる。両親、祖父母、その他の血縁者が患った病気をたどることは、医師がその人がリスクを持ちうる疾患を予測する助けになる。 [23][24][25]\n\n2004年11月、家族が集まる感謝祭に合わせて、米国衛生総監リチャード・カルモナと保健社会福祉省は、米国衛生総監の家族史イニシアティブと呼ばれる全国公衆衛生キャンペーンを開始した。キャンペーンは家族健康歴の重要性に注目を集めるもので、その一環としてパソコンで使うダウンロード型ツールが公開され、1年後の2005年11月にはWebベースのツールが公開された。 [26][27]\n\n## 家系図の限界と維持\n\n家系図は、形質に関する情報が得られる場合にのみ、その情報を示すことができる。また洞察を得られるのは正確で詳細な家族歴が記録された場合であり、医療現場では患者や家族と協力しながら家族歴を維持し更新し続けることが行われる。 [2][12][28]",
+    "sources": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Pedigree",
+        "title": "Pedigree",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-genome-nhgri-policies-guidance/copyright"
+          },
+          "notes": "Talking Glossary definition and narration for pedigree, covering the chart of trait inheritance across generations and the visual inspection of family connections. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Family-History",
+        "title": "Family History",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-genome-nhgri-policies-guidance/copyright"
+          },
+          "notes": "Talking Glossary definition and narration for family history, covering the record of family disease and health conditions, pedigree recording and dominant, recessive and multifactorial patterns. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/For-Health-Professionals/Provider-Genomics-Education-Resources/np-genomics-faq",
+        "title": "Genomics FAQ for Advanced-Practice Nurses: Nurse Practitioners",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-genome-nhgri-policies-guidance/copyright"
+          },
+          "notes": "NHGRI genomics FAQ for nurse practitioners, covering the three-generation family history, screening goals, inheritance patterns, red flags, genetic test categories, specialist referral and maintaining family history with patients. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/Health/Family-Health-History/Patients-Families",
+        "title": "Family Health History for Patients and Families",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-genome-nhgri-policies-guidance/copyright"
+          },
+          "notes": "NHGRI patient-facing page on family health history, covering the My Family Health Portrait tool, tracing illnesses of blood relatives and the 2004 Surgeon General's Family History Initiative. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Pedigree",
+        "summary": "A pedigree, as related to genetics, is a chart that diagrams the inheritance of a trait or health condition through generations of a family, showing the relationships among family members and, when the information is available, which individuals have a trait of interest. It is used to distinguish dominant, recessive and multifactorial patterns, and in medicine a three-generation family history is screened for red flags. Tools for families to build their own are also provided.",
+        "bodyMarkdown": "## What is a pedigree?\n\nA pedigree, as related to genetics, is a chart that diagrams the inheritance of a trait or health condition through generations of a family. It particularly shows the relationships among family members and, when the information is available, indicates which individuals have a trait of interest. [1][2]\n\nA pedigree is a map that depicts the different members of a family and their connections — a graph that makes assessing who is connected and their relationships, such as parent, sibling or cousin, apparent by visual inspection. A pedigree can also help determine how a trait or condition might be passed down through the generations and what might accompany it. [3][4][5]\n\n## Family history and the pedigree\n\nA family history, as related to medicine, is a record of the diseases and health conditions of an individual and that person's biological family members, both living and deceased. A family history can help determine whether someone has an increased genetic risk of having or developing certain diseases, disorders or conditions. It is often recorded by drawing a pedigree — a family tree — that illustrates the relationships among individuals. [6][7][8]\n\n## Reading inheritance patterns\n\nThe family history recorded through a pedigree helps medical teams understand inheritance and risk. For example, certain disorders can show in every generation, in which case the disorder would be dominantly inherited; in other families a disorder may not be present in every generation and may appear as a recessive inheritance, or even follow a multifactorial pattern. Recording an accurate and detailed family history can allow medical teams to gain insights not only into the nature of the condition in a given family, but possibly the severity and risks of who is affected based on the pattern noted. [9][10][11][12]\n\n## How it is used in clinical practice\n\nIn clinical practice, a three-generation family history is taken for genetically related family members. The first goal is to screen for diseases within the biological family, and the second goal is to identify patterns of inheritance for health conditions that may indicate a potential problem — dominant traits, sex-linked patterns and recessive [genes](/hubpedia/gene). [13][14][15]\n\nRed flags in the family history include multiple family members with the same problem, earlier onset of disease than might be expected, disease in the less commonly affected biological sex (such as breast cancer in men), sudden deaths, ethnicity, consanguinity (used to determine the risk of recessive disease in offspring of closely related individuals, an area related to [carrier screening](/hubpedia/carrier-screening)), and early or recurrent pregnancy loss. Such assessment is used to prioritize individuals for possible further genomic analysis, and to identify those at increased need for primary and secondary prevention. [16][17][18][19]\n\n## Connecting to testing and specialists\n\nWhen red flags are found, the [genetic testing](/hubpedia/genetic-testing) that follows is categorized according to purpose and type. Reasons for testing include three broad categories — diagnostic testing for a suspected condition, predictive testing to determine if an individual is at risk of developing a condition, and screening to identify the need for preventive therapy — and the tests include analyses of genes, [chromosomes](/hubpedia/chromosome), or proteins. [20][21]\n\nConsultation with, or referral to, genetic specialists such as genetic counselors and clinical geneticists also takes place, involving further workup and management that includes discussing family history and genetic risk and providing information before or after testing. [22]\n\n## Pedigrees built by families\n\nMy Family Health Portrait, a product of NHGRI and the U.S. Surgeon General's Family History Initiative, is a website that helps you create your own family health history. Users provide their health information to build a drawing of their family tree and a chart of their family health history, and both the chart and the drawing can be printed and shared with family members and a doctor. Tracing the illnesses suffered by parents, grandparents and other blood relatives can help a doctor predict the disorders to which a person may be at risk. [23][24][25]\n\nIn November 2004 — timed to coincide with Thanksgiving, when families traditionally gather — U.S. Surgeon General Richard H. Carmona and the Department of Health and Human Services launched a national public health campaign called the U.S. Surgeon General's Family History Initiative. The campaign focused attention on the importance of the family health history, launching a downloadable tool for personal computers, and one year later, in November 2005, the Web-based tool followed. [26][27]\n\n## Limits and upkeep of a pedigree\n\nA pedigree can only indicate trait information when that information is available, and insights depend on an accurate and detailed family history being recorded. In clinical settings, maintaining and updating the family history in collaboration with patients and families is an ongoing task. [2][12][28]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "家系図（ペディグリー）は、遺伝学において、形質や健康状態が家族の世代を通じてどう受け継がれるかを図式化する表である。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Pedigree",
+              "quote": "A pedigree, as related to genetics, is a chart that diagrams the inheritance of a trait or health condition through generations of a family."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "家系図は特に家族成員間の関係を示し、情報が得られる場合には、関心のある形質を持つ個人を示す。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Pedigree",
+              "quote": "The pedigree particularly shows the relationships among family members and, when the information is available, indicates which individuals have a trait(s) of interest."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "家系図は、家族の異なる成員とそのつながりを描く地図であり、グラフである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Pedigree",
+              "quote": "A pedigree is a map that depicts the different members of a family and their connections."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Pedigree",
+              "quote": "It is a graph"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "家系図は、親、兄弟姉妹、いとこといった関係を目視で把握できるようにする。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Pedigree",
+              "quote": "it makes assessing who is connected and their relationships — such as parent, sibling, cousin — apparent by visual inspection."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "家系図は、形質や状態が世代を通じてどう伝わりうるか、何がそれに伴いうるかを判断する助けになる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Pedigree",
+              "quote": "A pedigree can also help determine how a trait or condition might be passed down through the generations and what might accompany it."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "医学における家族歴とは、個人と、その人の生存・死去を問わない生物学上の家族成員の疾患と健康状態の記録である。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Family-History",
+              "quote": "A family history, as related to medicine, is a record of the diseases and health conditions of an individual and that person’s biological family members, both living and deceased."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "家族歴は、ある人が特定の疾患、障害、状態を持つ、あるいは発症する遺伝的リスクが高まっているかを判断する助けになる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Family-History",
+              "quote": "A family history can help determine whether someone has an increased genetic risk of having or developing certain diseases, disorders or conditions."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "家族歴はしばしば、個人間の関係を示す家系図（家族の木）を描いて記録される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Family-History",
+              "quote": "It is often recorded by drawing a pedigree (a family tree) that illustrates the relationships among individuals."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "家系図を通じて記録された家族歴は、医療チームが遺伝とリスクを理解する助けとなる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Family-History",
+              "quote": "The family history and recording it through a pedigree helps medical teams understand inheritance and risk."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "ある疾患がすべての世代に現れる場合、その疾患は優性遺伝されるとみなされる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Family-History",
+              "quote": "certain disorders can show in every generation, in which case the disorder would be dominantly inherited."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "疾患が毎世代には存在しない場合、潜性（劣性）遺伝として現れたり、多因子のパターンをたどったりすることがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Family-History",
+              "quote": "may not be present in every generation and appear as a recessive inheritance, or even follow on with a multifactorial pattern."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "正確で詳細な家族歴の記録により、疾患の性質だけでなく、パターンに基づく重症度や誰が影響を受けるかのリスクについても洞察を得られる可能性がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Family-History",
+              "quote": "Recording of an accurate and detailed family history can allow medical teams to gain insights not only into the nature of the condition in a given family, but possibly the severity and risks of who is affected based on the pattern noted."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "医療現場では、遺伝的に近い家族成員について3世代の家族歴を取る。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/For-Health-Professionals/Provider-Genomics-Education-Resources/np-genomics-faq",
+              "quote": "Taking a three-generation family history for genetically related family members."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "第一の目標は、生物学上の家族内の疾患をスクリーニングすることである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/For-Health-Professionals/Provider-Genomics-Education-Resources/np-genomics-faq",
+              "quote": "The first goal is to screen for diseases within the biological family."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "第二の目標は、潜在する問題を示しうる健康状態の遺伝パターン、すなわち優性形質、性連鎖パターン、潜性遺伝子を特定することである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/For-Health-Professionals/Provider-Genomics-Education-Resources/np-genomics-faq",
+              "quote": "The second goal is to identify patterns of inheritance for health conditions that may indicate a potential problem such as:"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/For-Health-Professionals/Provider-Genomics-Education-Resources/np-genomics-faq",
+              "quote": "Dominant traits."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/For-Health-Professionals/Provider-Genomics-Education-Resources/np-genomics-faq",
+              "quote": "Sex-linked patterns."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/For-Health-Professionals/Provider-Genomics-Education-Resources/np-genomics-faq",
+              "quote": "Recessive genes."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "家族歴における危険信号には、同じ問題を持つ複数の家族成員が含まれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/For-Health-Professionals/Provider-Genomics-Education-Resources/np-genomics-faq",
+              "quote": "Identifying red flags in the family history such as:"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/For-Health-Professionals/Provider-Genomics-Education-Resources/np-genomics-faq",
+              "quote": "Multiple family members with same problem."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "予想より早い時期の発症や、あまり罹患しない性別での疾患（男性の乳がんなど）も危険信号である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/For-Health-Professionals/Provider-Genomics-Education-Resources/np-genomics-faq",
+              "quote": "Earlier onset of disease than might be expected."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/For-Health-Professionals/Provider-Genomics-Education-Resources/np-genomics-faq",
+              "quote": "Disease in less commonly affected biological sex (e.g., breast cancer in men)."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "突然死、民族性、近親婚、早期または反復性の妊娠喪失も危険信号として挙げられる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/For-Health-Professionals/Provider-Genomics-Education-Resources/np-genomics-faq",
+              "quote": "Sudden deaths (e.g., Wolff Parkinson White, Long QT syndrome, ASHD and dyslipidemia)."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/For-Health-Professionals/Provider-Genomics-Education-Resources/np-genomics-faq",
+              "quote": "Consanguinity (e.g., determine risk for recessive disease in offspring of closely related individuals)."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/For-Health-Professionals/Provider-Genomics-Education-Resources/np-genomics-faq",
+              "quote": "Early/recurrent pregnancy loss."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "こうした評価は、さらなるゲノム解析の対象となる人の優先順位づけや、一次・二次予防の必要性が高い人を特定するのに使われる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/For-Health-Professionals/Provider-Genomics-Education-Resources/np-genomics-faq",
+              "quote": "Prioritizing individuals for possible further genomic analysis."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/For-Health-Professionals/Provider-Genomics-Education-Resources/np-genomics-faq",
+              "quote": "Identifying those at increased need for primary and secondary prevention."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "遺伝子検査の理由には、疑わしい疾患のための診断検査、発症リスクを調べる予測検査、予防的治療の必要性を見極めるスクリーニングという3つの広い区分がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/For-Health-Professionals/Provider-Genomics-Education-Resources/np-genomics-faq",
+              "quote": "Genetic testing is generally categorized according to purpose and type."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/For-Health-Professionals/Provider-Genomics-Education-Resources/np-genomics-faq",
+              "quote": "Reasons for genetic testing include three broad categories:"
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/For-Health-Professionals/Provider-Genomics-Education-Resources/np-genomics-faq",
+              "quote": "Diagnostic testing for a suspected condition."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/For-Health-Professionals/Provider-Genomics-Education-Resources/np-genomics-faq",
+              "quote": "Predictive testing to determine if an individual is at risk of developing a condition."
+            },
+            {
+              "sourceUrl": "https://www.genome.gov/For-Health-Professionals/Provider-Genomics-Education-Resources/np-genomics-faq",
+              "quote": "Screening to identify the need for preventive therapy."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "遺伝子検査には、遺伝子、染色体、タンパク質の解析が含まれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/For-Health-Professionals/Provider-Genomics-Education-Resources/np-genomics-faq",
+              "quote": "Genetic tests include analyses of genes, chromosomes, or proteins."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "遺伝の専門家への相談依頼や紹介も行われ、家族歴と遺伝リスクについての議論や検査前後の情報提供を含む追加の評価と管理が行われる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/For-Health-Professionals/Provider-Genomics-Education-Resources/np-genomics-faq",
+              "quote": "Nurse practitioners may also request consultation from, or refer patients to, genetic specialists for further workup and management, including discussing family history and genetic risk or providing information before or after genetic testing."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "My Family Health Portraitは、自分自身の家族健康歴を作成するのを助けるウェブサイトである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Family-Health-History/Patients-Families",
+              "quote": "is a website that helps you create your own family health history."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "利用者は健康情報を入力して家族の木の図と家族健康歴の表を作り、印刷して家族成員や医師と共有できる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Family-Health-History/Patients-Families",
+              "quote": "you provide your health information to build a drawing of your family tree and a chart of your family health history. Both the chart and the drawing can be printed and shared with your family members and your doctor."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "両親、祖父母、その他の血縁者が患った病気をたどることは、医師がその人がリスクを持ちうる疾患を予測する助けになる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Family-Health-History/Patients-Families",
+              "quote": "Tracing the illnesses suffered by your parents, grandparents and other blood relatives can help your doctor predict the disorders to which you may be at risk"
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "2004年11月、米国衛生総監と保健社会福祉省は、感謝祭に合わせて米国衛生総監の家族史イニシアティブという全国公衆衛生キャンペーンを開始した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Family-Health-History/Patients-Families",
+              "quote": "In November 2004 - and to coincide with Thanksgiving, when families traditionally gather - U.S. Surgeon General Richard H. Carmona, M.D., M.P.H., and the Department of Health and Human Services (HHS) launched a national public health campaign called the U.S. Surgeon General's Family History Initiative."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "キャンペーンの一環としてパソコンで使うダウンロード型ツールが公開され、1年後の2005年11月にはWebベースのツールが公開された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/Health/Family-Health-History/Patients-Families",
+              "quote": "the initiative launched My Family Health Portrait: a downloadable tool for use on a personal computer to complete a family health history. One year later, in November 2005, U.S. Surgeon General Carmona furthered this initiative by launching the Web-based tool, My Family Health Portrait."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "医療現場では、患者や家族と協力しながら家族歴を維持し更新し続けることが行われる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/For-Health-Professionals/Provider-Genomics-Education-Resources/np-genomics-faq",
+              "quote": "Maintaining and updating family history in collaboration with patients and families."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,2 @@
+import {NextResponse} from "next/server";import {getHubD1} from "@/lib/server/hub-d1";import {reconcileHubAdBilling} from "@/lib/server/hub-ads-reconciliation";import {requireModerationAdmin,requireSameOrigin} from "@/lib/server/moderation-admin-auth";
+export async function POST(request:Request){const denied=requireModerationAdmin(request)??requireSameOrigin(request);if(denied)return denied;return NextResponse.json(await reconcileHubAdBilling(getHubD1()),{headers:{"Cache-Control":"no-store"}});}

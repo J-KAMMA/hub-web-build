@@ -1,0 +1,305 @@
+/*
+ * アカウント系の画面（/v2/account/*, /v2/wallet/*）の見た目をそろえる層。
+ * 既存の部品（hub-account__section, settings-note, v2-wallet__card）を作り直さず、
+ * 入れ子の板・大きすぎる見出し・文字の大きさの揺れだけを上書きする。
+ * 色は役割トークンのみ。
+ */
+
+/* 区切り: 板ではなく、見出し＋罫線の1枚の面に */
+html body .v2 .hub-account.v2-account__panels {
+  display: grid;
+  gap: 0;
+  max-width: none;
+  margin-top: var(--v2-space-2);
+  padding: 0;
+  background: transparent !important;
+}
+
+html body .v2 .hub-account.v2-account__panels .hub-account__section,
+html body .v2 .hub-account.v2-account__panels > section,
+html body .v2 .hub-account.v2-account__panels > .account-recovery-panel {
+  margin: 0;
+  padding: var(--v2-space-5) 0;
+  border: 0 !important;
+  border-bottom: 1px solid var(--line) !important;
+  border-radius: 0;
+  background: transparent !important;
+  box-shadow: none;
+}
+
+html body .v2 .hub-account.v2-account__panels > :last-child {
+  border-bottom: 0;
+}
+
+html body .v2 .hub-account.v2-account__panels :is(h2, h3) {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+html body .v2 .hub-account.v2-account__panels .hub-account__lead,
+html body .v2 .hub-account.v2-account__panels header p,
+html body .v2 .hub-account.v2-account__panels > section > p {
+  max-width: none;
+  margin: var(--v2-space-1) 0 var(--v2-space-3);
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 18px;
+}
+
+html body .v2 .hub-account.v2-account__panels .hub-account__section > header {
+  display: block;
+  margin: 0;
+}
+
+/* 板の中の板をやめる: settings-note は罫線だけの行にする */
+html body .v2 .hub-account.v2-account__panels .settings-note {
+  display: grid;
+  gap: var(--v2-space-2);
+  margin: 0;
+  padding: 0;
+  border: 0 !important;
+  border-radius: 0;
+  background: transparent !important;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+html body .v2 .hub-account.v2-account__panels .settings-note strong {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+html body .v2 .hub-account.v2-account__panels .settings-note :is(small, p) {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 18px;
+}
+
+/* 操作は札（ボタン）として見せる。危険な操作だけ危険色。 */
+html body .v2 .hub-account.v2-account__panels :is(button, a.button, .settings-reset) {
+  display: inline-flex;
+  align-items: center;
+  inline-size: fit-content;
+  min-block-size: 32px;
+  padding: 0 var(--v2-space-4);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius-pill, 999px);
+  background: var(--panel);
+  color: var(--text);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+html body .v2 .hub-account.v2-account__panels :is(button, .settings-reset):disabled {
+  opacity: .5;
+  cursor: not-allowed;
+}
+
+html body .v2 .hub-account.v2-account__panels .settings-reset {
+  color: var(--danger-text, var(--text));
+}
+
+/* 概要の3つの入口 */
+html body .v2 .v2__main:has(.hub-account.v2-account__panels) .v2-account__areas {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: var(--v2-space-3);
+}
+
+html body .v2 .v2__main:has(.hub-account.v2-account__panels) .v2-account__areas a {
+  align-content: start;
+  block-size: 100%;
+}
+
+html body .v2 .v2__main:has(.hub-account.v2-account__panels) .v2-account__areas small {
+  font-size: 12px;
+}
+
+@media (max-width: 640px) {
+  html body .v2 .v2__main:has(.hub-account.v2-account__panels) .v2-account__areas {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ウォレット: 見出しは16px、カードは1段 */
+html body .v2 .v2-wallet .v2-wallet__hero-title,
+html body .v2 .v2-wallet .v2-wallet__card-head h2 {
+  margin: 0 0 var(--v2-space-2);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+html body .v2 .v2-wallet .v2-note {
+  max-width: none;
+  padding: 0;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+html body .v2 .v2-wallet .v2-wallet__hero-label {
+  font-size: 12px;
+}
+
+html body .v2 .v2__main:has(.v2-wallet) > .v2-note {
+  max-width: none;
+  margin-bottom: var(--v2-space-3);
+  font-size: 12px;
+  line-height: 18px;
+}
+
+html body .v2 .v2-wallet > .v2-note {
+  margin: 0 0 var(--v2-space-3);
+}
+
+/* 支払い・税務: v1 の部品が持つ中央寄せの板を、本文の左端・右端に揃える */
+html body .v2 .v2__main .commerce-payment-checkout {
+  padding: 0;
+  background: transparent;
+}
+
+html body .v2 .v2__main .commerce-payment-checkout > section {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+}
+
+html body .v2 .v2__main [class*="payment-tax-dashboard"][class*="__page"] {
+  max-width: none;
+  margin: 0;
+  padding: 0 0 var(--v2-space-6, 32px);
+}
+
+html body .v2 .v2__main .commerce-payment-header h2 {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+html body .v2 .v2__main .commerce-payment-header h2:focus {
+  outline: 0;
+}
+
+html body .v2 .v2__main [class*="payment-tax-dashboard"][class*="__page"] :is(h2, h3) {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+
+/* 開発者サービス: ラベルと入力を2列にそろえ、入力の幅を一定にする */
+html body .v2 .v2-devforms .settings-section-title h2 {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+}
+
+html body .v2 .v2-devforms .settings-section-title p {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+html body .v2 .v2-devforms .settings-card {
+  display: grid;
+  gap: 0;
+  padding: var(--v2-space-2) var(--v2-space-4) var(--v2-space-4);
+}
+
+html body .v2 .v2-devforms .setting-select {
+  display: grid;
+  grid-template-columns: minmax(140px, 240px) minmax(0, 1fr);
+  align-items: start;
+  gap: var(--v2-space-4);
+  padding: var(--v2-space-3) 0;
+}
+
+html body .v2 .v2-devforms .setting-select > span {
+  display: grid;
+  gap: 2px;
+}
+
+html body .v2 .v2-devforms .setting-select strong {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+html body .v2 .v2-devforms .setting-select small {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+html body .v2 .v2-devforms .setting-select :is(input, textarea, select) {
+  inline-size: 100%;
+  max-inline-size: none;
+  min-block-size: 36px;
+  font-size: 14px;
+}
+
+html body .v2 .v2-devforms .setting-select textarea {
+  min-block-size: 72px;
+}
+
+html body .v2 .v2-devforms .settings-card > button {
+  justify-self: start;
+  margin-top: var(--v2-space-3);
+}
+
+@media (max-width: 640px) {
+  html body .v2 .v2-devforms .setting-select {
+    grid-template-columns: 1fr;
+    gap: var(--v2-space-2);
+  }
+}
+
+/* ログインとデータ: 操作は1行の札、移動は全幅の行、削除は末尾の危険札 */
+html body .v2 .hub-account__session-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--v2-space-2);
+}
+
+html body .v2 .hub-account__link-rows {
+  display: grid;
+  margin: var(--v2-space-2) 0 0;
+  padding: 0;
+  list-style: none;
+  border-top: 1px solid var(--line);
+}
+
+html body .v2 .hub-account__link-rows li {
+  border-bottom: 1px solid var(--line);
+}
+
+html body .v2 .hub-account.v2-account__panels .hub-account__link-rows a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-block-size: 44px;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--text);
+  text-decoration: none;
+}
+
+html body .v2 .hub-account.v2-account__panels .hub-account__link-rows a:hover {
+  background: var(--interactive);
+}
+
+html body .v2 .hub-account.v2-account__panels .settings-note > button.settings-reset:last-child,
+html body .v2 .hub-account.v2-account__panels .settings-note > button.settings-reset:nth-last-child(2) {
+  margin-top: var(--v2-space-3);
+  border-color: var(--danger-text);
+  color: var(--danger-text);
+}
+
+/* 支払いと売上: 入口カードの列と、次の見出し（ウォレットの接続）の間に区切りの余白を置く。 */
+.v2-msec + .v2-wallet {
+  margin-top: var(--v2-space-6, 24px);
+}

@@ -1,0 +1,254 @@
+/*
+ * luxe の見た目を、人と会話の画面へ広げる層（2026-10-31）。
+ * 投稿の詳細・スレッド・掲示板・通知・メッセージ・プロフィール・コミュニティ・リスト・検索。
+ * 骨組み（列の並びと幅）は変えない。タイムラインの v2-luxe.css の語彙（--luxe-*, --lx-*）を
+ * そのまま使い、第二の体系は置かない。
+ *
+ *   面    本文の列だけ。見出し・投稿欄・カード・一覧の項目が角丸20の --luxe-panel。
+ *         ナビ・目録・右列・右端の帯は v2-luxe.css のとおり地の上に罫線だけ。
+ *   金    いまの場所・主要操作・選択済み・選んだタブの下線の4つだけ。
+ *   字    本文 16px / 1.7（--type-post-*）。
+ *   空    空の状態は短い1行。入れ子の箱を重ねない。
+ */
+
+html body .v2[data-skin="luxe"][data-skin][data-skin][data-skin][data-skin] {
+
+  /* 本文の列の面を同じ幅・同じ縁にそろえる */
+  & .v2__workspace .v2__frame > #hub-main.v2__main > :is(.v2-subtabs, .v2-search__form, .v2-search__tools, .v2-search__results, .v2-search, .v2-tlist, .v2-lists, .v2-lists__new, .v2-notifs, .v2-messenger, .v2-profile, .v2-post-thread, .v2-tnew, .v2-bbs-tools, .v2-filter-disclosure, .v2-card, .v2-pager, .v2-tbody, .v2-tinfo, .v2-state, .v2-note, .v2-community, .v2-dm) {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: var(--v2-width-reading);
+    margin-inline: auto;
+  }
+
+  @media (min-width: 760px) {
+    /* 見出しだけの画面は、見出しが1枚の面（下にタブがあるときは v2-luxe.css の上半分のまま） */
+    & .v2__workspace .v2__frame > #hub-main.v2__main > .v2-top-title:not(:has(+ .v2-feed-tabs, + .v2-subtabs)) {
+      margin-bottom: var(--lx-gap);
+      padding: 16px var(--lx-pad);
+      border-bottom: 1px solid var(--luxe-line);
+      border-radius: var(--lx-radius);
+    }
+    /* 通知・コミュニティのタブは見出しの下半分 */
+    & .v2__workspace .v2__frame > #hub-main.v2__main > .v2-subtabs {
+      position: static;
+      margin-top: 0;
+      margin-bottom: var(--lx-gap);
+      padding: 0 var(--lx-pad);
+      border: 1px solid var(--luxe-line);
+      border-top: 0;
+      border-radius: 0 0 var(--lx-radius) var(--lx-radius);
+      background: var(--luxe-panel);
+      backdrop-filter: none;
+    }
+    & .v2-subtabs .ui-tabs { gap: 24px; }
+  }
+  & .v2-subtabs .ui-tab { height: 48px; min-height: 48px; color: var(--luxe-text-2); font-size: var(--type-callout-size); font-weight: 500; }
+  & .v2-subtabs .ui-tab:hover { color: var(--luxe-text); }
+  & .v2-subtabs .ui-tab[aria-current="page"],
+  & .v2-subtabs .ui-tab[data-selected],
+  & .v2-subtabs .ui-tab[aria-selected="true"] { color: var(--luxe-text); font-weight: 600; }
+  & .v2-subtabs .ui-tab__label::after { background: var(--luxe-gold); }
+
+  /* ------------------------------------------------ 面になる塊（本文の列だけ） */
+  & #hub-main.v2__main :is(.v2-card, .v2-tnew, .v2-tinfo:not(details), .v2-lists__new, .v2-search__filters, .v2-ccard, .v2-tcard) {
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--lx-radius);
+    background: var(--luxe-panel);
+    box-shadow: none;
+  }
+  & #hub-main.v2__main :is(.v2-card, .v2-tnew, .v2-tinfo:not(details), .v2-lists__new) { margin-bottom: var(--lx-gap); padding: 16px var(--lx-pad); }
+  & #hub-main.v2__main :is(.v2-tcard, .v2-ccard) { padding: 16px var(--lx-pad); transition: border-color var(--lx-fast) var(--lx-ease); }
+  & #hub-main.v2__main :is(.v2-tcard, .v2-ccard):hover { border-color: var(--luxe-line-strong); background: var(--luxe-panel); }
+
+  /* 一覧は箱の連なり。罫線で区切る旧い表は、項目ごとの面にする。 */
+  & #hub-main.v2__main > :is(.v2-tlist, .v2-notifs__list, .v2-lists, .v2-search__results, .v2-social-stream__list),
+  & #hub-main.v2__main .v2-notifs__list,
+  & #hub-main.v2__main .v2-social-stream__list {
+    display: grid;
+    gap: var(--lx-gap);
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: none;
+    list-style: none;
+  }
+  & .v2-social-stream__item { padding: 0; border: 0; background: none; }
+  & .v2-social-stream__item:not(.v2-social-stream__item--post) { padding: 0; }
+  & .v2-social-stream__item .v2-post,
+  & .v2-post-thread .v2-feed .v2-post,
+  & .v2-thread-context .v2-feed .v2-post {
+    padding: 16px var(--lx-pad) 8px;
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--lx-radius);
+    background: var(--luxe-panel);
+  }
+  & .v2-post-thread .v2-feed,
+  & .v2-thread-context .v2-feed { display: grid; gap: var(--lx-gap); border: 0; background: none; }
+  & .v2-post-thread .v2-feed__row { padding: 0; border: 0; background: none; }
+
+  /* 通知の行 */
+  & .v2-notif {
+    padding: 14px var(--lx-pad);
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--lx-radius);
+    background: var(--luxe-panel);
+    transition: border-color var(--lx-fast) var(--lx-ease);
+  }
+  & .v2-notif:hover { border-color: var(--luxe-line-strong); }
+  & .v2-notif[data-unread="true"], & .v2-notif.v2-unread { background: var(--luxe-panel); border-color: var(--luxe-line-strong); }
+  & .v2-notif__excerpt { color: var(--luxe-text-2); font-size: var(--type-post-size); line-height: 1.7; }
+  & .v2-notif__meta { color: var(--luxe-text-3); }
+
+  /* 掲示板・コミュニティの項目 */
+  & .v2-tcard__title, & .v2-ccard__title { color: var(--luxe-text); font-weight: 600; }
+  & .v2-tcard__excerpt, & .v2-ccard__text { color: var(--luxe-text-2); font-size: var(--type-post-size); line-height: 1.7; }
+  & .v2-tcard__meta, & .v2-ccard__meta, & .v2-tcard__count { color: var(--luxe-text-3); font-variant-numeric: tabular-nums; }
+
+  /* スレッドの書き込み */
+  & .v2-tpost {
+    padding: 16px var(--lx-pad);
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--lx-radius);
+    background: var(--luxe-panel);
+  }
+  & .v2-tbody { display: grid; gap: var(--lx-gap); }
+  & .v2-tpost__body { color: var(--luxe-text); font-size: var(--type-post-size); line-height: 1.7; overflow-wrap: anywhere; }
+  & .v2-treply {
+    margin-top: var(--lx-gap);
+    padding: 16px var(--lx-pad);
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--lx-radius);
+    background: var(--luxe-panel);
+  }
+
+  /* 投稿の詳細: 投稿・返信欄・返信が面の連なり */
+  & .v2-post-thread { display: grid; gap: var(--lx-gap); }
+  & .v2-post-thread > section { min-width: 0; }
+  & .v2-replies { display: grid; gap: var(--lx-gap); }
+  & .v2-replies .v2-feed { display: grid; gap: var(--lx-gap); border: 0; background: none; }
+  & .v2-replies .v2-feed__row { padding: 0; border: 0; background: none; }
+  & .v2-replies__count { margin: 0; padding: 0 4px; color: var(--luxe-text-3); font-size: var(--type-subhead-size); }
+  & .v2-replies .v2-note { margin: 0; padding: 0 4px; color: var(--luxe-text-3); font-size: var(--type-subhead-size); line-height: 20px; }
+  & .v2-post-thread > .v2-reply {
+    padding: 16px var(--lx-pad) 12px;
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--lx-radius);
+    background: var(--luxe-panel);
+  }
+  & .v2-post-thread > .v2-reply:focus-within { border-color: var(--luxe-line-strong); }
+
+  /* 返信欄・入力 */
+  & .v2-reply__input { color: var(--luxe-text); font-size: var(--type-post-size); line-height: var(--type-post-leading); }
+  & .v2-reply__input::placeholder { color: var(--luxe-text-3); }
+  & #hub-main.v2__main > :is(.v2-reply, .v2-card.v2-reply-auth) { margin-bottom: var(--lx-gap); }
+  & .v2-reply__submit, & .v2-search__submit:not(.v2-sr) {
+    min-height: 36px;
+    padding: 0 18px;
+    border: 1px solid var(--luxe-btn-line);
+    border-radius: var(--radius-pill);
+    background: var(--luxe-btn);
+    color: var(--luxe-btn-text);
+    box-shadow: var(--luxe-btn-edge);
+    font-weight: 600;
+  }
+  & .v2-reply__submit:hover:not(:disabled), & .v2-search__submit:not(.v2-sr):hover { background: var(--action-hover); }
+  & .v2-reply__submit:disabled { border: 1px solid color-mix(in srgb, var(--luxe-btn-line) 45%, var(--luxe-panel)); box-shadow: none; background: color-mix(in srgb, var(--luxe-btn) 45%, var(--luxe-panel)); color: color-mix(in srgb, var(--luxe-btn-text) 80%, transparent); opacity: 1; }
+
+  /* 検索 */
+  & .v2-search__form {
+    margin-bottom: var(--lx-gap);
+    padding: 12px var(--lx-pad);
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--lx-radius);
+    background: var(--luxe-panel);
+  }
+  & .v2-search__form input[type="search"], & .v2-search__form input[type="text"] { color: var(--luxe-text); background: transparent; }
+  & .v2-search-card {
+    margin-bottom: var(--lx-gap);
+    padding: 16px var(--lx-pad);
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--lx-radius);
+    background: var(--luxe-panel);
+  }
+  & .v2-search-card__title { color: var(--luxe-text); font-weight: 600; }
+  & .v2-search-card__excerpt { color: var(--luxe-text-2); font-size: var(--type-post-size); line-height: 1.7; }
+  & .v2-search-card__excerpt { font-weight: 400; }
+  & .v2-search__results > *, & .v2-search-card__main { border-bottom: 0; }
+  /* 結果ごとの操作は金にしない（金は画面に1つの主要操作だけ） */
+  & .v2-search-card__action .v2-button--primary { border: 0; background: var(--luxe-text); color: var(--luxe-canvas); }
+  & .v2-search-card__kind { color: var(--luxe-text-3); }
+
+  /* 絞り込みの開閉は面にしない。語だけを置く */
+  & .v2__main details.v2-filter-disclosure > summary { color: var(--luxe-text-2); }
+  & .v2__main details.v2-filter-disclosure > summary:hover,
+  & .v2__main details.v2-filter-disclosure[open] > summary { background: var(--luxe-hover); color: var(--luxe-text); }
+  & .v2__main details.v2-filter-disclosure > .v2-filter-disclosure__body { border-bottom-color: var(--luxe-line); }
+  & .v2__main .v2-filter-disclosure__body .v2-nav__item[aria-current]:not([aria-current="false"]) { background: var(--luxe-hover); color: var(--luxe-gold); }
+
+  /* メッセージ: 2ペインをそれぞれ1枚の面に */
+  & .v2-messenger { gap: var(--lx-gap); border-top: 0; }
+  & .v2-messenger__list,
+  & .v2-messenger__thread {
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--lx-radius);
+    background: var(--luxe-panel);
+  }
+  & .v2-messenger__list { padding: 12px; border-right: 1px solid var(--luxe-line); }
+  & .v2-messenger__thread { align-self: start; min-height: 0; padding: 16px var(--lx-pad); }
+  & .v2-messenger__list { align-self: start; }
+  /* 連絡先の絞り込み欄は面の中なので、入れ子の箱にしない */
+  & .v2-messenger .v2-search__form { margin: 0; padding: 0; border: 0; border-radius: 0; background: transparent; }
+  & .v2-messenger__list .v2-nav__item[aria-current]:not([aria-current="false"]),
+  & .v2-conv[aria-current="page"] { background: var(--luxe-hover); color: var(--luxe-text); }
+  & .v2-conv { border-radius: 12px; }
+  & .v2-conv:hover { background: var(--luxe-hover); }
+  & .v2-conv__dot { background: var(--luxe-gold); }
+  & .v2-conv__time, & .v2-conv__sub, & .v2-conv__handle { color: var(--luxe-text-3); }
+  & .v2-dm__bubble { border-radius: 16px; font-size: var(--type-post-size); line-height: 1.7; }
+
+  /* プロフィール: 表紙と札で1枚の面 */
+  & .v2-profile {
+    overflow: hidden;
+    margin-bottom: var(--lx-gap);
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--lx-radius);
+    background: var(--luxe-panel);
+  }
+  & .v2-profile__card { background: transparent; border: 0; box-shadow: none; }
+  & .v2-profile__name { color: var(--luxe-text); font-weight: 700; }
+  & .v2-profile__handle, & .v2-profile__meta { color: var(--luxe-text-3); }
+  & .v2-profile__counts { font-variant-numeric: tabular-nums; }
+  & .v2-profile .v2-subtabs { position: static; margin: 0; padding: 0 var(--lx-pad); border: 0; border-top: 1px solid var(--luxe-line); background: transparent; backdrop-filter: none; }
+  & .v2-profile .v2-subtabs .ui-tabs { gap: 20px; }
+  & .v2-profile > .v2-note, & .v2-profile .v2-note { padding-inline: var(--lx-pad); }
+  & .v2-profile__avatar-ring { border-color: var(--luxe-panel); }
+
+  /* 空・サインインの案内は面1枚に短い1行。記号の円と説明文は出さず、空には操作も置かない。 */
+  & #hub-main.v2__main .v2-state:not(:is(.v2-messenger, .v2-profile, .v2-tpost) .v2-state) {
+    margin-bottom: var(--lx-gap);
+    padding: 32px 24px;
+    border: 1px solid var(--luxe-line);
+    border-radius: var(--lx-radius);
+    background: var(--luxe-panel);
+  }
+  & #hub-main.v2__main .v2-state .v2-state__disc { display: none; }
+  & #hub-main.v2__main .v2-state--empty :is(.v2-state__note, .v2-state__actions) { display: none; }
+  & #hub-main.v2__main .v2-state__title { color: var(--luxe-text-2); font-size: var(--type-callout-size); font-weight: 500; }
+  & #hub-main.v2__main > .v2-note { margin-block: 0 var(--lx-gap); padding: 0 4px; color: var(--luxe-text-3); }
+  & .v2-heading__note { color: var(--luxe-text-2); }
+
+  /* 本文の中のリンクは金にしない（金は4つだけ） */
+  & #hub-main.v2__main a.v2-card__link { color: var(--luxe-text); text-decoration: underline; text-underline-offset: 3px; }
+
+  /* ------------------------------------------------ 携帯 */
+  @media (max-width: 759px) {
+    & #hub-main.v2__main > .v2-subtabs { margin: 4px 0 var(--lx-gap); padding: 0 4px; border-bottom: 1px solid var(--luxe-line); }
+    & .v2-subtabs .ui-tabs { gap: 24px; }
+    & .v2-messenger__list, & .v2-messenger__thread { padding: 12px 16px; }
+    & #hub-main.v2__main :is(.v2-card, .v2-tnew, .v2-tinfo, .v2-lists__new, .v2-tcard, .v2-ccard, .v2-tpost, .v2-treply, .v2-search-card, .v2-notif) { padding-inline: 16px; }
+    & .v2-social-stream__item .v2-post,
+    & .v2-post-thread .v2-feed .v2-post,
+    & .v2-thread-context .v2-feed .v2-post { padding: 14px 16px 6px; }
+  }
+}

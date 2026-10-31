@@ -1,0 +1,46 @@
+.library { display: grid; gap: 18px; width: 100%; margin: 0; padding: 14px 24px 24px; color: var(--text); }
+.header { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; padding-bottom: 6px; }
+.header > div { display: grid; gap: 6px; }
+.eyebrow, .header h1 { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+.intro { color: var(--muted); line-height: 1.5; }
+.backLink { min-height: 44px; display: inline-flex; align-items: center; color: var(--link-color); font-weight: 700; text-decoration: none; }
+.backLink:hover { text-decoration: underline; }
+.backLink:focus-visible, .launchButton:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 3px; }
+.sectionHeading { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-top: 10px; }
+.sectionHeading h2 { margin: 0; font-size: 1.05rem; }
+.sectionHeading span { color: var(--muted); font-size: .8rem; }
+.gameCard { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: 18px; padding: 22px; border: var(--divider); border-radius: 16px; background: var(--surface-raised); }
+.gameIcon { display: grid; place-items: center; width: 60px; height: 60px; border-radius: 14px; background: var(--emphasis-soft); color: var(--emphasis); font-size: 28px; }
+.gameCopy { min-width: 0; }
+.category { color: var(--muted); font-size: .78rem; font-weight: 700; }
+.gameCopy h3 { margin: 3px 0 5px; font-size: 1.15rem; }
+.gameCopy p, .boundary, .helper, .notice { margin: 0; line-height: 1.6; }
+.gameCopy p { color: var(--muted); }
+.launchButton { min-width: 152px; min-height: 44px; padding: 10px 16px; border: 1px solid var(--action); border-radius: 10px; background: var(--action); color: var(--action-text); font: inherit; font-weight: 750; cursor: pointer; }
+.launchButton:hover:not(:disabled) { border-color: var(--action-hover); background: var(--action-hover); }
+.launchButton:disabled { cursor: wait; opacity: .62; }
+.helper { color: var(--muted); font-size: .8rem; }
+.notice { padding: 12px 14px; border: 1px solid var(--warning-text); border-radius: 10px; }
+.noticeOffline { background: var(--warning-bg); color: var(--warning-text); }
+.noticeError { background: var(--danger-bg); color: var(--danger-text); border-color: var(--danger-text); }
+.boundary { padding-top: 4px; border-top: var(--divider); color: var(--muted); font-size: .78rem; }
+.unlocks { display: grid; gap: 12px; width: 100%; margin: 0; padding: 0 24px 36px; color: var(--text); }
+.unlockList { display: grid; gap: 8px; margin: 0; padding: 0; list-style: none; }
+.unlockRow { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 14px 16px; border: var(--divider); border-radius: 12px; background: var(--surface-raised); }
+.unlockCopy { display: grid; gap: 2px; min-width: 0; }
+.unlockTitle { overflow: hidden; color: var(--link-color); font-weight: 700; text-decoration: none; text-overflow: ellipsis; white-space: nowrap; }
+a.unlockTitle:hover { text-decoration: underline; }
+.unlockRemove { min-height: 44px; padding: 8px 14px; border: var(--divider); border-radius: 10px; background: transparent; color: var(--text); font: inherit; cursor: pointer; }
+.unlockRemove:hover:not(:disabled) { background: var(--emphasis-soft); }
+.unlockRemove:disabled { cursor: wait; opacity: .62; }
+.unlockRemove:focus-visible, .unlockTitle:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 3px; }
+@media (max-width: 640px) {
+  .unlocks { padding: 0 24px 28px; }
+  .unlockRow { align-items: stretch; flex-direction: column; }
+  .library { gap: 16px; padding: 12px 24px 24px; }
+  .header { align-items: stretch; flex-direction: column; gap: 10px; }
+  .backLink { width: fit-content; }
+  .gameCard { grid-template-columns: auto minmax(0, 1fr); gap: 14px; padding: 18px; }
+  .launchButton { grid-column: 1 / -1; width: 100%; }
+}
+@media (prefers-reduced-motion: reduce) { .launchButton, .backLink { transition: none; } }

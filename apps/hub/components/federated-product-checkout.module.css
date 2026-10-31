@@ -1,0 +1,145 @@
+.page {
+  width: min(100%, 980px);
+  margin: 0 auto;
+  padding: 28px;
+}
+
+.back {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.product,
+.quote {
+  margin-top: 20px;
+  border: var(--divider);
+  border-radius: 20px;
+  background: var(--panel);
+  overflow: hidden;
+}
+
+.productHeader,
+.section {
+  padding: 24px;
+}
+
+.productHeader {
+  display: grid;
+  gap: 10px;
+}
+
+.eyebrow,
+.verified {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.productHeader h1,
+.section h2,
+.section p {
+  margin: 0;
+}
+
+.price {
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.facts,
+.breakdown {
+  display: grid;
+  gap: 0;
+  margin: 0;
+  border-top: var(--divider);
+}
+
+.facts div,
+.breakdown div {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 14px 24px;
+  border-bottom: var(--divider);
+}
+
+.facts dt,
+.breakdown dt {
+  color: var(--muted);
+}
+
+.facts dd,
+.breakdown dd {
+  margin: 0;
+  text-align: right;
+  overflow-wrap: anywhere;
+}
+
+.controls {
+  display: flex;
+  align-items: end;
+  gap: 12px;
+  padding: 20px 24px 24px;
+}
+
+.controls label {
+  display: grid;
+  gap: 6px;
+  color: var(--muted);
+}
+
+.controls input {
+  width: 88px;
+  min-height: 44px;
+  padding: 0 12px;
+  border: var(--divider);
+  border-radius: 12px;
+  color: var(--text);
+  background: var(--panel);
+}
+
+.primary,
+.secondary {
+  min-height: 44px;
+  padding: 0 18px;
+  border: var(--divider);
+  border-radius: 12px;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.primary {
+  border-color: var(--action);
+  color: var(--action-text);
+  background: var(--action);
+}
+
+.secondary {
+  color: var(--text);
+  background: var(--panel);
+}
+
+.primary:disabled,
+.secondary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.notice,
+.error {
+  margin: 16px 24px 24px;
+  padding: 14px 16px;
+  border: var(--divider);
+  border-radius: 12px;
+}
+
+.error {
+  color: var(--danger-text);
+  background: var(--danger-bg);
+}
+
+@media (max-width: 700px) {
+  .page { padding: 18px 14px; }
+  .controls { align-items: stretch; flex-direction: column; }
+  .controls input { width: 100%; }
+}

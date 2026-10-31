@@ -1,0 +1,22 @@
+{
+  "name": "@jkamma/gltf-guard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "持ち込みの .glb を検める。走査器はマルウェアを見るが、glTF そのものの罠は見ない。",
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    },
+    "./check": {
+      "default": "./src/check.js"
+    }
+  },
+  "scripts": {
+    "test": "node --test --test-isolation=none test/*.test.js"
+  },
+  "bin": {
+    "gltf-check": "./src/check.js"
+  }
+}

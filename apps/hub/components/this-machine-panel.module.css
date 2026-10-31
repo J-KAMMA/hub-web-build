@@ -1,0 +1,151 @@
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgba(8, 10, 14, 0.62);
+  backdrop-filter: blur(3px);
+}
+
+.panel {
+  width: min(680px, 100%);
+  max-height: min(88vh, 900px);
+  overflow: auto;
+  padding: 22px;
+  border-radius: 18px;
+  border: 1px solid var(--hub-border, #2b303a);
+  background: var(--hub-surface, #14161b);
+  color: var(--hub-text, #f2f4f7);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.34);
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+.header h2 { margin: 0; font-size: 17px; }
+.header p { margin: 6px 0 0; font-size: 13px; color: var(--hub-muted, #a8afbc); }
+.header button {
+  border: 1px solid var(--hub-border, #2b303a);
+  background: transparent;
+  color: inherit;
+  border-radius: 9px;
+  padding: 7px 12px;
+  font: inherit;
+  cursor: pointer;
+}
+
+/* The folder is the boundary the whole feature rests on, so it is stated
+   plainly above the controls rather than tucked into help text. */
+.workspace {
+  margin: 0 0 14px;
+  padding: 9px 11px;
+  border-radius: 9px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--hub-border, #2b303a);
+  font: 12px/1.5 ui-monospace, SFMono-Regular, Consolas, monospace;
+  color: var(--hub-muted, #a8afbc);
+  overflow-wrap: anywhere;
+}
+
+.controls { display: flex; align-items: center; gap: 9px; flex-wrap: wrap; margin-bottom: 10px; }
+.controls select,
+.panel textarea {
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--hub-border, #2b303a);
+  border-radius: 9px;
+  color: inherit;
+  font: inherit;
+  padding: 8px 10px;
+}
+.panel textarea { width: 100%; resize: vertical; font-size: 13px; }
+.resume { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--hub-muted, #a8afbc); }
+
+.actions { display: flex; justify-content: flex-end; gap: 9px; margin-top: 12px; }
+.actions button {
+  border: 1px solid var(--hub-border, #2b303a);
+  background: transparent;
+  color: inherit;
+  border-radius: 9px;
+  padding: 8px 14px;
+  font: inherit;
+  font-weight: 620;
+  cursor: pointer;
+}
+.actions button:disabled { opacity: 0.45; cursor: not-allowed; }
+.primary { background: var(--hub-accent, #dce5ff); color: #10141d; border-color: transparent; }
+
+.status { margin: 14px 0 8px; font-size: 12px; color: var(--hub-muted, #a8afbc); }
+.error { margin: 10px 0 0; font-size: 13px; color: #ffc9c9; }
+
+/* The stream keeps arriving; this scrolls rather than pushing the controls off
+   the panel. */
+.output {
+  max-height: 340px;
+  overflow: auto;
+  margin: 0;
+  padding: 12px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.34);
+  border: 1px solid var(--hub-border, #2b303a);
+  font: 12px/1.55 ui-monospace, SFMono-Regular, Consolas, monospace;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.note { margin: 14px 0 0; font-size: 12px; color: var(--hub-muted, #a8afbc); }
+
+.model { flex: 0 1 190px; font: 12px ui-monospace, SFMono-Regular, Consolas, monospace; }
+
+/* The change list is the compensating control for skipping per-edit approval,
+   so it sits with the output rather than behind a disclosure. */
+.changes { margin-top: 14px; padding: 12px; border-radius: 10px; border: 1px solid var(--hub-border, #2b303a); background: rgba(255, 255, 255, 0.03); }
+.changesHead { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 9px; }
+.changesHead strong { font-size: 13px; }
+.changesHead button { border: 1px solid var(--hub-border, #2b303a); background: transparent; color: inherit; border-radius: 9px; padding: 6px 11px; font: inherit; font-size: 12px; cursor: pointer; }
+.changesHead button:disabled { opacity: 0.45; cursor: not-allowed; }
+.changes ul { margin: 0; padding: 0; list-style: none; display: grid; gap: 5px; }
+.changes li { font: 12px/1.5 ui-monospace, SFMono-Regular, Consolas, monospace; overflow-wrap: anywhere; }
+.changes code { display: inline-block; min-width: 2.2em; color: var(--hub-muted, #a8afbc); }
+.changes small { margin-left: 8px; font-family: system-ui, sans-serif; color: var(--hub-muted, #a8afbc); }
+.untouched { opacity: 0.6; }
+
+.resumeHint { color: var(--hub-muted, #a8afbc); font-size: 11px; max-width: 150px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+
+.state { display: grid; gap: 10px; margin: 0 0 16px; }
+.state > div { display: flex; gap: 12px; align-items: baseline; }
+.state dt { flex: 0 0 92px; font-size: 12px; color: var(--hub-muted, #a8afbc); margin: 0; }
+.state dd { margin: 0; font-size: 13px; overflow-wrap: anywhere; }
+.path { font: 12px/1.5 ui-monospace, SFMono-Regular, Consolas, monospace; }
+.warn { color: #ffc9c9; }
+
+.block { margin-top: 14px; padding: 12px; border-radius: 10px; border: 1px solid var(--hub-border, #2b303a); background: rgba(255, 255, 255, 0.03); }
+.blockHead { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.blockHead strong { font-size: 13px; }
+.blockHead button { border: 1px solid var(--hub-border, #2b303a); background: transparent; color: inherit; border-radius: 9px; padding: 6px 11px; font: inherit; font-size: 12px; cursor: pointer; }
+.blockHead .primary { background: var(--hub-accent, #dce5ff); color: #10141d; border-color: transparent; font-weight: 620; }
+
+.quiet { margin: 9px 0 0; font-size: 12px; color: var(--hub-muted, #a8afbc); }
+.list { margin: 10px 0 0; padding: 0; list-style: none; display: grid; gap: 6px; }
+.list li { font-size: 13px; overflow-wrap: anywhere; }
+.list code { display: inline-block; padding: 1px 6px; border-radius: 6px; background: rgba(255,255,255,.07); font: 12px ui-monospace, monospace; }
+.list small { margin-left: 8px; color: var(--hub-muted, #a8afbc); font-size: 11px; }
+.contentFields { display: grid; gap: 8px; margin-top: 10px; }
+.contentFields select,
+.contentFields input,
+.contentFields textarea { width: 100%; border: 1px solid var(--hub-border); border-radius: 9px; background: var(--hub-surface); color: inherit; padding: 8px 10px; font: inherit; }
+.contentFields button,
+.entryActions button { justify-self: end; border: 1px solid var(--hub-border); border-radius: 9px; background: transparent; color: inherit; padding: 7px 11px; font: inherit; cursor: pointer; }
+.contentFields button:disabled,
+.entryActions button:disabled { opacity: .45; cursor: not-allowed; }
+.publicPreview { margin-top: 12px; padding: 11px; border: 1px solid var(--hub-border); border-radius: 9px; background: var(--hub-surface); }
+.publicPreview p { margin: 0 0 8px; font-size: 12px; color: var(--hub-muted); }
+.publicPreview pre { max-height: 220px; overflow: auto; white-space: pre-wrap; overflow-wrap: anywhere; }
+.publicPreview label { display: flex; align-items: flex-start; gap: 7px; font-size: 12px; }
+.entryActions { display: flex; justify-content: flex-end; margin-top: 9px; }

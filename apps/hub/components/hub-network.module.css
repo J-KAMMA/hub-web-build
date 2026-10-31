@@ -1,0 +1,23 @@
+.settings { padding: 16px; border: var(--divider); border-radius: 12px; color: var(--text); }
+.settings h3 { margin: 0 0 8px; font-size: 16px; }
+.settings p { line-height: 1.6; }
+.settings ul { list-style: none; padding: 0; }
+.settings li { display: flex; gap: 12px; align-items: center; justify-content: space-between; padding: 8px 0; border-bottom: var(--divider); overflow-wrap: anywhere; }
+.settings button { border: var(--divider); border-radius: 8px; padding: 6px 12px; background: var(--panel); color: var(--text); font: inherit; cursor: pointer; }
+.settings button:disabled { opacity: .5; cursor: default; }
+.settings input { min-width: 0; flex: 1; border: var(--divider); border-radius: 8px; padding: 8px; background: var(--panel); color: var(--text); font: inherit; }
+.inputRow { display: flex; gap: 8px; margin-top: 6px; }
+.status { color: var(--muted); font-size: 12px; padding: 8px 0; line-height: 1.6; }
+.status a { color: var(--emphasis); }
+.peerStatus { color: var(--muted); font-size: 12px; line-height: 1.6; padding-block: 8px; overflow-wrap: anywhere; }
+.peerStatus summary { cursor: pointer; }
+.peerStatus a { color: var(--emphasis); }
+.peerDetails p { margin: 8px 0; }
+.peerDetails ul { list-style: none; margin: 8px 0; padding: 0; }
+.peerDetails li { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; padding: 6px 0; border-bottom: var(--divider); }
+.peerDetails small { font: inherit; }
+.card { display: flex; flex-direction: column; gap: 8px; padding: 16px; border-bottom: var(--divider); overflow-wrap: anywhere; min-width: 0; }
+.card small { color: var(--muted); }
+.title { color: var(--text); font-weight: 600; text-decoration: none; }
+.title:hover { text-decoration: underline; }
+.card p { margin: 0; white-space: pre-wrap; display: -webkit-box; -webkit-line-clamp: 5; -webkit-box-orient: vertical; overflow: hidden; line-height: 1.6; }

@@ -1,0 +1,635 @@
+/*
+ * Hub social surface contract
+ *
+ * The social routes share one reading width, connected lists, compact tabs
+ * and recoverable states. Product colors come exclusively from the canonical
+ * semantic palette.
+ */
+
+:is(
+  .search-page,
+  .notifications-page,
+  .profile-page-simple,
+  .post-detail,
+  .settings-page,
+  .feature-page
+) {
+  width: min(100%, 960px);
+  max-width: 960px;
+  min-width: 0;
+  margin-inline: auto;
+}
+
+.activitypub-recommendation {
+  display: grid;
+  gap: 12px;
+}
+
+.activitypub-recommendation__header,
+.activitypub-recommendation__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--text-secondary);
+}
+
+.activitypub-recommendation__header a {
+  display: flex;
+  min-width: 0;
+  align-items: baseline;
+  gap: 6px;
+  color: var(--text-primary);
+  text-decoration: none;
+}
+
+.activitypub-recommendation__header span,
+.activitypub-recommendation__footer span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.activitypub-recommendation__body {
+  color: var(--text-primary);
+  line-height: 1.65;
+  text-decoration: none;
+  white-space: pre-wrap;
+}
+
+.activitypub-recommendation__footer {
+  border-top: var(--divider);
+  padding-top: 10px;
+  font-size: 0.78rem;
+}
+
+.activitypub-recommendation__footer svg {
+  width: 16px;
+  height: 16px;
+  flex: 0 0 auto;
+}
+
+:is(
+  .search-page,
+  .notifications-page,
+  .profile-page-simple,
+  .post-detail
+) {
+  padding: 0 clamp(14px, 2vw, 24px) 72px;
+}
+
+:is(
+  .search-page,
+  .notifications-page,
+  .profile-page-simple,
+  .post-detail
+) > header {
+  border-bottom: var(--divider);
+  background: var(--bg);
+}
+
+:is(
+  .search-page .search-tabs,
+  .notifications-page > nav,
+  .profile-activity-tabs,
+  .thread-view-tabs,
+  .tl-tabs
+) {
+  min-height: 48px;
+  margin: 0;
+  padding: 0;
+  overflow-x: auto;
+  border-bottom: var(--divider);
+  background: var(--bg);
+  scrollbar-width: none;
+}
+
+:is(
+  .search-page .search-tabs,
+  .notifications-page > nav,
+  .profile-activity-tabs,
+  .thread-view-tabs,
+  .tl-tabs
+)::-webkit-scrollbar {
+  display: none;
+}
+
+:is(
+  .search-page .search-tabs button,
+  .notifications-page > nav button,
+  .profile-activity-tabs button,
+  .thread-view-tabs a,
+  .tl-tab
+) {
+  position: relative;
+  min-width: max-content;
+  min-height: 48px;
+  padding: 0 16px;
+  border: 0;
+  border-radius: 0;
+  background: var(--bg);
+  color: var(--muted);
+  font: inherit;
+  font-size: .82rem;
+  font-weight: 600;
+}
+
+:is(
+  .search-page .search-tabs button.active,
+  .notifications-page > nav button.active,
+  .profile-activity-tabs button.is-active,
+  .thread-view-tabs a[aria-current="page"],
+  .tl-tab--active
+) {
+  background: var(--bg);
+  color: var(--text);
+}
+
+:is(
+  .search-page .search-tabs button.active,
+  .notifications-page > nav button.active,
+  .profile-activity-tabs button.is-active,
+  .thread-view-tabs a[aria-current="page"],
+  .tl-tab--active
+)::after {
+  position: absolute;
+  right: 14px;
+  bottom: 0;
+  left: 14px;
+  height: 2px;
+  border-radius: 999px;
+  background: var(--emphasis);
+  content: "";
+}
+
+.search-page > header > form,
+.notifications-page__search,
+.thread-search__controls {
+  width: 100%;
+  min-width: 0;
+}
+
+.search-page > header > form > label,
+.notifications-page__search,
+.thread-search__controls input {
+  border: var(--divider);
+  background: var(--surface);
+}
+
+.search-page .search-discovery,
+.search-page .search-mixed-results,
+.notification-list,
+.profile-activity-panel,
+.post-detail__main,
+.post-detail__replies,
+.thread-post-list {
+  min-width: 0;
+  margin-top: 0;
+  border-inline: var(--divider);
+  background: var(--surface);
+}
+
+.main-content .search-page .search-post-results,
+.main-content .profile-posts-feed {
+  border-top: var(--divider);
+  border-bottom: var(--divider);
+  background: var(--surface);
+}
+
+/* The feed is one reading column now; the desktop masonry block lived here. *//* Readability hierarchy for every social post surface. */
+:is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed,
+  .post-detail
+) .tweet__header {
+  min-width: 0;
+  margin-bottom: 5px;
+  line-height: 1.35;
+}
+
+:is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed,
+  .post-detail
+) .tweet__name {
+  color: var(--text);
+  font-size: .9rem;
+  font-weight: 750;
+  letter-spacing: -.01em;
+}
+
+:is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed,
+  .post-detail
+) :is(.tweet__handle, .tweet__time, .tweet__recommendation-reason) {
+  color: var(--muted);
+  font-size: .72rem;
+  font-weight: 500;
+}
+
+:is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed,
+  .post-detail
+) .tweet__text {
+  max-width: 68ch;
+  margin: 3px 0 8px;
+  color: var(--text);
+  /* 15px on the 16px root, 1.75 leading — the canvas's post body. */
+  font-size: .9375rem !important;
+  font-weight: 450;
+  line-height: 1.75 !important;
+  letter-spacing: .005em;
+  overflow-wrap: anywhere;
+  text-wrap: pretty;
+}
+
+:is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed,
+  .post-detail
+) .tweet__avatar {
+  flex: 0 0 auto;
+  border-color: var(--line);
+}
+
+:is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed,
+  .post-detail
+) .tweet__quote {
+  margin-block: 8px;
+  padding: 11px 12px;
+  border: var(--divider);
+  border-radius: 12px;
+  background: var(--bg-soft);
+}
+
+:is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed,
+  .post-detail
+) .tweet__actions {
+  margin-top: auto;
+  padding-top: 4px;
+  border-top: 1px solid color-mix(in srgb, var(--line) 68%, transparent);
+}
+
+.home-compose {
+  border: var(--divider);
+  background: var(--surface);
+}
+
+.home-compose .tl-compose__input {
+  color: var(--text);
+  font-size: .94rem;
+  line-height: 1.55;
+}
+
+.home-compose .tl-compose__input::placeholder {
+  color: var(--muted);
+  opacity: .82;
+}
+
+/*
+ * Keep the social timeline visually continuous. Cards use the page canvas;
+ * separators, rather than tinted fills or large radii, carry structure.
+ */
+:is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed
+) > .tweet {
+  border-radius: 0 !important;
+  background: var(--bg) !important;
+  box-shadow: none !important;
+}
+
+:is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed
+) > .tweet:hover {
+  background: var(--interactive-hover) !important;
+}
+
+:is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed
+) .tweet__header {
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent !important;
+}
+
+:is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed
+) .tweet__actions {
+  min-height: 36px;
+  gap: 10px;
+}
+
+:is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed
+) .tweet__action {
+  min-width: 34px;
+  min-height: 34px;
+  padding: 7px;
+  border-radius: 50%;
+}
+
+:is(
+  .main-content .home-feed__stream,
+  .main-content .search-post-results,
+  .main-content .profile-posts-feed
+) .tweet__action svg {
+  width: 18px;
+  height: 18px;
+  stroke-width: 1.8;
+}
+
+.home-feed__tabs {
+  font-size: .82rem;
+  letter-spacing: .01em;
+}
+
+.search-items > a,
+.search-hit,
+.notification-row,
+.profile-thread-item,
+.thread-post-card {
+  transition:
+    background-color 140ms ease,
+    border-color 140ms ease;
+}
+
+:is(
+  .search-items > a,
+  .search-hit,
+  .notification-row,
+  .profile-thread-item,
+  .thread-post-card
+):hover {
+  background: var(--interactive-hover);
+}
+
+.notification-row {
+  min-height: 72px;
+  border-bottom: var(--divider);
+}
+
+.notification-row--unread {
+  background: var(--emphasis-soft);
+}
+
+.notification-row__link {
+  min-width: 0;
+}
+
+.profile-page-simple__header,
+.post-detail__header {
+  min-height: 58px;
+}
+
+.profile-card-simple {
+  margin-top: 0;
+  border: var(--divider);
+  border-top: 0;
+  border-radius: 0 0 18px 18px;
+  background: var(--surface);
+}
+
+.profile-card-simple__top {
+  align-items: center;
+}
+
+.profile-card-simple__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.profile-card-simple__actions :is(a, button) {
+  min-height: 38px;
+}
+
+.profile-public-details,
+.profile-posts-simple {
+  margin-top: 16px;
+  border: var(--divider);
+  border-radius: 18px;
+  background: var(--surface);
+}
+
+.profile-detail-section {
+  padding: 18px;
+  border-bottom: var(--divider);
+}
+
+.profile-detail-section:last-child {
+  border-bottom: 0;
+}
+
+.post-detail__main > .tweet {
+  border: 0;
+  border-bottom: var(--divider);
+  border-radius: 0;
+}
+
+.post-detail__replies-heading {
+  min-height: 48px;
+  padding-inline: 16px;
+  border-bottom: var(--divider);
+}
+
+.post-detail__load-more {
+  display: grid;
+  justify-items: center;
+  gap: 8px;
+  padding: 16px;
+  border-bottom: var(--divider);
+}
+
+.post-detail__load-more button {
+  min-height: 38px;
+  padding: 0 18px;
+  border: var(--divider);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--emphasis);
+  font: inherit;
+  font-size: .82rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.post-detail__load-more button:hover {
+  background: var(--interactive-hover);
+}
+
+.post-detail__load-more button:disabled {
+  cursor: wait;
+  opacity: .58;
+}
+
+.post-detail__load-more [role="alert"] {
+  color: var(--danger);
+  font-size: .76rem;
+  text-align: center;
+}
+
+:is(
+  .empty-state,
+  .notification-empty,
+  .search-empty,
+  .post-detail__empty,
+  .thread-search__empty,
+  .home-feed__load-error
+) {
+  display: grid;
+  min-height: 180px;
+  place-content: center;
+  justify-items: center;
+  gap: 8px;
+  padding: 28px 20px;
+  border: var(--divider);
+  border-radius: 16px;
+  background: var(--surface);
+  color: var(--muted);
+  text-align: center;
+}
+
+:is(
+  .empty-state,
+  .notification-empty,
+  .search-empty,
+  .post-detail__empty,
+  .thread-search__empty
+) :is(p, strong) {
+  max-width: 48ch;
+  margin: 0;
+}
+
+:is(.inline-error, .notifications-page__error) {
+  margin: 10px 0;
+  padding: 10px 12px;
+  border: 1px solid var(--danger-text);
+  border-radius: 12px;
+  background: var(--danger-bg);
+  color: var(--danger-text);
+}
+
+.tweet__actions {
+  min-height: 40px;
+  align-items: center;
+}
+
+.tweet__action {
+  min-width: 38px;
+  min-height: 38px;
+  border-radius: 999px;
+}
+
+.tweet__action:focus-visible,
+.notification-row__read:focus-visible {
+  outline: 3px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.tweet__action--like.tweet__action--active {
+  color: var(--danger-text);
+}
+
+.tweet__action--bookmark {
+  margin-inline-start: auto;
+}
+
+@media (max-width: 760px) {
+  :is(
+    .search-page,
+    .notifications-page,
+    .profile-page-simple,
+    .post-detail
+  ) {
+    width: 100%;
+    padding-inline: 0;
+  }
+
+  .profile-card-simple,
+  .profile-public-details,
+  .profile-posts-simple,
+  :is(
+    .empty-state,
+    .notification-empty,
+    .search-empty,
+    .post-detail__empty,
+    .thread-search__empty
+  ) {
+    border-inline: 0;
+    border-radius: 0;
+  }
+
+  .profile-card-simple__top {
+    align-items: flex-start;
+  }
+
+  .profile-card-simple__actions {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  :is(
+    .search-page .search-tabs button,
+    .notifications-page > nav button,
+    .profile-activity-tabs button,
+    .thread-view-tabs a,
+    .tl-tab
+  ) {
+    flex: 1 0 auto;
+    padding-inline: 14px;
+  }
+
+  .main-content .tl-page > .home-feed__stream {
+    background: var(--surface);
+  }
+
+  .main-content .tl-page > .home-feed__stream > .tweet {
+    padding: 13px 14px 6px;
+  }
+
+  :is(
+    .main-content .home-feed__stream,
+    .main-content .search-post-results,
+    .main-content .profile-posts-feed,
+    .post-detail
+  ) .tweet__text {
+    max-width: none;
+    font-size: .92rem !important;
+    line-height: 1.62 !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .search-items > a,
+  .search-hit,
+  .notification-row,
+  .profile-thread-item,
+  .thread-post-card {
+    transition: none;
+  }
+}

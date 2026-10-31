@@ -1,0 +1,649 @@
+[
+  {
+    "slug": "covid-cases",
+    "topicType": "concept",
+    "categoryLabel": "医学・健康",
+    "title": "COVID-19の症例数と検査",
+    "summary": "COVID-19の確定症例数は、検査を受けて感染が確認された人数であり、感染した人の総数ではない。どれだけ検査が行われ、どの結果を症例として数え、いつ国際機関へ届くかによって同じ流行でも数値は変わるため、症例数は検査体制の指標という側面を併せ持つ。この記事は症例の定義、検査の種類、報告の経路と遅れ、そして数値と実際の感染との差を扱う。",
+    "bodyMarkdown": "## 確定症例数が数えているもの\n\n確定症例数とは、SARS-CoV-2ウイルスへの感染について検査を受け、感染が確認された人数を指す。症例が確定とされるには通常、検査室での検査結果が陽性であることが必要とされ、[COVID-19の症例](/hubpedia/covid-19)を確定するには一般になお検査室での陽性結果が求められる。判断の基準は症状ではなく検査結果であり、症状の有無にかかわらず陽性であれば症例として数えられる。つまりこの数値は、感染した人の数ではなく、感染が検査によって捉えられた人の数である。 [1][14][31][44]\n\nWHOによれば、確定例とは「COVID-19感染について検査室での確認が得られた人」である。米国では、確定例または死亡例はCOVID-19に対する確証的な検査室的証拠を満たすことで定義される。もっとも、国によって症例の定義や報告基準がわずかに異なる場合があり、同じ「確定症例」という語が国境をまたいで完全に同一の対象を指すとは限らない。 [11][43][46]\n\n## 疑い例・可能性例・確定例の区別\n\nCOVID-19の症例は、疑い例・可能性例・確定例という3段階の分類で定義される。疑い例とは、COVID-19の臨床的な兆候や症状を示しているが検査室での検査を受けていない人を指す。可能性例には二通りの状況が含まれ、一つは確定例との疫学的関連がある疑い例、もう一つは検査結果が判定不能だった疑い例である。 [9][10][20][30]\n\nこの3つの数は同じ大きさにはならない。確定症例数は可能性例の数より少なく、可能性例の数はさらに疑い例の数より少ない。この差は、検査の限界によって部分的に説明される。 [32][45]\n\n報告される数値がどの段階に対応するかは、機関と国によって異なる。国際機関は、検査室での確認によって高い確実性が得られるため、可能な限り確定症例を報告しようとする。一方で一部の国は流行の間に報告方法を変更し、可能性例も報告に含めるようにした。疑い例の数は通常報告されない。 [22][23][24]\n\n## 検査の種類と症例確定の根拠\n\nCOVID-19の検査は大きく、ウイルスの存在を調べる検査と、過去の感染を調べる検査の2種類に分けられる。前者にはポリメラーゼ連鎖反応(PCR)検査や抗原検査が含まれ、後者には抗体検査が含まれる。ウイルスの存在を調べる検査のうち最も一般的な方法はPCR検査であり、迅速抗原検査も多くの国で一般的に用いられるようになり、特に大規模検査で使われている。症例確定は一般に、PCR検査または抗原検査の陽性結果に基づいて行われる。 [38][39][40][41]\n\n抗体検査は現在の感染の確認とは役割が異なり、時間の経過に弱い。循環抗体は時間とともに減少するため、感染から数か月から数年経った後では抗体検査の結果が偽陰性になることがある。 [51]\n\n## 検査が果たす役割\n\n検査は感染者を特定し、その人が受ける医療対応を導く。また、感染者の隔離と、その接触者の追跡・隔離を可能にする。さらに、医療資源や人員をより効率的に配分するのに役立ち、流行の状況や集団ごとのリスクについての理解にも寄与する。症例数の集計は、こうした対応の副産物として生じる記録でもある。 [36][37][49][50]\n\n各国が検査と接触追跡についてどのような方針を取ったかは、オックスフォード大学ブラバトニク公共政策大学院の研究者らが作成したCoronavirus Government Response Tracker(OxCGRT)のデータとして整理されている。 [48]\n\n## 報告の経路と時間差\n\nWHOは2019年12月31日以降、すべての国の確定症例数と[死亡者数](/hubpedia/covid-deaths)の更新をダッシュボードで公表しており、データは週1回更新されている。WHOや欧州CDCなどの国際機関が示すのは、各国政府から提出された症例数である。 [7][8][21]\n\n収集の経路は流行の初期に切り替わった。2019年12月31日から2020年3月21日までのデータは、国際保健規則(IHR、2005年)に基づく公式な連絡を通じて得られ、各国保健省の公式ウェブサイトやソーシャルメディアでの発表によって補完されていた。2020年3月22日以降は、WHOの地域別ダッシュボードまたはWHOへの直接報告を通じて集計されている。 [18][19]\n\n検査、確認、国際機関への報告の間には時間差がある。報告の連鎖には数日かかることがあるため、ある日に機関が報告する確定症例数は、その日の実際の新規症例数を表すものではない。日別の数値を「その日に何人が感染したか」として読むと、実際には数日前までの検査結果を含んだ集計を読んでいることになる。 [15][17][25][26]\n\n## 集計期間と検査水準の指標\n\n報告の遅れや曜日ごとの変動をならすため、症例数はしばしばまとめて示される。週次の症例数は7日間の確定症例数の合計であり、隔週の症例数は14日間の症例数の合計である。累積確定症例数の推移を国どうしで比べるグラフでは、各国の軌跡は確定症例数が100人に達した日から始まる。 [5][6]\n\n症例数だけでは、流行が大きいのか検査が多いのかを区別できない。陽性率は、流行の規模に対する検査水準を示し得るため、国がどれだけ十分に検査を行っているかを示す良い指標になり得る。「1症例あたりの検査数」という指標は、陽性率の逆数である。 [33][34]\n\nただし検査数そのものの比較にも注意が要る。一部の国は検査を受けた人数を報告し、他の国は実施された検査件数を報告しており、同一人物が複数回検査を受けた場合は検査件数の方が多くなり得る。さらに、一部の国は検査データの報告方法が不明瞭で、検査件数が何を指すか判然としない。このため陽性率の解釈が影響を受ける可能性がある。 [35][42][47]\n\n自宅で行う自己検査(セルフテスト)は多くの国で広く入手可能であり、各国が全国レベルで報告していれば検査数の統計に含まれることがある。しかし検査数の統計は通常、検査室での検査のみを含み、症例の確定には依然として検査室での陽性結果が必要とされることが多い。家庭で得られた陽性が公式の症例数にどこまで反映されるかは、国の報告のしかたに依存する。 [2][12][13][52][53]\n\n## 確定症例数と実際の感染者数の差\n\nCOVID-19の実際の感染者数は分かっていない。確定症例数との差を生む要因は、感染した人が検査を受けたかどうかである。全員が検査を受けているわけではないため、確定症例数は実際の感染者数より少なくなる。 [3][27][28]\n\n差の大きさは一様ではない。多くの国で検査体制が非常に限られているため、確定症例数は実際の感染者数よりはるかに少なくなり得る。検査が限られていることにより、実際の感染者数は確定症例数よりはるかに多いとみられる。検査能力の制約は一部の国に限られた問題でもなく、すべての国が多数の症例を検査することに苦労しており、検査を受けるべき人全員が検査を受けられているわけではない。 [4][16][29]\n\n## 関連記事\n\n- [超過死亡](/hubpedia/excess-mortality)\n- [COVID-19の致死リスク](/hubpedia/covid-mortality-risk)\n- [COVID-19ワクチン接種](/hubpedia/covid-vaccination)\n- [パンデミック](/hubpedia/pandemic)\n- [国際保健](/hubpedia/global-health)\n- [歴史上のパンデミック](/hubpedia/historical-pandemic)",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/covid-cases",
+        "title": "COVID-19 cases — Our World in Data",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "How confirmed cases are defined, counted and reported. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/coronavirus-testing",
+        "title": "COVID-19 testing — Our World in Data",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "The testing that determines which infections become confirmed cases. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "COVID-19 Case Counts and Testing",
+        "summary": "The confirmed case count for COVID-19 is the number of people who were tested and had their infection confirmed — not the total number of people who were infected. Because the same epidemic yields different figures depending on how much testing is done, which results are counted as cases, and when they reach international agencies, case counts also serve in part as an indicator of testing capacity. This article covers the definition of a case, the types of tests, the reporting pathways and delays, and the gap between the figures and actual infections.",
+        "bodyMarkdown": "## What the confirmed case count measures\n\nThe confirmed case count refers to the number of people who were tested for infection with the SARS-CoV-2 virus and had that infection confirmed. For a case to be considered confirmed, a positive laboratory test result is normally required, and confirming a [COVID-19 case](/hubpedia/covid-19) generally still requires a positive laboratory result. The criterion for the judgment is the test result rather than symptoms: anyone who tests positive is counted as a case regardless of whether they have symptoms. In other words, this figure is not the number of people who were infected, but the number of people whose infection was captured by testing. [1][14][31][44]\n\nAccording to the WHO, a confirmed case is \"a person with laboratory confirmation of COVID-19 infection.\" In the United States, a confirmed case or death is defined by meeting confirmatory laboratory evidence for COVID-19. That said, case definitions and reporting criteria may differ slightly from country to country, so the same term \"confirmed case\" does not necessarily refer to exactly the same thing across borders. [11][43][46]\n\n## Distinguishing suspected, probable, and confirmed cases\n\nCOVID-19 cases are defined using a three-tier classification: suspected, probable, and confirmed. A suspected case refers to a person who shows clinical signs or symptoms of COVID-19 but has not undergone laboratory testing. Probable cases cover two situations: a suspected case with an epidemiological link to a confirmed case, and a suspected case whose test result was inconclusive. [9][10][20][30]\n\nThese three counts are not the same size. The number of confirmed cases is smaller than the number of probable cases, and the number of probable cases is in turn smaller than the number of suspected cases. This gap is partly explained by the limits of testing. [32][45]\n\nWhich tier the reported figures correspond to varies by agency and by country. International agencies try to report confirmed cases wherever possible, because laboratory confirmation provides a high degree of certainty. Some countries, however, changed their reporting methods during the epidemic so as to include probable cases in their reports. The number of suspected cases is not usually reported. [22][23][24]\n\n## Types of tests and the basis for confirming a case\n\nCOVID-19 tests fall broadly into two categories: tests that look for the presence of the virus, and tests that look for past infection. The former include polymerase chain reaction (PCR) tests and antigen tests; the latter include antibody tests. Among tests that look for the presence of the virus, the most common method is the PCR test, and rapid antigen tests have also come into common use in many countries, particularly for large-scale testing. Case confirmation is generally based on a positive result from a PCR test or an antigen test. [38][39][40][41]\n\nAntibody tests play a different role from confirming a current infection, and they are vulnerable to the passage of time. Because circulating antibodies decline over time, antibody test results can be falsely negative months to years after infection. [51]\n\n## The role testing plays\n\nTesting identifies infected people and guides the medical response they receive. It also makes it possible to isolate infected people and to trace and isolate their contacts. Beyond that, it helps allocate medical resources and personnel more efficiently, and contributes to an understanding of the state of the epidemic and of the risks facing particular populations. Tallying case counts is also a record that arises as a by-product of this response. [36][37][49][50]\n\nThe policies countries adopted on testing and contact tracing have been organized as data in the Coronavirus Government Response Tracker (OxCGRT), compiled by researchers at the Blavatnik School of Government at the University of Oxford. [48]\n\n## Reporting pathways and time lags\n\nSince 31 December 2019 the WHO has published updates to confirmed case counts and [death counts](/hubpedia/covid-deaths) for all countries on a dashboard, with the data updated once a week. What international agencies such as the WHO and the European CDC present are the case counts submitted by national governments. [7][8][21]\n\nThe collection pathway switched over early in the epidemic. Data from 31 December 2019 to 21 March 2020 were obtained through official communications under the International Health Regulations (IHR, 2005), supplemented by announcements on the official websites and social media of national health ministries. From 22 March 2020 onward, the figures have been compiled through the WHO's regional dashboards or through direct reporting to the WHO. [18][19]\n\nThere is a time lag between testing, confirmation, and reporting to international agencies. Because the reporting chain can take several days, the confirmed case count an agency reports on a given day does not represent the actual number of new cases on that day. Reading a daily figure as \"how many people were infected that day\" means reading a tally that in fact includes test results from up to several days earlier. [15][17][25][26]\n\n## Aggregation periods and indicators of testing levels\n\nTo smooth out reporting delays and day-of-the-week variation, case counts are often presented in aggregate. The weekly case count is the sum of confirmed cases over 7 days, and the biweekly case count is the sum of cases over 14 days. In charts that compare the trajectory of cumulative confirmed cases across countries, each country's trajectory begins on the day its confirmed case count reached 100. [5][6]\n\nCase counts alone cannot distinguish whether an epidemic is large or testing is extensive. The positive rate can indicate the level of testing relative to the size of the epidemic, so it can be a good indicator of how adequately a country is testing. The \"tests per case\" indicator is the inverse of the positive rate. [33][34]\n\nComparisons of test numbers themselves also require caution. Some countries report the number of people tested while others report the number of tests performed, and where the same person is tested more than once the number of tests can be higher. Furthermore, some countries are unclear about how they report testing data, so it is not evident what the number of tests refers to. This can affect the interpretation of the positive rate. [35][42][47]\n\nSelf-tests carried out at home are widely available in many countries and may be included in testing statistics if countries report them at the national level. Testing statistics, however, usually include only laboratory tests, and confirming a case still often requires a positive laboratory result. How far positives obtained at home are reflected in official case counts depends on how each country reports. [2][12][13][52][53]\n\n## The gap between confirmed cases and actual infections\n\nThe actual number of people infected with COVID-19 is not known. The factor that creates the gap with the confirmed case count is whether an infected person was tested. Because not everyone is tested, the confirmed case count is lower than the actual number of infections. [3][27][28]\n\nThe size of the gap is not uniform. In many countries testing capacity is very limited, so the confirmed case count can be far lower than the actual number of infections. Because testing is limited, the actual number of infections is thought to be far higher than the confirmed case count. Nor are constraints on testing capacity a problem confined to some countries: every country has struggled to test large numbers of cases, and not everyone who should be tested has been able to get a test. [4][16][29]\n\n## Related articles\n\n- [Excess mortality](/hubpedia/excess-mortality)\n- [COVID-19 mortality risk](/hubpedia/covid-mortality-risk)\n- [COVID-19 vaccination](/hubpedia/covid-vaccination)\n- [Pandemic](/hubpedia/pandemic)\n- [Global health](/hubpedia/global-health)\n- [Historical pandemics](/hubpedia/historical-pandemic)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T14:53:33.069Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "確定症例数とは、SARS-CoV-2ウイルスへの感染について検査を受けて感染が確認された人数を指す。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "This page presents data on confirmed cases, meaning the number of people who have been tested and confirmed to be infected by the SARS-CoV-2 virus."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "自宅で行う自己検査(セルフテスト)は多くの国で広く入手可能である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/coronavirus-testing",
+              "quote": "At-home self-tests are widely available in many countries"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "全員が検査を受けているわけではないため、確定症例数は実際の感染者数より少なくなる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "But not everyone is tested, which means the figures are lower than the people infected by COVID-19."
+            },
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "The number of confirmed cases is lower than the number of actual infections because not everyone is tested."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "多くの国で検査体制が非常に限られているため、確定症例数は実際の感染者数よりはるかに少なくなり得る。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "In many countries, testing for COVID-19 is very limited, so the number of confirmed cases can be much lower than the number of actual infections."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "累積確定症例数の推移グラフでは、各国の軌跡は確定症例数が100人に達した日から始まる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "Each country’s trajectory on the chart begins on the day when they had reached 100 confirmed cases."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "週次の症例数は7日間の確定症例数の合計であり、隔週の症例数は14日間の症例数の合計である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "The weekly number is a sum of the number of confirmed cases over a 7-day period, while the biweekly number shows cases over a 14-day period."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "WHOは2019年12月31日以降、すべての国の確定症例数と死亡者数の更新をダッシュボードで公表している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "From 31 December 2019, the WHO has published updates on confirmed cases and deaths on its dashboard for all countries."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "WHOはデータを週1回更新している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "The WHO updates its data once per week."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "COVID-19の症例は、疑い例・可能性例・確定例の3段階の分類で定義される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "cases of COVID-19 are broadly defined under a three-level system: suspected, probable, and confirmed cases."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "疑い例とは、COVID-19の臨床的な兆候や症状を示しているが検査室での検査を受けていない人を指す。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "Suspected case: A suspected case is someone who shows clinical signs and symptoms of having COVID-19, but has not been laboratory-tested."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "WHOによれば、確定例とは「COVID-19感染について検査室での確認が得られた人」である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "Confirmed case: A confirmed case is “a person with laboratory confirmation of COVID-19 infection”, as the World Health Organization (WHO) explains."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "自己検査は、国によって報告されている場合には検査数の統計に含まれることがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/coronavirus-testing",
+              "quote": "may be included if they are reported nationally"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "検査数の統計は通常、検査室(ラボ)での検査のみを含む。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/coronavirus-testing",
+              "quote": "Typically, testing figures only include laboratory tests"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "COVID-19の症例を確定するには、通常なお検査室での陽性結果が必要とされる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/coronavirus-testing",
+              "quote": "positive laboratory tests are usually still required to confirm cases of COVID-19"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "検査、確認、国際機関への報告の間には時間差がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "In addition, there is a delay between testing, confirming, and reporting a case to international organizations."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "検査が限られていることにより、実際の感染者数は確定症例数よりはるかに多いとみられる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "The actual number of infections is likely to be much higher than the number of confirmed cases – this is due to limited testing"
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "報告の遅れにより、ある日に報告された症例数はその日の新規症例数を必ずしも示していない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "The reported case figures on a given date do not necessarily show the number of new cases on that day: this is due to delays in reporting"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "2019年12月31日から2020年3月21日までのデータは、国際保健規則(IHR、2005年)に基づく公式な連絡を通じて得られ、各国保健省の公式ウェブサイトやソーシャルメディアでの発表によって補完されていた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "From 31 December 2019 to 21 March 2020, this data was sourced through official communications under the International Health Regulations (IHR, 2005), complemented by publications on official ministries of health websites and social media accounts."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "2020年3月22日以降、データはWHOの地域別ダッシュボードまたはWHOへの直接報告を通じて集計されている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "Since 22 March 2020, the data has been compiled through WHO region-specific dashboards or direct reporting to WHO."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "可能性例とは、確定例との疫学的関連がある疑い例を指す。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "Probable case: A suspected case with an epidemiological link to a confirmed case."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "WHOや欧州CDCなどの国際機関は、各国政府から提出された症例数を報告している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "International organizations – namely the WHO and European CDC – report case figures submitted by national governments."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "国際機関は、検査室での確認によって高い確実性が得られるため、可能な限り確定症例を報告しようとする。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "They aim to report confirmed cases wherever possible because laboratory confirmation gives them a higher degree of certainty."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "一部の国は流行の間に報告方法を変更し、可能性例も報告に含めるようにした。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "Some countries also changed their reporting methodologies during the outbreak to include probable cases as well."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "疑い例の数は通常報告されない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "In contrast, suspected case figures are usually not reported."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "ある日に機関が報告する確定症例数は、その日の実際の新規症例数を表すものではない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "The number of confirmed cases reported by any institution on a given day does not represent the actual number of new cases on that date."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "報告の連鎖には数日かかることがあるため、報告日の数値は必ずしもその特定の日の新規症例数を反映していない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "This reporting chain can take several days, so the figures reported on any given date do not necessarily reflect the number of new cases on that specific date."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "COVID-19の実際の感染者数は分かっていない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "However, the actual number of COVID-19 infections is not known."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "検査の有無が、確定症例数と実際の感染者数の差を生む要因である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "Testing is what makes the difference between the number of confirmed cases and actual infections."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "すべての国が多数の症例を検査することに苦労しており、検査を受けるべき人全員が検査を受けられているわけではない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "All countries have been struggling to test a large number of cases, which means that not every person who should have been tested has been tested."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "可能性例とは、COVID-19の検査結果が判定不能だった疑い例を指す。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "A suspect case for whom testing for COVID-19 is inconclusive."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "症例が確定とされるには、通常、検査室での検査結果が陽性である必要がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "Typically, for a case to be confirmed, a person must have a positive result from laboratory tests."
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "確定症例数は可能性例の数より少なく、可能性例の数はさらに疑い例の数より少ない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "This means that the number of confirmed cases is lower than the number of probable cases, which is in turn lower than the number of suspected cases."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "陽性率は、流行の規模に対する検査水準を示し得るため、国がどれだけ十分に検査を行っているかを示す良い指標になり得る。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/coronavirus-testing",
+              "quote": "The positive rate can be a good metric for how adequately countries are testing because it can indicate the level of testing relative to the size of the outbreak."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "「1症例あたりの検査数」という指標は、陽性率の逆数である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/coronavirus-testing",
+              "quote": "It is simply the inverse of the data on the positive rate."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "一部の国は検査を受けた人数を報告し、他の国は実施された検査件数を報告しており、同一人物が複数回検査を受けた場合は検査件数の方が多くなり得る。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/coronavirus-testing",
+              "quote": "some countries report the number of people tested, while others report the number of tests performed (which can be higher if the same person is tested more than once)"
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "検査は感染者を特定し、その人が受ける医療対応を導く。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/coronavirus-testing",
+              "quote": "Tests allow us to identify infected individuals, guiding the medical treatment that they receive."
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "検査は感染者の隔離と、その接触者の追跡・隔離を可能にする。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/coronavirus-testing",
+              "quote": "It enables the isolation of those infected and the tracing and quarantining of their contacts."
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "COVID-19の検査は大きく、ウイルスの存在を調べる検査(PCR検査や抗原検査を含む)と、過去の感染を調べる検査(抗体検査を含む)の2種類に分けられる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/coronavirus-testing",
+              "quote": "Tests for the presence of the virus (including PCR and antigen tests)."
+            },
+            {
+              "sourceUrl": "https://ourworldindata.org/coronavirus-testing",
+              "quote": "Tests for past infections (including antibody tests)."
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "ウイルスの存在を調べる検査のうち最も一般的な方法は、ポリメラーゼ連鎖反応(PCR)検査である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/coronavirus-testing",
+              "quote": "The most common way of performing a test of the first type is with a polymerase chain reaction (PCR) test."
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "迅速抗原検査も多くの国で一般的に用いられるようになり、特に大規模検査で使われている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/coronavirus-testing",
+              "quote": "Rapid antigen tests have also become commonly used in many countries, especially for mass testing."
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "症例確定は一般に、PCR検査または抗原検査の陽性結果に基づいて行われる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/coronavirus-testing",
+              "quote": "Case confirmation is generally based on a positive result from a PCR and/or antigen test"
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "このため陽性率の解釈が影響を受ける可能性がある。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/coronavirus-testing",
+              "quote": "the interpretation of the positive rate could therefore be affected"
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "国によって症例の定義や報告基準がわずかに異なる場合がある。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "Countries may have slightly different criteria for how cases are defined and reported."
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "症例の確定は、症状の有無にかかわらず検査結果の陽性によって判断される。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "This is true regardless of whether they have shown symptoms of COVID-19 or not."
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "statement": "確定例・可能性例・疑い例の数値の差は、検査の限界によって部分的に説明される。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "The gap between these figures is partially explained by limited testing for the disease."
+            }
+          ]
+        },
+        {
+          "index": 46,
+          "statement": "米国では、確定例または死亡例はCOVID-19に対する確証的な検査室的証拠を満たすことで定義される。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/covid-cases",
+              "quote": "A confirmed case or death is defined by meeting confirmatory laboratory evidence for COVID-19."
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "statement": "一部の国は検査データの報告方法が不明瞭で、検査件数が何を指すか判然としない。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/coronavirus-testing",
+              "quote": "Another example is that some countries report their testing data in a way that leaves it unclear what the test count refers to exactly."
+            }
+          ]
+        },
+        {
+          "index": 48,
+          "statement": "検査と接触追跡の方針を示す地図は、オックスフォード大学ブラバトニク公共政策大学院の研究者らが作成したCoronavirus Government Response Tracker(OxCGRT)のデータを使用している。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/coronavirus-testing",
+              "quote": "These two maps show testing and contact tracing policies over time, using data from the Coronavirus Government Response Tracker (OxCGRT) produced by researchers at the Blavatnik School of Government, University of Oxford."
+            }
+          ]
+        },
+        {
+          "index": 49,
+          "statement": "検査は医療資源や人員をより効率的に配分するのに役立つ。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/coronavirus-testing",
+              "quote": "It can help allocate medical resources and staff more efficiently."
+            }
+          ]
+        },
+        {
+          "index": 50,
+          "statement": "COVID-19の検査は、流行の状況や集団ごとのリスクについての理解にも役立つ。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/coronavirus-testing",
+              "quote": "In addition, testing for COVID-19 also informs our understanding of the pandemic and the risks it poses in different populations."
+            }
+          ]
+        },
+        {
+          "index": 51,
+          "statement": "循環抗体は時間とともに減少するため、感染から数か月から数年経った後では抗体検査の結果が偽陰性になることがある。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/coronavirus-testing",
+              "quote": "Circulating antibodies wane over time, so test results may be falsely negative if the person was infected several months or years ago."
+            }
+          ]
+        },
+        {
+          "index": 52,
+          "statement": "自宅用の自己検査キットは多くの国で広く利用可能であり、各国が全国レベルで報告していればデータに含まれることがある。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/coronavirus-testing",
+              "quote": "At-home self-tests are widely available in many countries, and may be included if they are reported nationally."
+            }
+          ]
+        },
+        {
+          "index": 53,
+          "statement": "検査件数の統計には通常、検査室での検査のみが含まれ、COVID-19症例の確定には依然として検査室での陽性結果が必要とされることが多い。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/coronavirus-testing",
+              "quote": "Typically, testing figures only include laboratory tests, and positive laboratory tests are usually still required to confirm cases of COVID-19"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

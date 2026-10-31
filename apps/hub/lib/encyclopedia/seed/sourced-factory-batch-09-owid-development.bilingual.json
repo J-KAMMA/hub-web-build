@@ -1,0 +1,223 @@
+[
+  {
+    "slug": "renewable-energy",
+    "topicType": "concept",
+    "categoryLabel": "気候・エネルギー",
+    "title": "再生可能エネルギー",
+    "summary": "再生可能エネルギーは、太陽光・風力・水力など枯渇しない資源を利用した発電を指す。世界の一次エネルギーに占める割合は1割弱にとどまる一方、電力に限れば約3分の1を占めており、この差は輸送や暖房の脱炭素化の難しさを反映している。供給の中心は100年以上の歴史を持つ水力発電だが、風力と太陽光が多くの国で急速に伸びている。",
+    "bodyMarkdown": "## 一次エネルギーと電力での位置づけ\n\n再生可能エネルギーが世界のエネルギー供給に占める割合は、どの数字を見るかで大きく変わる。世界の一次エネルギー全体に占める再生可能エネルギー由来の割合は1割弱にとどまるが、電力に限れば約3分の1に達する。同じ対象について「1割弱」と「3分の1」という二つの数字が並ぶのは、集計する範囲が違うためであり、片方だけを取り出すと普及の度合いを大きく見誤る。 [1][3]\n\nこの差は、エネルギー需要のうち電力が一部にすぎないことから生じる。輸送部門と暖房部門は石油・ガスへの依存度が高く脱炭素化が難しいため、再生可能エネルギーの比率は総[エネルギーミックス](/hubpedia/energy-mix)よりも[電力ミックス](/hubpedia/electricity-mix)の方が高くなる傾向がある。言い換えれば、電力の側で置き換えが進んでも、燃料をそのまま燃やす用途が残る限り一次エネルギー全体の比率は上がりにくい。 [11]\n\n再生可能エネルギーの源となる資源は、[太陽光](/hubpedia/sun)や風、河川の流れなど、使っても枯渇しないものである。 [1]\n\n## 水力発電\n\n現代の再生可能エネルギーのうち世界最大の供給源は水力発電である。大規模な水力発電は100年以上前から行われており、今なお最大の再生可能エネルギー源であり続けている。[低炭素エネルギー源](/hubpedia/low-carbon-electricity)としても最も古く、かつ最大級のものの一つに数えられる。 [2][4][5]\n\n規模の目安として、伝統的バイオマスを除いた場合、水力発電は再生可能エネルギー発電の約40%を占める。ただしこの比重は世界一律ではなく、水力発電の規模は国によって大きく異なる。地形と河川の条件に強く左右される電源であるため、国別の構成を見る際には世界平均をそのまま当てはめられない。 [6][15]\n\n## 風力と太陽光\n\n風力発電と太陽光発電は、水力発電と比べると比較的新しい再生可能エネルギー源である。歴史は浅いものの、世界の多くの国で急速に成長している。水力が長い年月をかけて築いた規模と、風力・太陽光が短期間で伸びている速度は、別々の指標として区別する必要がある。 [7][8][10]\n\n## バイオマスとバイオ燃料\n\n木炭・有機廃棄物・作物残渣を燃やす伝統的バイオマスは、人類史の長期にわたって重要なエネルギー源であった。これは過去の話にとどまらず、今日でも低所得地域において重要なエネルギー源であり続けている。再生可能エネルギーの統計で伝統的バイオマスを含めるか除くかによって全体像が変わるのは、この規模の大きさによる。 [12][13]\n\n一方、輸送用の液体燃料としてはバイオエタノールとバイオディーゼルがある。これらはトウモロコシ・サトウキビ・麻・キャッサバなどの作物から作られる燃料であり、現在多くの国で主要な輸送燃料となっている。 [9]\n\n## 国による構成の違い\n\n電源構成は国ごとに大きく異なる。英国・ポルトガル・フランスでは、電力に占める原子力・再生可能エネルギー由来の割合が特に高い。この指標は原子力と再生可能エネルギーを合算したものであり、再生可能エネルギー単独の比率とは一致しない点に注意が必要である。 [14]",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/renewable-energy",
+        "title": "Renewable Energy",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Growth of renewables in the energy mix. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/co2-emissions",
+        "title": "CO2 Emissions",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Emissions the transition aims to reduce. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Renewable energy",
+        "summary": "Renewable energy refers to power generation that draws on resources that are not depleted, such as solar, wind, and hydropower. Its share of the world's primary energy remains just under one tenth, while in electricity alone it accounts for roughly one third — a gap that reflects how hard transport and heating are to decarbonize. Hydropower, with more than a century of history, supplies the bulk of it, but wind and solar are growing rapidly in many countries.",
+        "bodyMarkdown": "## Position in primary energy versus electricity\n\nThe share of the world's energy supply that renewable energy accounts for changes greatly depending on which figure you look at. Renewables make up just under one tenth of total global primary energy, but in electricity alone the figure reaches roughly one third. Two numbers — \"just under one tenth\" and \"one third\" — stand side by side for the same subject because the scope being counted differs, and taking only one of them badly misjudges how far adoption has come. [1][3]\n\nThis gap arises because electricity is only part of energy demand. The transport and heating sectors depend heavily on oil and gas and are difficult to decarbonize, so the renewable share tends to be higher in the [electricity mix](/hubpedia/electricity-mix) than in the total [energy mix](/hubpedia/energy-mix). Put differently, even as substitution advances on the electricity side, the share of overall primary energy is slow to rise so long as uses that simply burn fuel remain. [11]\n\nThe resources that renewable energy draws on — [sunlight](/hubpedia/sun), wind, the flow of rivers — are not depleted by use. [1]\n\n## Hydropower\n\nThe largest single source of modern renewable energy in the world is hydropower. Large-scale hydropower has been generating electricity for more than a century and remains the largest renewable energy source to this day. It also ranks among the oldest and largest of all [low-carbon energy sources](/hubpedia/low-carbon-electricity). [2][4][5]\n\nAs a sense of scale, excluding traditional biomass, hydropower accounts for about 40% of renewable electricity generation. This weighting is not uniform worldwide, however, and the scale of hydropower varies greatly from country to country. Because it is a source strongly governed by terrain and river conditions, the global average cannot simply be applied when examining any individual country's mix. [6][15]\n\n## Wind and solar\n\nWind power and solar power are comparatively new renewable energy sources next to hydropower. Their history is short, but they are growing rapidly in many countries around the world. The scale hydropower built up over long years and the speed at which wind and solar are expanding over a short period need to be treated as separate measures. [7][8][10]\n\n## Biomass and biofuels\n\nTraditional biomass — burning charcoal, organic waste, and crop residues — has been an important energy source across long stretches of human history. This is not merely a matter of the past: it remains an important energy source in low-income regions today. The scale of it is why the overall picture shifts depending on whether renewable energy statistics include or exclude traditional biomass. [12][13]\n\nAs liquid fuels for transport, meanwhile, there are bioethanol and biodiesel. These are fuels made from crops such as corn, sugarcane, hemp, and cassava, and they are now major transport fuels in many countries. [9]\n\n## Differences in national mixes\n\nThe electricity mix differs greatly from country to country. In the United Kingdom, Portugal, and France, the share of electricity derived from nuclear and renewable energy is particularly high. Note that this indicator combines nuclear power and renewable energy, and does not match the share of renewable energy on its own. [14]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-27T23:11:26.315Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "世界の一次エネルギーの1割弱は再生可能エネルギー由来である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/renewable-energy",
+              "quote": "Just under a tenth of the world's primary energy is now sourced from renewable technologies."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "水力発電は現代の再生可能エネルギーの中で世界最大の供給源である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/renewable-energy",
+              "quote": "Globally we see that hydropower is the largest modern renewable source."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "世界の電力の約3分の1は再生可能エネルギー由来である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/renewable-energy",
+              "quote": "Globally, about one-third of our electricity comes from renewables."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "水力発電は最も古く、かつ最大級の低炭素エネルギー源の一つである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/renewable-energy",
+              "quote": "Hydroelectric power has been one of our oldest and largest sources of low-carbon energy."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "大規模な水力発電は100年以上前から行われており、今なお最大の再生可能エネルギー源である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/renewable-energy",
+              "quote": "Hydroelectric generation at scale dates back more than a century, and is still our largest renewable source"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "伝統的バイオマスを除くと、水力発電は再生可能エネルギー発電の約40%を占める。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/renewable-energy",
+              "quote": "excluding traditional biomass, it still accounts for around 40% of renewable generation."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "風力発電は水力発電と比べると比較的新しい再生可能エネルギー源だが、世界の多くの国で急速に成長している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/renewable-energy",
+              "quote": "Wind generation at scale – compared to hydropower, for example – is a relatively modern renewable energy source but is growing quickly in many countries across the world."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "太陽光発電は水力発電と比べると比較的新しい再生可能エネルギー源だが、世界の多くの国で急速に成長している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/renewable-energy",
+              "quote": "Solar generation at scale – compared to hydropower, for example – is a relatively modern renewable energy source but is growing quickly in many countries across the world."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "バイオエタノールとバイオディーゼルはトウモロコシ・サトウキビ・麻・キャッサバなどの作物から作られる燃料であり、現在多くの国で主要な輸送燃料となっている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/renewable-energy",
+              "quote": "Bioethanol and biodiesel – fuel made from crops such as corn, sugarcane, hemp, and cassava – are now a key transport fuel in many countries."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "風力発電と太陽光発電はともに急速に成長している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/renewable-energy",
+              "quote": "we also see wind and solar power both growing rapidly."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "輸送部門と暖房部門は石油・ガスへの依存度が高く脱炭素化が難しいため、再生可能エネルギーの比率は総エネルギーミックスより電力ミックスの方が高くなる傾向がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/renewable-energy",
+              "quote": "Since transport and heating tend to be harder to decarbonize – they are more reliant on oil and gas – renewables tend to have a higher share in the electricity mix versus the total energy mix."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "伝統的バイオマス(木炭・有機廃棄物・作物残渣の燃焼)は人類史の長期にわたり重要なエネルギー源であった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/renewable-energy",
+              "quote": "Traditional biomass – the burning of charcoal, organic wastes, and crop residues – was an important energy source for a long period of human history."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "伝統的バイオマスは今日でも低所得地域において重要なエネルギー源であり続けている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/renewable-energy",
+              "quote": "It remains an important source in lower-income settings today."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "英国・ポルトガル・フランスでは、電力に占める原子力・再生可能エネルギー由来の割合が特に高い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/co2-emissions",
+              "quote": "in the UK, Portugal, and France, a much higher share of electricity is produced from nuclear and renewable sources"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "水力発電の規模は世界の国々によって大きく異なる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/renewable-energy",
+              "quote": "the scale of hydroelectric power generation varies significantly across the world."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

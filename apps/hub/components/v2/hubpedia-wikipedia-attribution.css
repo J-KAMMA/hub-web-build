@@ -1,0 +1,32 @@
+﻿.hubpedia-wikipedia-attribution {
+  max-width: var(--v2-measure, 40rem);
+  margin: var(--v2-space-3, 12px) 0;
+  padding: var(--v2-space-3, 12px);
+  background: var(--surface-sunken);
+  border: var(--divider);
+  border-radius: 8px;
+  color: var(--text);
+  font-size: var(--type-caption-size);
+}
+
+.hubpedia-wikipedia-attribution p {
+  margin: 0;
+}
+
+.hubpedia-wikipedia-attribution__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--v2-space-1, 4px) var(--v2-space-3, 12px);
+  margin-top: var(--v2-space-2, 8px);
+}
+
+.hubpedia-wikipedia-attribution a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.hubpedia-wikipedia-attribution__status {
+  margin-top: var(--v2-space-2, 8px);
+  color: var(--muted);
+}

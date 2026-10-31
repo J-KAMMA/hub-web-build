@@ -1,0 +1,330 @@
+.hub-auth-page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  position: relative;
+  padding: 72px 24px;
+  color: var(--text);
+  background: var(--bg);
+}
+
+.hub-auth-brand {
+  position: absolute;
+  top: 28px;
+  left: 32px;
+  color: var(--text);
+  font-size: var(--type-title2-size, 22px);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+}
+
+.hub-auth-page--embedded { min-height: 0; padding: 32px 20px; }
+
+.hub-auth-card {
+  width: min(100%, 460px);
+  padding: 34px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+.hub-auth-heading p {
+  margin: 0 0 12px;
+  color: var(--muted);
+  font-size: var(--type-caption-size, 12px);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.hub-auth-heading h1,
+.hub-auth-heading h2 {
+  margin: 0;
+  font-size: var(--type-title1-size, 28px);
+  line-height: var(--type-title1-leading, 34px);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.hub-auth-heading > span {
+  display: block;
+  margin-top: 12px;
+  color: var(--muted);
+  font-size: var(--type-subhead-size, 13px);
+  line-height: 1.7;
+}
+
+.hub-auth-panel { margin-top: 24px; }
+
+.hub-auth-legacy-toggle {
+  width: 100%;
+  min-height: 44px;
+  margin-top: 8px;
+  padding: 0 4px;
+  border: 0;
+  border-radius: var(--radius-sm, 10px);
+  color: var(--muted);
+  background: transparent;
+  font: inherit;
+  font-size: var(--type-subhead-size, 13px);
+  font-weight: 600;
+  text-align: left;
+  cursor: pointer;
+  transition: background var(--dur-fast, 200ms) var(--ease-out, ease-out);
+}
+.hub-auth-legacy-toggle:hover:not(:disabled) { background: var(--interactive); }
+
+.hub-auth-tabs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2px;
+  padding: 3px;
+  border: 1px solid var(--control-border);
+  border-radius: var(--radius-pill, 999px);
+  background: var(--interactive);
+}
+
+.hub-auth-tabs button {
+  min-height: 36px;
+  border: 0;
+  border-radius: var(--radius-pill, 999px);
+  color: var(--muted);
+  background: transparent;
+  font: inherit;
+  font-size: var(--type-callout-size, 15px);
+  font-weight: 600;
+  cursor: pointer;
+  transition: background var(--dur-fast, 200ms) var(--ease-out, ease-out), color var(--dur-fast, 200ms) var(--ease-out, ease-out);
+}
+
+.hub-auth-tabs button[role="tab"].is-active {
+  color: var(--chip-selected-text, var(--bg));
+  border: 0;
+  background: var(--chip-selected-bg, var(--text));
+  box-shadow: none;
+}
+
+.hub-auth-tabs button:focus-visible { outline: var(--focus-ring-width, 2px) solid var(--focus-ring); outline-offset: 1px; }
+
+.hub-auth-form {
+  display: grid;
+  gap: 18px;
+  margin-top: 22px;
+}
+
+.hub-auth-oauth {
+  display: grid;
+  gap: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.hub-auth-oauth a {
+  display: grid;
+  min-height: 44px;
+  place-items: center;
+  border: 1px solid var(--control-border);
+  border-radius: var(--radius-sm, 10px);
+  color: var(--text);
+  background: var(--interactive);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.hub-auth-oauth p,
+.hub-auth-oauth span {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+.hub-auth-form label {
+  display: grid;
+  gap: 6px;
+  color: var(--text);
+  font-size: var(--type-subhead-size, 13px);
+  font-weight: 600;
+}
+
+.hub-auth-form input {
+  width: 100%;
+  min-height: 44px;
+  box-sizing: border-box;
+  padding: 0 14px;
+  border: 1px solid var(--control-border);
+  border-radius: var(--radius-sm, 10px);
+  outline: none;
+  color: var(--text);
+  background: var(--interactive);
+  font: inherit;
+  font-size: 16px;
+}
+
+.hub-auth-form input:focus-visible {
+  outline: var(--focus-ring-width, 2px) solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.hub-auth-form input::placeholder { color: var(--text-meta); opacity: 1; }
+.hub-auth-form small { color: var(--muted); font-size: var(--type-caption-size, 12px); font-weight: 500; }
+
+.hub-auth-error {
+  margin: -2px 0 0;
+  position: relative;
+  padding: 12px 14px 12px 42px;
+  border: 0;
+  border-radius: var(--radius-sm, 10px);
+  color: var(--danger-text);
+  background: var(--danger-bg, color-mix(in srgb, var(--danger-text) 10%, transparent));
+  font-size: var(--type-subhead-size, 13px);
+  line-height: 1.6;
+}
+
+/* エラーの先頭に付く警告の丸印。文字色に追従する。 */
+.hub-auth-error::before {
+  content: "!";
+  position: absolute;
+  left: 14px;
+  top: 13px;
+  display: grid;
+  place-items: center;
+  width: 18px;
+  height: 18px;
+  border: 1.75px solid currentColor;
+  border-radius: 50%;
+  font-size: var(--type-caption-size, 12px);
+  font-weight: 700;
+  line-height: 1;
+}
+
+html[data-theme="light"] .hub-auth-error { color: var(--danger-text); }
+
+.hub-auth-submit {
+  min-height: 44px;
+  border: 0;
+  border-radius: var(--radius-pill, 999px);
+  color: var(--action-text);
+  background: var(--action);
+  font: inherit;
+  font-size: var(--type-callout-size, 15px);
+  font-weight: 600;
+  cursor: pointer;
+  transition: background var(--dur-fast, 200ms) var(--ease-out, ease-out);
+}
+
+.hub-auth-submit:hover:not(:disabled) { background: var(--action-hover); }
+.hub-auth-submit:focus-visible { outline: var(--focus-ring-width, 2px) solid var(--focus-ring); outline-offset: 2px; }
+.hub-auth-submit:disabled:not([aria-busy="true"]) { cursor: not-allowed; }
+.hub-auth-submit[aria-busy="true"]:disabled { cursor: wait; opacity: 0.7; }
+
+.hub-auth-passkey-help {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: var(--type-caption-size, 12px);
+  line-height: 1.65;
+  text-align: center;
+}
+
+.hub-auth-terms {
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr);
+  column-gap: 10px;
+  align-items: start;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  line-height: 1.65;
+}
+
+.hub-auth-terms input,
+.v2 .v2__main .hub-auth-terms input[type="checkbox"] { width: 24px; min-width: 24px; min-height: 24px; height: 24px; margin: -2px 0 0; padding: 0; }
+.hub-auth-form .hub-auth-terms { column-gap: 10px; }
+.hub-auth-terms a { color: inherit; font-weight: 600; }
+
+.hub-auth-note {
+  margin: 24px 0 0;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.hub-auth-more { margin-top: 12px; color: var(--muted); font-size: var(--type-subhead-size, 13px); }
+.hub-auth-more summary { min-height: 44px; display: flex; align-items: center; padding: 0 4px; border-radius: var(--radius-sm, 10px); font-weight: 600; cursor: pointer; line-height: 1.6; transition: background var(--dur-fast, 200ms) var(--ease-out, ease-out); }
+.hub-auth-more summary:hover { background: var(--interactive); }
+.hub-auth-more summary:focus-visible { outline: var(--focus-ring-width, 2px) solid var(--focus-ring); outline-offset: 2px; }
+.hub-auth-device-method > summary { justify-content: center; }
+
+.hub-auth-recovery {
+  display: grid;
+  gap: 18px;
+}
+
+.hub-auth-recovery h2,
+.hub-auth-recovery p {
+  margin: 0;
+}
+
+.hub-auth-recovery p {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.hub-auth-recovery-codes {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hub-auth-recovery-codes code {
+  display: block;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--panel);
+  color: var(--text);
+  font-size: 12px;
+  text-align: center;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  user-select: all;
+}
+
+@media (max-width: 560px) {
+  .hub-auth-page { align-items: flex-start; padding: 84px 16px 28px; }
+  .hub-auth-page--embedded { padding: 24px 12px; }
+  .hub-auth-brand { top: 24px; left: 20px; }
+  .hub-auth-card { padding: 26px 20px; border-radius: 0; }
+}
+
+/* ログインを求めた画面名（/v2/auth の上に1行）。 */
+.hub-auth-origin {
+  width: min(100%, 460px);
+  margin: 0 auto;
+  padding: 12px 20px 0;
+  box-sizing: border-box;
+  color: var(--muted);
+  font-size: var(--type-subhead-size, 13px);
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* 復旧コードの表示中は、ログイン見出しと「見るにはログイン」の案内を隠す。 */
+.hub-auth-card:has(.hub-auth-recovery) .hub-auth-heading,
+body:has(.hub-auth-recovery) .hub-auth-origin { display: none; }
+
+/* ログイン手段の3択（Google・PIN/指紋・ウォレット）は同じ形の副ボタンにそろえる。 */
+.hub-auth-device-method > summary {
+  border: 1px solid var(--control-border);
+  background: var(--interactive);
+  color: var(--text);
+  padding: 0 14px;
+}
+.hub-auth-form > .ui-button { width: 100%; min-height: 44px; }
+.hub-auth-form > .ui-button + small { font-weight: 400; color: var(--text-meta); }

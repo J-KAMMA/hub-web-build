@@ -1,0 +1,57 @@
+.picker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: 12px 0 0;
+  padding: 0;
+}
+
+.picker button {
+  min-height: 36px;
+  padding: 7px 11px;
+  border: var(--divider);
+  border-radius: 999px;
+  background: var(--surface-sunken);
+  color: var(--text);
+  font: inherit;
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.picker > button,
+.group > button {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.group {
+  display: contents;
+}
+
+.children {
+  display: flex;
+  flex-basis: 100%;
+  flex-wrap: wrap;
+  gap: 7px;
+  padding: 10px 0 2px;
+  border-top: var(--divider);
+}
+
+.picker button.selected {
+  border-color: var(--emphasis);
+  background: var(--selected);
+  color: var(--text);
+}
+
+.picker button:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+@media (max-width: 700px) {
+  .picker {
+    margin-inline: 0;
+  }
+}

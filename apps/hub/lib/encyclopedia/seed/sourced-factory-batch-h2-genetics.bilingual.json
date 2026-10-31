@@ -1,0 +1,675 @@
+[
+  {
+    "slug": "mutation",
+    "topicType": "concept",
+    "categoryLabel": "生命科学",
+    "title": "変異",
+    "summary": "変異とは、生物の遺伝情報を担う配列が変わることをいう。ヒトの細胞では変異が絶えず生じているが、その大半は健康に何の影響も及ぼさず、細胞には生じた変異を素早く修復する精巧な仕組みが備わっている。一方でごく一部の変異はタンパク質の量や働きを変えて病気の原因となり、生殖細胞に生じたものは次の世代の全身の細胞へ受け継がれる。",
+    "bodyMarkdown": "## 体内で絶えず起きている配列の変化\n\n変異は、まれな事故のようなものではない。私たちの細胞のなかでは変異が常に起きており、そのほとんどは健康に影響を与えないまま過ぎていく。日々起きているのに気づかれないという点が、変異という現象を理解するうえでの出発点になる。 [1]\n\n変異が積み重なって直ちに問題になるとは限らないのは、細胞の側に対処する仕組みがあるためでもある。細胞には、生じた変異を素早く修復する非常に精巧な仕組みが備わっている。この修復の働きがあるからこそ、絶え間なく生じる配列の変化の大半は、その細胞の性質を変えることなく処理される。 [1][3]\n\n## 体細胞の変異と生殖細胞の変異\n\n同じ「変異」でも、どの細胞で起きたかによって及ぶ範囲がまったく違う。ほとんどの変異は筋肉細胞や皮膚細胞といった体細胞で起こり、その影響は変異が生じた細胞と、そこから分裂して増えた細胞の範囲にとどまる。体のごく一部の細胞群だけが変化を抱えている状態である。 [4]\n\nこれに対し、卵子や精子などの生殖細胞で変異が起こった場合、その卵子や精子から発生する個体では、体を構成するすべての細胞に同じ変異が存在することになる。影響の及ぶ範囲が個体全体に広がるため、生殖細胞の変異は体細胞の変異よりも大きな帰結を持ちうる。 [5]\n\n## 1文字の違いが持つ意味\n\n配列上の個人差は、遺伝的バリアントと呼ばれる。ヒトの1つの[遺伝子](/hubpedia/gene)には、平均すると人によって1～3文字ほどの違いがあるとされる。この数字だけを見ると些細に思えるが、それはタンパク質の形や機能を変え、作られる量や、作られる時期と場所を変えるには十分な違いである。 [12][13]\n\nもっとも、違いがあることと影響が出ることは同じではない。遺伝的バリアントは、ほとんどの場合まったく影響を及ぼさない。多くの個人差は、身体の働きに読み取れる変化を生まないまま保たれている。 [6]\n\n例外は少数だが、その帰結は重い。わずか1文字が失われたり別の文字に変わったりするだけで、損傷したタンパク質が作られる、必要以上の量が作られる、あるいはタンパク質がまったく作られない、といった結果を招くことがある。こうした場合には、健康に重大な影響が及ぶ。 [7]\n\n## 病気との関わり\n\n遺伝性疾患は、[DNA](/hubpedia/dna)の配列が変わることによって引き起こされる。原因となる変化がいつ生じたかによって、病気の現れ方は二つに分かれる。一方は、両親から受け継がれた変異によるもので、その変異は個体の出生時からすでに存在している。もう一方は、人が生きていく過程で1つまたは複数の遺伝子に生じる後天的な変異によるものである。 [9][10][11]\n\n遺伝的バリアントが世代を超えて受け継がれるという性質は、鎌状赤血球症、嚢胞性線維症、テイ・サックス病といった多くの病気が特定の家系のなかで繰り返し見られる理由を説明する一助となる。家族に同じ病気が現れることの背景には、共有された配列がある。 [8]\n\n## 創作上の描写との違い\n\n変異は物語のなかで、人を超人的な存在に変える力として描かれることがある。しかし現実の変異が人をスーパーヒーローに変えることはなく、翼が生えるような突飛な効果も起こらない。実際に起きているのは、大半が健康に影響しないまま修復されていく、目に見えない配列の変化である。 [1][2][3]\n\n## 関連記事\n\n- [ゲノム](/hubpedia/genome)\n- [染色体](/hubpedia/chromosome)\n- 対立遺伝子\n- 遺伝子型\n- 表現型\n- [ヒトゲノム計画](/hubpedia/human-genome-project)",
+    "sources": [
+      {
+        "url": "https://www.genome.gov/genetics-glossary/Mutation",
+        "title": "Mutation — NHGRI Talking Glossary",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "The institute's short definition of the term. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+        "title": "Introduction to Genomics — NHGRI",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "The field-level overview covering genomes, genes and variation. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Mutation",
+        "summary": "A mutation is a change in the sequence that carries an organism's genetic information. Mutations arise constantly in human cells, but the vast majority have no effect on health at all, and cells are equipped with elaborate machinery that repairs mutations quickly. A small fraction, however, alter the amount or function of a protein and cause disease, and those arising in germ cells are passed on to every cell in the body of the next generation.",
+        "bodyMarkdown": "## Sequence changes that happen constantly inside the body\n\nA mutation is not something like a rare accident. Mutations occur all the time inside our cells, and most of them pass by without affecting health. The fact that they happen daily yet go unnoticed is the starting point for understanding mutation as a phenomenon. [1]\n\nOne reason accumulating mutations do not immediately cause trouble is that cells have mechanisms for dealing with them. Cells are equipped with extremely elaborate machinery that repairs mutations quickly. Because this repair activity exists, the vast majority of the sequence changes that arise without pause are handled without altering the character of the cell. [1][3]\n\n## Somatic mutations and germline mutations\n\nEven for the same \"mutation,\" the scope of its reach differs entirely depending on which cell it occurs in. Most mutations occur in somatic cells such as muscle cells or skin cells, and their effect is confined to the cell in which the mutation arose and the cells that divide and multiply from it. Only a very small group of cells in the body carries the change.  [4]\n\nBy contrast, when a mutation occurs in a germ cell such as an egg or a sperm, the individual that develops from that egg or sperm will carry the same mutation in every cell that makes up the body. Because the scope of the effect extends across the whole individual, germline mutations can have far greater consequences than somatic mutations. [5]\n\n## What a single-letter difference means\n\nDifferences between individuals at the level of sequence are called genetic variants. A single human [gene](/hubpedia/gene) is said to differ from person to person by roughly one to three letters on average. Looking at that number alone it may seem trivial, but it is a difference sufficient to change the shape or function of a protein, and to change how much of it is made, and when and where it is made. [12][13]\n\nThat said, having a difference is not the same as showing an effect. In most cases, genetic variants have no effect whatsoever. Many individual differences are maintained without producing any readable change in how the body works. [6]\n\nThe exceptions are few, but their consequences are serious. The loss of just a single letter, or its change into a different letter, can result in a damaged protein being made, more of it being made than is needed, or no protein being made at all. In such cases the effect on health is significant. [7]\n\n## The connection to disease\n\nGenetic disorders are caused by changes in the [DNA](/hubpedia/dna) sequence. Depending on when the causative change arose, disease presents in one of two ways. In one, the mutation is inherited from the parents and is already present in the individual from birth. In the other, the mutation is acquired in one or more genes over the course of a person's life. [9][10][11]\n\nThe fact that genetic variants are passed down across generations helps explain why many diseases—such as sickle cell disease, cystic fibrosis, and Tay-Sachs disease—recur within particular family lines. Behind the appearance of the same disease within a family lies a shared sequence. [8]\n\n## How this differs from fictional portrayals\n\nIn stories, mutation is sometimes portrayed as a power that turns people into superhuman beings. But real mutations do not turn people into superheroes, nor do they produce outlandish effects like growing wings. What is actually happening is invisible sequence change, most of which is repaired without ever affecting health. [1][2][3]\n\n## Related articles\n\n- [Genome](/hubpedia/genome)\n- [Chromosome](/hubpedia/chromosome)\n- Allele\n- Genotype\n- Phenotype\n- [Human Genome Project](/hubpedia/human-genome-project)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:29:33.590Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "変異は私たちの細胞内で常に起きているが、そのほとんどは健康に影響しない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Mutation",
+              "quote": "Mutations are happening in our cells all the time, but almost none of these affect our health."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "変異は人をスーパーヒーローに変えるほど有益になることはなく、翼が生えるような突飛な効果も現実には起こらない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Mutation",
+              "quote": "a mutation is never so beneficial that it turns a person into a superhero or does something bizarre like cause them to grow wings"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "細胞には変異を素早く修復する非常に精巧な仕組みが備わっている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Mutation",
+              "quote": "our cells have very sophisticated machinery for repairing mutations very quickly"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "ほとんどの変異は筋肉細胞や皮膚細胞などの体細胞で起こり、その変異が生じた細胞とそこから増えた細胞にしか影響しない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Mutation",
+              "quote": "most mutations occur in somatic cells like muscle cells or skin cells and can only affect the cell where the mutation occurred and cells that grow from that cell"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "卵子や精子などの生殖細胞で変異が起こると、その卵子や精子から発生する個体の全細胞に存在することになり、より大きな影響を持ちうる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/genetics-glossary/Mutation",
+              "quote": "when mutations occur in germline cells, eggs and sperm, they will be present in every cell that develops from that egg or sperm, an entire person, and can have larger effects"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "遺伝的バリアントはほとんどの場合まったく影響を及ぼさない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "The majority of the time genetic variants have no effect at all."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "わずか1文字の欠失や変化が、損傷したタンパク質、過剰なタンパク質、あるいはタンパク質が全く作られない結果を招き、健康に重大な影響を及ぼすことがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "just one letter missing or changed may result in a damaged protein, extra protein, or no protein at all, with serious consequences for our health"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "遺伝的バリアントが世代を超えて受け継がれることは、鎌状赤血球症、嚢胞性線維症、テイ・サックス病のような多くの病気が家系内で見られる理由を説明する一助となる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "the passing of genetic variants from one generation to the next helps to explain why many diseases run in families, such as in sickle cell disease, cystic fibrosis, and Tay-Sachs disease"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "一部の病気は両親から受け継がれた変異によって引き起こされ、個体の出生時から存在する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "Some diseases are caused by mutations that are inherited from the parents and are present in an individual at birth."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "他の病気は、人の生涯の間に1つまたは複数の遺伝子に生じる後天的な変異によって引き起こされる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "Other diseases are caused by acquired mutations in a gene or group of genes that occur during a person's life."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "遺伝性疾患はDNA配列の変化によって引き起こされる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "A genetic disease is caused by a change in the DNA sequence."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "平均すると、ヒトの1つの遺伝子には人によって異なる1～3文字の違いがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "On average, a human gene will have 1-3 letters that differ from person to person."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "その1～3文字の違いは、タンパク質の形や機能、作られる量、作られる時期や場所を変えるのに十分である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/introduction-to-genomics",
+              "quote": "These differences are enough to change the shape and function of a protein, how much protein is made, when it's made, or where it's made."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "human-genome-project",
+    "topicType": "concept",
+    "categoryLabel": "生命科学",
+    "title": "ヒトゲノム計画",
+    "summary": "1990年から2003年にかけて実施された国際共同研究で、ヒトの全ゲノム配列を初めて解読することを目標とした。米国のエネルギー省と国立衛生研究所が主導し、6か国20の研究機関が参加した。データを即日公開する「バミューダ原則」と、予算の5%を倫理的・法的・社会的影響の研究に充てる仕組みを伴った点でも、その後の生物医学研究のあり方に影響を与えた。",
+    "bodyMarkdown": "## 計画の目的と規模\n\nヒトゲノム計画は、[ヒトゲノムの最初の配列](/hubpedia/genome)を作成することを目標に掲げた世界規模の科学的取り組みである。1990年から2003年にかけて実施され、ヒトだけでなく、当時よく研究されていた他の複数の生物についても最初のゲノム配列を生み出した、大規模かつ組織的な国際協力事業だった。 [1][3][4]\n\n当初の目標は、1988年に米国科学アカデミーの特別委員会が策定した。この時点で目標には、ヒトゲノム全体に加えて、慎重に選ばれた非ヒト生物のゲノムの配列決定も含まれていた。対象生物には最終的に大腸菌、パン酵母、ショウジョウバエ、線虫、マウスが加わった。 [5][6][16]\n\n予想費用は15年間で30億ドルと見込まれ、完了は2005年と想定されていた。実際には当初の目標は2年早い2003年に達成された。 [17][26]\n\n## 参加機関と資金\n\n米国では、研究はエネルギー省と国立衛生研究所(NIH)によって資金提供された。NIHは1988年にヒトゲノム研究局を設立し、これを1990年に国立ヒトゲノム研究センター、1997年に国立ヒトゲノム研究所へと改称している。 [24][25]\n\n配列決定そのものには、米国・英国・フランス・ドイツ・日本・中国にまたがる20の大学・研究機関の研究者が関わった。これらの研究グループは国際ヒトゲノム配列決定コンソーシアムとして知られるようになり、フランシス・コリンズがその事実上の指導者を務めた。ノーベル賞受賞者のジェームズ・ワトソンは、計画の立ち上げと、計画によるゲノムデータ共有の推進に重要な役割を果たしたとされる。 [7][8][9][36]\n\n規模の経済を最大限に生かすため、作業は少数の主要拠点に集中して行う必要があった。技術的課題が大きかったことから、計画は工学・生物学・計算機科学などの専門家からなる世界規模の学際的グループを結集することになった。 [34][37]\n\n## 配列決定の手法と提供者\n\n配列決定にはサンガー法と呼ばれる[DNA配列決定法](/hubpedia/dna)が用いられた。計画はこの基本手法をそのまま使ったのではなく、一連の技術革新によって大きく発展させている。 [18]\n\n生成されたヒトゲノム配列は、一人の個人のものではなく複数人のDNAをつなぎ合わせたパッチワークであり、提供者の身元はプライバシー保護のため意図的に匿名化された。最初の参照ヒトゲノム配列のうち70%は混血系の一人のDNAに由来し、残る30%は主に欧州系の他の19人に由来する。したがって大部分は、ニューヨーク州バッファロー在住のボランティア一人に由来している。 [19][20][21]\n\nバッファローが関わったのは、同市のロズウェルパークがん研究所の研究者らが、配列決定に使える形にDNAを調製する専門知識を持っていたためである。研究者らは公募広告でボランティア提供者を募り、インフォームドコンセントを得た上で血液サンプルを採取してDNAを抽出した。 [22][23]\n\n## 配列の完成度と後続の作業\n\n2000年に公表された草稿配列には、正確に決定できなかったために配列が不明のまま残った領域、いわゆるギャップが15万か所以上含まれていた。 [27]\n\n2003年、計画はヒトゲノムの90%以上を占める配列を作成した。同年4月、コンソーシアムは実質的に完全なヒトゲノム配列を作成したと発表している。この配列はゲノムの92%を占め、ギャップは400か所未満に減り、草稿より正確なものだった。 [2][10][11]\n\n残りのギャップが埋まったのはさらに後のことである。2022年3月31日、テロメア・ツー・テロメア(T2T)コンソーシアムは、これらを埋めて初めて真に完全なヒトゲノム配列を作成したと発表した。 [12]\n\n## データ公開と倫理・法的・社会的影響の研究\n\n計画の科学者らは、草稿配列のあらゆる部分を作成後まもなく一般公開した。この迅速な公開のルールは「バミューダ原則」と呼ばれ、名称は計画の研究者らが合意に達したバミューダでの2回の会議に由来する。計画は、科学データのオープンな共有を進める政策の推進とその支持拡大に重要な役割を果たしたとされる。 [13][28][29]\n\n一方で、ヒトゲノムの配列決定をめぐって生じた懸念や疑問は、生物医学研究における倫理の重視を高める一因となったと評価されている。NHGRIは1990年に倫理的・法的・社会的意味合い(ELSI)研究プログラムを設立し、米国議会は同研究所に対し、研究予算の少なくとも5%をゲノム分野の進歩がもたらす倫理的・法的・社会的影響の研究に充てるよう義務付けた。 [14][30][31]\n\n## 研究のあり方への影響\n\nヒトゲノム計画は、生物医学研究としては非典型的だったと位置づけられている。理論や仮説を先に立てるのではなく、未知の生物学的領域を探求する意欲に突き動かされていたためである。計画以前、生物医学研究コミュニティはこの規模のプロジェクトに強い懐疑心を抱いていた。 [15][35]\n\n結果として計画は、特定の仮説の検証を伴わない生産志向・発見主導型の科学的探究が科学界にとって極めて価値があり有益であり得ることを示したと評価される。同時に、生物医学研究における「ビッグサイエンス」の成功例でもあり、ヒトDNAに関する膨大なデータを生成した。 [32][33][38]\n\n## 関連記事\n\n- [遺伝子](/hubpedia/gene)\n- [染色体](/hubpedia/chromosome)\n- [変異](/hubpedia/mutation)\n- 遺伝子型\n- 表現型",
+    "sources": [
+      {
+        "url": "https://www.genome.gov/human-genome-project/What",
+        "title": "What is the Human Genome Project? — NHGRI",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "The project that read the human genome, and what a genome is. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.genome.gov/about-genomics/fact-sheets/A-Brief-Guide-to-Genomics",
+        "title": "A Brief Guide to Genomics — NHGRI",
+        "publisher": "National Human Genome Research Institute",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.genome.gov/about-nhgri/Policies-Guidance/Copyright"
+          },
+          "notes": "A short overview of genomes and what is done with them. Publisher policy read 2026-08-28: Text is public domain unless marked otherwise; acknowledgement and a link back are requested. Material carrying a credit line did not originate at NHGRI and is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Human Genome Project",
+        "summary": "An international collaborative research effort carried out from 1990 to 2003, aiming to sequence the entire human genome for the first time. It was led by the United States Department of Energy and the National Institutes of Health, with 20 research institutions across six countries taking part. It also influenced the conduct of subsequent biomedical research through the \"Bermuda Principles,\" which required data to be released the same day, and through a mechanism dedicating 5% of its budget to research on ethical, legal, and social implications.",
+        "bodyMarkdown": "## Goals and scale of the project\n\nThe Human Genome Project was a global scientific undertaking whose goal was to produce [the first sequence of the human genome](/hubpedia/genome). Carried out from 1990 to 2003, it was a large, organized international collaboration that generated the first genome sequences not only for humans but also for several other organisms that were well studied at the time. [1][3][4]\n\nThe original goals were set out in 1988 by a special committee of the United States National Academy of Sciences. At that point the goals included, in addition to the entire human genome, the sequencing of the genomes of carefully selected non-human organisms. The organisms chosen eventually came to include Escherichia coli, baker's yeast, the fruit fly, the roundworm, and the mouse. [5][6][16]\n\nThe expected cost was projected at 3 billion dollars over 15 years, with completion anticipated in 2005. In practice, the original goals were achieved in 2003, two years early. [17][26]\n\n## Participating institutions and funding\n\nIn the United States, the research was funded by the Department of Energy and the National Institutes of Health (NIH). The NIH established the Office of Human Genome Research in 1988, which it renamed the National Center for Human Genome Research in 1990 and the National Human Genome Research Institute in 1997. [24][25]\n\nThe sequencing itself involved researchers at 20 universities and research institutions spanning the United States, the United Kingdom, France, Germany, Japan, and China. These research groups came to be known as the International Human Genome Sequencing Consortium, with Francis Collins serving as their de facto leader. Nobel laureate James Watson is credited with playing an important role in launching the project and in promoting the sharing of the genomic data it produced. [7][8][9][36]\n\nTo take maximum advantage of economies of scale, the work had to be concentrated at a small number of major centers. Because the technical challenges were substantial, the project brought together a global, interdisciplinary group of specialists in fields such as engineering, biology, and computer science. [34][37]\n\n## Sequencing methods and donors\n\nThe sequencing used a [DNA sequencing method](/hubpedia/dna) known as the Sanger method. The project did not simply apply this basic method as it stood, but greatly advanced it through a series of technical innovations. [18]\n\nThe human genome sequence that was produced did not belong to any single individual but was a patchwork stitched together from the DNA of several people, and the donors' identities were deliberately anonymized to protect their privacy. Of the first reference human genome sequence, 70% derived from the DNA of a single person of mixed ancestry, while the remaining 30% derived from 19 other people, mainly of European descent. The greater part therefore derived from a single volunteer living in Buffalo, New York. [19][20][21]\n\nBuffalo became involved because researchers at the city's Roswell Park Cancer Institute had the expertise to prepare DNA in a form suitable for sequencing. The researchers recruited volunteer donors through public advertisements, obtained informed consent, then collected blood samples and extracted DNA from them. [22][23]\n\n## Completeness of the sequence and follow-up work\n\nThe draft sequence published in 2000 contained more than 150,000 regions, known as gaps, where the sequence remained unknown because it could not be determined accurately. [27]\n\nIn 2003, the project produced a sequence covering more than 90% of the human genome. In April of that year, the consortium announced that it had produced an essentially complete human genome sequence. This sequence covered 92% of the genome, reduced the gaps to fewer than 400, and was more accurate than the draft. [2][10][11]\n\nThe remaining gaps were not filled until considerably later. On March 31, 2022, the Telomere-to-Telomere (T2T) Consortium announced that it had filled them and had produced the first truly complete human genome sequence. [12]\n\n## Data release and research on ethical, legal, and social implications\n\nThe project's scientists made every portion of the draft sequence publicly available soon after it was produced. This rule of rapid release was called the \"Bermuda Principles,\" named for the two meetings in Bermuda at which the project's researchers reached the agreement. The project is credited with playing an important role in advancing policies for the open sharing of scientific data and in broadening support for them. [13][28][29]\n\nAt the same time, the concerns and questions that arose around the sequencing of the human genome have been credited with contributing to a greater emphasis on ethics in biomedical research. The NHGRI established its Ethical, Legal and Social Implications (ELSI) Research Program in 1990, and the United States Congress required the institute to devote at least 5% of its research budget to studying the ethical, legal, and social implications of advances in genomics. [14][30][31]\n\n## Influence on how research is conducted\n\nThe Human Genome Project has been characterized as atypical for biomedical research, because it was driven by a desire to explore uncharted biological territory rather than by theory or hypothesis stated in advance. Before the project, the biomedical research community was deeply skeptical of undertakings on this scale. [15][35]\n\nAs a result, the project is credited with demonstrating that production-oriented, discovery-driven scientific inquiry that does not involve testing a specific hypothesis can be extremely valuable and beneficial to the scientific community. At the same time, it stands as a successful example of \"big science\" in biomedical research, having generated an enormous body of data on human DNA. [32][33][38]\n\n## Related articles\n\n- [Gene](/hubpedia/gene)\n- [Chromosome](/hubpedia/chromosome)\n- [Mutation](/hubpedia/mutation)\n- Genotype\n- Phenotype"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:29:33.591Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "ヒトゲノム計画は、ヒトゲノムの最初の配列を生成することを目標に掲げた世界的な科学的取り組みだった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "The Human Genome Project was a landmark global scientific effort whose signature goal was to generate the first sequence of the human genome."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "2003年、ヒトゲノム計画はヒトゲノムの90%以上を占めるゲノム配列を作成した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "In 2003, the Human Genome Project produced a genome sequence that accounted for over 90% of the human genome."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "ヒトゲノム計画は、ヒトおよび他の複数のよく研究された生物のゲノムの最初の配列を生成した、大規模で組織的かつ国際的な協力事業だった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "The Human Genome Project was a large, well-organized, and highly collaborative international effort that generated the first sequence of the human genome and that of several additional well-studied organisms."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "ヒトゲノム計画は1990年から2003年にかけて実施された。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "Carried out from 1990–2003, it was one of the most ambitious and important scientific endeavors in human history."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "米国科学アカデミーの特別委員会が1988年にヒトゲノム計画の当初の目標を策定した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "A special committee of the U.S. National Academy of Sciences outlined the original goals for the Human Genome Project in 1988"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "対象生物には最終的に大腸菌、パン酵母、ショウジョウバエ、線虫、マウスが含まれるようになった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "Eventually the list of organisms came to include the bacterium E. coli, baker’s yeast, fruit fly, nematode and mouse."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "フランシス・コリンズ博士は、ヒトゲノムを配列決定した国際ヒトゲノム配列決定コンソーシアムの事実上の指導者を務めた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "Dr. Collins served as the de facto leader of the International Human Genome Sequencing Consortium, the group that sequenced the human genome during the Human Genome Project."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "ヒトゲノムの配列決定には、米国・英国・フランス・ドイツ・日本・中国にまたがる20の大学・研究機関の研究者が関わった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "The sequencing of the human genome involved researchers from 20 separate universities and research centers across the United States, United Kingdom, France, Germany, Japan and China."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "これらの国々の研究グループは国際ヒトゲノム配列決定コンソーシアムとして知られるようになった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "The groups in these countries became known as the International Human Genome Sequencing Consortium."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "2003年4月、コンソーシアムは実質的に完全なヒトゲノム配列を作成したと発表した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "In April 2003, the consortium announced that it had generated an essentially complete human genome sequence, which was significantly improved from the draft sequence."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "2003年に発表された配列は、ヒトゲノムの92%を占め、ギャップは400か所未満で、より正確なものだった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "Specifically, it accounted for 92% of the human genome and less than 400 gaps; it was also more accurate."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "2022年3月31日、テロメア・ツー・テロメア(T2T)コンソーシアムが残りのギャップを埋め、初めて真に完全なヒトゲノム配列を作成したと発表した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "On March 31, 2022, the Telomere-to-Telomere (T2T) consortium announced that had filled in the remaining gaps and produced the first truly complete human genome sequence."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "ヒトゲノム計画は、科学データのオープンな共有を進める政策の推進とその支持拡大に重要な役割を果たした。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "The project was critical for advancing policies and earning increased support for the open sharing of scientific data."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "ヒトゲノム配列決定をめぐる懸念や疑問が、生物医学研究における倫理への重視の高まりの一因となった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "Concerns and questions about sequencing the human genome helped to usher in a greater emphasis on ethics in biomedical research."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "ヒトゲノム計画は、理論や仮説を先に立てるのではなく未知の生物学的領域を探求する意欲に突き動かされていた点で、生物医学研究として非典型的だった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "The project was atypical for biomedical research, in that the researchers’ work was driven by a desire to explore an unknown part of the biological world — as opposed to first formulating a theory or hypothesis."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "当初の目標には、ヒトゲノム全体に加えて、慎重に選ばれた複数の非ヒト生物のゲノムの配列決定も含まれていた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "which included sequencing the entire human genome in addition to the genomes of several carefully selected non-human organisms"
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "ヒトゲノム計画は当初2005年完了予定だったが、2年早い2003年までに当初の目標を達成した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "In part due to a deliberate focus on technology development, the Human Genome Project ultimately exceeded its initial set of goals, doing so by 2003, two years ahead of its originally projected 2005 completion."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "ヒトゲノム計画は、サンガー法と呼ばれるDNA配列決定法を用い、その基本手法を一連の技術革新によって大きく発展させた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "Ultimately, the project used one particular method for DNA sequencing, called Sanger DNA sequencing, but first greatly advanced this basic method through a series of major technical innovations."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "ヒトゲノム計画が生成したヒトゲノム配列は、複数人のDNAのパッチワークであり、提供者の身元はプライバシー保護のため意図的に匿名化された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "The human genome sequence generated by the Human Genome Project was actually a patchwork of multiple people whose identities were intentionally made anonymous to protect their privacy."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "最初の参照ヒトゲノム配列のうち70%は混血系の1人のDNAに由来し、残り30%は主に欧州系の他の19人のDNAに由来する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "Specifically, 70 percent of the original reference human genome sequence was generated from that individual’s DNA, with the remaining 30 percent coming from a combination of 19 other individuals of mostly European ancestry."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "最初のヒトゲノム配列の大部分は、ニューヨーク州バッファロー在住のボランティアに由来する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "Most of the original human genome sequence came from volunteers living in Buffalo, New York."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "バッファローのロズウェルパークがん研究所の研究者らは、ヒトゲノム配列決定に使用できる形にDNAを調製する専門知識を持っていた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "Researchers at the Roswell Park Cancer Institute, located in Buffalo, were experts at preparing the DNA in a form that could be used for sequencing the human genome"
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "研究者らは公募広告でボランティア提供者を募り、インフォームドコンセントを得た上で血液サンプルを採取しDNAを抽出した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "The researchers recruited volunteer donors through public advertisements (like the one on the right). They then acquired informed consent from these volunteers and collected blood samples, from which they extracted DNA."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "米国では、研究はエネルギー省と国立衛生研究所(NIH)によって資金提供された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "In the United States, the researchers were funded by the Department of Energy and the National Institutes of Health"
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "NIHは1988年にヒトゲノム研究局を設立し、1990年に国立ヒトゲノム研究センターに、1997年に国立ヒトゲノム研究所に改称した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "which created the Office for Human Genome Research in 1988 (later renamed the National Center for Human Genome Research in 1990 and then the National Human Genome Research Institute in 1997)"
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "ヒトゲノム計画の当初の予想費用は、15年間を見込んで30億ドルだった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "The initially projected cost for the Human Genome Project was $3 billion, based on its envisioned length of 15 years."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "2000年の草稿配列には、正確に決定できなかったため配列不明の領域(ギャップ)が15万か所以上含まれていた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "The draft sequence contained more than 150,000 areas where the DNA sequence was unknown because it could not be determined accurately (known as gaps)."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "ヒトゲノム計画の科学者らは、草稿配列のあらゆる部分を作成後まもなく一般公開した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "Human Genome Project scientists made every part of the draft human genome sequence publicly available shortly after production."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "配列データの迅速な公開ルールを定めた「バミューダ原則」は、計画の研究者らが合意したバミューダでの2回の会議に由来する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "This routine came from two meetings in Bermuda in which project researchers agreed to the “Bermuda Principles,” which set out the rules for the rapid release of sequence data."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "NHGRIは1990年に倫理的・法的・社会的意味合い(ELSI)研究プログラムを設立した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "NHGRI established the Ethical, Legal, and Social Implications (ELSI) Research Program in 1990."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "米国議会は、NHGRIに対し研究予算の少なくとも5%をゲノム進歩の倫理的・法的・社会的影響の研究に充てるよう義務付けた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "the U.S. Congress to mandate that NHGRI dedicate at least 5% of its research budget to studying the ethical, legal and social implications of genomic advances"
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "ヒトゲノム計画は、特定の仮説の検証を伴わない生産志向・発見主導型の科学的探究が、科学界にとって極めて価値があり有益であり得ることを示した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "The Human Genome Project demonstrated that production-oriented, discovery-driven scientific inquiry—which did not involve the investigation of a specific hypothesis or the direct answering of preformed questions—could be remarkably valuable and beneficial to the broader scientific community."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "ヒトゲノム計画は、生物医学研究における「ビッグサイエンス」の成功例でもあった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "The project was also a successful example of “big science” in biomedical research."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "技術的課題の大きさから、ヒトゲノム計画は工学・生物学・計算機科学などの専門家を含む世界規模の学際的グループを結集した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "The magnitude of the technological challenges prompted the Human Genome Project to assemble interdisciplinary groups from across the world, involving experts in engineering, biology, and computer science, among other areas."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "ヒトゲノム計画以前、生物医学研究コミュニティはこの規模のプロジェクトに強い懐疑心を抱いていた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "Before the Human Genome Project, the biomedical research community viewed projects of such scale with deep skepticism."
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "ノーベル賞受賞者のジェームズ・ワトソン博士は、ヒトゲノム計画の立ち上げと計画によるゲノムデータ共有の推進に重要な役割を果たした。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "Nobelist James Watson, Ph.D., (front left; in hat) played an instrumental role in launching the Human Genome Project and promoting the project’s sharing of genomic data"
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "規模の経済を最大化するため、作業は少数の主要拠点に集中して行う必要があった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/human-genome-project/What",
+              "quote": "It also required the work to be concentrated in a modest number of major centers to maximize economies of scale."
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "ヒトゲノム計画は、ヒトDNAに関する膨大なデータを生成した。",
+          "confidence": 0.75,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.genome.gov/about-genomics/fact-sheets/A-Brief-Guide-to-Genomics",
+              "quote": "the vast trove of data about human DNA generated by the Human Genome Project"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

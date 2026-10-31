@@ -1,0 +1,164 @@
+/* 設定: ブロック・ミュートした相手の一覧（components/v2/v2-settings-people.tsx）。色は意味トークンだけ。 */
+.v2-people {
+  display: flex;
+  flex-direction: column;
+  gap: var(--v2-space-2);
+}
+
+.v2-people__title {
+  margin: 0;
+  font-size: var(--v2-text-sm, 0.9375rem);
+  font-weight: 600;
+}
+
+.v2-people__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+}
+
+.v2-people__row {
+  display: flex;
+  align-items: center;
+  gap: var(--v2-space-3);
+  padding: var(--v2-space-2) 0;
+  border-bottom: var(--divider);
+}
+
+.v2-people__row:last-child {
+  border-bottom: 0;
+}
+
+.v2-people__who {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--v2-space-1) var(--v2-space-2);
+  overflow-wrap: anywhere;
+}
+
+.v2-people__acct {
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+}
+
+.v2-people__row .v2-action {
+  flex: none;
+}
+
+/* 設定: リンクの本人確認（components/v2/v2-settings-link-verification.tsx）。 */
+.v2-linkverify__snippet {
+  display: block;
+  padding: var(--v2-space-2) var(--v2-space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius-md, 6px);
+  background: var(--panel);
+  font-size: var(--v2-text-xs);
+  overflow-wrap: anywhere;
+}
+
+.v2-linkverify__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.v2-linkverify__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--v2-space-3);
+  padding: var(--v2-space-2) 0;
+  border-bottom: var(--divider);
+}
+
+.v2-linkverify__url {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.v2-badge--verified {
+  background: var(--positive-bg);
+  color: var(--positive-text);
+}
+
+/* 設定ページ全体の整え。小見出し16px、スイッチは青に統一、v1由来の行の文字を12/13/14pxの尺度に。 */
+html body .v2 .v2-settings .v2-msec__head .v2-column__title {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+html body .v2 .v2-settings .setting-row input:checked + i {
+  border-color: var(--action);
+  background: var(--action);
+}
+
+html body .v2 .v2-settings .setting-row input:checked + i::after {
+  background: var(--bg);
+}
+
+html body .v2 .v2-settings .setting-row strong,
+html body .v2 .v2-settings .setting-select strong {
+  font-size: 14px;
+}
+
+html body .v2 .v2-settings .setting-row small,
+html body .v2 .v2-settings .setting-select small,
+html body .v2 .v2-settings .settings-note p {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+html body .v2 .v2-settings :is(button.settings-reset, .v2-sgroup button, .v2-sgroup + div button) {
+  font-size: 13px;
+  line-height: 20px;
+}
+
+html body .v2 .v2-settings .v2-sgroup > button.button {
+  display: inline-flex;
+  align-items: center;
+  inline-size: fit-content;
+  min-block-size: 32px !important;
+  block-size: auto !important;
+  margin: var(--v2-space-3) var(--v2-space-2) var(--v2-space-3) 0;
+  padding: 0 var(--v2-space-4);
+  font-size: 13px !important;
+  line-height: 20px !important;
+  font-weight: 600;
+}
+
+html body .v2 .v2-settings .v2-sgroup > button.button + p {
+  font-size: 12px;
+  line-height: 18px;
+}
+
+html body .v2 .v2-settings button.hub-personalization__reset {
+  display: inline-flex;
+  align-items: center;
+  inline-size: fit-content;
+  min-block-size: 32px;
+  block-size: auto;
+  margin: var(--v2-space-3) var(--v2-space-2) var(--v2-space-3) 0;
+  padding: 0 var(--v2-space-4);
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 600;
+}
+
+/* 設定は 640px の1本の列。行は 56px 以上、行ごとに hover の面。 */
+html body .v2 .v2-settings { max-width: 640px; }
+
+html body .v2 .v2-settings :is(.setting-row, .setting-select) {
+  min-height: 56px;
+  padding-block: var(--v2-space-2);
+  transition: background var(--dur-fast) var(--ease-out);
+}
+
+html body .v2 .v2-settings :is(.setting-row, .setting-select):hover { background: var(--content-surface-hover, var(--interactive)); }
+
+html body .v2 .v2-settings .v2-state--compact { padding-block: var(--v2-space-6); }

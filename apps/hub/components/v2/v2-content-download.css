@@ -1,0 +1,38 @@
+.v2-download-setting {
+  display: grid;
+  gap: var(--v2-space-2, 8px);
+  max-width: var(--v2-measure, 40rem);
+  color: var(--text);
+}
+
+.v2-download-setting__field {
+  display: grid;
+  gap: var(--v2-space-1, 4px);
+}
+
+.v2-download-setting__note,
+.v2-download__note {
+  margin: 0;
+  color: var(--muted);
+  font-size: var(--v2-text-sm);
+}
+
+.v2-download-setting__notice {
+  margin: 0;
+  padding-left: var(--v2-space-2, 8px);
+  border-left: var(--divider);
+  color: var(--text);
+  font-size: var(--v2-text-sm);
+}
+
+.v2-download {
+  display: grid;
+  gap: var(--v2-space-1, 4px);
+  justify-items: start;
+}
+
+.v2-download__error {
+  margin: 0;
+  color: var(--text);
+  font-size: var(--v2-text-sm);
+}

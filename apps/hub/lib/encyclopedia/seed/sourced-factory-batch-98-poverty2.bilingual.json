@@ -1,0 +1,1405 @@
+[
+  {
+    "slug": "growth-and-poverty",
+    "topicType": "concept",
+    "categoryLabel": "経済・ビジネス",
+    "title": "成長と貧困削減",
+    "summary": "世界人口の大半が低い所得水準で暮らす現状と、そこから抜け出すために経済成長がどれだけ必要かをめぐる論点をまとめる。所得の測り方によって「平均」の値が大きく変わること、住む場所が個人の所得を大きく左右すること、援助や歴史的経緯の位置づけを、供給された推計に基づいて整理する。",
+    "bodyMarkdown": "## 世界の所得水準の現状\n\n貧困は世界の少数派が置かれた例外的な状態ではない。世界人口の約85%は1日30ドル未満で暮らし、約61%は1日10ドル未満で暮らしている。この二つの数字は、豊かな国の基準では低所得とみなされる水準に、世界の大半の人が収まっていることを示す。極度の貧困だけを切り出して論じると、その上に広がる巨大な層が視野から外れる。 [1][2]\n\n個々の国を見ると水準の幅はさらにはっきりする。マダガスカルの現在の平均所得は1日1.50ドルであり、ペルー人の平均所得は国際ドル換算で1日13.13ドルである。同じ「平均所得」という語で表される値が、国をまたぐと一桁近く異なる。 [3][6]\n\n## 所得の測り方と「世界平均」の食い違い\n\n世界の平均所得がいくらかという問いには、単一の答えがない。家計調査に基づくと世界の平均所得は1日およそ国際ドル16ドルとなるが、GDP per capitaに基づくと年間国際ドル17,000ドル、1日あたり46.5国際ドルになる。World Inequality Labの推計ではさらに高く、年間国際ドル25,463ドル、1日あたり70国際ドルとされる。 [13][14][15]\n\nこの開きは推計の優劣というより、何を所得に数えるかの違いから生じる。GDP per capitaは政府支出や持ち家の帰属家賃なども含むため、より包括的な指標であり、家計調査に基づく所得より高くなる傾向がある。したがって、ある文献の「1日◯ドル」と別の文献の「1日◯ドル」を、どの指標に基づく値かを確かめずに並べることはできない。 [5]\n\n貧困側の基準も固定されていない。極度の貧困を測る国際貧困線は、2011年価格の1日1.90ドルから、2017年価格の2.15ドル、さらに2021年価格の3ドルへと改定されてきた。年をまたぐ比較では、どの価格年のどの線を用いた数字なのかが結果を左右する。 [9]\n\n## 経済成長が果たす役割\n\n経済成長とは、人々が生産する多くの財やサービスの量または質が増加することを意味する。この定義に立てば、成長は統計上の抽象概念ではなく、人々が手にできるものの総量そのものの変化を指す。長期の規模もそれに応じて大きい。1800年以降、英国経済は80倍に成長した。 [4][7]\n\n成長が起きなかった場合の帰結は、マダガスカルの例に表れている。同国の平均所得は成長しておらず、そのGDP per capitaは3世代前より高くない。供給された評価によれば、経済成長がなければ、マダガスカルなど貧しい国の人々が貧困から抜け出せる見込みはない。 [8][10]\n\n再分配だけで置き換えられるかという問いに対しては、援助の実績が制約を示す。世界の豊かな国の多くは、GDPの0.7%を援助に充てるという国連の目標を達成する意思を持っていない。 [11]\n\n## 住む場所と個人の努力\n\n所得の差がどこから来るかについて、供給された推計は場所の重みを強調する。人がどの国に住んでいるかという要因は、世界の全人口間の所得格差の変動の3分の2を説明する。同じ見方によれば、個人の知識・技能・勤勉さといった要素は、生まれた場所の経済が大きく生産的かどうかという本人にはどうにもならない要素に比べて、貧富への影響がはるかに小さい。 [12][16]\n\nでは、なぜ場所ごとに経済の生産性が違うのか。挙げられている理由の一つは歴史的な経緯であり、一部地域の人々が貧しいのは、植民地勢力による搾取によってその経済の成長が妨げられ、貧困化させられたためだとされる。供給された claims はこの説明を成長格差の唯一の原因とはしておらず、要因の一つとして示している。 [17]\n\n## 関連記事\n\n- 極度の貧困の終わり\n- [国際貧困ライン](/hubpedia/international-poverty-line)\n- [世界の不平等](/hubpedia/global-inequality)\n- [経済的不平等](/hubpedia/economic-inequality)\n- [援助の効果](/hubpedia/aid-effectiveness)",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/poverty-growth-needed",
+        "title": "成長と貧困削減",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on growth-and-poverty. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/economic-growth",
+        "title": "economic-growth",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "The growth in question. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Growth and Poverty Reduction",
+        "summary": "An overview of the fact that most of the world's population lives at low income levels, and of the debate over how much economic growth is needed to escape that condition. Drawing on the supplied estimates, it sets out how the value of an \"average\" shifts sharply depending on how income is measured, how much where a person lives determines their income, and where aid and historical circumstance fit in.",
+        "bodyMarkdown": "## Where world income levels stand today\n\nPoverty is not an exceptional condition confined to a small global minority. About 85% of the world's population lives on less than $30 a day, and about 61% lives on less than $10 a day. Together these two figures show that most people in the world fall within a range that would count as low income by the standards of rich countries. Discussing extreme poverty in isolation leaves the vast stratum above it out of view. [1][2]\n\nLooking at individual countries makes the range of levels clearer still. Madagascar's current average income is $1.50 a day, while the average income of a Peruvian is $13.13 a day in international dollars. Values described by the same phrase — \"average income\" — differ by close to an order of magnitude from one country to another. [3][6]\n\n## Measuring income and the discrepancies in the \"world average\"\n\nThere is no single answer to the question of what average world income is. Based on household surveys, average world income is roughly 16 international dollars a day; based on GDP per capita, it is 17,000 international dollars a year, or 46.5 international dollars a day. The World Inequality Lab's estimate is higher still, at 25,463 international dollars a year, or 70 international dollars a day. [13][14][15]\n\nThis gap arises less from one estimate being better than another than from differences in what counts as income. GDP per capita also includes items such as government spending and the imputed rent of owner-occupied housing, making it a more comprehensive measure that tends to run higher than survey-based income. One document's \"$X a day\" therefore cannot be set alongside another's \"$X a day\" without first checking which measure each figure rests on. [5]\n\nThe thresholds on the poverty side are not fixed either. The international poverty line used to measure extreme poverty has been revised from $1.90 a day in 2011 prices to $2.15 in 2017 prices, and then to $3 in 2021 prices. In comparisons across years, which line at which price base a figure uses shapes the result. [9]\n\n## The role economic growth plays\n\nEconomic growth means an increase in the quantity or quality of the many goods and services that people produce. On this definition, growth is not a statistical abstraction but a change in the sheer volume of what people can obtain. The long-run magnitudes are correspondingly large. Since 1800, the British economy has grown 80-fold. [4][7]\n\nWhat follows when growth does not happen is visible in the case of Madagascar. The country's average income has not grown, and its GDP per capita is no higher than it was three generations ago. On the supplied assessment, without economic growth there is no prospect of people in poor countries such as Madagascar escaping poverty. [8][10]\n\nAs to whether redistribution alone could substitute for growth, the record on aid points to a constraint. Many of the world's rich countries have no intention of meeting the United Nations target of devoting 0.7% of GDP to aid. [11]\n\n## Where you live and individual effort\n\nOn the question of where income differences come from, the supplied estimates emphasize the weight of place. The factor of which country a person lives in accounts for two-thirds of the variation in income inequality across the entire world population. On the same view, factors such as an individual's knowledge, skills, and diligence matter far less to wealth and poverty than the factor entirely outside their control: whether the economy of the place they were born into is large and productive. [12][16]\n\nWhy, then, do economies differ in productivity from place to place? One reason cited is historical circumstance: people in some regions are poor because exploitation by colonial powers held back the growth of their economies and impoverished them. The supplied claims do not treat this as the sole cause of differences in growth, but present it as one factor among others. [17]\n\n## Related articles\n\n- Ending Extreme Poverty\n- [The International Poverty Line](/hubpedia/international-poverty-line)\n- [Global Inequality](/hubpedia/global-inequality)\n- [Economic Inequality](/hubpedia/economic-inequality)\n- [Aid Effectiveness](/hubpedia/aid-effectiveness)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:15:06.140Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "世界人口の約85%は1日30ドル未満で生活している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty-growth-needed",
+              "quote": "85% of the world live on less than $30 per day"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "世界人口の約61%は1日10ドル未満で生活している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty-growth-needed",
+              "quote": "around 61% live on less than $10 per day"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "マダガスカルの現在の平均所得は1日1.50ドルである。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty-growth-needed",
+              "quote": "The current average income in Madagascar today is $1.50 per day"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "経済成長とは、人々が生産する多くの財やサービスの量または質が増加することを意味する。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-growth",
+              "quote": "Economic growth means an increase in the quantity or quality of the many goods and services that people produce"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "GDP per capitaは、政府支出や持ち家の帰属家賃なども含むため、家計調査に基づく所得より高くなる傾向がある、より包括的な所得の指標である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty-growth-needed",
+              "quote": "GDP per capita is typically higher – it is a more comprehensive measure of income and includes, for example, government expenditure and also the imputed rental value of owner-occupied housing"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "ペルー人の平均所得は国際ドル換算で1日13.13ドルである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty-growth-needed",
+              "quote": "The $13.13 average income of people in Peru"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "1800年以降、英国経済は80倍に成長した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty-growth-needed",
+              "quote": "Since then the UK economy grew 80-fold"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "マダガスカルの平均所得は成長しておらず、そのGDP per capitaは3世代前より高くない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty-growth-needed",
+              "quote": "Average incomes in Madagascar did not grow – GDP per capita is not higher than three generations ago"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "極度の貧困を測る国際貧困線は、2011年価格の1日1.90ドルから、2017年価格の2.15ドル、2021年価格の3ドルへと改定されてきた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty-growth-needed",
+              "quote": "from $1.90 a day (in 2011 prices) to $2.15 a day (in 2017 prices) to $3 a day (in 2021 prices)"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "経済成長がなければ、マダガスカルなど貧しい国の人々が貧困から抜け出せる見込みはない。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty-growth-needed",
+              "quote": "Without economic growth there is no chance that the people in Madagascar – and other poor countries – can possibly leave poverty behind"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "世界の豊かな国の多くは、GDPの0.7%を援助に充てるという国連の目標を達成する意思を持っていない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty-growth-needed",
+              "quote": "most rich countries in the world are not willing to achieve the UN goal of spending even only 0.7% of their GDP on aid"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "人がどの国に住んでいるかという要因は、世界の全人口間の所得格差の変動の3分の2を説明する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty-growth-needed",
+              "quote": "The country where a person lives explains two-thirds of the variation of income differences between all people in the world"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "家計調査に基づくと、世界の平均所得は1日およそ国際ドル16ドルである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty-growth-needed",
+              "quote": "the average income in the world is around int.-$16 per day"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "GDP per capitaに基づくと、世界の平均所得は年間国際ドル17,000ドル、1日あたり46.5国際ドルである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty-growth-needed",
+              "quote": "it is int.-$17,000, int.-$46.5 per day"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "World Inequality Labの推計によると、世界の平均所得は年間国際ドル25,463ドル、1日あたり70国際ドルである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty-growth-needed",
+              "quote": "int.-$25,463, int.-$70 per day"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "個人の知識・技能・勤勉さといった要素は、生まれた場所の経済が大きく生産的かどうかという本人にはどうにもならない要素に比べて、貧富への影響がはるかに小さい。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty-growth-needed",
+              "quote": "all these personal factors together matter much less than the factor that is entirely outside a person’s control: whether the place they happen to be born into has a large, productive economy or not"
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "一部地域の人々が貧しい理由の一つは、植民地勢力による搾取によってその経済の成長が妨げられ、貧困化させられたことである。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/poverty-growth-needed",
+              "quote": "they were exploited by colonial powers that did not allow those economies to grow and instead impoverished them"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "global-inequality",
+    "topicType": "concept",
+    "categoryLabel": "経済・ビジネス",
+    "title": "世界の不平等",
+    "summary": "世界の不平等とは、世界のすべての人をひとつの分布として並べたときの所得の偏りを指す。世界銀行のデータでは2026年の世界の所得中央値は月290ドルで、世界人口の半分はそれ未満の所得で生活する一方、上位10%が世界の所得の47.29%を得ている。国のあいだの差が大きいため、オランダ・米国・ドイツのような豊かな国ではこの上位10%に入る人が人口の半分以上を占める。",
+    "bodyMarkdown": "## 国のあいだの所得差\n\n平均所得を同じ通貨に換算して並べると、国のあいだの差は国内の差よりはるかに大きい。マラウイの2019年の1日あたり平均所得（消費）は2.59国際ドル、オランダの2021年の1日あたり平均所得は75.50国際ドルで、比率にしておよそ30対1にあたる。オランダの平均的な人が2週間で得る所得は、マラウイの平均的な人の年間所得の全体を上回る。 [5][7][70]\n\n世界の全人口をひとつの分布として見ると、上位10%が世界の所得の47.29%を得ている一方、下位10%が得ているのは0.91%にすぎない。世界銀行のデータによれば、2026年の世界の所得中央値は月290ドル、1日あたり10ドル弱であり、世界人口の半分はこの水準未満の所得で生活している。2025年時点の同じデータに基づく中央値は、年約3400国際ドル（2021年価格）だった。 [8][17][18][48]\n\nこの分布の上位に入る条件は、豊かな国の基準からすると高くない。単身世帯の場合、税引き後の年間所得が2万ドルあれば世界の所得上位10%に入る。オランダ・米国・ドイツのような豊かな国では、この所得水準に達する人が人口の半分以上を占める。 [6][39]\n\n分布の非対称は金額の規模にも表れる。世界の所得上位10%が、最下位10%の年間所得の合計に相当する額を賄うには、1ドルあたり2セント未満で足りる。 [9]\n\n## 国内の所得分布\n\n一国の内部で見た格差の大きさは国によって異なる。所得上位10%と下位10%の差は、ドイツでは4.5倍、アメリカでは7倍であり、ブラジルでは10倍でドイツの2倍以上にあたる。ただし相対的な差の順序は生活水準の順序と一致するとは限らず、ドイツの下位10%に位置する人は、アメリカの下位10%に位置する人よりわずかに豊かである。 [1][2][3][15]\n\n国際比較では、数値の土台が国ごとに違う点に注意が要る。アンゴラ、ベトナム、マダガスカルのデータは所得ではなく消費に基づく。アンゴラの上位10%と下位10%の相対的な差はマダガスカルやベトナムの2倍の大きさだが、アンゴラとマダガスカルの下位10%の所得は、世界銀行の[絶対的貧困ライン](/hubpedia/international-poverty-line)（1日3ドル）を大きく下回る。相対的な差の大小と、下層が置かれた絶対的な水準は別の事柄である。 [13][14][16]\n\n最上層の取り分にも国ごとの幅がある。比較的不平等の少ない国であるオランダでは、2022年に税・給付前所得の約7%を上位1%が受け取っていたと世界不平等データベース（WID）は推計する。不平等の大きいブラジルでは、同じ年に全所得の4分の1以上を上位1%が受け取っていたと推計されている。アメリカでは2024年、上位0.1%、すなわち1000人に1人が国民所得の約10%を受け取った。 [82][83][84]\n\nシェアを金額に直すと規模が具体的になる。WIDの推計では、2024年のアメリカで上位1%の成人がその年の税引き前国民所得の20.7%を受け取った。同年の成人1人あたり純国民所得の平均は95,280ドルであり、これに所得シェア20.7%を掛けて上位1%の人口シェア1%で割ると1,972,296ドル、すなわち上位1%の平均所得は年間約200万ドルとなる。 [4][27][38][85][86]\n\n国ごとの水準の違いは、経済の規模や技術、人口構成だけで説明しきれない。もっともらしい経済的・技術的・人口統計的な決定要因を考慮しても、国ごとの不平等水準には大きなばらつきが残るというのは、不平等研究における一貫した知見とされる。 [90]\n\n## 時間による変化\n\n世界の分布は絶対額と比率で違った姿を見せる。1990年から2026年にかけて、世界の所得上位10%に入るために必要な所得は1人1日あたり約37ドルから約55ドルへ、約18ドル上昇した。同じ期間に世界の所得下位10%を示す所得水準は約1.80ドルしか上昇せず、上昇幅は上位10%の10分の1にとどまった。 [19][20]\n\n同じ変化を割合で見ると順序が逆になる。1990年以降、世界の所得下位10%および世界の所得中央値の所得は2倍以上に増加した一方、上位10%の所得は割合にして約半分程度しか増加しなかった。 [21][22]\n\n世界全体の人口を対象に測定した所得格差は、特にアジアの一部地域における[急速な経済成長](/hubpedia/growth-and-poverty)に牽引されて近年低下している。個々の国の内部では、近年、所得格差は低下したか、あるいは横ばいで推移した国が多い。 [49][73]\n\n長期の系列がある国は限られる。アメリカとイギリスの所得不平等データは1960年代まで遡る。イギリスでは1980年代後半に不平等が急激に上昇し、その後1990年代にかけてより緩やかな上昇が続いたのに対し、アメリカではこの期間、より連続的かつ緩やかな上昇が見られた。経済学者トニー・アトキンソンは著書『Inequality: What Can Be Done?』でこの比較に注目した。 [77][78][79][80]\n\n## 不平等の測り方\n\n分布全体を一つの数字にまとめる指標として最も一般的なのがジニ係数である。ジニ係数は0（全員が同じ所得）から1（1人が全所得を得る）までの範囲をとる、広く使われる[所得不平等](/hubpedia/economic-inequality)の指標である。多くの国では、税・給付後のジニ係数は税・給付前より低い。 [26][32][76]\n\n何を測るかによっても値は変わる。所得は消費と貯蓄の合計に等しく、貯蓄をする世帯では定義上、所得は消費より高い。分布の最下層では、借り入れや貯蓄の取り崩しによって稼いだ額より多く消費する場合がある。平均して裕福な世帯ほど所得に占める貯蓄の割合が大きい傾向があるため、所得と消費の差は所得が高いほど広がり、消費で測定した不平等はやや低く出る。世界銀行の研究者による論文によれば、同一国において所得ベースのジニ係数は消費ベースのものより平均で約13%高い。 [23][33][53][87][88][89]\n\n調査は世帯単位で行われるため、世帯の所得を個人に割り振る規則も結果を左右する。単身者と4人家族は同じ所得では同水準の生活はできないが、同居によって世帯内の一部費用を共有できるため、4人世帯が同じ生活水準を得るのに4倍の所得を必要とするわけではない。世界銀行は、子供を含む世帯構成員全員で世帯の総所得または総消費を割る単純な手法を採用し、1人当たりの数値を提供する。ルクセンブルク所得研究（LIS）はこの費用の共有を考慮する「均等化」を行い、世帯の総所得を世帯人数の平方根で割る平方根等価尺度を用いる。WIDの主系列は「均等分割」方式を用い、世帯内の20歳以上の成人の数で世帯所得を割る。 [34][58][60][61][75][92][93][98]\n\n通貨と物価の調整も必要になる。国際ドルは、異なる通貨や時期にわたる所得を比較するために用いられる仮想的な通貨であり、各国内のインフレと、購買力平価を用いた国家間の生活費の違いという2点を調整する。2021年国際ドル1単位は、2021年に米ドル1ドルで米国内で購入できる財・サービスの価値として定義される。 [56][57][91]\n\n時間の単位の扱いは単純である一方、そこに前提が隠れている。世界銀行のデータはもともと日次の数値で表されており、月次や年次の値には単純に30倍または365倍して変換する。この換算は機械的で、所得や消費が年間を通じて変動しうるという事実を考慮していない。多くの低所得国では収入が農業の季節によって大きく変動するため、調査がいつ行われたかによって貧困状態かどうかが変わりうる。 [94][95][96]\n\n## 国民所得を分配する推計\n\n分布を国全体の会計と突き合わせる方法もある。世界不平等データベース（WID）を担うチームは、国家の総所得が人口にどう分配されているかを推計する分配的国民勘定（DINA）というアプローチを用いている。出発点となる国内総生産（GDP）は一国内で生産された最終財・サービスの総価値を測定する。GDPから国民所得を算出するには、固定資本減耗（減価償却）を差し引き、自国居住者が海外で得た所得から非居住者が国内で得た所得を差し引いた純対外所得を加える。 [36][37][81]\n\nこの枠組みの所得には、家計の手元に現金として入らないものも含まれる。重要な構成要素の一つが「内部留保利益」で、企業が費用・税金・株主への配当を支払った後に留保する所得を指す。利益が留保されても誰も直接それを受け取らないが、事業の価値を高めることで所有者に利益をもたらす。持ち家の帰属家賃も所得として算入される。 [28][29][30]\n\n税と給付をどの時点で数えるかも定義に含まれる。WIDの税引き前所得は、税金が支払われほとんどの給付が受け取られる前だが、公的・私的年金などの社会保険給付を受け取った後の時点で測定される。税引き後国民所得は、税金の支払いと政府給付の受給後の所得を捉え、現金給付だけでなく学校や病院などの公共サービスの価値、道路や防衛などの政府支出も含む。この配分には仮定が要り、ベンチマーク系列では政府支出の大半が所得に比例して配分され、公的医療支出は全成人にほぼ均等に配分される。 [31][51][52]\n\n## データの出所と限界\n\n主要な出所は性格が異なる。世界銀行の貧困・不平等プラットフォーム（PIP）は各国の調査データを大量に集め、世界のほぼすべての国のデータを公表しており、2026年時点で172か国をカバーする。ルクセンブルク所得研究（LIS）はルクセンブルクに所在する国際横断的なデータベースで、同時点のカバー範囲は52か国である。LISはより厳格な比較可能性の基準を適用するのに対し、世界銀行はより広い国際的な網羅性を目指し、所得ベースと消費ベース両方の調査を組み合わせている。PIPは高所得国については税・給付後の所得を測定する一方、大半の低・中所得国については消費を測定している。 [25][35][50][74][97]\n\n定義の細部が特定の集団の数値を動かすこともある。LISの税引き前指標は公的年金を除外し私的年金を含むため、退職者の税引き前所得は自国の年金制度の組み立て方に左右される。 [65]\n\n調査データには既知の弱点がある。世界銀行のデータが依拠する調査は、最富裕層と最貧困層をうまく捕捉できない。最富裕層は数が少なく、調査に回答しないか、回答しても所得を過小申告することが多い。網羅の穴も残っており、2026年時点で過去10年間の調査データがない国が約30か国ある。 [24][54][55]\n\n調査を補う税務データにも固有の制約がある。税務データは税務当局に把握されている所得のみを捉えるため、インフォーマル雇用が非常に一般的な国では人口の大部分の所得を捉え損ねることがある。多くのアフリカ諸国では、WIDの所得不平等推定は世帯消費調査に基づいている。多くの中東諸国では所得調査データが一部利用可能だが、レバノン1か国のみで観察された税務データと調査データの関係に基づいて調整されている。 [62][63][99][100]\n\n同じ国の同じデータを使っても結論が割れる場合がある。ピケティ・サエズ・ズックマンとオーテン・スプリンターの両陣営は同じ米国データを用いて国民所得の個人間分配を測定しようとしているが、近年数十年で税引き後不平等が上昇したか、どの程度上昇したかについて意見が分かれている。 [64]\n\n## 認識と個人の選択\n\n世界の分布は広く誤解されている。政治経済学者ガウタム・ナイアの研究によれば、アメリカ人は世界の所得の中央値を実際の10倍と過大評価しており、米国人を対象にした調査でも同様の過大評価が確認されている。裏返せば、世界の所得中央値と比べたとき、米国市民は自分たちが思っているよりも実際には10倍豊かだということになる。 [46][59][69]\n\nこの誤解を正す情報は、行動と結びつくことが実験で観察されている。世界の所得分布について知らされた実験参加者の国際慈善団体への寄付割合は15.7%で、知らされなかった対照群の10.1%より55%高かった。実際の寄付額でも、国際慈善団体への総寄付額は対照群の122ドルから情報提供群の196ドルへと61%増加した。 [47][71][72]\n\n国家による移転の規模は、しばしば想定されるより小さい。米国は2004年から2023年にかけて、国民所得の0.2%弱を[対外援助](/hubpedia/aid-effectiveness)プログラムに充てた。1981年、主要な対外援助供与国は国連で、国民所得の少なくとも0.15%を世界の後発開発途上国に充てると約束したが、2022年時点の最新データによると大半の国はこの約束を果たせておらず、達成した国はルクセンブルク、スウェーデン、ノルウェーの3カ国のみだった。 [10][11][43][66]\n\n援助の効果については、大きな推定値が報告されている。The Lancet誌の最近の研究は、USAIDのプログラムが2001年から2021年の間に9100万人以上の死亡（うち子どもの死亡3000万人を含む）を防いだと推定している。米国の対外援助のうち、主に低所得国でのHIV流行対策プログラムは推定1900万人の命を救ったとされる。ワクチン同盟Gaviは数億人の子どもに[予防接種](/hubpedia/vaccines-lives-saved)を行い、150万人の命を救ったと推定されている。いずれもモデルによる推定であり、観測された計数ではない。 [40][41][42]\n\n個人の寄付先を選ぶための評価も存在する。GiveWellは慈善団体を[費用対効果](/hubpedia/cost-effectiveness)に基づいて調査・ランク付けしている。現金を直接渡す方式をとるGiveDirectlyでは寄付10ドルのうち8ドルが直接支援を必要とする人々に渡り、その給付はマラウイ、モザンビーク、ルワンダ、ウガンダ、ケニアなど貧困率が特に高い国の家庭に届けられている。 [12][44][45]\n\n現金給付が何に使われるかは検証されている。貧困層への現金給付を対象とした[無作為化比較試験](/hubpedia/randomized-trial)のメタ分析は、貧困層は現金を受け取ると生活を改善するために使うという明確な傾向を示している。受給者は食料・学費・医療などの必需品に支出しており、それにより幸福度が高まり、ストレスが減り、子どもの健康状態や身長が向上する。 [67][68]\n\n## 関連記事\n\n- 極度の貧困の終わり",
+    "sources": [
+      {
+        "url": "https://ourworldindata.org/global-inequality-opportunity-to-give",
+        "title": "世界の不平等",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Primary Our World in Data article on global-inequality. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://ourworldindata.org/economic-inequality",
+        "title": "economic-inequality",
+        "publisher": "Our World in Data",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "CC-BY-4.0",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://ourworldindata.org/faqs"
+          },
+          "notes": "Inequality measured overall. Publisher policy read 2026-08-28: Original writing is CC BY 4.0: commercial reuse is permitted with credit and a link back. Third-party data and charts (WHO, World Bank, UN, and others) keep their providers' licences and are not covered, so take only Our World in Data's own prose. The name and logo must not imply endorsement. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Global inequality",
+        "summary": "Global inequality refers to the skew in income when everyone in the world is arranged as a single distribution. According to World Bank data, the global median income in 2026 was $290 per month, and half of the world's population lives on less than that, while the top 10% receive 47.29% of global income. Because the gaps between countries are large, in rich countries such as the Netherlands, the United States, and Germany more than half the population falls within this global top 10%.",
+        "bodyMarkdown": "## Income gaps between countries\n\nWhen average incomes are converted into the same currency and lined up, the gaps between countries are far larger than the gaps within them. Malawi's average daily income (consumption) in 2019 was 2.59 international dollars, while the Netherlands' average daily income in 2021 was 75.50 international dollars — a ratio of roughly 30 to 1. What an average person in the Netherlands earns in two weeks exceeds the entire annual income of an average person in Malawi. [5][7][70]\n\nViewing the world's whole population as a single distribution, the top 10% receive 47.29% of global income, while the bottom 10% receive just 0.91%. According to World Bank data, the global median income in 2026 was $290 per month, or slightly under $10 a day, and half of the world's population lives on less than this level. Based on the same data as of 2025, the median was about 3,400 international dollars per year (2021 prices). [8][17][18][48]\n\nThe threshold for entering the upper part of this distribution is not high by the standards of rich countries. For a single-person household, an after-tax annual income of $20,000 places you in the global top 10% of incomes. In rich countries such as the Netherlands, the United States, and Germany, more than half the population reaches this income level. [6][39]\n\nThe asymmetry of the distribution also shows up in the scale of the sums involved. For the global top 10% of income earners to cover an amount equal to the combined annual income of the poorest 10%, less than two cents per dollar would suffice. [9]\n\n## Income distribution within countries\n\nHow large inequality is within a single country varies from place to place. The gap between the top 10% and the bottom 10% of incomes is 4.5-fold in Germany and 7-fold in the United States, while in Brazil it is 10-fold — more than twice Germany's. The ordering of relative gaps does not necessarily match the ordering of living standards, however: a person in the bottom 10% in Germany is slightly better off than a person in the bottom 10% in the United States. [1][2][3][15]\n\nIn international comparisons, it matters that the underlying basis of the figures differs by country. Data for Angola, Vietnam, and Madagascar are based on consumption rather than income. The relative gap between the top 10% and bottom 10% in Angola is twice as large as in Madagascar or Vietnam, but the incomes of the bottom 10% in Angola and Madagascar fall far below the World Bank's [absolute poverty line](/hubpedia/international-poverty-line) ($3 a day). The size of the relative gap and the absolute level at which the bottom sits are separate matters. [13][14][16]\n\nThe share taken by the very top also varies across countries. In the Netherlands, a relatively equal country, the World Inequality Database (WID) estimates that the top 1% received about 7% of pre-tax, pre-benefit income in 2022. In highly unequal Brazil, the top 1% is estimated to have received more than a quarter of all income in that same year. In the United States in 2024, the top 0.1% — one person in a thousand — received about 10% of national income. [82][83][84]\n\nTranslating shares into amounts makes the scale concrete. WID estimates that in the United States in 2024, the top 1% of adults received 20.7% of that year's pre-tax national income. Average net national income per adult that year was $95,280; multiplying by the 20.7% income share and dividing by the top 1%'s 1% population share gives $1,972,296 — that is, an average income for the top 1% of roughly $2 million a year. [4][27][38][85][86]\n\nDifferences in levels across countries cannot be fully explained by the size of the economy, technology, or demographics alone. A consistent finding in inequality research is that even after accounting for plausible economic, technological, and demographic determinants, substantial variation in inequality levels across countries remains. [90]\n\n## Change over time\n\nThe global distribution looks different in absolute amounts than it does in proportional terms. Between 1990 and 2026, the income required to enter the global top 10% rose from about $37 to about $55 per person per day, an increase of roughly $18. Over the same period, the income level marking the global bottom 10% rose by only about $1.80 — one-tenth the increase seen at the top. [19][20]\n\nMeasured in percentage terms, the ordering reverses. Since 1990, incomes of the global bottom 10% and the global median income have more than doubled, while the income of the top 10% rose by only about half as much in proportional terms. [21][22]\n\nIncome inequality measured across the entire world population has fallen in recent years, driven in particular by [rapid economic growth](/hubpedia/growth-and-poverty) in parts of Asia. Within individual countries, income inequality has in recent years fallen or held roughly flat in many cases. [49][73]\n\nOnly a few countries have long time series. Income inequality data for the United States and the United Kingdom go back to the 1960s. In the United Kingdom, inequality rose sharply in the late 1980s, followed by a more gradual rise through the 1990s, whereas the United States saw a more continuous and gradual rise over this period. The economist Tony Atkinson drew attention to this comparison in his book *Inequality: What Can Be Done?*. [77][78][79][80]\n\n## How inequality is measured\n\nThe most common single-number summary of an entire distribution is the Gini coefficient. The Gini coefficient is a widely used measure of [income inequality](/hubpedia/economic-inequality) that ranges from 0 (everyone has the same income) to 1 (one person receives all income). In most countries, the Gini coefficient after taxes and benefits is lower than before them. [26][32][76]\n\nThe value also changes depending on what is being measured. Income equals consumption plus savings, so for households that save, income is by definition higher than consumption. At the bottom of the distribution, people may consume more than they earn by borrowing or drawing down savings. Because wealthier households tend on average to save a larger share of their income, the gap between income and consumption widens as income rises, and inequality measured by consumption comes out somewhat lower. According to a paper by World Bank researchers, within the same country the income-based Gini coefficient is on average about 13% higher than the consumption-based one. [23][33][53][87][88][89]\n\nBecause surveys are conducted at the household level, the rule for allocating household income to individuals also affects the results. A single person and a family of four cannot achieve the same standard of living on the same income, but because living together allows some household costs to be shared, a four-person household does not need four times the income to reach the same standard of living. The World Bank adopts the simple approach of dividing total household income or consumption by all household members, including children, and provides per-capita figures. The Luxembourg Income Study (LIS) accounts for this cost sharing through \"equivalization,\" using a square-root equivalence scale that divides total household income by the square root of the number of household members. WID's main series uses an \"equal-split\" approach, dividing household income by the number of adults aged 20 and over in the household. [34][58][60][61][75][92][93][98]\n\nAdjustments for currency and prices are also needed. The international dollar is a hypothetical currency used to compare incomes across different currencies and time periods, adjusting for two things: inflation within each country, and differences in the cost of living between countries using purchasing power parity. One 2021 international dollar is defined as the value of the goods and services that could be bought in the United States with one US dollar in 2021. [56][57][91]\n\nThe handling of time units is straightforward, yet it conceals an assumption. World Bank data are originally expressed as daily figures, and monthly or annual values are obtained simply by multiplying by 30 or 365. This conversion is mechanical and does not account for the fact that income or consumption can fluctuate over the course of a year. In many low-income countries, earnings vary greatly with the agricultural season, so whether a person counts as living in poverty can depend on when the survey was conducted. [94][95][96]\n\n## Estimates that distribute national income\n\nAnother approach reconciles the distribution with a country's overall accounts. The team behind the World Inequality Database (WID) uses an approach called distributional national accounts (DINA), which estimates how a country's total income is distributed across its population. The starting point, gross domestic product (GDP), measures the total value of final goods and services produced within a country. To arrive at national income from GDP, one subtracts the consumption of fixed capital (depreciation) and adds net foreign income — income earned abroad by a country's residents minus income earned domestically by non-residents. [36][37][81]\n\nIncome in this framework includes things that never reach households as cash. One important component is \"retained earnings,\" the income a company keeps after paying costs, taxes, and dividends to shareholders. When profits are retained, no one receives them directly, but they benefit owners by increasing the value of the business. Imputed rent for owner-occupied housing is also counted as income. [28][29][30]\n\nThe point at which taxes and benefits are counted is likewise part of the definition. WID's pre-tax income is measured before taxes are paid and most benefits are received, but after social insurance benefits such as public and private pensions have been received. Post-tax national income captures income after taxes are paid and government benefits are received, and includes not only cash benefits but also the value of public services such as schools and hospitals, along with government spending on things like roads and defense. This allocation requires assumptions: in the benchmark series, most government spending is allocated in proportion to income, and public health spending is allocated roughly equally across all adults. [31][51][52]\n\n## Data sources and limitations\n\nThe main sources differ in character. The World Bank's Poverty and Inequality Platform (PIP) gathers large volumes of survey data from individual countries and publishes data for nearly every country in the world, covering 172 countries as of 2026. The Luxembourg Income Study (LIS) is a cross-national database based in Luxembourg, covering 52 countries at the same point in time. LIS applies stricter comparability standards, whereas the World Bank aims for broader international coverage and combines both income-based and consumption-based surveys. PIP measures post-tax, post-benefit income for high-income countries, while measuring consumption for most low- and middle-income countries. [25][35][50][74][97]\n\nDetails of definition can also move the figures for particular groups. Because LIS's pre-tax measure excludes public pensions and includes private ones, the pre-tax income of retirees depends on how their country's pension system is constructed. [65]\n\nSurvey data have known weaknesses. The surveys the World Bank's data rely on do not capture the very richest and the very poorest well. The very richest are few in number and often either do not respond to surveys or under-report their income when they do. Gaps in coverage also remain: as of 2026, about 30 countries have no survey data from the past ten years. [24][54][55]\n\nTax data, which supplement surveys, carry their own constraints. Because tax data capture only income known to the tax authorities, in countries where informal employment is very common they can miss the income of a large share of the population. In many African countries, WID's income inequality estimates are based on household consumption surveys. In many Middle Eastern countries, some income survey data are available, but they are adjusted based on the relationship between tax data and survey data observed in a single country, Lebanon. [62][63][99][100]\n\nEven using the same data for the same country, conclusions can diverge. Piketty, Saez, and Zucman on one side and Auten and Splinter on the other both seek to measure the distribution of national income across individuals using the same US data, yet they disagree about whether — and by how much — post-tax inequality has risen in recent decades. [64]\n\n## Perceptions and individual choices\n\nThe global distribution is widely misunderstood. According to research by the political economist Gautam Nair, Americans overestimate the global median income by a factor of ten, and surveys of US residents confirm the same overestimate. Put the other way around, measured against the global median income, US citizens are in fact ten times richer than they think they are. [46][59][69]\n\nExperiments have observed that information correcting this misperception is linked to behavior. Among experimental participants who were informed about the global income distribution, 15.7% donated to an international charity, 55% higher than the 10.1% among the uninformed control group. Actual donation amounts also rose: total giving to international charities increased 61%, from $122 in the control group to $196 in the informed group. [47][71][72]\n\nTransfers by governments are often smaller than assumed. Between 2004 and 2023, the United States devoted just under 0.2% of its national income to [foreign aid](/hubpedia/aid-effectiveness) programs. In 1981, the major foreign aid donor countries pledged at the United Nations to devote at least 0.15% of their national income to the world's least developed countries, but according to the most recent data as of 2022, most countries have failed to meet this pledge — only three did so: Luxembourg, Sweden, and Norway. [10][11][43][66]\n\nLarge estimates have been reported for the effects of aid. A recent study in The Lancet estimates that USAID programs prevented more than 91 million deaths between 2001 and 2021, including 30 million child deaths. Among US foreign aid programs, those addressing the HIV epidemic, primarily in low-income countries, are credited with saving an estimated 19 million lives. Gavi, the Vaccine Alliance, has [immunized](/hubpedia/vaccines-lives-saved) hundreds of millions of children and is estimated to have saved 1.5 million lives. All of these are model-based estimates, not observed counts. [40][41][42]\n\nEvaluations also exist to help individuals choose where to give. GiveWell researches and ranks charities on the basis of [cost-effectiveness](/hubpedia/cost-effectiveness). At GiveDirectly, which gives cash directly, $8 of every $10 donated reaches people in direct need, and those transfers go to households in countries with especially high poverty rates, including Malawi, Mozambique, Rwanda, Uganda, and Kenya. [12][44][45]\n\nWhat cash transfers are spent on has been tested. A meta-analysis of [randomized controlled trials](/hubpedia/randomized-trial) of cash transfers to people in poverty shows a clear pattern: when people in poverty receive cash, they use it to improve their lives. Recipients spend it on necessities such as food, school fees, and healthcare, which raises their well-being, reduces stress, and improves children's health and height. [67][68]\n\n## Related articles\n\n- Ending extreme poverty"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:15:06.145Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "アメリカでは所得上位10%と下位10%の間に7倍の差がある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "In the United States, there’s a 7-fold gap between the incomes marking the richest tenth and the poorest tenth."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "ドイツでは所得上位10%と下位10%の間に4.5倍の差がある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "In Germany, the gap is much lower: 4.5-fold."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "ブラジルでは所得上位10%と下位10%の間に10倍の差があり、ドイツの2倍以上である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "In Brazil, inequality is much higher — more than twice as large as in Germany, with a 10-fold gap."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "WIDの推定によれば、その年の税引き前国民所得のうち20.7%を上位1%の成人が受け取った。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "WID estimates that the top 1% of adults received 20.7% of pre-tax national income in that year"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "オランダの平均的な人の2週間分の所得は、マラウイの平均的な人の年間所得全体を上回る。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-inequality-opportunity-to-give",
+              "quote": "the average person’s income over two weeks is more than the entire yearly income of the average person in Malawi"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "単身世帯の場合、税引き後の年間所得が2万ドルあれば世界の所得上位10%に入る。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-inequality-opportunity-to-give",
+              "quote": "an annual post-tax income of $20,000 puts you in this category"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "マラウイの2019年の1日あたり平均所得（消費）は2.59国際ドルであったのに対し、オランダの2021年の1日あたり平均所得は75.50国際ドルだった。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-inequality-opportunity-to-give",
+              "quote": "In Malawi, the mean daily income or consumption in 2019 was $2.59 (international dollars in 2021 prices, which account for differences in living costs between countries) based on consumption surveys, compared to $75.50 in the Netherlands in 2021 based on income surveys."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "世界の所得上位10%は世界の所得の47.29%を得ている一方、下位10%が得ているのは0.91%にすぎない。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-inequality-opportunity-to-give",
+              "quote": "the top 10% of global earners receive 47.29% of global income, while the bottom 10% receive 0.91%."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "世界の所得上位10%が最下位10%の年間所得合計に相当する額を賄うには、1ドルあたり2セント未満で足りる。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-inequality-opportunity-to-give",
+              "quote": "it takes less than 2 cents out of every dollar"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "米国は2004年から2023年にかけて、国民所得の0.2%弱を対外援助プログラムに充てた。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-inequality-opportunity-to-give",
+              "quote": "Between 2004 and 2023, the United States dedicated just under 0.2% of its national income to foreign aid programs."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "2022年にこの目標を達成した国はルクセンブルク、スウェーデン、ノルウェーの3カ国のみだった。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-inequality-opportunity-to-give",
+              "quote": "Only three countries met the target in 2022: Luxembourg, Sweden, and Norway."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "GiveDirectlyでは寄付10ドルのうち8ドルが直接支援を必要とする人々に渡る。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-inequality-opportunity-to-give",
+              "quote": "For every $10 donated, $8 goes directly to those in need."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "アンゴラ、ベトナム、マダガスカルのデータは所得ではなく消費に基づく。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "The data for Angola, Vietnam, and Madagascar refers to consumption rather than income."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "アンゴラの上位10%と下位10%の相対的な差は、マダガスカルやベトナムの2倍の大きさである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "The relative gap between the top and bottom tenth in Angola is twice as big as it is in either Madagascar or Vietnam."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "ドイツの下位10%に位置する人は、アメリカの下位10%に位置する人よりわずかに豊かである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "A person just inside the bottom tenth in Germany is actually slightly better off than their counterpart in the United States."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "アンゴラとマダガスカルの下位10%の所得は、世界銀行の絶対的貧困ライン（1日3ドル）を大きく下回る。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "They are extremely low among the poorest tenth, far below even the World Bank’s extreme poverty line of $3 a day."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "世界銀行のデータによると、2026年の世界の所得中央値は月290ドル、1日あたり10ドル弱である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "The World Bank data shows that in 2026 the global median income is $290 per month, or a little under $10 a day."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "世界人口の半分はこの中央値（月290ドル）未満の所得で生活している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "Half the world’s population lives on less than this amount"
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "1990年から2026年にかけて、世界の所得上位10%に入るために必要な所得は1人1日あたり約37ドルから約55ドルへ、約18ドル上昇した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "the income needed to just place someone in the richest 10% rose by about $18, from around $37 to $55 per person per day"
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "同期間に世界の所得下位10%を示す所得水準は約1.80ドルしか上昇せず、上位10%の10分の1の上昇幅であった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "The income level marking the poorest 10% also rose, but by only around $1.80, ten times less."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "1990年以降、世界の所得下位10%および世界の所得中央値の所得は2倍以上に増加した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "The incomes of the poorest 10% and the global median — those right in the middle of the distribution — have more than doubled since 1990."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "1990年以降、世界の所得上位10%の所得は割合にして約半分程度しか増加しなかった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "The rise for the richest 10% was much lower in proportional terms, increasing by around a half."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "世界銀行の研究者による論文によれば、同一国において所得ベースのジニ係数は消費ベースのものより平均で約13%高い。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "One paper by World Bank researchers found that, on average, income-based Gini coefficients are about 13% higher than consumption-based ones for the same country."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "2026年時点で、過去10年間の調査データがない国が約30か国ある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "as of 2026, around 30 countries had no survey data from the last decade"
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "ルクセンブルク所得研究（LIS）はルクセンブルクに所在する国際横断的なデータベースである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "The Luxembourg Income Study (LIS) is a cross-national database, located in Luxembourg, which instead prioritizes comparability."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "ジニ係数は0（全員が同じ所得）から1（1人が全所得を得る）までの範囲をとる、広く使われる所得不平等の指標である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "the Gini coefficient — a widely used measure of income inequality that ranges from 0 (everyone has the same income) to 1 (all income goes to one person)"
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "上位1%の平均所得は年間約200万ドルだった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "the average income of the top 1% was around $2 million per year"
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "WIDの所得概念における重要な構成要素の一つは「内部留保利益」であり、これは企業が費用・税金・株主への配当を支払った後に留保する所得である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "One important component is what is known as “undistributed corporate profits”: the income that companies retain after paying costs, taxes, and dividends to shareholders."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "利益が留保されても誰も直接それを受け取らないが、事業の価値を高めることで所有者に利益をもたらす。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "No one receives this directly when profits are retained, but it still benefits the owners because it increases the value of the business."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "WIDでは持ち家の帰属家賃も所得として算入される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "Another aspect that is counted as income in WID is the imputed rent of owner-occupied housing."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "税引き後国民所得は、税金の支払いと政府給付の受給後の所得を捉え、現金給付だけでなく学校や病院などの公共サービスの価値、道路や防衛などの政府支出も含む。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "Post-tax national income captures income after taxes have been paid and government benefits have been received. This includes not only social benefits in cash, but also the value of public services like schools and hospitals, and other government spending like roads and defense."
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "ジニ係数は不平等を測定する最も一般的な方法である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "The Gini coefficient is the most common way of measuring inequality."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "所得は消費と貯蓄の合計に等しい。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "Income equals consumption plus savings."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "LISは平方根等価尺度を用いており、世帯の総所得を世帯人数の平方根で割る。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "LIS uses the square root equivalence scale: it divides the total household income by the square root of the number of people in the household."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "2026年時点で、LISは52か国、PIPは172か国をカバーしている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "At the time of writing in 2026, LIS covers 52 countries and PIP 172."
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "国内総生産(GDP)は一国内で生産された最終財・サービスの総価値を測定する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "Gross domestic product (GDP) measures the total value of final goods and services produced within a country."
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "GDPから国民所得を算出するには、固定資本減耗（減価償却）を差し引き、自国居住者が海外で得た所得から非居住者が国内で得た所得を差し引いた「純対外所得」を加える。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "To get from GDP to national income, you subtract the “consumption of fixed capital” (depreciation) — the costs to replace wear and tear in buildings, machinery, and other assets used in production — and add “net foreign income”: the income earned abroad by a country’s residents, minus the income earned domestically by non-residents."
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "成人1人当たり純国民所得(95,280ドル)に上位1%の所得シェア(20.7%)を掛け、上位1%の人口シェア(1%)で割ると、1,972,296ドルになる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "Calculated as net national income per adult ($95,280) multiplied by the top 1% income share (20.7%), divided by the population share of the top 1% (1%): $95,280 × (0.207 ÷ 0.01) = $1,972,296."
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "この所得水準（世界の所得上位10%）は、オランダ・米国・ドイツのような豊かな国では人口の半分以上を占める。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-inequality-opportunity-to-give",
+              "quote": "That income bracket captures more than half the population in rich countries, like the Netherlands, the US, or Germany."
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "ワクチン同盟Gaviは数億人の子どもに予防接種を行い、150万人の命を救ったと推定されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-inequality-opportunity-to-give",
+              "quote": "Gavi, the Vaccine Alliance, has vaccinated hundreds of millions of children against diseases and has been estimated to have saved 1.5 million lives."
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "米国の対外援助のうち、主に低所得国でのHIV流行対策プログラムは推定1900万人の命を救ったとされる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-inequality-opportunity-to-give",
+              "quote": "its program combating the HIV epidemic, primarily in low-income countries, has saved an estimated 19 million lives."
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "The Lancet誌の最近の研究は、USAIDのプログラムが2001年から2021年の間に9100万人以上の死亡（うち子どもの死亡3000万人を含む）を防いだと推定している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-inequality-opportunity-to-give",
+              "quote": "A recent study in The Lancet estimates that USAID programs helped prevent over 91 million deaths between 2001 and 2021, including 30 million child deaths."
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "1981年、主要な対外援助供与国は国連で、国民所得の少なくとも0.15%を世界の後発開発途上国に充てると約束した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-inequality-opportunity-to-give",
+              "quote": "made a promise at the UN: at least 0.15% of their national income"
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "GiveWellは慈善団体を費用対効果に基づいて調査・ランク付けしている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-inequality-opportunity-to-give",
+              "quote": "GiveWell researches and ranks charitable organizations by their cost-effectiveness"
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "statement": "GiveDirectlyの直接現金給付は、マラウイ、モザンビーク、ルワンダ、ウガンダ、ケニアなど貧困率が特に高い国の家庭に届けられている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-inequality-opportunity-to-give",
+              "quote": "These direct cash transfers reach families in countries with particularly high poverty rates, like Malawi, Mozambique, Rwanda, Uganda, and Kenya."
+            }
+          ]
+        },
+        {
+          "index": 46,
+          "statement": "米国人を対象にした調査では、世界の所得中央値を実際の約10倍過大評価していた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-inequality-opportunity-to-give",
+              "quote": "On average, they overestimated this figure by a factor of 10."
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "statement": "実際の世界の所得中央値を知った人は、知らなかった人と比べて国際慈善団体への寄付意欲が55%高まった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-inequality-opportunity-to-give",
+              "quote": "their willingness to donate to international charities rose by 55% compared to those who remained unaware of the true global income disparity."
+            }
+          ]
+        },
+        {
+          "index": 48,
+          "statement": "2025年時点で、世界銀行の貧困・不平等プラットフォームの最新データに基づく世界の所得中央値は約3400国際ドル（2021年価格）だった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-inequality-opportunity-to-give",
+              "quote": "As of 2025, the global median income was approximately 3,400 international dollars (in 2021 prices), based on the latest data from the World Bank’s Poverty and Inequality Platform."
+            }
+          ]
+        },
+        {
+          "index": 49,
+          "statement": "世界全体の人口を対象に測定した世界的な所得格差は、特にアジアの一部地域における急速な経済成長に牽引され、近年低下している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "Global income inequality — measured across the world’s population as a whole — has fallen in recent decades, driven in particular by rapid economic growth in parts of Asia."
+            }
+          ]
+        },
+        {
+          "index": 50,
+          "statement": "PIPのデータは、高所得国については税・給付後の所得を測定する一方、大半の低・中所得国については消費を測定している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "For high-income countries, the data measures people’s incomes after taxes and benefits. For most low- and middle-income countries, it instead measures their consumption."
+            }
+          ]
+        },
+        {
+          "index": 51,
+          "statement": "WIDの税引き前所得は、税金が支払われほとんどの給付が受け取られる前だが、公的・私的年金などの社会保険給付を受け取った後の時点で測定される。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "Pre-tax income — also described by WID as “pre-tax, post-replacement income” — is measured before taxes are paid and most benefits are received, but after the receipt of social insurance benefits, such as public and private pensions"
+            }
+          ]
+        },
+        {
+          "index": 52,
+          "statement": "WIDのベンチマーク系列では、政府支出の大半は所得に比例して配分され、公的医療支出は全成人にほぼ均等に配分される。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "In its benchmark series, WID allocates most government spending proportionally to income, and public healthcare spending roughly equally across all adults."
+            }
+          ]
+        },
+        {
+          "index": 53,
+          "statement": "平均して裕福な世帯ほど所得に占める貯蓄の割合が大きい傾向があり、そのため所得と消費の差は所得が高いほど広がる。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "On average, richer households tend to save a bigger share of their income, meaning that the gap between income and consumption rises with income."
+            }
+          ]
+        },
+        {
+          "index": 54,
+          "statement": "世界銀行のデータが依拠する調査データには、最富裕層と最貧困層がうまく捕捉されないという既知の弱点がある。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "A known weakness of the survey data on which the World Bank data relies is that the very richest and poorest are often not captured very well."
+            }
+          ]
+        },
+        {
+          "index": 55,
+          "statement": "最富裕層は数が少なく、調査に回答しないか、回答しても所得を過小申告することが多い。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "The very rich are few in number and often don’t respond, or underreport their incomes when they do."
+            }
+          ]
+        },
+        {
+          "index": 56,
+          "statement": "国際ドルを用いることで、各国内のインフレと、購買力平価（PPP）を用いた国家間の生活費の違いという2点が調整される。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "Using international dollars adjusts for two things: inflation within each country (so values across years are comparable) and differences in living costs between countries, using purchasing power parity rates (PPPs)"
+            }
+          ]
+        },
+        {
+          "index": 57,
+          "statement": "2021年国際ドル1単位は、2021年に米ドル1ドルで米国内で購入できる財・サービスの価値として定義される。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "One 2021 international dollar is defined as the value of goods and services that one US dollar would buy in the US in 2021."
+            }
+          ]
+        },
+        {
+          "index": 58,
+          "statement": "世界銀行は、子供を含む世帯構成員全員で世帯の総所得または総消費を割るという単純な手法を採用している。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "The World Bank takes a simple approach and divides the total household income or consumption by all members of the household, including children."
+            }
+          ]
+        },
+        {
+          "index": 59,
+          "statement": "政治経済学者ガウタム・ナイアの研究によれば、アメリカ人は世界の所得の中央値を実際の10倍と過大評価している。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "A study by political economist Gautam Nair showed that Americans overestimate the global median income by a factor of ten."
+            }
+          ]
+        },
+        {
+          "index": 60,
+          "statement": "世界銀行のPIPは、子供を含む世帯人数で世帯の総所得を割った1人当たりの数値を提供する。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "the World Bank PIP discussed earlier provides figures per person, that is, dividing the total household income by the number of people in the household, including children."
+            }
+          ]
+        },
+        {
+          "index": 61,
+          "statement": "世界不平等データベース(WID)の主系列は「均等分割」方式を用い、世帯内の20歳以上の成人の数で世帯所得を割る。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "The World Inequality Database main series (discussed below) uses an “equal split” and divides it by the number of adults (aged 20 and over) in the household."
+            }
+          ]
+        },
+        {
+          "index": 62,
+          "statement": "多くのアフリカ諸国では、WIDの所得不平等推定は世帯消費調査に基づいている。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "For most African countries, for example, the WID’s income inequality estimates are based on surveys of household consumption."
+            }
+          ]
+        },
+        {
+          "index": 63,
+          "statement": "多くの中東諸国では所得調査データが一部利用可能だが、レバノン1か国のみで観察された税務データと調査データの関係に基づいて調整されている。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "For most Middle East countries, some income survey data is available, but it is adjusted based on the relationship between tax and survey data observed just in one country: Lebanon."
+            }
+          ]
+        },
+        {
+          "index": 64,
+          "statement": "ピケティ・サエズ・ズックマンとオーテン・スプリンターの両陣営は同じ米国データを用いて国民所得の個人間分配を測定しようとしているが、近年数十年で税引き後不平等が上昇したか、どの程度上昇したかについて意見が分かれている。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "Both teams use the same underlying US data and aim to measure the same thing: how national income is distributed across individuals. But they disagree about whether (post-tax) inequality has risen in recent decades, and by how much."
+            }
+          ]
+        },
+        {
+          "index": 65,
+          "statement": "LISの税引き前指標は公的年金を除外し私的年金を含むため、退職者の税引き前所得は自国の年金制度の組み立て方に左右される。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "The before-tax measure in LIS excludes public pensions but includes private ones, meaning a retired person’s before-tax income depends on how their country organizes pensions."
+            }
+          ]
+        },
+        {
+          "index": 66,
+          "statement": "2022年時点の最新データによると、大半の国はこの0.15%の約束を果たせていない。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-inequality-opportunity-to-give",
+              "quote": "according to the most recent data (from 2022), most countries failed to honor this promise."
+            }
+          ]
+        },
+        {
+          "index": 67,
+          "statement": "貧困層への現金給付を対象とした無作為化比較試験のメタ分析は、貧困層は現金を受け取ると生活を改善するために使うという明確な傾向を示している。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-inequality-opportunity-to-give",
+              "quote": "when poor people receive cash, they use it to improve their lives"
+            }
+          ]
+        },
+        {
+          "index": 68,
+          "statement": "現金給付の受給者は食料・学費・医療などの必需品に支出しており、それにより幸福度が高まり、ストレスが減り、子どもの健康状態や身長が向上する。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-inequality-opportunity-to-give",
+              "quote": "They spend it on essentials like food, school fees, and healthcare. This improves their well-being, reduces stress, and leads to healthier and taller children."
+            }
+          ]
+        },
+        {
+          "index": 69,
+          "statement": "世界の所得中央値と比べると、米国市民は自分たちが思っているよりも実際には10倍豊かである。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-inequality-opportunity-to-give",
+              "quote": "American citizens are ten times richer than they believe, compared to the global median."
+            }
+          ]
+        },
+        {
+          "index": 70,
+          "statement": "マラウイとオランダの1日あたり所得の比率はおよそ30対1であり、両国間の所得格差の大きさを示している。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-inequality-opportunity-to-give",
+              "quote": "Still, the 30:1 ratio in daily figures illustrates the magnitude of income disparity between these economies."
+            }
+          ]
+        },
+        {
+          "index": 71,
+          "statement": "世界の所得分布について知らされた実験参加者は、国際慈善団体への寄付割合が15.7%となり、知らされなかった対照群の10.1%より55%高かった。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-inequality-opportunity-to-give",
+              "quote": "When informed about global income distribution, participants donated 15.7% to international charities versus 10.1% in the control group—a 55% increase."
+            }
+          ]
+        },
+        {
+          "index": 72,
+          "statement": "実際の寄付額でみると、国際慈善団体への総寄付額は対照群の122ドルから情報提供群の196ドルへと61%増加した。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/global-inequality-opportunity-to-give",
+              "quote": "total actual donations to international charities increasing from $122 in the control group to $196 in the information group—a 61% increase."
+            }
+          ]
+        },
+        {
+          "index": 73,
+          "statement": "多くの個々の国においては、近年、所得格差は低下したか、あるいは横ばいで推移している。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "within many individual countries, income inequality has fallen in recent decades or remained stable."
+            }
+          ]
+        },
+        {
+          "index": 74,
+          "statement": "世界銀行の貧困・不平等プラットフォーム（PIP）は、各国の調査データを大量に集めることで、世界のほぼすべての国のデータを公表している。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "The World Bank’s Poverty and Inequality Platform (PIP) publishes data for almost all countries in the world, based on a large collection of national survey data."
+            }
+          ]
+        },
+        {
+          "index": 75,
+          "statement": "LISは世帯規模を調整する「均等化」により世帯所得を調整している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "One important adjustment LIS makes is for household size, known as “equivalization”."
+            }
+          ]
+        },
+        {
+          "index": 76,
+          "statement": "多くの国では、税・給付後のジニ係数は税・給付前より低い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "In most countries, the Gini is lower after taxes and benefits"
+            },
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "In most countries, the Gini is lower after taxes and benefits — but the size of this gap varies widely."
+            }
+          ]
+        },
+        {
+          "index": 77,
+          "statement": "アメリカとイギリスの所得不平等データは1960年代まで遡る。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "For the United States and the United Kingdom, the data reaches back to the 1960s"
+            }
+          ]
+        },
+        {
+          "index": 78,
+          "statement": "イギリスでは1980年代後半に不平等が急激に上昇し、その後1990年代にかけてより緩やかな上昇が続いた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "the UK saw a large, steep rise in inequality in the late 1980s, followed by a more steady increase across the 1990s"
+            }
+          ]
+        },
+        {
+          "index": 79,
+          "statement": "アメリカではこの期間、より連続的かつ緩やかな不平等の上昇が見られた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "while the US saw a more continuous, gradual increase throughout this period"
+            }
+          ]
+        },
+        {
+          "index": 80,
+          "statement": "経済学者トニー・アトキンソンは著書『Inequality: What Can Be Done?』でこの比較に注目した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "Economist Tony Atkinson drew attention to what this comparison reveals in his book Inequality: What Can Be Done?"
+            }
+          ]
+        },
+        {
+          "index": 81,
+          "statement": "世界不平等データベース（WID）を担うチームは、国家の総所得が人口にどう分配されているかを推計する分配的国民勘定（DINA）というアプローチを用いている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "Together, these sources are used to construct distributional national accounts (DINA): estimates of how a country’s total national income is distributed across the population. This is the approach used by the team behind the World Inequality Database (WID)."
+            }
+          ]
+        },
+        {
+          "index": 82,
+          "statement": "比較的不平等の少ない国であるオランダでは、2022年に税・給付前所得の約7%を上位1%が受け取っていたとWIDは推計する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "For a relatively low inequality country like the Netherlands, WID estimates that the richest 1% received around 7% of all income before taxes and benefits in 2022."
+            }
+          ]
+        },
+        {
+          "index": 83,
+          "statement": "不平等の大きい国であるブラジルでは、同年（2022年）に全所得の4分の1以上を上位1%が受け取っていたとWIDは推計する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "In a high inequality country like Brazil, they estimate that over a quarter of all income went to the richest 1% in the same year."
+            }
+          ]
+        },
+        {
+          "index": 84,
+          "statement": "アメリカでは2024年、上位0.1%（1000人に1人）が国民所得の約10%を受け取った。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "In the US, for example, the richest 0.1% — that is, one in a thousand people — received about 10% of the national income in 2024."
+            }
+          ]
+        },
+        {
+          "index": 85,
+          "statement": "2024年のアメリカにおけるWIDデータ上の成人1人あたり純国民所得の平均は95,280ドルであった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "Take the United States in 2024. Within the WID data, the average net national income per adult was $95,280."
+            }
+          ]
+        },
+        {
+          "index": 86,
+          "statement": "WIDの推計では、2024年のアメリカにおいて成人上位1%が税引前国民所得の20.7%を受け取り、上位1%の平均所得は年間約200万ドルであった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "WID estimates that the top 1% of adults received 20.7% of pre-tax national income in that year — so the average income of the top 1% was around $2 million per year."
+            }
+          ]
+        },
+        {
+          "index": 87,
+          "statement": "貯蓄をする世帯では、定義上、所得は消費より高い。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "For households that save, income is higher than consumption by definition."
+            }
+          ]
+        },
+        {
+          "index": 88,
+          "statement": "分布の最下層では、借り入れや貯蓄の取り崩し（マイナスの貯蓄）によって、稼いだ額より多く消費する場合がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "But at the very bottom of the distribution, the relationship often flips: by borrowing or spending down savings (i.e., negative savings), people may consume more than they earn."
+            }
+          ]
+        },
+        {
+          "index": 89,
+          "statement": "裕福な世帯ほど所得に占める貯蓄割合が大きい傾向があるため、消費で測定した場合、不平等はやや低く出る傾向がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "Because richer households tend to save a larger share of their income, inequality tends to be somewhat lower when measured in terms of consumption."
+            }
+          ]
+        },
+        {
+          "index": 90,
+          "statement": "もっともらしい経済的・技術的・人口統計的な決定要因を考慮しても、国ごとの不平等水準には大きなばらつきがあるというのは不平等研究における一貫した知見である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "The large variation in inequality levels across countries — even accounting for plausible economic, technological, or demographic determinants — is a consistent finding in inequality research."
+            }
+          ]
+        },
+        {
+          "index": 91,
+          "statement": "国際ドルは、異なる通貨や時期にわたる所得を比較するために用いられる仮想的な通貨である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "International dollars are a hypothetical currency used for this."
+            }
+          ]
+        },
+        {
+          "index": 92,
+          "statement": "世界銀行の推定の基となる調査は世帯単位で実施されている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "The surveys on which the World Bank estimates are based are conducted at the household level."
+            }
+          ]
+        },
+        {
+          "index": 93,
+          "statement": "ルクセンブルク所得研究(LIS)は、世帯内の人々が費用の一部を共有できることを考慮して所得を調整する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "the Luxembourg Income Study discussed below adjusts incomes to account for the fact that people in a household can also share some costs."
+            }
+          ]
+        },
+        {
+          "index": 94,
+          "statement": "世界銀行のデータはもともと日次の数値で表されており、月次や年次の値に変換するには単純に30倍または365倍する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "The data is originally expressed as daily figures. To convert to monthly or annual values, we simply multiply by 30 or 365, respectively."
+            }
+          ]
+        },
+        {
+          "index": 95,
+          "statement": "この日次から月次・年次への変換は機械的なものであり、所得や消費が年間を通じて変動しうるという事実を考慮していない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "This is a mechanical conversion, and it doesn’t account for the fact that income and consumption can fluctuate over the course of a year."
+            }
+          ]
+        },
+        {
+          "index": 96,
+          "statement": "多くの低所得国では収入が農業の季節によって大きく変動し、調査がいつ行われたかによって貧困状態かどうかが変わりうる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "In many lower-income countries, for example, earnings vary greatly with the agricultural seasons, and a person may be in poverty or out of it depending on when the survey was done."
+            }
+          ]
+        },
+        {
+          "index": 97,
+          "statement": "LISはより厳格な比較可能性の基準を適用するのに対し、世界銀行はより広い国際的な網羅性を目指し、所得ベースと消費ベース両方の調査を組み合わせている。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "The difference is that LIS applies stricter comparability criteria, while the World Bank aims for broader global coverage and combines both income- and consumption-based surveys"
+            }
+          ]
+        },
+        {
+          "index": 98,
+          "statement": "単身者と4人家族は同じ所得では同水準の生活はできないが、同居することで世帯内の一部費用を共有できるため、4人世帯は同じ生活水準を得るのに4倍の所得を必要としない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "a single person and a family of four cannot live equally well on the same income, but by living together, they can share some costs within the household: a household of four does not need four times the income to have the same standard of living."
+            }
+          ]
+        },
+        {
+          "index": 99,
+          "statement": "税務データは税務当局に把握されている所得のみを捉える。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "Tax data only captures income visible to the tax system."
+            }
+          ]
+        },
+        {
+          "index": 100,
+          "statement": "インフォーマル雇用が非常に一般的な国では、税務データだけでは人口の大部分の所得を捉え損ねることがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://ourworldindata.org/economic-inequality",
+              "quote": "In countries where informal employment is very common, for example, tax data alone can miss income from a large share of the population."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

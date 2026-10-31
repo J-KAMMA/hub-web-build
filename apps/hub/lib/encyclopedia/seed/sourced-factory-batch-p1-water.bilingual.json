@@ -1,0 +1,1216 @@
+[
+  {
+    "slug": "water-cycle",
+    "topicType": "concept",
+    "categoryLabel": "地球・環境",
+    "title": "水循環",
+    "summary": "水循環は、海洋・大気・地表・地下という異なる場所のあいだを、水が蒸発・凝結・降水などの過程を経て絶えず移動する仕組みである。地球上の水の大部分は海洋に蓄えられているが、太陽からのエネルギーと重力によって水は液体・固体・気体と姿を変えながら循環し、気候や生態系、人間の水利用を支えている。",
+    "bodyMarkdown": "## 水の貯蔵庫と状態変化\n\n地球上の水は、大気中、地表、地下という複数の場所に蓄えられている。地球表面の70％以上は海洋に覆われており、地球上のすべての水の96％は海洋に蓄えられている。水は液体、固体、気体のいずれの状態にもなりうり、この状態変化が循環の各過程を支えている。 [1][2][3][6]\n\n## 蒸発・凝結・降水による循環\n\n水は[蒸発](/hubpedia/evaporation)によって地表から大気へ移動する。大気中の水分の約90％は海洋・海・湖・川からの蒸発に由来し、残りは植物の蒸散とごく少量の昇華に由来する。 [4][5][12]\n\n[凝結](/hubpedia/condensation)と[降水](/hubpedia/precipitation)はどちらも水循環における重要なフラックスである。 [13]\n\n## 海洋と陸地における蒸発と降水の収支\n\n地球規模で見ると、蒸発する水の量は降水として地球に届けられる水の量とほぼ同じである。ただしその内訳は場所によって異なり、海洋上では蒸発が降水より多く、陸上では降水が蒸発を常に上回る。海洋から蒸発した水のほとんどは降水として海洋に戻り、陸上に運ばれて降水として降るのは約10％のみである。 [7][8][9][10]\n\n一度蒸発した水分子は、大気中に約10日間とどまる。この滞留時間の短さが、大気中の水分量が地表や海洋、氷床に蓄えられる水の量に比べてはるかに少ない理由となっている。 [11]\n\n## 循環を駆動する力と人間の関与\n\n太陽からのエネルギーと重力が、大気・海洋・陸地といった水だまりの間での水の絶え間ない移動を駆動している。重力は地上で水を下方へ流れさせ、河川や地下水を通じた移動を生む。 [14][15]\n\n水は自然の作用だけでなく人間の活動によっても動かされる。人間による水利用は、水がどこに蓄えられ、どのように動くかに影響を与える。 [16][17]",
+    "sources": [
+      {
+        "url": "https://www.usgs.gov/special-topics/water-science-school/science/water-cycle",
+        "title": "The Water Cycle — USGS Water Science School",
+        "publisher": "U.S. Geological Survey",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits"
+          },
+          "notes": "The survey account of the cycle every stage below belongs to. Publisher policy read 2026-08-28: USGS-authored material is public domain and usable commercially; credit is requested. The USGS identifier is trademarked. Non-USGS photographs and graphics on the site are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle",
+        "title": "Evaporation — USGS Water Science School",
+        "publisher": "U.S. Geological Survey",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits"
+          },
+          "notes": "The stage that starts the cycle. Publisher policy read 2026-08-28: USGS-authored material is public domain and usable commercially; credit is requested. The USGS identifier is trademarked. Non-USGS photographs and graphics on the site are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Water Cycle",
+        "summary": "The water cycle is the mechanism by which water continuously moves among different reservoirs—the ocean, the atmosphere, the land surface, and the subsurface—through processes such as evaporation, condensation, and precipitation. Most of Earth's water is stored in the ocean, but energy from the sun and gravity drive water to circulate while changing among liquid, solid, and gas states, sustaining climate, ecosystems, and human water use.",
+        "bodyMarkdown": "## Water Reservoirs and Phase Changes\n\nWater on Earth is stored in multiple reservoirs: the atmosphere, the land surface, and the subsurface. More than 70% of Earth's surface is covered by ocean, and 96% of all water on Earth is stored in the ocean. Water can exist in liquid, solid, or gas states, and these phase changes underlie each process of the cycle. [1][2][3][6]\n\n## Circulation Through Evaporation, Condensation, and Precipitation\n\nWater moves from the land surface to the atmosphere through [evaporation](/hubpedia/evaporation). About 90% of the moisture in the atmosphere comes from evaporation from oceans, seas, lakes, and rivers, while the remainder comes from plant transpiration and a small amount of sublimation. [4][5][12]\n\nBoth [condensation](/hubpedia/condensation) and [precipitation](/hubpedia/precipitation) are important fluxes in the water cycle. [13]\n\n## The Balance of Evaporation and Precipitation Over Ocean and Land\n\nOn a global scale, the amount of water that evaporates is roughly equal to the amount delivered to Earth as precipitation. However, the breakdown varies by location: over the ocean, evaporation exceeds precipitation, while over land, precipitation always exceeds evaporation. Most of the water that evaporates from the ocean returns to the ocean as precipitation, and only about 10% is carried over land to fall as precipitation there. [7][8][9][10]\n\nOnce evaporated, a water molecule remains in the atmosphere for about 10 days. This short residence time is why the amount of water held in the atmosphere is far smaller than the amount stored on the land surface, in the ocean, or in ice sheets. [11]\n\n## Forces Driving the Cycle and Human Involvement\n\nEnergy from the sun and gravity drive the continuous movement of water among reservoirs such as the atmosphere, the ocean, and the land. Gravity causes water to flow downward on the land surface, producing movement through rivers and groundwater. [14][15]\n\nWater is moved not only by natural processes but also by human activity. Human water use affects where water is stored and how it moves. [16][17]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-29T21:05:38.244Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "水は大気中、地表、地下に蓄えられている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/water-cycle",
+              "quote": "Water is stored in the atmosphere, on the land surface, and below the ground."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "水は液体、固体、気体のいずれの状態にもなりうる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/water-cycle",
+              "quote": "It can be a liquid, a solid, or a gas."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "海洋は地球上のすべての水の96%を蓄えている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/water-cycle",
+              "quote": "Oceans store 96% of all water on Earth."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "水は蒸発によって地表から大気へ移動する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle",
+              "quote": "Water moves from the Earth’s surface to the atmosphere via evaporation."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "大気中の水分の約90％は、海洋・海・湖・川からの蒸発に由来する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle",
+              "quote": "Most of the moisture in the atmosphere (about 90%) came from water evaporating from oceans, seas, lakes, and rivers."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "地球表面の70％以上は海洋に覆われている。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle",
+              "quote": "over 70% of Earth’s surface is covered by oceans"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "地球規模で見ると、蒸発する水の量は降水として地球に届けられる水の量とほぼ同じである。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle",
+              "quote": "On a global scale, the amount of water evaporating is about the same as the amount of water delivered to the Earth as precipitation."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "海洋上では蒸発が降水より多く、陸上では降水が蒸発を常に上回る。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle",
+              "quote": "Evaporation is more prevalent over the oceans than precipitation, while over the land, precipitation routinely exceeds evaporation."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "海洋から蒸発した水のほとんどは降水として海洋に戻る。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle",
+              "quote": "Most of the water that evaporates from the oceans falls back into the oceans as precipitation."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "海洋から蒸発した水のうち、陸上に運ばれて降水として降るのは約10％のみである。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle",
+              "quote": "Only about 10 percent of the water evaporated from the oceans is transported over land and falls as precipitation."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "一度蒸発した水分子は、大気中に約10日間とどまる。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle",
+              "quote": "Once evaporated, a water molecule spends about 10 days in the air."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "大気中の残りの水分は、植物の蒸散とごく少量の昇華に由来する。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle",
+              "quote": "The rest of the moisture in the atmosphere came from plant transpiration and (a very small amount) from sublimation."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "凝結と降水はどちらも水循環における重要なフラックスである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/water-cycle",
+              "quote": "Both condensation and precipitation are important fluxes in our water cycle."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "太陽からのエネルギーと重力が、水だまりの間での水の絶え間ない移動を駆動している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/water-cycle",
+              "quote": "Energy from the sun and the force of gravity drive the continual movement of water between pools."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "重力は地上で水を下方へ流れさせる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/water-cycle",
+              "quote": "Gravity causes water to flow downward on land."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "水は自然の作用と人間の活動の両方によって動く。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/water-cycle",
+              "quote": "Water moves naturally and because of human actions."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "人間の水利用は、水がどこに蓄えられどのように動くかに影響を与える。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/water-cycle",
+              "quote": "human water use affects where water is stored and how water moves"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "evaporation",
+    "topicType": "concept",
+    "categoryLabel": "地球・環境",
+    "title": "蒸発",
+    "summary": "蒸発は、液体の水が熱エネルギーによって水分子間の結合を断たれ、気体の水蒸気へと変わる物理的な過程である。太陽の熱を主な駆動力とし、地表や海洋と大気との間で水を移動させる水循環の中核をなす現象であり、周囲から熱を奪う性質から製塩や気化式冷却などの技術にも利用されている。",
+    "bodyMarkdown": "## 仕組み\n\n蒸発とは、液体の状態にある水が気体の水、すなわち水蒸気へと変化する物理的な過程を指す。この変化を引き起こす主な要因は太陽から届く熱エネルギーであり、そのエネルギーが水分子どうしを結びつけている分子間の結合を断ち切ることで、水は液体から気体へと相転移する。 [1][2][3]\n\n水は摂氏100度の沸点に達すると速やかに蒸発するが、氷点に近い低温でも蒸発は完全に止まるわけではなく、必要な熱エネルギーの供給が乏しいためにはるかに緩やかな速度で進む。分子間の結合を切るにはエネルギーが要るため、蒸発が起こる際には周囲から熱が奪われ、結果として蒸発が生じた場所には正味の冷却効果が生まれる。 [5][6]\n\n蒸発の逆にあたる過程は[凝結](/hubpedia/condensation)であり、水蒸気を含んで飽和した空気が冷やされたときに水蒸気が再び液体の水へと戻ることで起こる。 [4][7]\n\n## 水循環における役割\n\n水は蒸発を通じて地表や海洋と大気との間を絶えず行き来しており、この移動は[水循環](/hubpedia/water-cycle)と呼ばれる大きな循環の一部をなす。地表や海洋の水が大気へ移る経路としては、蒸発と植物からの蒸散を合わせた蒸発散が主要な経路となっている。 [12][13]\n\n## 製塩と鉱物抽出への利用\n\n蒸発の性質は、食塩をはじめとする鉱物の採取にも古くから利用されてきた。塩水を浅い池に引き込み、太陽熱で水分を蒸発させて塩を残す蒸発池の技術は、人類が数千年にわたって用いてきた製塩法の一つである。海水にはこのほかにも、蒸発によって比較的容易に取り出せる貴重な鉱物が含まれている。 [8][18]\n\nこの手法が最も知られた形で行われている場所の一つが死海である。死海は名称に反して実際には湖であり、中東の閉鎖流域の中にあって外部へ水が流れ出す出口を持たない。流入した水はほぼ蒸発によってのみ失われ、周辺の砂漠気候では年間1,300から1,600ミリメートルもの水が蒸発するとされる。出口を持たないまま蒸発だけが続いた結果、死海の水は塩分濃度と密度が世界のどの海よりも高くなっており、ほとんどの生物が生存できない環境になっている。死海の水からは食塩のほか、マグネシウム、カリ、臭素の抽出も行われている。 [9][10][11][14]\n\n## 気化式冷却器\n\n蒸発が周囲を冷やす性質は、気化式冷却器と呼ばれる冷房装置にも応用されている。この装置は乾燥した高温の屋外の空気を取り込み、水で湿らせた蒸発パッドに通すことで空気を冷やす仕組みを持つ。家庭用の装置では、ファンが空気をこのパッドに通過させて水を蒸発させ、冷やされた空気を室内へ送り出す。 [16][17]\n\n気化式冷却器は、湿度が低く気温が高い気候で効果を発揮しやすく、気温を華氏20度ほど下げる一方で湿度を上げるという特徴を持つ。米国では乾燥した地域でこの仕組みが最も効果的に機能するのに対し、湿度の高い東部では通常のエアコンに頼らざるを得ない。もっとも、気化式冷却器はエアコンに比べてはるかに少ないエネルギーで稼働できるという利点がある。 [15][19][20]",
+    "sources": [
+      {
+        "url": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle",
+        "title": "Evaporation — USGS Water Science School",
+        "publisher": "U.S. Geological Survey",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits"
+          },
+          "notes": "The survey own account of evaporation. Publisher policy read 2026-08-28: USGS-authored material is public domain and usable commercially; credit is requested. The USGS identifier is trademarked. Non-USGS photographs and graphics on the site are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.usgs.gov/special-topics/water-science-school/science/water-cycle",
+        "title": "The Water Cycle — USGS Water Science School",
+        "publisher": "U.S. Geological Survey",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits"
+          },
+          "notes": "The survey account of the cycle every stage below belongs to. Publisher policy read 2026-08-28: USGS-authored material is public domain and usable commercially; credit is requested. The USGS identifier is trademarked. Non-USGS photographs and graphics on the site are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Evaporation",
+        "summary": "Evaporation is the physical process by which liquid water changes into gaseous water vapor as heat energy breaks the bonds between water molecules. Driven primarily by heat from the sun, it is a central phenomenon in the water cycle, moving water between the Earth's surface and oceans and the atmosphere, and its heat-absorbing property has also been put to use in technologies such as salt production and evaporative cooling.",
+        "bodyMarkdown": "## Mechanism\n\nEvaporation refers to the physical process in which water in its liquid state changes into gaseous water, that is, water vapor. The main factor driving this change is heat energy arriving from the sun; this energy breaks the intermolecular bonds holding water molecules together, causing water to undergo a phase transition from liquid to gas. [1][2][3]\n\nWater evaporates rapidly once it reaches its boiling point of 100 degrees Celsius, but evaporation does not stop entirely even at low temperatures close to freezing; it simply proceeds at a much slower rate because the necessary heat energy is in short supply. Since energy is required to break intermolecular bonds, heat is drawn from the surroundings when evaporation occurs, producing a net cooling effect at the site where evaporation takes place. [5][6]\n\nThe reverse of evaporation is [condensation](/hubpedia/condensation), which occurs when air saturated with water vapor is cooled and the water vapor turns back into liquid water. [4][7]\n\n## Role in the Water Cycle\n\nThrough evaporation, water constantly moves back and forth between the Earth's surface and oceans and the atmosphere, and this movement forms part of the larger cycle known as the [water cycle](/hubpedia/water-cycle). The main route by which water on the surface and in the oceans moves into the atmosphere is evapotranspiration, which combines evaporation with transpiration from plants. [12][13]\n\n## Use in Salt Production and Mineral Extraction\n\nThe property of evaporation has long been used to extract minerals, including table salt. Evaporation ponds, which draw salt water into shallow pools and use solar heat to evaporate the water and leave the salt behind, are one method of salt production that humans have used for thousands of years. Seawater also contains other valuable minerals that can be extracted relatively easily through evaporation. [8][18]\n\nOne of the best-known places where this method is used is the Dead Sea. Despite its name, the Dead Sea is actually a lake, sitting within a closed drainage basin in the Middle East with no outlet through which water can flow out. Water that flows in is lost almost entirely to evaporation, and in the surrounding desert climate, as much as 1,300 to 1,600 millimeters of water is said to evaporate each year. As a result of this continued evaporation without an outlet, the water of the Dead Sea has a higher salinity and density than any ocean in the world, creating an environment in which most living organisms cannot survive. In addition to table salt, magnesium, potash, and bromine are also extracted from the water of the Dead Sea. [9][10][11][14]\n\n## Evaporative Coolers\n\nThe cooling property of evaporation has also been applied in cooling devices called evaporative coolers. These devices draw in dry, hot outdoor air and cool it by passing it through evaporative pads moistened with water. In household units, a fan pushes air through these pads to evaporate the water, and the cooled air is then sent into the room. [16][17]\n\nEvaporative coolers work best in climates that are low in humidity and high in temperature, and they are characterized by lowering the air temperature by about 20 degrees Fahrenheit while raising humidity. In the United States, this mechanism works most effectively in dry regions, whereas the humid eastern regions must rely on conventional air conditioning. Even so, evaporative coolers have the advantage of being able to operate using far less energy than air conditioners. [15][19][20]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-29T21:05:38.248Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "蒸発とは、液体の水が気体の水（水蒸気）に変わる過程である。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle",
+              "quote": "Evaporation is the process that changes liquid water to gaseous water (water vapor)."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "太陽のエネルギーは液体の水を蒸発させて水蒸気に変える。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/water-cycle",
+              "quote": "The sun’s energy causes liquid water to evaporate into water vapor."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "蒸発は、熱エネルギーが水分子同士を結びつける結合を断ち切ることで起こる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle",
+              "quote": "Evaporation occurs when energy (heat) forces the bonds that hold water molecules together to break."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "蒸発の逆の過程は凝結である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle",
+              "quote": "The opposite of evaporation is condensation."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "水は沸点（華氏212度、摂氏100度）では容易に蒸発するが、氷点では蒸発に必要な熱エネルギーのためにはるかにゆっくり蒸発する。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle",
+              "quote": "Water easily evaporates at its boiling point (212° F, 100° C) but evaporates much more slowly at its freezing point because of the heat energy required to evaporate the water."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "水分子同士の結合を断ち切るためにエネルギーが必要であるため、蒸発は周囲から熱を奪い、正味の冷却をもたらす。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle",
+              "quote": "Because energy is required to break the bonds holding water molecules together, evaporation removes heat from the environment, leading to a net cooling."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "凝結は、飽和した空気が冷やされたときに起こる。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle",
+              "quote": "Condensation occurs when saturated air is cooled"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "食塩を作る方法の一つは、蒸発池で塩水を蒸発させることであり、これは人類が数千年にわたって用いてきた技術である。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle",
+              "quote": "One way to produce table salt is to evaporate saline water in evaporation ponds, a technique used by people for thousands of years."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "死海の水は、食塩だけでなくマグネシウム、カリ、臭素の抽出にも適している。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle",
+              "quote": "Water from the Dead Sea is ideal for the extraction of not only table salt, but also magnesium, potash, and bromine."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "死海は実際には湖であり、中東の閉鎖流域内にあって流出口を持たない。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle",
+              "quote": "The Dead Sea is actually a lake, located in the Middle East within a closed watershed and without any means of outflow."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "死海の水は世界のどの海よりも塩分濃度と密度が高く、生物が生存できないほどである。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle",
+              "quote": "the waters of the Dead Sea have the highest salinity and density of any sea in the world, too high to support life"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "水は蒸発を通じて大気と地表の間を移動する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/water-cycle",
+              "quote": "Water moves between the atmosphere and the surface through evaporation, evapotranspiration, and precipitation."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "蒸発散は水が地表や海洋から大気へ移動する主要な経路である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/water-cycle",
+              "quote": "Evapotranspiration is the main way water moves into the atmosphere from the land surface and oceans."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "死海では水は主に蒸発によって失われ、この砂漠地帯では年間1,300～1,600ミリメートルもの水が蒸発している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle",
+              "quote": "Water primarily leaves the lake by evaporating, resulting in upwards of 1,300 - 1,600 millimeters of evaporated water per year in this desert area"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "湿度が低く気温が高い気候では、気化式冷却器は気温を華氏20度下げる一方で湿度を上げる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle",
+              "quote": "an evaporative cooler can lower the air temperature by 20 degrees F., while it increases humidity"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "気化式冷却器は乾燥した高温の屋外の空気を取り込み、水で湿らせた蒸発パッドに通す仕組みである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle",
+              "quote": "they pull in the dry, hot outdoor air and pass it through an evaporative pad that is kept wet by a supply of water"
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "家庭用の装置では、ファンが空気をパッドに通して水を蒸発させ、冷えた空気が家中に送られる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle",
+              "quote": "In a home device, a fan draws the air through the pad causing the water in the pad to evaporate, resulting in cooler air which is then pumped through the house."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "海水には、蒸発によって容易に得られるその他の貴重な鉱物が含まれている。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle",
+              "quote": "Seawater contains other valuable minerals that are easily obtained due to evaporation."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "気化式冷却器は米国の乾燥地域で最も効果的に機能し、湿度の高い米国東部では通常のエアコンを使わなければならない。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle",
+              "quote": "evaporative coolers work best in the dry areas of the United States (red areas marked A) and can work somewhat in the blue areas marked B. But in section C, in the humid eastern U.S., normal air conditioners must be used"
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "気化式冷却器はエアコンに比べてはるかに少ないエネルギーで済む。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/evaporation-and-water-cycle",
+              "quote": "Much less energy is used as compared to an air conditioner."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "condensation",
+    "topicType": "concept",
+    "categoryLabel": "地球・環境",
+    "title": "凝結",
+    "summary": "凝結とは、大気中の水蒸気が液体の水に変化する過程であり、蒸発の逆にあたる。雲や霧、窓や眼鏡の曇りといった身近な現象の直接の原因であるとともに、水循環と地球の放射収支の両方に関わる過程である。",
+    "bodyMarkdown": "## 蒸発との関係と水循環における役割\n\n凝結とは、大気中の水蒸気が液体の水に変化する過程であり、[蒸発の逆の過程](/hubpedia/evaporation)にあたる。水蒸気の状態にある水分子は液体の水中の水分子よりも無秩序に配列しており、凝結によって水分子がより秩序立った配列に移ると、その変化に伴って熱が大気中に放出される。 [1][2][4][5]\n\n凝結は雲の形成をもたらすため、[水循環](/hubpedia/water-cycle)にとって重要な過程とされる。雲は[降水をもたらす](/hubpedia/precipitation)ことがあり、これは水が地表に戻る主要な経路である。降水とは、雲の底から液体(雨)または固体(氷)の形で水が落下する現象を指す。 [3][7][10]\n\n## 雲の形成過程\n\n雲は、水蒸気を含む空気が上昇し冷えることによって大気中に形成される。空気が上昇して冷えると、その中の水は凝結して空気中から抜け出し、雲を作ることがある。雲が大気中に存在するのは、こうした上昇する空気があるためであり、この過程は空気がより冷たく、蒸発に対して凝結がより多く起こる上空で進みやすい。 [6][9][11][13][16]\n\n気象条件によっては、水分子が大気中の塵・塩・煙などの微粒子と結合して雲粒を形成し、それらが結合しながら成長して雲へと発達する。雲粒の大きさは10マイクロン(百万分の1メートル)から1ミリメートル程度で、大きいものでは5ミリメートルに達することもある。水滴同士が結合する合体という現象によって雲がさらに成長し、降水につながることもある。 [12][15][17]\n\n## 霧という地表付近の凝結\n\n霧と、地表より上で形成される雲との違いは、霧の形成には上昇気流が必要ない点にある。霧は、比較的湿度の高い空気が冷たい面、しばしば地表そのものに触れて露点まで冷却されることで発生する。さらに冷却が進むと凝結が増し、これに伴って下層の雲が成長することもある。 [21][22][23]\n\n暖かい空気が冷たい地表の上を移動することで発生する霧は移流霧と呼ばれ、夜間に地表の温度が下がることで発生する霧は放射霧と呼ばれる。空気が静穏な場合、霧の層は上空の空気と容易に混ざり合わず、これが浅い地表霧の発達を促す。地表付近での凝結は、カリフォルニアで見られる霧の帯の写真などにも示されている。 [24][25][27][28]\n\n## 身近に見られる凝結\n\n凝結は、地表付近の霧のほか、寒い日に窓の内側を覆う水滴や、車の窓の内側に生じる水分の原因でもある。寒い冷房の効いた部屋から湿度の高い屋外に出ると、眼鏡のレンズが凝結によって小さな水滴で覆われ曇ることがある。また、飛行機の排気には水蒸気が含まれ、高高度でしばしば見られるように空気が非常に冷たい場合、排気中の水蒸気が凝結して巻雲に近いものになることがある。 [8][14][20]\n\n## 気候システムにおける役割\n\n凝結によって形成された雲は、地球の気候システムへ出入りする放射エネルギーの流れを調節している。雲は、入射する太陽放射の一部を宇宙へ反射する一方で、地表からの外向きの放射の一部を地表へ反射することで気候に影響を与える。夜間には、雲はしばしば毛布のように働き、熱の一部を地表付近にとどめる働きをする。 [18][19][26]",
+    "sources": [
+      {
+        "url": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+        "title": "Condensation — USGS Water Science School",
+        "publisher": "U.S. Geological Survey",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits"
+          },
+          "notes": "The survey own account of condensation. Publisher policy read 2026-08-28: USGS-authored material is public domain and usable commercially; credit is requested. The USGS identifier is trademarked. Non-USGS photographs and graphics on the site are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.usgs.gov/special-topics/water-science-school/science/water-cycle",
+        "title": "The Water Cycle — USGS Water Science School",
+        "publisher": "U.S. Geological Survey",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits"
+          },
+          "notes": "The survey account of the cycle every stage below belongs to. Publisher policy read 2026-08-28: USGS-authored material is public domain and usable commercially; credit is requested. The USGS identifier is trademarked. Non-USGS photographs and graphics on the site are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Condensation",
+        "summary": "Condensation is the process by which water vapor in the atmosphere changes into liquid water, the reverse of evaporation. It is the direct cause of familiar phenomena such as clouds, fog, and the fogging of windows and eyeglasses, and it is a process involved in both the water cycle and Earth's radiation budget.",
+        "bodyMarkdown": "## Relationship to evaporation and role in the water cycle\n\nCondensation is the process by which water vapor in the atmosphere changes into liquid water, [the reverse process of evaporation](/hubpedia/evaporation). Water molecules in the vapor state are arranged more chaotically than water molecules in liquid water, and when condensation moves the molecules into a more ordered arrangement, heat is released into the atmosphere along with that change. [1][2][4][5]\n\nBecause condensation brings about the formation of clouds, it is considered an important process in the [water cycle](/hubpedia/water-cycle). Clouds can [produce precipitation](/hubpedia/precipitation), which is the main pathway by which water returns to the ground. Precipitation refers to the phenomenon in which water falls from the base of a cloud in liquid (rain) or solid (ice) form. [3][7][10]\n\n## The process of cloud formation\n\nClouds form in the atmosphere when air containing water vapor rises and cools. As air rises and cools, the water within it can condense and leave the air, forming clouds. Clouds exist in the atmosphere because of this rising air, and this process tends to proceed more readily at higher altitudes, where the air is colder and condensation occurs more than evaporation. [6][9][11][13][16]\n\nDepending on weather conditions, water molecules combine with particles such as dust, salt, and smoke in the atmosphere to form cloud droplets, which grow by combining with one another and develop into clouds. Cloud droplets range in size from about 10 microns (millionths of a meter) to 1 millimeter, with the largest reaching as much as 5 millimeters. A phenomenon called coalescence, in which water droplets merge with one another, can cause clouds to grow further, leading to precipitation. [12][15][17]\n\n## Fog as condensation near the ground\n\nThe difference between fog and clouds that form above the ground is that fog formation does not require rising air currents. Fog occurs when relatively humid air comes into contact with a cold surface, often the ground itself, and is cooled to the dew point. As cooling progresses further, condensation increases, and low-level clouds may grow as a result. [21][22][23]\n\nFog that occurs when warm air moves over a cold ground surface is called advection fog, and fog that occurs when the ground temperature drops at night is called radiation fog. When the air is calm, the fog layer does not readily mix with the air above it, which promotes the development of shallow ground fog. Condensation near the ground is illustrated, for example, in photographs of fog banks seen in California. [24][25][27][28]\n\n## Condensation in everyday life\n\nIn addition to fog near the ground, condensation is also the cause of the water droplets that cover the inside of windows on cold days and the moisture that forms on the inside of car windows. When moving from a cold, air-conditioned room into humid outdoor air, the lenses of eyeglasses can become covered with small droplets and fog up due to condensation. Aircraft exhaust also contains water vapor, and when the air is extremely cold, as is often the case at high altitude, the water vapor in the exhaust can condense and become something resembling cirrus clouds. [8][14][20]\n\n## Role in the climate system\n\nClouds formed by condensation regulate the flow of radiant energy into and out of Earth's climate system. Clouds affect climate by reflecting part of the incoming solar radiation back into space, while also reflecting part of the outward radiation from the ground back toward the surface. At night, clouds often act like a blanket, keeping some of that heat near the ground. [18][19][26]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-29T21:05:38.249Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "凝結とは、大気中の水蒸気が液体の水に変化する過程である。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+              "quote": "Condensation is the process by which water vapor in the air is changed into liquid water"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "凝結は蒸発の逆の過程である。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+              "quote": "it’s the opposite of evaporation"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "凝結は雲の形成をもたらすため、水循環にとって重要である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+              "quote": "Condensation is crucial to the water cycle because it is responsible for the formation of clouds."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "水蒸気の状態にある水分子は、液体の水中の水分子よりも無秩序に配列している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+              "quote": "Water molecules in the vapor form are arranged more randomly than in liquid water."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "凝結が起こり水蒸気から液体の水が生じると、水分子はより秩序立った配列になり、その結果として熱が大気中に放出される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+              "quote": "As condensation occurs and liquid water forms from the vapor, the water molecules become more organized, and heat is released into the atmosphere as a result."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "雲は大気中で水が凝結することによって形成される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/water-cycle",
+              "quote": "Clouds are formed by water condensing in the atmosphere."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "雲は降水をもたらすことがあり、それは水が地表に戻る主要な経路である。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+              "quote": "These clouds may produce precipitation, which is the primary route for water to return to the Earth's surface."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "凝結は、地表付近の霧、寒い日の窓の内側を覆う水、車の窓内側の水分の原因である。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+              "quote": "Condensation is responsible for ground-level fog, the water covering the inside of a window on a cold day, and for the moisture on the inside of car windows"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "空気が上昇して冷えると、その中の水は「凝結して抜け出し」、雲を形成することがある。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+              "quote": "As air rises and cools, the water in it can \"condense out,\" forming clouds."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "降水とは、雲の底から液体(雨)または固体(氷)の形で水が落下することである。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+              "quote": "Precipitation is essentially water in its liquid (rain) or solid (ice) form falling from the base of a cloud."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "雲は上昇する空気があるために大気中に存在する。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+              "quote": "Clouds exist in the atmosphere because of rising air."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "雲粒の大きさは10マイクロン(百万分の1メートル)から1ミリメートル、大きいものでは5ミリメートルにまで及ぶ。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+              "quote": "Cloud droplets can vary greatly in size, from 10 microns (millionths of a meter) to 1 millimeter (mm), and even as large as 5 mm."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "雲は、水蒸気を含む空気が上昇し冷えることによって大気中に形成される。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+              "quote": "Clouds form in the atmosphere because air containing water vapor rises and cools."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "寒い冷房の効いた部屋から湿度の高い屋外に出ると、眼鏡のレンズは凝結によって小さな水滴で覆われ曇る。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+              "quote": "the lenses fog up as small water droplets coat the surface via condensation"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "気象条件により、水分子は大気中の塵・塩・煙の微粒子と結合して雲粒を形成し、それらが結合・成長して雲へと発達する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+              "quote": "water molecules will combine with tiny particles of dust, salt, and smoke in the air to form cloud droplets, which combine and grow, developing into clouds"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "雲の形成過程は、空気がより冷たく、蒸発に対して凝結がより多く起こる上空で発生する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+              "quote": "This process occurs higher in the sky where the air is cooler and where more condensation occurs relative to evaporation."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "水滴同士が結合する現象(合体)によって雲が成長するだけでなく、降水が発生することもある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+              "quote": "As water droplets combine with each other (also known as coalescence), and grow, clouds not only develop, but precipitation may also occur."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "凝結によって形成された雲は、地球の気候システムへ出入りする放射エネルギーの流れを調節している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+              "quote": "Clouds regulate the flow of radiant energy into and out of Earth's climate system."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "雲は、入射する太陽放射(熱)の一部を宇宙へ反射し、地表からの外向きの放射の一部を地表へ反射することで地球の気候に影響を与える。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+              "quote": "They influence the Earth's climate by reflecting some incoming solar radiation (heat) back to space and reflecting some outgoing (terrestrial) radiation back to the Earth's surface."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "飛行機の排気には水蒸気が含まれ、高高度でしばしば見られるように空気が非常に冷たい場合、排気中の水蒸気は凝結して巻雲に近いものになる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+              "quote": "The form of exhaust from the airplane contains water vapor, and if the air is very cold (which it often is at high altitudes), then the water vapor in the exhaust will condense out into what is essentially a cirrus cloud."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "霧と(地表より上で形成される)雲との違いは、霧の形成には上昇気流が必要ないことである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+              "quote": "The difference between fog and clouds (which form above the Earth's surface) is that rising air is not required to form fog."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "霧は、比較的湿度の高い空気が冷たい面、しばしば地表に触れて露点まで冷却されることで発生する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+              "quote": "Fog develops when air having a relatively high humidity encounters a colder surface, often the Earth's surface, and cools to the dew point."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "さらなる冷却により凝結が進み、下層雲が成長する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+              "quote": "Additional cooling leads to condensation and the growth of low-level clouds."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "暖かい空気が冷たい地表の上を移動することで発生する霧は移流霧と呼ばれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+              "quote": "Fog that develops when warmer air moves over a colder surface is known as advective fog."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "放射霧と呼ばれる別の種類の霧は、夜間に地表の温度が下がることで発生する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+              "quote": "Another form of fog, known as radiative fog, develops at night when surface temperatures cool."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "夜間、雲はしばしば「毛布」のように働き、熱の一部を地表付近にとどめる。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+              "quote": "Often at night, clouds act as a \"blanket,\" keeping a portion of the heat near the surface."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "凝結は地表付近でも起こり、カリフォルニアの霧(雲の帯)の写真がそれを示している。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+              "quote": "Condensation also occurs at ground level, as this picture of a cloud bank in California shows."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "空気が静穏な場合、霧の層は上空の空気と容易に混ざり合わず、それが浅い地表霧の発達を促す。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/condensation-and-water-cycle",
+              "quote": "If the air is still, the fog layer does not readily mix with the air above it, which encourages the development of shallow ground fog."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "precipitation",
+    "topicType": "concept",
+    "categoryLabel": "地球・環境",
+    "title": "降水",
+    "summary": "降水とは、大気中で凝結した水が重力によって雲から地表へ落下する現象であり、雨・雪・雹などの形をとる。降水は水が大気と地表のあいだを移動する主要な経路であり、その量は地域や季節によって大きく異なる。",
+    "bodyMarkdown": "## 形成の仕組み\n\n降水とは、大気中で凝結した水が重力によって雲から地表へ落下する現象であり、雨、雪、雹などの形をとる。大気中の水が地表に戻る際には降水として経験され、水は降水を通じて大気と地表のあいだを移動する。この移動は[水循環](/hubpedia/water-cycle)を構成する過程の一つである。 [16][17][18]\n\n雲は微小な水滴の集まりであり、雲粒は目に見える雲を形成するには十分な大きさを持つが、降水として落下するには小さすぎる。雲の中で[凝結](/hubpedia/condensation)した水のほとんどは、落下速度が雲を支える上昇気流の速度を上回るほど大きくならないため、そのまま降水にはならない。 [1][2]\n\n降水が生じるには、まず微小な水滴が塵や塩、煙などのさらに微小な粒子を核として結びつく必要がある。水滴どうしが衝突すると追加の水蒸気の凝結によってさらに成長し、落下速度が上昇気流の速度を超えた時点で降水として雲から落下する。1つの雨粒が形成されるには、数百万個の雲粒が必要になる。 [3][4][5][19]\n\n## 氷晶による成長過程\n\n降水サイズの水滴を作るうえでは、衝突による成長よりも効率的な仕組みも存在する。雲の中で氷の結晶が周囲の水蒸気を消費しながら急速に成長する過程で、ベルシェロン・フィンダイセン過程として知られている。氷の結晶はそのまま雪として落下することもあれば、途中で融けて雨として地表に達することもある。 [6][7][8]\n\n## 雨粒の形状\n\n雨粒の形は大きさによって変化する。半径1ミリメートル未満の小さな雨粒はほぼ球形をしているが、水滴どうしの衝突で成長するにつれて、落下中に受ける空気抵抗によって底部が平らになり始める。 [10][20]\n\n直径が2〜3ミリメートルになると底部はハンバーガーのバンズのように平らでくぼんだ形になり、4〜5ミリメートルに達するとくぼみが大きく広がってパラシュートのような形になる。ただしこの形は長く維持されず、大きな雨粒はより小さな雨粒へと分裂する。 [11][12][13]\n\n## 強度による分類\n\n降水は強度によっていくつかの階級に分けられる。霧は1時間あたり0.005インチの強度に相当し、中央粒径は0.01ミリメートル、落下速度は毎秒0.01フィートとされ、1平方フィートあたり毎秒約626万4千個の粒子が存在するとされる。霧雨は1時間あたり0.01インチの強度で、中央粒径は0.96ミリメートル、落下速度は毎秒13.5フィートである。 [22][23]\n\n強い雨は1時間あたり0.60インチの強度に達し、中央粒径は2.05ミリメートル、落下速度は毎秒22.0フィートとされる。豪雨はさらに強く、1時間あたり4.00インチの強度で、中央粒径は2.85ミリメートル、落下速度は毎秒25.9フィートに達するとされる。 [24][25]\n\n## 降水量の地理的・時間的変動\n\n降水量は地理的にも時間的にも大きく変動する。2017年の年間降水量はコロンビアで3,240ミリメートルと最大を記録した一方、同じ年のエジプトはわずか18ミリメートルにとどまった。 [14][15][21]\n\n降水量は地表にもたらされる水の体積としても表される。1エーカーの土地に1インチの雨が降った場合、もたらされる水の量は27,154ガロンに達する。 [9]\n\n## 関連記事\n\n- [蒸発](/hubpedia/evaporation)",
+    "sources": [
+      {
+        "url": "https://www.usgs.gov/special-topics/water-science-school/science/precipitation-and-water-cycle",
+        "title": "Precipitation — USGS Water Science School",
+        "publisher": "U.S. Geological Survey",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits"
+          },
+          "notes": "The survey own account of precipitation. Publisher policy read 2026-08-28: USGS-authored material is public domain and usable commercially; credit is requested. The USGS identifier is trademarked. Non-USGS photographs and graphics on the site are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.usgs.gov/special-topics/water-science-school/science/water-cycle",
+        "title": "The Water Cycle — USGS Water Science School",
+        "publisher": "U.S. Geological Survey",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.usgs.gov/information-policies-and-instructions/copyrights-and-credits"
+          },
+          "notes": "The survey account of the cycle every stage below belongs to. Publisher policy read 2026-08-28: USGS-authored material is public domain and usable commercially; credit is requested. The USGS identifier is trademarked. Non-USGS photographs and graphics on the site are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Precipitation",
+        "summary": "Precipitation is the phenomenon in which water condensed in the atmosphere falls from clouds to the ground under gravity, taking forms such as rain, snow, and hail. It is the primary pathway by which water moves between the atmosphere and the surface, and its amount varies greatly by region and season.",
+        "bodyMarkdown": "## Formation Mechanism\n\nPrecipitation is the phenomenon in which water condensed in the atmosphere falls from clouds to the ground under gravity, taking forms such as rain, snow, and hail. When water in the atmosphere returns to the surface, it is experienced as precipitation, and water moves between the atmosphere and the surface through precipitation. This movement is one of the processes that make up the [water cycle](/hubpedia/water-cycle). [16][17][18]\n\nA cloud is a collection of tiny water droplets; cloud droplets are large enough to form a visible cloud but too small to fall as precipitation. Most of the water that [condenses](/hubpedia/condensation) within a cloud never becomes precipitation, because it does not grow large enough for its fall speed to exceed the speed of the updraft that supports the cloud. [1][2]\n\nFor precipitation to occur, tiny water droplets must first form around even smaller particles, such as dust, salt, or smoke, that act as nuclei. As droplets collide with one another, they grow further through the condensation of additional water vapor, and once their fall speed exceeds the speed of the updraft, they fall from the cloud as precipitation. Forming a single raindrop requires millions of cloud droplets. [3][4][5][19]\n\n## Growth Through Ice Crystals\n\nThere is also a mechanism for producing precipitation-sized droplets that is more efficient than growth by collision. In this process, ice crystals within a cloud grow rapidly by consuming the surrounding water vapor; it is known as the Bergeron–Findeisen process. The ice crystals may fall as snow, or they may melt on the way down and reach the surface as rain. [6][7][8]\n\n## Shape of Raindrops\n\nThe shape of a raindrop changes with its size. Small raindrops with a radius of less than 1 millimeter are nearly spherical, but as they grow through collisions with other droplets, the air resistance they encounter while falling causes their underside to begin flattening. [10][20]\n\nAt a diameter of 2 to 3 millimeters, the underside becomes flat and concave, like a hamburger bun; by the time the diameter reaches 4 to 5 millimeters, the concavity widens greatly, giving the drop a parachute-like shape. This shape is not maintained for long, however, and large raindrops break apart into smaller ones. [11][12][13]\n\n## Classification by Intensity\n\nPrecipitation is divided into several classes by intensity. Fog corresponds to an intensity of 0.005 inches per hour, with a median drop diameter of 0.01 millimeters and a fall speed of 0.01 feet per second, and is said to contain about 6,264,000 particles per square foot per second. Drizzle has an intensity of 0.01 inches per hour, a median drop diameter of 0.96 millimeters, and a fall speed of 13.5 feet per second. [22][23]\n\nHeavy rain reaches an intensity of 0.60 inches per hour, with a median drop diameter of 2.05 millimeters and a fall speed of 22.0 feet per second. Excessive rain is stronger still, reaching an intensity of 4.00 inches per hour, with a median drop diameter of 2.85 millimeters and a fall speed of 25.9 feet per second. [24][25]\n\n## Geographic and Temporal Variation in Precipitation\n\nPrecipitation amounts vary greatly both geographically and over time. In 2017, annual precipitation was highest in Colombia, at 3,240 millimeters, while Egypt received only 18 millimeters that same year. [14][15][21]\n\nPrecipitation amounts can also be expressed as the volume of water delivered to the surface. One inch of rain falling on one acre of land delivers 27,154 gallons of water. [9]\n\n## Related Articles\n\n- [Evaporation](/hubpedia/evaporation)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-29T21:05:38.254Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "雲粒は降水として落下するには小さすぎるが、目に見える雲を形成するには十分な大きさである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/precipitation-and-water-cycle",
+              "quote": "These droplets are way too small to fall as precipitation, but they are large enough to form visible clouds."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "雲の中の凝結した水のほとんどは、落下速度が雲を支える上昇気流を上回るほど大きくないため、降水として落下しない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/precipitation-and-water-cycle",
+              "quote": "Most of the condensed water in clouds does not fall as precipitation because their fall speed is not large enough to overcome updrafts which support the clouds."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "降水が起こるためには、まず微小な水滴が塵・塩・煙などのさらに微小な粒子に凝結し、それらが核となって結びつく必要がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/precipitation-and-water-cycle",
+              "quote": "For precipitation to happen, first tiny water droplets must condense on even tinier dust, salt, or smoke particles, which act as a nucleus, binding them together."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "衝突が十分に起こり、水滴の落下速度が雲の上昇気流の速度を超えると、その水滴は降水として雲から落下する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/precipitation-and-water-cycle",
+              "quote": "If enough collisions occur to produce a droplet with a fall velocity which exceeds the cloud updraft speed, then it will fall out of the cloud as precipitation."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "1つの雨粒を作るには数百万個の雲粒が必要である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/precipitation-and-water-cycle",
+              "quote": "millions of cloud droplets are required to produce a single raindrop"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "降水サイズの水滴を作るより効率的な仕組みとして、雲中の水蒸気を消費して氷の結晶が急速に成長する過程がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/precipitation-and-water-cycle",
+              "quote": "A more efficient mechanism for producing a precipitation-sized drop, is a process which leads to the rapid growth of ice crystals at the expense of the water vapor present in a cloud."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "氷の結晶は雪として落下するか、あるいは融けて雨として落下することがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/precipitation-and-water-cycle",
+              "quote": "These crystals may fall as snow, or melt then fall as rain."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "氷の結晶が水蒸気を消費して急速に成長するこの過程は、ベルシェロン・フィンダイセン過程として知られている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/precipitation-and-water-cycle",
+              "quote": "This process is known as the Bergeron-Findeisen process."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "1エーカーの土地に1インチの雨が降ると、27,154ガロンの水が地表にもたらされる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/precipitation-and-water-cycle",
+              "quote": "One inch of rain falling on just a single acre results in 27,154 gallons of water on the landscape."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "半径1ミリメートル未満の小さな雨粒は、丸いボールのような球形をしている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/precipitation-and-water-cycle",
+              "quote": "Small raindrops, those with a radius of less than 1 millimeter (mm), are spherical, like a round ball."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "直径が約2〜3ミリメートルになると、雨粒の底部はハンバーガーバンのようにかなり平らでくぼんだ形になる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/precipitation-and-water-cycle",
+              "quote": "at about 2-3 mm in diameter the bottom is quite flat with an indention in the middle - much like a hamburger bun"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "雨粒が約4〜5ミリメートルに達すると、底部のくぼみが大きく広がりパラシュートのような形になる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/precipitation-and-water-cycle",
+              "quote": "when they reach about 4-5 mm, things really fall apart. At this size, the indentation in the bottom greatly expands forming something like a parachute."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "パラシュートのような形は長く続かず、大きな雨粒はより小さな雨粒に分裂する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/precipitation-and-water-cycle",
+              "quote": "The parachute doesn't last long, though, and the large drop breaks up into smaller drops."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "2017年、コロンビアは年間3,240ミリメートルという最大量の降水を記録した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/precipitation-and-water-cycle",
+              "quote": "In 2017, Colombia received the greatest amount of precipitation at 3,240 mm for the year."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "同じ2017年、エジプトの年間降水量はわずか18ミリメートルだった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/precipitation-and-water-cycle",
+              "quote": "Contrast that with Egypt for the same year, during which they received only 18 mm of precipitation for the year."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "大気中の水が地表に戻ると降水として経験される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/water-cycle",
+              "quote": "When the water is released back to the Earth's surface we experience precipitation."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "水は降水を通じて大気と地表の間を移動する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/water-cycle",
+              "quote": "Water moves between the atmosphere and the surface through evaporation, evapotranspiration, and precipitation."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "重力は雲から雨、雪、雹を降らせる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/water-cycle",
+              "quote": "It causes rain, snow, and hail to fall from clouds."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "水滴は粒子同士が衝突した際の追加的な水蒸気の凝結によって成長することがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/precipitation-and-water-cycle",
+              "quote": "Water droplets may grow as a result of additional condensation of water vapor when the particles collide."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "水滴が衝突して大きくなるにつれ、落下中に受ける空気抵抗によって水滴の底部が平らになり始める。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/precipitation-and-water-cycle",
+              "quote": "As droplets collide and grow in size, the bottom of the drop begins to be affected by the resistance of the air it is falling through."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "降水量は地理的にも時間的にも変動する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/precipitation-and-water-cycle",
+              "quote": "Precipitation rates vary geographically and over time"
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "霧の強さは1時間あたり0.005インチ、中央粒径は0.01ミリメートル、落下速度は毎秒0.01フィートで、1平方フィートあたり毎秒約626万4千個の粒が存在する。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/precipitation-and-water-cycle",
+              "quote": "Fog\n 0.005\n (0.013)\n 0.01\n 0.01\n (0.003)\n 6,264,000\n (67,425,000)"
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "霧雨の強さは1時間あたり0.01インチ、中央粒径は0.96ミリメートル、落下速度は毎秒13.5フィートである。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/precipitation-and-water-cycle",
+              "quote": "Drizzle\n .01\n (0.025)\n .96\n 13.5\n (4.1)\n 14 (151)"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "強い雨(heavy rain)の強さは1時間あたり0.60インチ、中央粒径は2.05ミリメートル、落下速度は毎秒22.0フィートである。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/precipitation-and-water-cycle",
+              "quote": "Heavy rain\n .60\n (1.52)\n 2.05\n 22.0\n (6.7)\n 46\n (495)"
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "豪雨(cloudburst)の強さは1時間あたり4.00インチ、中央粒径は2.85ミリメートル、落下速度は毎秒25.9フィートである。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.usgs.gov/special-topics/water-science-school/science/precipitation-and-water-cycle",
+              "quote": "Cloudburst\n 4.00\n (10.2)\n 2.85\n 25.9\n (7.9)\n 113\n (1,220)"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

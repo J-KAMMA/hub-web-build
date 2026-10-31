@@ -1,0 +1,3654 @@
+/*
+ * Hub v2 / ナビ・列・帯・共通部品（ボタン・札・空の状態・骨組み）と、複数の領域をまたぐ指定。
+ * v2.css から機械的に切り出した（規則の本文と相対順は変えていない）。
+ */
+
+.v2 {
+  min-height: 100dvh;
+  background: var(--bg);
+  color: var(--text);
+  font-size: var(--v2-text);
+  line-height: var(--v2-leading);
+}
+
+/* 骨組み ------------------------------------------------------------- */
+
+/*
+ * ナビは左端に貼る。中央寄せの箱に入れない。max-width も付けない。
+ * 幅が余ったぶんは本文ではなく、右端の余白と右列が引き受ける。
+ *
+ * **grid ではなく flex。** 畳んだ列を display: none にしたとき、grid だと
+ * 0pxの軌道と gap だけが残り、畳んだのに隙間が空く。flex なら列も隙間も
+ * まとめて消える。
+ */
+.v2__frame {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--v2-gutter);
+  min-height: 100dvh;
+}
+
+/* 右列の入れ物。箱を作らず、中の列と帯をそのまま枠の項目にする。 */
+.v2__aside-slot {
+  display: contents;
+}
+
+/* 右端の帯は縁まで届く。帯が無いときだけ右の余白を取る。 */
+.v2__frame:not(:has(.v2__aside-strip)) {
+  padding-right: var(--v2-edge);
+}
+
+/* 畳んだナビは44pxの帯として残る。戻す取っ手を消さないため。 */
+.v2__rail {
+  flex: none;
+  position: sticky;
+  top: 0;
+  /*
+   * 帯は32px、縦線は引かない。44px＋縦線だと、ナビの縦線と合わせて2本の線に
+   * 挟まれた空の列に見えた（2026-09-03、旦那様「左列とか質が低い」）。
+   * 取っ手は枠線なしの薄い記号にして、余白の中の小さな手がかりに留める。
+   */
+  width: 32px;
+  height: 100dvh;
+  padding-block: var(--v2-space-5);
+  text-align: center;
+}
+
+/* 覗く帯は本文との間の余白を半分に詰める。帯と余白で92pxも空いていた。 */
+.v2__rail--peek {
+  margin-right: calc(var(--v2-gutter) * -1 + var(--v2-space-2));
+}
+
+/*
+ * 畳んだナビの一列（2026-09-05、旦那様「一般的な表示、一列表示」）。
+ *
+ * 32pxの帯は取っ手1つ用の幅で、記号を並べるには狭い。56pxにする
+ * （記号20px＋当たり判定の40px角＋左右の余白）。Slack 68 / Discord 72 /
+ * VS Code 48 の間で、Hubの記号(20px)と行間に合う値を選んだ。
+ *
+ * **縦に溢れさせない。** 14項目＋投稿＋本人で、810pxあたりから下が切れる。
+ * 項目の列だけを送り、投稿と本人は上下に貼り付けたままにする。
+ */
+.v2__rail--nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--v2-space-2);
+  width: 56px;
+  padding-block: var(--v2-space-3);
+  overflow: hidden;
+}
+
+.v2__rail--nav .v2-toggle {
+  flex: none;
+}
+
+/*
+ * 触れたら開く左列（2026-09-07、旦那様「左列を細くして触ったら開くのがいい」）。
+ * 細い列（56px）の場所はそのまま、字のある列を本文の上に重ねる。
+ * 本文を押し動かさない——開くたびに本文が跳ねると、指す先が動いて読めない。
+ */
+/*
+ * コミュニティの節を本文に埋めたとき（2026-09-07）。既存の外枠は 1440px から
+ * 部屋一覧の列（228px）を持つ格子。部屋一覧は出さないので列を1つにする。
+ * メンバー欄は 1600px から右に並び、それより狭いと下に落ちる（既存と同じ）。
+ */
+.v2__main .community-workspace--embedded.community-workspace--channels.tab-left-column-layout {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+/* 既存の .community-chat は display を指定していて hidden 属性に勝つ。投稿欄が節の上に出た。 */
+.v2__main .community-workspace--embedded .community-chat[hidden] {
+  display: none;
+}
+
+@media (min-width: 1600px) {
+  .v2__main .community-workspace--embedded.community-workspace--side-panel.community-workspace--channels.tab-left-column-layout {
+    grid-template-columns: minmax(0, 1fr) 264px;
+  }
+}
+
+.v2__navwrap {
+  flex: none;
+  position: sticky;
+  top: 0;
+  width: 56px;
+  height: 100dvh;
+}
+
+/*
+ * sticky は常に重なりの文脈を作る。中の列にだけ z-index を付けても外には効かず、
+ * 後ろに来る本文が上に描かれた（取っ手と「+」が透けて見えた）。広げたら外側を上げる。
+ */
+.v2__navwrap[data-nav-peek="open"] {
+  z-index: 20;
+}
+
+/*
+ * ブラウザの縦タブと同じ（2026-09-07、旦那様「縦タブ寄り」）。
+ * 列そのものが 56→240px に広がって本文の上に重なる。記号は動かない——
+ * 畳んだ 40px の箱の中の位置（左から 10px）を、広げたときも padding で守る。
+ * 字は右に出るだけ。
+ */
+.v2__navwrap .v2__rail--nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  height: 100dvh;
+  align-items: stretch;
+  background: var(--bg);
+  transition: width .15s ease;
+}
+
+.v2__navwrap[data-nav-peek="open"] .v2__rail--nav {
+  width: var(--v2-nav);
+  border-right: 1px solid var(--line);
+  box-shadow: 0 8px 32px var(--scrim);
+}
+
+/* 取っ手は 32px。56px の列の真ん中に来る左余白を、広げても保つ。 */
+.v2__rail--nav .v2-rail__pin {
+  align-self: flex-start;
+  margin-left: 12px;
+}
+
+.v2-rail__label {
+  display: none;
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: var(--v2-text-sm);
+}
+
+.v2__navwrap[data-nav-peek="open"] .v2-rail__label {
+  display: block;
+}
+
+.v2-rail__me .v2-rail__label {
+  font-weight: 600;
+}
+
+@media (max-width: 900px) {
+  .v2__navwrap {
+    display: none;
+  }
+}
+
+/* 畳んだナビに添える字の列。縦積み（900px以下）でだけ出す。 */
+@media (min-width: 901px) {
+  .v2__frame .v2__nav--stacked-only {
+    display: none;
+  }
+}
+
+.v2-rail__list {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  /* 畳んだ列に横棒を出さない。 */
+  scrollbar-width: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.v2-rail__list::-webkit-scrollbar {
+  display: none;
+}
+
+.v2-rail__item,
+.v2-rail__compose,
+.v2-rail__me {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--v2-space-3);
+  /* 畳んだ 56px の列の真ん中に 40px の箱。広げると箱が右へ伸びるだけで、記号は動かない。 */
+  margin-inline: 8px;
+  padding-left: 10px;
+  height: 40px;
+  /* 検索は <button>。既定の灰色の面と枠が出て、帯に灰色の四角が1つ浮いた（2026-09-08、1440×900）。 */
+  padding-block: 0;
+  padding-right: 0;
+  border: 0;
+  background: transparent;
+  font: inherit;
+  cursor: pointer;
+  border-radius: var(--v2-radius);
+  color: var(--muted);
+}
+
+.v2-rail__item:hover,
+.v2-rail__me:hover {
+  background: var(--interactive);
+  color: var(--text);
+}
+
+.v2-rail__item[aria-current="page"],
+.v2-rail__me[aria-current="page"] {
+  background: var(--interactive);
+  color: var(--text);
+}
+
+/* 群の切れ目。開いているときの線と同じ役割で、畳んでも群は分かる。 */
+.v2-rail__group-start {
+  margin-top: var(--v2-space-2);
+  padding-top: var(--v2-space-2);
+  border-top: 1px solid var(--line);
+}
+
+.v2-rail__compose {
+  flex: none;
+  /* 一番下（2026-09-07）。本人（margin-top: auto）の後ろへ order で送る。 */
+  order: 10;
+  margin-top: var(--v2-space-2);
+  background: var(--action);
+  color: var(--action-text);
+}
+
+/* 左上の Hub。取っ手より前に出す（取っ手は V2Columns が先に置くので order で並べ替える）。 */
+.v2-rail__brand {
+  order: -1;
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  margin-inline: 8px;
+  border-radius: var(--v2-radius);
+  color: var(--text);
+  font-size: var(--v2-text-sm);
+  font-weight: 700;
+  letter-spacing: .02em;
+}
+
+.v2-rail__brand:hover {
+  background: var(--interactive);
+}
+
+.v2__navwrap[data-nav-peek="open"] .v2-rail__brand {
+  justify-content: flex-start;
+  padding-left: 10px;
+}
+
+.v2-rail__compose:hover {
+  background: var(--action-hover);
+  color: var(--action-text);
+}
+
+.v2-rail__me {
+  flex: none;
+  margin-top: auto;
+  /* 顔は 28px。40px の箱の真ん中に来る左余白。 */
+  padding-left: 6px;
+}
+
+.v2-rail__me-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: var(--interactive);
+}
+
+/*
+ * 未読の数。開いているときは行の右端に置くが、畳むと置き場が無いので
+ * 記号の右上へ重ねる。数字は出さず点にする——2桁が40pxの角に収まらない。
+ */
+.v2-rail__item .v2-nav__count,
+.v2-rail__item .v2-nav-count {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  min-width: 8px;
+  height: 8px;
+  padding: 0;
+  border-radius: 50%;
+  background: var(--action);
+  font-size: 0;
+  line-height: 0;
+  overflow: hidden;
+}
+
+.v2__rail .v2-toggle {
+  border-color: transparent;
+  color: var(--muted);
+}
+
+.v2__rail .v2-toggle:hover {
+  border-color: var(--line);
+  background: var(--interactive);
+}
+
+/* 帯の取っ手は、列の頭の行（56px）の真ん中に来るようにする。頭がばらけない。 */
+.v2__rail .v2-toggle {
+  margin-top: calc((var(--v2-top-height) - 32px) / 2);
+}
+
+.v2__main {
+  flex: 1 1 auto;
+}
+
+/*
+ * 縦に伸ばして、投稿するボタンを一番下へ落とす（margin-top: auto）。
+ * 上から順に読む列の、最後に来るのが「書く」。
+ */
+.v2__nav {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  position: sticky;
+  top: 0;
+  width: var(--v2-nav);
+  height: 100dvh;
+  padding: var(--v2-space-5) var(--v2-space-3) var(--v2-space-4) var(--v2-edge);
+  border-right: 1px solid var(--line);
+  /*
+   * 列そのものはスクロールしない。項目の一覧だけがスクロールし、投稿する・本人・
+   * 脚注は下に固定で見えたまま。以前は列全体がスクロールし、貼り付いた投稿ボタンが
+   * 高さ650の画面で「マーケット」「設定」の上に被った（2026-09-03、1280×650）。
+   */
+  overflow: hidden;
+}
+
+/*
+ * 内側左列。画面ごとの目録がここに入る。1392px未満では出さず、覗く帯に替える。
+ * 以前は1200pxから出していたが、1280pxの画面（旦那様のノート）で本文が728pxに
+ * 削られ、列の中は4行しか無かった（2026-09-03）。
+ */
+.v2__directory,
+.v2__rail--directory {
+  display: none;
+}
+
+@media (min-width: 1392px) {
+  .v2__rail--directory {
+    display: block;
+  }
+
+  .v2__directory {
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    width: var(--v2-directory);
+    max-height: 100dvh;
+    padding-block: var(--v2-space-5);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+}
+
+.v2__main {
+  min-width: 0;
+  padding-block: var(--v2-space-5) var(--v2-space-7);
+}
+
+.v2__aside {
+  display: none;
+}
+
+/*
+ * 右列は「本文を見ながら別のものを見る」ための場所なので、広い画面まで
+ * 待たせない。1200pxから出し、小さなデスクトップでは列幅と余白を詰める。
+ *
+ * 1280pxでは本文640pxを確保する。1200pxでは本文560pxまで縮める。
+ * 1700px未満で内側左列と右列を両方開くと、本文は 1440−240−264−320−92＝524px
+ * ＝33字になる。それは既存で潰れたのと同じ形なので、そのときは内側左列を
+ * 引っ込める。どちらを見るかは畳む操作で選べる。
+ */
+@media (min-width: 1200px) {
+  /*
+   * 右列は地に貼り付いた帯ではなく、浮いたカードの器にする。
+   * 中身は従来どおり v2-aside__body だけが縦に流れる。
+   */
+  .v2__aside {
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: var(--v2-space-5);
+    width: var(--v2-aside);
+    max-height: calc(100dvh - var(--v2-space-5) * 2);
+    padding: var(--v2-space-3) var(--v2-space-4) var(--v2-space-4);
+    overflow: hidden;
+    border: 1px solid var(--line);
+    border-radius: var(--v2-radius-lg);
+    background: var(--panel);
+    box-shadow: 0 1px 2px color-mix(in srgb, var(--text) 6%, transparent),
+      0 4px 14px color-mix(in srgb, var(--text) 4%, transparent);
+    overscroll-behavior: contain;
+  }
+}
+
+/*
+ * 右列が実際に開いているときだけ内側左列を引っ込める。畳んでいるなら
+ * 幅は空いているので、内側左列は出したままでよい。
+ * 右列は自分で畳むので、開いているかどうかは列の有無で見る。
+ */
+@media (min-width: 1200px) and (max-width: 1699px) {
+  .v2__frame:has(.v2__aside) .v2__directory,
+  .v2__frame:has(.v2__aside) .v2__rail--directory {
+    display: none;
+  }
+
+  /*
+   * 引っ込めた列には44pxの帯を残す。押すと列を本文の上に重ねて出す（覗く）。
+   * 帯が無いと、フィードの並び・通知の区分・会話の一覧に1440pxで届かない。
+   */
+  .v2__frame:has(.v2__aside) .v2__rail--peek {
+    display: block;
+  }
+
+  .v2__frame:has(.v2__aside)[data-directory-peek="open"] .v2__directory {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: var(--v2-peek-left, 0px);
+    z-index: 20;
+    height: 100dvh;
+    max-height: none;
+    padding-inline: var(--v2-space-4);
+    background: var(--bg);
+    border-right: 1px solid var(--line);
+  }
+}
+
+/* 幅が足りる画面では覗く帯は要らない。 */
+.v2__rail--peek {
+  display: none;
+}
+
+/* 内側左列が本体の画面（会話一覧・チャンネル一覧）は、右列の無い 1200〜1391px でも列として出す。本文は668px。 */
+@media (min-width: 1200px) and (max-width: 1391px) {
+  .v2__frame[data-directory-essential] .v2__directory {
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    width: var(--v2-directory);
+    max-height: 100dvh;
+    padding-block: var(--v2-space-5);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+
+  .v2__frame[data-directory-essential] .v2__rail--peek {
+    display: none;
+  }
+
+  .v2__frame[data-directory-essential][data-directory="collapsed"] .v2__rail--directory {
+    display: block;
+  }
+}
+
+/*
+ * 畳んだ内側左列の帯（2026-09-07、旦那様「内左も一列を触ったら開く」「汎用パーツを残して
+ * 固有パーツを消す」）。44pxの帯に汎用の記号（戻る・作る・検索）だけを残し、触れると
+ * 216pxの列が本文の上に重なる。上の幅ごとの規則（display: none）より後ろで、
+ * .v2__frame を付けて特異度を揃えて勝つ。901px未満は縦積みなので出さない。
+ */
+.v2__dirwrap {
+  flex: none;
+  display: none;
+  position: sticky;
+  top: 0;
+  width: 44px;
+  height: 100dvh;
+}
+
+.v2__dirwrap[data-directory-rail="open"] {
+  z-index: 20;
+}
+
+@media (min-width: 901px) {
+  .v2__frame .v2__dirwrap {
+    display: block;
+  }
+
+  /* 1200〜1391px の本体画面の規則（display: block、特異度 0,4,0）にも勝つよう、4つ目の class を付ける。 */
+  .v2__frame .v2__dirwrap .v2__rail--directory.v2__rail--tools {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--v2-space-2);
+    position: static;
+    width: 44px;
+    height: 100dvh;
+    padding-block: var(--v2-space-3);
+  }
+
+  .v2__frame .v2__dirwrap .v2__directory--hover {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    width: var(--v2-directory);
+    height: 100dvh;
+    max-height: none;
+    padding-block: var(--v2-space-5);
+    padding-inline: var(--v2-space-4);
+    overflow-y: auto;
+    background: var(--bg);
+    border-right: 1px solid var(--line);
+    box-shadow: 0 8px 32px var(--scrim);
+  }
+}
+
+/* 帯は44pxなので、40pxの箱の左右の余白は2px。記号の位置はナビの帯と同じ計算。 */
+.v2__rail--tools .v2-rail__item {
+  margin-inline: 2px;
+  /* 帯は align-items: center なので、伸ばさないと箱が中身の幅（28px）に縮む。 */
+  align-self: stretch;
+}
+
+.v2__rail--tools .v2-rail__pin {
+  margin-left: 6px;
+}
+
+/* 1392px未満: 内側左列は覗く形。右端の帯が表示されない幅では余白を取る。 */
+@media (min-width: 901px) and (max-width: 1391px) {
+  .v2__rail--peek {
+    display: block;
+  }
+
+  .v2__frame:not(:has(.v2__aside-strip)) {
+    padding-right: var(--v2-edge);
+  }
+
+  .v2__frame[data-directory-peek="open"] .v2__directory {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: var(--v2-peek-left, 0px);
+    z-index: 20;
+    width: var(--v2-directory);
+    height: 100dvh;
+    max-height: none;
+    padding-block: var(--v2-space-5);
+    padding-inline: var(--v2-space-4);
+    overflow-y: auto;
+    background: var(--bg);
+    border-right: 1px solid var(--line);
+  }
+}
+
+/*
+ * 一覧の札は2つの器だけ（2026-09-03、旦那様「ハブに必要なuiは」）。
+ * - 行: 左に96pxの絵（無ければ無し）、題16px太字、説明は薄い字で2行まで、下に細い線。
+ *      スレッド・記事・音楽・コミュニティ・ゲーム・Hubpedia・リストがこれ。
+ * - 札: 絵が主役の格子。動画（16:9）と商品（正方形）だけ。
+ * 記事・音楽・コミュニティは枠付きの箱を2〜3列に並べていたが、行に揃えた。
+ */
+
+/* 詳細の型 ------------------------------------------------------------ */
+
+/*
+ * 記事・動画・商品の詳細は同じ順で並ぶ: 絵 → 題 → 添え書き → 行き先のボタン →
+ * 短い本文 → タグ → 同じタグの札。参考は apps/adult-affiliate の作品ページ。
+ * 絵は切り抜かず、最大でも本文の幅に収める。
+ */
+.v2-detail {
+  max-width: var(--v2-content-max);
+}
+
+.v2-detail__media {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  /* 高さ650の画面で商品の絵が570pxになった。上限を付け、余りは黒で受ける（切り抜かない）。 */
+  max-height: min(60vh, 480px);
+  margin-bottom: var(--v2-space-4);
+  border-radius: var(--v2-radius);
+  overflow: hidden;
+  background: var(--media-app-bg);
+}
+
+.v2-detail__media > img,
+.v2-detail__media > video,
+.v2-detail__media > iframe {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.v2-detail__media > * {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.v2-detail__title {
+  margin: 0 0 var(--v2-space-1);
+  font-size: var(--v2-text-lg);
+  font-weight: 700;
+  line-height: var(--v2-leading-tight);
+}
+
+.v2-detail__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 var(--v2-space-3);
+  margin: 0 0 var(--v2-space-3);
+  color: var(--muted);
+  font-size: var(--v2-text-sm);
+}
+
+/* 行き先のボタン。1つ目は面で塗る（押す所だと分かるように）。 */
+.v2-detail__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--v2-space-2);
+  margin: 0 0 var(--v2-space-4);
+}
+
+.v2-detail__actions .v2-button--primary {
+  min-height: 40px;
+  padding-inline: var(--v2-space-5);
+  border-radius: var(--v2-radius-pill);
+}
+
+.v2-detail__lead {
+  max-width: var(--v2-measure);
+  margin: 0 0 var(--v2-space-3);
+  color: var(--text);
+}
+
+.v2-detail__lead p {
+  margin: 0 0 var(--v2-space-2);
+}
+
+.v2-detail__tags {
+  margin-bottom: var(--v2-space-5);
+}
+
+/* 空の状態の見た目は V2State（v2-foundation.css の .v2-state）。ここには置かない。 */
+
+/*
+ * 既存の部品をそのまま置いた画面（口座・計算・Creator Center・購入済み・イベントなど）は、
+ * 自分の大きな見出しを持っている。列の頭と二重に見えるので、本文の中の h1 は列の頭と
+ * 同じ20pxに揃え、上の余白を詰める（2026-09-03、全経路の一覧絵で気付いた）。
+ */
+.v2__main h1:not(.v2-top-title__label) {
+  margin-top: 0;
+  font-size: var(--v2-text-lg);
+  line-height: var(--v2-leading-tight);
+}
+
+/* 読み込み中の骨組み。来るものと同じ形の灰色の枠。動きは薄い明滅だけ。
+   色は --interactive（押せる面の色）。--panel は暗い側で地と同じ黒で見えなかった。 */
+.v2-skeleton {
+  display: grid;
+  gap: var(--v2-space-3);
+}
+
+.v2-skeleton--tiles {
+  grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr));
+  gap: var(--v2-space-4) var(--v2-space-3);
+}
+
+.v2-skeleton__row {
+  display: flex;
+  gap: var(--v2-space-3);
+  padding: var(--v2-space-3) 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.v2-skeleton__avatar {
+  flex: none;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--interactive);
+}
+
+.v2-skeleton__body {
+  display: grid;
+  flex: 1 1 auto;
+  gap: var(--v2-space-2);
+  padding-top: var(--v2-space-1);
+}
+
+.v2-skeleton__bar {
+  display: block;
+  height: 12px;
+  border-radius: 6px;
+  background: var(--interactive);
+  animation: v2-skeleton-pulse 1.4s ease-in-out infinite;
+}
+
+.v2-skeleton__bar--short {
+  width: 30%;
+}
+
+.v2-skeleton__bar--half {
+  width: 60%;
+}
+
+.v2-skeleton__tile {
+  display: grid;
+  gap: var(--v2-space-2);
+}
+
+.v2-skeleton__art {
+  display: block;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--v2-radius);
+  background: var(--interactive);
+  animation: v2-skeleton-pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes v2-skeleton-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: .55; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .v2-skeleton__bar,
+  .v2-skeleton__art {
+    animation: none;
+  }
+}
+
+.v2-shelf__play .v2-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.v2-player__grip .v2-icon {
+  width: 18px;
+  height: 18px;
+}
+
+.v2-player__volume .v2-icon {
+  flex: none;
+  width: 18px;
+  height: 18px;
+}
+
+/* 棚と本文が盤の下に隠れないように、本文の下に盤ぶんの余白を足す。 */
+.v2__main {
+  padding-bottom: var(--v2-space-7);
+}
+
+/*
+ * 既存の部品を v2 の本文に置いたときの下ごしらえ（2026-09-03）。
+ * v1 の決めごとは .main-content に当ててあるので、v2 の .v2__main には当たらない。
+ * そのぶんが素の見た目に落ちる。口座の「復旧コードを作り直す」は、v1で40px、
+ * v2では26pxの素のボタンになっていた（字を継いでいなかった）。
+ */
+.v2__main :where(button, [role="button"], input, select, textarea) {
+  font: inherit;
+}
+
+/*
+ * 名前の付いていない操作だけ、v2 の形にする。
+ * :where と :not([class]) で、部品が自分で持っている見た目には触らない。
+ */
+.v2__main :where(button:not([class]), select:not([class])),
+.v2__main :where(input:not([class]):not([type="range"]):not([type="checkbox"]):not([type="radio"]):not([type="file"])),
+.v2__main :where(textarea:not([class])) {
+  min-height: 32px;
+  padding: var(--v2-space-1) var(--v2-space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius);
+  background: var(--panel);
+  color: var(--text);
+  font-size: var(--v2-text-sm);
+}
+
+.v2__main :where(button:not([class]):hover, select:not([class]):hover) {
+  border-color: var(--line-strong);
+  background: var(--interactive);
+}
+
+.v2__main :where(button:not([class])) {
+  cursor: pointer;
+}
+
+/* ナビ --------------------------------------------------------------- */
+
+/*
+ * 項目の見た目。2026-09-02 の「列の頭を1行に揃える」で、頭の行の規則を
+ * 1つにまとめたときに、この塊ごと落ちていた（8d38e987b）。6コミットの間、
+ * ナビと内側左列は素の <ul> のまま（黒丸と下線）で出ていた。sweep は
+ * はみ出しと切れしか見ないので拾えない。
+ */
+.v2-nav__list {
+  display: grid;
+  align-content: start;
+  gap: 2px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/*
+ * スクロールするのは**ナビの**一覧だけ。内側左列にも同じ ul があり、そこまで縮めると
+ * 動画の分類が3行で切れて中でスクロールした（2026-09-03、1280×650）。
+ */
+.v2__nav .v2-nav__list {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+/*
+ * 項目は行そのものが的になる。既存は44pxの行に7pxの余白で、名前と数字が
+ * 同じ行を奪い合っていた。ここでは名前が先に幅を取り、数字は縮まない。
+ */
+.v2-nav__item {
+  display: flex;
+  align-items: center;
+  gap: var(--v2-space-3);
+  /*
+   * 行は34px（上下8px＋字18px）。本文の行間1.75をここにも掛けると1行44pxになり、
+   * 15項目で900pxを使い切って本人の行と脚注が下に落ちた（2026-09-03）。
+   */
+  padding: var(--v2-space-2) var(--v2-space-3);
+  border-radius: var(--v2-radius);
+  color: var(--text);
+  font-size: 15px;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+/* 行の頭の記号。文字より少し薄く、光っている行では文字と同じ濃さ。 */
+.v2-nav__icon {
+  flex: none;
+  width: 22px;
+  height: 22px;
+  color: var(--muted);
+}
+
+/*
+ * 押した直後の合図（監査 S1）。リンクを押すと V2Columns が workspace に data-pending を付け、
+ * 上端の2pxの棒が走る。loading.tsx は同じ棒を常に出す。動きを減らす設定では走らせず、色だけ出す。
+ */
+.v2-progress {
+  position: fixed;
+  inset: 0 0 auto 0;
+  z-index: 200;
+  height: 2px;
+  background: var(--action);
+  transform-origin: left center;
+  transform: scaleX(0);
+  opacity: 0;
+  pointer-events: none;
+}
+.v2__workspace[data-pending="true"] > .v2-progress,
+.v2-progress--on {
+  opacity: 1;
+  animation: v2-progress-run 9s cubic-bezier(0.1, 0.6, 0.3, 1) forwards;
+}
+@keyframes v2-progress-run {
+  from { transform: scaleX(0.02); }
+  to { transform: scaleX(0.92); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .v2__workspace[data-pending="true"] > .v2-progress,
+  .v2-progress--on {
+    animation: none;
+    transform: scaleX(1);
+  }
+}
+.v2__workspace[data-pending="true"] .v2__main {
+  opacity: 0.72;
+  transition: opacity var(--dur-fast) var(--ease-out);
+}
+
+.v2-nav__item:hover .v2-nav__icon {
+  color: var(--text);
+}
+
+.v2-nav__item[aria-current="page"] .v2-nav__icon {
+  color: var(--action);
+}
+
+/* 本人の行。投稿ボタンの下。顔28px、名前と @ を2段に。 */
+.v2-nav__me {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: var(--v2-space-3);
+  margin-top: var(--v2-space-2);
+  padding: var(--v2-space-2) var(--v2-space-3);
+  border-radius: var(--v2-radius);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.v2-nav__me:hover,
+.v2-nav__me[aria-current="page"] {
+  background: var(--interactive);
+}
+
+.v2-nav__me-avatar {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--panel);
+  color: var(--muted);
+  object-fit: cover;
+}
+
+.v2-nav__me-avatar .v2-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.v2-nav__me-body {
+  display: grid;
+  min-width: 0;
+  line-height: 1.3;
+}
+
+.v2-nav__me-body strong,
+.v2-nav__me-body small {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.v2-nav__me-body strong {
+  font-size: var(--v2-text-sm);
+}
+
+.v2-nav__me-body small {
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+}
+
+.v2-nav__item:hover {
+  background: var(--interactive);
+}
+
+/* 脚注。投稿ボタンの下。細い字で。ボタンが下に貼り付いても隠れない。 */
+.v2-nav__footer {
+  flex: none;
+  display: grid;
+  gap: var(--v2-space-1);
+  padding: var(--v2-space-2) 0 0;
+}
+
+.v2-nav__theme {
+  justify-self: start;
+}
+
+/* テーマの切替と環境の札を1行に。札を脚注の行に混ぜると3行目に落ちて、900pxの高さで切れた。 */
+.v2-nav__foot-row {
+  display: flex;
+  align-items: center;
+  gap: var(--v2-space-2);
+  min-width: 0;
+}
+
+.v2-nav__foot-row .v2-nav__theme {
+  min-width: 0;
+  overflow: hidden;
+  padding-inline: var(--v2-space-2);
+  font-size: var(--v2-text-xs);
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.v2-nav__legal {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--v2-space-1) var(--v2-space-3);
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+}
+
+.v2-nav__legal a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.v2-nav__legal a:hover {
+  text-decoration: underline;
+}
+
+.v2-nav__env {
+  flex: none;
+  white-space: nowrap;
+  padding: 0 var(--v2-space-2);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius-pill);
+}
+
+/* 目次の小見出し（h3）は少し下げる。 */
+.v2-nav__item--sub {
+  padding-left: var(--v2-space-6);
+}
+
+.v2-person__body:hover .v2-post__name {
+  text-decoration: underline;
+}
+
+.v2-lists__new .v2-tnew__title,
+.v2-lists__edit .v2-tnew__title {
+  flex: 1 1 14em;
+}
+
+/*
+ * 既存の appleization-system.css は、画面ぜんぶを包む器を
+ * width: min(100%, --apple-page-max) + margin-inline: auto で中央に寄せる。
+ * v1 では本文の列いっぱいなので正しいが、v2 では既に狭い本文の中に入るので、
+ * 器だけが真ん中に浮いて、上の行と左端が揃わなくなる
+ * （2026-09-03、/v2/account で本文304pxに対し器402px）。v2 の中では左に揃える。
+ */
+.v2__main :is(
+  .feature-panel,
+  .hub-account,
+  .hub-legal,
+  .ad-inventory-page,
+  .games-catalog,
+  .notifications-page,
+  .settings,
+  .service-directory,
+  .search-page,
+  .bookmarks-page,
+  .lists-page,
+  .token-ranking,
+  .requests-page
+) {
+  width: 100%;
+  margin-inline: 0;
+  padding-inline: 0;
+}
+
+/*
+ * 既存の column-title-system.css は 1200px 以上で .hub-account__header を
+ * 列いっぱいの全幅（100cqw、!important）に広げる。v2 の本文に置くと本文の枠を
+ * 突き抜けて 1440px 幅になった（2026-09-03、/v2/account/transactions で実測）。
+ * v1 は .tab-left-column-main の中で戻していたので、v2 は .v2__main の中で戻す。
+ */
+.v2__main :is(
+  .hub-account__header,
+  .feature-header,
+  .page-header,
+  .post-detail__header,
+  .profile-page-simple__header,
+  .notifications-page > header,
+  .settings-page-header,
+  .hub-legal > header,
+  .ad-inventory-page > header,
+  .games-catalog > header,
+  .video-hub__header,
+  .music-header,
+  .digital-commerce__header,
+  .commerce-payment-header
+) {
+  inline-size: 100% !important;
+  max-inline-size: none !important;
+  margin-inline: 0 !important;
+  padding-inline: 0 !important;
+  /* 頭の行の下に52pxの上余白が残り、本文が80px下から始まっていた（2026-09-03）。 */
+  padding-top: 0 !important;
+}
+
+.v2__main .hub-account {
+  padding-top: 0;
+  padding-inline: 0;
+}
+
+/*
+ * ナビの群（流れ／探す／自分）。見出しは畳むボタン——小さく薄く、
+ * 行の間に紛れないよう少し下げる。畳んだ群の未読は見出しの数字に集まる。
+ */
+.v2-nav__group {
+  display: grid;
+  gap: 2px;
+}
+
+.v2-nav__group + .v2-nav__group,
+.v2-nav__group + .v2-nav__group-items,
+.v2-nav__group-items + .v2-nav__group {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid var(--line);
+}
+
+.v2-nav__group-head {
+  display: flex;
+  align-items: center;
+  gap: var(--v2-space-2);
+  width: 100%;
+  margin: 0;
+  padding: 2px var(--v2-space-3) 4px;
+  border: 0;
+  border-radius: var(--v2-radius);
+  background: none;
+  color: var(--muted);
+  font: inherit;
+  font-size: var(--v2-text-xs);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-align: left;
+  cursor: pointer;
+}
+
+.v2-nav__group-head:hover {
+  color: var(--text);
+}
+
+.v2-nav__group-head[data-current] {
+  color: var(--action);
+}
+
+.v2-nav__group-label {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.v2-nav__group-chevron {
+  flex: none;
+  width: 14px;
+  height: 14px;
+  color: var(--muted);
+  transition: transform 0.15s;
+}
+
+.v2-nav__group-head[aria-expanded="false"] .v2-nav__group-chevron {
+  transform: rotate(-90deg);
+}
+
+.v2-nav__group-items {
+  display: grid;
+  gap: 2px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.v2-nav__group-items[hidden] {
+  display: none;
+}
+
+/* 根のレイアウトの「本文へ飛ぶ」（#hub-main）で焦点が来る。枠線は出さない。 */
+.v2__main:focus {
+  outline: none;
+}
+
+/* 画面が描かれるまでの一言。 */
+.v2-loading {
+  /* 列は作らないが、本文の幅に置く。画面いっぱいの棒は本物と形が違って跳ねる。 */
+  max-width: var(--v2-content-max);
+  margin: var(--v2-space-5) auto;
+  padding-inline: var(--v2-space-4);
+}
+
+/*
+ * 左のナビと内側の縦の目録だけが「選択行を塗る」。本文の中の横タブ（アカウント・市場・依頼・ボードなど）は
+ * ここに入れない。入れると余白の無い塗りの箱になる（監査 S5）。横タブは下の下線タブの規則が持つ。
+ */
+:is(.v2__nav, .v2__directory, .v2__tabs-column:not(.v2__tabs-column--top)) .v2-nav__item[aria-current="page"] {
+  background: var(--emphasis-soft);
+  color: var(--action);
+  font-weight: 700;
+}
+
+.v2-nav__label {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.v2-nav__count {
+  flex: none;
+  padding-inline: var(--v2-space-2);
+  border-radius: var(--v2-radius-pill);
+  background: var(--emphasis);
+  color: var(--action-text);
+  font-size: var(--v2-text-xs);
+  font-variant-numeric: tabular-nums;
+}
+
+.v2-nav__compose {
+  display: block;
+  width: 100%;
+  /*
+   * 列の一番下へ。上の項目がいくつでも、ここが最後に来る。
+   * 列が縦に足りずスクロールするときも、下に貼り付いて見えたままにする。
+   */
+  flex: none;
+  margin-top: var(--v2-space-3);
+  padding: var(--v2-space-3);
+  border: 0;
+  border-radius: var(--v2-radius);
+  background: var(--action);
+  color: var(--action-text);
+  font: inherit;
+  font-size: var(--v2-text-sm);
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.v2-nav__compose:hover {
+  background: var(--action-hover);
+}
+
+/*
+ * 各列の一番上の行。「Hub」「フィード」「おすすめ」「並べて見る」がここに当たる。
+ *
+ * **定義は1つだけにする。** 同じ見た目を4か所に書くと、片方だけ触ったときに
+ * 静かにずれる。既存でまさにそれが起きていて、13枚のスタイルシートが同じ行高を
+ * 別々に答えていた。ここは1つの規則が全部の列の頭を決める。
+ *
+ * 高さを固定し、下に線を引く。既存の column-title-system.css も列の見出し行を
+ * --column-title-height で揃えて仕切り線を引いていた。その考えを引き継ぐ。
+ * 畳む取っ手も副文もこの行の中に入れる。**行の上に置くと、置いた列だけ
+ * 見出しが下がって頭がばらける**（2026-09-02に 60 / 60 / 24 / 55.1 になった）。
+ */
+.v2-top-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--v2-space-3);
+  min-height: var(--v2-top-height);
+  margin: 0 0 var(--v2-space-4);
+  padding-inline: var(--v2-space-3);
+  border-bottom: 1px solid var(--line);
+}
+
+/*
+ * 詳細度をひとつ上げてある。h1 の行間を既存のどこかが上書きしており、
+ * .v2-top-title__label だけでは 37.8px のはずが 33.6px（1.2×28）になった。
+ * 本文列の頭だけ字が2.1px下がる。列の頭を揃えるのがこの規則の目的なので、
+ * ここは負けてはいけない。
+ */
+.v2-top-title .v2-top-title__label {
+  min-width: 0;
+  margin: 0;
+  overflow: hidden;
+  color: var(--text);
+  /* 画面の題の大きさは html body .v2 … .v2__main > .v2-top-title の1本だけ（22px/700、768px未満は20px/600）。 */
+  font-size: var(--type-title2-size);
+  font-weight: var(--type-title2-weight);
+  letter-spacing: var(--type-title2-tracking);
+  line-height: var(--type-title2-leading);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.v2-top-title__action {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: var(--v2-space-2);
+}
+
+/*
+ * 本文の頭に添える一言。列の頭の行は高さが決まっているので、
+ * ここは折り返さずに縮む側にする。
+ */
+.v2-heading__note {
+  display: block;
+  min-width: 0;
+  overflow: hidden;
+  color: var(--muted);
+  font-size: var(--v2-text-sm);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.v2__main .v2-top-title {
+  padding-inline: 0;
+}
+
+/*
+ * 本文の頭は止まる。流れる一覧の上に薄い地とぼかしを敷いて、
+ * どの面でも「いまどこにいるか」が読みながら残るようにする。
+ * メニューや覗く帯（z-index 10〜20）よりは下、流れる本文よりは上。
+ */
+.v2__main > .v2-top-title {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background: color-mix(in srgb, var(--bg) 78%, transparent);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+/*
+ * 副文は縮む側だが、題が長いときに副文が先に潰れる（動画の詳細で
+ * 「YouTube」が42px、必要57px）。副文は4割まで取ってよく、そこから先は
+ * 題のほうを省略する。題は本文にも全文で出す。
+ */
+.v2__main .v2-top-title__action {
+  flex: 0 0 auto;
+  min-width: 0;
+  max-width: 40%;
+}
+
+/* 読み物の幅 --------------------------------------------------------- */
+
+.v2-prose {
+  max-width: var(--v2-measure);
+}
+
+.v2-tnew__row .v2-filter__row {
+  flex: 1 1 12em;
+}
+
+.v2-menu {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  z-index: 10;
+  min-width: 10em;
+  padding: var(--v2-space-1);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius);
+  background: var(--panel);
+}
+
+.v2-menu__item {
+  display: block;
+  width: 100%;
+  padding: var(--v2-space-2) var(--v2-space-3);
+  border: 0;
+  border-radius: var(--v2-radius);
+  background: none;
+  color: var(--text);
+  font: inherit;
+  font-size: var(--v2-text-sm);
+  text-align: left;
+  cursor: pointer;
+}
+
+.v2-menu__item:hover {
+  background: var(--interactive);
+}
+
+.v2-menu__item--danger {
+  color: var(--danger-text);
+}
+
+.v2-post--removed .v2-note {
+  margin: 0;
+}
+
+/*
+ * ボタンは3種だけ（components/v2/v2-button.tsx）。高さ32px、角と線は同じ。
+ *   .v2-button--icon    記号だけ 32×32
+ *   .v2-button--text    文字の札
+ *   .v2-button--primary 塗り（主操作）
+ * 古い .v2-action / .v2-toggle / .v2-toggle--text も同じ規則に乗せる。
+ * 部品ごとに形を決めない（旦那様の指摘、2026-09-02）。
+ */
+.v2-button,
+.v2-action,
+.v2-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--v2-space-1);
+  height: 32px;
+  min-width: 32px;
+  padding: 0 var(--v2-space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-pill);
+  background: var(--panel);
+  color: var(--muted);
+  font: inherit;
+  font-size: var(--v2-text-sm);
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+  white-space: nowrap;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.v2-button--icon,
+.v2-toggle {
+  width: 32px;
+  padding: 0;
+}
+
+.v2-toggle--text {
+  width: auto;
+  padding: 0 var(--v2-space-3);
+}
+
+/* 数を添える記号だけのボタンは、数のぶん横に伸びる。 */
+.v2-button--icon:has(.v2-button__count) {
+  width: auto;
+  padding: 0 var(--v2-space-2) 0 var(--v2-space-1);
+}
+
+.v2-button--primary {
+  border-color: var(--action);
+  background: var(--action);
+  color: var(--action-text);
+  font-weight: 600;
+}
+
+.v2-button:hover,
+.v2-action:hover,
+.v2-toggle:hover {
+  border-color: var(--line-strong);
+  color: var(--text);
+}
+
+.v2-button--primary:hover {
+  background: var(--action-hover);
+  border-color: var(--action-hover);
+  color: var(--action-text);
+}
+
+.v2-button[aria-pressed="true"],
+.v2-action[aria-pressed="true"] {
+  border-color: var(--reaction-like);
+  color: var(--reaction-like);
+}
+
+.v2-button[aria-pressed="true"] .v2-icon {
+  fill: currentColor;
+}
+
+.v2-button:disabled,
+.v2-action:disabled,
+.v2-toggle:disabled {
+  cursor: default;
+  opacity: .5;
+}
+
+/*
+ * キーボードの焦点。部品ごとにブラウザ任せだった輪郭を、列の取っ手や
+ * カードと同じ --focus-ring に揃える。
+ */
+.v2-button:focus-visible,
+.v2-action:focus-visible,
+.v2-nav__item:focus-visible,
+.v2-nav__me:focus-visible,
+.v2-nav__compose:focus-visible,
+.v2-menu__item:focus-visible,
+.v2-notif__link:focus-visible,
+.v2-reply__input:focus-visible,
+.v2-reply__submit:focus-visible,
+.v2-card__link:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 1px;
+}
+
+.v2-button__count {
+  font-size: var(--v2-text-xs);
+}
+
+/* 空・読み込み中・失敗 ------------------------------------------------ */
+
+.v2-note {
+  max-width: var(--v2-measure);
+  margin: 0;
+  padding: var(--v2-space-5) 0;
+  color: var(--muted);
+  font-size: var(--v2-text-sm);
+}
+
+.v2-error {
+  max-width: var(--v2-measure);
+  margin-bottom: var(--v2-space-4);
+  padding: var(--v2-space-3) var(--v2-space-4);
+  border-radius: var(--v2-radius);
+  background: var(--danger-bg);
+  color: var(--danger-text);
+  font-size: var(--v2-text-sm);
+}
+
+/* 列の見出しとカード ------------------------------------------------- */
+
+/* 列の中の小見出し。頭の行（.v2-top-title）とは別物。 */
+.v2-column__title {
+  margin: var(--v2-space-5) 0 var(--v2-space-2);
+  padding-inline: var(--v2-space-3);
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+  font-weight: 700;
+  letter-spacing: .08em;
+}
+
+.v2-column__title:first-child {
+  margin-top: 0;
+}
+
+.v2-card {
+  padding: var(--v2-space-4);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius);
+}
+
+.v2-card__name {
+  margin: 0;
+  font-weight: 700;
+}
+
+.v2-card__meta {
+  margin: 0;
+  color: var(--muted);
+  font-size: var(--v2-text-sm);
+}
+
+.v2-card__body {
+  margin: var(--v2-space-3) 0 0;
+  color: var(--muted);
+  font-size: var(--v2-text-sm);
+  line-height: var(--v2-leading-tight);
+}
+
+/* a でも button でも同じ文字の行き先にする（右列の「再試行」は button）。 */
+.v2-card__link {
+  display: inline-block;
+  margin-top: var(--v2-space-3);
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--link-color);
+  font: inherit;
+  font-size: var(--v2-text-sm);
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.v2-card__link:hover {
+  text-decoration: underline;
+}
+
+/*
+ * カードの面は髪の毛線だけでなく、ごく薄い影で地から一段浮かせる。
+ * 字の色（--text）を薄くした影なので、濃い地でも薄い地でも馴染む。
+ */
+.v2-empty,
+.v2-people,
+.v2-compose,
+.v2-search__results,
+.v2-feed > div,
+.v2-tcard,
+.v2-tpost,
+.v2-ccard,
+.v2-mitems,
+.v2-notifs__list,
+.v2-profile__item,
+.v2-wallet__links,
+.v2-wallet__activity,
+.v2-card {
+  box-shadow: 0 1px 2px color-mix(in srgb, var(--text) 6%, transparent),
+    0 4px 14px color-mix(in srgb, var(--text) 4%, transparent);
+}
+
+/*
+ * 投稿の下の操作は枠を外す。5つの枠付きボタンが並ぶと、本文より操作の面が
+ * 目立ってしまう。記号だけにして、指を置いたときだけ面を出す。
+ * 数つき（幅 auto のもの）も同じ扱い。
+ */
+.v2-post__actions .v2-button--icon {
+  border-color: transparent;
+  background: none;
+}
+
+.v2-post__actions .v2-button--icon:hover {
+  border-color: transparent;
+  background: var(--interactive);
+}
+
+/* 記号。取っ手と同じ描き方。 */
+.v2-icon {
+  width: 18px;
+  height: 18px;
+  flex: none;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+/*
+ * 記号は既存のアイコンと同じ描き方に揃える。
+ * fill: none / stroke: currentColor / 太さ1.7 / 端は丸。
+ */
+.v2-toggle__mark,
+.v2-aside__pick svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.v2-aside__pick svg {
+  width: 24px;
+  height: 24px;
+}
+
+/* 表示中は塗りと太い線で示す（色だけに頼らない）。 */
+.v2-aside__pick[aria-pressed="true"] svg {
+  fill: currentColor;
+  fill-opacity: 0.22;
+  stroke-width: 2.1;
+}
+
+/* 読み上げにだけ渡す文字。目には出さないが、消しもしない。 */
+.v2-sr {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+/* 右列の中身 --------------------------------------------------------- */
+
+/*
+ * 選ぶ帯は右列の右側、画面のいちばん端。既存のシェルも右列の外側に縦の
+ * スイッチャーを置き、畳んでいる間もそこだけ残していた。
+ * 畳んだら選べなくなる、では並べて見る道具にならない。
+ */
+.v2__aside-strip {
+  flex: none;
+  display: none;
+  flex-direction: column;
+  gap: var(--v2-space-1);
+  position: sticky;
+  top: 0;
+  width: var(--v2-strip);
+  max-height: 100dvh;
+  padding-block: var(--v2-space-5);
+  border-left: 1px solid var(--line);
+  overflow-y: auto;
+}
+
+@media (min-width: 1200px) {
+  .v2__aside-strip {
+    display: flex;
+  }
+}
+
+/* ノート画面でも右列と開閉の入口を残し、本文へ幅を割り当てる。 */
+@media (min-width: 1200px) and (max-width: 1391px) {
+  .v2__frame {
+    --v2-gutter: var(--v2-space-4);
+  }
+
+  .v2__nav {
+    max-width: 200px;
+  }
+
+  .v2__aside {
+    max-width: 280px;
+  }
+
+  .v2__frame:has(.v2__aside) .v2__directory {
+    display: none;
+  }
+
+  .v2__frame:has(.v2__aside)[data-directory-peek="open"] .v2__directory {
+    display: flex;
+  }
+}
+
+.v2-aside__pick {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: var(--v2-space-2);
+  border: 0;
+  border-radius: var(--v2-radius);
+  background: none;
+  color: var(--muted);
+  font: inherit;
+  font-size: var(--v2-text-xs);
+  line-height: var(--v2-leading-tight);
+  cursor: pointer;
+}
+
+.v2-aside__pick:hover {
+  background: var(--interactive);
+  color: var(--text);
+}
+
+.v2-aside__pick[aria-pressed="true"] {
+  background: var(--interactive);
+  color: var(--text);
+  font-weight: 700;
+}
+
+/*
+ * 中身だけが縦に流れる。切り替えの行は上に留まるので、
+ * 「どれを見ているか」が本文を読んでいる間も分かる。
+ */
+.v2-aside__body {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+.v2-aside__body--ai { overflow: hidden; }
+.v2-aside__ai { height: 100%; min-height: 0; }
+.v2-aside__ai[hidden] { display: none; }
+
+.v2-aside__list {
+  display: grid;
+  gap: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.v2-aside__item {
+  display: grid;
+  gap: var(--v2-space-1);
+  margin: 0;
+  padding: var(--v2-space-3) 0;
+  border-bottom: 1px solid var(--line);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.v2-aside__list li:last-child .v2-aside__item {
+  border-bottom: 0;
+}
+
+/* 行の右に記号のボタンを1つ置く形（音楽の再生）。文字は左で縮む。 */
+.v2-aside__item--row {
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: var(--v2-space-2);
+}
+
+.v2-aside__item-text {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  font: inherit;
+  text-align: left;
+  display: grid;
+  gap: var(--v2-space-1);
+  min-width: 0;
+  color: inherit;
+  text-decoration: none;
+}
+
+.v2-aside__item-text:hover .v2-aside__item-name {
+  text-decoration: underline;
+}
+
+a.v2-aside__item:hover .v2-aside__item-name {
+  text-decoration: underline;
+}
+
+.v2-aside__item-name {
+  font-size: var(--v2-text-sm);
+  font-weight: 700;
+  line-height: var(--v2-leading-tight);
+}
+
+/*
+ * 2行で止める。右列は狭いので、本文をそのまま出すと列が縦に伸びて
+ * 「並べて見る」どころではなくなる。
+ */
+.v2-aside__item-body {
+  display: -webkit-box;
+  overflow: hidden;
+  color: var(--muted);
+  font-size: var(--v2-text-sm);
+  line-height: var(--v2-leading-tight);
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+/* 通知の元の投稿の本文の頭。1行で切り、左の線で引用だと分ける。 */
+.v2-aside__item-quote {
+  overflow: hidden;
+  margin-top: 2px;
+  padding-left: 8px;
+  border-left: 2px solid var(--line);
+  color: var(--muted);
+  font-size: var(--v2-text-sm);
+  line-height: var(--v2-leading-tight);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/*
+ * 顔つきの行（右列の通知・メッセージ・コミュニティ。2026-10-18）。顔32・名前と時刻の1行・本文2行・右に未読。
+ * 通知は顔の右下に種類の記号（いいね・返信・リポスト・フォロー）。
+ */
+.v2-aside__item--face {
+  grid-template-columns: 32px minmax(0, 1fr) auto;
+  align-items: start;
+  column-gap: var(--v2-space-3);
+}
+.v2-aside__item--face .v2-aside__item-text { gap: 2px; }
+.v2-aside__item-head { display: flex; align-items: baseline; gap: var(--v2-space-2); min-width: 0; }
+.v2-aside__item-head .v2-aside__item-name { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.v2-aside__item-time { flex: none; margin-left: auto; color: var(--muted); font-size: var(--type-caption-size); font-variant-numeric: tabular-nums; }
+.v2-aside__face { position: relative; display: block; width: 32px; height: 32px; }
+.v2-aside__face-icon { display: grid; place-items: center; width: 32px; height: 32px; border-radius: 50%; background: var(--interactive); color: var(--muted); }
+.v2-aside__face-icon .v2-icon { width: 16px; height: 16px; }
+.v2-aside__kind { position: absolute; right: -4px; bottom: -4px; display: grid; place-items: center; width: 18px; height: 18px; border: 2px solid var(--bg); border-radius: 50%; background: var(--surface-raised); color: var(--muted); }
+.v2-aside__kind .v2-icon { width: 11px; height: 11px; stroke-width: 2.2; }
+.v2-aside__kind--social_reaction { color: var(--reaction-like); }
+.v2-aside__kind--social_reaction .v2-icon { fill: currentColor; }
+.v2-aside__kind--social_repost { color: var(--positive-text); }
+.v2-aside__kind--followed,
+.v2-aside__kind--mention,
+.v2-aside__kind--social_reply,
+.v2-aside__kind--thread_reply { color: var(--action); }
+.v2-aside__item--face > .v2-unread { align-self: center; }
+.v2-aside__count { align-self: center; min-width: 20px; padding: 1px 6px; border-radius: var(--radius-pill); background: var(--action); color: var(--action-text); font-size: 11px; font-weight: 700; line-height: 18px; text-align: center; font-variant-numeric: tabular-nums; }
+
+.v2-aside__search {
+  margin-bottom: var(--v2-space-3);
+}
+
+.v2-aside__search input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: var(--v2-space-2) var(--v2-space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius);
+  background: var(--panel);
+  color: var(--text);
+  font: inherit;
+  font-size: var(--v2-text-sm);
+}
+
+.v2-search__filter-actions .v2-toggle.v2-toggle--text {
+  width: auto;
+  min-height: 44px;
+}
+
+.v2-search__filters .v2-error {
+  margin: var(--v2-space-3) 0 0;
+}
+
+.v2-search__history-head .v2-column__title {
+  padding-inline: 0;
+}
+
+.v2-search__legacy-item > .v2-toggle {
+  justify-self: start;
+  min-height: 44px;
+  max-width: 100%;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+
+/* 右列の幅を変える取っ手。列の左端に立てる。 */
+.v2-aside__resizer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -4px;
+  width: 8px;
+  cursor: col-resize;
+  touch-action: none;
+}
+
+.v2-aside__resizer:hover,
+.v2-aside__resizer:focus-visible {
+  background: var(--interactive);
+  outline: none;
+}
+
+.v2__aside {
+  position: relative;
+}
+
+.v2-action--quiet {
+  cursor: default;
+}
+
+.v2-thread-context .v2-column__title {
+  padding-inline: 0;
+}
+
+.v2-reply__footer:not(:has(.v2-reply__identity)) > .v2-button--icon:first-of-type,
+.v2-reply__footer:not(:has(.v2-reply__identity)) > .v2-post__more:first-of-type {
+  margin-right: auto;
+}
+
+/* 札 ------------------------------------------------------------------ */
+
+.v2-badge {
+  display: inline-block;
+  padding: 0 var(--v2-space-2);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius-pill);
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+  line-height: 1.6;
+  white-space: nowrap;
+}
+
+.v2-badge--best {
+  border-color: var(--positive-text);
+  color: var(--positive-text);
+}
+
+.v2-badge--warn {
+  border-color: var(--warning-text);
+  color: var(--warning-text);
+}
+
+.v2-nav__count--quiet {
+  background: none;
+  color: var(--muted);
+}
+
+/* コミュニティ ------------------------------------------------------- */
+
+/*
+ * 一覧の並び替え。線で区切った札の列。旦那様の「そういうのは線で区切られていた」
+ * （2026-09-02）に合わせる。
+ */
+/*
+ * 面内の切り替えは下線ではなく分節の丸にする。下線は「リンクが強い」だけで
+ * 選中が読めず、カード化した面の中では線が二重に見えた。
+ */
+.v2-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--v2-space-1);
+  width: fit-content;
+  max-width: 100%;
+  margin: 0 0 var(--v2-space-4);
+  padding: 3px;
+  border-radius: var(--v2-radius-pill);
+  background: var(--interactive);
+  font-size: var(--v2-text-sm);
+}
+
+.v2-tabs a {
+  padding: var(--v2-space-1) var(--v2-space-3);
+  border-radius: var(--v2-radius-pill);
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.v2-tabs a:hover {
+  color: var(--text);
+}
+
+.v2-tabs a[aria-current="page"] {
+  background: var(--panel);
+  box-shadow: 0 1px 3px var(--scrim);
+  color: var(--text);
+  font-weight: 700;
+}
+
+.v2-tabs__note {
+  margin-left: auto;
+  padding-inline: var(--v2-space-2);
+  color: var(--muted);
+}
+
+.v2-filter .v2-toggle--text {
+  align-self: flex-start;
+}
+
+/* カテゴリの群。開け閉めはブラウザの details に任せる。 */
+.v2-nav__list details > summary {
+  list-style: none;
+  cursor: pointer;
+}
+
+.v2-nav__list details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.v2-nav__list details > summary .v2-nav__label::after {
+  content: "›";
+  float: right;
+  color: var(--muted);
+  transition: transform .15s;
+}
+
+.v2-nav__list details[open] > summary .v2-nav__label::after {
+  transform: rotate(90deg);
+}
+
+.v2-nav__list--nested {
+  padding-left: var(--v2-space-4);
+}
+
+.v2-cws__about .v2-prose {
+  margin: 0 0 var(--v2-space-2);
+  overflow-wrap: anywhere;
+}
+
+/* 通報は選ぶ形。他の操作と同じ高さと文字で並べる。 */
+.v2-action--select {
+  appearance: none;
+  padding-right: var(--v2-space-4);
+  cursor: pointer;
+}
+
+.v2-vcard__here .v2-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.v2-video__byline .v2-post__actions {
+  margin: 0;
+}
+
+.v2-column__title--section {
+  padding-inline: 0;
+  font-size: var(--v2-text);
+}
+
+.v2-mcard__row .v2-button {
+  flex: none;
+  width: 28px;
+  height: 28px;
+}
+
+.v2-mcard .v2-post__actions {
+  margin-top: var(--v2-space-2);
+}
+
+.v2-msec__head .v2-column__title {
+  flex: 1 1 auto;
+  margin: 0;
+}
+
+/* 本文の中の小見出し（プロフィールの区分など）。列の頭より一段小さい。 */
+.v2-section-head .v2-top-title__label {
+  font-size: var(--type-headline-size);
+  line-height: var(--type-headline-leading);
+  font-weight: var(--type-headline-weight);
+  letter-spacing: var(--type-headline-tracking);
+}
+
+.v2-notif__avatars .v2-post__avatar {
+  width: 28px;
+  height: 28px;
+  margin-left: -10px;
+  border: 2px solid var(--bg);
+}
+
+.v2-notif__avatars .v2-post__avatar:first-child {
+  margin-left: 0;
+}
+
+/* 1人だけなら顔は元の44px。 */
+.v2-notif__avatars .v2-post__avatar:only-child {
+  width: 44px;
+  height: 44px;
+  margin: 0;
+  border: 0;
+}
+
+.v2-dm__candidate .v2-post__text {
+  flex-basis: 100%;
+  margin: 0;
+}
+
+.v2-tabs small {
+  margin-left: var(--v2-space-1);
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+}
+
+.v2-mcard__play .v2-icon {
+  width: 14px;
+  height: 14px;
+}
+
+/* 右列の未読の通知。名前の横に印。 */
+.v2-aside__item--unread .v2-aside__item-name {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--v2-space-1);
+}
+
+/*
+ * 低い画面（ノートの 1280×650 など）。脚注（テーマ・規約）を畳み、行を32pxに詰め、
+ * 群の隙間を消す。そうしないと「マーケット」「ウォレット」「設定」が一覧の下に
+ * 隠れて、スクロールの手がかりも無かった（2026-09-03）。テーマと規約は設定の列にある。
+ * **ファイルの末尾に置く。** 同じ詳細度の .v2-nav__footer などが後ろにあると負ける。
+ */
+@media (min-width: 901px) and (max-height: 760px) {
+  .v2-nav__footer {
+    display: none;
+  }
+
+  .v2-nav__list {
+    gap: 0;
+  }
+
+  /* 行は28px。高さ650で14項目（AIを含む）＋投稿＋本人が収まる最小。本人の @ も畳む。 */
+  .v2-nav__item {
+    padding-block: 6px;
+    line-height: 16px;
+  }
+
+  .v2-nav__me-body small {
+    display: none;
+  }
+
+  .v2-nav__compose {
+    padding-block: var(--v2-space-2);
+  }
+
+  .v2-nav__me {
+    padding-block: var(--v2-space-1);
+  }
+
+  .v2-nav__group + .v2-nav__group,
+  .v2-nav__group + .v2-nav__group-items,
+  .v2-nav__group-items + .v2-nav__group {
+    margin-top: 6px;
+    padding-top: 5px;
+  }
+
+  .v2-nav__compose {
+    margin-top: var(--v2-space-2);
+  }
+}
+
+/* 開閉で同じ項目・行高・スクロール領域を保ち、文字と幅だけを切り替える。 */
+@media (min-width: 0px) {
+  .v2__nav--unified {
+    padding-inline: var(--v2-space-2);
+    overflow: hidden;
+  }
+
+  .v2__nav--unified > .v2-top-title {
+    flex: none;
+    justify-content: flex-start;
+    gap: var(--v2-space-2);
+  }
+
+  .v2__nav--unified > .v2-top-title .v2-top-title__action {
+    order: -1;
+    flex: none;
+    margin-left: 0;
+  }
+
+  .v2__nav--unified .v2-nav__item {
+    position: relative;
+    height: 36px;
+    padding-inline: var(--v2-space-3);
+    white-space: nowrap;
+  }
+
+  .v2__nav--unified .v2-nav__compose {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--v2-space-3);
+    height: 40px;
+    padding: var(--v2-space-2) var(--v2-space-3);
+    white-space: nowrap;
+  }
+
+  .v2__nav--unified .v2-nav__compose .v2-icon {
+    flex: none;
+    width: 22px;
+    height: 22px;
+  }
+
+  .v2__nav--unified .v2-nav__me {
+    height: 48px;
+    padding-inline: var(--v2-space-2);
+  }
+
+  .v2__nav--unified .v2-nav__footer {
+    flex: none;
+    height: 88px;
+    overflow: hidden;
+  }
+
+  .v2__frame[data-nav="collapsed"] .v2__nav--unified {
+    width: 64px;
+    min-width: 64px;
+  }
+
+  .v2__frame[data-nav="collapsed"] .v2__nav--unified .v2-nav__label,
+  .v2__frame[data-nav="collapsed"] .v2__nav--unified .v2-nav__me-body,
+  .v2__frame[data-nav="collapsed"] .v2__nav--unified .v2-top-title__label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .v2__frame[data-nav="collapsed"] .v2__nav--unified .v2-nav__footer {
+    visibility: hidden;
+  }
+
+  .v2__frame[data-nav="collapsed"] .v2__nav--unified .v2-nav__count {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+.v2-dm__modes .v2-action[aria-pressed="true"] {
+  border-color: var(--emphasis);
+  color: var(--emphasis);
+}
+.v2-aside__feed .v2-post > .v2-post__avatar { display: none; }
+.v2-aside__feed .v2-post__header { gap: 4px 8px; }
+.v2-aside__feed .v2-post__actions { gap: 4px; margin-top: 8px; }
+.v2-aside__feed .v2-post__more:has(.v2-menu) { flex-basis: 100%; }
+.v2-aside__feed .v2-menu { position: static; margin-top: 4px; min-width: 0; width: 100%; }
+
+/* 内左列も同じ器と項目を保ち、明示的な開閉だけで幅を変える。 */
+/*
+ * 畳んだ列の項目は頭字の小タイル。素の一文字は切り詰めた残りに見えるので、
+ * アバターの頭字と同じく薄い面へ入れて「省略ではなく記号」に見せる。
+ */
+.v2-directory__initial {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 7px;
+  background: var(--emphasis-soft);
+  font-size: var(--v2-text-xs);
+  font-weight: 700;
+  color: var(--action);
+}
+
+/* 光っている行（hover・現在地）では面が同色になるので、字の皿を白へ返す。 */
+.v2-nav__item:hover .v2-directory__initial,
+.v2-nav__item[aria-current="page"] .v2-directory__initial {
+  background: var(--panel);
+}
+
+.v2-directory__tools {
+  display: flex;
+  flex-direction: column;
+  flex: none;
+}
+
+.v2-directory__tools .v2-rail__item {
+  display: flex;
+  justify-content: flex-start;
+  gap: var(--v2-space-3);
+  width: 100%;
+  height: 36px;
+  padding-inline: var(--v2-space-3);
+  white-space: nowrap;
+}
+
+.v2-directory__tools .v2-icon {
+  flex: none;
+  width: 22px;
+  height: 22px;
+}
+
+@media (min-width: 0px) {
+  .v2__frame[data-directory] .v2__directory.v2__directory--unified {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    flex: none;
+    top: 0;
+    width: var(--v2-directory);
+    height: 100dvh;
+    max-height: 100dvh;
+    padding: var(--v2-space-5) var(--v2-space-2);
+    overflow: hidden;
+    border-right: 1px solid var(--line);
+  }
+
+  .v2__directory--unified > .v2-top-title {
+    flex: none;
+    justify-content: flex-start;
+    gap: var(--v2-space-2);
+  }
+
+  .v2__directory--unified > .v2-top-title .v2-top-title__action {
+    order: -1;
+    flex: none;
+    margin-left: 0;
+  }
+
+  .v2-directory__body {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    overscroll-behavior: contain;
+  }
+
+  .v2-directory__body > * {
+    width: calc(var(--v2-directory) - 2 * var(--v2-space-2));
+  }
+
+  .v2-directory__body .v2-nav__item {
+    position: relative;
+    height: 36px;
+    white-space: nowrap;
+  }
+
+  .v2__frame[data-directory="collapsed"] .v2__directory.v2__directory--unified {
+    width: 64px;
+  }
+
+  .v2__frame[data-directory="collapsed"] .v2__directory--unified .v2-top-title__label,
+  .v2__frame[data-directory="collapsed"] .v2__directory--unified .v2-nav__label,
+  .v2__frame[data-directory="collapsed"] .v2__directory--unified .v2-directory__tool-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .v2__frame[data-directory="collapsed"] .v2-directory__body > :not(ul):not(nav) {
+    visibility: hidden;
+  }
+
+  .v2__frame[data-directory="collapsed"] .v2-directory__body .v2-nav__list {
+    visibility: visible;
+  }
+}
+
+.v2-nav__shortcut {
+  flex: none;
+  width: 100%;
+  border: 0;
+  background: transparent;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.v2-nav__shortcut-mark {
+  display: grid;
+  place-items: center;
+  font-weight: 700;
+}
+
+.v2__nav--unified .v2-nav__list {
+  scrollbar-width: thin;
+}
+
+/* Narrow icon rails keep scrolling without spending their width on a scrollbar. */
+.v2__frame[data-nav="collapsed"] .v2__nav--unified .v2-nav__list,
+.v2__frame[data-directory="collapsed"] .v2-directory__body {
+  scrollbar-width: none;
+}
+.v2__frame[data-nav="collapsed"] .v2__nav--unified .v2-nav__list::-webkit-scrollbar,
+.v2__frame[data-directory="collapsed"] .v2-directory__body::-webkit-scrollbar {
+  display: none;
+}
+
+/* 低いデスクトップでも下端の項目に届く。開閉で同じ行高を使う。 */
+@media (min-width: 901px) and (max-height: 760px) and (pointer: fine) {
+  .v2__nav--unified .v2-nav__item,
+  .v2__directory--unified .v2-nav__item,
+  .v2__directory--unified .v2-directory__tools .v2-rail__item {
+    height: 30px;
+    padding-block: var(--v2-space-1);
+  }
+
+  .v2__nav--unified .v2-nav__group-start {
+    margin-top: var(--v2-space-1);
+    padding-top: var(--v2-space-1);
+  }
+}
+
+.v2-hotkeys__dialog {
+  width: min(420px, calc(100vw - 32px));
+  max-height: calc(100dvh - 32px);
+  margin: auto;
+  padding: var(--v2-space-5);
+  overflow-y: auto;
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius);
+  background: var(--bg);
+  color: var(--text);
+}
+
+.v2-hotkeys__dialog::backdrop {
+  background: var(--scrim);
+}
+
+.v2-hotkeys__heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--v2-space-3);
+}
+
+.v2-hotkeys__heading h2 {
+  margin: 0;
+  font-size: var(--v2-text-lg);
+}
+
+.v2-hotkeys__dialog .v2-hotkeys__list {
+  width: 100%;
+  min-width: 0;
+  max-width: none;
+  margin-block: var(--v2-space-4);
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+.v2-hotkeys__dialog .v2-hotkeys__list > div {
+  align-items: flex-start;
+}
+
+/* キーボードの近道の一覧（? で出す）。画面の真ん中に小さく。 */
+.v2-hotkeys {
+  position: fixed;
+  inset: 0;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--scrim);
+}
+
+.v2-hotkeys__list {
+  display: grid;
+  gap: var(--v2-space-2);
+  width: auto;
+  min-width: 280px;
+  max-width: 360px;
+  margin: 0;
+  padding: var(--v2-space-4) var(--v2-space-5);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius);
+  background: var(--bg);
+}
+
+.v2-hotkeys__list > div {
+  display: flex;
+  align-items: center;
+  gap: var(--v2-space-3);
+}
+
+.v2-hotkeys__list dt {
+  flex: none;
+  min-width: 64px;
+}
+
+.v2-hotkeys__list dd {
+  margin: 0;
+}
+
+.v2-hotkeys__list kbd {
+  padding: 2px var(--v2-space-2);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-space-1);
+  background: var(--panel);
+  font: inherit;
+  font-size: var(--v2-text-sm);
+}
+/* Each page owns its heading; retain distinct contextual notes and actions. */
+.v2-page__context {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 16px var(--v2-gutter, 24px) 0;
+}
+
+/* Keep column headings close to the top edge, with one compact heading row. */
+.v2__frame {
+  --v2-top-height: 44px;
+}
+.v2__frame .v2__nav--unified,
+.v2__frame .v2__main,
+.v2__frame[data-directory] .v2__directory.v2__directory--unified,
+.v2__frame .v2__aside,
+.v2__frame .v2__aside-strip {
+  padding-top: 8px;
+}
+.v2__frame .v2-top-title {
+  margin-bottom: 8px;
+}
+
+/* A workspace has independent columns, not a width-selected single-column mode. */
+.v2__workspace {
+  height: 100dvh;
+  overflow-x: auto;
+  overflow-y: hidden;
+  overscroll-behavior-x: contain;
+  overflow-anchor: none;
+  scroll-padding-inline-start: 8px;
+  scrollbar-width: none;
+}
+.v2__workspace::-webkit-scrollbar { display: none; }
+.v2__workspace .v2__frame {
+  flex-direction: row;
+  gap: 0;
+  padding: 0;
+  min-height: 100%;
+}
+.v2-main-tools {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  width: fit-content;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: var(--bg);
+  margin-bottom: 8px;
+}
+.v2__main:has(> .v2-top-title) > .v2-main-tools { margin-bottom: -44px; }
+.v2__main[data-column-controls="1"] > .v2-top-title { padding-left: 44px; }
+.v2__main[data-column-controls="2"] > .v2-top-title { padding-left: 84px; }
+.v2__workspace .v2-toggle {
+  position: relative;
+  display: inline-flex;
+  width: 36px;
+  height: 36px;
+  border-color: transparent;
+  background: transparent;
+  border-radius: 8px;
+  color: var(--muted);
+}
+.v2__workspace .v2-toggle--text {
+  width: auto;
+}
+.v2__workspace .v2-toggle:hover { background: var(--interactive); color: var(--text); }
+.v2__workspace .v2-toggle--brand {
+  width: 44px;
+  font-size: var(--v2-text);
+  font-weight: 700;
+  color: var(--text);
+}
+.v2__workspace .v2__frame .v2__nav--unified > .v2-top-title .v2-top-title__action {
+  margin-left: 0;
+}
+.v2__workspace .v2-toggle:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+.v2__workspace .v2__nav--unified {
+  position: sticky;
+  top: 0;
+  flex: 0 0 var(--v2-nav-width, 200px);
+  width: var(--v2-nav-width, 200px);
+  max-width: none;
+  height: 100dvh;
+  padding-top: 8px;
+  background: var(--bg-soft);
+  box-sizing: border-box;
+}
+.v2__workspace #hub-main.v2__main {
+  position: relative;
+  min-width: min(320px, calc(100vw - 16px));
+  flex: 1 0 0;
+  height: 100dvh;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+  padding-inline: 16px;
+  scrollbar-width: thin;
+}
+
+/* 1列表示は本文のスクロール領域だけを使い、細いバーを画面幅に残さない。 */
+.v2__workspace .v2__frame[data-nav="collapsed"][data-directory="collapsed"]:not(:has(.v2__aside)) #hub-main.v2__main {
+  scrollbar-width: none;
+}
+.v2__workspace .v2__frame[data-nav="collapsed"][data-directory="collapsed"]:not(:has(.v2__aside)) #hub-main.v2__main::-webkit-scrollbar {
+  display: none;
+}
+
+/* The fixed mobile navigation must not cover the last control in a column. */
+@media (max-width: 759px) {
+  /* Keep the focused column readable; adjacent columns remain in the workspace. */
+  .v2__workspace #hub-main.v2__main {
+    min-width: calc(100vw - 16px);
+  }
+  .v2__workspace .v2__frame[data-nav="collapsed"][data-directory="collapsed"] #hub-main.v2__main,
+  .v2__workspace .v2__frame[data-nav="collapsed"]:not([data-directory]) #hub-main.v2__main {
+    min-width: calc(100vw - 64px);
+  }
+  html[data-hub-surface] body:has(.shell__mobile-bottom-nav) .v2__workspace #hub-main.v2__main {
+    padding-bottom: calc(80px + env(safe-area-inset-bottom)) !important;
+    scroll-padding-bottom: calc(80px + env(safe-area-inset-bottom));
+  }
+}
+.v2__workspace .v2__main > .v2-top-title {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  /* 不透明の帯ではなく、流れる本文が透けて見える薄い面にする。 */
+  background: color-mix(in srgb, var(--bg) 78%, transparent);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+.v2__workspace .v2__directory--unified {
+  background: var(--bg-soft);
+  box-sizing: border-box;
+}
+.v2__workspace .v2-top-title .v2-top-title__label {
+  font-size: var(--v2-text);
+  font-weight: 600;
+}
+/*
+ * 右列は地に貼り付いた帯ではなく、上下に余白を持つ浮いたカード。
+ * 中身は従来どおり v2-aside__body だけが縦に流れる。
+ */
+.v2__workspace .v2__aside {
+  display: flex;
+  flex-direction: column;
+  flex: none;
+  position: sticky;
+  top: var(--v2-space-5);
+  height: calc(100dvh - var(--v2-space-5) * 2);
+  max-width: none;
+  overflow: hidden;
+  padding: var(--v2-space-3) var(--v2-space-4) var(--v2-space-4);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius-lg);
+  background: var(--panel);
+  box-shadow: 0 1px 2px color-mix(in srgb, var(--text) 6%, transparent),
+    0 4px 14px color-mix(in srgb, var(--text) 4%, transparent);
+  box-sizing: border-box;
+  min-width: 0;
+}
+.v2__workspace .v2__aside-strip {
+  display: flex;
+  height: 100dvh;
+  box-sizing: border-box;
+}
+/* ウォレットとAIは帯の下端に寄せる（2026-10-18）。 */
+.v2-aside__pick--bottom { margin-top: auto; }
+.v2-aside__toggle-row { display: flex; align-items: center; justify-content: center; height: 44px; flex: none; }
+/* 右の帯の開閉も、ほかの記号と同じ44pxの面にする。 */
+.v2-aside__toggle-row .v2-toggle { width: 44px; height: 44px; }
+.v2__workspace .v2__aside[hidden] { display: none; }
+.v2__workspace .v2__aside,
+.v2__workspace .v2-aside__body {
+  overscroll-behavior-x: auto;
+}
+.v2-column-resizer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 6px;
+  z-index: 4;
+  cursor: col-resize;
+  touch-action: none;
+  user-select: none;
+}
+.v2-column-resizer:hover,
+.v2-column-resizer:active { background: var(--interactive); }
+.v2-column-resizer:focus-visible { background: var(--interactive); outline: 2px solid var(--focus-ring); outline-offset: -2px; }
+.v2__workspace .v2-aside__resizer { left: 0; width: 6px; z-index: 4; }
+.v2__workspace .v2-aside__resizer:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: -2px; }
+.v2__workspace .v2-directory__body > * { width: 100%; }
+.v2__workspace .v2-top-title__action .v2-toggle { display: inline-flex; }
+.v2__workspace .v2__nav--unified[hidden],
+.v2__workspace .v2__directory.v2__directory--unified[hidden],
+.v2__workspace .v2__aside-strip[hidden] { display: none; }
+.v2__frame--with-directory .v2__main .v2-main-controls--directory-fallback { display: revert; }
+.v2__frame--with-directory .v2__main .v2-tabs.v2-main-controls--directory-fallback { display: flex; }
+.v2__frame--with-directory[data-directory="open"] .v2__main .v2-main-controls--directory-fallback { display: none; }
+
+/* Collapsed sidebars remain usable icon rails, with controls in their own headers. */
+.v2__workspace .v2__frame[data-nav="collapsed"] .v2__nav--unified {
+  flex: 0 0 64px;
+  width: 64px;
+  min-width: 64px;
+}
+.v2__workspace .v2__frame[data-directory="collapsed"] .v2__directory--unified {
+  flex: 0 0 64px;
+  width: 64px;
+  min-width: 64px;
+}
+.v2__workspace .v2__nav--unified > .v2-top-title,
+.v2__workspace .v2__directory--unified > .v2-top-title {
+  justify-content: space-between;
+  padding-inline: 0;
+  border-bottom: 0;
+}
+.v2__workspace .v2__nav--unified > .v2-top-title .v2-top-title__action,
+.v2__workspace .v2__directory--unified > .v2-top-title .v2-top-title__action {
+  order: 1;
+  margin-left: auto;
+}
+.v2__workspace .v2__frame[data-nav="collapsed"] .v2__nav--unified > .v2-top-title,
+.v2__workspace .v2__frame[data-directory="collapsed"] .v2__directory--unified > .v2-top-title {
+  justify-content: center;
+}
+.v2__workspace .v2__frame[data-nav="collapsed"] .v2__nav--unified .v2-top-title__action,
+.v2__workspace .v2__frame[data-directory="collapsed"] .v2__directory--unified .v2-top-title__action {
+  margin-inline: auto;
+}
+.v2__workspace .v2__frame[data-nav="collapsed"] .v2-nav__item,
+.v2__workspace .v2__frame[data-nav="collapsed"] .v2-nav__compose,
+.v2__workspace .v2__frame[data-nav="collapsed"] .v2-nav__me,
+.v2__workspace .v2__frame[data-directory="collapsed"] .v2-directory__tools .v2-rail__item {
+  justify-content: center;
+  padding-inline: 0;
+}
+.v2__workspace .v2__frame[data-nav="collapsed"] .v2-nav__footer,
+.v2__workspace .v2-directory__body[hidden] { display: none; }
+.v2__workspace .v2__frame[data-nav="collapsed"] .v2-nav__me { margin-top: auto; }
+.v2__workspace .v2__frame[data-nav="collapsed"] .v2-nav__item { height: 40px; }
+.v2__workspace .v2__frame[data-nav="collapsed"] .v2-nav__group {
+  min-width: 0;
+  gap: 0;
+}
+.v2__workspace .v2__frame[data-nav="collapsed"] .v2-nav__group-head { display: none; }
+.v2__workspace .v2__frame[data-nav="collapsed"] .v2-nav__group-items,
+.v2__workspace .v2__frame[data-nav="collapsed"] .v2-nav__group-items[hidden] {
+  display: grid;
+  min-width: 0;
+}
+.v2__workspace .v2__frame[data-nav="collapsed"] .v2-nav__group + .v2-nav__group {
+  margin-top: 6px;
+  padding-top: 6px;
+  border-top: var(--divider);
+}
+.v2__workspace .v2__frame .v2__directory--unified > .v2-top-title .v2-top-title__action {
+  order: -1;
+  margin-left: 0;
+  margin-right: auto;
+}
+.v2__workspace .v2__frame[data-directory="collapsed"] .v2-directory__body:not(:has(> .v2-nav__list)),
+.v2__workspace .v2__frame[data-directory="collapsed"] .v2-directory__body > :not(.v2-nav__list) { display: none; }
+.v2__workspace .v2__frame[data-directory="collapsed"] .v2-directory__body > .v2-nav__list { width: 100%; }
+.v2__workspace .v2__frame[data-directory="collapsed"] .v2-directory__body .v2-nav__item {
+  justify-content: center;
+  padding-inline: 0;
+  height: 40px;
+}
+
+.v2-note--error {
+  color: var(--danger-text);
+  background: var(--danger-bg);
+  padding: var(--v2-space-2) var(--v2-space-3);
+  border-radius: var(--v2-radius);
+}
+
+.v2-social-stream__filters, .v2-social-stream__order { display:flex; flex-wrap:wrap; gap:6px; margin-block:12px; }
+.v2-social-stream__filters a, .v2-social-stream__order a { padding:6px 10px; border-radius:7px; color:var(--muted); font-size:13px; text-decoration:none; }
+.v2-social-stream__filters a[aria-current="page"], .v2-social-stream__order a[aria-current="page"] { background:var(--interactive); color:var(--text); font-weight:600; }
+.v2-social-stream__list { min-width:0; }
+.v2-social-stream__item { padding-block:14px; border-bottom:var(--divider); }
+.v2-social-stream__badges { display:flex; flex-wrap:wrap; align-items:center; gap:8px; margin:0 0 7px; font-size:12px; color:var(--muted); }
+.v2-social-stream__title { color:var(--text); font-size:16px; font-weight:600; line-height:1.5; text-decoration:none; overflow-wrap:anywhere; }
+.v2-social-stream__body { white-space:pre-wrap; overflow-wrap:anywhere; line-height:1.65; }
+.v2-social-stream__status { font-size:13px; line-height:1.6; }
+.v2-social-stream__more, .v2-social-stream__fresh { margin-block:12px; }
+
+.v2-ccard__feedback .v2-discovery__dismiss {
+  margin-top: 0;
+}
+.v2-mlist__external { margin-top: var(--v2-space-4); }
+
+/* =========================================================================
+ * 外郭 L1（2026-10-14、docs/hub-ui-toptier/SPEC.md 4.1）
+ *
+ * ・スクロールするのは文書そのもの（html）。#hub-main は伸びるだけの箱。
+ *   ナビ・右列・上の帯は position: sticky。ブラウザのスクロール位置の復元、
+ *   携帯のアドレスバーの縮み、帯の隠れ・出現がこれで効く。
+ * ・幅ごとの骨組みは CSS だけで決める（JS の開閉状態を見ない＝水和で揺れない）。
+ *     ≥1440    ナビ 244（記号＋字）  本文 600 か可変  （右列は帯から開く）
+ *     760–1439 ナビ 72（記号だけ）
+ *     <760     縦の帯なし。上の帯（44）＋ 目録のタブ（44）＋ 下のタブ（49＋安全域）
+ * ・半透明は上の帯・下のタブだけ（--material-bar）。本文と列は不透明。
+ *   ぼかし非対応と「透明度を減らす」では --material-bar-solid に替える。
+ * 先頭の `html body .v2 .v2__workspace .v2__frame` は、redesign-shell.css など他の
+ * 規則に読み込み順で負けないための詳細度。
+ * ========================================================================= */
+
+html:has(.v2) {
+  scroll-padding-top: calc(var(--v2-strip-h, 0px) + 64px);
+  scroll-padding-bottom: 88px;
+}
+
+html body .v2 .v2__workspace {
+  height: auto;
+  min-height: 100dvh;
+  overflow: visible;
+  overflow-x: clip;
+  overflow-anchor: auto;
+  overscroll-behavior: auto;
+}
+
+html body .v2 .v2__workspace .v2__frame {
+  align-items: flex-start;
+  min-height: 100dvh;
+}
+
+html body .v2 .v2__workspace .v2__frame > #hub-main.v2__main {
+  position: relative;
+  box-sizing: border-box;
+  flex: 1 1 0;
+  min-width: 0;
+  height: auto;
+  min-height: 100dvh;
+  padding-top: 0;
+  overflow: visible;
+  overscroll-behavior-y: auto;
+  scrollbar-width: auto;
+}
+
+html body .v2 .v2__workspace .v2__frame[data-measure="narrow"] > #hub-main.v2__main {
+  flex: 0 1 600px;
+  width: 600px;
+  max-width: 100%;
+  border-right: 1px solid var(--line);
+}
+
+html body .v2 .v2__workspace .v2__frame[data-measure="wide"] > #hub-main.v2__main {
+  max-width: 1280px;
+}
+
+/* ナビ ---------------------------------------------------------------- */
+
+@media (min-width: 760px) {
+  html body .v2 .v2__workspace .v2__frame[data-nav] > .v2__nav {
+    width: 72px;
+    min-width: 72px;
+    padding: var(--v2-space-2) 12px;
+  }
+  /* 幅で決める。畳む・広げるの押し手は要らない（状態の保存とテストは残す）。 */
+  html body .v2 .v2__workspace .v2__nav .v2-nav__burger { display: none; }
+  html body .v2 .v2__workspace .v2__frame[data-nav] > .v2__nav .v2-nav__item {
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    margin-inline: auto;
+    padding: 0;
+    border-radius: var(--radius-pill);
+  }
+  html body .v2 .v2__workspace .v2__frame[data-nav] > .v2__nav .v2-nav__label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+  html body .v2 .v2__workspace .v2__frame[data-nav] > .v2__nav .v2-nav__count {
+    position: absolute;
+    top: 2px;
+    right: 0;
+    margin: 0;
+  }
+  html body .v2 .v2__workspace .v2__frame[data-nav] > .v2__nav .v2-nav__icon {
+    width: 24px;
+    height: 24px;
+  }
+  /* 記号だけの幅では、現在地を面でも示す。 */
+  html body .v2 .v2__workspace .v2__frame[data-nav] > .v2__nav .v2-nav__item[aria-current="page"] {
+    background: var(--selected);
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 1440px) {
+  html body .v2 .v2__workspace .v2__frame[data-nav] > .v2__nav {
+    width: 244px;
+    min-width: 244px;
+  }
+  html body .v2 .v2__workspace .v2__frame[data-nav] > .v2__nav .v2-nav__item {
+    justify-content: flex-start;
+    width: 100%;
+    gap: 16px;
+    margin-inline: 0;
+    padding: 0 12px;
+    font-size: 17px;
+    line-height: 24px;
+  }
+  html body .v2 .v2__workspace .v2__frame[data-nav] > .v2__nav .v2-nav__label {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    clip-path: none;
+  }
+  html body .v2 .v2__workspace .v2__frame[data-nav] > .v2__nav .v2-nav__count {
+    position: static;
+    margin-left: auto;
+  }
+  /* 広い幅では背景を塗らず、太字と記号の濃さだけで現在地を示す。 */
+  html body .v2 .v2__workspace .v2__frame[data-nav] > .v2__nav .v2-nav__item[aria-current="page"] {
+    background: transparent;
+  }
+  html body .v2 .v2__workspace .v2__frame[data-nav] > .v2__nav .v2-nav__item[aria-current="page"]:hover {
+    background: var(--interactive);
+  }
+}
+
+html body .v2 .v2__workspace .v2__nav .v2-nav__item[aria-current="page"] .v2-nav__icon {
+  color: var(--text);
+}
+
+/* 上の帯 ---------------------------------------------------------------- */
+
+html body .v2 .v2__workspace .v2__main > .v2-top-title {
+  position: sticky;
+  top: var(--v2-strip-h, 0px);
+  z-index: 3;
+  box-sizing: border-box;
+  min-height: 52px;
+  margin: 0 -16px var(--v2-space-3);
+  padding: 0 16px;
+  border-bottom: 1px solid transparent;
+  background: var(--material-bar);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  transition: border-color var(--dur-fast) var(--ease-out), transform var(--dur-base) var(--ease-spring);
+}
+
+html body .v2 .v2__workspace .v2__frame[data-scrolled="true"] .v2__main > .v2-top-title {
+  border-bottom-color: var(--line);
+}
+
+/* 画面の題はここ1本。デスクトップ 22/28/700、768px未満 20/26/600（G3）。 */
+html body .v2 .v2__workspace .v2__main > .v2-top-title .v2-top-title__label {
+  font-size: var(--type-title2-size);
+  line-height: var(--type-title2-leading);
+  font-weight: var(--type-title2-weight);
+  letter-spacing: var(--type-title2-tracking);
+}
+@media (max-width: 767px) {
+  html body .v2 .v2__workspace .v2__main > .v2-top-title .v2-top-title__label {
+    font-size: var(--type-title3-size);
+    line-height: var(--type-title3-leading);
+    font-weight: var(--type-title3-weight);
+    letter-spacing: var(--type-title3-tracking);
+  }
+}
+
+@supports not (backdrop-filter: blur(1px)) {
+  html body .v2 .v2__workspace .v2__main > .v2-top-title,
+  html body .v2 .v2__workspace .v2__frame > .v2__tabs-column,
+  html body nav.shell__mobile-bottom-nav.shell__mobile-bottom-nav--v2 {
+    background: var(--material-bar-solid);
+  }
+}
+
+@media (prefers-reduced-transparency: reduce) {
+  html body .v2 .v2__workspace .v2__main > .v2-top-title,
+  html body .v2 .v2__workspace .v2__frame > .v2__tabs-column,
+  html body nav.shell__mobile-bottom-nav.shell__mobile-bottom-nav--v2 {
+    background: var(--material-bar-solid);
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+}
+
+/* 携帯のメニューの押し手とシート。机上では出さない。 */
+.v2-menu-trigger {
+  display: none;
+}
+
+.v2-menu-sheet__list {
+  display: grid;
+  gap: 2px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.v2-menu-sheet__item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  box-sizing: border-box;
+  min-height: 52px;
+  padding: 0 12px;
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  font-size: var(--type-headline-size);
+  line-height: var(--type-headline-leading);
+  text-decoration: none;
+}
+
+.v2-menu-sheet__item:active { background: var(--interactive); }
+.v2-menu-sheet__item[aria-current="page"] { background: var(--selected); font-weight: 700; }
+.v2-menu-sheet__icon { flex: none; width: 24px; height: 24px; color: var(--muted); }
+.v2-menu-sheet__item[aria-current="page"] .v2-menu-sheet__icon { color: var(--text); }
+
+.v2-hotkeys__sheet .v2-hotkeys__list {
+  width: 100%;
+  min-width: 0;
+  max-width: none;
+  margin-block: var(--v2-space-2) var(--v2-space-3);
+  padding: 0;
+  border: 0;
+  background: transparent;
+}
+
+.v2-hotkeys__close { margin-top: var(--v2-space-3); min-height: 44px; }
+
+/* j/k で選んだ投稿の輪郭。 */
+.v2 article.v2-post[data-kbd-selected] {
+  outline: 2px solid var(--action);
+  outline-offset: -2px;
+}
+
+/* 携帯の新規投稿の丸。 */
+.v2-fab { display: none; }
+
+/* 携帯（<760） ---------------------------------------------------------- */
+
+@media (max-width: 759px) {
+  html body .v2 .v2__workspace .v2__frame {
+    --v2-strip-h: 0px;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+  }
+
+  /* 縦の帯は出さない。行き先は下のタブと、帯の左端のメニュー。 */
+  html body .v2 .v2__workspace .v2__frame > .v2__nav { display: none; }
+
+  html body .v2 .v2__workspace .v2__frame > #hub-main.v2__main,
+  html body .v2 .v2__workspace .v2__frame[data-measure] > #hub-main.v2__main {
+    flex: 1 1 auto;
+    width: 100%;
+    min-width: 0;
+    max-width: none;
+    border-right: 0;
+    padding-inline: 16px;
+    padding-top: 0 !important;
+    padding-bottom: calc(49px + 24px + env(safe-area-inset-bottom)) !important;
+  }
+
+  html body .v2 .v2__workspace .v2__main > .v2-top-title {
+    min-height: 44px;
+  }
+
+  .v2-menu-trigger {
+    display: inline-flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    margin: 0 4px 0 -12px;
+    padding: 0;
+    border: 0;
+    border-radius: var(--radius-pill);
+    background: transparent;
+    color: var(--text);
+    cursor: pointer;
+  }
+  .v2-menu-trigger:active { background: var(--interactive); }
+  .v2-menu-trigger__mark { width: 24px; height: 24px; }
+
+  /*
+   * 左の列の目録は、携帯では画面名の下の横タブにする（監査 S7）。帯は画面名より上に出さない。
+   * 本文の中に携帯用の写し（.v2__tabs-column--mobile）があり、ここでは左の列のほうを隠す。
+   * 写しはタブの並びだけ出す。タグ・コミュニティ・リスト・下書きなどの欄
+   * （「まだ…ありません」と言い訳のリンク）は切れて文字が漏れるので出さない。
+   */
+  html body .v2 .v2__workspace .v2__frame > .v2__tabs-column { display: none; }
+  html body .v2 .v2__workspace .v2__main > .v2__tabs-column--mobile > :not(nav, ul, ol, .v2-main-directory__tools) {
+    display: none;
+  }
+  html body .v2 .v2__workspace .v2__main > .v2__tabs-column--mobile:not(:has(nav, ul, ol, .v2-main-directory__tools)) { display: none; }
+
+  /* 下へ送ると隠れ、上へ戻すと出る。高さは変えない（transform だけ）。 */
+  html body .v2 .v2__workspace .v2__frame[data-chrome="hidden"] > .v2__tabs-column {
+    transform: translateY(-100%);
+  }
+  html body .v2 .v2__workspace .v2__frame[data-chrome="hidden"] .v2__main > .v2-top-title {
+    transform: translateY(calc(-100% - var(--v2-strip-h, 0px)));
+  }
+
+  /* 下のタブ（v2 だけ）。 */
+  html[data-hub-surface] body nav.shell__mobile-bottom-nav.shell__mobile-bottom-nav--v2 {
+    position: fixed;
+    inset: auto 0 0 0;
+    z-index: 100;
+    display: grid !important;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 0;
+    box-sizing: border-box;
+    height: calc(49px + env(safe-area-inset-bottom));
+    min-height: 0;
+    padding: 0 4px env(safe-area-inset-bottom);
+    border-top: 1px solid var(--line);
+    /* Solid: another rule turns the blur off, and a translucent bar without blur lets the page text show through the labels. */
+    background: var(--material-bar-solid);
+    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+  }
+  html[data-hub-surface] body nav.shell__mobile-bottom-nav--v2 > a {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    box-sizing: border-box;
+    min-width: 44px;
+    min-height: 49px;
+    padding: 4px 0 2px;
+    border-radius: 0;
+    background: transparent;
+    color: var(--muted);
+    text-decoration: none;
+  }
+  html[data-hub-surface] body nav.shell__mobile-bottom-nav--v2 > a[aria-current="page"] {
+    background: transparent;
+    color: var(--text);
+  }
+  html[data-hub-surface] body nav.shell__mobile-bottom-nav--v2 > a[aria-current="page"]::before { content: none; }
+  html[data-hub-surface] body nav.shell__mobile-bottom-nav--v2 > a:active { transform: scale(.97); }
+  html[data-hub-surface] body nav.shell__mobile-bottom-nav--v2 .shell__mobile-nav-mark {
+    position: relative;
+    display: inline-flex;
+    overflow: visible;
+    width: 24px;
+    height: 24px;
+    max-width: none;
+  }
+  html[data-hub-surface] body nav.shell__mobile-bottom-nav--v2 svg {
+    width: 24px;
+    height: 24px;
+  }
+  /* 選択中は塗りの記号。 */
+  html[data-hub-surface] body nav.shell__mobile-bottom-nav--v2 > a[aria-current="page"] svg {
+    fill: color-mix(in srgb, currentColor 22%, transparent);
+    stroke-width: 2.1;
+  }
+  html[data-hub-surface] body nav.shell__mobile-bottom-nav--v2 > a > span:not(.shell__mobile-nav-mark):not(.shell__mobile-nav-status) {
+    max-width: 100%;
+    overflow: hidden;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: 600;
+    letter-spacing: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .shell__mobile-nav-dot {
+    position: absolute;
+    top: -1px;
+    right: -3px;
+    width: 8px;
+    height: 8px;
+    border-radius: var(--radius-pill);
+    background: var(--action);
+    box-shadow: 0 0 0 2px var(--bg);
+  }
+
+  .v2-fab {
+    position: fixed;
+    right: 16px;
+    bottom: calc(49px + 16px + env(safe-area-inset-bottom));
+    z-index: 90;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    padding: 0;
+    border: 0;
+    border-radius: var(--radius-pill);
+    background: var(--action);
+    color: var(--action-text);
+    box-shadow: var(--elevation-2);
+    cursor: pointer;
+    transition: transform var(--dur-press) var(--ease-out);
+  }
+  .v2-fab:active { transform: scale(.94); }
+  .v2-fab__mark { width: 24px; height: 24px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html body .v2 .v2__workspace .v2__main > .v2-top-title,
+  html body .v2 .v2__workspace .v2__frame > .v2__tabs-column,
+  .v2-fab {
+    transition: none;
+  }
+}
+
+/* 帯の中身は左から（メニューの押し手・題）、操作は右端。 */
+html body .v2 .v2__workspace .v2__main > .v2-top-title {
+  justify-content: flex-start;
+}
+html body .v2 .v2__workspace .v2__main > .v2-top-title > .v2-top-title__action {
+  margin-left: auto;
+}
+
+/* 携帯には右列とその開閉の帯を出さない（縦の帯と同じく、行き先は下のタブとメニュー）。 */
+@media (max-width: 759px) {
+  html body .v2 .v2__workspace .v2__frame .v2__aside,
+  html body .v2 .v2__workspace .v2__frame .v2__aside-strip {
+    display: none !important;
+  }
+}
+
+/*
+ * 根の layout-stability.css は、机上幅（≥760）で html と body を画面の高さに固定し、
+ * 列ごとにスクロールさせる（既存の外郭の方式）。v2 は文書そのものがスクロールするので、
+ * v2 を持つ文書だけ固定を外す。overflow-x: clip はそのまま残る（スクロール容器にならない）。
+ */
+html:has(.v2),
+html:has(.v2) body {
+  height: auto;
+  min-height: 100%;
+  overflow-y: visible;
+}
+
+/*
+ * 左のアイコン列は画面の左端に貼り、右の帯は右端に貼る。群ぜんたいを中央に置く
+ * 箱（padding-left で寄せる）は作らない。余った幅は本文と右列の間が引き受ける。
+ * 右列・右の帯は margin-left: auto で右へ送る。右側に何が現れても本文は動かない
+ * （CLS）。本文の最大幅は列の中の指定であって、枠を中央に寄せる理由にしない。
+ */
+html body .v2 .v2__workspace .v2__frame {
+  --v2-nav-w: 72px;
+  --v2-tabs-w: 0px;
+  --v2-strip-w: 0px;
+  --v2-main-w: 600px;
+  justify-content: flex-start;
+  padding-left: 0;
+}
+html body .v2 .v2__workspace .v2__frame > .v2__aside-slot > .v2__aside:not([hidden]),
+html body .v2 .v2__workspace .v2__frame > .v2__aside-slot > .v2__aside[hidden] + .v2__aside-strip,
+html body .v2 .v2__workspace .v2__frame > .v2__aside-slot > .v2__aside-strip:first-child {
+  margin-left: auto;
+}
+html body .v2 .v2__workspace .v2__frame:has(> .v2__tabs-column) { --v2-tabs-w: 224px; }
+html body .v2 .v2__workspace .v2__frame[data-measure="wide"] { --v2-main-w: 1280px; }
+@media (min-width: 1200px) {
+  html body .v2 .v2__workspace .v2__frame { --v2-strip-w: 52px; }
+}
+@media (min-width: 1440px) {
+  html body .v2 .v2__workspace .v2__frame { --v2-nav-w: 244px; }
+}
+@media (max-width: 759px) {
+  html body .v2 .v2__workspace .v2__frame { padding-left: 0; }
+}
+
+/* V2Detail の媒体枠: 子が img/video/iframe 以外（プレーヤーの入れ物）でも、place-items: center で縮まない。 */
+.v2-detail__media > :not(img):not(video):not(iframe) {
+  width: 100%;
+}
+
+/* 携帯で媒体を端から端まで出すための逃がし（本文の左右 16px を打ち消す）。動画のプレーヤー・札の絵が使う。 */
+@media (max-width: 759px) {
+  .v2 .v2-bleed {
+    margin-inline: -16px;
+    width: calc(100% + 32px);
+    max-width: none;
+    border-radius: 0;
+  }
+}
+
+/* 広い型の本文幅は、右の帯の有無（水和後に変わる）を見ない。帯の幅を先に引いた定数にする。 */
+@media (min-width: 760px) {
+  html body .v2 .v2__workspace .v2__frame[data-measure="wide"] > #hub-main.v2__main {
+    /* 右列が開いたときは本文が縮む（flex-shrink: 1）。縮まないと右列が画面の外へ押し出され、帯も隠れる。 */
+    flex: 0 1 min(1280px, calc(100% - var(--v2-nav-w) - var(--v2-tabs-w) - var(--v2-strip-w)));
+    min-width: 0;
+    width: min(1280px, calc(100% - var(--v2-nav-w) - var(--v2-tabs-w) - var(--v2-strip-w)));
+  }
+}
+
+/* ===== 仕上げ（W6, 2026-10-15） ====================================== */
+
+/* 左ナビ: 44px の行、24px の記号、字は 400、現在地は 600 と塗りの記号。群の間は線でなく余白。 */
+@media (min-width: 760px) {
+  html body .v2 .v2__workspace .v2__frame[data-nav] > .v2__nav .v2-nav__flat ul {
+    gap: 2px;
+  }
+  html body .v2 .v2__workspace .v2__frame[data-nav] > .v2__nav .v2-nav__item {
+    height: 44px;
+    min-height: 44px;
+    font-weight: 400;
+  }
+  html body .v2 .v2__workspace .v2__frame[data-nav] > .v2__nav .v2-nav__item:hover {
+    background: var(--interactive);
+  }
+  html body .v2 .v2__workspace .v2__frame[data-nav] > .v2__nav .v2-nav__item[aria-current="page"] {
+    background: transparent;
+    font-weight: 600;
+  }
+  html body .v2 .v2__workspace .v2__frame[data-nav] > .v2__nav .v2-nav__item[aria-current="page"]:hover {
+    background: var(--interactive);
+  }
+  html body .v2 .v2__workspace .v2__frame[data-nav] > .v2__nav .v2-nav__icon {
+    width: 24px;
+    height: 24px;
+  }
+  html body .v2 .v2__workspace .v2__frame[data-nav] > .v2__nav .v2-nav__item[aria-current="page"] .v2-nav__icon {
+    fill: color-mix(in srgb, currentColor 22%, transparent);
+    stroke-width: 2.1;
+  }
+  html body .v2 .v2__workspace .v2__nav .v2-nav__flat li[data-gap="true"] {
+    margin-top: var(--v2-space-4);
+  }
+  /* 下の群（ウォレット・プロフィール・設定）は罫線でなく余白で分ける。 */
+  html body .v2 .v2__workspace .v2__nav .v2-nav__flat-bottom {
+    margin-top: var(--v2-space-3);
+    padding-top: 0;
+    border-top: 0;
+  }
+}
+
+/* 右の記号の帯: 右列が閉じている ≥1200 の1列型（narrow）では画面の右端に固定し（広い型は帯が本文の幅に入るので固定しない）、本文の群は中央に置く（右の空きを残さない）。 */
+@media (min-width: 1200px) {
+  html body .v2 .v2__workspace .v2__frame[data-measure="narrow"]:not(:has(.v2__aside:not([hidden]))) {
+    --v2-strip-w: 0px;
+  }
+  html body .v2 .v2__workspace .v2__frame[data-measure="narrow"]:not(:has(.v2__aside:not([hidden]))) .v2__aside-strip {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 30;
+    height: 100dvh;
+  }
+}
+
+/* 空の状態: 枠で囲まない。静かな中央寄せの字と押し手1つ（SPEC 3）。 */
+html body .v2 .v2-empty {
+  max-width: none;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+
+/* 携帯用の写しは机上では出さない。 */
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top.v2__tabs-column--mobile { display: none; }
+@media (max-width: 759px) {
+  html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top.v2__tabs-column--mobile { display: flex; }
+  html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top.v2__tabs-column--mobile:not(:has(nav, ul, ol, .v2-main-directory__tools)) { display: none; }
+}
+
+/* 上端のタブ（SPEC 4.1 / L2）。画面名の直下、本文の中。2段目以降（並びなど）は小さな切替。 */
+html body .v2 .v2__workspace .v2__main:has(> .v2__tabs-column--top) {
+  display: flex;
+  flex-direction: column;
+}
+html body .v2 .v2__workspace .v2__main:has(> .v2__tabs-column--top) > * {
+  flex-shrink: 0;
+  min-width: 0;
+}
+html body .v2 .v2__workspace .v2__main:has(> .v2__tabs-column--top) > .v2-top-title {
+  order: -2;
+}
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top {
+  order: -1;
+  position: sticky;
+  top: calc(var(--v2-strip-h, 0px) + 52px);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: auto;
+  height: auto;
+  margin: calc(-1 * var(--v2-space-3)) -16px var(--v2-space-3);
+  padding: 0;
+  border-right: 0;
+  border-bottom: 1px solid var(--line);
+  background: var(--material-bar);
+  backdrop-filter: saturate(180%) blur(20px);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  overflow: visible;
+}
+/* 絞り込み・検索欄などの塊を含むときは貼り付けない（背が高くなるため）。 */
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top:has(> :is(form, details, div, section, table, dl, fieldset, input, select, textarea, label):not(.v2-main-directory__tools)) {
+  position: static;
+}
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top > :is(.v2__tabs-column-title, h2, h3, h4, .v2-column__title) {
+  display: none;
+}
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top > :is(nav, .v2-main-directory__tools) {
+  display: block;
+  margin: 0;
+  padding: 0 16px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scrollbar-width: none;
+}
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top > :is(nav, .v2-main-directory__tools)::-webkit-scrollbar {
+  display: none;
+}
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top :is(ul, ol) {
+  display: flex;
+  align-items: stretch;
+  gap: var(--v2-space-5);
+  width: max-content;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* A tab list passed as a bare ul/ol (market, games) has no nav wrapper, so it needs the same 16px gutter as the nav above and the page content. */
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top > :is(ul, ol) {
+  box-sizing: border-box;
+  padding: 0 16px;
+}
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top > .v2-main-directory__tools {
+  display: flex;
+  align-items: center;
+  gap: var(--v2-space-2);
+  width: auto;
+  min-width: 0;
+}
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top li {
+  display: flex;
+  list-style: none;
+}
+/* 1段目: タブ（高さ 44、15/600、非選択 --muted、選択は --text と下端の --action 線）。 */
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top > nav:first-of-type .v2-nav__item {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  flex: none;
+  box-sizing: border-box;
+  width: auto;
+  height: 44px;
+  min-height: 44px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: var(--type-callout-size);
+  line-height: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+}
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top > nav:first-of-type .v2-nav__item:hover {
+  background: transparent;
+  color: var(--text);
+}
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top > nav:first-of-type .v2-nav__item[aria-current]:not([aria-current="false"]) {
+  background: transparent;
+  color: var(--text);
+}
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top > nav:first-of-type .v2-nav__item .v2-nav__label {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+  flex: none;
+  overflow: visible;
+}
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top > nav:first-of-type .v2-nav__item .v2-nav__label::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  border-radius: 3px 3px 0 0;
+  background: var(--action);
+  transform: scaleX(0);
+  transition: transform var(--dur-fast) var(--ease-out);
+}
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top > nav:first-of-type .v2-nav__item[aria-current]:not([aria-current="false"]) .v2-nav__label::after {
+  transform: scaleX(1);
+}
+/*
+ * nav で包まず ul をそのまま渡す画面（アカウント・市場・依頼・ボード・ゲーム）も、同じ下線タブにする。
+ * 以前はここが無く、グローバルの「選択行の塗り」に落ちて、文字が箱の端に触れていた。左右 12px を持たせる。
+ */
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top > :is(ul, ol) {
+  gap: 0;
+  padding-inline: 4px;
+}
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top > :is(ul, ol) > li > .v2-nav__item,
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top > :is(ul, ol) > li > details > summary.v2-nav__item {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  flex: none;
+  box-sizing: border-box;
+  width: auto;
+  height: 44px;
+  min-height: 44px;
+  padding: 0 12px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: var(--type-callout-size);
+  line-height: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top > :is(ul, ol) > li > .v2-nav__item:hover,
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top > :is(ul, ol) > li > details > summary.v2-nav__item:hover {
+  background: transparent;
+  color: var(--text);
+}
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top > :is(ul, ol) > li > .v2-nav__item[aria-current]:not([aria-current="false"]),
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top > :is(ul, ol) > li > details > summary.v2-nav__item[aria-current]:not([aria-current="false"]) {
+  background: transparent;
+  color: var(--text);
+  box-shadow: inset 0 -3px 0 var(--action);
+}
+/* 「その他」の中の項目は縦の一覧のまま（横タブにしない）。 */
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top > :is(ul, ol) details > .v2-nav__list--nested {
+  flex-direction: column;
+  width: auto;
+  min-width: 0;
+  gap: 0;
+  padding: var(--v2-space-1) 0;
+}
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top > :is(ul, ol) details > .v2-nav__list--nested .v2-nav__item {
+  padding: var(--v2-space-2) var(--v2-space-3);
+  border-radius: var(--v2-radius);
+}
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top > :is(ul, ol) details > .v2-nav__list--nested .v2-nav__item[aria-current="page"] {
+  background: var(--emphasis-soft);
+  color: var(--action);
+}
+/* 2段目以降と操作列: 小さな切替（高さ 32、pill、選択中は反転）。 */
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top > nav ~ nav,
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top > .v2-main-directory__tools {
+  order: 3;
+  padding-block: var(--v2-space-2);
+}
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top > nav ~ nav :is(ul, ol) {
+  gap: var(--v2-space-2);
+}
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top > nav ~ nav .v2-nav__item,
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top > .v2-main-directory__tools :is(.v2-nav__item, .v2-rail__item) {
+  display: inline-flex;
+  align-items: center;
+  flex: none;
+  gap: var(--v2-space-1);
+  box-sizing: border-box;
+  width: auto;
+  height: 32px;
+  min-height: 32px;
+  padding: 0 14px;
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: var(--interactive);
+  color: var(--text);
+  font-family: inherit;
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+}
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top > nav ~ nav .v2-nav__item[aria-current]:not([aria-current="false"]) {
+  background: var(--text);
+  color: var(--bg);
+}
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top :is(.v2-nav__item, .v2-rail__item):focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: -2px;
+}
+html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top :is(.v2-nav__icon, .v2-rail__item .v2-icon) {
+  width: 18px;
+  height: 18px;
+}
+@supports not (backdrop-filter: blur(1px)) {
+  html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top { background: var(--material-bar-solid); }
+}
+@media (prefers-reduced-transparency: reduce) {
+  html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top {
+    background: var(--material-bar-solid);
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+}
+
+@media (max-width: 759px) {
+  /* 画面名 44 の下に貼り付き、画面名と一緒に隠れる。端は薄れて、続きがあると分かる。 */
+  html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top {
+    top: 44px;
+    margin-bottom: var(--v2-space-2);
+    transition: transform var(--dur-base) var(--ease-spring);
+  }
+  html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top > :is(nav, .v2-main-directory__tools) {
+    -webkit-mask-image: linear-gradient(to right, transparent 0, currentColor 12px, currentColor calc(100% - 28px), transparent 100%);
+    mask-image: linear-gradient(to right, transparent 0, currentColor 12px, currentColor calc(100% - 28px), transparent 100%);
+  }
+  html body .v2 .v2__workspace .v2__frame[data-chrome="hidden"] .v2__main > .v2__tabs-column--top {
+    transform: translateY(calc(-100% - 44px));
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  html body .v2 .v2__workspace .v2__main > .v2__tabs-column--top { transition: none; }
+}

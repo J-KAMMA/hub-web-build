@@ -1,0 +1,1557 @@
+[
+  {
+    "slug": "federal-funds-rate",
+    "topicType": "concept",
+    "categoryLabel": "経済・ビジネス",
+    "title": "フェデラルファンド金利",
+    "summary": "フェデラルファンド金利とは、米国の預金取扱機関が連邦準備銀行に保有する準備残高を相互に翌日物で貸し借りする際の金利である。連邦公開市場委員会（FOMC）が金融政策のスタンスを調整する主たる手段として目標レンジを定め、準備残高への付利や公開市場操作を通じて実勢金利を目標圏内に誘導する。その変化は他の短期金利、長期金利、為替レート、資産価格を経て雇用・産出・物価に波及する。",
+    "bodyMarkdown": "## 銀行間の翌日物金利\n\nフェデラルファンド金利とは、預金取扱機関が[連邦準備制度](/hubpedia/federal-reserve)の連邦準備銀行に保有する残高を、他の預金取扱機関へ翌日物で貸し付ける際の金利である。1913年の連邦準備法は米国の[金融政策](/hubpedia/monetary-policy)を定める責任を連邦準備制度に与えており、この金利は政策運営の中核に置かれている。 [1][2]\n\n金融政策の決定機関である連邦公開市場委員会（FOMC）は、政策スタンスを調整する主たる手段としてフェデラルファンド金利の目標を変更する。連邦準備制度は[公開市場操作](/hubpedia/open-market-operations)、公定歩合、[預金準備率](/hubpedia/reserve-requirements)の3つの政策手段を管理し、これらを通じて預金取扱機関が連邦準備銀行に保有する残高の需要と供給に影響を与え、フェデラルファンド金利を変化させる。 [3][4][5]\n\n## 目標を定めるFOMC\n\nFOMCは12名で構成される。連邦準備制度理事会の7名の理事とニューヨーク連邦準備銀行総裁に加え、残り11の連邦準備銀行総裁のうち4名が1年任期の輪番制で加わる。 [6]\n\nFOMCは年8回の定例会合を開き、経済・金融情勢を検討し、適切な金融政策のスタンスを決定するとともに、物価安定と持続的経済成長という長期目標へのリスクを評価する。2008年12月以降、フェデラルファンド金利の目標は25ベーシスポイント幅のレンジで表明されてきた。 [7][8]\n\n## 準備残高を通じた誘導\n\n銀行は決済を容易にするため連邦準備銀行に準備残高を保有し、支払いは銀行間で準備残高を振り替えることで決済できる。銀行は必要と市場状況に応じて相互に準備を貸し借りし、準備残高は資金調達の手段であると同時に運用の手段でもある。フェデラルファンド金利は、銀行がこの準備残高を翌日物で借り入れる際に支払う金利である。 [9][10][11]\n\n現在の枠組みでは、FOMCは連邦準備制度が銀行の準備残高に支払う金利を変更することで、フェデラルファンド金利、ひいては銀行間短期信用のコストに影響を与える。銀行が連邦準備制度に置く準備残高で得られる金利を下回る金利で他行に貸し付けることはまずなく、準備残高が潤沢な状況では、借り入れに際して連邦準備制度の支払金利を大きく上回る金利を払う必要もない。このため目標の変更には通常、準備残高への支払金利の同幅の変更が伴い、実勢金利を目標と整合する水準へ調整する誘因となる。 [12][13][14][15]\n\n## 経済への伝播\n\nフェデラルファンド金利の変化は、他の短期[金利](/hubpedia/interest-rate)、為替レート、長期金利、マネーと信用の量へ連鎖的に影響し、最終的には雇用、産出、財・サービス価格を含む幅広い経済変数に及ぶ。コマーシャル・ペーパーや米国短期国債の利回りはフェデラルファンド金利と密接に連動し、変動型住宅ローンや多くの個人・商業信用枠の適用金利にも速やかに反映される。 [16][17][18]\n\n長期貸出金利は、フェデラルファンド金利の現在水準だけでなく、ローン期間を通じた金融政策と経済の見通しへの期待と関連する。FOMCが金融政策を緩和、すなわち目標金利を引き下げると、消費者ローン金利の低下を通じて電子機器や自動車のような耐久財を中心に支出が増え、住宅ローン金利の低下は住宅購入を手頃にし借換えを促す。 [19][20]\n\n## 運用方式の変遷\n\n世界金融危機以前、連邦準備制度は公開市場操作で準備残高の供給を調整し、フェデラルファンド金利をFOMCが定めた目標近辺に維持していた。 [21]\n\n2007年夏に始まり2008年に深刻化した金融危機では、FOMCは目標金利を2007年9月中旬の5.25パーセントから2008年12月下旬のほぼゼロまで引き下げた。金利がほぼゼロに達すると従来の主たる緩和手段に依拠できなくなり、[量的緩和](/hubpedia/quantitative-easing)にあたる大規模資産購入など別の手段が投入されることになった。 [22][23][24]",
+    "sources": [
+      {
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+        "title": "Federal Open Market Committee",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "Federal Reserve explainer on the FOMC: the three tools of monetary policy, the federal funds rate definition, the chain of events it triggers, and the committee's structure and meeting schedule. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+        "title": "Monetary Policy: What Are Its Goals? How Does It Work?",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "Federal Reserve explainer on the transmission of monetary policy: the federal funds target as the primary instrument, interest on reserve balances, transmission channels, and the crisis-era turn to forward guidance and large-scale asset purchases. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+        "title": "Open Market Operations",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "Federal Reserve policy-tools page on open market operations, including the pre-crisis practice of adjusting reserve supply to keep the federal funds rate near the FOMC target. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Federal Funds Rate",
+        "summary": "The federal funds rate is the interest rate at which U.S. depository institutions lend reserve balances held at Federal Reserve Banks to one another overnight. The Federal Open Market Committee (FOMC) sets a target range for it as its primary means of adjusting the stance of monetary policy, and steers the effective rate into the target range through the interest rate paid on reserve balances and open market operations. Its changes propagate to other short-term rates, long-term rates, exchange rates, and asset prices, and ultimately to employment, output, and prices.",
+        "bodyMarkdown": "## The overnight rate between banks\n\nThe federal funds rate is the interest rate at which depository institutions lend balances they hold at [Federal Reserve](/hubpedia/federal-reserve) Banks to other depository institutions overnight. The Federal Reserve Act of 1913 gave the Federal Reserve responsibility for setting U.S. [monetary policy](/hubpedia/monetary-policy), and this rate sits at the core of policy implementation. [1][2]\n\nThe Federal Open Market Committee (FOMC), the body that decides monetary policy, adjusts the stance of policy primarily by changing its target for the federal funds rate. The Federal Reserve controls three tools — [open market operations](/hubpedia/open-market-operations), the discount rate, and [reserve requirements](/hubpedia/reserve-requirements) — and through them influences the demand for and supply of balances that depository institutions hold at the Reserve Banks, thereby altering the federal funds rate. [3][4][5]\n\n## The FOMC that sets the target\n\nThe FOMC consists of twelve members: the seven members of the Board of Governors and the president of the Federal Reserve Bank of New York, joined by four of the remaining eleven Reserve Bank presidents who serve one-year terms on a rotating basis. [6]\n\nThe FOMC holds eight regularly scheduled meetings per year, at which it reviews economic and financial conditions, determines the appropriate stance of monetary policy, and assesses risks to its long-run goals of price stability and sustainable economic growth. Since December 2008, the target for the federal funds rate has been stated as a range 25 basis points wide. [7][8]\n\n## Steering through reserve balances\n\nBanks hold reserve balances at the Reserve Banks to facilitate payments, which can be settled by transferring reserve balances between banks. Banks may borrow and lend reserves to each other depending on their needs and market conditions, so reserve balances serve both as a means of funding and as an investment. The federal funds rate is the interest rate banks pay to borrow these reserve balances overnight. [9][10][11]\n\nIn the current framework, the FOMC influences the federal funds rate — and thus the cost of short-term interbank credit — by changing the rate of interest the Fed pays on reserve balances. A bank is unlikely to lend to another bank at a rate lower than what it can earn on reserve balances held at the Fed, and because reserve balances are currently abundant, a bank that wants to borrow can likely do so without paying much above the rate paid by the Fed. Changes in the target are therefore typically accompanied by commensurate changes in the interest rate paid on reserve balances, providing incentives for the effective rate to adjust to a level consistent with the target. [12][13][14][15]\n\n## Transmission to the economy\n\nChanges in the federal funds rate trigger a chain of events affecting other short-term [interest rates](/hubpedia/interest-rate), foreign exchange rates, long-term interest rates, and the amount of money and credit, ultimately reaching a range of economic variables including employment, output, and the prices of goods and services. Rates of return on commercial paper and U.S. Treasury bills typically move closely with the federal funds rate, and changes are rapidly reflected in rates applied to floating-rate loans, including floating-rate mortgages and many personal and commercial credit lines. [16][17][18]\n\nRates charged on longer-term loans are related to expectations of how monetary policy and the broader economy will evolve over the duration of the loans, not just to the current level of the federal funds rate. When the FOMC eases policy — that is, reduces its target — the resulting lower consumer loan rates elicit greater spending, particularly on durable goods such as electronics, appliances, and automobiles, while lower mortgage rates make buying a house more affordable and encourage refinancing. [19][20]\n\n## Evolution of the operating framework\n\nBefore the global financial crisis, the Federal Reserve used open market operations to adjust the supply of reserve balances so as to keep the federal funds rate around the target established by the FOMC. [21]\n\nThe crisis that began in the summer of 2007 and became particularly severe in 2008 led the FOMC to cut its target from 5-1/4 percent in mid-September 2007 to near zero in late December 2008. With the rate near zero, the Fed could no longer rely on its primary means of easing monetary policy, and other tools — large-scale asset purchases, the operation known as [quantitative easing](/hubpedia/quantitative-easing) — were deployed. [22][23][24]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "フェデラルファンド金利は、預金取扱機関が連邦準備銀行に保有する残高を他の預金取扱機関へ翌日物で貸し付ける際の金利である。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+              "quote": "The federal funds rate is the interest\nrate at which depository institutions lend balances at the Federal Reserve to other depository\ninstitutions overnight."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "1913年の連邦準備法は、連邦準備制度に金融政策を定める責任を与えた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+              "quote": "The Federal Reserve Act of 1913 gave the Federal Reserve responsibility for setting\nmonetary policy."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "FOMCが金融政策のスタンスを調整する主たる手段は、フェデラルファンド金利の目標を変更することである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "The FOMC's primary means of adjusting the stance of monetary policy is by changing its **target for\nthe federal funds rate.**"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "連邦準備制度は、公開市場操作、公定歩合、預金準備率という3つの金融政策手段を管理している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+              "quote": "The Federal Reserve controls the three tools of monetary policy--[open market operations][217], [the\ndiscount rate][218], and [reserve requirements][219]."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "連邦準備制度は3つの手段を通じて預金取扱機関が連邦準備銀行に保有する残高の需要と供給に影響を与え、フェデラルファンド金利を変化させる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+              "quote": "Using the three tools, the Federal Reserve\ninfluences the demand for, and supply of, balances that depository institutions hold at Federal\nReserve Banks and in this way alters the federal funds rate."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "FOMCは理事7名、ニューヨーク連邦準備銀行総裁、残り11行の総裁のうち1年任期の輪番制の4名の、計12名で構成される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+              "quote": "The Federal Open Market Committee (FOMC) consists of twelve members--the seven members of the Board\nof Governors of the Federal Reserve System; the president of the Federal Reserve Bank of New York;\nand four of the remaining eleven Reserve Bank presidents, who serve one-year terms on a rotating\nbasis."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "FOMCは年8回の定例会合を開き、経済・金融情勢を検討し、適切な金融政策のスタンスを決定し、物価安定と持続的経済成長へのリスクを評価する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+              "quote": "The FOMC holds eight regularly scheduled meetings per year. At these meetings, the Committee reviews\neconomic and financial conditions, determines the appropriate stance of monetary policy, and\nassesses the risks to its long-run goals of price stability and sustainable economic growth."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "2008年12月以降、FOMCはフェデラルファンド金利の目標を25ベーシスポイント幅のレンジで表明している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "Since December 2008, the FOMC has stated its target for the federal funds rate in terms of a\nrange that is 25 basis points wide."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "銀行は決済を容易にするため連邦準備制度に準備残高を保有し、支払いは銀行間の準備残高の振替によって決済できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "To facilitate such payments, banks hold reserve balances at the Fed; payments can\nbe settled by transferring reserve balances between banks."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "銀行は必要と市場状況に応じて相互に準備を貸し借りでき、準備残高は資金調達の手段にも運用の手段にもなる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "Banks may borrow and lend reserves\nto each other depending on their needs and market conditions; as such, banks can use reserve\nbalances both as a means of funding and as an investment."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "フェデラルファンド金利は、銀行が準備残高を翌日物で借り入れるために支払う金利である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "The federal funds rate is the interest\nrate that banks pay to borrow reserve balances overnight."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "FOMCは、連邦準備制度が銀行の準備残高に支払う金利を変更することで、フェデラルファンド金利、ひいては銀行間短期信用のコストに影響を与える能力を持つ。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "The FOMC has the ability to influence the federal funds rate--and thus the cost of short-term\ninterbank credit--by changing the rate of interest the Fed pays on reserve balances that banks hold\nat the Fed."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "銀行が連邦準備制度に置く準備残高で得られる金利を下回る金利で、他行や顧客に貸し付けることはまずない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "A bank is unlikely to lend to another bank (or to any of its customers) at an interest\nrate lower than the rate that the bank can earn on reserve balances held at the Fed."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "FOMCの目標変更には通常、準備残高への支払金利の同幅の変更が伴い、フェデラルファンド金利を目標と整合する水準へ調整する誘因を与える。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "Typically, changes in the FOMC's target for the federal funds rate are accompanied\nby commensurate changes in the rate of interest paid by the Fed on banks' reserve balances, thus\nproviding incentives for the federal funds rate to adjust to a level consistent with the FOMC's\ntarget."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "準備残高が現在潤沢であるため、借り入れを望む銀行は連邦準備制度の支払金利を大きく上回る金利を払わずに済む可能性が高い。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "And because\noverall reserve balances are currently abundant, if a bank wants to borrow reserve balances, it\nlikely will be able to do so without having to pay a rate much above the rate of interest paid by\nthe Fed."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "フェデラルファンド金利の変化は、他の短期金利、為替レート、長期金利、マネーと信用の量に連鎖的に影響し、最終的に雇用、産出、財・サービス価格を含む経済変数に及ぶ。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+              "quote": "Changes in the federal funds rate trigger a chain of events that affect other short-term interest\nrates, foreign exchange rates, long-term interest rates, the amount of money and credit, and,\nultimately, a range of economic variables, including employment, output, and prices of goods and\nservices."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "コマーシャル・ペーパーや米国短期国債の利回りは、通常フェデラルファンド金利と密接に連動する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "the rates of return on\ncommercial paper and U.S. Treasury bills--which are short-term debt securities issued by private\ncompanies and the federal government, respectively, to raise funds--typically move closely with the\nfederal funds rate."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "フェデラルファンド金利の変化は、変動型住宅ローンや多くの個人・商業信用枠を含む変動金利ローンの適用金利に速やかに反映される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "changes in the federal funds rate are rapidly reflected in the rates\napplied to floating-rate loans, including floating-rate mortgages as well as many personal and\ncommercial credit lines."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "長期貸出金利はフェデラルファンド金利の現在水準だけでなく、ローン期間を通じた金融政策と経済の見通しへの期待と関連する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "The rates charged on longer-term loans are related to expectations of how monetary policy\nand the broader economy will evolve over the duration of the loans, not just to the current level of\nthe federal funds rate."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "FOMCが目標金利を引き下げる金融緩和を行うと、消費者ローン金利の低下を通じて耐久財を中心に財・サービスへの支出が増える。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "when the FOMC eases monetary policy (that\nis, reduces its target for the federal funds rate), the resulting lower interest rates on consumer\nloans elicit greater spending on goods and services, particularly on durable goods such as\nelectronics, appliances, and automobiles."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "世界金融危機以前、連邦準備制度は公開市場操作で準備残高の供給を調整し、フェデラルファンド金利をFOMCの目標近辺に維持していた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+              "quote": "Before the global financial crisis, the Federal Reserve used OMOs to adjust\nthe supply of reserve balances so as to keep the federal funds rate--the interest rate at which\ndepository institutions lend reserve balances to other depository institutions overnight--around the\ntarget established by the FOMC."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "2007年夏に始まり2008年に深刻化した金融危機は、FOMCに目標金利を2007年9月中旬の5.25パーセントから2008年12月下旬のほぼゼロへ引き下げさせた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "The crisis in financial markets that began in the summer of 2007 and became particularly severe in\n2008 led the FOMC to cut its target for the federal funds rate from 5-1/4 percent in mid-September\n2007 to near zero in late December 2008."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "フェデラルファンド金利がほぼゼロになると、連邦準備制度は金融緩和の主たる手段に依拠できなくなった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "with the federal funds rate near zero, the Fed could no\nlonger rely on its primary means of easing monetary policy."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "金融危機への対応として投入された大規模資産購入は、6年間で約3.7兆ドルの長期国債と政府支援機関発行証券を対象とした。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "Another key monetary policy tool deployed in response to the financial crisis was **large-scale\nasset purchases,** which were purchases in securities markets over six years of roughly $3.7\ntrillion in longer-term Treasury securities as well as securities issued by government-sponsored\nenterprises."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "open-market-operations",
+    "topicType": "concept",
+    "categoryLabel": "経済・ビジネス",
+    "title": "公開市場操作",
+    "summary": "公開市場操作とは、中央銀行が公開市場で証券を売買する金融政策の実施手段である。米国では連邦公開市場委員会（FOMC）が短期目標を定め、金融危機前は準備残高の供給調整を通じてフェデラルファンド金利を目標近辺に誘導する役割を担った。2008年以降は長期証券の大規模購入やレポ・オペ、SOMA保有証券の償還調整などへと機能が広がった。",
+    "bodyMarkdown": "## 中央銀行による証券売買\n\n公開市場操作とは、中央銀行が公開市場で証券を売買する操作であり、[連邦準備制度](/hubpedia/federal-reserve)が[金融政策](/hubpedia/monetary-policy)を実施するうえで鍵となる手段である。公開市場操作の短期目標は連邦公開市場委員会（FOMC）が定める。 [1][2]\n\n連邦準備制度の政策手段は公開市場操作、[公定歩合](/hubpedia/discount-window)、[預金準備率](/hubpedia/reserve-requirements)の3つであり、このうち公開市場操作はFOMCが所管する。3つの手段を通じて預金取扱機関が連邦準備銀行に保有する残高の需要と供給に影響を与え、[フェデラルファンド金利](/hubpedia/federal-funds-rate)を変化させる。 [3][4]\n\n## 準備残高の供給調整\n\n世界金融危機以前、連邦準備制度は公開市場操作によって準備残高の供給を調整し、預金取扱機関が相互に翌日物で貸し借りするフェデラルファンド金利を、FOMCが定めた目標近辺に維持していた。 [5]\n\n## 危機以降に拡大した機能\n\n連邦準備制度の金融政策実施のあり方は金融危機以降に大きく変化し、特に2008年後半にFOMCがフェデラルファンド金利のほぼゼロの目標レンジを設定して以降に顕著となった。2008年末から2014年10月まで、連邦準備制度は公開市場での買入れを通じて長期証券の保有を大幅に拡大し、長期金利への下押し圧力を通じて金融環境を緩和的にし、経済活動と雇用創出を支えた。この大規模購入は[量的緩和](/hubpedia/quantitative-easing)として知られる政策である。 [6][7]\n\n2015年12月に始まった政策正常化の過程では、翌日物リバース・レポ協定（ON RRP）という公開市場操作の一種が補助的な政策手段として初めて用いられ、必要に応じてフェデラルファンド金利をFOMCの目標レンジ内に制御する役割を担った。 [8]\n\n## レポによる準備の安定化\n\n2019年9月、連邦準備制度はターム物および翌日物のレポを用い、準備以外の負債が急増する局面でも準備供給を潤沢に保ち、政策実施に悪影響を及ぼし得るマネー市場の圧力を緩和した。 [9]\n\n2020年3月前後の新型コロナ関連のストレス下でも、ターム物・翌日物レポは準備供給を潤沢に保ち、米国の短期ドル資金市場の円滑な機能を支えるうえで重要な役割を果たした。2021年以降は適格証券を対象とする国内向け常設レポ（SRP）オペが実施され、金利の上方圧力を抑える上限として政策実施と市場の円滑な機能を支えている。 [10][11]\n\n## 保有証券の調整と運用原則\n\n2022年5月4日、FOMCは連邦準備制度のバランスシート規模を縮小する計画を公表した。縮小は、システム・オープン・マーケット・アカウント（SOMA）に保有する証券から受け取る元本償還の再投資額を調整する形で、予測可能に進められた。月次上限は米国債が当初300億ドルで3か月後に600億ドル、エージェンシー債とエージェンシーMBSが当初175億ドルで3か月後に350億ドルとされた。 [12][13][14][15]\n\n2022年6月の縮小開始以降、連邦準備制度の証券保有総額は2.2兆ドル超減少し、内訳は米国債約1.6兆ドルとエージェンシーMBS約6000億ドルの償還であった。2025年10月29日、FOMCは同年12月1日をもって証券保有のランオフを停止すると発表し、デスクに対し、米国債の元本償還分を入札で全額継続し、エージェンシー証券の元本償還分を短期国債に再投資するよう指示した。 [16][17]\n\n中期的には、潤沢な準備体制の下で金融政策を効率的かつ効果的に実施するのに必要な規模の証券保有を維持する方針であり、長期的にはSOMA保有を主として米国債とし、経済の各部門への信用配分に対する影響を最小化する意図が示されている。公開市場操作の詳細な説明は、ニューヨーク連邦準備銀行が年次報告書で毎年公表している。 [18][19][20]",
+    "sources": [
+      {
+        "url": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+        "title": "Open Market Operations",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "Federal Reserve policy-tools page defining open market operations and tracing their evolution from pre-crisis reserve supply adjustment through large-scale purchases, ON RRP, repo operations, and standing repo operations. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+        "title": "Federal Open Market Committee",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "Federal Reserve explainer assigning responsibility for open market operations to the FOMC and describing how the three tools influence reserve balances and the federal funds rate. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.federalreserve.gov/monetarypolicy/policy-normalization.htm",
+        "title": "Policy Normalization",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "Federal Reserve page on FOMC communications about balance sheet reduction, covering SOMA reinvestment caps, the June 2022 runoff, the October 2025 decision to cease runoff, and the longer-run principle of holding primarily Treasury securities. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Open Market Operations",
+        "summary": "Open market operations are the purchase and sale of securities in the open market by a central bank, a key tool the Federal Reserve uses to implement monetary policy. In the United States the Federal Open Market Committee (FOMC) specifies their short-term objective; before the financial crisis they adjusted the supply of reserve balances to keep the federal funds rate around its target. Since 2008 their role has widened to include large-scale securities purchases, repo operations, and adjustments to reinvestment of principal payments from the SOMA portfolio.",
+        "bodyMarkdown": "## Securities trading by the central bank\n\nOpen market operations are the purchase and sale of securities in the open market by a central bank, a key tool the [Federal Reserve](/hubpedia/federal-reserve) uses in implementing [monetary policy](/hubpedia/monetary-policy). The short-term objective for open market operations is specified by the Federal Open Market Committee (FOMC). [1][2]\n\nThe Federal Reserve controls three tools — open market operations, the [discount rate](/hubpedia/discount-window), and [reserve requirements](/hubpedia/reserve-requirements) — and of these, open market operations fall under the FOMC. Through the three tools the Fed influences the demand for and supply of balances that depository institutions hold at the Reserve Banks, thereby altering the [federal funds rate](/hubpedia/federal-funds-rate). [3][4]\n\n## Adjusting the supply of reserve balances\n\nBefore the global financial crisis, the Federal Reserve used open market operations to adjust the supply of reserve balances so as to keep the federal funds rate — the overnight rate at which depository institutions lend reserve balances to one another — around the target established by the FOMC. [5]\n\n## Functions expanded after the crisis\n\nThe Fed's approach to implementing monetary policy evolved considerably after the financial crisis, particularly once the FOMC established a near-zero target range for the federal funds rate in late 2008. From the end of 2008 through October 2014, the Fed greatly expanded its holdings of longer-term securities through open market purchases, aiming to put downward pressure on longer-term interest rates and thus support economic activity and job creation by making financial conditions more accommodative — the policy known as [quantitative easing](/hubpedia/quantitative-easing). [6][7]\n\nDuring the policy normalization process that commenced in December 2015, the Fed first used overnight reverse repurchase agreements (ON RRPs), a type of open market operation, as a supplementary policy tool to help control the federal funds rate and keep it in the FOMC's target range. [8]\n\n## Stabilizing reserves through repos\n\nIn September 2019, the Federal Reserve used term and overnight repurchase agreements (repos) to ensure that the supply of reserves remained ample even during sharp increases in non-reserve liabilities and to mitigate money market pressures that could adversely affect policy implementation. [9]\n\nAmid the COVID-related stress around March 2020, term and overnight repos again played an important role in keeping the supply of reserves ample and supporting the smooth functioning of short-term U.S. dollar funding markets. Since 2021, the Fed has conducted domestic standing repo (SRP) operations against eligible securities, limiting upward pressure and providing a ceiling on rates to support policy implementation and smooth market functioning. [10][11]\n\n## Adjusting holdings and operating principles\n\nOn May 4, 2022, the FOMC released a statement communicating its plans for reducing the size of the Federal Reserve's balance sheet. The reduction proceeded predictably, primarily by adjusting the amounts reinvested of principal payments received from securities held in the System Open Market Account (SOMA). Monthly caps were set initially at $30 billion for Treasury securities, rising to $60 billion after three months, and at $17.5 billion for agency debt and agency mortgage-backed securities, rising to $35 billion after three months. [12][13][14][15]\n\nSince balance sheet reduction began in June 2022, the Fed's total securities holdings declined by more than $2.2 trillion, with redemptions of about $1.6 trillion in Treasury securities and $600 billion in agency MBS. On October 29, 2025, the FOMC announced that it would cease the runoff of its securities holdings starting December 1, 2025, directing the Desk to roll over at auction all principal payments from Treasury holdings and to reinvest all principal payments from agency securities into Treasury bills. [16][17]\n\nOver time, the Committee intends to maintain securities holdings in amounts needed to implement monetary policy efficiently and effectively in its ample-reserves regime, and in the longer run it intends to hold primarily Treasury securities in the SOMA, minimizing the effect of Federal Reserve holdings on the allocation of credit across sectors of the economy. The Federal Reserve Bank of New York publishes a detailed explanation of open market operations each year in its Annual Report. [18][19][20]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "公開市場操作とは、中央銀行が公開市場で証券を売買する操作であり、連邦準備制度が金融政策を実施するうえで鍵となる手段である。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+              "quote": "Open market operations (OMOs)--the purchase and sale of securities in the open market by a central\nbank--are a key tool used by the Federal Reserve in the implementation of monetary policy."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "公開市場操作の短期目標は連邦公開市場委員会（FOMC）が定める。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+              "quote": "The\nshort-term objective for open market operations is specified by the [Federal Open Market\nCommittee][202] (FOMC)."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "金融政策の3つの手段のうち公開市場操作はFOMCが所管し、公定歩合と預金準備率は理事会が所管する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+              "quote": "The Board of Governors of the Federal Reserve\nSystem is responsible for the discount rate and reserve requirements, and the Federal Open Market\nCommittee is responsible for open market operations."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "3つの手段を通じて連邦準備制度は預金取扱機関が連邦準備銀行に保有する残高の需要と供給に影響を与え、フェデラルファンド金利を変化させる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+              "quote": "Using the three tools, the Federal Reserve\ninfluences the demand for, and supply of, balances that depository institutions hold at Federal\nReserve Banks and in this way alters the federal funds rate."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "世界金融危機以前、連邦準備制度は公開市場操作で準備残高の供給を調整し、フェデラルファンド金利をFOMCの目標近辺に維持していた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+              "quote": "Before the global financial crisis, the Federal Reserve used OMOs to adjust\nthe supply of reserve balances so as to keep the federal funds rate--the interest rate at which\ndepository institutions lend reserve balances to other depository institutions overnight--around the\ntarget established by the FOMC."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "連邦準備制度の金融政策実施のあり方は金融危機以降、特に2008年後半にFOMCがほぼゼロの目標レンジを設定して以降、大きく変化した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+              "quote": "The Federal Reserve's approach to the implementation of monetary policy has evolved considerably\nsince the financial crisis, and particularly so since late 2008 when the FOMC established a\nnear-zero target range for the federal funds rate."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "2008年末から2014年10月まで、連邦準備制度は公開市場での買入れを通じて長期証券の保有を大幅に拡大し、長期金利への下押しと金融環境の緩和を通じて経済活動と雇用創出を支えた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+              "quote": "From the end of 2008 through October 2014, the\nFederal Reserve greatly expanded its holding of longer-term securities through open market purchases\nwith the goal of putting downward pressure on longer-term interest rates and thus supporting\neconomic activity and job creation by making financial conditions more accommodative."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "2015年12月に始まった政策正常化の過程で、翌日物リバース・レポ協定（ON RRP）が補助的手段としてフェデラルファンド金利を目標レンジ内に制御するために用いられた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+              "quote": "During the policy normalization process that commenced in December 2015, the Federal Reserve first\nused overnight reverse repurchase agreements (ON RRPs)--a type of OMO--as a supplementary policy\ntool, as necessary, to help control the federal funds rate and keep it in the target range set by\nthe FOMC."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "2019年9月、連邦準備制度はターム物および翌日物レポを用い、準備以外の負債の急増時にも準備供給を潤沢に保ち、政策実施に悪影響を及ぼし得るマネー市場の圧力を緩和した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+              "quote": "In September 2019, the Federal Reserve used term and overnight repurchase agreements (repo) to\nensure that the supply of reserves remain ample even during periods of sharp increases in\nnon-reserve liabilities, and to mitigate the risk of money market pressures that could adversely\naffect policy implementation."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "2020年3月前後の新型コロナ関連ストレス下で、ターム物・翌日物レポは準備供給を潤沢に保ち、短期ドル資金市場の円滑な機能を支える重要な役割を果たした。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+              "quote": "amid the\nCOVID-related stress around March 2020, term and overnight repos played an important role in\nensuring that the supply of reserves remained ample and supporting the smooth functioning of\nshort-term U.S. dollar funding markets."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "2021年以降、連邦準備制度は適格証券を対象とする国内向け常設レポ（SRP）オペを実施し、金利の上方圧力を抑え政策実施と市場の円滑な機能を支えている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+              "quote": "Since 2021, Federal Reserve has conducted domestic standing repo (SRP) operations against eligible\nsecurities. SRP operations limit upward pressure and help provide a ceiling on rates to support the\nmonetary policy implementation and smooth market functioning."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "2022年5月4日、FOMCは連邦準備制度のバランスシート規模を縮小する計画を表明した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/policy-normalization.htm",
+              "quote": "On May 4, 2022, the FOMC released a statement to communicate its plans for reducing the size of the\nFederal Reserve's balance sheet."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "バランスシート縮小は、システム・オープン・マーケット・アカウント（SOMA）保有証券の元本償還に対する再投資額の調整を主として、予測可能な形で進める方針である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/policy-normalization.htm",
+              "quote": "The Committee intends to reduce the Federal Reserve's securities holdings over time in a\n  predictable manner primarily by adjusting the amounts reinvested of principal payments received\n  from securities held in the System Open Market Account (SOMA)."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "米国債の再投資の月次上限は当初300億ドルとされ、3か月後に600億ドルへ引き上げられた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/policy-normalization.htm",
+              "quote": "For Treasury securities, the cap will initially be set at $30 billion per month and after three\n    months will increase to $60 billion per month."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "エージェンシー債とエージェンシーMBSの再投資の月次上限は当初175億ドルとされ、3か月後に350億ドルへ引き上げられた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/policy-normalization.htm",
+              "quote": "For agency debt and agency mortgage-backed securities, the cap will initially be set at $17.5\n    billion per month and after three months will increase to $35 billion per month."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "2022年6月の縮小開始以降、連邦準備制度の証券保有総額は2.2兆ドル超減少し、米国債約1.6兆ドルとエージェンシーMBS約6000億ドルの償還によるものであった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/policy-normalization.htm",
+              "quote": "Since balance sheet reduction began in June 2022, the Federal Reserve's total securities holdings\ndeclined by more than $2.2 trillion, with redemptions of about $1.6 trillion in Treasury securities\nand $600 billion in agency mortgage-backed securities (MBS)."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "2025年10月29日、FOMCは同年12月1日から証券保有のランオフを停止すると発表し、デスクに対し米国債元本の全額継続とエージェンシー証券元本の短期国債への再投資を指示した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/policy-normalization.htm",
+              "quote": "on October 29, 2025, the FOMC announced that it would cease the runoff of its\nsecurities holdings starting on December 1, 2025. In its announcement, the FOMC directed the Desk to\nroll over at auction all principal payments from the Federal Reserve's holdings of Treasury\nsecurities and reinvest all principal payments from the Federal Reserve's holdings of agency\nsecurities into Treasury bills."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "委員会は、潤沢な準備体制の下で金融政策を効率的かつ効果的に実施するのに必要な規模の証券保有を維持する方針である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/policy-normalization.htm",
+              "quote": "Over time, the Committee intends to maintain securities holdings in amounts needed to implement\n  monetary policy efficiently and effectively in its ample reserves regime."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "長期的にはSOMA保有を主として米国債とし、連邦準備制度の保有が経済の各部門への信用配分に与える影響を最小化する意図がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/policy-normalization.htm",
+              "quote": "In the longer run, the Committee intends to hold primarily Treasury securities in the SOMA,\n  thereby minimizing the effect of Federal Reserve holdings on the allocation of credit across\n  sectors of the economy."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "ニューヨーク連邦準備銀行は年次報告書で公開市場操作の詳細な説明を毎年公表している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+              "quote": "The Federal Reserve Bank of New York publishes a detailed explanation of OMOs each year in its\n[Annual Report][204]."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "discount-window",
+    "topicType": "concept",
+    "categoryLabel": "経済・ビジネス",
+    "title": "公定歩合・割引窓口",
+    "summary": "公定歩合・割引窓口（ディスカウント・ウィンドウ）とは、預金取扱機関や外国銀行の米国支店・代理店が、担保を差し入れて連邦準備銀行から直接資金を借り入れる仕組みとその貸出金利を指す。プライマリー、セカンダリー、シーズナルの3つの信用プログラムからなり、市場ストレス時に流動性を供給することで金融政策の実施と銀行体系の安定を支える。",
+    "bodyMarkdown": "## 金融政策と銀行体系を支える窓口\n\n公定歩合・割引窓口（ディスカウント・ウィンドウ）とは、預金取扱機関や外国銀行の米国支店・代理店が、法的契約を締結し担保を差し入れたうえで連邦準備銀行から直接借り入れる仕組みである。資金への迅速なアクセスを提供することで、各機関が流動性リスクを効率的に管理し、市場ストレス時に信用を引き揚げるといった顧客へ悪影響を与える行動を避ける助けとなる。このように割引窓口は家計と企業への信用の円滑な流れを支え、[金融政策](/hubpedia/monetary-policy)の効果的な実施と銀行体系の安定において重要な役割を果たす。 [1][2][3][4]\n\n## 運営体制と所管\n\n連邦準備制度理事会は割引窓口業務の監督責任を負い、規則・規制を通じて連邦準備銀行に政策上の指針を与える。実際の窓口運営は12の連邦準備銀行が担い、[連邦準備制度](/hubpedia/federal-reserve)全体で一貫した効果的な運営を確保するよう連携する。金融政策の3手段のうち公定歩合と[預金準備率](/hubpedia/reserve-requirements)は理事会の所管であり、[公開市場操作](/hubpedia/open-market-operations)はFOMCの所管である。 [5][6][7]\n\n## 3つの信用プログラム\n\n割引窓口には3つのプログラムがある。主たるものはプライマリー・クレジットで、一般に健全な財務状況にある機関が利用できる。窓口への登録と担保の差入れを済ませた機関が前貸しを要請する際、貸付連邦準備銀行へ追加で提供する情報は借入額と期間だけである。借りた資金は他の流動性ソースからの借入金と同様に使え、市場金利がプライマリー・クレジット金利を上回る場合には、その金利で借りて他の主体へ自由に貸し付けることが推奨されており、こうした利用が窓口を政策実施の有効な手段として機能させる。 [8][9][10][11][12]\n\nプライマリー・クレジット金利は2020年3月以来、FOMCが[フェデラルファンド金利](/hubpedia/federal-funds-rate)に設定する目標レンジの上限に置かれている。金利は各連邦準備銀行の理事会が定め、連邦準備制度理事会の審査と決定に服する。貸出は翌日物または最長90日の期間で利用でき、期間貸出の金利は在貸期間中にプライマリー・クレジット金利が変更されれば新しい金利が適用される。 [13][14][15]\n\nプライマリー・クレジットの対象とならない機関にはセカンダリー・クレジットが用意され、その金利はプライマリー・クレジットより高く設定される。またシーズナル・クレジットは、小規模機関がバランスシートの季節的変動を管理するのを助けるもので、金利は選定された市場金利の平均である。 [16][17]\n\n## 担保と借入れの実務\n\nすべての割引窓口貸出は、貸付連邦準備銀行が納得する担保の差入れを必要とし、機関は借入れの前に担保を提供しなければならない。連邦準備銀行は幅広い種類の貸出債権と証券を担保として受け入れ、窓口は非常に幅広い資産を担保に取る。借入人は罰則なしに任意の時点で繰上げ返済でき、担保を他の用途に回す必要がある場合に意味を持つ仕組みである。 [18][19]\n\n## 開示と危機時の利用\n\n連邦準備制度はH.4.1報告を通じてバランスシートを毎週更新・公表しており、そこにはプライマリー、セカンダリー、シーズナルの貸出が総計ベースで含まれ、銀行個別の貸出は報告されない。借入れの発生から2年後には、法律の定めに従い機関ごとの借入れが報告される。 [20][21]\n\n連邦準備制度は、割引窓口の利用を適切な流動性リスク管理に組み込めることを明確にしており、各機関が窓口を緊急時資金調達計画の一部として組み込むよう指針で奨励している。2020年3月の新型コロナ対応では、窓口での借入れの利用しやすさと条件の緩和を図る措置が講じられた。 [22][23]",
+    "sources": [
+      {
+        "url": "https://www.federalreserve.gov/monetarypolicy/discountrate.htm",
+        "title": "Discount Window",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "Federal Reserve policy-tools page on the discount window: its role in policy implementation and banking stability, the three credit programs, collateral and pledging mechanics, prepayment, and disclosure rules. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+        "title": "Federal Open Market Committee",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "Federal Reserve explainer assigning responsibility for the discount rate to the Board of Governors among the three tools of monetary policy. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200323b.htm",
+        "title": "Federal Reserve announces extensive new measures to support the economy",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "March 23, 2020 Federal Reserve press release listing crisis measures, including steps to enhance the availability and ease terms for borrowing at the discount window. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Discount Window",
+        "summary": "The discount window — the Federal Reserve's lending facility and the discount rate charged on it — is the channel through which depository institutions and U.S. branches and agencies of foreign banks borrow directly from Federal Reserve Banks after executing legal agreements and pledging collateral. It comprises three programs — primary, secondary, and seasonal credit — and supports the effective implementation of monetary policy and the stability of the banking system by supplying liquidity in times of market stress.",
+        "bodyMarkdown": "## A window supporting policy and the banking system\n\nThe discount window is the facility through which depository institutions and U.S. branches and agencies of foreign banks borrow directly from Federal Reserve Banks after executing legal agreements and pledging collateral. By providing ready access to funding, it helps these institutions manage liquidity risks efficiently and avoid actions that would harm their customers, such as withdrawing credit during times of market stress; in this way it supports the smooth flow of credit to households and businesses and plays an important role in the effective implementation of [monetary policy](/hubpedia/monetary-policy) and the stability of the banking system. [1][2][3][4]\n\n## Governance and operation\n\nThe Board of Governors is responsible for the oversight of discount window operations and provides policy guidance to the Reserve Banks through rules and regulations. The twelve Reserve Banks operate the window and work together to ensure consistent and effective operations across the [Federal Reserve](/hubpedia/federal-reserve) System. Among the three tools of monetary policy, the discount rate and [reserve requirements](/hubpedia/reserve-requirements) fall to the Board, while [open market operations](/hubpedia/open-market-operations) fall to the FOMC. [5][6][7]\n\n## Three credit programs\n\nThe discount window has three programs. The main one is primary credit, available to institutions in generally sound financial condition. Once an institution is signed up and has pledged collateral, the only other information it should expect to supply when requesting an advance is the amount and term of the loan. Funds borrowed under primary credit can be used like funds from any other liquidity source, and when market rates exceed the primary credit rate banks are encouraged to borrow at that rate and lend to other entities as they see fit — usage that helps the window function as an effective tool of policy implementation. [8][9][10][11][12]\n\nSince March 2020 the primary credit rate has been set at the top of the target range the FOMC sets for the [federal funds rate](/hubpedia/federal-funds-rate). Rates are established by each Reserve Bank's board of directors, subject to the review and determination of the Board of Governors. Loans are available overnight or for a period up to 90 days, and the rate on a term loan adjusts if the primary credit rate changes during the tenure of the loan. [13][14][15]\n\nSecondary credit is available to institutions not eligible for primary credit, at a rate higher than the primary credit rate. Seasonal credit assists small institutions in managing seasonal swings in their balance sheets, with a rate set as an average of selected market rates. [16][17]\n\n## Collateral and the mechanics of borrowing\n\nAll discount window loans must be collateralized to the satisfaction of the lending Reserve Bank, and institutions must post collateral before borrowing. Reserve Banks accept a wide range of loans and securities — the window takes a very wide range of assets as collateral. Borrowers may prepay loans with no penalty at their discretion, which matters if the pledged collateral is needed for other uses. [18][19]\n\n## Disclosure and use in stress\n\nThe Federal Reserve releases an update of its balance sheet via the H.4.1 report weekly; it includes primary, secondary, and seasonal lending on an aggregate basis and does not report bank-specific loans. Two years after borrowing has occurred, the Fed reports borrowing by each institution as required by law. [20][21]\n\nThe Fed has made clear that use of the discount window can be incorporated into appropriate liquidity risk management, and guidance encourages depository institutions to include the window in their contingency funding plans. In the March 2020 coronavirus response, steps were taken to enhance the availability and ease the terms of borrowing at the window. [22][23]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "割引窓口は、金融政策の効果的な実施と銀行体系の安定を支える重要な役割を担う。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/discountrate.htm",
+              "quote": "The Federal Reserve's \"discount window\" plays an important role in supporting the effective\nimplementation of monetary policy and the stability of the banking system."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "割引窓口では、預金取扱機関と外国銀行の米国支店・代理店が法的契約を締結し担保を差し入れたうえで連邦準備銀行から借り入れる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/discountrate.htm",
+              "quote": "The discount window\nallows depository institutions and U.S. branches and agencies of foreign banks to borrow from\nFederal Reserve Banks after executing legal agreements and pledging collateral."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "資金への迅速なアクセスにより、各機関は流動性リスクを効率的に管理し、市場ストレス時の信用引き揚げのような顧客へ悪影響を与える行動を避けられる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/discountrate.htm",
+              "quote": "By providing ready\naccess to funding, the discount window helps these institutions manage their liquidity risks\nefficiently and avoid actions that have negative consequences for their customers, such as\nwithdrawing credit during times of market stress."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "割引窓口は家計と企業への信用の円滑な流れを支える。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/discountrate.htm",
+              "quote": "Thus, the discount window supports the smooth flow\nof credit to households and businesses."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "理事会は割引窓口業務の監督責任を負い、規則・規制を通じて連邦準備銀行に政策上の指針を与える。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/discountrate.htm",
+              "quote": "The Board is responsible for the oversight of discount window operations and provides guidance to\nReserve Banks on policy through rules and regulations."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "12の連邦準備銀行が割引窓口を運営し、制度全体で一貫した効果的な運営のため連携する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/discountrate.htm",
+              "quote": "The twelve Reserve Banks operate the discount\nwindow and work together to ensure consistent and effective operations across the Federal Reserve\nSystem."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "金融政策の3手段のうち、公定歩合と預金準備率は理事会が所管し、公開市場操作はFOMCが所管する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+              "quote": "The Board of Governors of the Federal Reserve\nSystem is responsible for the discount rate and reserve requirements, and the Federal Open Market\nCommittee is responsible for open market operations."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "割引窓口には3つのプログラムがある。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/discountrate.htm",
+              "quote": "The discount window has three programs:"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "割引窓口借入れの主たるプログラムはプライマリー・クレジットとして知られる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/discountrate.htm",
+              "quote": "The main program for discount window borrowing is known as primary credit."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "一般に健全な財務状況にある機関がプライマリー・クレジットの対象となる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/discountrate.htm",
+              "quote": "An institution can qualify for primary credit if it is in generally sound financial condition."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "窓口への登録と担保の差入れを済ませた機関は、前貸しの要請時に借入額と期間だけを追加で提供すればよい。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/discountrate.htm",
+              "quote": "After an institution is signed up\n  for the discount window and has pledged collateral, the only other information the borrower should\n  expect to supply to their lending Reserve Bank when requesting an advance is the amount and term\n  of the loan requested."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "市場金利がプライマリー・クレジット金利を上回る場合、銀行はその金利で借りて他の主体へ自由に貸すことが推奨され、それが窓口を政策実施の有効な手段とする。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/discountrate.htm",
+              "quote": "if market rates exceed the primary\n  credit rate, banks are encouraged to borrow at the primary credit rate and lend to other entities\n  as they see fit. When institutions use the discount window in this way, they are helping to ensure\n  that the discount window serves as an effective tool of monetary policy implementation."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "2020年3月以来、プライマリー・クレジット金利はFOMCがフェデラルファンド金利に設定した目標レンジの上限に置かれている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/discountrate.htm",
+              "quote": "Since March 2020 the primary credit rate has been set at the top of the target range that the\nFOMC has set for the federal funds rate."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "窓口金利は各連邦準備銀行の理事会が定め、連邦準備制度理事会の審査と決定に服する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/discountrate.htm",
+              "quote": "Rates are established by each Reserve Bank's board of directors, subject to the review and\ndetermination of the Board of Governors of the Federal Reserve System."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "プライマリー・クレジット貸出は翌日物または最長90日で利用でき、期間貸出の金利は在貸期間中に金利変更があれば新金利が適用される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/discountrate.htm",
+              "quote": "Primary credit loans are available on an overnight basis or for a period up to 90 days. The interest\nrate on a term primary credit loan will adjust if the primary credit rate changes during the tenure\nof the loan."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "セカンダリー・クレジットはプライマリー・クレジットの対象とならない機関向けで、金利はプライマリー・クレジットより高い。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/discountrate.htm",
+              "quote": "Secondary credit is available to institutions that are not eligible for primary credit. The discount\nrate on secondary credit is higher than the rate on primary credit."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "シーズナル・クレジットは小規模機関がバランスシートの季節的変動を管理するのを助け、金利は選定された市場金利の平均である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/discountrate.htm",
+              "quote": "Seasonal credit is available to assist small institutions in managing seasonal swings in their\nbalance sheets. The rate for seasonal credit is an average of selected market rates."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "すべての割引窓口貸出は貸付連邦準備銀行が納得する担保を必要とし、機関は借入れ前に担保を提供しなければならない。窓口は非常に幅広い資産を担保に取る。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/discountrate.htm",
+              "quote": "All discount window loans must be collateralized to the satisfaction of the lending Reserve Bank."
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/discountrate.htm",
+              "quote": "Institutions must post collateral to the discount window before borrowing."
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/discountrate.htm",
+              "quote": "The discount window takes a very wide range of assets as collateral."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "割引窓口貸出は借入人の判断で罰則なしに繰上げ返済できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/discountrate.htm",
+              "quote": "Discount window loans can\nbe prepaid, with no penalty, at the borrower's discretion."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "連邦準備制度はH.4.1報告でバランスシートを毎週公表し、そこにはプライマリー、セカンダリー、シーズナルの貸出が総計ベースで含まれ、銀行個別の貸出は報告されない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/discountrate.htm",
+              "quote": "The Federal Reserve releases an update of its balance sheet, via the [H.4.1 report][226], weekly. It\nincludes primary, secondary, and seasonal lending on an aggregate basis, and does not report\nbank-specific loans."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "借入れ発生から2年後、連邦準備制度は法律の定めに従い機関ごとの借入れを報告する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/discountrate.htm",
+              "quote": "Two years after the borrowing has occurred the Federal Reserve reports borrowing by each\ninstitution, as required by law."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "連邦準備制度は割引窓口の利用を適切な流動性リスク管理に組み込めることを明確にし、機関が窓口を緊急時資金調達計画の一部にするよう奨励している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/discountrate.htm",
+              "quote": "The Federal Reserve has made clear that use of the discount window can be incorporated into\nappropriate liquidity risk management."
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/discountrate.htm",
+              "quote": "encourages depository\ninstitutions to incorporate the discount window as part of their contingency funding plans."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "2020年3月の新型コロナ対応では、割引窓口での借入れの利用しやすさと条件の緩和を図る措置が講じられた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200323b.htm",
+              "quote": "Steps to enhance the availability and ease terms for borrowing at the discount window"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "reserve-requirements",
+    "topicType": "concept",
+    "categoryLabel": "経済・ビジネス",
+    "title": "預金準備率",
+    "summary": "預金準備率とは、預金取扱機関が保有する預金その他の負債に対し、連邦準備制度が準備として保有を義務づける比率の制度である。連邦準備法は理事会に、金融政策の実施を目的として指定された範囲内で準備要件を定める権限を与え、要件額は規則Dの比率を準備対象負債に適用して決まった。2020年3月26日からは比率がゼロパーセントとなり、すべての預金取扱機関の準備要件は撤廃されている。",
+    "bodyMarkdown": "## 定義と法的根拠\n\n預金準備率とは、預金取扱機関が保有する預金などの負債に対し、[連邦準備制度](/hubpedia/federal-reserve)が準備としての保有を求める比率の制度である。連邦準備法は、[金融政策](/hubpedia/monetary-policy)を実施する目的で、預金取扱機関の特定の種類の預金その他の負債に対し、指定された範囲内で準備要件を設定する権限を理事会に与えている。要件の金額は、理事会の規則D（預金取扱機関の準備要件、12 CFR第204部）に定める準備比率を、各機関の準備対象負債に適用して決定され、課せられる対象は取引勘定、非個人定期預金、ユーロカレンシー負債であった。 [1][2][3]\n\n## 3手段の一つとしての位置づけ\n\n連邦準備制度の金融政策手段は[公開市場操作](/hubpedia/open-market-operations)、[公定歩合](/hubpedia/discount-window)、預金準備率の3つであり、このうち公定歩合と預金準備率は理事会が所管し、公開市場操作はFOMCが所管する。 [4]\n\n## ゼロ化以前の段階的比率\n\n2020年3月26日の変更以前、純取引勘定に対する準備比率は機関が保有する純取引勘定の額に応じて異なっていた。「準備要件免除額」と呼ばれる一定額までは比率ゼロパーセント、免除額を超え「低準備トランシェ」と呼ばれる一定額までは3パーセント、それを超える部分には10パーセントが適用された。 [5][6][7][8]\n\n免除額と低準備トランシェは、連邦準備法に定められた算式に基づき毎年指数化されていた。 [9]\n\n## 準備の保有形態と対象機関\n\n準備要件は保管現金で充たされ、保管現金が不足する場合は連邦準備銀行の勘定残高の維持によって充たされた。その残高は連邦準備銀行に直接保有するか、パススルー関係にある他機関を通じて保有できた。要件が課される「預金取扱機関」には、商業銀行、貯蓄銀行、貯蓄・貸付組合、信用組合、外国銀行の米国支店・代理店、エッジ法法人、協定法人が含まれた。 [10][11]\n\n## 2020年の比率ゼロ化\n\n2020年3月15日に公表されたとおり、理事会は準備比率をゼロパーセントへ引き下げ、同年3月26日に発効させた。この措置はすべての預金取扱機関の準備要件を撤廃した。 [12][13]\n\n現行の要件表では、純取引勘定がゼロパーセント（2020年3月26日施行）、非個人定期預金とユーロカレンシー負債がゼロパーセント（1990年12月27日施行）とされている。準備要件の撤廃は新型コロナへの対応として講じられた一連の措置のひとつであり、同時期にFOMCは円滑な市場機能と金融政策の伝播を支えるのに必要な規模で米国債とエージェンシーMBSを購入する[量的緩和](/hubpedia/quantitative-easing)措置も発表している。 [14][15][16]",
+    "sources": [
+      {
+        "url": "https://www.federalreserve.gov/monetarypolicy/reservereq.htm",
+        "title": "Reserve Requirements",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "Federal Reserve policy-tools page on reserve requirements: the March 2020 reduction to zero percent, the Federal Reserve Act authority and Regulation D mechanics, the pre-2020 tranche system, and how requirements were satisfied. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+        "title": "Federal Open Market Committee",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "Federal Reserve explainer listing reserve requirements among the three tools of monetary policy and assigning responsibility for them to the Board of Governors. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200323b.htm",
+        "title": "Federal Reserve announces extensive new measures to support the economy",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "March 23, 2020 Federal Reserve press release listing the elimination of reserve requirements and the announcement of Treasury and agency MBS purchases among coronavirus response measures. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Reserve Requirements",
+        "summary": "Reserve requirements are the ratios the Federal Reserve requires depository institutions to hold as reserves against deposits and certain other liabilities. The Federal Reserve Act authorizes the Board to set reserve requirements within specified ranges for purposes of implementing monetary policy, and the dollar amount of a requirement was determined by applying Regulation D ratios to an institution's reservable liabilities. Since March 26, 2020, the ratios have been zero percent, eliminating reserve requirements for all depository institutions.",
+        "bodyMarkdown": "## Definition and legal basis\n\nReserve requirements are the ratios of deposits and similar liabilities that the [Federal Reserve](/hubpedia/federal-reserve) requires depository institutions to hold as reserves. For purposes of implementing [monetary policy](/hubpedia/monetary-policy), the Federal Reserve Act authorizes the Board to establish reserve requirements within specified ranges on certain types of deposits and other liabilities of depository institutions. The dollar amount of a requirement was determined by applying the ratios specified in the Board's Regulation D (Reserve Requirements of Depository Institutions, 12 CFR Part 204) to an institution's reservable liabilities, and the Act authorized requirements on transaction accounts, nonpersonal time deposits, and Eurocurrency liabilities. [1][2][3]\n\n## One of the three tools\n\nThe Federal Reserve controls three tools of monetary policy — [open market operations](/hubpedia/open-market-operations), the [discount rate](/hubpedia/discount-window), and reserve requirements — of which the discount rate and reserve requirements fall to the Board of Governors, while open market operations fall to the FOMC. [4]\n\n## The graduated ratios before they were zeroed\n\nBefore the change effective March 26, 2020, reserve requirement ratios on net transaction accounts differed based on the amount of such accounts at the institution. A certain amount of net transaction accounts, known as the reserve requirement exemption amount, was subject to a ratio of zero percent; balances above the exemption and up to a specified amount known as the low reserve tranche were subject to 3 percent; and balances above the low reserve tranche were subject to 10 percent. [5][6][7][8]\n\nThe exemption amount and the low reserve tranche were indexed each year pursuant to formulas specified in the Federal Reserve Act. [9]\n\n## How reserves were held and who was covered\n\nReserve requirements had to be satisfied by holding vault cash and, if vault cash was insufficient, by maintaining a balance in an account at a Federal Reserve Bank — held either directly with a Reserve Bank or with another institution in a pass-through relationship. The requirements were imposed on depository institutions, defined as commercial banks, savings banks, savings and loan associations, credit unions, U.S. branches and agencies of foreign banks, Edge corporations, and agreement corporations. [10][11]\n\n## The 2020 reduction to zero\n\nAs announced on March 15, 2020, the Board reduced reserve requirement ratios to zero percent effective March 26, 2020, an action that eliminated reserve requirements for all depository institutions. [12][13]\n\nThe current table shows net transaction accounts at zero percent effective March 26, 2020, and nonpersonal time deposits and Eurocurrency liabilities at zero percent effective December 27, 1990. The elimination of reserve requirements was one of the measures taken in response to the coronavirus, in the same period in which the FOMC announced it would purchase Treasury securities and agency mortgage-backed securities — [quantitative easing](/hubpedia/quantitative-easing) — in the amounts needed to support smooth market functioning and effective transmission of monetary policy. [14][15][16]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "連邦準備法は、金融政策の実施を目的として、預金取扱機関の特定の種類の預金その他の負債に対し指定された範囲内で準備要件を設定する権限を理事会に与えている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/reservereq.htm",
+              "quote": "The Federal Reserve Act authorizes the Board to establish reserve requirements within specified\nranges for purposes of implementing monetary policy on certain types of deposits and other\nliabilities of depository institutions."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "預金取扱機関の準備要件の金額は、理事会の規則D（12 CFR第204部）に定める準備比率を機関の準備対象負債に適用して決定された。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/reservereq.htm",
+              "quote": "The dollar amount of a depository institution's reserve requirement is determined by applying the\nreserve requirement ratios specified in the Board's Regulation D (Reserve Requirements of Depository\nInstitutions, 12 CFR Part 204) to an institution's reservable liabilities"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "連邦準備法が準備要件を課すことを認める対象は、取引勘定、非個人定期預金、ユーロカレンシー負債である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/reservereq.htm",
+              "quote": "The Federal Reserve Act authorizes the Board to impose reserve requirements on\ntransaction accounts, nonpersonal time deposits, and Eurocurrency liabilities."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "金融政策の3手段のうち、公定歩合と預金準備率は理事会が所管し、公開市場操作はFOMCが所管する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/fomc.htm",
+              "quote": "The Board of Governors of the Federal Reserve\nSystem is responsible for the discount rate and reserve requirements, and the Federal Open Market\nCommittee is responsible for open market operations."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "2020年3月26日の変更以前、純取引勘定への準備比率は機関の純取引勘定の額に応じて異なっていた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/reservereq.htm",
+              "quote": "Prior to the change effective March 26, 2020, reserve requirement ratios on net transactions\naccounts differed based on the amount of net transactions accounts at the depository institution."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "「準備要件免除額」と呼ばれる一定額の純取引勘定にはゼロパーセントの比率が適用されていた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/reservereq.htm",
+              "quote": "A\ncertain amount of net transaction accounts, known as the \"reserve requirement exemption amount,\" was\nsubject to a reserve requirement ratio of zero percent."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "免除額を超え「低準備トランシェ」と呼ばれる一定額までの純取引勘定には3パーセントの比率が適用されていた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/reservereq.htm",
+              "quote": "Net transaction account balances above the\nreserve requirement exemption amount and up to a specified amount, known as the \"low reserve\ntranche,\" were subject to a reserve requirement ratio of 3 percent."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "低準備トランシェを超える純取引勘定には10パーセントの比率が適用されていた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/reservereq.htm",
+              "quote": "Net transaction account\nbalances above the low reserve tranche were subject to a reserve requirement ratio of 10 percent."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "免除額と低準備トランシェは、連邦準備法に定められた算式により毎年指数化されていた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/reservereq.htm",
+              "quote": "The reserve requirement exemption amount and the low reserve tranche are indexed each year pursuant\nto formulas specified in the Federal Reserve Act"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "準備要件は保管現金で、不足する場合は連邦準備銀行の勘定残高で充たされ、残高は直接またはパススルー関係の他機関を通じて保有できた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/reservereq.htm",
+              "quote": "reserve requirements must be satisfied by holding vault cash and, if vault cash is insufficient, by\nmaintaining a balance in an account at a Federal Reserve Bank."
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/reservereq.htm",
+              "quote": "An institution may hold that balance\ndirectly with a Reserve Bank or with another institution in a pass-through relationship."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "準備要件が課される預金取扱機関には、商業銀行、貯蓄銀行、貯蓄・貸付組合、信用組合、外国銀行の米国支店・代理店、エッジ法法人、協定法人が含まれた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/reservereq.htm",
+              "quote": "commercial banks, savings banks,\nsavings and loan associations, credit unions, U.S. branches and agencies of foreign banks, Edge\ncorporations, and agreement corporations."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "2020年3月15日に公表されたとおり、理事会は準備比率をゼロパーセントへ引き下げ、同年3月26日に発効させた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/reservereq.htm",
+              "quote": "the Board reduced reserve requirement ratios to zero percent\neffective March 26, 2020."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "この措置はすべての預金取扱機関の準備要件を撤廃した。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/reservereq.htm",
+              "quote": "This action eliminated reserve requirements for all depository\ninstitutions."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "現行の要件表では純取引勘定がゼロパーセント（2020年3月26日施行）、非個人定期預金とユーロカレンシー負債がゼロパーセント（1990年12月27日施行）とされている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/reservereq.htm",
+              "quote": "Net transaction accounts │0               │3/26/2020"
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/reservereq.htm",
+              "quote": "Nonpersonal time deposits│0               │12/27/1990"
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/reservereq.htm",
+              "quote": "Eurocurrency liabilities │0               │12/27/1990"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "準備要件の撤廃は、新型コロナへの対応として連邦準備制度が講じた一連の措置のひとつであった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200323b.htm",
+              "quote": "The elimination of reserve requirements"
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "同時期にFOMCは、円滑な市場機能と金融政策のより広い金融環境・経済への伝播を支えるのに必要な規模で、米国債とエージェンシーMBSを購入すると発表した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200323b.htm",
+              "quote": "The Federal Open Market Committee (FOMC) will purchase\n  Treasury securities and agency mortgage-backed securities in the amounts needed to support smooth\n  market functioning and effective transmission of monetary policy to broader financial conditions\n  and the economy."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "quantitative-easing",
+    "topicType": "concept",
+    "categoryLabel": "経済・ビジネス",
+    "title": "量的緩和",
+    "summary": "量的緩和とは、政策金利がほぼゼロに達し通常の利下げ余地が尽きた局面で、中央銀行が長期証券を大規模に購入して長期金利への下押し圧力を生じさせる政策手段である。米国では連邦準備制度が大規模資産購入（LSAP）として実施し、金融危機後の2008年末から2014年まで約3.7兆ドル、2020年には必要規模での米国債・エージェンシーMBS購入が行われた。縮小局面では保有証券の元本償還への再投資を絞る量的引き締めが用いられた。",
+    "bodyMarkdown": "## ゼロ下限に達した政策金利\n\n量的緩和とは、中央銀行が長期証券などを大規模に購入して金融環境を緩和させる政策手段であり、米国では[連邦準備制度](/hubpedia/federal-reserve)が大規模資産購入として実施した。その背景には政策金利の下限がある。2007年夏に始まり2008年に深刻化した金融危機の下、FOMCは[フェデラルファンド金利](/hubpedia/federal-funds-rate)の目標を2007年9月中旬の5.25パーセントから2008年12月下旬のほぼゼロまで引き下げた。金利がほぼゼロに達したため、連邦準備制度は金融緩和の主たる手段にこれ以上依拠できなくなった。 [1][2]\n\n## 大規模資産購入の仕組み\n\n危機への対応として投入された大規模資産購入は、6年間にわたり証券市場で約3.7兆ドルの長期米国債と政府支援機関発行証券を買い入れるものであった。 [3]\n\nこれらの証券への総需要を押し上げることで、連邦準備制度は長期金利への追加的な下押し圧力を生じさせた。購入が進むにつれ民間投資家は他の投資機会を探し、その過程で社債など他の長期金利を押し下げ、株式価格を含む資産評価を押し上げた。こうした市場の反応は全体として金融市場環境を緩和し、経済活動の拡大と雇用創出、[インフレーション](/hubpedia/inflation)の2パーセントへの回帰を支えた。 [4][5][6]\n\n## 危機期からコロナ禍への実施\n\n2008年末から2014年10月まで、連邦準備制度は[公開市場操作](/hubpedia/open-market-operations)による買入れを通じて長期証券の保有を大幅に拡大し、金融環境をより緩和的にすることで経済活動と雇用創出を支援した。 [7]\n\n併用されたもうひとつの手段はフォワード・ガイダンスで、FOMCは労働市場の顕著な改善が達成されるまで高い緩和姿勢を維持する可能性が高いことを伝え、将来の短期金利見通しと長期債利回りはこれに反応して低下した。 [8]\n\n2020年3月23日、新型コロナへの対応として、FOMCは円滑な市場機能と[金融政策](/hubpedia/monetary-policy)の伝播を支えるのに必要な規模で米国債とエージェンシーMBSを購入すると発表した。それ以前には少なくとも5000億ドルの米国債と2000億ドルのMBSの購入が発表されており、エージェンシー発行の商業用MBSも購入対象に含まれた。 [9][10]\n\n## 正常化と量的引き締め\n\n2015年12月、FOMCはほぼゼロからの目標金利引き上げで正常化への第一歩を踏み出し、2017年10月には証券保有の段階的縮小を開始した。FOMCは、今後の政策スタンスの変更はフェデラルファンド金利の調整が主たる手段になると示している。 [11][12][13]\n\n2022年のバランスシート縮小は、システム・オープン・マーケット・アカウント（SOMA）保有証券から受け取る元本償還の再投資を月次上限を超える分だけ抑える形で、予測可能に進められた。上限は米国債が当初300億ドルで3か月後に600億ドル、エージェンシー債とエージェンシーMBSが当初175億ドルで3か月後に350億ドルとされた。 [14][15]\n\n2022年6月の縮小開始以来、証券保有総額は2.2兆ドル超減少し、内訳は米国債約1.6兆ドルとエージェンシーMBS約6000億ドルの償還であった。保有証券の名目GDP比はこの期間に13ポイント低下して33パーセントから20パーセントとなり、この大幅な縮小と、準備水準が潤沢な水準に近づいたことを示すマネー市場の状況を踏まえ、委員会は計画と整合的にランオフを終了するのが適切と判断した。 [16][17][20]\n\n## 縮小の終了と運用原則\n\n2025年10月29日、FOMCは同年12月1日から証券保有のランオフを停止すると発表し、デスクに対し、米国債の元本償還分を入札で全額継続し、エージェンシー証券の元本償還分を短期国債へ再投資するよう指示した。今後は潤沢な準備体制の下で金融政策を効率的かつ効果的に実施するのに必要な規模の保有を維持し、長期的にはSOMA保有を主として米国債とすることで、経済の各部門への信用配分への影響を最小化する方針である。 [18][19]",
+    "sources": [
+      {
+        "url": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+        "title": "Monetary Policy: What Are Its Goals? How Does It Work?",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "Federal Reserve explainer covering the crisis-era rate cut to near zero, forward guidance, large-scale asset purchases of roughly $3.7 trillion, their transmission through longer-term rates and asset prices, and the normalization steps of 2015 and 2017. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+        "title": "Open Market Operations",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "Federal Reserve policy-tools page describing the expansion of longer-term securities holdings through open market purchases from the end of 2008 through October 2014. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.federalreserve.gov/monetarypolicy/policy-normalization.htm",
+        "title": "Policy Normalization",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "Federal Reserve page on FOMC balance sheet reduction communications, covering the June 2022 runoff with reinvestment caps, the $2.2 trillion decline in securities holdings, the October 2025 decision to cease runoff, and longer-run portfolio principles. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200323b.htm",
+        "title": "Federal Reserve announces extensive new measures to support the economy",
+        "publisher": "Federal Reserve",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.federalreserve.gov/fees/website_terms.htm"
+          },
+          "notes": "March 23, 2020 Federal Reserve press release announcing FOMC purchases of Treasury securities and agency mortgage-backed securities in the amounts needed to support smooth market functioning, after previously announced purchase minimums. Publisher policy read 2026-08-28: Federal Reserve educational content is freely usable with credit; the Federal Reserve seal is restricted. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Quantitative Easing",
+        "summary": "Quantitative easing is a policy tool in which a central bank purchases longer-term securities on a large scale to press down longer-term interest rates once the policy rate has reached near zero and conventional easing room is exhausted. The Federal Reserve conducted it as large-scale asset purchases — roughly $3.7 trillion over six years after the financial crisis and further Treasury and agency MBS purchases in 2020 — and later shrank its holdings by capping reinvestment of principal payments, a process known as quantitative tightening.",
+        "bodyMarkdown": "## A policy rate at the zero bound\n\nQuantitative easing is a tool in which a central bank purchases longer-term securities on a large scale to ease financial conditions; the [Federal Reserve](/hubpedia/federal-reserve) implemented it as large-scale asset purchases. Its backdrop is the lower bound on the policy rate. During the crisis that began in the summer of 2007 and became particularly severe in 2008, the FOMC cut its target for the [federal funds rate](/hubpedia/federal-funds-rate) from 5-1/4 percent in mid-September 2007 to near zero in late December 2008, and with the rate near zero the Fed could no longer rely on its primary means of easing monetary policy. [1][2]\n\n## How large-scale asset purchases work\n\nThe large-scale asset purchases deployed in response to the crisis were purchases in securities markets over six years of roughly $3.7 trillion in longer-term Treasury securities and securities issued by government-sponsored enterprises. [3]\n\nBy boosting overall demand for these securities, the Fed put additional downward pressure on longer-term interest rates. As the purchases proceeded, private investors looked for other investment opportunities and in doing so pushed down other long-term rates such as those on corporate bonds and pushed up asset valuations including equity prices. These market reactions helped ease overall financial market conditions and supported growth in economic activity, job creation, and a return of [inflation](/hubpedia/inflation) toward 2 percent. [4][5][6]\n\n## Deployment from the crisis to the pandemic\n\nFrom the end of 2008 through October 2014, the Fed greatly expanded its holdings of longer-term securities through [open market](/hubpedia/open-market-operations) purchases, supporting economic activity and job creation by making financial conditions more accommodative. [7]\n\nA companion tool was forward guidance: the FOMC conveyed that it would likely keep a highly accommodative stance until a marked improvement in the labor market had been achieved, and expected future short-term rates and longer-term bond yields fell in response. [8]\n\nOn March 23, 2020, in response to the coronavirus, the FOMC announced it would purchase Treasury securities and agency mortgage-backed securities in the amounts needed to support smooth market functioning and effective transmission of [monetary policy](/hubpedia/monetary-policy); it had previously announced purchases of at least $500 billion of Treasury securities and at least $200 billion of mortgage-backed securities, and agency commercial mortgage-backed securities were included. [9][10]\n\n## Normalization and quantitative tightening\n\nIn December 2015 the FOMC took a first step toward normalizing the stance of policy by raising its target for the federal funds rate from near zero, and in October 2017 it began a gradual reduction in its securities holdings. The FOMC has indicated that, going forward, adjustments in the federal funds rate will be the primary way of changing the stance of monetary policy. [11][12][13]\n\nThe 2022 balance sheet reduction proceeded predictably, primarily by adjusting the amounts reinvested of principal payments received from securities held in the System Open Market Account (SOMA): monthly caps began at $30 billion for Treasury securities, rising to $60 billion after three months, and at $17.5 billion for agency debt and agency MBS, rising to $35 billion after three months. [14][15]\n\nSince runoff began in June 2022, total securities holdings declined by more than $2.2 trillion — redemptions of about $1.6 trillion in Treasury securities and $600 billion in agency MBS — and holdings as a share of nominal GDP fell 13 percentage points, from 33 percent to 20 percent. Given this sizable reduction and money market conditions suggesting reserve levels were approaching the ample level, the Committee judged it appropriate to conclude runoff, consistent with its plans. [16][17][20]\n\n## Ending the runoff and operating principles\n\nOn October 29, 2025, the FOMC announced it would cease the runoff of its securities holdings starting December 1, 2025, directing the Desk to roll over at auction all principal payments from Treasury holdings and reinvest all principal payments from agency securities into Treasury bills. Going forward the Committee intends to maintain securities holdings in amounts needed to implement policy efficiently and effectively in its ample-reserves regime, and in the longer run to hold primarily Treasury securities in the SOMA, thereby minimizing the effect of Federal Reserve holdings on the allocation of credit across sectors of the economy. [18][19]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "2007年夏に始まり2008年に深刻化した金融危機の下、FOMCはフェデラルファンド金利の目標を2007年9月中旬の5.25パーセントから2008年12月下旬のほぼゼロまで引き下げた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "The crisis in financial markets that began in the summer of 2007 and became particularly severe in\n2008 led the FOMC to cut its target for the federal funds rate from 5-1/4 percent in mid-September\n2007 to near zero in late December 2008."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "フェデラルファンド金利がほぼゼロになると、連邦準備制度は金融緩和の主たる手段にこれ以上依拠できなくなった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "with the federal funds rate near zero, the Fed could no\nlonger rely on its primary means of easing monetary policy."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "危機対応として投入された大規模資産購入は、6年間にわたり証券市場で約3.7兆ドルの長期米国債と政府支援機関発行証券を買い入れるものであった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "Another key monetary policy tool deployed in response to the financial crisis was **large-scale\nasset purchases,** which were purchases in securities markets over six years of roughly $3.7\ntrillion in longer-term Treasury securities as well as securities issued by government-sponsored\nenterprises."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "対象証券への総需要を押し上げることで、連邦準備制度は長期金利への追加的な下押し圧力を生じさせた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "By boosting the overall demand for these securities, the Fed put additional downward\npressure on longer-term interest rates."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "購入が進むにつれ民間投資家は他の投資機会を探し、社債など他の長期金利を押し下げ、株式価格を含む資産評価を押し上げた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "as the Fed purchased these securities, private\ninvestors looked for other investment opportunities, and, in doing so, they pushed down other\nlong-term interest rates, such as those on corporate bonds, and pushed up asset valuations,\nincluding equity prices."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "大規模資産購入への市場の反応は金融市場環境を緩和し、経済活動の拡大と雇用創出、インフレーションの2パーセントへの回帰を支えた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "These market reactions to the large-scale asset purchases helped ease\noverall financial market conditions and thus supported growth in economic activity, job creation,\nand a return of inflation toward 2 percent."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "2008年末から2014年10月まで、連邦準備制度は公開市場での買入れを通じて長期証券の保有を大幅に拡大し、金融環境をより緩和的にして経済活動と雇用創出を支援した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/openmarket.htm",
+              "quote": "From the end of 2008 through October 2014, the\nFederal Reserve greatly expanded its holding of longer-term securities through open market purchases\nwith the goal of putting downward pressure on longer-term interest rates and thus supporting\neconomic activity and job creation by making financial conditions more accommodative."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "FOMCは労働市場の顕著な改善まで高い緩和姿勢を維持する可能性が高いと伝えるフォワード・ガイダンスを提供し、将来の短期金利見通しと長期債利回りはこれに反応して低下した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "The FOMC conveyed\nthat it likely would keep a highly accommodative stance of monetary policy until a marked\nimprovement in the labor market had been achieved."
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "Short-term interest rates expected to prevail in\nthe future and longer-term yields on bonds fell in response to this forward guidance."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "2020年3月23日、FOMCは円滑な市場機能と金融政策の伝播を支えるのに必要な規模で米国債とエージェンシーMBSを購入すると発表した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200323b.htm",
+              "quote": "The Federal Open Market Committee (FOMC) will purchase\n  Treasury securities and agency mortgage-backed securities in the amounts needed to support smooth\n  market functioning and effective transmission of monetary policy to broader financial conditions\n  and the economy."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "それ以前にFOMCは少なくとも5000億ドルの米国債と2000億ドルのMBSの購入を発表しており、エージェンシー商業用MBSも購入対象に含まれた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200323b.htm",
+              "quote": "The FOMC had previously announced it would purchase at least $500 billion of\n  Treasury securities and at least $200 billion of mortgage-backed securities."
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20200323b.htm",
+              "quote": "the\n[FOMC will include purchases of agency commercial mortgage-backed securities in its agency\nmortgage-backed security purchases]"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "2015年12月、FOMCはフェデラルファンド金利目標をほぼゼロから引き上げ、金融政策スタンスを正常な水準へ戻す第一歩を踏み出した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "In December 2015, the FOMC took a first step toward returning the stance of monetary policy to more\nnormal levels by increasing its target for the federal funds rate from near zero."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "2017年10月、FOMCは証券保有の段階的縮小を開始した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "A further step\ntoward normalization occurred in October 2017, when the FOMC began a gradual reduction in its\nsecurities holdings."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "FOMCは、今後の政策スタンスの変更はフェデラルファンド金利の調整が主たる手段になると示している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/monetary-policy-what-are-its-goals-how-does-it-work.htm",
+              "quote": "The FOMC has indicated that, going forward, adjustments in the federal funds\nrate will be the primary way of changing the stance of monetary policy."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "バランスシート縮小は、SOMA保有証券から受け取る元本償還の再投資額を調整することを主として、予測可能な形で進められた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/policy-normalization.htm",
+              "quote": "The Committee intends to reduce the Federal Reserve's securities holdings over time in a\n  predictable manner primarily by adjusting the amounts reinvested of principal payments received\n  from securities held in the System Open Market Account (SOMA)."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "再投資の月次上限は米国債が当初300億ドルで3か月後に600億ドル、エージェンシー債とエージェンシーMBSが当初175億ドルで3か月後に350億ドルとされた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/policy-normalization.htm",
+              "quote": "For Treasury securities, the cap will initially be set at $30 billion per month and after three\n    months will increase to $60 billion per month."
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/policy-normalization.htm",
+              "quote": "For agency debt and agency mortgage-backed securities, the cap will initially be set at $17.5\n    billion per month and after three months will increase to $35 billion per month."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "2022年6月の縮小開始以来、連邦準備制度の証券保有総額は2.2兆ドル超減少し、米国債約1.6兆ドルとエージェンシーMBS約6000億ドルの償還による。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/policy-normalization.htm",
+              "quote": "Since balance sheet reduction began in June 2022, the Federal Reserve's total securities holdings\ndeclined by more than $2.2 trillion, with redemptions of about $1.6 trillion in Treasury securities\nand $600 billion in agency mortgage-backed securities (MBS)."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "連邦準備制度の証券保有の名目GDP比はこの期間に13ポイント低下し、33パーセントから20パーセントとなった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/policy-normalization.htm",
+              "quote": "the\nFederal Reserve’s securities holdings as a share of nominal GDP have declined 13 percentage points\nover this period, from 33 percent to 20 percent."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "2025年10月29日、FOMCは同年12月1日から証券保有のランオフを停止すると発表し、デスクに対し米国債元本の全額継続とエージェンシー証券元本の短期国債への再投資を指示した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/policy-normalization.htm",
+              "quote": "on October 29, 2025, the FOMC announced that it would cease the runoff of its\nsecurities holdings starting on December 1, 2025. In its announcement, the FOMC directed the Desk to\nroll over at auction all principal payments from the Federal Reserve's holdings of Treasury\nsecurities and reinvest all principal payments from the Federal Reserve's holdings of agency\nsecurities into Treasury bills."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "委員会は潤沢な準備体制での政策実施に必要な規模の保有を維持し、長期的にはSOMA保有を主として米国債として信用配分への影響を最小化する方針である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/policy-normalization.htm",
+              "quote": "Over time, the Committee intends to maintain securities holdings in amounts needed to implement\n  monetary policy efficiently and effectively in its ample reserves regime."
+            },
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/policy-normalization.htm",
+              "quote": "In the longer run, the Committee intends to hold primarily Treasury securities in the SOMA,\n  thereby minimizing the effect of Federal Reserve holdings on the allocation of credit across\n  sectors of the economy."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "大幅なバランスシート縮小と準備水準が潤沢な水準に近づいたことを示すマネー市場の状況を踏まえ、委員会は計画と整合的にランオフを終了するのが適切と判断した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.federalreserve.gov/monetarypolicy/policy-normalization.htm",
+              "quote": "Given this sizable reduction in the balance sheet\nand money market conditions suggesting that reserve levels were approaching the ample level, the\nCommittee judged it appropriate to conclude balance sheet runoff, consistent with its Plans."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

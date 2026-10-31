@@ -1,0 +1,389 @@
+/* 記事一覧（/v2/articles、タグ頁、プロフィールの記事タブ）。色は意味トークンだけ。 */
+
+/* 見出しの下の操作行。見出し行に詰めると 390px で重なったので、行を分けて折り返す。 */
+.v2-articles-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--v2-space-2);
+  margin: 0 0 var(--v2-space-3);
+}
+
+.v2-articles-actions .v2-button {
+  flex: 0 1 auto;
+  min-width: 0;
+  white-space: nowrap;
+}
+
+.v2-alist {
+  display: grid;
+  gap: var(--v2-space-4);
+}
+
+.v2-alist__more {
+  margin: 0;
+}
+
+/* カード: 題・要約2行・書き手・日付・読了時間。 */
+.v2-acard__summary {
+  -webkit-line-clamp: 2;
+}
+
+.v2-acard__meta--byline {
+  align-items: center;
+  gap: var(--v2-space-1) var(--v2-space-3);
+}
+
+.v2-acard__author {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--v2-space-1);
+  min-width: 0;
+  max-width: 100%;
+}
+
+.v2-acard__author-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.v2-acard__avatar {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.v2-acard__avatar--placeholder {
+  display: inline-grid;
+  place-items: center;
+  background: var(--line);
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+  font-style: normal;
+  line-height: 1;
+}
+
+/* 表紙の無い記事。4:3 の空の面は作らず、札・題・要約・書き手だけの低いカードにする。 */
+.v2-agrid > li {
+  align-self: start;
+}
+
+.v2-acard--text {
+  padding: var(--v2-space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius);
+}
+
+.v2-acard__kicker {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--v2-space-2);
+  min-width: 0;
+}
+
+.v2-acard__kicker > span {
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0 var(--v2-space-2);
+  border-radius: var(--v2-space-1);
+  background: var(--line);
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.v2-acard__badge--inline {
+  position: static;
+}
+
+/* 閲覧条件つき。本文・要約・表紙は渡されていないので、題と札だけ。 */
+.v2-acard--gated {
+  padding: var(--v2-space-3);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius);
+}
+
+.v2-acard__lock {
+  padding: 0 var(--v2-space-2);
+  border-radius: var(--v2-space-1);
+  background: var(--line);
+  color: var(--text);
+  font-style: normal;
+}
+
+/* フォロー中の書き手の新着。 */
+.v2-following-articles {
+  display: grid;
+  gap: var(--v2-space-3);
+  padding-bottom: var(--v2-space-4);
+  border-bottom: var(--divider);
+}
+
+.v2-following-articles__title {
+  margin: 0;
+  font-size: var(--type-headline-size);
+  font-weight: var(--type-headline-weight);
+}
+
+/*
+ * 記事の札（SPEC 4.7）。16:9 の絵（表紙が無ければ題を組んだ同じ比率の面）、題 headline 2行、
+ * 要約 2行、署名行。同じ行の札は格子が高さをそろえる。「無料」の札は出さない。
+ */
+.v2-alist .v2-agrid {
+  grid-template-columns: repeat(auto-fill, minmax(min(296px, 100%), 1fr));
+  gap: var(--v2-space-6) 40px;
+  align-items: stretch;
+}
+
+.v2-alist .v2-agrid > li {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+}
+
+.v2-alist .v2-acard {
+  flex: 1;
+  gap: var(--v2-space-2);
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+}
+
+.v2-alist .v2-acard__art {
+  display: block;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--radius-md);
+  background: var(--interactive);
+}
+
+/* 表紙の無い札は 16:9 の空の面を作らない。高さは中身で決め、同じ行は格子がそろえる。 */
+.v2-alist .v2-acard__art--text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--v2-space-2);
+  aspect-ratio: auto;
+  padding: var(--v2-space-4);
+  background: var(--content-surface);
+  box-shadow: inset 0 0 0 1px var(--media-outline);
+}
+
+.v2-alist .v2-acard__title {
+  font-size: var(--type-headline-size);
+  line-height: var(--type-headline-leading);
+  font-weight: var(--type-headline-weight);
+  min-height: calc(2 * var(--type-headline-leading));
+  letter-spacing: 0;
+  font-feature-settings: "palt";
+}
+
+.v2-alist .v2-acard__title--cover {
+  -webkit-line-clamp: 3;
+  min-height: 0;
+  font-size: var(--type-title3-size);
+  line-height: var(--type-title3-leading);
+  font-weight: var(--type-title3-weight);
+}
+
+.v2-alist .v2-acard__summary {
+  font-size: var(--type-body-size);
+  line-height: 22px;
+  min-height: 44px;
+  color: var(--muted);
+  word-break: auto-phrase;
+}
+
+.v2-alist .v2-acard__meta--byline {
+  margin-top: auto;
+  font-size: var(--type-subhead-size);
+  line-height: 20px;
+}
+
+.v2-alist .v2-acard__author-name { color: var(--text); font-weight: 600; }
+
+.v2-alist .v2-acard__badge,
+.v2-alist .v2-acard__lock {
+  position: absolute;
+  top: var(--v2-space-2);
+  left: var(--v2-space-2);
+  display: inline-flex;
+  align-items: center;
+  height: 24px;
+  padding: 0 var(--v2-space-2);
+  border-radius: var(--radius-xs);
+  background: var(--material-sheet);
+  color: var(--text);
+  font-size: var(--type-caption-size);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.v2-alist .v2-acard__art--text .v2-acard__lock { position: static; align-self: flex-start; margin-bottom: 0; }
+.v2-alist .v2-acard__badge--inline { position: static; }
+
+.v2-alist .v2-acard__kicker { margin-bottom: 0; }
+.v2-alist .v2-acard__kicker > span {
+  background: var(--interactive);
+  color: var(--muted);
+  letter-spacing: 0;
+  font-weight: 600;
+  padding: 2px var(--v2-space-2);
+  border-radius: var(--radius-xs);
+}
+
+.v2-alist .v2-acard--text,
+.v2-alist .v2-acard--gated { border: 0; padding: 0; }
+
+/* 「おすすめの調整」は札の右上の「…」へ。中身（興味なし・作者を減らす）は押すと開く。 */
+.v2-alist .v2-discovery {
+  position: absolute;
+  top: var(--v2-space-2);
+  right: var(--v2-space-2);
+  z-index: 2;
+  margin: 0;
+}
+.v2-alist .v2-discovery > summary {
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border-radius: 50%;
+  background: var(--material-sheet);
+  color: var(--text);
+  font-size: 0;
+  list-style: none;
+  cursor: pointer;
+}
+.v2-alist .v2-discovery > summary::-webkit-details-marker { display: none; }
+.v2-alist .v2-discovery > summary::after { content: "\2026"; font-size: 18px; line-height: 1; letter-spacing: 1px; }
+.v2-alist .v2-discovery__panel {
+  position: absolute;
+  top: 36px;
+  right: 0;
+  width: 240px;
+  padding: var(--v2-space-3);
+  border-radius: var(--radius-md);
+  background: var(--surface-raised);
+  box-shadow: var(--elevation-2);
+  font-size: var(--type-subhead-size);
+}
+@media (max-width: 759px) {
+  .v2-alist .v2-discovery > summary { width: 44px; height: 44px; }
+  .v2-alist .v2-discovery__panel { top: 48px; }
+  .v2-alist .v2-agrid { gap: var(--v2-space-6) var(--v2-space-4); }
+  .v2-alist .v2-acard__art { margin-inline: -16px; border-radius: 0; width: calc(100% + 32px); }
+}
+
+/* 一覧の上の操作。帯の下のタブ＋検索の1行＋絞り込み。 */
+.v2-articles-tabs { margin-bottom: var(--v2-space-3); }
+@media (max-width: 759px) {
+  .v2-articles-search > input, .v2-articles-search .v2-search__submit, .v2-articles-filter > summary { min-height: 44px; }
+}
+@media (max-width: 759px) {
+  .v2-articles-write { min-height: 44px; }
+}
+
+/* 仕上げ: 題・要約は行数で止めるだけ（高さの底上げはしない）。札の高さは格子がそろえる。 */
+.v2-alist .v2-acard__title { min-height: 0; }
+.v2-alist .v2-acard__summary { min-height: 0; }
+.v2-alist .v2-acard__art--text { align-items: flex-start; }
+.v2-alist .v2-acard__art--text .v2-acard__title--cover { text-align: left; }
+
+/* 鍵つきの一覧表示。何が要るか・どこで手に入るかを1行で。 */
+.v2-gate-badge {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--v2-space-1) var(--v2-space-2);
+  min-width: 0;
+  color: var(--muted);
+  font-size: var(--type-caption-size);
+}
+.v2-gate-badge__mark {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--v2-space-1);
+  color: var(--text);
+  font-weight: 600;
+}
+.v2-gate-badge__icon { width: 1em; height: 1em; }
+.v2-gate-badge__line {
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.v2-gate-badge__how { color: var(--text); }
+.v2-alist .v2-acard__art--text .v2-acard__gate { margin-bottom: 0; }
+
+/* 保存した記事: 解除は控えめに、カードの左下へ。 */
+.v2-alist .v2-saved-action { display: flex; margin-top: 6px; }
+.v2-alist .v2-saved-action .v2-button { width: auto; min-height: 32px; border-color: transparent; background: transparent; color: var(--muted); }
+
+/* 検索と「絞り込み」を同じ行に置く。開いた中身は検索行の下に重ねて出す。 */
+.v2-articles-searchrow {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--v2-space-2);
+  margin-bottom: var(--v2-space-3);
+}
+.v2-articles-searchrow > .v2-articles-search { flex: 1 1 auto; min-width: 0; margin: 0; }
+.v2-articles-searchrow > .v2-articles-filter { flex: 0 0 auto; margin: 0; }
+.v2-articles-searchrow > .v2-articles-filter[open] .v2-filter-disclosure__body {
+  position: absolute;
+  inset-inline: 0;
+  top: calc(100% + var(--v2-space-2));
+  z-index: 6;
+  padding: var(--v2-space-3);
+  border: var(--divider);
+  border-radius: var(--v2-radius);
+  background: var(--panel);
+}
+
+/* 札の hover と、390px で表紙の無い札が縦に長くならないようにする。 */
+.v2-alist .v2-acard:hover .v2-acard__art--text { background: var(--content-surface-hover); }
+.v2-alist .v2-acard__art--text { transition: background var(--dur-fast) var(--ease-out); }
+
+/*
+ * 札の解剖を1つにする（監査 P1-15）。表紙つき・題だけ・鍵つきのどれも、li が1枚の枠で、
+ * 絵・題・要約・署名行・タグが必ず枠の中に入る。「…」は絵に重ならないよう枠の右下の署名行の並びへ置く。
+ */
+.v2-alist .v2-agrid > li {
+  gap: var(--v2-space-2);
+  padding: var(--v2-space-3);
+  border: var(--divider);
+  border-radius: var(--radius-md);
+  background: var(--content-surface);
+}
+.v2-alist .v2-acard__art--text { box-shadow: none; background: var(--interactive); }
+.v2-alist .v2-acard:hover .v2-acard__art--text { background: var(--interactive-hover); }
+.v2-alist .v2-acard__meta--byline { padding-inline-end: 40px; }
+.v2-alist .v2-agrid > li > .v2-tag-chips { padding-inline-end: 40px; }
+.v2-alist .v2-discovery { top: auto; bottom: var(--v2-space-2); right: var(--v2-space-2); background: transparent; }
+.v2-alist .v2-discovery > summary { background: transparent; }
+.v2-alist .v2-discovery__panel { top: auto; bottom: 36px; }
+@media (max-width: 759px) {
+  .v2-alist .v2-acard__art { margin-inline: 0; border-radius: var(--radius-md); width: 100%; }
+  .v2-alist .v2-discovery > summary { width: 44px; height: 44px; }
+  .v2-alist .v2-discovery { bottom: 0; right: 0; }
+  .v2-alist .v2-discovery__panel { top: auto; bottom: 48px; }
+}
+
+/*
+ * 「…」は札の枠の右下に置く。署名行が短い題だけの札や鍵つきの札では、ボタンの縦が絵へ食い込むので、
+ * ボタンの高さ分の帯を枠の下に必ず残す。絵の箱とボタンの箱は重ならない（1440は32px、759px以下は44px）。
+ */
+.v2-alist .v2-agrid > li:has(> .v2-discovery) { padding-block-end: calc(32px + var(--v2-space-2)); }
+@media (max-width: 759px) {
+  .v2-alist .v2-agrid > li:has(> .v2-discovery) { padding-block-end: 44px; }
+}

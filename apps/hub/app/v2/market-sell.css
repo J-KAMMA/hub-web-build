@@ -1,0 +1,312 @@
+/*
+ * 出品画面（/v2/market/sell, /v2/market/products/sell）の整え。
+ * 既存の販売者ダッシュボード（market.css）を v2 の列と文字の尺度に合わせる。
+ * 階層は種類の切替（1段）と、小さな副ナビ（文字リンク）だけにする。
+ * 文字の尺度: 見出し16px・ラベル13px・補足12px。色は意味トークンのみ。
+ */
+
+.v2-market__panels .commerce-seller-shell {
+  gap: var(--v2-space-4);
+  padding: 0;
+}
+
+/* 見出し行: 種類の切替が見出しの役を持つので、h2 は読み上げだけに残す。 */
+.v2-market__panels .commerce-seller-hero {
+  padding-bottom: 0;
+  border-bottom: 0;
+  justify-content: flex-start;
+}
+
+.v2-market__panels .commerce-seller-hero__title {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+.v2-market__panels .commerce-seller-subnav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--v2-space-4);
+}
+
+.v2-market__panels .commerce-seller-subnav a {
+  min-height: 32px;
+  padding-inline: 0;
+  border-radius: 0;
+  border-bottom: 2px solid transparent;
+  color: var(--muted);
+  font-size: 0.8125rem;
+  font-weight: 600;
+}
+
+.v2-market__panels .commerce-seller-subnav a:hover,
+.v2-market__panels .commerce-seller-subnav a:focus-visible {
+  background: transparent;
+  border-bottom-color: var(--line-strong);
+  color: var(--text);
+}
+
+/* 接続エラー: 説明と再試行を同じ塊にし、再試行を押せる形にする。 */
+.v2-market__panels .commerce-seller-service-state {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: var(--v2-space-3) var(--v2-space-4);
+  padding: var(--v2-space-3) var(--v2-space-4);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius);
+  background: var(--warning-bg);
+  color: var(--warning-text);
+}
+
+.v2-market__panels .commerce-seller-service-state h2 {
+  font-size: 0.8125rem;
+  font-weight: 700;
+}
+
+.v2-market__panels .commerce-seller-service-state p {
+  margin-top: var(--v2-space-1);
+  color: inherit;
+  font-size: var(--v2-text-xs);
+  line-height: 1.5;
+}
+
+.v2-market__panels .commerce-seller-service-state button {
+  min-height: 36px;
+  padding: 0 var(--v2-space-4);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius-pill);
+  background: var(--surface-raised);
+  color: var(--text);
+  font-size: 0.8125rem;
+  font-weight: 600;
+}
+
+.v2-market__panels .commerce-seller-service-state button:hover {
+  background: var(--interactive-hover);
+}
+
+.v2-market__panels .commerce-seller-service-state button:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+/* 登録フォーム: 外枠は1つ、中は同じ尺度で。 */
+.v2-market__panels .commerce-form-heading {
+  padding: var(--v2-space-3) var(--v2-space-4);
+}
+
+.v2-market__panels .commerce-form-heading h2 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.v2-market__panels .commerce-form-heading > span,
+.v2-market__panels .commerce-form-heading > button {
+  font-size: var(--v2-text-xs);
+}
+
+.v2-market__panels .commerce-product-form fieldset {
+  gap: var(--v2-space-3);
+  padding: var(--v2-space-4);
+}
+
+.v2-market__panels .commerce-product-form legend {
+  margin-bottom: var(--v2-space-3);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.v2-market__panels .commerce-product-form label {
+  gap: var(--v2-space-1);
+  font-size: 0.8125rem;
+  font-weight: 600;
+}
+
+.v2-market__panels .commerce-product-form label > span {
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+  font-weight: 400;
+}
+
+.v2-market__panels .commerce-product-form input,
+.v2-market__panels .commerce-product-form textarea,
+.v2-market__panels .commerce-product-form select {
+  font-size: var(--v2-text-sm);
+}
+
+.v2-market__panels .commerce-form-note {
+  font-size: var(--v2-text-xs);
+}
+
+/* 手数料: 1行＋詳細の開閉。必要な文言は消さない。 */
+.v2-market__panels .commerce-form-fee {
+  margin: 0;
+  color: var(--text);
+  font-size: 0.8125rem;
+  font-weight: 600;
+}
+
+.v2-market__panels .commerce-form-details {
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+}
+
+.v2-market__panels .commerce-form-details summary {
+  width: fit-content;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.v2-market__panels .commerce-form-details summary:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.v2-market__panels .commerce-form-details p {
+  margin: var(--v2-space-2) 0 0;
+  line-height: 1.6;
+}
+
+.v2-market__panels .commerce-advanced-fields {
+  padding: var(--v2-space-3) var(--v2-space-4);
+}
+
+.v2-market__panels .commerce-advanced-fields summary {
+  font-size: 0.8125rem;
+  font-weight: 600;
+}
+
+/* 画像の選択: 点線の受け皿と、押せる見た目のボタン。 */
+.v2-market__panels .commerce-media-upload {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  gap: var(--v2-space-2);
+  padding: var(--v2-space-4);
+  border: 1px dashed var(--line);
+  border-radius: var(--v2-radius);
+  background: var(--surface-sunken);
+}
+
+.v2-market__panels .commerce-media-upload:hover {
+  border-color: var(--emphasis);
+  background: var(--interactive-hover);
+}
+
+.v2-market__panels .commerce-media-upload:focus-within {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.v2-market__panels .commerce-media-upload > b {
+  display: inline-flex;
+  min-height: 36px;
+  align-items: center;
+  padding: 0 var(--v2-space-4);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius-pill);
+  background: var(--surface-raised);
+  color: var(--text);
+  font-size: 0.8125rem;
+  font-weight: 600;
+}
+
+.v2-market__panels .commerce-media-upload > span {
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+  font-weight: 400;
+}
+
+/* 操作の帯: フォームの枠の内側に揃え、副→主の順で右に置く。 */
+.v2-market__panels .commerce-publish-row {
+  justify-content: space-between;
+  gap: var(--v2-space-3) var(--v2-space-4);
+  padding: var(--v2-space-3) var(--v2-space-4);
+  border-top: 1px solid var(--line);
+  background: var(--surface-sunken);
+}
+
+.v2-market__panels .commerce-publish-row p {
+  max-width: none;
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+  line-height: 1.5;
+}
+
+.v2-market__panels .commerce-publish-row button {
+  min-height: 40px;
+  padding: 0 var(--v2-space-4);
+  border: 1px solid var(--line);
+  border-radius: var(--v2-radius-pill);
+  background: var(--surface-raised);
+  color: var(--text);
+  font-size: 0.8125rem;
+  font-weight: 600;
+}
+
+.v2-market__panels .commerce-publish-row button:last-child {
+  border-color: var(--emphasis);
+  background: var(--emphasis);
+  color: var(--action-text);
+}
+
+.v2-market__panels .commerce-publish-row button:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.v2-market__panels .commerce-publish-row button:disabled {
+  border-color: var(--line);
+  background: var(--surface-sunken);
+  color: var(--muted);
+  cursor: not-allowed;
+  opacity: 1;
+}
+
+.v2-market__panels .commerce-product-list .commerce-list-heading h2,
+.v2-market__panels .commerce-order-panel h2,
+.v2-market__panels .commerce-seller-settings > header h2 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+@media (max-width: 620px) {
+  .v2-market__panels .commerce-seller-service-state {
+    grid-template-columns: 1fr;
+  }
+
+  .v2-market__panels .commerce-publish-row > div {
+    width: 100%;
+  }
+
+  .v2-market__panels .commerce-publish-row button {
+    flex: 1;
+  }
+}
+
+.v2-market__panels .commerce-field-pair[hidden] {
+  display: none;
+}
+
+.v2-market__panels .commerce-list-heading {
+  padding: var(--v2-space-3) var(--v2-space-4);
+}
+
+.v2-market__panels .commerce-list-heading h2 {
+  margin: 0;
+}
+
+.v2-market__panels .commerce-form-heading p {
+  margin: var(--v2-space-1) 0 0;
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+  font-weight: 400;
+}

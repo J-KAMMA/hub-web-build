@@ -1,0 +1,2346 @@
+[
+  {
+    "slug": "iss",
+    "topicType": "spacecraft",
+    "categoryLabel": "物理・化学・宇宙",
+    "title": "国際宇宙ステーション",
+    "summary": "国際宇宙ステーション（ISS）は、アメリカ・ロシア・欧州・日本・カナダの5つの宇宙機関が共同で運用する、地球低軌道上の有人宇宙施設である。1998年に最初の要素が打ち上げられ、2000年11月以来継続して人が滞在している。全長約109メートル、質量約42万キログラムの構造を持ち、微小重力環境での科学研究プラットフォームとして利用されている。",
+    "bodyMarkdown": "## 概要と軌道\n\n国際宇宙ステーション（ISS）は、[地球](/hubpedia/earth)の低軌道を回る有人の宇宙施設で、地球を周回した史上最大の人工物とされる。高度は370〜460キロメートル、軌道傾斜角は51.6度で、その軌道路径は地球人口のおよそ9割の上空を通過する。 [21][22][23]\n\n乗組員は通常7人で、約90分ごとに地球を1周し、24時間で16回の日の出と日没を通過する。ステーションが1日で進む距離は、[月](/hubpedia/moon)まで往復するのにほぼ相当し、1日に16回という速い昼夜の周期の中で生活と作業が行われる。 [3][4][27]\n\n## 建設の経緯と国際協力\n\nステーション計画は1984年にレーガン大統領の正式承認と米議会の予算承認を得て始まり、設計作業は1993年まで続いた。1993年の再設計の途上でロシアが参加に招かれ、計画は二段階で進められることになった。 [14][15][16]\n\nフェーズ1はNASA・ミール計画と呼ばれ、1995年から1998年にかけてスペースシャトルがロシアの宇宙ステーション・ミールに飛行した。続くフェーズ2では新しいISSの要素が1998年から打ち上げられ、建設には36回のシャトル組立フライトと6回のロシアのプロトン・ソユーズ打ち上げ、そして260回を超える船外活動を要した。 [13][17][18][19]\n\n運用はアメリカ・ロシア・欧州・日本・カナダの5つの宇宙機関が担い、各パートナーは自ら提供するハードウェアの管理と制御に責任を持つ。ステーションは当初から相互依存するよう設計されており、各機関の要素は組み合わさって初めて一つの統合システムとして機能する。 [20]\n\n## 構造と主要システム\n\n全長は356フィート（109メートル）で、アメリカンフットボール場の全長に1ヤード満たない規模を持ち、質量は925,335ポンド（419,725キログラム）である。内部加圧容積はボーイング747機に相当し、居住・作業空間は6ベッドルームの住宅より大きく、6つの睡眠区画と2つの浴室、ジム、360度視界の展望窓を備える。 [1][5][6][7]\n\n電力は[太陽](/hubpedia/sun)光を受ける8基の太陽電池アレイが75〜90キロワットを供給し、アレイの総面積は2,247平方メートル（24,187平方フィート）に及び、その翼幅356フィートは世界最大の旅客機エアバスA380を上回る。水回収システムは貨物船から届けられる水への依存を65%削減し、軌道上のソフトウェアは約35万個のセンサーを監視してステーションと乗組員の健康と安全を守っている。 [8][9][10][11]\n\n55フィートのロボットアーム「カナダーム2」は7つの関節と2つのエンドエフェクターを持ち、モジュールの移動や実験装置の展開、船外活動中の宇宙飛行士の輸送に使われる。 [12]\n\n## 滞在と研究\n\n2000年11月2日に第1次長期滞在クルーが到着したとき、ステーションはわずか3モジュールだった。以来継続して人が滞在し、フットボール場規模まで拡大した軌道実験室には26カ国から290人を超える人々が訪れ、72期を超える遠征隊（エクスペディション）が交代で滞在してきた。 [2][25][26]\n\n2000年以降、ISSは前哨基地から高性能な微小重力実験室へ進化し、宇宙での長期滞在と微小重力環境での研究を継続的に行う場として運用されている。 [28]\n\n## 運用の課題と今後\n\n大気摩擦によりステーションは継続的に降下するため、定期的なロケット噴射で軌道を上げ直す必要がある。寿命は複数回延長されてきたが、いくつかの要素は当初の想定寿命を超えており、継続した居住と運用が安全であることを確かめるための解析が定期的に行われている。少なくとも2030年までは軌道上の実験室・前哨として存続する見通しである。 [24][29]\n\n一方でNASAは、ステーション運用を商用サービスへ移行する準備を進めている。 [30]",
+    "sources": [
+      {
+        "url": "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/",
+        "title": "International Space Station Facts and Figures",
+        "publisher": "NASA",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+          },
+          "notes": "Station dimensions, occupancy, and systems facts. Publisher policy read 2026-08-28: Text is public domain and usable commercially. Logos and insignia need clearance for promotional use; content must not imply NASA endorses a product or service; third-party copyrighted images and staff likenesses are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.nasa.gov/reference/international-space-station/",
+        "title": "International Space Station",
+        "publisher": "NASA",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+          },
+          "notes": "Program history, assembly, spacewalks, and transition. Publisher policy read 2026-08-28: Text is public domain and usable commercially. Logos and insignia need clearance for promotional use; content must not imply NASA endorses a product or service; third-party copyrighted images and staff likenesses are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "International Space Station",
+        "summary": "The International Space Station (ISS) is a crewed orbital facility in low Earth orbit jointly operated by five space agencies from the United States, Russia, Europe, Japan, and Canada. Its first elements were launched in 1998, and it has been continuously occupied since November 2000. Measuring about 109 meters end-to-end with a mass of roughly 420,000 kilograms, it serves as a research platform for science in microgravity.",
+        "bodyMarkdown": "## Overview and orbit\n\nThe International Space Station (ISS) is a crewed orbital facility in low [Earth](/hubpedia/earth) orbit, and is described as the largest human-made object ever to orbit Earth. It flies at an altitude of 370 to 460 kilometers on an inclination of 51.6 degrees, a path that takes it over roughly 90 percent of Earth's population. [21][22][23]\n\nA crew of seven normally lives and works aboard, circling Earth about every 90 minutes and passing through 16 sunrises and sunsets in 24 hours. In a single day the station travels a distance roughly equivalent to going to the [Moon](/hubpedia/moon) and back, within a rapid cycle of 16 day-night transitions. [3][4][27]\n\n## Construction history and international cooperation\n\nThe station program began in 1984 with formal approval by President Reagan and a budget approved by the US Congress, and design work continued through 1993. During the 1993 redesign, Russia was invited to participate, and the program proceeded in two phases. [14][15][16]\n\nPhase 1, called NASA-Mir, ran from 1995 to 1998 and sent Space Shuttles to the Russian space station Mir. In Phase 2, elements of the new ISS began launching in 1998; construction required 36 Space Shuttle assembly flights, six Russian Proton and Soyuz launches, and more than 260 spacewalks. [13][17][18][19]\n\nOperations are run by five space agencies — from the United States, Russia, Europe, Japan and Canada — with each partner responsible for managing and controlling the hardware it provides. The station was designed from the outset to be interdependent, and the elements contributed by each agency only function together as one integrated system. [20]\n\n## Structure and major systems\n\nThe station is 356 feet (109 meters) end-to-end, one yard short of a full American football field, and has a mass of 925,335 pounds (419,725 kilograms). Its internal pressurized volume equals that of a Boeing 747, and its living and working space is larger than a six-bedroom house, with six sleeping quarters, two bathrooms, a gym, and a 360-degree view bay window. [1][5][6][7]\n\nEight solar arrays collecting [Sun](/hubpedia/sun)light supply 75 to 90 kilowatts of power; the arrays cover a total area of 2,247 square meters (24,187 square feet), and their 356-foot wingspan exceeds that of the world's largest passenger aircraft, the Airbus A380. A water recovery system reduces dependence on water delivered by cargo spacecraft by 65 percent, while on-orbit software monitors roughly 350,000 sensors to keep the station and crew healthy and safe. [8][9][10][11]\n\nThe 55-foot robotic arm Canadarm2 has seven joints and two end-effectors, and is used to move modules, deploy experiments, and carry spacewalking astronauts. [12]\n\n## Habitation and research\n\nWhen the first long-duration crew arrived on November 2, 2000, the station consisted of only three modules. It has been continuously occupied ever since, and the orbital laboratory — now expanded to football-field scale — has hosted more than 290 visitors from 26 countries across more than 72 expeditions. [2][25][26]\n\nSince 2000 the ISS has evolved from an outpost into a highly capable microgravity laboratory, operated as a continuing site for long-duration stays and research in microgravity. [28]\n\n## Operational challenges and the future\n\nBecause atmospheric friction continually pulls the station downward, periodic rocket firings are required to raise its orbit. Its intended lifespan has been extended several times, but several elements are now beyond their originally intended lifespans, so periodic analyses are conducted to ensure the station remains safe for continued habitation and operation. It is expected to remain a working laboratory and outpost in orbit until at least 2030. [24][29]\n\nNASA, meanwhile, is preparing to transition station operations to commercial services. [30]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "国際宇宙ステーションは6ベッドルームの住宅よりも大きく、6つの睡眠区画と2つの浴室、ジム、360度視界の展望窓を備える。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/",
+              "quote": "The International Space Station is larger than a six-bedroom house"
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/",
+              "quote": "bathrooms, a gym, and a 360-degree view bay window."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "国際宇宙ステーションは2000年11月以来、継続的に人が滞在している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/",
+              "quote": "The space station has been continuously occupied since November 2000."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "国際宇宙ステーションでは通常7人の乗組員が生活し、約90分ごとに地球を周回する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/",
+              "quote": "of seven people live and work"
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/",
+              "quote": "orbiting Earth about every 90 minutes."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "国際宇宙ステーションは24時間で地球を16周し、16回の日の出と日没を通過する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/",
+              "quote": "In 24 hours, the space station makes 16 orbits of Earth"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "国際宇宙ステーションの全長は356フィート（109メートル）で、アメリカンフットボール場の全長に1ヤード満たない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/",
+              "quote": "The space station is 356 feet (109 meters) end-to-end"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "国際宇宙ステーションの質量は925,335ポンド（419,725キログラム）である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/",
+              "quote": "Mass: 925,335 pounds (419,725 kilograms)"
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "国際宇宙ステーションの内部加圧容積はボーイング747機に相当する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/",
+              "quote": "The space station has an internal pressurized volume equal that of a Boeing 747."
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/",
+              "quote": "Habitable Volume: 13,696 cubic feet (388 cubic meters) not including visiting vehicles"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "太陽電池アレイの翼幅は356フィート（109メートル）で、世界最大の旅客機エアバスA380より長い。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/",
+              "quote": "The solar array wingspan (356 feet, 109 meters) is longer than the world’s largest passenger"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "8基の太陽電池アレイが75〜90キロワットの電力を供給し、総面積は2,247平方メートルに及ぶ。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/",
+              "quote": "Power Generation: 8 solar arrays provide 75 to 90 kilowatts of power"
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/reference/international-space-station/",
+              "quote": "The ISS solar arrays cover an area of 2,247 m2 (24,187 ft²)"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "水回収システムは貨物船から届けられる水への依存を65%削減する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/",
+              "quote": "The Water Recovery System reduces crew dependence on water delivered by a cargo spacecraft by 65"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "軌道上のソフトウェアは約35万個のセンサーを監視し、ステーションと乗組員の健康と安全を守っている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/",
+              "quote": "On-orbit software monitors approximately 350,000 sensors"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "55フィートのロボットアーム「カナダーム2」は7つの関節と2つのエンドエフェクターを持つ。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/",
+              "quote": "The 55-foot robotic Canadarm2 has seven different joints"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "ステーションの組立・保守・再構成のために260回を超える船外活動が行われてきた。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/reference/international-space-station/",
+              "quote": "more than ***260*** spacewalks for assembly,"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "ステーション計画は1984年にレーガン大統領が正式に承認し、米議会が予算を承認した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/reference/international-space-station/",
+              "quote": "The Space Station was officially given approval by President Reagan"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "ステーションの設計は1984年から1993年にかけて行われた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/reference/international-space-station/",
+              "quote": "The Station was designed between 1984 and 1993."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "1993年の再設計の途上でロシアが参加に招かれた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/reference/international-space-station/",
+              "quote": "In 1993, as the Station was undergoing a redesign, the Russians were invited to participate."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "フェーズ1はNASA・ミール計画と呼ばれ、1995年から1998年にかけて実施された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/reference/international-space-station/",
+              "quote": "Phase 1, called NASA-Mir, took place between 1995 and 1998."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "新しいISSの要素は1998年から打ち上げられ始めた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/reference/international-space-station/",
+              "quote": "In Phase 2, the elements of the new ISS were launched beginning in 1998."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "建設には36回のスペースシャトル組立フライトと6回のロシアのプロトン・ソユーズ打ち上げを要した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/reference/international-space-station/",
+              "quote": "Building the International Space Station required 36 Space Shuttle assembly flights"
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "5つの宇宙機関がISSを運用し、各パートナーは自ら提供するハードウェアの管理と制御に責任を持つ相互依存の設計である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/reference/international-space-station/",
+              "quote": "Five partner agencies, the Canadian Space Agency, the European Space Agency, the Japan Aerospace"
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/reference/international-space-station/",
+              "quote": "operate the International Space Station, with each partner responsible for"
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/reference/international-space-station/",
+              "quote": "interdependent and relies on contributions from across the partnership to function."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "国際宇宙ステーションは地球を周回した史上最大の人工物である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/reference/international-space-station/",
+              "quote": "The International Space Station is the largest humanmade object ever to orbit Earth."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "国際宇宙ステーションの軌道高度は370〜460キロメートルである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/reference/international-space-station/",
+              "quote": "ISS orbits at an altitude of between 370–460 km (200–250 nmi)."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "軌道傾斜角は51.6度で、軌道路径は地球人口のおよそ9割の上空を通過する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/reference/international-space-station/",
+              "quote": "The ISS orbital inclination is 51.6°, permitting the station to fly over 90% of the inhabited Earth."
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/",
+              "quote": "The station’s orbital path takes it over 90 percent of the Earth’s population"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "大気摩擦によりステーションは継続的に降下するため、定期的なロケット噴射で軌道を上げ直す必要がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/reference/international-space-station/",
+              "quote": "due to atmospheric friction and requires periodic rocket firings to boost the orbit."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "第1次長期滞在クルーは2000年11月2日に到着し、当時のステーションはわずか3モジュールだった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/reference/international-space-station/",
+              "quote": "Expedition 1 when it docked on November 2, 2000, when it was just three modules."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "ステーションはフットボール場規模に拡大し、26カ国から290人を超える人々が訪れ、72期を超える遠征隊が交代で滞在してきた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/reference/international-space-station/",
+              "quote": "laboratory has expanded to the size of a football field hosting over 290 individuals from 26"
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/reference/international-space-station/",
+              "quote": "countries comprising over 72 Expeditions."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "ステーションは1日で月まで往復するのに相当する距離を移動する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/international-space-station/space-station-facts-and-figures/",
+              "quote": "The space station travels an equivalent distance to the Moon and back in about a day."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "2000年以降、ISSは前哨基地から高性能な微小重力実験室へ進化した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/reference/international-space-station/",
+              "quote": "Since 2000, the station evolved from an outpost into a"
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/reference/international-space-station/",
+              "quote": "highly capable microgravity laboratory."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "ステーションの寿命は複数回延長されてきたが、いくつかの要素は当初の想定寿命を超えており、安全を確かめる定期的な解析が行われている。少なくとも2030年までは軌道上の実験室・前哨として存続する見通しである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/reference/international-space-station/",
+              "quote": "The intended life span of the International Space Station has been extended several times."
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/reference/international-space-station/",
+              "quote": "several elements are now beyond their originally intended lifespans, analyses are conducted"
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/reference/international-space-station/",
+              "quote": "periodically to ensure the Station is safe for continued habitation and operation."
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/reference/international-space-station/",
+              "quote": "The station will continue to be a working laboratory and outpost in orbit"
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "NASAはステーション運用を商用サービスへ移行する準備を進めている。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/reference/international-space-station/",
+              "quote": "operations to commercial services."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "voyager",
+    "topicType": "space-program",
+    "categoryLabel": "物理・化学・宇宙",
+    "title": "ボイジャー計画",
+    "summary": "ボイジャー計画は、NASAの双子の探査機ボイジャー1号・2号による惑星探査および恒星間探査のプログラムである。1977年に打ち上げられた2機は木星・土星・天王星・海王星を探査し、現在は恒星間空間を航行している。ボイジャー2号は天王星と海王星を訪れた唯一の探査機である。",
+    "bodyMarkdown": "## 概要と打ち上げ\n\nボイジャー計画は、NASAの双子の探査機ボイジャー1号・2号による外惑星探査と恒星間探査のプログラムである。2機は「地球由来の物がかつて飛んだことのない領域」を探査しており、1977年の打ち上げから45年以上の旅を続けながら、[太陽系](/hubpedia/solar-system)の外縁を越えて活動している。 [1]\n\nボイジャー2号は1977年8月20日に、ボイジャー1号は同年9月5日に、ともにフロリダのケープカナベラルからタイタン・セントールロケットで打ち上げられた。 [2]\n\n2機はあわせて外惑星の巨大惑星すべて――木星・土星・天王星・海王星――と48個の衛星、そしてそれらの惑星が持つ環と磁場を探査した。ボイジャー2号は今日まで天王星と海王星を訪れた唯一の探査機である。 [3][4]\n\n## 惑星探査の成果\n\nボイジャー1号は1979年3月5日に[木星](/hubpedia/jupiter)、1980年11月12日に[土星](/hubpedia/saturn)に、ボイジャー2号は1979年7月9日に木星、1981年8月25日に土星にそれぞれ最接近した。木星圏では衛星イオに活火山を発見し、太陽系の別の天体で活火山が観測されたのはこれが初めてだった。 [16][23]\n\nボイジャー2号は1986年1月24日に[天王星](/hubpedia/uranus)に遭遇し、詳細な写真やデータを送り返した。天王星の磁場の存在はボイジャー到着まで知られていなかったが、自転軸から60度傾いた磁場が確認された。天王星では10個の新しい衛星が発見され、合計は15個となった。 [17][24][25]\n\nボイジャー2号は1989年8月25日に[海王星](/hubpedia/neptune)へ最接近した。海王星では惑星中最強の風が測定され、大暗斑付近では時速約2,000キロメートルに達した。衛星トリトンでは、目に見えない窒素ガスと暗い塵の粒子を薄い大気へ噴き上げる間欠泉状の噴火が撮影された。 [18][26][27]\n\n## ミッション設計と宇宙機\n\n当初の任務は木星と土星の2惑星探査で、探査機は5年の寿命で建造された。だが飛行中に遠隔再プログラミングによって能力が拡張され、2惑星の任務は4惑星へ拡大し、5年の寿命は12年以上に延びた。 [11][12]\n\nこの計画は約175年ごとに訪れる外惑星の幾何学的配置を利用した。この配置では探査機が大型の推進系なしに惑星から惑星へスイングでき、重力アシストにより海王星までの飛行時間は30年から12年に短縮された。1万を超える軌道が検討され、ボイジャー2号の経路には天王星・海王星へ継続する選択肢が残された。 [13][14][15]\n\n両機は同型機で、テレビカメラや赤外・紫外センサー、磁気計、プラズマ検出器、宇宙線・荷電粒子センサーなど10種の実験装置を搭載した。太陽から遠すぎて太陽電池パネルが使えないため、プルトニウムの自然崩壊熱を電気に変換する放射性同位体熱電気転換器（RTG）を電源とし、制御とデータ送信はJPLがNASAのために運用する深宇宙ネットワーク（DSN）を通じて行われる。DSNのアンテナ施設はカリフォルニアのモハベ砂漠、スペインのマドリード近郊、オーストラリアのキャンベラ近郊のティドンビラに置かれている。 [19][20][21][22]\n\n## 恒星間ミッションと現在の限界\n\nボイジャー1号は2004年12月に太陽から約94天文単位で、ボイジャー2号は2007年8月に約84天文単位でターミネーションショックを通過した。ヘリオポーズとは太陽風の最外縁で、星間物質が太陽風の外流を抑え、ヘリオスフィアと呼ばれる磁気の泡の内側に閉じ込める境界である。 [7][29]\n\nボイジャー1号は2012年8月に恒星間空間へ歴史的な進入を果たし、ボイジャー2号は2018年11月5日に恒星間空間に到達した。ボイジャー1号は1998年2月17日にパイオニア10号を抜いて最も遠い人工物となり、現在も1号は年約3.6天文単位、2号は年約3.3天文単位の速度で太陽系を離れつつある。 [5][6][8][10]\n\n両機は遭遇するかもしれないあらゆる生命への挨拶として、地球の生命と文化の多様性を描く音声と画像を収めた12インチの金メッキ銅盤レコードを搭載している。恒星間ミッションの目的は探査を太陽圏の外縁まで拡大することだが、ヘリオポーズの正確な位置は長年にわたり宇宙物理学の大きな未解決問題の一つであり、探査機の電力は限られているため今後の観測には限界がある。 [9][28][30]",
+    "sources": [
+      {
+        "url": "https://science.nasa.gov/mission/voyager/mission-overview/",
+        "title": "Mission Overview",
+        "publisher": "NASA",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+          },
+          "notes": "Mission timeline, interstellar entries, and Golden Record. Publisher policy read 2026-08-28: Text is public domain and usable commercially. Logos and insignia need clearance for promotional use; content must not imply NASA endorses a product or service; third-party copyrighted images and staff likenesses are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://science.nasa.gov/mission/voyager/fast-facts/",
+        "title": "7 Things to Know About Voyager",
+        "publisher": "NASA",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+          },
+          "notes": "Distance, speed, and interstellar milestones. Publisher policy read 2026-08-28: Text is public domain and usable commercially. Logos and insignia need clearance for promotional use; content must not imply NASA endorses a product or service; third-party copyrighted images and staff likenesses are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+        "title": "Voyager Fact Sheet",
+        "publisher": "NASA",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+          },
+          "notes": "Spacecraft design, trajectory, instruments, and planetary findings. Publisher policy read 2026-08-28: Text is public domain and usable commercially. Logos and insignia need clearance for promotional use; content must not imply NASA endorses a product or service; third-party copyrighted images and staff likenesses are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Voyager program",
+        "summary": "The Voyager program is NASA's planetary and interstellar exploration mission flown by the twin spacecraft Voyager 1 and Voyager 2. Launched in 1977, the pair explored Jupiter, Saturn, Uranus, and Neptune, and are now traveling through interstellar space. Voyager 2 remains the only spacecraft to have visited Uranus and Neptune.",
+        "bodyMarkdown": "## Overview and launch\n\nThe Voyager program is NASA's outer-planet and interstellar exploration program flown by the twin spacecraft Voyager 1 and Voyager 2. The pair are exploring a region where nothing from Earth has flown before, continuing a journey of more than 45 years since their 1977 launches and operating beyond the edge of the [solar system](/hubpedia/solar-system). [1]\n\nVoyager 2 launched on August 20, 1977, and Voyager 1 followed on September 5 of the same year, both from Cape Canaveral, Florida, aboard Titan-Centaur rockets. [2]\n\nBetween them, the two spacecraft explored all the giant planets of the outer solar system — Jupiter, Saturn, Uranus, and Neptune — along with 48 of their moons and the planets' unique systems of rings and magnetic fields. Voyager 2 remains the only spacecraft to have visited Uranus and Neptune. [3][4]\n\n## Results of the planetary exploration\n\nVoyager 1 made its closest approach to [Jupiter](/hubpedia/jupiter) on March 5, 1979, and to [Saturn](/hubpedia/saturn) on November 12, 1980, while Voyager 2 reached Jupiter on July 9, 1979, and Saturn on August 25, 1981. In the Jovian system Voyager discovered active volcanoes on the moon Io — the first time active volcanism had been observed on another body in the solar system. [16][23]\n\nVoyager 2 encountered [Uranus](/hubpedia/uranus) on January 24, 1986, returning detailed images and data. The presence of a magnetic field at Uranus was unknown until Voyager's arrival, and the field turned out to be tilted 60 degrees from the planet's rotation axis. Voyager found 10 new moons at Uranus, bringing the total to 15. [17][24][25]\n\nVoyager 2 made its closest approach to [Neptune](/hubpedia/neptune) on August 25, 1989. The strongest winds measured on any planet were recorded at Neptune, reaching about 2,000 kilometers per hour near the Great Dark Spot. Images of the moon Triton showed geyser-like eruptions spewing invisible nitrogen gas and dark dust particles into its tenuous atmosphere. [18][26][27]\n\n## Mission design and the spacecraft\n\nThe original mission targeted only Jupiter and Saturn, and the spacecraft were built to last five years. Remote-control reprogramming in flight endowed them with greater capabilities than they had at launch, expanding the two-planet mission to four planets and stretching the five-year lifetime beyond 12 years. [11][12]\n\nThe program exploited a rare geometric arrangement of the outer planets that occurs about once every 175 years. The layout lets a spacecraft swing from one planet to the next without large onboard propulsion systems, and gravity assist cut the flight time to Neptune from 30 years to 12. More than 10,000 trajectories were studied, and Voyager 2's chosen path preserved the option to continue on to Uranus and Neptune. [13][14][15]\n\nThe two spacecraft are identical, each carrying instruments for ten different experiments including television cameras, infrared and ultraviolet sensors, magnetometers, plasma detectors, and cosmic-ray and charged-particle sensors. Because they travel too far from the Sun to use solar panels, they are powered by radioisotope thermoelectric generators (RTGs) that convert heat from the natural radioactive decay of plutonium into electricity. Control and data return run through the Deep Space Network (DSN), a global spacecraft tracking system operated by JPL for NASA, whose antenna complexes are located in California's Mojave Desert, near Madrid in Spain, and at Tidbinbilla near Canberra in Australia. [19][20][21][22]\n\n## The interstellar mission and its current limits\n\nVoyager 1 crossed the termination shock in December 2004 at about 94 AU from the Sun, and Voyager 2 crossed it in August 2007 at about 84 AU. The heliopause is the outermost boundary of the solar wind, where the interstellar medium restricts the outward flow of the solar wind and confines it within a magnetic bubble called the heliosphere. [7][29]\n\nVoyager 1 made its historic entry into interstellar space in August 2012, and Voyager 2 reached interstellar space on November 5, 2018. Voyager 1 passed Pioneer 10 on February 17, 1998, to become the most distant human-made object, and the spacecraft are still escaping the solar system at about 3.6 AU and 3.3 AU per year respectively. [5][6][8][10]\n\nBoth spacecraft carry a greeting to any form of life that might encounter them: a 12-inch gold-plated copper phonograph record containing sounds and images selected to portray the diversity of life and culture on Earth. The interstellar mission's objective is to extend exploration to the outer limits of the Sun's sphere of influence, but the exact position of the heliopause was long one of the great unanswered questions in space physics, and the spacecraft's finite power supply places limits on further observation. [9][28][30]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "双子のボイジャー1号・2号は、地球由来の物がかつて飛んだことのない領域を探査し、1977年の打ち上げから45年以上の旅を続けている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/mission-overview/",
+              "quote": "The twin Voyager 1 and 2 spacecraft are exploring where nothing from Earth has flown before."
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/mission-overview/",
+              "quote": "Continuing on their more-than-45-year journey since their 1977 launches"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "ボイジャー2号は1977年8月20日に、ボイジャー1号は同年9月5日に、ともにケープカナベラルからタイタン・セントールロケットで打ち上げられた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/mission-overview/",
+              "quote": "Voyager 2 launched on Aug. 20, 1977, from Cape Canaveral, Florida aboard a Titan-Centaur rocket."
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/mission-overview/",
+              "quote": "Sept. 5, Voyager 1 launched, also from Cape Canaveral aboard a Titan-Centaur rocket."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "2機は外惑星の巨大惑星すべて――木星・土星・天王星・海王星――と48個の衛星、環と磁場を探査した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/mission-overview/",
+              "quote": "Between them, Voyager 1 and 2 explored all the giant planets of our outer solar system, Jupiter,"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/mission-overview/",
+              "quote": "Saturn, Uranus and Neptune; 48 of their moons; and the unique system of rings and magnetic fields"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "ボイジャー2号は今日まで天王星と海王星を訪れた唯一の探査機である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/mission-overview/",
+              "quote": "spacecraft to have visited those outer planets."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "ボイジャー1号は2012年8月に恒星間空間へ歴史的な進入を果たした。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/mission-overview/",
+              "quote": "In August 2012, Voyager 1 made the historic entry into interstellar space, the region between stars,"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fast-facts/",
+              "quote": "Aug. 25, 2012."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "ボイジャー2号は2018年11月5日に恒星間空間に到達した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fast-facts/",
+              "quote": "reached interstellar space on Nov. 5, 2018."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "ボイジャー1号は2004年12月に太陽から約94天文単位で、ボイジャー2号は2007年8月に約84天文単位でターミネーションショックを通過した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/mission-overview/",
+              "quote": "Voyager 1 crossed the termination shock in December 2004 at about 94 AU from the Sun while Voyager 2"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/mission-overview/",
+              "quote": "crossed it in August 2007 at about 84 AU."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "ボイジャー1号は1998年2月17日にパイオニア10号を抜き、最も遠い人工物となった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fast-facts/",
+              "quote": "On Feb. 17, 1998, Voyager 1 passed Pioneer 10 to become the most distant human-made object in"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "両機は遭遇するかもしれないあらゆる生命への挨拶として、地球の生命と文化の多様性を描く音声と画像を収めた12インチの金メッキ銅盤レコードを搭載している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/mission-overview/",
+              "quote": "Both Voyager spacecrafts carry a greeting to any form of life, should that be encountered."
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/mission-overview/",
+              "quote": "message is carried by a phonograph record - -a 12-inch gold-plated copper disk containing sounds and"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/mission-overview/",
+              "quote": "images selected to portray the diversity of life and culture on Earth."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "ボイジャー1号は年約3.6天文単位、ボイジャー2号は年約3.3天文単位の速度で太陽系を離れつつある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fast-facts/",
+              "quote": "Voyager 1 is escaping the solar system at a speed of about 3.6 AU per year."
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fast-facts/",
+              "quote": "the solar system at a speed of about 3.3 AU per year."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "当初の任務は木星と土星の2惑星探査で、探査機は5年の寿命で建造された。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "To accomplish their two-planet mission, the spacecraft were built to last five years."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "遠隔再プログラミングで能力が拡張され、2惑星の任務は4惑星へ拡大し、5年の寿命は12年以上に延びた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "Voyagers with greater capabilities than they possessed when they left the Earth."
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "mission became four. Their five-year lifetimes stretched to 12 and more."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "この計画は約175年ごとに訪れる外惑星の幾何学的配置を利用し、探査機は大型の推進系なしに惑星から惑星へスイングできる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "every 175 years, allows a spacecraft on a particular flight path to swing from one planet to the"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "next without the need for large onboard propulsion systems."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "重力アシストにより海王星までの飛行時間は30年から12年に短縮された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "mission in 1973-74, the flight time to Neptune was reduced from 30 years to 12."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "1万を超える軌道が検討され、ボイジャー2号の経路には天王星・海王星へ継続する選択肢が残された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "Jupiter and Saturn only. More than 10,000 trajectories were studied before choosing the two that"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "chosen flight path for Voyager 2 also preserved the option to continue on to Uranus and Neptune."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "ボイジャー1号は1979年3月5日に木星、1980年11月12日に土星に、ボイジャー2号は1979年7月9日に木星、1981年8月25日に土星にそれぞれ最接近した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "The prime Voyager mission to Jupiter and Saturn brought Voyager 1 to Jupiter on March 5, 1979, and"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "Saturn on November 12, 1980, followed by Voyager 2 to Jupiter on July 9, 1979, and Saturn on August"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "25, 1981."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "ボイジャー2号は1986年1月24日に天王星に遭遇し、詳細な写真やデータを送り返した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "Voyager 2 encountered Uranus on January 24, 1986, returning detailed photos and other data on the"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "ボイジャー2号は1989年8月25日に海王星へ最接近した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "Following Voyager 2's closest approach to Neptune on August 25, 1989, the spacecraft flew southward,"
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "両機は同型機で、テレビカメラや赤外・紫外センサー、磁気計、プラズマ検出器、宇宙線・荷電粒子センサーなど10種の実験装置を搭載した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "Voyagers 1 and 2 are identical spacecraft."
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "magnetometers, plasma detectors, and cosmic-ray and charged-particle sensors."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "太陽から遠すぎて太陽電池パネルが使えないため、放射性同位体熱電気転換器（RTG）を搭載した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "The Voyagers travel too far from the Sun to use solar panels; instead, they were equipped with power"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "sources called radioisotope thermoelectric generators (RTGs)."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "RTGはプルトニウムの自然崩壊熱を電気に変換し、機器・コンピュータ・無線などに電力を供給する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "space missions, convert the heat produced from the natural radioactive decay of plutonium into"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "electricity to power the spacecraft instruments, computers, radio and other systems."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "制御とデータ送信はJPLがNASAのために運用する深宇宙ネットワーク（DSN）を通じて行われ、アンテナ施設はカリフォルニアのモハベ砂漠、マドリード近郊、キャンベラ近郊のティドンビラに置かれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "The spacecraft are controlled and their data returned through the Deep Space Network (DSN), a global"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "spacecraft tracking system operated by JPL for NASA."
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "California's Mojave Desert; near Madrid, Spain; and in Tidbinbilla, near Canberra, Australia."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "木星の衛星イオでの活火山の発見は木星圏最大の予想外の発見で、太陽系の別天体で初めて活火山が観測された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "Discovery of active volcanism on the satellite Io was easily the greatest unexpected discovery at"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "Jupiter. It was the first time active volcanoes had been seen on another body in the solar system."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "天王星では10個の新しい衛星が発見され、合計は15個となった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "Voyager found 10 new moons, bringing the total number to 15."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "天王星の磁場の存在はボイジャー到着まで知られておらず、磁場は自転軸から60度傾いていた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "The presence of a magnetic field at Uranus was not known until Voyager's arrival."
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "the tail of the magnetic field, which is itself tilted 60 degrees from the planet's axis of"
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "衛星トリトンでは、目に見えない窒素ガスと暗い塵の粒子を薄い大気へ噴き上げる間欠泉状の噴火が撮影された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "of a remarkable geologic history, and Voyager 2 images showed active geyser-like eruptions spewing"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "invisible nitrogen gas and dark dust particles several kilometers into the tenuous atmosphere."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "海王星では惑星中最強の風が測定され、大暗斑付近では時速約2,000キロメートルに達した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "The strongest winds on any planet were measured on Neptune."
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "Near the Great Dark Spot, winds blow up to 2,000"
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "ヘリオポーズの正確な位置は長年にわたり宇宙物理学の大きな未解決問題の一つだった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "Exactly where the heliopause is has been one of the great unanswered questions in space physics."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "ヘリオポーズは太陽風の最外縁で、星間物質が太陽風の外流を抑えてヘリオスフィアと呼ばれる磁気の泡の内側に閉じ込める境界である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "The heliopause is the outermost boundary of the solar wind, where the interstellar medium restricts"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/fact-sheet/",
+              "quote": "the outward flow of the solar wind and confines it within a magnetic bubble called the heliosphere."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "ボイジャー恒星間ミッションの目的は、探査を外惑星の先にある太陽圏の外縁まで拡大することである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/mission-overview/",
+              "quote": "The mission objective of the Voyager Interstellar Mission (VIM) is to extend the NASA exploration"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/voyager/mission-overview/",
+              "quote": "sphere of influence, and possibly beyond."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "hubble-space-telescope",
+    "topicType": "space-telescope",
+    "categoryLabel": "物理・化学・宇宙",
+    "title": "ハッブル宇宙望遠鏡",
+    "summary": "ハッブル宇宙望遠鏡は、天文学者エドウィン・ハッブルにちなんで命名されたNASAの大型宇宙天文台である。1990年4月にスペースシャトル・ディスカバリーで打ち上げられ、高度約483キロメートルの地球低軌道から紫外線から近赤外線までの光で宇宙を観測している。軌道上での整備を前提に設計された初の宇宙天文台であり、5回のサービスミッションを経て現在も運用中である。",
+    "bodyMarkdown": "## 概要と軌道\n\nハッブル宇宙望遠鏡は、天文学者エドウィン・ハッブルにちなんで命名された大型の宇宙天文台で、1990年4月24日にスペースシャトル・ディスカバリーによって打ち上げられ、展開された。 [1][2]\n\n地表から約300マイル（483キロメートル）上空の[地球](/hubpedia/earth)低軌道を周回し、大気による歪みの影響を避けて宇宙をはっきりと見渡す位置にある。地球を約95分で1周し、1日に15周し、秒速約5マイル（8キロメートル）――アメリカ合衆国を約10分で横断する速さ――で移動している。 [3][4][5]\n\n## 設計と観測能力\n\nハッブルは紫外線から近赤外線までの波長の光を記録できる、地球周回軌道に置かれた最初の天文台である。可視・紫外・赤外の波長で宇宙を探る汎用天文台として設計され、大気圏の上にあるため、大気に遮断・部分的にフィルタリングされる波長を観測できる。 [6][7][28]\n\n主鏡は約8フィート（2.4メートル）で、地上の多くの専門天文台より小さいが、人間の目の1,000倍の分解能を持ち、人間の目より100億倍暗い天体を捉えられる精密光学設計を持つ。標的を0.007秒角以内の偏差でロックでき、これは1マイル先の人の髪の毛にレーザーを当て続ける精度に相当するとされる。 [8][9][10][23]\n\n全長は43.5フィート（13.2メートル）、打ち上げ時の重量は約24,000ポンド（10,800キログラム）である。感度は115〜2,500ナノメートルの波長域に及び、電力は2枚のガリウム砒素太陽電池パネル（8×24.75フィート）が約5,500ワットを発電し、[太陽](/hubpedia/sun)光を電源とする。姿勢制御には6個のジャイロスコープ、5個の太陽センサー、2個の磁気計、3個の固定星トラッカー、3個の精密誘導センサーが用いられる。 [11][20][21][22]\n\n## 軌道上での整備\n\nハッブルは軌道上での整備を前提に特別に設計された初の宇宙天文台である。5回の宇宙飛行士によるサービスミッションで最新の科学機器が追加され、老朽化した部品の交換・更新によって望遠鏡の寿命は大きく延びた。 [12][13]\n\n1990年の展開後、1993年から2009年にかけて5回の整備が行われ、32人の宇宙飛行士の作業により当初の寿命の2倍以上に延びた。最初のサービスミッションでは、主鏡の欠陥を修正するための特殊なレンズ群が取り付けられた。 [14][15]\n\n## 観測成果\n\nこれまでに170万回を超える観測を行い、その発見に基づく23,000篇を超える査読済み科学論文が出版され、現在の天文学の教科書にはすべてこの天文台の貢献が含まれるとされる。 [16][17]\n\n太陽系を駆け抜ける恒星間天体の追跡、彗星の[木星](/hubpedia/jupiter)衝突の観測、冥王星の衛星の発見などを行い、地球から134億光年以上の遠方まで遡って観測し、膨張する宇宙の歴史の理解を深めてきた。 [18][19]\n\n## 運用体制と観測の限界\n\n運用はゴダード宇宙飛行センターの宇宙望遠鏡運用管制センターが24時間365日体制で担う。現用機器には、可視・紫外を記録する主撮像装置のワイドフィールドカメラ3（WFC3）や、史上最も高感度とされる紫外専用の宇宙起源分光器（COS）などがある。 [24][25][26]\n\nただし観測範囲は近赤外線までに限られ、2.4メートルの主鏡は地上の大型望遠鏡より小さいという限界がある。このためハッブルと[ジェームズ・ウェッブ宇宙望遠鏡](/hubpedia/james-webb-space-telescope)は相互に補完し合いながら宇宙を探査する関係にある。 [8][27]",
+    "sources": [
+      {
+        "url": "https://science.nasa.gov/mission/hubble/overview/about-hubble/",
+        "title": "About Hubble",
+        "publisher": "NASA",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+          },
+          "notes": "Naming, observation statistics, technical specifications, and current instruments. Publisher policy read 2026-08-28: Text is public domain and usable commercially. Logos and insignia need clearance for promotional use; content must not imply NASA endorses a product or service; third-party copyrighted images and staff likenesses are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://science.nasa.gov/mission/hubble/observatory/",
+        "title": "Hubble Observatory",
+        "publisher": "NASA",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+          },
+          "notes": "Orbit, optical capabilities, servicing missions, and mission operations. Publisher policy read 2026-08-28: Text is public domain and usable commercially. Logos and insignia need clearance for promotional use; content must not imply NASA endorses a product or service; third-party copyrighted images and staff likenesses are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Hubble Space Telescope",
+        "summary": "The Hubble Space Telescope is NASA's large space-based observatory named in honor of astronomer Edwin Hubble. Launched aboard the space shuttle Discovery in April 1990, it observes the universe in ultraviolet through near-infrared light from low Earth orbit at about 483 kilometers altitude. It was the first space observatory designed to be serviced in orbit and remains in operation after five servicing missions.",
+        "bodyMarkdown": "## Overview and orbit\n\nThe Hubble Space Telescope is a large space-based observatory named in honor of the trailblazing astronomer Edwin Hubble. It was launched and deployed by the space shuttle Discovery on April 24, 1990. [1][2]\n\nIt circles [Earth](/hubpedia/earth) in low orbit roughly 300 miles (483 kilometers) above the surface, a position that avoids the distorting effects of the atmosphere for a clear view of the cosmos. It completes 15 orbits per day, one about every 95 minutes, traveling at about five miles (8 kilometers) per second — fast enough to cross the United States in about 10 minutes. [3][4][5]\n\n## Design and observing capabilities\n\nHubble is the first astronomical observatory placed in orbit around Earth able to record images in wavelengths of light spanning ultraviolet to near infrared. It was designed as a general-purpose observatory exploring the universe in visible, ultraviolet, and infrared wavelengths, and its position above the atmosphere lets it see wavelengths that are blocked or partially filtered from the ground. [6][7][28]\n\nIts nearly 8-foot (2.4-meter) primary mirror is smaller than those of many professional Earth-based observatories, yet its precision optical design resolves objects 1,000 times better than the human eye and can see objects 10 billion times fainter. The telescope can lock onto a target without deviating more than 0.007 arcseconds — equivalent to shining a laser on a human hair one mile away. [8][9][10][23]\n\nThe telescope is 43.5 feet (13.2 meters) long and weighed about 24,000 pounds (10,800 kilograms) at launch. Its sensitivity spans 115 to 2,500 nanometers, and power comes from two 8-by-24.75-foot gallium-arsenide solar panels generating about 5,500 watts from [Sun](/hubpedia/sun)light. Pointing relies on six gyroscopes, five Sun sensors, two magnetometers, three fixed-head star trackers, and three fine guidance sensors. [11][20][21][22]\n\n## Servicing in orbit\n\nHubble is the first space-based observatory specifically designed to be serviced while in orbit. Over five astronaut servicing missions, new cutting-edge scientific instruments were added, and replacing and upgrading aging parts greatly extended the telescope's lifetime. [12][13]\n\nDeployed in 1990 and serviced five times between 1993 and 2009, Hubble more than doubled its original lifespan thanks to the 32 astronauts who deployed and serviced it. On the first servicing mission, astronauts installed a set of specialized lenses to correct the flawed main mirror. [14][15]\n\n## Observational results\n\nHubble has made more than 1.7 million observations, and over 23,000 peer-reviewed science papers have been published based on its discoveries; every current astronomy textbook includes contributions from the observatory. [16][17]\n\nIt has tracked interstellar objects soaring through the solar system, watched a comet collide with [Jupiter](/hubpedia/jupiter), discovered moons around Pluto, and peered back to locations more than 13.4 billion light-years from Earth, deepening our understanding of the history of the expanding universe. [18][19]\n\n## Operations and observational limits\n\nOperations are run around the clock — 24 hours a day, 365 days a year — by the Space Telescope Operations Control Center at NASA's Goddard Space Flight Center. Current instruments include the main imager Wide Field Camera 3 (WFC3), which records visible and ultraviolet light and adds an infrared camera, and the Cosmic Origins Spectrograph (COS), the most sensitive ultraviolet spectrograph ever flown. [24][25][26]\n\nIts reach, however, is limited to the near-infrared, and its 2.4-meter primary mirror is smaller than large ground-based telescopes — a limitation that defines its role. Hubble and the [James Webb Space Telescope](/hubpedia/james-webb-space-telescope) therefore work together, complementing each other as they explore the cosmos. [8][27]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "ハッブル宇宙望遠鏡は天文学者エドウィン・ハッブルにちなんで命名された。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/overview/about-hubble/",
+              "quote": "Named in honor of the trailblazing astronomer Edwin Hubble, the Hubble Space Telescope is a large,"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "1990年4月24日にスペースシャトル・ディスカバリーによって打ち上げられ、展開された。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/overview/about-hubble/",
+              "quote": "deployment by the space shuttle Discovery in 1990."
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/observatory/",
+              "quote": "on April 24, 1990 aboard the space shuttle Discovery, Hubble orbits roughly 300 miles (483 km) above"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "地表約300マイル（483キロメートル）上空を周回し、大気の歪みの影響を避けて宇宙をはっきり観測する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/overview/about-hubble/",
+              "quote": "Orbiting 300 miles (483 km) above Earth’s surface, Hubble avoids the distorting effects of our"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/overview/about-hubble/",
+              "quote": "atmosphere, enabling its clear vision of the cosmos."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "地球を約95分で1周し、1日に15周する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/observatory/",
+              "quote": "It completes 15 orbits per day, circling Earth approximately once every 95 minutes."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "秒速約5マイル（8キロメートル）で移動し、アメリカ合衆国を約10分で横断する速さである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/observatory/",
+              "quote": "The observatory moves at a speed of about five miles (8 km) per second, fast enough to travel across"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/observatory/",
+              "quote": "the United States in about 10 minutes."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "紫外線から近赤外線までの波長の光を記録できる、地球周回軌道に置かれた最初の天文台である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/observatory/",
+              "quote": "The Hubble Space Telescope is the first astronomical observatory placed into orbit around Earth with"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/observatory/",
+              "quote": "the ability to record images in wavelengths of light spanning ultraviolet to near infrared."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "大気圏の上にあるため、大気に遮断・部分的にフィルタリングされる波長を観測できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/observatory/",
+              "quote": "What makes Hubble so powerful is its position above Earth’s atmosphere."
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/observatory/",
+              "quote": "filtered by the atmosphere."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "主鏡は約8フィート（2.4メートル）で、地上の多くの専門天文台より小さい。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/observatory/",
+              "quote": "(2.4 meter) primary mirror is smaller than those of many professional Earth-based observatories."
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/overview/about-hubble/",
+              "quote": "Primary Mirror  │94.5 inches (2.4 m)"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "人間の目の1,000倍の分解能を持つ。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/observatory/",
+              "quote": "Hubble can resolve objects 1,000 times better than the human eye."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "人間の目より100億倍暗い天体を捉えられる精密光学設計を持つ。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/observatory/",
+              "quote": "Hubble’s precision optical design allows it to see objects 10 billion times fainter than the human"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "全長は43.5フィート（13.2メートル）、打ち上げ時の重量は約24,000ポンド（10,800キログラム）である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/overview/about-hubble/",
+              "quote": "Length                    │43.5 feet (13.2 m)"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/overview/about-hubble/",
+              "quote": "Weight (at launch)        │about 24,000 pounds (10,800 kg)"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "軌道上での整備を前提に特別に設計された初の宇宙天文台である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/observatory/",
+              "quote": "Hubble is the first space-based observatory specifically designed for servicing while in orbit."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "5回の宇宙飛行士によるサービスミッションで最新の科学機器が追加され、老朽化した部品の交換・更新で望遠鏡の寿命は大きく延びた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/overview/about-hubble/",
+              "quote": "new, cutting-edge scientific instruments have been added to the telescope over the course of five"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/overview/about-hubble/",
+              "quote": "astronaut servicing missions. By replacing and upgrading aging parts, these servicing missions have"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "1990年の展開後、1993年から2009年にかけて5回の整備が行われ、32人の宇宙飛行士の作業により当初の寿命の2倍以上に延びた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/observatory/",
+              "quote": "Deployed in 1990 and serviced five times between 1993 and 2009, Hubble’s productivity and longevity"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/observatory/",
+              "quote": "Hubble has more than doubled its original lifespan thanks to the 32 astronauts who deployed and"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "最初のサービスミッションでは、主鏡の欠陥を修正するための特殊なレンズ群が取り付けられた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/observatory/",
+              "quote": "The first servicing mission to the Hubble Space Telescope saw astronauts install a set of"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/observatory/",
+              "quote": "specialized lenses to correct the flawed main mirror in the telescope."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "これまでに170万回を超える観測を行ってきた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/overview/about-hubble/",
+              "quote": "Hubble has made more than 1.7 million observations over the course of its lifetime."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "その発見に基づく23,000篇を超える査読済み科学論文が出版され、現在の天文学の教科書にはすべてこの天文台の貢献が含まれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/overview/about-hubble/",
+              "quote": "peer-reviewed science papers have been published on its discoveries, and every current astronomy"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/overview/about-hubble/",
+              "quote": "textbook includes contributions from the observatory."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "彗星の木星衝突の観測や冥王星の衛星の発見などを行った。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/overview/about-hubble/",
+              "quote": "as they soared through our solar system, watched a comet collide with Jupiter, and discovered moons"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/overview/about-hubble/",
+              "quote": "around Pluto."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "地球から134億光年以上の遠方まで遡って観測し、膨張する宇宙の歴史の理解を深めてきた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/overview/about-hubble/",
+              "quote": "Hubble has peered back into our universe’s distant past, to locations more than 13.4 billion"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/overview/about-hubble/",
+              "quote": "in their depths, and helping us better understand the history of the expanding universe."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "感度は紫外線から赤外線までの115〜2,500ナノメートルの波長域に及ぶ。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/overview/about-hubble/",
+              "quote": "Sensitivity to Light │ultraviolet through infrared (115–2500"
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "電力は2枚のガリウム砒素太陽電池パネル（8×24.75フィート）が約5,500ワットを発電する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/overview/about-hubble/",
+              "quote": "Mechanism │two 8 x 24.75-foot (2.44 x 7.54-meter) gallium-arsenide solar panels"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/overview/about-hubble/",
+              "quote": "Power     │about 5,500 watts"
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "姿勢制御には6個のジャイロスコープ、5個の太陽センサー、2個の磁気計、3個の固定星トラッカー、3個の精密誘導センサーが用いられる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/overview/about-hubble/",
+              "quote": "Sensors   │Six gyroscopes, five Sun sensors, two magnetometers, three fixed-head star trackers,"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/overview/about-hubble/",
+              "quote": "three fine guidance sensors"
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "標的を0.007秒角以内の偏差でロックでき、1マイル先の人の髪の毛にレーザーを当て続ける精度に相当する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/overview/about-hubble/",
+              "quote": "accurate. The telescope is able to lock onto a target without deviating more than 7"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/overview/about-hubble/",
+              "quote": "thousandths (0.007) of an arcsecond, equivalent to shining a laser on a human hair one"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "現用の主撮像装置はワイドフィールドカメラ3（WFC3）で、可視・紫外を記録するカメラと赤外カメラを備える。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/overview/about-hubble/",
+              "quote": "Wide Field Camera 3 is the main imager on the telescope."
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/overview/about-hubble/",
+              "quote": "(IR) light increases Hubble's IR resolution from 65,000 to 1 million pixels."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "宇宙起源分光器（COS）は紫外線専用で、史上最も高感度の紫外分光器とされる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/overview/about-hubble/",
+              "quote": "COS focuses exclusively on ultraviolet (UV) light and is the most sensitive ultraviolet"
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "運用はゴダード宇宙飛行センターの宇宙望遠鏡運用管制センターが24時間365日体制で担う。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/observatory/",
+              "quote": "The Space Telescope Operations Control Center at NASA’s Goddard Space Flight Center in Greenbelt,"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/observatory/",
+              "quote": "Maryland is the engine that keeps Hubble operating 24 hours a day, 365 days a year."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "ハッブルとジェームズ・ウェッブ宇宙望遠鏡は相互に補完し合いながら宇宙を探査する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/observatory/",
+              "quote": "Hubble and Webb work together to explore the cosmos. Their observations complement each other,"
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "可視・紫外・赤外の波長で宇宙を探る汎用天文台として設計された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/observatory/",
+              "quote": "Hubble was designed as a general-purpose observatory, meant to explore the universe in visible,"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/hubble/observatory/",
+              "quote": "ultraviolet, and infrared wavelengths."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "james-webb-space-telescope",
+    "topicType": "space-telescope",
+    "categoryLabel": "物理・化学・宇宙",
+    "title": "ジェームズ・ウェッブ宇宙望遠鏡",
+    "summary": "ジェームズ・ウェッブ宇宙望遠鏡は、NASA・欧州宇宙機関（ESA）・カナダ宇宙庁（CSA）の国際協力で開発された大型赤外線宇宙望遠鏡である。2021年12月25日にアリアン5ロケットで打ち上げられ、地球から約150万キロメートルの地点で太陽を周回しながら、ビッグバン後の最初の銀河から惑星系の形成まで宇宙の歴史のあらゆる段階を観測する。直径約6.5メートルの分割主鏡と5層のサンシールドを持つ、宇宙に置かれた最大の望遠鏡である。",
+    "bodyMarkdown": "## 概要と目的\n\nジェームズ・ウェッブ宇宙望遠鏡（ウェッブ、JWST）は、次世代の主要観測所として世界中の何千もの天文学者に利用される赤外線天文台で、[ハッブル宇宙望遠鏡](/hubpedia/hubble-space-telescope)の発見を引き継ぎ、その100倍の性能を持つ宇宙最大の望遠鏡とされる。 [1][10]\n\nその観測目的は、ビッグバン直後の最初の発光天体や[銀河](/hubpedia/galaxy)の探索、銀河の形成から現在までの進化の解明、恒星と惑星系の形成の観測、そして惑星系の物理化学的性質と生命の可能性の調査まで、宇宙の歴史のあらゆる段階をカバーする。未曾有の赤外感度により、ビッグバン後に生まれた最初の銀河まで135億年以上遡って観測する。 [2][9][27]\n\n## 打ち上げと軌道\n\nウェッブは2021年12月25日に、フランス領ギアナのクールーにあるギアナ宇宙センターELA-3発射区からアリアン5ロケットで打ち上げられた。地球周回ではなく、地球から約150万キロメートルの地点で[地球](/hubpedia/earth)とともに太陽を周回する軌道に置かれる。 [4][5]\n\n## 構造と革新的技術\n\n望遠鏡はテニスコートに近い大きさのため、ロケットに収める折り紙式の折りたたみ構造で設計され、宇宙でトランスフォーマーのように展開して運用形態になった。主鏡は打ち上げ後に展開・形状調整される18個の分割セグメントからなる超軽量ベリリウム製で、直径は約6.5メートル、有効開口は25平方メートル、総質量は約6,200キログラムである。 [3][15][20][21]\n\n最大の特徴はテニスコートサイズの5層サンシールドで、太陽・地球・月からの赤外放射を遮り、[太陽](/hubpedia/sun)の熱を100万分の1以上に減衰させる。サンシールドは高さ4.8メートルの5層構造の中で、高温側と低温側の間に約華氏600度の温度差を生じさせる。そのサイズは21.197×14.162メートルで、高温側は最大摂氏85度、低温側は約摂氏-233度に達し、最も冷たい機器MIRIは絶対零度の数度上の7Kで動作する。主鏡の金コーティングは約48.25グラムで、ゴルフボール1個の質量にほぼ等しい。 [6][7][8][16][24][25]\n\n## 観測機器\n\n4つの観測機器――近赤外カメラ（NIRCam）、近赤外分光器（NIRSpec）、中赤外装置（MIRI）、精密誘導センサー・近赤外撮像無スリット分光器（FGS/NIRISS）――の検出器は極めて微弱な信号を記録できる。NIRSpecはプログラム可能なマイクロシャッターにより最大100天体を同時に観測でき、MIRIの中赤外検出器は専用のクライオクーラーで7Kまで冷却される。観測波長域は0.6〜28.5ミクロンの赤外域である。 [17][18][19][22]\n\n## 開発の経緯と国際協力\n\nウェッブはNASA、欧州宇宙機関（ESA）、カナダ宇宙庁（CSA）による国際協力で、ゴダード宇宙飛行センターが開発を管理し、主産業パートナーはノースロップ・グラマン、打ち上げ後の運用は宇宙望遠鏡科学研究所が担う。14カ国・29の米国州・ワシントンD.C.から何千もの科学者・技術者が設計・建造・試験・打ち上げ・運用に貢献した。 [11][12][13]\n\n計画はかつて「次世代宇宙望遠鏡」（NGST）と呼ばれ、1961年2月から1968年10月までNASA長官を務めたジェームズ・E・ウェッブにちなみ、2002年9月に改名された。 [14]\n\n## 寿命と観測の限界\n\n観測波長は0.6〜28.5ミクロンの赤外域に限られ、可視光の短波長側は対象外である。また運用温度は50K（約摂氏-223度）未満という厳しい冷却条件に支えられ、ミッション期間は5〜10年と限られている。 [22][23][26]",
+    "sources": [
+      {
+        "url": "https://science.nasa.gov/mission/webb/about-overview/",
+        "title": "About Webb",
+        "publisher": "NASA",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+          },
+          "notes": "Mission purpose, launch, orbit, sunshield, international team, and innovations. Publisher policy read 2026-08-28: Text is public domain and usable commercially. Logos and insignia need clearance for promotional use; content must not imply NASA endorses a product or service; third-party copyrighted images and staff likenesses are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://science.nasa.gov/mission/webb/fact-sheet/",
+        "title": "Webb Fact Sheet",
+        "publisher": "NASA",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+          },
+          "notes": "Technical specifications, mission goals, instruments, and major innovations. Publisher policy read 2026-08-28: Text is public domain and usable commercially. Logos and insignia need clearance for promotional use; content must not imply NASA endorses a product or service; third-party copyrighted images and staff likenesses are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "James Webb Space Telescope",
+        "summary": "The James Webb Space Telescope is a large infrared space observatory developed through international cooperation between NASA, the European Space Agency (ESA), and the Canadian Space Agency (CSA). Launched on December 25, 2021 aboard an Ariane 5 rocket, it orbits the Sun about 1.5 million kilometers from Earth, studying every phase of cosmic history from the first galaxies after the Big Bang to the formation of planetary systems. With a 6.5-meter segmented primary mirror and a five-layer sunshield, it is the largest telescope ever placed in space.",
+        "bodyMarkdown": "## Overview and purpose\n\nThe James Webb Space Telescope (Webb, or JWST) is the premier observatory of the next decade, an infrared observatory serving thousands of astronomers worldwide. Extending the discoveries of the [Hubble Space Telescope](/hubpedia/hubble-space-telescope), it is described as the largest telescope ever placed in space, 100 times more powerful than Hubble. [1][10]\n\nIts goals span every phase in the history of the Universe: searching for the first luminous objects and [galaxies](/hubpedia/galaxy) after the Big Bang, determining how galaxies evolved, observing the formation of stars and planetary systems, and measuring the physical and chemical properties of planetary systems — including their potential for life. With unprecedented infrared sensitivity, it peers back in time over 13.5 billion years to see the first galaxies born after the Big Bang. [2][9][27]\n\n## Launch and orbit\n\nWebb was launched on December 25, 2021, from French Guiana aboard an Ariane 5 rocket. Rather than orbiting Earth, it orbits the Sun about 1.5 million kilometers from [Earth](/hubpedia/earth). [4][5]\n\n## Structure and innovative technologies\n\nNearly the size of a tennis court, the telescope was designed to fold origami-style to fit inside its rocket and then unfold like a Transformer in space into its operational configuration. Its primary mirror consists of 18 separate ultra-lightweight beryllium segments that unfold and adjust after launch; the mirror is about 6.5 meters in diameter with a 25-square-meter collecting area, and the total payload mass is about 6,200 kilograms. [3][15][20][21]\n\nIts biggest feature is a tennis-court-sized five-layer sunshield that blocks infrared radiation from the [Sun](/hubpedia/sun), Earth, and Moon, attenuating the Sun's heat by more than a factor of a million. The sunshield measures 21.197 by 14.162 meters; the hot side can reach 85°C while the cold side falls to about -233°C, and the coldest instrument, MIRI, operates only a few degrees above absolute zero at 7 K. The mirror's gold coating uses about 48.25 grams of gold — roughly the mass of a golf ball. [6][7][8][16][24][25]\n\n## Instruments\n\nThe telescope's four instruments — the Near Infrared Camera (NIRCam), Near Infrared Spectrograph (NIRSpec), Mid Infrared Instrument (MIRI), and Fine Guidance Sensors/Near Infrared Imager and Slitless Spectrograph (FGS/NIRISS) — carry detectors able to record extremely faint signals. NIRSpec uses programmable microshutters to observe up to 100 objects simultaneously, and MIRI's mid-infrared detectors are cooled to 7 K by a dedicated cryocooler. The wavelength coverage spans 0.6 to 28.5 microns in the infrared. [17][18][19][22]\n\n## Development history and international cooperation\n\nWebb is an international collaboration of NASA, the European Space Agency (ESA), and the Canadian Space Agency (CSA). NASA's Goddard Space Flight Center managed development, Northrop Grumman is the main industrial partner, and the Space Telescope Science Institute operates Webb after launch. Thousands of scientists, engineers, and technicians from 14 countries, 29 US states, and Washington, D.C. contributed to its design, construction, testing, launch, and operations. [11][12][13]\n\nThe program was formerly known as the Next Generation Space Telescope (NGST) and was renamed in September 2002 after former NASA administrator James E. Webb. [14]\n\n## Lifetime and observational limits\n\nIts observing wavelengths are limited to the 0.6–28.5 micron infrared range, excluding the shorter visible wavelengths. Operations also depend on a demanding cooling regime below 50 K (about -223°C), and the mission duration is limited to 5–10 years. [22][23][26]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "ウェッブは次世代の主要観測所として世界中の何千もの天文学者に利用される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "Webb is the premier observatory of the next decade, serving thousands of astronomers worldwide."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "ビッグバン直後の最初の光から、生命を支え得る惑星系の形成、太陽系の進化まで宇宙の歴史のあらゆる段階を研究する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "studies every phase in the history of our Universe, ranging from the first luminous glows after the"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "Big Bang, to the formation of solar systems capable of supporting life on planets like Earth, to the"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "大きすぎてロケットに収めるため折り紙式に折りたたみ、宇宙でトランスフォーマーのように展開する設計である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "Webb is so big (nearly the size of a tennis court) it was designed to be folded origami-style to fit"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "in the rocket and then unfolded like a “Transformer” in space into it's operational configuration."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "ウェッブは地球から約150万キロメートルの地点で太陽を周回する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "Webb orbits the Sun 1.5 million kilometers from the Earth."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "ウェッブは2021年12月25日に、フランス領ギアナのクールーにあるギアナ宇宙センターELA-3発射区からアリアン5ロケットで打ち上げられた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "Webb was launched on Dec 25, 2021 on from French Guiana on an Arianne 5 rocket."
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "Dec. 25, 2021, from the ELA-3 Launch Zone of Europe’s Spaceport at the Guiana Space Centre in"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "Kourou, French Guiana."
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/fact-sheet/",
+              "quote": "December 25, 2021 07:20am EST (2021-12-25 12:20 GMT/UTC)"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "5層のサンシールドが太陽・地球・月からの赤外放射を遮る。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "Webb has a 5-layer sunshield that protects the telescope from the infrared radiation of the Sun,"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "Earth, and Moon; like having sun protection of SPF 1 million."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "サンシールドの高温側は最大摂氏85度、低温側は約摂氏-233度に達する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "Earth, and Moon. Temperatures on the hot side can be as high as 185F (85C) while the cold side is"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "approximately -388F ( -233C) and the coldest instrument, MIRI, operates only several degrees above"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "最も冷たい機器MIRIは絶対零度の数度上の7Kで動作する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "absolute zero at 7 K (-266° C or -447° F)."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "未曾有の赤外感度で、ビッグバン後に生まれた最初の銀河まで135億年遡って観測する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "With unprecedented infrared sensitivity, it will peer back in time over 13.5 billion years to see"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "the first galaxies born after the Big Bang."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "ウェッブは宇宙に置かれた最大の望遠鏡で、ハッブルの100倍の性能を持つとされる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "Webb is the largest telescope ever placed in space."
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "100 times more powerful than Hubble."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "ウェッブはNASA、欧州宇宙機関（ESA）、カナダ宇宙庁（CSA）による国際協力である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "including NASA, the European Space Agency (ESA), and the Canadian Space Agency (CSA)."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "ゴダード宇宙飛行センターが開発を管理し、ノースロップ・グラマンが主産業パートナー、宇宙望遠鏡科学研究所が打ち上げ後の運用を行う。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "The NASA Goddard Space Flight Center managed the development effort. The main industrial partner is"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "Northrop Grumman; the Space Telescope Science Institute operates Webb after launch."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "14カ国・29の米国州・ワシントンD.C.から何千もの科学者・技術者が設計・建造・試験・打ち上げ・運用に貢献した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "scientists, engineers and technicians from 14 countries, 29 U.S. states, and Washington, D.C."
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "contributed to the design, build, test, integration, launch, commissioning and operations of Webb."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "計画はかつて「次世代宇宙望遠鏡」（NGST）と呼ばれ、1961年2月から1968年10月までNASA長官を務めたジェームズ・E・ウェッブにちなみ2002年9月に改名された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "Webb was formerly known as the “Next Generation Space Telescope” (NGST); it was renamed in Sept."
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "2002 after a former NASA administrator."
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "who ran the fledgling NASA space agency from February 1961 to"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "October 1968, did more for science than perhaps any other government official"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "主鏡は打ち上げ後に展開・形状調整される18個の分割セグメントからなる超軽量ベリリウム製である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "Several innovative technologies were developed for Webb. These include a primary mirror made of 18"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "separate segments that unfold and adjust to shape after launch. The mirrors are made of"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "ultra-lightweight beryllium."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "テニスコートサイズの5層サンシールドは太陽の熱を100万分の1以上に減衰させ、高さ4.8メートルの範囲で高温側と低温側の間に約華氏600度の温度差を生じさせる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "Webb’s biggest feature is a tennis court sized five-layer sunshield"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "that attenuates heat from the Sun more than a million times."
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/fact-sheet/",
+              "quote": "the spacecraft by almost 600 degrees Fahrenheit in the span of its 5 layer, 4.8m height - from"
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "4つの観測機器（NIRCam、NIRSpec、MIRI、FGS/NIRISS）の検出器は極めて微弱な信号を記録できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "The telescope’s four instruments –"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "cameras and spectrometers – have detectors that are able to record extremely faint signals."
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/fact-sheet/",
+              "quote": "Near Infrared Camera"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/fact-sheet/",
+              "quote": "Fine Guidance Sensors/Near Infrared Imager and Slitless Spectrograph"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "NIRSpecはプログラム可能なマイクロシャッターにより最大100天体を同時に観測できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "instrument (NIRSpec) has programmable microshutters, which enable observation up to 100 objects"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "simultaneously."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "MIRIの中赤外検出器は専用のクライオクーラーで7Kまで冷却される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "Webb also has a cryocooler for cooling the mid-infrared detectors of another"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/about-overview/",
+              "quote": "instrument (MIRI)to a very cold 7 K to operate properly."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "主鏡の直径は約6.5メートル、有効開口は25平方メートルである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/fact-sheet/",
+              "quote": "6.5 m (21.3 ft) approximately"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/fact-sheet/",
+              "quote": "Clear     │25 m²"
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "観測装置を含む総質量は約6,200キログラムである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/fact-sheet/",
+              "quote": "Approx 6200 kg, including observatory, on-orbit consumables and launch vehicle adaptor."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "観測波長域は0.6〜28.5ミクロンの赤外域である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/fact-sheet/",
+              "quote": "0.6 - 28.5 microns"
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "ミッション期間は5〜10年と見込まれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/fact-sheet/",
+              "quote": "Mission   │5 - 10 years"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "サンシールドのサイズは21.197×14.162メートルである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/fact-sheet/",
+              "quote": "21.197 m x 14.162 m (69.5 ft x 46.5 ft)"
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "主鏡の金コーティングは約48.25グラムで、ゴルフボール1個の質量にほぼ等しい。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/fact-sheet/",
+              "quote": "coating is calculated to use 48.25g of gold, about equal to the mass of a golf ball."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "運用温度は50K（約摂氏-223度）未満である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/fact-sheet/",
+              "quote": "under 50 K (-370 °F)"
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "ミッション目標は最初の銀河・発光天体の探索、銀河の進化の解明、恒星と惑星系の形成の観測、惑星系の物理化学的性質と生命の可能性の調査である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/fact-sheet/",
+              "quote": "Search for the first galaxies or luminous objects formed after the Big"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/fact-sheet/",
+              "quote": "Determine how galaxies evolved from their formation until now"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/fact-sheet/",
+              "quote": "Observe the formation of stars from their initial stages to the formation of"
+            },
+            {
+              "sourceUrl": "https://science.nasa.gov/mission/webb/fact-sheet/",
+              "quote": "our own Solar System, and investigate the potential for life in those systems"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "apollo-program",
+    "topicType": "space-program",
+    "categoryLabel": "物理・化学・宇宙",
+    "title": "アポロ計画",
+    "summary": "アポロ計画は、NASAが1960年代から1970年代初頭にかけて実施した有人月探査プログラムである。1961年にケネディ大統領が掲げた「有人月面着陸と地球への安全な帰還」の国家目標を達成するため、サターンVロケットと3部構成のアポロ宇宙船を用い、1969年のアポロ11号で史上初の月面着陸を達成した。1972年のアポロ17号までに6回の月面着陸が行われ、6組の宇宙飛行士が月面に降り立った。",
+    "bodyMarkdown": "## 概要と目的\n\nアポロ計画は、NASAが1960年代から1970年代初頭にかけて実施した有人月探査プログラムである。1961年5月25日にケネディ大統領が掲げた国家目標――有人の月面着陸を行い[地球](/hubpedia/earth)へ安全に帰還すること――の達成を第一の目的とした。 [2]\n\n計画の目標はアメリカ人の月面着陸と安全な帰還にとどまらず、宇宙における国益に応える技術の確立、宇宙での優位の達成、月の科学的探査計画の遂行、月面環境で働く人間の能力の開発を含んだ。1969年から1972年にかけて6組の宇宙飛行士が[月](/hubpedia/moon)面に着陸し、6本の米国旗が月面に立てられた。 [1][3]\n\n## ロケットと宇宙船の構成\n\n飛行方式には1962年に月周回軌道ランデブーが選択された。ブースターは地球軌道飛行にサターンIB、月飛行にサターンVが使われた。 [4][5]\n\nアポロ宇宙船は3部構成である。乗員の居住区・飛行制御区画である司令船（CM）、推進と宇宙船支援システムを担う機械船（SM）――両者をあわせてCSM――、そして乗員2名を月面へ運び滞在を支えて月軌道上のCSMへ帰す月着陸船（LM）から成る。 [6]\n\n## 試験飛行から月への往復\n\n1967年1月27日、ケープ・ケネディの発射台でアポロ204の予備試験中に悲劇が起き、アポロ1号の3人の宇宙飛行士が火災で命を落とした。その後、無人のアポロ4号が3段式サターンVの初のオールアップ試験を、無人のアポロ5号が月着陸船の初の試験飛行を、無人のアポロ6号が有人飛行に向けたサターンVと宇宙船の最終認定試験を行った。 [7][8][9]\n\n初の有人飛行アポロ7号は1968年10月11日に打ち上げられ、地球軌道で10日間を過ごした。アポロ8号は1968年12月にボーマン、ラベル、アンダースの3名で初めて月の周辺への有人飛行を行い、アポロ9号は1969年3月にアポロ宇宙船全体の初飛行を、アポロ10号は1969年5月に着陸そのものを除く月面着陸ミッションの全要素の試験を行った。 [10][11][12][13]\n\n## 6回の月面着陸\n\n1969年7月のアポロ11号でアームストロングとオルドリンが史上初めて月面を歩き、アポロ12号は同年11月に2回目の着陸を完了した。アポロ13号は搭載機器の爆発により着陸を断念して月を周回し、乗員と地上チームの努力で無事帰還した。 [14][15][16]\n\nアポロ14号は1971年1月に3回目の月面歩行をフラ・マウロ地域で行い、アポロ15号は同年7月の4回目の着陸で月面車が初めて運転された。アポロ16号は1972年4月にデカルト高地を訪れた次から2番目の着陸ミッションとなり、アポロ17号は1972年12月の最終ミッションで、3回の月面歩行により記録的な量の月試料を収集した。 [17][18][19][20]\n\n月面に立てられた米国旗の設置は純粋に象徴的な行為だったが、旗を立てるための技術的課題の解決が必要だったほか、その適否をめぐる国内外の議論もあった。 [30]\n\n## アポロ11号の航跡と記録\n\nアポロ11号は1969年7月16日にケープ・ケネディから打ち上げられ、アームストロング船長、コリンズ司令船操縦士、オルドリン月着陸船操縦士を乗せた。約6億5,000万人がテレビ中継を見守った。 [21][22]\n\n司令・機械船コロンビアから月着陸船イーグルが分離し、アームストロングの一部手動操縦により静かの海に着陸した。打ち上げから約109時間42分後にアームストロングが月面に立ち、約20分後にオルドリンが続いた。2人は月面に21時間36分を過ごした。 [23][24][25]\n\n副次目標にはテレビカメラの設置、[太陽](/hubpedia/sun)風組成実験、地震実験パッケージ、レーザー反射鏡の設置、月面物質サンプルの収集が含まれた。195時間18分35秒――8日3時間18分35秒――の飛行を経て太平洋に着水し、回収艦USSホーネットから13マイルの地点に降りた。このミッションは、エンジン噴射なしで地球へ帰還できるフリーリターン軌道を飛んだ最後のアポロミッションでもあった。 [26][27][28][29]",
+    "sources": [
+      {
+        "url": "https://www.nasa.gov/the-apollo-program/",
+        "title": "The Apollo Program",
+        "publisher": "NASA",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+          },
+          "notes": "Program goals, spacecraft architecture, and mission chronology Apollo 1-17. Publisher policy read 2026-08-28: Text is public domain and usable commercially. Logos and insignia need clearance for promotional use; content must not imply NASA endorses a product or service; third-party copyrighted images and staff likenesses are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.nasa.gov/mission_pages/apollo/missions/apollo-11.html",
+        "title": "Apollo 11 Mission Overview",
+        "publisher": "NASA",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
+          },
+          "notes": "Apollo 11 objectives, timeline, landing, surface operations, and return. Publisher policy read 2026-08-28: Text is public domain and usable commercially. Logos and insignia need clearance for promotional use; content must not imply NASA endorses a product or service; third-party copyrighted images and staff likenesses are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Apollo program",
+        "summary": "The Apollo program was NASA's crewed lunar exploration program conducted from the 1960s into the early 1970s. Created to achieve President Kennedy's 1961 national goal of a crewed lunar landing and safe return to Earth, it used the Saturn V rocket and a three-part Apollo spacecraft. Apollo 11 accomplished the first lunar landing in July 1969, and six crews landed on the Moon through Apollo 17 in December 1972.",
+        "bodyMarkdown": "## Overview and goals\n\nThe Apollo program was NASA's crewed lunar exploration program, run from the 1960s into the early 1970s. Its primary purpose was to fulfill the national goal set by President John F. Kennedy on May 25, 1961: perform a crewed lunar landing and return safely to [Earth](/hubpedia/earth). [2]\n\nApollo's goals went beyond landing Americans on the Moon and returning them safely; they included establishing technology to meet other national interests in space, achieving preeminence in space for the United States, carrying out scientific exploration of the Moon, and developing human capability to work in the lunar environment. Between 1969 and 1972, six pairs of astronauts landed on the [Moon](/hubpedia/moon), where six US flags were planted. [1][3]\n\n## Rocket and spacecraft architecture\n\nThe flight mode, lunar orbit rendezvous, was selected in 1962. The program's boosters were the Saturn IB for Earth-orbit flights and the Saturn V for lunar flights. [4][5]\n\nApollo was a three-part spacecraft: the command module (CM), the crew's quarters and flight-control section; the service module (SM), carrying propulsion and spacecraft support systems — together called the CSM; and the lunar module (LM), which took two crew members to the lunar surface, supported them there, and returned them to the CSM in lunar orbit. [6]\n\n## From test flights to lunar journeys\n\nOn January 27, 1967, tragedy struck on the launch pad at Cape Kennedy during a preflight test for Apollo 204, when a launch pad fire took the lives of the three Apollo 1 astronauts. The uncrewed Apollo 4 mission then flew the first all-up test of the three-stage Saturn V, uncrewed Apollo 5 performed the Lunar Module's first test flight, and uncrewed Apollo 6 gave the Saturn V and Apollo spacecraft their final qualification for crewed missions. [7][8][9]\n\nApollo 7, the program's first crewed mission, lifted off on October 11, 1968, for a ten-day flight in Earth orbit. Apollo 8 carried Borman, Lovell, and Anders on the first crewed mission to the vicinity of the Moon in December 1968; Apollo 9 made the first flight of the full Apollo spacecraft in March 1969; and Apollo 10 tested every component of a lunar landing mission except the landing itself in May 1969. [10][11][12][13]\n\n## Six lunar landings\n\nIn July 1969, Apollo 11's Armstrong and Aldrin became the first humans to walk on the Moon, and Apollo 12 completed the second landing that November. Apollo 13 was forced by an onboard explosion to circle the Moon without landing, returning safely through the efforts of the crew and ground team. [14][15][16]\n\nApollo 14 made the third lunar visit in January 1971 at the Fra Mauro region, and Apollo 15's July 1971 landing saw the Lunar Roving Vehicle driven on the Moon for the first time. Apollo 16 visited the Descartes Highlands in April 1972 as the penultimate landing, and the final mission, Apollo 17, collected a record amount of lunar samples over three moonwalks in December 1972. [17][18][19][20]\n\nPlanting the US flags on the Moon was a strictly symbolic activity, yet erecting a flag required solving technical challenges, and there were domestic and international debates over its appropriateness. [30]\n\n## Apollo 11's flight and records\n\nApollo 11 launched from Cape Kennedy on July 16, 1969, carrying Commander Neil Armstrong, Command Module Pilot Michael Collins, and Lunar Module Pilot Edwin \"Buzz\" Aldrin. An estimated 650 million people watched the televised event. [21][22]\n\nThe lunar module Eagle separated from the command and service module Columbia and, partially piloted manually by Armstrong, landed in the Sea of Tranquility. About 109 hours 42 minutes after launch Armstrong stepped onto the Moon, and about 20 minutes later Aldrin followed; the pair spent 21 hours 36 minutes on the surface. [23][24][25]\n\nSecondary objectives included deploying a television camera, a [Sun](/hubpedia/sun)-wind composition experiment, a seismic experiment package, and a laser ranging retroreflector, plus gathering lunar-surface samples for return to Earth. After a flight of 195 hours 18 minutes 35 seconds — 8 days, 3 hours, 18 minutes, 35 seconds — Apollo 11 splashed down in the Pacific Ocean 13 miles from the recovery ship USS Hornet. It was also the last Apollo mission to fly a free-return trajectory, which could return to Earth with no engine firing. [26][27][28][29]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "1969年から1972年にかけて6組の宇宙飛行士が月面に着陸し、6本の米国旗が月面に立てられた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "pairs of astronauts who landed on the Moon from 1969 through 1972."
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "Apollo astronauts planted six U.S. flags on the surface of the Moon from 1969 to 1972."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "第一の目的は、1961年5月25日にケネディ大統領が掲げた「有人月面着陸と地球への帰還」の国家目標の達成だった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/mission_pages/apollo/missions/apollo-11.html",
+              "quote": "The primary objective of Apollo 11 was to complete a national goal set by President John F. Kennedy"
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/mission_pages/apollo/missions/apollo-11.html",
+              "quote": "on May 25, 1961: perform a crewed lunar landing and return to Earth."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "計画の目標は着陸と安全な帰還にとどまらず、宇宙における国益に応える技術の確立、宇宙での優位の達成、月の科学的探査、月面環境で働く能力の開発を含んだ。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "the lunar surface fulfilled a dream as old as humanity. Project Apollo’s goals went beyond landing"
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "Americans on the moon and returning them safely to Earth."
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "Carrying out a program of scientific exploration of the Moon."
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "Developing human capability to work in the lunar environment."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "飛行方式には1962年に月周回軌道ランデブーが選択された。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "The flight mode, [lunar orbit rendezvous][280], was selected in 1962."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "ブースターは地球軌道飛行にサターンIB、月飛行にサターンVが使われた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "were the Saturn IB for Earth orbit flights and the Saturn V for lunar flights."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "アポロ宇宙船は司令船（CM）、機械船（SM）、月着陸船（LM）の3部構成で、LMは乗員2名を月面へ運び滞在を支えて月軌道のCSMへ帰した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "Apollo was a three-part spacecraft: the command module (CM), the crew’s quarters and flight control"
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "section; the service module (SM) for the propulsion and spacecraft support systems (when together,"
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "surface, support them on the Moon, and return them to the CSM in lunar orbit."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "1967年1月27日、ケープ・ケネディの発射台でアポロ204の予備試験中に悲劇が起き、アポロ1号の3人の宇宙飛行士が火災で命を落とした。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "On Jan. 27, 1967, tragedy struck on the launch pad at Cape Kennedy during a preflight test for"
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/mission_pages/apollo/missions/apollo-11.html",
+              "quote": "a launch pad fire"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "無人のアポロ4号は3段式サターンVロケットの初のオールアップ試験だった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "The uncrewed Apollo 4 mission was the first all-up test of the three-stage Saturn V rocket."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "無人のアポロ5号は月着陸船の初の試験飛行を、無人のアポロ6号は有人飛行に向けたサターンVと宇宙船の最終認定試験を行った。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "The primary goal of the uncrewed Apollo 5 mission was to complete the first test flight of the Lunar"
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "The uncrewed Apollo 6 mission was the final qualification of the Saturn V launch vehicle and Apollo"
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "spacecraft for crewed Apollo missions."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "初の有人飛行アポロ7号は1968年10月11日に打ち上げられ、地球軌道で10日間を過ごした。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "The first crewed mission of the Apollo program lifted off on October 11, 1968, for a 10-day flight"
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "in Earth orbit."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "アポロ8号は1968年12月にボーマン、ラベル、アンダースの3名で初めて月の周辺への有人飛行を行った。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "Frank Borman, James Lovell, and William Anders made the first crewed mission to the vicinity of the"
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "Moon in December 1968."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "アポロ9号は1969年3月にアポロ宇宙船全体の初飛行を行った。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "James McDivitt, Russell Schweickart, and David Scott make the first flight of the full Apollo"
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "spacecraft in March 1969."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "アポロ10号は1969年5月に着陸そのものを除く月面着陸ミッションの全要素を試験した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "Astronauts Thomas Stafford, John Young, and Eugene Cernan test all the components for a lunar"
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "landing mission, except landing on the Moon, in May 1969."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "1969年7月のアポロ11号でアームストロングとオルドリンが史上初めて月面を歩いた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "Neil Armstrong, Edwin\"Buzz\" Aldrin, and Michael Collins make history as Armstrong and Aldrin become"
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "the first humans to walk on the Moon in July 1969."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "アポロ12号は1969年11月に2回目の月面着陸を完了した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "The second lunar landing of the Apollo Program was completed by Charles \"Pete\" Conrad, Richard"
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "Gordon, and Alan Bean in November 1969."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "アポロ13号は搭載機器の爆発により着陸を断念して月を周回し、乗員は無事帰還した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "An explosion on board forced Apollo 13 to circle the Moon without landing."
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "efforts of the crew and ground team, the astronauts safely returned to Earth."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "アポロ14号は1971年1月に3回目の月面歩行をフラ・マウロ地域で行った。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "In January 1971, astronauts walked on the Moon for the third time, this time with Alan Shepard and"
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "Edgar Mitchell visiting the Moon's Fra Mauro region."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "アポロ15号は1971年7月の4回目の着陸で、月面車が初めて月面で運転された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "David Scott, Alfred Worden, and James Irwin launched to the Moon for the fourth Apollo lunar landing"
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "in July 1971. It was the first time the Lunar Roving Vehicle was driven on the Moon."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "アポロ16号は1972年4月にデカルト高地を訪れた次から2番目の着陸ミッションだった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "In April 1972, John Young, Charles Duke and Ken Mattingly made the penultimate lunar landing mission"
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "of the Apollo Program, visiting the Moon's Descartes Highlands."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "アポロ17号は1972年12月の最終ミッションで、3回の月面歩行により記録的な量の月試料を収集した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "The final Apollo mission to the Moon took place in December 1972."
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "Harrison Schmitt collected a record amount of lunar samples over three moonwalks."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "アポロ11号は1969年7月16日にケープ・ケネディから打ち上げられ、アームストロング船長、コリンズ司令船操縦士、オルドリン月着陸船操縦士を乗せた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/mission_pages/apollo/missions/apollo-11.html",
+              "quote": "Apollo 11 launched from Cape Kennedy on July 16, 1969, carrying Commander Neil Armstrong, Command"
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/mission_pages/apollo/missions/apollo-11.html",
+              "quote": "Module Pilot Michael Collins and Lunar Module Pilot Edwin “Buzz” Aldrin into an initial Earth-orbit"
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "約6億5,000万人がアームストロングのテレビ中継映像を見て声を聞いた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/mission_pages/apollo/missions/apollo-11.html",
+              "quote": "An estimated 650 million people watched Armstrong’s televised image and heard"
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "司令・機械船コロンビアから月着陸船イーグルが分離し、アームストロングの一部手動操縦により静かの海に着陸した。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/mission_pages/apollo/missions/apollo-11.html",
+              "quote": "module adapter, or SLA, containing the lunar module, or LM, Eagle."
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/mission_pages/apollo/missions/apollo-11.html",
+              "quote": "Partially piloted manually by Armstrong, the Eagle landed in the Sea of Tranquility in Site"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "打ち上げから約109時間42分後にアームストロングが月面に立ち、約20分後にオルドリンが続いた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/mission_pages/apollo/missions/apollo-11.html",
+              "quote": "hours, 42 minutes after launch, Armstrong stepped onto the moon."
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/mission_pages/apollo/missions/apollo-11.html",
+              "quote": "followed him."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "2人は月面に21時間36分を過ごした。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/mission_pages/apollo/missions/apollo-11.html",
+              "quote": "Armstrong and Aldrin spent 21 hours, 36 minutes on the moon’s surface."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "アポロ11号は太平洋に着水し、回収艦USSホーネットから13マイルの地点に降りた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/mission_pages/apollo/missions/apollo-11.html",
+              "quote": "Apollo 11 splashed down in the Pacific Ocean, 13 miles from the recovery ship"
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/mission_pages/apollo/missions/apollo-11.html",
+              "quote": "USS Hornet."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "副次目標にはテレビカメラの設置、太陽風組成実験、地震実験パッケージ、レーザー反射鏡の設置、月面物質サンプルの収集が含まれた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/mission_pages/apollo/missions/apollo-11.html",
+              "quote": "deployment of a television camera to transmit signals to Earth; and deployment of a solar wind"
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/mission_pages/apollo/missions/apollo-11.html",
+              "quote": "composition experiment, seismic experiment package and a Laser Ranging Retroreflector."
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/mission_pages/apollo/missions/apollo-11.html",
+              "quote": "the two astronauts were to gather samples of lunar-surface materials for return to"
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "アポロ11号の飛行は195時間18分35秒（8日3時間18分35秒）続いた。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/mission_pages/apollo/missions/apollo-11.html",
+              "quote": "After a flight of 195 hours, 18 minutes, 35 seconds – about 36 minutes"
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/mission_pages/apollo/missions/apollo-11.html",
+              "quote": "Duration: 8 days, 3 hours, 18 min, 35 seconds"
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "このミッションは、エンジン噴射なしで地球へ帰還できるフリーリターン軌道を飛んだ最後のアポロミッションだった。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/mission_pages/apollo/missions/apollo-11.html",
+              "quote": "to be the last Apollo mission to fly a “free-return” trajectory, which would enable a return to"
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/mission_pages/apollo/missions/apollo-11.html",
+              "quote": "Earth with no engine firing, providing a ready abort of the mission at any time prior to lunar orbit"
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "月面の米国旗の設置は象徴的な行為だったが、技術的課題の解決が必要で、その適否をめぐる国内外の議論もあった。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "This Apollo 11 flag-raising was strictly a symbolic activity, as the United Nations Treaty on Outer"
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "there were domestic and international debates"
+            },
+            {
+              "sourceUrl": "https://www.nasa.gov/the-apollo-program/",
+              "quote": "be solved to erect the American flag."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

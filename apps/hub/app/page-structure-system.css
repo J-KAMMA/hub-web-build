@@ -1,0 +1,284 @@
+/*
+ * Shared page structure.
+ * PageUiScope supplies data-page-kind; this layer turns that inventory into a
+ * predictable title -> actions -> filters/navigation -> content reading order.
+ */
+
+:root {
+  --page-structure-inline: clamp(16px, 2.4vw, 30px);
+  --page-structure-block: clamp(18px, 2.8vw, 34px);
+  --page-structure-gap: clamp(16px, 2vw, 24px);
+  --page-structure-reading: 76ch;
+}
+
+html[data-page-kind] .main-content {
+  min-width: 0;
+}
+
+html[data-page-kind] .main-content > :where(main, article, section) {
+  width: 100%;
+  min-width: 0;
+}
+
+html[data-page-kind] .main-content > :where(main, article, section):not(
+  .tl-page,
+  .ai-workbench,
+  .compute-workspace,
+  .video-hub,
+  .music-page,
+  .music-app,
+  .hub-home
+) {
+  padding-inline: var(--page-structure-inline);
+  padding-bottom: var(--page-structure-block);
+}
+
+html[data-page-kind] .main-content :where(
+  .feature-header,
+  .page-header,
+  .settings-page-header,
+  .search-page > header,
+  .notifications-page > header,
+  .post-detail__header,
+  .profile-page-simple__header
+) {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: flex-end;
+  gap: 12px var(--page-structure-gap);
+  min-width: 0;
+  padding-block: var(--page-structure-block) 18px;
+  border-bottom: var(--divider);
+}
+
+html[data-page-kind] .main-content :where(
+  .feature-header,
+  .page-header,
+  .settings-page-header,
+  .search-page > header,
+  .notifications-page > header,
+  .post-detail__header,
+  .profile-page-simple__header
+) :where(h1, h2, p) {
+  min-width: 0;
+  margin-block: 0;
+}
+
+html[data-page-kind] .main-content :where(
+  .feature-header,
+  .page-header,
+  .settings-page-header,
+  .search-page > header,
+  .notifications-page > header
+) :where(h1, h2) {
+  color: var(--text);
+  font-size: clamp(1.45rem, 2.2vw, 2rem);
+  font-weight: 750;
+  line-height: 1.15;
+  letter-spacing: -.035em;
+}
+
+html[data-page-kind] .main-content :where(
+  .feature-header,
+  .page-header,
+  .settings-page-header,
+  .search-page > header,
+  .notifications-page > header
+) p {
+  max-width: var(--page-structure-reading);
+  color: var(--muted);
+  line-height: 1.65;
+}
+
+html[data-page-kind] .main-content :where(
+  .feature-header__actions,
+  .page-actions,
+  .settings-page-header__actions,
+  [data-page-actions]
+) {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+html[data-page-kind] .main-content :where(
+  .search-tabs,
+  .tl-tabs,
+  .trend-tabs,
+  .notification-filter,
+  [data-page-tabs]
+) {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 4px;
+  overflow-x: auto;
+  border-bottom: var(--divider);
+  scrollbar-width: thin;
+}
+
+html[data-page-kind] .main-content :where(
+  .search-tabs,
+  .tl-tabs,
+  .trend-tabs,
+  .notification-filter,
+  [data-page-tabs]
+) :where(a, button) {
+  min-height: 44px;
+  flex: 0 0 auto;
+  padding-inline: 12px;
+  color: var(--muted);
+  font-weight: var(--type-control-weight);
+  text-wrap: nowrap;
+}
+
+html[data-page-kind] .main-content :where(
+  .search-tabs,
+  .tl-tabs,
+  .trend-tabs,
+  .notification-filter,
+  [data-page-tabs]
+) :where(
+  .active,
+  .is-active,
+  [aria-current="page"],
+  [aria-selected="true"],
+  [aria-pressed="true"]
+) {
+  color: var(--text);
+  font-weight: 750;
+}
+
+html[data-page-kind] .main-content :where(
+  .filter-bar,
+  .search-filters,
+  .market-search-bar,
+  [data-page-filters]
+) {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 12px;
+  border: var(--divider);
+  border-radius: 12px;
+  background: var(--surface-raised);
+}
+
+html[data-page-kind="listing"] .main-content :where(
+  .search-users,
+  .search-items,
+  .notification-list,
+  .bookmarks-list,
+  .lists-grid,
+  [data-page-content]
+),
+html[data-page-kind="search"] .main-content :where(
+  .search-users,
+  .search-items,
+  [data-page-content]
+),
+html[data-page-kind="dashboard"] .main-content :where(
+  [data-page-content],
+  .dashboard-grid
+) {
+  min-width: 0;
+  margin-top: var(--page-structure-gap);
+}
+
+html[data-page-kind="detail"] .main-content :where(
+  .post-detail__content,
+  .article-body,
+  [data-page-content]
+),
+html[data-page-kind="long-form"] .main-content :where(
+  article,
+  .legal-content,
+  [data-page-content]
+) {
+  max-width: var(--page-structure-reading);
+}
+
+html[data-page-kind="form"] .main-content :where(
+  form,
+  .form-section,
+  fieldset
+) + :where(.form-section, fieldset),
+html[data-page-kind="payment"] .main-content :where(
+  form,
+  .form-section,
+  fieldset
+) + :where(.form-section, fieldset) {
+  margin-top: var(--page-structure-gap);
+}
+
+html[data-page-kind] .main-content :where(
+  .empty-state,
+  .notification-empty,
+  [data-page-empty]
+) {
+  display: grid;
+  min-height: 180px;
+  place-content: center;
+  gap: 8px;
+  padding: 24px;
+  border: var(--divider);
+  border-radius: 14px;
+  background: var(--surface-raised);
+  color: var(--muted);
+  text-align: center;
+}
+
+html[data-page-kind] .page-context {
+  width: 100%;
+  min-width: 0;
+  padding-inline: var(--page-structure-inline);
+}
+
+@media (max-width: 760px) {
+  html[data-page-kind] .main-content :where(
+    .feature-header,
+    .page-header,
+    .settings-page-header,
+    .search-page > header,
+    .notifications-page > header,
+    .post-detail__header,
+    .profile-page-simple__header
+  ) {
+    grid-template-columns: minmax(0, 1fr);
+    align-items: stretch;
+  }
+
+  html[data-page-kind] .main-content :where(
+    .feature-header__actions,
+    .page-actions,
+    .settings-page-header__actions,
+    [data-page-actions]
+  ) {
+    justify-content: flex-start;
+  }
+
+  html[data-page-kind] .main-content :where(
+    .filter-bar,
+    .search-filters,
+    .market-search-bar,
+    [data-page-filters]
+  ) > :where(input, select, button, a) {
+    flex: 1 1 auto;
+  }
+}
+
+@media (prefers-contrast: more) {
+  html[data-page-kind] .main-content :where(
+    .filter-bar,
+    .search-filters,
+    [data-page-filters],
+    .empty-state,
+    [data-page-empty]
+  ) {
+    border-color: var(--line-strong);
+  }
+}

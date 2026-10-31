@@ -1,0 +1,1939 @@
+[
+  {
+    "slug": "advanced-encryption-standard",
+    "topicType": "concept",
+    "categoryLabel": "インターネット・セキュリティ",
+    "title": "AES",
+    "summary": "AES(Advanced Encryption Standard)は、NISTがFIPS 197として規定した対称鍵ブロック暗号であり、2000年に選定されたRijndaelを基にしている。128ビット固定のブロックを128、192、256ビットのいずれかの鍵で暗号化・復号し、鍵長に応じてAES-128、AES-192、AES-256と呼ばれる。バイト単位の演算と有限体GF(2^8)上の変換を組み合わせたラウンド構造を持つ。",
+    "bodyMarkdown": "## 対称鍵ブロック暗号としての性格\n\nAESはAdvanced Encryption Standardの略称であり、対称鍵とともに用いられ平文データの[暗号化](/hubpedia/encryption)と暗号文データの復号を行う対称ブロック暗号である。NIST標準に規定された暗号アルゴリズムの一つであり、具体的には[暗号標準](/hubpedia/cryptographic-standards)であるFIPS 197に規定されている。一般にブロック暗号とは、鍵と呼ばれるビット列によってパラメータ化された、ブロックの置換の集合(ファミリー)を指し、ブロックとは所定の固定長のビット列である。 [36][38][42][68][69][70][78][83]\n\nブロックサイズ、すなわちデータの入出力長は、鍵の長さにかかわらず常に128ビットである。使用できる暗号鍵の長さは128、192、256ビットの3種類で、これらはそれぞれAES-128、AES-192、AES-256と呼ばれ、名称末尾の数字は鍵のビット長を示す。 [1][2][35][37][65]\n\n## 規格制定の経緯\n\nNISTは1997年にAESの開発事業を開始し、ブロック暗号の候補アルゴリズムを募る一般公募を行った。この公募を経て2000年にRijndaelが選定され、規格としてのFIPS 197は2002年5月26日に発効した。 [33][67][75]\n\n本規格には、Rijndaelファミリーのうち鍵長・ブロック長・ラウンド数の組み合わせが異なるAES-128、AES-192、AES-256の3つのインスタンスが規定されている。Rijndael自体は本規格が採用した組み合わせ以外の追加のブロックサイズや鍵長にも対応しているが、FIPS 197に準拠する構成はこの3種類の組み合わせに限られる。 [34][64][66]\n\n## 鍵長とラウンド数による3方式の相違\n\nAES-128、AES-192、AES-256は、鍵の長さ、ラウンド数、鍵拡張ルーチンKEYEXPANSION()内の再帰の仕様という3点で異なる。ラウンド数は、AES-128が10、AES-192が12、AES-256が14である。 [3][4][5][30]\n\n実装は、規定された3つの鍵長のうち少なくとも1つをサポートしなければならない。鍵展開の際に用いられるパラメータNkは、128ビット鍵で4、192ビット鍵で6、256ビット鍵で8となる。 [20][21][22][23]\n\n## 内部構造:バイト・状態配列・有限体演算\n\nアルゴリズム内の基本処理単位はバイト、すなわち8ビットの並びである。たとえば2進数10100011は16進表記で{a3}となる。4バイトの並びはワードと呼ばれ、1ブロックは4ワードから構成される。暗号化・復号の対象となる入力バイト列は、s\\[r, c\\] = in\\[r + 4c\\]という規則に従って4行4列の状態配列にコピーされ、処理を終えた状態配列の値は out\\[r + 4c\\] = s\\[r, c\\] の規則で出力バイト列に戻される。 [6][7][8][24][25][62]\n\n状態配列内の各バイトは、GF(2^8)と呼ばれる256個の要素からなる有限体(ガロア体)の要素として解釈される。この体における加算は、多項式の係数をmod 2で加算する操作、すなわち排他的論理和(XOR)として定義される。乗算は、多項式としての積を固定多項式 m(x) = x^8 + x^4 + x^3 + x + 1 で法として簡約することで定義され、バイトbと{02}の積を求める処理はXTIMES(b)と呼ばれる。{00}でないバイトbには b • b⁻¹ = {01} を満たす一意の乗法逆元b⁻¹が存在し、これは b⁻¹ = b^254 としても計算できる。 [9][10][26][27][40][63]\n\n## 4つの基本変換\n\n暗号化処理CIPHER()は4種類の変換から構成される。SUBBYTES()は、状態内の各バイトに独立にS-boxと呼ばれる置換表を適用する可逆な非線形変換であり、たとえば入力バイトが{53}のとき出力{ed}を与える。 [11][15][32][41]\n\nSHIFTROWS()は、状態配列の最後の3行のバイトを、行インデックスrに応じて異なるオフセットで巡回シフトする変換である。r=0である最初の行はこの変換によって変化しない。 [12][16][43][44]\n\nMIXCOLUMNS()は、状態の4つの各列を単一の固定行列で乗算することにより列内のデータを混合する変換で、その行列の値は\\[a0, a1, a2, a3\\] = \\[{02}, {01}, {01}, {03}\\]である。MIXCOLUMNS()およびその逆変換は、いずれも行列の乗算として表現できる。 [13][17][28][45]\n\nADDROUNDKEY()は、状態にラウンド鍵をビット単位のXOR演算で結合する変換であり、CIPHER()の仕様の中でNr+1回呼び出される。この変換自体は自らの逆変換にもなっている。CIPHER()の最終ラウンドは、MIXCOLUMNS()変換が省略される点で他のラウンドと異なる。 [14][18][31][46][57]\n\n## 鍵拡張(KeyExpansion)\n\n鍵拡張ルーチンKEYEXPANSION()は、ブロック暗号鍵を入力として受け取り、ラウンド鍵(鍵スケジュール)を出力として生成するもので、その結果は4×(Nr+1)個のワードからなる配列wとして表される。この過程で用いられる補助関数のうちROTWORD(\\[a0, a1, a2, a3\\])は\\[a1, a2, a3, a0\\]と定義され、SUBWORD(\\[a0,...,a3\\])は\\[SBOX(a0), SBOX(a1), SBOX(a2), SBOX(a3)\\]と定義される。AES-256では、i+4が8の倍数のとき、w\\[i\\] = w\\[i − Nk\\] ⊕ SUBWORD(w\\[i − 1\\])となる。 [19][29][39][50][51][71]\n\nKEYEXPANSION()は1≤j≤10について10個の固定ワードRcon\\[j\\]を呼び出す。AES-128では10個のラウンド鍵それぞれの生成に別個のラウンド定数が使われるのに対し、AES-192とAES-256の鍵拡張ルーチンは、それぞれこれらの定数のうち最初の8個と7個のみを呼び出す。 [47][48][49]\n\n## 復号処理\n\n復号処理INVCIPHER()を実装するには、CIPHER()の仕様における変換を逆にして逆順に実行すればよい。INVSHIFTROWS()はSHIFTROWS()の逆変換であり、INVSUBBYTES()はINVSBOX()と呼ばれるSBOX()の逆を状態の各バイトに適用することでSUBBYTES()の逆変換となる。INVMIXCOLUMNS()はMIXCOLUMNS()の逆変換で、その行列の値は\\[a0, a1, a2, a3\\] = \\[{0e}, {09}, {0d}, {0b}\\]である。これらの変換が持つ代数的な性質により、CIPHER()の逆の代替仕様として、EQINVCIPHER()と呼ばれる等価逆暗号を定義することもできる。 [52][53][54][55][56][72]\n\n## 実装形態と運用モード\n\n本規格に規定されたAESアルゴリズムは、ソフトウェア、ファームウェア、ハードウェア、またはそれらの組み合わせで実装できる。暗号化の例としては、ブロック長と鍵長がともに16バイト(Nb=4、Nk=4)の場合がしばしば示される。NISTは、本規格のアルゴリズムに対する実装の適合性を検証するための評価プログラムを開発しており、AESを実装する複数の製品は、その他の機能が互換していれば相互運用できる可能性がある。 [61][73][79][80]\n\nAESアルゴリズムは、FIPSが承認した、またはNISTが推奨する運用モードと組み合わせて使用しなければならない。NISTが推奨するブロック暗号の運用モードは、NIST特別刊行物の800-38シリーズで規定されている。AES規格は連邦政府以外の組織によっても採用・使用され得る。 [60][74][82]\n\n## サイドチャネル攻撃\n\n物理的な実装は、計算にかかる時間や計算への故障注入といったサイドチャネルを通じて鍵依存の情報を漏らす可能性がある。キャッシュタイミング攻撃は、メインメモリからのデータアクセスを高速化するためにキャッシュを使用するソフトウェアプラットフォーム上のAES実装に影響を与える可能性がある。 [58][59]\n\n## 特許と輸出規制\n\n本規格に規定されたAESアルゴリズムの実装は、米国および外国の特許の対象となる場合がある。本規格を実装する暗号モジュールの輸出は、米国商務省産業安全保障局(Bureau of Industry and Security)による許可が必要であり、特定の暗号装置およびそれに関する技術データは連邦の輸出規制の対象となる。 [76][77][81]\n\n## 関連記事\n\n- [公開鍵暗号](/hubpedia/public-key-cryptography)\n- [機密性](/hubpedia/confidentiality)\n- [ハッシュ値](/hubpedia/hash-value)\n- [鍵の一生](/hubpedia/key-lifecycle)",
+    "sources": [
+      {
+        "url": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+        "title": "Advanced Encryption Standard (FIPS 197) — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The federal block cipher standard. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+        "title": "Recommendation for Key Management, Part 1 (SP 800-57) — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The recommendation covering keys, their protection and their life cycle. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "AES",
+        "summary": "AES (Advanced Encryption Standard) is a symmetric-key block cipher specified by NIST as FIPS 197, based on Rijndael, which was selected in 2000. It encrypts and decrypts a fixed 128-bit block using a key of 128, 192, or 256 bits, and is called AES-128, AES-192, or AES-256 according to the key length. It has a round structure that combines byte-level operations with transformations over the finite field GF(2^8).",
+        "bodyMarkdown": "## Character as a Symmetric-Key Block Cipher\n\nAES is an abbreviation for Advanced Encryption Standard, a symmetric block cipher used together with a symmetric key to perform [encryption](/hubpedia/encryption) of plaintext data and decryption of ciphertext data. It is one of the cryptographic algorithms specified in a NIST standard, specifically FIPS 197, which is a [cryptographic standard](/hubpedia/cryptographic-standards). In general, a block cipher refers to a family (set) of permutations of blocks, parameterized by a bit string called a key, where a block is a bit string of a predetermined fixed length. [36][38][42][68][69][70][78][83]\n\nThe block size — that is, the input/output length of the data — is always 128 bits, regardless of the key length. There are three usable cryptographic key lengths: 128, 192, and 256 bits, called AES-128, AES-192, and AES-256 respectively, where the number at the end of the name indicates the key length in bits. [1][2][35][37][65]\n\n## History of the Standard's Establishment\n\nNIST launched the AES development effort in 1997 and issued a public call for candidate block cipher algorithms. Following this call, Rijndael was selected in 2000, and FIPS 197 took effect as a standard on May 26, 2002. [33][67][75]\n\nThis standard specifies three instances from the Rijndael family — AES-128, AES-192, and AES-256 — which differ in their combinations of key length, block length, and number of rounds. Rijndael itself supports additional block sizes and key lengths beyond the combinations adopted by this standard, but configurations conforming to FIPS 197 are limited to these three combinations. [34][64][66]\n\n## Differences Among the Three Variants by Key Length and Number of Rounds\n\nAES-128, AES-192, and AES-256 differ in three respects: key length, number of rounds, and the specification of the recursion within the key expansion routine KEYEXPANSION(). The number of rounds is 10 for AES-128, 12 for AES-192, and 14 for AES-256. [3][4][5][30]\n\nAn implementation must support at least one of the three specified key lengths. The parameter Nk used during key expansion is 4 for a 128-bit key, 6 for a 192-bit key, and 8 for a 256-bit key. [20][21][22][23]\n\n## Internal Structure: Bytes, the State Array, and Finite-Field Arithmetic\n\nThe basic unit of processing within the algorithm is the byte, i.e., a sequence of 8 bits. For example, the binary number 10100011 is written {a3} in hexadecimal notation. A sequence of 4 bytes is called a word, and one block consists of 4 words. The input byte sequence to be encrypted or decrypted is copied into a 4-row-by-4-column state array according to the rule s[r, c] = in[r + 4c], and once processing is complete, the values of the state array are returned to an output byte sequence according to the rule out[r + 4c] = s[r, c]. [6][7][8][24][25][62]\n\nEach byte within the state array is interpreted as an element of the finite field (Galois field) called GF(2^8), which consists of 256 elements. Addition in this field is defined as the operation of adding polynomial coefficients mod 2, i.e., the exclusive-OR (XOR) operation. Multiplication is defined by reducing the product of the polynomials modulo the fixed polynomial m(x) = x^8 + x^4 + x^3 + x + 1, and the operation of computing the product of a byte b and {02} is called XTIMES(b). For any byte b other than {00}, there exists a unique multiplicative inverse b⁻¹ satisfying b • b⁻¹ = {01}, which can also be computed as b⁻¹ = b^254. [9][10][26][27][40][63]\n\n## The Four Basic Transformations\n\nThe encryption process CIPHER() is composed of four types of transformations. SUBBYTES() is an invertible, nonlinear transformation that independently applies a substitution table called the S-box to each byte in the state; for example, when the input byte is {53}, it gives the output {ed}. [11][15][32][41]\n\nSHIFTROWS() is a transformation that cyclically shifts the bytes in the last three rows of the state array by an offset that depends on the row index r. The first row, where r=0, is unchanged by this transformation. [12][16][43][44]\n\nMIXCOLUMNS() is a transformation that mixes the data within each of the state's four columns by multiplying it by a single fixed matrix, whose values are [a0, a1, a2, a3] = [{02}, {01}, {01}, {03}]. Both MIXCOLUMNS() and its inverse transformation can be expressed as matrix multiplication. [13][17][28][45]\n\nADDROUNDKEY() is a transformation that combines a round key with the state using a bitwise XOR operation, and it is invoked Nr+1 times within the specification of CIPHER(). This transformation is its own inverse. The final round of CIPHER() differs from the other rounds in that the MIXCOLUMNS() transformation is omitted. [14][18][31][46][57]\n\n## Key Expansion (KeyExpansion)\n\nThe key expansion routine KEYEXPANSION() takes the block cipher key as input and produces the round keys (key schedule) as output; the result is expressed as an array w consisting of 4×(Nr+1) words. Among the auxiliary functions used in this process, ROTWORD([a0, a1, a2, a3]) is defined as [a1, a2, a3, a0], and SUBWORD([a0,...,a3]) is defined as [SBOX(a0), SBOX(a1), SBOX(a2), SBOX(a3)]. In AES-256, when i+4 is a multiple of 8, w[i] = w[i − Nk] ⊕ SUBWORD(w[i − 1]). [19][29][39][50][51][71]\n\nKEYEXPANSION() invokes 10 fixed words Rcon[j] for 1≤j≤10. In AES-128, a separate round constant is used to generate each of the 10 round keys, whereas the key expansion routines for AES-192 and AES-256 invoke only the first 8 and 7 of these constants, respectively. [47][48][49]\n\n## Decryption Process\n\nTo implement the decryption process INVCIPHER(), the transformations in the specification of CIPHER() can be inverted and executed in reverse order. INVSHIFTROWS() is the inverse transformation of SHIFTROWS(), and INVSUBBYTES() is the inverse transformation of SUBBYTES(), obtained by applying to each byte of the state the inverse of SBOX(), called INVSBOX(). INVMIXCOLUMNS() is the inverse transformation of MIXCOLUMNS(), whose matrix values are [a0, a1, a2, a3] = [{0e}, {09}, {0d}, {0b}]. Owing to the algebraic properties of these transformations, an equivalent inverse cipher called EQINVCIPHER() can also be defined as an alternative specification of the inverse of CIPHER(). [52][53][54][55][56][72]\n\n## Implementation Forms and Modes of Operation\n\nThe AES algorithm specified in this standard can be implemented in software, firmware, hardware, or a combination thereof. As an example of encryption, the case where both the block length and key length are 16 bytes (Nb=4, Nk=4) is often shown. NIST has developed a validation program to verify the conformance of implementations of this standard's algorithm, and multiple products implementing AES may be able to interoperate if their other features are compatible. [61][73][79][80]\n\nThe AES algorithm must be used in combination with a mode of operation approved by FIPS or recommended by NIST. The modes of operation for block ciphers recommended by NIST are specified in the NIST Special Publication 800-38 series. The AES standard may also be adopted and used by organizations other than the federal government. [60][74][82]\n\n## Side-Channel Attacks\n\nA physical implementation may leak key-dependent information through side channels such as the time taken by a computation or fault injection into a computation. Cache-timing attacks can affect AES implementations on software platforms that use a cache to speed up data access from main memory. [58][59]\n\n## Patents and Export Controls\n\nImplementations of the AES algorithm specified in this standard may be subject to U.S. and foreign patents. Export of cryptographic modules implementing this standard requires authorization from the U.S. Department of Commerce's Bureau of Industry and Security, and certain cryptographic devices and related technical data are subject to federal export controls. [76][77][81]\n\n## Related Articles\n\n- [Public-Key Cryptography](/hubpedia/public-key-cryptography)\n- [Confidentiality](/hubpedia/confidentiality)\n- [Hash Value](/hubpedia/hash-value)\n- [Key Lifecycle](/hubpedia/key-lifecycle)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-29T22:42:26.727Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "AESのブロックサイズは128ビットである。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "A block is a sequence of 128 bits"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "AES-128、AES-192、AES-256の鍵長はそれぞれ128ビット、192ビット、256ビットである。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "The lengths of the keys for AES-128, AES-192, and AES-256 are 128 bits, 192 bits,\r\nand 256 bits, respectively."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "AES-128はCIPHER()をラウンド数10で実行するものとして定義される。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "AES-128(in, key) = CIPHER(in, 10, KEYEXPANSION(key))"
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "AES-192はCIPHER()をラウンド数12で実行するものとして定義される。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "AES-192(in, key) = CIPHER(in, 12, KEYEXPANSION(key))"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "AES-256はCIPHER()をラウンド数14で実行するものとして定義される。",
+          "confidence": 0.97,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "AES-256(in, key) = CIPHER(in, 14, KEYEXPANSION(key))."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "AESアルゴリズムにおける基本処理単位はバイト（8ビットの並び）である。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "The basic processing unit in the AES algorithms is the byte — a sequence of eight bits."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "AESの状態(state)は4行4列の2次元バイト配列である。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "a two-dimensional (four-\r\nby-four) array of bytes called the state"
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "ワード(word)は4バイトの並びであり、1ブロックは4ワードから構成される。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "A word is a sequence of four bytes; a block consists of four words."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "GF(2^8)における乗算は、多項式としての積を固定多項式 m(x) = x^8 + x^4 + x^3 + x + 1 で法として簡約することで定義される。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "m(x) = x8 + x4 + x3 + x + 1."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "GF(2^8)において{00}でないバイトbの乗法逆元b⁻¹は、b • b⁻¹ = {01} を満たす一意のバイトである。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "For a byte b 6= {00}, its multiplicative inverse is the unique byte, denoted by b−1, such that\r\n\r\n                     b • b−1 = {01}."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "SUBBYTES()は、各バイトに置換表(S-box)を適用する変換である。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "SUBBYTES() applies a substitution table (S-box) to each byte."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "SHIFTROWS()は、状態配列の各行を異なるオフセットでシフトする変換である。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "SHIFTROWS() shifts rows of the state array by different offsets."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "MIXCOLUMNS()は、状態配列の各列内でデータを混合する変換である。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "MIXCOLUMNS() mixes the data within each column of the state array."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "ADDROUNDKEY()は、ラウンド鍵を状態と結合する変換である。",
+          "confidence": 0.96,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "ADDROUNDKEY() combines a round key with the state."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "AESのSBOX()は、入力バイトが{53}のとき出力{ed}を与える。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "if sr,c = {53}, then"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "the substitution value would be determined by the intersection of the row with index ‘5’ and the\r\ncolumn with index ‘3’ in Table 4, so that sr0,c = {ed}."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "SHIFTROWS()は状態の最後の3行のバイトを巡回シフトする変換である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "SHIFTROWS() is a transformation of the state in which the bytes in the last three rows of the state\r\nare cyclically shifted."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "MIXCOLUMNS()は状態の4つの各列を単一の固定行列で乗算する変換である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "MIXCOLUMNS() is a transformation of the state that multiplies each of the four columns of the\r\n\r\nstate by a single fxed matrix"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "ADDROUNDKEY()は状態にラウンド鍵をビット単位のXOR演算で結合する変換である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "ADDROUNDKEY() is a transformation of the state in which a round key is combined with the\r\nstate by applying the bitwise XOR operation."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "KEYEXPANSION()は鍵に適用され4*(Nr+1)個のワードを生成するルーチンである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "KEYEXPANSION() is a routine that is applied to the key to generate 4 ∗ (Nr + 1) words."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "AESアルゴリズムの実装は、規定された3つの鍵長のうち少なくとも1つ（128、192、または256ビット、すなわちNk=4、6、または8）をサポートしなければならない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "An implementation of the AES algorithm shall support at least one of the three key lengths\r\nspecifed in Sec. 5: 128, 192, or 256 bits (i.e., Nk = 4, 6, or 8, respectively)."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "AESの128ビット鍵では、鍵展開のパラメータNkは4である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "A.1 Expansion of a 128-bit Key"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "for Nk = 4, which results in"
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "AESの192ビット鍵では、鍵展開のパラメータNkは6である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "A.2 Expansion of a 192-bit Key"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "for Nk = 6, which results in"
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "AESの256ビット鍵では、鍵展開のパラメータNkは8である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "A.3 Expansion of a 256-bit Key"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "for Nk = 8, which results in"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "入力バイト列は s[r, c] = in[r + 4c] の規則で状態配列にコピーされる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "s[r, c] = in[r + 4c] for 0 ≤ r < 4 and 0 ≤ c < 4."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "状態配列の最終的な値は out[r + 4c] = s[r, c] の規則で出力バイト列にコピーされる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "out[r + 4c] = s[r, c] for 0 ≤ r < 4 and 0 ≤ c < 4."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "AESでは状態配列内の各バイトはGF(2^8)と呼ばれる有限体(ガロア体)の256個の要素の一つとして解釈される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "each byte in the state array\r\nis interpreted as one of the 256 elements of a fnite feld, also known as a Galois Field, denoted\r\nby GF(28)"
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "GF(2^8)における加算は、多項式の係数をmod 2で加算する操作、すなわち排他的論理和(XOR)として定義される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "the coeffcients of the polynomials that\r\nrepresent the elements are added modulo 2 (i.e., with the exclusive-OR operation, denoted by ⊕)"
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "AESのMIXCOLUMNS()およびINVMIXCOLUMNS()変換は行列の乗算として表現できる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "Two transformations – MIXCOLUMNS() and INVMIXCOLUMNS() – in the algorithms for the\r\nAES block ciphers can be expressed in terms of matrix multiplication."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "AESの鍵展開ルーチンKEYEXPANSION()は、ブロック暗号鍵を入力として受け取り、ラウンド鍵(鍵スケジュール)を出力として生成する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "An expansion routine, denoted by KEYEXPANSION(), takes the block cipher key as input and\r\ngenerates the round keys as output."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "AES-128、AES-192、AES-256は、鍵の長さ、ラウンド数、KEYEXPANSION()内の再帰の仕様の3点で異なる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "The block ciphers AES-128, AES-192, and AES-256 differ in three respects: 1) the length of the\r\nkey; 2) the number of rounds, which determines the size of the required key schedule; and 3)\r\nthe specifcation of the recursion within KEYEXPANSION()."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "CIPHER()の最終ラウンドは、MIXCOLUMNS()変換が省略される点で他のラウンドと異なる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "the fnal round (Lines 10–12) differs in that the MIXCOLUMNS()\r\ntransformation is omitted."
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "SUBBYTES()は、状態内の各バイトに独立にS-boxと呼ばれる置換表を適用する、可逆な非線形変換である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "SUBBYTES() is an invertible, non-linear transformation of the state in which a substitution table,\r\ncalled an S-box, is applied independently to each byte in the state."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "2000年、NISTはAESの選定においてRijndaelを選んだ。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "In 2000, NIST announced the selection of Rijndael [2, 3] for the AES."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "本規格には、RijndaelファミリーのうちAES-128、AES-192、AES-256の3つのインスタンス(方式)が規定されている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "This Standard specifes three instantiations of Rijndael: AES-128, AES-192, and AES-256, where\r\nthe suffx indicates the bit length of the key."
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "AESのブロックサイズ(データの入出力長)は、いずれの鍵長の場合も128ビットである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "The block size (i.e., the length of the data inputs and\r\noutputs) is 128 bits in each case."
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "AESアルゴリズムは、デジタル情報を暗号化および復号できる対称ブロック暗号である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "The AES algorithm is a\r\n    symmetric block cipher that can encrypt (encipher) and decrypt (decipher) digital information."
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "AESアルゴリズムは、128ビットのブロック単位でデータを暗号化・復号する際に、128、192、256ビットの暗号鍵を使用できる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "The AES algorithm is capable of using cryptographic keys of 128, 192, and 256 bits to encrypt\r\n    and decrypt data in blocks of 128 bits."
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "AESはFIPS 197において規定されている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "Specified in FIPS 197, Advanced Encryption Standard."
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "AESの鍵スケジュールは、4×(Nr+1)個のワードからなる配列wとして表される。",
+          "confidence": 0.94,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "the key schedule is represented as an array w of 4 ∗ (Nr + 1) words."
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "GF(2^8)における乗法逆元は b⁻¹ = b^254 として計算できる。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "b−1 = b254."
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "AESのS-boxはSBOX()と表記される。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "The AES S-box is denoted by\r\nSBOX()."
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "AESは対称鍵とともに用いられ、平文データの暗号化と暗号文データの復号を行う。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "a symmetric key used with AES to encrypt plaintext data and"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "decrypt ciphertext data"
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "SHIFTROWS()でシフトされる位置数は行インデックスrに依存する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "The number of positions by which the bytes are shifted depends on the row\r\nindex r"
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "SHIFTROWS()においてr=0である最初の行は変化しない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "The frst row, where r = 0, is unchanged."
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "statement": "MIXCOLUMNS()の行列の値は[a0, a1, a2, a3] = [{02}, {01}, {01}, {03}]である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "[a0, a1, a2, a3] = [{02}, {01}, {01}, {03}]."
+            }
+          ]
+        },
+        {
+          "index": 46,
+          "statement": "CIPHER()の仕様においてADDROUNDKEY()はNr+1回呼び出される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "In the specifcation of CIPHER(), ADDROUNDKEY() is invoked Nr + 1\r\ntimes"
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "statement": "KEYEXPANSION()は1≤j≤10について10個の固定ワードRcon[j]を呼び出す。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "KEYEXPANSION() invokes 10 fxed words denoted by Rcon[ j] for 1 ≤ j ≤ 10."
+            }
+          ]
+        },
+        {
+          "index": 48,
+          "statement": "AES-128では10個のラウンド鍵それぞれの生成に別個のラウンド定数が使われる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "For AES-128, a distinct round constant is called in the generation\r\nof each of the 10 round keys."
+            }
+          ]
+        },
+        {
+          "index": 49,
+          "statement": "AES-192とAES-256の鍵拡張ルーチンは、それぞれこれらの定数のうち最初の8個と7個を呼び出す。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "For AES-192 and AES-256, the key expansion routine calls the\r\nfrst eight and seven of these same constants, respectively."
+            }
+          ]
+        },
+        {
+          "index": 50,
+          "statement": "ROTWORD([a0, a1, a2, a3])は[a1, a2, a3, a0]と定義される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "ROTWORD([a0, a1, a2, a3]) = [a1, a2, a3, a0],"
+            }
+          ]
+        },
+        {
+          "index": 51,
+          "statement": "SUBWORD([a0,...,a3])は[SBOX(a0), SBOX(a1), SBOX(a2), SBOX(a3)]と定義される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "SUBWORD([a0, . . . , a3]) = [SBOX(a0), SBOX(a1), SBOX(a2), SBOX(a3)]."
+            }
+          ]
+        },
+        {
+          "index": 52,
+          "statement": "INVCIPHER()を実装するには、CIPHER()の仕様における変換を逆にして逆順に実行する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "To implement INVCIPHER(), the transformations in the specifcation of CIPHER() (Section 5.1)\r\nare inverted and executed in reverse order."
+            }
+          ]
+        },
+        {
+          "index": 53,
+          "statement": "INVSHIFTROWS()はSHIFTROWS()の逆変換である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "INVSHIFTROWS() is the inverse of the SHIFTROWS()."
+            }
+          ]
+        },
+        {
+          "index": 54,
+          "statement": "INVSUBBYTES()はSUBBYTES()の逆変換であり、INVSBOX()と呼ばれるSBOX()の逆を状態の各バイトに適用する。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "INVSUBBYTES() is the inverse of SUBBYTES(), in which the inverse of SBOX(), denoted by\r\nINVSBOX(), is applied to each byte of the state."
+            }
+          ]
+        },
+        {
+          "index": 55,
+          "statement": "INVMIXCOLUMNS()はMIXCOLUMNS()の逆変換である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "INVMIXCOLUMNS() is the inverse of MIXCOLUMNS()."
+            }
+          ]
+        },
+        {
+          "index": 56,
+          "statement": "INVMIXCOLUMNS()の行列の値は[a0, a1, a2, a3] = [{0e}, {09}, {0d}, {0b}]である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "[a0, a1, a2, a3] = [{0e}, {09}, {0d}, {0b}]."
+            }
+          ]
+        },
+        {
+          "index": 57,
+          "statement": "ADDROUNDKEY()はそれ自身が逆変換である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "ADDROUNDKEY(), described in Section 5.1.4, is its own inverse."
+            }
+          ]
+        },
+        {
+          "index": 58,
+          "statement": "物理的な実装は、計算にかかる時間や計算への故障注入といったサイドチャネルを通じて鍵依存の情報を漏らす可能性がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "A physical implementation may leak key-dependent information through side channels, such\r\nas the time taken to perform a computation, or when faults are injected into the computation."
+            }
+          ]
+        },
+        {
+          "index": 59,
+          "statement": "キャッシュタイミング攻撃は、メインメモリからのデータアクセスを高速化するためにキャッシュを使用するソフトウェアプラットフォーム上のAES実装に影響を与える可能性がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "cache-timing attacks may affect AES\r\nimplementations on software platforms that use a cache to accelerate the access to data from main\r\nmemory."
+            }
+          ]
+        },
+        {
+          "index": 60,
+          "statement": "NISTが推奨するブロック暗号の運用モードは、NIST特別刊行物の800-38シリーズで規定されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "NIST-recommended modes of\r\noperation are specifed in the 800-38 series of NIST Special Publications."
+            }
+          ]
+        },
+        {
+          "index": 61,
+          "statement": "AESの暗号化例では、ブロック長と鍵長がともに16バイト(Nb=4、Nk=4)の場合が示されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "length and a key length of 16 bytes each (i.e., Nb = 4 and Nk = 4)."
+            }
+          ]
+        },
+        {
+          "index": 62,
+          "statement": "バイト{10100011}の16進表現は{a3}である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "the hexadecimal form of the byte {10100011} is {a3}."
+            }
+          ]
+        },
+        {
+          "index": 63,
+          "statement": "XTIMES(b)関数は、バイトbとGF(2^8)における{02}との積(b • {02})を計算する関数である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "the product b • {02} can be expressed as a function of b, denoted by XTIMES(b)"
+            }
+          ]
+        },
+        {
+          "index": 64,
+          "statement": "FIPS 197規格に準拠するRijndaelの構成は、規定された鍵長・ブロックサイズ・ラウンド数の組み合わせ以外に存在しない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "No other confgurations of Rijndael conform to\r\nthis Standard."
+            }
+          ]
+        },
+        {
+          "index": 65,
+          "statement": "AES-128、AES-192、AES-256という名称の数字の接尾辞は、それぞれの暗号鍵のビット長を示す。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "the numerical suffx indicates\r\nthe bit length of the associated cryptographic keys."
+            }
+          ]
+        },
+        {
+          "index": 66,
+          "statement": "Rijndaelは、本規格(AES)では採用されていない追加のブロックサイズと鍵長にも対応している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "Rijndael supports additional block sizes and key lengths that are\r\nnot adopted in this Standard."
+            }
+          ]
+        },
+        {
+          "index": 67,
+          "statement": "1997年、NISTはAESの開発事業を開始し、ブロック暗号の候補アルゴリズムの一般公募を行った。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "In 1997, NIST initiated the Advanced Encryption Standard (AES) development effort [1] and\r\ncalled for the public to submit candidate algorithms for block ciphers."
+            }
+          ]
+        },
+        {
+          "index": 68,
+          "statement": "ブロック暗号とは、鍵と呼ばれるビット列によってパラメータ化された、ブロックの置換の集合(ファミリー)である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "A block cipher is a family of permutations\r\nof blocks that is parameterized by a sequence of bits called the key."
+            }
+          ]
+        },
+        {
+          "index": 69,
+          "statement": "AESはNIST標準に規定された暗号アルゴリズムの一つである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "The algorithms specified in NIST standards (e.g., AES, SHA-2, and ECDSA)"
+            }
+          ]
+        },
+        {
+          "index": 70,
+          "statement": "Advanced Encryption Standard(AES)は暗号アルゴリズムである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "Advanced Encryption Standard (AES)10 cryptographic algorithm"
+            }
+          ]
+        },
+        {
+          "index": 71,
+          "statement": "AES-256では、i+4が8の倍数のとき、w[i] = w[i − Nk] ⊕ SUBWORD(w[i − 1])となる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "For AES-256, if i + 4 is a multiple of 8, then w[i] = w[i − Nk] ⊕ SUBWORD(w[i − 1])."
+            }
+          ]
+        },
+        {
+          "index": 72,
+          "statement": "AESアルゴリズムの性質により、CIPHER()の逆の代替仕様として、EQINVCIPHER()と呼ばれる等価逆暗号が定義できる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "Several properties of the AES algorithm allow for an alternative specifcation of the inverse of\r\nCIPHER(), called the equivalent inverse cipher, denoted by EQINVCIPHER()."
+            }
+          ]
+        },
+        {
+          "index": 73,
+          "statement": "本規格に規定されたAESアルゴリズムは、ソフトウェア、ファームウェア、ハードウェア、またはそれらの組み合わせで実装できる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "The algorithm specifed in this Standard may be implemented in software,\r\n    frmware, hardware, or any combination thereof."
+            }
+          ]
+        },
+        {
+          "index": 74,
+          "statement": "AESアルゴリズムは、FIPSが承認した、またはNISTが推奨する運用モードと組み合わせて使用しなければならない。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "The\r\n    algorithm shall be used in conjunction with a FIPS-approved or NIST-recommended mode\r\n    of operation."
+            }
+          ]
+        },
+        {
+          "index": 75,
+          "statement": "AES規格(FIPS 197)は2002年5月26日に発効した。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "This Standard became effective on May 26, 2002."
+            }
+          ]
+        },
+        {
+          "index": 76,
+          "statement": "本規格に規定されたAESアルゴリズムの実装は、米国および外国の特許の対象となる場合がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "Implementations of the algorithm specifed in this Standard may be covered by U.S.\r\n    and foreign patents."
+            }
+          ]
+        },
+        {
+          "index": 77,
+          "statement": "本規格(AES)を実装する暗号モジュールの輸出は、米国商務省産業安全保障局(Bureau of Industry and Security)による許可が必要である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "Exports of cryptographic modules implementing this Standard and\r\n    technical data regarding them must comply with all federal laws and regulations and must\r\n    be licensed by the Bureau of Industry and Security of the U.S. Department of Commerce."
+            }
+          ]
+        },
+        {
+          "index": 78,
+          "statement": "ブロックとは、所定の固定長のビット列である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "A block is a sequence of bits of a given fxed length."
+            }
+          ]
+        },
+        {
+          "index": 79,
+          "statement": "NISTは、本規格のアルゴリズムに対する実装の適合性を検証するための評価プログラムを開発している。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "NIST has developed a validation program to test implementations for conformance to the\r\n    algorithms in this Standard."
+            }
+          ]
+        },
+        {
+          "index": 80,
+          "statement": "AESを実装する複数の製品は、その他の機能が互換していれば相互運用できる可能性がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "two products that both implement the"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "Advanced Encryption Standard (AES)10 cryptographic algorithm have the potential to"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "interoperate, provided that the other functions of the product are compatible."
+            }
+          ]
+        },
+        {
+          "index": 81,
+          "statement": "特定の暗号装置およびそれに関する技術データは、連邦の輸出規制の対象となる。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "Certain cryptographic devices and technical data regarding them are subject\r\n    to federal export controls."
+            }
+          ]
+        },
+        {
+          "index": 82,
+          "statement": "AES規格は連邦政府以外の組織によっても採用・使用され得る。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "This Standard may be adopted and used by non-Federal Government organizations."
+            }
+          ]
+        },
+        {
+          "index": 83,
+          "statement": "AESはAdvanced Encryption Standardの略称である。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197-upd1.pdf",
+              "quote": "AES                 Advanced Encryption Standard."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "key-lifecycle",
+    "topicType": "concept",
+    "categoryLabel": "インターネット・セキュリティ",
+    "title": "暗号鍵のライフサイクル",
+    "summary": "暗号鍵のライフサイクルとは、公開鍵暗号方式で用いられる鍵ペアが生成されてから廃棄されるまでの過程と、その安全な生成・保管・配布・使用・破棄を管理する鍵管理のプロセス全体を指す概念である。鍵は生存期間中にアクティブ状態や非活性化状態など複数の鍵状態を経て存在し、公開鍵基盤や認証局が発行する証明書によって鍵と所有者の結び付きが保証される。鍵管理が不十分であれば、強力な暗号アルゴリズムを用いていても鍵は容易に危殆化しうるため、生成から破棄までの各段階を通じた管理が暗号システムの安全性を左右する。",
+    "bodyMarkdown": "## 鍵ペアと所有者\n\n[公開鍵暗号](/hubpedia/public-key-cryptography)（非対称暗号）では、署名を行う各主体は公開鍵と秘密鍵からなる[鍵ペア](/hubpedia/key-pair)を持ち、その鍵ペアの所有者となる。鍵ペアとは公開鍵とそれに対応する秘密鍵の組み合わせを指し、鍵ペアの所有者とは、その鍵ペアの秘密鍵を使用することを許可されたエンティティである。秘密鍵は所有者に一意に結びつけられて公開されない暗号鍵であるのに対し、公開鍵は対応する秘密鍵と結びつき、所有者に紐づいて公開されうる暗号鍵である。 [1][6][9][10][37]\n\n秘密鍵は署名生成プロセスで用いられ、対応する公開鍵を用いて検証可能なデジタル署名を計算するために使用される。鍵ペアの所有者だけが、この秘密鍵を用いてデジタル署名を生成する権限を持つ。秘密鍵は秘密に保たれなければならないが、公開鍵は秘密にする必要はなく、その完全性が保たれていればよい。公開鍵は署名検証プロセスで用いられ、対応する秘密鍵で生成されたデジタル署名を検証するために使用される。誰でも署名者の公開鍵を用いて署名を検証できる。 [2][3][4][5][16][17][19][21]\n\n## 鍵の取得と保証\n\n署名者になろうとする各主体は、自ら鍵ペアを生成するか、信頼された第三者から取得するかして、デジタル署名用の鍵ペアを得なければならない。信頼された第三者が鍵ペアを生成する場合、その第三者は秘密鍵を知っていても所有者になりすまさないよう信頼されている必要がある。鍵ペアを取得した後、署名者は公開鍵の妥当性の保証と、対応する秘密鍵を実際に保有していることの保証を得なければならない。公開鍵有効性の保証とは公開鍵が算術的に正しいことについての確信を、保有の保証とはあるエンティティが秘密鍵を保有していることについての確信を指す。検証者もまた、鍵ペアの所有者が公開鍵に対応する秘密鍵を実際に保有していることの保証を必要とする。 [12][26][30][31][32][35]\n\nECDSAおよびEdDSA（HashEdDSAを含む）を用いる署名者は、まずドメインパラメータを取得しなければならない。RSAアルゴリズムはドメインパラメータを使用しない。ECDSAまたはEdDSAの暗号鍵ペアは特定のドメインパラメータの集合に関連付けられ、ドメインパラメータ有効性の保証とは、そのドメインパラメータが算術的に正しいことについての確信を指す。 [28][29][51][61]\n\n## アルゴリズムごとの鍵の構成\n\n鍵の具体的な構成はアルゴリズムによって異なる。RSAの秘密鍵はモジュラスnと秘密の署名指数dから構成され、公開鍵はモジュラスnと公開の検証指数eから構成される。ECDSAまたはEdDSAの公開鍵は楕円曲線上の点である。記号dは、RSAでは秘密鍵の秘密署名指数を意味するのに対し、ECDSAおよびEdDSAでは秘密鍵そのものを意味する。 [42][43][44][59]\n\nデジタル署名の生成に先立っては、署名ごとに1メッセージあたりの秘密数と呼ばれる秘密の乱数が生成される。また、必要な特性を持つ素数を探索する際には、素数生成シードと呼ばれるランダムなビット列が用いられる。 [38][52]\n\n## 署名の生成と検証における鍵の役割\n\nRSA・ECDSA・HashEdDSAでは、デジタル署名を生成する前に、承認されたハッシュ関数を用いて署名対象情報のメッセージダイジェストを生成しなければならない。署名の生成と検証の両プロセスにおいて、承認されたハッシュ関数によりメッセージは固定長の表現に変換される。検証にあたっては元のメッセージとデジタル署名の両方が検証者に提供され、誰でもメッセージダイジェストと公開鍵を用いて、正しく署名されたメッセージを検証できる。 [22][23][24][33]\n\nこの仕組みが提供する性質の一つが[非否認性](/hubpedia/non-repudiation)であり、データの完全性と発信元が、秘密鍵を保有する特定のエンティティに由来するものとして第三者により検証・確認され得ることを保証するサービスである。この性質を確保するため、機関はデジタル署名用の鍵ペアを他の目的に使用してはならないと勧告されており、デジタル署名の生成・検証用に定められた鍵ペアもそれ以外の目的への使用が禁じられている。 [20][27][53]\n\n## 標準と限界\n\n米国の連邦情報処理標準FIPS 186-5は、RSA署名アルゴリズムの実装の使用を承認するとともに、鍵ペアの生成についても規定している。一方でDSA（デジタル署名アルゴリズム）はこの規格ではもはや規定されておらず、以前に生成されたデジタル署名の検証にのみ使用できる。この規格に含まれるアルゴリズムは、大規模な量子コンピュータからの攻撃に対する耐性を提供するとは想定されていない。デジタル署名の生成・検証に使用される鍵の長さと、それらが安全であるとみなされる期間についての情報は、別途SP 800-131Aで提供されている。 [11][18][34][54]\n\n## 公開鍵基盤と証明書\n\n所有者の身元と公開鍵が結び付けられていることの保証は、[公開鍵基盤](/hubpedia/public-key-infrastructure)から発行された[証明書](/hubpedia/digital-certificate)などによって得られる。公開鍵基盤とは、公開鍵証明書を発行し、維持し、失効させるために設けられた枠組みである。証明書とは、対応する秘密鍵を持つ公開鍵と、その鍵ペアの使用を許可された所有者を一意に識別するデータの集合であり、認証局によってデジタル署名されることで公開鍵を所有者に結びつける。 [13][15][25][36]\n\n認証局とは、公開鍵基盤において証明書の発行とPKIポリシーへの準拠の実行を担う主体であり、所有者の身元証明を提供された後、所有者の公開鍵と身元を含む証明書を発行するために署名できる。認証局に証明書を申請し、これを受け取ったエンティティはサブスクライバと呼ばれる。公開鍵を用いてデジタル署名の真正性を検証するエンティティは検証者と呼ばれ、鍵ペアの所有者および検証者のいずれでもなく、双方または一方から信頼されているエンティティは信頼できる第三者と呼ばれる。 [14][39][40][41][60]\n\n## 鍵管理のライフサイクルと機能\n\n鍵管理とは、鍵のライフサイクル全体を管理するプロセスであり、安全な生成・保管・配布・使用・破棄を含む。鍵管理には4つの局面と多数の機能が関わり、鍵管理が不十分であれば、強力な暗号アルゴリズムを用いていても鍵は容易に危殆化しうる。 [7][45][65]\n\n鍵管理の機能の一つであるエンティティ登録は、あるエンティティがセキュリティドメインの一員となるプロセスであり、NIST SP 800-57では暗号鍵のライフサイクルにおける機能の一つとして定義されている。鍵は手動で管理される場合もあるが、多くの場合、鍵管理プロセスを監督・自動化・保護するために自動化システムが必要とされ、こうしたシステムは一般に鍵管理システムと呼ばれる。 [46][48][49][62]\n\n## 鍵の状態\n\n暗号鍵はその生存期間中に複数の状態を経て存在する。アクティブ状態とは、鍵が情報の暗号学的保護、既に保護された情報の暗号学的処理、またはその両方に使用できる鍵状態である。非活性化状態とは、鍵が[暗号化](/hubpedia/encryption)などの暗号学的保護を適用するためには使われなくなった鍵状態を指す。 [55][64][67]\n\n秘密鍵や非公開鍵などの機密な鍵情報が、権限のない形で開示・変更・置換・使用されることは侵害と呼ばれ、鍵の侵害が疑われるか確認されたときには、鍵は侵害状態に遷移する。鍵または秘密データに適用される破棄が行われると、鍵は破棄状態に遷移し、破棄された後はその値についての情報を復元することはできない。 [8][57][58][66]\n\n特定の鍵が使用を許可されている期間、またはあるシステムやアプリケーション向けの鍵が有効であり続ける期間はクリプトピリオドと呼ばれる。バックアップとは、必要な場合に鍵のクリプトピリオド中に鍵を復旧できるようにするための鍵情報の複製である。暗号処理を実行するたびに生成される鍵はエフェメラル鍵と呼ばれ、メッセージまたはセッションごとに一意であることなどの要件を満たす必要がある。また、承認された暗号アルゴリズムを用いて暗号化された暗号鍵は、暗号化された鍵と呼ばれる。 [47][50][56][63][68]\n\n## 関連記事\n\n- [暗号標準](/hubpedia/cryptographic-standards)\n- [機密性](/hubpedia/confidentiality)",
+    "sources": [
+      {
+        "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+        "title": "Recommendation for Key Management, Part 1 (SP 800-57) — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The recommendation covering keys, their protection and their life cycle. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+        "title": "Digital Signature Standard (FIPS 186-5) — NIST",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The federal standard for generating and verifying digital signatures. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Cryptographic Key Lifecycle",
+        "summary": "The cryptographic key lifecycle is a concept referring to the process by which a key pair used in public-key cryptography is generated and eventually destroyed, together with the overall key management process that governs its secure generation, storage, distribution, use, and destruction. Over its lifetime, a key exists through multiple key states, such as the active state and the deactivated state, and the binding between a key and its owner is assured by means such as certificates issued by a public key infrastructure or a certificate authority. Because keys can easily be compromised, even when strong cryptographic algorithms are used, if key management is inadequate, management through each stage from generation to destruction determines the security of a cryptographic system.",
+        "bodyMarkdown": "## Key Pairs and Owners\n\nIn [public-key cryptography](/hubpedia/public-key-cryptography) (asymmetric cryptography), each signing entity holds a [key pair](/hubpedia/key-pair) consisting of a public key and a private key, and is the owner of that key pair. A key pair refers to the combination of a public key and its corresponding private key, and the owner of a key pair is the entity authorized to use the private key of that key pair. A private key is a cryptographic key that is uniquely bound to its owner and is not disclosed, whereas a public key is a cryptographic key that is bound to its corresponding private key and may be disclosed in association with its owner. [1][6][9][10][37]\n\nThe private key is used in the signature generation process, to compute a digital signature that can be verified using the corresponding public key. Only the owner of the key pair is authorized to use this private key to generate digital signatures. The private key must be kept secret, while the public key need not be kept secret but must have its integrity maintained. The public key is used in the signature verification process, to verify a digital signature generated with the corresponding private key. Anyone can verify a signature using the signer's public key. [2][3][4][5][16][17][19][21]\n\n## Obtaining Keys and Assurances\n\nEach entity intending to become a signer must obtain a key pair for digital signatures, either by generating the key pair itself or by obtaining it from a trusted third party. When a trusted third party generates the key pair, that third party must be trusted not to impersonate the owner even though it knows the private key. After obtaining a key pair, the signer must obtain assurance of the public key's validity and assurance that it actually possesses the corresponding private key. Public-key validity assurance refers to confidence that the public key is arithmetically correct, and possession assurance refers to confidence that an entity possesses the private key. Verifiers likewise require assurance that the owner of the key pair actually possesses the private key corresponding to the public key. [12][26][30][31][32][35]\n\nSigners using ECDSA and EdDSA (including HashEdDSA) must first obtain domain parameters. The RSA algorithm does not use domain parameters. An ECDSA or EdDSA cryptographic key pair is associated with a specific set of domain parameters, and domain-parameter validity assurance refers to confidence that those domain parameters are arithmetically correct. [28][29][51][61]\n\n## Key Composition by Algorithm\n\nThe specific composition of a key differs by algorithm. An RSA private key consists of a modulus n and a secret signature exponent d, while the public key consists of the modulus n and a public verification exponent e. An ECDSA or EdDSA public key is a point on an elliptic curve. The symbol d denotes the private key's secret signature exponent in RSA, whereas in ECDSA and EdDSA it denotes the private key itself. [42][43][44][59]\n\nPrior to generating a digital signature, a secret random number called the per-message secret number is generated for each signature. In addition, when searching for a prime number with the required properties, a random bit string called a prime generation seed is used. [38][52]\n\n## The Role of Keys in Signature Generation and Verification\n\nIn RSA, ECDSA, and HashEdDSA, before generating a digital signature, a message digest of the information to be signed must be generated using an approved hash function. In both the signature generation and verification processes, the message is converted into a fixed-length representation by an approved hash function. For verification, both the original message and the digital signature are provided to the verifier, and anyone can verify a correctly signed message using the message digest and the public key. [22][23][24][33]\n\nOne property provided by this mechanism is [non-repudiation](/hubpedia/non-repudiation), a service that assures that the integrity and origin of data can be verified and confirmed by a third party as originating from the specific entity that holds the private key. To ensure this property, organizations are recommended not to use key pairs intended for digital signatures for any other purpose, and key pairs designated for digital signature generation and verification are likewise prohibited from being used for any other purpose. [20][27][53]\n\n## Standards and Limitations\n\nThe U.S. Federal Information Processing Standard FIPS 186-5 approves the use of implementations of the RSA signature algorithm and also specifies requirements for key pair generation. Meanwhile, DSA (the Digital Signature Algorithm) is no longer specified in this standard and can only be used to verify digital signatures generated previously. The algorithms included in this standard are not expected to provide resistance against attacks from large-scale quantum computers. Information on the lengths of keys used for digital signature generation and verification, and the periods for which they are considered secure, is provided separately in SP 800-131A. [11][18][34][54]\n\n## Public Key Infrastructure and Certificates\n\nAssurance that an owner's identity is bound to a public key is obtained through means such as a [certificate](/hubpedia/digital-certificate) issued by a [public key infrastructure](/hubpedia/public-key-infrastructure). A public key infrastructure is a framework established to issue, maintain, and revoke public key certificates. A certificate is a set of data that uniquely identifies a public key with a corresponding private key and the owner authorized to use that key pair, and it is digitally signed by a certificate authority, thereby binding the public key to its owner. [13][15][25][36]\n\nA certificate authority is the entity within a public key infrastructure responsible for issuing certificates and enforcing compliance with PKI policy; once provided with proof of an owner's identity, it can sign a certificate containing the owner's public key and identity to issue it. An entity that applies for and receives a certificate from a certificate authority is called a subscriber. An entity that uses a public key to verify the authenticity of a digital signature is called a verifier, and an entity that is neither the owner of the key pair nor the verifier, but is trusted by both or either of them, is called a trusted third party. [14][39][40][41][60]\n\n## The Lifecycle and Functions of Key Management\n\nKey management is the process of managing the entire lifecycle of a key, including its secure generation, storage, distribution, use, and destruction. Key management involves four phases and numerous functions, and if key management is inadequate, keys can easily be compromised even when strong cryptographic algorithms are used. [7][45][65]\n\nEntity registration, one of the functions of key management, is the process by which an entity becomes a member of a security domain, and it is defined in NIST SP 800-57 as one of the functions within the lifecycle of a cryptographic key. Keys are sometimes managed manually, but in many cases automated systems are required to oversee, automate, and protect the key management process, and such systems are generally called key management systems. [46][48][49][62]\n\n## Key States\n\nA cryptographic key exists through several states over its lifetime. The active state is a key state in which the key can be used for the cryptographic protection of information, the cryptographic processing of already-protected information, or both. The deactivated state refers to a key state in which the key is no longer used to apply cryptographic protection, such as [encryption](/hubpedia/encryption). [55][64][67]\n\nThe unauthorized disclosure, modification, substitution, or use of sensitive key information, such as a private key or secret key, is called a compromise, and when a key's compromise is suspected or confirmed, the key transitions to the compromised state. When destruction is applied to a key or secret data, the key transitions to the destroyed state, and after destruction, no information about its value can be recovered. [8][57][58][66]\n\nThe period during which a specific key is authorized for use, or during which a key remains valid for a given system or application, is called the cryptoperiod. A backup is a copy of key information kept so that the key can be recovered during its cryptoperiod if needed. A key generated each time a cryptographic operation is performed is called an ephemeral key, and it must satisfy requirements such as being unique per message or session. In addition, a cryptographic key that has been encrypted using an approved cryptographic algorithm is called an encrypted key. [47][50][56][63][68]\n\n## Related Articles\n\n- [Cryptographic Standards](/hubpedia/cryptographic-standards)\n- [Confidentiality](/hubpedia/confidentiality)"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-29T22:42:26.733Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "各署名者は公開鍵と秘密鍵を持ち、その鍵ペアの所有者である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "Each signatory has a\r\npublic and private key and is the owner of that key pair."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "秘密鍵は署名生成プロセスで用いられる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "the private key is\r\nused in the signature generation process"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "鍵ペアの所有者だけが、秘密鍵を用いてデジタル署名を生成する権限を持つ。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "The key pair owner is the only entity that is authorized\r\nto use the private key to generate digital signatures."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "秘密鍵は秘密に保たれなければならない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "the\r\nprivate key must remain secret"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "公開鍵は秘密にする必要はないが、その完全性は保たれなければならない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "The public key need\r\nnot be kept secret, but its integrity must be maintained."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "鍵ペアとは、公開鍵とそれに対応する秘密鍵のことである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "A public key and its corresponding private key."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "鍵管理とは、鍵のライフサイクル全体を管理するプロセスであり、安全な生成・保管・配布・使用・破棄を含む。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "Key management is the process of managing a key throughout its lifecycle, including its secure"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "generation, storage, distribution, use, and destruction."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "「破棄（Destroy）」とは鍵または秘密データに適用される行為であり、破棄された後はその値についての情報を復元することはできない。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "An action applied to a key or a piece of secret data. After a key or a"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "piece of secret data is destroyed, no information about its value can"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "秘密鍵は非対称（公開鍵）暗号アルゴリズムで使用される暗号鍵であり、所有者に一意に結びつけられ、公開されない。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "A cryptographic key that is used with an asymmetric (public key)"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "cryptographic algorithm. The private key is uniquely associated with"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "the owner and is not made public."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "公開鍵は非対称暗号アルゴリズムで使用される暗号鍵であり、対応する秘密鍵と結びつき、所有者に紐づいて公開されうる。",
+          "confidence": 0.93,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "A cryptographic key that is used with an asymmetric (public key)"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "cryptographic algorithm and is associated with a private key."
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "public key is associated with an owner and may be made public."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "DSA（デジタル署名アルゴリズム）はこの規格ではもはや規定されておらず、以前に生成されたデジタル署名の検証にのみ使用できる。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "The Digital Signature Algorithm (DSA) is no longer specified in this standard and may only be"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "used to verify previously generated digital signatures."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "「公開鍵有効性の保証」とは、公開鍵が算術的に正しいことについての確信を指す。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "Confidence that the public key is arithmetically correct."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "証明書とは、対応する秘密鍵を持つ公開鍵と、その鍵ペアの使用を許可された所有者を一意に識別するデータの集合である。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "A set of data that uniquely identifies a public key (which has a"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "corresponding private key) and an owner that is authorized to use"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "認証局（CA）とは、公開鍵基盤（PKI）において証明書の発行とPKIポリシーへの準拠の実行を担う主体である。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "The entity in a Public Key Infrastructure (PKI) that is responsible"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "for issuing certificates and exacting compliance with a PKI policy."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "公開鍵基盤（PKI）とは、公開鍵証明書を発行し、維持し、失効させるために設けられた枠組みである。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "A framework that is established to issue, maintain, and revoke"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "public key certificates."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "秘密鍵は、対応する公開鍵を用いて検証可能なデジタル署名を計算するために使用される。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "compute a digital signature that may be verified using the"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "corresponding public key."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "デジタル署名においては、公開鍵は対応する秘密鍵で生成されたデジタル署名を検証するために使用される。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "the case of digital signatures, the public key is used to verify a"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "digital signature that was generated using the corresponding private"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "この規格に含まれるアルゴリズムは、大規模な量子コンピュータからの攻撃に対する耐性を提供するとは想定されていない。",
+          "confidence": 0.92,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "Note that the algorithms in this"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "standard are not expected to provide resistance to attacks from a large-scale quantum computer."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "誰でも署名者の公開鍵を用いて署名を検証できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "Anyone can verify the signature by employing the signatory’s public key."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "機関はデジタル署名用の鍵ペアを他の目的に使用してはならないと勧告されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "Agencies are advised that digital signature key pairs shall not be used for other purposes."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "公開鍵は署名検証プロセスで用いられる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "The public key is used in the signature verification process"
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "誰でもメッセージダイジェストと公開鍵を用いて正しく署名されたメッセージを検証できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "Anyone can verify a correctly signed\r\nmessage using message digest and the public key."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "RSA・ECDSA・HashEdDSAでは、署名生成と検証の両プロセスで、承認されたハッシュ関数によりメッセージが固定長表現に変換される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "the message (i.e., the signed data) is converted to a fixed-length representation of the message by\r\nmeans of an approved hash function"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "元のメッセージとデジタル署名の両方が検証者に提供される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "Both the original message and the digital signature are\r\nmade available to a verifier."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "所有者の身元と公開鍵が結び付けられていることの保証は、公開鍵基盤から発行された証明書などによって得られる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "This assurance can only be provided if the\r\nowner’s identity and public key are bound together, such as in a certificate issued from a public\r\nkey infrastructure."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "検証者は、鍵ペアの所有者が公開鍵に対応する秘密鍵を実際に保有していることの保証も必要とする。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "A verifier also requires assurance that the key pair owner actually possesses\r\nthe private key associated with the public key and that the public key is a mathematically correct\r\nkey."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "本標準で定めるデジタル署名生成・検証用の鍵ペアは、それ以外の目的に使用してはならない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "a key pair used for digital\r\nsignature generation and verification as specified in this standard shall not be used for any other\r\npurpose."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "ECDSAとEdDSA(HashEdDSAを含む)を用いる意図の署名者は、まずドメインパラメータを取得しなければならない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "the intended signatory shall\r\nfirst obtain appropriate domain parameters, either by generating the domain parameters itself or\r\nby obtaining domain parameters that another entity has generated."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "RSAアルゴリズムはドメインパラメータを使用しない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "the RSA algorithm does not use domain parameters."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "署名者になろうとする各主体は、自ら生成するか信頼された第三者から取得するかして、デジタル署名用の鍵ペアを取得しなければならない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "Each intended signatory shall obtain a digital signature key pair that is generated as specified for\r\nthe appropriate digital signature algorithm, either by generating the key pair itself or by obtaining\r\nthe key pair from a trusted party."
+            }
+          ]
+        },
+        {
+          "index": 31,
+          "statement": "信頼された第三者が鍵ペアを生成する場合、その第三者は秘密鍵を知っていても所有者になりすまさないよう信頼されていなければならない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "if a trusted party generates the key pair, that party needs to\r\nbe trusted not to masquerade as the owner, even though the trusted party knows the private key."
+            }
+          ]
+        },
+        {
+          "index": 32,
+          "statement": "鍵ペアを取得した後、署名者は公開鍵の妥当性の保証と、対応する秘密鍵を実際に保有していることの保証を得なければならない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "the intended signatory (now the key pair owner) shall obtain (1)\r\nassurance of the validity of the public key and (2) assurance that they actually possess the\r\nassociated private key."
+            }
+          ]
+        },
+        {
+          "index": 33,
+          "statement": "RSA・ECDSA・HashEdDSAでは、デジタル署名を生成する前に、承認されたハッシュ関数を用いて署名対象情報のメッセージダイジェストを生成しなければならない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "prior to the generation of a digital signature, a message\r\ndigest shall be generated on the information to be signed using an appropriate approved hash\r\nfunction."
+            }
+          ]
+        },
+        {
+          "index": 34,
+          "statement": "FIPS 186-5は、RSA署名アルゴリズムの実装の使用を承認するとともに、鍵ペアの生成についても規定している。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "specifies key pair generation, as well as additional"
+            }
+          ]
+        },
+        {
+          "index": 35,
+          "statement": "「保有の保証」とは、あるエンティティが秘密鍵を保有していることについての確信を指す。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "Confidence that an entity possesses a private key and any associated"
+            }
+          ]
+        },
+        {
+          "index": 36,
+          "statement": "証明書は認証局によってデジタル署名され、それによって公開鍵を所有者に結びつける。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "possibly other information and is digitally signed by a Certification"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "Authority (i.e., a trusted party), thereby binding the public key to the"
+            }
+          ]
+        },
+        {
+          "index": 37,
+          "statement": "鍵ペアの所有者とは、その鍵ペアの秘密鍵を使用することを許可されたエンティティである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "A key pair owner is the entity authorized to use the private key of a"
+            }
+          ]
+        },
+        {
+          "index": 38,
+          "statement": "「1メッセージあたりの秘密数（per-message secret number）」は、各デジタル署名の生成に先立って生成される秘密の乱数である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "A secret random number that is generated prior to the generation of"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "each digital signature."
+            }
+          ]
+        },
+        {
+          "index": 39,
+          "statement": "サブスクライバとは、認証局に証明書を申請し、これを受け取ったエンティティである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "An entity that has applied for and received a certificate from a"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "Certificate Authority."
+            }
+          ]
+        },
+        {
+          "index": 40,
+          "statement": "信頼できる第三者（TTP）とは、鍵ペアの所有者および検証者以外で、所有者または検証者、あるいはその両方から信頼されているエンティティである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "An entity other than the key pair owner and verifier that is trusted by"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "the owner or the verifier or both."
+            }
+          ]
+        },
+        {
+          "index": 41,
+          "statement": "検証者（Verifier）とは、公開鍵を用いてデジタル署名の真正性を検証するエンティティである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "The entity that verifies the authenticity of a digital signature using"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "the public key."
+            }
+          ]
+        },
+        {
+          "index": 42,
+          "statement": "RSAの秘密鍵は、モジュラスnと秘密の署名指数dから構成される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "An RSA private key, where n is the modulus, and d is the private"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "signature exponent."
+            }
+          ]
+        },
+        {
+          "index": 43,
+          "statement": "RSAの公開鍵は、モジュラスnと公開の検証指数eから構成される。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "An RSA public key, where n is the modulus, and e is the public"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "verification exponent."
+            }
+          ]
+        },
+        {
+          "index": 44,
+          "statement": "ECDSAまたはEdDSAの公開鍵は、楕円曲線上の点である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "An ECDSA or EdDSA public key, which is a point on an elliptic"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "curve."
+            }
+          ]
+        },
+        {
+          "index": 45,
+          "statement": "鍵管理が不十分だと、強力な暗号アルゴリズムであっても容易に危殆化しうる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "Poor key management may easily compromise strong algorithms."
+            }
+          ]
+        },
+        {
+          "index": 46,
+          "statement": "NIST SP 800-57におけるEntity registration(エンティティ登録)は、暗号鍵のライフサイクルにおける機能の一つとして定義されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "A function in the lifecycle of a cryptographic key; a process whereby an"
+            }
+          ]
+        },
+        {
+          "index": 47,
+          "statement": "Ephemeral key(エフェメラル鍵)は、暗号処理(鍵確立など)を実行するたびに生成される暗号鍵である。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "A cryptographic key that is generated for each execution of a"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "cryptographic process (e.g., key establishment) and that meets other"
+            }
+          ]
+        },
+        {
+          "index": 48,
+          "statement": "鍵は手動で管理される場合もあるが、多くの場合、鍵管理プロセスを監督・自動化・保護するために自動化システムが必要とされる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "Keys may be managed manually, but in"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "many cases, an automated system is required to oversee, automate, and secure the key-"
+            }
+          ]
+        },
+        {
+          "index": 49,
+          "statement": "鍵管理を行う自動化システムは、一般に(暗号)鍵管理システムと呼ばれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "management process. An automated system that performs key management is commonly known"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "as a (cryptographic) key management system"
+            }
+          ]
+        },
+        {
+          "index": 50,
+          "statement": "「クリプトピリオド(cryptoperiod)」とは、特定の鍵が使用を許可されている期間、またはあるシステムやアプリケーション向けの鍵が有効であり続ける期間を指す。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "The time span during which a specific key is authorized for use or in"
+            }
+          ]
+        },
+        {
+          "index": 51,
+          "statement": "ECDSAまたはEdDSAの暗号鍵ペアは、特定のドメインパラメータの集合に関連付けられる。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "common to a domain of users. An ECDSA or EdDSA cryptographic"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "key pair is associated with a specific set of domain parameters."
+            }
+          ]
+        },
+        {
+          "index": 52,
+          "statement": "素数生成シードとは、必要な特性を持つ素数を探索する際に用いられる、ランダムなビット列である。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "A string of random bits that is used to begin a search for a prime"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "number with the required characteristics."
+            }
+          ]
+        },
+        {
+          "index": 53,
+          "statement": "非否認性（Non-repudiation）は、データの完全性と発信元が、秘密鍵を保有する特定のエンティティ（署名者）に由来するものとして第三者により検証・確認され得ることを保証するサービスである。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "A service that is used to provide assurance of the integrity and origin"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "validated by a third party as having originated from a specific entity"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "in possession of the private key (i.e., the signatory)."
+            }
+          ]
+        },
+        {
+          "index": 54,
+          "statement": "デジタル署名の生成・検証に使用される鍵の長さ、およびそれらが安全であるとみなされる期間についての情報は、SP 800-131Aで提供されている。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "lengths used for generating and verifying digital signatures and the time frames during which"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "they are assumed to be secure are provided in SP 800-131A [9]."
+            }
+          ]
+        },
+        {
+          "index": 55,
+          "statement": "アクティブ状態とは、鍵が情報の暗号学的保護（平文の暗号化やデジタル署名の生成など）、既に保護された情報の暗号学的処理（暗号文の復号やデジタル署名の検証など）、またはその両方に使用できる鍵状態である。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "The key state in which the key may be used to cryptographically protect"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "information (e.g., encrypt plaintext or generate a digital signature),"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "cryptographically process previously protected information (e.g.,"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "decrypt ciphertext or verify a digital signature), or both."
+            }
+          ]
+        },
+        {
+          "index": 56,
+          "statement": "「バックアップ」とは、必要な場合に鍵のクリプトピリオド中に鍵を復旧できるようにするための鍵情報の複製である。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "A copy of key information to facilitate recovery during the cryptoperiod"
+            }
+          ]
+        },
+        {
+          "index": 57,
+          "statement": "「侵害状態(Compromised state)」とは、鍵の侵害が疑われるか確認されたときに鍵が遷移する鍵状態である。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "A key state to which a key is transitioned when there is a suspicion or"
+            }
+          ]
+        },
+        {
+          "index": 58,
+          "statement": "「破棄状態(Destroyed state)」とは、鍵が破棄されたときに遷移する鍵状態である。",
+          "confidence": 0.88,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "A key state to which a key transitions when it is destroyed."
+            }
+          ]
+        },
+        {
+          "index": 59,
+          "statement": "記号dは、RSAでは秘密鍵の秘密署名指数を意味し、ECDSAおよびEdDSAでは秘密鍵そのものを意味する。",
+          "confidence": 0.87,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "1. For RSA, the private signature exponent of a private key."
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "2. For ECDSA and EdDSA, the private key."
+            }
+          ]
+        },
+        {
+          "index": 60,
+          "statement": "認証局(CA)は、所有者の身元証明を提供された後、所有者の公開鍵と身元を含む証明書を発行するために署名できる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "a certification authority (CA) could sign credentials\r\ncontaining an owner’s public key and identity to form a certificate after being provided with\r\nproof of the owner’s identity."
+            }
+          ]
+        },
+        {
+          "index": 61,
+          "statement": "「ドメインパラメータ有効性の保証」とは、ドメインパラメータが算術的に正しいことについての確信を指す。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf",
+              "quote": "Confidence that the domain parameters are arithmetically correct."
+            }
+          ]
+        },
+        {
+          "index": 62,
+          "statement": "Entity registration(エンティティ登録)とは、あるエンティティがセキュリティドメインの一員となるプロセスのことである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "entity becomes a member of a security domain"
+            }
+          ]
+        },
+        {
+          "index": 63,
+          "statement": "Ephemeral key(エフェメラル鍵)は、鍵の種類として、メッセージまたはセッションごとに一意であることなどの要件を満たす必要がある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "unique to each message or session"
+            }
+          ]
+        },
+        {
+          "index": 64,
+          "statement": "暗号鍵はその生存期間中に複数の状態（鍵状態）を経て存在する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "identifies the states in which a cryptographic key may"
+            },
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "exist during its lifetime."
+            }
+          ]
+        },
+        {
+          "index": 65,
+          "statement": "鍵管理には4つの局面（フェーズ）と多数の機能が関わる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "identifies four phases and a multitude"
+            }
+          ]
+        },
+        {
+          "index": 66,
+          "statement": "「侵害(Compromise)」とは、秘密鍵や非公開鍵などの機密な鍵情報が、権限のない形で開示・変更・置換・使用されることを指す。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "The unauthorized disclosure, modification, substitution or use of"
+            }
+          ]
+        },
+        {
+          "index": 67,
+          "statement": "「非活性化状態(Deactivated state)」とは、鍵が暗号化などの暗号学的保護を適用するためには使われなくなった鍵状態である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "A key state in which keys are not used to apply cryptographic protection"
+            }
+          ]
+        },
+        {
+          "index": 68,
+          "statement": "Encrypted key(暗号化された鍵)は、承認された暗号アルゴリズムを用いて暗号化された暗号鍵のことである。",
+          "confidence": 0.6,
+          "evidence": [
+            {
+              "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-57pt1r5.pdf",
+              "quote": "A cryptographic key that has been encrypted using an approved"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,2260 @@
+[
+  {
+    "slug": "vaccine",
+    "topicType": "concept",
+    "categoryLabel": "医学・健康",
+    "title": "ワクチン",
+    "summary": "ワクチンは、弱化・部分化または死滅させた病原体で構成され、体に抗体を作らせるよう刺激する医薬品であり、生きた生物またはその産物から作られる生物製剤の一種である。感染を模倣して免疫学的記憶を生じさせることで機能し、抗原には弱化・死滅ウイルス、単一タンパク質、mRNAのような遺伝物質が使われる。疾患別にCOVID-19・インフルエンザ・RSV・肺炎球菌・破傷風・帯状疱疹などのワクチンがあり、有効性維持のための毎年更新や成人への追加免疫も行われる。",
+    "bodyMarkdown": "## 定義と製剤としての性質\n\nワクチンは、弱化・部分化または死滅させた病原体で構成され、体に抗体を作らせるよう刺激する医薬品の一種である。抗体は外来物質に応答して体が自然に作るタンパク質であり、一度その作り方を覚えれば、同じ物質への次回の曝露時に素早く作ることができる。原料が生きた生物またはその産物であることから、ワクチンは生物製剤（バイオ医薬品）の一つに数えられる。 [1][2][3]\n\n抗原として用いられる成分は製剤によって異なり、弱化または死滅させたウイルス、単一のタンパク質、mRNAのような遺伝物質などが使われる。 [4]\n\n## 免疫記憶の仕組み\n\nワクチンは感染を模倣することで免疫学的記憶を生じさせるが、実際の感染が伴うリスクは持たない。ワクチン中の抗原に対して[免疫系](/hubpedia/immune-system)が本格的な応答を起こすよう仕向け、その結果として長年持続しうる保護的免疫記憶が形成される。 [5][6]\n\n免疫系は新しい病原体にさらされるたびに最善の応答を学んで記憶するため、適応免疫系は次に同じ侵入者にさらされたとき、より速く効果的に反応できる。適応免疫系は抗原特異的であり、特定の病原体を認識・攻撃するよう訓練された細胞群から成る。 [7][8][9]\n\n## 疾患別の主要ワクチン\n\n加齢とともに、特定の疾患の予防を助けるためにワクチン接種（免疫接種）が推奨される場合がある。[COVID-19](/hubpedia/covid-19)は発熱・咳・息切れなどの症状を起こす呼吸器疾患で、高齢者は若年者より重症化しやすいが、ワクチンは罹患リスクを低減し、感染した場合でも重症化や入院の防止に役立つことが研究で示されている。高齢者がRSV（呼吸器合胞体ウイルス）感染で重症化すると入院や生命の危険に至る場合もあり、RSVワクチンはこうした重篤な健康問題から高齢者を守るために利用できる。 [10][11][12][13][14]\n\n細菌性疾患では、空気によって人から人へ広がる肺炎球菌症に対し、高齢者の重症化・死亡リスクが高いことから、50歳以上の全成人への肺炎球菌ワクチンが推奨されている。[破傷風](/hubpedia/tetanus)・ジフテリア・百日咳も細菌が原因の疾患であり、破傷風は土壌・塵・肥料中の細菌が深い切り傷や火傷から体内に侵入することで起こり、百日咳は制御不能な激しい咳の発作を起こして呼吸を困難にする。 [15][16][17][18][19]\n\n帯状疱疹は水痘と同じウイルスが原因で、水痘にかかった人の体内に残存したウイルスが加齢とともに再活性化しうる。神経に影響し、灼熱痛・刺痛・かゆみや水疱を伴う発疹が一般的な症状で、発疹が消えた後も帯状疱疹後神経痛（PHN）と呼ばれる痛みが残る場合がある。50歳以上の健康な成人には2回接種の帯状疱疹ワクチンShingrixが推奨され、このワクチンは安全で帯状疱疹とPHNの予防に役立つとされる。 [20][21][22]\n\n## 有効性と追加接種\n\n[ワクチン接種](/hubpedia/vaccination)は破傷風・ジフテリア・百日咳に対する最善の予防法とされ、多くの人は子ども時代に接種するが、高齢になると防御を維持するための追加免疫が必要となり、成人には10年ごとのTdapまたはTdブースターが推奨されている。 [23][24]\n\nインフルエンザは人から人へ容易にうつり、肺に入ると重篤で、高齢者では肺炎などの重篤な合併症リスクが高い。ウイルスが時間とともに変化して再感染しうるため、ワクチンは有効性を保つために毎年更新され、6か月以上のすべての人に年1回の接種が推奨される。65歳以上には高用量またはアジュバント（免疫応答を強める添加物）添付のワクチンが推奨されるが、高齢者では防御効果が時間とともに低下しうるとされる。 [25][26][27]\n\n旅行用ワクチンは目的地・計画する活動・既往歴に基づいて必要とされ、複数回の接種が必要な場合があるため、免疫構築の時間確保の観点から少なくとも旅行の4〜6週間前の接種が望ましいとされる。COVID-19ワクチンについては、新しい変異株への有効性が引き続き評価されている。安全性については、ワクチンは非常に安全とされ、最も一般的な副作用は軽度で接種部位の痛み・腫れ・赤みにとどまるとされる。 [28][29][30]",
+    "sources": [
+      {
+        "url": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+        "title": "Vaccinations and Older Adults",
+        "publisher": "National Institutes of Health",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nih.gov/web-policies"
+          },
+          "notes": "NIA health topic page describing recommended vaccines for older adults — COVID-19, flu, RSV, pneumococcal, Tdap/Td, shingles and travel vaccines — with effectiveness and timing details. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://nigms.nih.gov/biobeat/2023/12/what-is-the-immune-system",
+        "title": "What Is the Immune System?",
+        "publisher": "National Institutes of Health",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nih.gov/web-policies"
+          },
+          "notes": "NIGMS Biomedical Beat post explaining the innate and adaptive immune system, immunological memory and how vaccines generate protective memory by mimicking infection. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://nigms.nih.gov/biobeat/2023/10/how-do-medicines-work",
+        "title": "How Do Medicines Work?",
+        "publisher": "National Institutes of Health",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nih.gov/web-policies"
+          },
+          "notes": "NIGMS Biomedical Beat post on pharmacology covering how medicines act on molecular targets, including vaccines as biologics that stimulate antibody production. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Vaccine",
+        "summary": "A vaccine is a medicine composed of a weakened, partial or killed disease-causing agent that stimulates the body to make antibodies, and it counts as a biologic because it is made from a living organism or its products. Vaccines work by mimicking infection to generate immunological memory, using antigens such as weakened or killed viruses, a single protein or genetic material like mRNA. Disease-specific vaccines exist for COVID-19, flu, RSV, pneumococcal disease, tetanus, shingles and more, with annual updates and adult booster doses used to maintain protection.",
+        "bodyMarkdown": "## Definition and properties as a medicine\n\nVaccines are medicines composed of a weakened, partial, or killed disease-causing agent that stimulate the body to make antibodies. Antibodies are proteins the body makes naturally in response to a foreign substance, and once the body knows how to make an antibody, it can do so quickly the next time it is exposed to the same substance. Because they are made from a living organism or its products, vaccines count as biologics. [1][2][3]\n\nThe antigen used in a vaccine varies by formulation and may be a weakened or killed virus, a single protein, or genetic material such as mRNA. [4]\n\n## How immune memory works\n\nVaccines generate immunological memory by mimicking infection without carrying the risks that infection does. They prompt the [immune system](/hubpedia/immune-system) to mount a full-scale response to the vaccine's antigen, leading to protective immune memory that can last for many years. [5][6]\n\nBecause the immune system learns and remembers the best response each time it is exposed to a new pathogen, the adaptive immune system can react faster and more effectively the next time it meets the same invader. The adaptive immune system is antigen specific, made up of cells trained to recognize and attack specific microbes. [7][8][9]\n\n## Major vaccines by disease\n\nWith age, vaccinations may be recommended to help prevent certain illnesses. [COVID-19](/hubpedia/covid-19) is a respiratory disease causing symptoms such as fever, cough and shortness of breath, and older adults are more likely than younger people to become very sick; studies show COVID-19 vaccines reduce the risk of getting the disease and help prevent serious illness or hospitalization. Older adults who get very sick from an RSV infection may need to be hospitalized and the illness can be life-threatening, so RSV vaccines are available to protect older adults from the serious health problems that can occur. [10][11][12][13][14]\n\nAmong bacterial diseases, pneumococcal disease spreads from person to person by air and puts older adults at higher risk of severe illness or death, so vaccination is recommended for all adults 50 and older. [Tetanus](/hubpedia/tetanus), diphtheria and pertussis are also caused by bacteria; tetanus bacteria found in soil, dust and manure can enter the body through a deep cut or burn, while pertussis causes uncontrollable, violent coughing fits that make it hard to breathe. [15][16][17][18][19]\n\nShingles is caused by the same virus as chickenpox, which stays in the body of anyone who had chickenpox and can become active again with age. Pain can remain after the rash disappears, a condition called post-herpetic neuralgia or PHN, and healthy adults 50 and older are recommended the two-dose shingles vaccine Shingrix, which is safe and may prevent both shingles and PHN. [20][21][22]\n\n## Effectiveness and booster doses\n\n[Vaccination](/hubpedia/vaccination) is the best way to prevent tetanus, diphtheria and pertussis; most people are vaccinated as children but need booster shots as they get older, and adults are recommended a Tdap or Td booster every 10 years. [23][24]\n\nFlu passes easily from person to person, is very serious when it reaches the lungs, and puts older adults at higher risk of complications such as pneumonia. Because the virus changes over time and can infect again, the vaccine is updated every year and annual vaccination is recommended for everyone 6 months and older, though protection can lessen with time in older adults. A higher-dose or adjuvanted flu vaccine, the latter carrying an added ingredient that helps create a stronger immune response, is recommended for people 65 and older. [25][26][27]\n\nTravel vaccines are required and recommended based on destination, planned activities and medical history, and because multiple vaccines or doses may be needed, they are best given at least four to six weeks before travel to allow time to build up immunity. The effectiveness of COVID-19 vaccines against new variants of the virus continues to be evaluated. On safety, vaccines are described as very safe, with the most common side effects being mild — pain, swelling, or redness where the vaccine was given. [28][29][30]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "ワクチンは、弱化・部分化または死滅させた病原体で構成され、体に抗体を作らせるよう刺激する医薬品である。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/10/how-do-medicines-work",
+              "quote": "Vaccines are medicines composed of a weakened, partial, or killed disease-causing agent that stimulate the body to make antibodies"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "抗体は外来物質に応答して体が自然に作るタンパク質であり、体が一度その作り方を知れば、同じ物質への次回曝露時に素早く作ることができる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/10/how-do-medicines-work",
+              "quote": "proteins the body makes naturally in response to a foreign substance."
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/10/how-do-medicines-work",
+              "quote": "Once the body knows how to make the antibody, it can do so quickly the next time it’s exposed to the same foreign substance."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "ワクチンは、生きた生物またはその産物から作られる医薬品である生物製剤の一種である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/10/how-do-medicines-work",
+              "quote": "Vaccines are examples of biologics, which are medicines made from a living organism or its products."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "ワクチンの抗原は、弱化または死滅させたウイルス、単一のタンパク質、mRNAのような遺伝物質でありうる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/12/what-is-the-immune-system",
+              "quote": "the antigen in the vaccine, which may be a weakened or killed virus, a single protein, or genetic material, such as mRNA."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "ワクチンは感染を模倣することで免疫学的記憶を生じさせるが、感染が持つリスクは伴わない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/12/what-is-the-immune-system",
+              "quote": "Vaccines generate immunological memory by mimicking infection, but they don’t have the risks infection does."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "ワクチンへの免疫応答は、長年持続しうる保護的免疫記憶の形成につながる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/12/what-is-the-immune-system",
+              "quote": "This bit of trickery leads to the development of protective immune memory that can last for many years."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "免疫系は新しい病原体にさらされるたび、最善の応答を学び記憶する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/12/what-is-the-immune-system",
+              "quote": "Each time your immune system is exposed to a new pathogen, it learns the best way to respond and remembers what it learned."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "その学習により、適応免疫系は次に同じ侵入者にさらされたとき、より速く効果的に反応できる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/12/what-is-the-immune-system",
+              "quote": "This allows the adaptive immune system to react faster and more effectively the next time it’s exposed to the same invader."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "適応免疫系は抗原特異的であり、特定の病原体を認識・攻撃するよう訓練された細胞群から成る。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/12/what-is-the-immune-system",
+              "quote": "the adaptive immune system is antigen specific, meaning its soldiers have been trained to recognize and attack specific microbes."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "加齢とともに、特定の疾患の予防を助けるためにワクチン接種（免疫接種）が推奨される場合がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "a health care provider may recommend vaccinations, also known as shots or immunizations, to help prevent certain illnesses."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "COVID-19は発熱・咳・息切れなどの症状を起こす呼吸器疾患で、高齢者は若年者より重症化しやすい。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "COVID-19 is a respiratory disease that causes symptoms such as fever, cough, and shortness of breath."
+            },
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "Older adults are more likely than younger people to get very sick from COVID-19."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "COVID-19ワクチンは罹患リスクを低減し、感染した場合でも重症化・入院の防止に役立つことが研究で示されている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "Studies show that COVID-19 vaccines reduce the risk of getting this disease."
+            },
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "The vaccine will also help keep you from getting seriously ill"
+            },
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "to the hospital if you do get COVID-19."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "高齢者がRSV感染で重症化すると入院が必要になる場合があり、生命を脅かすこともある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "Older adults who get very sick from an RSV infection may need to be hospitalized, and the illness can even be life-threatening."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "RSVワクチンは、RSV感染に伴いうる重篤な健康問題から高齢者を守るために利用できる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "RSV vaccines are available to protect older adults from the serious health problems that can occur with RSV infection."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "肺炎球菌症は空気によって人から人へ広がる重篤な感染症で、高齢者は若年者より重症化・死亡のリスクが高い。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "Pneumococcal disease is a serious infection that spreads from person to person by air."
+            },
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "Older adults are at higher risk than younger people of getting very sick or dying from pneumococcal disease."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "CDCは50歳以上の全成人に肺炎球菌ワクチンを推奨している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "The CDC recommends that all adults age 50 and older get pneumococcal vaccination."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "破傷風・ジフテリア・百日咳は細菌が原因の疾患で、重篤な疾患や死亡に至りうる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "Tetanus, diphtheria, and pertussis are diseases caused by bacteria that can lead to serious illness and death."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "破傷風は土壌・塵・肥料中の細菌が原因で、深い切り傷や火傷から体内に侵入する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "Tetanus (sometimes called lockjaw) is caused by bacteria found in soil, dust, and manure. It can enter the body through a deep cut or burn."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "百日咳は制御不能な激しい咳の発作を起こし、呼吸を困難にする。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "Pertussis, also known as whooping cough, causes uncontrollable, violent coughing fits that make it hard to breathe."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "帯状疱疹は水痘と同じウイルスが原因で、水痘にかかった人の体内にウイルスは残っており、加齢とともに再活性化しうる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "Shingles is caused by the same virus as chickenpox. If you had chickenpox, the virus is still in your body."
+            },
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "As you get older, the virus could become active again and cause shingles."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "帯状疱疹は神経に影響し、灼熱痛・刺痛・かゆみや水疱を伴う発疹が一般的な症状で、発疹が消えた後も帯状疱疹後神経痛（PHN）と呼ばれる痛みが残る場合がある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "Shingles affects the nerves. Common symptoms include burning, shooting pain, tingling, and/or itching, as well as a rash with fluid-filled blisters."
+            },
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "Even when the rash disappears, the pain can remain. This is called post-herpetic neuralgia, or PHN."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "50歳以上の健康な成人には2回接種の帯状疱疹ワクチンShingrixが推奨され、このワクチンは安全で帯状疱疹とPHNの予防に役立つとされる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "Healthy adults age 50 and older should get vaccinated with the shingles vaccine, Shingrix, which is given in two doses."
+            },
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "The shingles vaccine is safe, and it may keep you from getting shingles and PHN."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "破傷風・ジフテリア・百日咳に対してはワクチン接種が最善の予防法とされ、多くの人は子ども時代に接種するが、高齢になると防御を維持するためにブースターが必要である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "Getting vaccinated is the best way to prevent tetanus, diphtheria, and pertussis."
+            },
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "Most people get vaccinated as children, but you also need booster shots as you get older to stay protected against these diseases."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "CDCは成人に10年ごとのTdapまたはTdブースターを推奨している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "The CDC recommends that adults get a Tdap (tetanus, diphtheria, and pertussis) or Td (tetanus, diphtheria) booster shot every 10 years."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "インフルエンザウイルスは時間とともに変化し再感染しうるため、ワクチンは有効性を保つために毎年更新される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "The virus also changes over time, which means you can get it again."
+            },
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "To ensure flu vaccines remain effective, the vaccine is updated every year."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "インフルエンザは人から人へ容易にうつり、肺に入ると重篤で、高齢者では肺炎などの重篤な合併症リスクが高い。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "The flu is easy to pass from person to person."
+            },
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "Flu is very serious when it gets in your lungs. Older adults are at a higher risk for developing serious complications from the flu, such as pneumonia."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "6か月以上のすべての人に年1回のインフルエンザワクチンが推奨され、65歳以上には高用量またはアジュバント添付のものが推奨されるが、高齢者では防御効果が時間とともに低下しうる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "Everyone age 6 months and older should get an annual flu vaccine"
+            },
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "The CDC recommends that people age 65 and older receive a higher-dose flu vaccine or an adjuvanted flu vaccine"
+            },
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "the protection from a flu vaccine can lessen with time, especially in older adults."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "旅行用ワクチンは目的地・計画する活動・既往歴に基づき、複数回の接種が必要な場合があり、免疫構築の時間確保のため少なくとも旅行の4〜6週間前の接種が望ましいとされる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "The vaccines that are required and recommended are based on your destination, planned activities, and medical history."
+            },
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "It's best to get them at least four to six weeks before you travel to allow time to build up immunity"
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "COVID-19ワクチンの新しい変異株への有効性は引き続き評価されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "We are still learning how effective COVID-19 vaccines are against new variants of the virus."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "ワクチンは非常に安全とされ、最も一般的な副作用は軽度で、接種部位の痛み・腫れ・赤みを含みうる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "Vaccines are very safe, and they can help keep you from getting serious or life-threatening diseases."
+            },
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/immunizations-and-vaccines/vaccinations-and-older-adults",
+              "quote": "The most common side effects for all these vaccines are mild and may include pain, swelling, or redness where the vaccine was given."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "antibiotic-resistance",
+    "topicType": "concept",
+    "categoryLabel": "医学・健康",
+    "title": "抗菌薬耐性",
+    "summary": "抗菌薬耐性とは、細菌などの微生物が変異によって抗菌薬の作用を生き延びられるようになる現象であり、抗菌薬の広範な使用によって助長されてきた。耐性化の機構には、抗菌薬を破壊する酵素の産生、標的部位の変化、細胞プロセスの迂回、侵入の阻害、排出ポンプの構築などがあり、バイオフィルムは個々の細菌より高い耐性を示す。米国では耐性を持つ細菌と真菌が年間約280万人に感染し3万5000人以上が死亡するとされ、ファージ療法や宿主細胞を標的とする治療法など新たな対抗策の研究が進められている。",
+    "bodyMarkdown": "## 定義と規模\n\n細菌は連鎖球菌性咽頭炎や耳の感染症をはじめ多くの一般的疾患を引き起こし、生命を脅かす感染症を起こすこともあるため、細菌と闘うよう設計された医薬品である[抗菌薬](/hubpedia/antibiotic-discovery)（抗生物質）は多くの命を救ってきた。しかし、抗菌薬の広範な使用が、抗菌薬耐性と呼ばれる進行中の問題を助長してきた。 [1][2][3]\n\n抗菌薬耐性菌は一部またはすべての抗菌薬の作用を生き延びうる細菌であり、真菌を含む他の微生物も治療に使われる薬への耐性を同様に獲得しうる。こうした耐性微生物による感染症は多くの人に影響し治療が困難で、米国疾病対策センター（CDC）によると、米国だけで耐性を持つ細菌と真菌が年間約280万人に感染し、3万5000人以上が死亡するとされる。 [4][5][6]\n\n## 耐性化の機構\n\n抗菌薬は、細菌の細胞壁の構築・維持を妨げたり、成長に必要なタンパク質や核酸といった分子の産生を妨げたりすることで細菌を殺す。しかし、細菌が抗菌薬にさらされるたびに、変異によってその薬を生き延びられるようになる可能性があり、これが耐性化につながる。 [7][8]\n\n変異が耐性をもたらす機構として挙げられるのは、抗菌薬を破壊するか無効化する酵素の産生、抗菌薬が標的とする細胞部分の変化、抗菌薬が影響する細胞プロセスを迂回する新しい機能様式の開発、細胞への侵入の変化・減少による抗菌薬の侵入困難化、そして侵入した抗菌薬を押し出すポンプの細胞壁への構築である。 [9][10][11][12][13]\n\n## バイオフィルム\n\n細菌はバイオフィルムと呼ばれる集合体を形成でき、これは特定の状況では有益だが体内で形成されると有害になりうる。バイオフィルムは個々の細菌よりはるかに抗菌薬耐性が高いが、その理由はまだ解明されていない。粘液質の表面は浸透しにくく、その下の環境は宿主と大きく異なり、どちらも抗菌薬が適切に働くのを妨げる可能性があるとされる。 [14][15]\n\n## 耐性化と処方上の考慮\n\n抗菌薬耐性のリスクがあるため、医師は効果が見込める場合にのみ抗菌薬を処方する。例えば、抗菌薬はウイルスを殺さないため、風邪やインフルエンザのようなウイルス感染症には処方されない。また、指示された期間どおりに抗菌薬を服用しない場合、細菌が生存して耐性を獲得する可能性が高まり、耐性菌が生じれば本人の病状を悪化させたり他者へ広がったりしうるとされる。 [16][17]\n\n耐性感染症の予防策としては、処方された抗菌薬を他人と共有しないことに加え、手洗い・切り傷の清潔保持と被覆、[ワクチン接種](/hubpedia/vaccination)の最新化といった、細菌感染リスクを減らす措置が挙げられている。 [18]\n\n## 新たな対抗策の研究\n\nNIGMSの支援を受ける研究者を含め、多くの研究者が耐性感染症に対抗する新しい方法に取り組んでいる。一つの方向性は、細菌に感染するウイルスであるバクテリオファージ（ファージ）を使うファージ療法で、ファージ自体を用いて細菌感染を治療する。現行抗菌薬の多くは細胞壁構築を妨げて細菌を殺すが変異で効かなくなった細菌もある中、2016年には実験的治療の特別プロトコルの下、抗菌薬耐性アシネトバクター・バウマニ感染の患者へファージ混合剤が投与され、米国初の静脈内ファージ治療の成功例につながった。 [19][20][21]\n\nただし、ファージ療法が商業化できるかは不明とされ、理由の一つはファージが単一の細菌種に特異的で幅広い感染症に使えないことであり、商業化された場合も抗菌薬で治療できない感染症に限られる可能性が高いと見られている。 [22][23]\n\n別の方向性として、NIHの研究者らは細菌性肺炎の治療で、細菌細胞ではなく宿主細胞を標的とする治療法を齧歯類で発見した。この治療法は、細菌を食べる[免疫系](/hubpedia/immune-system)の白血球マクロファージと、マウス・ヒトで自然に産生されるエポキシエイコサトリエン酸（EET）という化合物群に関係する。肺炎球菌性肺炎は肺炎死の世界的な主原因で、抗菌薬治療が常に成功するとは限らず細菌が耐性化する場合があることから、こうした代替手法が探られている。 [24][25][26]\n\nこの経路では、感染がEETを分解する可溶性エポキシド加水分解酵素（sEH）というタンパク質を誘導し、sEHを阻害するとEET量が急増してマクロファージの貪食能力を妨げ、細菌が肺で増殖して重篤な肺感染や死亡に至る。逆にEEZEという合成分子でEETを阻害するとマクロファージの貪食能力が高まりマウス肺内の細菌数が減少し、ヒトボランティアの肺・血液試料から採取した細菌とマクロファージを用いた試験管内実験でも同じ結果が得られた。 [27][28]",
+    "sources": [
+      {
+        "url": "https://nigms.nih.gov/biobeat/2023/11/what-is-antibiotic-resistance",
+        "title": "What Is Antibiotic Resistance?",
+        "publisher": "National Institutes of Health",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nih.gov/web-policies"
+          },
+          "notes": "NIGMS Biomedical Beat post explaining antibiotic resistance — its scale in the U.S., mutational mechanisms, biofilms, prescribing considerations and prevention measures. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://nigms.nih.gov/biobeat/2022/04/how-bacteria-infecting-viruses-could-save-lives",
+        "title": "How Bacteria-Infecting Viruses Could Save Lives",
+        "publisher": "National Institutes of Health",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nih.gov/web-policies"
+          },
+          "notes": "NIGMS Biomedical Beat profile of bacteriophage researcher Ry Young covering phage biology, phage therapies for antibiotic-resistant infections and commercialization hurdles. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.niehs.nih.gov/newsreleases/researchers-target-a-mouses-own-cells-rather-than-using-antibiotics-to-treat-pneumonia",
+        "title": "Researchers Target a Mouse's Own Cells, Rather Than Using Antibiotics, to Treat Pneumonia",
+        "publisher": "National Institutes of Health",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nih.gov/web-policies"
+          },
+          "notes": "NIEHS news release describing a host-directed pneumonia therapy in rodents involving macrophages, EETs, sEH and the synthetic molecule EEZE as an alternative to antibiotics. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Antibiotic Resistance",
+        "summary": "Antibiotic resistance is the phenomenon in which bacteria and other microorganisms mutate so they can survive the effects of antibiotics, a growing problem fueled by the widespread use of these drugs. Resistance mechanisms include enzymes that destroy antibiotics, changes to target sites, bypassing of affected cellular processes, reduced drug entry, and efflux pumps, while biofilms are far more resistant than individual bacteria. In the United States alone, resistant bacteria and fungi infect about 2.8 million people each year and kill more than 35,000, and researchers are pursuing new countermeasures such as phage therapy and host-directed treatments.",
+        "bodyMarkdown": "## Definition and scale\n\nBacteria cause many common illnesses, including strep throat and ear infections, and because they can also cause life-threatening infections, [antibiotics](/hubpedia/antibiotic-discovery) — medicines designed to fight bacteria — have saved many lives. However, the widespread use of antibiotics has fueled a growing problem: antibiotic resistance. [1][2][3]\n\nAntibiotic-resistant bacteria can survive some or even all antibiotics, and other microorganisms, including fungi, can similarly become resistant to the medicines used to treat them. Infections from these microorganisms affect many people and are difficult to treat: according to the CDC, in the U.S. alone resistant bacteria and fungi infect about 2.8 million people each year, and more than 35,000 die as a result. [4][5][6]\n\n## Mechanisms of resistance\n\nAntibiotics can kill bacteria by blocking their ability to build or maintain cell walls or by blocking the production of molecules they need to grow, such as proteins or nucleic acids. But anytime bacteria encounter antibiotics, there is a chance some will mutate in a way that lets them survive those medicines, which is how resistance arises. [7][8]\n\nThe mechanisms by which mutations provide resistance include producing enzymes that destroy antibiotics or make them ineffective, changing the parts of the cell that antibiotics target, developing new ways of functioning that bypass the cellular processes an antibiotic affects, altering or reducing cell entry so antibiotics cannot get in, and building pumps in their cell walls that push out antibiotics that do get inside. [9][10][11][12][13]\n\n## Biofilms\n\nBacteria can organize into biofilms, which can be helpful in certain situations but harmful when they form inside the body. Biofilms are much more resistant to antibiotics than individual bacteria, though scientists are still trying to understand why; their slimy surfaces are hard to penetrate and the environments underneath are very different from the host, both of which may keep the antibiotic from working properly. [14][15]\n\n## Prescribing considerations\n\nBecause of the risk of resistance, doctors prescribe antibiotics only when they can make a difference — for example, they will not prescribe them for a viral infection such as a cold or the flu, because antibiotics do not kill viruses. When someone does not take antibiotics for as long as instructed, it is more likely that some bacteria will survive and develop resistance, and resistant bacteria that arise could make the person sicker or spread to other people. [16][17]\n\nListed prevention measures for resistant infections include never sharing prescribed antibiotics, plus steps that reduce the risk of bacterial infection such as washing hands, keeping cuts clean and covered, and staying up to date on [vaccinations](/hubpedia/vaccination). [18]\n\n## Research on new countermeasures\n\nMany researchers, including those supported by NIGMS, are working on new ways to combat antibiotic-resistant infections. One direction is phage therapy, which uses bacteriophages — viruses that infect bacteria — themselves to treat bacterial infections. Most currently available antibiotics kill bacteria by interfering with cell-wall building, but some bacteria have mutated so the drugs no longer work; in 2016, under a special protocol for experimental therapies, phage mixtures were given to a patient infected with antibiotic-resistant Acinetobacter baumanii, who became the first person in the United States to successfully receive an intravenous phage treatment. [19][20][21]\n\nStill, it is unclear whether phage therapies can be successfully commercialized, one reason being that phages are very specific against a single type of bacteria rather than treating a wide variety of infections; if commercialized, the treatments will likely be reserved for infections that antibiotics cannot treat. [22][23]\n\nIn another direction, NIH researchers discovered a therapy for bacterial pneumonia in rodents that targets host cells rather than bacterial cells. The method involves macrophages — white blood cells of the [immune system](/hubpedia/immune-system) that eat bacteria — and epoxyeicosatrienoic acids (EETs), compounds naturally produced in mice and humans. Pneumococcal pneumonia is the leading cause of pneumonia deaths worldwide each year, and because antibiotic treatment is not always successful and the bacteria can become resistant, such alternatives are being explored. [24][25][26]\n\nIn this pathway, infection induces a protein called soluble epoxide hydrolase (sEH) that degrades EETs; when sEH is blocked, EET levels skyrocket and hamper the macrophages' ability to sense and eat bacteria, so the bacteria continue to reproduce in the lung, leading to severe infection and death. Conversely, blocking EETs with a synthetic molecule called EEZE boosted the macrophages' eating capacity and reduced bacterial numbers in mouse lungs, and the same result was seen in test tubes with bacteria and macrophages harvested from human volunteers' lung and blood samples. [27][28]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "細菌は連鎖球菌性咽頭炎や耳の感染症をはじめ多くの一般的疾患を引き起こす。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/11/what-is-antibiotic-resistance",
+              "quote": "Bacteria can cause many common illnesses, including strep throat and ear infections."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "抗菌薬は細菌と闘うために設計された医薬品であり、細菌が生命を脅かす感染症も起こすことから多くの命を救ってきた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/11/what-is-antibiotic-resistance",
+              "quote": "a medicine designed to fight bacteria"
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/11/what-is-antibiotic-resistance",
+              "quote": "Because bacteria can also cause life-threatening infections, antibiotics have saved many lives."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "抗菌薬の広範な使用が抗菌薬耐性という進行中の問題を助長してきた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/11/what-is-antibiotic-resistance",
+              "quote": "the widespread use of antibiotics has fueled a growing problem: antibiotic resistance."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "抗菌薬耐性菌は一部またはすべての抗菌薬の作用を生き延びうる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/11/what-is-antibiotic-resistance",
+              "quote": "Antibiotic-resistant bacteria can survive some or even all antibiotics."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "真菌を含む他の微生物も、治療に使われる薬への耐性を同様に獲得しうる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/11/what-is-antibiotic-resistance",
+              "quote": "Other microorganisms, including fungi, can similarly become resistant to the medicines that are used to treat them."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "耐性微生物による感染症は多くの人に影響し治療が困難で、米国では耐性の細菌・真菌が年間約280万人に感染し3万5000人以上が死亡する（CDC）。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/11/what-is-antibiotic-resistance",
+              "quote": "Infections from these microorganisms affect many people and are difficult to treat."
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/11/what-is-antibiotic-resistance",
+              "quote": "in the U.S. alone, resistant bacteria and fungi infect 2.8 million people each year, and more than 35,000 die as a result."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "抗菌薬は、細菌の細胞壁の構築・維持を妨げたり、成長に必要なタンパク質や核酸などの分子の産生を妨げたりして細菌を殺す。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/11/what-is-antibiotic-resistance",
+              "quote": "blocking bacteria's ability to build or maintain their cell walls and blocking the production of molecules, like proteins or nucleic acids, that they need to grow."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "細菌が抗菌薬にさらされるたび、変異によってその薬を生き延びられるようになる可能性がある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/11/what-is-antibiotic-resistance",
+              "quote": "anytime bacteria encounter antibiotics, there’s a chance some will mutate in a way that enables them to survive those medicines"
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "耐性変異の機構には、抗菌薬を破壊するか無効化する酵素の産生がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/11/what-is-antibiotic-resistance",
+              "quote": "Produce enzymes that destroy antibiotics or make them ineffective"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "耐性変異の機構には、抗菌薬が標的とする細胞部分を変化させるものがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/11/what-is-antibiotic-resistance",
+              "quote": "Change parts of the cells that antibiotics target so that the antibiotics can’t do their jobs"
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "耐性変異の機構には、抗菌薬が影響する細胞プロセスを迂回する新しい機能様式の開発がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/11/what-is-antibiotic-resistance",
+              "quote": "Develop new ways of functioning that bypass the cellular processes affected by an antibiotic"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "耐性変異の機構には、細胞への侵入を変化・減少させて抗菌薬の侵入を困難にするものがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/11/what-is-antibiotic-resistance",
+              "quote": "Alter or reduce cell entry so that it’s more difficult for antibiotics to get into cells"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "耐性変異の機構には、侵入した抗菌薬を押し出すポンプを細胞壁に構築するものがある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/11/what-is-antibiotic-resistance",
+              "quote": "Build pumps in their cell walls that push out antibiotics that get inside"
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "細菌はバイオフィルムを形成でき、特定の状況では有益だが体内で形成されると有害になりうる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/11/what-is-antibiotic-resistance",
+              "quote": "Bacteria can organize into biofilms, which can be helpful to humans in certain situations but harmful when they form inside the body."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "バイオフィルムは個々の細菌よりはるかに抗菌薬耐性が高いが理由は解明中で、粘液質表面の浸透困難さや宿主と異なる内部環境が薬の働きを妨げる可能性がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/11/what-is-antibiotic-resistance",
+              "quote": "Biofilms are much more resistant to antibiotics than individual bacteria are, but scientists are still trying to understand why."
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/11/what-is-antibiotic-resistance",
+              "quote": "Their slimy surfaces are hard to penetrate and the environments underneath are very different from the host—both of which may keep the antibiotic from working properly."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "耐性リスクがあるため医師は効果が見込める場合にのみ抗菌薬を処方し、抗菌薬はウイルスを殺さないためウイルス感染症には処方されない。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/11/what-is-antibiotic-resistance",
+              "quote": "doctors prescribe antibiotics only when they can make a difference."
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/11/what-is-antibiotic-resistance",
+              "quote": "prescribe antibiotics when a person has a viral infection, such as a cold or the flu, because antibiotics don’t kill viruses."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "指示された期間どおりに服用しないと細菌が生存し耐性を獲得しやすくなり、耐性菌は本人を悪化させ他者に広がりうる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/11/what-is-antibiotic-resistance",
+              "quote": "When someone doesn’t take antibiotics for as long as their doctor tells them to, it’s more likely that some bacteria will survive and develop resistance."
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/11/what-is-antibiotic-resistance",
+              "quote": "If antibiotic-resistant bacteria arise, they could make the person sicker or spread to other people."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "耐性感染症の予防策として、処方薬の共有回避のほか、手洗い・切り傷の清潔保持と被覆・ワクチン接種の最新化など細菌感染リスクを減らす措置が挙げられる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/11/what-is-antibiotic-resistance",
+              "quote": "Never sharing antibiotics that were prescribed to you with someone else"
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/11/what-is-antibiotic-resistance",
+              "quote": "Taking steps to reduce the risk of getting a bacterial infection, such as washing your hands, keeping cuts clean and covered, and staying up to date on vaccinations"
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "バクテリオファージ（ファージ）は細菌に感染するウイルスであり、抗菌薬耐性を獲得した細菌との闘いに役立つ可能性が示されている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2022/04/how-bacteria-infecting-viruses-could-save-lives",
+              "quote": "bacteriophages—viruses that infect bacteria."
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2022/04/how-bacteria-infecting-viruses-could-save-lives",
+              "quote": "phages, as bacteriophages are often called, could help us fight bacteria that have developed resistance to antibiotics."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "現行抗菌薬の多くは細胞壁構築を妨げて細菌を殺すが、変異で効かなくなった細菌もいる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2022/04/how-bacteria-infecting-viruses-could-save-lives",
+              "quote": "Most currently available antibiotics kill bacteria by interfering with the building of their cell walls, but some bacteria have mutated so the antibiotics are no longer effective."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "ファージ療法はファージ自体で細菌感染を治療するもので、2016年に実験的治療の特別プロトコルの下で耐性アシネトバクター・バウマニ感染の患者へファージ混合剤が投与され、米国初の静脈内ファージ治療成功例につながった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2022/04/how-bacteria-infecting-viruses-could-save-lives",
+              "quote": "phage therapies, which use phages themselves to treat bacterial infections."
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2022/04/how-bacteria-infecting-viruses-could-save-lives",
+              "quote": "In 2016, he helped create one of two phage mixtures given to a patient infected with antibiotic-resistant Acinetobacter baumanii bacteria under a special protocol for experimental therapies."
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2022/04/how-bacteria-infecting-viruses-could-save-lives",
+              "quote": "becoming the first person in the United States to successfully receive an intravenous phage treatment."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "ファージ療法が商業化できるかは不明とされ、一因はファージが単一の細菌種に特異的で広範な感染症に使えないことである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2022/04/how-bacteria-infecting-viruses-could-save-lives",
+              "quote": "it’s unclear whether phage therapies can be successfully commercialized for several reasons—one of them being the fact that phages are very specific against a single type of bacteria rather than being able to treat a wide variety of bacterial infections."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "商業化された場合も、ファージ療法は抗菌薬で治療できない感染症に限られる可能性が高いと見られている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2022/04/how-bacteria-infecting-viruses-could-save-lives",
+              "quote": "his gut instinct is that the treatments will be reserved for infections that antibiotics can’t treat."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "NIHの研究者らは細菌性肺炎の治療で、細菌細胞ではなく宿主細胞を標的とする治療法を齧歯類で発見した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.niehs.nih.gov/newsreleases/researchers-target-a-mouses-own-cells-rather-than-using-antibiotics-to-treat-pneumonia",
+              "quote": "Researchers at the National Institutes of Health have discovered a therapy that targets host cells rather than bacterial cells in treating bacterial pneumonia in rodents."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "肺炎球菌性肺炎は肺炎死の世界的な主原因で、抗菌薬治療は常に成功するとは限らず細菌が耐性化する場合がある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.niehs.nih.gov/newsreleases/researchers-target-a-mouses-own-cells-rather-than-using-antibiotics-to-treat-pneumonia",
+              "quote": "pneumonia caused by Streptococcus pneumoniae, or pneumococcal pneumonia, is the leading cause of pneumonia deaths worldwide each year."
+            },
+            {
+              "sourceUrl": "https://www.niehs.nih.gov/newsreleases/researchers-target-a-mouses-own-cells-rather-than-using-antibiotics-to-treat-pneumonia",
+              "quote": "treatment is not always successful, and in some cases, the bacteria become resistant."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "その治療法は、細菌を食べる免疫系の白血球マクロファージと、マウス・ヒトで自然に産生されるEETという化合物群に関係する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.niehs.nih.gov/newsreleases/researchers-target-a-mouses-own-cells-rather-than-using-antibiotics-to-treat-pneumonia",
+              "quote": "The method involves white blood cells of the immune system called macrophages that eat bacteria, and a group of compounds that are naturally produced in mice and humans called epoxyeicosatrienoic acids or EETs."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "感染はEETを分解するsEHを誘導し、sEH阻害でEETが急増するとマクロファージの貪食を妨げ、細菌が肺で増殖して重篤な肺感染や死亡に至る。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.niehs.nih.gov/newsreleases/researchers-target-a-mouses-own-cells-rather-than-using-antibiotics-to-treat-pneumonia",
+              "quote": "infection induces a protein called soluble epoxide hydrolase (sEH) that degrades EETs. In contrast, when sEH is blocked, EET levels skyrocket, hampering the macrophages’ ability to sense and eat bacteria. As a result, the bacteria continue to reproduce in the lung, which leads to severe lung infection and death."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "EEZEによるEET阻害はマクロファージの貪食能力を高めマウス肺内の細菌数を減らし、ヒト試料の試験管内実験でも同じ結果が得られた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.niehs.nih.gov/newsreleases/researchers-target-a-mouses-own-cells-rather-than-using-antibiotics-to-treat-pneumonia",
+              "quote": "blocking EETs using a synthetic molecule called EEZE boosted the eating capacity of the macrophages, leading to reduced numbers of bacteria in the lungs of mice."
+            },
+            {
+              "sourceUrl": "https://www.niehs.nih.gov/newsreleases/researchers-target-a-mouses-own-cells-rather-than-using-antibiotics-to-treat-pneumonia",
+              "quote": "The scientists saw the same result when they placed bacteria and macrophages harvested from lung and blood samples of human volunteers in test tubes"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "immune-system",
+    "topicType": "concept",
+    "categoryLabel": "医学・健康",
+    "title": "免疫系",
+    "summary": "免疫系とは、細胞・組織・器官が協調して体への有害な侵害を阻止・検出・排除する仕組みであり、細菌・ウイルス・真菌・寄生虫などの侵入者から体を守る。感染に対する第一線の防御である自然免疫系と、特定の微生物を認識するよう訓練され遭遇した病原体を記憶する適応免疫系に分けて考えられる。免疫系の機能不全には、自己を攻撃する自己免疫疾患、免疫不全、敗血症、アレルギーなどがあり、自己免疫疾患は80種類以上が知られ遺伝的・環境的因子の相互作用が示唆されている。",
+    "bodyMarkdown": "## 免疫系の構成と役割\n\n免疫系は、細胞・組織・器官が協調して体への有害な侵害を阻止・検出・排除する仕組みであり、細菌・ウイルス・真菌・寄生虫などの侵入者から体を守る。ウイルスには、胃腸の炎症を通じて子どもに一般的な病気を起こす[ロタウイルス](/hubpedia/rotavirus-vaccine)などがある。免疫系は役割の異なる自然免疫系と適応免疫系の2つの部隊に分けて考えられることが多く、両者は協力して感染を防ぐ。 [1][2]\n\n## 自然免疫\n\n自然免疫系は感染に対する第一線の防御であり、その構成要素には、侵入者への物理的障壁となる皮膚、感染を起こす前に侵入者を捕捉する鼻・喉・肺の粘膜、胃の中の微生物を殺す胃酸、唾液や涙に含まれ微生物の外膜を攻撃して殺すリゾチームなどの酵素、微生物を検出・除去する食細胞と呼ばれる特殊細胞、そして免疫細胞が識別・破壊できるよう微生物に標識を付ける血中の小さなタンパク質群である補体系がある。 [3][4]\n\n自然免疫系の細胞は非特異的に働き、微生物の表面にのみ見られるタンパク質を識別することでほぼあらゆる微生物を検出でき、常に備わっているため即座に（数時間以内に）作用する。 [5][6]\n\n## 適応免疫と免疫記憶\n\n一方、適応免疫系は抗原特異的であり、特定の微生物を認識・攻撃するよう訓練された細胞群から成る。あらゆる種類の微生物に対応する戦力を常備することはできないため、適応免疫系は微生物特異的な戦力を産生する間、効果的な応答を開始するまで数日を要する。その構成要素には、微生物表面に結合して免疫細胞による識別・破壊を可能にする抗原特異的タンパク質である抗体、抗体を産生するB細胞、微生物を殺すT細胞がある。 [7][8][9]\n\n適応免疫系は遭遇した病原体を記憶する能力から名づけられ、新しい病原体への曝露のたびに最善の応答を学んで記憶するため、同じ侵入者への次回の曝露時により速く効果的に反応できる。[ワクチン](/hubpedia/vaccine)はこの仕組みを利用し、感染を模倣して免疫学的記憶を生じさせるが、感染そのものが伴うリスクは持たない。 [10][11][12]\n\n## 免疫系の機能不全\n\n免疫系は感染を引き起こしうる侵入者の兆候を体内で監視するよう設計されているが、過敏・低下のいずれの機能不全も健康に悪影響を与えうる。白血球は発生過程で「自己」と「非自己」を区別する訓練を受け、あらゆる自己細胞を攻撃しないよう訓練されるが、この訓練が失敗すると自己を標的とする白血球が生じ、自己免疫疾患を引き起こす。例えば1型糖尿病は、免疫系が血糖値を制御するホルモンであるインスリンを産生する膵臓を誤って攻撃した結果である。 [13][14][15]\n\n## 免疫不全・敗血症・アレルギー\n\n免疫系が感染を効果的に防げない状態は免疫不全と呼ばれ、免疫系のあらゆる細胞型が関与しうるほか、[遺伝](/hubpedia/gene)的な先天性のものと外部因子による後天性のものがある。遺伝性の例であるX連鎖無ガンマグロブリン血症（XLA）では、B細胞をほとんど作れず抗体を効果的に産生できないため、感染に非常に弱くワクチンにも反応しない。後天性では、ヒト免疫不全ウイルス（HIV）がT細胞と呼ばれる白血球に感染して殺し、制御不能なHIV感染は細菌・真菌・他のウイルスによる頻繁な感染を伴う後天性免疫不全症候群（AIDS）に至りうる。 [16][17][18]\n\n敗血症は、免疫系が細菌・ウイルス・真菌の感染やその他の傷害に不適切に反応したときに起こる状態である。通常、免疫系は感染や傷害と闘うために化学的・タンパク質性の媒介物質を血中に放出するが、制御不能になると広範な炎症を引き起こして臓器への血流を損ない、栄養と酸素を奪って臓器障害に至る。米国では毎年少なくとも170万人の成人がこの生命を脅かす状態を発症し、乳幼児・子ども・高齢者、糖尿病・癌・肝疾患などの基礎疾患がある人が最もリスクが高いとされる。 [19][20]\n\n白血球は有害と無害の「非自己」の区別も訓練されており、この訓練が失敗するとアレルギー（他の多くの人に影響しない無害な物質への反応）を発症しうる。アレルゲンにはダニ・食物・虫刺され・薬・カビの胞子・ペットの皮屑・花粉などがあり、症状は鼻水・くしゃみ・かゆみ・発疹から、唇や舌の腫れや呼吸困難を引き起こす生命を脅かすアナフィラキシーまで幅がある。 [21][22]\n\n## 自己免疫疾患の要因と種類\n\n健康な免疫系は疾患や感染から体を守るが、機能不全になると健康な細胞・組織・器官を誤って攻撃し、これが自己免疫疾患と呼ばれる。自己免疫疾患は80種類以上知られ、1型糖尿病・多発性硬化症・ループス・関節リウマチなど有名なものから、まれで診断が困難なものまであり、ほとんどに治癒法はない。 [23][24]\n\n研究では、自己免疫疾患は遺伝的・環境的因子の相互作用から生じる可能性が高いと示されており、性・人種・民族性が罹患可能性と関連づけられている。NIEHSの研究では、日光の紫外線曝露と若年性皮膚筋炎、子ども時代の低い社会経済的地位と成人期の関節リウマチ、一部の農薬曝露と男性農業労働者の関節リウマチ、メチル水銀曝露と自己免疫抗体との関連が示唆されている。 [25][26]",
+    "sources": [
+      {
+        "url": "https://nigms.nih.gov/biobeat/2023/12/what-is-the-immune-system",
+        "title": "What Is the Immune System?",
+        "publisher": "National Institutes of Health",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nih.gov/web-policies"
+          },
+          "notes": "NIGMS Biomedical Beat post explaining innate and adaptive immunity — barriers, phagocytes, complement, antibodies, B-cells, T-cells and immunological memory. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://nigms.nih.gov/biobeat/2024/01/how-can-the-immune-system-go-awry",
+        "title": "How Can the Immune System Go Awry?",
+        "publisher": "National Institutes of Health",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nih.gov/web-policies"
+          },
+          "notes": "NIGMS Biomedical Beat post on immune-system malfunctions — autoimmune disorders, immunodeficiency (XLA, HIV/AIDS), sepsis and allergies. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.niehs.nih.gov/health/topics/conditions/autoimmune",
+        "title": "Autoimmune Diseases",
+        "publisher": "National Institutes of Health",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nih.gov/web-policies"
+          },
+          "notes": "NIEHS health topic page describing autoimmune disease — more than 80 known diseases, genetic–environmental interactions and NIEHS research on exposures. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Immune System",
+        "summary": "The immune system is a network of cells, tissues, and organs that work together to block, detect, and eliminate harmful insults to the body, protecting it from invaders such as bacteria, viruses, fungi, and parasites. It is often divided into the innate immune system, the first line of defense against infection, and the adaptive immune system, whose cells are trained to recognize specific microbes and remember the pathogens they encounter. Malfunctions include autoimmune disorders, immunodeficiency, sepsis, and allergies; more than 80 autoimmune diseases are known, and they likely result from interactions between genetic and environmental factors.",
+        "bodyMarkdown": "## Composition and role\n\nThe immune system is a trained army of cells, tissues, and organs that work together to block, detect, and eliminate harmful insults to the body, protecting it from invaders like bacteria, viruses, fungi, and parasites — viruses include [rotavirus](/hubpedia/rotavirus-vaccine), which commonly causes illness in children through inflammation of the stomach and intestines. The system is often thought of as two separate platoons, the innate and adaptive immune systems, which have different jobs but work together to prevent infections. [1][2]\n\n## Innate immunity\n\nThe innate immune system is the first line of defense against infection. Its components include skin, which provides a physical barrier; mucous membranes in the nose, throat, and lungs, which trap invaders before they cause infection; stomach acid, which kills microbes; enzymes such as lysozyme in saliva and tears that kill pathogens by attacking their outer membranes; specialized cells called phagocytes that detect and clear out microbes; and the complement system, tiny proteins in the blood that tag microbes so immune cells can identify and destroy them. [3][4]\n\nInnate immune cells work in a nonspecific way — they can detect nearly any microbe by identifying proteins found only on microbe surfaces — and the innate immune system works immediately, within a few hours, because it is always ready to act. [5][6]\n\n## Adaptive immunity and immunological memory\n\nThe adaptive immune system, by contrast, is antigen specific, made up of cells trained to recognize and attack specific microbes. Because the body cannot keep a full stockpile of fighters for every possible type of microbe, the adaptive immune system takes several days to mount an effective response while it produces microbe-specific fighters. Its components include antibodies — antigen-specific proteins that bind to the surface of microbes so immune cells can identify and destroy them — plus B-cells, which produce antibodies, and T-cells, which kill microbes. [7][8][9]\n\nThe adaptive immune system gets its name from its ability to remember the pathogens it encounters: each exposure to a new pathogen teaches it the best way to respond, so it can react faster and more effectively the next time it meets the same invader. [Vaccines](/hubpedia/vaccine) exploit this mechanism, generating immunological memory by mimicking infection without carrying the risks that infection does. [10][11][12]\n\n## Immune-system malfunction\n\nThe immune system is designed to closely monitor the body for signs of intruders that may cause infection, but both overactive and underactive immune systems can have negative effects on health. During development, white blood cells are trained to differentiate \"self\" from \"non-self\" and to avoid attacking any self cells; when this training fails, white blood cells that target self arise and cause autoimmune disorders. For example, type 1 diabetes results when the immune system wrongly attacks the pancreas, the organ that produces insulin. [13][14][15]\n\n## Immunodeficiency, sepsis, and allergies\n\nWhen the immune system does not work effectively to prevent infections, the result is called immunodeficiency; immunodeficiency disorders can involve any cell type of the immune system and can be either inherited ([genetic](/hubpedia/gene)) or acquired through external factors. An inherited example is X-linked agammaglobulinemia (XLA), in which people make very few B-cells and therefore cannot generate antibodies effectively, leaving them highly susceptible to infection and unresponsive to vaccination. An acquired form is caused by HIV, which infects and kills T-cells; uncontrolled HIV infection may lead to AIDS, associated with frequent infections by bacteria, fungi, or other viruses. [16][17][18]\n\nSepsis occurs when the immune system responds improperly to insults such as bacterial, viral, or fungal infections or other injuries. Normally the immune system releases chemical or protein mediators into the blood to combat the infection, but if uncontrolled, those mediators can trigger widespread inflammation that impairs blood flow to organs, depriving them of nutrients and oxygen and leading to organ damage. At least 1.7 million adults in the United States develop this life-threatening condition each year; those at highest risk are infants, children, older adults, and people with underlying conditions such as diabetes, cancer, or liver disease. [19][20]\n\nWhite blood cells are also trained to distinguish harmful from harmless \"non-self\"; when this part of the training fails, people may develop an allergy — a reaction to a harmless substance that does not affect most other people. Allergens include dust mites, food, insect stings, medicines, mold spores, pet dander, and pollen, and symptoms range from a runny nose, sneezing, itching, and rashes to anaphylaxis, a life-threatening reaction that can cause swelling of the lips and tongue and difficulty breathing. [21][22]\n\n## Autoimmune diseases: factors and types\n\nA healthy immune system defends the body against disease and infection, but when it malfunctions it mistakenly attacks healthy cells, tissues, and organs — attacks called autoimmune disease. Scientists know of more than 80 autoimmune diseases, from well-known ones such as type 1 diabetes, multiple sclerosis, lupus, and rheumatoid arthritis to rare ones that are difficult to diagnose, and most have no cure. [23][24]\n\nStudies indicate these diseases likely result from interactions between genetic and environmental factors, and sex, race, and ethnicity are linked to the likelihood of developing one. NIEHS research has suggested links between ultraviolet sunlight exposure and juvenile dermatomyositis, between lower childhood socioeconomic status and adult rheumatoid arthritis, between some pesticide exposures and rheumatoid arthritis in male farm workers, and between methylmercury exposure and autoimmune antibodies in women of reproductive age. [25][26]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "免疫系は、細胞・組織・器官が協調して体への有害な侵害を阻止・検出・排除する仕組みであり、細菌・ウイルス・真菌・寄生虫などの侵入者から体を守る。ウイルスには胃腸の炎症で子どもに病気を起こすことが多いロタウイルスなどがある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/12/what-is-the-immune-system",
+              "quote": "The immune system is a trained army of cells, tissues, and organs that work together to block, detect, and eliminate harmful insults to your body."
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/12/what-is-the-immune-system",
+              "quote": "It can protect you from invaders like bacteria, viruses, fungi, and parasites."
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/12/what-is-the-immune-system",
+              "quote": "the rotavirus, a virus that commonly causes illness in children through inflammation of the stomach and intestines"
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "免疫系は役割の異なる自然免疫系と適応免疫系の2つに分けて考えられることが多く、両者は協力して感染を防ぐ。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/12/what-is-the-immune-system",
+              "quote": "the innate immune system and the adaptive immune system"
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/12/what-is-the-immune-system",
+              "quote": "they work together to prevent infections."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "自然免疫系は感染に対する第一線の防御である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/12/what-is-the-immune-system",
+              "quote": "The innate immune system is the first line of defense against infection."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "自然免疫系の構成要素には、皮膚・粘膜・胃酸・リゾチーム等の酵素・食細胞・補体系がある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/12/what-is-the-immune-system",
+              "quote": "Skin, which provides a physical barrier against invaders"
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/12/what-is-the-immune-system",
+              "quote": "Mucous membranes in the nose, throat, and lungs, which can trap invaders before they cause infection"
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/12/what-is-the-immune-system",
+              "quote": "Stomach acid, which can kill microbes in the stomach"
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/12/what-is-the-immune-system",
+              "quote": "Enzymes, such as lysozyme in saliva and tears, that can kill pathogens by attacking their outer membranes"
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/12/what-is-the-immune-system",
+              "quote": "Specialized cells called phagocytes, which can detect and clear out microbes"
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/12/what-is-the-immune-system",
+              "quote": "Tiny proteins floating in the blood called the complement system, which can tag microbes for immune cells to identify and destroy"
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "自然免疫系の細胞は非特異的に働き、微生物表面にのみ見られるタンパク質を識別してほぼあらゆる微生物を検出できる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/12/what-is-the-immune-system",
+              "quote": "they can detect nearly any microbe by identifying proteins that are only found on microbe surfaces."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "自然免疫系は常に備わっているため即座に（数時間以内に）作用する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/12/what-is-the-immune-system",
+              "quote": "The innate immune system works immediately (or within a few hours) because it’s always ready to act."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "適応免疫系は抗原特異的であり、特定の微生物を認識・攻撃するよう訓練された細胞群から成る。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/12/what-is-the-immune-system",
+              "quote": "the adaptive immune system is antigen specific, meaning its soldiers have been trained to recognize and attack specific microbes."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "あらゆる微生物用の戦力を常備できないため、適応免疫系は微生物特異的な戦力を産生するのに数日かかる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/12/what-is-the-immune-system",
+              "quote": "our bodies can’t keep a full stockpile of fighters for every possible type of microbe"
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/12/what-is-the-immune-system",
+              "quote": "the adaptive immune system takes several days to mount an effective response as it produces microbe-specific fighters."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "適応免疫系の構成要素には、微生物表面に結合する抗原特異的タンパク質である抗体、抗体を産生するB細胞、微生物を殺すT細胞がある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/12/what-is-the-immune-system",
+              "quote": "antigen-specific proteins that can bind to the surface of microbes so that cells of the innate and adaptive immune systems can identify and destroy them"
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/12/what-is-the-immune-system",
+              "quote": "B-cells, which are antigen-specific white blood cells that produce antibodies"
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/12/what-is-the-immune-system",
+              "quote": "T-cells, which are antigen-specific white blood cells that kill microbes"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "適応免疫系は遭遇した病原体を記憶する能力から名づけられ、新しい病原体への曝露ごとに最善の応答を学び記憶する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/12/what-is-the-immune-system",
+              "quote": "The adaptive immune system gets its name from its ability to remember the pathogens it encounters."
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/12/what-is-the-immune-system",
+              "quote": "Each time your immune system is exposed to a new pathogen, it learns the best way to respond and remembers what it learned."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "この記憶により、適応免疫系は同じ侵入者への次回曝露時により速く効果的に反応できる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/12/what-is-the-immune-system",
+              "quote": "This allows the adaptive immune system to react faster and more effectively the next time it’s exposed to the same invader."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "ワクチンは感染を模倣して免疫学的記憶を生じさせるが、感染のリスクは伴わない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2023/12/what-is-the-immune-system",
+              "quote": "Vaccines generate immunological memory by mimicking infection, but they don’t have the risks infection does."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "免疫系は感染を引き起こしうる侵入者の兆候を体内で監視するよう設計されており、過敏・低下のいずれの機能不全も健康に悪影響を与えうる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2024/01/how-can-the-immune-system-go-awry",
+              "quote": "The immune system is designed to closely monitor the body for signs of intruders that may cause infection."
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2024/01/how-can-the-immune-system-go-awry",
+              "quote": "Overactive and underactive immune systems can both have negative effects on your health."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "白血球は発生過程で「自己」と「非自己」を区別する訓練を受け、あらゆる自己細胞を攻撃しないよう訓練される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2024/01/how-can-the-immune-system-go-awry",
+              "quote": "white blood cells go through training to learn how to differentiate “self” from “non-self.”"
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2024/01/how-can-the-immune-system-go-awry",
+              "quote": "They are trained to avoid attacking any “self” cells, which includes all types of human cells."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "この訓練が失敗すると自己を標的とする白血球が生じ自己免疫疾患を引き起こす。1型糖尿病は免疫系がインスリンを産生する膵臓を誤って攻撃した結果である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2024/01/how-can-the-immune-system-go-awry",
+              "quote": "Sometimes this training fails, creating white blood cells that target “self” and cause autoimmune disorders."
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2024/01/how-can-the-immune-system-go-awry",
+              "quote": "type 1 diabetes results when the immune system wrongly attacks the pancreas, which is the organ that produces insulin—a hormone that controls blood sugar levels."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "免疫系が感染を効果的に防げない状態は免疫不全と呼ばれ、免疫系のあらゆる細胞型が関与しうるほか、遺伝性（先天性）と後天性（外部因子由来）がある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2024/01/how-can-the-immune-system-go-awry",
+              "quote": "Doctors and researchers call this immunodeficiency."
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2024/01/how-can-the-immune-system-go-awry",
+              "quote": "Immunodeficiency disorders can involve any cell type of the immune system and can be either inherited (genetic) or acquired (caused by external factors)."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "X連鎖無ガンマグロブリン血症（XLA）は遺伝性免疫不全の例で、B細胞をほとんど作れず抗体を効果的に産生できないため感染に非常に弱くワクチンに反応しない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2024/01/how-can-the-immune-system-go-awry",
+              "quote": "X-linked agammaglobulinemia (XLA) is an example of an inherited immunodeficiency disorder. People with XLA make very few white blood cells called B-cells"
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2024/01/how-can-the-immune-system-go-awry",
+              "quote": "They therefore can’t generate antibodies effectively and are thus highly susceptible to infection and unresponsive to vaccination."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "HIVはT細胞と呼ばれる白血球に感染して殺し、制御不能なHIV感染は細菌・真菌・他のウイルスによる頻繁な感染を伴うAIDSに至りうる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2024/01/how-can-the-immune-system-go-awry",
+              "quote": "HIV infects and kills white blood cells called T-cells."
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2024/01/how-can-the-immune-system-go-awry",
+              "quote": "Uncontrolled HIV infection may lead to acquired immunodeficiency syndrome (AIDS), which is associated with frequent infections by bacteria, fungi, or other viruses."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "敗血症は免疫系が細菌・ウイルス・真菌感染やその他の傷害に不適切に反応したときに起こる状態で、制御不能な媒介物質が広範な炎症を引き起こし臓器への血流を損ない臓器障害に至る。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2024/01/how-can-the-immune-system-go-awry",
+              "quote": "Sepsis is a condition that occurs when a person’s immune system responds improperly to certain insults, such as bacterial, viral, or fungal infections or other injuries."
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2024/01/how-can-the-immune-system-go-awry",
+              "quote": "those mediators can trigger widespread inflammation that impairs blood flow to organs, depriving them of nutrients and oxygen and leading to organ damage."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "米国では毎年少なくとも170万人の成人が敗血症を発症し、乳幼児・子ども・高齢者・糖尿病や癌・肝疾患などの基礎疾患がある人が最もリスクが高い。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2024/01/how-can-the-immune-system-go-awry",
+              "quote": "At least 1.7 million adults in the United States develop this life-threatening condition each year."
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2024/01/how-can-the-immune-system-go-awry",
+              "quote": "Those at highest risk of developing sepsis are infants, children, older adults, and those with underlying medical conditions such as diabetes, cancer, or liver disease."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "白血球は有害と無害の「非自己」の区別も訓練され、この訓練が失敗するとアレルギー（他の多くの人に影響しない無害な物質への反応）を発症しうる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2024/01/how-can-the-immune-system-go-awry",
+              "quote": "they also get trained to distinguish harmful from harmless “non-self.” When this part of the training fails, people may develop an allergy—a reaction to a harmless substance that doesn’t affect most other people."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "アレルゲンにはダニ・食物・虫刺され・薬・カビ胞子・ペットの皮屑・花粉などがあり、症状は鼻水・くしゃみ・かゆみ・発疹から、唇・舌の腫れや呼吸困難を引き起こすアナフィラキシーまで幅がある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2024/01/how-can-the-immune-system-go-awry",
+              "quote": "Dust mites"
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2024/01/how-can-the-immune-system-go-awry",
+              "quote": "Pet dander"
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2024/01/how-can-the-immune-system-go-awry",
+              "quote": "Pollen"
+            },
+            {
+              "sourceUrl": "https://nigms.nih.gov/biobeat/2024/01/how-can-the-immune-system-go-awry",
+              "quote": "These symptoms can include a runny nose, sneezing, itching, and rashes. Severe allergies may cause anaphylaxis, a life-threatening reaction that can trigger swelling of the lips and tongue and difficulty breathing."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "健康な免疫系は疾患や感染から体を守るが、機能不全になると健康な細胞・組織・器官を誤って攻撃し、これが自己免疫疾患と呼ばれる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.niehs.nih.gov/health/topics/conditions/autoimmune",
+              "quote": "A healthy immune system defends the body against disease and infection."
+            },
+            {
+              "sourceUrl": "https://www.niehs.nih.gov/health/topics/conditions/autoimmune",
+              "quote": "if the immune system malfunctions, it mistakenly attacks healthy cells, tissues, and organs. Called autoimmune disease"
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "自己免疫疾患は80種類以上知られ、1型糖尿病・多発性硬化症・ループス・関節リウマチなど有名なものからまれで診断困難なものまであり、ほとんどに治癒法はない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.niehs.nih.gov/health/topics/conditions/autoimmune",
+              "quote": "Scientists know about more than 80 autoimmune diseases."
+            },
+            {
+              "sourceUrl": "https://www.niehs.nih.gov/health/topics/conditions/autoimmune",
+              "quote": "Some are well known, such as type 1 diabetes, multiple sclerosis, lupus, and rheumatoid arthritis, while others are rare and difficult to diagnose."
+            },
+            {
+              "sourceUrl": "https://www.niehs.nih.gov/health/topics/conditions/autoimmune",
+              "quote": "Most of these diseases have no cure."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "自己免疫疾患は遺伝的・環境的因子の相互作用から生じる可能性が高いと研究で示され、性・人種・民族性が罹患可能性と関連づけられている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.niehs.nih.gov/health/topics/conditions/autoimmune",
+              "quote": "Studies indicate these diseases likely result from interactions between genetic and environmental factors."
+            },
+            {
+              "sourceUrl": "https://www.niehs.nih.gov/health/topics/conditions/autoimmune",
+              "quote": "Sex, race, and ethnicity characteristics are linked to a likelihood of developing an autoimmune disease."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "NIEHSの研究では、日光の紫外線曝露と若年性皮膚筋炎、子ども時代の低い社会経済的地位と成人期の関節リウマチ、一部の農薬曝露と男性農業労働者の関節リウマチ、メチル水銀と自己免疫抗体との関連が示唆されている。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.niehs.nih.gov/health/topics/conditions/autoimmune",
+              "quote": "exposure to ultraviolet radiation from sunlight may be connected to the development of juvenile dermatomyositis"
+            },
+            {
+              "sourceUrl": "https://www.niehs.nih.gov/health/topics/conditions/autoimmune",
+              "quote": "a link between lower socioeconomic status in childhood and rheumatoid arthritis in adulthood."
+            },
+            {
+              "sourceUrl": "https://www.niehs.nih.gov/health/topics/conditions/autoimmune",
+              "quote": "exposure to some pesticides may play a role in the development of rheumatoid arthritis in male farm workers."
+            },
+            {
+              "sourceUrl": "https://www.niehs.nih.gov/health/topics/conditions/autoimmune",
+              "quote": "methylmercury, even at exposure levels generally considered safe, may be linked to development of autoimmune antibodies in women of reproductive age."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "clinical-trial",
+    "topicType": "concept",
+    "categoryLabel": "医学・健康",
+    "title": "臨床試験",
+    "summary": "臨床試験とは、医学的・外科的・行動的介入を人で検証する研究であり、新しい治療・予防法が安全かつ有効かを判定する主要な方法である。臨床試験には4つの相があり、人での介入検証の黄金標準は無作為化比較試験とされ、対照群・プラセボ・盲検化などの設計要素を持つ。米国ではIRBの承認・インフォームド・コンセント・データ・安全性モニタリング委員会などの保護の仕組みがあり、これらはタスキギー梅毒研究のような過去の問題を受けて整備された。",
+    "bodyMarkdown": "## 定義と種類\n\n臨床研究は人における健康と疾患の研究であり、観察研究と臨床試験の2種類がある。観察研究は通常の環境で人々を観察し、情報を収集して経時変化を比較するもので、参加者は日常診療の一部として介入を受けることがあっても、臨床試験のように研究者によって特定の介入に割り付けられることはなく、薬や機器などの医学的介入を検証しない。 [1][2][3]\n\n臨床試験は臨床研究の一部で医学的進歩の中心にあり、医学的・外科的・行動的介入を人で検証する研究である。疾患の予防・検出・治療の新しい方法を調べ、その目標は新しい検査や治療が有効で安全かを決定することにあるが、慢性疾患を持つ人の生活の質の向上などケアの他の側面を調べることもある。新薬・食事・医療機器（ペースメーカーなど）のような新しい治療・予防法が人において安全かつ有効かを判定する主要な方法であり、多くの場合、新しい治療が既存の治療より有効か、副作用が少ないかを学ぶよう設計される。このほか臨床研究の目的には、疾患の早期診断法の検証、健康問題の予防法の発見、生命を脅かす疾患や慢性疾患を持つ人のQOL向上、介護者や支援グループの役割の研究が含まれる。 [4][5][6][7][8][9]\n\n## 試験の設計\n\n臨床試験には4つの相（フェーズ）があり、第I相は少数の患者で安全性を検証し、第II相・第III相は次第に大規模な患者群で安全性と有効性を検証し、第IV相は医療処置や機器が承認・市販された後も安全性と有効性を監視し続ける。人で介入を検証する際の黄金標準は[無作為化比較試験](/hubpedia/randomized-trial)と呼ばれ、ボランティアを偶然によって実験群（試験群）か対照群に割り付け、各群の結果を比較して新しい治療が有効かを判定する。対照群の参加者は実験的治療を受けないが、実験的治療が標準治療や無治療より優れているかを確かめるために不可欠であり、一部の研究では対照群がプラセボ（治療と同じ方法で与えられるが効果を持たないもの）を受ける。割付群を知ることが結果に影響するため、研究はしばしば盲検化（マスク）され、単盲検では参加者のみが、二重盲検では参加者と研究チームの双方が試験終了まで群を知らない。 [10][11][12][13][14]\n\n参加には、特定の疾患段階・[遺伝子](/hubpedia/gene)の型・家族歴などの包含基準と、検証中の治療を妨げうる特定の健康状態や薬剤などの除外基準が設けられる。適格な参加者を見つけるには多くのボランティアのスクリーニングが必要で、一般に同時に参加できる臨床試験は1つのみである。参加者には、既知の重大な健康問題がない健康なボランティアと、既知の健康問題がある患者ボランティアがいる。 [15][16][17]\n\n## 参加者と多様性\n\n類似した背景の人だけを対象とした研究では、知見がより広い集団に適用・便益とならない可能性があるため、異なる年齢・性・人種・民族性の参加者が研究を有益にする。特に高齢者は、若年者と健康ニーズが異なり、薬への反応や必要な用量・副作用が異なる場合があることから、研究者は高齢者の臨床研究への参加を必要としている。参加者は健康情報の発見への貢献など様々な理由でボランティアし、参加することで科学的発見のパートナーとなる。 [18][19][20]\n\n化学療法・コレステロール低下薬・[ワクチン](/hubpedia/vaccine)・認知行動療法など、今日使われる多くの有効な治療は研究参加者なしには存在しなかった。NIH・NIDDK・他の連邦・民間組織が実施する臨床試験の情報はClinicalTrials.govで検索できる。 [21][22]\n\n## リスクと安全性の仕組み\n\n臨床試験への参加には多くの潜在的便益と一部のリスクがある。リスクには、転倒リスクを高める身体検査やX線によるわずかな発がんリスク増加といった検査由来のものや、追加の診察・処置・入院などの不都合が含まれ、実験的治療は不快または軽度から重篤の副作用を引き起こす場合があり、効かない、あるいは標準治療より優れない可能性もある。 [23][24][25]\n\n安全性を守る仕組みとして、各臨床研究はプロトコルと呼ばれる研究計画に従い、主任研究者がその遵守を確保する責任を持つ。米国のほとんどの臨床研究は、医師・科学者・一般市民で構成される治験審査委員会（IRB）の承認を必要とし、参加者が不必要なリスクにさらされないこと、リスクが潜在的便益を上回らないことを確かめる。インフォームド・コンセントは参加の可否を決める前に研究の重要な事実を学ぶプロセスであり、同意書は契約ではなく、参加者はいつでも理由を問わず研究から離脱できる。介入を検証する臨床試験はデータ・安全性モニタリング委員会の監督を受け、実験的治療が効いていないまたは参加者を害していると判断された場合、試験を早期に停止できる。 [26][27][28][29]\n\nこうした保護の背景には過去の問題もある。1932年から1972年に実施された米国公衆衛生局のタスキギー梅毒研究では、リスクの説明やインフォームド・コンセントが得られず、ペニシリンが1940年代半ばに普及しても参加者に提供されなかった。1972年に研究が報道されると、人を対象とした研究参加者を保護するための標準的な実践と指針の大きな変革につながった。 [30]",
+    "sources": [
+      {
+        "url": "https://www.nia.nih.gov/health/clinical-trials-and-studies/what-are-clinical-trials-and-studies",
+        "title": "What Are Clinical Trials and Studies?",
+        "publisher": "National Institutes of Health",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nih.gov/web-policies"
+          },
+          "notes": "NIA health topic page defining clinical research, observational studies versus clinical trials, eligibility criteria, participant diversity and trial aims. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.nia.nih.gov/health/clinical-trials-and-studies/clinical-research-benefits-risks-and-safety",
+        "title": "Clinical Research: Benefits, Risks, and Safety",
+        "publisher": "National Institutes of Health",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nih.gov/web-policies"
+          },
+          "notes": "NIA health topic page on clinical-research benefits and risks, randomized controlled trials, blinding, informed consent, IRB and safety monitoring, plus the Tuskegee history. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.niddk.nih.gov/health-information/clinical-trials",
+        "title": "Clinical Trials",
+        "publisher": "National Institutes of Health",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nih.gov/web-policies"
+          },
+          "notes": "NIDDK health-information page defining clinical trials as part of clinical research, their goals, volunteer types and the ClinicalTrials.gov registry. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.nhlbi.nih.gov/research/clinical-trials",
+        "title": "Clinical Trials and Studies",
+        "publisher": "National Institutes of Health",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nih.gov/web-policies"
+          },
+          "notes": "NHLBI glossary page defining clinical trials and their four phases and describing how observational studies differ from trials. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Clinical Trial",
+        "summary": "A clinical trial is a research study that tests a medical, surgical, or behavioral intervention in people, and it is the primary way researchers determine whether new forms of treatment or prevention are safe and effective. Trials proceed through four phases, and the gold standard for testing interventions is the randomized controlled trial, with design elements such as control groups, placebos, and blinding. In the United States, safeguards include Institutional Review Board approval, informed consent, and Data and Safety Monitoring Boards — protections shaped in part by past failures such as the Tuskegee Syphilis Study.",
+        "bodyMarkdown": "## Definition and types\n\nClinical research is the study of health and illness in people, and it has two main types: observational studies and clinical trials. Observational studies monitor people in normal settings, gathering information and comparing changes over time; participants may receive interventions as part of their routine medical care, but they are not assigned to specific interventions by the investigator as in a clinical trial, and these studies do not test a medical intervention such as a drug or device. [1][2][3]\n\nClinical trials are a part of clinical research at the heart of all medical advances — research studies that test a medical, surgical, or behavioral intervention in people. They examine new ways to prevent, detect, or treat disease, and their goal is to determine whether a new test or treatment works and is safe, though they can also look at other aspects of care such as improving quality of life for people with chronic illnesses. They are the primary way researchers determine whether a new form of treatment or prevention — such as a new drug, diet, or medical device like a pacemaker — is safe and effective in people, and they are often designed to learn whether a new treatment is more effective or has less harmful side effects than existing treatments. Other aims of clinical research include testing ways to diagnose a disease early, finding approaches to prevent a health problem, improving quality of life for people living with a life-threatening or chronic condition, and studying the role of caregivers or support groups. [4][5][6][7][8][9]\n\n## Trial design\n\nThere are four phases of clinical trials: phase I tests safety in a small group of patients, phases II and III test safety and effectiveness in increasingly larger groups, and phase IV continues to monitor safety and effectiveness after a treatment or device has been approved and marketed in the United States. The gold standard for testing interventions in people is the [randomized controlled trial](/hubpedia/randomized-trial), in which volunteers are randomly assigned to a test group or a control group and the effects in each group are compared. Control-group participants do not receive the experimental treatment but are essential for determining whether it is better than standard or no treatment, and in some studies the control group receives a placebo given the same way as the treatment but with no effect. Because knowing the group assignment might influence results, studies are often blinded or masked: in a single-blind study only the participant does not know the group, while in a double-blind study neither the participant nor the research team knows until the trial ends. [10][11][12][13][14]\n\nParticipation is governed by inclusion criteria — such as a certain stage of disease, version of a [gene](/hubpedia/gene), or family history — and exclusion criteria, such as health conditions or medications that could interfere with the treatment being tested. Many volunteers must be screened to find enough eligible people, and generally a person can participate in only one clinical trial at a time. Participants include healthy volunteers, who have no known significant health problems, and patient volunteers, who have a known health problem. [15][16][17]\n\n## Participants and diversity\n\nWhen research only includes people with similar backgrounds, the findings may not apply to or benefit a broader population, so research benefits from participants of different ages, sexes, races, and ethnicities. Researchers especially need older adults, who may have different health needs and whose bodies may react differently to certain drugs — requiring different dosages or showing different side effects than in younger people. People volunteer for trials for a variety of reasons, and by choosing to participate they become partners in scientific discovery. [18][19][20]\n\nMany effective treatments used today — such as chemotherapy, cholesterol-lowering drugs, [vaccines](/hubpedia/vaccine), and cognitive-behavioral therapy — would not exist without research participants. Information about trials conducted by NIH, NIDDK, and other federal and private organizations can be found at ClinicalTrials.gov. [21][22]\n\n## Risks and the safety framework\n\nParticipating in a trial has many potential benefits and also some possible risks. Risks include tests that pose a risk — for example, certain physical tests may increase the chance of falling and X-rays may cause a small increase in cancer risk — plus inconveniences such as additional or longer appointments, more procedures, or hospital stays. An experimental treatment may also be uncomfortable or cause side effects ranging from mild to serious, and it might not work or might not be better than the standard treatment. [23][24][25]\n\nAs safeguards, each study follows a careful plan called a protocol, and the principal investigator is responsible for ensuring it is followed. Most clinical studies in the U.S. must be approved by an Institutional Review Board made up of doctors, scientists, and members of the general public, which ensures participants are not exposed to unnecessary risks and that risks do not outweigh potential benefits. Informed consent is the process by which people learn the key facts about a study before deciding whether to participate, and the consent form is not a contract — participants may leave at any time for any reason. Trials testing an intervention are closely supervised by a Data and Safety Monitoring Board, which can stop the trial early if the treatment is not working or is harming participants. [26][27][28][29]\n\nPast failures helped shape these protections. In the U.S. Public Health Service Syphilis Study at Tuskegee, conducted from 1932 to 1972, researchers did not explain the study's risks or obtain informed consent, and they did not offer participants penicillin when it became widely available in the mid-1940s. After news of the study leaked in 1972, it led to sweeping changes in standard research practices and guidelines to protect human research participants. [30]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "臨床研究は人における健康と疾患の研究であり、観察研究と臨床試験の2種類がある。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/what-are-clinical-trials-and-studies",
+              "quote": "Clinical research is the study of health and illness in people. There are two main types of clinical research: observational studies and clinical trials."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "観察研究は通常の環境で人を観察し、情報を収集して経時変化を比較し、薬や機器などの医学的介入を検証しない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/what-are-clinical-trials-and-studies",
+              "quote": "Observational studies monitor people in normal settings. Researchers gather information from people and compare changes over time."
+            },
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/what-are-clinical-trials-and-studies",
+              "quote": "Observational studies do not test a medical intervention, such as a drug or device"
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "観察研究では参加者は日常診療の一部として介入を受けることがあるが、臨床試験のように研究者によって特定の介入に割り付けられない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nhlbi.nih.gov/research/clinical-trials",
+              "quote": "Participants may receive interventions, such as medicines or medical devices, as part of their routine medical care, but participants are not assigned to specific interventions by the investigator as is done in a clinical trial."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "臨床試験は臨床研究の一部で医学的進歩の中心にあり、疾患の予防・検出・治療の新しい方法を調べる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.niddk.nih.gov/health-information/clinical-trials",
+              "quote": "Clinical trials are a part of clinical research and at the heart of all medical advances. Clinical trials look at new ways to prevent, detect, or treat disease."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "臨床試験の目標は新しい検査や治療が有効で安全かを決定することで、慢性疾患患者のQOL向上などケアの他の側面も調べる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.niddk.nih.gov/health-information/clinical-trials",
+              "quote": "The goal of clinical trials is to determine if a new test or treatment works and is safe. Clinical trials can also look at other aspects of care, such as improving the quality of life for people with chronic illnesses."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "臨床試験は医学的・外科的・行動的介入を人で検証する研究である。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/what-are-clinical-trials-and-studies",
+              "quote": "Clinical trials are research studies that test a medical, surgical, or behavioral intervention in people."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "臨床試験は新薬・食事・医療機器などの新しい治療・予防法が人において安全かつ有効かを判定する主要な方法である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/what-are-clinical-trials-and-studies",
+              "quote": "These trials are the primary way that researchers determine if a new form of treatment or prevention, such as a new drug, diet, or medical device (for example, a pacemaker), is safe and effective in people."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "臨床試験は新しい治療が既存治療より有効か副作用が少ないかを学ぶよう設計されることが多い。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/what-are-clinical-trials-and-studies",
+              "quote": "Often, a clinical trial is designed to learn if a new treatment is more effective or has less harmful side effects than existing treatments."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "臨床研究の他の目的には、疾患の早期診断法の検証、健康問題の予防法の発見、QOL向上、介護者・支援グループの役割の研究がある。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/what-are-clinical-trials-and-studies",
+              "quote": "Testing ways to diagnose a disease early, sometimes before there are symptoms"
+            },
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/what-are-clinical-trials-and-studies",
+              "quote": "Finding approaches to prevent a health problem, including in people who are healthy but at increased risk of developing a disease"
+            },
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/what-are-clinical-trials-and-studies",
+              "quote": "Improving quality of life for people living with a life-threatening disease or chronic health problem"
+            },
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/what-are-clinical-trials-and-studies",
+              "quote": "Studying the role of caregivers or support groups"
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "臨床試験には4つの相があり、第I相は少数の患者で安全性を、第II・III相はより大規模な患者群で安全性と有効性を検証し、第IV相は承認・市販後も安全性と有効性を監視し続ける。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nhlbi.nih.gov/research/clinical-trials",
+              "quote": "There are four phases of clinical trials: phase I tests safety in a small group of patients; phases II and III test safety and effectiveness in increasingly larger groups of patients; phase IV continues to monitor safety and effectiveness after a medical treatment or device has been approved and marketed for use in the United States."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "人での介入検証の黄金標準は無作為化比較試験であり、ボランティアを無作為に実験群か対照群に割り付け、各群の効果を比較して新しい治療の有効性を判定する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/clinical-research-benefits-risks-and-safety",
+              "quote": "The gold standard for testing interventions in people is called a randomized controlled trial."
+            },
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/clinical-research-benefits-risks-and-safety",
+              "quote": "volunteers are randomly assigned — chosen by chance — to receive either the experimental intervention (the test group) or a placebo or the current standard care (the control or comparison group). Then, researchers compare the effects in each group to determine whether the new treatment works."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "対照群の参加者は実験的治療を受けないが、実験的治療が標準治療や無治療より優れるかを確かめるために不可欠である。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/clinical-research-benefits-risks-and-safety",
+              "quote": "participants in the control group do not receive the experimental treatment, these volunteers are just as important as those in the test group. Without the control group, scientists cannot be sure whether an experimental treatment is better than the standard or no treatment."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "一部の研究では対照群がプラセボを受け、プラセボは治療と同じ方法で与えられるが効果を持たない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/clinical-research-benefits-risks-and-safety",
+              "quote": "In some studies, the control group receives a placebo, which is given in the same way as the treatment but has no effect."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "割付群を知ることが結果に影響するため研究は盲検化され、単盲検では参加者のみ、二重盲検では参加者と研究チームの双方が試験終了まで群を知らない。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/clinical-research-benefits-risks-and-safety",
+              "quote": "Studies are often “blinded” (or “masked”) to prevent this accidental bias. In a single-blind study, you are not told whether you are in the test group or the control group, but the research team knows. In a double-blind study, neither you nor the research team knows what group you are in until the trial is over."
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "参加には、特定の疾患段階・遺伝子の型・家族歴などの包含基準と、検証中の治療を妨げうる特定の健康状態や薬剤などの除外基準が設けられる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/what-are-clinical-trials-and-studies",
+              "quote": "a clinical trial may need participants to have a certain stage of disease, version of a gene, or family history."
+            },
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/what-are-clinical-trials-and-studies",
+              "quote": "They include factors such as specific health conditions or medications that could interfere with the treatment being tested."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "適格者を見つけるには多くのボランティアのスクリーニングが必要で、一般に同時に参加できる臨床試験は1つのみである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/what-are-clinical-trials-and-studies",
+              "quote": "Many volunteers must be screened to find enough people who are eligible for a trial or study. Generally, you can participate in only one clinical trial at a time"
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "参加者には、既知の重大な健康問題がない健康なボランティアと、既知の健康問題がある患者ボランティアがいる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.niddk.nih.gov/health-information/clinical-trials",
+              "quote": "A healthy volunteer is a person with no known significant health problems. A patient volunteer has a known health problem."
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "類似した背景の人だけを対象とした研究は知見が広い集団に適用・便益とならない可能性があり、異なる年齢・性・人種・民族性の参加者が研究を有益にする。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/what-are-clinical-trials-and-studies",
+              "quote": "When research only includes people with similar backgrounds, the findings may not apply to or benefit a broader population."
+            },
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/what-are-clinical-trials-and-studies",
+              "quote": "research benefits from having participants of different ages, sexes, races, and ethnicities."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "高齢者は若年者と健康ニーズが異なり薬への反応・必要用量・副作用が異なる場合があるため、研究者は高齢者の臨床研究への参加を必要としている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/what-are-clinical-trials-and-studies",
+              "quote": "Researchers need older adults to participate in clinical research so that scientists can learn more about how new drugs, tests, and other interventions will work for them."
+            },
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/what-are-clinical-trials-and-studies",
+              "quote": "Older adults may need different dosages of a drug to have the intended result. Also, some drugs may have different side effects in older people than in younger individuals."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "参加者は様々な理由でボランティアし、参加することで科学的発見のパートナーとなる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/what-are-clinical-trials-and-studies",
+              "quote": "People volunteer for clinical trials and studies for a variety of reasons"
+            },
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/what-are-clinical-trials-and-studies",
+              "quote": "when you choose to participate in a clinical trial, you become a partner in scientific discovery."
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "化学療法・コレステロール低下薬・ワクチン・認知行動療法など今日使われる多くの有効な治療は、研究参加者なしには存在しなかった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/what-are-clinical-trials-and-studies",
+              "quote": "Many effective treatments that are used today, such as chemotherapy, cholesterol-lowering drugs, vaccines, and cognitive-behavioral therapy, would not exist without research participants."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "NIH・NIDDK・他の連邦・民間組織が実施する臨床試験の情報はClinicalTrials.govで見つけられる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.niddk.nih.gov/health-information/clinical-trials",
+              "quote": "Information about clinical trials conducted by the NIH, the NIDDK, and other federal and private organizations can be found at ClinicalTrials.gov."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "臨床試験への参加には多くの潜在的便益と一部のリスクがある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/clinical-research-benefits-risks-and-safety",
+              "quote": "Participating in a trial or study has many potential benefits and also some possible risks."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "リスクには、転倒リスクを高める身体検査やX線によるわずかな発がんリスク増加のような検査由来のもの、追加の診察・処置・入院などの不都合が含まれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/clinical-research-benefits-risks-and-safety",
+              "quote": "The research may involve tests that pose a risk to participants. For example, certain physical tests may increase the chance of falling, and X-rays may cause a small increase in the risk of developing cancer."
+            },
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/clinical-research-benefits-risks-and-safety",
+              "quote": "you may be required to have additional or longer medical appointments, more procedures, complex medication instructions, or hospital stays."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "実験的治療は不快または軽度から重篤の副作用を引き起こす場合があり、効かない・標準治療より優れない場合もある。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/clinical-research-benefits-risks-and-safety",
+              "quote": "it may be uncomfortable or cause side effects (which can range from mild to serious)."
+            },
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/clinical-research-benefits-risks-and-safety",
+              "quote": "The experimental treatment might not work, or it may not be better than the standard treatment."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "各臨床研究はプロトコルと呼ばれる研究計画に従い、主任研究者がその遵守を確保する責任を持つ。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/clinical-research-benefits-risks-and-safety",
+              "quote": "Each clinical study follows a careful study plan, called a protocol, which describes what the researchers will do."
+            },
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/clinical-research-benefits-risks-and-safety",
+              "quote": "The principal investigator, or head researcher, is responsible for ensuring the protocol is followed."
+            }
+          ]
+        },
+        {
+          "index": 27,
+          "statement": "米国のほとんどの臨床研究は、医師・科学者・一般市民で構成されるIRBの承認を必要とし、IRBは参加者の不必要なリスクへの曝露を防ぎリスクが潜在的便益を上回らないことを確かめる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/clinical-research-benefits-risks-and-safety",
+              "quote": "Most clinical studies in the U.S. must be approved by an Institutional Review Board (IRB). The IRB is made up of doctors, scientists, and members of the general public who ensure that the study participants are not exposed to unnecessary risks."
+            },
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/clinical-research-benefits-risks-and-safety",
+              "quote": "They make sure that risks (or potential harm) to participants do not outweigh the potential benefits of the study."
+            }
+          ]
+        },
+        {
+          "index": 28,
+          "statement": "インフォームド・コンセントは参加の可否を決める前に研究の重要な事実を学ぶプロセスであり、同意書は契約ではなく、参加者はいつでも理由を問わず研究から離脱できる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/clinical-research-benefits-risks-and-safety",
+              "quote": "Informed consent is the process by which you learn the key facts about a study before deciding whether to participate."
+            },
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/clinical-research-benefits-risks-and-safety",
+              "quote": "the informed consent form is not a contract. You may leave the study at any time and for any reason."
+            }
+          ]
+        },
+        {
+          "index": 29,
+          "statement": "介入を検証する臨床試験はデータ・安全性モニタリング委員会の監督を受け、実験的治療が効いていないまたは参加者を害していると判断された場合に試験を早期停止できる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/clinical-research-benefits-risks-and-safety",
+              "quote": "Clinical trials that test an intervention are closely supervised by a Data and Safety Monitoring Board."
+            },
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/clinical-research-benefits-risks-and-safety",
+              "quote": "If they determine that the experimental treatment is not working or is harming participants, they can stop the trial early."
+            }
+          ]
+        },
+        {
+          "index": 30,
+          "statement": "1932年から1972年のタスキギー梅毒研究ではリスクの説明やインフォームド・コンセントが得られずペニシリンも提供されなかったが、1972年の報道後に研究参加者保護の大きな変革につながった。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/clinical-research-benefits-risks-and-safety",
+              "quote": "the U.S. Public Health Service Syphilis Study at Tuskegee, which was conducted between 1932 and 1972."
+            },
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/clinical-research-benefits-risks-and-safety",
+              "quote": "They did not explain the study’s risks or obtain informed consent from the participants, all of whom were Black men. They also did not offer the study participants penicillin when it became widely available in the mid-1940s"
+            },
+            {
+              "sourceUrl": "https://www.nia.nih.gov/health/clinical-trials-and-studies/clinical-research-benefits-risks-and-safety",
+              "quote": "After news of the study leaked in 1972, it led to sweeping changes in standard research practices and guidelines to protect human research participants."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "slug": "precision-medicine",
+    "topicType": "concept",
+    "categoryLabel": "医学・健康",
+    "title": "精密医療",
+    "summary": "精密医療とは、各患者固有の遺伝子と環境を考慮する、疾患の予防と治療への新しいアプローチであり、患者個々のニーズに合わせて適切な治療を適切なタイミングで提供することを最終目標とする。2015年のPrecision Medicine InitiativeとNIHのAll of Us Research Program、NHLBIのTOPMedプログラムによる大規模ゲノム・オミクスデータの構築が進められ、NIEHSの精密環境健康や官民パートナーシップAMPによる標的探索も行われている。",
+    "bodyMarkdown": "## 定義と目標\n\n精密医療は、各患者固有の遺伝子と環境を考慮する、疾患の予防と治療への新しいアプローチである。その最終目標は、患者個々のニーズに合わせて、適切な治療を適切なタイミングで提供することにある。 [1][2]\n\nこの方向性を推進するため、2015年にPrecision Medicine Initiativeが立ち上げられ、その重要な要素としてNIHのAll of Us Research Programが米国在住の100万人以上からデータを収集し、幅広い健康問題と疾患の研究を助けている。2016年には議会が21世紀治療法（21st Century Cures Act）を可決し、イニシアティブへの追加支援を提供した。 [3][4]\n\n## 大規模データとオミクス\n\nNHLBIの精密医療活動は、Framingham Heart Study・Jackson Heart Study・Women's Health Initiativeなど既存の大規模集団研究からの生体試料や臨床データセットを活用する。中核となるTrans-Omics for Precision Medicine（TOPMed）プログラムは、全[ゲノム](/hubpedia/genome)シーケンシングに焦点を当てた初期段階で多様な集団から約20万のゲノムをシーケンスし、第2段階ではゲノム・エピゲノム・トランスクリプトーム・プロテオーム・メタボロームのデータを生成している。こうした表現型がよく特徴づけられた個人のデータは、健康と疾患に関連する分子プロファイルの構築に使われる。 [5][6][7][8]\n\n生物学における「-omics（オミクス）」とは、遺伝子・代謝物・タンパク質・RNAなどの生物分子の測定可能な差異や変化を指す。TOPMedの全ゲノムシーケンシングは数億の遺伝子変異を明らかにし、変異の疾患への影響をよりよく理解するため、第2段階ではDNAメチル化・mRNA・タンパク質・代謝物プロファイルなどのオミクスデータの収集が進められ、単細胞オミクスなどのデータ型も検討されている。 [9][10]\n\n## 研究の方向性\n\nTOPMedを通じて研究者が追求できるのは、疾患リスクを増減するバイオマーカーの発見、喘息など一部疾患の罹患率における人種・民族的格差の分子基盤の理解、環境因子と遺伝子の相互作用の理解などである。また、疾患を現在の組織・臓器ベースのアプローチでなく分子シグネチャーで再定義したり、WGSで特定された特定の[遺伝子マーカー](/hubpedia/gene)を持つ患者で標的化した治療を検証する臨床試験を可能にしたりする。NHLBIの研究は、遺伝子・環境・生活様式が心血管疾患にどう寄与するか、遺伝子が治療への反応にどう影響するか（[薬理ゲノミクス](/hubpedia/pharmacogenomics)）も調べる。 [11][12][13]\n\n具体的な知見の例として、Jackson Heart Studyでは、APOL1遺伝子の変異を持つアフリカ系アメリカ人は心血管疾患のリスクがほぼ2倍であることが示された。NHLBIの研究は集団間の健康格差も調査し、より標的化した治療・予防戦略の開発と健康格差の低減を目指している。 [14][15]\n\n## 精密環境健康\n\n環境面では、精密環境健康（PEH）が、生涯を通じた環境曝露を考慮しながら、疾患の感受性・進行・重症度における個人間差異の基盤を理解することに焦点を当てている。PEHアプローチには、ゲノム・エピゲノムプロファイルの統合、エクスポゾミクス（exposomics）フレームワークによる人生の重要時期の曝露測定、強力なデータサイエンスツールの組み込みが必要とされる。次世代のPEH研究は、[ゲノミクス](/hubpedia/genomics)・[エピゲノミクス](/hubpedia/epigenomics)（ゲノム配列を変えないゲノム修飾）・環境曝露の交点で行われ、他の-omicsデータに裏付けられる。 [16][17][18]\n\nPEHの目標は、個人の環境リスクと感受性をより良く理解し、健康増進と疾患の予防・治療のための個別化された介入を作成・提供することである。優先アプローチには、個人レベルのリスク・回復力・感受性の因子とマーカーの理解、時間経過や発生源の異なる複数曝露の個人レベル測定法の開発、異なる組織や時点での複数の-omicsアプローチ、データサイエンス・分析・AI・機械学習の革新的手法が含まれる。 [19][20]\n\n## 官民パートナーシップとデータ共有\n\n標的探索の枠組みとして、NIH・10のバイオ医薬品企業・複数の非営利組織が2014年2月に立ち上げた官民パートナーシップであるAccelerating Medicines Partnership（AMP）がある。AMPは治療薬の有望な生物学的標的の特定・検証を行い、そのデータはプレコンペティティブ（競争前段階）と見なされ、広い生物医学コミュニティに公開される。2型糖尿病向けのAMP T2Dでは、T2Dの人や発症リスクのある人の遺伝子データを使い補完して、治療開発の標的となる新規分子・経路を特定・検証した。 [21][22][23]\n\nその成果として、2型糖尿病とその心臓・腎臓合併症に関するDNA配列・機能的ゲノム・エピゲノム情報・臨床データを収めた公開データベースT2D Knowledge Portalが構築された。参考までに、プログラム立ち上げ時の2014年、2型糖尿病は米国で約2600万人・世界で3億8200万人以上に影響していた。データ基盤としては、NHLBIのBioData Catalystも、患者プライバシーを確保しながら大規模データセットを共有・保存・相互リンク・解析するための安全なワークスペースを提供する共有クラウドプラットフォームである。 [24][25][26]",
+    "sources": [
+      {
+        "url": "https://www.nhlbi.nih.gov/science/precision-medicine-activities",
+        "title": "Precision Medicine Activities",
+        "publisher": "National Institutes of Health",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nih.gov/web-policies"
+          },
+          "notes": "NHLBI science page defining precision medicine, the 2015 Precision Medicine Initiative and All of Us program, the TOPMed program, omics data and research directions. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.niehs.nih.gov/about/strategicplan/research/precision",
+        "title": "Precision Environmental Health",
+        "publisher": "National Institutes of Health",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nih.gov/web-policies"
+          },
+          "notes": "NIEHS strategic-plan page defining precision environmental health — interindividual differences in disease susceptibility integrating genome/epigenome profiles, exposomics and data science. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://www.niddk.nih.gov/about-niddk/research-areas/diabetes/accelerating-medicines-partnership-type-2-diabetes",
+        "title": "Accelerating Medicines Partnership Program for Type 2 Diabetes",
+        "publisher": "National Institutes of Health",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nih.gov/web-policies"
+          },
+          "notes": "NIDDK program page describing the AMP public-private partnership, its precompetitive data, the AMP T2D approach and the T2D Knowledge Portal. Publisher policy read 2026-08-28: US government work is public domain; credit requested. Third-party items are excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Precision Medicine",
+        "summary": "Precision medicine is an emerging approach to disease prevention and treatment that considers the unique genes and environment of each patient, with the ultimate goal of providing the right treatment at the right time, tailored to individual needs. The 2015 Precision Medicine Initiative and NIH's All of Us Research Program, together with NHLBI's TOPMed program, are building large genome and omics datasets, while NIEHS's precision environmental health effort and the public-private Accelerating Medicines Partnership pursue targeted discovery.",
+        "bodyMarkdown": "## Definition and goal\n\nPrecision medicine is an emerging approach to disease prevention and treatment that considers the unique genes and environment of each patient. Its ultimate goal is to provide the right treatment at the right time, tailored to a patient's individual needs. [1][2]\n\nTo advance this direction, the Precision Medicine Initiative launched in 2015; a key element, the NIH All of Us Research Program, collects data from 1 million or more people living in the United States to help study a range of health issues and diseases. In 2016, Congress passed the 21st Century Cures Act, which provides additional support for the initiative. [3][4]\n\n## Large-scale data and omics\n\nNHLBI's precision medicine activities leverage biospecimen and clinical datasets from existing large population studies such as the Framingham Heart Study, the Jackson Heart Study, and the Women's Health Initiative. Its core Trans-Omics for Precision Medicine (TOPMed) program, in an initial phase focused on whole [genome](/hubpedia/genome) sequencing, has sequenced nearly 200,000 genomes from diverse populations, and a second phase is generating genomic, epigenomic, transcriptomic, proteomic, and metabolomic data. Data from these well-phenotyped individuals is used to build molecular profiles associated with health and disease. [5][6][7][8]\n\nIn biology, -omics refers to measurable differences or changes in biological molecules such as genes, metabolites, proteins, and RNA. TOPMed's whole genome sequencing revealed hundreds of millions of genetic variants, and to better understand their impact on disease, the second phase is collecting omics data including DNA methylation, mRNA, protein, and metabolite profiles, with further data types such as single-cell omics under consideration. [9][10]\n\n## Research directions\n\nThrough TOPMed, investigators can pursue the discovery of biomarkers that increase or decrease disease risk, the molecular bases underlying racial and ethnic disparities in the prevalence of disorders such as asthma, and how environmental factors interact with genes. The program also enables redefining disorders or their subtypes based on molecular signatures rather than current tissue- or organ-based approaches, and enables clinical trials that test treatments in a targeted way, such as in patients with specific [genetic markers](/hubpedia/gene) identified in the WGS project. NHLBI research also examines how genes, environment, and lifestyle contribute to cardiovascular disease and how genes affect response to treatment — the domain of [pharmacogenomics](/hubpedia/pharmacogenomics). [11][12][13]\n\nAs a concrete finding, the Jackson Heart Study showed that African Americans with a variant of the APOL1 gene have almost twice the risk of cardiovascular disease. NHLBI research also investigates health differences among populations in order to develop more targeted treatment and prevention strategies and reduce health disparities. [14][15]\n\n## Precision environmental health\n\nOn the environmental side, precision environmental health (PEH) focuses on understanding the basis of interindividual differences in disease susceptibility, progression, and severity while taking account of environmental exposures throughout life. A PEH approach requires integrating genome/epigenome profiles, measuring exposures at critical stages of life using the exposomics framework, and incorporating powerful data science tools. Next-generation PEH research occurs at the intersection of [genomics](/hubpedia/genomics), [epigenomics](/hubpedia/epigenomics) — genomic modifications that do not change genomic sequences — and environmental exposures, informed by other -omics data. [16][17][18]\n\nThe goal of PEH is to better understand individual environmental risk and susceptibility to help create and deliver personalized interventions for promoting health and for the prevention and treatment of disease. Priority approaches include understanding factors and markers of risk, resilience, and susceptibility at the individual level; developing methods to measure multiple exposures at the individual level across time and sources; incorporating multiple -omics approaches across tissues and timepoints; and developing innovative approaches in data science, analytics, and AI/machine learning. [19][20]\n\n## Public-private partnership and data sharing\n\nAs a framework for target discovery, the Accelerating Medicines Partnership (AMP) is a public-private partnership launched in February 2014 by NIH, 10 biopharmaceutical companies, and multiple non-profit organizations. AMP works to identify and validate promising biological targets for therapeutics, and its data is considered precompetitive and made publicly accessible to the broad biomedical community. For type 2 diabetes, AMP T2D used and supplemented available genetic data from people with T2D or at risk of developing it to identify and validate novel molecules and pathways as targets for therapeutic development. [21][22][23]\n\nThe result was the T2D Knowledge Portal, a public database of DNA sequence, functional genomic and epigenomic information, and clinical data from studies on type 2 diabetes and its cardiac and renal complications. For context, at the program's 2014 launch, type 2 diabetes affected about 26 million people in the U.S. and more than 382 million worldwide. As a data platform, NHLBI's BioData Catalyst is also a shared, cloud-based platform providing secure workspaces to share, store, cross-link, and analyze large datasets while ensuring patient privacy. [24][25][26]"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-09-18T00:00:00Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "精密医療は、各患者固有の遺伝子と環境を考慮する、疾患の予防と治療への新しいアプローチである。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nhlbi.nih.gov/science/precision-medicine-activities",
+              "quote": "Precision medicine is an emerging approach to disease prevention and treatment that considers the unique genes and environment of each patient."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "精密医療の最終目標は、患者個々のニーズに合わせて、適切な治療を適切なタイミングで提供することである。",
+          "confidence": 0.98,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nhlbi.nih.gov/science/precision-medicine-activities",
+              "quote": "The ultimate goal of precision medicine is to provide the right treatment at the right time, tailored to a patient’s individual needs."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "2015年にPrecision Medicine Initiativeが立ち上げられ、重要な要素としてNIHのAll of Us Research Programが米国在住の100万人以上からデータを収集して幅広い健康問題と疾患の研究を助けている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nhlbi.nih.gov/science/precision-medicine-activities",
+              "quote": "The Precision Medicine Initiative, which launched in 2015, is a bold research effort to revolutionize how we improve health and treat disease."
+            },
+            {
+              "sourceUrl": "https://www.nhlbi.nih.gov/science/precision-medicine-activities",
+              "quote": "the National Institutes of Health’s (NIH) All of Us Research Program, collects data from 1 million or more people living in the United States to help study a range of health issues and diseases."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "2016年に議会は21世紀治療法（21st Century Cures Act）を可決し、Precision Medicine Initiativeへの追加支援を提供した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nhlbi.nih.gov/science/precision-medicine-activities",
+              "quote": "In 2016, Congress passed the 21st Century Cures Act, which provides additional support for the Precision Medicine Initiative."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "NHLBIの精密医療活動は、Framingham Heart Study・Jackson Heart Study・Women's Health Initiativeなど既存の大規模集団研究からの生体試料・臨床データセットを活用する。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nhlbi.nih.gov/science/precision-medicine-activities",
+              "quote": "biospecimen and clinical datasets from NHLBI’s existing large population studies, including the Framingham Heart Study (FHS), Jackson Heart Study (JHS), and Women’s Health Initiative (WHI)"
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "NHLBIはTOPMedプログラムを設計し、全ゲノムシーケンシングに焦点を当てた初期段階で多様な集団から約20万のゲノムをシーケンスした。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nhlbi.nih.gov/science/precision-medicine-activities",
+              "quote": "NHLBI designed the Trans-Omics for Precision Medicine (TOPMed) program to complement the NIH All of Us Research Program and Precision Medicine Initiative."
+            },
+            {
+              "sourceUrl": "https://www.nhlbi.nih.gov/science/precision-medicine-activities",
+              "quote": "the TOPMed program has sequenced nearly 200,000 genomes from diverse populations."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "TOPMedの第2段階では、ゲノム・エピゲノム・トランスクリプトーム・プロテオーム・メタボロームのデータを生成している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nhlbi.nih.gov/science/precision-medicine-activities",
+              "quote": "The second phase of TOPMed is underway to generate a collection of genomic, epigenomic, transcriptomic, proteomic, and metabolomic data."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "表現型がよく特徴づけられた個人のデータは、健康と疾患に関連する分子プロファイルの構築に使われる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nhlbi.nih.gov/science/precision-medicine-activities",
+              "quote": "Data from these well-phenotyped individuals is used to build molecular profiles associated with health and disease."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "生物学における-omicsとは、遺伝子・代謝物・タンパク質・RNAなどの生物分子の測定可能な差異や変化を指す。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nhlbi.nih.gov/science/precision-medicine-activities",
+              "quote": "In biology, -omics refers to measurable differences or changes in biological molecules, such as genes, metabolites, proteins, and RNA."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "TOPMedの全ゲノムシーケンシングは数億の遺伝子変異を明らかにし、第2段階ではDNAメチル化・mRNA・タンパク質・代謝物プロファイルを収集し、単細胞オミクスなどのデータ型も検討されている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nhlbi.nih.gov/science/precision-medicine-activities",
+              "quote": "The WGS revealed hundreds of millions of genetic variants."
+            },
+            {
+              "sourceUrl": "https://www.nhlbi.nih.gov/science/precision-medicine-activities",
+              "quote": "The omics data include DNA methylation, mRNA, protein, and metabolite profiles. More data types, such as single-cell omics, are being considered."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "TOPMedは、疾患リスクを増減するバイオマーカーの発見、一部疾患の罹患率における人種・民族的格差の分子基盤の理解、環境因子と遺伝子の相互作用の理解を可能にする。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nhlbi.nih.gov/science/precision-medicine-activities",
+              "quote": "Discovering biomarkers that increase or decrease the risk of heart, lung, blood, and sleep disorders"
+            },
+            {
+              "sourceUrl": "https://www.nhlbi.nih.gov/science/precision-medicine-activities",
+              "quote": "Discovering molecular bases underlying racial and ethnic disparities in the prevalence of some heart, lung, blood, and sleep disorders, such as asthma"
+            },
+            {
+              "sourceUrl": "https://www.nhlbi.nih.gov/science/precision-medicine-activities",
+              "quote": "Understanding how environmental factors interact with genes to preserve health or contribute to the risk of heart, lung, blood, and sleep disorders"
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "TOPMedは、疾患を分子シグネチャーで再定義したり、WGSで特定された遺伝子マーカーを持つ患者で標的化した治療を検証する臨床試験を可能にしたりする。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nhlbi.nih.gov/science/precision-medicine-activities",
+              "quote": "Redefining heart, lung, blood, and sleep disorders or subtypes of these disorders based on molecular signatures instead of current tissue/organ-based approaches to medicine"
+            },
+            {
+              "sourceUrl": "https://www.nhlbi.nih.gov/science/precision-medicine-activities",
+              "quote": "Enabling clinical trials to test treatments in a targeted way, such as in patients with specific genetic markers identified in the WGS project"
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "NHLBIの研究は、遺伝子・環境・生活様式が心血管疾患にどう寄与するか、遺伝子が治療への反応にどう影響するかを調べる。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nhlbi.nih.gov/science/precision-medicine-activities",
+              "quote": "such as how genes, environment, and lifestyle contribute to cardiovascular disease and how genes affect response to treatment."
+            }
+          ]
+        },
+        {
+          "index": 14,
+          "statement": "Jackson Heart Studyでは、APOL1遺伝子の変異を持つアフリカ系アメリカ人は心血管疾患のリスクがほぼ2倍であることが示された。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nhlbi.nih.gov/science/precision-medicine-activities",
+              "quote": "African Americans with a variant of the APOL1 gene … have almost twice the risk of cardiovascular disease"
+            }
+          ]
+        },
+        {
+          "index": 15,
+          "statement": "NHLBIの研究は集団間の健康格差を調査し、より標的化した治療・予防戦略の開発と健康格差の低減を目指している。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nhlbi.nih.gov/science/precision-medicine-activities",
+              "quote": "Our research also investigates health differences among populations in order to develop more targeted treatment and prevention strategies and reduce health disparities."
+            }
+          ]
+        },
+        {
+          "index": 16,
+          "statement": "精密環境健康（PEH）は、生涯を通じた環境曝露を考慮しながら、疾患の感受性・進行・重症度における個人間差異の基盤を理解することに焦点を当てている。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.niehs.nih.gov/about/strategicplan/research/precision",
+              "quote": "Precision environmental health (PEH) is focused on understanding the basis of interindividual differences in disease susceptibility, progression, and severity, in a way that takes account of environmental exposures throughout life."
+            }
+          ]
+        },
+        {
+          "index": 17,
+          "statement": "PEHアプローチには、ゲノム・エピゲノムプロファイルの統合、exposomicsフレームワークによる人生の重要時期の曝露測定、強力なデータサイエンスツールの組み込みが必要とされる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.niehs.nih.gov/about/strategicplan/research/precision",
+              "quote": "A PEH approach requires integrating genome/epigenome profiles, measuring exposures at critical stages of life using the exposomics framework, public health, and incorporating powerful data science tools"
+            }
+          ]
+        },
+        {
+          "index": 18,
+          "statement": "次世代のPEH研究は、ゲノミクス・エピゲノミクス（ゲノム配列を変えないゲノム修飾）・環境曝露の交点で行われ、他の-omicsデータに裏付けられる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.niehs.nih.gov/about/strategicplan/research/precision",
+              "quote": "Next-generation PEH research occurs at the intersection of genomics, genomic modifications that do not change genomic sequences (epigenomics), and environmental exposures, and it is informed by other “-omics” data."
+            }
+          ]
+        },
+        {
+          "index": 19,
+          "statement": "PEHの目標は、個人の環境リスクと感受性をより良く理解し、健康増進と疾患の予防・治療のための個別化された介入を作成・提供することである。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.niehs.nih.gov/about/strategicplan/research/precision",
+              "quote": "The goal of PEH is to better understand individual environmental risk and susceptibility to help create and deliver personalized interventions for promoting health and for the prevention and treatment of disease."
+            }
+          ]
+        },
+        {
+          "index": 20,
+          "statement": "PEHの優先アプローチには、個人レベルのリスク・回復力・感受性の因子とマーカーの理解、複数曝露の個人レベル測定法の開発、複数の-omicsアプローチ、データサイエンス・AI/機械学習の革新的手法が含まれる。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.niehs.nih.gov/about/strategicplan/research/precision",
+              "quote": "Focus on understanding factors and markers of risk, resilience, and susceptibility at the individual level."
+            },
+            {
+              "sourceUrl": "https://www.niehs.nih.gov/about/strategicplan/research/precision",
+              "quote": "Develop methods of measuring multiple exposures at the individual level so that exposures over time and from different sources can be better understood."
+            },
+            {
+              "sourceUrl": "https://www.niehs.nih.gov/about/strategicplan/research/precision",
+              "quote": "Incorporate multiple “-omics” approaches for individual measurements from different tissues and at different timepoints across populations of individuals."
+            },
+            {
+              "sourceUrl": "https://www.niehs.nih.gov/about/strategicplan/research/precision",
+              "quote": "Develop innovative approaches in data science, analytics, and artificial intelligence/machine learning (AI/ML)"
+            }
+          ]
+        },
+        {
+          "index": 21,
+          "statement": "AMPは2014年2月にNIH・10のバイオ医薬品企業・複数の非営利組織が立ち上げた官民パートナーシップで、治療薬の有望な生物学的標的の特定・検証を行う。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.niddk.nih.gov/about-niddk/research-areas/diabetes/accelerating-medicines-partnership-type-2-diabetes",
+              "quote": "The National Institutes of Health (NIH), 10 biopharmaceutical companies, and multiple non-profit organizations launched a public-private partnership in February 2014 called the Accelerating Medicines Partnership (AMP)* program."
+            },
+            {
+              "sourceUrl": "https://www.niddk.nih.gov/about-niddk/research-areas/diabetes/accelerating-medicines-partnership-type-2-diabetes",
+              "quote": "the program brings together government, industry, and non-profit foundation partners to identify and validate promising biological targets for therapeutics."
+            }
+          ]
+        },
+        {
+          "index": 22,
+          "statement": "AMPデータはプレコンペティティブ（競争前段階）と見なされ、広い生物医学コミュニティに公開される。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.niddk.nih.gov/about-niddk/research-areas/diabetes/accelerating-medicines-partnership-type-2-diabetes",
+              "quote": "AMP data is considered precompetitive and made publicly accessible to the broad biomedical community for further research."
+            }
+          ]
+        },
+        {
+          "index": 23,
+          "statement": "AMP T2Dでは、T2Dの人や発症リスクのある人の遺伝子データを使い補完して、治療開発の標的となる新規分子・経路を特定・検証した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.niddk.nih.gov/about-niddk/research-areas/diabetes/accelerating-medicines-partnership-type-2-diabetes",
+              "quote": "The approach of this project was to use and supplement available genetic data from people with T2D or at risk for developing T2D to identify and validate novel molecules and pathways as targets for therapeutic development."
+            }
+          ]
+        },
+        {
+          "index": 24,
+          "statement": "研究者らは、2型糖尿病とその心臓・腎臓合併症に関するDNA配列・機能的ゲノム・エピゲノム情報・臨床データを収めた公開データベースT2D Knowledge Portalを構築した。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.niddk.nih.gov/about-niddk/research-areas/diabetes/accelerating-medicines-partnership-type-2-diabetes",
+              "quote": "Researchers built a public database, the T2D Knowledge Portal (T2DKP) of DNA sequence, functional genomic and epigenomic information, and clinical data from studies on type 2 diabetes and its cardiac and renal complications."
+            }
+          ]
+        },
+        {
+          "index": 25,
+          "statement": "プログラム立ち上げ時の2014年、2型糖尿病は米国で約2600万人・世界で3億8200万人以上に影響していた。",
+          "confidence": 0.95,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.niddk.nih.gov/about-niddk/research-areas/diabetes/accelerating-medicines-partnership-type-2-diabetes",
+              "quote": "In 2014, at program launch, Type 2 diabetes (T2D) affected about 26 million people in the U.S. and more than 382 million people worldwide."
+            }
+          ]
+        },
+        {
+          "index": 26,
+          "statement": "NHLBIのBioData Catalystは、患者プライバシーを確保しながら大規模データセットを共有・保存・相互リンク・解析するための安全なワークスペースを提供する共有クラウドプラットフォームである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://www.nhlbi.nih.gov/science/precision-medicine-activities",
+              "quote": "NHLBI’s BioData Catalyst is a shared, cloud-based platform and community where scientists can access and work with biomedical research data."
+            },
+            {
+              "sourceUrl": "https://www.nhlbi.nih.gov/science/precision-medicine-activities",
+              "quote": "While ensuring patient privacy, it provides secure workspaces to share, store, cross-link, and analyze large datasets"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

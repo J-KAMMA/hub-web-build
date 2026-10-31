@@ -1,0 +1,31 @@
+.wrap { display: grid; gap: 14px; padding: 4px 0 40px; color: var(--text); }
+.card { padding: 18px 20px; border: var(--divider); border-radius: 14px; background: var(--surface-raised); }
+.card h2 { margin: 0 0 10px; font-size: 1rem; color: var(--text); }
+.card h3 { margin: 0 0 6px; font-size: .9rem; color: var(--text); }
+.meta, .help { margin: 0; color: var(--text-secondary); font-size: .84rem; line-height: 1.75; overflow-wrap: anywhere; }
+.claim { margin: 0 0 8px; white-space: pre-wrap; overflow-wrap: anywhere; line-height: 1.8; font-size: .92rem; }
+.label { margin: 12px 0 2px; color: var(--muted); font-size: .74rem; font-weight: 700; }
+.chip { display: inline-block; padding: 3px 10px; border-radius: 999px; font-size: .76rem; font-weight: 700; background: var(--surface-sunken); color: var(--text-secondary); border: var(--divider); }
+.chipWarning { background: var(--warning-bg); color: var(--warning-text); border-color: var(--warning-text); }
+.chipDanger { background: var(--danger-bg); color: var(--danger-text); border-color: var(--danger-text); }
+.chipPositive { background: var(--positive-bg); color: var(--positive-text); border-color: var(--positive-text); }
+.banner { padding: 12px 14px; border-radius: 10px; font-size: .86rem; line-height: 1.7; }
+.bannerWarning { background: var(--warning-bg); color: var(--warning-text); }
+.bannerDanger { background: var(--danger-bg); color: var(--danger-text); }
+.bannerPositive { background: var(--positive-bg); color: var(--positive-text); }
+.options { display: grid; gap: 12px; }
+.option { padding: 14px 16px; border: var(--divider); border-radius: 12px; background: var(--surface-subtle); }
+.form { display: grid; gap: 10px; margin-top: 10px; }
+.form label { display: grid; gap: 4px; font-size: .82rem; color: var(--text-secondary); }
+.check { display: flex !important; align-items: flex-start; gap: 8px !important; line-height: 1.6; }
+.field { width: 100%; box-sizing: border-box; padding: 10px 12px; border: var(--divider); border-radius: 8px; background: var(--field); color: var(--text); font: inherit; font-size: .9rem; }
+.field:focus-visible, .button:focus-visible { outline: 2px solid var(--focus-ring); outline-offset: 2px; }
+.count { color: var(--muted); font-size: .76rem; text-align: right; }
+.button { justify-self: start; padding: 10px 16px; border: var(--divider); border-radius: 8px; background: var(--surface-raised); color: var(--text); font: inherit; font-weight: 700; font-size: .86rem; cursor: pointer; }
+.button:disabled { opacity: .5; cursor: not-allowed; }
+.buttonPrimary { border-color: var(--emphasis); background: var(--emphasis); color: var(--action-text); }
+.buttonDanger { border-color: var(--danger-text); background: var(--danger-bg); color: var(--danger-text); }
+.error { margin: 0; color: var(--danger-text); font-size: .84rem; }
+.timeline { margin: 0; padding: 0; list-style: none; display: grid; gap: 8px; }
+.timeline li { padding-left: 12px; border-left: 2px solid var(--divider-color); font-size: .82rem; line-height: 1.6; }
+.timeline time { display: block; color: var(--muted); font-size: .74rem; }

@@ -1,0 +1,1 @@
+ALTER TABLE music_works ADD COLUMN tags_json TEXT NOT NULL DEFAULT '[]';

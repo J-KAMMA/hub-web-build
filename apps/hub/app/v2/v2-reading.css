@@ -1,0 +1,504 @@
+/*
+ * Hub v2 / 記事・Hubpedia。
+ * v2.css から機械的に切り出した（規則の本文と相対順は変えていない）。
+ */
+
+/* Hubpedia の記事。本文は既存の ArticleMarkdown が描く。出典は番号つき。 */
+.v2-hubpedia__body {
+  max-width: var(--v2-content-max);
+}
+
+.v2-hubpedia__body p,
+.v2-hubpedia__body li {
+  line-height: var(--v2-leading);
+}
+
+.v2-hubpedia__body img {
+  max-width: 100%;
+  height: auto;
+}
+
+.v2-hubpedia__sources {
+  margin: 0;
+  padding-left: 1.5em;
+  font-size: var(--v2-text-sm);
+}
+
+.v2-hubpedia__sources li {
+  margin-bottom: var(--v2-space-1);
+}
+
+/* 記事 --------------------------------------------------------------- */
+
+/* 一覧は1列。記事は題と要約を読んで選ぶもので、並べて比べるものではない。 */
+/*
+ * 記事は絵が上の札を格子に（2026-09-03、旦那様「アダルトアフィリエイトサイトのuiが優れている
+ * から記事・動画・音楽で参考に」）。apps/adult-affiliate の一覧と同じ: 4:3 の絵、題2行、
+ * それ以外は1行だけ。220pxから自動で列を割る。
+ */
+.v2-agrid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(220px, 100%), 1fr));
+  gap: var(--v2-space-4) var(--v2-space-3);
+}
+
+.v2-acard {
+  display: flex;
+  flex-direction: column;
+  gap: var(--v2-space-2);
+  color: inherit;
+  text-decoration: none;
+}
+
+.v2-acard:hover {
+  border-color: var(--muted);
+}
+
+.v2-acard__art {
+  position: relative;
+  display: grid;
+  place-items: center;
+  aspect-ratio: 4 / 3;
+  border-radius: var(--v2-radius);
+  overflow: hidden;
+  background: var(--line);
+}
+
+.v2-acard__art img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* 絵の無い記事は、題を敷いた面。絵の代わりであって本文ではないので薄く小さく。 */
+.v2-acard__cover {
+  padding: var(--v2-space-3);
+  color: var(--muted);
+  font-size: var(--v2-text-lg);
+  font-weight: 700;
+  letter-spacing: .04em;
+}
+
+.v2-acard__badge {
+  position: absolute;
+  top: var(--v2-space-2);
+  left: var(--v2-space-2);
+  padding: 0 var(--v2-space-2);
+  border-radius: var(--v2-space-1);
+  background: var(--emphasis);
+  color: var(--action-text);
+  font-size: var(--v2-text-xs);
+  font-style: normal;
+}
+
+.v2-acard__body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--v2-space-1);
+  min-width: 0;
+}
+
+.v2-acard__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--v2-space-2);
+}
+
+.v2-acard__title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  font-size: var(--v2-text-sm);
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+/* 要約は3行で止める。 */
+.v2-acard__summary {
+  display: -webkit-box;
+  max-width: var(--v2-measure);
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  color: var(--muted);
+  font-size: var(--v2-text-sm);
+  line-height: 1.6;
+}
+
+.v2-acard__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 var(--v2-space-3);
+  color: var(--muted);
+  font-size: var(--v2-text-xs);
+}
+
+/* 詳細 */
+.v2-article {
+  max-width: var(--v2-content-max);
+}
+
+.v2-article__byline {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--v2-space-2) var(--v2-space-3);
+  margin: 0 0 var(--v2-space-3);
+  font-size: var(--v2-text-sm);
+}
+
+.v2-article__summary {
+  margin: 0 0 var(--v2-space-4);
+  color: var(--muted);
+}
+
+.v2-article__thumb {
+  display: block;
+  width: 100%;
+  margin-bottom: var(--v2-space-4);
+  border-radius: var(--v2-radius);
+}
+
+.v2-article__body h2 {
+  margin: var(--v2-space-6) 0 var(--v2-space-3);
+  font-size: var(--v2-text-lg);
+}
+
+.v2-article__body h3 {
+  margin: var(--v2-space-5) 0 var(--v2-space-2);
+  font-size: var(--v2-text);
+}
+
+.v2-article__body blockquote {
+  margin: var(--v2-space-4) 0;
+  padding-left: var(--v2-space-4);
+  border-left: 3px solid var(--line);
+  color: var(--muted);
+}
+
+/* 内側左列の目次。小見出しは一段下げる。 */
+.v2-toc {
+  list-style: none;
+  margin: 0;
+  padding: 0 var(--v2-space-3);
+  display: grid;
+  gap: var(--v2-space-1);
+  font-size: var(--v2-text-sm);
+}
+
+.v2-toc__item a {
+  display: block;
+  padding: var(--v2-space-1) var(--v2-space-2);
+  border-radius: var(--v2-radius);
+  color: var(--text);
+  text-decoration: none;
+}
+
+.v2-toc__item a:hover {
+  background: var(--interactive);
+}
+
+.v2-toc__item--sub {
+  padding-left: var(--v2-space-4);
+  color: var(--muted);
+}
+
+/*
+ * Hubpedia の仕上げ（L5）。見た目だけ。掲載・安全・根拠の表示要件は変えない。
+ * 一覧: 箱なしの行（題 headline、要約 15 muted 2行、分野のチップ）。記事: 測り 680、導入は reading。
+ */
+.v2-hrows { display: grid; gap: 0; margin: 0; padding: 0; list-style: none; }
+.v2-hrows > .v2-hrow {
+  position: relative;
+  display: grid;
+  gap: var(--v2-space-1);
+  padding: var(--v2-space-4) 0;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+}
+.v2-hrows .v2-tcard__title {
+  font-size: var(--type-headline-size);
+  line-height: var(--type-headline-leading);
+  font-weight: var(--type-headline-weight);
+  color: var(--text);
+  text-decoration: none;
+  font-feature-settings: "palt";
+}
+/* 行全体を押せる。 */
+.v2-hrows .v2-tcard__title::after { content: ""; position: absolute; inset: 0; }
+.v2-hrows .v2-tcard__excerpt {
+  margin: 0;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  color: var(--muted);
+  font-size: var(--type-body-size);
+  line-height: 22px;
+  word-break: auto-phrase;
+}
+.v2-hrows .v2-tcard__foot { display: flex; flex-wrap: wrap; align-items: center; gap: var(--v2-space-2); margin: var(--v2-space-1) 0 0; }
+.v2-hrows .v2-badge {
+  padding: 2px var(--v2-space-2);
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: var(--interactive);
+  color: var(--text);
+  font-size: var(--type-caption-size);
+  font-weight: 600;
+}
+.v2-hrow__more { position: absolute; top: var(--v2-space-3); right: 0; z-index: 2; }
+.v2-hrow__more > summary {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  color: var(--muted);
+  font-size: 18px;
+  list-style: none;
+  cursor: pointer;
+}
+.v2-hrow__more > summary::-webkit-details-marker { display: none; }
+.v2-hrow__more > summary:hover { background: var(--interactive); color: var(--text); }
+.v2-hrow__more > button {
+  position: absolute;
+  top: 38px;
+  right: 0;
+  min-height: 44px;
+  padding: 0 var(--v2-space-4);
+  border: 0;
+  border-radius: var(--radius-md);
+  background: var(--surface-raised);
+  box-shadow: var(--elevation-2);
+  color: var(--text);
+  font: inherit;
+  white-space: nowrap;
+  cursor: pointer;
+}
+@media (max-width: 759px) {
+  .v2-hrow__more > summary { width: 44px; height: 44px; }
+  .v2-hrow__more > button { top: 46px; }
+  .v2-hubpedia-search > input, .v2-hubpedia-search .v2-search__submit, .v2-hubpedia-filter > summary { min-height: 44px; }
+}
+
+/* 記事 */
+.v2-article { margin-inline: auto; }
+.v2-article__summary { font-size: var(--type-reading-size); line-height: var(--type-reading-leading); word-break: auto-phrase; }
+.v2-hubpedia__body { max-width: 680px; margin-inline: auto; font-size: var(--type-reading-size); word-break: auto-phrase; }
+.v2-hubpedia__body h2, .v2-hubpedia__body h3 { font-feature-settings: "palt"; word-break: auto-phrase; text-wrap: pretty; }
+.v2-hubpedia__body h2 { margin: 48px 0 12px; font-size: 22px; line-height: 32px; }
+.v2-hubpedia__body h3 { margin: 32px 0 8px; font-size: 19px; line-height: 28px; }
+.v2-hubpedia__body p, .v2-hubpedia__body li { line-height: var(--type-reading-leading); }
+.v2-article .v2-article__byline { color: var(--muted); font-size: var(--type-subhead-size); }
+
+/* 言語の切り替え（題の右の小さな切替）。 */
+.v2-lang { display: inline-flex; gap: 2px; padding: 2px; border-radius: var(--radius-pill); background: var(--interactive); }
+.v2-lang__item {
+  display: inline-grid;
+  place-items: center;
+  min-width: 36px;
+  height: 28px;
+  padding: 0 var(--v2-space-2);
+  border-radius: var(--radius-pill);
+  color: var(--muted);
+  font-size: var(--type-caption-size);
+  font-weight: 600;
+  text-decoration: none;
+}
+.v2-lang__item[aria-current="page"] { background: var(--bg); color: var(--text); box-shadow: var(--elevation-1); }
+@media (max-width: 759px) { .v2-lang__item { min-width: 44px; height: 40px; } }
+
+/* 知識状態の1行。押すと従来の表が開く。 */
+.v2-kstate { margin: 0 0 var(--v2-space-4); color: var(--muted); font-size: var(--type-subhead-size); }
+.v2-kstate > summary { display: flex; flex-wrap: wrap; align-items: center; gap: var(--v2-space-2); min-height: 44px; cursor: pointer; list-style: none; }
+.v2-kstate > summary::-webkit-details-marker { display: none; }
+.v2-kstate__label { color: var(--text); font-weight: 600; }
+.v2-kstate__line::after { content: "\203A"; margin-left: var(--v2-space-2); }
+.v2-kstate[open] > summary .v2-kstate__line::after { content: "\2304"; }
+
+.v2-hartitle {
+  max-width: 680px;
+  margin: var(--v2-space-5) auto var(--v2-space-4);
+  font-size: var(--type-display-size);
+  line-height: var(--type-display-leading);
+  font-weight: var(--type-display-weight);
+  letter-spacing: var(--type-display-tracking);
+  font-feature-settings: "palt";
+  overflow-wrap: anywhere;
+}
+.v2-article > *:not(.v2-hartitle) { max-width: 680px; margin-inline: auto; }
+.v2-article > .v2-article__summary { margin-bottom: var(--v2-space-4); }
+@media (max-width: 759px) {
+  .v2-hartitle { font-size: var(--type-title1-size); line-height: var(--type-title1-leading); }
+  .v2-lang__item { height: 44px; }
+  .v2-toc__item a, .hubpedia-wiki__subnav a { display: flex; align-items: center; min-height: 44px; }
+}
+.v2-hrows .v2-tcard__title { display: block; padding-block: 10px; margin-block: -10px; }
+.v2-pager .v2-card__link { display: inline-flex; align-items: center; min-height: 32px; }
+@media (max-width: 759px) { .v2-pager .v2-card__link { min-height: 44px; } }
+
+/* 本の一覧: 説明は14px、保存ボタンは小さく、「おすすめの調整」は控えめに（読書レーン）。 */
+.v2-books-list .v2-tcard__excerpt { font-size: 14px; color: var(--muted); }
+.v2-books-list .v2-tcard__foot { font-size: 12px; color: var(--muted); }
+.book-save { display: inline-flex; flex-wrap: wrap; align-items: center; gap: var(--v2-space-2); justify-self: start; align-self: flex-start; }
+.book-save > .button {
+  min-height: 32px;
+  padding: 0 var(--v2-space-3);
+  font-size: var(--type-subhead-size);
+  line-height: var(--type-subhead-leading);
+}
+.book-save > small { color: var(--muted); font-size: var(--type-caption-size); }
+.v2-gcard__body > .book-save { margin-top: var(--v2-space-2); }
+.v2-books-list .v2-discovery { font-size: 12px; }
+.v2-books-list .v2-gcard { padding-block: var(--v2-space-3); }
+
+/* リスト画面: 列の縁いっぱいに広げる（desktop-parity の中央寄せより強く）。 */
+html body .v2 .v2__workspace .v2__frame[data-nav][data-nav][data-measure] > #hub-main.v2__main > .v2-lists.v2-lists {
+  max-width: none;
+  width: 100%;
+  margin-inline: 0;
+}
+
+/* 本の札: 表紙は 2:3。表紙が無いときは題を縦に組んだ面にする。 */
+.v2-books-list .v2-gcard { grid-template-columns: 80px minmax(0, 1fr); }
+.v2-books-list .v2-gcard__image {
+  width: 80px;
+  height: auto;
+  aspect-ratio: 2 / 3;
+  border-radius: var(--radius-xs);
+  box-shadow: inset 0 0 0 1px var(--media-outline);
+}
+.v2-books-list .v2-gcard__image--empty {
+  display: flex;
+  justify-content: center;
+  padding: var(--v2-space-2);
+  overflow: hidden;
+  background: var(--content-nested);
+  color: var(--muted);
+}
+.v2-gcard__spine {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  max-height: 100%;
+  overflow: hidden;
+  writing-mode: vertical-rl;
+  font-size: var(--type-subhead-size);
+  line-height: var(--type-subhead-leading);
+  font-weight: var(--type-headline-weight);
+  letter-spacing: .08em;
+}
+
+/* Hubpedia: 並びのタブの右に件数、検索と「絞り込み」「記事を提案」は1行。 */
+.v2-hubpedia-tabrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--v2-space-3);
+}
+.v2-hubpedia-tabrow > :first-child { flex: 1 1 auto; min-width: 0; }
+.v2-hubpedia-count {
+  flex: none;
+  margin: 0;
+  color: var(--muted);
+  font-size: var(--type-caption-size);
+  line-height: var(--type-caption-leading);
+  font-variant-numeric: tabular-nums;
+}
+.v2-hubpedia-toolbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: var(--v2-space-2);
+  margin-bottom: var(--v2-space-3);
+}
+.v2-hubpedia-toolbar > .v2-hubpedia-search { flex: 1 1 240px; min-width: 0; margin: 0; }
+.v2 .v2__main .v2-hubpedia-toolbar > .v2-filter-disclosure { flex: 0 0 auto; margin: 0; }
+.v2 .v2__main .v2-hubpedia-toolbar > .v2-filter-disclosure[open] > summary { margin-bottom: 0; }
+.v2 .v2__main .v2-hubpedia-toolbar > .v2-filter-disclosure[open] > .v2-filter-disclosure__body {
+  position: absolute;
+  inset-inline: 0;
+  top: calc(100% + var(--v2-space-2));
+  z-index: 6;
+  background: var(--surface-raised);
+}
+.v2 .v2__main .v2-hubpedia-toolbar > .v2-filter-disclosure > summary { min-height: 40px; }
+@media (max-width: 759px) {
+  .v2 .v2__main .v2-hubpedia-toolbar > .v2-filter-disclosure > summary { min-height: 44px; }
+}
+
+/* 一覧の行は全幅で、hover で背景が付く。 */
+.v2-hrows > .v2-hrow { transition: background var(--dur-fast) var(--ease-out); }
+.v2-hrows > .v2-hrow:hover { background: var(--content-surface-hover); }
+
+/* 規約・方針・Hubについて: 読む幅は 40em、左寄せ。見出しは頁見出しの1つに寄せる（本文は変えない）。 */
+.v2-readdoc .hub-legal {
+  width: min(40em, 100%);
+  margin: 0;
+  padding: 0 0 var(--v2-space-8);
+}
+.v2-readdoc .hub-legal > header { margin-bottom: var(--v2-space-5); padding-bottom: var(--v2-space-4); }
+.v2-readdoc .hub-legal > header > h1 {
+  font-size: var(--type-title2-size);
+  line-height: var(--type-title2-leading);
+  font-weight: var(--type-title2-weight);
+}
+.v2-readdoc .hub-legal h2 {
+  font-size: var(--type-title3-size);
+  line-height: var(--type-title3-leading);
+  font-weight: var(--type-title3-weight);
+}
+.v2-readdoc .hub-legal p,
+.v2-readdoc .hub-legal li {
+  font-size: var(--type-reading-size);
+  line-height: var(--type-reading-leading);
+}
+.v2-readdoc .hub-about { padding-top: 0; }
+
+/* 目次: 1280px以上で本文の右に貼り付く。それ未満では出さない。 */
+.hub-legal__toc { display: none; }
+@media (min-width: 1280px) {
+  .v2-readdoc .hub-legal {
+    display: grid;
+    grid-template-columns: minmax(0, 40em) 14rem;
+    column-gap: var(--v2-space-7);
+    width: 100%;
+    max-width: calc(40em + 14rem + var(--v2-space-7));
+  }
+  .v2-readdoc .hub-legal > :not(.hub-legal__toc) { grid-column: 1; }
+  .v2-readdoc .hub-legal > .hub-legal__toc {
+    display: block;
+    grid-column: 2;
+    grid-row: 1 / span 40;
+    align-self: start;
+    position: sticky;
+    top: var(--v2-space-5);
+    margin-top: var(--v2-space-3);
+    border-left: var(--divider);
+    padding-left: var(--v2-space-4);
+  }
+  .v2-readdoc .hub-legal > .hub-legal__toc[hidden] { display: none; }
+  .hub-legal__toc ol { margin: 0; padding: 0; list-style: none; display: grid; gap: var(--v2-space-1); }
+  .hub-legal__toc a {
+    display: block;
+    padding: var(--v2-space-1) 0;
+    color: var(--muted);
+    font-size: var(--type-subhead-size);
+    line-height: var(--type-subhead-leading);
+    text-decoration: none;
+  }
+  .hub-legal__toc a:hover { color: var(--text); }
+}
+.v2-readdoc .hub-legal > section > h2 { scroll-margin-top: var(--v2-space-5); }
+
+/* 保存した本が無いときは区画ごと畳む（読み上げ側の構造は変えない）。 */
+.v2-books-saved--empty { display: none; }

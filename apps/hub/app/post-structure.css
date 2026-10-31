@@ -1,0 +1,217 @@
+/*
+ * Canonical post anatomy shared by the feed, right rail, search, threads,
+ * and communities. Page styles may change density, but not slot order.
+ */
+
+.tweet__header,
+.thread-post-card__header,
+.community-post-card__header {
+  display: flex;
+  width: 100%;
+  min-width: 0;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 6px;
+}
+
+:is(.main-content, .timeline-rail) .tweet__header,
+.community-message .community-post-card__header {
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.tweet__identity {
+  display: flex;
+  min-width: 0;
+  flex: 1 1 auto;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 2px 5px;
+  overflow: hidden;
+}
+
+.tweet__identity > :where(.tweet__name, .bbs-post__name) {
+  min-width: 0;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tweet__identity > :where(.tweet__handle, .thread-post-card__handle, .tweet__time, .bbs-post__date) {
+  flex: 0 1 auto;
+  min-width: 0;
+}
+
+.tweet__header-tools {
+  display: flex;
+  min-width: max-content;
+  flex: 0 0 auto;
+  align-items: center;
+  align-self: flex-start;
+  gap: 2px;
+  margin-inline-start: auto;
+}
+
+.tweet__header-tools .tweet__context-tools {
+  flex-wrap: nowrap;
+  order: 1;
+}
+
+.tweet__header-tools > :not(.tweet__context-tools) {
+  order: 2;
+}
+
+.tweet__context-tools .tweet__context-tool--hubpedia {
+  order: 1;
+}
+
+.tweet__context-tools .tweet__context-tool--ai {
+  order: 2;
+}
+
+:where(.tweet, .thread-post-card, .community-post-card) :where(.tweet__text, .thread-post-card__text, .community-post-card__text) {
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+:where(.tweet, .thread-post-card, .community-post-card) :where(img, video, iframe) {
+  max-width: 100%;
+}
+
+.timeline-rail .tweet__header .tweet__context-tool,
+.tweet--masonry .tweet__header .tweet__context-tool {
+  width: 28px;
+  min-width: 28px;
+  padding-inline: 0;
+}
+
+.timeline-rail .tweet__header .tweet__context-tool--prominent,
+.tweet--masonry .tweet__header .tweet__context-tool--prominent {
+  width: auto;
+  min-width: 30px;
+  padding-inline: 7px;
+}
+
+.tweet--masonry .tweet__identity,
+.timeline-rail .tweet__identity {
+  flex-wrap: nowrap;
+}
+
+.tweet--masonry .tweet__handle,
+.timeline-rail .tweet__handle {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.timeline-rail .tweet__header .tweet__context-tool > span,
+.tweet--masonry .tweet__header .tweet__context-tool > span {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.timeline-rail .tweet__header .tweet__context-tool--prominent > span,
+.tweet--masonry .tweet__header .tweet__context-tool--prominent > span {
+  position: static;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  clip-path: none;
+  white-space: nowrap;
+}
+
+.tweet--masonry .tweet__actions {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  column-gap: 2px;
+}
+
+.tweet--masonry .tweet__actions .tweet__action--bookmark {
+  grid-column: 4;
+}
+
+.tweet--masonry .tweet__actions .tweet__action--share {
+  grid-column: 5;
+}
+
+.main-content .community-post-card .community-post-card__channel {
+  margin-inline-start: 0;
+}
+
+.community-post-card__score {
+  display: inline-flex;
+  min-width: 1.25rem;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  font-size: 0.68rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+}
+
+.tweet__repost-control {
+  position: relative;
+}
+
+.tweet__quote--composer {
+  margin-bottom: 8px;
+}
+
+.tweet__composer-cancel {
+  min-height: 34px;
+  padding-inline: 14px;
+  font-size: .88rem;
+}
+
+.tweet__header .tweet__context-tool--prominent {
+  min-height: 40px;
+  padding-inline: 13px;
+  border-radius: 10px;
+  font-size: .875rem;
+  font-weight: 800;
+  line-height: 1.2;
+  touch-action: manipulation;
+}
+
+@media (max-width: 560px) {
+  .tweet__header .tweet__context-tool {
+    width: 28px;
+    min-width: 28px;
+    padding-inline: 0;
+  }
+
+  .tweet__header .tweet__context-tool > span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .tweet__header .tweet__context-tool--prominent {
+    width: auto;
+    min-width: 36px;
+    padding-inline: 9px;
+  }
+
+  .tweet__header .tweet__context-tool--prominent > span {
+    position: static;
+    width: auto;
+    height: auto;
+    overflow: visible;
+    clip-path: none;
+    white-space: nowrap;
+  }
+}
+
+@media (pointer: coarse) {
+  .tweet__header .tweet__context-tool--prominent {
+    min-width: 44px;
+    min-height: 44px;
+  }
+}

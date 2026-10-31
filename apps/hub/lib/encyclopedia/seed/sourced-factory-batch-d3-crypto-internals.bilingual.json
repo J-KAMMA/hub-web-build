@@ -1,0 +1,201 @@
+[
+  {
+    "slug": "computer-network",
+    "topicType": "concept",
+    "categoryLabel": "インターネット・セキュリティ",
+    "title": "コンピュータネットワーク",
+    "summary": "コンピュータネットワークは、ルータやケーブルといった構成要素を相互に接続して成り立つシステムであり、安全性を論じる文脈では、特に断りがない限り誰でも介入しうるオープンな通信媒体として扱われる。この前提のもとで、異なるネットワークの接合点に置かれて通信を制限する仕組みがファイアウォールであり、それを装置とみるか機能とみるか、内向きの防御か双方向の制御かは、定義ごとに幅がある。",
+    "bodyMarkdown": "## 構成要素の集合としてのネットワーク\n\nネットワークという語が指すのは単一の装置ではなく、相互に接続された複数の構成要素の集合として実装されるシステムである。構成要素として挙げられるものには、ルータ、ハブ、ケーブル、通信制御装置、鍵配布センター、技術的制御装置がある。この一覧は、信号を運ぶ物理的な線から、通信を制御する装置、さらに鍵を配る役割まで、性質の異なるものを同じ「構成要素」として並べている。 [1][2]\n\n## 開かれた媒体という前提\n\n安全性を扱う文脈では、ネットワークはより限定して定義されることがある。すなわち、申請者と他の当事者との間でメッセージを伝送するために用いられる通信媒体であり、典型的にはインターネットのようなオープンな媒体が想定される。 [4]\n\nこの定義には前提が付く。特に断りがない限り、ネットワークはオープンであり、当事者間のどの地点においても、[なりすまし](/hubpedia/digital-identity)やセッションハイジャックのような能動的攻撃と、[盗聴](/hubpedia/encryption)のような受動的攻撃を受けうるものとみなされる。通信路のうちある一区間だけを無条件に安全と仮定することは、この前提のもとでは行われない。 [5]\n\n## ファイアウォールの位置と制御\n\nファイアウォールは、通常は二つのネットワークの接合点、すなわちゲートウェイに位置する。典型的にはプライベートネットワークと、インターネットのような公共ネットワークとの境目である。この位置づけから、ファイアウォールはネットワーク間ゲートウェイとして、接続された一方のネットワーク（内側）との間で行われるデータ通信トラフィックを制限し、そのネットワークのシステム資源を他方（外側）からの脅威から保護するものと説明される。 [6][10]\n\n何を通し何を遮るかは、あらかじめ定められた基準に従う。ファイアウォールは、ローカルのセキュリティポリシーに従ってネットワーク間のアクセスを制限するゲートウェイと定義され、また、外向きの通信を許可しつつ不正アクセスを遮断するよう設計されたコンピュータシステムまたはネットワークの一部とも説明される。用途としては、プライベートネットワークへの、またはプライベートネットワークからの不正アクセスの防止、とりわけインターネット利用者がインターネットに接続されたプライベートネットワークへ入るのを防ぐことが挙げられる。 [3][7][11][12]\n\n## 定義の異同\n\nファイアウォールが何であるかについて、記述はそろっていない。装置またはプログラムとするもの、ネットワーク保護アプリケーションがインストールされた装置とするもの、コンピュータシステムまたはネットワークの一部とするもの、そしてネットワーク間ゲートウェイとするものがある。装置に限る記述とプログラムを含める記述とでは、同じ語が指す範囲が違ってくる。 [3][7][8][9]\n\n境界の取り方も一様ではない。二つのネットワークの接合点に置かれるものとする記述に対して、異なるセキュリティ体制を採用するネットワークやホストの間のネットワークトラフィックの流れを制御するものとする記述は、ホストとホストの間も対象に含めている。 [8][10]\n\n保護の向きにも差がある。外側からの脅威に対して内側のシステム資源を守るという説明や、インターネット利用者の侵入を防ぐという説明は、外から内への流れに重心を置く。これに対し、プライベートネットワークへの、またはプライベートネットワークからの不正アクセスを防ぐという定義や、意図的または非意図的な侵入から保護するという定義は、双方向の流れや事故によるものまで視野に入れている。 [6][9][11][12]\n\n## 名称の由来\n\n「ファイアウォール」という用語は、ネットワークを異なる物理サブネットワークに分割することで、ある部分区画から別の部分区画へ被害が広がるのを防ぐという発想に由来し、自動車における防火壁と同様の働きを想定した比喩である。この由来が重心を置いているのは、通過の可否を一点で判断することよりも、区画を分けて被害の広がりを止めることである。 [3][13]\n\n## 制御の及ぶ範囲\n\n前提と設置位置のあいだには隔たりが残る。オープンな媒体という前提では、当事者間のどの地点でも能動的攻撃と受動的攻撃が起こりうるとされるのに対し、ファイアウォールの定義が述べているのは、二つのネットワークの接合点における通信の制限である。 [5][10]\n\n遮断の基準そのものも装置の外にある。ファイアウォールはローカルのセキュリティポリシーに従ってアクセスを制限すると定義されており、何を不正アクセスとみなすかは、そのポリシーを定める側が決めることになる。 [3][11]\n\n## 関連記事\n\n- [公開鍵暗号](/hubpedia/public-key-cryptography)\n- [電子証明書](/hubpedia/digital-certificate)\n- クラウドコンピューティング\n- デジタル・フォレンジック",
+    "sources": [
+      {
+        "url": "https://csrc.nist.gov/glossary/term/network",
+        "title": "Network — NIST CSRC Glossary",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "The standards body's own definition of computer-network. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      },
+      {
+        "url": "https://csrc.nist.gov/glossary/term/firewall",
+        "title": "Firewall — NIST CSRC Glossary",
+        "publisher": "National Institute of Standards and Technology",
+        "language": "en",
+        "sourceType": "government",
+        "reliabilityTier": "official",
+        "license": "US-GOV-PUBLIC-DOMAIN",
+        "metadata": {
+          "commercialReuse": {
+            "approved": true,
+            "reviewedAt": "2026-08-28T00:00:00Z",
+            "licenseUrl": "https://www.nist.gov/oism/copyrights"
+          },
+          "notes": "What controls traffic across a network. Publisher policy read 2026-08-28: Public information that may be distributed or copied, with the stated exception of material marked as copyrighted; credits are requested. Individual pages may carry their own terms, so a page marked copyrighted is excluded. The factory takes body text only — no images, marks, or likenesses."
+        }
+      }
+    ],
+    "translations": {
+      "en": {
+        "title": "Computer network",
+        "summary": "A computer network is a system formed by interconnecting components such as routers and cables, and in discussions of security it is treated, unless otherwise noted, as an open communication medium in which anyone may intervene. Under this assumption, a firewall is the mechanism placed at the junction between different networks to restrict communication, and definitions vary in whether they treat it as a device or a function, and whether it provides inward defense or bidirectional control.",
+        "bodyMarkdown": "## The network as a collection of components\n\nThe term network refers not to a single device but to a system implemented as a collection of multiple interconnected components. Components cited include routers, hubs, cables, communication control devices, key distribution centers, and technical control devices. This list places items of differing natures side by side as the same kind of \"component\": physical lines that carry signals, devices that control communication, and even entities whose role is to distribute keys. [1][2]\n\n## The assumption of an open medium\n\nIn contexts dealing with security, a network is sometimes defined more narrowly: as the communication medium used to transmit messages between an applicant and other parties, typically assumed to be an open medium such as the Internet. [4]\n\nThis definition carries an assumption. Unless otherwise noted, the network is regarded as open and as subject, at any point between the parties, to active attacks such as [impersonation](/hubpedia/digital-identity) and session hijacking, and to passive attacks such as [eavesdropping](/hubpedia/encryption). Under this assumption, no single segment of the communication path is unconditionally assumed to be secure. [5]\n\n## The placement and control of a firewall\n\nA firewall is normally located at the junction of two networks, that is, at a gateway — typically the boundary between a private network and a public network such as the Internet. From this placement, a firewall is described as an inter-network gateway that restricts the data communication traffic exchanged with one of the connected networks (the inside) and protects that network's system resources from threats originating on the other (the outside). [6][10]\n\nWhat passes and what is blocked follows criteria established in advance. A firewall is defined as a gateway that restricts access between networks in accordance with a local security policy, and it is also described as a computer system or part of a network designed to permit outbound communication while blocking unauthorized access. Its stated purposes include preventing unauthorized access to or from a private network, and in particular preventing Internet users from entering a private network connected to the Internet. [3][7][11][12]\n\n## Differences among the definitions\n\nAccounts do not agree on what a firewall is. Some treat it as a device or a program, some as a device on which a network protection application is installed, some as a computer system or part of a network, and some as an inter-network gateway. An account limited to devices and an account that includes programs give the same term a different scope. [3][7][8][9]\n\nThe drawing of boundaries is not uniform either. Against the account that places a firewall at the junction of two networks, the account that describes it as controlling the flow of network traffic between networks or hosts that adopt different security regimes also brings host-to-host traffic within its scope. [8][10]\n\nThe direction of protection differs as well. The explanation that inside system resources are protected against outside threats, and the explanation that intrusion by Internet users is prevented, place their emphasis on the flow from outside to inside. By contrast, the definition of preventing unauthorized access to or from a private network, and the definition of protecting against intentional or unintentional intrusion, take into view both directions of flow and even accidental cases. [6][9][11][12]\n\n## Origin of the name\n\nThe term \"firewall\" derives from the idea of dividing a network into separate physical subnetworks so as to prevent damage from spreading from one partition to another — a metaphor modeled on the firewall in an automobile. What this origin emphasizes is not judging at a single point whether traffic may pass, but partitioning in order to stop damage from spreading. [3][13]\n\n## The reach of control\n\nA gap remains between the assumption and the point of installation. The assumption of an open medium holds that active and passive attacks can occur at any point between the parties, whereas what the definitions of a firewall describe is the restriction of communication at the junction of two networks. [5][10]\n\nThe criteria for blocking also lie outside the device itself. A firewall is defined as restricting access in accordance with a local security policy, so what counts as unauthorized access is decided by whoever sets that policy. [3][11]\n\n## Related articles\n\n- [Public-key cryptography](/hubpedia/public-key-cryptography)\n- [Digital certificate](/hubpedia/digital-certificate)\n- Cloud computing\n- Digital forensics"
+      }
+    },
+    "provenance": {
+      "generatedAt": "2026-08-28T13:05:53.880Z",
+      "claims": [
+        {
+          "index": 1,
+          "statement": "ネットワークは、相互に接続された複数の構成要素の集合として実装されるシステムである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/network",
+              "quote": "A system implemented with a collection of interconnected components."
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "statement": "ネットワークを構成する要素には、ルータ、ハブ、ケーブル、通信制御装置、鍵配布センター、技術的制御装置が含まれ得る。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/network",
+              "quote": "Such components may include routers, hubs, cabling, telecommunications controllers, key distribution centers, and technical control devices."
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "statement": "ファイアウォールは、ローカルのセキュリティポリシーに従ってネットワーク間のアクセスを制限するゲートウェイである。",
+          "confidence": 0.9,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/firewall",
+              "quote": "A gateway that limits access between networks in accordance with local security policy."
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "statement": "ネットワークは、申請者と他の当事者との間でメッセージを伝送するために用いられる、典型的にはインターネットのようなオープンな通信媒体と定義されることがある。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/network",
+              "quote": "An open communications medium, typically the internet, used to transport messages between the claimant and other parties."
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "statement": "特に断りがない限り、ネットワークはオープンであり、当事者間のどの地点でも能動的攻撃（なりすまし、セッションハイジャックなど）および受動的攻撃（盗聴など）を受けうるものとみなされる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/network",
+              "quote": "Unless otherwise stated, networks are assumed to be open and subject to active (e.g., impersonation, session hijacking) and passive (e.g., eavesdropping) attacks at any point between the parties (e.g., claimant, verifier, CSP, RP)."
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "statement": "ファイアウォールは、接続された一方のネットワーク（内側）との間で行われるデータ通信トラフィックを制限するネットワーク間ゲートウェイであり、それによってそのネットワークのシステム資源を他方のネットワーク（外側）からの脅威から保護する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/firewall",
+              "quote": "An inter-network gateway that restricts data communication traffic to and from one of the connected networks (the one said to be “inside” the firewall) and thus protects that network’s system resources against threats from the other network (the one that is said to be “outside” the firewall)."
+            }
+          ]
+        },
+        {
+          "index": 7,
+          "statement": "ファイアウォールは、外向きの通信を許可しつつ不正アクセスを遮断するよう設計された、コンピュータシステムまたはネットワークの一部である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/firewall",
+              "quote": "A part of a computer system or network that is designed to block unauthorized access while permitting outward communication."
+            }
+          ]
+        },
+        {
+          "index": 8,
+          "statement": "ファイアウォールは、異なるセキュリティ体制を採用するネットワークやホストの間のネットワークトラフィックの流れを制御する装置またはプログラムである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/firewall",
+              "quote": "A device or program that controls the flow of network traffic between networks or hosts that employ differing security postures."
+            }
+          ]
+        },
+        {
+          "index": 9,
+          "statement": "ファイアウォールは、意図的または非意図的な侵入からネットワークを保護するためにネットワーク保護アプリケーションがインストールされた装置である。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/firewall",
+              "quote": "A firewall is a device that has a network protection application installed to safeguard the network from intentional or unintentional intrusion."
+            }
+          ]
+        },
+        {
+          "index": 10,
+          "statement": "ファイアウォールは、通常はプライベートネットワークとインターネットのような公共ネットワークという二つのネットワークの接合点、すなわちゲートウェイに位置する。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/firewall",
+              "quote": "A firewall sits at the junction point or gateway between the two networks, usually a private network and a public network such as the Internet."
+            }
+          ]
+        },
+        {
+          "index": 11,
+          "statement": "ファイアウォールは、プライベートネットワークへの、またはプライベートネットワークからの不正アクセスを防止するために設計されたシステムである。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/firewall",
+              "quote": "A system designed to prevent unauthorized accesses to or from a private network."
+            }
+          ]
+        },
+        {
+          "index": 12,
+          "statement": "ファイアウォールは、インターネット利用者がインターネットに接続されたプライベートネットワークへアクセスするのを防ぐためによく用いられる。",
+          "confidence": 0.85,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/firewall",
+              "quote": "Often used to prevent Internet users from accessing private networks connected to the Internet."
+            }
+          ]
+        },
+        {
+          "index": 13,
+          "statement": "「ファイアウォール」という用語は、ネットワークを異なる物理サブネットワークに分割することで、ある部分区画から別の部分区画へ被害が広がるのを防ぐという発想に由来し、自動車における防火壁と同様の働きをする。",
+          "confidence": 0.8,
+          "evidence": [
+            {
+              "sourceUrl": "https://csrc.nist.gov/glossary/term/firewall",
+              "quote": "The term “firewall” is derived from the process in which, by segmenting a network into different physical subnetworks, the firewalls limit damage that could spread from one subnet to another, acting in the same manner as fire doors or firewalls in automobiles."
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
