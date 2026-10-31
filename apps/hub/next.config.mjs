@@ -200,7 +200,35 @@ const nextConfig = {
     maxInactiveAge: 1_000,
     pagesBufferLength: 1,
   },
-  webpack(config, { dev }) {
+  webpack(config, { dev, isServer, nextRuntime }) {
+    // Next's server split-chunks default keeps webpack's 20 kB minSize, so every
+    // small module shared by several routes was copied into each route entry
+    // (about 14 MB of the 56 MB Worker was such copies). minSize 0 puts any module
+    // used by two or more entries into one shared chunk. Code is unchanged.
+    if (!dev && isServer && nextRuntime === "nodejs" && config.optimization?.splitChunks) {
+      config.optimization.splitChunks = { ...config.optimization.splitChunks, minSize: 0 };
+    }
+    // Browser-only SDKs reached through import() inside event handlers or effects
+    // (hardware wallets, Bitcoin wallet bridge, the 3D world). The SSR pre-render of
+    // client components never runs those handlers, yet webpack still bundled the
+    // SDKs (about 3.5 MB) into the Worker. Within the "ssr" layer only, resolve them
+    // to an empty module. The browser bundles, and RSC/route code, are untouched.
+    if (!dev && isServer && nextRuntime === "nodejs") {
+      config.module.rules.push({
+        issuerLayer: "ssr",
+        resolve: {
+          alias: {
+            "@ledgerhq/hw-app-eth": false,
+            "@ledgerhq/hw-transport-webhid": false,
+            "@trezor/connect-web": false,
+            "sats-connect": false,
+            "@babylonjs/core": false,
+            "@babylonjs/loaders": false,
+            "@jkamma/hub-world/client": false,
+          },
+        },
+      });
+    }
     // Analysis builds only (web-analyze-* tags): keep module paths in the
     // server chunks so .github/scripts/server-modules.mjs can size them.
     if (process.env.HUB_NAMED_MODULES === "true") {
