@@ -42,6 +42,10 @@ jobs:
           cd apps/hub
           npx wrangler deploy --dry-run --config wrangler.production.jsonc --outdir ../../dist/worker-dry-run 2>&1 | tee ../../dist/worker-size.txt
           grep -i "total upload" ../../dist/worker-size.txt
+          echo "== largest files in the Worker upload =="
+          find ../../dist/worker-dry-run -type f -printf '%s %p\n' | sort -nr | head -40
+          echo "== largest server chunks in .open-next =="
+          find .open-next -type f \( -name '*.js' -o -name '*.mjs' -o -name '*.wasm' \) -printf '%s %p\n' | sort -nr | head -60
       - name: Package and hash OpenNext output
         run: |
           set -euo pipefail
