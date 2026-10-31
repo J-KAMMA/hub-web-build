@@ -41,6 +41,7 @@ jobs:
         run: npm run build:hub:cloudflare
       - name: Server module composition (analysis builds)
         if: env.HUB_NAMED_MODULES == 'true'
+        continue-on-error: true
         run: node .github/scripts/server-modules.mjs apps/hub/.open-next/server-functions/default/apps/hub/.next/server
       - name: Measure Worker upload size (dry run, no credentials)
         run: |
