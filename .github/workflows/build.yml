@@ -8,6 +8,7 @@ on:
   push:
     tags:
       - "web-build-*"
+      - "web-analyze-*"
   workflow_dispatch:
 
 permissions:
@@ -20,6 +21,7 @@ jobs:
     env:
       NODE_OPTIONS: --max-old-space-size=7168
       HUB_BUILD_CPUS: "2"
+      HUB_NAMED_MODULES: ${{ startsWith(github.ref_name, 'web-analyze-') && 'true' || 'false' }}
       NEXT_TELEMETRY_DISABLED: "1"
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
@@ -37,6 +39,9 @@ jobs:
         run: npm run build:hub
       - name: OpenNext Cloudflare build (build:hub:cloudflare)
         run: npm run build:hub:cloudflare
+      - name: Server module composition (analysis builds)
+        if: env.HUB_NAMED_MODULES == 'true'
+        run: node .github/scripts/server-modules.mjs apps/hub/.open-next/server-functions/default/apps/hub/.next/server
       - name: Measure Worker upload size (dry run, no credentials)
         run: |
           set -euo pipefail

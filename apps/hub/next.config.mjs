@@ -201,6 +201,11 @@ const nextConfig = {
     pagesBufferLength: 1,
   },
   webpack(config, { dev }) {
+    // Analysis builds only (web-analyze-* tags): keep module paths in the
+    // server chunks so .github/scripts/server-modules.mjs can size them.
+    if (process.env.HUB_NAMED_MODULES === "true") {
+      config.optimization = { ...config.optimization, moduleIds: "named" };
+    }
     // Source maps are useful for focused debugging but retain a large amount
     // of module graph data in this monorepo. Keep them opt-in on the
     // constrained VPS development runtime; production builds are unchanged.
