@@ -206,7 +206,12 @@ const nextConfig = {
     // (about 14 MB of the 56 MB Worker was such copies). minSize 0 puts any module
     // used by two or more entries into one shared chunk. Code is unchanged.
     if (!dev && isServer && nextRuntime === "nodejs" && config.optimization?.splitChunks) {
-      config.optimization.splitChunks = { ...config.optimization.splitChunks, minSize: 0 };
+      config.optimization.splitChunks = {
+        ...config.optimization.splitChunks,
+        minSize: 0,
+        maxInitialRequests: Infinity,
+        maxAsyncRequests: Infinity,
+      };
     }
     // Browser-only SDKs reached through import() inside event handlers or effects
     // (hardware wallets, Bitcoin wallet bridge, the 3D world). The SSR pre-render of
