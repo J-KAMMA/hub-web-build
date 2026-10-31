@@ -30,6 +30,8 @@ jobs:
         with:
           node-version: 24.14.0
       - name: Install dependencies
+        env:
+          ONNXRUNTIME_NODE_INSTALL: skip
         run: npm ci --no-audit --no-fund
       - name: Next build (build:hub)
         run: npm run build:hub
