@@ -115,6 +115,8 @@ if (result.status === 0) {
    * script (lib/server/worker-data.ts). OpenNext has just rebuilt the assets
    * directory, so they are copied in afterwards.
    */
+  const { patchPreviewProps } = await import("./patch-preview-props.mjs");
+  console.log("preview-props patch", JSON.stringify(patchPreviewProps(resolve(workspaceRoot, "apps/hub"))));
   const { stageWorkerData } = await import("./stage-worker-data.mjs");
   for (const item of stageWorkerData()) console.log(`staged worker data ${item.name} (${item.bytes} bytes)`);
 }
