@@ -189,7 +189,7 @@ export async function itemSignalKeys(db: D1Database, kind: HubEvidenceKind, id: 
   if (kind === "video") add(`video:${id}`);
   if (kind === "music_work") add(`music:${id}`);
   if (kind === "post") {
-    const video = await db.prepare("SELECT video_id AS id FROM social_post_video_refs WHERE post_id = ?").bind(id).first<{ id: string }>();
+    const video = await db.prepare("SELECT reply_to_video_id AS id FROM social_posts WHERE id = ? AND reply_to_video_id IS NOT NULL").bind(id).first<{ id: string }>();
     if (video) add(`video:${video.id}`);
     const music = await db.prepare("SELECT work_id AS id FROM social_post_music_refs WHERE post_id = ?").bind(id).first<{ id: string }>();
     if (music) add(`music:${music.id}`);

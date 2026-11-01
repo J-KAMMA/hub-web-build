@@ -27,10 +27,8 @@ import { NativeVideoPlayer } from "@/components/native-video-player";
 import { VideoReportPicker } from "@/components/video-report-picker";
 import { revokeYouTubeEmbedConsent } from "@/components/youtube-embed-consent";
 import { classifyVideoBroadcastStatus, videoBroadcastLabel } from "@/lib/video-broadcast-status";
-import { VideoThread } from "@/components/video-thread";
 import { HorizontalScrollRail } from "@/components/horizontal-scroll-rail";
 import { shouldInsertRecurringAd } from "@/lib/ad-insertion-schedule";
-import type { VideoThreadComment } from "@/lib/server/d1-video-thread-comments";
 import { isVerticalVideo } from "@/lib/video-display-format";
 import { V2AccessGateAttachToggle } from "@/components/v2/v2-access-gate-attach";
 import { applyAccessGate } from "@/components/v2/v2-access-gate-shared";
@@ -164,26 +162,11 @@ const PROVIDER_LABELS: Record<VideoProvider, string> = {
   hub: "Hub動画",
 };
 
-function ShortVideoThread({ authenticated, videoId, playbackSeconds, onSeek }: { authenticated: boolean; videoId: string; playbackSeconds?: number; onSeek?: (seconds: number) => void }) {
-  const [comments, setComments] = useState<VideoThreadComment[]>([]);
-  useEffect(() => {
-    let cancelled = false;
-    void fetch(`/api/videos/${encodeURIComponent(videoId)}/comments`, { credentials: "same-origin" })
-      .then((response) => response.ok ? response.json() : null)
-      .then((payload: { comments?: VideoThreadComment[] } | null) => {
-        if (!cancelled) setComments(payload?.comments ?? []);
-      })
-      .catch(() => { if (!cancelled) setComments([]); });
-    return () => { cancelled = true; };
-  }, [videoId]);
-  return <VideoThread
-    key={videoId}
-    videoId={videoId}
-    initialComments={comments}
-    authenticated={authenticated}
-    currentPlaybackSeconds={playbackSeconds}
-    onSeek={onSeek}
-  />;
+/* コメントは動画のポスト（返信）。ショートの画面からは動画のページへ案内する。 */
+function ShortVideoThread({ videoId }: { authenticated?: boolean; videoId: string; playbackSeconds?: number; onSeek?: (seconds: number) => void }) {
+  return <p className="video-thread-note">
+    <a href={`/v2/videos/${encodeURIComponent(videoId)}`}>コメントは動画のページで読む・書く</a>
+  </p>;
 }
 
 function videoDetailHref(videoId: string) {

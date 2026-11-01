@@ -21,13 +21,14 @@ export async function listD1VideoPosts(
   videoId: string,
   viewerProfileId: string | null,
   rawCursor?: string | null,
+  options: { hiddenOnly?: boolean } = {},
 ): Promise<{ posts: D1TimelinePost[]; nextCursor: string | null }> {
   const cursor = rawCursor ? decodeTimelineCursor(rawCursor) : null;
   if (rawCursor && !cursor) throw new InvalidVideoPostCursorError();
   // 1件多く引いて、次のページがあるかを空振りなしで決める。
   const rows = await listD1TimelinePosts(
     database, viewerProfileId, undefined, VIDEO_POSTS_PAGE_SIZE + 1, 0, undefined,
-    cursor, "latest", undefined, "all", false, videoId,
+    cursor, "latest", undefined, "posts", false, videoId, null, "list", options.hiddenOnly === true,
   );
   const posts = rows.slice(0, VIDEO_POSTS_PAGE_SIZE);
   const last = posts.at(-1);

@@ -1149,6 +1149,8 @@ export async function deleteHubVideo(
       .prepare(`UPDATE hub_videos SET state = 'deleted', deleted_at = ?, unpublished_at = COALESCE(unpublished_at, ?), updated_at = ?
         WHERE id = ? AND state <> 'deleted'`)
       .bind(now, now, now, row.id),
+    // Comments go first: with the gate row gone they would read as ungated comments of a dead video.
+    database.prepare("DELETE FROM social_posts WHERE reply_to_video_id = ?").bind(row.id),
     database.prepare("DELETE FROM content_access_gates WHERE target_type = 'video' AND target_id = ?").bind(row.id),
     database.prepare("DELETE FROM hub_video_outbox WHERE video_id = ?").bind(row.id),
   ]);

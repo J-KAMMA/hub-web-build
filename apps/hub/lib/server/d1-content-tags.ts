@@ -1,5 +1,6 @@
 import type { D1Database, D1PreparedStatement } from "@cloudflare/workers-types";
 import { normalizeTag, normalizeTagList, tagKey } from "@jkamma/content-tags";
+import { notGatedSql } from "@/lib/server/gated-exits";
 import {
   CONTENT_TAG_CLASSIFIER_VERSION,
   sanitizeContentTagSignals,
@@ -169,7 +170,8 @@ function tagKeyPrefix(query: string): string {
 const PUBLIC_LINK_JOIN = "LEFT JOIN social_posts sp ON l.target_type='social_post' AND sp.id=l.target_id";
 const PUBLIC_LINK_WHERE = `l.public_visible=1 AND (l.target_type<>'social_post' OR (sp.id IS NOT NULL AND sp.moderated_at IS NULL AND sp.audience='public'))
   AND NOT EXISTS (SELECT 1 FROM content_access_gates cag WHERE cag.target_id=l.target_id
-    AND cag.target_type=CASE l.target_type WHEN 'social_post' THEN 'post' WHEN 'user_article' THEN 'article' ELSE l.target_type END)`;
+    AND cag.target_type=CASE l.target_type WHEN 'social_post' THEN 'post' WHEN 'user_article' THEN 'article' ELSE l.target_type END)
+  AND (l.target_type<>'social_post' OR ${notGatedSql("post", "l.target_id")})`;
 
 export async function listD1PopularContentTags(database: D1Database, limit = 20, query = ""): Promise<ContentTagSummary[]> {
   const normalized = tagKeyPrefix(query);
@@ -220,6 +222,7 @@ export async function listD1TrendingContentTags(
         l.target_type <> 'social_post'
         OR (social.id IS NOT NULL AND social.moderated_at IS NULL AND social.audience = 'public')
       )
+      AND (l.target_type <> 'social_post' OR ${notGatedSql("post", "l.target_id")})
       AND NOT EXISTS (
         SELECT 1 FROM content_access_gates gate
         WHERE gate.target_id = l.target_id

@@ -12,9 +12,9 @@ import { assertExpectedSocialPostViewer, createSocialPostRouteData, getSocialPos
 import { HubAuthenticationError } from "@/lib/server/hub-session";
 import { HubProfileBlockedError } from "@/lib/server/profile-blocks";
 import { getHubD1, HubD1UnavailableError } from "@/lib/server/hub-d1";
+import { federateNewPost } from "@/lib/server/video-comment-federation";
 import { getOptionalHubSessionProfile, requireHubSessionProfile } from "@/lib/server/hub-session";
 import { listD1TimelinePosts } from "@/lib/server/d1-social-posts";
-import { publishFederatedPost } from "@/lib/server/federation-gateway";
 import { pullFederationInboundIfStale } from "@/lib/server/federation-inbound";
 import { RepostCooldownError } from "@/lib/repost-cooldown";
 import { readListPagination } from "@/lib/server/list-pagination";
@@ -266,11 +266,7 @@ export async function POST(request: Request) {
 
   logger.info("post.created", context, { status: 201 });
   if (audience === "public" && normalizedBody && postData.post.authorProfileId) {
-    await publishFederatedPost({
-      profileId: postData.post.authorProfileId,
-      hubPostId: postData.post.id,
-      text: postData.post.body,
-      inReplyToHubPostId: postData.post.replyToPostId,
+    await federateNewPost(getHubD1(), postData.post, {
       attachments: postData.post.images?.map((image) => ({
         url: image.url,
         mediaType: "image/webp",

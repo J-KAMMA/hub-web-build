@@ -24,7 +24,6 @@ export async function readOwnSocialExport(database: D1Database, profileId: strin
     reactions,
     articleCommentLikes,
     videoLikes,
-    videoCommentLikes,
     lists,
     listMembers,
     listThreads,
@@ -55,7 +54,6 @@ export async function readOwnSocialExport(database: D1Database, profileId: strin
     rows(database, "SELECT target_type, target_id, kind, created_at FROM reactions WHERE profile_id = ? ORDER BY created_at", profileId),
     rows(database, "SELECT comment_id, created_at FROM hub_user_article_comment_likes WHERE profile_id = ? ORDER BY created_at", profileId),
     rows(database, "SELECT video_id, created_at FROM video_likes WHERE profile_id = ? ORDER BY created_at", profileId),
-    rows(database, "SELECT comment_id, created_at FROM video_thread_comment_likes WHERE profile_id = ? ORDER BY created_at", profileId),
     rows<{ id: string }>(database, "SELECT id, name, description, visibility, kind, sort_order, created_at, updated_at FROM user_lists WHERE owner_profile_id = ? ORDER BY sort_order, created_at", profileId),
     rows<{ list_id: string }>(
       database,
@@ -135,7 +133,7 @@ export async function readOwnSocialExport(database: D1Database, profileId: strin
 
   return {
     directMessages: directMessages.map((row) => ({ ...row, from_me: row.from_me === 1 })),
-    likes: { reactions, articleCommentLikes, videoLikes, videoCommentLikes },
+    likes: { reactions, articleCommentLikes, videoLikes },
     lists: lists.map((list) => ({
       ...list,
       members: byList(listMembers, list.id),

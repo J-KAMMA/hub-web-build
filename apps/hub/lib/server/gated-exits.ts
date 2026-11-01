@@ -24,7 +24,10 @@ export function notGatedSql(targetType: AccessGateTargetType, idExpression: stri
   if (!LITERAL_TARGET_TYPES.has(targetType) || !/^[A-Za-z_][A-Za-z0-9_.]*$/.test(idExpression)) {
     throw new Error("invalid gate exclusion target");
   }
-  return `NOT EXISTS (SELECT 1 FROM content_access_gates cag_exit WHERE cag_exit.target_type = '${targetType}' AND cag_exit.target_id = ${idExpression})`;
+  const own = `NOT EXISTS (SELECT 1 FROM content_access_gates cag_exit WHERE cag_exit.target_type = '${targetType}' AND cag_exit.target_id = ${idExpression})`;
+  if (targetType !== "post") return own;
+  // A video comment sits under its video's gate as well (docs/hub-video-comments/DESIGN.md).
+  return `(${own} AND NOT EXISTS (SELECT 1 FROM social_posts cag_vp JOIN content_access_gates cag_vg ON cag_vg.target_type = 'video' AND cag_vg.target_id = cag_vp.reply_to_video_id WHERE cag_vp.id = ${idExpression}))`;
 }
 
 /** The ids (out of `ids`) that have a gate attached. One batched lookup per 80 ids. */
@@ -44,6 +47,23 @@ export async function gatedTargetIds(
       .bind(targetType, ...chunk)
       .all<{ target_id: string }>();
     for (const row of result.results ?? []) gated.add(row.target_id);
+    if (targetType === "post") {
+      // Comments of a gated video inherit the video's gate.
+      const inherited = await database
+        .prepare(
+          `SELECT p.id AS target_id FROM social_posts p
+           JOIN content_access_gates g ON g.target_type = 'video' AND g.target_id = p.reply_to_video_id
+           WHERE p.id IN (${chunk.map(() => "?").join(", ")})`,
+        )
+        .bind(...chunk)
+        .all<{ target_id: string }>()
+        .catch((error: unknown) => {
+          // Before migration 0309 no video comment exists, so there is nothing to inherit.
+          if (error instanceof Error && /no such column:?\s*([A-Za-z_]+\.)?reply_to_video_id/i.test(error.message)) return { results: [] as { target_id: string }[] };
+          throw error;
+        });
+      for (const row of inherited.results ?? []) gated.add(row.target_id);
+    }
   }
   return gated;
 }
@@ -207,10 +227,21 @@ async function defaultDeps(): Promise<GateFederationDeps> {
  * the post never left this Hub). Never throws; the gate has already been saved.
  */
 export async function onAccessGateAttached(
-  _database: D1Database,
+  database: D1Database,
   target: { targetType: string; targetId: string },
   deps?: GateFederationDeps,
 ): Promise<void> {
+  if (target.targetType === "video") {
+    // Comments of the video leave the federation with it (Delete in keyset batches).
+    try {
+      const d = deps ?? (await defaultDeps());
+      const { withdrawVideoComments } = await import("@/lib/server/video-comment-federation");
+      await withdrawVideoComments(database, target.targetId, { publishFederatedPost: d.publishFederatedPost, deleteFederatedPost: d.deleteFederatedPost });
+    } catch {
+      console.warn(JSON.stringify({ event: "gate_federation_video_comments_delete_failed" }));
+    }
+    return;
+  }
   if (target.targetType !== "post") return;
   try {
     const d = deps ?? (await defaultDeps());
@@ -230,6 +261,16 @@ export async function onAccessGateDetached(
   target: { targetType: string; targetId: string },
   deps?: GateFederationDeps,
 ): Promise<void> {
+  if (target.targetType === "video") {
+    try {
+      const d = deps ?? (await defaultDeps());
+      const { republishVideoComments } = await import("@/lib/server/video-comment-federation");
+      await republishVideoComments(database, target.targetId, { publishFederatedPost: d.publishFederatedPost, deleteFederatedPost: d.deleteFederatedPost });
+    } catch {
+      console.warn(JSON.stringify({ event: "gate_federation_video_comments_create_failed" }));
+    }
+    return;
+  }
   if (target.targetType !== "post") return;
   try {
     const post = await database
@@ -246,6 +287,12 @@ export async function onAccessGateDetached(
     if (await isTargetGated(database, "post", post.id)) return;
     const d = deps ?? (await defaultDeps());
     const attachments = d.imageAttachments ? await d.imageAttachments(post.id) : undefined;
+    const { federateNewPost, videoCommentFederationPlan } = await import("@/lib/server/video-comment-federation");
+    if ((await videoCommentFederationPlan(database, post.id)).kind !== "plain") {
+      // A video comment follows the video rules (public video, not hidden, link text), not the plain-post path.
+      await federateNewPost(database, post, { attachments, sender: { publishFederatedPost: d.publishFederatedPost, deleteFederatedPost: d.deleteFederatedPost } });
+      return;
+    }
     await d.publishFederatedPost({
       profileId: post.authorProfileId,
       hubPostId: post.id,

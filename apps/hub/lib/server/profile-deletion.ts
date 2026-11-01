@@ -400,6 +400,8 @@ const STEP_RUNNERS: Record<DeletionStepName, (ctx: Ctx, cursor: number, persist:
         statements.push(
           ctx.db.prepare(`UPDATE hub_videos SET state = 'deleted', deleted_at = ?1, unpublished_at = COALESCE(unpublished_at, ?1), updated_at = ?1
             WHERE id = ?2 AND profile_id = ?3 AND state <> 'deleted'`).bind(ctx.now, id, ctx.profileId),
+          // Comments first, so removing the gate never leaves ungated comments of a deleted video.
+          ctx.db.prepare("DELETE FROM social_posts WHERE reply_to_video_id = ?").bind(id),
           ctx.db.prepare("DELETE FROM content_access_gates WHERE target_type = 'video' AND target_id = ?").bind(id),
           ctx.db.prepare("DELETE FROM hub_video_outbox WHERE video_id = ?").bind(id),
           ctx.db.prepare("DELETE FROM content_tag_links WHERE target_type = 'video' AND target_id = ?").bind(id),

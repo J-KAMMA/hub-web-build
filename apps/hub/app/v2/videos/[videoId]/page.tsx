@@ -18,7 +18,7 @@ import { V2HubpediaCitations } from "@/components/v2/v2-hubpedia-citations";
 import { V2VideoCard } from "@/components/v2/v2-video-card";
 import { V2VideoPosts } from "@/components/v2/v2-video-posts";
 import { listD1VideoPosts } from "@/lib/server/d1-video-posts";
-import { V2VideoComments } from "@/components/v2/v2-video-comments";
+import { readVideoCommentContext } from "@/lib/server/video-comment-access";
 import { V2VideoDownload } from "@/components/v2/v2-video-download";
 import { V2VideoSave } from "@/components/v2/v2-video-save";
 import { V2VideoLike } from "@/components/v2/v2-video-like";
@@ -27,7 +27,6 @@ import { V2VideoFollow } from "@/components/v2/v2-video-follow";
 import { getVideoFollowState } from "@/lib/server/video-channel";
 import { getAppShellData } from "@/lib/server/app-shell-data";
 import { listD1SavedVideos } from "@/lib/server/d1-video-library";
-import { listD1VideoThreadComments } from "@/lib/server/d1-video-thread-comments";
 import { getD1ExternalVideo, listD1ExternalVideosPage } from "@/lib/server/d1-videos";
 import { getHubD1 } from "@/lib/server/hub-d1";
 import { loadHubItemCitations } from "@/lib/server/hubpedia-citations";
@@ -69,13 +68,16 @@ export default async function V2VideoPage({ params }: { params: Promise<{ videoI
   if (!video) notFound();
   const viewerId = currentProfile.id ?? "";
 
-  const [citations, catalog, comments, saved, videoPosts] = await Promise.all([
+  const [citations, catalog, saved, videoPosts] = await Promise.all([
     loadHubItemCitations("video", video.id),
     listD1ExternalVideosPage(database, 50, 0).catch(() => ({ videos: [], total: 0 })),
-    listD1VideoThreadComments(database, video.id, viewerId || undefined).catch(() => []),
+    // A gated video the viewer cannot open shows the locked card only: no comments, replies or posts load.
     viewerId ? listD1SavedVideos(database, viewerId).then((list) => list.some((item) => item.id === video.id)).catch(() => false) : Promise.resolve(false),
-    listD1VideoPosts(database, video.id, viewerId || null).catch(() => ({ posts: [], nextCursor: null })),
+    video.accessGate ? Promise.resolve({ posts: [], nextCursor: null }) : listD1VideoPosts(database, video.id, viewerId || null).catch(() => ({ posts: [], nextCursor: null })),
   ]);
+  // Only the owner of a Hub-hosted video moderates its comments; external videos have no owner.
+  const commentContext = video.accessGate ? null : await readVideoCommentContext(database, video.id).catch(() => null);
+  const canModerate = Boolean(viewerId) && commentContext?.ownerProfileId === viewerId;
   const followState = video.accessGate ? null : await getVideoFollowState(database, video, viewerId || null).catch(() => null);
   const related = relatedVideos(video, catalog.videos, 12);
   const items = v2NavItems(japanese, { notifications: unreadIndicatorCount, messages: unreadMessageCount });
@@ -156,14 +158,12 @@ export default async function V2VideoPage({ params }: { params: Promise<{ videoI
           <div className="v2-watch__rest">
             <V2HubpediaCitations citations={citations} japanese={japanese} />
 
-            <V2DetailSection title={japanese ? "ポスト" : "Posts"}>
-              <V2VideoPosts videoId={video.id} initialPosts={videoPosts.posts} initialCursor={videoPosts.nextCursor} viewerId={viewerId} locale={locale} />
-            </V2DetailSection>
-            {comments.length ? (
-              <V2DetailSection title={japanese ? "以前のコメント" : "Earlier comments"}>
-                <V2VideoComments videoId={video.id} initialComments={comments} authenticated={Boolean(viewerId)} locale={locale} readOnly />
+            {video.accessGate ? null : (
+              <V2DetailSection title={japanese ? "コメント" : "Comments"}>
+                <V2VideoPosts videoId={video.id} initialPosts={videoPosts.posts} initialCursor={videoPosts.nextCursor} viewerId={viewerId} locale={locale}
+                  canModerate={canModerate} initialPolicy={commentContext?.policy ?? "everyone"} />
               </V2DetailSection>
-            ) : null}
+            )}
             <ResearchDiscovery kind="video" targetId={video.id} />
           </div>
         </div>

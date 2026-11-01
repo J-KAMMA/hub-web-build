@@ -206,7 +206,6 @@ add("delete", [
   "video_likes.profile_id",
   "video_profile_activity.profile_id",
   "video_recommendation_settings.profile_id",
-  "video_thread_comment_likes.profile_id",
   "wallet_activity.profile_id",
   "work_listing_saves.profile_id",
   "work_saved_searches.profile_id",
@@ -391,7 +390,6 @@ add("tombstone", [
   "threads.created_by_profile_id",
   "token_rankings.created_by_profile_id",
   "vault_content_reviews.author_profile_id",
-  "video_thread_comments.profile_id",
   "work_inquiry_messages.sender_profile_id",
   "work_listing_inquiries.sender_profile_id",
 ], { reason: TOMBSTONE_CONTEXT });
@@ -427,7 +425,6 @@ add("keep", [
   "thread_post_reports.reporter_profile_id",
   "thread_summary_reports.reporter_profile_id",
   "video_reports.reporter_profile_id",
-  "video_thread_comment_reports.reporter_profile_id",
   "work_listing_reports.reporter_profile_id",
 ], { reason: "Moderation evidence of other people's reports and of reports about this profile; the reporter is only a tombstone." });
 

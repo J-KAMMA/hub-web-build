@@ -10,6 +10,8 @@ import {
   type InboundEventPage,
 } from "@/lib/server/federation-gateway";
 import { hasD1BlockBetween } from "@/lib/server/profile-blocks";
+import { isTargetGated } from "@/lib/server/gated-exits";
+import { isVideoCommentable, readVideoCommentContext, requireCommentPolicy } from "@/lib/server/video-comment-access";
 
 /*
  * Federation の受信箱（GET /v1/inbound）を Hub の表へ取り込む（DESIGN.md 4.1）。
@@ -145,6 +147,28 @@ async function isSuspended(database: D1Database, profileId: string): Promise<boo
 
 export { isSuspended as isSuspendedProfile };
 
+/** False when the remote reply must be dropped: the parent's gate is not open to a remote actor, or the video rules refuse it. */
+async function mayAcceptRemoteReply(
+  database: D1Database,
+  parent: { id: string; reply_to_video_id: string | null; hidden_by_target_owner_at: string | null },
+  shadowProfileId: string,
+): Promise<boolean> {
+  try {
+    if (parent.hidden_by_target_owner_at) return false;
+    // The effective gate (own or the video's) must be absent: a remote actor never passes a gate.
+    if (await isTargetGated(database, "post", parent.id)) return false;
+    const videoId = parent.reply_to_video_id;
+    if (!videoId) return true;
+    if (!(await isVideoCommentable(database, videoId))) return false;
+    const context = await readVideoCommentContext(database, videoId);
+    if (!context) return false;
+    await requireCommentPolicy(database, shadowProfileId, context); // throws for 'nobody' and for 'followers' without a follow
+    return true;
+  } catch {
+    return false;
+  }
+}
+
 async function applyNote(database: D1Database, event: InboundEvent): Promise<void> {
   if (!event.actor) return;
   const objectId = httpUrl(event.objectId);
@@ -158,18 +182,21 @@ async function applyNote(database: D1Database, event: InboundEvent): Promise<voi
 
   const localParentId = text(event.replyToHubPostId, 128);
   const remoteParentUrl = httpUrl(event.inReplyTo);
-  let parent: { id: string; author_profile_id: string | null } | null = null;
+  let parent: { id: string; author_profile_id: string | null; reply_to_video_id: string | null; hidden_by_target_owner_at: string | null } | null = null;
   if (localParentId) {
-    parent = await database.prepare("SELECT id, author_profile_id FROM social_posts WHERE id = ? AND moderated_at IS NULL LIMIT 1")
+    parent = await database.prepare("SELECT id, author_profile_id, reply_to_video_id, hidden_by_target_owner_at FROM social_posts WHERE id = ? AND moderated_at IS NULL LIMIT 1")
       .bind(localParentId).first();
   } else if (remoteParentUrl) {
-    parent = await database.prepare("SELECT id, author_profile_id FROM social_posts WHERE origin_object_id = ? AND moderated_at IS NULL LIMIT 1")
+    parent = await database.prepare("SELECT id, author_profile_id, reply_to_video_id, hidden_by_target_owner_at FROM social_posts WHERE origin_object_id = ? AND moderated_at IS NULL LIMIT 1")
       .bind(remoteParentUrl).first();
   }
   if (localParentId || remoteParentUrl) {
     // 文脈の分からない返信は取り込まない（スレッドの外で単独の発言として見えてしまう）。
     if (!parent) return;
     if (parent.author_profile_id && await hasD1BlockBetween(database, parent.author_profile_id, shadow.profileId)) return;
+    // A reply to a video comment is a comment of the same video and obeys its rules (docs/hub-video-comments/DESIGN.md).
+    // Everything below fails closed: remote actors are never entitled to a gate, and an unknown state drops the reply.
+    if (!(await mayAcceptRemoteReply(database, parent, shadow.profileId))) return;
   } else {
     // トップレベルの投稿は、利用者が承認済みでフォローしている相手の物だけ。フォローを外した後に届いた物は捨てる。
     const followed = await database.prepare(
@@ -182,9 +209,11 @@ async function applyNote(database: D1Database, event: InboundEvent): Promise<voi
   const createdAt = isoOrNow(event.published);
   const inserted = await database.prepare(
     `INSERT OR IGNORE INTO social_posts
-       (id, author_profile_id, display_name, handle, identity_mode, body, created_at, reply_to_post_id, audience, origin, origin_object_id)
-     VALUES (?, ?, ?, ?, 'account', ?, ?, ?, 'public', 'remote', ?)`,
-  ).bind(postId, shadow.profileId, shadow.displayName, shadow.handle, content, createdAt, parent?.id ?? null, objectId).run();
+       (id, author_profile_id, display_name, handle, identity_mode, body, created_at, reply_to_post_id, audience, origin, origin_object_id,
+        reply_to_video_id, feed_visible)
+     VALUES (?, ?, ?, ?, 'account', ?, ?, ?, 'public', 'remote', ?, ?, ?)`,
+  ).bind(postId, shadow.profileId, shadow.displayName, shadow.handle, content, createdAt, parent?.id ?? null, objectId,
+    parent?.reply_to_video_id ?? null, parent?.reply_to_video_id ? 0 : 1).run();
   if (!inserted.meta.changes) return;
 
   // 取り込んだ返信の宛先が自 Hub の利用者なら、ローカルの返信と同じ通知を出す。

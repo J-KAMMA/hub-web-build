@@ -36,7 +36,7 @@
     {
       "binding": "HUB_DATABASE",
       "database_name": "jkamma-hub-production-db",
-      "database_id": "00000000-0000-0000-0000-000000000000",
+      "database_id": "e621c6f3-9d92-41ae-ad6a-d1b5658bd27c",
       "migrations_dir": "migrations"
     }
   ],

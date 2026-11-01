@@ -32,7 +32,7 @@ const visiblePostBaseSql = `(p.author_profile_id IS NULL OR (
     ))`;
 
 /** Public, unmoderated, ungated social posts. Three viewer bindings, in order. */
-export const visiblePostSql = `(${visiblePostBaseSql} AND ${notGatedSql("post", "p.id")})`;
+export const visiblePostSql = `(${visiblePostBaseSql} AND p.hidden_by_target_owner_at IS NULL AND ${notGatedSql("post", "p.id")})`;
 
 export const visibilityBindings = (viewerProfileId: string | null): [string, string, string] => {
   const viewerId = viewerProfileId ?? "";

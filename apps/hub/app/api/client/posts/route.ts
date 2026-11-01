@@ -3,6 +3,7 @@ import { clientFeedPost, feedManaged, feedExpectedViewerError, feedHeaders } fro
 
 import { resolveHubFeatureFlag } from "@/lib/platform/feature-flags";
 import { getHubD1, HubD1UnavailableError } from "@/lib/server/hub-d1";
+import { federateNewPost } from "@/lib/server/video-comment-federation";
 import {
   DesktopHubAuthenticationError,
   requireDesktopHubProfile,
@@ -16,7 +17,6 @@ import {
 } from "@/lib/server/social-post-actions";
 import {
   deleteFederatedPost,
-  publishFederatedPost,
   updateFederatedPost,
 } from "@/lib/server/federation-gateway";
 import { safelyIngestVideosFromPublicBody } from "@/lib/server/auto-ingest-post-videos";
@@ -169,12 +169,7 @@ async function post(request: Request) {
       post: { id: post.id, audience: input.audience },
     });
     if (input.audience === "public" && normalizedBody && post.authorProfileId) {
-      await publishFederatedPost({
-        profileId: post.authorProfileId,
-        hubPostId: post.id,
-        text: post.body,
-        inReplyToHubPostId: post.replyToPostId,
-      });
+      await federateNewPost(database, post);
     }
     }
     if (managed && receipt) return NextResponse.json({ viewerId: profile.id, clientRequestId, post: { ...toClientPost(receipt), audience: receipt.audience }, scheduled: null }, { status: 201, headers: feedHeaders });

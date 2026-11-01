@@ -76,6 +76,12 @@ export type ClientFeedPost = {
   tags: string[];
   /** 引用・リポスト・返信元の札。無い投稿は null。 */
   referenced: ClientFeedReference | null;
+  /** 動画へのコメントだけに付く（足し算の項目）。 */
+  replyToVideo?: { id: string; title: string };
+  /** 動画の持ち主が非表示にしたコメント。持ち主への一覧にだけ出る。 */
+  hiddenByVideoOwner?: boolean;
+  /** 動画コメントをフォロワーのフィードにも出しているか。 */
+  inFeed?: boolean;
 };
 
 type TimelineLike = {
@@ -100,6 +106,9 @@ type TimelineLike = {
   images?: Array<Partial<ClientFeedImage>> | null;
   tags?: string[] | null;
   referenced?: Partial<ClientFeedReference> | null;
+  replyToVideo?: { id?: string | null; title?: string | null } | null;
+  hiddenByVideoOwner?: boolean | null;
+  inFeed?: boolean | null;
 };
 
 function toClientImage(image: Partial<ClientFeedImage>): ClientFeedImage | null {
@@ -142,5 +151,12 @@ export function toClientPost(post: TimelineLike): ClientFeedPost {
     images: (post.images ?? []).map(toClientImage).filter((image): image is ClientFeedImage => image !== null),
     tags: (post.tags ?? []).filter((tag): tag is string => typeof tag === "string" && tag.length > 0),
     referenced: toClientReference(post.referenced),
+    ...(post.replyToVideo && typeof post.replyToVideo.id === "string" && post.replyToVideo.id
+      ? {
+          replyToVideo: { id: post.replyToVideo.id, title: typeof post.replyToVideo.title === "string" ? post.replyToVideo.title : "" },
+          inFeed: post.inFeed === true,
+          ...(post.hiddenByVideoOwner === true ? { hiddenByVideoOwner: true } : {}),
+        }
+      : {}),
   };
 }

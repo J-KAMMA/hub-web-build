@@ -338,6 +338,7 @@ html body .v2[data-skin="luxe"][data-skin][data-skin][data-skin][data-skin] {
   & .v2-post__time:hover { color: var(--luxe-text); text-decoration: underline; text-underline-offset: 3px; }
   & .v2-post__more--end { margin-left: auto; align-self: center; }
   & .v2-post__reply-to { color: var(--luxe-text-3); }
+  & .v2-post__reply-to a { color: var(--luxe-link); }
 
   & .v2-post__text {
     margin: 4px 0 0;

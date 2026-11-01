@@ -179,6 +179,7 @@ export function V2Post({
   onBookmarkChanged,
   returnTo,
   discovery,
+  videoOwnerHide,
 }: {
   post: V2PostData;
   /* おすすめの理由と「興味なし」など。あれば「…」の中に出す。 */
@@ -194,6 +195,8 @@ export function V2Post({
   onCreated?: (post: V2PostData) => void;
   onBookmarkChanged?: () => void;
   returnTo?: string;
+  /* 動画の持ち主だけ。コメントを非表示にする・戻す（「…」の中に出す）。 */
+  videoOwnerHide?: { hidden: boolean; onToggle: (postId: string, hide: boolean) => Promise<void> };
 }) {
   const ja = locale === "ja";
   const [state, setState] = useState<EngagementState>({
@@ -627,6 +630,11 @@ export function V2Post({
                   const context: HubAiContext = { source: "feed", targetId: post.id, title: post.displayName, content: body, href: `/v2/posts/${post.id}` };
                   window.dispatchEvent(new CustomEvent(HUB_AI_CONTEXT_EVENT, { detail: context }));
                 }}>{ja ? "AIに相談" : "Ask AI"}</button>
+                {videoOwnerHide ? (
+                  <button type="button" role="menuitem" className="v2-menu__item" onClick={() => { setMenuOpen(false); void videoOwnerHide.onToggle(post.id, !videoOwnerHide.hidden); }}>
+                    {videoOwnerHide.hidden ? (ja ? "コメントを再表示" : "Show comment") : (ja ? "コメントを非表示" : "Hide comment")}
+                  </button>
+                ) : null}
                 {!viewerId ? null : own ? (
                   <>
                     <button type="button" role="menuitem" className="v2-menu__item" onClick={() => openPanel("edit")}>{ja ? "編集" : "Edit"}</button>
@@ -643,6 +651,14 @@ export function V2Post({
             ) : null}
           </div>
         </header>
+
+        {post.replyToVideo ? (
+          <p className="v2-post__reply-to">
+            {ja ? "動画への返信 " : "Reply to video "}
+            <Link href={`/v2/videos/${encodeURIComponent(post.replyToVideo.id)}`}>{post.replyToVideo.title || (ja ? "動画" : "video")}</Link>
+            {post.replyToVideo.seconds ? ` ${Math.floor(post.replyToVideo.seconds / 60)}:${String(post.replyToVideo.seconds % 60).padStart(2, "0")}` : ""}
+          </p>
+        ) : null}
 
         {post.replyToPostId && post.replyToHandle ? (
           <p className="v2-post__reply-to">

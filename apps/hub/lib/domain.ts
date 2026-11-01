@@ -391,6 +391,12 @@ export interface SocialPost {
     images?: Array<{ id: string; url: string; width: number; height: number; altText: string }>;
     /** 他のハブから取り込んだ投稿のとき。host で出どころを示し、objectUrl で元の投稿へ戻れる。 */
     remote?: { host: string; handle: string; actorUrl: string; objectUrl: string | null };
+    /** 動画へのコメントのとき、その動画（再生位置つきなら秒）。 */
+    replyToVideo?: { id: string; title: string; seconds?: number | null };
+    /** 動画コメントをフォロワーのフィードにも出しているか。 */
+    inFeed?: boolean;
+    /** 動画の持ち主が非表示にしたコメント（持ち主だけに一覧される）。 */
+    hiddenByVideoOwner?: boolean;
     /** 他のハブから移転してきた投稿（「移転前の投稿」）。originalPublishedAt は元の投稿日時。verified=false は出自未確認。 */
     imported?: { originalPublishedAt: string; verified: boolean };
   }

@@ -115,6 +115,17 @@ const GATE_JOIN_SELECT = `SELECT cag.target_id AS target_id, g.id AS id, g.owner
   JOIN access_gates g ON g.id = cag.gate_id
   LEFT JOIN access_gate_conditions c ON c.gate_id = g.id`;
 
+/** Gate rows of the video that a post replies to, keyed by the post id. */
+const POST_VIDEO_GATE_SELECT = `SELECT p.id AS target_id, g.id AS id, g.owner_profile_id AS owner_profile_id,
+  g.match AS match, g.description AS description, g.acquisition_url AS acquisition_url, g.version AS version,
+  g.created_at AS created_at, g.updated_at AS updated_at,
+  c.ordinal AS ordinal, c.kind AS kind, c.chain_id AS chain_id, c.contract AS contract,
+  c.min_raw AS min_raw, c.token_ids AS token_ids, c.decimals AS decimals
+  FROM social_posts p
+  JOIN content_access_gates cag ON cag.target_type = 'video' AND cag.target_id = p.reply_to_video_id
+  JOIN access_gates g ON g.id = cag.gate_id
+  LEFT JOIN access_gate_conditions c ON c.gate_id = g.id`;
+
 function parseTokenIds(value: string | null): string[] {
   try {
     const parsed: unknown = JSON.parse(value ?? "[]");
@@ -164,6 +175,11 @@ function gatesFromRows(rows: readonly GateJoinRow[]): Map<string, AccessGate> {
   return byTarget;
 }
 
+/** Before migration 0309 no video comment exists, so there is nothing to inherit. */
+function isMissingReplyVideoColumn(error: unknown): boolean {
+  return error instanceof Error && /no such column:?\s*([A-Za-z_]+\.)?reply_to_video_id/i.test(error.message);
+}
+
 function isMissingGateTable(error: unknown): boolean {
   // Before migration 0240 is applied no gate can exist.
   return error instanceof Error && /no such table:?\s*(main\.)?(content_access_gates|access_gates|access_gate_conditions)/i.test(error.message);
@@ -185,6 +201,22 @@ export async function loadGatesForTargets(
         .bind(targetType, ...chunk)
         .all<GateJoinRow>();
       rows.push(...(result.results ?? []));
+      if (targetType === "post") {
+        // A video comment without a gate of its own sits under its video's gate (docs/hub-video-comments/DESIGN.md).
+        const own = new Set((result.results ?? []).map((row) => row.target_id));
+        const rest = chunk.filter((id) => !own.has(id));
+        if (rest.length) {
+          const inherited = await database
+            .prepare(`${POST_VIDEO_GATE_SELECT} WHERE p.id IN (${rest.map(() => "?").join(",")})`)
+            .bind(...rest)
+            .all<GateJoinRow>()
+            .catch((error: unknown) => {
+              if (isMissingReplyVideoColumn(error)) return { results: [] as GateJoinRow[] };
+              throw error;
+            });
+          rows.push(...(inherited.results ?? []));
+        }
+      }
     }
   } catch (error) {
     if (isMissingGateTable(error)) return new Map();
@@ -372,6 +404,14 @@ export async function authorizeGatedMedia(
       .bind(targetId);
     const { results } = await lookup.all<GateJoinRow>();
     gate = [...gatesFromRows(results ?? []).values()][0];
+    if (!gate && targetType === "social_post") {
+      const inherited = await database.prepare(`${POST_VIDEO_GATE_SELECT} WHERE p.id = ?`).bind(targetId).all<GateJoinRow>()
+        .catch((error: unknown) => {
+          if (isMissingReplyVideoColumn(error)) return { results: [] as GateJoinRow[] };
+          throw error;
+        });
+      gate = [...gatesFromRows(inherited.results ?? []).values()][0];
+    }
   } catch (error) {
     if (isMissingGateTable(error)) return "open";
     return "denied";

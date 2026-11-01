@@ -366,6 +366,8 @@ export function scrubStatements(db: D1Database, t: StatementTarget, now = new Da
         db.prepare(`UPDATE hub_videos SET state = 'deleted', deleted_at = COALESCE(deleted_at, ?), unpublished_at = COALESCE(unpublished_at, ?),
             title = ?, description = '', hold_reason = 'copyright', updated_at = ?
           WHERE id = ? AND state <> 'deleted' AND ${cond.sql}`).bind(now, now, SCRUBBED_BODY, now, t.id, ...cond.args),
+        // Comments first (same batch): with the gate row gone they would read as ungated comments of a taken-down video.
+        db.prepare(`DELETE FROM social_posts WHERE reply_to_video_id = ? AND ${cond.sql}`).bind(t.id, ...cond.args),
         db.prepare(`DELETE FROM content_access_gates WHERE target_type = 'video' AND target_id = ? AND ${cond.sql}`).bind(t.id, ...cond.args),
         ...videoOutbox(db, t.id, "takedown", ["suspend", "unsuspend", "unpublish", "delete"], now, cond),
       ];

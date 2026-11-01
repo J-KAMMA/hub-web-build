@@ -22,6 +22,8 @@ import { calculateFeedRankScore, newAuthorProfileIds, rankPopularFeed } from "@/
 import { rankHubObjects } from "@/lib/platform/hub-object-ranking";
 import { DEFAULT_INSTANCE_ORIGIN } from "@/lib/instance-origin";
 import { redactGated, redactGatedReferences } from "@/lib/server/gated-content";
+import { gatedTargetIds } from "@/lib/server/gated-exits";
+import { readVideoCommentContext, requireCommentPolicy, requireVideoGateOpen, type VideoCommentContext } from "@/lib/server/video-comment-access";
 
 export type SocialPostView = SocialPost & { avatarUrl?: string };
 type TimelineReference = {
@@ -62,6 +64,11 @@ type SocialPostRow = {
 };
 
 type TimelinePostRow = SocialPostRow & {
+  reply_to_video_id?: string | null;
+  reply_to_video_seconds?: number | null;
+  reply_to_video_title?: string | null;
+  feed_visible?: number | null;
+  hidden_by_target_owner_at?: string | null;
   reply_count: number;
   repost_count: number;
   quote_repost_count: number;
@@ -109,8 +116,12 @@ export interface CreateD1SocialPostInput {
   quoteOfTargetId?: string | null;
   imageIds?: string[];
   audience?: "public" | "followers";
-  /** 動画ページからのポスト。リンクを本文に足し、参照表に1行入れる。 */
+  /** 動画へのコメント。動画ID。返信先がコメントなら、その動画を引き継ぐ。 */
   videoId?: string | null;
+  /** 動画コメントの再生位置（秒）。 */
+  replyToVideoSeconds?: number | null;
+  /** 動画コメントをフォロワーのフィードにも出す。既定は出さない。鍵付き動画では常に出さない。 */
+  inFeed?: boolean;
   /** 音楽作品ページからのポスト。videoIdとは同時に指定できない。呼び出し側が作品の存在を確かめる。 */
   musicWorkId?: string | null;
 }
@@ -307,6 +318,8 @@ export async function listD1TimelinePosts(
   videoId: string | null = null,
   musicWorkId: string | null = null,
   gateContext: "list" | "detail" = "list",
+  /** 動画の持ち主が非表示にしたコメントだけを返す（videoId と一緒に。呼び出し側が持ち主を確かめる）。 */
+  hiddenOnly = false,
 ): Promise<D1TimelinePost[]> {
   const normalizedTargetIds = targetIds
     ? [...new Set(targetIds.map((id) => id.trim()).filter(Boolean))].slice(0, 120)
@@ -319,6 +332,16 @@ export async function listD1TimelinePosts(
    * 投稿の個別ページ・返信の一覧・本人のプロフィールは対象を指定して引くので制限しない。
    */
   const restrictRemote = !authorProfileId && !normalizedTargetIds;
+  /*
+   * Video comments: the video owner's hidden comments appear nowhere. In general feeds a comment appears only
+   * when its author ticked 「フィードにも出す」 and its video is not gated; a page that asks for a specific video,
+   * specific posts or one author lists comments regardless of that tick.
+   */
+  const commentVisibilitySql = `AND s.hidden_by_target_owner_at IS ${hiddenOnly && videoId ? "NOT NULL" : "NULL"}
+    ${!videoId && !normalizedTargetIds && !authorProfileId
+      ? `AND (s.reply_to_video_id IS NULL OR (s.feed_visible = 1 AND NOT EXISTS (
+          SELECT 1 FROM content_access_gates comment_gate WHERE comment_gate.target_type = 'video' AND comment_gate.target_id = s.reply_to_video_id)))`
+      : ""}`;
   const activeAuthorFilter = `(s.author_profile_id IS NULL OR NOT EXISTS (
     SELECT 1 FROM profile_moderation_status moderation
     WHERE moderation.profile_id = s.author_profile_id AND moderation.status = 'suspended'
@@ -390,6 +413,9 @@ export async function listD1TimelinePosts(
       (SELECT count(*) FROM bookmarks b WHERE b.target_type = 'social_post' AND b.target_id = s.id) AS bookmark_count,
       /* Audience size, for the boost that lifts a writer nobody has found yet. */
       (SELECT count(*) FROM follows f WHERE f.followed_profile_id = s.author_profile_id) AS author_follower_count,
+      s.reply_to_video_id AS reply_to_video_id, s.reply_to_video_seconds AS reply_to_video_seconds,
+      s.feed_visible AS feed_visible, s.hidden_by_target_owner_at AS hidden_by_target_owner_at,
+      (SELECT v.title FROM external_videos v WHERE v.id = s.reply_to_video_id) AS reply_to_video_title,
       ${feedScope === "popular" || feedScope === "recommended" ? `      CAST((
         (SELECT count(*) FROM social_posts r WHERE r.reply_to_post_id = s.id AND r.moderated_at IS NULL) * 3
         + (SELECT count(*) FROM social_posts r WHERE r.repost_of_target_type = 'social_post' AND r.repost_of_target_id = s.id AND r.moderated_at IS NULL) * 5
@@ -571,7 +597,8 @@ export async function listD1TimelinePosts(
     ${normalizedTargetIds
       ? `AND s.id IN (${normalizedTargetIds.map(() => "?").join(", ")})`
       : ""}
-    ${videoId ? "AND s.id IN (SELECT post_id FROM social_post_video_refs WHERE video_id = ?)" : ""}
+    ${videoId ? "AND s.reply_to_video_id = ?" : ""}
+    ${commentVisibilitySql}
     ${musicWorkId ? "AND s.id IN (SELECT post_id FROM social_post_music_refs WHERE work_id = ?)" : ""}
     ${authorActivity === "posts"
       ? "AND s.reply_to_post_id IS NULL"
@@ -708,6 +735,13 @@ export async function listD1TimelinePosts(
       viewerRepostId: row.viewer_repost_id ?? null,
       authorFollowerCount: Number(row.author_follower_count ?? 0),
       referenced,
+      ...(row.reply_to_video_id
+        ? {
+            replyToVideo: { id: row.reply_to_video_id, title: row.reply_to_video_title ?? "", seconds: row.reply_to_video_seconds ?? null },
+            inFeed: Number(row.feed_visible ?? 1) === 1,
+            ...(row.hidden_by_target_owner_at ? { hiddenByVideoOwner: true } : {}),
+          }
+        : {}),
       ...(row.remote_host && row.remote_actor_url
         ? { remote: { host: row.remote_host, handle: row.remote_handle ?? row.remote_host, actorUrl: row.remote_actor_url, objectUrl: row.remote_object_url } }
         : {}),
@@ -1027,10 +1061,8 @@ function withMusicLink(body: string, workId: string): string {
   return appendContentShare(body, musicWorkHref(workId), origin);
 }
 
-/** 動画ポスト本文に動画ページのリンクを足す。上限を超えるなら content_share_full。 */
-function withVideoLink(body: string, videoId: string): string {
-  const origin = new URL(process.env.HUB_PUBLIC_ORIGIN ?? DEFAULT_INSTANCE_ORIGIN).origin;
-  return appendContentShare(body, `/v2/videos/${videoId}`, origin);
+function clampVideoSeconds(value: number | null | undefined): number | null {
+  return typeof value === "number" && Number.isFinite(value) ? Math.max(0, Math.min(604800, Math.trunc(value))) : null;
 }
 
 export async function createD1SocialPost(
@@ -1046,9 +1078,21 @@ export async function createD1SocialPost(
   const imageIds = input.imageIds ?? [];
   const clientRequestId = input.clientRequestId?.trim() || null;
   const createdAt = new Date().toISOString();
-  const videoId = input.videoId?.trim() || null;
+  let videoId = input.videoId?.trim() || null;
   const musicWorkId = input.musicWorkId?.trim() || null;
   if (videoId && musicWorkId) throw new SocialPostLinkConflictError();
+  if (input.replyToPostId && !musicWorkId) {
+    // A reply to a video comment is a comment of the same video.
+    const parent = await database.prepare("SELECT reply_to_video_id AS videoId FROM social_posts WHERE id = ? LIMIT 1")
+      .bind(input.replyToPostId).first<{ videoId: string | null }>();
+    if (parent?.videoId) {
+      if (videoId && videoId !== parent.videoId) throw new SocialPostLinkConflictError();
+      videoId = parent.videoId;
+    } else if (videoId) {
+      // Replying to a post that is not a comment of this video from the video page is not allowed.
+      throw new SocialPostLinkConflictError();
+    }
+  }
 
   if (clientRequestId) {
     const existing = await findD1SocialPostByClientRequest(database, viewer.id, clientRequestId);
@@ -1058,13 +1102,23 @@ export async function createD1SocialPost(
       return existing;
     }
   }
+  let videoContext: VideoCommentContext | null = null;
   if (videoId) {
-    const video = await database.prepare("SELECT id FROM external_videos WHERE id = ? LIMIT 1")
-      .bind(videoId).first<{ id: string }>();
-    if (!video) throw new SocialPostVideoNotFoundError();
+    videoContext = await readVideoCommentContext(database, videoId);
+    if (!videoContext) throw new SocialPostVideoNotFoundError();
   }
-  const postBody = videoId ? withVideoLink(input.body, videoId)
-    : musicWorkId ? withMusicLink(input.body, musicWorkId) : input.body;
+  // The gate and the owner's comment policy are checked before anything is written (replies inherit both).
+  const videoGate = videoId ? await requireVideoGateOpen(database, viewer.id, videoId) : null;
+  if (videoId && videoContext) {
+    await requireCommentPolicy(database, viewer.id, videoContext);
+    if (videoContext.ownerProfileId) await requireNoD1BlockBetween(database, viewer.id, videoContext.ownerProfileId);
+    if (input.replyToPostId) {
+      const hidden = await database.prepare("SELECT 1 AS hidden FROM social_posts WHERE id = ? AND hidden_by_target_owner_at IS NOT NULL LIMIT 1")
+        .bind(input.replyToPostId).first<{ hidden: number }>();
+      if (hidden) throw new Error("Reply target does not exist.");
+    }
+  }
+  const postBody = musicWorkId ? withMusicLink(input.body, musicWorkId) : input.body;
   await validatePendingImages(database, viewer.id, imageIds);
 
   if ((repostType && !repostId) || (!repostType && repostId) || (quoteType && !quoteId) || (!quoteType && quoteId)) {
@@ -1087,6 +1141,10 @@ export async function createD1SocialPost(
     throw new Error("Reply target does not exist.");
   }
   if (repostType && repostId && !(await targetExists(database, viewer.id, repostType, repostId))) {
+    throw new Error("Repost target does not exist.");
+  }
+  // A gated post (its own gate or its video's) is never reposted: the repost would carry it into feeds.
+  if (repostType === "social_post" && repostId && (await gatedTargetIds(database, "post", [repostId])).has(repostId)) {
     throw new Error("Repost target does not exist.");
   }
   if (quoteType && quoteId && !(await targetExists(database, viewer.id, quoteType, quoteId))) {
@@ -1126,20 +1184,17 @@ export async function createD1SocialPost(
     const insertPost = database.prepare(`INSERT INTO social_posts (
         id, author_profile_id, display_name, handle, identity_mode, body, created_at,
         reply_to_post_id, repost_of_target_type, repost_of_target_id,
-        quote_of_target_type, quote_of_target_id, audience, client_request_id
-      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`)
+        quote_of_target_type, quote_of_target_id, audience, client_request_id,
+        reply_to_video_id, reply_to_video_seconds, feed_visible
+      ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`)
       .bind(
         post.id, post.authorProfileId, post.displayName, post.handle ?? null, post.identityMode,
-        post.body, post.createdAt, post.replyToPostId, repostType, repostId, quoteType, quoteId, input.audience ?? "public", clientRequestId
+        post.body, post.createdAt, post.replyToPostId, repostType, repostId, quoteType, quoteId, input.audience ?? "public", clientRequestId,
+        videoId, videoId ? clampVideoSeconds(input.replyToVideoSeconds) : null,
+        // A comment enters followers' feeds only when asked, and never while its video is gated.
+        videoId ? (input.inFeed === true && !videoGate?.gated ? 1 : 0) : 1
       );
-    if (videoId) {
-      // 投稿と参照は同じバッチ。片方だけ残らない。
-      await database.batch([
-        insertPost,
-        database.prepare(`INSERT INTO social_post_video_refs (post_id, video_id, created_at) VALUES (?, ?, ?)`)
-          .bind(post.id, videoId, post.createdAt),
-      ]);
-    } else if (musicWorkId) {
+    if (musicWorkId) {
       await database.batch([
         insertPost,
         database.prepare(`INSERT INTO social_post_music_refs (post_id, work_id, created_at) VALUES (?, ?, ?)`)
@@ -1182,10 +1237,14 @@ export async function createD1SocialPost(
     await attachImagesToPosts(database, [post]);
   }
 
-  const conversationRecipients = new Map<string, "reply" | "mention">();
+  const conversationRecipients = new Map<string, "reply" | "mention" | "video">();
   if (input.replyToPostId) {
     const ownerId = await targetAuthorProfileId(database, "social_post", input.replyToPostId);
     if (ownerId) conversationRecipients.set(ownerId, "reply");
+  }
+  // The Hub video's owner hears about comments. External videos have no owner, so nobody is told.
+  if (videoContext?.ownerProfileId && !conversationRecipients.has(videoContext.ownerProfileId)) {
+    conversationRecipients.set(videoContext.ownerProfileId, "video");
   }
   const mentionedHandles = extractSocialMentionHandles(post.body);
   if (mentionedHandles.length) {
@@ -1209,7 +1268,9 @@ export async function createD1SocialPost(
       targetId: post.id,
       text: kind === "reply"
         ? "ポストに返信がありました。"
-        : "ポストでメンションされました。",
+        : kind === "video"
+          ? "動画にコメントがありました。"
+          : "ポストでメンションされました。",
       preference: "replies",
       createdAt: post.createdAt,
     }),

@@ -235,7 +235,12 @@ export async function federateHubVideo(
         const asset = await database.prepare("SELECT asset_id FROM hub_videos WHERE id = ?").bind(videoId).first<{ asset_id: string }>();
         if (asset) await thumbnail(asset.asset_id, false).catch(() => null);
       }
-      if (federationConfiguration() || deps !== defaultVideoDeps) await deps.remove(videoId);
+      if (federationConfiguration() || deps !== defaultVideoDeps) {
+        await deps.remove(videoId);
+        // The comments were replies to the Video object that is gone now: withdraw them as well.
+        const { withdrawVideoComments } = await import("@/lib/server/video-comment-federation");
+        await withdrawVideoComments(database, videoId).catch(() => undefined);
+      }
       return "deleted";
     }
     if (!federationConfiguration() && deps === defaultVideoDeps) {
