@@ -26,9 +26,9 @@ import { loadViewerLibrary } from "@/lib/server/library-column";
 import { getHubLocale } from "@/lib/server/locale";
 import { v2NavItems } from "@/lib/v2-nav";
 
-import "./v2.css";
-import "./redesign-sns.css";
-import "./v2-luxe.css";
+import "../v2.css";
+import "../redesign-sns.css";
+import "../v2-luxe.css";
 
 export const dynamic = "force-dynamic";
 

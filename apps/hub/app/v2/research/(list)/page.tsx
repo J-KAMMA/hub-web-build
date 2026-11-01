@@ -11,8 +11,8 @@ import { loadViewerLibrary } from "@/lib/server/library-column";
 import { getHubLocale } from "@/lib/server/locale";
 import { v2NavItems } from "@/lib/v2-nav";
 
-import "../v2.css";
-import "../v2-research-list.css";
+import "../../v2.css";
+import "../../v2-research-list.css";
 import "@/app/v2/v2-luxe.css";
 import "@/app/v2/v2-luxe-pages.css";
 

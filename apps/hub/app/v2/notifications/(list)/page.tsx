@@ -12,11 +12,11 @@ import { getNotificationsPageData } from "@/lib/server/notifications-page-data";
 import { v2NavItems } from "@/lib/v2-nav";
 import { V2_NOTIFICATION_TABS, type V2NotificationTab } from "@/lib/v2-notifications";
 
-import "../v2.css";
-import "../redesign-sns.css";
-import "./notifications-more.css";
-import "../v2-luxe.css";
-import "../v2-luxe-social.css";
+import "../../v2.css";
+import "../../redesign-sns.css";
+import "../notifications-more.css";
+import "../../v2-luxe.css";
+import "../../v2-luxe-social.css";
 
 export const dynamic = "force-dynamic";
 

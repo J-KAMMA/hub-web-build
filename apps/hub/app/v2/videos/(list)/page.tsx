@@ -23,8 +23,8 @@ import { isOptionalServiceEnabled } from "@/lib/optional-services";
 import { v2NavItems } from "@/lib/v2-nav";
 import { V2_PROVIDER_LABELS, videoFiltersFromParams } from "@/lib/v2-video";
 
-import "../v2.css";
-import "../redesign-media.css";
+import "../../v2.css";
+import "../../redesign-media.css";
 import "@/app/v2/v2-luxe.css";
 import "@/app/v2/v2-luxe-pages.css";
 

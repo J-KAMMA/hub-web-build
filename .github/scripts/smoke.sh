@@ -34,6 +34,9 @@ for r in / /v2 /v2/community /v2/wallet /v2/settings /v2/research /v2/world /v2/
   [ -n "$bad" ] && FAIL=1
   if ! kill -0 $WPID 2>/dev/null; then echo "worker crashed"; FAIL=1; break; fi
 done
+code=$(curl -s -m 60 -o /dev/null -w '%{http_code}' "http://127.0.0.1:8787/v2/no-such-page" || echo 000)
+echo "SMOKE-404 $code /v2/no-such-page"
+if [ "$code" != "404" ]; then echo "EXPECTED 404 for /v2/no-such-page"; FAIL=1; fi
 echo "== worker log error scan =="
 if grep -nE "is not a function|Cannot read properties|Module not found|ChunkLoadError|ReferenceError|TypeError|Cannot find module|No such module" ../../dist/smoke-worker.log | head -40; then FAIL=1; fi
 echo "== response of /v2 =="; curl -s -m 30 -i http://127.0.0.1:8787/v2 | head -c 1500; echo

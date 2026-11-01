@@ -31,8 +31,8 @@ import { getHubLocale } from "@/lib/server/locale";
 import { isMusicChipGenre, matchesMusicFilters, musicFiltersFromParams, musicGenreChipLabel, type V2MusicSort } from "@/lib/v2-music";
 import { v2NavItems } from "@/lib/v2-nav";
 
-import "../v2.css";
-import "../redesign-media.css";
+import "../../v2.css";
+import "../../redesign-media.css";
 import { getInstanceOrigin } from "@/lib/instance-origin";
 import "@/app/v2/v2-luxe.css";
 import "@/app/v2/v2-luxe-pages.css";

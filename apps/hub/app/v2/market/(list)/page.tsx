@@ -20,10 +20,10 @@ import { v2NavItems } from "@/lib/v2-nav";
 import { relativeTime } from "@/lib/v2-time";
 import type { WorkListing } from "@/lib/work-listings";
 
-import "../v2.css";
+import "../../v2.css";
 import "@/app/v2/v2-luxe.css";
 import "@/app/v2/v2-luxe-commerce.css";
-import "../redesign-market.css";
+import "../../redesign-market.css";
 
 export const dynamic = "force-dynamic";
 

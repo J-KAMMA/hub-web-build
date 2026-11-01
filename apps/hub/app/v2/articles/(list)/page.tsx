@@ -23,9 +23,9 @@ import { getHubLocale } from "@/lib/server/locale";
 import { articleKind, matchesArticleKind, memberArticleContent, publicArticleCatalog, type V2ArticleAccess, type V2ArticleKind } from "@/lib/v2-articles";
 import { v2NavItems } from "@/lib/v2-nav";
 
-import "../v2.css";
-import "../redesign-media.css";
-import "../v2-article-list.css";
+import "../../v2.css";
+import "../../redesign-media.css";
+import "../../v2-article-list.css";
 import "@/app/v2/v2-luxe.css";
 import "@/app/v2/v2-luxe-pages.css";
 

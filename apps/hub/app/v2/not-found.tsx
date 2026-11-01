@@ -1,3 +1,5 @@
+import type { Metadata } from "next";
+
 import { V2Aside } from "@/components/v2/v2-aside";
 import { V2ColumnHead } from "@/components/v2/v2-columns";
 import { V2Shell } from "@/components/v2/v2-shell";
@@ -9,6 +11,9 @@ import { v2NavItems } from "@/lib/v2-nav";
 import "./v2.css";
 
 export const dynamic = "force-dynamic";
+
+/* 見つからない応答は noindex だけを出す。ルートの index, follow と並べて出さない。 */
+export const metadata: Metadata = { robots: { index: false, follow: false } };
 
 /*
  * /v2 配下で notFound() が呼ばれたときの画面。旧い外郭（白い左列・「ポストする」）へ落とさず、

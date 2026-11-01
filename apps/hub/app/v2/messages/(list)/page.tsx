@@ -16,10 +16,10 @@ import { isOptionalServiceEnabled } from "@/lib/optional-services";
 import { v2NavItems } from "@/lib/v2-nav";
 import { relativeTime } from "@/lib/v2-time";
 
-import "../v2.css";
-import "../redesign-sns.css";
-import "../v2-luxe.css";
-import "../v2-luxe-social.css";
+import "../../v2.css";
+import "../../redesign-sns.css";
+import "../../v2-luxe.css";
+import "../../v2-luxe-social.css";
 
 export const dynamic = "force-dynamic";
 

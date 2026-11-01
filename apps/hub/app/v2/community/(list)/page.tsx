@@ -23,14 +23,14 @@ import { loadViewerLibrary } from "@/lib/server/library-column";
 import { getHubLocale } from "@/lib/server/locale";
 import { v2NavItems } from "@/lib/v2-nav";
 
-import "../../community.css";
-import "../../community-overview.css";
-import "../../community-home.css";
-import "../../community-polish.css";
-import "../v2.css";
-import "../redesign-sns.css";
-import "../v2-luxe.css";
-import "../v2-luxe-social.css";
+import "../../../community.css";
+import "../../../community-overview.css";
+import "../../../community-home.css";
+import "../../../community-polish.css";
+import "../../v2.css";
+import "../../redesign-sns.css";
+import "../../v2-luxe.css";
+import "../../v2-luxe-social.css";
 
 export const dynamic = "force-dynamic";
 

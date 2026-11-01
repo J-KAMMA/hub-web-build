@@ -19,9 +19,9 @@ import { prepareHubSearchInitialPage } from "@/lib/server/search-initial-page";
 import { v2NavItems } from "@/lib/v2-nav";
 import { normalizeSearchValue } from "@/lib/search-relevance";
 
-import "../v2.css";
-import "../v2-luxe.css";
-import "../v2-luxe-social.css";
+import "../../v2.css";
+import "../../v2-luxe.css";
+import "../../v2-luxe-social.css";
 
 export const dynamic = "force-dynamic";
 

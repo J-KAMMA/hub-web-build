@@ -14,7 +14,7 @@ import { getHubLocale } from "@/lib/server/locale";
 import { getInstanceOrigin } from "@/lib/instance-origin";
 import { v2NavItems } from "@/lib/v2-nav";
 
-import "../v2.css";
+import "../../v2.css";
 import "@/app/v2/v2-luxe.css";
 import "@/app/v2/v2-luxe-pages.css";
 

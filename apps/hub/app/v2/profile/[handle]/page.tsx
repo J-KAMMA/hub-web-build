@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { permanentRedirect } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 
 import { Avatar } from "@/components/v2/ui/avatar";
 import { Chip, ChipRow } from "@/components/v2/ui/chip";
@@ -90,14 +90,8 @@ export default async function V2ProfilePage({
   const [shell, data] = await Promise.all([getAppShellData(), getProfilePageData(handle, true)]);
   const items = v2NavItems(japanese, { notifications: shell.unreadIndicatorCount, messages: shell.unreadMessageCount });
 
-  if (!data.profile) {
-    return (
-      <V2Shell skin="luxe" currentPath="/v2/profile" profile={shell.currentProfile} items={items} japanese={japanese}>
-        <V2ColumnHead heading title={japanese ? "プロフィールが見つかりません" : "Profile not found"} />
-        <p className="v2-note"><Link className="v2-card__link" href="/v2">{japanese ? "フィードへ戻る" : "Back to the feed"}</Link></p>
-      </V2Shell>
-    );
-  }
+  /* 存在しない・凍結されたプロフィールは本当の 404 を返す（loading 境界が無いので状態が確定する）。 */
+  if (!data.profile) notFound();
 
   /* 移転した人のプロフィールは、移転後12か月、新しい家へ永続的に送る（本人は元のまま見える）。 */
   const movedDatabase = getOptionalHubD1();
