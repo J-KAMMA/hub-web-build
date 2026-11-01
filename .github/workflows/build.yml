@@ -59,6 +59,15 @@ jobs:
           find ../../dist/worker-dry-run -type f -printf '%s %p\n' | sort -nr | head -40 || true
           echo "== largest server chunks in .open-next =="
           find .open-next -type f \( -name '*.js' -o -name '*.mjs' -o -name '*.wasm' \) -printf '%s %p\n' | sort -nr | head -60 || true
+      - name: Smoke test the built Worker locally (empty local D1, no credentials)
+        run: bash .github/scripts/smoke.sh
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        if: always()
+        with:
+          name: smoke-log
+          path: dist/smoke-worker.log
+          retention-days: 3
+          if-no-files-found: ignore
       - name: Package and hash OpenNext output
         run: |
           set -euo pipefail
