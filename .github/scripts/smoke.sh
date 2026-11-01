@@ -2,11 +2,12 @@
 # Local smoke test of the built Worker: empty local D1, no credentials, no secrets.
 set -uo pipefail
 cd apps/hub
+echo "== diag preview-props =="; find .next .open-next -name "preview-props*" 2>/dev/null | head; grep -oE "preview-props[^\"]{0,40}" .open-next/server-functions/default/apps/hub/handler.mjs | sort | uniq -c | head; ls .open-next/server-functions/default/apps/hub/.next/server | head -30
 node -e '
 const fs=require("fs");
 const t=fs.readFileSync("wrangler.production.jsonc","utf8").replace(/^\s*\/\/.*$/gm,"");
 const c=JSON.parse(t);
-delete c.routes; delete c.ai; delete c.vectorize; delete c.observability; delete c.triggers; delete c.queues; delete c.ratelimits;
+delete c.routes; delete c.ai; delete c.vectorize; delete c.observability; delete c.triggers; delete c.queues;
 c.vars={...c.vars,HUB_MAINTENANCE_MODE:"false",HUB_DEPLOYMENT_ENVIRONMENT:"development",HUB_PUBLIC_ORIGIN:"http://127.0.0.1:8787"};
 c.d1_databases[0].database_id="11111111-1111-1111-1111-111111111111";
 fs.writeFileSync("wrangler.smoke.jsonc",JSON.stringify(c,null,2));
