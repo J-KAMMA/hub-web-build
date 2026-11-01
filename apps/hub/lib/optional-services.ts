@@ -22,6 +22,7 @@ export const OPTIONAL_SERVICE_NAMES = [
   "account-link",
   "work-commissions",
   "research-token",
+  "world",
 ] as const;
 
 export type OptionalServiceName = (typeof OPTIONAL_SERVICE_NAMES)[number];
@@ -31,11 +32,12 @@ type Env = Record<string, string | undefined>;
 /**
  * Features that are still behind their own server-side switch (default off, on only when the variable is exactly
  * "1" or "true"). Production leaves them unset until the legal and policy review is done: work commissions need
- * the authorities inquiry (docs/hub-commissions/DESIGN.md 11.10), research-funding tokens need the DeSci legal review.
+ * the authorities inquiry (docs/hub-commissions/DESIGN.md 11.10), research-funding tokens need the DeSci legal review. The 3D world is parked (2026-11-01, owner decision): its pages and APIs stay in the code but are hidden and answer 404.
  */
 const EXPLICIT_FLAGS: Partial<Record<OptionalServiceName, string>> = {
   "work-commissions": "HUB_WORK_COMMISSIONS_ENABLED",
   "research-token": "HUB_RESEARCH_TOKEN_ENABLED",
+  world: "HUB_WORLD_ENABLED",
 };
 
 function explicitFlagOn(value: string | undefined): boolean {
@@ -77,6 +79,7 @@ const OPTIONAL_PATH_PREFIXES: Record<OptionalServiceName, readonly string[]> = {
   "work-commissions": ["/v2/commissions", "/api/commissions"],
   /* Dynamic paths (/api/research/projects/[id]/token, .../fund-reports) are checked in their routes. */
   "research-token": [],
+  world: ["/world", "/v2/world", "/api/world", "/api/admin/world-servers"],
   "account-link": ["/api/auth/account", "/v2/account/desktop", "/account/desktop"],
 };
 
