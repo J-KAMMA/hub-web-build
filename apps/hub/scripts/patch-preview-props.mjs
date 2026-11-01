@@ -29,7 +29,9 @@ export function patchPreviewProps(appDir) {
   // reach formatDynamicImportPath and every request dies with
   // "startsWith is not a function". Hub uses no "use cache", so skip loading.
   let cacheHandlersSkipped = 0;
-  if (!source.includes("@next/cache-handlers-map")) {
+  {
+    const at = source.indexOf("loadCustomCacheHandlers");
+    console.log("loadCustomCacheHandlers context:", JSON.stringify(source.slice(Math.max(0, at - 40), at + 260)));
     source = source.replace(/(loadCustomCacheHandlers\s*\(\s*\)\s*\{)/g, (m) => { cacheHandlersSkipped++; return m + "return;/* hub-no-cache-handlers */"; });
   }
   writeFileSync(handler, source);
