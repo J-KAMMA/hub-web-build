@@ -36,6 +36,10 @@ for r in / /v2 /v2/community /v2/wallet /v2/settings /v2/research /v2/world /v2/
 done
 echo "== worker log error scan =="
 if grep -nE "is not a function|Cannot read properties|Module not found|ChunkLoadError|ReferenceError|TypeError|Cannot find module|No such module" ../../dist/smoke-worker.log | head -40; then FAIL=1; fi
+echo "== response of /v2 =="; curl -s -m 30 -i http://127.0.0.1:8787/v2 | head -c 1500; echo
+sleep 4
 kill $WPID 2>/dev/null || true
-tail -60 ../../dist/smoke-worker.log
+sleep 1
+echo "== log after Ready =="
+sed -n '/Ready on/,$p' ../../dist/smoke-worker.log | grep -E 'wrangler:(info|error|warn)|Error|^\s+at |\[x\]|ERROR|stack' | cut -c1-400 | head -150
 exit $FAIL
